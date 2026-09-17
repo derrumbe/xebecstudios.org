@@ -1,3 +1,20 @@
+# Deployed as a Worker serving static assets, not as a Pages project.
+#
+# The distinction is what broke the first build: Workers Builds runs
+# `npx wrangler deploy`, which wants either a script entry-point or an assets
+# directory. `pages_build_output_dir` is a Pages-only key, so wrangler ignored
+# it and failed with "Missing entry-point to Worker script or to assets
+# directory" — after the Astro build had already succeeded.
+#
+# There is no `main` here on purpose: a script entry-point is only needed for
+# custom request handling, and this site is 33 prebuilt files.
+
 name = "xebecstudios"
 compatibility_date = "2026-01-01"
-pages_build_output_dir = "dist"
+
+[assets]
+directory = "./dist"
+# Pages served /404.html for unmatched paths by convention. Workers does
+# not: the 404 page is built either way, but without this it is never
+# reached and visitors get the default response instead.
+not_found_handling = "404-page"
