@@ -7533,5 +7533,106 @@
     "quote": "相続人は、相続開始の時から、被相続人の財産に属した一切の権利義務を承継する。ただし、被相続人の一身に専属したものは、この限りでない。"
    }
   ]
+ },
+ "sg-national": {
+  "features": {
+   "poaRegistrationBeforeUse": {
+    "value": true,
+    "note": "A lasting power of attorney is not created unless the instrument is made and registered in accordance with the First Schedule, so registration is constitutive rather than a later formality.",
+    "citations": [
+     "sg-mca-11"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity",
+    "note": "The donee’s authority is over decisions P can no longer make; the instrument confers it for when P no longer has capacity.",
+    "citations": [
+     "sg-mca-11"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-out",
+    "note": "The designated officer may authorise removal after death in hospital, and no authority may be given only where the deceased registered an objection with the Director-General in their lifetime. Objections may be withdrawn.",
+    "citations": [
+     "sg-hota-4",
+     "sg-hota-8",
+     "sg-hota-10"
+    ]
+   },
+   "probateGrantName": {
+    "value": "grant of probate / letters of administration",
+    "note": "Probate to an executor appointed by will; letters of administration on intestacy, with security ordinarily by bond and two sureties.",
+    "citations": [
+     "sg-paa-8",
+     "sg-paa-18",
+     "sg-paa-29"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "sg-mca-11",
+    "cite": "Mental Capacity Act 2008, s 11",
+    "title": "Lasting powers of attorney",
+    "url": "https://sso.agc.gov.sg/Act/MCA2008",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) A lasting power of attorney is a power of attorney under which the donor (“P”) confers on the donee (or donees) authority to make decisions about all or any of the following: (a) P’s personal welfare or specified matters concerning P’s personal welfare; (b) P’s property and affairs or specified…"
+   },
+   {
+    "id": "sg-hota-4",
+    "cite": "Human Organ Transplant Act 1987, s 4",
+    "title": "Authorities may remove organ after death",
+    "url": "https://sso.agc.gov.sg/Act/HOTA1987",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) The designated officer of a hospital may, subject to and in accordance with this section, authorise, in writing, the removal of any organ from the body of a person who has died in the hospital for the purpose of the transplantation of the organ to the body of a living person. (2) No authority…"
+   },
+   {
+    "id": "sg-hota-8",
+    "cite": "Human Organ Transplant Act 1987, s 8",
+    "title": "Persons may register their objection",
+    "url": "https://sso.agc.gov.sg/Act/HOTA1987",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) Any person who objects to the removal of any organ from the person’s body after the person’s death for the purpose mentioned in section 4(1) may register the person’s objection in respect of that organ with the Director‑General in the prescribed form.  (2) Upon receipt of the written objection…"
+   },
+   {
+    "id": "sg-hota-10",
+    "cite": "Human Organ Transplant Act 1987, s 10",
+    "title": "Persons may withdraw their objection",
+    "url": "https://sso.agc.gov.sg/Act/HOTA1987",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) Any person who has registered the person’s objection with the Director‑General under section 8 in respect of any organ may withdraw the person’s objection in the prescribed form.  (2) Upon receipt of the withdrawal of a person under subsection (1), the Director‑General must issue to that person…"
+   },
+   {
+    "id": "sg-paa-8",
+    "cite": "Probate and Administration Act 1934, s 8",
+    "title": "Grant of probate",
+    "url": "https://sso.agc.gov.sg/Act/PAA1934",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) Probate may be granted to any executor appointed by a will. (2) The appointment may be express or implied. (3) Subject to section 6, where more than one person is appointed an executor by a will, probate may be granted to one or more of the persons so appointed, without prejudice to a…"
+   },
+   {
+    "id": "sg-paa-18",
+    "cite": "Probate and Administration Act 1934, s 18",
+    "title": "Letters of administration on intestacy",
+    "url": "https://sso.agc.gov.sg/Act/PAA1934",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) When a person has died intestate, the court may grant letters of administration of his estate. (2) In granting such letters of administration the court shall have regard to the rights of all persons interested in the estate of the deceased person or the proceeds of sale thereof, and in regard…"
+   },
+   {
+    "id": "sg-paa-29",
+    "cite": "Probate and Administration Act 1934, s 29",
+    "title": "Administration bond",
+    "url": "https://sso.agc.gov.sg/Act/PAA1934",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) Where security is required the registrar shall determine its sufficiency. (2) The security shall ordinarily be by bond in the prescribed form by the grantee and 2 sureties in the amount at which the estate within the jurisdiction is sworn, without deduction of any debts due by the deceased,…"
+   }
+  ]
  }
 }
