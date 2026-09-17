@@ -1,0 +1,365 @@
+{
+ "jurisdiction": "us-nc",
+ "name": "North Carolina",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Power of Attorney Act",
+  "Revised Uniform Fiduciary Access to Digital Assets Act"
+ ],
+ "citations": [
+  {
+   "id": "nc-gs-32c-1-104",
+   "cite": "N.C. Gen. Stat. §32C-1-104",
+   "title": "Power of attorney; durability",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-104.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A power of attorney created pursuant to this Chapter is durable unless the instrument expressly provides that it is terminated by the incapacity of the principal."
+  },
+  {
+   "id": "nc-gs-32c-1-110",
+   "cite": "N.C. Gen. Stat. §32C-1-110",
+   "title": "Termination of power of attorney",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-110.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A power of attorney terminates when any of the following occur: (1) The principal dies. (2) If the power of attorney is not durable, the principal becomes incapacitated."
+  },
+  {
+   "id": "nc-gs-32a-20",
+   "cite": "N.C. Gen. Stat. §32A-20",
+   "title": "Effectiveness and duration; revocation",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32A/GS_32A-20.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A health care power of attorney shall become effective when and if the physician or physicians ... determine in writing that the principal lacks sufficient understanding or capacity"
+  },
+  {
+   "id": "nc-gs-35a-1203",
+   "cite": "N.C. Gen. Stat. §35A-1203",
+   "title": "Jurisdiction; authority of clerk",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_35A/GS_35A-1203.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Clerks of superior court in their respective counties have original jurisdiction for the appointment of guardians of the person, guardians of the estate, or general guardians for incompetent persons"
+  },
+  {
+   "id": "nc-gs-28a-6-1",
+   "cite": "N.C. Gen. Stat. §28A-6-1",
+   "title": "Application for letters; grant of letters",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_28A/GS_28A-6-1.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The application for letters of administration or letters testamentary shall be in the form of an affidavit sworn to before an officer authorized to administer oaths"
+  },
+  {
+   "id": "nc-gs-28a-25-1",
+   "cite": "N.C. Gen. Stat. §28A-25-1",
+   "title": "Collection of property by affidavit when decedent dies intestate",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_28A/GS_28A-25-1.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "When a decedent dies intestate leaving personal property, less liens and encumbrances thereon, not exceeding twenty thousand dollars ($20,000) in value, at any time after 30 days from the date of death"
+  },
+  {
+   "id": "nc-gs-36f-4",
+   "cite": "N.C. Gen. Stat. §36F-4",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_36F/GS_36F-4.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+  },
+  {
+   "id": "nc-gs-130a-420",
+   "cite": "N.C. Gen. Stat. §130A-420",
+   "title": "Authority to dispose of body or body parts",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-420.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "An individual at least 18 years of age may authorize the type, place, and method of disposition of the individual's own dead body"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent",
+    "attorney-in-fact"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal executes a power of attorney under Chapter 32C",
+     "phase": "capable",
+     "citations": [
+      "nc-gs-32c-1-104"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal dies; revokes; the instrument's terms; purpose accomplished; or no agent remains",
+      "phase": "deceased",
+      "citations": [
+       "nc-gs-32c-1-110"
+      ]
+     }
+    ]
+   },
+   "diff": "Durability is the default under Chapter 32C and must be opted out of expressly.",
+   "citations": [
+    "nc-gs-32c-1-104",
+    "nc-gs-32c-1-110"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney expressly terminated by incapacity"
+   ],
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal becomes incapacitated, where the instrument expressly says so",
+      "phase": "incapacitated",
+      "citations": [
+       "nc-gs-32c-1-110",
+       "nc-gs-32c-1-104"
+      ]
+     }
+    ]
+   },
+   "diff": "Exists only where the principal opted out of durability in the instrument.",
+   "citations": [
+    "nc-gs-32c-1-104",
+    "nc-gs-32c-1-110"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care agent",
+    "attorney-in-fact under a health care power of attorney"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Physicians designated by the principal determine in writing that the principal lacks sufficient understanding or capacity to make or communicate health care decisions",
+     "phase": "incapacitated",
+     "citations": [
+      "nc-gs-32a-20"
+     ]
+    }
+   },
+   "diff": "The determination must be in writing, and for mental health treatment it may be made by an eligible psychologist rather than a physician.",
+   "citations": [
+    "nc-gs-32a-20"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person",
+    "general guardian"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Clerk of superior court appoints; the clerk, not a judge, has original jurisdiction",
+     "phase": "incapacitated",
+     "citations": [
+      "nc-gs-35a-1203"
+     ]
+    }
+   },
+   "diff": "Guardianship is a clerk of superior court matter in North Carolina, with original jurisdiction in the clerk rather than a judge.",
+   "citations": [
+    "nc-gs-35a-1203"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "guardian of the estate",
+    "general guardian"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Clerk of superior court appoints a guardian of the estate or a general guardian",
+     "phase": "incapacitated",
+     "citations": [
+      "nc-gs-35a-1203"
+     ]
+    }
+   },
+   "diff": "North Carolina has no conservator: the property fiduciary is a guardian of the estate, or a general guardian covering both person and estate, appointed by the clerk.",
+   "citations": [
+    "nc-gs-35a-1203"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Clerk of superior court grants letters testamentary on a sworn application",
+     "phase": "administration",
+     "citations": [
+      "nc-gs-28a-6-1"
+     ]
+    }
+   },
+   "diff": "The application for letters is itself a sworn affidavit, recorded and filed by the clerk of superior court.",
+   "citations": [
+    "nc-gs-28a-6-1"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Clerk of superior court grants letters of administration on a sworn application",
+     "phase": "administration",
+     "citations": [
+      "nc-gs-28a-6-1"
+     ]
+    }
+   },
+   "diff": "Same sworn-affidavit application and the same clerk of superior court as for letters testamentary.",
+   "citations": [
+    "nc-gs-28a-6-1"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "affiant collecting personal property"
+   ],
+   "lane": {
+    "starts": {
+     "event": "30 days after death, where intestate personal property net of liens does not exceed $20,000",
+     "phase": "deceased",
+     "citations": [
+      "nc-gs-28a-25-1"
+     ]
+    }
+   },
+   "diff": "Collection by affidavit is limited to intestate estates, capped at $20,000 of personal property net of liens, and cannot be used until 30 days after death.",
+   "citations": [
+    "nc-gs-28a-25-1"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "User directs disclosure through the custodian's online tool",
+     "phase": "capable",
+     "citations": [
+      "nc-gs-36f-4"
+     ]
+    }
+   },
+   "diff": "North Carolina enacted RUFADAA as Chapter 36F; an online-tool direction overrides a contrary direction in a will, trust or power of attorney.",
+   "citations": [
+    "nc-gs-36f-4"
+   ]
+  },
+  {
+   "role": "nc-disposition-authority",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Person authorised to dispose of the body",
+   "localNames": [
+    "preneed funeral contract",
+    "cremation authorization form",
+    "health care power of attorney"
+   ],
+   "summary": "An adult may direct the type, place and method of disposition of their own body, through a ranked list of instruments beginning with a preneed funeral contract and a health care power of attorney.",
+   "lane": {
+    "assigned": {
+     "event": "Individual aged 18 or over authorises disposition by one of the ranked methods",
+     "phase": "capable",
+     "citations": [
+      "nc-gs-130a-420"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "nc-gs-130a-420"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Disposition carried out",
+      "phase": "administration",
+      "citations": [
+       "nc-gs-130a-420"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No authorisation"
+    },
+    {
+     "id": "designated",
+     "label": "Authorised in an instrument"
+    },
+    {
+     "id": "active",
+     "label": "Directs disposition"
+    },
+    {
+     "id": "terminated",
+     "label": "Disposition carried out"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "nc-t-dp-sign",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Authorisation by preneed funeral contract, cremation authorization form or health care power of attorney (§130A-420(a))",
+     "citations": [
+      "nc-gs-130a-420"
+     ]
+    },
+    {
+     "id": "nc-t-dp-death",
+     "from": "designated",
+     "to": "active",
+     "event": "Death of the individual",
+     "citations": [
+      "nc-gs-130a-420"
+     ]
+    },
+    {
+     "id": "nc-t-dp-done",
+     "from": "active",
+     "to": "terminated",
+     "event": "Disposition carried out",
+     "citations": [
+      "nc-gs-130a-420"
+     ]
+    }
+   ],
+   "diff": "North Carolina ranks the instruments that control disposition of a body, and a health care power of attorney is one of them. The uniform/model baseline has no equivalent role.",
+   "citations": [
+    "nc-gs-130a-420"
+   ]
+  }
+ ]
+}
