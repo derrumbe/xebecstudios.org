@@ -1,0 +1,764 @@
+{
+ "jurisdiction": "br-national",
+ "name": "Brazil",
+ "country": "br",
+ "legalSystem": "civil law",
+ "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here.",
+ "citations": [
+  {
+   "id": "br-cc-14",
+   "cite": "Código Civil (Lei nº 10.406/2002), art. 14",
+   "title": "Disposição do próprio corpo para depois da morte",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "É válida, com objetivo científico, ou altruístico, a disposição gratuita do próprio corpo, no todo ou em parte, para depois da morte."
+  },
+  {
+   "id": "br-cc-682",
+   "cite": "Código Civil (Lei nº 10.406/2002), art. 682",
+   "title": "Cessação do mandato",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Cessa o mandato: I - pela revogação ou pela renúncia; II - pela morte ou interdição de uma das partes"
+  },
+  {
+   "id": "br-cc-1767",
+   "cite": "Código Civil (Lei nº 10.406/2002), art. 1.767",
+   "title": "Sujeitos a curatela",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Estão sujeitos a curatela: I - aqueles que, por causa transitória ou permanente, não puderem exprimir sua vontade"
+  },
+  {
+   "id": "br-cc-1783a",
+   "cite": "Código Civil (Lei nº 10.406/2002), art. 1.783-A",
+   "title": "Tomada de decisão apoiada",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "a pessoa com deficiência elege pelo menos 2 (duas) pessoas idôneas, com as quais mantenha vínculos e que gozem de sua confiança, para prestar-lhe apoio na tomada de decisão"
+  },
+  {
+   "id": "br-cc-1784",
+   "cite": "Código Civil (Lei nº 10.406/2002), art. 1.784",
+   "title": "Transmissão da herança",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Aberta a sucessão, a herança transmite-se, desde logo, aos herdeiros legítimos e testamentários."
+  },
+  {
+   "id": "br-cc-1976",
+   "cite": "Código Civil (Lei nº 10.406/2002), art. 1.976",
+   "title": "Nomeação de testamenteiro",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "O testador pode nomear um ou mais testamenteiros, conjuntos ou separados, para lhe darem cumprimento às disposições de última vontade."
+  },
+  {
+   "id": "br-cc-1991",
+   "cite": "Código Civil (Lei nº 10.406/2002), art. 1.991",
+   "title": "Administração pelo inventariante",
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Desde a assinatura do compromisso até a homologação da partilha, a administração da herança será exercida pelo inventariante."
+  }
+ ],
+ "roles": [
+  {
+   "id": "br-mandatario",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Mandatário (procuração)",
+   "localNames": [
+    "mandato",
+    "procuração",
+    "mandatário"
+   ],
+   "summary": "An ordinary mandate. It ends on the death or judicial interdiction of either party, so it does not survive the grantor's incapacity.",
+   "lane": {
+    "assigned": {
+     "event": "Grantor confers powers by mandate",
+     "phase": "capable",
+     "citations": [
+      "br-cc-682"
+     ]
+    },
+    "starts": {
+     "event": "On the grant",
+     "phase": "capable",
+     "citations": [
+      "br-cc-682"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation or renunciation; death or interdiction of either party; a change of status disabling either; expiry of the term",
+      "phase": "deceased",
+      "citations": [
+       "br-cc-682"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No mandate"
+     },
+     {
+      "id": "active",
+      "label": "Mandatary acts"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "br-t-m-grant",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Outorga do mandato",
+      "citations": [
+       "br-cc-682"
+      ]
+     },
+     {
+      "id": "br-t-m-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Morte ou interdição de uma das partes (art. 682, II)",
+      "citations": [
+       "br-cc-682"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Mandatary under a power of attorney",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "mandato": {
+     "en": "mandate",
+     "basis": "descriptive"
+    },
+    "procuração": {
+     "en": "power of attorney",
+     "basis": "descriptive"
+    },
+    "mandatário": {
+     "en": "mandatary",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "br-curador",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curador",
+   "localNames": [
+    "curatela",
+    "curador"
+   ],
+   "summary": "A court-appointed curator for someone who cannot express their will, whether for a transitory or a permanent reason. The 2015 disability statute narrowed the grounds to that inability.",
+   "lane": {
+    "assigned": {
+     "event": "Court subjects the person to curatela",
+     "phase": "incapacitated",
+     "citations": [
+      "br-cc-1767"
+     ]
+    },
+    "starts": {
+     "event": "On the decision",
+     "phase": "incapacitated",
+     "citations": [
+      "br-cc-1767"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "br-cc-1784"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No curatela"
+     },
+     {
+      "id": "active",
+      "label": "Curador acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "br-t-cur-set",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Sujeição a curatela (art. 1.767, I)",
+      "conditions": [
+       "não puder exprimir sua vontade"
+      ],
+      "citations": [
+       "br-cc-1767"
+      ]
+     },
+     {
+      "id": "br-t-cur-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Morte",
+      "citations": [
+       "br-cc-1784"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Curator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "curatela": {
+     "en": "curatorship",
+     "basis": "descriptive"
+    },
+    "curador": {
+     "en": "curator",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "br-apoiador",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Apoiador (tomada de decisão apoiada)",
+   "localNames": [
+    "tomada de decisão apoiada",
+    "apoiador"
+   ],
+   "summary": "A person with a disability chooses at least two trusted supporters to help them decide on civil matters, keeping the decision their own rather than transferring it.",
+   "lane": {
+    "assigned": {
+     "event": "The person elects at least two trusted supporters",
+     "phase": "capable",
+     "citations": [
+      "br-cc-1783a"
+     ]
+    },
+    "starts": {
+     "event": "On the supported decision-making arrangement taking effect",
+     "phase": "incapacitated",
+     "citations": [
+      "br-cc-1783a"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "br-cc-1784"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No arrangement"
+     },
+     {
+      "id": "active",
+      "label": "Supporters assisting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "br-t-ap-elect",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Eleição de ao menos duas pessoas idôneas (art. 1.783-A)",
+      "citations": [
+       "br-cc-1783a"
+      ]
+     },
+     {
+      "id": "br-t-ap-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Morte",
+      "citations": [
+       "br-cc-1784"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Supporter under supported decision-making",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "tomada de decisão apoiada": {
+     "en": "supported decision-making",
+     "basis": "descriptive"
+    },
+    "apoiador": {
+     "en": "supporter",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "br-herdeiro",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Herdeiro",
+   "localNames": [
+    "herdeiro legítimo",
+    "herdeiro testamentário",
+    "saisine"
+   ],
+   "summary": "On the opening of the succession the inheritance passes at once to the legitimate and testamentary heirs, without any grant or court act.",
+   "lane": {
+    "assigned": {
+     "event": "By law or by will",
+     "phase": "capable",
+     "citations": [
+      "br-cc-1784"
+     ]
+    },
+    "starts": {
+     "event": "Immediately on the opening of the succession, that is on death",
+     "phase": "deceased",
+     "citations": [
+      "br-cc-1784"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Partition homologated",
+      "phase": "closed",
+      "citations": [
+       "br-cc-1991"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Before death"
+     },
+     {
+      "id": "active",
+      "label": "Heir holds the estate"
+     },
+     {
+      "id": "terminated",
+      "label": "Partition homologated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "br-t-her-vest",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Aberta a sucessão, a herança transmite-se desde logo (art. 1.784)",
+      "citations": [
+       "br-cc-1784"
+      ]
+     },
+     {
+      "id": "br-t-her-close",
+      "from": "active",
+      "to": "terminated",
+      "event": "Homologação da partilha",
+      "citations": [
+       "br-cc-1991"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "herdeiro legítimo": {
+     "en": "heir by law",
+     "basis": "descriptive"
+    },
+    "herdeiro testamentário": {
+     "en": "heir under a will",
+     "basis": "descriptive"
+    },
+    "saisine": {
+     "en": "immediate vesting of the inheritance on death",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "br-inventariante",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Inventariante",
+   "localNames": [
+    "inventariante",
+    "inventário"
+   ],
+   "summary": "Administers the estate from signing the undertaking until the partition is homologated.",
+   "lane": {
+    "assigned": {
+     "event": "Appointed and signs the undertaking in the inventory proceedings",
+     "phase": "administration",
+     "citations": [
+      "br-cc-1991"
+     ]
+    },
+    "starts": {
+     "event": "On signing the undertaking",
+     "phase": "administration",
+     "citations": [
+      "br-cc-1991"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Partition homologated",
+      "phase": "closed",
+      "citations": [
+       "br-cc-1991"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Partition homologated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "br-t-inv-start",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Assinatura do compromisso (art. 1.991)",
+      "citations": [
+       "br-cc-1991"
+      ]
+     },
+     {
+      "id": "br-t-inv-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Homologação da partilha",
+      "citations": [
+       "br-cc-1991"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Estate administrator in the inventory proceedings",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "inventariante": {
+     "en": "estate administrator",
+     "basis": "descriptive"
+    },
+    "inventário": {
+     "en": "inventory proceedings",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "br-testamenteiro",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Testamenteiro",
+   "localNames": [
+    "testamenteiro"
+   ],
+   "summary": "An executor exists only where the testator named one, to carry out the dispositions of last will.",
+   "lane": {
+    "assigned": {
+     "event": "Named by the testator in the will",
+     "phase": "capable",
+     "citations": [
+      "br-cc-1976"
+     ]
+    },
+    "starts": {
+     "event": "On death, to give effect to the will",
+     "phase": "deceased",
+     "citations": [
+      "br-cc-1976"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Dispositions carried out",
+      "phase": "closed",
+      "citations": [
+       "br-cc-1976"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None named"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will"
+     },
+     {
+      "id": "active",
+      "label": "Acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "br-t-test-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Nomeação pelo testador (art. 1.976)",
+      "citations": [
+       "br-cc-1976"
+      ]
+     },
+     {
+      "id": "br-t-test-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Morte do testador",
+      "citations": [
+       "br-cc-1976"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor named in the will",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "testamenteiro": {
+     "en": "executor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "br-disposicao-corpo",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Disponente do próprio corpo",
+   "localNames": [
+    "disposição do próprio corpo"
+   ],
+   "summary": "A person may gratuitously dispose of their own body, wholly or in part, for scientific or altruistic purposes after death, and may revoke that freely at any time.",
+   "lane": {
+    "assigned": {
+     "event": "Person disposes of their own body for after death",
+     "phase": "capable",
+     "citations": [
+      "br-cc-14"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "br-cc-14"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revoked at any time by the disponent",
+      "phase": "capable",
+      "citations": [
+       "br-cc-14"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No disposition"
+     },
+     {
+      "id": "designated",
+      "label": "Disposition made"
+     },
+     {
+      "id": "active",
+      "label": "Effective on death"
+     },
+     {
+      "id": "terminated",
+      "label": "Revoked or carried out"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "br-t-corpo-make",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Disposição gratuita do próprio corpo (art. 14)",
+      "citations": [
+       "br-cc-14"
+      ]
+     },
+     {
+      "id": "br-t-corpo-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Revogação livre a qualquer tempo",
+      "citations": [
+       "br-cc-14"
+      ]
+     },
+     {
+      "id": "br-t-corpo-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Morte",
+      "citations": [
+       "br-cc-14"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Person disposing of their own body",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "disposição do próprio corpo": {
+     "en": "disposition of one's own body",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A mandate ends on the death or judicial interdiction of either party, so it does not survive the grantor's incapacity.",
+   "citations": [
+    "br-cc-682"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "year": 2015,
+   "name": "Tomada de decisão apoiada (Código Civil art. 1.783-A)",
+   "citations": [
+    "br-cc-1783a"
+   ],
+   "valueEn": {
+    "en": "supported decision-making",
+    "basis": "descriptive"
+   }
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No dedicated digital-asset statute in the Civil Code; digital assets follow the estate, which passes to the heirs at once on death.",
+   "citations": [
+    "br-cc-1784"
+   ]
+  },
+  "probateGrantName": {
+   "value": "inventário e partilha",
+   "note": "There is no grant: the inheritance passes at death and the inventariante administers until the partition is homologated.",
+   "citations": [
+    "br-cc-1784",
+    "br-cc-1991"
+   ],
+   "valueEn": {
+    "en": "inventory and partition",
+    "basis": "descriptive"
+   }
+  }
+ }
+}
