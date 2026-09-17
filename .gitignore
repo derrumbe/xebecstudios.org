@@ -10,3 +10,7 @@ _ghost-export/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+
+# Staging area for the Ghost page extractor. Input to hand-editing, not
+# content: promote what you want into src/content/ and src/pages/.
+_staged/

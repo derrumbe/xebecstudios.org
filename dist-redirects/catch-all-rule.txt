@@ -1,0 +1,12 @@
+Cloudflare → Rules → Redirect Rules → Create
+
+  Name:   mikekiser.org catch-all
+  When:   (http.host eq "mikekiser.org") or (http.host eq "www.mikekiser.org")
+  Then:   Dynamic redirect
+          Expression: concat("https://xebecstudios.org", http.request.uri.path)
+          Status: 301
+          Preserve query string: on
+
+Set this BELOW the bulk redirect list in priority. The list handles the
+renamed pages; this catches every essay slug and anything forgotten, so
+nothing 404s even if the list drifts.

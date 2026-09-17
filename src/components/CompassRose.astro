@@ -23,10 +23,24 @@ const { size = 150, bearings = 32, class: className = '' } = Astro.props;
 
 const c = size / 2;
 const Rmaj = size * 0.387;
-const Rmin = size * 0.267;
-const w = size * 0.067;
+const Rmin = size * 0.34;
 const ring = size * 0.427;
 const tick = size * 0.04;
+
+/**
+ * Arm half-width as a fraction of that arm's own length, so a short point and
+ * a long one taper identically. A single shared width — which is what this
+ * used to be — makes the four half-wind points 45% fatter in proportion than
+ * the principal ones, and eight arms that disagree about their taper read as
+ * a lopsided star even when the geometry is exact.
+ *
+ * The half-winds now reach 88% of a principal point rather than 69%, so the
+ * star reads as eight points rather than four with packing between them.
+ */
+const TAPER = 0.105;
+/** Covers the junction where all sixteen triangles meet. Keep it >= the
+ *  widest arm base, or the overlap shows as a blob instead of a boss. */
+const hub = size * 0.045;
 
 const P = (r: number, deg: number): [number, number] => {
   const a = (deg * Math.PI) / 180;
@@ -47,12 +61,22 @@ const points = [
   [0, Rmaj], [90, Rmaj], [180, Rmaj], [270, Rmaj],
 ].map(([deg, R]) => {
   const d = deg - 90;
+  const half = R * TAPER;
   return {
-    solid: `${F(P(R, d))} ${F(P(w, d - 90))} ${c},${c}`,
-    open: `${F(P(R, d))} ${F(P(w, d + 90))} ${c},${c}`,
+    // The whole kite, drawn in paper beneath the two halves. The arms are
+    // translucent by design, so without this the rhumb lines read straight
+    // through them and the star looks like it is made of gauze. The backing
+    // occludes the ray field so each arm renders against paper, exactly as it
+    // does everywhere the lines do not reach.
+    base: `${F(P(R, d))} ${F(P(half, d - 90))} ${c},${c} ${F(P(half, d + 90))}`,
+    solid: `${F(P(R, d))} ${F(P(half, d - 90))} ${c},${c}`,
+    open: `${F(P(R, d))} ${F(P(half, d + 90))} ${c},${c}`,
     north: d === -90,
   };
 });
+
+const uid = Math.random().toString(36).slice(2, 8);
+
 
 const lineIdx =
   bearings >= 32 ? Array.from({ length: 32 }, (_, i) => i)
@@ -63,13 +87,34 @@ const lineIdx =
 <div class:list={['rose-node', className]} style={`width:${size}px`}>
   {lineIdx.length > 0 && (
     <svg class="lines" viewBox="0 0 2600 2600" aria-hidden="true">
-      {lineIdx.map((i) => (
-        <line
-          class={i % 4 === 0 ? 'w-p' : i % 2 === 0 ? 'w-h' : 'w-q'}
-          x1="1300" y1="1300" x2="3300" y2="1300"
-          transform={i === 0 ? undefined : `rotate(${i * 11.25} 1300 1300)`}
-        />
-      ))}
+      {/*
+        The rays are 1300 long — exactly the half-viewBox — so the square
+        viewport never crops them. They used to run to 2000 and be cut by the
+        edge, which left them 41% longer into the corners than along the axes
+        and made the whole field read as a rectangle rather than a chart.
+
+        The mask then dissolves them outward on a circle, so they carry through
+        the rose at full strength and there is no hard rim where they stop.
+      */}
+      <defs>
+        <radialGradient id={`fade-${uid}`}>
+          <stop offset="0%" stop-color="#fff" stop-opacity="1" />
+          <stop offset="45%" stop-color="#fff" stop-opacity="1" />
+          <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+        </radialGradient>
+        <mask id={`rhumb-${uid}`}>
+          <rect width="2600" height="2600" fill={`url(#fade-${uid})`} />
+        </mask>
+      </defs>
+      <g mask={`url(#rhumb-${uid})`}>
+        {lineIdx.map((i) => (
+          <line
+            class={i % 4 === 0 ? 'w-p' : i % 2 === 0 ? 'w-h' : 'w-q'}
+            x1="1300" y1="1300" x2="2600" y2="1300"
+            transform={i === 0 ? undefined : `rotate(${i * 11.25} 1300 1300)`}
+          />
+        ))}
+      </g>
     </svg>
   )}
   <svg class="rose" viewBox={`0 0 ${size} ${size}`} aria-hidden="true">
@@ -80,10 +125,12 @@ const lineIdx =
     ))}
     {points.map((p) => (
       <>
+        <polygon class="pt-base" points={p.base} />
         <polygon class={p.north ? 'pt-n' : 'pt-solid'} points={p.solid} />
         <polygon class="pt-open" points={p.open} />
       </>
     ))}
-    <circle class="hub" cx={c} cy={c} r={(w * 0.6).toFixed(1)} />
+    <circle class="pt-base" cx={c} cy={c} r={hub.toFixed(1)} />
+    <circle class="hub" cx={c} cy={c} r={hub.toFixed(1)} />
   </svg>
 </div>

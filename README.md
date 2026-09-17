@@ -155,8 +155,33 @@ It does *not* pick subjects. Everything lands as `Technology` with a `TODO
 re-file` comment. Search for that string and go through them by hand — there
 are about thirty, and the taxonomy is the one thing worth your own eyes.
 
-Ghost *pages* (About, Contact, Speaking, Projects, Media) are skipped. They were
-hand-maintained lists; they become collection entries and real pages here.
+Ghost *pages* (About, Contact, Speaking, Projects, Media) are skipped by
+`migrate`. They were hand-maintained lists, and here they become two different
+things — real `.astro` pages and entries in the speaking/media/projects
+collections. Neither is mechanical, so there is a second script for them:
+
+```
+npm run extract-pages
+```
+
+It converts every published Ghost page to markdown under `_staged/pages/`,
+downloads the images those pages used, keeps embed URLs that turndown would
+otherwise drop on the floor (the recordings on the speaking page are `<iframe>`
+and `<video>` tags, and they *are* the content), and roughs out collection
+stubs under `_staged/speaking/` and `_staged/projects/` by parsing the lists.
+
+Nothing lands in `src/`. The stubs carry `TODO`s and the collection schemas
+would rightly fail the build on them, so promoting a stub — supplying the date
+and venue Ghost never recorded — is a deliberate step you take by hand.
+`_staged/` is gitignored; it is input to editing, not content.
+
+Re-running skips files that already exist. `--force` overwrites.
+
+**What the export does not contain.** Ghost stored a year at best for most
+talks, and for five of them nothing but a title. Those entries are dated
+`YYYY-01-01`, and `fmtWhen` in `src/consts.ts` prints any 1 January date as the
+bare year rather than inventing a day. Fix a date and the display sharpens on
+its own.
 
 ## Redirects from mikekiser.org
 
@@ -227,11 +252,13 @@ figures so they sit into the line rather than shouting.
 
 ## Still to write
 
-- `src/pages/speaking.astro`, `media.astro`, `projects.astro` — index pages over
-  the collections. Same `.item` grid as the essay list.
-- `src/pages/about.astro` — with `#contact`, which the redirect map points at.
-- `src/pages/colophon.astro` — linked in the footer as "Sources".
-- `src/pages/404.astro`.
+- Real dates and venues for the talks marked `Various events` in
+  `src/content/speaking/` — the Ghost export listed them as bare titles.
+- "Every Breath You Take: Sting, The Police, and Identity" is on the old
+  speaking page with no year and no essay to borrow one from. It is the one
+  talk that did not make it across; it is sitting in `_staged/speaking/`.
+- The `media/` collection has one entry. The old Media page was prose about
+  outlets rather than a list of them, so there was nothing to extract.
 
 ## Gotchas
 

@@ -10,7 +10,39 @@ const path = Astro.url.pathname;
         {NAV.map((n) => (
           <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>
         ))}
+        <button class="theme" type="button" hidden aria-pressed="false"
+                aria-label="Switch between light and dark" title="Switch between light and dark">
+          <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+        </button>
       </nav>
     </div>
   </div>
 </header>
+
+<script is:inline>
+  (function () {
+    var btn = document.querySelector('.theme');
+    if (!btn) return;
+    var root = document.documentElement;
+    var systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    var isDark = function () {
+      return root.dataset.theme ? root.dataset.theme === 'dark' : systemDark.matches;
+    };
+    var sync = function () { btn.setAttribute('aria-pressed', String(isDark())); };
+
+    btn.hidden = false;   // only now is it a control rather than decoration
+    sync();
+
+    btn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      root.dataset.theme = next;
+      try { localStorage.setItem('theme', next); } catch (e) { /* not fatal */ }
+      sync();
+    });
+
+    // Someone who has never chosen still follows the OS, including a change
+    // to it while the page is open.
+    systemDark.addEventListener('change', function () { if (!root.dataset.theme) sync(); });
+  })();
+</script>

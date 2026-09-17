@@ -31,5 +31,15 @@ export const fmtDate = (d: Date, long = false) =>
     timeZone: 'UTC',
   });
 
+/**
+ * A talk date that is exactly 1 January is a year Ghost recorded without a
+ * month — the speaking archive is full of them. Printing "01 January 2019"
+ * claims a precision the source never had, so those print as the year alone.
+ * A talk genuinely given on New Year's Day gets caught by this, and would also
+ * be a strange talk to have given.
+ */
+export const fmtWhen = (d: Date, long = false) =>
+  d.getUTCMonth() === 0 && d.getUTCDate() === 1 ? String(d.getUTCFullYear()) : fmtDate(d, long);
+
 export const readingMinutes = (body: string) =>
   Math.max(1, Math.round(body.split(/\s+/).filter(Boolean).length / 220));

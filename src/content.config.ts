@@ -84,6 +84,9 @@ const projects = defineCollection({
     ended: opt(z.coerce.date()),
     repo: opt(z.string().url()),
     url: opt(z.string().url()),
+    // Sort key for /projects/ and the homepage, ascending. The numbers run
+    // newest-first, so a project left at the default 0 lands at the top —
+    // which is where a project you have just started belongs.
     order: z.number().int().default(0),
   }),
 });

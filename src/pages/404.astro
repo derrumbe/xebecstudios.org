@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+import CompassRose from '../components/CompassRose.astro';
+---
+<Base title="Not found" description="No page at this address.">
+  <div class="wrap">
+    <div class="plate">
+      <div class="grid">
+        <Margin
+          label="404"
+          notes={[{ note: 'Dead reckoning: a position estimated from your last known one. Usually close. Occasionally this.' }]}
+        >
+          <CompassRose size={132} bearings={32} class="lost-rose" />
+        </Margin>
+        <div>
+          <h1>Off the chart.</h1>
+          <p class="lede">
+            There is nothing at this address. Every essay that was on
+            <a href="https://mikekiser.org">mikekiser.org</a> kept its old path when it moved here,
+            so if you followed a link from somewhere it should have worked — which makes this either
+            a typo or something I have got wrong.
+          </p>
+          <nav class="filters" style="margin-top:26px">
+            <a href="/essays/">All essays</a>
+            <a href="/speaking/">Speaking</a>
+            <a href="/projects/">Projects</a>
+            <a href="/about/#contact">Tell me it is broken</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style is:global>.lost-rose{margin-top:28px}</style>

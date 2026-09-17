@@ -5,6 +5,9 @@
    also the active state and the drop cap. Resist adding a fourth colour. */
 
 :root{
+  color-scheme:light;
+  /* Body for the outlined half of each compass point. */
+  --facet-fill:.10; --facet-stroke:.46;
   --paper:#F3F4EF; --paper-2:#EAEBE4;
   --ink:#16202B; --ink-soft:#5A6874; --ink-faint:#96A0A8;
   --rule:#CFD2C9;
@@ -15,15 +18,51 @@
   --display:"Instrument Serif","Spectral",Georgia,serif;
   --marg:190px; --gut:44px; --measure:34rem;
 }
+/* Three states, not two. With no data-theme the OS decides, which is the
+   default and what most readers get. data-theme pins it, and the masthead
+   toggle is what writes that.
+
+   The dark values appear twice because a media query and a plain selector
+   cannot share one declaration block. Change one, change the other. */
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
+    color-scheme:dark;
     --paper:#111A22; --paper-2:#18232C;
     --ink:#E7E8E0; --ink-soft:#9BA8B2; --ink-faint:#65737E;
     --rule:#2A3742;
     --wind-principal:#C3CBD2; --wind-half:#6FA98D; --wind-quarter:#D9705F;
     --lapis:#8FB4DC; --rhumb-op:.42;
+    --facet-fill:.17; --facet-stroke:.62;
   }
 }
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#111A22; --paper-2:#18232C;
+  --ink:#E7E8E0; --ink-soft:#9BA8B2; --ink-faint:#65737E;
+  --rule:#2A3742;
+  --wind-principal:#C3CBD2; --wind-half:#6FA98D; --wind-quarter:#D9705F;
+  --lapis:#8FB4DC; --rhumb-op:.42;
+  --facet-fill:.17; --facet-stroke:.62;
+}
+
+/* The toggle. Hidden until the script un-hides it, so a reader without
+   JavaScript is not offered a button that cannot do anything. */
+.theme{
+  background:none;border:0;padding:3px 2px;margin-left:-4px;
+  font:inherit;font-size:16.5px;line-height:1;color:var(--ink-soft);
+  cursor:pointer;border-bottom:1px solid transparent;
+}
+.theme:hover{color:var(--ink);border-bottom-color:var(--wind-quarter)}
+.theme .sun{display:none}
+.theme .moon{display:inline}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .theme .sun{display:inline}
+  :root:not([data-theme="light"]) .theme .moon{display:none}
+}
+:root[data-theme="dark"] .theme .sun{display:inline}
+:root[data-theme="dark"] .theme .moon{display:none}
+:root[data-theme="light"] .theme .sun{display:none}
+:root[data-theme="light"] .theme .moon{display:inline}
 
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -63,8 +102,12 @@ a{color:inherit}
 .rose .tk-p{stroke:var(--wind-principal);opacity:.62;stroke-width:1.5}
 .rose .tk-h{stroke:var(--wind-half);opacity:.62}
 .rose .tk-q{stroke:var(--wind-quarter);opacity:.42}
+/* Opaque backing so the rhumb lines stop at the arms rather than showing
+   through them. Paper, because that is what the arms are drawn against. */
+.rose .pt-base{fill:var(--paper)}
 .rose .pt-solid{fill:var(--wind-principal);opacity:.7}
-.rose .pt-open{fill:none;stroke:var(--wind-principal);opacity:.42}
+.rose .pt-open{fill:var(--wind-principal);fill-opacity:var(--facet-fill);
+  stroke:var(--wind-principal);opacity:var(--facet-stroke)}
 .rose .pt-n{fill:var(--wind-quarter);opacity:.85}
 .rose .hub{fill:var(--paper);stroke:var(--wind-principal);opacity:.85}
 

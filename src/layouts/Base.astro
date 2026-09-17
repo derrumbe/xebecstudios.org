@@ -13,6 +13,14 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <script is:inline>
+    // Runs before first paint. Anything later and a reader who picked light on
+    // a dark machine gets a flash of the wrong theme on every navigation.
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (e) { /* private mode, storage disabled — fall back to the OS */ }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{full}</title>
   <meta name="description" content={description} />

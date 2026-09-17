@@ -7,6 +7,7 @@ legacySlug: "houston-we-have-a-problem"
 # ghost tags were: Identity
 # feature image: /images/2020-06-debris.png
 # ~4 min
+talk: "houston-we-have-a-problem"
 ---
 
 ****On April 2, 2018, the first Chinese space station – Tiangong-1 – came crashing down to earth. Headlines across the world stoked panic and alarm, and astronomers attempted to predict where the 9.5 tonne object would strike. This is not the first such object to threaten damage and destruction, and nor will it be the last.****

@@ -1,0 +1,141 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+import CompassRose from '../components/CompassRose.astro';
+import { SITE } from '../consts';
+---
+<Base
+  title="About"
+  description="Mike Kiser — Director of Strategy and Standards at SailPoint. Identity, ethics, and a Masters in Theology that turns out to be relevant."
+>
+  <div class="wrap">
+    <div class="plate">
+      <div class="grid">
+        <Margin
+          label="About"
+          notes={[{ note: 'Twenty years of security architecture and a Masters in Theology. The combination is less unusual than it sounds — both are disciplines about who counts as who.' }]}
+        >
+          <CompassRose size={132} bearings={32} class="about-rose" />
+        </Margin>
+        <div>
+          <h1>Mike Kiser</h1>
+          <p class="lede">
+            Director of Strategy and Standards at SailPoint, writing here about identity: who you
+            are, who gets to say so, and what it costs.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="band">
+      <div class="grid">
+        <Margin notes={[{ note: 'The journal article is the formal version. The essays are where the argument is still moving.', tone: 'aside' }]} />
+        <div class="body">
+          <h2>Ethical standards and identity</h2>
+          <p>
+            One strand of current research is the consolidation and practical application of ethics
+            in identity-driven algorithms, with an emphasis on open-source tooling and assets. The
+            complete treatment is in
+            <a href="https://link.springer.com/article/10.1007/s42354-019-0233-4">this journal article</a>.
+            I have a Masters degree in Theology, so the intersection of identity and ethics drives a
+            good deal of what I do.
+          </p>
+
+          <h2>Open work</h2>
+          <p>
+            <a href="/projects/">Spartacus as a Service</a> is an attempt at privacy through
+            obfuscation rather than concealment — named for the closing scene of the Kirk Douglas
+            film, and presented at Black Hat, DEF CON and the
+            <a href="https://www.youtube.com/watch?v=U1wb4_bIVbc">Crypto and Privacy Village</a>.
+            Two later projects point a camera at opposite ends of the same question:
+            <a href="https://github.com/derrumbe/Ruse">Ruse</a> alters a photograph so it stays
+            useful to human eyes and useless to facial recognition, while
+            <a href="https://github.com/derrumbe/Sigillo">Sigillo</a> signs one at the moment of
+            capture, embedding C2PA Content Credentials so that provenance travels with the file
+            rather than being reconstructed after the fact.
+            Shared-Signals.Dev is the standards-side
+            counterpart — a working transmitter and receiver for the Shared Signals Framework, so
+            the specification can be tried rather than only read.
+            All of it is open source and open to contribution.
+          </p>
+
+          <h2>Writing and speaking</h2>
+          <p>
+            I write and speak often, locally and internationally. The <a href="/essays/">essays</a>
+            are here; the <a href="/speaking/">talks</a> and the
+            <a href="/media/">outside pieces</a> have sections of their own.
+          </p>
+
+          <h2>Industry background</h2>
+          <p>
+            A long history in technology and security, and a good many hats: security strategist,
+            analyst, architect. Over two decades that has meant designing, directing and advising on
+            large-scale security deployments for a global clientele.
+          </p>
+
+          <h2>Location</h2>
+          <p>
+            {SITE.where}, gloriously. Reachable by the routes below.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="contact">
+      <div class="grid" style="margin-bottom:18px">
+        <Margin
+          label="Contact"
+          notes={[
+            { note: 'Prompt replies go to press queries on breaking security, identity or ethics stories; genuine speaking enquiries; and questions about Ruse or Spartacus.' },
+          ]}
+        />
+        <div>
+          <div class="band-head"><h2>Getting in touch</h2></div>
+          <p class="lede">
+            Thanks for wanting to reach out. I answer all legitimate correspondence, some of it
+            quickly.
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <span class="apparatus">Email<span class="subject">Best route</span></span>
+        <span>
+          <h3><a href="mailto:mike@mikekiser.org">mike@mikekiser.org</a></h3>
+          <p>The most reliable way to reach me. Replies are relatively prompt.</p>
+        </span>
+      </div>
+
+      <div class="item">
+        <span class="apparatus">Twitter<span class="subject">Notices</span></span>
+        <span>
+          <h3><a href="https://twitter.com/_MikeKiser">@_MikeKiser</a></h3>
+          <p>Where new writing and talks get announced. DMs are usually open, but email is steadier.</p>
+        </span>
+      </div>
+
+      <div class="item">
+        <span class="apparatus">LinkedIn<span class="subject">Career</span></span>
+        <span>
+          <h3><a href="https://www.linkedin.com/in/mike-kiser/">Mike Kiser</a></h3>
+          <p>A brief overview of the past few decades.</p>
+        </span>
+      </div>
+
+      <div class="item">
+        <span class="apparatus">GitHub<span class="subject">Code</span></span>
+        <span>
+          <h3><a href="https://github.com/derrumbe">derrumbe</a></h3>
+          <p>Spartacus, Ruse, and whatever else is currently half-finished.</p>
+        </span>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .item h3 a { text-decoration: none; }
+  .item h3 a:hover { color: var(--wind-quarter); }
+</style>
+
+<style is:global>.about-rose{margin-top:28px}</style>

@@ -1,0 +1,264 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+import { getCollection, render } from 'astro:content';
+import { fmtWhen } from '../consts';
+
+type Talk = Awaited<ReturnType<typeof getCollection<'speaking'>>>[number];
+
+const talks = (await getCollection('speaking'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// An essay id in `essay:` only earns a link if that essay actually exists.
+const essayIds = new Set((await getCollection('essays', ({ data }) => !data.draft)).map((e) => e.id));
+
+// A talk's body, where it has one, is the note about further deliveries.
+const withNote = async (list: Talk[]) =>
+  Promise.all(list.map(async (t) => ({ ...t, Note: t.body?.trim() ? (await render(t)).Content : null })));
+
+// Split at build time. A talk given today stays upcoming until the day is out.
+const today = new Date();
+const cutoff = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+const upcomingRaw = talks.filter((t) => t.data.date.valueOf() >= cutoff).reverse();
+const pastRaw = talks.filter((t) => t.data.date.valueOf() < cutoff);
+
+/**
+ * Three conferences stay open on the page. The security ones are where the
+ * research was first shown and are the reason most people arrive here, so
+ * folding them into an accordion with everything else buries the wrong thing.
+ */
+const HEADLINE = /^(RSA Conference|DEF CON|Black Hat)/i;
+
+const keynotes = await withNote(pastRaw.filter((t) => t.data.format === 'Keynote'));
+const rest = pastRaw.filter((t) => t.data.format !== 'Keynote');
+const headline = await withNote(rest.filter((t) => HEADLINE.test(t.data.event)));
+
+// Everything else, grouped by the conference that hosted it. Ordered by the
+// most recent talk in each group, so an active venue sits above a dormant one.
+const others = rest.filter((t) => !HEADLINE.test(t.data.event));
+const groups = await Promise.all(
+  [...new Set(others.map((t) => t.data.event))]
+    .map((event) => ({ event, items: others.filter((t) => t.data.event === event) }))
+    .sort((a, b) => b.items[0].data.date.valueOf() - a.items[0].data.date.valueOf())
+    .map(async (g) => {
+      const years = g.items.map((t) => t.data.date.getUTCFullYear());
+      const lo = Math.min(...years), hi = Math.max(...years);
+      return { ...g, items: await withNote(g.items), span: lo === hi ? `${hi}` : `${lo}–${hi}` };
+    }),
+);
+
+const upcoming = await withNote(upcomingRaw);
+---
+<Base title="Speaking" description="Keynotes, talks and panels — what is booked, and what has already been given.">
+  <div class="wrap">
+    <section class="band">
+      <div class="grid">
+        <Margin
+          label="Speaking"
+          notes={[
+            { note: 'The talk usually comes first. The essay is what survived the questions afterwards.' },
+            {
+              note: upcoming.length
+                ? `${upcoming.length} booked. ${pastRaw.length} given, ${keynotes.length} of them keynotes.`
+                : `${pastRaw.length} given, ${keynotes.length} of them keynotes. Nothing booked publicly just now.`,
+              tone: 'aside',
+            },
+          ]}
+        />
+        <div>
+          <p class="lede">
+            My preferred shape is longform: a narrative arc carrying the technical content, so the
+            audience arrives at the argument from an angle they did not expect. Naval warfare of the
+            1800s, orbital debris, epidemiology, Sting. Each one calibrates to the room.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="upcoming">
+      <div class="grid" style="margin-bottom:6px">
+        <Margin notes={[{ note: 'Current as of the last build, not as of this second.', tone: 'aside' }]} />
+        <div>
+          <div class="band-head"><h2>Upcoming</h2></div>
+          {upcoming.length === 0 && (
+            <p class="none">
+              Nothing on the public calendar at the moment. Dates usually appear here a few weeks
+              out — or <a href="/about/#contact">ask</a>, since some are agreed long before they
+              are announced.
+            </p>
+          )}
+        </div>
+      </div>
+      {upcoming.map((t) => (
+        <div class="item" id={t.id}>
+          <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.format}</span></span>
+          <span>
+            <h3>{t.data.title}</h3>
+            <p><span class="where">{t.data.event}.</span>{t.data.location && ` ${t.data.location}`}</p>
+            {t.Note && <div class="talk-note"><t.Note /></div>}
+          </span>
+        </div>
+      ))}
+    </section>
+
+    <section class="band" id="keynotes">
+      <div class="grid" style="margin-bottom:6px">
+        <Margin notes={[{ note: 'The ones I was asked to open with. Longer, and usually the argument at full stretch.' }]} />
+        <div class="band-head"><h2>Keynotes</h2></div>
+      </div>
+      {keynotes.map((t) => (
+        <div class="item first" id={t.id}>
+          <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.format}</span></span>
+          <span>
+            <h3>{t.data.title}</h3>
+            <p>
+              <span class="where">{t.data.event}.</span>{t.data.location && ` ${t.data.location}`}
+              {t.data.minutes && `, ${t.data.minutes} min`}
+            </p>
+            {t.Note && <div class="talk-note"><t.Note /></div>}
+            {(t.data.video || t.data.slides || (t.data.essay && essayIds.has(t.data.essay))) && (
+              <p class="talk-links">
+                {t.data.video && <a href={t.data.video}>Video</a>}
+                {t.data.slides && <a href={t.data.slides}>Slides</a>}
+                {t.data.essay && essayIds.has(t.data.essay) && <a href={`/${t.data.essay}/`}>The essay</a>}
+              </p>
+            )}
+          </span>
+        </div>
+      ))}
+    </section>
+
+    <section class="band" id="research">
+      <div class="grid" style="margin-bottom:6px">
+        <Margin notes={[{ note: 'Where the tools were first shown. Kept open because it is what most people come looking for.', tone: 'aside' }]} />
+        <div class="band-head"><h2>Black Hat, DEF CON and RSAC</h2></div>
+      </div>
+      {headline.map((t) => (
+        <div class="item" id={t.id}>
+          <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.format}</span></span>
+          <span>
+            <h3>{t.data.title}</h3>
+            <p>
+              <span class="where">{t.data.event}.</span>{t.data.location && ` ${t.data.location}`}
+              {t.data.minutes && `, ${t.data.minutes} min`}
+            </p>
+            {t.Note && <div class="talk-note"><t.Note /></div>}
+            {(t.data.video || t.data.slides || (t.data.essay && essayIds.has(t.data.essay))) && (
+              <p class="talk-links">
+                {t.data.video && <a href={t.data.video}>Video</a>}
+                {t.data.slides && <a href={t.data.slides}>Slides</a>}
+                {t.data.essay && essayIds.has(t.data.essay) && <a href={`/${t.data.essay}/`}>The essay</a>}
+              </p>
+            )}
+          </span>
+        </div>
+      ))}
+    </section>
+
+    <section class="band" id="elsewhere">
+      <div class="grid" style="margin-bottom:6px">
+        <Margin notes={[{ note: 'Folded by venue. Open one and it stays open; nothing here needs JavaScript to read.', tone: 'aside' }]} />
+        <div class="band-head"><h2>Elsewhere</h2></div>
+      </div>
+      {groups.map((g) => (
+        <details class="group">
+          <summary>
+            <span class="apparatus">{g.span}<span class="subject">{g.items.length} {g.items.length === 1 ? 'talk' : 'talks'}</span></span>
+            <span class="sum-title">
+              <h3>{g.event}</h3>
+              <span class="caret" aria-hidden="true">›</span>
+            </span>
+          </summary>
+          {g.items.map((t) => (
+            <div class="item sub" id={t.id}>
+              <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.format}</span></span>
+              <span>
+                <h3>{t.data.title}</h3>
+                {t.data.location && <p>{t.data.location}</p>}
+                {t.Note && <div class="talk-note"><t.Note /></div>}
+                {(t.data.video || t.data.slides || (t.data.essay && essayIds.has(t.data.essay))) && (
+                  <p class="talk-links">
+                    {t.data.video && <a href={t.data.video}>Video</a>}
+                    {t.data.slides && <a href={t.data.slides}>Slides</a>}
+                    {t.data.essay && essayIds.has(t.data.essay) && <a href={`/${t.data.essay}/`}>The essay</a>}
+                  </p>
+                )}
+              </span>
+            </div>
+          ))}
+        </details>
+      ))}
+    </section>
+
+    <section class="band">
+      <div class="grid">
+        <Margin />
+        <p class="lede">
+          If you would like me to speak at your event, <a href="/about/#contact">get in touch</a>.
+        </p>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<script>
+  // An essay's "Said aloud, first" block links to /speaking/#<talk>, and that
+  // talk may be inside a closed group. Open its ancestor before the browser
+  // gives up and leaves the reader staring at a collapsed heading. Without JS
+  // the link still lands on the page, which is the honest fallback.
+  const reveal = () => {
+    if (!location.hash) return;
+    const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    const group = el?.closest('details');
+    if (group && !group.open) {
+      group.open = true;
+      el.scrollIntoView({ block: 'center' });
+    }
+  };
+  reveal();
+  addEventListener('hashchange', reveal);
+</script>
+
+<style>
+  .item { scroll-margin-top: 24px; }
+  .none { margin: 0; padding: 22px 0; border-top: 1px solid var(--rule);
+          font-size: 17.5px; color: var(--ink-soft); max-width: 42rem; }
+  .none a { color: var(--lapis); text-underline-offset: 3px; }
+  .talk-note { margin-top: 7px; font-size: 16.5px; color: var(--ink-soft); max-width: 42rem; }
+  .talk-note :global(p) { margin: 0; }
+  .talk-note :global(a) { color: var(--lapis); text-underline-offset: 3px; }
+  .talk-links { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 7px !important; }
+  .talk-links a { font-size: 16px; color: var(--lapis); text-underline-offset: 3px; }
+
+  /* A collapsed venue. The summary borrows the .item grid so a shut group sits
+     on the same rhythm as an open talk. */
+  .group > summary {
+    display: grid; grid-template-columns: var(--marg) minmax(0, 1fr); gap: var(--gut);
+    padding: 22px 0; border-top: 1px solid var(--rule);
+    align-items: baseline; cursor: pointer; list-style: none;
+  }
+  .group > summary::-webkit-details-marker { display: none; }
+  .group > summary .apparatus {
+    text-align: right; font-size: 15.5px; color: var(--ink-faint);
+    line-height: 1.42; font-variant-numeric: oldstyle-nums;
+  }
+  .group > summary .apparatus .subject { display: block; color: var(--wind-half); font-style: italic; }
+  .sum-title { display: flex; align-items: baseline; gap: 12px; }
+  .group > summary h3 {
+    font-family: var(--display); font-weight: 400; font-size: 1.55rem;
+    line-height: 1.16; margin: 0; letter-spacing: -.005em;
+  }
+  .group > summary:hover h3, .group[open] > summary h3 { color: var(--wind-quarter); }
+  .caret { display: inline-block; color: var(--ink-faint); transition: transform .15s ease; }
+  .group[open] .caret { transform: rotate(90deg); color: var(--wind-quarter); }
+  /* Nested talks read as subordinate to the venue, not as siblings of it. */
+  .group .item.sub { border-top: 1px dotted var(--rule); padding: 16px 0; }
+  .group .item.sub h3 { font-size: 1.25rem; }
+  .group .item.sub:last-child { padding-bottom: 24px; }
+
+  @media (max-width: 880px) {
+    .group > summary { grid-template-columns: 1fr; gap: 12px; }
+    .group > summary .apparatus { text-align: left; }
+    .group > summary .apparatus .subject { display: inline; margin-left: 10px; }
+  }
+</style>

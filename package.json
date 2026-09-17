@@ -11,6 +11,7 @@
     "check": "astro check",
     "migrate": "node scripts/migrate-ghost.mjs",
     "inspect": "node scripts/inspect-export.mjs",
+    "extract-pages": "node scripts/extract-ghost-pages.mjs",
     "fix-images": "node scripts/fix-images.mjs",
     "fix-frontmatter": "node scripts/fix-frontmatter.mjs",
     "redirects": "node scripts/build-redirects.mjs"

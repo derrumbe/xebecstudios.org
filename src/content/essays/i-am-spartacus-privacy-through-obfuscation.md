@@ -7,6 +7,7 @@ legacySlug: "i-am-spartacus-privacy-through-obfuscation"
 # ghost tags were: Identity, Privacy, History
 # feature image: https://images.unsplash.com/photo-1544041275-d00ed2466766?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
 # ~3 min
+talk: "i-am-spartacus-ensuring-privacy-through-obfuscation"
 ---
 
 The Third Servile War was over. The slave army had been defeated, and their Roman captors offered the survivors a pardon. The only requirement was that they identify Spartacus, their leader (a sun-bronzed, cleft-chinned Kirk Douglas).

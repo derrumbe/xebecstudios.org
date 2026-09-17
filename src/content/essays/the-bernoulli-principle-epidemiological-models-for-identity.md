@@ -7,6 +7,7 @@ legacySlug: "the-bernoulli-principle-epidemiological-models-for-identity"
 # ghost tags were: Identity, History
 # feature image: /images/2020-06-Bernie_Hed.png
 # ~2 min
+talk: "the-bernoulli-principle"
 ---
 
 Smallpox is one of the deadliest diseases in all of human history. If you contracted Smallpox in the 18th century, you would have a one in three chance of dying within sixteen days. In the 20th century alone, Smallpox killed over 500 million people. Fortunately, it’s also the only infectious disease among humans that has been successfully eradicated.

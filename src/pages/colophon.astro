@@ -1,0 +1,180 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '../consts';
+
+const essays = await getCollection('essays', ({ data }) => !data.draft);
+const talks = await getCollection('speaking');
+const media = await getCollection('media');
+const projects = await getCollection('projects');
+
+const n = (count: number, one: string, many = `${one}s`) => `${count} ${count === 1 ? one : many}`;
+
+const earliest = essays.length
+  ? essays.reduce((a, b) => (a.data.date < b.data.date ? a : b)).data.date.getUTCFullYear()
+  : null;
+---
+<Base
+  title="Colophon"
+  description="What this site is made of: the type, the palette, the ship it is named after, and where the writing used to live."
+>
+  <div class="wrap">
+    <div class="plate">
+      <div class="grid">
+        <Margin
+          label="Colophon"
+          notes={[{ note: 'A colophon is the note at the end of a manuscript saying who made it and with what. It is the oldest form of build metadata.' }]}
+        />
+        <div>
+          <h1>Sources</h1>
+          <p class="lede">
+            {n(essays.length, 'essay')}, {n(talks.length, 'talk')},
+            {' '}{n(media.length, 'outside piece')} and {n(projects.length, 'project')}{earliest && `, the oldest of them from ${earliest}`}.
+            Here is what they are made of.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="band">
+      <div class="grid">
+        <Margin
+          label="The name"
+          notes={[{ note: 'Replace every plank and it is either the same ship or a very good copy. Two thousand years of argument, still unresolved.', tone: 'aside' }]}
+        />
+        <div class="body">
+          <p>
+            A xebec is a three-masted ship of the Mediterranean, fast and lateen-rigged and rebuilt
+            constantly. It is also the vessel philosophers keep dismantling to ask whether a thing
+            that has had all its parts replaced is still itself — which is the question this site is
+            about, put in wood rather than in data.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="grid">
+        <Margin label="Type" />
+        <div class="body plain">
+          <p>
+            <strong>Instrument Serif</strong> for display, <strong>Spectral</strong> for body text,
+            both served from Google Fonts. Dates are set in old-style figures so the numerals sit
+            into the line rather than shouting over it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="grid">
+        <Margin
+          label="Colour"
+          notes={[{ note: 'Three colours with a reason beats four with a mood.' }]}
+        />
+        <div class="body plain">
+          <p>
+            The palette is the portolan wind hierarchy, a convention of medieval sea charts: black
+            for the eight principal winds, green for the eight half-winds, red for the sixteen
+            quarter-winds. Red doubles as the active state and the drop cap. There is no fourth
+            colour, deliberately.
+          </p>
+          <ul class="swatches">
+            <li><span class="chip" style="background:var(--wind-principal)"></span> Principal winds</li>
+            <li><span class="chip" style="background:var(--wind-half)"></span> Half-winds</li>
+            <li><span class="chip" style="background:var(--wind-quarter)"></span> Quarter-winds</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="grid">
+        <Margin
+          label="The rose"
+          notes={[{ note: 'North is red because that is a navigational convention, not because red looked nice there.', tone: 'aside' }]}
+        />
+        <div class="body plain">
+          <p>
+            The compass rose computes its own geometry rather than being drawn: eight points, each
+            split lengthwise into a filled and an outlined half so it reads as faceted brass instead
+            of as a symbol. Its bezel carries the same thirty-two divisions as the bearing lines
+            behind it, so the rose and the rhumbs are visibly one instrument.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="grid">
+        <Margin
+          label="The margin"
+          notes={[{ note: 'Like this one. It is never empty — that is the whole discipline of the layout.' }]}
+        />
+        <div class="body plain">
+          <p>
+            Every essay carries a margin column. Glosses are written inline in the prose as Obsidian
+            callouts and lifted out at build time by a small remark plugin, which means a note is
+            anchored to its paragraph rather than to a paragraph number that drifts the moment you
+            insert a sentence. Below 880 pixels the margin moves above the text and the alignment
+            script stands down.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="grid">
+        <Margin label="Machinery" />
+        <div class="body plain">
+          <p>
+            <a href="https://astro.build">Astro</a>, markdown in git, static hosting on
+            <a href="https://pages.cloudflare.com">Cloudflare Pages</a>. No CMS, no database, no
+            server: writing a post is a commit. Four content collections are schema-checked at build
+            time, so a typo in a frontmatter field fails the build rather than rendering wrong.
+            Comments, when they are switched on, are <a href="https://giscus.app">Giscus</a> threads
+            living in GitHub Discussions — no trackers and no third-party cookies.
+            The <a href="/rss.xml">feed</a> carries full text, not teasers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="grid">
+        <Margin
+          label="Provenance"
+          notes={[{ note: 'An archive with holes in it is a worse thing than no archive, so the images came across too.', tone: 'aside' }]}
+        />
+        <div class="body plain">
+          <p>
+            This writing lived on Ghost at <a href="https://mikekiser.org">mikekiser.org</a> until
+            2026. Everything moved across with its slug intact, images and all, and the old domain
+            redirects here path for path — so a link made years ago still lands where it was aimed.
+          </p>
+          <p>
+            Written and kept by {SITE.author} in {SITE.where}.
+            <a href="/about/#contact">Corrections are welcome.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .swatches { list-style: none; padding: 0; margin: 1.4em 0 0; display: flex; gap: 26px; flex-wrap: wrap; font-size: 16.5px; color: var(--ink-soft); }
+  .swatches li { display: flex; align-items: center; gap: 9px; }
+  .chip { display: inline-block; width: 15px; height: 15px; border: 1px solid var(--rule); }
+</style>
+
+<!-- global.css hangs a drop cap off the first paragraph of every .body. One per
+     page is a flourish; seven is a rash. Only the opening section keeps it.
+     Global rather than scoped so it out-specifies the rule it is undoing. -->
+<style is:global>
+  .body.plain > p:first-of-type::first-letter {
+    font-family: inherit; float: none; font-size: inherit;
+    line-height: inherit; padding: 0; color: inherit;
+  }
+</style>

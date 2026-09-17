@@ -1,0 +1,63 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+import { getCollection } from 'astro:content';
+
+const projects = (await getCollection('projects'))
+  .sort((a, b) => a.data.order - b.data.order);
+
+// "2019–2021", "2020–", or nothing at all. Undated projects are fine; the
+// apparatus falls back to status, so the column is never empty.
+const span = (p: { started?: Date; ended?: Date }) => {
+  if (!p.started) return p.ended ? `to ${p.ended.getUTCFullYear()}` : null;
+  const from = p.started.getUTCFullYear();
+  return p.ended ? (p.ended.getUTCFullYear() === from ? `${from}` : `${from}–${p.ended.getUTCFullYear()}`) : `${from}–`;
+};
+---
+<Base title="Projects" description="Open work: Spartacus, Ruse, the ethics research and the standards it fed.">
+  <div class="wrap">
+    <section class="band">
+      <div class="grid" style="margin-bottom:18px">
+        <Margin
+          label="Projects"
+          notes={[
+            { note: 'Adversarial in the useful sense: they hand an ordinary person some leverage over their own identity.' },
+            { note: `${projects.length} of them. All open source, all open to contribution.`, tone: 'aside' },
+          ]}
+        />
+        <div>
+          <p class="lede">
+            Side work, mostly built to make an argument concrete. It is easier to discuss privacy
+            through obfuscation when you can run the thing and watch it flood the signal.
+          </p>
+        </div>
+      </div>
+
+      {projects.map((p) => (
+        <div class="item">
+          <span class="apparatus">
+            {span(p.data) ?? p.data.status}
+            {span(p.data) && <span class="subject">{p.data.status}</span>}
+          </span>
+          <span>
+            <h3>{p.data.url ? <a href={p.data.url}>{p.data.title}</a> : p.data.title}</h3>
+            <p>{p.data.summary}</p>
+            {(p.data.repo || p.data.url) && (
+              <p class="project-links">
+                {p.data.repo && <a href={p.data.repo}>Source</a>}
+                {p.data.url && <a href={p.data.url}>Site</a>}
+              </p>
+            )}
+          </span>
+        </div>
+      ))}
+    </section>
+  </div>
+</Base>
+
+<style>
+  .item h3 a { text-decoration: none; }
+  .item h3 a:hover { color: var(--wind-quarter); }
+  .project-links { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 7px !important; }
+  .project-links a { font-size: 16px; color: var(--lapis); text-underline-offset: 3px; }
+</style>

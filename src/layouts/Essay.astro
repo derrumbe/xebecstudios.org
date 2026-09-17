@@ -2,7 +2,7 @@
 import Base from './Base.astro';
 import Margin from '../components/Margin.astro';
 import CompassRose from '../components/CompassRose.astro';
-import { SITE, fmtDate, readingMinutes } from '../consts';
+import { SITE, fmtDate, readingMinutes, fmtWhen } from '../consts';
 import { getEntry } from 'astro:content';
 
 const { entry, body, glosses = [] } = Astro.props;
@@ -46,7 +46,7 @@ const headerNote = [d.subject, `${minutes} minutes`, d.series ? `Part of ${d.ser
               <p class="label">Said aloud, first</p>
               <p><a href={`/speaking/#${talk.id}`}>{talk.data.title}</a></p>
               <p class="sub">
-                {talk.data.event}, {fmtDate(talk.data.date, true)}.
+                {talk.data.event}, {fmtWhen(talk.data.date, true)}.
                 {talk.data.minutes ? ` ${talk.data.minutes} minutes.` : ''}
               </p>
             </aside>

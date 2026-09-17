@@ -7,6 +7,7 @@ legacySlug: "trust-in-numbers"
 # ghost tags were: Identity, Ethics
 # feature image: /images/2020-06-Temple_of_Justice-_Washington.jpg
 # ~5 min
+talk: "trust-in-numbers"
 ---
 
 Who was the real Tarra Simmons? On [November 16, 2017](https://www.seattletimes.com/seattle-news/seattle-law-school-grads-bright-future-outshines-her-rough-past-state-high-court-says/), she sat before the Washington State Supreme Court. The child of addicts and an ex-addict and ex-felon herself, she had subsequently graduated near the top of her law school class. The Washington State Law Board had denied her access to the bar, fearing that the “old Tarra” would return. She was asking the court to trust her to become an attorney, and the outcome of her case rested whether or not her past could be used to predict her future.  

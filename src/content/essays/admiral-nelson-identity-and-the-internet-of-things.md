@@ -7,6 +7,7 @@ legacySlug: "admiral-nelson-identity-and-the-internet-of-things"
 # ghost tags were: Identity, History
 # feature image: /images/2020-06-Battle_of_Trafalgar-_Plate_1.jpg
 # ~4 min
+talk: "admiral-nelson-and-the-internet-of-things"
 ---
 
 On October 21, 1805, the world changed. At the [Battle of Trafalgar](https://en.wikipedia.org/wiki/Battle_of_Trafalgar), British Admiral Horatio Nelson introduced a new strategy for naval warfare. Instead of lining up in a firing line opposite the enemy, he sailed his fleet [directly into the enemy lines](https://upload.wikimedia.org/wikipedia/commons/d/d2/Battle_of_Trafalgar%2C_Plate_1.jpg). The [resulting chaos](https://upload.wikimedia.org/wikipedia/commons/7/7b/Battle_of_Trafalgar%2C_Plate_2.jpg) meant that sailors could no longer rely on location to identify friend and foe. Instead, Nelson redefined his understanding of identity: legend states that he [painted his ships in a unique pattern](https://en.wikipedia.org/wiki/Nelson_Chequer) so that the identity of each ship was obvious. This enabled his entire fleet—every ship, every sailor—to act instantly and independently in the pursuit of victory. Knowing this, he sailed into battle with a [single order of battle](https://en.wikipedia.org/wiki/England_expects_that_every_man_will_do_his_duty): “It is expected that every person will do their duty.” The British Navy won a decisive victory, and naval warfare would never be the same.

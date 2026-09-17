@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+import { getCollection } from 'astro:content';
+import { fmtDate } from '../consts';
+
+const media = (await getCollection('media'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Base title="Media" description="Podcasts, interviews, outside articles and the odd quotation.">
+  <div class="wrap">
+    <section class="band">
+      <div class="grid" style="margin-bottom:18px">
+        <Margin
+          label="Media"
+          notes={[
+            { note: 'Analogy rather than jargon. If a thing cannot be explained without the vocabulary, it is usually not understood yet.' },
+            { note: `${media.length} piece${media.length === 1 ? '' : 's'}, newest first. Every link leaves this site.`, tone: 'aside' },
+          ]}
+        />
+        <div>
+          <p class="lede">
+            Commentary and articles that appeared elsewhere — sometimes off the back of research,
+            sometimes as an outside voice on a headline. The early pieces argue the ethics of
+            algorithms and <a href="/projects/">facial recognition</a>; the later ones have moved to
+            standards and their failure modes, from session tokens to what becomes of an account
+            once its owner has died. The question did not change. The venue did.
+          </p>
+        </div>
+      </div>
+
+      {media.map((m) => (
+        <a class="item" href={m.data.url}>
+          <span class="apparatus">{fmtDate(m.data.date)}<span class="subject">{m.data.format}</span></span>
+          <span>
+            <h3>{m.data.title}</h3>
+            <p><span class="where">{m.data.outlet}.</span>{m.data.note && ` ${m.data.note}`}</p>
+          </span>
+        </a>
+      ))}
+
+      <div class="grid" style="margin-top:46px">
+        <Margin />
+        <div>
+          <p class="lede">
+            If you want an additional voice on a piece,
+            <a href="/about/#contact">contact me</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>
