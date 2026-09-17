@@ -1,0 +1,312 @@
+{
+ "jurisdiction": "us-wa",
+ "name": "Washington",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Power of Attorney Act (modified)",
+  "Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act",
+  "Revised Uniform Fiduciary Access to Digital Assets Act"
+ ],
+ "citations": [
+  {
+   "id": "wa-rcw-11-125-040",
+   "cite": "Wash. Rev. Code §11.125.040",
+   "title": "Power of attorney — Termination",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.040",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "terminates upon the incapacity of the principal unless the writing contains the words \"This power of attorney shall not be affected by disability of the principal\" ... or similar words"
+  },
+  {
+   "id": "wa-rcw-11-125-400",
+   "cite": "Wash. Rev. Code §11.125.400",
+   "title": "Agent authority — Health care",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.400",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The agent shall be authorized to act as the principal's personal representative pursuant to the health insurance portability and accountability act"
+  },
+  {
+   "id": "wa-rcw-11-130-265",
+   "cite": "Wash. Rev. Code §11.130.265",
+   "title": "Basis for appointment of guardian for adult",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.130.265",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "the court may ... Appoint a guardian for an adult if the court finds by clear and convincing evidence ... even with appropriate supportive services, technological assistance, or supported decision making"
+  },
+  {
+   "id": "wa-rcw-11-28-120",
+   "cite": "Wash. Rev. Code §11.28.120",
+   "title": "Persons entitled to letters",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.28.120",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Administration of an estate ... shall be granted to some one or more of the persons hereinafter mentioned ... (a) The surviving spouse or state registered domestic partner"
+  },
+  {
+   "id": "wa-rcw-11-62-010",
+   "cite": "Wash. Rev. Code §11.62.010",
+   "title": "Disposition of personal property, debts by affidavit",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.62.010",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "less liens and encumbrances, does not exceed one hundred thousand dollars; ... That forty days have elapsed since the death of the decedent"
+  },
+  {
+   "id": "wa-rcw-11-120-030",
+   "cite": "Wash. Rev. Code §11.120.030",
+   "title": "Applicability",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.120.030",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "This chapter applies to: (a) A fiduciary acting under a will or power of attorney executed before, on, or after June 9, 2016"
+  },
+  {
+   "id": "wa-rcw-68-50-160",
+   "cite": "Wash. Rev. Code §68.50.160",
+   "title": "Right to control disposition of remains",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=68.50.160",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A person has the right to control the disposition of his or her own remains without the predeath or postdeath consent of another person."
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent",
+    "attorney-in-fact"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a writing containing words showing the authority is to survive disability",
+     "phase": "capable",
+     "citations": [
+      "wa-rcw-11-125-040"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal's incapacity, unless the writing carries durability words",
+      "phase": "incapacitated",
+      "citations": [
+       "wa-rcw-11-125-040"
+      ]
+     }
+    ]
+   },
+   "diff": "Washington did not take the uniform act's default. Authority terminates on the principal's incapacity unless the instrument says it survives disability, so durability is opted INTO here rather than out of.",
+   "citations": [
+    "wa-rcw-11-125-040"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney without durability words"
+   ],
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal becomes incapacitated; this is the default outcome in Washington",
+      "phase": "incapacitated",
+      "citations": [
+       "wa-rcw-11-125-040"
+      ]
+     }
+    ]
+   },
+   "diff": "This is the Washington default: a power of attorney without durability words ends on incapacity.",
+   "citations": [
+    "wa-rcw-11-125-040"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent with general authority over health care matters"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Power of attorney grants general authority over health care matters",
+     "phase": "incapacitated",
+     "citations": [
+      "wa-rcw-11-125-400"
+     ]
+    }
+   },
+   "diff": "A general grant of health-care authority also makes the agent the principal's HIPAA personal representative by statute, without separate wording.",
+   "citations": [
+    "wa-rcw-11-125-400"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian for an adult"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court appoints on petition, after notice and hearing, on clear and convincing evidence",
+     "phase": "incapacitated",
+     "citations": [
+      "wa-rcw-11-130-265"
+     ]
+    }
+   },
+   "diff": "Washington enacted the uniform guardianship and protective arrangements act as RCW 11.130. The court must find the adult cannot meet essential requirements even with supportive services, technological assistance or supported decision making, so those alternatives are weighed before a guardian is appointed.",
+   "citations": [
+    "wa-rcw-11-130-265"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "personal representative"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Letters granted in statutory order, the surviving spouse or state registered domestic partner first",
+     "phase": "administration",
+     "citations": [
+      "wa-rcw-11-28-120"
+     ]
+    }
+   },
+   "diff": "The priority list names a state registered domestic partner alongside the surviving spouse, and lets that person nominate someone else to be appointed in their place.",
+   "citations": [
+    "wa-rcw-11-28-120"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "claiming successor"
+   ],
+   "lane": {
+    "starts": {
+     "event": "40 days after death, where probate assets net of liens do not exceed $100,000",
+     "phase": "deceased",
+     "citations": [
+      "wa-rcw-11-62-010"
+     ]
+    }
+   },
+   "diff": "The threshold is $100,000 of probate assets net of liens, excluding the surviving spouse's or domestic partner's community property interest, and the wait is 40 days rather than 30.",
+   "citations": [
+    "wa-rcw-11-62-010"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary under RCW 11.120"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Fiduciary acts for a user who resides or resided in Washington",
+     "phase": "administration",
+     "citations": [
+      "wa-rcw-11-120-030"
+     ]
+    }
+   },
+   "diff": "Washington enacted RUFADAA as RCW chapter 11.120, applying to instruments executed before or after 9 June 2016.",
+   "citations": [
+    "wa-rcw-11-120-030"
+   ]
+  },
+  {
+   "role": "wa-disposition-control",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Person controlling disposition of remains",
+   "localNames": [
+    "written document expressing the decedent's wishes"
+   ],
+   "summary": "A person controls the disposition of their own remains, and a signed, witnessed written document stating their wishes is by itself sufficient authority to carry them out.",
+   "lane": {
+    "assigned": {
+     "event": "Person signs a written document stating their wishes, in the presence of a witness",
+     "phase": "capable",
+     "citations": [
+      "wa-rcw-68-50-160"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "wa-rcw-68-50-160"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Disposition carried out",
+      "phase": "administration",
+      "citations": [
+       "wa-rcw-68-50-160"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No written document"
+    },
+    {
+     "id": "designated",
+     "label": "Signed and witnessed"
+    },
+    {
+     "id": "active",
+     "label": "Document governs"
+    },
+    {
+     "id": "terminated",
+     "label": "Disposition carried out"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "wa-t-dp-sign",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Written document signed before a witness (RCW 68.50.160(1))",
+     "citations": [
+      "wa-rcw-68-50-160"
+     ]
+    },
+    {
+     "id": "wa-t-dp-death",
+     "from": "designated",
+     "to": "active",
+     "event": "Death; the document is sufficient legal authorisation",
+     "citations": [
+      "wa-rcw-68-50-160"
+     ]
+    },
+    {
+     "id": "wa-t-dp-done",
+     "from": "active",
+     "to": "terminated",
+     "event": "Disposition carried out",
+     "citations": [
+      "wa-rcw-68-50-160"
+     ]
+    }
+   ],
+   "diff": "Washington gives the person control of their own remains without anyone else's consent, before or after death. The uniform/model baseline has no equivalent role.",
+   "citations": [
+    "wa-rcw-68-50-160"
+   ]
+  }
+ ]
+}
