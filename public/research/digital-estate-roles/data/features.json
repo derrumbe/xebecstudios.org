@@ -6767,6 +6767,57 @@
    }
   ]
  },
+ "za-national": {
+  "features": {
+   "probateGrantName": {
+    "value": "letters of executorship",
+    "note": "Issued by the Master of the High Court rather than a court, both where an executor is nominated by will and where the Master appoints.",
+    "citations": [
+     "za-aea-14",
+     "za-aea-18"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": null,
+    "currency": "ZAR",
+    "waitingDays": null,
+    "note": "The Master may dispense with an executor where the estate does not exceed an amount the Minister sets by notice in the Gazette. The Act itself does not state a figure, and the current notice was not retrieved, so no amount is recorded here.",
+    "citations": [
+     "za-aea-18-3"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "za-aea-14",
+    "cite": "Administration of Estates Act 66 of 1965, s 14",
+    "title": "Letters of executorship to executors testamentary",
+    "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "The Master shall, subject to subsection (2) and sections 16 and 22, on the written application of any person who has been nominated as executor by any deceased person by a will"
+   },
+   {
+    "id": "za-aea-18",
+    "cite": "Administration of Estates Act 66 of 1965, s 18",
+    "title": "Proceedings on failure of nomination of executors or on death, incapacity or refusal to act",
+    "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "if any person has died without having by will nominated any person to be his executor; or if the whereabouts of any person so nominated to be sole executor ... are unknown"
+   },
+   {
+    "id": "za-aea-18-3",
+    "cite": "Administration of Estates Act 66 of 1965, s 18(3)",
+    "title": "Master may dispense with the appointment of an executor",
+    "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "value of any estate does not exceed the amount determined by the Minister by notice in the Gazette, the Master may dispense with the appointment of an executor and give directions as to the manner in which any such estate shall be liquidated and distributed"
+   }
+  ]
+ },
  "dk-national": {
   "features": {
    "poaDurableByDefault": {

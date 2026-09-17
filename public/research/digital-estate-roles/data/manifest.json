@@ -319,6 +319,22 @@
    ]
   },
   {
+   "id": "za",
+   "name": "South Africa",
+   "jurisdictions": [
+    {
+     "id": "za-national",
+     "name": "South Africa",
+     "short": "ZA",
+     "files": [
+      "jurisdictions/za-national.json"
+     ],
+     "country": "za",
+     "note": "South African estate administration: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice's published copies. Only the estate roles are covered. Powers of attorney (common law, and they lapse on the grantor's incapacity), curatorship and administrators under the Mental Health Care Act 17 of 2002, and organ donation under the National Health Act 61 of 2003 are NOT covered: those acts are not in the Department of Justice's legislation index and were not retrieved. Note also that the Department's PDFs are Juta typesettings of the acts, hosted by the Department."
+    }
+   ]
+  },
+  {
    "id": "dk",
    "name": "Denmark",
    "jurisdictions": [
@@ -593,6 +609,16 @@
    ],
    "country": "mx",
    "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here."
+  },
+  {
+   "id": "za-national",
+   "name": "South Africa",
+   "short": "ZA",
+   "files": [
+    "jurisdictions/za-national.json"
+   ],
+   "country": "za",
+   "note": "South African estate administration: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice's published copies. Only the estate roles are covered. Powers of attorney (common law, and they lapse on the grantor's incapacity), curatorship and administrators under the Mental Health Care Act 17 of 2002, and organ donation under the National Health Act 61 of 2003 are NOT covered: those acts are not in the Department of Justice's legislation index and were not retrieved. Note also that the Department's PDFs are Juta typesettings of the acts, hosted by the Department."
   },
   {
    "id": "dk-national",
