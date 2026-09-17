@@ -56,19 +56,66 @@ const headerNote = [d.subject, `${minutes} minutes`, d.series ? `Part of ${d.ser
             <section class="responses">
               <h2>Responses</h2>
               <p>Kept in GitHub Discussions. No trackers and no third-party cookies.</p>
-              <script
-                src="https://giscus.app/client.js"
-                data-repo={SITE.giscus.repo}
-                data-repo-id={SITE.giscus.repoId}
-                data-category={SITE.giscus.category}
-                data-category-id={SITE.giscus.categoryId}
-                data-mapping="pathname"
-                data-reactions-enabled="1"
-                data-theme="preferred_color_scheme"
-                data-lang="en"
-                crossorigin="anonymous"
-                async
-              />
+              {/*
+                Built by script rather than declared, so the frame opens in the
+                theme the reader actually chose. A plain tag can only be given
+                preferred_color_scheme, which follows the operating system and
+                ignores the masthead toggle — light pages, dark comment box.
+              */}
+              <div id="giscus-mount" />
+              <script is:inline define:vars={{ g: SITE.giscus }}>
+                (function () {
+                  var mount = document.getElementById('giscus-mount');
+                  if (!mount) return;
+                  var root = document.documentElement;
+                  var mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+                  // data-theme pins the choice; without it the OS decides.
+                  var theme = function () {
+                    var t = root.dataset.theme || (mq.matches ? 'dark' : 'light');
+                    return t === 'dark' ? 'dark' : 'light';
+                  };
+
+                  var s = document.createElement('script');
+                  s.src = 'https://giscus.app/client.js';
+                  s.async = true;
+                  s.crossOrigin = 'anonymous';
+                  var attrs = {
+                    'data-repo': g.repo,
+                    'data-repo-id': g.repoId,
+                    'data-category': g.category,
+                    'data-category-id': g.categoryId,
+                    'data-mapping': 'pathname',
+                    'data-reactions-enabled': '1',
+                    'data-lang': 'en',
+                    'data-theme': theme(),
+                  };
+                  for (var k in attrs) s.setAttribute(k, attrs[k]);
+                  mount.appendChild(s);
+
+                  // The frame is cross-origin, so the theme is handed over by
+                  // message rather than by touching its document.
+                  var push = function () {
+                    var f = document.querySelector('iframe.giscus-frame');
+                    if (f && f.contentWindow) {
+                      f.contentWindow.postMessage(
+                        { giscus: { setConfig: { theme: theme() } } },
+                        'https://giscus.app',
+                      );
+                    }
+                  };
+
+                  // Watching the attribute rather than the button catches the
+                  // toggle however it was thrown.
+                  new MutationObserver(push).observe(root, {
+                    attributes: true,
+                    attributeFilter: ['data-theme'],
+                  });
+                  mq.addEventListener('change', function () {
+                    if (!root.dataset.theme) push();
+                  });
+                })();
+              </script>
             </section>
           )}
         </div>
