@@ -248,8 +248,19 @@
   function renderChrome() {
     const sel = $('#jur');
     const countries = state.manifest.countries || [{ name: 'Jurisdictions', jurisdictions: state.manifest.jurisdictions }];
-    sel.innerHTML = countries.map((c) => `<optgroup label="${esc(c.name)}">${
-      c.jurisdictions.map((j) => `<option value="${esc(j.id)}">${esc(j.name)}</option>`).join('')}</optgroup>`).join('');
+    // Group the picker by region, not by country: nine countries hold a single
+    // jurisdiction, and those made optgroups with one identically named option in them.
+    // The build orders countries by region then name, and labels each jurisdiction
+    // with its country, so the order here is the order it supplies.
+    const byRegion = [];
+    for (const c of countries) {
+      const region = c.region || 'Other';
+      let g = byRegion.find((x) => x.region === region);
+      if (!g) byRegion.push((g = { region, items: [] }));
+      for (const j of c.jurisdictions) g.items.push(j);
+    }
+    sel.innerHTML = byRegion.map((g) => `<optgroup label="${esc(g.region)}">${
+      g.items.map((j) => `<option value="${esc(j.id)}">${esc(j.label || j.name)}</option>`).join('')}</optgroup>`).join('');
     sel.value = state.jur;
     sel.onchange = () => { state.jur = sel.value; render(); };
     document.querySelectorAll('.tabs button').forEach((b) => {
@@ -732,8 +743,18 @@
     const countries = state.manifest.countries || [{ id: 'all', name: 'All', jurisdictions: state.manifest.jurisdictions }];
     const cur = state.manifest.jurisdictions.find((j) => j.id === state.jur);
     if (!state.cmpScope) state.cmpScope = cur ? cur.country : 'all';
+    // Same region grouping as the jurisdiction picker, so the country order here
+    // reads as deliberate rather than arbitrary.
+    const scopeRegions = [];
+    for (const c of countries) {
+      const region = c.region || 'Other';
+      let g = scopeRegions.find((x) => x.region === region);
+      if (!g) scopeRegions.push((g = { region, items: [] }));
+      g.items.push(c);
+    }
     const scopeSel = `<label class="field"><span>Compare</span><select id="cmp-scope">
-      ${countries.map((c) => `<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('')}
+      ${scopeRegions.map((g) => `<optgroup label="${esc(g.region)}">${
+        g.items.map((c) => `<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('')}</optgroup>`).join('')}
       <option value="all">All countries (wide)</option></select></label>`;
     const js = state.cmpScope === 'all' ? state.manifest.jurisdictions
       : (countries.find((c) => c.id === state.cmpScope) || countries[0]).jurisdictions;
