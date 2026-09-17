@@ -1,0 +1,805 @@
+{
+ "jurisdiction": "sg-national",
+ "name": "Singapore",
+ "country": "sg",
+ "legalSystem": "common law",
+ "note": "Mental Capacity Act 2008, Probate and Administration Act 1934 and Human Organ Transplant Act 1987, from Singapore Statutes Online. The lasting power of attorney follows the England and Wales model but is stricter at the front: the Act says the power is not created at all unless the instrument is made and registered. Organ donation runs the other way from most of this set — consent is presumed and a registered objection is what blocks removal. Advance medical directives and disposal of remains sit in other statutes not retrieved for this entry.",
+ "citations": [
+  {
+   "id": "sg-mca-11",
+   "cite": "Mental Capacity Act 2008, s 11",
+   "title": "Lasting powers of attorney",
+   "url": "https://sso.agc.gov.sg/Act/MCA2008",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) A lasting power of attorney is a power of attorney under which the donor (“P”) confers on the donee (or donees) authority to make decisions about all or any of the following: (a) P’s personal welfare or specified matters concerning P’s personal welfare; (b) P’s property and affairs or specified…"
+  },
+  {
+   "id": "sg-mca-12",
+   "cite": "Mental Capacity Act 2008, s 12",
+   "title": "Appointment of donees",
+   "url": "https://sso.agc.gov.sg/Act/MCA2008",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) A donee of a lasting power of attorney must be — (a) where the power relates only to P’s property and affairs — (i) an individual who has attained the age of 21 years and provides to P the services of a donee without remuneration; (ii) an individual who is a professional donee and is not…"
+  },
+  {
+   "id": "sg-mca-15",
+   "cite": "Mental Capacity Act 2008, s 15",
+   "title": "Revocation of lasting powers of attorney, etc.",
+   "url": "https://sso.agc.gov.sg/Act/MCA2008",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) This section applies if — (a) P has executed an instrument with a view to creating a lasting power of attorney; or (b) a lasting power of attorney is registered as having been conferred by P, and in this section, references to revoking the power include revoking the instrument. (2) P may, at…"
+  },
+  {
+   "id": "sg-mca-20",
+   "cite": "Mental Capacity Act 2008, s 20",
+   "title": "Powers to make decisions and appoint deputies: general",
+   "url": "https://sso.agc.gov.sg/Act/MCA2008",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) This section applies if a person (“P”) lacks capacity in relation to a matter or matters concerning — (a) P’s personal welfare; or (b) P’s property and affairs. (2) The court may — (a) by making an order, make the decision or decisions on P’s behalf in relation to the matter or matters; or (b)…"
+  },
+  {
+   "id": "sg-mca-24",
+   "cite": "Mental Capacity Act 2008, s 24",
+   "title": "Appointment of deputies",
+   "url": "https://sso.agc.gov.sg/Act/MCA2008",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) A deputy appointed by the court must be — (a) where the appointment confers powers relating only to P’s property and affairs — (i) an individual who has attained the age of 21 years and provides to P the services of a deputy without remuneration; (ii) an individual who is a professional deputy…"
+  },
+  {
+   "id": "sg-paa-8",
+   "cite": "Probate and Administration Act 1934, s 8",
+   "title": "Grant of probate",
+   "url": "https://sso.agc.gov.sg/Act/PAA1934",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) Probate may be granted to any executor appointed by a will. (2) The appointment may be express or implied. (3) Subject to section 6, where more than one person is appointed an executor by a will, probate may be granted to one or more of the persons so appointed, without prejudice to a…"
+  },
+  {
+   "id": "sg-paa-18",
+   "cite": "Probate and Administration Act 1934, s 18",
+   "title": "Letters of administration on intestacy",
+   "url": "https://sso.agc.gov.sg/Act/PAA1934",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) When a person has died intestate, the court may grant letters of administration of his estate. (2) In granting such letters of administration the court shall have regard to the rights of all persons interested in the estate of the deceased person or the proceeds of sale thereof, and in regard…"
+  },
+  {
+   "id": "sg-paa-29",
+   "cite": "Probate and Administration Act 1934, s 29",
+   "title": "Administration bond",
+   "url": "https://sso.agc.gov.sg/Act/PAA1934",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) Where security is required the registrar shall determine its sufficiency. (2) The security shall ordinarily be by bond in the prescribed form by the grantee and 2 sureties in the amount at which the estate within the jurisdiction is sworn, without deduction of any debts due by the deceased,…"
+  },
+  {
+   "id": "sg-hota-4",
+   "cite": "Human Organ Transplant Act 1987, s 4",
+   "title": "Authorities may remove organ after death",
+   "url": "https://sso.agc.gov.sg/Act/HOTA1987",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) The designated officer of a hospital may, subject to and in accordance with this section, authorise, in writing, the removal of any organ from the body of a person who has died in the hospital for the purpose of the transplantation of the organ to the body of a living person. (2) No authority…"
+  },
+  {
+   "id": "sg-hota-8",
+   "cite": "Human Organ Transplant Act 1987, s 8",
+   "title": "Persons may register their objection",
+   "url": "https://sso.agc.gov.sg/Act/HOTA1987",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) Any person who objects to the removal of any organ from the person’s body after the person’s death for the purpose mentioned in section 4(1) may register the person’s objection in respect of that organ with the Director‑General in the prescribed form.  (2) Upon receipt of the written objection…"
+  },
+  {
+   "id": "sg-hota-9",
+   "cite": "Human Organ Transplant Act 1987, s 9",
+   "title": "Director‑General to maintain register",
+   "url": "https://sso.agc.gov.sg/Act/HOTA1987",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) The Director‑General must establish and maintain a register in which must be entered the objection of all persons lodged in accordance with section 8.  (2) The register mentioned in subsection (1) is not open to inspection by the public. (3) Any person who wilfully destroys, mutilates or makes…"
+  },
+  {
+   "id": "sg-hota-10",
+   "cite": "Human Organ Transplant Act 1987, s 10",
+   "title": "Persons may withdraw their objection",
+   "url": "https://sso.agc.gov.sg/Act/HOTA1987",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) Any person who has registered the person’s objection with the Director‑General under section 8 in respect of any organ may withdraw the person’s objection in the prescribed form.  (2) Upon receipt of the withdrawal of a person under subsection (1), the Director‑General must issue to that person…"
+  }
+ ],
+ "roles": [
+  {
+   "id": "sg-lpa-property",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Donee of a lasting power of attorney (property and affairs)",
+   "localNames": [
+    "lasting power of attorney",
+    "donee",
+    "LPA"
+   ],
+   "summary": "Registration is constitutive, not administrative: the Act says a lasting power of attorney is not created unless the instrument is made and registered in accordance with the First Schedule. Authority then covers property and affairs, and operates when P no longer has capacity to decide.",
+   "lane": {
+    "assigned": {
+     "event": "P executes an instrument conferring authority over property and affairs on a donee who meets the statutory requirements",
+     "phase": "capable",
+     "citations": [
+      "sg-mca-11",
+      "sg-mca-12"
+     ]
+    },
+    "starts": {
+     "event": "The power is not created until the instrument is made and registered; the authority then operates when P no longer has capacity to make the decision",
+     "phase": "incapacitated",
+     "citations": [
+      "sg-mca-11"
+     ]
+    },
+    "ends": [
+     {
+      "event": "P revokes the power at any time while having capacity to do so",
+      "phase": "capable",
+      "citations": [
+       "sg-mca-15"
+      ]
+     },
+     {
+      "event": "Death of P; the estate passes to the personal representative",
+      "phase": "deceased",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No LPA"
+     },
+     {
+      "id": "registered",
+      "label": "Made and registered; not yet operative"
+     },
+     {
+      "id": "active",
+      "label": "Donee acting for P over property and affairs"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "sg-t-lpp-make",
+      "from": "none",
+      "to": "registered",
+      "event": "Instrument executed and registered in accordance with the First Schedule; without that the power is not created (s 11(2))",
+      "citations": [
+       "sg-mca-11",
+       "sg-mca-12"
+      ]
+     },
+     {
+      "id": "sg-t-lpp-act",
+      "from": "registered",
+      "to": "active",
+      "event": "P no longer has capacity to make the decision (s 11(1))",
+      "citations": [
+       "sg-mca-11"
+      ]
+     },
+     {
+      "id": "sg-t-lpp-revoke",
+      "from": "registered",
+      "to": "ended",
+      "event": "P revokes while having capacity (s 15(2))",
+      "citations": [
+       "sg-mca-15"
+      ]
+     },
+     {
+      "id": "sg-t-lpp-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of P; probate or administration follows (Probate and Administration Act s 8)",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sg-lpa-welfare",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Donee of a lasting power of attorney (personal welfare)",
+   "localNames": [
+    "lasting power of attorney",
+    "donee"
+   ],
+   "summary": "The same instrument may confer authority over personal welfare, and it works the same way: created only on registration, exercisable only once P lacks capacity for the decision in question.",
+   "lane": {
+    "assigned": {
+     "event": "P executes an instrument conferring authority over personal welfare on a donee who meets the statutory requirements",
+     "phase": "capable",
+     "citations": [
+      "sg-mca-11",
+      "sg-mca-12"
+     ]
+    },
+    "starts": {
+     "event": "On registration, and when P no longer has capacity to make the welfare decision",
+     "phase": "incapacitated",
+     "citations": [
+      "sg-mca-11"
+     ]
+    },
+    "ends": [
+     {
+      "event": "P revokes the power at any time while having capacity to do so",
+      "phase": "capable",
+      "citations": [
+       "sg-mca-15"
+      ]
+     },
+     {
+      "event": "Death of P; the estate passes to the personal representative",
+      "phase": "deceased",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No LPA"
+     },
+     {
+      "id": "registered",
+      "label": "Made and registered; not yet operative"
+     },
+     {
+      "id": "active",
+      "label": "Donee deciding personal welfare for P"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "sg-t-lpw-make",
+      "from": "none",
+      "to": "registered",
+      "event": "Instrument executed and registered; the power is not created otherwise (s 11(2))",
+      "citations": [
+       "sg-mca-11",
+       "sg-mca-12"
+      ]
+     },
+     {
+      "id": "sg-t-lpw-act",
+      "from": "registered",
+      "to": "active",
+      "event": "P no longer has capacity for the welfare decision (s 11(1)(a))",
+      "citations": [
+       "sg-mca-11"
+      ]
+     },
+     {
+      "id": "sg-t-lpw-revoke",
+      "from": "registered",
+      "to": "ended",
+      "event": "P revokes while having capacity (s 15(2))",
+      "citations": [
+       "sg-mca-15"
+      ]
+     },
+     {
+      "id": "sg-t-lpw-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of P (Probate and Administration Act s 8)",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sg-deputy-property",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Deputy for property and affairs",
+   "localNames": [
+    "deputy",
+    "professional deputy"
+   ],
+   "summary": "Where P lacks capacity the court may either make the decision itself or appoint a deputy to make it. A deputy over property and affairs must be 21 or over and act without remuneration, unless they are a professional deputy unrelated to P.",
+   "lane": {
+    "assigned": {
+     "event": "Court finds P lacks capacity in relation to property and affairs and appoints a deputy rather than deciding the matter itself",
+     "phase": "incapacitated",
+     "citations": [
+      "sg-mca-20",
+      "sg-mca-24"
+     ]
+    },
+    "starts": {
+     "event": "On appointment, within the powers the order confers",
+     "phase": "incapacitated",
+     "citations": [
+      "sg-mca-20"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of P; the estate passes to the personal representative",
+      "phase": "deceased",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No deputy"
+     },
+     {
+      "id": "active",
+      "label": "Deputy acting under the court order"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "sg-t-depp-appoint",
+      "from": "none",
+      "to": "active",
+      "event": "Court appoints a deputy for property and affairs (ss 20, 24)",
+      "citations": [
+       "sg-mca-20",
+       "sg-mca-24"
+      ]
+     },
+     {
+      "id": "sg-t-depp-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of P (Probate and Administration Act s 8)",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sg-deputy-welfare",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Deputy for personal welfare",
+   "localNames": [
+    "deputy"
+   ],
+   "summary": "The same power lets the court appoint a deputy for personal welfare. The Act frames appointment as the alternative to the court deciding the matter itself, so the deputy exists only to the extent the order says.",
+   "lane": {
+    "assigned": {
+     "event": "Court finds P lacks capacity in relation to personal welfare and appoints a deputy rather than deciding the matter itself",
+     "phase": "incapacitated",
+     "citations": [
+      "sg-mca-20",
+      "sg-mca-24"
+     ]
+    },
+    "starts": {
+     "event": "On appointment, within the powers the order confers",
+     "phase": "incapacitated",
+     "citations": [
+      "sg-mca-20"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of P",
+      "phase": "deceased",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No deputy"
+     },
+     {
+      "id": "active",
+      "label": "Deputy acting under the court order"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "sg-t-depw-appoint",
+      "from": "none",
+      "to": "active",
+      "event": "Court appoints a deputy for personal welfare (ss 20, 24)",
+      "citations": [
+       "sg-mca-20",
+       "sg-mca-24"
+      ]
+     },
+     {
+      "id": "sg-t-depw-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of P (Probate and Administration Act s 8)",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sg-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor",
+   "localNames": [
+    "executor",
+    "probate"
+   ],
+   "summary": "Probate may be granted to any executor appointed by a will, and the appointment may be express or implied. Where a will appoints several, probate may issue to one or more without prejudice to a later grant to the others.",
+   "lane": {
+    "assigned": {
+     "event": "Will appoints an executor, expressly or by implication",
+     "phase": "capable",
+     "citations": [
+      "sg-paa-8"
+     ]
+    },
+    "starts": {
+     "event": "On the grant of probate; where several are appointed, probate may be granted to one or more of them",
+     "phase": "administration",
+     "citations": [
+      "sg-paa-8"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration of the estate completed",
+      "phase": "closed",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No executor"
+     },
+     {
+      "id": "named",
+      "label": "Appointed by the will, expressly or impliedly"
+     },
+     {
+      "id": "active",
+      "label": "Probate granted"
+     },
+     {
+      "id": "ended",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "sg-t-ex-name",
+      "from": "none",
+      "to": "named",
+      "event": "Will appoints an executor, expressly or by implication (s 8(1)-(2))",
+      "citations": [
+       "sg-paa-8"
+      ]
+     },
+     {
+      "id": "sg-t-ex-grant",
+      "from": "named",
+      "to": "active",
+      "event": "Probate granted; where several are appointed it may issue to one or more (s 8(3))",
+      "citations": [
+       "sg-paa-8"
+      ]
+     },
+     {
+      "id": "sg-t-ex-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Administration of the estate completed (s 8)",
+      "citations": [
+       "sg-paa-8"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sg-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator",
+   "localNames": [
+    "letters of administration",
+    "administration bond"
+   ],
+   "summary": "On intestacy the court may grant letters of administration, having regard to the rights of everyone interested in the estate. Where security is required it is ordinarily a bond by the grantee and two sureties in the sworn amount of the estate.",
+   "lane": {
+    "assigned": {
+     "event": "Person dies intestate and the court considers the rights of all persons interested in the estate",
+     "phase": "deceased",
+     "citations": [
+      "sg-paa-18"
+     ]
+    },
+    "starts": {
+     "event": "On the grant of letters of administration, subject to any security the registrar requires",
+     "phase": "administration",
+     "citations": [
+      "sg-paa-18",
+      "sg-paa-29"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration of the estate completed",
+      "phase": "closed",
+      "citations": [
+       "sg-paa-18"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No administrator"
+     },
+     {
+      "id": "bond",
+      "label": "Security required; bond by grantee and two sureties"
+     },
+     {
+      "id": "active",
+      "label": "Letters of administration granted"
+     },
+     {
+      "id": "ended",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "sg-t-ad-bond",
+      "from": "none",
+      "to": "bond",
+      "event": "Registrar determines the sufficiency of security; ordinarily a bond with two sureties in the sworn amount (s 29)",
+      "citations": [
+       "sg-paa-29"
+      ]
+     },
+     {
+      "id": "sg-t-ad-grant",
+      "from": "bond",
+      "to": "active",
+      "event": "Court grants letters of administration on intestacy, having regard to all interested persons (s 18)",
+      "citations": [
+       "sg-paa-18"
+      ]
+     },
+     {
+      "id": "sg-t-ad-direct",
+      "from": "none",
+      "to": "active",
+      "event": "Grant made where no security is required (ss 18, 29(3))",
+      "citations": [
+       "sg-paa-18",
+       "sg-paa-29"
+      ]
+     },
+     {
+      "id": "sg-t-ad-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Administration of the estate completed (s 18)",
+      "citations": [
+       "sg-paa-18"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "sg-hota-removal",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Designated officer authorising organ removal, subject to a registered objection",
+   "localNames": [
+    "designated officer",
+    "objection register"
+   ],
+   "summary": "Singapore presumes consent. A hospital’s designated officer may authorise removal of an organ from a person who died there, and the block is not a missing consent but a registered objection: no authority may be given where the deceased registered an objection with the Director-General during their lifetime. An objection may be withdrawn at any time.",
+   "lane": {
+    "assigned": {
+     "event": "A person may register an objection to removal of an organ with the Director-General, in the prescribed form, or leave the register untouched",
+     "phase": "capable",
+     "citations": [
+      "sg-hota-8",
+      "sg-hota-9"
+     ]
+    },
+    "starts": {
+     "event": "On death in hospital the designated officer may authorise removal in writing, unless the deceased had registered an objection",
+     "phase": "deceased",
+     "citations": [
+      "sg-hota-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removal authorised and carried out, or barred by a registered objection",
+      "phase": "deceased",
+      "citations": [
+       "sg-hota-4"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No objection registered"
+     },
+     {
+      "id": "objected",
+      "label": "Objection entered on the register"
+     },
+     {
+      "id": "authorised",
+      "label": "Designated officer authorises removal"
+     },
+     {
+      "id": "barred",
+      "label": "No authority may be given"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "sg-t-ho-object",
+      "from": "none",
+      "to": "objected",
+      "event": "Person registers an objection with the Director-General, entered on a register not open to public inspection (ss 8, 9)",
+      "citations": [
+       "sg-hota-8",
+       "sg-hota-9"
+      ]
+     },
+     {
+      "id": "sg-t-ho-withdraw",
+      "from": "objected",
+      "to": "none",
+      "event": "Objection withdrawn in the prescribed form and removed from the register (s 10)",
+      "citations": [
+       "sg-hota-10"
+      ]
+     },
+     {
+      "id": "sg-t-ho-auth",
+      "from": "none",
+      "to": "authorised",
+      "event": "Death in hospital; the designated officer authorises removal in writing (s 4(1))",
+      "citations": [
+       "sg-hota-4"
+      ]
+     },
+     {
+      "id": "sg-t-ho-bar",
+      "from": "objected",
+      "to": "barred",
+      "event": "Death in hospital, but no authority may be given because an objection was registered in the deceased’s lifetime (s 4(2)(a))",
+      "citations": [
+       "sg-hota-4"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "A lasting power of attorney is not created unless the instrument is made and registered in accordance with the First Schedule, so registration is constitutive rather than a later formality.",
+   "citations": [
+    "sg-mca-11"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "The donee’s authority is over decisions P can no longer make; the instrument confers it for when P no longer has capacity.",
+   "citations": [
+    "sg-mca-11"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "note": "The designated officer may authorise removal after death in hospital, and no authority may be given only where the deceased registered an objection with the Director-General in their lifetime. Objections may be withdrawn.",
+   "citations": [
+    "sg-hota-4",
+    "sg-hota-8",
+    "sg-hota-10"
+   ]
+  },
+  "probateGrantName": {
+   "value": "grant of probate / letters of administration",
+   "note": "Probate to an executor appointed by will; letters of administration on intestacy, with security ordinarily by bond and two sureties.",
+   "citations": [
+    "sg-paa-8",
+    "sg-paa-18",
+    "sg-paa-29"
+   ]
+  }
+ }
+}

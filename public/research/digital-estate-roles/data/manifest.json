@@ -91,6 +91,24 @@
    ]
   },
   {
+   "id": "sg",
+   "name": "Singapore",
+   "region": "Asia",
+   "jurisdictions": [
+    {
+     "id": "sg-national",
+     "name": "Singapore",
+     "short": "SG",
+     "files": [
+      "jurisdictions/sg-national.json"
+     ],
+     "country": "sg",
+     "note": "Mental Capacity Act 2008, Probate and Administration Act 1934 and Human Organ Transplant Act 1987, from Singapore Statutes Online. The lasting power of attorney follows the England and Wales model but is stricter at the front: the Act says the power is not created at all unless the instrument is made and registered. Organ donation runs the other way from most of this set — consent is presumed and a registered objection is what blocks removal. Advance medical directives and disposal of remains sit in other statutes not retrieved for this entry.",
+     "label": "Singapore"
+    }
+   ]
+  },
+  {
    "id": "kr",
    "name": "South Korea",
    "region": "Asia",
@@ -552,6 +570,17 @@
    "country": "jp",
    "note": "Civil Code (民法) and the Act on Voluntary Guardianship Contracts (任意後見契約に関する法律), quoted from the Japanese original published by e-Gov. The official English translation stops short of the inheritance book, so the Japanese text is the source here and English role names are descriptive glosses. Japan runs three statutory tiers by degree of impairment — 後見, 保佐, 補助 — which the Code keeps mutually exclusive, alongside a voluntary guardianship contract that only takes effect when the Family Court appoints a supervisor. There is no grant of representation: inheritance commences on death. Health-care proxies, organ donation and disposal of remains sit outside these two statutes and are not recorded.",
    "label": "Japan"
+  },
+  {
+   "id": "sg-national",
+   "name": "Singapore",
+   "short": "SG",
+   "files": [
+    "jurisdictions/sg-national.json"
+   ],
+   "country": "sg",
+   "note": "Mental Capacity Act 2008, Probate and Administration Act 1934 and Human Organ Transplant Act 1987, from Singapore Statutes Online. The lasting power of attorney follows the England and Wales model but is stricter at the front: the Act says the power is not created at all unless the instrument is made and registered. Organ donation runs the other way from most of this set — consent is presumed and a registered objection is what blocks removal. Advance medical directives and disposal of remains sit in other statutes not retrieved for this entry.",
+   "label": "Singapore"
   },
   {
    "id": "kr-national",
