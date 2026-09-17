@@ -1,0 +1,3043 @@
+{
+ "jurisdiction": "uk-ew",
+ "name": "England & Wales",
+ "country": "uk",
+ "legalSystem": "common law",
+ "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted.",
+ "citations": [
+  {
+   "id": "mca-s1",
+   "cite": "Mental Capacity Act 2005 s 1",
+   "title": "The principles",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "all practicable steps to help him to do so have been taken without success"
+  },
+  {
+   "id": "mca-s4",
+   "cite": "Mental Capacity Act 2005 s 4(7)",
+   "title": "Best interests: duty to consult",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "anyone engaged in caring for the person or interested in his welfare"
+  },
+  {
+   "id": "mca-s5",
+   "cite": "Mental Capacity Act 2005 s 5",
+   "title": "Acts in connection with care or treatment",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "D does not incur any liability in relation to the act that he would not have incurred if P"
+  },
+  {
+   "id": "mca-s9",
+   "cite": "Mental Capacity Act 2005 s 9",
+   "title": "Lasting powers of attorney",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/9",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an instrument conferring authority of the kind mentioned in subsection (1) is made and registered in accordance with Schedule 1"
+  },
+  {
+   "id": "mca-s10",
+   "cite": "Mental Capacity Act 2005 s 10",
+   "title": "Appointment of donees",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/10",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-s11",
+   "cite": "Mental Capacity Act 2005 s 11(7)-(8)",
+   "title": "Lasting powers of attorney: restrictions",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/11",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not extend to making such decisions in circumstances other than those where P lacks, or the donee reasonably believes that P lacks, capacity"
+  },
+  {
+   "id": "mca-s13",
+   "cite": "Mental Capacity Act 2005 s 13",
+   "title": "Revocation of lasting powers of attorney etc.",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/13",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the dissolution or annulment of a marriage or civil partnership between the donor and the donee"
+  },
+  {
+   "id": "mca-s14",
+   "cite": "Mental Capacity Act 2005 s 14",
+   "title": "Protection of donee and others if no power created or power revoked",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/14",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-s16",
+   "cite": "Mental Capacity Act 2005 s 16",
+   "title": "Powers to make decisions and appoint deputies: general",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the powers conferred on a deputy should be as limited in scope and duration as is reasonably practicable"
+  },
+  {
+   "id": "mca-s19",
+   "cite": "Mental Capacity Act 2005 s 19",
+   "title": "Appointment of deputies",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/19",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A deputy is to be treated as P's agent"
+  },
+  {
+   "id": "mca-s20",
+   "cite": "Mental Capacity Act 2005 s 20",
+   "title": "Restrictions on deputies",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/20",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A deputy may not refuse consent to the carrying out or continuation of life-sustaining treatment"
+  },
+  {
+   "id": "mca-s24-26",
+   "cite": "Mental Capacity Act 2005 ss 24-26",
+   "title": "Advance decisions to refuse treatment",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/24",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-s25",
+   "cite": "Mental Capacity Act 2005 s 25(2)(b)",
+   "title": "Validity and applicability of advance decisions",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/25",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-s66",
+   "cite": "Mental Capacity Act 2005 s 66",
+   "title": "Existing receivers and enduring powers of attorney etc.",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/66",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "No enduring power of attorney within the meaning of the 1985 Act is to be created"
+  },
+  {
+   "id": "mca-sch1",
+   "cite": "Mental Capacity Act 2005 Sch 1",
+   "title": "Lasting powers of attorney: formalities",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/schedule/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Public Guardian must register the instrument as a lasting power of attorney at the end of the prescribed period"
+  },
+  {
+   "id": "mca-sch4",
+   "cite": "Mental Capacity Act 2005 Sch 4",
+   "title": "Provisions applying to existing enduring powers of attorney",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/schedule/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "has reason to believe that the donor is or is becoming mentally incapable"
+  },
+  {
+   "id": "mca-commencement-2",
+   "cite": "Mental Capacity Act 2005 (Commencement No. 2) Order 2007, SI 2007/1897, art 2",
+   "title": "Appointed day (1 October 2007)",
+   "url": "https://www.legislation.gov.uk/uksi/2007/1897/article/2",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-cop",
+   "cite": "Mental Capacity Act Code of Practice (2007), paras 5.8, 6.21",
+   "title": "Mental Capacity Act Code of Practice",
+   "url": "https://assets.publishing.service.gov.uk/media/5f6cc6138fa8f541f6763295/Mental-capacity-act-code-of-practice.pdf",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "For most day-to-day actions or decisions, the decision-maker will be the carer most directly involved"
+  },
+  {
+   "id": "paa-2023",
+   "cite": "Powers of Attorney Act 2023 s 3 and Schedule",
+   "title": "Extent, commencement; lasting powers of attorney amendments",
+   "url": "https://www.legislation.gov.uk/ukpga/2023/42",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The remaining provisions of this Act come into force on such day or days as the Lord Chancellor may by regulations"
+  },
+  {
+   "id": "paa-1971-s4",
+   "cite": "Powers of Attorney Act 1971 s 4",
+   "title": "Powers of attorney given as security",
+   "url": "https://www.legislation.gov.uk/ukpga/1971/27/section/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "paa-1971-s5",
+   "cite": "Powers of Attorney Act 1971 s 5",
+   "title": "Protection of donee and third persons where power of attorney is revoked",
+   "url": "https://www.legislation.gov.uk/ukpga/1971/27/section/5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "knowledge of the occurrence of any event (such as the death of the donor) which has the effect of revoking the power"
+  },
+  {
+   "id": "govuk-lpa",
+   "cite": "GOV.UK, Make, register or end a lasting power of attorney",
+   "title": "Make, register or end a lasting power of attorney",
+   "url": "https://www.gov.uk/power-of-attorney",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Your LPA will end automatically when you die."
+  },
+  {
+   "id": "opg-lp12",
+   "cite": "OPG, LP12 Make and register your lasting power of attorney: a guide (web version)",
+   "title": "LP12 guide",
+   "url": "https://www.gov.uk/government/publications/lasting-power-of-attorney-forms/lp12-make-and-register-your-lasting-power-of-attorney-a-guide-web-version",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "only when I don't have mental capacity"
+  },
+  {
+   "id": "govuk-make-decisions",
+   "cite": "GOV.UK, Make decisions on behalf of someone",
+   "title": "Make decisions on behalf of someone",
+   "url": "https://www.gov.uk/make-decisions-for-someone",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "an 'ordinary power of attorney' - you can only use this while they have mental capacity"
+  },
+  {
+   "id": "opg-death-note",
+   "cite": "OPG, Public Guardian practice note: notification of death (SD16)",
+   "title": "Notification of death",
+   "url": "https://www.gov.uk/government/publications/public-guardian-practice-note-notification-of-death/public-guardian-practice-note-notification-of-death",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "The death will bring the deputyship to an end"
+  },
+  {
+   "id": "govuk-deputy",
+   "cite": "GOV.UK, Deputies: make decisions for someone who lacks capacity",
+   "title": "Deputies",
+   "url": "https://www.gov.uk/become-deputy",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "You cannot stop being a deputy until you've got the relevant court order."
+  },
+  {
+   "id": "opg-sd3",
+   "cite": "OPG, How to be a deputy: property and financial decisions (SD3)",
+   "title": "How to be a deputy: property and financial decisions",
+   "url": "https://www.gov.uk/government/publications/deputy-guidance-how-to-carry-out-your-duties/sd3-how-to-be-a-property-and-affairs-deputy-web-version",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Your deputyship ends when one of the following things happens"
+  },
+  {
+   "id": "opg-sd4",
+   "cite": "OPG, How to be a deputy: health and welfare decisions (SD4)",
+   "title": "How to be a deputy: health and welfare decisions",
+   "url": "https://www.gov.uk/government/publications/deputy-guidance-how-to-carry-out-your-duties/sd4-how-to-be-a-health-and-welfare-deputy-web-version",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cop-rules-2017",
+   "cite": "Court of Protection Rules 2017, SI 2017/1035",
+   "title": "Court of Protection Rules 2017",
+   "url": "https://www.legislation.gov.uk/uksi/2017/1035/contents",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "sca-1981-s25",
+   "cite": "Senior Courts Act 1981 s 25",
+   "title": "Probate jurisdiction of High Court",
+   "url": "https://www.legislation.gov.uk/ukpga/1981/54/section/25",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "sca-1981-s116",
+   "cite": "Senior Courts Act 1981 s 116",
+   "title": "Power of court to pass over prior claims to grant",
+   "url": "https://www.legislation.gov.uk/ukpga/1981/54/section/116",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "aea-1925-s1",
+   "cite": "Administration of Estates Act 1925 s 1",
+   "title": "Devolution of real estate on personal representative",
+   "url": "https://www.legislation.gov.uk/ukpga/1925/23/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "aea-1925-s9",
+   "cite": "Administration of Estates Act 1925 s 9",
+   "title": "Vesting of estate in Public Trustee where intestacy or lack of executors",
+   "url": "https://www.legislation.gov.uk/ukpga/1925/23/section/9",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall vest in the Public Trustee until the grant of administration"
+  },
+  {
+   "id": "aea-1925-s25",
+   "cite": "Administration of Estates Act 1925 s 25",
+   "title": "Duty of personal representatives",
+   "url": "https://www.legislation.gov.uk/ukpga/1925/23/section/25",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "collect and get in the real and personal estate of the deceased and administer it according to law"
+  },
+  {
+   "id": "aea-1925-s55",
+   "cite": "Administration of Estates Act 1925 s 55(1)(xi)",
+   "title": "Definitions: personal representative",
+   "url": "https://www.legislation.gov.uk/ukpga/1925/23/section/55",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ncpr-r20",
+   "cite": "Non-Contentious Probate Rules 1987, SI 1987/2024, r 20",
+   "title": "Order of priority for grant where deceased left a will",
+   "url": "https://www.legislation.gov.uk/uksi/1987/2024/rule/20",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ncpr-r22",
+   "cite": "Non-Contentious Probate Rules 1987, SI 1987/2024, r 22",
+   "title": "Order of priority for grant in case of intestacy",
+   "url": "https://www.legislation.gov.uk/uksi/1987/2024/rule/22",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "jennison-2022",
+   "cite": "Jennison v Jennison [2022] EWCA Civ 1682, paras 15-18",
+   "title": "Executor's title from death; administrator's from grant; relation back",
+   "url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/1682",
+   "kind": "case-law",
+   "retrieved": "2026-09-16",
+   "quote": "an executor is considered to gain title as soon as the testator dies, but an administrator acquires title only when letters of administration are granted"
+  },
+  {
+   "id": "govuk-probate",
+   "cite": "GOV.UK, Applying for probate",
+   "title": "Applying for probate",
+   "url": "https://www.gov.uk/applying-for-probate",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Every organisation has its own rules."
+  },
+  {
+   "id": "aesp-1965-s1",
+   "cite": "Administration of Estates (Small Payments) Act 1965 s 1 and Sch 1",
+   "title": "Increase in amounts disposable on death without representation",
+   "url": "https://www.legislation.gov.uk/ukpga/1965/32/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "enactments authorising the disposal of property on death, without the necessity for probate or other proof of title"
+  },
+  {
+   "id": "aesp-1965-s6",
+   "cite": "Administration of Estates (Small Payments) Act 1965 s 6",
+   "title": "Power to provide for further increases",
+   "url": "https://www.legislation.gov.uk/ukpga/1965/32/section/6",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "aesp-order-1984",
+   "cite": "Administration of Estates (Small Payments) (Increase of Limit) Order 1984, SI 1984/539",
+   "title": "Increase of limit to £5,000",
+   "url": "https://www.legislation.gov.uk/uksi/1984/539/made",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "oldham-makin-2017",
+   "cite": "Oldham MBC v Makin [2017] EWHC 2543 (Ch), para 9 (quoting Buchanan v Milton [1999] 2 FLR 844, 845-6)",
+   "title": "Right and duty of personal representatives to dispose of the body",
+   "url": "https://www.judiciary.uk/wp-content/uploads/2017/11/oldham-metropolitan-borough-council-v-robin-makin-unredacted-final20171103.pdf",
+   "kind": "case-law",
+   "retrieved": "2026-09-16",
+   "quote": "An executor appointed by will is entitled to obtain possession of the body for that purpose"
+  },
+  {
+   "id": "cremation-2008-r15",
+   "cite": "Cremation (England and Wales) Regulations 2008, SI 2008/2841, reg 15",
+   "title": "Application for cremation",
+   "url": "https://www.legislation.gov.uk/uksi/2008/2841/regulation/15",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "an executor of the deceased person; or a near relative who has attained the age of 16"
+  },
+  {
+   "id": "phcda-1984-s46",
+   "cite": "Public Health (Control of Disease) Act 1984 s 46",
+   "title": "Burial and cremation (local authority duty)",
+   "url": "https://www.legislation.gov.uk/ukpga/1984/22/section/46",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "no suitable arrangements for the disposal of the body have been or are being made"
+  },
+  {
+   "id": "hta-2004-s3",
+   "cite": "Human Tissue Act 2004 s 3",
+   "title": "'Appropriate consent': adults (incl. deemed consent, England)",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the deemed consent of the person concerned"
+  },
+  {
+   "id": "hta-2004-s4",
+   "cite": "Human Tissue Act 2004 s 4",
+   "title": "Nominated representatives",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An adult may appoint one or more persons to represent him after his death in relation to consent"
+  },
+  {
+   "id": "hta-2004-s27",
+   "cite": "Human Tissue Act 2004 s 27(4)-(8)",
+   "title": "Qualifying relationships ranking",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/27",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "friend of longstanding"
+  },
+  {
+   "id": "odda-2019-comm3",
+   "cite": "Organ Donation (Deemed Consent) Act 2019 (Commencement No. 3) Regulations 2020, SI 2020/520",
+   "title": "20 May 2020 appointed day",
+   "url": "https://www.legislation.gov.uk/uksi/2020/520/made",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "20th May 2020 is the appointed day"
+  },
+  {
+   "id": "hta-wales-2013-s4",
+   "cite": "Human Transplantation (Wales) Act 2013 s 4",
+   "title": "Consent: adults (deemed consent)",
+   "url": "https://www.legislation.gov.uk/anaw/2013/5/section/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Consent is deemed to be given to the activity unless"
+  },
+  {
+   "id": "hta-wales-2013-s5",
+   "cite": "Human Transplantation (Wales) Act 2013 s 5",
+   "title": "Consent: excepted adults",
+   "url": "https://www.legislation.gov.uk/anaw/2013/5/section/5",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "hta-wales-2013-s8",
+   "cite": "Human Transplantation (Wales) Act 2013 s 8",
+   "title": "Appointed representatives",
+   "url": "https://www.legislation.gov.uk/anaw/2013/5/section/8",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "pdaa-2025",
+   "cite": "Property (Digital Assets etc) Act 2025 s 1",
+   "title": "Objects of personal property rights",
+   "url": "https://www.legislation.gov.uk/ukpga/2025/29",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A thing (including a thing that is digital or electronic in nature) is not prevented from being the object of personal property rights"
+  },
+  {
+   "id": "lawcom-412",
+   "cite": "Law Commission, Digital Assets: Final Report (Law Com No 412, 2023), ch 1 n 2",
+   "title": "Digital assets: final report",
+   "url": "https://cdn.websitebuilder.service.justice.gov.uk/uploads/sites/54/2025/12/Final-digital-assets-report-FOR-WEBSITE-2.pdf",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16",
+   "quote": "rights of access on death and incapacity to such accounts"
+  },
+  {
+   "id": "hta-wales-2013-s19",
+   "cite": "Human Transplantation (Wales) Act 2013 s 19(3)",
+   "title": "Qualifying relationships",
+   "url": "https://www.legislation.gov.uk/anaw/2013/5/section/19",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  }
+ ],
+ "roles": [
+  {
+   "id": "ew-lpa-property",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney under a property and financial affairs lasting power of attorney",
+   "localNames": [
+    "attorney",
+    "donee of a lasting power of attorney (property and affairs)",
+    "LPA for financial decisions"
+   ],
+   "summary": "An adult with capacity (the donor) appoints one or more attorneys on the prescribed form. The LPA does not exist, and gives no authority, until the Office of the Public Guardian (OPG) registers it. After registration the attorney can act while the donor still has capacity (with the donor's permission) and after the donor loses capacity, unless the donor chose 'only when I don't have mental capacity'.",
+   "lane": {
+    "assigned": {
+     "event": "Donor (18+, with capacity) executes the prescribed LPA form with attorney statements and a certificate provider's certificate",
+     "phase": "capable",
+     "citations": [
+      "mca-s9",
+      "mca-s10",
+      "mca-sch1"
+     ]
+    },
+    "starts": {
+     "event": "On registration by OPG (not before). Usable at once with the donor's permission, unless the donor chose the capacity-only option",
+     "phase": "capable",
+     "citations": [
+      "mca-s9",
+      "mca-sch1",
+      "govuk-lpa",
+      "opg-lp12"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor dies (LPA ends automatically; executors/personal representatives take over)",
+      "phase": "deceased",
+      "citations": [
+       "govuk-lpa",
+       "opg-death-note",
+       "paa-1971-s5"
+      ]
+     },
+     {
+      "event": "Donor revokes while having capacity (deed of revocation sent to OPG)",
+      "phase": "capable",
+      "citations": [
+       "mca-s13",
+       "govuk-lpa"
+      ]
+     },
+     {
+      "event": "Attorney disclaims, dies or lacks capacity, or the marriage or civil partnership between donor and attorney is dissolved or annulled (unless the LPA says otherwise). This ends that attorney's appointment. It revokes the LPA unless a replacement or a joint-and-several co-attorney remains",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-s13",
+       "opg-death-note"
+      ]
+     },
+     {
+      "event": "Court of Protection determines the power revoked or invalid, or revokes it for fraud or for acts not in the donor's best interests; OPG cancels registration",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-sch1"
+      ]
+     },
+     {
+      "event": "Donor's bankruptcy or debt relief order revokes the power (suspended during an interim bankruptcy or debt relief restrictions order); attorney's bankruptcy or DRO ends that attorney's appointment",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-s13"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Registration is required: an instrument that is not made and registered under Sch 1 is not an LPA and 'confers no authority'. The registration application may be made by the donor or the attorneys. Named persons are notified and may object. OPG registers at the end of the prescribed period. GOV.UK says registration takes 8 to 10 weeks.",
+     "citations": [
+      "mca-s9",
+      "mca-sch1",
+      "govuk-lpa"
+     ]
+    },
+    {
+     "text": "Powers of Attorney Act 2023 (Royal Assent 18 September 2023) amends MCA Sch 1: only the donor may apply to register, identity checks, new notification and objection rules, and a basis for digital LPAs. Section 2 (certified copies) came into force on 18 November 2023. According to legislation.gov.uk as retrieved on 2026-09-16, the Schedule has no commencement date and needs Lord Chancellor regulations. The Sch 1 text above is the unamended version in force. Legislation.gov.uk can lag behind new commencement orders, so check.",
+     "citations": [
+      "paa-2023",
+      "mca-sch1"
+     ]
+    },
+    {
+     "text": "Authority is subject to the MCA principles, best interests (s 4) and any conditions or restrictions in the instrument. An attorney cannot appoint a substitute, but the instrument may name replacement attorneys.",
+     "citations": [
+      "mca-s9",
+      "mca-s10",
+      "mca-s1",
+      "mca-s4"
+     ]
+    },
+    {
+     "text": "Third parties and attorneys acting without knowledge of revocation (including the donor's death) are protected.",
+     "citations": [
+      "mca-s14",
+      "paa-1971-s5"
+     ]
+    },
+    {
+     "text": "A registered LPA does not extend to Scotland or Northern Ireland as a power to deal with assets there (GOV.UK: legally binding only in England and Wales). An office copy is evidence of registration anywhere in the UK.",
+     "citations": [
+      "govuk-lpa",
+      "mca-sch1"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed/instrument made but not yet usable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Donor and attorneys sign prescribed form; certificate provider certifies",
+      "conditions": [
+       "Donor 18+ with capacity to execute",
+       "Attorney 18+ (or trust corporation); not bankrupt/DRO"
+      ],
+      "citations": [
+       "mca-s9",
+       "mca-s10",
+       "mca-sch1"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-register",
+      "from": "designated",
+      "to": "active",
+      "event": "OPG registers the instrument",
+      "conditions": [
+       "No valid objection; instrument properly made; no conflicting deputy unless court directs"
+      ],
+      "citations": [
+       "mca-s9",
+       "mca-sch1",
+       "govuk-lpa"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-bankrupt-interim",
+      "from": "active",
+      "to": "suspended",
+      "event": "Interim bankruptcy or debt relief restrictions order against the donor",
+      "conditions": [],
+      "citations": [
+       "mca-s13"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-resume",
+      "from": "suspended",
+      "to": "active",
+      "event": "Interim order ceases to have effect",
+      "conditions": [],
+      "citations": [
+       "mca-s13"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-revoke-donor",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor revokes while capable",
+      "conditions": [],
+      "citations": [
+       "mca-s13",
+       "govuk-lpa"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-attorney-event",
+      "from": "active",
+      "to": "terminated",
+      "event": "Sole or joint attorney dies, disclaims, lacks capacity, becomes bankrupt, or divorces/dissolves civil partnership with donor, and no replacement or joint-and-several attorney remains",
+      "conditions": [],
+      "citations": [
+       "mca-s13",
+       "opg-death-note"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-donor-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies",
+      "conditions": [],
+      "citations": [
+       "govuk-lpa",
+       "opg-death-note"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-court",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court of Protection revokes or directs cancellation",
+      "conditions": [],
+      "citations": [
+       "mca-sch1"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-lpa-property-capacity-only",
+   "canonical": "financial-poa-springing",
+   "group": "financial",
+   "name": "Property and financial affairs LPA restricted to use only when the donor lacks capacity",
+   "localNames": [
+    "LPA with 'only when I don't have mental capacity' option",
+    "attorney"
+   ],
+   "summary": "This is not a separate instrument. The prescribed LPA form lets the donor choose that attorneys may act only when the donor lacks capacity, and the donor may add an instruction such as needing a written medical opinion first. The LPA must still be registered. The springing effect comes from that choice or condition, which the MCA allows (s 9(4)(b)).",
+   "derivedFrom": [
+    "financial-poa-durable"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Donor executes the LPA and ticks 'only when I don't have mental capacity', optionally adding an instruction on how incapacity is to be shown",
+     "phase": "capable",
+     "citations": [
+      "opg-lp12",
+      "mca-s9"
+     ]
+    },
+    "starts": {
+     "event": "After registration, when the donor lacks capacity for the decision (or when any condition in the instructions, such as a written medical opinion, is met)",
+     "phase": "incapacitated",
+     "citations": [
+      "opg-lp12",
+      "mca-s9",
+      "govuk-make-decisions"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor dies (LPA ends automatically; executors/personal representatives take over)",
+      "phase": "deceased",
+      "citations": [
+       "govuk-lpa",
+       "opg-death-note",
+       "paa-1971-s5"
+      ]
+     },
+     {
+      "event": "Donor revokes while having capacity (deed of revocation sent to OPG)",
+      "phase": "capable",
+      "citations": [
+       "mca-s13",
+       "govuk-lpa"
+      ]
+     },
+     {
+      "event": "Attorney disclaims, dies or lacks capacity, or the marriage or civil partnership between donor and attorney is dissolved or annulled (unless the LPA says otherwise). This ends that attorney's appointment. It revokes the LPA unless a replacement or a joint-and-several co-attorney remains",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-s13",
+       "opg-death-note"
+      ]
+     },
+     {
+      "event": "Court of Protection determines the power revoked or invalid, or revokes it for fraud or for acts not in the donor's best interests; OPG cancels registration",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-sch1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "OPG warns that banks may want written confirmation of the donor's incapacity before accepting the attorney, and attorneys may need to ask the GP, social worker or care home for a capacity assessment.",
+     "citations": [
+      "opg-lp12"
+     ]
+    },
+    {
+     "text": "Registration is still needed first. It can be done while the donor has capacity, so the LPA is 'ready for your attorneys to use' if capacity is lost.",
+     "citations": [
+      "opg-lp12",
+      "mca-s9"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed/instrument made but not yet usable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "LPA executed with capacity-only option",
+      "conditions": [],
+      "citations": [
+       "opg-lp12",
+       "mca-sch1"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-register",
+      "from": "designated",
+      "to": "designated",
+      "event": "OPG registers; authority still dormant while donor has capacity",
+      "conditions": [],
+      "citations": [
+       "mca-sch1",
+       "opg-lp12"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-spring",
+      "from": "designated",
+      "to": "active",
+      "event": "Donor lacks capacity for the decision and any condition in the instrument is met",
+      "conditions": [
+       "Registration already complete"
+      ],
+      "citations": [
+       "opg-lp12",
+       "mca-s9"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-regain",
+      "from": "active",
+      "to": "designated",
+      "event": "Donor regains capacity for the decision",
+      "conditions": [
+       "Follows from the terms of the restriction"
+      ],
+      "citations": [
+       "mca-s9",
+       "opg-lp12"
+      ],
+      "unverified": true,
+      "phase": "capable"
+     },
+     {
+      "id": "t-donor-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies",
+      "conditions": [],
+      "citations": [
+       "govuk-lpa",
+       "opg-death-note"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Donor revokes while capable, or attorney-side revoking event",
+      "conditions": [],
+      "citations": [
+       "mca-s13"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-lpa-health-welfare",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Attorney under a health and welfare lasting power of attorney",
+   "localNames": [
+    "attorney",
+    "donee of a lasting power of attorney (personal welfare)",
+    "LPA for health and care decisions"
+   ],
+   "summary": "A registered health and welfare LPA lets the attorney decide about care, where the donor lives and medical treatment. It works only when the donor lacks capacity for the decision, or the attorney reasonably believes so. The attorney can decide about life-sustaining treatment only if the LPA expressly says so.",
+   "lane": {
+    "assigned": {
+     "event": "Donor (18+, with capacity) executes the prescribed LPA form",
+     "phase": "capable",
+     "citations": [
+      "mca-s9",
+      "mca-sch1"
+     ]
+    },
+    "starts": {
+     "event": "Registered by OPG AND donor lacks (or attorney reasonably believes donor lacks) capacity for the particular decision",
+     "phase": "incapacitated",
+     "citations": [
+      "mca-s9",
+      "mca-s11",
+      "govuk-lpa"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor dies (LPA ends automatically; executors/personal representatives take over)",
+      "phase": "deceased",
+      "citations": [
+       "govuk-lpa",
+       "opg-death-note",
+       "paa-1971-s5"
+      ]
+     },
+     {
+      "event": "Donor revokes while having capacity (deed of revocation sent to OPG)",
+      "phase": "capable",
+      "citations": [
+       "mca-s13",
+       "govuk-lpa"
+      ]
+     },
+     {
+      "event": "Attorney disclaims, dies or lacks capacity, or the marriage or civil partnership between donor and attorney is dissolved or annulled (unless the LPA says otherwise). This ends that attorney's appointment. It revokes the LPA unless a replacement or a joint-and-several co-attorney remains",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-s13",
+       "opg-death-note"
+      ]
+     },
+     {
+      "event": "Court of Protection determines the power revoked or invalid, or revokes it for fraud or for acts not in the donor's best interests; OPG cancels registration",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-sch1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Life-sustaining treatment: the attorney can give or refuse consent only if the instrument expressly provides for it. On the form this is option A in section 5; with option B the doctors decide.",
+     "citations": [
+      "mca-s11",
+      "opg-lp12"
+     ]
+    },
+    {
+     "text": "Advance decisions: the attorney's authority is subject to a valid and applicable advance decision to refuse treatment. A later LPA covering the same treatment makes the earlier advance decision invalid. Advance decisions (ss 24-26) are not an agent role.",
+     "citations": [
+      "mca-s11",
+      "mca-s24-26",
+      "mca-s25"
+     ]
+    },
+    {
+     "text": "The donor's or attorney's bankruptcy does not affect the welfare power.",
+     "citations": [
+      "mca-s13"
+     ]
+    },
+    {
+     "text": "There is no authority after death: the LPA ends automatically. Organ donation is decided under the Human Tissue Act 2004 / Human Transplantation (Wales) Act 2013 (see anatomical-gift roles), and disposal of the body falls to the personal representatives.",
+     "citations": [
+      "govuk-lpa",
+      "hta-2004-s3",
+      "oldham-makin-2017"
+     ]
+    },
+    {
+     "text": "Authority is decision-specific and can come and go as the donor's capacity fluctuates, because s 11(7)(a) is tested for each decision.",
+     "citations": [
+      "mca-s11",
+      "mca-s1"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed/instrument made but not yet usable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Donor and attorneys sign prescribed form",
+      "conditions": [],
+      "citations": [
+       "mca-s9",
+       "mca-sch1"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-register",
+      "from": "designated",
+      "to": "designated",
+      "event": "OPG registers; still not exercisable while donor has capacity",
+      "conditions": [],
+      "citations": [
+       "mca-sch1",
+       "mca-s11"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-activate",
+      "from": "designated",
+      "to": "active",
+      "event": "Donor lacks capacity for the decision in question (or attorney reasonably believes so)",
+      "conditions": [
+       "Registered",
+       "Subject to advance decisions and instrument restrictions"
+      ],
+      "citations": [
+       "mca-s11"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-regain",
+      "from": "active",
+      "to": "designated",
+      "event": "Donor has capacity for the decision",
+      "conditions": [],
+      "citations": [
+       "mca-s11"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Donor revokes while capable",
+      "conditions": [],
+      "citations": [
+       "mca-s13",
+       "govuk-lpa"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-attorney-event",
+      "from": "active",
+      "to": "terminated",
+      "event": "Sole or joint attorney dies, disclaims, lacks capacity, or marriage/civil partnership with donor ends (unless instrument provides otherwise), with no replacement",
+      "conditions": [],
+      "citations": [
+       "mca-s13",
+       "opg-death-note"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-donor-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies",
+      "conditions": [],
+      "citations": [
+       "govuk-lpa",
+       "opg-death-note"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-epa",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney under an enduring power of attorney (made before 1 October 2007)",
+   "localNames": [
+    "attorney under an enduring power",
+    "EPA"
+   ],
+   "summary": "EPAs could not be made after the MCA came into force on 1 October 2007, but earlier ones still work under MCA Sch 4. They cover property and financial affairs only. An EPA can be used before registration while the donor has capacity. Once the attorney believes the donor is or is becoming mentally incapable, the attorney must apply to OPG to register it, and until registration can do only limited acts.",
+   "lane": {
+    "assigned": {
+     "event": "Donor and attorney executed prescribed EPA form before 1 October 2007",
+     "phase": "capable",
+     "citations": [
+      "mca-s66",
+      "mca-sch4",
+      "mca-commencement-2"
+     ]
+    },
+    "starts": {
+     "event": "On execution, as an ordinary power, unless the instrument says otherwise; survives the donor's incapacity",
+     "phase": "capable",
+     "citations": [
+      "mca-sch4",
+      "govuk-make-decisions"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor dies (OPG cancels registration)",
+      "phase": "deceased",
+      "citations": [
+       "mca-sch4",
+       "opg-death-note"
+      ]
+     },
+     {
+      "event": "Bankruptcy or debt relief order of donor or attorney",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-sch4"
+      ]
+     },
+     {
+      "event": "Attorney disclaims (by notice to donor, or to OPG once registration applied for) or dies",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-sch4",
+       "opg-death-note"
+      ]
+     },
+     {
+      "event": "Court of Protection revokes (e.g. when exercising deputy powers, or attorney unsuitable) or cancels registration",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-sch4"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Starting use before incapacity: that EPAs can be used while the donor has capacity comes from the general law of agency and GOV.UK guidance ('ongoing decisions'). Sch 4 governs only what happens on incapacity.",
+     "citations": [
+      "mca-sch4",
+      "govuk-make-decisions"
+     ],
+     "unverified": true
+    },
+    {
+     "text": "On the donor's actual or impending incapacity: the attorney must apply to OPG to register as soon as practicable, after notifying the donor and relatives. Until registration, authority is suspended except for acts to maintain the donor or prevent loss to the estate once the application is made. PAA 1971 s 5 applies as if the power had been revoked by incapacity.",
+     "citations": [
+      "mca-sch4",
+      "paa-1971-s5"
+     ]
+    },
+    {
+     "text": "The court must cancel registration if satisfied that the donor is and is likely to remain mentally capable.",
+     "citations": [
+      "mca-sch4"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed/instrument made but not yet usable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     },
+     {
+      "id": "pending_registration",
+      "label": "Donor becoming incapable; application to OPG made; only acts to maintain donor or prevent loss"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "active",
+      "event": "EPA executed before 1 Oct 2007 (usable while donor capable)",
+      "conditions": [],
+      "citations": [
+       "mca-sch4",
+       "mca-s66"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-incapacity",
+      "from": "active",
+      "to": "suspended",
+      "event": "Donor becomes mentally incapable before registration: general authority suspended",
+      "conditions": [],
+      "citations": [
+       "mca-sch4"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-apply",
+      "from": "suspended",
+      "to": "pending_registration",
+      "event": "Attorney applies to OPG for registration",
+      "conditions": [
+       "Notice given to donor and relatives"
+      ],
+      "citations": [
+       "mca-sch4"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-register",
+      "from": "pending_registration",
+      "to": "active",
+      "event": "OPG registers the instrument",
+      "conditions": [],
+      "citations": [
+       "mca-sch4"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies",
+      "conditions": [],
+      "citations": [
+       "mca-sch4",
+       "opg-death-note"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-bankrupt",
+      "from": "active",
+      "to": "terminated",
+      "event": "Bankruptcy/DRO of donor or attorney",
+      "conditions": [],
+      "citations": [
+       "mca-sch4"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-ordinary-poa",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Attorney under an ordinary (general) power of attorney",
+   "localNames": [
+    "attorney",
+    "donee of a power of attorney",
+    "general power of attorney (Powers of Attorney Act 1971 s 10)"
+   ],
+   "summary": "An ordinary power of attorney under the Powers of Attorney Act 1971 and the common law of agency. It needs no registration and can be used at once, but it stops working when the donor loses mental capacity and ends on the donor's death. The 1971 Act protects attorneys and third parties who act without knowing it has been revoked.",
+   "lane": {
+    "assigned": {
+     "event": "Donor with capacity executes a power of attorney by deed",
+     "phase": "capable",
+     "citations": [
+      "paa-1971-s5",
+      "govuk-make-decisions"
+     ]
+    },
+    "starts": {
+     "event": "On execution, or as the instrument states",
+     "phase": "capable",
+     "citations": [
+      "govuk-make-decisions"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor loses mental capacity (common-law revocation; 'you can only use this while they have mental capacity')",
+      "phase": "incapacitated",
+      "citations": [
+       "govuk-make-decisions",
+       "mca-sch4"
+      ]
+     },
+     {
+      "event": "Donor dies",
+      "phase": "deceased",
+      "citations": [
+       "paa-1971-s5"
+      ]
+     },
+     {
+      "event": "Donor revokes, or the instrument's stated period expires",
+      "phase": "capable",
+      "citations": [
+       "govuk-make-decisions"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "notes": [
+    {
+     "text": "No statute says that an ordinary POA is revoked by incapacity. It is a common-law rule, reflected in MCA Sch 4 para 1(1)(c) ('as if the power had been revoked by the donor's mental incapacity') and in GOV.UK guidance. Revocation by death is recognised in PAA 1971 s 5(5).",
+     "citations": [
+      "mca-sch4",
+      "paa-1971-s5",
+      "govuk-make-decisions"
+     ]
+    },
+    {
+     "text": "Exception: a power expressed to be irrevocable and given as security survives the donor's death, incapacity or bankruptcy while the secured interest or obligation lasts.",
+     "citations": [
+      "paa-1971-s4"
+     ]
+    },
+    {
+     "text": "Protection: a donee who acts without knowing of revocation incurs no liability, and a third party dealing without that knowledge gets a valid transaction.",
+     "citations": [
+      "paa-1971-s5"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed/instrument made but not yet usable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Donor executes POA",
+      "conditions": [],
+      "citations": [
+       "govuk-make-decisions"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-incapacity",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor loses capacity",
+      "conditions": [
+       "Common-law rule; security powers under PAA 1971 s 4 excepted"
+      ],
+      "citations": [
+       "govuk-make-decisions",
+       "mca-sch4"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies",
+      "conditions": [],
+      "citations": [
+       "paa-1971-s5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor revokes or term expires",
+      "conditions": [],
+      "citations": [
+       "govuk-make-decisions"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-deputy-property",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Property and financial affairs deputy",
+   "localNames": [
+    "deputy",
+    "property and affairs deputy"
+   ],
+   "summary": "The Court of Protection appoints a deputy, by order, to make property and financial decisions for a person (P) who lacks capacity for those matters. The appointment lasts until the court discharges it, P regains capacity, or P dies.",
+   "lane": {
+    "assigned": {
+     "event": "Court of Protection order under MCA s 16",
+     "phase": "incapacitated",
+     "citations": [
+      "mca-s16",
+      "mca-s19"
+     ]
+    },
+    "starts": {
+     "event": "When the court order is issued (for property deputies, after any required security bond is in place)",
+     "phase": "incapacitated",
+     "citations": [
+      "govuk-deputy",
+      "mca-s19"
+     ]
+    },
+    "ends": [
+     {
+      "event": "P dies: the deputyship ends (deputy tells OPG and the court; the final report may be required)",
+      "phase": "deceased",
+      "citations": [
+       "opg-death-note",
+       "opg-sd3",
+       "opg-sd4",
+       "mca-s19"
+      ]
+     },
+     {
+      "event": "P regains capacity: the deputy loses power over matters P can decide, and the order is discharged on application (form COP9)",
+      "phase": "capable",
+      "citations": [
+       "mca-s20",
+       "mca-s16",
+       "opg-sd3",
+       "govuk-deputy"
+      ]
+     },
+     {
+      "event": "Court revokes the appointment or varies/discharges the order (e.g. deputy acting outside authority or not in P's best interests), or order expires",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-s16",
+       "govuk-deputy"
+      ]
+     },
+     {
+      "event": "Deputy steps down (court order needed) or dies (sole/joint deputyship ends)",
+      "phase": "incapacitated",
+      "citations": [
+       "govuk-deputy",
+       "opg-sd4",
+       "opg-death-note"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The court must prefer making a single decision to appointing a deputy, and a deputy's powers must be as limited in scope and duration as is reasonably practicable. A deputy acts as P's agent, must consent to the appointment, and is supervised by OPG. Procedure is under the Court of Protection Rules 2017 (application COP1, capacity assessment COP3, deputy's declaration COP4).",
+     "citations": [
+      "mca-s16",
+      "mca-s19",
+      "cop-rules-2017",
+      "govuk-deputy"
+     ]
+    },
+    {
+     "text": "A deputy cannot decide anything P has capacity to decide, and cannot override a decision an LPA attorney makes within the attorney's authority.",
+     "citations": [
+      "mca-s20"
+     ]
+    },
+    {
+     "text": "A deputy cannot be given power to settle P's property, make P's will, or exercise powers P holds as trustee. Statutory wills need a court order.",
+     "citations": [
+      "mca-s20"
+     ]
+    },
+    {
+     "text": "After P's death the deputy has no authority; the estate passes to P's personal representatives. The security bond stays in force for 2 years after death unless the court cancels it.",
+     "citations": [
+      "opg-death-note",
+      "govuk-deputy"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed/instrument made but not yet usable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     },
+     {
+      "id": "pending_bond",
+      "label": "Order made; property and affairs deputy must arrange security bond before sealed order issues"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Application to Court of Protection (COP1, COP3, COP4); notice served",
+      "conditions": [
+       "P lacks capacity in relation to the matter"
+      ],
+      "citations": [
+       "cop-rules-2017",
+       "govuk-deputy"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-order",
+      "from": "designated",
+      "to": "active",
+      "event": "Court appoints deputy by order and sends it",
+      "conditions": [
+       "Deputy consents",
+       "For property deputies, security bond set up if required"
+      ],
+      "citations": [
+       "mca-s16",
+       "mca-s19",
+       "govuk-deputy"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-p-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "P regains capacity; order discharged",
+      "conditions": [],
+      "citations": [
+       "mca-s20",
+       "mca-s16",
+       "opg-sd3"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court revokes, varies or discharges; or deputy discharged at own request",
+      "conditions": [],
+      "citations": [
+       "mca-s16",
+       "govuk-deputy"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-p-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "P dies",
+      "conditions": [],
+      "citations": [
+       "opg-death-note",
+       "opg-sd3",
+       "opg-sd4"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-deputy-welfare",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Personal welfare (health and welfare) deputy",
+   "localNames": [
+    "deputy",
+    "personal welfare deputy"
+   ],
+   "summary": "The Court of Protection can appoint a deputy for health and welfare decisions. It does so less often, because the court prefers to make single decisions itself. A welfare deputy cannot refuse life-sustaining treatment, stop named people contacting P, or hand P's healthcare responsibility to a different person.",
+   "lane": {
+    "assigned": {
+     "event": "Court of Protection order under MCA s 16",
+     "phase": "incapacitated",
+     "citations": [
+      "mca-s16",
+      "mca-s19"
+     ]
+    },
+    "starts": {
+     "event": "When the court order is sent to the deputy",
+     "phase": "incapacitated",
+     "citations": [
+      "govuk-deputy"
+     ]
+    },
+    "ends": [
+     {
+      "event": "P dies: the deputyship ends (deputy tells OPG and the court; the final report may be required)",
+      "phase": "deceased",
+      "citations": [
+       "opg-death-note",
+       "opg-sd3",
+       "opg-sd4",
+       "mca-s19"
+      ]
+     },
+     {
+      "event": "P regains capacity: the deputy loses power over matters P can decide, and the order is discharged on application (form COP9)",
+      "phase": "capable",
+      "citations": [
+       "mca-s20",
+       "mca-s16",
+       "opg-sd3",
+       "govuk-deputy"
+      ]
+     },
+     {
+      "event": "Court revokes the appointment or varies/discharges the order (e.g. deputy acting outside authority or not in P's best interests), or order expires",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-s16",
+       "govuk-deputy"
+      ]
+     },
+     {
+      "event": "Deputy steps down (court order needed) or dies (sole/joint deputyship ends)",
+      "phase": "incapacitated",
+      "citations": [
+       "govuk-deputy",
+       "opg-sd4",
+       "opg-death-note"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The court must prefer making a single decision to appointing a deputy, and a deputy's powers must be as limited in scope and duration as is reasonably practicable. A deputy acts as P's agent, must consent to the appointment, and is supervised by OPG. Procedure is under the Court of Protection Rules 2017 (application COP1, capacity assessment COP3, deputy's declaration COP4).",
+     "citations": [
+      "mca-s16",
+      "mca-s19",
+      "cop-rules-2017",
+      "govuk-deputy"
+     ]
+    },
+    {
+     "text": "A deputy cannot decide anything P has capacity to decide, and cannot override a decision an LPA attorney makes within the attorney's authority.",
+     "citations": [
+      "mca-s20"
+     ]
+    },
+    {
+     "text": "A deputy may not refuse consent to life-sustaining treatment, and may restrain P only within expressly conferred authority and when four conditions are met.",
+     "citations": [
+      "mca-s20"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed/instrument made but not yet usable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Application to Court of Protection (COP1, COP3, COP4); notice served",
+      "conditions": [
+       "P lacks capacity in relation to the matter"
+      ],
+      "citations": [
+       "cop-rules-2017",
+       "govuk-deputy"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-order",
+      "from": "designated",
+      "to": "active",
+      "event": "Court appoints deputy by order and sends it",
+      "conditions": [
+       "Deputy consents",
+       "For property deputies, security bond set up if required"
+      ],
+      "citations": [
+       "mca-s16",
+       "mca-s19",
+       "govuk-deputy"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-p-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "P regains capacity; order discharged",
+      "conditions": [],
+      "citations": [
+       "mca-s20",
+       "mca-s16",
+       "opg-sd3"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court revokes, varies or discharges; or deputy discharged at own request",
+      "conditions": [],
+      "citations": [
+       "mca-s16",
+       "govuk-deputy"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-p-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "P dies",
+      "conditions": [],
+      "citations": [
+       "opg-death-note",
+       "opg-sd3",
+       "opg-sd4"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-mca-s5-decision-maker",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "No statutory surrogate: decision-maker acting under MCA s 5 in best interests",
+   "localNames": [
+    "decision-maker",
+    "person providing care or treatment (s 5)"
+   ],
+   "summary": "England and Wales has no next-of-kin hierarchy for decisions. If nobody holds an LPA or deputyship, whoever is doing the act (usually the treating clinician or the carer most directly involved) decides in P's best interests. They are protected from liability under s 5 and must consult family, carers and others interested in P's welfare. Family members consulted in this way do not consent for P.",
+   "lane": {
+    "assigned": {
+     "event": "No appointment: the role falls to whoever does the act, e.g. the doctor proposing the treatment or the carer providing day-to-day care",
+     "phase": "incapacitated",
+     "citations": [
+      "mca-s5",
+      "mca-cop"
+     ]
+    },
+    "starts": {
+     "event": "When D takes reasonable steps to establish, and reasonably believes, that P lacks capacity for the matter and that the act is in P's best interests",
+     "phase": "incapacitated",
+     "citations": [
+      "mca-s5",
+      "mca-s4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "P has capacity for the decision",
+      "phase": "capable",
+      "citations": [
+       "mca-s1",
+       "mca-s5"
+      ]
+     },
+     {
+      "event": "A registered attorney or deputy with authority over the matter makes the decision, or a valid and applicable advance decision applies",
+      "phase": "incapacitated",
+      "citations": [
+       "mca-cop",
+       "mca-s5"
+      ]
+     },
+     {
+      "event": "P dies",
+      "phase": "deceased",
+      "citations": [
+       "mca-s5"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Section 5 does not give one person more rights than another, does not say who has authority, and does not let anyone consent for P.",
+     "citations": [
+      "mca-cop",
+      "mca-s5"
+     ]
+    },
+    {
+     "text": "Duty to consult: the decision-maker must take into account, where practicable and appropriate, the views of anyone P named, anyone caring for P or interested in P's welfare, any attorney, and any deputy.",
+     "citations": [
+      "mca-s4"
+     ]
+    },
+    {
+     "text": "Where P has no one appropriate to consult and faces serious medical treatment or a long-term move, NHS bodies and local authorities must instruct an Independent Mental Capacity Advocate (MCA ss 35-41). This is not verified pinpoint by pinpoint here.",
+     "citations": [
+      "mca-cop"
+     ],
+     "unverified": true
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "P has capacity, or no decision is needed"
+     },
+     {
+      "id": "active",
+      "label": "Decision-maker acting in P's best interests under s 5"
+     },
+     {
+      "id": "terminated",
+      "label": "P regains capacity, attorney/deputy decides, or P dies"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-act",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Decision needed for P who lacks capacity; D reasonably believes P lacks capacity and act is in best interests",
+      "conditions": [],
+      "citations": [
+       "mca-s5",
+       "mca-s4",
+       "mca-cop"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "P regains capacity for the matter",
+      "conditions": [],
+      "citations": [
+       "mca-s1"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-attorney",
+      "from": "active",
+      "to": "terminated",
+      "event": "Attorney or deputy with authority decides",
+      "conditions": [],
+      "citations": [
+       "mca-cop"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor",
+   "localNames": [
+    "executor",
+    "personal representative",
+    "executor to whom probate is granted"
+   ],
+   "summary": "An executor is named in the will. Their title and authority come from the will and start at the moment of death. The grant of probate from the High Court (Family Division probate registry) does not create that authority. It is the only way to prove it, and most asset holders ask to see it.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names executor in a valid will",
+     "phase": "capable",
+     "citations": [
+      "jennison-2022",
+      "ncpr-r20"
+     ]
+    },
+    "starts": {
+     "event": "At the testator's death: estate vests in the executor; may act (and even start proceedings) before probate, but needs the grant to prove title",
+     "phase": "deceased",
+     "citations": [
+      "jennison-2022",
+      "aea-1925-s1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate fully administered: debts, taxes and legacies paid, residue distributed. No formal discharge exists",
+      "phase": "closed",
+      "citations": [
+       "aea-1925-s25"
+      ]
+     },
+     {
+      "event": "Executor gives up the right to apply for probate (renunciation, form PA15) or holds power reserved",
+      "phase": "deceased",
+      "citations": [
+       "govuk-probate"
+      ]
+     },
+     {
+      "event": "Grant revoked, or court passes over the executor and appoints an administrator in special circumstances",
+      "phase": "administration",
+      "citations": [
+       "sca-1981-s25",
+       "sca-1981-s116",
+       "oldham-makin-2017"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Court of Appeal: 'an executor is considered to gain title as soon as the testator dies'. Quoting Woolley v Clark (1822) and Chetty v Chetty [1916] AC 604: an executor 'derives his title and authority from the will ... and not from any grant of probate'; production of probate is only how title is proved in court.",
+     "citations": [
+      "jennison-2022"
+     ]
+    },
+    {
+     "text": "Duties: collect and get in the estate and administer it according to law; give an inventory and account when the court requires; hand back the grant if required.",
+     "citations": [
+      "aea-1925-s25"
+     ]
+    },
+    {
+     "text": "Ending: legislation.gov.uk has no statutory 'discharge' of an executor. The view that executorship persists after administration, so that later-found assets can still be dealt with ('once an executor, always an executor'), was not confirmed from a primary source reachable here.",
+     "citations": [
+      "aea-1925-s25"
+     ],
+     "unverified": true
+    },
+    {
+     "text": "Probate jurisdiction: the High Court's probate jurisdiction (non-contentious business in the probate registries) issues grants of probate and letters of administration.",
+     "citations": [
+      "sca-1981-s25"
+     ]
+    },
+    {
+     "text": "Institutions: GOV.UK says organisations each set their own rules on whether they need to see probate. This is institutional policy, not law.",
+     "citations": [
+      "govuk-probate"
+     ]
+    },
+    {
+     "text": "Lifetime (revocable) trusts are uncommon as will substitutes in England and Wales, so no successor-trustee role is modelled. This is not a legal rule and has no citation.",
+     "citations": [],
+     "unverified": true
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No will naming this person"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will; testator alive"
+     },
+     {
+      "id": "active",
+      "label": "Testator dead; executor has title and authority (before or after probate)"
+     },
+     {
+      "id": "suspended",
+      "label": "Not used"
+     },
+     {
+      "id": "terminated",
+      "label": "Renounced, passed over/grant revoked, or administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will executed naming executor",
+      "conditions": [],
+      "citations": [
+       "ncpr-r20"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Testator dies",
+      "conditions": [],
+      "citations": [
+       "jennison-2022"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-probate",
+      "from": "active",
+      "to": "active",
+      "event": "Grant of probate issued, confirming (not creating) authority",
+      "conditions": [],
+      "citations": [
+       "jennison-2022",
+       "sca-1981-s25"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-renounce",
+      "from": "active",
+      "to": "terminated",
+      "event": "Executor renounces the right to apply (PA15)",
+      "conditions": [
+       "The rule that an executor who has intermeddled cannot renounce is not verified here"
+      ],
+      "citations": [
+       "govuk-probate"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-passover",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court passes over executor under s 116 or revokes grant",
+      "conditions": [],
+      "citations": [
+       "sca-1981-s116",
+       "oldham-makin-2017"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration complete",
+      "conditions": [
+       "No formal discharge"
+      ],
+      "citations": [
+       "aea-1925-s25"
+      ],
+      "unverified": true,
+      "phase": "closed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator",
+   "localNames": [
+    "administrator",
+    "personal representative",
+    "grant of letters of administration",
+    "administrator with will annexed"
+   ],
+   "summary": "If there is no will, or no executor who can prove it, someone must be granted letters of administration, in the order of priority set by the Non-Contentious Probate Rules 1987 (r 22 for intestacy, r 20 for a will). An administrator has no authority until the grant. Until then the estate vests in the Public Trustee. Once granted, the administrator's title relates back to the date of death.",
+   "lane": {
+    "assigned": {
+     "event": "Probate registry grants letters of administration to the person entitled under NCPR r 20/r 22 (or court appoints under SCA 1981 s 116)",
+     "phase": "administration",
+     "citations": [
+      "ncpr-r20",
+      "ncpr-r22",
+      "sca-1981-s116"
+     ]
+    },
+    "starts": {
+     "event": "On the grant (title then relates back to the death for property, but not to validate proceedings begun earlier)",
+     "phase": "administration",
+     "citations": [
+      "jennison-2022",
+      "aea-1925-s9"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate fully administered; no formal discharge",
+      "phase": "closed",
+      "citations": [
+       "aea-1925-s25"
+      ]
+     },
+     {
+      "event": "Grant revoked by the court",
+      "phase": "administration",
+      "citations": [
+       "sca-1981-s25"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Intestacy priority (r 22): spouse or civil partner; children (and issue of predeceased children); parents; whole-blood siblings (and issue); half-blood siblings (and issue); grandparents; whole-blood uncles and aunts (and issue); half-blood uncles and aunts (and issue); then the Treasury Solicitor for bona vacantia; then creditors.",
+     "citations": [
+      "ncpr-r22"
+     ]
+    },
+    {
+     "text": "Before the grant, the estate vests in the Public Trustee, who takes no beneficial interest and no duties.",
+     "citations": [
+      "aea-1925-s9"
+     ]
+    },
+    {
+     "text": "Relation back: Court of Appeal (quoting Ingall v Moran [1944]) says title relates back to the date of death once the grant is made, but proceedings begun before the grant are a nullity.",
+     "citations": [
+      "jennison-2022"
+     ]
+    },
+    {
+     "text": "Duties as for executors (AEA 1925 s 25). 'Personal representative' covers both executor and administrator.",
+     "citations": [
+      "aea-1925-s25",
+      "aea-1925-s55"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No entitlement"
+     },
+     {
+      "id": "designated",
+      "label": "Entitled to apply under NCPR priority; no authority yet (estate vests in Public Trustee)"
+     },
+     {
+      "id": "active",
+      "label": "Letters of administration granted"
+     },
+     {
+      "id": "suspended",
+      "label": "Not used"
+     },
+     {
+      "id": "terminated",
+      "label": "Administration complete or grant revoked"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-entitled",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Death intestate or without an executor able to prove",
+      "conditions": [],
+      "citations": [
+       "ncpr-r22",
+       "ncpr-r20",
+       "aea-1925-s9"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-grant",
+      "from": "designated",
+      "to": "active",
+      "event": "Letters of administration granted",
+      "conditions": [
+       "Title relates back to death"
+      ],
+      "citations": [
+       "jennison-2022",
+       "ncpr-r22"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration complete",
+      "conditions": [
+       "No formal discharge"
+      ],
+      "citations": [
+       "aea-1925-s25"
+      ],
+      "unverified": true,
+      "phase": "closed"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Grant revoked",
+      "conditions": [],
+      "citations": [
+       "sca-1981-s25"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-small-payments-recipient",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Person paid under the small payments / nomination statutes without a grant",
+   "localNames": [
+    "person appearing to be beneficially entitled",
+    "nominee"
+   ],
+   "summary": "England and Wales has no general small-estate procedure. A list of specific statutes (Administration of Estates (Small Payments) Act 1965, Sch 1) lets certain bodies, such as some friendly and industrial and provident societies and certain public pension and savings schemes, pay up to £5,000 on death without probate to the person who appears entitled or to a nominee. Everything else depends on each institution's own policy.",
+   "lane": {
+    "assigned": {
+     "event": "No appointment: the paying body decides to pay under the relevant enactment to the person appearing beneficially entitled, a relative or dependant, or a nominee",
+     "phase": "deceased",
+     "citations": [
+      "aesp-1965-s1"
+     ]
+    },
+    "starts": {
+     "event": "After death, on the paying body's decision",
+     "phase": "deceased",
+     "citations": [
+      "aesp-1965-s1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Payment made (one-off)",
+      "phase": "closed",
+      "citations": [
+       "aesp-1965-s1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Limit: £5,000 per enactment, as substituted by the 1984 Increase of Limit Order made under s 6.",
+     "citations": [
+      "aesp-1965-s1",
+      "aesp-1965-s6",
+      "aesp-order-1984"
+     ]
+    },
+    {
+     "text": "Outside these enactments there is no statutory threshold. GOV.UK tells people to ask each organisation whether probate is needed ('Every organisation has its own rules'); this is policy, not law. Jointly owned money and property held as joint tenants pass by survivorship.",
+     "citations": [
+      "govuk-probate"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No payment"
+     },
+     {
+      "id": "active",
+      "label": "Paying body considering/paying without representation"
+     },
+     {
+      "id": "terminated",
+      "label": "Paid"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-claim",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Claim to paying body after death",
+      "conditions": [
+       "Sum within £5,000 limit",
+       "Asset is covered by a listed enactment"
+      ],
+      "citations": [
+       "aesp-1965-s1"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-paid",
+      "from": "active",
+      "to": "terminated",
+      "event": "Payment made without grant",
+      "conditions": [],
+      "citations": [
+       "aesp-1965-s1"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-body-disposal",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Personal representative entitled to possession and disposal of the body",
+   "localNames": [
+    "executor",
+    "administrator",
+    "personal representatives",
+    "applicant for cremation"
+   ],
+   "summary": "No one owns a dead body. At common law the duty to arrange proper disposal falls first on the personal representatives. An executor can claim possession of the body even before probate. An administrator has the same duty but may not be able to get an injunction for the body before the grant. For cremation, an executor or a near relative aged 16+ applies. If no suitable arrangements are made, the local authority must bury or cremate the body.",
+   "lane": {
+    "assigned": {
+     "event": "By law on death: executor named in will; otherwise those entitled to administer",
+     "phase": "deceased",
+     "citations": [
+      "oldham-makin-2017"
+     ]
+    },
+    "starts": {
+     "event": "At death (executor, before probate); administrator's enforceable right may await the grant",
+     "phase": "deceased",
+     "citations": [
+      "oldham-makin-2017"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Body buried or cremated",
+      "phase": "deceased",
+      "citations": [
+       "oldham-makin-2017",
+       "cremation-2008-r15"
+      ]
+     },
+     {
+      "event": "High Court passes over the executor (SCA 1981 s 116 limited grant) or the local authority acts under PH(CD)A 1984 s 46",
+      "phase": "deceased",
+      "citations": [
+       "sca-1981-s116",
+       "oldham-makin-2017",
+       "phcda-1984-s46"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Leading statement (Hale J in Buchanan v Milton [1999] 2 FLR 844, adopted in Oldham MBC v Makin [2017] EWHC 2543 (Ch)): the duty falls primarily on the personal representatives (Williams v Williams (1882) 20 Ch D 659). An executor may obtain possession even before probate (Sharp v Lush (1879)). The original judgments in Williams v Williams and Buchanan v Milton were not reachable on official or free sites; they are cited through the 2017 judgment.",
+     "citations": [
+      "oldham-makin-2017"
+     ]
+    },
+    {
+     "text": "Cremation application: by an executor or a near relative aged 16+ (widow, widower, surviving civil partner, parent, child, or relative usually living with the deceased). Anyone else needs the medical referee to accept them as a proper person with good reason.",
+     "citations": [
+      "cremation-2008-r15"
+     ]
+    },
+    {
+     "text": "The court can, in special circumstances, appoint an administrator limited to disposing of the body in place of the executor (e.g. the Ian Brady case).",
+     "citations": [
+      "sca-1981-s116",
+      "oldham-makin-2017"
+     ]
+    },
+    {
+     "text": "The local authority must bury or cremate if no suitable arrangements are being made, and must not cremate against the deceased's known wishes.",
+     "citations": [
+      "phcda-1984-s46"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Deceased alive"
+     },
+     {
+      "id": "active",
+      "label": "Personal representative entitled/under duty to dispose"
+     },
+     {
+      "id": "suspended",
+      "label": "Administrator's right not yet enforceable pending grant"
+     },
+     {
+      "id": "terminated",
+      "label": "Body disposed of, or duty displaced by court/local authority"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death-executor",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death with executor named",
+      "conditions": [],
+      "citations": [
+       "oldham-makin-2017"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-death-intestate",
+      "from": "not_designated",
+      "to": "suspended",
+      "event": "Death without executor; duty falls on those entitled to administer",
+      "conditions": [],
+      "citations": [
+       "oldham-makin-2017"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-grant",
+      "from": "suspended",
+      "to": "active",
+      "event": "Letters of administration granted",
+      "conditions": [],
+      "citations": [
+       "oldham-makin-2017"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-dispose",
+      "from": "active",
+      "to": "terminated",
+      "event": "Burial or cremation (cremation application under reg 15)",
+      "conditions": [],
+      "citations": [
+       "cremation-2008-r15"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-displace",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court appoints limited administrator under s 116, or local authority disposes under s 46",
+      "conditions": [],
+      "citations": [
+       "sca-1981-s116",
+       "phcda-1984-s46"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-hta-nominated-representative",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Nominated / appointed representative for organ and tissue consent",
+   "localNames": [
+    "nominated representative (HTA 2004 s 4)",
+    "appointed representative (Human Transplantation (Wales) Act 2013 s 8)"
+   ],
+   "summary": "An adult can appoint one or more people to decide about consent after death, orally before two witnesses or in writing (witnessed, or in a will). This comes second: the deceased's own decision in force at death comes first. If no representative can act, England uses deemed consent for transplantation and Wales uses its 2013 Act.",
+   "lane": {
+    "assigned": {
+     "event": "Adult appoints orally (two witnesses) or in writing (signed and witnessed, or in a will)",
+     "phase": "capable",
+     "citations": [
+      "hta-2004-s4",
+      "hta-wales-2013-s8"
+     ]
+    },
+    "starts": {
+     "event": "On the appointer's death, if no decision by the deceased was in force",
+     "phase": "deceased",
+     "citations": [
+      "hta-2004-s3",
+      "hta-wales-2013-s4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revoked by the appointer (same formalities) or renounced by the representative",
+      "phase": "capable",
+      "citations": [
+       "hta-2004-s4"
+      ]
+     },
+     {
+      "event": "Representative not able to act, or not reasonably practicable to contact in time: appointment disregarded",
+      "phase": "deceased",
+      "citations": [
+       "hta-2004-s3"
+      ]
+     },
+     {
+      "event": "Consent given or refused",
+      "phase": "deceased",
+      "citations": [
+       "hta-2004-s3"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A Welsh appointment under the 2013 Act s 8 is treated as an appointment under HTA 2004 s 4 too.",
+     "citations": [
+      "hta-2004-s4",
+      "hta-wales-2013-s8"
+     ]
+    },
+    {
+     "text": "Two or more representatives act jointly and severally unless the appointment says jointly.",
+     "citations": [
+      "hta-2004-s4"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed/instrument made but not yet usable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Valid oral or written appointment",
+      "conditions": [],
+      "citations": [
+       "hta-2004-s4"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Appointment revoked or renounced",
+      "conditions": [],
+      "citations": [
+       "hta-2004-s4"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Appointer dies with no own decision in force",
+      "conditions": [],
+      "citations": [
+       "hta-2004-s3",
+       "hta-wales-2013-s4"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-unavailable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Representative unable to act or cannot be contacted in time",
+      "conditions": [],
+      "citations": [
+       "hta-2004-s3"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-decide",
+      "from": "active",
+      "to": "terminated",
+      "event": "Representative gives or refuses consent",
+      "conditions": [],
+      "citations": [
+       "hta-2004-s3"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ew-hta-qualifying-relationship",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Person in a qualifying relationship (consent or objection to donation)",
+   "localNames": [
+    "person in a qualifying relationship",
+    "relative or friend of long standing"
+   ],
+   "summary": "If the deceased left no decision and no representative can act, a person in the highest-ranking qualifying relationship matters in two ways. For activities that are not deemed (e.g. research, or excepted adults), they give or refuse consent. For transplantation in England or Wales, consent is deemed, but they can provide information that the deceased would not have consented, which stops the deemed consent.",
+   "lane": {
+    "assigned": {
+     "event": "By statute at death: ranking under HTA 2004 s 27(4) / Wales 2013 Act s 19(3)",
+     "phase": "deceased",
+     "citations": [
+      "hta-2004-s27",
+      "hta-wales-2013-s19"
+     ]
+    },
+    "starts": {
+     "event": "On death, where neither the deceased's own decision nor a nominated representative applies",
+     "phase": "deceased",
+     "citations": [
+      "hta-2004-s3",
+      "hta-wales-2013-s4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Consent given/refused, or objection information provided, or person left out of account (unwilling, unable, or not contactable in time)",
+      "phase": "deceased",
+      "citations": [
+       "hta-2004-s27",
+       "hta-2004-s3"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Ranking: (a) spouse, civil partner or partner; (b) parent or child; (c) brother or sister; (d) grandparent or grandchild; (e) child of a brother or sister; (f) stepfather or stepmother; (g) half-brother or half-sister; (h) friend of long standing. Relationships in the same category rank equally, and consent from any one of the equal highest is enough.",
+     "citations": [
+      "hta-2004-s27",
+      "hta-wales-2013-s19"
+     ]
+    },
+    {
+     "text": "England: deemed consent for transplantation (HTA 2004 s 3(6)(ba), (6A)) since 20 May 2020. It does not apply to excepted adults: those not ordinarily resident in England for 12 months before death, or who lacked capacity to understand deemed consent for a significant period. Section 3(6AA) extends deemed consent to Northern Ireland.",
+     "citations": [
+      "hta-2004-s3",
+      "odda-2019-comm3"
+     ]
+    },
+    {
+     "text": "Wales: deemed consent for transplantation since 1 December 2015 (Human Transplantation (Wales) Act 2013 s 4). Consent is not deemed if a relative or friend of long standing objects on the basis of the deceased's most recent known view. Excepted adults (not resident in Wales for 12 months, or lacking capacity for a significant period) need express consent.",
+     "citations": [
+      "hta-wales-2013-s4",
+      "hta-wales-2013-s5"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Deceased alive, or deceased's own decision / representative governs"
+     },
+     {
+      "id": "active",
+      "label": "Person in highest qualifying relationship consulted"
+     },
+     {
+      "id": "terminated",
+      "label": "Consent given/refused, deemed consent stands or is displaced"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death with no decision in force and no representative able to act",
+      "conditions": [],
+      "citations": [
+       "hta-2004-s3",
+       "hta-wales-2013-s4"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-object",
+      "from": "active",
+      "to": "terminated",
+      "event": "Qualifying person provides information that the deceased would not have consented (deemed-consent activities)",
+      "conditions": [],
+      "citations": [
+       "hta-2004-s3",
+       "hta-wales-2013-s4"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-consent",
+      "from": "active",
+      "to": "terminated",
+      "event": "Qualifying person gives or refuses consent (non-deemed activities / excepted adults)",
+      "conditions": [],
+      "citations": [
+       "hta-2004-s3",
+       "hta-2004-s27",
+       "hta-wales-2013-s5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "An ordinary POA under the 1971 Act ends on incapacity. Only a registered LPA (MCA 2005) or a pre-2007 EPA survives incapacity, and each must meet its statutory formalities.",
+   "citations": [
+    "govuk-make-decisions",
+    "mca-s9",
+    "mca-sch4"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "A property and financial affairs LPA can be limited to 'only when I don't have mental capacity', with conditions such as a written medical opinion (MCA s 9(4)(b) conditions and restrictions). It must still be registered first. A health and welfare LPA is capacity-triggered by statute.",
+   "citations": [
+    "opg-lp12",
+    "mca-s9",
+    "mca-s11"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "An LPA is not created and gives no authority until OPG registers it. EPAs must be registered once the donor is or is becoming mentally incapable. The Powers of Attorney Act 2023 registration reforms are enacted but, per legislation.gov.uk on 2026-09-16, not yet commenced (apart from s 2).",
+   "citations": [
+    "mca-s9",
+    "mca-sch1",
+    "mca-sch4",
+    "paa-2023"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "When the donor lacks capacity for the decision, or the attorney reasonably believes so. No clinician certification is needed; after registration it is decided decision by decision.",
+   "citations": [
+    "mca-s11",
+    "govuk-lpa"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": false,
+   "year": null,
+   "name": "None. MCA 2005 s 1(3) requires all practicable steps to help a person decide before treating them as unable to, but there is no statutory supporter or supported decision-making arrangement.",
+   "citations": [
+    "mca-s1"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": "None (see uk-national). Digital assets can be personal property under the Property (Digital Assets etc) Act 2025, so they pass to personal representatives in the estate, but no statute gives access to accounts.",
+   "citations": [
+    "pdaa-2025",
+    "aea-1925-s25",
+    "lawcom-412"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "citations": [
+    "lawcom-412"
+   ],
+   "note": "See uk-national; no E&W statute."
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": 2020,
+   "name": "Human Tissue Act 2004 as amended by the Organ Donation (Deemed Consent) Act 2019 (England, from 20 May 2020); Human Transplantation (Wales) Act 2013 (Wales, from 1 December 2015)",
+   "note": "The years differ: Wales has been opt-out since 2015, England since 2020. optOutSinceYear gives England's year; Wales's is 2015.",
+   "citations": [
+    "hta-2004-s3",
+    "odda-2019-comm3",
+    "hta-wales-2013-s4"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": true,
+   "threshold": 5000,
+   "currency": "GBP",
+   "waitingDays": null,
+   "note": "Limited: only for assets covered by the enactments listed in the Administration of Estates (Small Payments) Act 1965 Sch 1 (limit £5,000 each). There is no general small-estate procedure; other holders apply their own policies (policy, not law).",
+   "citations": [
+    "aesp-1965-s1",
+    "aesp-order-1984",
+    "govuk-probate"
+   ]
+  },
+  "probateGrantName": {
+   "value": "grant of probate",
+   "note": "Executors get a grant of probate; others get letters of administration (with or without will annexed). Together these are grants of representation.",
+   "citations": [
+    "sca-1981-s25",
+    "ncpr-r20",
+    "ncpr-r22"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "LPAs end automatically on the donor's death. After-death decisions on donation are for the nominated representative or qualifying relationships under HTA 2004 / Wales 2013 Act. Disposal of the body is for the personal representatives.",
+   "citations": [
+    "govuk-lpa",
+    "opg-death-note",
+    "hta-2004-s4",
+    "oldham-makin-2017"
+   ]
+  }
+ }
+}

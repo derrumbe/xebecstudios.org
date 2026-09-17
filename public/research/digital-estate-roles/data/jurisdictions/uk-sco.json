@@ -1,0 +1,2374 @@
+{
+ "jurisdiction": "uk-sco",
+ "name": "Scotland",
+ "country": "uk",
+ "legalSystem": "mixed",
+ "legalSystemCitations": [
+  "judiciary-scot-the-law"
+ ],
+ "legalSystemNote": "Scots law draws on Roman (civilian) law through its common law and institutional writers, alongside statute and precedent. The judiciary.scot source supports 'mixed' rather than pure civil law.",
+ "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer.",
+ "citations": [
+  {
+   "id": "judiciary-scot-the-law",
+   "cite": "Judicial Office for Scotland, 'The Law'",
+   "title": "Sources of Scots law",
+   "url": "https://judiciary.scot/home/judiciary/judicial-office-holders/the-law",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "The common law is derived from Roman law, and from principles developed over centuries."
+  },
+  {
+   "id": "awi-1",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 1",
+   "title": "General principles and fundamental definitions",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "There shall be no intervention in the affairs of an adult unless ... the intervention will benefit the adult"
+  },
+  {
+   "id": "awi-1-5",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 1(5)",
+   "title": "Duty to encourage the adult to use and develop skills",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "encourage the adult to exercise whatever skills he has concerning his property, financial affairs or personal welfare"
+  },
+  {
+   "id": "awi-15",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 15",
+   "title": "Creation of continuing power of attorney",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/15",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall, notwithstanding any rule of law, continue to have effect in the event of the granter's becoming incapable"
+  },
+  {
+   "id": "awi-15-3-ba",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 15(3)(ba)",
+   "title": "Continuing power exercisable only on incapacity (inserted by Adult Support and Protection (Scotland) Act 2007 s 57, from 5.10.2007)",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/15",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "where the continuing power of attorney is exercisable only if the granter is determined to be incapable"
+  },
+  {
+   "id": "awi-15-5",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 15(5)",
+   "title": "Bankruptcy rule applies to continuing powers",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/15",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an agent's authority ends in the event of the bankruptcy of the principal or the agent applies ... in relation to continuing powers of attorney"
+  },
+  {
+   "id": "awi-16",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 16(1)-(3)",
+   "title": "Creation and exercise of welfare power of attorney",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An individual may grant a power of attorney relating to his personal welfare"
+  },
+  {
+   "id": "awi-16-5",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 16(5)(b)",
+   "title": "Welfare power exercisable only on incapacity",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall not be exercisable unless— (i) the granter is incapable ... or (ii) the welfare attorney reasonably believes that sub-paragraph (i) applies"
+  },
+  {
+   "id": "awi-16-6",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 16(6)",
+   "title": "Restrictions on welfare attorney (incl. no Human Tissue (Scotland) Act authorisations)",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "give, on behalf of the granter, an authorisation under ... section 6(1), 16F(1)(a), 17, 29(1) or 42(1) of the Human Tissue(Scotland) Act 2006"
+  },
+  {
+   "id": "awi-16-7",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 16(7)",
+   "title": "Welfare power survives bankruptcy",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A welfare power of attorney shall not come to an end in the event of the bankruptcy of the granter or the welfare attorney."
+  },
+  {
+   "id": "awi-19",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 19",
+   "title": "Registration of continuing or welfare power of attorney",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/19",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A continuing or welfare attorney shall have no authority to act until the document conferring the power of attorney has been registered"
+  },
+  {
+   "id": "awi-19-3",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 19(3)",
+   "title": "Registration deferred until specified event",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/19",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may contain a condition that the Public Guardian shall not register it ... until the occurrence of a specified event"
+  },
+  {
+   "id": "awi-20",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 20",
+   "title": "Powers of sheriff (supervision, revocation of attorney powers)",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/20",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "revoking— (i) any of the powers granted by the continuing or welfare power of attorney; or (ii) the appointment of an attorney"
+  },
+  {
+   "id": "awi-22a",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 22A",
+   "title": "Revocation of continuing or welfare power of attorney",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/22A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A revocation has effect when the revocation notice is registered under this section."
+  },
+  {
+   "id": "awi-23",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 23",
+   "title": "Resignation of continuing or welfare attorney",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/23",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the resignation shall not have effect until the expiry of a period of 28 days commencing with the date of receipt by the Public Guardian"
+  },
+  {
+   "id": "awi-24",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 24(1), (1A)",
+   "title": "Termination on separation, divorce, dissolution or nullity",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/24",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "unless the document conferring it provides otherwise, come to an end upon the granting of— (a) a decree of separation"
+  },
+  {
+   "id": "awi-24-2",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 24(2)",
+   "title": "Termination on appointment of guardian with same powers",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/24",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall come to an end on the appointment of a guardian with powers relating to that matter"
+  },
+  {
+   "id": "awi-47",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 47",
+   "title": "Authority of persons responsible for medical treatment",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/47",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall have, during the period specified in the certificate, authority to do what is reasonable in the circumstances"
+  },
+  {
+   "id": "awi-47-5",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 47(5)",
+   "title": "Duration of certificate of incapacity (max 1 year, or 3 years in prescribed cases)",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/47",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "awi-50",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 50",
+   "title": "Medical treatment where guardian, welfare attorney or intervention order exists",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/50",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The authority conferred by section 47(2) shall not apply where ... it would be reasonable and practicable ... to obtain the consent of the guardian, welfare attorney"
+  },
+  {
+   "id": "awi-53",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 53",
+   "title": "Intervention orders",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/53",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The sheriff may, on an application by any person (including the adult himself) claiming an interest ... make an order"
+  },
+  {
+   "id": "awi-53-8",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 53(8)",
+   "title": "Variation or recall of intervention order",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/53",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "make an order varying the terms of, or recalling, the intervention order"
+  },
+  {
+   "id": "awi-58",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 58(1), (4)",
+   "title": "Disposal of guardianship application; duration",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/58",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "guardian of the adult for a period of 3 years or such other period (including an indefinite period) as, on cause shown, he may determine"
+  },
+  {
+   "id": "awi-58-7",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 58(7)",
+   "title": "Registration by Public Guardian and certificate of appointment",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/58",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "issue a certificate of appointment to the guardian"
+  },
+  {
+   "id": "awi-60",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 60",
+   "title": "Renewal of guardianship order by sheriff",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/60",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the order shall continue to have effect until the application is determined"
+  },
+  {
+   "id": "awi-64",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 64",
+   "title": "Functions and duties of guardian (incl. no Human Tissue Act authorisations)",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/64",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "awi-71",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 71",
+   "title": "Replacement or removal of guardian or recall of guardianship by sheriff",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/71",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "recall a guardianship order or otherwise terminate a guardianship"
+  },
+  {
+   "id": "awi-73",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 73",
+   "title": "Recall of powers of guardian by Public Guardian, local authority or Mental Welfare Commission",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/73",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "awi-75",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 75",
+   "title": "Resignation of guardian",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/75",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "awi-77",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 77",
+   "title": "Termination of authority to intervene and guardianship on death of adult",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/77",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An intervention order or a guardianship order in respect of an adult under this Part shall cease to have effect on his death."
+  },
+  {
+   "id": "awi-87",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 s 87",
+   "title": "Interpretation ('nearest relative' has the meaning in Mental Health (Care and Treatment) (Scotland) Act 2003 s 254)",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/section/87",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "awi-contents",
+   "cite": "Adults with Incapacity (Scotland) Act 2000 (status note on legislation.gov.uk)",
+   "title": "Up to date with changes in force on or before 16 September 2026",
+   "url": "https://www.legislation.gov.uk/asp/2000/4/contents",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is up to date with all changes known to be in force on or before 16 September 2026"
+  },
+  {
+   "id": "opg-s-types",
+   "cite": "Office of the Public Guardian (Scotland), 'Types of power of attorney'",
+   "title": "When continuing and welfare powers can be used",
+   "url": "https://www.publicguardian-scotland.gov.uk/power-of-attorney/power-of-attorney/types-of-power-of-attorney",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Continuing (financial) powers can be used by the attorney immediately after the PoA document has been registered with us."
+  },
+  {
+   "id": "opg-s-ending",
+   "cite": "Office of the Public Guardian (Scotland), 'Ending a power of attorney'",
+   "title": "Circumstances in which a PoA ends",
+   "url": "https://www.publicguardian-scotland.gov.uk/power-of-attorney/registration/ending-a-power-of-attorney",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "the attorney or granter become bankrupt or a protected trust deed has been put in place"
+  },
+  {
+   "id": "opg-s-faq",
+   "cite": "Office of the Public Guardian (Scotland), 'FAQs'",
+   "title": "PoA stops on the granter's death",
+   "url": "https://www.publicguardian-scotland.gov.uk/power-of-attorney/faqs",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "When the granter of a PoA passes away the PoA automatically stops."
+  },
+  {
+   "id": "esa-1900-3",
+   "cite": "Executors (Scotland) Act 1900 s 3",
+   "title": "Who may be confirmed executors nominate",
+   "url": "https://www.legislation.gov.uk/ukpga/Vict/63-64/55/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall be held to be his executor nominate, and entitled to confirmation in that character"
+  },
+  {
+   "id": "esa-1900-7",
+   "cite": "Executors (Scotland) Act 1900 s 7",
+   "title": "Where confirmation ad non executa may be granted",
+   "url": "https://www.legislation.gov.uk/ukpga/Vict/63-64/55/section/7",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ssa-1964-14",
+   "cite": "Succession (Scotland) Act 1964 s 14(1)",
+   "title": "Estate vests in executor by virtue of confirmation",
+   "url": "https://www.legislation.gov.uk/ukpga/1964/41/section/14",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall, by virtue of confirmation thereto, vest for the purposes of administration in the executor thereby confirmed"
+  },
+  {
+   "id": "ssa-1964-9-4",
+   "cite": "Succession (Scotland) Act 1964 s 9(4)",
+   "title": "Surviving spouse/civil partner entitled to whole intestate estate has right to be appointed executor",
+   "url": "https://www.legislation.gov.uk/ukpga/1964/41/section/9",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "he or she shall have the right to be appointed executor"
+  },
+  {
+   "id": "iwc-1875-3",
+   "cite": "Intestates Widows and Children (Scotland) Act 1875 s 3",
+   "title": "Small intestate estate: sheriff clerk prepares inventory and expedes confirmation without caution",
+   "url": "https://www.legislation.gov.uk/ukpga/Vict/38-39/41/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "without requiring the applicant to find caution"
+  },
+  {
+   "id": "ste-1876-3",
+   "cite": "Small Testate Estates (Scotland) Act 1876 s 3",
+   "title": "Small testate estate confirmation",
+   "url": "https://www.legislation.gov.uk/ukpga/Vict/39-40/24/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "csea-1979-1",
+   "cite": "Confirmation to Small Estates (Scotland) Act 1979 s 1(3)",
+   "title": "Power to alter the small estate limit by order",
+   "url": "https://www.legislation.gov.uk/ukpga/1979/22/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ssi-2011-435",
+   "cite": "Confirmation to Small Estates (Scotland) Order 2011 (SSI 2011/435) arts 2-3",
+   "title": "Small estate limit raised from £30,000 to £36,000 from 1 February 2012",
+   "url": "https://www.legislation.gov.uk/ssi/2011/435/made",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "for “£30,000” substitute “£36,000”"
+  },
+  {
+   "id": "scts-guide",
+   "cite": "Scottish Courts and Tribunals Service, 'Guide to dealing with a deceased's estate in Scotland'",
+   "title": "What confirmation is; small estates; dative petition",
+   "url": "https://www.scotcourts.gov.uk/taking-action/dealing-with-a-deceaseds-estate-in-scotland/guide-to-dealing-with-a-deceaseds-estate-in-scotland/",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "a legal document from the court giving the executor(s) authority to uplift any money or other property belonging to a deceased person"
+  },
+  {
+   "id": "scts-large",
+   "cite": "Scottish Courts and Tribunals Service, 'Large estates'",
+   "title": "SCTS may not assist with large-estate confirmation",
+   "url": "https://www.scotcourts.gov.uk/taking-action/dealing-with-a-deceaseds-estate-in-scotland/large-estates/",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "prohibited from assisting applicants for confirmation to large estates"
+  },
+  {
+   "id": "aesp-1965-1",
+   "cite": "Administration of Estates (Small Payments) Act 1965 ss 1-2 (as modified by SI 1984/539)",
+   "title": "Amounts disposable on death without representation or by nomination: £5,000",
+   "url": "https://www.legislation.gov.uk/ukpga/1965/32/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "without the necessity for probate or other proof of title"
+  },
+  {
+   "id": "htsa-3",
+   "cite": "Human Tissue (Scotland) Act 2006 s 3",
+   "title": "Use of part of body of deceased person for transplantation, research etc.",
+   "url": "https://www.legislation.gov.uk/asp/2006/4/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "htsa-6d",
+   "cite": "Human Tissue (Scotland) Act 2006 s 6D (inserted by Human Tissue (Authorisation) (Scotland) Act 2019 s 7; in force 26.3.2021, SSI 2021/108)",
+   "title": "Deemed authorisation for transplantation: adult",
+   "url": "https://www.legislation.gov.uk/asp/2006/4/section/6D",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An adult is deemed to have authorised the removal and use of a part of the adult's body after the adult's death for transplantation"
+  },
+  {
+   "id": "htsa-6e",
+   "cite": "Human Tissue (Scotland) Act 2006 s 6E",
+   "title": "Non-resident adult: authorisation for transplantation by nearest relative",
+   "url": "https://www.legislation.gov.uk/asp/2006/4/section/6E",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "htsa-6h",
+   "cite": "Human Tissue (Scotland) Act 2006 s 6H",
+   "title": "Authorisation for purpose other than transplantation by nearest relative",
+   "url": "https://www.legislation.gov.uk/asp/2006/4/section/6H",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "htsa-contents",
+   "cite": "Human Tissue (Scotland) Act 2006, table of contents (ss 6F, 6G, 16H)",
+   "title": "Nearest-relative authorisation where adult incapable of understanding deemed authorisation (6F), excepted body parts (6G); duty to inquire (16H)",
+   "url": "https://www.legislation.gov.uk/asp/2006/4/contents",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "htsa-7-repealed",
+   "cite": "Human Tissue (Scotland) Act 2006 s 7 (repealed 26.3.2021)",
+   "title": "Authorisation by adult's nearest relative (repealed by 2019 Act s 11(3))",
+   "url": "https://www.legislation.gov.uk/asp/2006/4/section/7",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "htsa-50",
+   "cite": "Human Tissue (Scotland) Act 2006 s 50",
+   "title": "Nearest relative (ranking)",
+   "url": "https://www.legislation.gov.uk/asp/2006/4/section/50",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Relationships in different paragraphs of subsection (1) rank in the order of those paragraphs"
+  },
+  {
+   "id": "bcsa-65",
+   "cite": "Burial and Cremation (Scotland) Act 2016 s 65 (in force 4.4.2019, SSI 2018/380)",
+   "title": "Arrangements on death of adult",
+   "url": "https://www.legislation.gov.uk/asp/2016/20/section/65",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The nearest relative of the adult may make arrangements for the adult's remains to be buried, cremated or hydrolysed."
+  },
+  {
+   "id": "bcsa-66",
+   "cite": "Burial and Cremation (Scotland) Act 2016 s 66",
+   "title": "Arrangements on death of child",
+   "url": "https://www.legislation.gov.uk/asp/2016/20/section/66",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "dpa-2018-3",
+   "cite": "Data Protection Act 2018 s 3(2)",
+   "title": "Personal data means information relating to a living individual",
+   "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "any information relating to an identified or identifiable living individual"
+  },
+  {
+   "id": "dasa-2026-2",
+   "cite": "Digital Assets (Scotland) Act 2026 (asp 12) s 2 (in force 1.7.2026, SSI 2026/197)",
+   "title": "Nature of digital assets in Scots law",
+   "url": "https://www.legislation.gov.uk/asp/2026/12/section/2",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "digital assets are incorporeal moveables"
+  },
+  {
+   "id": "dasa-2026-1",
+   "cite": "Digital Assets (Scotland) Act 2026 (asp 12) s 1",
+   "title": "Meaning of digital asset (rivalrous, from an electronic system)",
+   "url": "https://www.legislation.gov.uk/asp/2026/12/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "sp-digital-assets-2025",
+   "cite": "Scottish Parliament Information Centre, 'Digital assets in Scots law' (25 Sept 2025)",
+   "title": "Executors face practical problems identifying and accessing digital assets",
+   "url": "https://www.parliament.scot/chamber-and-committees/research-prepared-for-parliament/research-briefings/redirect/2025/9/25/df77b250-0ee0-4298-82ba-20fe6e304591",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16",
+   "quote": "an executor is likely to have problems identifying the existence of digital assets in an estate and accessing and transferring them"
+  },
+  {
+   "id": "sp-awi-2024",
+   "cite": "Scottish Parliament Information Centre, 'Adults with incapacity - 2024 update' (SB 24-54, 26 Nov 2024)",
+   "title": "AWI reform, Scottish Mental Health Law Review, 2024 consultation",
+   "url": "https://www.parliament.scot/chamber-and-committees/research-prepared-for-parliament/research-briefings/redirect/2024/11/26/cee54472-779f-4332-9812-cb802ccfcd6b",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "govscot-awi-policy",
+   "cite": "Scottish Government, 'Adults with incapacity' policy page",
+   "title": "AWI reform: Expert Working Group and Ministerial Oversight Group; no bill named",
+   "url": "https://www.gov.scot/policies/social-care/adults-with-incapacity/",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16",
+   "quote": "We want to improve adults with incapacity law to better protect people's rights and dignity."
+  },
+  {
+   "id": "govscot-awi-consultation-2024",
+   "cite": "Scottish Government, 'Adults with Incapacity Amendment Act: consultation' (2024)",
+   "title": "Proposals to amend the AWI Act, incl. supported decision-making",
+   "url": "https://www.gov.scot/publications/adults-incapacity-amendment-act-consultation/",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16"
+  }
+ ],
+ "roles": [
+  {
+   "id": "sco-continuing-attorney",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Continuing attorney (continuing power of attorney)",
+   "localNames": [
+    "continuing attorney",
+    "continuing power of attorney"
+   ],
+   "summary": "Someone appointed by the granter to deal with property and financial affairs. The power continues if the granter loses capacity. The attorney has no authority until the Office of the Public Guardian (Scotland) registers the document. The document can let the attorney act as soon as it is registered, or only once the granter is found incapable.",
+   "lane": {
+    "assigned": {
+     "event": "Granter subscribes a written document with a statement that the power is continuing and a solicitor's (or prescribed person's) certificate of capacity",
+     "phase": "capable",
+     "citations": [
+      "awi-15"
+     ]
+    },
+    "starts": {
+     "event": "On registration by the Public Guardian, immediately. If the document says so, only once the granter is determined to be incapable (s 15(3)(ba)). Registration itself can be deferred until a specified event (s 19(3)).",
+     "phase": "capable",
+     "citations": [
+      "awi-19",
+      "awi-15-3-ba",
+      "awi-19-3",
+      "opg-s-types"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the granter (common-law end of agency, stated by OPG Scotland; the Act has no express death-termination section for attorneys)",
+      "phase": "deceased",
+      "citations": [
+       "opg-s-faq",
+       "opg-s-ending"
+      ]
+     },
+     {
+      "event": "Bankruptcy of the granter or attorney (or protected trust deed, per OPG)",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-15-5",
+       "opg-s-ending"
+      ]
+     },
+     {
+      "event": "Decree of separation, divorce or nullity (or civil partnership equivalent) between granter and attorney, unless the document says otherwise",
+      "phase": "capable",
+      "citations": [
+       "awi-24"
+      ]
+     },
+     {
+      "event": "Attorney resigns: takes effect 28 days after OPG receives notice (immediately if a joint/substitute attorney is willing)",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-23"
+      ]
+     },
+     {
+      "event": "Guardian appointed with powers over the same matter",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-24-2"
+      ]
+     },
+     {
+      "event": "Granter revokes by registered revocation notice (needs capacity certificate), or sheriff revokes",
+      "phase": "capable",
+      "citations": [
+       "awi-22a",
+       "awi-20"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power of attorney"
+     },
+     {
+      "id": "designated",
+      "label": "Document signed and certified, not yet registered"
+     },
+     {
+      "id": "registered_not_exercisable",
+      "label": "Registered with OPG but not yet exercisable (conditions not met)"
+     },
+     {
+      "id": "active",
+      "label": "Registered and exercisable"
+     },
+     {
+      "id": "terminated",
+      "label": "Power ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-grant",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Granter subscribes document with continuing-power statement and certificate",
+      "conditions": [
+       "granter has capacity to understand nature and extent",
+       "certifier is not the attorney"
+      ],
+      "citations": [
+       "awi-15"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-register-immediate",
+      "from": "designated",
+      "to": "active",
+      "event": "Public Guardian registers the document (power exercisable immediately)",
+      "conditions": [
+       "attorney prepared to act"
+      ],
+      "citations": [
+       "awi-19",
+       "opg-s-types"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-register-deferred",
+      "from": "designated",
+      "to": "registered_not_exercisable",
+      "event": "Public Guardian registers a document that is exercisable only on incapacity",
+      "conditions": [],
+      "citations": [
+       "awi-19",
+       "awi-15-3-ba"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incapacity-determined",
+      "from": "registered_not_exercisable",
+      "to": "active",
+      "event": "Granter determined incapable as the document provides",
+      "conditions": [
+       "determination method as considered in the document"
+      ],
+      "citations": [
+       "awi-15-3-ba"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Granter dies",
+      "conditions": [],
+      "citations": [
+       "opg-s-faq",
+       "opg-s-ending"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-bankruptcy",
+      "from": "active",
+      "to": "terminated",
+      "event": "Granter or attorney becomes bankrupt",
+      "conditions": [],
+      "citations": [
+       "awi-15-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-divorce",
+      "from": "active",
+      "to": "terminated",
+      "event": "Separation/divorce/nullity/dissolution decree between granter and attorney",
+      "conditions": [
+       "document does not provide otherwise"
+      ],
+      "citations": [
+       "awi-24"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resign",
+      "from": "active",
+      "to": "terminated",
+      "event": "Attorney's resignation takes effect",
+      "conditions": [],
+      "citations": [
+       "awi-23"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-guardian",
+      "from": "active",
+      "to": "terminated",
+      "event": "Guardian appointed with powers over same matter (to that extent)",
+      "conditions": [],
+      "citations": [
+       "awi-24-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revocation notice registered, or sheriff order revoking",
+      "conditions": [],
+      "citations": [
+       "awi-22a",
+       "awi-20"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Scotland's power of attorney is 'springing-capable': s 15(3)(ba) recognises continuing powers exercisable only on a determination of incapacity, and s 19(3) allows registration to wait for a specified event.",
+     "citations": [
+      "awi-15-3-ba",
+      "awi-19-3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sco-welfare-attorney",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Welfare attorney (welfare power of attorney)",
+   "localNames": [
+    "welfare attorney",
+    "welfare power of attorney"
+   ],
+   "summary": "An individual appointed to make personal welfare decisions, including medical treatment consent. The power must be registered with the OPG, and it can be used only when the granter is incapable of the decision, or the attorney reasonably believes so. A welfare attorney cannot authorise organ or tissue donation for the granter.",
+   "lane": {
+    "assigned": {
+     "event": "Granter subscribes a written document with a welfare-power statement, a statement on how incapacity may be determined, and a certificate",
+     "phase": "capable",
+     "citations": [
+      "awi-16"
+     ]
+    },
+    "starts": {
+     "event": "After registration AND only while the granter is incapable of the decision, or the attorney reasonably believes so",
+     "phase": "incapacitated",
+     "citations": [
+      "awi-19",
+      "awi-16-5",
+      "opg-s-types"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the granter",
+      "phase": "deceased",
+      "citations": [
+       "opg-s-faq",
+       "opg-s-ending"
+      ]
+     },
+     {
+      "event": "Decree of separation, divorce or nullity (or civil partnership equivalent), unless document provides otherwise",
+      "phase": "capable",
+      "citations": [
+       "awi-24"
+      ]
+     },
+     {
+      "event": "Attorney resigns (28 days after OPG receives notice)",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-23"
+      ]
+     },
+     {
+      "event": "Guardian appointed with powers over the same matter",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-24-2"
+      ]
+     },
+     {
+      "event": "Revocation by granter (registered notice) or by sheriff",
+      "phase": "capable",
+      "citations": [
+       "awi-22a",
+       "awi-20"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No welfare power"
+     },
+     {
+      "id": "designated",
+      "label": "Signed, not registered"
+     },
+     {
+      "id": "suspended",
+      "label": "Registered but granter has capacity for the decision (not exercisable)"
+     },
+     {
+      "id": "active",
+      "label": "Registered and granter incapable of the decision"
+     },
+     {
+      "id": "terminated",
+      "label": "Power ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-grant",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Granter subscribes certified document",
+      "conditions": [],
+      "citations": [
+       "awi-16"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-register",
+      "from": "designated",
+      "to": "suspended",
+      "event": "Public Guardian registers; notifies local authority and Mental Welfare Commission",
+      "conditions": [],
+      "citations": [
+       "awi-19"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incapacity",
+      "from": "suspended",
+      "to": "active",
+      "event": "Granter is incapable in relation to the decision, or attorney reasonably believes so",
+      "conditions": [],
+      "citations": [
+       "awi-16-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-regain",
+      "from": "active",
+      "to": "suspended",
+      "event": "Granter regains capacity for the decision",
+      "conditions": [],
+      "citations": [
+       "awi-16-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Granter dies",
+      "conditions": [],
+      "citations": [
+       "opg-s-faq"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-dormant",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Granter dies",
+      "conditions": [],
+      "citations": [
+       "opg-s-faq"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-divorce",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Separation/divorce/nullity/dissolution decree",
+      "conditions": [],
+      "citations": [
+       "awi-24"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resign",
+      "from": "active",
+      "to": "terminated",
+      "event": "Resignation takes effect",
+      "conditions": [],
+      "citations": [
+       "awi-23"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-guardian",
+      "from": "active",
+      "to": "terminated",
+      "event": "Guardian appointed with the same welfare powers",
+      "conditions": [],
+      "citations": [
+       "awi-24-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Registered revocation notice or sheriff order",
+      "conditions": [],
+      "citations": [
+       "awi-22a",
+       "awi-20"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Unlike a continuing power, a welfare power does not end on the bankruptcy of the granter or attorney.",
+     "citations": [
+      "awi-16-7"
+     ]
+    },
+    {
+     "text": "Where a welfare attorney with medical-treatment powers exists, the treating practitioner's s 47 authority does not apply if it would be reasonable and practicable to get the attorney's consent. Disagreements go to a practitioner nominated by the Mental Welfare Commission, then the Court of Session.",
+     "citations": [
+      "awi-50"
+     ]
+    },
+    {
+     "text": "Scotland has no statutory default surrogate for medical treatment. Where no welfare attorney, guardian or intervention order exists, the practitioner primarily responsible (or a prescribed dentist, optician or nurse) certifies incapacity under s 47. That certificate lasts up to 1 year, or 3 years in prescribed cases, and gives the practitioner authority to do what is reasonable to safeguard or promote the adult's health. The 'nearest relative' (s 87, borrowing Mental Health (Care and Treatment) (Scotland) Act 2003 s 254) is consulted under the s 1 principles but is not a decision maker.",
+     "citations": [
+      "awi-47",
+      "awi-47-5",
+      "awi-87",
+      "awi-1"
+     ]
+    },
+    {
+     "text": "A welfare attorney may not authorise removal or use of body parts under the Human Tissue (Scotland) Act 2006, or make opt-out declarations.",
+     "citations": [
+      "awi-16-6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sco-intervention-order",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Person authorised under an intervention order",
+   "localNames": [
+    "person authorised under an intervention order",
+    "intervention order"
+   ],
+   "summary": "For a single decision or action (financial, property or welfare), the sheriff can make an intervention order instead of a full guardianship. The order either directs the action or authorises a named person to take it. It is used for one-off matters, such as selling a house.",
+   "lane": {
+    "assigned": {
+     "event": "Sheriff makes the order on application by anyone claiming an interest (or by the local authority where needed)",
+     "phase": "incapacitated",
+     "citations": [
+      "awi-53"
+     ]
+    },
+    "starts": {
+     "event": "On the sheriff's order. The Public Guardian registers it.",
+     "phase": "incapacitated",
+     "citations": [
+      "awi-53"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The specified action is completed, or the sheriff varies or recalls the order",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-53-8"
+      ]
+     },
+     {
+      "event": "Death of the adult: the order ceases to have effect. A person acting in good faith before learning of the death is protected.",
+      "phase": "deceased",
+      "citations": [
+       "awi-77"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No order"
+     },
+     {
+      "id": "active",
+      "label": "Order in force"
+     },
+     {
+      "id": "terminated",
+      "label": "Order spent, recalled or ceased"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-order",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Sheriff grants intervention order",
+      "conditions": [
+       "adult incapable of the action/decision",
+       "s 1 principles: benefit, least restrictive"
+      ],
+      "citations": [
+       "awi-53"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-recall",
+      "from": "active",
+      "to": "terminated",
+      "event": "Sheriff varies/recalls, or action completed",
+      "conditions": [],
+      "citations": [
+       "awi-53-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult dies",
+      "conditions": [],
+      "citations": [
+       "awi-77"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Canonical mapping is approximate: an intervention order can cover property/financial or welfare matters. It is lined up with guardian-person here, but a financial-only order is functionally closer to conservator-estate.",
+     "citations": [
+      "awi-53"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sco-guardian-financial",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Guardian with powers over property and financial affairs",
+   "localNames": [
+    "guardian (financial powers)"
+   ],
+   "summary": "A guardian appointed by the sheriff to manage the adult's property or financial affairs, or specified parts of them. Supervised by the Public Guardian (Scotland).",
+   "lane": {
+    "assigned": {
+     "event": "Sheriff grants a guardianship order on application (adult incapable and likely to remain so; no other AWI measure sufficient)",
+     "phase": "incapacitated",
+     "citations": [
+      "awi-58"
+     ]
+    },
+    "starts": {
+     "event": "On the order. The Public Guardian registers the appointment and issues a certificate of appointment (after caution/security is found, if required).",
+     "phase": "incapacitated",
+     "citations": [
+      "awi-58",
+      "awi-58-7"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Order expires at the end of its period (3 years by default, or another period including indefinite) unless renewed. It continues while a renewal application is pending.",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-58",
+       "awi-60"
+      ]
+     },
+     {
+      "event": "Sheriff recalls the order, or replaces/removes the guardian",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-71"
+      ]
+     },
+     {
+      "event": "Public Guardian (financial powers) or local authority/Mental Welfare Commission (welfare powers) recalls the powers",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-73"
+      ]
+     },
+     {
+      "event": "Guardian resigns",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-75"
+      ]
+     },
+     {
+      "event": "Death of the adult: the guardianship order ceases to have effect",
+      "phase": "deceased",
+      "citations": [
+       "awi-77"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No guardian"
+     },
+     {
+      "id": "pending_certificate",
+      "label": "Order made; awaiting OPG registration/certificate"
+     },
+     {
+      "id": "active",
+      "label": "Guardian in office"
+     },
+     {
+      "id": "renewal_pending",
+      "label": "Period ending; renewal application lodged (order continues)"
+     },
+     {
+      "id": "terminated",
+      "label": "Guardianship ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-order",
+      "from": "not_designated",
+      "to": "pending_certificate",
+      "event": "Sheriff grants guardianship order",
+      "conditions": [
+       "adult incapable and likely to continue so",
+       "no other means under the Act sufficient"
+      ],
+      "citations": [
+       "awi-58"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-certificate",
+      "from": "pending_certificate",
+      "to": "active",
+      "event": "Public Guardian registers and issues certificate of appointment",
+      "conditions": [
+       "caution or other security found, if required"
+      ],
+      "citations": [
+       "awi-58-7"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-renew-apply",
+      "from": "active",
+      "to": "renewal_pending",
+      "event": "Guardian or local authority applies for renewal before the period ends",
+      "conditions": [],
+      "citations": [
+       "awi-60"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-renewed",
+      "from": "renewal_pending",
+      "to": "active",
+      "event": "Sheriff renews order",
+      "conditions": [],
+      "citations": [
+       "awi-60"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-expire",
+      "from": "active",
+      "to": "terminated",
+      "event": "Period expires without renewal application",
+      "conditions": [],
+      "citations": [
+       "awi-58"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-recall",
+      "from": "active",
+      "to": "terminated",
+      "event": "Sheriff recall, or recall of powers by Public Guardian / local authority / Mental Welfare Commission",
+      "conditions": [],
+      "citations": [
+       "awi-71",
+       "awi-73"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult dies",
+      "conditions": [],
+      "citations": [
+       "awi-77"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "One guardianship order can confer financial and welfare powers together. This file splits them into two lanes because they are supervised and recalled by different bodies (s 73).",
+     "citations": [
+      "awi-64",
+      "awi-73"
+     ]
+    },
+    {
+     "text": "Good-faith protection: a financial guardian may keep acting until aware of the adult's death, and third parties are protected.",
+     "citations": [
+      "awi-77"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sco-guardian-welfare",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Guardian with personal welfare powers",
+   "localNames": [
+    "guardian (welfare powers)"
+   ],
+   "summary": "A guardian appointed by the sheriff to make personal welfare decisions, which can include medical treatment. The local authority supervises, and the Mental Welfare Commission also has a role. A guardian cannot authorise donation under the Human Tissue (Scotland) Act 2006.",
+   "lane": {
+    "assigned": {
+     "event": "Sheriff grants a guardianship order on application (adult incapable and likely to remain so; no other AWI measure sufficient)",
+     "phase": "incapacitated",
+     "citations": [
+      "awi-58"
+     ]
+    },
+    "starts": {
+     "event": "On the order. The Public Guardian registers the appointment and issues a certificate of appointment (after caution/security is found, if required).",
+     "phase": "incapacitated",
+     "citations": [
+      "awi-58",
+      "awi-58-7"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Order expires at the end of its period (3 years by default, or another period including indefinite) unless renewed. It continues while a renewal application is pending.",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-58",
+       "awi-60"
+      ]
+     },
+     {
+      "event": "Sheriff recalls the order, or replaces/removes the guardian",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-71"
+      ]
+     },
+     {
+      "event": "Public Guardian (financial powers) or local authority/Mental Welfare Commission (welfare powers) recalls the powers",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-73"
+      ]
+     },
+     {
+      "event": "Guardian resigns",
+      "phase": "incapacitated",
+      "citations": [
+       "awi-75"
+      ]
+     },
+     {
+      "event": "Death of the adult: the guardianship order ceases to have effect",
+      "phase": "deceased",
+      "citations": [
+       "awi-77"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No guardian"
+     },
+     {
+      "id": "pending_certificate",
+      "label": "Order made; awaiting OPG registration/certificate"
+     },
+     {
+      "id": "active",
+      "label": "Guardian in office"
+     },
+     {
+      "id": "renewal_pending",
+      "label": "Period ending; renewal application lodged (order continues)"
+     },
+     {
+      "id": "terminated",
+      "label": "Guardianship ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-order",
+      "from": "not_designated",
+      "to": "pending_certificate",
+      "event": "Sheriff grants guardianship order",
+      "conditions": [
+       "adult incapable and likely to continue so",
+       "no other means under the Act sufficient"
+      ],
+      "citations": [
+       "awi-58"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-certificate",
+      "from": "pending_certificate",
+      "to": "active",
+      "event": "Public Guardian registers and issues certificate of appointment",
+      "conditions": [
+       "caution or other security found, if required"
+      ],
+      "citations": [
+       "awi-58-7"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-renew-apply",
+      "from": "active",
+      "to": "renewal_pending",
+      "event": "Guardian or local authority applies for renewal before the period ends",
+      "conditions": [],
+      "citations": [
+       "awi-60"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-renewed",
+      "from": "renewal_pending",
+      "to": "active",
+      "event": "Sheriff renews order",
+      "conditions": [],
+      "citations": [
+       "awi-60"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-expire",
+      "from": "active",
+      "to": "terminated",
+      "event": "Period expires without renewal application",
+      "conditions": [],
+      "citations": [
+       "awi-58"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-recall",
+      "from": "active",
+      "to": "terminated",
+      "event": "Sheriff recall, or recall of powers by Public Guardian / local authority / Mental Welfare Commission",
+      "conditions": [],
+      "citations": [
+       "awi-71",
+       "awi-73"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult dies",
+      "conditions": [],
+      "citations": [
+       "awi-77"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Guardians may not give Human Tissue (Scotland) Act 2006 authorisations or opt-out declarations for the adult.",
+     "citations": [
+      "awi-64"
+     ]
+    },
+    {
+     "text": "The s 50 medical-treatment consent and dispute procedure applies where a guardian has medical-treatment powers.",
+     "citations": [
+      "awi-50"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sco-executor-nominate",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor-nominate (with confirmation)",
+   "localNames": [
+    "executor-nominate",
+    "executor nominate",
+    "confirmation"
+   ],
+   "summary": "The executor named in the will, or failing one, the testamentary trustees, then a general disponee or universal or residuary legatee. The executor lodges an inventory at the sheriff court and obtains confirmation, which vests the estate in them for administration.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names an executor in the will (or s 3 of the 1900 Act supplies one)",
+     "phase": "capable",
+     "citations": [
+      "esa-1900-3"
+     ]
+    },
+    "starts": {
+     "event": "On confirmation by the sheriff court. Banks and other holders typically require confirmation before releasing assets.",
+     "phase": "administration",
+     "citations": [
+      "ssa-1964-14",
+      "scts-guide"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate ingathered and distributed (no statutory discharge step located)",
+      "phase": "closed",
+      "citations": [
+       "scts-guide"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "If all confirmed executors die or become incapable, confirmation becomes inoperative. Remaining estate needs confirmation ad non executa.",
+      "phase": "administration",
+      "citations": [
+       "esa-1900-7"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No will nomination"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will"
+     },
+     {
+      "id": "pending_confirmation",
+      "label": "Testator died; inventory/confirmation not yet granted"
+     },
+     {
+      "id": "active",
+      "label": "Confirmed executor"
+     },
+     {
+      "id": "terminated",
+      "label": "Administration complete or confirmation inoperative"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-nominate",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will names executor (or s 3 statutory executor-nominate applies)",
+      "conditions": [],
+      "citations": [
+       "esa-1900-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "pending_confirmation",
+      "event": "Testator dies",
+      "conditions": [],
+      "citations": [
+       "ssa-1964-14"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-confirm",
+      "from": "pending_confirmation",
+      "to": "active",
+      "event": "Sheriff court grants confirmation",
+      "conditions": [
+       "inventory lodged",
+       "small estate (<= £36,000) may use simplified procedure"
+      ],
+      "citations": [
+       "ssa-1964-14",
+       "scts-guide"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate distributed",
+      "conditions": [],
+      "citations": [
+       "scts-guide"
+      ],
+      "unverified": true
+     },
+     {
+      "id": "t-inoperative",
+      "from": "active",
+      "to": "terminated",
+      "event": "All confirmed executors die or become incapable",
+      "conditions": [],
+      "citations": [
+       "esa-1900-7"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Scots law requires confirmation (not 'probate'). The estate vests in the executor for administration by virtue of confirmation (Succession (Scotland) Act 1964 s 14).",
+     "citations": [
+      "ssa-1964-14"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sco-executor-dative",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Executor-dative (appointed by the sheriff)",
+   "localNames": [
+    "executor-dative",
+    "executor dative",
+    "petition for appointment as executor-dative"
+   ],
+   "summary": "Where there is no executor-nominate (usually intestacy), a person such as the surviving spouse or civil partner or next of kin petitions the sheriff to be appointed executor-dative. They then obtain confirmation, usually with a bond of caution. For small estates, the sheriff clerk handles it without a separate petition or caution.",
+   "lane": {
+    "assigned": {
+     "event": "Sheriff decerns the petitioner executor-dative (large estate). For a small intestate estate, the sheriff clerk prepares the inventory and expedes confirmation without caution.",
+     "phase": "administration",
+     "citations": [
+      "scts-guide",
+      "iwc-1875-3",
+      "ssa-1964-9-4"
+     ]
+    },
+    "starts": {
+     "event": "On confirmation, which vests the estate for administration",
+     "phase": "administration",
+     "citations": [
+      "ssa-1964-14"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate ingathered and distributed",
+      "phase": "closed",
+      "citations": [
+       "scts-guide"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "Confirmation becomes inoperative on death or incapacity of all executors",
+      "phase": "administration",
+      "citations": [
+       "esa-1900-7"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No executor"
+     },
+     {
+      "id": "pending_confirmation",
+      "label": "Appointed by decree; confirmation not yet issued"
+     },
+     {
+      "id": "active",
+      "label": "Confirmed executor-dative"
+     },
+     {
+      "id": "terminated",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-petition",
+      "from": "not_designated",
+      "to": "pending_confirmation",
+      "event": "Sheriff appoints executor-dative on petition",
+      "conditions": [
+       "surviving spouse/civil partner entitled to whole intestate estate has a right to be appointed"
+      ],
+      "citations": [
+       "scts-guide",
+       "ssa-1964-9-4"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-small-estate",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Small intestate estate (<= £36,000): sheriff clerk prepares inventory and expedes confirmation without caution",
+      "conditions": [],
+      "citations": [
+       "iwc-1875-3",
+       "ssi-2011-435"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-confirm",
+      "from": "pending_confirmation",
+      "to": "active",
+      "event": "Confirmation granted (bond of caution usually required)",
+      "conditions": [],
+      "citations": [
+       "ssa-1964-14",
+       "scts-guide"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate distributed",
+      "conditions": [],
+      "citations": [
+       "scts-guide"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "The detailed order of preference among next of kin for appointment as executor-dative comes from common law and court practice. No primary source was retrieved, so it is omitted.",
+     "citations": [
+      "scts-guide"
+     ],
+     "unverified": true
+    },
+    {
+     "text": "SCTS staff may not help applicants with large-estate confirmation (over £36,000). Dative petitions for large estates are normally made with legal help.",
+     "citations": [
+      "scts-large"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sco-small-estate-confirmation",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Applicant for small estate confirmation",
+   "localNames": [
+    "small estate",
+    "confirmation to small estate",
+    "commissary clerk / sheriff clerk procedure"
+   ],
+   "summary": "If the whole estate is worth £36,000 or less, the sheriff clerk prepares the inventory and issues confirmation under a simplified procedure. No bond of caution is needed for intestate estates. This is still confirmation, not collection without a grant.",
+   "lane": {
+    "assigned": {
+     "event": "After death, the applicant applies to the sheriff clerk of the deceased's domicile",
+     "phase": "deceased",
+     "citations": [
+      "iwc-1875-3",
+      "ste-1876-3"
+     ]
+    },
+    "starts": {
+     "event": "On issue of confirmation (same effect as ordinary confirmation)",
+     "phase": "administration",
+     "citations": [
+      "iwc-1875-3",
+      "ste-1876-3",
+      "ssi-2011-435"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate distributed",
+      "phase": "closed",
+      "citations": [
+       "scts-guide"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not applied"
+     },
+     {
+      "id": "active",
+      "label": "Confirmation to small estate issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Sheriff clerk expedes confirmation to small estate",
+      "conditions": [
+       "whole estate value not exceeding £36,000 (gross, debts not deducted per SCTS)"
+      ],
+      "citations": [
+       "iwc-1875-3",
+       "ste-1876-3",
+       "ssi-2011-435",
+       "csea-1979-1"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate distributed",
+      "conditions": [],
+      "citations": [
+       "scts-guide"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "sco-small-payments-recipient",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Person receiving a statutory small payment without confirmation",
+   "localNames": [
+    "payment without representation",
+    "nomination"
+   ],
+   "summary": "UK-wide statutes listed in the Administration of Estates (Small Payments) Act 1965 let certain bodies, such as some friendly and industrial and provident societies and public pension schemes, pay up to £5,000 on death without confirmation. Payment goes to the person who appears entitled, or to a nominee. Otherwise, releasing funds without confirmation is at the holder's discretion.",
+   "lane": {
+    "assigned": {
+     "event": "Death of the account/benefit holder (or earlier nomination by the deceased where the scheme allows)",
+     "phase": "deceased",
+     "citations": [
+      "aesp-1965-1"
+     ]
+    },
+    "starts": {
+     "event": "Payment by the body, at its discretion, without confirmation",
+     "phase": "deceased",
+     "citations": [
+      "aesp-1965-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Payment made (one-off)",
+      "phase": "deceased",
+      "citations": [
+       "aesp-1965-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No claim"
+     },
+     {
+      "id": "active",
+      "label": "Payment claimed"
+     },
+     {
+      "id": "terminated",
+      "label": "Paid"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-claim",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Claimant applies to scheme under a listed enactment",
+      "conditions": [
+       "amount not exceeding £5,000"
+      ],
+      "citations": [
+       "aesp-1965-1"
+      ],
+      "unverified": true
+     },
+     {
+      "id": "t-paid",
+      "from": "active",
+      "to": "terminated",
+      "event": "Body pays without confirmation",
+      "conditions": [],
+      "citations": [
+       "aesp-1965-1"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "UNVERIFIED: which Schedule 1/2 enactments still apply in Scotland today was not checked item by item. Several have been repealed or replaced. The £5,000 figure comes from SI 1984/539 as noted on legislation.gov.uk.",
+     "citations": [
+      "aesp-1965-1"
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "sco-tissue-nearest-relative",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Nearest relative (Human Tissue (Scotland) Act 2006)",
+   "localNames": [
+    "nearest relative",
+    "deemed authorisation",
+    "opt-out declaration",
+    "express authorisation"
+   ],
+   "summary": "Since 26 March 2021, a Scottish-resident adult who made no express authorisation or opt-out declaration is deemed to authorise transplantation. The nearest relative, ranked by statute, has no general veto. Their role is to give evidence of the adult's latest views, and to authorise directly in the excepted cases: non-residents, adults incapable of understanding deemed authorisation, excepted body parts, and non-transplant purposes.",
+   "lane": {
+    "assigned": {
+     "event": "By statute at the relevant time: highest-ranked available relative under s 50 (spouse/civil partner, cohabitant of 6+ months, child, parent, sibling, grandparent, grandchild, uncle/aunt, cousin, niece/nephew, longstanding friend)",
+     "phase": "deceased",
+     "citations": [
+      "htsa-50"
+     ]
+    },
+    "starts": {
+     "event": "At death (or the relevant time for pre-death procedures), where the case is not covered by the adult's own express authorisation, opt-out or deemed authorisation",
+     "phase": "deceased",
+     "citations": [
+      "htsa-3",
+      "htsa-6d",
+      "htsa-6e",
+      "htsa-6h",
+      "htsa-contents"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Authorisation given (cannot be withdrawn for s 6E), or body released for disposal",
+      "phase": "deceased",
+      "citations": [
+       "htsa-6e"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Adult alive"
+     },
+     {
+      "id": "designated",
+      "label": "Nearest relative identified at death"
+     },
+     {
+      "id": "active",
+      "label": "Relative's authorisation or evidence being sought"
+     },
+     {
+      "id": "terminated",
+      "label": "Decision made / not applicable"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Adult dies; relative ranked under s 50",
+      "conditions": [
+       "under-16s, those unwilling/unable, or those not reasonably contactable are skipped"
+      ],
+      "citations": [
+       "htsa-50"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-deemed",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Deemed authorisation applies (no express authorisation or opt-out in force; adult resident 12+ months and capable of understanding)",
+      "conditions": [
+       "family may provide evidence that the adult was unwilling (s 6D(2)(d))"
+      ],
+      "citations": [
+       "htsa-6d"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-excepted",
+      "from": "designated",
+      "to": "active",
+      "event": "Excepted case: non-resident, incapable adult, excepted body part, or non-transplant purpose",
+      "conditions": [],
+      "citations": [
+       "htsa-6e",
+       "htsa-6h",
+       "htsa-contents"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-authorise",
+      "from": "active",
+      "to": "terminated",
+      "event": "Nearest relative authorises (in writing and signed, or orally to a health worker) or declines",
+      "conditions": [],
+      "citations": [
+       "htsa-6e",
+       "htsa-6h"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "The 2006 Act's former s 7 (general authorisation by nearest relative) was repealed on 26 March 2021 when deemed authorisation took effect.",
+     "citations": [
+      "htsa-7-repealed",
+      "htsa-6d"
+     ]
+    },
+    {
+     "text": "No 'nominated representative' for transplantation exists in the Scottish Act (unlike Human Tissue Act 2004 s 4 in England, Wales and NI). The only nomination found in the contents is for post-mortem examinations (s 30). Welfare attorneys and guardians are barred from giving authorisations.",
+     "citations": [
+      "htsa-contents",
+      "awi-16-6",
+      "awi-64"
+     ]
+    },
+    {
+     "text": "The correct short title of the principal Act is the Human Tissue (Scotland) Act 2006 (asp 4). The Human Tissue (Authorisation) (Scotland) Act 2019 (asp 11) is the amending Act.",
+     "citations": [
+      "htsa-6d"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sco-remains-arranger",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Person entitled to arrange burial, cremation or hydrolysis",
+   "localNames": [
+    "nearest relative",
+    "arrangements on death declaration"
+   ],
+   "summary": "If an adult made an 'arrangements on death declaration', the person it names makes the arrangements. Otherwise, or if that is impracticable, the nearest relative under a statutory list may do so. The list runs: spouse or civil partner, cohabitant of 6 months or more, child, parent, sibling, grandparent, grandchild, uncle or aunt, cousin, niece or nephew, then friend of long standing. The executor is not on the list.",
+   "lane": {
+    "assigned": {
+     "event": "Adult makes an arrangements on death declaration, or statute ranks the nearest relative immediately before death",
+     "phase": "capable",
+     "citations": [
+      "bcsa-65"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "bcsa-65"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Remains buried, cremated or hydrolysed",
+      "phase": "deceased",
+      "citations": [
+       "bcsa-65"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No declaration"
+     },
+     {
+      "id": "designated",
+      "label": "Declaration names an arranger"
+     },
+     {
+      "id": "active",
+      "label": "Arranger acting after death"
+     },
+     {
+      "id": "terminated",
+      "label": "Disposal completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-declare",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Adult makes arrangements on death declaration",
+      "conditions": [],
+      "citations": [
+       "bcsa-65"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-declared",
+      "from": "designated",
+      "to": "active",
+      "event": "Adult dies; declared person acts",
+      "conditions": [
+       "reasonably practicable to give effect to declaration"
+      ],
+      "citations": [
+       "bcsa-65"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-default",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Adult dies; nearest relative under s 65(3) may arrange",
+      "conditions": [
+       "ranked in paragraph order; equal-rank persons each may act",
+       "under-16s, unwilling/unable or uncontactable persons skipped",
+       "separated/deserting spouse disregarded"
+      ],
+      "citations": [
+       "bcsa-65"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-disposed",
+      "from": "active",
+      "to": "terminated",
+      "event": "Burial, cremation or hydrolysis completed",
+      "conditions": [],
+      "citations": [
+       "bcsa-65"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "s 65 covers adults (16+). s 66 gives a separate list for children, headed by a parent or person with parental rights and responsibilities. Both are subject to Public Health etc. (Scotland) Act 2008 s 92.",
+     "citations": [
+      "bcsa-65",
+      "bcsa-66"
+     ]
+    },
+    {
+     "text": "Hydrolysis was added to ss 65-66 by the Hydrolysis (Scotland) (No. 1) Regulations 2026 (SSI 2026/50), fully in force 2 March 2026.",
+     "citations": [
+      "bcsa-65"
+     ]
+    }
+   ]
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A power of attorney continues through incapacity only if it meets s 15: a written document with an express statement that it is continuing, plus a certificate.",
+   "citations": [
+    "awi-15"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "A continuing power may be exercisable only on a determination of incapacity. Registration can be conditioned on a specified event. Welfare powers are inherently incapacity-triggered.",
+   "citations": [
+    "awi-15-3-ba",
+    "awi-19-3",
+    "opg-s-types"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "Continuing and welfare attorneys have no authority to act until the Public Guardian (Scotland) registers the document.",
+   "citations": [
+    "awi-19"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "A welfare power can be used only if the granter is incapable of the decision, or the attorney reasonably believes so. No clinician certificate is needed for the attorney to act. Separately, s 47 gives the certifying practitioner treatment authority.",
+   "citations": [
+    "awi-16-5",
+    "awi-47"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": false,
+   "year": null,
+   "name": "Adults with Incapacity (Scotland) Act 2000 s 1 (principles only)",
+   "note": "No statutory supporter or supported decision-making appointment exists. The AWI Act s 1 principles require taking account of the adult's wishes and encouraging use of skills. Reform to strengthen supported decision-making (2024 consultation, Expert Working Group) is pending, and no bill had been introduced as of the sources checked.",
+   "citations": [
+    "awi-1",
+    "awi-1-5",
+    "sp-awi-2024",
+    "govscot-awi-policy"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No statutory fiduciary-access regime. The Digital Assets (Scotland) Act 2026 (in force 1 July 2026) classes rivalrous digital assets, such as crypto-tokens, as incorporeal moveables, so they form part of the estate. It does not give executors, attorneys or guardians any access rights against platforms.",
+   "citations": [
+    "dasa-2026-2",
+    "dasa-2026-1",
+    "sp-digital-assets-2025"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No Scottish statute recognises platform online-tool designations such as legacy contacts.",
+   "citations": [
+    "sp-digital-assets-2025"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": 2021,
+   "name": "Human Tissue (Scotland) Act 2006 as amended by the Human Tissue (Authorisation) (Scotland) Act 2019",
+   "note": "Deemed authorisation for transplantation for adults ordinarily resident in Scotland 12+ months, from 26 March 2021.",
+   "citations": [
+    "htsa-6d"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": true,
+   "threshold": 5000,
+   "currency": "GBP",
+   "waitingDays": null,
+   "note": "Collection without any confirmation is limited to statutory small payments (£5,000 under the 1965 Act schemes) and holders' discretion. Estates of £36,000 or less still need confirmation, through the simplified sheriff clerk procedure (SSI 2011/435).",
+   "citations": [
+    "aesp-1965-1",
+    "iwc-1875-3",
+    "ssi-2011-435"
+   ]
+  },
+  "probateGrantName": {
+   "value": "confirmation",
+   "note": "Granted by the sheriff court to an executor-nominate or executor-dative.",
+   "citations": [
+    "ssa-1964-14",
+    "scts-guide"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": false,
+   "note": "UK-wide (see uk-national layer): personal data means information about a living individual.",
+   "citations": [
+    "dpa-2018-3"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "A welfare power stops on death, and a welfare attorney cannot authorise donation. After death, the nearest relative (Human Tissue (Scotland) Act 2006 s 50; Burial and Cremation (Scotland) Act 2016 s 65) and the executor act instead.",
+   "citations": [
+    "opg-s-faq",
+    "awi-16-6"
+   ]
+  }
+ },
+ "pendingLegislation": [
+  {
+   "item": "Adults with Incapacity (Scotland) Act 2000 reform (Scottish Mental Health Law Review, final report Sept 2022; AWI Amendment Act consultation July-Oct 2024; AWI Reform Expert Working Group and Ministerial Oversight Group)",
+   "status": "pending - no bill introduced in the sources checked; legislation.gov.uk shows AWI Act up to date to 16 Sept 2026",
+   "citations": [
+    "sp-awi-2024",
+    "govscot-awi-consultation-2024",
+    "govscot-awi-policy",
+    "awi-contents"
+   ]
+  },
+  {
+   "item": "Digital Assets (Scotland) Act 2026",
+   "status": "enacted (Royal Assent 16 April 2026) and in force 1 July 2026; property-law classification only, no fiduciary access",
+   "citations": [
+    "dasa-2026-2"
+   ]
+  }
+ ]
+}

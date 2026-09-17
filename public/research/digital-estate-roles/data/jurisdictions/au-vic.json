@@ -1,0 +1,3275 @@
+{
+ "jurisdiction": "au-vic",
+ "name": "Victoria",
+ "country": "au",
+ "legalSystem": "common law",
+ "note": "Victorian state law on substitute and supported decision-making, deceased estates, tissue donation and disposal of remains, as in force on 2026-09-16. Commonwealth roles (Centrelink, My Health Record, ATO, Privacy Act) are in the au-commonwealth layer.",
+ "citations": [
+  {
+   "id": "vic-poa-3-personal",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 3(1) (def. personal matter)",
+   "title": "Definitions: personal matter",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not include any matter that relates to medical treatment or medical research procedures"
+  },
+  {
+   "id": "vic-poa-3-financial",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 3(1) (def. financial matter)",
+   "title": "Definitions: financial matter",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "any matter relating to the principal's financial or property affairs"
+  },
+  {
+   "id": "vic-poa-7",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 7(1)",
+   "title": "General non-enduring power of attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "authority to do anything on behalf of the principal that a principal can lawfully do by an attorney"
+  },
+  {
+   "id": "vic-poa-10",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 10",
+   "title": "When attorney's power is exercisable (non-enduring)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the powers under the general nonenduring power of attorney are exercisable once the power of attorney is made"
+  },
+  {
+   "id": "vic-poa-14-15",
+   "cite": "Powers of Attorney Act 2014 (Vic) ss 14-15",
+   "title": "Protection for attorney and third person who does not know of revocation or invalidity (non-enduring)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not know that the power being exercised, or the power of attorney, is invalid or has been revoked"
+  },
+  {
+   "id": "vic-poa-21",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 21",
+   "title": "Principles to be applied by persons acting under this Act or an enduring power of attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must do so in a way that is as least restrictive of the principal's ability to decide and act as is possible"
+  },
+  {
+   "id": "vic-poa-22",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 22",
+   "title": "Enduring power of attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an enduring power of attorney is not revoked by the principal, after making the power, becoming a person who does not have decision making capacity"
+  },
+  {
+   "id": "vic-poa-26",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 26",
+   "title": "Matters for which power cannot be given under an enduring power of attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "manage the estate of the principal on the death of the principal"
+  },
+  {
+   "id": "vic-poa-32",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 32",
+   "title": "Form of enduring power of attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney must be in the prescribed form."
+  },
+  {
+   "id": "vic-poa-35",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 35(1)",
+   "title": "Who can witness the signing of an instrument creating an enduring power of attorney?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "one person must be either authorised to witness affidavits or a medical practitioner"
+  },
+  {
+   "id": "vic-poa-36",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 36(1)",
+   "title": "Certification of witness to signing",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the principal appeared to the witness to have decision making capacity in relation to the making of the enduring power of attorney"
+  },
+  {
+   "id": "vic-poa-37",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 37(1)",
+   "title": "Acceptance by attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney is effective as to an attorney appointed under the power of attorney if"
+  },
+  {
+   "id": "vic-poa-39",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 39",
+   "title": "When attorney's power is exercisable",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "when the principal ceases to have decision making capacity for the matters or matter; or (c) any other time, circumstance or occasion."
+  },
+  {
+   "id": "vic-poa-39-2",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 39(2)",
+   "title": "When attorney's power is exercisable: default",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the power for all matters under the enduring power of attorney is exercisable on and from the making of the power of attorney"
+  },
+  {
+   "id": "vic-poa-39-3",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 39(3)-(4)",
+   "title": "When attorney's power is exercisable: earlier loss of capacity; evidence",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may exercise that power during any period when the principal does not have that capacity"
+  },
+  {
+   "id": "vic-poa-40",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 40(1)",
+   "title": "Attorney to notify if acting because the principal does not have decision making capacity",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must take reasonable steps to give notice that the attorney is commencing to exercise the power"
+  },
+  {
+   "id": "vic-poa-41",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 41(1)",
+   "title": "Regaining decision making capacity does not prevent exercise of power by attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may continue to exercise that power even if the principal regains decision making capacity for the matter"
+  },
+  {
+   "id": "vic-poa-42",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 42",
+   "title": "Principal may continue to exercise power",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not affect the principal's power to do anything that the principal is otherwise legally capable of doing"
+  },
+  {
+   "id": "vic-poa-43",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 43(1)",
+   "title": "Terms of enduring power of attorney as to revocation",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney is revoked according to its terms."
+  },
+  {
+   "id": "vic-poa-44",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 44",
+   "title": "Revocation by principal",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the principal has decision making capacity in relation to making an enduring power of attorney giving the same power"
+  },
+  {
+   "id": "vic-poa-51",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 51",
+   "title": "Death of principal",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney is revoked on the death of the principal."
+  },
+  {
+   "id": "vic-poa-52-53",
+   "cite": "Powers of Attorney Act 2014 (Vic) ss 52-53",
+   "title": "Death of attorney; attorney does not have decision making capacity",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the power of attorney is revoked so far as it gives power to that attorney"
+  },
+  {
+   "id": "vic-poa-54",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 54(1)",
+   "title": "Revocation of appointment (insolvency, care worker, dishonesty offence)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the attorney becomes a care worker, a health provider or an accommodation provider for the principal"
+  },
+  {
+   "id": "vic-poa-55",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 55",
+   "title": "Revocation by later enduring power of attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney is revoked by a later enduring power of attorney of the principal."
+  },
+  {
+   "id": "vic-poa-56-59",
+   "cite": "Powers of Attorney Act 2014 (Vic) ss 56, 59",
+   "title": "Resignation of attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if paragraph (a) or (b) does not apply, with leave from VCAT or the Supreme Court"
+  },
+  {
+   "id": "vic-poa-83",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 83",
+   "title": "Effect of administration order or guardianship order on enduring power of attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must not exercise a power for financial matters for that principal unless the attorney is authorised by VCAT"
+  },
+  {
+   "id": "vic-poa-85",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 85",
+   "title": "Supportive attorney appointment: power to make and scope",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(excluding matters concerning medical treatment and medical research procedures)"
+  },
+  {
+   "id": "vic-poa-86",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 86(1)",
+   "title": "Who may make a supportive attorney appointment?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the person has decision making capacity in relation to making the supportive attorney appointment"
+  },
+  {
+   "id": "vic-poa-87-89",
+   "cite": "Powers of Attorney Act 2014 (Vic) ss 87-89",
+   "title": "Information, communication and give-effect powers of supportive attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "access, collect or obtain from or assist the principal in accessing, collecting or obtaining from any person any personal information"
+  },
+  {
+   "id": "vic-poa-99",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 99(1)",
+   "title": "Acceptance by supportive attorney",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A supportive attorney appointment is effective as to a supportive attorney appointed under the appointment if"
+  },
+  {
+   "id": "vic-poa-101",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 101",
+   "title": "When does appointment commence?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the appointment of a supportive attorney commences on its making"
+  },
+  {
+   "id": "vic-poa-102",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 102",
+   "title": "Effect on appointment if principal does not have decision making capacity",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not have effect for any period, after the making of the appointment, during which the principal does not have decision making capacity"
+  },
+  {
+   "id": "vic-poa-103",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 103",
+   "title": "Revocation of appointment by principal",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the principal has decision making capacity in relation to making the supportive attorney appointment"
+  },
+  {
+   "id": "vic-poa-109",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 109",
+   "title": "Other revocation of supportive attorney appointment",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A supportive attorney appointment is revoked on the death of the principal."
+  },
+  {
+   "id": "vic-poa-116",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 116",
+   "title": "Matters about which VCAT may make an order",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the validity of the enduring power of attorney"
+  },
+  {
+   "id": "vic-poa-endnote",
+   "cite": "Powers of Attorney Act 2014 (Vic), Endnotes: General information (Authorised Version No. 007)",
+   "title": "Commencement",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "came into operation on 1 September 2015"
+  },
+  {
+   "id": "vic-mtpd-4",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 4",
+   "title": "Decision-making capacity",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an adult is presumed to have decision-making capacity unless there is evidence to the contrary"
+  },
+  {
+   "id": "vic-mtpd-12-13",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) ss 12-13",
+   "title": "Content of advance care directives; who may give one",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Any person (including a child) may give an advance care directive if"
+  },
+  {
+   "id": "vic-mtpd-19",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 19",
+   "title": "When is an advance care directive in force?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An advance care directive comes into force at the time it is signed in accordance with this Part."
+  },
+  {
+   "id": "vic-mtpd-20",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 20",
+   "title": "Amendment or revocation of advance care directive",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An advance care directive given by a person is revoked by any later advance care directive given by that person."
+  },
+  {
+   "id": "vic-mtpd-26",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 26",
+   "title": "Appointment of medical treatment decision maker",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An adult who has decision-making capacity may appoint another adult as the person's appointed medical treatment decision maker."
+  },
+  {
+   "id": "vic-mtpd-27",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 27",
+   "title": "Powers of appointed medical treatment decision maker",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "subject to any limitations or conditions specified in the document of appointment"
+  },
+  {
+   "id": "vic-mtpd-28",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 28",
+   "title": "Formal requirements (appointment of medical treatment decision maker)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must be accepted by each appointee in accordance with section 29 before it comes into effect"
+  },
+  {
+   "id": "vic-mtpd-30",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 30",
+   "title": "Revocation of appointment (medical treatment decision maker)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the person has decision-making capacity in relation to the revocation decision"
+  },
+  {
+   "id": "vic-mtpd-31",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 31",
+   "title": "Appointment of support person",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Only one support person may be appointed for a person."
+  },
+  {
+   "id": "vic-mtpd-32",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 32",
+   "title": "Role of support person",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not have the power to make a person's medical treatment decisions"
+  },
+  {
+   "id": "vic-mtpd-35",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 35",
+   "title": "Revocation of appointment (support person)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An appointment of a support person is revoked by any later appointment of a support person."
+  },
+  {
+   "id": "vic-mtpd-38",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 38",
+   "title": "When is an appointment under this Part in force?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An appointment under this Part comes into force on the date it is made."
+  },
+  {
+   "id": "vic-mtpd-39",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 39",
+   "title": "Resignation of appointed medical treatment decision maker or support person",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An appointee under this Part may resign from the appointment."
+  },
+  {
+   "id": "vic-mtpd-43",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 43",
+   "title": "VCAT orders in relation to appointed medical treatment decision makers and support persons",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "revoking the appointment"
+  },
+  {
+   "id": "vic-mtpd-55",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 55",
+   "title": "Who is a person's medical treatment decision maker?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the first of the following persons who is in a close and continuing relationship with the person"
+  },
+  {
+   "id": "vic-mtpd-58",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 58(1)",
+   "title": "Consent to medical treatment",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not have decision-making capacity for that medical treatment, a medical treatment decision must be obtained or ascertained"
+  },
+  {
+   "id": "vic-mtpd-61",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 61(1)",
+   "title": "Decision by medical treatment decision maker",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the decision that the person would have made if the person had decision-making capacity"
+  },
+  {
+   "id": "vic-mtpd-94",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 94",
+   "title": "Disclosure of health information to medical treatment decision maker or support person",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a health practitioner is authorised to disclose health information about a person to the person's medical treatment decision maker or support person"
+  },
+  {
+   "id": "vic-mtpd-103",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic) s 103",
+   "title": "Enduring powers of attorney with power to make medical treatment decisions (transitional)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is taken to be the person's appointed medical treatment decision maker"
+  },
+  {
+   "id": "vic-mtpd-endnote",
+   "cite": "Medical Treatment Planning and Decisions Act 2016 (Vic), Endnotes: General information (Authorised Version No. 012)",
+   "title": "Commencement",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "came into operation on 12 March 2018"
+  },
+  {
+   "id": "vic-gaa-22-23",
+   "cite": "Guardianship and Administration Act 2019 (Vic) ss 22-23",
+   "title": "Application for guardianship orders and administration orders",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A person may apply to VCAT for a guardianship order that appoints a guardian for a person with a disability"
+  },
+  {
+   "id": "vic-gaa-30",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 30",
+   "title": "VCAT may make a guardianship order or administration order",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "because of the proposed represented person's disability, the person does not have decisionmaking capacity"
+  },
+  {
+   "id": "vic-gaa-36",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 36",
+   "title": "Urgent guardianship orders and urgent administration orders",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "vic-gaa-38",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 38",
+   "title": "Powers of guardians",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a power to make decisions about the personal matters in relation to the represented person that are specified in the order"
+  },
+  {
+   "id": "vic-gaa-39",
+   "cite": "Guardianship and Administration Act 2019 (Vic) ss 39, 53",
+   "title": "Matters for which power cannot be given under a guardianship or administration order",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "to manage the estate of the represented person on the death of the represented person"
+  },
+  {
+   "id": "vic-gaa-42",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 42",
+   "title": "Guardian to report death of represented person",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the guardian must report the death in writing to VCAT as soon as practicable"
+  },
+  {
+   "id": "vic-gaa-46",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 46",
+   "title": "Powers of administrators",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "vic-gaa-54",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 54",
+   "title": "Powers of administrator cease on death of represented person",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An administration order lapses on the death of the represented person"
+  },
+  {
+   "id": "vic-gaa-87",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 87",
+   "title": "VCAT may make a supportive guardianship order or supportive administration order",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the person is given practicable and appropriate support, the person will have decision-making capacity"
+  },
+  {
+   "id": "vic-gaa-90",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 90",
+   "title": "Powers of supportive guardians or supportive administrators",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a power to communicate decisions made by the supported person"
+  },
+  {
+   "id": "vic-gaa-96",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 96",
+   "title": "When does a supportive guardianship order or supportive administration order cease to have effect?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "ceases to have effect to the extent that it is inconsistent with any subsequent guardianship order or administration order"
+  },
+  {
+   "id": "vic-gaa-98",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 98",
+   "title": "Supportive guardian or supportive administrator to report death of supported person",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must report the death in writing to VCAT as soon as practicable"
+  },
+  {
+   "id": "vic-gaa-159",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 159(2)",
+   "title": "Reassessment",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "within 12 months after making the order, unless VCAT orders otherwise"
+  },
+  {
+   "id": "vic-gaa-167",
+   "cite": "Guardianship and Administration Act 2019 (Vic) s 167",
+   "title": "Order after reassessment",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "amend, vary, continue or replace the relevant order"
+  },
+  {
+   "id": "vic-gaa-83-poa",
+   "cite": "Powers of Attorney Act 2014 (Vic) s 83 (as affected by Guardianship and Administration Act 2019 (Vic))",
+   "title": "Guardianship/administration order displaces enduring attorney unless VCAT authorises",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must not exercise powers in relation to personal matters for that principal unless the attorney is authorised by VCAT"
+  },
+  {
+   "id": "vic-apa-6",
+   "cite": "Administration and Probate Act 1958 (Vic) s 6",
+   "title": "Jurisdiction of Court to grant probate etc.",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "jurisdiction to grant probate of the will or administration of the estate of any deceased person leaving property"
+  },
+  {
+   "id": "vic-apa-12",
+   "cite": "Administration and Probate Act 1958 (Vic) s 12",
+   "title": "Grants of probate and administration by registrar",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the registrar may, on application made to him supported by affidavits upon which in his opinion the Court would grant probate or administration"
+  },
+  {
+   "id": "vic-apa-13",
+   "cite": "Administration and Probate Act 1958 (Vic) s 13(1)",
+   "title": "Real estate to vest in executors and administrators",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall vest as from the death of such person in the executor or administrator to whom such probate or administration is granted"
+  },
+  {
+   "id": "vic-apa-16",
+   "cite": "Administration and Probate Act 1958 (Vic) s 16",
+   "title": "Cesser of right of executor to prove",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "vic-apa-19",
+   "cite": "Administration and Probate Act 1958 (Vic) s 19",
+   "title": "Estate of intestate to vest in State Trustees between death and grant of administration",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "until administration is granted in respect thereof shall vest in the State Trustees"
+  },
+  {
+   "id": "vic-apa-25",
+   "cite": "Administration and Probate Act 1958 (Vic) s 25",
+   "title": "Administration with will annexed",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "vic-apa-28",
+   "cite": "Administration and Probate Act 1958 (Vic) s 28",
+   "title": "Duty of personal representative as to inventory and accounts",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "vic-apa-31a",
+   "cite": "Administration and Probate Act 1958 (Vic) s 31A",
+   "title": "Protection of payments or transfers of property without requiring the production of a grant of representation",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may pay or transfer the money or the personal property without requiring the production of a grant of representation"
+  },
+  {
+   "id": "vic-apa-31b",
+   "cite": "Administration and Probate Act 1958 (Vic) s 31B",
+   "title": "Threshold amount (CPI indexation; annual Gazette declaration)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Minister by order published in the Government Gazette, must declare the threshold amount"
+  },
+  {
+   "id": "vic-apa-34",
+   "cite": "Administration and Probate Act 1958 (Vic) s 34",
+   "title": "Discharge or removal of executor or administrator",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may order the discharge or removal of such an executor or administrator"
+  },
+  {
+   "id": "vic-apa-71",
+   "cite": "Administration and Probate Act 1958 (Vic) s 71",
+   "title": "Aid of registrar or clerk in procuring grant of probate etc.",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If a person dies leaving property not exceeding the maximum monetary value"
+  },
+  {
+   "id": "vic-apa-79",
+   "cite": "Administration and Probate Act 1958 (Vic) s 79",
+   "title": "Administration of small estates (State Trustees)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "State Trustees is to be taken to have been granted probate of the will or administration of the estate at the expiry of 14 days"
+  },
+  {
+   "id": "vic-gazette-2026-31b",
+   "cite": "Victoria Government Gazette No G 26, 25 June 2026, p 1490: Declaration under s 31B(4) and Notice under s 71(1E), Administration and Probate Act 1958 (Vic)",
+   "title": "Threshold amount and maximum monetary value from 1 July 2026",
+   "url": "https://www.gazette.vic.gov.au/gazette/Gazettes2026/GG2026G026.pdf",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "the threshold amount for the purposes of section 31A(2) is thirty four thousand, three hundred and ten dollars ($34,310)"
+  },
+  {
+   "id": "vic-wills-13",
+   "cite": "Wills Act 1997 (Vic) s 13",
+   "title": "What is the effect of marriage on a will?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/wills-act-1997/036",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A will is revoked by the marriage of the testator."
+  },
+  {
+   "id": "vic-wills-14",
+   "cite": "Wills Act 1997 (Vic) s 14",
+   "title": "What is the effect of divorce on a will?",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/wills-act-1997/036",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "any appointment made by the will of the spouse as an executor, trustee, advisory trustee or guardian"
+  },
+  {
+   "id": "vic-hta-3-snok",
+   "cite": "Human Tissue Act 1982 (Vic) s 3(1) (def. senior available next of kin)",
+   "title": "Definitions: senior available next of kin",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/human-tissue-act-1982/047",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "had a spouse or domestic partner and that spouse or domestic partner is available—the spouse or domestic partner"
+  },
+  {
+   "id": "vic-hta-24c",
+   "cite": "Human Tissue Act 1982 (Vic) s 24C",
+   "title": "Medical treatment decision maker may consent to ante-mortem procedures",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/human-tissue-act-1982/047",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The medical treatment decision maker of a person may consent to the carrying out of ante-mortem procedures"
+  },
+  {
+   "id": "vic-hta-26",
+   "cite": "Human Tissue Act 1982 (Vic) s 26",
+   "title": "Authority to remove tissue after death",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/human-tissue-act-1982/047",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the senior available next of kin of the deceased person makes it known to the designated officer that he consents to the removal"
+  },
+  {
+   "id": "vic-hta-26-3",
+   "cite": "Human Tissue Act 1982 (Vic) s 26(3)",
+   "title": "No next-of-kin authority where deceased objected",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/human-tissue-act-1982/047",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "had, during his lifetime, expressed in writing an objection to the removal of tissue from his body after his death"
+  },
+  {
+   "id": "vic-cca-116",
+   "cite": "Cemeteries and Crematoria Act 2003 (Vic) s 116",
+   "title": "Application for interment authorisation",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/cemeteries-and-crematoria-act-2003/038",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A person who wishes bodily remains to be interred in a public cemetery may apply"
+  },
+  {
+   "id": "vic-cca-131",
+   "cite": "Cemeteries and Crematoria Act 2003 (Vic) s 131",
+   "title": "Application for cremation authorisation",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/cemeteries-and-crematoria-act-2003/038",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A person who wishes bodily remains to be cremated in a crematorium at a public cemetery may apply"
+  },
+  {
+   "id": "vic-cca-143",
+   "cite": "Cemeteries and Crematoria Act 2003 (Vic) s 143",
+   "title": "Magistrates' Court may make order (deceased poor person)",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/cemeteries-and-crematoria-act-2003/038",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the deceased person died without sufficient means to pay interment or cremation expenses"
+  },
+  {
+   "id": "qsc-re-gray-2000",
+   "cite": "Re Gray [2000] QSC 390; [2001] 2 Qd R 35 (Chesterman J)",
+   "title": "Right to custody and possession of body for disposal (persuasive common-law authority)",
+   "url": "https://www.queenslandjudgments.com.au/caselaw/qsc/2000/390",
+   "kind": "case-law",
+   "retrieved": "2026-09-16",
+   "quote": "his executors have a right to the custody and possession of his body (although they have no property in it) until it is properly buried"
+  },
+  {
+   "id": "vlrc-funeral-burial-cp",
+   "cite": "Victorian Law Reform Commission, Funeral and Burial Instructions: Consultation Paper (2015), ch 3",
+   "title": "Funeral and burial instructions in the common law",
+   "url": "https://www.lawreform.vic.gov.au/publication/funeral-and-burial-instructions-consultation-paper/3-funeral-and-burial-instructions-in-the-common-law/",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "vic-hra-85",
+   "cite": "Health Records Act 2001 (Vic) s 85(6)",
+   "title": "Capacity to consent: authorised representative",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/health-records-act-2001/050",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an attorney for the individual under an enduring power of attorney"
+  },
+  {
+   "id": "vic-hra-95",
+   "cite": "Health Records Act 2001 (Vic) s 95",
+   "title": "Deceased individuals",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/health-records-act-2001/050",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "applies in relation to a deceased individual who has been dead for 30 years or less"
+  },
+  {
+   "id": "vic-hra-3-legalrep",
+   "cite": "Health Records Act 2001 (Vic) s 3(1) (def. legal representative)",
+   "title": "Definitions: legal representative of a deceased individual",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/health-records-act-2001/050",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "holding office as executor of the will of the deceased individual where probate of the will has been granted or resealed"
+  },
+  {
+   "id": "vic-pdpa-3",
+   "cite": "Privacy and Data Protection Act 2014 (Vic) s 3 (def. personal information)",
+   "title": "Definitions: personal information",
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/privacy-and-data-protection-act-2014/033",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "but does not include information of a kind to which the Health Records Act 2001 applies"
+  }
+ ],
+ "roles": [
+  {
+   "id": "vic-epoa-financial",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney for financial matters under an enduring power of attorney",
+   "localNames": [
+    "attorney",
+    "attorney for financial matters",
+    "enduring power of attorney"
+   ],
+   "summary": "An adult with decision-making capacity can appoint an attorney for financial matters in the prescribed form. The principal chooses when the power starts. It can start at once, when the principal loses capacity, or at another time or event. If the document says nothing, it starts as soon as the document is made. Loss of capacity does not end it, but death does. The attorney cannot run the estate after death.",
+   "lane": {
+    "assigned": {
+     "event": "Principal with decision-making capacity signs the prescribed form before two witnesses, one authorised to witness affidavits or a medical practitioner; the attorney signs a witnessed acceptance",
+     "phase": "capable",
+     "citations": [
+      "vic-poa-32",
+      "vic-poa-35",
+      "vic-poa-36",
+      "vic-poa-37"
+     ]
+    },
+    "starts": {
+     "event": "On the time, circumstance or occasion specified (e.g. immediately, or when the principal ceases to have decision making capacity). If nothing is specified, on the making of the power. If capacity is lost before a specified later start, the power becomes exercisable during the incapacity.",
+     "phase": "capable",
+     "citations": [
+      "vic-poa-39",
+      "vic-poa-39-2",
+      "vic-poa-39-3"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the principal",
+      "phase": "deceased",
+      "citations": [
+       "vic-poa-51",
+       "vic-poa-26"
+      ]
+     },
+     {
+      "event": "Principal (with capacity) revokes it, or makes a later enduring power of attorney (unless it says otherwise)",
+      "phase": "capable",
+      "citations": [
+       "vic-poa-44",
+       "vic-poa-55"
+      ]
+     },
+     {
+      "event": "Revoked according to its own terms",
+      "phase": "capable",
+      "citations": [
+       "vic-poa-43"
+      ]
+     },
+     {
+      "event": "As to that attorney: the attorney dies, loses capacity, becomes insolvent under administration, becomes a care worker/health/accommodation provider for the principal, is convicted of a dishonesty offence, or resigns",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-poa-52-53",
+       "vic-poa-54",
+       "vic-poa-56-59"
+      ]
+     },
+     {
+      "event": "VCAT declares it invalid or revokes it",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-poa-116"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Regaining capacity does not stop an attorney who began acting because of incapacity. The principal also keeps their own legal capacity to act.",
+     "citations": [
+      "vic-poa-41",
+      "vic-poa-42"
+     ]
+    },
+    {
+     "text": "Unlike Queensland, the Victorian Act has no provision revoking an enduring power of attorney on the principal's later marriage, divorce or end of a domestic partnership. Revocation events are those in Part 5 (ss 43-62).",
+     "citations": [
+      "vic-poa-43",
+      "vic-poa-51",
+      "vic-poa-54",
+      "vic-poa-55"
+     ]
+    },
+    {
+     "text": "There is no registration requirement before use. The Act requires only the prescribed form, witnessing and acceptance.",
+     "citations": [
+      "vic-poa-32",
+      "vic-poa-37"
+     ]
+    },
+    {
+     "text": "An attorney acting for a principal who lacks capacity must act in the least restrictive way, support the principal's participation and give effect to their wishes. Before first acting because of incapacity, the attorney must notify anyone the instrument names.",
+     "citations": [
+      "vic-poa-21",
+      "vic-poa-40"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Instrument made and accepted, but specified commencement has not occurred"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "VCAT has made an administration order; attorney may act only as VCAT authorises"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-make",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal executes prescribed form; attorney accepts",
+      "conditions": [
+       "Principal has decision making capacity to make the enduring power"
+      ],
+      "citations": [
+       "vic-poa-32",
+       "vic-poa-36",
+       "vic-poa-37"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-immediate",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Executed with no specified commencement, or specified as immediate",
+      "citations": [
+       "vic-poa-39",
+       "vic-poa-39-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-spring",
+      "from": "designated",
+      "to": "active",
+      "event": "Specified time, circumstance or occasion occurs (including principal ceasing to have capacity)",
+      "conditions": [
+       "Third party may ask for evidence of incapacity (e.g. medical certificate)",
+       "Attorney must give any notice the instrument requires before first acting because of incapacity; failure does not invalidate acts"
+      ],
+      "citations": [
+       "vic-poa-39"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-early-incapacity",
+      "from": "designated",
+      "to": "active",
+      "event": "Principal loses capacity before the specified later start",
+      "citations": [
+       "vic-poa-39-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-admin-order",
+      "from": "active",
+      "to": "suspended",
+      "event": "VCAT makes an administration order for the principal",
+      "citations": [
+       "vic-poa-83"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "vic-poa-51"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-d",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Principal dies before the power became exercisable",
+      "citations": [
+       "vic-poa-51"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal revokes (needs capacity to make the same power), later enduring power, or revocation by its own terms",
+      "citations": [
+       "vic-poa-43",
+       "vic-poa-44",
+       "vic-poa-55"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-attorney-event",
+      "from": "active",
+      "to": "terminated",
+      "event": "Attorney dies, loses capacity, becomes insolvent, becomes care worker/health/accommodation provider, dishonesty conviction, or resigns (revoked as to that attorney)",
+      "citations": [
+       "vic-poa-52-53",
+       "vic-poa-54",
+       "vic-poa-56-59"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-vcat",
+      "from": "active",
+      "to": "terminated",
+      "event": "VCAT order on validity or revocation",
+      "citations": [
+       "vic-poa-116"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-epoa-personal",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Attorney for personal matters under an enduring power of attorney",
+   "localNames": [
+    "attorney for personal matters"
+   ],
+   "summary": "The same enduring power of attorney can cover personal or lifestyle matters, such as where and with whom the principal lives. It cannot cover medical treatment, which is handled by a medical treatment decision maker under the 2016 Act. In Victoria, power over personal matters is not limited by statute to periods of incapacity: the principal sets the start, and the default is on making. It ends at death.",
+   "lane": {
+    "assigned": {
+     "event": "Principal with capacity executes the prescribed form confining or extending power to personal matters; attorney accepts",
+     "phase": "capable",
+     "citations": [
+      "vic-poa-22",
+      "vic-poa-32",
+      "vic-poa-37"
+     ]
+    },
+    "starts": {
+     "event": "As specified in the instrument (e.g. when the principal ceases to have capacity); otherwise on making",
+     "phase": "capable",
+     "citations": [
+      "vic-poa-39",
+      "vic-poa-39-2"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the principal",
+      "phase": "deceased",
+      "citations": [
+       "vic-poa-51"
+      ]
+     },
+     {
+      "event": "Revocation by the principal or a later enduring power; resignation; death, incapacity or disqualifying event of the attorney",
+      "phase": "capable",
+      "citations": [
+       "vic-poa-44",
+       "vic-poa-55",
+       "vic-poa-52-53",
+       "vic-poa-54",
+       "vic-poa-56-59"
+      ]
+     },
+     {
+      "event": "VCAT guardianship order suspends exercise unless VCAT authorises",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-gaa-83-poa"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Canonical mapping: this role is lined up with 'health-care-agent' because it is the appointed personal-welfare attorney. Medical treatment is excluded from 'personal matter' in Victoria and belongs to the appointed medical treatment decision maker.",
+     "citations": [
+      "vic-poa-3-personal",
+      "vic-mtpd-26"
+     ]
+    },
+    {
+     "text": "Transitional rule: an attorney under a pre-2018 enduring power who kept power to make medical treatment decisions is taken to be the appointed medical treatment decision maker.",
+     "citations": [
+      "vic-mtpd-103"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed but authority not yet exercisable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "VCAT guardianship order in force; attorney may act only as VCAT authorises"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-make",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal executes prescribed form; attorney accepts",
+      "citations": [
+       "vic-poa-32",
+       "vic-poa-37"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-start",
+      "from": "designated",
+      "to": "active",
+      "event": "Specified commencement (or on making if none specified)",
+      "citations": [
+       "vic-poa-39",
+       "vic-poa-39-2",
+       "vic-poa-39-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-guardian",
+      "from": "active",
+      "to": "suspended",
+      "event": "VCAT makes a guardianship order",
+      "citations": [
+       "vic-gaa-83-poa"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "vic-poa-51"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revocation, later enduring power, resignation, or attorney-side event",
+      "citations": [
+       "vic-poa-44",
+       "vic-poa-55",
+       "vic-poa-52-53",
+       "vic-poa-54",
+       "vic-poa-56-59"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-general-poa",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Attorney under a general non-enduring power of attorney",
+   "localNames": [
+    "general non-enduring power of attorney",
+    "non-enduring power of attorney"
+   ],
+   "summary": "An ordinary power of attorney in the Schedule form. It is exercisable once made unless the document says otherwise. It does not survive the principal's loss of capacity or death: the Act saves only enduring powers from the general-law rule that incapacity revokes.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs (or another signs at their direction before 2 witnesses)",
+     "phase": "capable",
+     "citations": [
+      "vic-poa-7"
+     ]
+    },
+    "starts": {
+     "event": "Once made, unless a later time, circumstance or occasion is specified",
+     "phase": "capable",
+     "citations": [
+      "vic-poa-10"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal loses decision-making capacity (general-law revocation; s 22(3) disapplies that rule only for enduring powers)",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-poa-22"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "Death of principal (general law)",
+      "phase": "deceased",
+      "citations": [
+       "vic-poa-14-15"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "Revocation by principal",
+      "phase": "capable",
+      "citations": [
+       "vic-poa-14-15"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed but authority not yet exercisable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority exists but may not currently be exercised"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-make",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Principal executes general power",
+      "citations": [
+       "vic-poa-7",
+       "vic-poa-10"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incap",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal loses capacity",
+      "citations": [
+       "vic-poa-22"
+      ],
+      "unverified": true,
+      "note": "Inferred from s 22(3) ('Despite any rule of law to the contrary'); the Act has no express revocation section for non-enduring powers."
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "vic-poa-14-15"
+      ],
+      "unverified": true,
+      "note": "General-law rule; ss 14-15 only protect attorneys and third parties who act without knowledge of revocation."
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-supportive-attorney",
+   "canonical": "supported-decision-maker",
+   "group": "financial",
+   "name": "Supportive attorney",
+   "localNames": [
+    "supportive attorney",
+    "supportive attorney appointment"
+   ],
+   "summary": "An adult with capacity can appoint a supportive attorney. The supportive attorney helps the principal make and carry out the principal's own decisions on personal, financial or other matters, but not medical treatment. They may get information, communicate decisions and take steps to give effect to them. The appointment has no effect while the principal lacks capacity and is revoked at death.",
+   "lane": {
+    "assigned": {
+     "event": "Adult principal with capacity signs the appointment form; supportive attorney signs a witnessed acceptance",
+     "phase": "capable",
+     "citations": [
+      "vic-poa-85",
+      "vic-poa-86",
+      "vic-poa-99"
+     ]
+    },
+    "starts": {
+     "event": "On the time, circumstance or occasion specified; otherwise on making",
+     "phase": "capable",
+     "citations": [
+      "vic-poa-101"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal lacks decision-making capacity for the matters: appointment has no effect for that period",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-poa-102"
+      ]
+     },
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "vic-poa-109"
+      ]
+     },
+     {
+      "event": "Revocation by principal (with capacity); death, incapacity, insolvency, care-provider status or dishonesty conviction of the supportive attorney; resignation; VCAT order",
+      "phase": "capable",
+      "citations": [
+       "vic-poa-103",
+       "vic-poa-109",
+       "vic-poa-116"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Powers are limited to information, communication and giving effect to the principal's own decisions. A supported decision remains the principal's decision.",
+     "citations": [
+      "vic-poa-85",
+      "vic-poa-87-89"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Appointment made but specified commencement not yet reached"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Principal currently lacks decision-making capacity; appointment has no effect"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-make",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Appointment executed and accepted",
+      "citations": [
+       "vic-poa-86",
+       "vic-poa-99"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-commence",
+      "from": "designated",
+      "to": "active",
+      "event": "Specified commencement, or on making",
+      "citations": [
+       "vic-poa-101"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incap",
+      "from": "active",
+      "to": "suspended",
+      "event": "Principal loses capacity for the matters",
+      "citations": [
+       "vic-poa-102"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-regain",
+      "from": "suspended",
+      "to": "active",
+      "event": "Principal regains capacity",
+      "citations": [
+       "vic-poa-102"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "vic-poa-109"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-s",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "vic-poa-109"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revocation by principal, attorney-side event, or VCAT order",
+      "citations": [
+       "vic-poa-103",
+       "vic-poa-109",
+       "vic-poa-116"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-appointed-mtdm",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Appointed medical treatment decision maker",
+   "localNames": [
+    "appointed medical treatment decision maker",
+    "medical treatment decision maker"
+   ],
+   "summary": "An adult with capacity may appoint one or more medical treatment decision makers. The appointment is in force from the date it is made, but it gives no decision-making power while the person can decide. It is used only when the person lacks decision-making capacity for the treatment decision. The appointee then makes the decision the person would have made. It ranks first in the statutory hierarchy.",
+   "lane": {
+    "assigned": {
+     "event": "Adult with capacity signs a written appointment, witnessed and certified; each appointee signs a witnessed acceptance",
+     "phase": "capable",
+     "citations": [
+      "vic-mtpd-26",
+      "vic-mtpd-28"
+     ]
+    },
+    "starts": {
+     "event": "Appointment is in force on the date made, but the power to decide arises only when the person does not have decision-making capacity for the particular treatment decision",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-mtpd-38",
+      "vic-mtpd-58",
+      "vic-mtpd-61",
+      "vic-mtpd-55"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Person regains decision-making capacity (power not exercisable)",
+      "phase": "capable",
+      "citations": [
+       "vic-mtpd-58"
+      ]
+     },
+     {
+      "event": "Revocation by the person with capacity, resignation, or VCAT revocation",
+      "phase": "capable",
+      "citations": [
+       "vic-mtpd-30",
+       "vic-mtpd-39",
+       "vic-mtpd-43"
+      ]
+     },
+     {
+      "event": "Death of the person: no treatment decisions remain. The Act has no express provision; after death, tissue donation authority passes to the senior available next of kin under the Human Tissue Act 1982.",
+      "phase": "deceased",
+      "citations": [
+       "vic-mtpd-58",
+       "vic-hta-26"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A medical treatment decision maker may consent, before death, to ante-mortem procedures that support donation after death.",
+     "citations": [
+      "vic-hta-24c"
+     ]
+    },
+    {
+     "text": "The decision maker may access health information relevant to the decision.",
+     "citations": [
+      "vic-mtpd-94"
+     ]
+    },
+    {
+     "text": "Advance care directives: any person with decision-making capacity, including a child, may give an advance care directive. It comes into force when signed and lasts until any expiry date or revocation, and a later directive revokes an earlier one. An applicable instructional directive is given effect directly. The decision maker must first consider any values directive. Powers are subject to limits in the appointment document.",
+     "citations": [
+      "vic-mtpd-12-13",
+      "vic-mtpd-19",
+      "vic-mtpd-20",
+      "vic-mtpd-61",
+      "vic-mtpd-27"
+     ]
+    },
+    {
+     "text": "The 2016 Act commenced on 12 March 2018. It replaced medical treatment powers previously given under enduring powers of attorney (medical treatment) and enduring powers of guardianship.",
+     "citations": [
+      "vic-mtpd-endnote",
+      "vic-mtpd-103"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Appointment in force; person still has capacity, so the appointee has no decision power"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Appointee not reasonably available, willing and able; the next person in the s 55 hierarchy acts, or the person is a mental health patient"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Appointment executed and accepted",
+      "citations": [
+       "vic-mtpd-26",
+       "vic-mtpd-28",
+       "vic-mtpd-38"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incap",
+      "from": "designated",
+      "to": "active",
+      "event": "Person lacks decision-making capacity for a treatment decision",
+      "conditions": [
+       "Appointee reasonably available and willing and able",
+       "Instructional directive in an advance care directive, if relevant, is given effect first"
+      ],
+      "citations": [
+       "vic-mtpd-58",
+       "vic-mtpd-55",
+       "vic-mtpd-4"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-unavailable",
+      "from": "active",
+      "to": "suspended",
+      "event": "Appointee not reasonably available/willing/able, or person becomes a mental health patient",
+      "citations": [
+       "vic-mtpd-55"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-regain",
+      "from": "active",
+      "to": "designated",
+      "event": "Person regains capacity",
+      "citations": [
+       "vic-mtpd-58"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Revocation by person with capacity, resignation, or VCAT order",
+      "citations": [
+       "vic-mtpd-30",
+       "vic-mtpd-39",
+       "vic-mtpd-43"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person dies",
+      "citations": [
+       "vic-mtpd-58"
+      ],
+      "unverified": true,
+      "note": "No express termination-on-death section; inferred because the Act regulates treatment of living persons."
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-default-mtdm",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Medical treatment decision maker (statutory hierarchy)",
+   "localNames": [
+    "medical treatment decision maker"
+   ],
+   "summary": "If no appointed decision maker is available, a VCAT guardian with medical treatment power comes next. If there is none, the decision maker is the first of these who is in a close and continuing relationship with the person and is reasonably available, willing and able: spouse or domestic partner, then primary carer, then the oldest adult child, parent or adult sibling. This person acts only while the person lacks capacity.",
+   "lane": {
+    "assigned": {
+     "event": "By operation of law when a treatment decision is needed (no document)",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-mtpd-55"
+     ]
+    },
+    "starts": {
+     "event": "When the person lacks decision-making capacity for the treatment decision and no higher-ranked decision maker is reasonably available, willing and able",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-mtpd-55",
+      "vic-mtpd-58"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Person regains capacity",
+      "phase": "capable",
+      "citations": [
+       "vic-mtpd-58"
+      ]
+     },
+     {
+      "event": "Higher-ranked decision maker becomes available (appointed MTDM or VCAT guardian)",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-mtpd-55"
+      ]
+     },
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "vic-mtpd-58"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Person has capacity or a higher-ranked decision maker acts"
+     },
+     {
+      "id": "active",
+      "label": "First available person in s 55(3) order is the medical treatment decision maker"
+     },
+     {
+      "id": "suspended",
+      "label": "Person is a mental health patient (s 55 does not apply)"
+     },
+     {
+      "id": "terminated",
+      "label": "Person dies or capacity regained"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-arise",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Treatment decision needed for person lacking capacity; no appointee/guardian available",
+      "conditions": [
+       "Close and continuing relationship",
+       "Reasonably available, willing and able"
+      ],
+      "citations": [
+       "vic-mtpd-55",
+       "vic-mtpd-58"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-mh",
+      "from": "active",
+      "to": "suspended",
+      "event": "Person becomes a mental health patient",
+      "citations": [
+       "vic-mtpd-55"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Capacity regained or person dies",
+      "citations": [
+       "vic-mtpd-58"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-mtpd-support-person",
+   "canonical": "supported-decision-maker",
+   "group": "health",
+   "name": "Support person (medical treatment)",
+   "localNames": [
+    "support person"
+   ],
+   "summary": "Any person with decision-making capacity, including a child, may appoint one support person. The support person helps them make, communicate and carry out their own medical treatment decisions. The support person represents their interests, including when they lack capacity, but cannot make treatment decisions.",
+   "lane": {
+    "assigned": {
+     "event": "Person with capacity signs a witnessed appointment; support person accepts",
+     "phase": "capable",
+     "citations": [
+      "vic-mtpd-31"
+     ]
+    },
+    "starts": {
+     "event": "On the date the appointment is made",
+     "phase": "capable",
+     "citations": [
+      "vic-mtpd-38"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation by the person (with capacity) or a later appointment of a support person",
+      "phase": "capable",
+      "citations": [
+       "vic-mtpd-35"
+      ]
+     },
+     {
+      "event": "Resignation or VCAT revocation",
+      "phase": "capable",
+      "citations": [
+       "vic-mtpd-39",
+       "vic-mtpd-43"
+      ]
+     },
+     {
+      "event": "Death of the person (no express provision)",
+      "phase": "deceased",
+      "citations": [
+       "vic-mtpd-32"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A support person may access relevant health information and help the person request access to their health records.",
+     "citations": [
+      "vic-mtpd-94",
+      "vic-hra-85"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed but authority not yet exercisable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority exists but may not currently be exercised"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Appointment made and accepted",
+      "citations": [
+       "vic-mtpd-31",
+       "vic-mtpd-38"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revocation, later appointment, resignation or VCAT order",
+      "citations": [
+       "vic-mtpd-35",
+       "vic-mtpd-39",
+       "vic-mtpd-43"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person dies",
+      "citations": [
+       "vic-mtpd-32"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-vcat-guardian",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Guardian appointed by VCAT",
+   "localNames": [
+    "guardian",
+    "guardianship order",
+    "represented person"
+   ],
+   "summary": "VCAT may appoint a guardian for the personal matters specified in an order. It must be satisfied that, because of disability, the person lacks decision-making capacity for those matters, needs a guardian, and that the order will promote their wellbeing. The guardian cannot manage the estate after death. VCAT must reassess the order within 12 months and at least every 3 years.",
+   "lane": {
+    "assigned": {
+     "event": "VCAT makes a guardianship order (or urgent order) on application",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-gaa-22-23",
+      "vic-gaa-30",
+      "vic-gaa-36"
+     ]
+    },
+    "starts": {
+     "event": "On the making of the order, for the personal matters specified",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-gaa-30",
+      "vic-gaa-38"
+     ]
+    },
+    "ends": [
+     {
+      "event": "VCAT revokes, varies or replaces the order on reassessment",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-gaa-159",
+       "vic-gaa-167"
+      ]
+     },
+     {
+      "event": "Death of the represented person: guardian must report the death to VCAT. The Act has no express lapse section for guardianship orders (contrast s 54 for administration orders).",
+      "phase": "deceased",
+      "citations": [
+       "vic-gaa-42",
+       "vic-gaa-39"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A guardian's decision has effect as if the represented person made it with capacity. While the order is in force, an enduring attorney for personal matters may act only as VCAT authorises.",
+     "citations": [
+      "vic-gaa-38",
+      "vic-gaa-83-poa"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Application to VCAT pending"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority exists but may not currently be exercised"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Application made to VCAT",
+      "citations": [
+       "vic-gaa-22-23"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-order",
+      "from": "designated",
+      "to": "active",
+      "event": "VCAT makes guardianship order",
+      "citations": [
+       "vic-gaa-30",
+       "vic-gaa-38"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-reassess",
+      "from": "active",
+      "to": "active",
+      "event": "Reassessment: continue, amend, vary or replace",
+      "conditions": [
+       "Within 12 months of order and at least every 3 years, unless VCAT orders otherwise"
+      ],
+      "citations": [
+       "vic-gaa-159",
+       "vic-gaa-167"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "VCAT revokes the order",
+      "citations": [
+       "vic-gaa-167"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Represented person dies; guardian reports death to VCAT",
+      "citations": [
+       "vic-gaa-42"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-vcat-administrator",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Administrator appointed by VCAT",
+   "localNames": [
+    "administrator",
+    "administration order",
+    "represented person"
+   ],
+   "summary": "VCAT may appoint an administrator for specified financial matters of a person who, because of disability, lacks decision-making capacity for them. The order is reassessed within 12 months and at least every 3 years. It lapses at death, and the estate then passes to the law on administering deceased estates.",
+   "lane": {
+    "assigned": {
+     "event": "VCAT makes an administration order on application",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-gaa-22-23",
+      "vic-gaa-30"
+     ]
+    },
+    "starts": {
+     "event": "On the making of the order",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-gaa-30",
+      "vic-gaa-46"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of represented person: order lapses",
+      "phase": "deceased",
+      "citations": [
+       "vic-gaa-54"
+      ]
+     },
+     {
+      "event": "VCAT revokes on reassessment",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-gaa-159",
+       "vic-gaa-167"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The administrator cannot be given power to manage the estate after death. While the order is in force, an enduring attorney for financial matters may act only as VCAT authorises.",
+     "citations": [
+      "vic-gaa-39",
+      "vic-poa-83"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Application to VCAT pending"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority exists but may not currently be exercised"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Application made to VCAT",
+      "citations": [
+       "vic-gaa-22-23"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-order",
+      "from": "designated",
+      "to": "active",
+      "event": "VCAT makes administration order",
+      "citations": [
+       "vic-gaa-30"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-reassess",
+      "from": "active",
+      "to": "active",
+      "event": "Reassessment (within 12 months, then at least every 3 years)",
+      "citations": [
+       "vic-gaa-159",
+       "vic-gaa-167"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "VCAT revokes the order",
+      "citations": [
+       "vic-gaa-167"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Represented person dies: order lapses",
+      "citations": [
+       "vic-gaa-54"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-supportive-guardian-administrator",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Supportive guardian or supportive administrator appointed by VCAT",
+   "localNames": [
+    "supportive guardian",
+    "supportive administrator",
+    "supportive guardianship order",
+    "supportive administration order",
+    "supported person"
+   ],
+   "summary": "VCAT may appoint a supportive guardian or supportive administrator if the person consents and would have decision-making capacity with practicable and appropriate support. The appointee may get information, communicate decisions and give effect to the person's decisions, but does not decide for them. Orders are reassessed like substitute orders.",
+   "lane": {
+    "assigned": {
+     "event": "VCAT makes a supportive guardianship or supportive administration order, with the person's consent",
+     "phase": "capable",
+     "citations": [
+      "vic-gaa-87"
+     ]
+    },
+    "starts": {
+     "event": "On the making of the order",
+     "phase": "capable",
+     "citations": [
+      "vic-gaa-87",
+      "vic-gaa-90"
+     ]
+    },
+    "ends": [
+     {
+      "event": "A later guardianship or administration order is made (ceases to the extent of inconsistency)",
+      "phase": "incapacitated",
+      "citations": [
+       "vic-gaa-96"
+      ]
+     },
+     {
+      "event": "VCAT revokes on reassessment",
+      "phase": "capable",
+      "citations": [
+       "vic-gaa-159",
+       "vic-gaa-167"
+      ]
+     },
+     {
+      "event": "Death of the supported person (appointee must report death; no express lapse provision)",
+      "phase": "deceased",
+      "citations": [
+       "vic-gaa-98"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed but authority not yet exercisable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority exists but may not currently be exercised"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-order",
+      "from": "not_designated",
+      "to": "active",
+      "event": "VCAT makes supportive order",
+      "conditions": [
+       "Person consents",
+       "With support the person has capacity"
+      ],
+      "citations": [
+       "vic-gaa-87"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-substitute",
+      "from": "active",
+      "to": "terminated",
+      "event": "Subsequent guardianship/administration order (to extent of inconsistency)",
+      "citations": [
+       "vic-gaa-96"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "VCAT revokes on reassessment",
+      "citations": [
+       "vic-gaa-159",
+       "vic-gaa-167"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Supported person dies",
+      "citations": [
+       "vic-gaa-98"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor (grant of probate)",
+   "localNames": [
+    "executor",
+    "grant of probate",
+    "personal representative"
+   ],
+   "summary": "The executor named in a valid will takes authority from the will at death. The Supreme Court, or its registrar, issues a grant of probate that confirms the authority. On the grant, real estate vests in the executor from the date of death. Divorce revokes a former spouse's appointment unless the will shows otherwise. Marriage revokes the whole will, except a will made in contemplation of that marriage.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names executor in a will",
+     "phase": "capable",
+     "citations": [
+      "vic-wills-14",
+      "vic-wills-13"
+     ]
+    },
+    "starts": {
+     "event": "On the testator's death (authority derives from the will); the grant of probate confirms it, and on grant real estate vests as from death",
+     "phase": "deceased",
+     "citations": [
+      "vic-apa-13",
+      "vic-apa-6",
+      "vic-apa-12"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Before death: divorce revokes appointment of former spouse as executor",
+      "phase": "capable",
+      "citations": [
+       "vic-wills-14"
+      ]
+     },
+     {
+      "event": "Before death: the will is revoked by later marriage (unless made in contemplation of it) or otherwise",
+      "phase": "capable",
+      "citations": [
+       "vic-wills-13"
+      ]
+     },
+     {
+      "event": "Executor dies without proving, renounces, or fails to prove when cited",
+      "phase": "deceased",
+      "citations": [
+       "vic-apa-16"
+      ]
+     },
+     {
+      "event": "Court discharges or removes executor",
+      "phase": "administration",
+      "citations": [
+       "vic-apa-34"
+      ]
+     },
+     {
+      "event": "Estate fully administered and distributed",
+      "phase": "closed",
+      "citations": [
+       "vic-apa-28"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No will naming this person"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will; testator alive"
+     },
+     {
+      "id": "pending_grant",
+      "label": "Testator has died; executor may act on the will but has not obtained probate"
+     },
+     {
+      "id": "active",
+      "label": "Probate granted"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment revoked, renounced, removed, or administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will executed naming executor",
+      "citations": [
+       "vic-wills-13"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-divorce",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Testator's divorce (appointment of former spouse revoked)",
+      "citations": [
+       "vic-wills-14"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "pending_grant",
+      "event": "Testator dies",
+      "citations": [
+       "vic-apa-13"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-grant",
+      "from": "pending_grant",
+      "to": "active",
+      "event": "Supreme Court or registrar grants probate",
+      "citations": [
+       "vic-apa-6",
+       "vic-apa-12",
+       "vic-apa-13"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-cesser",
+      "from": "pending_grant",
+      "to": "terminated",
+      "event": "Executor renounces, dies without proving, or does not prove after citation",
+      "citations": [
+       "vic-apa-16"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-remove",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court discharges or removes executor",
+      "citations": [
+       "vic-apa-34"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator of a deceased estate (letters of administration)",
+   "localNames": [
+    "administrator",
+    "grant of administration",
+    "letters of administration",
+    "administration with will annexed",
+    "State Trustees"
+   ],
+   "summary": "If there is no will, or no executor willing and able to act, the Supreme Court (or registrar) grants administration. Before a grant, an intestate's estate vests in State Trustees. For estates under the indexed maximum monetary value, State Trustees may file a notice instead of applying for a grant. It is then taken to hold the grant 14 days after the notice is published.",
+   "lane": {
+    "assigned": {
+     "event": "Court or registrar grants administration (including with will annexed)",
+     "phase": "administration",
+     "citations": [
+      "vic-apa-6",
+      "vic-apa-12",
+      "vic-apa-25"
+     ]
+    },
+    "starts": {
+     "event": "On the grant; title to real estate vests as from death",
+     "phase": "administration",
+     "citations": [
+      "vic-apa-12",
+      "vic-apa-13"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court discharges or removes administrator",
+      "phase": "administration",
+      "citations": [
+       "vic-apa-34"
+      ]
+     },
+     {
+      "event": "Estate fully administered",
+      "phase": "closed",
+      "citations": [
+       "vic-apa-28"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No grant"
+     },
+     {
+      "id": "interim_vesting",
+      "label": "Intestate: estate vests in State Trustees pending a grant"
+     },
+     {
+      "id": "active",
+      "label": "Administration granted (or deemed granted to State Trustees under s 79)"
+     },
+     {
+      "id": "terminated",
+      "label": "Removed, discharged or administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death-intestate",
+      "from": "not_designated",
+      "to": "interim_vesting",
+      "event": "Person dies intestate",
+      "citations": [
+       "vic-apa-19"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-grant",
+      "from": "interim_vesting",
+      "to": "active",
+      "event": "Court or registrar grants administration",
+      "citations": [
+       "vic-apa-6",
+       "vic-apa-12"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-st-small",
+      "from": "interim_vesting",
+      "to": "active",
+      "event": "State Trustees gives notice for a small estate; deemed grant 14 days after publication",
+      "conditions": [
+       "Estate value estimated not to exceed the s 71(1A) maximum monetary value ($137,210 from 1 July 2026)"
+      ],
+      "citations": [
+       "vic-apa-79",
+       "vic-apa-71",
+       "vic-gazette-2026-31b"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-remove",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court discharges or removes administrator",
+      "citations": [
+       "vic-apa-34"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-small-estate-recipient",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Recipient of a small estate payment without a grant",
+   "localNames": [
+    "payment or transfer without production of a grant of representation"
+   ],
+   "summary": "A person holding money or personal property of a deceased person worth no more than the threshold amount may pay or transfer it without asking for a grant. The recipient may be the surviving spouse or domestic partner, a child, or any other person who appears to be entitled. The threshold is $25,000 or a higher CPI-indexed amount declared each year: $34,310 from 1 July 2026. The holder decides whether to pay. The recipient is not appointed and gets no power over the rest of the estate.",
+   "lane": {
+    "assigned": {
+     "event": "No appointment. The holder chooses to pay a person who has legal capacity and appears to be entitled.",
+     "phase": "deceased",
+     "citations": [
+      "vic-apa-31a"
+     ]
+    },
+    "starts": {
+     "event": "On payment or transfer after death",
+     "phase": "deceased",
+     "citations": [
+      "vic-apa-31a",
+      "vic-apa-31b",
+      "vic-gazette-2026-31b"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Payment made. The recipient stays answerable to anyone with a claim against the estate.",
+      "phase": "closed",
+      "citations": [
+       "vic-apa-31a"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "There is no waiting period and no affidavit procedure. The section protects the paying holder: a good-faith payment is a complete discharge. It does not require anyone to pay.",
+     "citations": [
+      "vic-apa-31a"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No payment"
+     },
+     {
+      "id": "active",
+      "label": "Holder pays or transfers property within threshold"
+     },
+     {
+      "id": "terminated",
+      "label": "Transaction complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-pay",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Holder pays within threshold without requiring grant",
+      "conditions": [
+       "Money or personal property not more than threshold amount",
+       "Recipient has legal capacity and appears entitled"
+      ],
+      "citations": [
+       "vic-apa-31a",
+       "vic-gazette-2026-31b"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-done",
+      "from": "active",
+      "to": "terminated",
+      "event": "Payment complete; holder discharged if in good faith",
+      "citations": [
+       "vic-apa-31a"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-senior-next-of-kin-tissue",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Senior available next of kin (tissue donation)",
+   "localNames": [
+    "senior available next of kin",
+    "designated officer"
+   ],
+   "summary": "Victoria uses opt-in consent. A hospital designated officer may authorise removal after death if the deceased consented in writing, or orally during their last illness before two witnesses. Otherwise the senior available next of kin may consent, unless the deceased objected. The order is spouse or domestic partner, then adult child, then parent, then adult sibling. Next of kin may also give consent while the person is unconscious before death.",
+   "lane": {
+    "assigned": {
+     "event": "By statutory definition at death (no appointment)",
+     "phase": "deceased",
+     "citations": [
+      "vic-hta-3-snok"
+     ]
+    },
+    "starts": {
+     "event": "After death, where the deceased has not objected; or while the person is unconscious before death (acted on only after death)",
+     "phase": "deceased",
+     "citations": [
+      "vic-hta-26"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Tissue removed or decision made; if the person recovers consciousness the pre-death indication cannot be acted on",
+      "phase": "closed",
+      "citations": [
+       "vic-hta-26"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The deceased's own written consent, or oral consent during the last illness before two witnesses, is sufficient authority by itself. The designated officer then must tell the senior available next of kin.",
+     "citations": [
+      "vic-hta-26"
+     ]
+    },
+    {
+     "text": "Unusual rule: if the designated officer cannot find next of kin after reasonable inquiry and has no reason to believe the deceased objected, removal may be authorised without consent (s 26(1)(e)).",
+     "citations": [
+      "vic-hta-26"
+     ]
+    },
+    {
+     "text": "Before death, a medical treatment decision maker may consent to ante-mortem procedures for later donation.",
+     "citations": [
+      "vic-hta-24c"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Person alive and conscious"
+     },
+     {
+      "id": "designated",
+      "label": "Person unconscious before death; next of kin may indicate consent"
+     },
+     {
+      "id": "active",
+      "label": "After death: senior available next of kin may consent"
+     },
+     {
+      "id": "suspended",
+      "label": "Deceased objected in writing, or orally in last illness before two witnesses: next-of-kin consent not available"
+     },
+     {
+      "id": "terminated",
+      "label": "Decision made or removal done"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-uncon",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Person unconscious before death",
+      "citations": [
+       "vic-hta-26"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Death",
+      "citations": [
+       "vic-hta-26",
+       "vic-hta-3-snok"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death2",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death",
+      "citations": [
+       "vic-hta-26",
+       "vic-hta-3-snok"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-objection",
+      "from": "active",
+      "to": "suspended",
+      "event": "Designated officer has reason to believe deceased objected",
+      "citations": [
+       "vic-hta-26-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-decide",
+      "from": "active",
+      "to": "terminated",
+      "event": "Consent given or refused; removal authorised",
+      "citations": [
+       "vic-hta-26"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-disposition-of-remains",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Person entitled to arrange disposal of remains (executor at common law; applicant for interment or cremation authorisation)",
+   "localNames": [
+    "applicant for cremation authorisation",
+    "applicant for interment authorisation",
+    "executor",
+    "holder of right of interment"
+   ],
+   "summary": "No Victorian statute says who controls disposal of a body. The Cemeteries and Crematoria Act 2003 lets 'a person who wishes' remains to be interred or cremated apply to the cemetery trust. The trust may require consent from the holder of the right of interment. At common law the executor, or where none the person with the best claim to administration, has the right to possession of the body for disposal.",
+   "lane": {
+    "assigned": {
+     "event": "Executor named in will (common law); otherwise the person entitled to administration",
+     "phase": "capable",
+     "citations": [
+      "qsc-re-gray-2000",
+      "vlrc-funeral-burial-cp"
+     ],
+     "unverified": true
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "qsc-re-gray-2000",
+      "vic-cca-116",
+      "vic-cca-131"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Body buried or cremated",
+      "phase": "deceased",
+      "citations": [
+       "qsc-re-gray-2000",
+       "vic-cca-116",
+       "vic-cca-131"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "If the deceased and relatives cannot pay, the Magistrates' Court or a coroner may order a cemetery trust to inter or cremate free of charge.",
+     "citations": [
+      "vic-cca-143"
+     ]
+    },
+    {
+     "text": "Funeral wishes of the deceased are not legally binding at common law in Victoria (law reform context only).",
+     "citations": [
+      "vlrc-funeral-burial-cp"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Person alive"
+     },
+     {
+      "id": "active",
+      "label": "Executor/likely administrator holds right to possession for disposal; applicant seeks authorisation"
+     },
+     {
+      "id": "terminated",
+      "label": "Remains interred or cremated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death",
+      "citations": [
+       "qsc-re-gray-2000"
+      ],
+      "unverified": true,
+      "note": "Victorian authority (Dow v Hoskins [2003] VSC 206; Keller v Keller (2007) 15 VR 667) is described in the VLRC paper but could not be read on an official host (AustLII blocks automated access). Re Gray is cited as persuasive Australian authority."
+     },
+     {
+      "id": "t-authorise",
+      "from": "active",
+      "to": "active",
+      "event": "Applicant obtains interment or cremation authorisation from cemetery trust",
+      "conditions": [
+       "Prescribed form",
+       "Medical practitioner certificate plus BDM notice, or coroner's release order"
+      ],
+      "citations": [
+       "vic-cca-116",
+       "vic-cca-131"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-dispose",
+      "from": "active",
+      "to": "terminated",
+      "event": "Interment or cremation carried out",
+      "citations": [
+       "vic-cca-116",
+       "vic-cca-131"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "vic-health-records-representative",
+   "canonical": "health-records-representative",
+   "group": "health",
+   "name": "Authorised representative / legal representative under the Health Records Act 2001",
+   "localNames": [
+    "authorised representative",
+    "legal representative"
+   ],
+   "summary": "For a living person who cannot consent or request access, an authorised representative may exercise their Health Records Act rights to the extent needed for the representative's functions. Authorised representatives include a guardian, an enduring attorney, a medical treatment decision maker or an administrator. The Act protects deceased persons for 30 years after death. During that period a legal representative (executor with probate, or administrator) exercises the deceased's rights.",
+   "lane": {
+    "assigned": {
+     "event": "Derived from another role (guardian, enduring attorney, medical treatment decision maker, administrator; after death, executor with probate or administrator)",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-hra-85",
+      "vic-hra-3-legalrep"
+     ]
+    },
+    "starts": {
+     "event": "When the individual is incapable of consenting or requesting access (living); on grant of probate or administration (deceased)",
+     "phase": "incapacitated",
+     "citations": [
+      "vic-hra-85",
+      "vic-hra-95"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Underlying authority ends or individual regains capacity",
+      "phase": "capable",
+      "citations": [
+       "vic-hra-85"
+      ]
+     },
+     {
+      "event": "Individual has been dead for more than 30 years: Act no longer applies",
+      "phase": "closed",
+      "citations": [
+       "vic-hra-95"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A legal representative's consent is void if they know or believe it does not accord with wishes the deceased expressed in life and did not withdraw.",
+     "citations": [
+      "vic-hra-95"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Individual capable, or no underlying authority"
+     },
+     {
+      "id": "active",
+      "label": "Representative exercises Health Records Act rights"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended or 30-year period elapsed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-incap",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Individual incapable; authorised representative acts",
+      "citations": [
+       "vic-hra-85"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Individual dies: living-person authorised representative role ends",
+      "citations": [
+       "vic-hra-85",
+       "vic-hra-95"
+      ],
+      "unverified": true
+     },
+     {
+      "id": "t-legal-rep",
+      "from": "not_designated",
+      "to": "active",
+      "event": "After death: executor with probate or administrator exercises rights",
+      "citations": [
+       "vic-hra-95",
+       "vic-hra-3-legalrep"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-30y",
+      "from": "active",
+      "to": "terminated",
+      "event": "30 years after death",
+      "citations": [
+       "vic-hra-95"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A general non-enduring power does not survive incapacity. A power endures only if made in the prescribed enduring form under Part 4.",
+   "citations": [
+    "vic-poa-7",
+    "vic-poa-22",
+    "vic-poa-32"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "The principal may specify any time, circumstance or occasion, including loss of capacity, for all matters or a specified matter. The default is on making.",
+   "citations": [
+    "vic-poa-39",
+    "vic-poa-39-2"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "No registration requirement; effective on execution in prescribed form and acceptance by attorney.",
+   "citations": [
+    "vic-poa-32",
+    "vic-poa-37"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "An appointed medical treatment decision maker's appointment is in force from the date made, but a medical treatment decision is needed only when the person lacks decision-making capacity for that treatment. No clinician certificate or registration is required.",
+   "citations": [
+    "vic-mtpd-38",
+    "vic-mtpd-58",
+    "vic-mtpd-55"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "year": 2014,
+   "name": "Powers of Attorney Act 2014 (Vic) Part 7 (supportive attorney appointments, in operation 1 September 2015); Medical Treatment Planning and Decisions Act 2016 (Vic) Part 3 Div 3 (support person); Guardianship and Administration Act 2019 (Vic) Part 4 (supportive guardianship and supportive administration orders)",
+   "citations": [
+    "vic-poa-85",
+    "vic-poa-endnote",
+    "vic-mtpd-31",
+    "vic-gaa-87"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": "None found. The Administration and Probate Act 1958, Powers of Attorney Act 2014 and Guardianship and Administration Act 2019 (current authorised versions) contain no provision on digital assets or online accounts.",
+   "citations": [
+    "vic-apa-13",
+    "vic-poa-3-financial",
+    "vic-gaa-46"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No Victorian statute recognises platform legacy-contact or inactive-account tools.",
+   "citations": [
+    "vic-apa-13",
+    "vic-poa-3-financial"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Human Tissue Act 1982 (Vic): the deceased's own consent, or senior available next of kin consent absent objection",
+   "citations": [
+    "vic-hta-26",
+    "vic-hta-3-snok"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": true,
+   "threshold": 34310,
+   "currency": "AUD",
+   "waitingDays": null,
+   "note": "Under s 31A a holder may pay money or personal property up to the threshold without a grant. The threshold is the greater of $25,000 and a CPI-indexed amount declared each year: $34,310 from 1 July 2026. Separately, State Trustees may administer estates up to the s 71 maximum monetary value ($137,210 from 1 July 2026) by notice, with a deemed grant after 14 days (s 79).",
+   "citations": [
+    "vic-apa-31a",
+    "vic-apa-31b",
+    "vic-gazette-2026-31b",
+    "vic-apa-79",
+    "vic-apa-71"
+   ]
+  },
+  "probateGrantName": {
+   "value": "grant of probate",
+   "note": "Executors obtain a grant of probate. Otherwise a grant of administration (letters of administration), from the Supreme Court or its registrar of probates. The Act calls both a 'grant of representation'.",
+   "citations": [
+    "vic-apa-6",
+    "vic-apa-12",
+    "vic-apa-31a"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": "partial",
+   "note": "The Health Records Act 2001 (Vic) applies to deceased individuals for 30 years after death, with rights exercised by the executor or administrator. The Privacy and Data Protection Act 2014 (Vic) defines personal information without referring to deceased persons (not analysed further). Commonwealth Privacy Act status is covered in the national-layer file.",
+   "citations": [
+    "vic-hra-95",
+    "vic-hra-3-legalrep",
+    "vic-pdpa-3"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "An enduring power of attorney is revoked on death and cannot authorise managing the estate. Medical treatment decision-maker powers concern treatment of a living person. After death, tissue consent goes to the senior available next of kin, health-records rights go to the legal representative, and disposal goes to the executor.",
+   "citations": [
+    "vic-poa-51",
+    "vic-poa-26",
+    "vic-hta-26",
+    "vic-hra-95"
+   ]
+  }
+ }
+}

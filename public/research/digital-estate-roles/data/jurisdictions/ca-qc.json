@@ -1,0 +1,2888 @@
+{
+ "jurisdiction": "ca-qc",
+ "name": "Québec",
+ "country": "ca",
+ "legalSystem": "civil law",
+ "note": "Québec civil-law roles for incapacity, death and liquidation of successions under the Civil Code of Québec (CCQ) and Code of Civil Procedure (CCP), as amended by S.Q. 2020, c. 11 (in force 1 November 2022). Covers protection mandates, ordinary mandates, assistants, temporary representatives, tutors, consent to care, liquidators, organ donation, funeral arrangements and access to a deceased person's information. Consolidated texts were read from the official LégisQuébec PDFs marked 'Updated to April 7 2026'; later amendments, if any, were not checked. Federal roles are in ca-federal.",
+ "citations": [
+  {
+   "id": "qc-ccq-11",
+   "cite": "Civil Code of Québec, CQLR c CCQ-1991, arts 11-12",
+   "title": "Consent to care; substitute consent in the sole interest of the person",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:11",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a person authorized by law or by a protection mandate may do so in his place."
+  },
+  {
+   "id": "qc-ccq-13",
+   "cite": "Civil Code of Québec, art 13",
+   "title": "Emergency care without consent",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:13",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Consent to medical care is not required in case of emergency if the life of the person is in danger"
+  },
+  {
+   "id": "qc-ccq-15",
+   "cite": "Civil Code of Québec, art 15",
+   "title": "Consent to care for a person of full age incapable of consenting",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:15",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "consent is given by his or her married, civil union or de facto spouse or ... by a close relative or a person who shows a special interest"
+  },
+  {
+   "id": "qc-ccq-16",
+   "cite": "Civil Code of Québec, art 16",
+   "title": "Court authorization where the substitute refuses without justification or the person categorically refuses",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "where a person of full age who is incapable of giving his consent categorically refuses to receive care"
+  },
+  {
+   "id": "qc-ccq-42",
+   "cite": "Civil Code of Québec, art 42",
+   "title": "Funeral and disposal of the body",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:42",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "In the absence of wishes expressed by the deceased, the wishes of the heirs or successors prevail."
+  },
+  {
+   "id": "qc-ccq-43",
+   "cite": "Civil Code of Québec, art 43",
+   "title": "Gift of body or organs for medical or scientific purposes",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:43",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "These wishes are expressed verbally before two witnesses, or in writing, and may be revoked in the same manner."
+  },
+  {
+   "id": "qc-ccq-44",
+   "cite": "Civil Code of Québec, arts 44-45",
+   "title": "Removal where wishes unknown; attestation of death",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:44",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "with the consent of the person who was or would have been qualified to give consent to care."
+  },
+  {
+   "id": "qc-ccq-48",
+   "cite": "Civil Code of Québec, art 48",
+   "title": "No embalming, burial or cremation before attestation of death and six hours",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:48",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "No one may embalm, bury or cremate a body before an attestation of death has been drawn up and six hours have elapsed"
+  },
+  {
+   "id": "qc-ccq-256",
+   "cite": "Civil Code of Québec, arts 256-258",
+   "title": "Tutorship to a person of full age: general provisions",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:258",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A tutor is appointed to represent a person of full age who is incapable of caring for himself or herself or of administering property"
+  },
+  {
+   "id": "qc-ccq-261",
+   "cite": "Civil Code of Québec, arts 261, 263",
+   "title": "Public Curator as tutor",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:261",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The Public Curator does not exercise tutorship to a person of full age unless he is appointed by the court to do so"
+  },
+  {
+   "id": "qc-ccq-268",
+   "cite": "Civil Code of Québec, art 268",
+   "title": "Institution of tutorship by the court",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:268",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The court then appoints a tutor to the person and to property, or a tutor either to the person or to property."
+  },
+  {
+   "id": "qc-ccq-295",
+   "cite": "Civil Code of Québec, art 295",
+   "title": "End of tutorship to a person of full age",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:295",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Tutorship to a person of full age ceases by a judgment of release or by the death of the person of full age."
+  },
+  {
+   "id": "qc-ccq-297-1",
+   "cite": "Civil Code of Québec, arts 297.1-297.4",
+   "title": "Temporary representation of incapable persons of full age",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:297_1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The court may authorize a person to perform a specific act in the name of a person of full age"
+  },
+  {
+   "id": "qc-ccq-297-9",
+   "cite": "Civil Code of Québec, art 297.9",
+   "title": "End of temporary representation",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:297_9",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Temporary representation ends when the specific act has been performed."
+  },
+  {
+   "id": "qc-ccq-297-10",
+   "cite": "Civil Code of Québec, arts 297.10-297.13",
+   "title": "Assistants to persons of full age: general provisions",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:297_10",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An assisted person of full age retains his full capacity to exercise his civil rights."
+  },
+  {
+   "id": "qc-ccq-297-19",
+   "cite": "Civil Code of Québec, arts 297.19-297.25",
+   "title": "Recognition of assistants by the Public Curator",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:297_19",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The Public Curator recognizes the proposed assistant, except in the following cases"
+  },
+  {
+   "id": "qc-ccq-297-26",
+   "cite": "Civil Code of Québec, arts 297.26-297.27",
+   "title": "End of recognition of assistants (expiry, request, protective measures, termination by Public Curator)",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:297_26",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The recognition of an assistant ends on the expiry of three years, or before if the person of full age so requests."
+  },
+  {
+   "id": "qc-ccq-613",
+   "cite": "Civil Code of Québec, art 613",
+   "title": "Opening of succession",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:613",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The succession of a person opens by his death, at the place of his last domicile."
+  },
+  {
+   "id": "qc-ccq-625",
+   "cite": "Civil Code of Québec, art 625",
+   "title": "Seisin of heirs",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:625",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The heirs are seized, by the death of the deceased ... subject to the provisions on the liquidation of successions."
+  },
+  {
+   "id": "qc-ccq-772",
+   "cite": "Civil Code of Québec, art 772",
+   "title": "Probate of holograph wills and wills made in the presence of witnesses",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:772",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A holograph will or a will made in the presence of witnesses is probated, on the application of any interested person"
+  },
+  {
+   "id": "qc-ccq-776",
+   "cite": "Civil Code of Québec, art 776",
+   "title": "Object of liquidation",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:776",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qc-ccq-777",
+   "cite": "Civil Code of Québec, arts 777-778",
+   "title": "Seisin of the liquidator; testator may modify powers",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:777",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The liquidator exercises, from the opening of the succession and for the time necessary for liquidation, the seisin of the heirs"
+  },
+  {
+   "id": "qc-ccq-779",
+   "cite": "Civil Code of Québec, art 779",
+   "title": "Liquidation by agreement of heirs of a manifestly solvent succession",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:779",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Where the succession is manifestly solvent, the heirs may, by mutual agreement, liquidate it without following the prescribed rules for liquidation."
+  },
+  {
+   "id": "qc-ccq-783",
+   "cite": "Civil Code of Québec, arts 783-784",
+   "title": "Who may be liquidator; acceptance not compulsory unless sole heir",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:783",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qc-ccq-785",
+   "cite": "Civil Code of Québec, arts 785-785.1",
+   "title": "Office of liquidator devolves to the heirs by law",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:785",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The office of liquidator devolves by operation of law to the heirs unless otherwise provided by a testamentary provision"
+  },
+  {
+   "id": "qc-ccq-786",
+   "cite": "Civil Code of Québec, arts 786-787",
+   "title": "Testamentary designation of liquidator",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:786",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "has the quality of liquidator whether he was designated as administrator of the succession, testamentary executor or otherwise."
+  },
+  {
+   "id": "qc-ccq-788",
+   "cite": "Civil Code of Québec, arts 788, 791-792",
+   "title": "Court designation or replacement of liquidator; provisional liquidator",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:788",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qc-ccq-794",
+   "cite": "Civil Code of Québec, arts 794-795, 799",
+   "title": "Inventory; publication of closure; exemption",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:794",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qc-ccq-802",
+   "cite": "Civil Code of Québec, arts 802-804",
+   "title": "Functions of the liquidator (simple administration; probate of will)",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:803",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If the deceased made a will, the liquidator causes the will to be probated and takes all the necessary steps for its execution."
+  },
+  {
+   "id": "qc-ccq-806",
+   "cite": "Civil Code of Québec, arts 806, 810-811",
+   "title": "Annual account; payment delays; insolvent successions",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:810",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qc-ccq-819",
+   "cite": "Civil Code of Québec, arts 819-822",
+   "title": "End of liquidation; account; discharge of the liquidator",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:822",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "After acceptance of the final account, the liquidator is discharged of his administration and delivers the property to the heirs."
+  },
+  {
+   "id": "qc-ccq-2130",
+   "cite": "Civil Code of Québec, arts 2130-2131",
+   "title": "Mandate and power of attorney",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "That power and, where applicable, the writing evidencing it are also called power of attorney."
+  },
+  {
+   "id": "qc-ccq-2166",
+   "cite": "Civil Code of Québec, art 2166",
+   "title": "Protection mandate: form; performance conditional on incapacity and homologation",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2166",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The performance of the mandate is conditional upon the occurrence of the incapacity, ascertained by medical and psychosocial assessment reports, and homologation by the court"
+  },
+  {
+   "id": "qc-ccq-2166-1",
+   "cite": "Civil Code of Québec, arts 2166.1, 2167",
+   "title": "Content of mandate; mandate made in the presence of witnesses",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2167",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The mandator, in the presence of two witnesses who have no interest in the act and who are able to ascertain his capacity to act"
+  },
+  {
+   "id": "qc-ccq-2167-1",
+   "cite": "Civil Code of Québec, arts 2167.1-2167.4",
+   "title": "Interim orders during homologation; duties of mandatary; inventory",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2167_1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An act under which the mandator has already charged the administration of his property to another person continues to produce its effects"
+  },
+  {
+   "id": "qc-ccq-2168",
+   "cite": "Civil Code of Québec, arts 2168-2169",
+   "title": "Interpretation of mandate; tutorship to complete an insufficient mandate",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2169",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Where the mandate does not fully ensure care of the person or administration of his property, tutorship to a person of full age may be instituted to complete it"
+  },
+  {
+   "id": "qc-ccq-2170",
+   "cite": "Civil Code of Québec, art 2170",
+   "title": "Acts performed before homologation",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2170",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qc-ccq-2172",
+   "cite": "Civil Code of Québec, arts 2172-2173",
+   "title": "Mandator again capable: cessation of effects of mandate",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2172",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The mandate ceases to have effect when the court ascertains that the mandator has again become capable"
+  },
+  {
+   "id": "qc-ccq-2174",
+   "cite": "Civil Code of Québec, arts 2174-2174.2",
+   "title": "Renunciation and replacement of mandatary under protection mandate",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2174",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qc-ccq-2175",
+   "cite": "Civil Code of Québec, art 2175",
+   "title": "Termination of mandate",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2175",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "it may also be terminated, in certain cases, by the institution of tutorship to a person of full age or the homologation of a protection mandate"
+  },
+  {
+   "id": "qc-ccq-2177",
+   "cite": "Civil Code of Québec, arts 2176-2177, 2181",
+   "title": "Revocation; court revocation of mandate where mandator incapable",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2177",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "apply to have the court revoke the mandate, order the rendering of an account by the mandatary and institute tutorship"
+  },
+  {
+   "id": "qc-ccq-2182",
+   "cite": "Civil Code of Québec, arts 2182-2184",
+   "title": "Obligations upon termination; notice of death to Public Curator",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2182",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Upon termination of the mandate, the mandatary is bound to do everything which is a necessary consequence of his acts or which cannot be deferred without risk of loss."
+  },
+  {
+   "id": "qc-ccp-303",
+   "cite": "Code of Civil Procedure, CQLR c C-25.01, art 303",
+   "title": "Non-contentious proceedings (protection mandate, tutorship, probate)",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-25.01#se:303",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "tutorship to an absentee, to a minor or to a person of full age ... a protection mandate or temporary representation"
+  },
+  {
+   "id": "qc-ccp-312",
+   "cite": "Code of Civil Procedure, CQLR c C-25.01, arts 312, 315",
+   "title": "Jurisdiction of notary in non-contentious matters (homologation, probate)",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-25.01#se:312",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Applications for the probate of a will or for letters of verification may also be presented before a notary"
+  },
+  {
+   "id": "qc-ccp-404",
+   "cite": "Code of Civil Procedure, CQLR c C-25.01, art 404",
+   "title": "Notification of applications relating to tutorship or a protection mandate",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-25.01#se:404",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qc-ccp-459",
+   "cite": "Code of Civil Procedure, CQLR c C-25.01, arts 459-462",
+   "title": "Probate of wills",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-25.01#se:459",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "A will probated by a notary is attached to the minutes of the probate and kept in the notary's records."
+  },
+  {
+   "id": "qc-ccp-463",
+   "cite": "Code of Civil Procedure, CQLR c C-25.01, arts 463-465",
+   "title": "Letters of verification (for use outside Québec)",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-25.01#se:463",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Any interested person may apply for letters of verification, for use outside Québec, to prove their capacity as heir"
+  },
+  {
+   "id": "qc-gouv-probate",
+   "cite": "Gouvernement du Québec, 'Probating the will' (quebec.ca)",
+   "title": "Probating the will",
+   "url": "https://www.quebec.ca/en/justice-et-etat-civil/testament-succession/succession/settlement/succession-will/probating",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "A notarial will is an authentic act and does not need to be probated."
+  },
+  {
+   "id": "qc-gouv-2020c11-inforce",
+   "cite": "Gouvernement du Québec, news release of 1 November 2022 on the coming into force of S.Q. 2020, c. 11",
+   "title": "Entrée en vigueur de la loi visant à mieux protéger les personnes en situation de vulnérabilité",
+   "url": "https://www.quebec.ca/nouvelles/actualites/details/entree-en-vigueur-de-la-loi-visant-a-mieux-proteger-les-personnes-en-situation-de-vulnerabilite-une-reponse-aux-besoins-daujourdhui-43717",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "la curatelle est abolie et la tutelle est le seul régime de protection",
+   "note": "French only. Translation: 'curatorship is abolished and tutorship is the only protective regime'. The release announces the coming into force on 1 November 2022 of the Loi modifiant le Code civil, le Code de procédure civile, la Loi sur le curateur public et diverses dispositions en matière de protection des personnes (S.Q. 2020, c. 11), including recognized assistants ('un ou deux assistants de son choix' / 'one or two assistants of their choice') and temporary representation ('accomplir un acte précis au nom d'une personne inapte' / 'perform a specific act on behalf of an incapable person')."
+  },
+  {
+   "id": "qc-rlrq-p39-1-30",
+   "cite": "Act respecting the protection of personal information in the private sector, CQLR c P-39.1, ss 30-31",
+   "title": "Who may request access; spouse and direct relatives' access to cause of death",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1#se:30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "communication of information relating to the cause of death contained in the person's medical file"
+  },
+  {
+   "id": "qc-rlrq-p39-1-18",
+   "cite": "Act respecting the protection of personal information in the private sector, CQLR c P-39.1, archival disclosure provision (30 years after death)",
+   "title": "Communication of information more than 30 years after death",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if more than 30 years have elapsed since the death of the person concerned",
+   "unverified": true,
+   "note": "The section number could not be read reliably from the watermarked PDF extraction."
+  },
+  {
+   "id": "qc-rlrq-p39-1-40-1",
+   "cite": "Act respecting the protection of personal information in the private sector, CQLR c P-39.1, ss 40.1, 41 (s 40.1 added by S.Q. 2021, c. 25, s. 129)",
+   "title": "Communication to spouse or close relative to help in grieving; limits for liquidator, heirs, beneficiaries",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1#se:40_1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if knowledge of the information could help the applicant in the grieving process and if the deceased person did not record in writing his refusal"
+  },
+  {
+   "id": "qc-cai-loi25",
+   "cite": "Commission d'accès à l'information du Québec, 'Principaux changements apportés par la Loi 25'",
+   "title": "Principaux changements apportés par la Loi 25",
+   "url": "https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Une organisation peut communiquer un renseignement personnel concernant une personne décédée à son conjoint ou à l'un de ses proches parents",
+   "note": "French only. Translation: 'An organization may communicate personal information concerning a deceased person to their spouse or a close relative [if it could help them in the grieving process]'. The CAI lists this among the September 2023 changes; the data portability right took effect 22 September 2024."
+  },
+  {
+   "id": "qc-rlrq-r22-1-26",
+   "cite": "Act respecting health and social services information, CQLR c R-22.1, s 26 (S.Q. 2023, c. 5, s. 26)",
+   "title": "Access by tutor or mandatary of an incapable person of full age",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/R-22.1#se:26",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The tutor or mandatary of an incapable person of full age has the right to be informed of the existence of and to have access to any information"
+  },
+  {
+   "id": "qc-rlrq-r22-1-27",
+   "cite": "Act respecting health and social services information, CQLR c R-22.1, ss 27-30 (S.Q. 2023, c. 5)",
+   "title": "Persons related to a deceased person",
+   "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/R-22.1#se:27",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The spouse or close relative of a deceased person has the right to be informed of the existence of and to have access to information ... in their grieving process"
+  },
+  {
+   "id": "qc-sq-2010-c38",
+   "cite": "Loi facilitant les dons d'organes et de tissus, L.Q. 2010, c. 38, ss 1-3 (amending CQLR c R-5, art 2 and adding arts 2.0.8-2.0.12; replacing S-4.2 s 204.1)",
+   "title": "Loi facilitant les dons d'organes et de tissus (Bill 125, assented 10 December 2010)",
+   "url": "https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/LoisAnnuelles/fr/2010/2010C38F.PDF",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "un registre des consentements au prélèvement d'organes et de tissus après le décès",
+   "note": "French text read. Translation: the Régie de l'assurance maladie du Québec (RAMQ) must keep 'a register of consents to the removal of organs and tissues after death'. Art 2.0.8: anyone may give written consent on a RAMQ form 'as permitted by article 43 of the Civil Code of Québec', revocable in writing at any time. Before a potential donor's imminent or recent death, the hospital's director of professional services must check the consent registers kept by the Ordre professionnel des notaires du Québec and by RAMQ (s 204.1 of the health services act as then enacted). Current consolidated numbering after the 2023 health system reform (S.Q. 2023, c. 34) was not verified."
+  },
+  {
+   "id": "qc-gouv-organ-procedure",
+   "cite": "Gouvernement du Québec, 'Organ and tissue donation: procedure' (quebec.ca)",
+   "title": "Organ and tissue donation: procedure",
+   "url": "https://www.quebec.ca/en/health/blood-tissue-and-organ-donation/organ-and-tissue-donation/procedure",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "the family will have to make the decision in accordance with legal provisions"
+  },
+  {
+   "id": "qc-assnat-bill-194",
+   "cite": "Assemblée nationale du Québec, Bill 194 (43rd Legislature, 1st Session), Loi instaurant une présomption de consentement au don d'organes ou de tissus après le décès",
+   "title": "Projet de loi n° 194 (presumed consent to organ donation)",
+   "url": "https://www.assnat.qc.ca/fr/travaux-parlementaires/projets-loi/projet-loi-194-43-1.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Vote : Pour 104, Contre 0, Abstention 0",
+   "note": "French only. Translation: 'Vote: For 104, Against 0, Abstention 0' on adoption in principle, 9 June 2023. Presented 26 April 2023 and referred to the Commission de la santé et des services sociaux for detailed study. Not assented. A pending bill, not law."
+  },
+  {
+   "id": "ulcc-uadafa-2016",
+   "cite": "Uniform Law Conference of Canada, Uniform Access to Digital Assets by Fiduciaries Act (2016)",
+   "title": "Uniform Access to Digital Assets by Fiduciaries Act (common-law model act; no Québec civil-law enactment)",
+   "url": "https://ulcc-chlc.ca/Civil-Section/Uniform-Acts/Uniform-Access-to-Digital-Assets-by-Fiduciaries-Ac/Uniform-Access-to-Digital-Assets-by-Fiduciarie-(1)",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16"
+  }
+ ],
+ "roles": [
+  {
+   "id": "qc-protection-mandatary-person",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Mandatary under a protection mandate (protection of the person)",
+   "localNames": [
+    "mandataire",
+    "mandat de protection",
+    "mandatary",
+    "protection mandate"
+   ],
+   "summary": "A person of full age gives a protection mandate in anticipation of incapacity, by notarial act en minute or before 2 witnesses. It has no effect until incapacity is shown by medical and psychosocial assessment reports and the court, or a notary under the CCP, homologates it. The mandatary then consents to care and looks after the person's well-being. It ends when the court finds the mandator capable again, on revocation, or on either party's death.",
+   "lane": {
+    "assigned": {
+     "event": "Mandator signs protection mandate (notarial act en minute or before 2 disinterested witnesses)",
+     "phase": "capable",
+     "citations": [
+      "qc-ccq-2166",
+      "qc-ccq-2166-1"
+     ]
+    },
+    "starts": {
+     "event": "Homologation by the court (or before a notary under CCP art 312) on proof of incapacity by medical and psychosocial assessments, on application by the designated mandatary",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-2166",
+      "qc-ccp-303",
+      "qc-ccp-312",
+      "qc-ccp-404"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court ascertains mandator has again become capable (presumed if no objection within 30 days after the capacity report is filed)",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-2172"
+      ]
+     },
+     {
+      "event": "Death of the mandator or the mandatary (mandatary must notify the Public Curator of the mandator's death)",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-2182"
+      ]
+     },
+     {
+      "event": "Court revokes the mandate for unfaithful performance or other serious reason (and may institute tutorship)",
+      "phase": "incapacitated",
+      "citations": [
+       "qc-ccq-2177"
+      ]
+     },
+     {
+      "event": "Mandatary renounces after arranging replacement or applying for tutorship",
+      "phase": "incapacitated",
+      "citations": [
+       "qc-ccq-2174"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No protection mandate"
+     },
+     {
+      "id": "designated",
+      "label": "Mandate signed; not performable (mandator capable or not yet homologated)"
+     },
+     {
+      "id": "pending_homologation",
+      "label": "Incapacity assessed; homologation application filed (court may issue interim protective orders)"
+     },
+     {
+      "id": "active",
+      "label": "Homologated; mandatary acts"
+     },
+     {
+      "id": "terminated",
+      "label": "Ceased, revoked, renounced or ended by death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Protection mandate made",
+      "conditions": [
+       "Not made jointly by two or more persons",
+       "Must indicate who receives the mandatary's account and how often (at most every 3 years)"
+      ],
+      "citations": [
+       "qc-ccq-2166",
+       "qc-ccq-2166-1"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-apply",
+      "from": "designated",
+      "to": "pending_homologation",
+      "event": "Mandatary applies for homologation with medical and psychosocial assessment reports",
+      "conditions": [
+       "Notified to persons listed in CCP art 404",
+       "Court may make interim orders for the mandator's protection"
+      ],
+      "citations": [
+       "qc-ccq-2166",
+       "qc-ccq-2167-1",
+       "qc-ccp-404"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-homologate",
+      "from": "pending_homologation",
+      "to": "active",
+      "event": "Court or notary homologates the mandate",
+      "conditions": [
+       "Inventory of property within 60 days"
+      ],
+      "citations": [
+       "qc-ccq-2166",
+       "qc-ccp-312",
+       "qc-ccq-2167-1"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Capacity regained, ascertained by the court",
+      "conditions": [
+       "Mandator may then revoke if he wishes"
+      ],
+      "citations": [
+       "qc-ccq-2172"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-court-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court revokes mandate",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-2177"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Mandator dies",
+      "conditions": [
+       "Mandatary must still do what cannot be deferred without risk of loss, notify the Public Curator and render account"
+      ],
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-2182"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "For care, the mandatary consents in place of the incapable person unless the person made advance medical directives. Court authorization is needed if the person categorically refuses care, except hygienic or emergency care.",
+     "citations": [
+      "qc-ccq-11",
+      "qc-ccq-15",
+      "qc-ccq-16"
+     ]
+    },
+    {
+     "text": "Acts the mandator performed before homologation may be annulled if the incapacity was notorious or known to the other party.",
+     "citations": [
+      "qc-ccq-2170"
+     ]
+    }
+   ],
+   "localNamesEn": {
+    "mandataire": {
+     "en": "mandatary",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-2130",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 2130",
+      "title": "Mandate; mandator, mandatary, power of attorney",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2130",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a person, the mandator, confers upon another person, the mandatary, the power to represent him ... also called power of attorney."
+     }
+    },
+    "mandat de protection": {
+     "en": "protection mandate",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-2166",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 2166",
+      "title": "Protection mandate",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2166",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "A protection mandate is a mandate given by a person of full age in anticipation of his incapacity"
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-protection-mandatary-property",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Mandatary under a protection mandate (administration of property)",
+   "localNames": [
+    "mandataire",
+    "mandat de protection",
+    "administration des biens"
+   ],
+   "summary": "The property side of the protection mandate: the mandatary administers the mandator's patrimony. Québec has no enduring power of attorney that works without a court step. Authority starts only on homologation after incapacity is shown, and an ordinary mandate already in place continues during the proceedings. It ends on restored capacity, revocation or death.",
+   "lane": {
+    "assigned": {
+     "event": "Protection mandate signed (notarial or before witnesses)",
+     "phase": "capable",
+     "citations": [
+      "qc-ccq-2166",
+      "qc-ccq-2130"
+     ]
+    },
+    "starts": {
+     "event": "Homologation after incapacity is ascertained",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-2166",
+      "qc-ccp-312"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court ascertains restored capacity",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-2172"
+      ]
+     },
+     {
+      "event": "Mandator's death; mandatary renders account to the liquidator's side and completes urgent acts",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-2182"
+      ]
+     },
+     {
+      "event": "Court revocation; tutorship to property instituted to replace or complete it",
+      "phase": "incapacitated",
+      "citations": [
+       "qc-ccq-2177",
+       "qc-ccq-2175"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No mandate"
+     },
+     {
+      "id": "designated",
+      "label": "Signed, not homologated"
+     },
+     {
+      "id": "active",
+      "label": "Homologated; administers property (inventory within 60 days; periodic account)"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Mandate made",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-2166"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-homologate",
+      "from": "designated",
+      "to": "active",
+      "event": "Homologation on proof of incapacity",
+      "conditions": [
+       "If the mandate does not fully cover administration, tutorship may be instituted to complete it"
+      ],
+      "citations": [
+       "qc-ccq-2166",
+       "qc-ccq-2167-1",
+       "qc-ccq-2168"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Capacity restored (court)",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-2172"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Mandator dies",
+      "conditions": [
+       "Liquidator takes seisin from opening of succession"
+      ],
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-777"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "mandataire": {
+     "en": "mandatary",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-2130",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 2130",
+      "title": "Mandate; mandator, mandatary, power of attorney",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2130",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a person, the mandator, confers upon another person, the mandatary, the power to represent him ... also called power of attorney."
+     }
+    },
+    "mandat de protection": {
+     "en": "protection mandate",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-2166",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 2166",
+      "title": "Protection mandate",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2166",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "A protection mandate is a mandate given by a person of full age in anticipation of his incapacity"
+     }
+    },
+    "administration des biens": {
+     "en": "administration of property",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-1299",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 1299",
+      "title": "Administration of the property of others",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:1299",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Any person who is charged with the administration of property or a patrimony that is not his own"
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-ordinary-mandatary",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Mandatary under an ordinary mandate (power of attorney)",
+   "localNames": [
+    "mandataire",
+    "mandat",
+    "procuration",
+    "power of attorney"
+   ],
+   "summary": "An ordinary contract of mandate (art 2130) lets the mandatary represent the mandator in juridical acts. It ends on revocation, renunciation, bankruptcy or the death of either party. The mandator's incapacity is NOT listed as an automatic cause: the Code says the mandate 'may' end 'in certain cases' when tutorship is instituted or a protection mandate is homologated, and it continues during homologation proceedings unless the court revokes it.",
+   "lane": {
+    "assigned": {
+     "event": "Mandator confers mandate (contract accepted by mandatary)",
+     "phase": "capable",
+     "citations": [
+      "qc-ccq-2130"
+     ]
+    },
+    "starts": {
+     "event": "On acceptance of the mandate",
+     "phase": "capable",
+     "citations": [
+      "qc-ccq-2130"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of mandator or mandatary",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-2175"
+      ]
+     },
+     {
+      "event": "Revocation by mandator or renunciation by mandatary",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-2177"
+      ]
+     },
+     {
+      "event": "Bankruptcy of either party",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-2175"
+      ]
+     },
+     {
+      "event": "In certain cases, institution of tutorship or homologation of a protection mandate for the mandator; court may revoke for serious reason during homologation proceedings",
+      "phase": "incapacitated",
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-2167-1",
+       "qc-ccq-2177"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No mandate"
+     },
+     {
+      "id": "active",
+      "label": "Mandatary may act"
+     },
+     {
+      "id": "terminated",
+      "label": "Mandate terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-confer",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Mandate given and accepted",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-2130"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-incapacity",
+      "from": "active",
+      "to": "active",
+      "event": "Mandator becomes incapable",
+      "conditions": [
+       "No automatic termination is listed in art 2175; an act charging another with administering property continues during homologation proceedings unless the court revokes it for a serious reason"
+      ],
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-2167-1"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-protective-measure",
+      "from": "active",
+      "to": "terminated",
+      "event": "Tutorship instituted or protection mandate homologated (in certain cases), or court revocation",
+      "conditions": [
+       "Which cases is not specified in the Code text"
+      ],
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-2177"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Mandator dies",
+      "conditions": [
+       "Mandatary completes what cannot be deferred without risk of loss and renders account"
+      ],
+      "citations": [
+       "qc-ccq-2175",
+       "qc-ccq-2182"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "mandataire": {
+     "en": "mandatary",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-2130",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 2130",
+      "title": "Mandate; mandator, mandatary, power of attorney",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2130",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a person, the mandator, confers upon another person, the mandatary, the power to represent him ... also called power of attorney."
+     }
+    },
+    "mandat": {
+     "en": "mandate",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-2130",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 2130",
+      "title": "Mandate; mandator, mandatary, power of attorney",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2130",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a person, the mandator, confers upon another person, the mandatary, the power to represent him ... also called power of attorney."
+     }
+    },
+    "procuration": {
+     "en": "power of attorney",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-2130",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 2130",
+      "title": "Mandate; mandator, mandatary, power of attorney",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:2130",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a person, the mandator, confers upon another person, the mandatary, the power to represent him ... also called power of attorney."
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-assistant",
+   "canonical": "supported-decision-maker",
+   "group": "health",
+   "name": "Assistant to a person of full age",
+   "localNames": [
+    "assistant au majeur",
+    "mesure d'assistance",
+    "assistant to a person of full age"
+   ],
+   "summary": "Created by S.Q. 2020, c. 11, in force 1 November 2022. A person of full age who has a difficulty asks the Public Curator to recognize one or two assistants to help with decisions and act as intermediary with third parties. The person keeps full legal capacity, and the assistant cannot sign for them. Recognition is entered in a public register and lasts 3 years unless it ends sooner.",
+   "lane": {
+    "assigned": {
+     "event": "Joint application by the person and proposed assistant to the Public Curator (or via a certified advocate or notary); notice to 2 family members or interested persons with 30-day objection period",
+     "phase": "capable",
+     "citations": [
+      "qc-ccq-297-10",
+      "qc-ccq-297-19"
+     ]
+    },
+    "starts": {
+     "event": "Public Curator recognizes the assistant and enters it in the public register",
+     "phase": "capable",
+     "citations": [
+      "qc-ccq-297-10",
+      "qc-ccq-297-19",
+      "qc-gouv-2020c11-inforce"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Expiry of three years, or earlier at the person's request",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-297-26"
+      ]
+     },
+     {
+      "event": "Tutorship instituted or protection mandate homologated for the assisted person or the assistant, or temporary representative designated for the assistant (on notice to the Public Curator)",
+      "phase": "incapacitated",
+      "citations": [
+       "qc-ccq-297-26"
+      ]
+     },
+     {
+      "event": "Assistant ceases to act",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-297-26"
+      ]
+     },
+     {
+      "event": "Public Curator terminates recognition for serious reason to fear injury (reviewable by court within 30 days)",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-297-26"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No recognized assistant"
+     },
+     {
+      "id": "designated",
+      "label": "Application under review by Public Curator"
+     },
+     {
+      "id": "active",
+      "label": "Recognized; may communicate and receive information and communicate decisions in the person's name"
+     },
+     {
+      "id": "terminated",
+      "label": "Recognition ended; entry deleted from register"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Application filed",
+      "conditions": [
+       "Summary description of patrimony",
+       "Public Curator checks judicial record"
+      ],
+      "citations": [
+       "qc-ccq-297-19"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-recognize",
+      "from": "designated",
+      "to": "active",
+      "event": "Recognition",
+      "conditions": [
+       "Refused if serious doubt the person understands the application or can express wishes, or risk of injury; refusal reviewable by court within 30 days"
+      ],
+      "citations": [
+       "qc-ccq-297-19"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-expire",
+      "from": "active",
+      "to": "terminated",
+      "event": "Three years elapse or person requests end",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-297-26"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-protective",
+      "from": "active",
+      "to": "terminated",
+      "event": "Tutorship or homologated protection mandate for the person",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-297-26"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Death of the assisted person is not expressly listed in art 297.26 as reviewed. It is treated here as ending the role in fact, but that is unverified.",
+     "citations": [
+      "qc-ccq-297-26"
+     ],
+     "unverified": true
+    }
+   ],
+   "localNamesEn": {
+    "assistant au majeur": {
+     "en": "assistant to a person of full age",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-297-19",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 297.19",
+      "title": "Recognition of assistants to persons of full age",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:297_19",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "An application for the recognition of an assistant to a person of full age is filed with the Public Curator"
+     }
+    },
+    "mesure d'assistance": {
+     "en": "assistance measure",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-quebec-assistance-measure",
+      "cite": "Gouvernement du Québec (Curateur public), About the assistance measure",
+      "title": "About the assistance measure",
+      "url": "https://www.quebec.ca/en/justice-and-civil-status/legal-protection/assistance-measure/about",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "The assistance measure allows a person experiencing a difficulty to be assisted free of charge by one or two people of their choice"
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-temporary-representative",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Temporary representative of an incapable person of full age",
+   "localNames": [
+    "représentant temporaire",
+    "représentation temporaire",
+    "temporary representative"
+   ],
+   "summary": "Created by S.Q. 2020, c. 11 (in force 1 November 2022) to avoid a full tutorship. The court, after medical and psychosocial assessments, authorizes a person to perform one specific act for an incapable adult, such as selling a property. The authority ends when that act is done, or on the institution of tutorship or homologation of a protection mandate.",
+   "lane": {
+    "assigned": {
+     "event": "Court authorization on application by the spouse, relatives, an interested person, mandatary, Public Curator, or the person",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-297-1",
+      "qc-ccp-303"
+     ]
+    },
+    "starts": {
+     "event": "On the judgment, on terms fixed by the court",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-297-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Specific act performed; representative notifies the person and the Public Curator",
+      "phase": "incapacitated",
+      "citations": [
+       "qc-ccq-297-9"
+      ]
+     },
+     {
+      "event": "Tutorship instituted or protection mandate homologated",
+      "phase": "incapacitated",
+      "citations": [
+       "qc-ccq-297-9"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No authorization"
+     },
+     {
+      "id": "active",
+      "label": "Authorized for the specific act"
+     },
+     {
+      "id": "terminated",
+      "label": "Act done or superseded"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-authorize",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Court authorizes temporary representation",
+      "conditions": [
+       "Person heard where possible",
+       "Loans, alienation or security only where necessary or wished and not injurious"
+      ],
+      "citations": [
+       "qc-ccq-297-1"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-done",
+      "from": "active",
+      "to": "terminated",
+      "event": "Specific act performed",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-297-9"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-superseded",
+      "from": "active",
+      "to": "terminated",
+      "event": "Tutorship or homologated mandate",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-297-9"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "représentant temporaire": {
+     "en": "temporary representative",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-297-4",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 297.4",
+      "title": "Temporary representative",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:297_4",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The court fixes the terms and conditions of exercise of the powers conferred on the temporary representative."
+     }
+    },
+    "représentation temporaire": {
+     "en": "temporary representation",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-154",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 154",
+      "title": "Limits on capacity of a person of full age",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:154",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a judgment ordering the institution of tutorship to a person of full age, homologating a protection mandate or authorizing temporary representation"
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-tutor-person",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Tutor to the person of full age",
+   "localNames": [
+    "tuteur à la personne",
+    "tutelle au majeur",
+    "tutor to the person"
+   ],
+   "summary": "Since 1 November 2022 tutorship is Québec's only court protective regime for adults; curatorship and advisers were abolished. The court institutes tutorship when an adult cannot care for themself and needs representation. A tutor may be appointed to the person, to property, or both, and the court tailors the scope. The Public Curator acts only if appointed or if no tutor remains. Tutorship ends on a judgment of release or the adult's death.",
+   "lane": {
+    "assigned": {
+     "event": "Court (or notary under CCP art 312) institutes tutorship and appoints tutor to the person",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-268",
+      "qc-ccp-303",
+      "qc-ccp-312"
+     ]
+    },
+    "starts": {
+     "event": "On the judgment",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-268",
+      "qc-ccq-256"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Judgment of release, or expiry of the period to contest a report attesting that incapacity or need for representation has ceased",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-295"
+      ]
+     },
+     {
+      "event": "Death of the person of full age",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-295"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No tutorship"
+     },
+     {
+      "id": "active",
+      "label": "Tutor has custody and ensures moral and material well-being (unless court decides otherwise)"
+     },
+     {
+      "id": "terminated",
+      "label": "Tutorship ceased"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-institute",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Tutorship instituted",
+      "conditions": [
+       "Incapacity established and representation needed",
+       "Court not bound by the application; may tailor the tutorship or authorize temporary representation instead"
+      ],
+      "citations": [
+       "qc-ccq-268",
+       "qc-ccq-256"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-release",
+      "from": "active",
+      "to": "terminated",
+      "event": "Judgment of release or unopposed cessation report",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-295"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Death",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-295"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "The Public Curator becomes tutor only by court appointment, or by virtue of office when the person no longer has a tutor.",
+     "citations": [
+      "qc-ccq-261"
+     ]
+    },
+    {
+     "text": "Curatorship (curatelle) was abolished on 1 November 2022, leaving tutorship as the only regime.",
+     "citations": [
+      "qc-gouv-2020c11-inforce",
+      "qc-ccq-256"
+     ]
+    }
+   ],
+   "localNamesEn": {
+    "tuteur à la personne": {
+     "en": "tutor to the person",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-268",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 268",
+      "title": "Institution of tutorship to persons of full age",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:268",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The court then appoints a tutor to the person and to property, or a tutor either to the person or to property."
+     }
+    },
+    "tutelle au majeur": {
+     "en": "tutorship to a person of full age",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-154",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 154",
+      "title": "Limits on capacity of a person of full age",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:154",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a judgment ordering the institution of tutorship to a person of full age, homologating a protection mandate or authorizing temporary representation"
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-tutor-property",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Tutor to property of a person of full age",
+   "localNames": [
+    "tuteur aux biens",
+    "tutelle au majeur",
+    "tutor to property"
+   ],
+   "summary": "The court may appoint a tutor to property to administer an incapable adult's patrimony, separately from or together with a tutor to the person. Tutorship also completes a protection mandate that does not fully cover administration. It ends on a judgment of release or the adult's death, after which the liquidator takes seisin.",
+   "lane": {
+    "assigned": {
+     "event": "Court institutes tutorship to property",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-268"
+     ]
+    },
+    "starts": {
+     "event": "On the judgment",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-268"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Judgment of release or unopposed cessation report",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-295"
+      ]
+     },
+     {
+      "event": "Death of the person; liquidator exercises seisin from the opening of the succession",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-295",
+       "qc-ccq-777"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No tutorship to property"
+     },
+     {
+      "id": "active",
+      "label": "Tutor administers property"
+     },
+     {
+      "id": "terminated",
+      "label": "Tutorship ceased"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-institute",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Tutorship to property instituted",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-268"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-release",
+      "from": "active",
+      "to": "terminated",
+      "event": "Release",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-295"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Death of the person of full age",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-295"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "tuteur aux biens": {
+     "en": "tutor to property",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-268",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 268",
+      "title": "Institution of tutorship to persons of full age",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:268",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The court then appoints a tutor to the person and to property, or a tutor either to the person or to property."
+     }
+    },
+    "tutelle au majeur": {
+     "en": "tutorship to a person of full age",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-154",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 154",
+      "title": "Limits on capacity of a person of full age",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:154",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a judgment ordering the institution of tutorship to a person of full age, homologating a protection mandate or authorizing temporary representation"
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-consent-to-care-surrogate",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Person qualified to consent to care (spouse, close relative, or person showing special interest)",
+   "localNames": [
+    "conjoint",
+    "proche parent",
+    "personne qui démontre un intérêt particulier",
+    "person who shows a special interest"
+   ],
+   "summary": "When an adult is found incapable of consenting to care required by their state of health, and there are no advance medical directives, the mandatary or tutor consents. If there is none, consent comes from the married, civil union or de facto spouse. If there is no spouse or the spouse cannot act, it comes from a close relative or a person who shows a special interest. After death, the same person may consent to organ removal if the deceased's wishes are unknown.",
+   "lane": {
+    "assigned": {
+     "event": "Incapacity to consent to care is ascertained and the person has no mandatary or tutor",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-15"
+     ]
+    },
+    "starts": {
+     "event": "When care required by the person's state of health is proposed",
+     "phase": "incapacitated",
+     "citations": [
+      "qc-ccq-15",
+      "qc-ccq-11"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Person regains capacity to consent",
+      "phase": "capable",
+      "citations": [
+       "qc-ccq-11",
+       "qc-ccq-15"
+      ]
+     },
+     {
+      "event": "A mandatary or tutor is in place (takes priority)",
+      "phase": "incapacitated",
+      "citations": [
+       "qc-ccq-15"
+      ]
+     },
+     {
+      "event": "Death: role for care ends, but the same person 'who was or would have been qualified to give consent to care' may consent to post-mortem organ removal and autopsy",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-44"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not qualified or not needed"
+     },
+     {
+      "id": "active",
+      "label": "Gives or refuses consent to care in the person's sole interest"
+     },
+     {
+      "id": "terminated",
+      "label": "Superseded, capacity regained, or death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-qualify",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Incapacity ascertained; no advance medical directives and no mandatary/tutor",
+      "conditions": [
+       "Order: spouse (married, civil union or de facto); if none or prevented, close relative or person showing special interest",
+       "Emergency care requires no consent if life in danger (art 13)"
+      ],
+      "citations": [
+       "qc-ccq-15",
+       "qc-ccq-13"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-court",
+      "from": "active",
+      "to": "active",
+      "event": "Substitute refuses without justification, or the person categorically refuses",
+      "conditions": [
+       "Court authorization required (except hygienic care or emergency)"
+      ],
+      "citations": [
+       "qc-ccq-16"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-superseded",
+      "from": "active",
+      "to": "terminated",
+      "event": "Protection mandate homologated or tutor appointed",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-15"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person dies",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-44"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "conjoint": {
+     "en": "spouse",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-15",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 15",
+      "title": "Consent to care for a person of full age incapable of consenting",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:15",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "consent is given by his or her ... spouse or ... by a close relative or a person who shows a special interest"
+     }
+    },
+    "proche parent": {
+     "en": "close relative",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-15",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 15",
+      "title": "Consent to care for a person of full age incapable of consenting",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:15",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "consent is given by his or her ... spouse or ... by a close relative or a person who shows a special interest"
+     }
+    },
+    "personne qui démontre un intérêt particulier": {
+     "en": "person who shows a special interest",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-15",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 15",
+      "title": "Consent to care for a person of full age incapable of consenting",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:15",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "consent is given by his or her ... spouse or ... by a close relative or a person who shows a special interest"
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-liquidator-testamentary",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Liquidator of the succession designated by will",
+   "localNames": [
+    "liquidateur de la succession",
+    "exécuteur testamentaire",
+    "testamentary executor",
+    "liquidator"
+   ],
+   "summary": "A testator may designate one or more liquidators. Anyone so designated, whether called executor or administrator, is a liquidator. From the opening of the succession at death, the liquidator exercises the seisin of the heirs with no court grant. A notarial will needs no probate, but a holograph or witnessed will must first be probated by the court or a notary. Liquidation ends with the final account and discharge.",
+   "lane": {
+    "assigned": {
+     "event": "Testator designates liquidator in will",
+     "phase": "capable",
+     "citations": [
+      "qc-ccq-786"
+     ]
+    },
+    "starts": {
+     "event": "Opening of the succession at death (seisin from the opening); for holograph or witnessed wills, the will must be probated by the court or a notary",
+     "phase": "deceased",
+     "citations": [
+      "qc-ccq-613",
+      "qc-ccq-777",
+      "qc-ccq-772",
+      "qc-ccq-802",
+      "qc-gouv-probate"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Liquidator declines office (not bound to accept unless sole heir)",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-783"
+      ]
+     },
+     {
+      "event": "Court replaces liquidator who is unable, neglects duties or fails obligations",
+      "phase": "administration",
+      "citations": [
+       "qc-ccq-788"
+      ]
+     },
+     {
+      "event": "Acceptance of final account; liquidator discharged and delivers property to heirs; closure published in the register of personal and movable real rights",
+      "phase": "closed",
+      "citations": [
+       "qc-ccq-819"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not designated"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will; testator living"
+     },
+     {
+      "id": "pending_probate",
+      "label": "Holograph or witnessed will awaiting probate (court or notary)"
+     },
+     {
+      "id": "active",
+      "label": "Exercises seisin; inventory, pays debts and legacies, annual account if over 1 year"
+     },
+     {
+      "id": "terminated",
+      "label": "Declined, replaced, or discharged after final account"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will designates liquidator",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-786"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death-notarial",
+      "from": "designated",
+      "to": "active",
+      "event": "Death; notarial will",
+      "conditions": [
+       "No probate or court grant required",
+       "Designation published in the register of personal and movable real rights"
+      ],
+      "citations": [
+       "qc-ccq-613",
+       "qc-ccq-777",
+       "qc-gouv-probate"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-death-holograph",
+      "from": "designated",
+      "to": "pending_probate",
+      "event": "Death; holograph or witnessed will",
+      "conditions": [
+       "Liquidator causes the will to be probated"
+      ],
+      "citations": [
+       "qc-ccq-772",
+       "qc-ccq-802"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-probated",
+      "from": "pending_probate",
+      "to": "active",
+      "event": "Will probated by Superior Court or notary",
+      "conditions": [
+       "Known heirs summoned unless exempted"
+      ],
+      "citations": [
+       "qc-ccq-772",
+       "qc-ccp-312",
+       "qc-ccp-459"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-discharge",
+      "from": "active",
+      "to": "terminated",
+      "event": "Final account accepted (amicable or in court); discharge",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-819"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Inventory is mandatory (published in the register) unless all heirs and successors exempt the liquidator, which makes them liable beyond the property they take.",
+     "citations": [
+      "qc-ccq-794"
+     ]
+    },
+    {
+     "text": "For use outside Québec, an interested person may get letters of verification certifying that the succession has opened and who the liquidator is.",
+     "citations": [
+      "qc-ccp-463"
+     ]
+    },
+    {
+     "text": "If liquidation takes more than a year, the liquidator must render an annual account. If the succession is not manifestly solvent, debts and legacies may not be paid until 60 days after the notice of closure of inventory.",
+     "citations": [
+      "qc-ccq-806"
+     ]
+    }
+   ],
+   "localNamesEn": {
+    "liquidateur de la succession": {
+     "en": "liquidator of the succession",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-783",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, Book Three, Title Five, Chapter II heading and art 783",
+      "title": "Liquidator of the succession",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:783",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "LIQUIDATOR OF THE SUCCESSION ... Any person fully capable of exercising his civil rights may hold the office of liquidator."
+     }
+    },
+    "exécuteur testamentaire": {
+     "en": "testamentary executor",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-786",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 786",
+      "title": "Designation of liquidator by the testator",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:786",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "has the quality of liquidator whether he was designated as administrator of the succession, testamentary executor or otherwise."
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-liquidator-by-law",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Liquidator by operation of law (the heirs) or designated by the heirs or court",
+   "localNames": [
+    "liquidateur",
+    "héritiers",
+    "liquidateur provisoire",
+    "provisional liquidator"
+   ],
+   "summary": "If no liquidator is designated by will, including on intestacy, the office devolves by law to the heirs together. A majority of heirs may designate a liquidator. If the sole heir is a minor or an adult under tutorship or a protection mandate, the representative designates someone else. The court designates or replaces a liquidator when heirs disagree or no one can be appointed. There is no grant of administration.",
+   "lane": {
+    "assigned": {
+     "event": "By operation of law at the opening of the succession (heirs), or designation by majority of heirs, or court designation",
+     "phase": "deceased",
+     "citations": [
+      "qc-ccq-785",
+      "qc-ccq-788"
+     ]
+    },
+    "starts": {
+     "event": "Opening of the succession (death)",
+     "phase": "deceased",
+     "citations": [
+      "qc-ccq-613",
+      "qc-ccq-777",
+      "qc-ccq-785"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court replacement",
+      "phase": "administration",
+      "citations": [
+       "qc-ccq-788"
+      ]
+     },
+     {
+      "event": "Final account accepted; discharge",
+      "phase": "closed",
+      "citations": [
+       "qc-ccq-819"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not an heir / not designated"
+     },
+     {
+      "id": "active",
+      "label": "Acting liquidator"
+     },
+     {
+      "id": "terminated",
+      "label": "Replaced or discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-by-law",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death; heirs hold the office jointly, or majority designates a liquidator",
+      "conditions": [
+       "Persons holding office together act in concert"
+      ],
+      "citations": [
+       "qc-ccq-785",
+       "qc-ccq-786"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-court",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Court designates liquidator or provisional liquidator",
+      "conditions": [
+       "Failing agreement among heirs, or impossible to appoint"
+      ],
+      "citations": [
+       "qc-ccq-788"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-discharge",
+      "from": "active",
+      "to": "terminated",
+      "event": "Discharge after final account",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-819"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "liquidateur": {
+     "en": "liquidator",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-783",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, Book Three, Title Five, Chapter II heading and art 783",
+      "title": "Liquidator of the succession",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:783",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "LIQUIDATOR OF THE SUCCESSION ... Any person fully capable of exercising his civil rights may hold the office of liquidator."
+     }
+    },
+    "héritiers": {
+     "en": "heirs",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-785",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 785",
+      "title": "Office of liquidator devolves to the heirs",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:785",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The office of liquidator devolves by operation of law to the heirs unless otherwise provided by a testamentary provision"
+     }
+    },
+    "liquidateur provisoire": {
+     "en": "provisional liquidator",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-791",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 791",
+      "title": "Replacement of liquidator; provisional liquidator",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:791",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "During the proceedings, the liquidator continues to hold office unless the court decides to designate a provisional liquidator."
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-heirs-amicable-liquidation",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Heirs liquidating a manifestly solvent succession by agreement",
+   "localNames": [
+    "héritiers",
+    "liquidation hors des règles"
+   ],
+   "summary": "No value threshold applies. If the succession is manifestly solvent, the heirs may agree to liquidate it without following the Code's liquidation rules (inventory, notices, delays). In exchange they become personally liable for the succession's debts even beyond the value of what they receive. This is the closest Québec statutory analogue to a simplified small-estate procedure.",
+   "lane": {
+    "assigned": {
+     "event": "All heirs agree to liquidate outside the prescribed rules",
+     "phase": "deceased",
+     "citations": [
+      "qc-ccq-779"
+     ]
+    },
+    "starts": {
+     "event": "On the heirs' agreement after the opening of the succession",
+     "phase": "deceased",
+     "citations": [
+      "qc-ccq-779",
+      "qc-ccq-613"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Property distributed and debts paid (the heirs remain liable personally for any unpaid debts)",
+      "phase": "closed",
+      "citations": [
+       "qc-ccq-779"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Ordinary liquidation applies"
+     },
+     {
+      "id": "active",
+      "label": "Heirs liquidating by agreement; personally liable for debts"
+     },
+     {
+      "id": "terminated",
+      "label": "Liquidation complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-agree",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Heirs agree",
+      "conditions": [
+       "Succession must be manifestly solvent",
+       "Heirs lose the limit of liability to the value of property taken"
+      ],
+      "citations": [
+       "qc-ccq-779",
+       "qc-ccq-625"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Distribution complete",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-779"
+      ],
+      "unverified": true,
+      "phase": "closed"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "héritiers": {
+     "en": "heirs",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-785",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 785",
+      "title": "Office of liquidator devolves to the heirs",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:785",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The office of liquidator devolves by operation of law to the heirs unless otherwise provided by a testamentary provision"
+     }
+    },
+    "liquidation hors des règles": {
+     "en": "liquidation without following the prescribed rules",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-779",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 779",
+      "title": "Liquidation of a manifestly solvent succession by agreement",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:779",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "the heirs may, by mutual agreement, liquidate it without following the prescribed rules for liquidation."
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-organ-donation-consent",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Person consenting to post-mortem organ or tissue removal",
+   "localNames": [
+    "personne qui pouvait consentir aux soins",
+    "registre des consentements",
+    "RAMQ consent register",
+    "Chambre des notaires register"
+   ],
+   "summary": "Québec uses opt-in consent. A person of full age, or a minor 14 or over, may give organs or tissues, verbally before 2 witnesses or in writing, including through the RAMQ register or the notaries' register. The wishes must be followed unless there is a compelling reason not to. If the deceased's wishes are unknown, the person who was or would have been qualified to consent to their care (usually the spouse or a close relative) may consent.",
+   "lane": {
+    "assigned": {
+     "event": "Deceased's own expressed wishes (art 43), or failing known wishes, the person qualified to consent to care (art 15)",
+     "phase": "capable",
+     "citations": [
+      "qc-ccq-43",
+      "qc-ccq-44",
+      "qc-ccq-15"
+     ]
+    },
+    "starts": {
+     "event": "At death attested by two physicians not involved in removal or transplant",
+     "phase": "deceased",
+     "citations": [
+      "qc-ccq-44"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removal performed or declined",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-44"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Deceased expressed wishes (follow them) or no qualified person"
+     },
+     {
+      "id": "active",
+      "label": "Qualified person may consent"
+     },
+     {
+      "id": "terminated",
+      "label": "Decision made"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-own-wishes",
+      "from": "not_designated",
+      "to": "terminated",
+      "event": "Registered or expressed consent/refusal followed",
+      "conditions": [
+       "Wishes followed unless a compelling reason not to",
+       "Hospital checks the RAMQ and notaries' consent registers"
+      ],
+      "citations": [
+       "qc-ccq-43",
+       "qc-sq-2010-c38"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-surrogate",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Wishes unknown and cannot be presumed",
+      "conditions": [
+       "Consent not required if two physicians attest it cannot be obtained in time, the operation is urgent, and there is serious hope of saving a life or appreciably improving its quality"
+      ],
+      "citations": [
+       "qc-ccq-44",
+       "qc-gouv-organ-procedure"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "personne qui pouvait consentir aux soins": {
+     "en": "person who was or would have been qualified to give consent to care",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-44",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 44",
+      "title": "Post-mortem removal where wishes unknown",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:44",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "with the consent of the person who was or would have been qualified to give consent to care."
+     }
+    },
+    "registre des consentements": {
+     "en": "consent registry",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-r5-2",
+      "cite": "Act respecting the Régie de l’assurance maladie du Québec, CQLR c R-5, s 2",
+      "title": "Consent registry for post-mortem organ and tissue removal",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/R-5",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The Board shall establish and update a consent registry for the post-mortem removal of organs and tissues"
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-funeral-heirs",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Heirs or successors deciding funeral arrangements and disposal of the body",
+   "localNames": [
+    "héritiers ou successibles",
+    "heirs or successors"
+   ],
+   "summary": "A person of full age may decide the nature of their funeral and the disposal of their body. Without expressed wishes, the wishes of the heirs or successors prevail. Either way, the heirs or successors must act, and the costs are charged to the succession. No one may embalm, bury or cremate a body before an attestation of death and a 6-hour wait.",
+   "lane": {
+    "assigned": {
+     "event": "By law at death: heirs or successors (implementing the deceased's wishes if expressed)",
+     "phase": "deceased",
+     "citations": [
+      "qc-ccq-42"
+     ]
+    },
+    "starts": {
+     "event": "At death; disposal no earlier than 6 hours after attestation of death",
+     "phase": "deceased",
+     "citations": [
+      "qc-ccq-42",
+      "qc-ccq-48"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Funeral and disposal carried out (expenses charged to the succession)",
+      "phase": "deceased",
+      "citations": [
+       "qc-ccq-42"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not an heir or successor"
+     },
+     {
+      "id": "active",
+      "label": "Bound to act on the funeral and disposal"
+     },
+     {
+      "id": "terminated",
+      "label": "Arrangements completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death",
+      "conditions": [
+       "Deceased's expressed wishes govern; otherwise heirs' or successors' wishes prevail"
+      ],
+      "citations": [
+       "qc-ccq-42"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-done",
+      "from": "active",
+      "to": "terminated",
+      "event": "Disposal carried out",
+      "conditions": [],
+      "citations": [
+       "qc-ccq-48"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "No statutory ranked list like BC's CIFSA s 5 was found in the CCQ. The rule refers collectively to 'heirs or successors', and the Code text reviewed does not say how they resolve disagreement.",
+     "citations": [
+      "qc-ccq-42"
+     ]
+    }
+   ],
+   "localNamesEn": {
+    "héritiers ou successibles": {
+     "en": "heirs or successors",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-42",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 42",
+      "title": "Funeral and disposal of the body",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:42",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "In the absence of wishes expressed by the deceased, the wishes of the heirs or successors prevail."
+     }
+    }
+   }
+  },
+  {
+   "id": "qc-deceased-information-access",
+   "canonical": "health-records-representative",
+   "group": "health",
+   "name": "Persons entitled to a deceased person's personal or health information",
+   "localNames": [
+    "liquidateur",
+    "héritier",
+    "conjoint",
+    "proche parent",
+    "personne liée à une personne décédée"
+   ],
+   "summary": "Health and social services bodies fall under R-22.1 (S.Q. 2023, c. 5). Heirs, liquidators and beneficiaries get information needed for their role. A spouse or close relative gets information that helps the grieving process, and a spouse or direct relatives get the cause of death, unless the deceased refused in writing. Private enterprises fall under P-39.1 as amended by Law 25 (S.Q. 2021, c. 25). The grieving-process disclosure (s 40.1) applies there too; other access is limited to what affects the requester's rights.",
+   "lane": {
+    "assigned": {
+     "event": "Status at death (heir, liquidator, beneficiary, spouse, close relative, genetic relative)",
+     "phase": "deceased",
+     "citations": [
+      "qc-rlrq-r22-1-27",
+      "qc-rlrq-p39-1-30",
+      "qc-rlrq-p39-1-40-1"
+     ]
+    },
+    "starts": {
+     "event": "At death; before death, a tutor or homologated mandatary has access to information about an incapable adult held by a health body",
+     "phase": "deceased",
+     "citations": [
+      "qc-rlrq-r22-1-27",
+      "qc-rlrq-r22-1-26"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Liquidator's access tied to the liquidator's rights and obligations; ends with that capacity",
+      "phase": "closed",
+      "citations": [
+       "qc-rlrq-r22-1-27",
+       "qc-rlrq-p39-1-40-1"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "Private sector: after 30 years from death (health information 100 years from the document date) information may be communicated without consent",
+      "phase": "closed",
+      "citations": [
+       "qc-rlrq-p39-1-18"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No qualifying relationship"
+     },
+     {
+      "id": "active",
+      "label": "May request access within the statutory purpose"
+     },
+     {
+      "id": "suspended",
+      "label": "Deceased recorded a written refusal (grieving and cause-of-death access blocked; genetic-disease access still allowed)"
+     },
+     {
+      "id": "terminated",
+      "label": "Purpose exhausted"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death",
+      "conditions": [
+       "Heir/liquidator/beneficiary: only as necessary for that capacity",
+       "Spouse/close relative: information that could help in grieving",
+       "Spouse/ascendant/descendant: cause of death",
+       "Genetic relatives: to verify a genetic or hereditary disease"
+      ],
+      "citations": [
+       "qc-rlrq-r22-1-27",
+       "qc-rlrq-p39-1-30",
+       "qc-rlrq-p39-1-40-1"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-refusal",
+      "from": "active",
+      "to": "suspended",
+      "event": "Deceased had recorded written refusal",
+      "conditions": [],
+      "citations": [
+       "qc-rlrq-r22-1-27",
+       "qc-rlrq-p39-1-40-1"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "localNamesEn": {
+    "liquidateur": {
+     "en": "liquidator",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-783",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, Book Three, Title Five, Chapter II heading and art 783",
+      "title": "Liquidator of the succession",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:783",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "LIQUIDATOR OF THE SUCCESSION ... Any person fully capable of exercising his civil rights may hold the office of liquidator."
+     }
+    },
+    "héritier": {
+     "en": "heir",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-r22-1-div4",
+      "cite": "Act respecting health and social services information, CQLR c R-22.1, Chapter III, Division IV heading and s 27",
+      "title": "Persons related to a deceased person",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/R-22.1",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "PERSONS RELATED TO A DECEASED PERSON ... An heir, a successor, a legatee by particular title or a liquidator of the succession"
+     }
+    },
+    "conjoint": {
+     "en": "spouse",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-15",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 15",
+      "title": "Consent to care for a person of full age incapable of consenting",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:15",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "consent is given by his or her ... spouse or ... by a close relative or a person who shows a special interest"
+     }
+    },
+    "proche parent": {
+     "en": "close relative",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-ccq-15",
+      "cite": "Civil Code of Québec, CQLR c CCQ-1991, art 15",
+      "title": "Consent to care for a person of full age incapable of consenting",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:15",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "consent is given by his or her ... spouse or ... by a close relative or a person who shows a special interest"
+     }
+    },
+    "personne liée à une personne décédée": {
+     "en": "person related to a deceased person",
+     "basis": "official",
+     "citation": {
+      "id": "qc-en-r22-1-div4",
+      "cite": "Act respecting health and social services information, CQLR c R-22.1, Chapter III, Division IV heading and s 27",
+      "title": "Persons related to a deceased person",
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/R-22.1",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "PERSONS RELATED TO A DECEASED PERSON ... An heir, a successor, a legatee by particular title or a liquidator of the succession"
+     }
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": null,
+   "note": "No yes/no answer fits. Art 2175 does not list the mandator's incapacity as terminating an ordinary mandate: the mandate 'may' end 'in certain cases' on tutorship or homologation of a protection mandate, and it continues during homologation proceedings (art 2167.1). But a mandate given in anticipation of incapacity (protection mandate) takes effect only on homologation (art 2166).",
+   "citations": [
+    "qc-ccq-2175",
+    "qc-ccq-2167-1",
+    "qc-ccq-2166"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "restricted",
+   "note": "A protection mandate is by nature conditional on incapacity, but it springs only on court (or notary) homologation after medical and psychosocial assessments, not on a private confirmation.",
+   "citations": [
+    "qc-ccq-2166",
+    "qc-ccp-312"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "No registry filing is required. Instead a protection mandate needs homologation (a judicial or notarial proceeding) before it can be performed. After the 2020 reform, the mandatary must make an inventory within 60 days and render periodic accounts.",
+   "citations": [
+    "qc-ccq-2166",
+    "qc-ccq-2167-1"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "court-homologation",
+   "note": "The protection mandatary acts only after homologation. Without a mandatary or tutor, the spouse or a close relative consents to care once incapacity is ascertained (art 15).",
+   "citations": [
+    "qc-ccq-2166",
+    "qc-ccq-15"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "year": 2022,
+   "name": "Assistant to a person of full age (arts 297.10 ff. CCQ), added by S.Q. 2020, c. 11, in force 1 November 2022",
+   "note": "The assistant is recognized by the Public Curator and entered in a public register. The assisted person keeps full capacity, and recognition lasts 3 years.",
+   "citations": [
+    "qc-ccq-297-10",
+    "qc-ccq-297-19",
+    "qc-ccq-297-26",
+    "qc-gouv-2020c11-inforce"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No Québec provision on fiduciary access to digital assets was found in the CCQ or related statutes reviewed. The ULCC uniform act is a common-law model and has not been enacted in Québec. Liquidators rely on seisin (art 777) and their general functions (arts 776, 802-804).",
+   "citations": [
+    "ulcc-uadafa-2016",
+    "qc-ccq-777",
+    "qc-ccq-776"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No Québec enactment recognizes platform online-tool designations.",
+   "citations": [
+    "ulcc-uadafa-2016"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Civil Code of Québec arts 43-44; consent registers kept by RAMQ (L.Q. 2010, c. 38) and the Chambre des notaires",
+   "note": "Express consent, or consent from the person qualified to consent to care when wishes are unknown. Bill 194 (presumed consent) passed adoption in principle 104-0 on 9 June 2023 but was not assented; it is not law.",
+   "citations": [
+    "qc-ccq-43",
+    "qc-ccq-44",
+    "qc-sq-2010-c38",
+    "qc-assnat-bill-194"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": true,
+   "threshold": null,
+   "currency": "CAD",
+   "waitingDays": null,
+   "note": "Québec has no grant system. The liquidator (or the heirs by law) has seisin from death without court authority, and only holograph or witnessed wills need probate. The only statutory simplified route is liquidation by the heirs' agreement of a manifestly solvent succession (art 779), with no value threshold and at the cost of unlimited personal liability for debts. No statutory monetary threshold was found; bank release practices are not law.",
+   "citations": [
+    "qc-ccq-777",
+    "qc-ccq-779",
+    "qc-ccq-772",
+    "qc-gouv-probate"
+   ]
+  },
+  "probateGrantName": {
+   "value": "none (no grant); probate (vérification) of holograph and witnessed wills; letters of verification for use outside Québec",
+   "note": "There is no grant of probate or administration. A notarial will is an authentic act and needs no probate, so the liquidator acts from the opening of the succession. Holograph wills and wills made before witnesses must be probated by the Superior Court or a notary (CCQ art 772; CCP arts 312, 459-462). Letters of verification (CCP art 463) prove the liquidator's capacity outside Québec.",
+   "citations": [
+    "qc-ccq-772",
+    "qc-gouv-probate",
+    "qc-ccp-312",
+    "qc-ccp-459",
+    "qc-ccp-463",
+    "qc-ccq-777"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": true,
+   "note": "Québec's private-sector Act (P-39.1, amended by Law 25, S.Q. 2021, c. 25) and the health information Act (R-22.1, S.Q. 2023, c. 5) protect deceased persons' information and set specific access rights. Liquidators, heirs and beneficiaries get access only as it affects their rights. Spouses and close relatives may get information that helps grieving (P-39.1 s 40.1, in effect from the September 2023 Law 25 phase) unless the deceased refused in writing. Private-sector information may be communicated without consent 30 years after death.",
+   "citations": [
+    "qc-rlrq-p39-1-40-1",
+    "qc-rlrq-p39-1-30",
+    "qc-rlrq-r22-1-27",
+    "qc-cai-loi25",
+    "qc-rlrq-p39-1-18"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": "limited",
+   "note": "A protection mandate terminates on the mandator's death (art 2175). The mandatary must still do what cannot be deferred without risk of loss, notify the Public Curator and render account (arts 2182-2184). Funeral decisions go to heirs or successors (art 42), and organ consent to the person who was qualified to consent to care (art 44).",
+   "citations": [
+    "qc-ccq-2175",
+    "qc-ccq-2182",
+    "qc-ccq-42",
+    "qc-ccq-44"
+   ]
+  }
+ }
+}

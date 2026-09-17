@@ -1,0 +1,1571 @@
+{
+ "jurisdiction": "de-federal",
+ "name": "Germany (federal)",
+ "country": "de",
+ "legalSystem": "civil law",
+ "note": "Federal German law: BGB (agency, Betreuung, succession, medical records), TPG (organ donation), SGB I and AO. Burial and disposition of remains are Länder law and are not covered here.",
+ "citations": [
+  {
+   "id": "de-bgb-167",
+   "cite": "BGB § 167",
+   "title": "Erteilung der Vollmacht",
+   "url": "https://www.gesetze-im-internet.de/bgb/__167.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Die Erteilung der Vollmacht erfolgt durch Erklärung gegenüber dem zu Bevollmächtigenden oder dem Dritten."
+  },
+  {
+   "id": "de-bgb-168",
+   "cite": "BGB § 168",
+   "title": "Erlöschen der Vollmacht",
+   "url": "https://www.gesetze-im-internet.de/bgb/__168.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Das Erlöschen der Vollmacht bestimmt sich nach dem ihrer Erteilung zugrunde liegenden Rechtsverhältnis."
+  },
+  {
+   "id": "de-bgb-672",
+   "cite": "BGB § 672",
+   "title": "Tod oder Geschäftsunfähigkeit des Auftraggebers",
+   "url": "https://www.gesetze-im-internet.de/bgb/__672.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Der Auftrag erlischt im Zweifel nicht durch den Tod oder den Eintritt der Geschäftsunfähigkeit des Auftraggebers."
+  },
+  {
+   "id": "de-bgb-1358",
+   "cite": "BGB § 1358",
+   "title": "Gegenseitige Vertretung von Ehegatten in Angelegenheiten der Gesundheitssorge",
+   "url": "https://www.gesetze-im-internet.de/bgb/__1358.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "mehr als sechs Monate seit dem durch den Arzt nach Absatz 4 Satz 1 Nummer 1 festgestellten Zeitpunkt vergangen sind"
+  },
+  {
+   "id": "de-bgb-1814",
+   "cite": "BGB § 1814",
+   "title": "Voraussetzungen",
+   "url": "https://www.gesetze-im-internet.de/bgb/__1814.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "so bestellt das Betreuungsgericht für ihn einen rechtlichen Betreuer (Betreuer)"
+  },
+  {
+   "id": "de-bgb-1820",
+   "cite": "BGB § 1820",
+   "title": "Vorsorgevollmacht und Kontrollbetreuung",
+   "url": "https://www.gesetze-im-internet.de/bgb/__1820.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Folgende Maßnahmen eines Bevollmächtigten setzen voraus, dass die Vollmacht schriftlich erteilt ist"
+  },
+  {
+   "id": "de-bgb-1821",
+   "cite": "BGB § 1821",
+   "title": "Pflichten des Betreuers; Wünsche des Betreuten",
+   "url": "https://www.gesetze-im-internet.de/bgb/__1821.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Der Betreuer nimmt alle Tätigkeiten vor, die erforderlich sind, um die Angelegenheiten des Betreuten rechtlich zu besorgen."
+  },
+  {
+   "id": "de-bgb-1827",
+   "cite": "BGB § 1827",
+   "title": "Patientenverfügung; Behandlungswünsche oder mutmaßlicher Wille des Betreuten",
+   "url": "https://www.gesetze-im-internet.de/bgb/__1827.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Die Absätze 1 bis 3 gelten für Bevollmächtigte entsprechend."
+  },
+  {
+   "id": "de-bgb-1922",
+   "cite": "BGB § 1922",
+   "title": "Gesamtrechtsnachfolge",
+   "url": "https://www.gesetze-im-internet.de/bgb/__1922.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Mit dem Tode einer Person (Erbfall) geht deren Vermögen (Erbschaft) als Ganzes auf eine oder mehrere andere Personen (Erben) über."
+  },
+  {
+   "id": "de-bgb-1960",
+   "cite": "BGB § 1960",
+   "title": "Sicherung des Nachlasses; Nachlasspfleger",
+   "url": "https://www.gesetze-im-internet.de/bgb/__1960.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "und für denjenigen, welcher Erbe wird, einen Pfleger (Nachlasspfleger) bestellen"
+  },
+  {
+   "id": "de-bgb-2197",
+   "cite": "BGB § 2197",
+   "title": "Ernennung des Testamentsvollstreckers",
+   "url": "https://www.gesetze-im-internet.de/bgb/__2197.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Der Erblasser kann durch Testament einen oder mehrere Testamentsvollstrecker ernennen."
+  },
+  {
+   "id": "de-bgb-2205",
+   "cite": "BGB § 2205",
+   "title": "Verwaltung des Nachlasses, Verfügungsbefugnis",
+   "url": "https://www.gesetze-im-internet.de/bgb/__2205.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Der Testamentsvollstrecker hat den Nachlass zu verwalten."
+  },
+  {
+   "id": "de-bgb-2353",
+   "cite": "BGB § 2353",
+   "title": "Zuständigkeit des Nachlassgerichts, Antrag",
+   "url": "https://www.gesetze-im-internet.de/bgb/__2353.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Das Nachlassgericht hat dem Erben auf Antrag ein Zeugnis über sein Erbrecht ... zu erteilen (Erbschein)."
+  },
+  {
+   "id": "de-bgb-630g",
+   "cite": "BGB § 630g",
+   "title": "Einsichtnahme in die Behandlungsakte",
+   "url": "https://www.gesetze-im-internet.de/bgb/__630g.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Im Fall des Todes des Patienten stehen die Rechte nach Absatz 1 zur Wahrnehmung der vermögensrechtlichen Interessen seinen Erben zu."
+  },
+  {
+   "id": "de-tpg-3",
+   "cite": "TPG § 3",
+   "title": "Entnahme mit Einwilligung des Spenders",
+   "url": "https://www.gesetze-im-internet.de/tpg/__3.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "nur zulässig, wenn der Organ- oder Gewebespender in die Entnahme eingewilligt hatte"
+  },
+  {
+   "id": "de-tpg-4",
+   "cite": "TPG § 4",
+   "title": "Entnahme mit Zustimmung anderer Personen",
+   "url": "https://www.gesetze-im-internet.de/tpg/__4.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Hatte der mögliche Organ- oder Gewebespender die Entscheidung ... einer bestimmten Person übertragen, tritt diese an die Stelle des nächsten Angehörigen."
+  },
+  {
+   "id": "de-ao-34",
+   "cite": "AO § 34",
+   "title": "Pflichten der gesetzlichen Vertreter und der Vermögensverwalter",
+   "url": "https://www.gesetze-im-internet.de/ao_1977/__34.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Die gesetzlichen Vertreter ... haben deren steuerliche Pflichten zu erfüllen."
+  },
+  {
+   "id": "de-sgb1-56",
+   "cite": "SGB I § 56",
+   "title": "Sonderrechtsnachfolge",
+   "url": "https://www.gesetze-im-internet.de/sgb_1/__56.html",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Fällige Ansprüche auf laufende Geldleistungen stehen beim Tod des Berechtigten nacheinander dem Ehegatten ... zu"
+  }
+ ],
+ "roles": [
+  {
+   "id": "de-vorsorgevollmacht-vermoegen",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Bevollmächtigter unter Vorsorgevollmacht (Vermögenssorge)",
+   "localNames": [
+    "Bevollmächtigter",
+    "Vorsorgevollmacht",
+    "Generalvollmacht"
+   ],
+   "summary": "An agent appointed by a private power of attorney. German authority is granted by unilateral declaration and, in doubt, survives both incapacity and the principal's death.",
+   "lane": {
+    "assigned": {
+     "event": "Principal declares the power of attorney to the agent or to the third party",
+     "phase": "capable",
+     "citations": [
+      "de-bgb-167"
+     ]
+    },
+    "starts": {
+     "event": "On grant; the internal relationship may condition when it is used",
+     "phase": "capable",
+     "citations": [
+      "de-bgb-167",
+      "de-bgb-168"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation by the principal",
+      "phase": "capable",
+      "citations": [
+       "de-bgb-168"
+      ]
+     },
+     {
+      "event": "Expiry of the underlying relationship; in doubt a mandate does NOT end on death or incapacity",
+      "phase": "deceased",
+      "citations": [
+       "de-bgb-168",
+       "de-bgb-672"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated",
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power of attorney"
+     },
+     {
+      "id": "active",
+      "label": "Agent may act"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-poa-grant",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Vollmacht erteilt (§ 167)",
+      "citations": [
+       "de-bgb-167"
+      ]
+     },
+     {
+      "id": "de-t-poa-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Widerruf der Vollmacht",
+      "citations": [
+       "de-bgb-168"
+      ]
+     },
+     {
+      "id": "de-t-poa-survives",
+      "from": "active",
+      "to": "active",
+      "event": "Principal loses capacity or dies; in doubt authority continues",
+      "citations": [
+       "de-bgb-672"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Authorised person under a lasting power of attorney (care of assets)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Bevollmächtigter": {
+     "en": "authorised person",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-famfg-274",
+      "cite": "FamFG § 274(1) no 3 (English translation)",
+      "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+      "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "an authorised person within the meaning of section 1814 (3) sentence 2 no. 1 of the Civil Code"
+     }
+    },
+    "Vorsorgevollmacht": {
+     "en": "lasting power of attorney",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-famfg-285",
+      "cite": "FamFG § 285 (English translation)",
+      "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+      "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Investigation and surrender of a custodianship authorisation or a lasting power of attorney"
+     }
+    },
+    "Generalvollmacht": {
+     "en": "general power of attorney",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "de-vorsorgevollmacht-gesundheit",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Bevollmächtigter in Gesundheitsangelegenheiten",
+   "localNames": [
+    "Vorsorgevollmacht",
+    "Gesundheitsvollmacht"
+   ],
+   "summary": "The same agent acting for health care. Consent to risky measures, confinement and coercive treatment requires written authority that expressly covers them.",
+   "lane": {
+    "assigned": {
+     "event": "Written power of attorney expressly covering health measures",
+     "phase": "capable",
+     "citations": [
+      "de-bgb-1820"
+     ]
+    },
+    "starts": {
+     "event": "On the principal becoming unable to consent",
+     "phase": "incapacitated",
+     "citations": [
+      "de-bgb-1827"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation, or death of the principal",
+      "phase": "deceased",
+      "citations": [
+       "de-bgb-168"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No health power"
+     },
+     {
+      "id": "designated",
+      "label": "Written power held"
+     },
+     {
+      "id": "active",
+      "label": "Agent decides"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-hpoa-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Schriftliche Vollmacht (§ 1820 Abs. 2)",
+      "citations": [
+       "de-bgb-1820"
+      ]
+     },
+     {
+      "id": "de-t-hpoa-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Principal unable to consent; agent applies any Patientenverfügung",
+      "citations": [
+       "de-bgb-1827"
+      ]
+     },
+     {
+      "id": "de-t-hpoa-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Widerruf oder Tod",
+      "citations": [
+       "de-bgb-168"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Authorised person in health matters",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Vorsorgevollmacht": {
+     "en": "lasting power of attorney",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-famfg-285",
+      "cite": "FamFG § 285 (English translation)",
+      "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+      "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Investigation and surrender of a custodianship authorisation or a lasting power of attorney"
+     }
+    },
+    "Gesundheitsvollmacht": {
+     "en": "health care power of attorney",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "de-ehegattenvertretung",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Vertretender Ehegatte (Ehegattennotvertretung)",
+   "localNames": [
+    "Ehegattenvertretungsrecht",
+    "vertretender Ehegatte"
+   ],
+   "summary": "Since 2023 a spouse may decide health-care matters for an unconscious or ill spouse without any appointment — but only once, and for at most six months.",
+   "lane": {
+    "assigned": {
+     "event": "By operation of law; no appointment. Doctor certifies the conditions in writing",
+     "phase": "incapacitated",
+     "citations": [
+      "de-bgb-1358"
+     ]
+    },
+    "starts": {
+     "event": "Spouse cannot legally handle health-care matters through unconsciousness or illness",
+     "phase": "incapacitated",
+     "citations": [
+      "de-bgb-1358"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Six months from the time the doctor certified, or the conditions cease",
+      "phase": "incapacitated",
+      "citations": [
+       "de-bgb-1358"
+      ]
+     },
+     {
+      "event": "A Betreuer is appointed whose remit covers these matters",
+      "phase": "incapacitated",
+      "citations": [
+       "de-bgb-1358"
+      ]
+     },
+     {
+      "event": "Spouses live apart, or the patient had refused or appointed an agent",
+      "phase": "incapacitated",
+      "citations": [
+       "de-bgb-1358"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not in force"
+     },
+     {
+      "id": "active",
+      "label": "Spouse may decide"
+     },
+     {
+      "id": "terminated",
+      "label": "Right spent or excluded"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-spouse-start",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Arzt bestätigt Voraussetzungen schriftlich (§ 1358 Abs. 4)",
+      "citations": [
+       "de-bgb-1358"
+      ]
+     },
+     {
+      "id": "de-t-spouse-6m",
+      "from": "active",
+      "to": "terminated",
+      "event": "Sechs Monate seit ärztlicher Feststellung abgelaufen",
+      "citations": [
+       "de-bgb-1358"
+      ]
+     },
+     {
+      "id": "de-t-spouse-betreuer",
+      "from": "active",
+      "to": "terminated",
+      "event": "Betreuer mit entsprechendem Aufgabenkreis bestellt (§ 1358 Abs. 5)",
+      "citations": [
+       "de-bgb-1358"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Representing spouse (spousal emergency representation)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Ehegattenvertretungsrecht": {
+     "en": "spousal right of representation",
+     "basis": "descriptive"
+    },
+    "vertretender Ehegatte": {
+     "en": "representing spouse",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "de-betreuer-person",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Rechtlicher Betreuer (Personensorge)",
+   "localNames": [
+    "Betreuer",
+    "rechtliche Betreuung"
+   ],
+   "summary": "A court-appointed legal supporter. Subsidiary to a valid power of attorney, never against the adult's free will, and bound to give effect to their wishes.",
+   "lane": {
+    "assigned": {
+     "event": "Betreuungsgericht appoints, on the adult's application or of its own motion",
+     "phase": "incapacitated",
+     "citations": [
+      "de-bgb-1814"
+     ]
+    },
+    "starts": {
+     "event": "On appointment, only so far as necessary",
+     "phase": "incapacitated",
+     "citations": [
+      "de-bgb-1814",
+      "de-bgb-1821"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "de-bgb-1922"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No Betreuer"
+     },
+     {
+      "id": "active",
+      "label": "Betreuer acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-bet-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Bestellung durch das Betreuungsgericht (§ 1814)",
+      "conditions": [
+       "Erforderlichkeit",
+       "nicht gegen den freien Willen"
+      ],
+      "citations": [
+       "de-bgb-1814"
+      ]
+     },
+     {
+      "id": "de-t-bet-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Tod des Betreuten",
+      "citations": [
+       "de-bgb-1922"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Legal custodian (care of the person)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Betreuer": {
+     "en": "custodian",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-famfg-271",
+      "cite": "FamFG § 271 (English translation)",
+      "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+      "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a custodian or the revocation of custodianship, 2. proceedings for ordering a reservation of consent, and 3. other proceedings concerning the legal custodianship"
+     }
+    },
+    "rechtliche Betreuung": {
+     "en": "legal custodianship",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-famfg-271",
+      "cite": "FamFG § 271 (English translation)",
+      "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+      "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "a custodian or the revocation of custodianship, 2. proceedings for ordering a reservation of consent, and 3. other proceedings concerning the legal custodianship"
+     }
+    }
+   }
+  },
+  {
+   "id": "de-betreuer-vermoegen",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Rechtlicher Betreuer (Vermögenssorge)",
+   "localNames": [
+    "Betreuer mit Aufgabenkreis Vermögenssorge"
+   ],
+   "summary": "The same court appointment where the assigned remit covers property and financial affairs.",
+   "lane": {
+    "assigned": {
+     "event": "Betreuungsgericht assigns a remit covering property affairs",
+     "phase": "incapacitated",
+     "citations": [
+      "de-bgb-1814"
+     ]
+    },
+    "starts": {
+     "event": "On appointment",
+     "phase": "incapacitated",
+     "citations": [
+      "de-bgb-1814"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "de-bgb-1922"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No Betreuer"
+     },
+     {
+      "id": "active",
+      "label": "Managing property"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-betv-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Bestellung mit Aufgabenkreis Vermögenssorge",
+      "citations": [
+       "de-bgb-1814"
+      ]
+     },
+     {
+      "id": "de-t-betv-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Tod des Betreuten",
+      "citations": [
+       "de-bgb-1922"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Legal custodian (care of assets)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Betreuer mit Aufgabenkreis Vermögenssorge": {
+     "en": "custodian whose area of duties is care of assets",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "de-erbe",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Erbe (Gesamtrechtsnachfolger)",
+   "localNames": [
+    "Erbe",
+    "Miterbe",
+    "Erbengemeinschaft"
+   ],
+   "summary": "German law has no default executor: on death the whole estate, including digital assets, passes automatically and immediately to the heirs as universal successors.",
+   "lane": {
+    "assigned": {
+     "event": "By will or by the statutory order of succession",
+     "phase": "capable",
+     "citations": [
+      "de-bgb-1922"
+     ]
+    },
+    "starts": {
+     "event": "Automatically at the moment of death — no grant or court act required",
+     "phase": "deceased",
+     "citations": [
+      "de-bgb-1922"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate distributed; Erbengemeinschaft wound up",
+      "phase": "closed",
+      "citations": [
+       "de-bgb-1922"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Before death"
+     },
+     {
+      "id": "active",
+      "label": "Heir holds the estate"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate wound up"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-erbe-vest",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Erbfall: Vermögen geht als Ganzes über (§ 1922)",
+      "citations": [
+       "de-bgb-1922"
+      ]
+     },
+     {
+      "id": "de-t-erbe-erbschein",
+      "from": "active",
+      "to": "active",
+      "event": "Erbschein issued on application as evidence of the right",
+      "citations": [
+       "de-bgb-2353"
+      ]
+     },
+     {
+      "id": "de-t-erbe-close",
+      "from": "active",
+      "to": "terminated",
+      "event": "Auseinandersetzung des Nachlasses",
+      "citations": [
+       "de-bgb-1922"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir (universal successor)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Erbe": {
+     "en": "heir",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-bgb-1922",
+      "cite": "BGB § 1922 (English translation)",
+      "title": "German Civil Code (official English translation, as amended to 10 August 2021)",
+      "url": "https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "that person’s assets (inheritance) devolve as a whole to one or more than one other persons (heirs). (2) The share of a co-heir"
+     }
+    },
+    "Miterbe": {
+     "en": "co-heir",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-bgb-1922",
+      "cite": "BGB § 1922 (English translation)",
+      "title": "German Civil Code (official English translation, as amended to 10 August 2021)",
+      "url": "https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "that person’s assets (inheritance) devolve as a whole to one or more than one other persons (heirs). (2) The share of a co-heir"
+     }
+    },
+    "Erbengemeinschaft": {
+     "en": "community of heirs",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-bgb-2032",
+      "cite": "BGB § 2032 (English translation)",
+      "title": "German Civil Code (official English translation, as amended to 10 August 2021)",
+      "url": "https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Community of heirs (1) If the deceased leaves more than one heir, the estate becomes the joint assets of the heirs."
+     }
+    }
+   }
+  },
+  {
+   "id": "de-testamentsvollstrecker",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Testamentsvollstrecker",
+   "localNames": [
+    "Testamentsvollstrecker",
+    "Nachlassverwaltung durch TV"
+   ],
+   "summary": "An executor exists only where the testator appointed one by will. He administers the estate and may dispose of its assets, displacing the heirs' control.",
+   "lane": {
+    "assigned": {
+     "event": "Appointed by the testator in a will",
+     "phase": "capable",
+     "citations": [
+      "de-bgb-2197"
+     ]
+    },
+    "starts": {
+     "event": "On acceptance of the office after death",
+     "phase": "deceased",
+     "citations": [
+      "de-bgb-2197",
+      "de-bgb-2205"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Office completed or falls away",
+      "phase": "closed",
+      "citations": [
+       "de-bgb-2197"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None appointed"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Office ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-tv-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Ernennung durch Testament (§ 2197)",
+      "citations": [
+       "de-bgb-2197"
+      ]
+     },
+     {
+      "id": "de-t-tv-accept",
+      "from": "designated",
+      "to": "active",
+      "event": "Annahme des Amts; Verwaltung und Verfügung über den Nachlass",
+      "citations": [
+       "de-bgb-2205"
+      ]
+     },
+     {
+      "id": "de-t-tv-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Wegfall des Testamentsvollstreckers",
+      "citations": [
+       "de-bgb-2197"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor",
+    "basis": "official",
+    "citation": {
+     "id": "en-de-famfg-345-3",
+     "cite": "FamFG § 345(3) (English translation)",
+     "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+     "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "In proceedings for the appointment of an executor and for the issuance of an executor’s certificate, the executor is a participant."
+    }
+   },
+   "localNamesEn": {
+    "Testamentsvollstrecker": {
+     "en": "executor",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-famfg-345-3",
+      "cite": "FamFG § 345(3) (English translation)",
+      "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+      "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "In proceedings for the appointment of an executor and for the issuance of an executor’s certificate, the executor is a participant."
+     }
+    },
+    "Nachlassverwaltung durch TV": {
+     "en": "administration of the estate by the executor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "de-nachlasspfleger",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Nachlasspfleger",
+   "localNames": [
+    "Nachlasspflegschaft",
+    "Nachlassgericht"
+   ],
+   "summary": "Where the heir is unknown or has not yet accepted, the probate court secures the estate and may appoint a curator for whoever turns out to be the heir.",
+   "lane": {
+    "assigned": {
+     "event": "Nachlassgericht appoints where there is a need to secure the estate",
+     "phase": "administration",
+     "citations": [
+      "de-bgb-1960"
+     ]
+    },
+    "starts": {
+     "event": "On appointment",
+     "phase": "administration",
+     "citations": [
+      "de-bgb-1960"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Heir established and accepts the estate",
+      "phase": "administration",
+      "citations": [
+       "de-bgb-1960"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No curator"
+     },
+     {
+      "id": "active",
+      "label": "Securing the estate"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-np-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Bestellung eines Nachlasspflegers (§ 1960 Abs. 2)",
+      "conditions": [
+       "Erbe unbekannt oder Annahme ungewiss"
+      ],
+      "citations": [
+       "de-bgb-1960"
+      ]
+     },
+     {
+      "id": "de-t-np-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Erbe ermittelt und Erbschaft angenommen",
+      "citations": [
+       "de-bgb-1960"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Curator of the estate",
+    "basis": "official",
+    "citation": {
+     "id": "en-de-famfg-345-4",
+     "cite": "FamFG § 345(4) no 1 (English translation)",
+     "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+     "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "curatorship of the estate or administration of the estate include the curator of the estate or the administrator of the estate"
+    }
+   },
+   "localNamesEn": {
+    "Nachlasspflegschaft": {
+     "en": "curatorship of the estate",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-famfg-345-4",
+      "cite": "FamFG § 345(4) no 1 (English translation)",
+      "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+      "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "curatorship of the estate or administration of the estate include the curator of the estate or the administrator of the estate"
+     }
+    },
+    "Nachlassgericht": {
+     "en": "probate court",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-famfg-342",
+      "cite": "FamFG § 342(1) no 5 (English translation)",
+      "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+      "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "the acceptance of declarations that are to be submitted to the probate court under statutory provisions"
+     }
+    }
+   }
+  },
+  {
+   "id": "de-organ-angehoeriger",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Nächster Angehöriger / benannte Person (Organspende)",
+   "localNames": [
+    "nächster Angehöriger",
+    "benannte Vertrauensperson"
+   ],
+   "summary": "Germany is opt-in. Absent the donor's own declaration the next of kin decides, bound by the donor's presumed wishes; the donor may instead nominate a specific person.",
+   "lane": {
+    "assigned": {
+     "event": "Statutory next-of-kin order, or a person the donor nominated",
+     "phase": "deceased",
+     "citations": [
+      "de-tpg-4"
+     ]
+    },
+    "starts": {
+     "event": "After death is established and no declaration by the donor is found",
+     "phase": "deceased",
+     "citations": [
+      "de-tpg-3",
+      "de-tpg-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Decision given or refused",
+      "phase": "deceased",
+      "citations": [
+       "de-tpg-4"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Donor decision governs"
+     },
+     {
+      "id": "active",
+      "label": "Next of kin asked"
+     },
+     {
+      "id": "terminated",
+      "label": "Decision made"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-tpg-ask",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Register shows no declaration; next of kin is asked (§ 4 Abs. 1)",
+      "citations": [
+       "de-tpg-4"
+      ]
+     },
+     {
+      "id": "de-t-tpg-named",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Donor had transferred the decision to a named person (§ 4 Abs. 3)",
+      "citations": [
+       "de-tpg-4"
+      ]
+     },
+     {
+      "id": "de-t-tpg-decide",
+      "from": "active",
+      "to": "terminated",
+      "event": "Zustimmung oder Ablehnung",
+      "citations": [
+       "de-tpg-4"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Closest relative / designated person (organ donation)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "nächster Angehöriger": {
+     "en": "closest relative",
+     "basis": "descriptive"
+    },
+    "benannte Vertrauensperson": {
+     "en": "designated person of trust",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "de-patientenakte",
+   "canonical": "health-records-representative",
+   "group": "health",
+   "name": "Einsichtsberechtigter in die Behandlungsakte",
+   "localNames": [
+    "Erbe",
+    "nächster Angehöriger"
+   ],
+   "summary": "After death, heirs may see the medical record to pursue financial interests and next of kin to pursue non-material ones — unless it would go against the patient's wishes.",
+   "lane": {
+    "assigned": {
+     "event": "By status as heir or next of kin",
+     "phase": "deceased",
+     "citations": [
+      "de-bgb-630g"
+     ]
+    },
+    "starts": {
+     "event": "On the patient's death",
+     "phase": "deceased",
+     "citations": [
+      "de-bgb-630g"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Excluded where the patient's express or presumed will is against disclosure",
+      "phase": "deceased",
+      "citations": [
+       "de-bgb-630g"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Patient's own right"
+     },
+     {
+      "id": "active",
+      "label": "Heir or relative may inspect"
+     },
+     {
+      "id": "terminated",
+      "label": "Excluded"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-akte-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Tod des Patienten (§ 630g Abs. 3)",
+      "citations": [
+       "de-bgb-630g"
+      ]
+     },
+     {
+      "id": "de-t-akte-block",
+      "from": "active",
+      "to": "terminated",
+      "event": "Entgegenstehender Wille des Patienten",
+      "citations": [
+       "de-bgb-630g"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Person entitled to inspect the medical records",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Erbe": {
+     "en": "heir",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-bgb-1922",
+      "cite": "BGB § 1922 (English translation)",
+      "title": "German Civil Code (official English translation, as amended to 10 August 2021)",
+      "url": "https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "that person’s assets (inheritance) devolve as a whole to one or more than one other persons (heirs). (2) The share of a co-heir"
+     }
+    },
+    "nächster Angehöriger": {
+     "en": "closest relative",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-bgb-630g",
+      "cite": "BGB § 630g(3) (English translation)",
+      "title": "German Civil Code (official English translation, as amended to 10 August 2021)",
+      "url": "https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The same applies to the closest relatives of the patient where they assert immaterial interests."
+     }
+    }
+   }
+  },
+  {
+   "id": "de-sonderrechtsnachfolger",
+   "canonical": "benefits-payee",
+   "group": "federal",
+   "name": "Sonderrechtsnachfolger (Sozialleistungen)",
+   "localNames": [
+    "Sonderrechtsnachfolge"
+   ],
+   "summary": "Social benefits already due at death pass outside the estate to a fixed statutory order of household members, ahead of the heirs.",
+   "lane": {
+    "assigned": {
+     "event": "Statutory order: spouse, civil partner, children, parents, housekeeper",
+     "phase": "deceased",
+     "citations": [
+      "de-sgb1-56"
+     ]
+    },
+    "starts": {
+     "event": "On death, for benefits already due",
+     "phase": "deceased",
+     "citations": [
+      "de-sgb1-56"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Claims paid out",
+      "phase": "administration",
+      "citations": [
+       "de-sgb1-56"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Recipient alive"
+     },
+     {
+      "id": "active",
+      "label": "Successor entitled"
+     },
+     {
+      "id": "terminated",
+      "label": "Paid"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-srn-vest",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Tod des Berechtigten (§ 56 Abs. 1 SGB I)",
+      "conditions": [
+       "gemeinsamer Haushalt oder wesentlicher Unterhalt"
+      ],
+      "citations": [
+       "de-sgb1-56"
+      ]
+     },
+     {
+      "id": "de-t-srn-paid",
+      "from": "active",
+      "to": "terminated",
+      "event": "Auszahlung",
+      "citations": [
+       "de-sgb1-56"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Special successor (social benefits)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Sonderrechtsnachfolge": {
+     "en": "special succession",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "de-steuerpflichtiger-vertreter",
+   "canonical": "tax-representative",
+   "group": "federal",
+   "name": "Gesetzlicher Vertreter / Vermögensverwalter (Steuerpflichten)",
+   "localNames": [
+    "Vermögensverwalter",
+    "gesetzlicher Vertreter"
+   ],
+   "summary": "Whoever legally represents or administers the assets must discharge the tax duties attached to them, and must pay the tax out of the funds they manage.",
+   "lane": {
+    "assigned": {
+     "event": "By holding the office of legal representative or asset administrator",
+     "phase": "administration",
+     "citations": [
+      "de-ao-34"
+     ]
+    },
+    "starts": {
+     "event": "On taking up the administration",
+     "phase": "administration",
+     "citations": [
+      "de-ao-34"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration ends",
+      "phase": "closed",
+      "citations": [
+       "de-ao-34"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No representative"
+     },
+     {
+      "id": "active",
+      "label": "Bound by tax duties"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "de-t-ao-start",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Vertretung oder Vermögensverwaltung übernommen (§ 34 AO)",
+      "citations": [
+       "de-ao-34"
+      ]
+     },
+     {
+      "id": "de-t-ao-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Ende der Verwaltung",
+      "citations": [
+       "de-ao-34"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Legal representative / asset manager (tax obligations)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "Vermögensverwalter": {
+     "en": "asset manager",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-ao-34",
+      "cite": "AO § 34 (English translation)",
+      "title": "Fiscal Code (official English translation, as amended to 17 July 2017)",
+      "url": "https://www.gesetze-im-internet.de/englisch_ao/englisch_ao.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Obligations of legal representatives and asset managers"
+     }
+    },
+    "gesetzlicher Vertreter": {
+     "en": "legal representative",
+     "basis": "official",
+     "citation": {
+      "id": "en-de-ao-34",
+      "cite": "AO § 34 (English translation)",
+      "title": "Fiscal Code (official English translation, as amended to 17 July 2017)",
+      "url": "https://www.gesetze-im-internet.de/englisch_ao/englisch_ao.html",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Obligations of legal representatives and asset managers"
+     }
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": true,
+   "note": "A Vollmacht does not lapse on incapacity; in doubt a mandate survives even the principal's death (transmortale Vollmacht).",
+   "citations": [
+    "de-bgb-168",
+    "de-bgb-672"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "The agent's health-care role engages when the principal can no longer consent; §1827 applies to agents as it does to Betreuer.",
+   "citations": [
+    "de-bgb-1827"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No dedicated digital-asset statute. Digital assets pass to the heirs because the whole estate passes as a unit under §1922.",
+   "citations": [
+    "de-bgb-1922"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Transplantationsgesetz",
+   "note": "Removal requires the donor's consent; absent a declaration the next of kin is asked and must follow the donor's presumed will.",
+   "citations": [
+    "de-tpg-3",
+    "de-tpg-4"
+   ],
+   "nameEn": {
+    "en": "Transplantation Act",
+    "basis": "descriptive"
+   }
+  },
+  "probateGrantName": {
+   "value": "Erbschein",
+   "note": "Evidence of the heir's right, issued by the Nachlassgericht on application. It does not confer title — title passes at death under §1922.",
+   "citations": [
+    "de-bgb-2353",
+    "de-bgb-1922"
+   ],
+   "valueEn": {
+    "en": "certificate of inheritance",
+    "basis": "official",
+    "citation": {
+     "id": "en-de-famfg-352",
+     "cite": "FamFG § 352 (English translation)",
+     "title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction (official English translation, as amended to 7 April 2025)",
+     "url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.html",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "Information in application for issuance of certificate of inheritance; evidence of accuracy"
+    }
+   }
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": "limited",
+   "note": "Authority can continue after death where the power is transmortal; record access after death is governed separately by §630g(3).",
+   "citations": [
+    "de-bgb-672",
+    "de-bgb-630g"
+   ]
+  }
+ }
+}

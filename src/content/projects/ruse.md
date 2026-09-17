@@ -4,5 +4,5 @@ summary: "A camera application that alters a photograph so it stays legible to a
 status: Dormant
 started: 2021-01-01
 repo: "https://github.com/derrumbe/Ruse"
-order: 3
+order: 4
 ---

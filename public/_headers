@@ -9,3 +9,6 @@
 
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
+
+/research/digital-estate-roles/data/*
+  Cache-Control: public, max-age=3600

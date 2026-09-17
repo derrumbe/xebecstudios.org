@@ -1,0 +1,1764 @@
+{
+ "jurisdiction": "uk-ni",
+ "name": "Northern Ireland",
+ "country": "uk",
+ "legalSystem": "common law",
+ "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer.",
+ "citations": [
+  {
+   "id": "epa-3",
+   "cite": "Enduring Powers of Attorney (Northern Ireland) Order 1987 art 3",
+   "title": "Enduring power of attorney to survive mental incapacity of donor",
+   "url": "https://www.legislation.gov.uk/nisi/1987/1627/article/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "upon such incapacity supervening the donee of the power may not do anything under the authority of the power except as provided"
+  },
+  {
+   "id": "epa-3-2",
+   "cite": "Enduring Powers of Attorney (Northern Ireland) Order 1987 art 3(2)",
+   "title": "Limited powers pending registration application",
+   "url": "https://www.legislation.gov.uk/nisi/1987/1627/article/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "to maintain the donor or prevent loss to his estate"
+  },
+  {
+   "id": "epa-2",
+   "cite": "Enduring Powers of Attorney (Northern Ireland) Order 1987 art 2",
+   "title": "Interpretation ('the court' means the High Court; mental incapacity)",
+   "url": "https://www.legislation.gov.uk/nisi/1987/1627/article/2",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "“the court” means the High Court"
+  },
+  {
+   "id": "epa-contents",
+   "cite": "Enduring Powers of Attorney (Northern Ireland) Order 1987, table of contents (art 4 characteristics of an enduring power; art 7-8 court functions)",
+   "title": "Order contents; no outstanding effects recorded",
+   "url": "https://www.legislation.gov.uk/nisi/1987/1627/contents",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "There are currently no known outstanding effects for The Enduring Powers of Attorney (Northern Ireland) Order 1987."
+  },
+  {
+   "id": "epa-4",
+   "cite": "Enduring Powers of Attorney (Northern Ireland) Order 1987 art 4",
+   "title": "Characteristics of an enduring power (prescribed form; attorney bankruptcy revokes)",
+   "url": "https://www.legislation.gov.uk/nisi/1987/1627/article/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "by the donor, that he intends the power to continue in spite of any supervening mental incapacity of his"
+  },
+  {
+   "id": "epa-6",
+   "cite": "Enduring Powers of Attorney (Northern Ireland) Order 1987 art 6",
+   "title": "Duties of attorney in event of actual or impending incapacity of donor",
+   "url": "https://www.legislation.gov.uk/nisi/1987/1627/article/6",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If the attorney under an enduring power has reason to believe that the donor is or is becoming mentally incapable"
+  },
+  {
+   "id": "epa-9",
+   "cite": "Enduring Powers of Attorney (Northern Ireland) Order 1987 art 9",
+   "title": "Effect and proof of registration",
+   "url": "https://www.legislation.gov.uk/nisi/1987/1627/article/9",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "no revocation of the power by the donor shall be valid unless and until the court confirms the revocation"
+  },
+  {
+   "id": "epa-10",
+   "cite": "Enduring Powers of Attorney (Northern Ireland) Order 1987 art 10(3)-(4)",
+   "title": "Functions of court with respect to registered power; cancellation of registration",
+   "url": "https://www.legislation.gov.uk/nisi/1987/1627/article/10",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "revoked by the death or bankruptcy of the donor or the death, mental incapacity or bankruptcy of the attorney"
+  },
+  {
+   "id": "doj-epa",
+   "cite": "Department of Justice NI, 'Information on Enduring Powers of Attorney (EPA)'",
+   "title": "When an EPA takes effect; registration with the Office of Care and Protection",
+   "url": "https://www.justice-ni.gov.uk/articles/information-enduring-powers-attorney-epa",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "It takes effect as soon as the attorney signs unless you have included any conditions or restrictions about when the power should commence."
+  },
+  {
+   "id": "nidirect-epa",
+   "cite": "nidirect, 'Managing your affairs and enduring power of attorney'",
+   "title": "EPA covers financial matters only; ordinary POA ceases on incapacity",
+   "url": "https://www.nidirect.gov.uk/articles/managing-your-affairs-and-enduring-power-attorney",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "In Northern Ireland, an EPA covers financial matters only."
+  },
+  {
+   "id": "doj-ocp",
+   "cite": "Department of Justice NI, 'Information about the Office of Care and Protection'",
+   "title": "OCP is an office within the Family Division of the High Court; controllers; short procedure orders",
+   "url": "https://www.justice-ni.gov.uk/articles/information-about-office-care-and-protection",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "The Office of Care and Protection (OCP) is an office within the Family Division of the High Court."
+  },
+  {
+   "id": "mho-97",
+   "cite": "Mental Health (Northern Ireland) Order 1986 art 97",
+   "title": "Jurisdiction of High Court in relation to property and affairs of patients",
+   "url": "https://www.legislation.gov.uk/nisi/1986/595/article/97",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "incapable, by reason of mental disorder, of managing and administering his property and affairs"
+  },
+  {
+   "id": "mho-101",
+   "cite": "Mental Health (Northern Ireland) Order 1986 art 101",
+   "title": "Power to appoint controller",
+   "url": "https://www.legislation.gov.uk/nisi/1986/595/article/101",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a controller shall be discharged (without any order) on the death of the patient"
+  },
+  {
+   "id": "mca-97",
+   "cite": "Mental Capacity Act (Northern Ireland) 2016 s 97 (prospective)",
+   "title": "Lasting powers of attorney - not in operation",
+   "url": "https://www.legislation.gov.uk/nia/2016/18/section/97",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-116",
+   "cite": "Mental Capacity Act (Northern Ireland) 2016 s 116 (prospective)",
+   "title": "Appointment of deputies - not in operation",
+   "url": "https://www.legislation.gov.uk/nia/2016/18/section/116",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-1",
+   "cite": "Mental Capacity Act (Northern Ireland) 2016 s 1(4)",
+   "title": "Principles: all practicable help and support before finding inability (in operation for specified purposes from 1.10.2019 / 2.12.2019)",
+   "url": "https://www.legislation.gov.uk/nia/2016/18/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "all practicable help and support to enable the person to make a decision about the matter have been given without success"
+  },
+  {
+   "id": "mca-5",
+   "cite": "Mental Capacity Act (Northern Ireland) 2016 s 5",
+   "title": "Supporting person to make decision (in operation for specified purposes)",
+   "url": "https://www.legislation.gov.uk/nia/2016/18/section/5",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-9",
+   "cite": "Mental Capacity Act (Northern Ireland) 2016 s 9",
+   "title": "Protection from liability - in operation 2.12.2019 for specified purposes only (S.R. 2019/163)",
+   "url": "https://www.legislation.gov.uk/nia/2016/18/section/9",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-12",
+   "cite": "Mental Capacity Act (Northern Ireland) 2016 s 12 (prospective)",
+   "title": "Acts of restraint - not in operation on legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/nia/2016/18/section/12",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-contents",
+   "cite": "Mental Capacity Act (Northern Ireland) 2016 (status note on legislation.gov.uk)",
+   "title": "Up to date with changes in force on or before 17 September 2026",
+   "url": "https://www.legislation.gov.uk/nia/2016/18/contents",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "doh-mca",
+   "cite": "Department of Health NI, 'Mental Capacity Act'",
+   "title": "Phase 1 commencement (research 1 Oct 2019; DoL and money & valuables 2 Dec 2019)",
+   "url": "https://www.health-ni.gov.uk/topics/mental-capacity-act",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "research provisions commenced on 1 October 2019 and provisions in relation to deprivation of liberty and money & valuables"
+  },
+  {
+   "id": "doh-restraint-consultation-2024",
+   "cite": "Department of Health NI, 'Consultation on the Commencement of Provisions under the MCA (NI) 2016 relating to Acts of Restraint' (Sept 2024)",
+   "title": "Remaining provisions (care, treatment and personal welfare decisions, LPAs, IMCAs) not commenced; no decisions on full implementation",
+   "url": "https://consultations2.nidirect.gov.uk/doh-1/consultation-on-the-commencement-of-provisions-und/",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16",
+   "quote": "No decisions have yet been made in relation to full implementation of the MCA."
+  },
+  {
+   "id": "doh-consent-12",
+   "cite": "Department of Health NI, '12 key points on consent: the law in Northern Ireland'",
+   "title": "No-one can consent for an incapable adult; best-interests treatment",
+   "url": "https://www.health-ni.gov.uk/sites/default/files/publications/dhssps/good-practice-consent-12-key-points.pdf",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "No-one can give consent on behalf of an adult who is not deemed competent."
+  },
+  {
+   "id": "aea-1955-1",
+   "cite": "Administration of Estates Act (Northern Ireland) 1955 s 1",
+   "title": "Realty to devolve on personal representatives; probate and letters of administration",
+   "url": "https://www.legislation.gov.uk/apni/1955/24/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "devolve upon and become vested in his personal representatives"
+  },
+  {
+   "id": "aea-1955-3",
+   "cite": "Administration of Estates Act (Northern Ireland) 1955 s 3",
+   "title": "Vesting of intestate's estate in the Probate Judge before grant",
+   "url": "https://www.legislation.gov.uk/apni/1955/24/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall, until administration is granted in respect thereof, vest in the Probate Judge"
+  },
+  {
+   "id": "aea-1955-41",
+   "cite": "Administration of Estates Act (Northern Ireland) 1955 s 41",
+   "title": "Time allowed for distribution (executor's year)",
+   "url": "https://www.legislation.gov.uk/apni/1955/24/section/41",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall not, without leave of the court, be brought before the expiration of one year from the date of the death"
+  },
+  {
+   "id": "rsc-97-18",
+   "cite": "Rules of the Supreme Court (Northern Ireland) 1980 Order 97 r 18",
+   "title": "Order of priority for grant where deceased left a will",
+   "url": "https://www.justice-ni.gov.uk/sites/default/files/publications/justice/p_pco_SCROrder97_Rule18.pdf",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "(i) The executor;"
+  },
+  {
+   "id": "rsc-97-20",
+   "cite": "Rules of the Supreme Court (Northern Ireland) 1980 Order 97 r 20",
+   "title": "Order of priority for grant in case of intestacy",
+   "url": "https://www.justice-ni.gov.uk/sites/default/files/publications/justice/p_pco_SCROrder97_Rule20.pdf",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "(i) The surviving spouse; (ii) The children of the deceased"
+  },
+  {
+   "id": "doj-probate-rules",
+   "cite": "Department of Justice NI, 'Non contentious probate rules' publication page",
+   "title": "Rules published as RSC (NI) 1980 Order 97",
+   "url": "https://www.justice-ni.gov.uk/publications/non-contentious-probate-rules",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "nidirect-probate",
+   "cite": "nidirect, 'Probate'",
+   "title": "Grant of probate / letters of administration; small estates at holder's discretion",
+   "url": "https://www.nidirect.gov.uk/articles/probate",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "if the estate is small some organisations, such as insurance companies and building societies, may choose to release the money to you"
+  },
+  {
+   "id": "aesp-ni-1967-1",
+   "cite": "Administration of Estates (Small Payments) Act (Northern Ireland) 1967 ss 1-2",
+   "title": "Amounts disposable on death without representation or by nomination",
+   "url": "https://www.legislation.gov.uk/apni/1967/5/section/1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "without the necessity for probate or other proof of title"
+  },
+  {
+   "id": "sr-2020-280",
+   "cite": "Administration of Estates (Small Payments) (Increase of Limit) Order (Northern Ireland) 2020 (S.R. 2020/280) art 2",
+   "title": "Limit raised from £10,000 to £20,000 (in operation 8 Dec 2020; applies to deaths one month later)",
+   "url": "https://www.legislation.gov.uk/nisr/2020/280/made",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "have effect as if for the references to £10,000 there were substituted references to £20,000"
+  },
+  {
+   "id": "aesp-ni-1967-6",
+   "cite": "Administration of Estates (Small Payments) Act (Northern Ireland) 1967 s 6(2)",
+   "title": "Increase orders apply to deaths more than one month after order comes into force",
+   "url": "https://www.legislation.gov.uk/apni/1967/5/section/6",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "hta-3",
+   "cite": "Human Tissue Act 2004 s 3(6), (6AA), (6B), (9A) (extends to E+W+NI)",
+   "title": "Appropriate consent: adults; deemed consent for transplantation in Northern Ireland",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the deemed consent of the person concerned"
+  },
+  {
+   "id": "hta-4",
+   "cite": "Human Tissue Act 2004 s 4",
+   "title": "Nominated representatives",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An adult may appoint one or more persons to represent him after his death in relation to consent"
+  },
+  {
+   "id": "hta-27",
+   "cite": "Human Tissue Act 2004 s 27(4)-(7)",
+   "title": "Ranking of qualifying relationships",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/27",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(a) spouse, civil partner or partner; (b) parent or child; (c) brother or sister"
+  },
+  {
+   "id": "otdca-ni-2022-1",
+   "cite": "Organ and Tissue Donation (Deemed Consent) Act (Northern Ireland) 2022 (c. 10) s 1, as recorded in HTA 2004 s 3 amendment notes",
+   "title": "Inserted s 3(6AA) and (9A) into HTA 2004 for NI; in operation 13.2.2023 (S.R. 2023/14)",
+   "url": "https://www.legislation.gov.uk/ukpga/2004/30/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "sr-2023-14",
+   "cite": "Organ and Tissue Donation (Deemed Consent) (2022 Act) (Commencement) Order (Northern Ireland) 2023 (S.R. 2023/14)",
+   "title": "Appointed day for s 1 - article says 13 Feb 2023; explanatory note says 5 April 2023",
+   "url": "https://www.legislation.gov.uk/nisr/2023/14/made",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "The 13th February 2023 is the appointed day for the coming into operation of section 1"
+  },
+  {
+   "id": "sr-2023-26",
+   "cite": "Human Tissue (Permitted Material) Regulations (Northern Ireland) 2023 (S.R. 2023/26) reg 1(2)",
+   "title": "Permitted material for deemed consent; in operation 1 June 2023",
+   "url": "https://www.legislation.gov.uk/nisr/2023/26/made",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "These Regulations come into operation on 1st June 2023."
+  },
+  {
+   "id": "doh-daithi",
+   "cite": "Department of Health NI news, 'Dáithí's Law to go live tomorrow' (31 May 2023)",
+   "title": "Opt-out organ donation law in effect from 1 June 2023",
+   "url": "https://www.health-ni.gov.uk/news/daithis-law-go-live-tomorrow",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ahr-ni-5",
+   "cite": "Access to Health Records (Northern Ireland) Order 1993 art 5(1)(e)",
+   "title": "Right of access to health records of a deceased patient",
+   "url": "https://www.legislation.gov.uk/nisi/1993/1250/article/5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "where the patient has died, the patient's personal representative and any person who may have a claim arising out of the patient's death"
+  },
+  {
+   "id": "ahr-ni-6-3",
+   "cite": "Access to Health Records (Northern Ireland) Order 1993 art 6(3)",
+   "title": "Access excluded where patient requested",
+   "url": "https://www.legislation.gov.uk/nisi/1993/1250/article/6",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the record includes a note, made at the patient's request, that he did not wish access to be given"
+  },
+  {
+   "id": "crem-belfast-1961",
+   "cite": "Cremation (Belfast) Regulations (Northern Ireland) 1961 (S.R. & O. (N.I.) 1961 No. 61) regs 6, 9, 13(d) (as made)",
+   "title": "Application for cremation by executor or nearest surviving relative",
+   "url": "https://www.legislation.gov.uk/nisro/1961/61/contents/made",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "signed and the statutory declaration made by an executor or by the nearest surviving relative of the deceased"
+  },
+  {
+   "id": "nidirect-funeral",
+   "cite": "nidirect, 'Arranging a funeral'",
+   "title": "Person arranging pays; council may arrange if no one else does",
+   "url": "https://www.nidirect.gov.uk/articles/arranging-funeral",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "If you arrange a funeral, you will be responsible for paying the bill"
+  },
+  {
+   "id": "dpa-2018-3",
+   "cite": "Data Protection Act 2018 s 3(2)",
+   "title": "Personal data means information relating to a living individual",
+   "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "any information relating to an identified or identifiable living individual"
+  }
+ ],
+ "roles": [
+  {
+   "id": "ni-epa-attorney",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney under an enduring power of attorney (EPA)",
+   "localNames": [
+    "attorney",
+    "enduring power of attorney",
+    "EPA",
+    "donor"
+   ],
+   "summary": "Northern Ireland still uses EPAs, which cover property and financial affairs only. The attorney can act as soon as the EPA is signed, unless the document says otherwise. Once the donor is or is becoming mentally incapable, the attorney must apply to register it with the High Court (Office of Care and Protection). Until registration, the attorney's authority is suspended except for limited interim acts.",
+   "lane": {
+    "assigned": {
+     "event": "Donor executes an EPA in the prescribed form while capable",
+     "phase": "capable",
+     "citations": [
+      "epa-3",
+      "epa-4",
+      "epa-contents",
+      "doj-epa"
+     ]
+    },
+    "starts": {
+     "event": "On signing, unless the instrument sets conditions or restrictions on commencement",
+     "phase": "capable",
+     "citations": [
+      "doj-epa"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor's incapacity supervenes: authority is suspended (apart from interim acts after applying) until the court registers the instrument",
+      "phase": "incapacitated",
+      "citations": [
+       "epa-3",
+       "epa-3-2"
+      ]
+     },
+     {
+      "event": "Death or bankruptcy of the donor, or death, incapacity or bankruptcy of the attorney: the court cancels registration",
+      "phase": "deceased",
+      "citations": [
+       "epa-10"
+      ]
+     },
+     {
+      "event": "Revocation confirmed by the court, disclaimer notified to the court, or court cancels on fraud/undue pressure/unsuitability",
+      "phase": "incapacitated",
+      "citations": [
+       "epa-9",
+       "epa-10"
+      ]
+     },
+     {
+      "event": "Court exercises Part VIII Mental Health Order powers revoking the power (e.g. controller appointed)",
+      "phase": "incapacitated",
+      "citations": [
+       "epa-10",
+       "mho-101"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No EPA"
+     },
+     {
+      "id": "active",
+      "label": "EPA in effect (donor capable, unregistered)"
+     },
+     {
+      "id": "suspended",
+      "label": "Donor incapable; registration not yet complete"
+     },
+     {
+      "id": "pending_registration",
+      "label": "Application made; limited interim acts permitted"
+     },
+     {
+      "id": "registered",
+      "label": "Registered by High Court (OCP); full authority"
+     },
+     {
+      "id": "terminated",
+      "label": "Power ended / registration cancelled"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Donor and attorney execute EPA",
+      "conditions": [
+       "prescribed form (art 4)",
+       "no commencement condition in instrument"
+      ],
+      "citations": [
+       "epa-4",
+       "doj-epa"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incapacity",
+      "from": "active",
+      "to": "suspended",
+      "event": "Donor becomes mentally incapable",
+      "conditions": [],
+      "citations": [
+       "epa-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-apply",
+      "from": "suspended",
+      "to": "pending_registration",
+      "event": "Attorney gives notices (Sch 1) and applies to High Court for registration",
+      "conditions": [
+       "attorney must apply as soon as practicable once donor is or is becoming incapable"
+      ],
+      "citations": [
+       "epa-6",
+       "epa-3-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-apply-early",
+      "from": "active",
+      "to": "pending_registration",
+      "event": "Attorney applies because donor is becoming incapable",
+      "conditions": [],
+      "citations": [
+       "epa-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-register",
+      "from": "pending_registration",
+      "to": "registered",
+      "event": "High Court (Office of Care and Protection) registers instrument",
+      "conditions": [],
+      "citations": [
+       "epa-2",
+       "epa-3",
+       "epa-9",
+       "doj-ocp"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-registered",
+      "from": "registered",
+      "to": "terminated",
+      "event": "Donor dies (court cancels registration)",
+      "conditions": [],
+      "citations": [
+       "epa-10"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-unregistered",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies",
+      "conditions": [
+       "common-law revocation of agency by death"
+      ],
+      "citations": [
+       "epa-10"
+      ],
+      "unverified": true
+     },
+     {
+      "id": "t-revoke",
+      "from": "registered",
+      "to": "terminated",
+      "event": "Court confirms revocation, disclaimer notified, or registration cancelled/power revoked",
+      "conditions": [],
+      "citations": [
+       "epa-9",
+       "epa-10"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "An EPA in NI covers financial matters only. There is no health and welfare equivalent in force.",
+     "citations": [
+      "nidirect-epa"
+     ]
+    },
+    {
+     "text": "Registration cancelled because the donor 'is and is likely to remain mentally capable' (art 10(4)(c)) does not revoke the power.",
+     "citations": [
+      "epa-10"
+     ]
+    },
+    {
+     "text": "Lasting powers of attorney under the Mental Capacity Act (Northern Ireland) 2016 Part 5 remain prospective (not in operation) on legislation.gov.uk as of 16/17 Sept 2026. New EPAs therefore remain the only durable financial power available.",
+     "citations": [
+      "mca-97",
+      "mca-contents",
+      "doh-restraint-consultation-2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ni-ordinary-poa-attorney",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Attorney under an ordinary (general) power of attorney",
+   "localNames": [
+    "power of attorney",
+    "general power of attorney"
+   ],
+   "summary": "A non-enduring power of attorney stops working when the donor becomes mentally incapable of managing their affairs.",
+   "lane": {
+    "assigned": {
+     "event": "Donor grants power of attorney",
+     "phase": "capable",
+     "citations": [
+      "nidirect-epa"
+     ]
+    },
+    "starts": {
+     "event": "As the instrument provides",
+     "phase": "capable",
+     "citations": [
+      "nidirect-epa"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor becomes mentally incapable of managing affairs",
+      "phase": "incapacitated",
+      "citations": [
+       "nidirect-epa",
+       "epa-3"
+      ]
+     },
+     {
+      "event": "Donor dies",
+      "phase": "deceased",
+      "citations": [
+       "nidirect-epa"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "In effect"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-grant",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Donor grants POA",
+      "conditions": [],
+      "citations": [
+       "nidirect-epa"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incapacity",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor becomes mentally incapable",
+      "conditions": [],
+      "citations": [
+       "nidirect-epa"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies (common-law end of agency; no NI primary source retrieved)",
+      "conditions": [],
+      "citations": [
+       "nidirect-epa"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "ni-controller",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Controller appointed by the High Court (Office of Care and Protection)",
+   "localNames": [
+    "controller",
+    "patient",
+    "Office of Care and Protection",
+    "short procedure order"
+   ],
+   "summary": "When the High Court is satisfied on medical evidence that a person is incapable, by reason of mental disorder, of managing their property and affairs, it may appoint a controller to act as it orders or authorises. Proceedings run through the Office of Care and Protection. A controller is discharged automatically on the patient's death.",
+   "lane": {
+    "assigned": {
+     "event": "High Court order appointing controller (interim powers possible pending determination)",
+     "phase": "incapacitated",
+     "citations": [
+      "mho-97",
+      "mho-101",
+      "doj-ocp"
+     ]
+    },
+    "starts": {
+     "event": "On the order, within the powers the court confers",
+     "phase": "incapacitated",
+     "citations": [
+      "mho-101"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the patient: discharged without any order",
+      "phase": "deceased",
+      "citations": [
+       "mho-101"
+      ]
+     },
+     {
+      "event": "Court satisfied the patient has become capable: discharged by order",
+      "phase": "capable",
+      "citations": [
+       "mho-101"
+      ]
+     },
+     {
+      "event": "Court discharges at any time if expedient",
+      "phase": "incapacitated",
+      "citations": [
+       "mho-101"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No controller"
+     },
+     {
+      "id": "active",
+      "label": "Controller appointed"
+     },
+     {
+      "id": "terminated",
+      "label": "Discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "High Court appoints controller",
+      "conditions": [
+       "medical evidence of incapacity by reason of mental disorder"
+      ],
+      "citations": [
+       "mho-97",
+       "mho-101"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Patient dies (automatic discharge)",
+      "conditions": [],
+      "citations": [
+       "mho-101"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-recovery",
+      "from": "active",
+      "to": "terminated",
+      "event": "Patient becomes capable (discharge by order)",
+      "conditions": [],
+      "citations": [
+       "mho-101"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-discharge",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court discharges as expedient",
+      "conditions": [],
+      "citations": [
+       "mho-101"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "For low-value estates the OCP may make a short procedure order instead of appointing a controller.",
+     "citations": [
+      "doj-ocp"
+     ]
+    },
+    {
+     "text": "When fully commenced, MCA (NI) 2016 Part 6 would replace this with court-appointed deputies (s 116) and repeal the Mental Health Order for people aged 16+. Those provisions are prospective.",
+     "citations": [
+      "mca-116",
+      "doh-restraint-consultation-2024"
+     ]
+    },
+    {
+     "text": "NI has no court-appointed personal welfare decision maker (guardian-person equivalent) in operation for incapacity generally. Mental Health Order guardianship for mental disorder was not researched here.",
+     "citations": [
+      "mca-116"
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "ni-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor (grant of probate)",
+   "localNames": [
+    "executor",
+    "grant of probate",
+    "personal representative"
+   ],
+   "summary": "The executor named in the will has first priority for a grant of probate from the Probate Office (High Court). The deceased's real and personal estate vests in the personal representatives. The executor should distribute as soon as reasonably practicable, and beneficiaries normally cannot sue for non-distribution within the first year.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names executor in will",
+     "phase": "capable",
+     "citations": [
+      "rsc-97-18"
+     ]
+    },
+    "starts": {
+     "event": "Executor's title derives from the will at death. Most asset holders require the grant of probate.",
+     "phase": "deceased",
+     "citations": [
+      "aea-1955-1",
+      "nidirect-probate"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate distributed",
+      "phase": "closed",
+      "citations": [
+       "aea-1955-41"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No will"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will"
+     },
+     {
+      "id": "pending_letters",
+      "label": "Death; grant not yet issued"
+     },
+     {
+      "id": "active",
+      "label": "Grant of probate issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will names executor",
+      "conditions": [],
+      "citations": [
+       "rsc-97-18"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "pending_letters",
+      "event": "Testator dies; estate vests in personal representatives",
+      "conditions": [],
+      "citations": [
+       "aea-1955-1"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-grant",
+      "from": "pending_letters",
+      "to": "active",
+      "event": "Probate Office issues grant of probate",
+      "conditions": [
+       "executor first in r 18 priority"
+      ],
+      "citations": [
+       "rsc-97-18",
+       "nidirect-probate"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-distribute",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate distributed",
+      "conditions": [],
+      "citations": [
+       "aea-1955-41"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "The procedural rules for non-contentious probate in NI are in Rules of the Supreme Court (Northern Ireland) 1980 Order 97, as published by the Department of Justice. No separate 'Non-Contentious Probate Rules (NI) 1979' instrument was found on legislation.gov.uk.",
+     "citations": [
+      "doj-probate-rules",
+      "rsc-97-18"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ni-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator (letters of administration)",
+   "localNames": [
+    "administrator",
+    "grant of letters of administration",
+    "administration with the will annexed"
+   ],
+   "summary": "Where there is no will, or no executor able or willing to act, the Probate Office grants letters of administration in a statutory order of priority: surviving spouse, children or their issue, parents, siblings or their issue, then remoter kin. Before the grant, an intestate's estate vests in the Probate Judge.",
+   "lane": {
+    "assigned": {
+     "event": "Probate Office issues letters of administration to highest-priority applicant",
+     "phase": "administration",
+     "citations": [
+      "rsc-97-20",
+      "nidirect-probate"
+     ]
+    },
+    "starts": {
+     "event": "On the grant",
+     "phase": "administration",
+     "citations": [
+      "aea-1955-3",
+      "aea-1955-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate distributed",
+      "phase": "closed",
+      "citations": [
+       "aea-1955-41"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No grant"
+     },
+     {
+      "id": "active",
+      "label": "Letters of administration issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-grant",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Grant of letters of administration",
+      "conditions": [
+       "priority: spouse; children/issue; parents; siblings/issue; then r 20(2) kin"
+      ],
+      "citations": [
+       "rsc-97-20",
+       "aea-1955-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-distribute",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate distributed",
+      "conditions": [],
+      "citations": [
+       "aea-1955-41"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "r 20(1)(i) as published reads 'surviving spouse'. Whether civil partners are added by later amendment was not verified in the DoJ reproduction.",
+     "citations": [
+      "rsc-97-20"
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "ni-small-payments-recipient",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Person receiving a statutory small payment without a grant",
+   "localNames": [
+    "payment without representation",
+    "nomination"
+   ],
+   "summary": "Certain bodies can pay up to £20,000 on death without probate or other proof of title, to the person who appears entitled or to a nominee. These include co-operative and community benefit societies, credit unions and some public-sector superannuation schemes. Banks and building societies may also release small sums at their discretion.",
+   "lane": {
+    "assigned": {
+     "event": "Death (or earlier nomination by deceased where the scheme allows)",
+     "phase": "deceased",
+     "citations": [
+      "aesp-ni-1967-1"
+     ]
+    },
+    "starts": {
+     "event": "Body pays without a grant",
+     "phase": "deceased",
+     "citations": [
+      "aesp-ni-1967-1",
+      "sr-2020-280"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Payment made",
+      "phase": "deceased",
+      "citations": [
+       "aesp-ni-1967-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No claim"
+     },
+     {
+      "id": "active",
+      "label": "Claim made"
+     },
+     {
+      "id": "terminated",
+      "label": "Paid"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-claim",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Claimant applies under a listed provision",
+      "conditions": [
+       "not exceeding £20,000 (deaths after one month from 8 Dec 2020)"
+      ],
+      "citations": [
+       "aesp-ni-1967-1",
+       "sr-2020-280"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-paid",
+      "from": "active",
+      "to": "terminated",
+      "event": "Payment made without grant",
+      "conditions": [],
+      "citations": [
+       "aesp-ni-1967-1",
+       "aesp-ni-1967-6"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "nidirect says a grant may not be needed for about £20,000 or less in an account, but release by banks and insurers is discretionary and may require an indemnity. The statutory £20,000 limit applies only to the listed schemes.",
+     "citations": [
+      "nidirect-probate",
+      "sr-2020-280"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ni-tissue-nominated-representative",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Nominated representative (Human Tissue Act 2004 s 4)",
+   "localNames": [
+    "nominated representative"
+   ],
+   "summary": "An adult may appoint one or more people to deal with consent to donation and other scheduled activities after their death. A nominated representative's consent takes priority over deemed consent and over family members.",
+   "lane": {
+    "assigned": {
+     "event": "Adult appoints orally before two witnesses, or in writing (witnessed, or in a will)",
+     "phase": "capable",
+     "citations": [
+      "hta-4"
+     ]
+    },
+    "starts": {
+     "event": "On death, if the deceased left no decision of their own in force",
+     "phase": "deceased",
+     "citations": [
+      "hta-3"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Consent given or refused, or representative not reasonably contactable in time (appointment disregarded)",
+      "phase": "deceased",
+      "citations": [
+       "hta-3"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed"
+     },
+     {
+      "id": "active",
+      "label": "Acting after death"
+     },
+     {
+      "id": "terminated",
+      "label": "Decision made or appointment disregarded"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Adult appoints nominated representative",
+      "conditions": [],
+      "citations": [
+       "hta-4"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Adult dies with no own decision in force",
+      "conditions": [],
+      "citations": [
+       "hta-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-decide",
+      "from": "active",
+      "to": "terminated",
+      "event": "Representative consents or refuses",
+      "conditions": [],
+      "citations": [
+       "hta-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-unavailable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Not reasonably practicable to communicate in time; falls to deemed consent or qualifying relationship",
+      "conditions": [],
+      "citations": [
+       "hta-3"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "ni-tissue-qualifying-relationship",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Person in a qualifying relationship (deemed consent regime)",
+   "localNames": [
+    "qualifying relationship",
+    "deemed consent",
+    "Dáithí's Law"
+   ],
+   "summary": "Since the NI deemed-consent regime took effect in 2023, an adult who made no decision and appointed no representative is deemed to consent to transplantation, unless they are an excepted adult. The highest-ranked qualifying relative can block this only by giving information that would lead a reasonable person to conclude the deceased would not have consented. For excepted adults and non-transplant activities, that relative's consent is required.",
+   "lane": {
+    "assigned": {
+     "event": "By statute at death: ranking spouse/civil partner/partner; parent/child; sibling; grandparent/grandchild; sibling's child; step-parent; half-sibling; friend of long standing",
+     "phase": "deceased",
+     "citations": [
+      "hta-27"
+     ]
+    },
+    "starts": {
+     "event": "At death, where no own decision or nominated representative applies",
+     "phase": "deceased",
+     "citations": [
+      "hta-3",
+      "otdca-ni-2022-1",
+      "sr-2023-26"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Consent given/refused, or deemed consent proceeds or is rebutted",
+      "phase": "deceased",
+      "citations": [
+       "hta-3"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Adult alive"
+     },
+     {
+      "id": "designated",
+      "label": "Qualifying relative identified"
+     },
+     {
+      "id": "active",
+      "label": "Consent or information sought"
+     },
+     {
+      "id": "terminated",
+      "label": "Decision reached"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Adult dies; relationships ranked",
+      "conditions": [],
+      "citations": [
+       "hta-27"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-deemed",
+      "from": "designated",
+      "to": "active",
+      "event": "Transplantation activity in NI for non-excepted adult: deemed consent applies",
+      "conditions": [
+       "adult ordinarily resident in NI 12+ months and had capacity to understand deemed consent (s 3(9A))",
+       "permitted material only"
+      ],
+      "citations": [
+       "hta-3",
+       "otdca-ni-2022-1",
+       "sr-2023-26"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-rebut",
+      "from": "active",
+      "to": "terminated",
+      "event": "Relative provides information that deceased would not have consented",
+      "conditions": [],
+      "citations": [
+       "hta-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-proceed",
+      "from": "active",
+      "to": "terminated",
+      "event": "No rebutting information; deemed consent stands",
+      "conditions": [],
+      "citations": [
+       "hta-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-consent",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Excepted adult or non-transplant activity: highest-ranked relative consents or refuses",
+      "conditions": [],
+      "citations": [
+       "hta-3",
+       "hta-27"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Commencement dates conflict across sources. legislation.gov.uk and S.R. 2023/14 art 2 give 13 February 2023 for s 1 of the 2022 Act, but that Order's explanatory note says 5 April 2023. The Permitted Material Regulations (S.R. 2023/26) came into operation on 1 June 2023, and the Department of Health gives 1 June 2023 as the go-live date. This file uses 2023 and treats 1 June 2023 as the operative date.",
+     "citations": [
+      "sr-2023-14",
+      "sr-2023-26",
+      "doh-daithi",
+      "otdca-ni-2022-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ni-remains-arranger",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Executor or nearest surviving relative (disposal of remains)",
+   "localNames": [
+    "executor",
+    "nearest surviving relative",
+    "applicant for cremation"
+   ],
+   "summary": "NI has no statutory priority list for who controls disposal of a body. Cremation in Belfast requires an application by the executor or nearest surviving relative, or a satisfactory explanation why someone else is applying. Cremation is unlawful if the deceased left a written direction against it. Whoever arranges the funeral is responsible for the bill.",
+   "lane": {
+    "assigned": {
+     "event": "Executor named in will, or nearest surviving relative at death",
+     "phase": "deceased",
+     "citations": [
+      "crem-belfast-1961"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "crem-belfast-1961",
+      "nidirect-funeral"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Burial or cremation completed (ashes notice to applicant/relative/executor)",
+      "phase": "deceased",
+      "citations": [
+       "crem-belfast-1961"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Alive"
+     },
+     {
+      "id": "active",
+      "label": "Arranging disposal"
+     },
+     {
+      "id": "terminated",
+      "label": "Disposal completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death; executor or nearest relative arranges",
+      "conditions": [
+       "cremation barred if known written direction to the contrary"
+      ],
+      "citations": [
+       "crem-belfast-1961",
+       "nidirect-funeral"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-done",
+      "from": "active",
+      "to": "terminated",
+      "event": "Burial or cremation completed",
+      "conditions": [],
+      "citations": [
+       "crem-belfast-1961"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "UNVERIFIED: the executor's common-law right and duty to arrange disposal in NI. No NI primary judgment was retrieved, so the priority here rests only on the cremation application rule.",
+     "citations": [
+      "crem-belfast-1961"
+     ],
+     "unverified": true
+    },
+    {
+     "text": "The 1961 Regulations were read in their as-made PDF form. Later amendments, for example after further crematoria opened, were not checked.",
+     "citations": [
+      "crem-belfast-1961"
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "ni-deceased-health-records",
+   "canonical": "health-records-representative",
+   "group": "health",
+   "name": "Personal representative or claimant: access to a deceased patient's health records",
+   "localNames": [
+    "personal representative",
+    "person who may have a claim arising out of the patient's death"
+   ],
+   "summary": "After a patient dies, their personal representative, or anyone who may have a claim arising from the death, may apply to the record holder for access. Access is refused if the patient asked for a note that they did not want this.",
+   "lane": {
+    "assigned": {
+     "event": "By statute on death (personal representative via will/grant; or claimant)",
+     "phase": "deceased",
+     "citations": [
+      "ahr-ni-5"
+     ]
+    },
+    "starts": {
+     "event": "On application to the holder after death",
+     "phase": "deceased",
+     "citations": [
+      "ahr-ni-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Access given or refused (e.g. patient's note under art 6(3))",
+      "phase": "deceased",
+      "citations": [
+       "ahr-ni-6-3"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Patient alive"
+     },
+     {
+      "id": "designated",
+      "label": "Eligible applicant after death"
+     },
+     {
+      "id": "active",
+      "label": "Application pending"
+     },
+     {
+      "id": "terminated",
+      "label": "Access given/refused"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Patient dies",
+      "conditions": [],
+      "citations": [
+       "ahr-ni-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-apply",
+      "from": "designated",
+      "to": "active",
+      "event": "Application to record holder",
+      "conditions": [],
+      "citations": [
+       "ahr-ni-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-refuse",
+      "from": "active",
+      "to": "terminated",
+      "event": "Patient had requested no access",
+      "conditions": [],
+      "citations": [
+       "ahr-ni-6-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-access",
+      "from": "active",
+      "to": "terminated",
+      "event": "Holder gives access or copy within requisite period",
+      "conditions": [],
+      "citations": [
+       "ahr-ni-5"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "This is the NI counterpart of the Access to Health Records Act 1990, which covers Great Britain and is handled in the uk-national layer. Living patients' access is now under UK GDPR / DPA 2018.",
+     "citations": [
+      "ahr-ni-5",
+      "dpa-2018-3"
+     ]
+    }
+   ]
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "An ordinary power of attorney ends on mental incapacity. Durability requires an EPA in prescribed form.",
+   "citations": [
+    "nidirect-epa",
+    "epa-3",
+    "epa-4"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "An EPA takes effect on signing unless the instrument sets conditions or restrictions on when it commences. This rests on DoJ guidance. Art 4 sets form requirements and does not prohibit commencement conditions.",
+   "citations": [
+    "doj-epa",
+    "epa-4"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "No registration needed while the donor is capable. Once incapacity supervenes, authority is suspended until the High Court (OCP) registers the EPA, apart from limited interim acts.",
+   "citations": [
+    "epa-3",
+    "epa-6",
+    "doj-epa"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "other",
+   "note": "No health-care agent exists in operation. EPAs are financial only, and MCA (NI) 2016 LPAs are prospective. Treatment of an incapable adult is under common-law best interests, decided by the clinician; no-one can consent on the adult's behalf. The MCA (NI) 2016 s 9 protection-from-liability framework is in operation only for specified (deprivation of liberty) purposes.",
+   "citations": [
+    "doh-consent-12",
+    "mca-97"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": false,
+   "year": null,
+   "name": "Mental Capacity Act (Northern Ireland) 2016 ss 1(4), 5 (principle; partly commenced)",
+   "note": "MCA (NI) 2016 ss 1(4) and 5 require all practicable help and support before a person is treated as unable to decide. These are in operation only for Phase 1 purposes. There is no statutory supporter appointment.",
+   "citations": [
+    "mca-1",
+    "mca-5"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No NI statute gives fiduciaries access to digital assets or accounts. Personal representatives take the estate generally under AEA (NI) 1955 s 1. This is absence-of-statute context; no search tool proves a negative.",
+   "citations": [
+    "aea-1955-1"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No NI statute recognises platform online tools.",
+   "citations": [
+    "aea-1955-1"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": 2023,
+   "name": "Human Tissue Act 2004 as amended by the Organ and Tissue Donation (Deemed Consent) Act (Northern Ireland) 2022 ('Dáithí's Law')",
+   "note": "Deemed consent for transplantation in NI (HTA 2004 s 3(6AA)), operative 1 June 2023. The commencement order's date conflicts with this; see the role note.",
+   "citations": [
+    "hta-3",
+    "otdca-ni-2022-1",
+    "sr-2023-14",
+    "sr-2023-26",
+    "doh-daithi"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": true,
+   "threshold": 20000,
+   "currency": "GBP",
+   "waitingDays": null,
+   "note": "Statutory limit of £20,000 for listed schemes (S.R. 2020/280). Banks may release similar sums at their discretion.",
+   "citations": [
+    "aesp-ni-1967-1",
+    "sr-2020-280",
+    "nidirect-probate"
+   ]
+  },
+  "probateGrantName": {
+   "value": "grant of probate",
+   "note": "Letters of administration (with or without will annexed) where there is no executor. Issued by the Probate Office of the High Court.",
+   "citations": [
+    "rsc-97-18",
+    "nidirect-probate"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": "partial",
+   "note": "UK data protection covers living individuals only. The Access to Health Records (NI) Order 1993 art 5(1)(e) gives limited statutory access to deceased patients' records.",
+   "citations": [
+    "dpa-2018-3",
+    "ahr-ni-5"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "No health agent exists. EPA registration is cancelled and a controller is discharged on death.",
+   "citations": [
+    "doh-consent-12",
+    "mho-101",
+    "epa-10"
+   ]
+  }
+ },
+ "pendingLegislation": [
+  {
+   "item": "Mental Capacity Act (Northern Ireland) 2016 - Part 5 lasting powers of attorney (s 97 ff), Part 6 deputies (s 116 ff), general care/treatment/personal welfare provisions, IMCAs, acts of restraint (s 12), and repeal of the Mental Health (NI) Order 1986 for 16+",
+   "status": "enacted, not commenced (prospective on legislation.gov.uk as of 17 Sept 2026). Only Phase 1 (research 1.10.2019; deprivation of liberty and money & valuables 2.12.2019) is in operation. DoH NI (Sept 2024): no decisions on full implementation. Acts of restraint commencement was consulted on Sept-Dec 2024 but s 12 still shows as prospective.",
+   "citations": [
+    "mca-97",
+    "mca-116",
+    "mca-12",
+    "mca-9",
+    "mca-contents",
+    "doh-mca",
+    "doh-restraint-consultation-2024"
+   ]
+  }
+ ]
+}
