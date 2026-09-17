@@ -381,6 +381,22 @@
      "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded."
     }
    ]
+  },
+  {
+   "id": "in",
+   "name": "India",
+   "jurisdictions": [
+    {
+     "id": "in-national",
+     "name": "India",
+     "short": "IN",
+     "files": [
+      "jurisdictions/in-national.json"
+     ],
+     "country": "in",
+     "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved."
+    }
+   ]
   }
  ],
  "jurisdictions": [
@@ -681,6 +697,16 @@
    ],
    "country": "ar",
    "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded."
+  },
+  {
+   "id": "in-national",
+   "name": "India",
+   "short": "IN",
+   "files": [
+    "jurisdictions/in-national.json"
+   ],
+   "country": "in",
+   "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved."
   }
  ],
  "adoption": "adoption.json",
