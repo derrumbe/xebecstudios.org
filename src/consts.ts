@@ -7,11 +7,14 @@ export const SITE = {
     'Mike Kiser on identity: who you are, who gets to say so, and what it costs. Technology, history and philosophy.',
   // Giscus. Fill these in from https://giscus.app after enabling Discussions
   // on the repo. Comments render only when repoId and categoryId are set.
+  // Discussions live in the Announcements category: only maintainers can open
+  // a thread there, so every discussion is one giscus created for an essay
+  // rather than a stray thread sitting alongside them.
   giscus: {
-    repo: '',            // e.g. 'mkiser/xebecstudios.org'
-    repoId: '',
-    category: 'Responses',
-    categoryId: '',
+    repo: 'derrumbe/xebecstudios.org',
+    repoId: 'R_kgDOUeNOgA',
+    category: 'Announcements',
+    categoryId: 'DIC_kwDOUeNOgM4DFxz8',
   },
 } as const;
 
