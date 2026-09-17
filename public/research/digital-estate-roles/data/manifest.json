@@ -60,6 +60,28 @@
      "country": "us"
     },
     {
+     "id": "us-nc",
+     "name": "North Carolina",
+     "short": "NC",
+     "code": "NC",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-nc.json"
+     ],
+     "country": "us"
+    },
+    {
+     "id": "us-oh",
+     "name": "Ohio",
+     "short": "OH",
+     "code": "OH",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-oh.json"
+     ],
+     "country": "us"
+    },
+    {
      "id": "us-tx",
      "name": "Texas",
      "short": "TX",
@@ -323,6 +345,28 @@
    "extends": "us-model",
    "files": [
     "jurisdictions/us-ny.json"
+   ],
+   "country": "us"
+  },
+  {
+   "id": "us-nc",
+   "name": "North Carolina",
+   "short": "NC",
+   "code": "NC",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-nc.json"
+   ],
+   "country": "us"
+  },
+  {
+   "id": "us-oh",
+   "name": "Ohio",
+   "short": "OH",
+   "code": "OH",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-oh.json"
    ],
    "country": "us"
   },
