@@ -73,6 +73,24 @@
    ]
   },
   {
+   "id": "jp",
+   "name": "Japan",
+   "region": "Asia",
+   "jurisdictions": [
+    {
+     "id": "jp-national",
+     "name": "Japan",
+     "short": "JP",
+     "files": [
+      "jurisdictions/jp-national.json"
+     ],
+     "country": "jp",
+     "note": "Civil Code (民法) and the Act on Voluntary Guardianship Contracts (任意後見契約に関する法律), quoted from the Japanese original published by e-Gov. The official English translation stops short of the inheritance book, so the Japanese text is the source here and English role names are descriptive glosses. Japan runs three statutory tiers by degree of impairment — 後見, 保佐, 補助 — which the Code keeps mutually exclusive, alongside a voluntary guardianship contract that only takes effect when the Family Court appoints a supervisor. There is no grant of representation: inheritance commences on death. Health-care proxies, organ donation and disposal of remains sit outside these two statutes and are not recorded.",
+     "label": "Japan"
+    }
+   ]
+  },
+  {
    "id": "kr",
    "name": "South Korea",
    "region": "Asia",
@@ -523,6 +541,17 @@
    "country": "in",
    "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved.",
    "label": "India"
+  },
+  {
+   "id": "jp-national",
+   "name": "Japan",
+   "short": "JP",
+   "files": [
+    "jurisdictions/jp-national.json"
+   ],
+   "country": "jp",
+   "note": "Civil Code (民法) and the Act on Voluntary Guardianship Contracts (任意後見契約に関する法律), quoted from the Japanese original published by e-Gov. The official English translation stops short of the inheritance book, so the Japanese text is the source here and English role names are descriptive glosses. Japan runs three statutory tiers by degree of impairment — 後見, 保佐, 補助 — which the Code keeps mutually exclusive, alongside a voluntary guardianship contract that only takes effect when the Family Court appoints a supervisor. There is no grant of representation: inheritance commences on death. Health-care proxies, organ donation and disposal of remains sit outside these two statutes and are not recorded.",
+   "label": "Japan"
   },
   {
    "id": "kr-national",
