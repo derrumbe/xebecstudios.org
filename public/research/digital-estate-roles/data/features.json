@@ -7433,5 +7433,105 @@
     "quote": "(1) Succession opens upon the death of a person, at his or her domicile or residence. (2) Starting from the day of the opening of succession, a person entitled to succeed by way of a will or under law is called an heir as long as he or she accepts it. (3) In the event of absence or disappearance, succession opens with a final…"
    }
   ]
+ },
+ "jp-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "A durable arrangement requires a voluntary guardianship contract, which must be a notarial deed and takes effect only on the Family Court appointing a supervisor.",
+    "citations": [
+     "jp-vg-3",
+     "jp-vg-4"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "The voluntary guardianship contract is inherently springing: by the definition it must provide that it takes effect from the appointment of a supervisor, which follows the person’s capacity becoming insufficient.",
+    "citations": [
+     "jp-vg-2",
+     "jp-vg-4"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": true,
+    "note": "The contract must be registered before the Family Court will appoint a supervisor, and without that appointment it has no effect.",
+    "citations": [
+     "jp-vg-4",
+     "jp-vg-2"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": null,
+    "name": "補助 (assistance), Civil Code art 15 — an adjudication on another’s application requires the person’s own consent",
+    "citations": [
+     "jp-cc-15"
+    ]
+   },
+   "probateGrantName": {
+    "value": "none",
+    "note": "No grant of representation. Inheritance commences by death and the heir succeeds to all rights and duties of the decedent’s property from that moment.",
+    "citations": [
+     "jp-cc-882",
+     "jp-cc-896"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "jp-vg-3",
+    "cite": "任意後見契約に関する法律（平成十一年法律第百五十号）第3条",
+    "title": "任意後見契約の方式",
+    "url": "https://laws.e-gov.go.jp/law/411AC0000000150",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "任意後見契約は、法務省令で定める様式の公正証書によってしなければならない。"
+   },
+   {
+    "id": "jp-vg-4",
+    "cite": "任意後見契約に関する法律（平成十一年法律第百五十号）第4条",
+    "title": "任意後見監督人の選任",
+    "url": "https://laws.e-gov.go.jp/law/411AC0000000150",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "任意後見契約が登記されている場合において、精神上の障害により本人の事理を弁識する能力が不十分な状況にあるときは、家庭裁判所は、本人、配偶者、四親等内の親族又は任意後見受任者の請求により、任意後見監督人を選任する。ただし、次に掲げる場合は、この限りでない。一本人が未成年者であるとき。二本人が成年被後見…"
+   },
+   {
+    "id": "jp-vg-2",
+    "cite": "任意後見契約に関する法律（平成十一年法律第百五十号）第2条",
+    "title": "定義",
+    "url": "https://laws.e-gov.go.jp/law/411AC0000000150",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "この法律において、次の各号に掲げる用語の意義は、当該各号の定めるところによる。一任意後見契約委任者が、受任者に対し、精神上の障害により事理を弁識する能力が不十分な状況における自己の生活、療養看護及び財産の管理に関する事務の全部又は一部を委託し、その委託に係る事務について代理権を付与する委任契約であっ…"
+   },
+   {
+    "id": "jp-cc-15",
+    "cite": "民法（明治二十九年法律第八十九号）第15条",
+    "title": "補助開始の審判",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "精神上の障害により事理を弁識する能力が不十分である者については、家庭裁判所は、本人、配偶者、四親等内の親族、後見人、後見監督人、保佐人、保佐監督人又は検察官の請求により、補助開始の審判をすることができる。ただし、第七条又は第十一条本文に規定する原因がある者については、この限りでない。２本人以外の者の…"
+   },
+   {
+    "id": "jp-cc-882",
+    "cite": "民法（明治二十九年法律第八十九号）第882条",
+    "title": "相続開始の原因",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "相続は、死亡によって開始する。"
+   },
+   {
+    "id": "jp-cc-896",
+    "cite": "民法（明治二十九年法律第八十九号）第896条",
+    "title": "相続の一般的効力",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "相続人は、相続開始の時から、被相続人の財産に属した一切の権利義務を承継する。ただし、被相続人の一身に専属したものは、この限りでない。"
+   }
+  ]
  }
 }

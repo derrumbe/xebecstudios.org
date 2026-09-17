@@ -528,19 +528,52 @@
     return s ? (s.label || titleize(s.id)) : titleize(id);
   }
 
+  // CJK and other full-width characters take about twice the room of a Latin one,
+  // and Japanese writes without spaces, so a label arrives as a single unbreakable
+  // token. Measure in half-width units and allow a break between characters.
+  const WIDE = /[\u1100-\u115F\u2E80-\u303E\u3041-\u33FF\u3400-\u4DBF\u4E00-\u9FFF\uA000-\uA4CF\uAC00-\uD7A3\uF900-\uFAFF\uFE30-\uFE4F\uFF00-\uFF60\uFFE0-\uFFE6]/;
+  function dispWidth(s) {
+    let n = 0;
+    for (const ch of String(s)) n += WIDE.test(ch) ? 2 : 1;
+    return n;
+  }
+  function splitWide(word, width) {
+    // break an unspaced run so no piece exceeds the budget
+    const out = [];
+    let cur = '';
+    for (const ch of String(word)) {
+      if (cur && dispWidth(cur + ch) > width) { out.push(cur); cur = ch; }
+      else cur += ch;
+    }
+    if (cur) out.push(cur);
+    return out;
+  }
+
+  function truncWide(s, width) {
+    // like trunc, but budgeting by display width so a CJK line is not twice too long
+    if (dispWidth(s) <= width) return s;
+    let out = '';
+    for (const ch of String(s)) {
+      if (dispWidth(out + ch) > width - 1) break;
+      out += ch;
+    }
+    return out.replace(/\s+\S*$/, '').trim() + '…';
+  }
+
   function wrapWords(label, width, maxLines) {
     const lines = [];
     let cur = '';
-    for (const w of String(label).split(/\s+/)) {
+    const words = String(label).split(/\s+/).flatMap((w) =>
+      dispWidth(w) > width ? splitWide(w, width) : [w]);
+    for (const w of words) {
       if (!cur) cur = w;
-      else if ((cur + ' ' + w).length <= width) cur += ' ' + w;
+      else if (dispWidth(cur + ' ' + w) <= width) cur += ' ' + w;
       else { lines.push(cur); cur = w; }
     }
     if (cur) lines.push(cur);
     if (lines.length > maxLines) {
       const kept = lines.slice(0, maxLines);
-      kept[maxLines - 1] = trunc(kept[maxLines - 1] + ' ' + lines[maxLines], width);
-      if (!kept[maxLines - 1].endsWith('…')) kept[maxLines - 1] = trunc(kept[maxLines - 1], width - 1) + '…';
+      kept[maxLines - 1] = truncWide(kept[maxLines - 1] + ' ' + lines[maxLines], width);
       return kept;
     }
     return lines;
@@ -579,7 +612,7 @@
       l.forEach((s, i) => row.set(s.id, i - (l.length - 1) / 2));
     });
 
-    const NW = 210, GX = 314, PX = 24;
+    const NW = 216, GX = 320, PX = 24;
     // Wrap every label first: the node box is sized to the tallest label in this
     // diagram, so a role with short state names keeps compact boxes.
     const LINES = new Map(S.map((s) => [s.id, wrapWords(s.label || titleize(s.id), 21, 4)]));
@@ -679,9 +712,10 @@
       el('rect', { x: bx - bw / 2, y: by - 10, width: bw, height: 20, rx: 10, fill: hl ? 'var(--diff)' : 'var(--surface)', stroke }, badge);
       txt(badge, bx, by + 4, label, { 'text-anchor': 'middle', 'font-size': 12.5, 'font-weight': 700, fill: hl ? 'var(--diff-ink)' : 'currentColor' });
       if (pairs.size <= 6 && pr.ts.length === 1 && pr.from !== pr.to) {
-        const cap = trunc(pr.ts[0].event, 34);
+        const cap = truncWide(pr.ts[0].event, 34);
         // Centred captions near the first/last layer would spill past the viewBox.
-        const capHalf = cap.length * 3.2;
+        // measure by display width: a CJK caption is twice as wide as its length suggests
+        const capHalf = dispWidth(cap) * 3.2;
         const capX = Math.min(Math.max(bx, capHalf + 6), Math.max(vbW - capHalf - 6, capHalf + 6));
         // A caption is wider than the gap between two boxes, so only draw it where it
         // clears every node: on the arcs that dip below the diagram there is room.
