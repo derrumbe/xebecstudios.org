@@ -169,12 +169,3 @@ const earliest = essays.length
   .chip { display: inline-block; width: 15px; height: 15px; border: 1px solid var(--rule); }
 </style>
 
-<!-- global.css hangs a drop cap off the first paragraph of every .body. One per
-     page is a flourish; seven is a rash. Only the opening section keeps it.
-     Global rather than scoped so it out-specifies the rule it is undoing. -->
-<style is:global>
-  .body.plain > p:first-of-type::first-letter {
-    font-family: inherit; float: none; font-size: inherit;
-    line-height: inherit; padding: 0; color: inherit;
-  }
-</style>

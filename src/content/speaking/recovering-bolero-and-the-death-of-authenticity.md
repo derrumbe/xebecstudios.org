@@ -9,4 +9,6 @@ essay: "death-of-authenticity"
 ---
 
 Also given at the European Identity Conference earlier in 2024, as a session
-rather than a keynote.
+rather than a keynote. The
+[resources and standards](/recovering-authenticity-resources-and-standards/)
+that went out with it are kept current.

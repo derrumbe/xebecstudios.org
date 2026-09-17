@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+
+/**
+ * A companion page to the authenticity talk, served at the exact path Ghost
+ * used. It is linked from conference slides, so the URL matters more than the
+ * page does — a standalone route rather than a collection entry, because it is
+ * a list of other people's work rather than an essay.
+ */
+const updated = '6 March 2026';
+---
+<Base
+  title="Recovering Authenticity: Resources and Standards"
+  description="Provenance, content authenticity and delegated authority for AI — the standards work behind the talk, and where to follow it."
+>
+  <div class="wrap">
+    <div class="plate">
+      <div class="grid">
+        <Margin
+          label="Resources"
+          notes={[{ note: 'Handed out after the talk, kept here because a slide URL outlives the slide.' }]}
+        />
+        <div>
+          <h1>Recovering Authenticity</h1>
+          <p class="lede">
+            The standards and organisations behind
+            <a href="/speaking/#recovering-bolero-and-the-death-of-authenticity">the talk</a>, and
+            behind <a href="/death-of-authenticity/">the essay it became</a>. Provenance is the part
+            of authenticity that can be built; the rest is argument.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="band">
+      <div class="grid">
+        <Margin notes={[{ note: 'Provenance travels with the file, or it does not travel at all.', tone: 'aside' }]} />
+        <div class="body plain">
+          <h2>Data provenance and content authenticity</h2>
+          <ul>
+            <li><a href="https://c2pa.org/">C2PA</a> — the Coalition for Content Provenance and Authenticity, and the specification itself.</li>
+            <li><a href="https://contentauthenticity.org/">Content Authenticity Initiative</a> — the implementation side, and the open-source tooling.</li>
+            <li><a href="https://iptc.org/media-provenance/">IPTC Media Provenance</a> — the news industry's programme, where this meets working newsrooms.</li>
+          </ul>
+          <p>
+            <a href="/projects/">Sigillo</a> is my own attempt at the practical end of this: an iOS
+            camera that signs a photograph at the moment of capture, so the credential is embedded
+            before the image is ever seen.
+          </p>
+
+          <h2>Combating disinformation</h2>
+          <ul>
+            <li><a href="https://www.disarm.foundation/">DISARM Foundation</a> — a shared framework for describing influence operations, so defenders can name the same thing the same way.</li>
+          </ul>
+
+          <h2>On behalf of: delegated authority for AI</h2>
+          <p>Ongoing work, and the part most likely to have moved since you read this.</p>
+          <ul>
+            <li>
+              <a href="https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf">Identity Management for Agentic AI</a>
+              (OpenID Foundation, October 2025) — a survey of where agent authorisation stands and
+              what it still cannot do. Not my paper; the clearest statement of the problem I know.
+            </li>
+            <li>
+              <a href="https://openid.net/wp-content/uploads/2026/03/The-Unfinished-Digital-Estate-Final.pdf">The Unfinished Digital Estate</a>
+              (OpenID Foundation, March 2026) — what becomes of an account after its owner dies.
+              I co-edited this one with Heather Flanagan and Dean H. Saxe.
+            </li>
+          </ul>
+
+          <h2>Where the work happens</h2>
+          <ul>
+            <li><a href="https://openid.net/wg/sharedsignals/">Shared Signals</a> — the working group behind SSF, CAEP and RISC.</li>
+            <li><a href="https://openid.net/cg/death-and-the-digital-estate/">Death and the Digital Estate</a> — the community group behind the paper above.</li>
+          </ul>
+          <p>
+            I co-chair both. This page gets updated as the standards work moves, at OpenID and at
+            the IETF. Last touched {updated}. If something here has gone stale or a link has rotted,
+            <a href="/about/#contact">tell me</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>
