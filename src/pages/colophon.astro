@@ -2,7 +2,6 @@
 import Base from '../layouts/Base.astro';
 import Margin from '../components/Margin.astro';
 import { getCollection } from 'astro:content';
-import { SITE } from '../consts';
 
 const essays = await getCollection('essays', ({ data }) => !data.draft);
 const talks = await getCollection('speaking');
@@ -156,7 +155,6 @@ const earliest = essays.length
             redirects here path for path — so a link made years ago still lands where it was aimed.
           </p>
           <p>
-            Written and kept by {SITE.author}.
             <a href="/about/#contact">Corrections are welcome.</a>
           </p>
         </div>
