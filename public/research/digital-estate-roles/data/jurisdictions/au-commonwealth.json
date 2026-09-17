@@ -1,0 +1,965 @@
+{
+ "jurisdiction": "au-commonwealth",
+ "name": "Australia — Commonwealth (national) roles",
+ "country": "au",
+ "legalSystem": "common law",
+ "note": "National-layer roles only (Centrelink nominees, My Health Record representatives, ATO legal personal representative) and nation-wide features; state and territory law governs powers of attorney, guardianship, probate, organ donation and remains.",
+ "citations": [
+  {
+   "id": "ssaa-123a",
+   "cite": "Social Security (Administration) Act 1999 (Cth) s 123A (Part 3A—Nominees), Compilation No. 163 (5 Dec 2025)",
+   "title": "Definitions: correspondence nominee, payment nominee, principal",
+   "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "principal, in relation to a nominee, means: (a) in the case of a nominee appointed under section 123B or 123C, the person in relation ..."
+  },
+  {
+   "id": "ssaa-123b",
+   "cite": "Social Security (Administration) Act 1999 (Cth) s 123B",
+   "title": "Appointment of payment nominee",
+   "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Subject to section 123D, the Secretary may, in writing: (a) appoint a person (including a body corporate) to be the payment nominee of another person"
+  },
+  {
+   "id": "ssaa-123c",
+   "cite": "Social Security (Administration) Act 1999 (Cth) s 123C",
+   "title": "Appointment of correspondence nominee",
+   "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Secretary may, in writing, appoint a person (including a body corporate) to be the correspondence nominee of another person"
+  },
+  {
+   "id": "ssaa-123d",
+   "cite": "Social Security (Administration) Act 1999 (Cth) s 123D",
+   "title": "Provisions relating to appointments",
+   "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "except: (a) with the written consent of the person to be appointed; and (b) after taking into consideration the wishes (if any) of the ..."
+  },
+  {
+   "id": "ssaa-123e",
+   "cite": "Social Security (Administration) Act 1999 (Cth) s 123E",
+   "title": "Suspension and revocation of nominee appointments",
+   "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "While an appointment is suspended, the appointment has no effect for the purposes of this Part."
+  },
+  {
+   "id": "ssaa-123f",
+   "cite": "Social Security (Administration) Act 1999 (Cth) s 123F",
+   "title": "Payment of instalments etc. to payment nominee",
+   "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is taken, for the purposes of the social security law (other than this Part), to have been paid to the person"
+  },
+  {
+   "id": "ssaa-123h",
+   "cite": "Social Security (Administration) Act 1999 (Cth) ss 123G–123H",
+   "title": "Actions of correspondence nominee on behalf of benefit recipient",
+   "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "any act that may be done by a benefit recipient under, or for the purposes of, the social security law ... may be done ..."
+  },
+  {
+   "id": "sa-nominee-add-cancel",
+   "cite": "Services Australia, Add or cancel someone to act for you with Centrelink or aged care",
+   "title": "Nominee arrangements: setting up and cancelling",
+   "url": "https://www.servicesaustralia.gov.au/add-or-cancel-someone-to-act-for-you-with-centrelink-or-aged-care",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Setting up a nominee acting arrangement is a joint process by both you and the person you want to represent you."
+  },
+  {
+   "id": "sa-ss532",
+   "cite": "Services Australia, Cancel Nominee Arrangement form (SS532)",
+   "title": "Cancel Nominee Arrangement form",
+   "url": "https://www.servicesaustralia.gov.au/ss532",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "If you're a customer, you can cancel a voluntary nominee arrangement at any time"
+  },
+  {
+   "id": "sa-adult-dies",
+   "cite": "Services Australia, What help there is when an adult dies",
+   "title": "Payments when a single person dies",
+   "url": "https://www.servicesaustralia.gov.au/what-help-there-when-adult-dies",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "When a single pensioner dies, we pay their regular payment covering the fortnight in which they died."
+  },
+  {
+   "id": "sa-who-to-tell",
+   "cite": "Services Australia, Who to tell when someone dies",
+   "title": "Notifying Services Australia; executor/administrator information requests",
+   "url": "https://www.servicesaustralia.gov.au/who-to-tell-when-someone-dies",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Each person listed as an executor or administrator must each complete a form before we can disclose any information."
+  },
+  {
+   "id": "mhra-6",
+   "cite": "My Health Records Act 2012 (Cth) s 6, Compilation No. 18 (1 Jul 2026)",
+   "title": "Definition of authorised representative of a healthcare recipient",
+   "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the System Operator is satisfied that a healthcare recipient aged at least 18 is not capable of making decisions for himself or herself ..."
+  },
+  {
+   "id": "mhra-6-7",
+   "cite": "My Health Records Act 2012 (Cth) s 6(7)",
+   "title": "Effect of being an authorised representative",
+   "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the healthcare recipient is not entitled to do any thing that this Act would, apart from this subsection, authorise or require the healthcare recipient ..."
+  },
+  {
+   "id": "mhra-7",
+   "cite": "My Health Records Act 2012 (Cth) s 7",
+   "title": "Definition of nominated representative of a healthcare recipient",
+   "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an agreement is in force between the individual and the healthcare recipient that the individual is the healthcare recipient's nominated representative"
+  },
+  {
+   "id": "mhra-7-4",
+   "cite": "My Health Records Act 2012 (Cth) s 7(4)",
+   "title": "Nominated representative does not displace recipient",
+   "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The fact that a healthcare recipient has a nominated representative does not prevent the healthcare recipient doing any thing that this Act authorises"
+  },
+  {
+   "id": "mhra-7a",
+   "cite": "My Health Records Act 2012 (Cth) s 7A",
+   "title": "Duties of authorised representative or nominated representative",
+   "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must make reasonable efforts to ascertain the recipient's will and preferences in relation to the recipient's My Health Record"
+  },
+  {
+   "id": "mhra-17",
+   "cite": "My Health Records Act 2012 (Cth) s 17(2)–(4)",
+   "title": "Retention and destruction of records uploaded to National Repositories Service",
+   "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "ending: (i) 30 years after the death of the healthcare recipient; or (ii) if the System Operator does not know the date of death"
+  },
+  {
+   "id": "mhra-51",
+   "cite": "My Health Records Act 2012 (Cth) s 51(1), (6), (7)",
+   "title": "Cancellation or suspension of registration",
+   "url": "https://www.legislation.gov.au/C2012A00063/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The System Operator must decide to cancel the registration of a healthcare recipient if the System Operator is satisfied that the healthcare recipient has died."
+  },
+  {
+   "id": "taa-sch1-260-140",
+   "cite": "Taxation Administration Act 1953 (Cth) Sch 1 s 260-140",
+   "title": "Administered estate",
+   "url": "https://www.ato.gov.au/law/view/print?DocID=PAC/19530001/Sch1-260-140&PiT=99991231235958",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The Commissioner may, in respect of the liability, deal with the trustee of the deceased person's estate as if: (a) the deceased person were ..."
+  },
+  {
+   "id": "taa-sch1-260-145",
+   "cite": "Taxation Administration Act 1953 (Cth) Sch 1 s 260-145",
+   "title": "Unadministered estate",
+   "url": "https://www.ato.gov.au/law/view/print?DocID=PAC/19530001/Sch1-260-145&PiT=99991231235958",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This section applies if neither of the following is granted within 6 months after a person's death"
+  },
+  {
+   "id": "itaa36-254",
+   "cite": "Income Tax Assessment Act 1936 (Cth) s 254(1)(a)–(c)",
+   "title": "Agents and trustees",
+   "url": "https://www.ato.gov.au/law/view/print?DocID=PAC/19360027/254&PiT=99991231235958",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If he or she is a trustee of the estate of a deceased person, the returns shall be the same as far as practicable ..."
+  },
+  {
+   "id": "ato-who-can-represent",
+   "cite": "ATO, Who can represent a deceased estate (last updated 4 June 2026)",
+   "title": "Who can represent a deceased estate",
+   "url": "https://www.ato.gov.au/individuals-and-families/deceased-estates/who-can-represent-a-deceased-estate",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "The LPR is usually the executor named in the will, or an administrator appointed by the court (which can be the next of kin)."
+  },
+  {
+   "id": "ato-notifying-death",
+   "cite": "ATO, Notifying us of a death and who will manage the estate (last updated 16 September 2026)",
+   "title": "Notifying the ATO of a death",
+   "url": "https://www.ato.gov.au/individuals-and-families/deceased-estates/notifying-us-of-a-death-and-who-will-manage-the-estate",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "without a grant of probate or letters of administration, we can't record you as the authorised LPR."
+  },
+  {
+   "id": "privacy-act-6",
+   "cite": "Privacy Act 1988 (Cth) s 6(1) definitions of \"individual\" and \"personal information\", Compilation No. 104 (4 Jun 2026)",
+   "title": "Interpretation",
+   "url": "https://www.legislation.gov.au/C2004A03712/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "individual means a natural person."
+  },
+  {
+   "id": "privacy-act-sch2-cl20",
+   "cite": "Privacy Act 1988 (Cth) Sch 2 cl 20 (statutory tort for serious invasions of privacy)",
+   "title": "Deceased persons",
+   "url": "https://www.legislation.gov.au/C2004A03712/latest/text",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "cannot assert, continue or enforce an action under this Schedule in relation to: (a) an invasion of the privacy of a deceased person"
+  },
+  {
+   "id": "oaic-app-b98",
+   "cite": "OAIC, Australian Privacy Principles Guidelines, Chapter B: Key concepts, paras B.98–B.99 (v1.4, 21 Dec 2022)",
+   "title": "Chapter B: Key concepts — Individual",
+   "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-b-key-concepts",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "'individual' means 'a natural person'"
+  },
+  {
+   "id": "nswlrc-r147",
+   "cite": "NSW Law Reform Commission, Report 147: Access to digital records upon death or incapacity (December 2019)",
+   "title": "Access to digital records upon death or incapacity",
+   "url": "https://lawreform.nsw.gov.au/content/dam/dcj/law-reform-commission/documents/Publications/Reports/Report%20147.pdf",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "nswlrc-reports-list",
+   "cite": "NSW Law Reform Commission, Reports list",
+   "title": "Reports | The NSW Law Reform Commission",
+   "url": "https://lawreform.nsw.gov.au/publications/reports.html",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16",
+   "quote": "Access to digital records upon death or incapacity"
+  }
+ ],
+ "roles": [
+  {
+   "id": "au-centrelink-payment-nominee",
+   "canonical": "benefits-payee",
+   "group": "federal",
+   "name": "Centrelink payment nominee",
+   "localNames": [
+    "payment nominee"
+   ],
+   "summary": "A person or organisation appointed in writing by the Secretary (through Services Australia) to receive some or all of a person's Centrelink payments. Payment to the nominee counts as payment to the person. The appointment needs the nominee's written consent and must take the person's wishes into account. It does not depend on the person lacking capacity.",
+   "lane": {
+    "assigned": {
+     "event": "Secretary appoints the nominee in writing and directs that all or part of a payment go to the nominee. The nominee must consent in writing, and the principal's wishes must be considered. In practice the principal and nominee set it up jointly, online or by form.",
+     "phase": "capable",
+     "citations": [
+      "ssaa-123b",
+      "ssaa-123d",
+      "sa-nominee-add-cancel"
+     ]
+    },
+    "starts": {
+     "event": "When the written appointment and payment direction are in force. A copy goes to both the nominee and the principal.",
+     "phase": "capable",
+     "citations": [
+      "ssaa-123b",
+      "ssaa-123d",
+      "ssaa-123f"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Nominee tells the Secretary in writing they no longer wish to act. The Secretary must revoke as soon as practicable, effective from a later day named in the revocation.",
+      "phase": "capable",
+      "citations": [
+       "ssaa-123e"
+      ]
+     },
+     {
+      "event": "Principal cancels the voluntary arrangement (myGov, phone or service centre)",
+      "phase": "capable",
+      "citations": [
+       "sa-nominee-add-cancel",
+       "sa-ss532"
+      ]
+     },
+     {
+      "event": "Secretary revokes after the nominee reports a change in circumstances in response to a s 123K notice, or fails to comply with a s 123K/123L notice (e.g. a statement of how money was spent)",
+      "phase": "incapacitated",
+      "citations": [
+       "ssaa-123e"
+      ]
+     },
+     {
+      "event": "Death of the principal: the payment stops (final payment for allowees up to the day before death; pensioners are paid for the fortnight of death). After that, the executor or administrator deals with Services Australia. Part 3A has no express termination-on-death provision.",
+      "phase": "deceased",
+      "citations": [
+       "sa-adult-dies",
+       "sa-who-to-tell",
+       "ssaa-123a"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Capacity is not a condition. A nominee can be appointed for a fully capable person, and the Act does not tie the appointment to a state guardianship or financial management order.",
+     "citations": [
+      "ssaa-123b",
+      "ssaa-123d"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No nominee appointment"
+     },
+     {
+      "id": "active",
+      "label": "Appointment in force; payments directed to nominee's bank account"
+     },
+     {
+      "id": "suspended",
+      "label": "Appointment suspended by the Secretary; it has no effect under Part 3A"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment revoked or cancelled, or the principal has died"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Secretary appoints in writing and gives payment direction",
+      "conditions": [
+       "Written consent of nominee",
+       "Principal's wishes considered",
+       "Copies given to nominee and principal"
+      ],
+      "citations": [
+       "ssaa-123b",
+       "ssaa-123d"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-suspend",
+      "from": "active",
+      "to": "suspended",
+      "event": "Secretary suspends after a reported change of circumstances or non-compliance with a s 123K/123L notice",
+      "conditions": [
+       "Suspension in writing",
+       "Copies to nominee and principal"
+      ],
+      "citations": [
+       "ssaa-123e"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-unsuspend",
+      "from": "suspended",
+      "to": "active",
+      "event": "Secretary cancels the suspension",
+      "conditions": [
+       "In writing"
+      ],
+      "citations": [
+       "ssaa-123e"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke-nominee",
+      "from": "active",
+      "to": "terminated",
+      "event": "Nominee asks in writing to stop acting; Secretary must revoke",
+      "conditions": [
+       "Effective from the later day specified"
+      ],
+      "citations": [
+       "ssaa-123e"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke-secretary",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Secretary revokes for change of circumstances or non-compliance",
+      "conditions": [],
+      "citations": [
+       "ssaa-123e"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-cancel-principal",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal cancels voluntary arrangement",
+      "conditions": [],
+      "citations": [
+       "sa-nominee-add-cancel",
+       "sa-ss532"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies; payments stop and the estate's representative takes over dealings",
+      "conditions": [
+       "No express statutory provision; inferred from agency guidance"
+      ],
+      "citations": [
+       "sa-adult-dies",
+       "sa-who-to-tell"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "au-centrelink-correspondence-nominee",
+   "canonical": "benefits-payee",
+   "group": "federal",
+   "name": "Centrelink correspondence nominee",
+   "localNames": [
+    "correspondence nominee"
+   ],
+   "summary": "A person or organisation appointed by the Secretary to deal with Centrelink for a benefit recipient: making claims, receiving notices and meeting most requirements. The same person can be both payment and correspondence nominee. Suspension, revocation and the effect of death work the same way as for a payment nominee.",
+   "lane": {
+    "assigned": {
+     "event": "Secretary appoints the nominee in writing, with the nominee's written consent and after considering the principal's wishes",
+     "phase": "capable",
+     "citations": [
+      "ssaa-123c",
+      "ssaa-123d",
+      "sa-nominee-add-cancel"
+     ]
+    },
+    "starts": {
+     "event": "On appointment. From then on the nominee may do any act the benefit recipient may do under social security law (except Part 3A matters, and acts a notice requires the recipient to do personally), and notices may be given to the nominee.",
+     "phase": "capable",
+     "citations": [
+      "ssaa-123h",
+      "ssaa-123c"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Nominee withdraws in writing (mandatory revocation), or Secretary revokes for change of circumstances or non-compliance",
+      "phase": "capable",
+      "citations": [
+       "ssaa-123e"
+      ]
+     },
+     {
+      "event": "Principal cancels the voluntary arrangement",
+      "phase": "capable",
+      "citations": [
+       "sa-nominee-add-cancel",
+       "sa-ss532"
+      ]
+     },
+     {
+      "event": "Death of the principal: there is no longer a benefit recipient to act for, and Services Australia deals with the executor or administrator. No express statutory termination.",
+      "phase": "deceased",
+      "citations": [
+       "sa-who-to-tell",
+       "ssaa-123h"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No correspondence nominee"
+     },
+     {
+      "id": "active",
+      "label": "Nominee may act and receive notices for the benefit recipient"
+     },
+     {
+      "id": "suspended",
+      "label": "Appointment suspended; no effect under Part 3A"
+     },
+     {
+      "id": "terminated",
+      "label": "Revoked, cancelled, or principal deceased"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Secretary appoints in writing",
+      "conditions": [
+       "Written consent of nominee",
+       "Principal's wishes considered"
+      ],
+      "citations": [
+       "ssaa-123c",
+       "ssaa-123d"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-suspend",
+      "from": "active",
+      "to": "suspended",
+      "event": "Secretary suspends (s 123K change of circumstances or non-compliance with notice)",
+      "conditions": [
+       "In writing"
+      ],
+      "citations": [
+       "ssaa-123e"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-unsuspend",
+      "from": "suspended",
+      "to": "active",
+      "event": "Secretary cancels suspension",
+      "conditions": [],
+      "citations": [
+       "ssaa-123e"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Nominee withdraws, Secretary revokes, or principal cancels",
+      "conditions": [],
+      "citations": [
+       "ssaa-123e",
+       "sa-nominee-add-cancel"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "conditions": [
+       "Inferred; no express provision"
+      ],
+      "citations": [
+       "sa-who-to-tell"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "au-mhr-authorised-representative",
+   "canonical": "health-records-representative",
+   "group": "federal",
+   "name": "My Health Record authorised representative",
+   "localNames": [
+    "authorised representative (My Health Records Act 2012)"
+   ],
+   "summary": "Someone who acts in place of an adult, whom the System Operator is satisfied cannot make decisions, for everything the My Health Records Act allows. It is first a person authorised under Commonwealth, state or territory law or by a court or tribunal (for example an attorney or guardian), otherwise another appropriate person. While one exists, the recipient cannot act for themselves. Also covers parents of children under 14.",
+   "lane": {
+    "assigned": {
+     "event": "System Operator is satisfied the adult is not capable of making decisions and that the person is authorised under law or a court/tribunal decision (or is otherwise appropriate)",
+     "phase": "incapacitated",
+     "citations": [
+      "mhra-6"
+     ]
+    },
+    "starts": {
+     "event": "At the time the System Operator is so satisfied. The representative may then do anything the Act authorises the recipient to do, and must seek out and follow the recipient's will and preferences.",
+     "phase": "incapacitated",
+     "citations": [
+      "mhra-6",
+      "mhra-6-7",
+      "mhra-7a"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The System Operator is no longer satisfied the adult lacks decision-making capacity. Status exists only 'at a time when' the recipient has an authorised representative.",
+      "phase": "capable",
+      "citations": [
+       "mhra-6",
+       "mhra-6-7"
+      ]
+     },
+     {
+      "event": "Death of the healthcare recipient: the System Operator must cancel the registration. Uploaded records are kept (not destroyed) until 30 years after death.",
+      "phase": "deceased",
+      "citations": [
+       "mhra-51",
+       "mhra-17"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Deceased person's record: cancellation on death under s 51(6) is not 'cancellation on request' under s 51(1), so the destruction duty in s 17(3) does not apply. The record is retained until 30 years after death (or 130 years after birth if the date of death is unknown). The Act has no role that lets an executor or next of kin run a deceased person's record.",
+     "citations": [
+      "mhra-17",
+      "mhra-51"
+     ]
+    },
+    {
+     "text": "Section 7A imposes a will-and-preferences duty on both authorised and nominated representatives. It is a supported-decision-making-style standard inside a Commonwealth records statute.",
+     "citations": [
+      "mhra-7a"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Recipient manages own record or no authorised person identified"
+     },
+     {
+      "id": "active",
+      "label": "System Operator satisfied of incapacity; representative acts in the recipient's place"
+     },
+     {
+      "id": "terminated",
+      "label": "Recipient regains capacity, or registration cancelled on death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-recognise",
+      "from": "not_designated",
+      "to": "active",
+      "event": "System Operator satisfied adult not capable and person authorised or appropriate",
+      "conditions": [
+       "Healthcare identifier assigned unless Rules exempt"
+      ],
+      "citations": [
+       "mhra-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-capacity",
+      "from": "active",
+      "to": "terminated",
+      "event": "System Operator no longer satisfied of incapacity",
+      "conditions": [],
+      "citations": [
+       "mhra-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Recipient dies; registration must be cancelled",
+      "conditions": [
+       "Records retained 30 years after death"
+      ],
+      "citations": [
+       "mhra-51",
+       "mhra-17"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "au-mhr-nominated-representative",
+   "canonical": "health-records-representative",
+   "group": "federal",
+   "name": "My Health Record nominated representative",
+   "localNames": [
+    "nominated representative (My Health Records Act 2012)"
+   ],
+   "summary": "An individual the healthcare recipient chooses by agreement and notifies to the System Operator. They can act on the record within the limits the recipient sets, alongside (not instead of) the recipient.",
+   "lane": {
+    "assigned": {
+     "event": "Recipient and individual agree the individual will be nominated representative, and the recipient notifies the System Operator",
+     "phase": "capable",
+     "citations": [
+      "mhra-7"
+     ]
+    },
+    "starts": {
+     "event": "While the agreement is in force and has been notified. The recipient may still act personally.",
+     "phase": "capable",
+     "citations": [
+      "mhra-7",
+      "mhra-7-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Agreement no longer in force (e.g. ended by the recipient or representative)",
+      "phase": "capable",
+      "citations": [
+       "mhra-7"
+      ]
+     },
+     {
+      "event": "Death of the healthcare recipient: registration cancelled; records retained until 30 years after death",
+      "phase": "deceased",
+      "citations": [
+       "mhra-51",
+       "mhra-17"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No nominated representative"
+     },
+     {
+      "id": "active",
+      "label": "Agreement in force and notified; acts within notified limits"
+     },
+     {
+      "id": "terminated",
+      "label": "Agreement ended or registration cancelled on death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-nominate",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Agreement made and notified to System Operator",
+      "conditions": [
+       "Healthcare identifier needed to set access controls unless Rules exempt"
+      ],
+      "citations": [
+       "mhra-7"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Agreement ceases to be in force",
+      "conditions": [],
+      "citations": [
+       "mhra-7"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Recipient dies; registration cancelled",
+      "conditions": [],
+      "citations": [
+       "mhra-51"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "au-ato-legal-personal-representative",
+   "canonical": "tax-representative",
+   "group": "federal",
+   "name": "Legal personal representative (LPR) of a deceased estate for tax",
+   "localNames": [
+    "legal personal representative",
+    "trustee of the deceased person's estate"
+   ],
+   "summary": "The executor with a grant of probate, or the administrator with letters of administration, whom the ATO deals with as if they were the deceased. They lodge the date-of-death return and estate trust returns and pay the deceased's tax out of the estate. Without a grant, the ATO will help but will not record the person as the authorised LPR.",
+   "lane": {
+    "assigned": {
+     "event": "Named as executor in a will, or appointed administrator by a Supreme Court (state/territory law)",
+     "phase": "deceased",
+     "citations": [
+      "ato-who-can-represent"
+     ]
+    },
+    "starts": {
+     "event": "On grant of probate or letters of administration and notifying the ATO with the grant; the ATO then records the person as authorised LPR",
+     "phase": "administration",
+     "citations": [
+      "taa-sch1-260-140",
+      "ato-who-can-represent",
+      "ato-notifying-death"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Tax obligations of the deceased and estate discharged and estate distributed (no statutory discharge event in the tax Acts)",
+      "phase": "closed",
+      "citations": [
+       "ato-who-can-represent",
+       "itaa36-254"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "If no grant is obtained within 6 months after death, the Commissioner may determine the deceased's outstanding tax liabilities, publish notice, and recover from the estate's property instead of dealing with a trustee.",
+     "citations": [
+      "taa-sch1-260-145"
+     ]
+    },
+    {
+     "text": "As trustee of the deceased estate, the LPR is answerable for returns in a representative capacity, must retain enough money to pay tax, and is personally liable only to the extent of amounts retained or that should have been retained.",
+     "citations": [
+      "itaa36-254"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No executor or administrator"
+     },
+     {
+      "id": "designated",
+      "label": "Executor named in will or intended administrator, no grant; ATO may note the person as managing the estate but information and refunds are restricted"
+     },
+     {
+      "id": "active",
+      "label": "Grant obtained and provided to ATO; recorded as authorised LPR"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate tax affairs finalised and estate distributed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Death of a person whose will names an executor, or next of kin intends to apply for administration",
+      "conditions": [],
+      "citations": [
+       "ato-who-can-represent",
+       "ato-notifying-death"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-grant",
+      "from": "designated",
+      "to": "active",
+      "event": "Grant of probate or letters of administration provided to ATO",
+      "conditions": [
+       "Australian grant or resealed in Australia"
+      ],
+      "citations": [
+       "ato-who-can-represent",
+       "ato-notifying-death",
+       "taa-sch1-260-140"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-finalise",
+      "from": "active",
+      "to": "terminated",
+      "event": "Tax obligations complete and final distribution made",
+      "conditions": [],
+      "citations": [
+       "ato-who-can-represent"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "deceasedPersonalDataProtected": {
+   "value": false,
+   "note": "The Privacy Act 1988 covers only 'personal information' about an 'individual', meaning a natural person. The OAIC reads this as not including deceased persons, unless the information is also about a living person. The statutory privacy tort (Sch 2) also cannot be brought or continued for a deceased person. Separately, the My Health Records Act requires My Health Record data to be retained for 30 years after death. State health-privacy laws (e.g. NSW Health Records and Information Privacy Act 2002) may protect deceased persons' health information; see state files.",
+   "citations": [
+    "privacy-act-6",
+    "oaic-app-b98",
+    "privacy-act-sch2-cl20",
+    "mhra-17"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": "None enacted. NSW Law Reform Commission Report 147 (2019) recommended a statutory access scheme and a nationally consistent approach. No Commonwealth statute was found in the Federal Register of Legislation.",
+   "citations": [
+    "nswlrc-r147",
+    "nswlrc-reports-list"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No Commonwealth statute gives legal effect to platform online-tool designations. Law-reform context only: NSWLRC Report 147.",
+   "citations": [
+    "nswlrc-r147"
+   ]
+  }
+ }
+}

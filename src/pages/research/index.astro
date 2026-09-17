@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import Margin from '../../components/Margin.astro';
+
+/**
+ * The research section. One entry so far; the shape is the same as /projects/
+ * so a second piece of research drops in without a redesign.
+ */
+const items = [
+  {
+    href: '/research/digital-estate-roles/',
+    title: 'Digital Estate Roles',
+    apparatus: '2026',
+    aside: 'Nine countries',
+    summary:
+      'When legal authority over a person, their property and their digital estate is assigned, ' +
+      'when it starts and when it ends — for powers of attorney, health-care agents, guardians, ' +
+      'executors, digital-asset fiduciaries and the rest. Sourced to statute and official policy only.',
+  },
+];
+---
+
+<Base
+  title="Research"
+  description="Sourced reference work. Primary law and official policy only, with every claim carrying its citation and retrieval date."
+>
+  <div class="wrap">
+    <section class="band">
+      <div class="grid" style="margin-bottom:18px">
+        <Margin
+          label="Research"
+          notes={[
+            { note: 'Reference work rather than argument: the essays make claims, these pages show what the law actually says.' },
+            { note: 'Primary sources only. A claim that cannot be traced to a statute, regulation or official policy is marked unverified rather than quietly asserted.', tone: 'aside' },
+          ]}
+        />
+        <div>
+          <p class="lede">
+            Long-running reference work, kept in the open. Each piece is built from primary law and
+            official policy, and records where every claim came from and when it was read.
+          </p>
+        </div>
+      </div>
+
+      {items.map((it) => (
+        <a class="item" href={it.href}>
+          <span class="apparatus">
+            {it.apparatus}
+            <span class="subject">{it.aside}</span>
+          </span>
+          <span>
+            <h3>{it.title}</h3>
+            <p>{it.summary}</p>
+          </span>
+        </a>
+      ))}
+    </section>
+  </div>
+</Base>
+
+<style>
+  .item h3 a { text-decoration: none; }
+  .item:hover h3 { color: var(--wind-quarter); }
+</style>

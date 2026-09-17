@@ -1,0 +1,1437 @@
+{
+ "generatedFrom": "ULC act pages at uniformlaws.org; enactment data read from the Legislative Bill Tracking Power BI report embedded on each page",
+ "acts": [
+  {
+   "id": "upoaa",
+   "name": "Uniform Power of Attorney Act",
+   "year": 2006,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=b1975254-8370-4a7c-947f-e5af0d6cb07c",
+   "retrieved": "2026-09-16",
+   "note": "From the ULC Legislative Bill Tracking report (Power BI, 'Bill List' page) embedded on the act page. Totals shown: Enacted 30, Enacted - Substantially Similar 2.",
+   "enactments": [
+    {
+     "jurisdiction": "MI",
+     "year": 2024,
+     "billOrCite": "HB 4644",
+     "status": "Enacted - Substantially Similar"
+    },
+    {
+     "jurisdiction": "DC",
+     "year": 2023,
+     "billOrCite": "24-121",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VT",
+     "year": 2023,
+     "billOrCite": "H 227",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OK",
+     "year": 2021,
+     "billOrCite": "HB 2548",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "KY",
+     "year": 2020,
+     "billOrCite": "HB 154",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "SD",
+     "year": 2020,
+     "billOrCite": "SB 148",
+     "status": "Enacted - Substantially Similar"
+    },
+    {
+     "jurisdiction": "GA",
+     "year": 2018,
+     "billOrCite": "HB 897",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NH",
+     "year": 2017,
+     "billOrCite": "SB 230",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NC",
+     "year": 2017,
+     "billOrCite": "SB 569",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "TX",
+     "year": 2017,
+     "billOrCite": "HB 1974",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WY",
+     "year": 2017,
+     "billOrCite": "SB 105",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "SC",
+     "year": 2016,
+     "billOrCite": "SB 778",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "UT",
+     "year": 2016,
+     "billOrCite": "HB 74",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WA",
+     "year": 2016,
+     "billOrCite": "SB 5635",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CT",
+     "year": 2015,
+     "billOrCite": "HB 6774",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "HI",
+     "year": 2014,
+     "billOrCite": "SB 2229",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "IA",
+     "year": 2014,
+     "billOrCite": "SF 2168",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "PA",
+     "year": 2014,
+     "billOrCite": "HB 1429",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NE",
+     "year": 2012,
+     "billOrCite": "LB 1113",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OH",
+     "year": 2012,
+     "billOrCite": "SB 117",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WV",
+     "year": 2012,
+     "billOrCite": "HB 4390",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AL",
+     "year": 2011,
+     "billOrCite": "SB 53",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AR",
+     "year": 2011,
+     "billOrCite": "SB 887",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MT",
+     "year": 2011,
+     "billOrCite": "HB 374",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MD",
+     "year": 2010,
+     "billOrCite": "SB 309",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VA",
+     "year": 2010,
+     "billOrCite": "HB 719",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WI",
+     "year": 2010,
+     "billOrCite": "AB 704",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CO",
+     "year": 2009,
+     "billOrCite": "HB 1198",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ME",
+     "year": 2009,
+     "billOrCite": "LD 1404",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NV",
+     "year": 2009,
+     "billOrCite": "SB 314",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ID",
+     "year": 2008,
+     "billOrCite": "SB 1335",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NM",
+     "year": 2007,
+     "billOrCite": "HB 231",
+     "status": "Enacted"
+    }
+   ],
+   "pending": []
+  },
+  {
+   "id": "uhcda-1993",
+   "name": "Uniform Health-Care Decisions Act (1993)",
+   "year": 1993,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=3df274d6-776b-4780-8e4e-018a850ef44e",
+   "retrieved": "2026-09-16",
+   "note": "The 1993 act's own community page (CommunityKey=63ac0471-5975-49b0-8a36-6a4d790a4edf) no longer renders; this list is the '1993 Original' column (status 'Prior Version Enacted') of the Enactment History page in the UHCDA (2023) tracker. No years or bill numbers are given there.",
+   "enactments": [
+    {
+     "jurisdiction": "AK",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "DE",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "HI",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "ME",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "MS",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "NM",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "WY",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    }
+   ],
+   "pending": []
+  },
+  {
+   "id": "uhcda-2023",
+   "name": "Uniform Health-Care Decisions Act (2023)",
+   "year": 2023,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=3df274d6-776b-4780-8e4e-018a850ef44e",
+   "retrieved": "2026-09-16",
+   "note": "From the ULC tracker 'Bill List' page. Totals shown: Enacted 3, Introduced 3.",
+   "enactments": [
+    {
+     "jurisdiction": "OK",
+     "year": 2026,
+     "billOrCite": "HB 1687/SB 937",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "UT",
+     "year": 2025,
+     "billOrCite": "SB 134",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "DE",
+     "year": 2024,
+     "billOrCite": "SB 309",
+     "status": "Enacted"
+    }
+   ],
+   "pending": [
+    {
+     "jurisdiction": "HI",
+     "year": 2026,
+     "billOrCite": "HB 1004/SB 1323",
+     "status": "Introduced"
+    },
+    {
+     "jurisdiction": "NE",
+     "year": 2026,
+     "billOrCite": "LB 66",
+     "status": "Introduced"
+    },
+    {
+     "jurisdiction": "VA",
+     "year": 2026,
+     "billOrCite": "HB 548",
+     "status": "Introduced"
+    }
+   ]
+  },
+  {
+   "id": "ugcopaa",
+   "name": "Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act",
+   "year": 2017,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=2eba8654-8871-4905-ad38-aabbd573911c",
+   "retrieved": "2026-09-16",
+   "note": "From the ULC tracker 'Bill List' page. The gauge shows 4 enactments (3 Enacted + 1 Enacted - Substantially Similar).",
+   "enactments": [
+    {
+     "jurisdiction": "ID",
+     "year": 2026,
+     "billOrCite": "S 1240",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "KS",
+     "year": 2025,
+     "billOrCite": "HB 2359",
+     "status": "Enacted - Substantially Similar"
+    },
+    {
+     "jurisdiction": "WA",
+     "year": 2019,
+     "billOrCite": "SB 5604",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ME",
+     "year": 2018,
+     "billOrCite": "LD 123",
+     "status": "Enacted"
+    }
+   ],
+   "pending": [
+    {
+     "jurisdiction": "AK",
+     "year": 2026,
+     "billOrCite": "SB 190",
+     "status": "Introduced"
+    }
+   ]
+  },
+  {
+   "id": "ugppa",
+   "name": "Uniform Guardianship and Protective Proceedings Act (1997)",
+   "year": 1997,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=2eba8654-8871-4905-ad38-aabbd573911c",
+   "retrieved": "2026-09-16",
+   "note": "No standalone tracker; this list is the '1997 Revision' column (status 'Prior Version Enacted') of the Enactment History page in the UGCOPAA tracker. No years or bill numbers are given. The tracker does not cover the 1982 UGPPA or the original UPC Article V (1969) enactments.",
+   "enactments": [
+    {
+     "jurisdiction": "AL",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "CO",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "DC",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "HI",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "MA",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "MN",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    },
+    {
+     "jurisdiction": "VI",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted"
+    }
+   ],
+   "pending": []
+  },
+  {
+   "id": "upc",
+   "name": "Uniform Probate Code",
+   "year": 1969,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=35a4e3e3-de91-4527-aeec-26b1fc41b1c3",
+   "retrieved": "2026-09-16",
+   "note": "INCOMPLETE. The ULC tracker on this page covers only the 2019 Amendments (0 enactments, 0 introductions) and, on its Enactment History page, the '2008 Original' and '2010 Revision' amendment packages. It does NOT list which jurisdictions adopted the Uniform Probate Code as a whole, and no ULC page reached gave that list. The entries below are amendment-package enactments only, without years. The report's map colors some states as 'Enacted' (blue) while its gauges and table show 0 enactments of the 2019 amendments; that inconsistency was not resolved and the blue states are not listed.",
+   "enactments": [
+    {
+     "jurisdiction": "CO",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2008 amendments)"
+    },
+    {
+     "jurisdiction": "ME",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2008 amendments)"
+    },
+    {
+     "jurisdiction": "NM",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2008 amendments)"
+    },
+    {
+     "jurisdiction": "ND",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2008 amendments)"
+    },
+    {
+     "jurisdiction": "VI",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2008 amendments)"
+    },
+    {
+     "jurisdiction": "UT",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2008 amendments)"
+    },
+    {
+     "jurisdiction": "CO",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2010 revision)"
+    },
+    {
+     "jurisdiction": "HI",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2010 revision)"
+    },
+    {
+     "jurisdiction": "MA",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2010 revision)"
+    },
+    {
+     "jurisdiction": "MN",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2010 revision)"
+    },
+    {
+     "jurisdiction": "NJ",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2010 revision)"
+    },
+    {
+     "jurisdiction": "ND",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2010 revision)"
+    },
+    {
+     "jurisdiction": "SC",
+     "year": null,
+     "billOrCite": null,
+     "status": "Prior Version Enacted (2010 revision)"
+    }
+   ],
+   "pending": []
+  },
+  {
+   "id": "utc",
+   "name": "Uniform Trust Code",
+   "year": 2000,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=193ff839-7955-4846-8f3c-ce74ac23938d",
+   "retrieved": "2026-09-16",
+   "note": "From the ULC tracker 'Bill List' page. Totals shown: Enacted 37.",
+   "enactments": [
+    {
+     "jurisdiction": "OK",
+     "year": 2025,
+     "billOrCite": "HB 1850",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "HI",
+     "year": 2021,
+     "billOrCite": "SB 385",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CT",
+     "year": 2019,
+     "billOrCite": "HB 7104",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "IL",
+     "year": 2019,
+     "billOrCite": "HB 1471",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CO",
+     "year": 2018,
+     "billOrCite": "SB 180",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NJ",
+     "year": 2016,
+     "billOrCite": "AB 2915",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MN",
+     "year": 2015,
+     "billOrCite": "SF 578",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "KY",
+     "year": 2014,
+     "billOrCite": "HB 78",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MD",
+     "year": 2014,
+     "billOrCite": "HB 83",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MS",
+     "year": 2014,
+     "billOrCite": "SB 2727",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WI",
+     "year": 2014,
+     "billOrCite": "SB 384",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MT",
+     "year": 2013,
+     "billOrCite": "SB 251",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MA",
+     "year": 2012,
+     "billOrCite": "HB 4223",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WV",
+     "year": 2011,
+     "billOrCite": "HB 2551",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MI",
+     "year": 2009,
+     "billOrCite": "SB 387",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VT",
+     "year": 2009,
+     "billOrCite": "SB 86",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AZ",
+     "year": 2008,
+     "billOrCite": "HB 2806",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ND",
+     "year": 2007,
+     "billOrCite": "HB 1034",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AL",
+     "year": 2006,
+     "billOrCite": "HB49/SB157",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "FL",
+     "year": 2006,
+     "billOrCite": "SB 1170",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OH",
+     "year": 2006,
+     "billOrCite": "HB 416",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "PA",
+     "year": 2006,
+     "billOrCite": "SB 660",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AR",
+     "year": 2005,
+     "billOrCite": "SB 336",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NC",
+     "year": 2005,
+     "billOrCite": "SB 679",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OR",
+     "year": 2005,
+     "billOrCite": "SB 275",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "SC",
+     "year": 2005,
+     "billOrCite": "SB422/HB3487",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VA",
+     "year": 2005,
+     "billOrCite": "SB 891",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "DC",
+     "year": 2004,
+     "billOrCite": "15-234",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ME",
+     "year": 2004,
+     "billOrCite": "LD 921",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MO",
+     "year": 2004,
+     "billOrCite": "HB 1511",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NH",
+     "year": 2004,
+     "billOrCite": "HB 1224",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "TN",
+     "year": 2004,
+     "billOrCite": "HB743/SB560",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "UT",
+     "year": 2004,
+     "billOrCite": "SB 47",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NE",
+     "year": 2003,
+     "billOrCite": "LB 130",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NM",
+     "year": 2003,
+     "billOrCite": "HB 48",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WY",
+     "year": 2003,
+     "billOrCite": "HB 77",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "KS",
+     "year": 2002,
+     "billOrCite": "SB 297",
+     "status": "Enacted"
+    }
+   ],
+   "pending": []
+  },
+  {
+   "id": "rufadaa",
+   "name": "Revised Uniform Fiduciary Access to Digital Assets Act",
+   "year": 2015,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=f7237fc4-74c2-4728-81c6-b39a91ecdf22",
+   "retrieved": "2026-09-16",
+   "note": "From the ULC tracker 'Bill List' page. Totals shown: Enacted 49, Introduced 1. Blank on the Enactment History page: Delaware, Louisiana, Puerto Rico.",
+   "enactments": [
+    {
+     "jurisdiction": "CA",
+     "year": 2024,
+     "billOrCite": "SB 1458",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OK",
+     "year": 2024,
+     "billOrCite": "HB 3778",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "DC",
+     "year": 2021,
+     "billOrCite": "23-0141",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "KY",
+     "year": 2020,
+     "billOrCite": "HB 156",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "PA",
+     "year": 2020,
+     "billOrCite": "SB 320",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NH",
+     "year": 2019,
+     "billOrCite": "SB 147",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "RI",
+     "year": 2019,
+     "billOrCite": "HB5778/SB592",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "GA",
+     "year": 2018,
+     "billOrCite": "SB 301",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ME",
+     "year": 2018,
+     "billOrCite": "LD 846",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MO",
+     "year": 2018,
+     "billOrCite": "HB 1250",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VI",
+     "year": 2018,
+     "billOrCite": "32-0132",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WV",
+     "year": 2018,
+     "billOrCite": "SB 102",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AL",
+     "year": 2017,
+     "billOrCite": "HB 138",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AK",
+     "year": 2017,
+     "billOrCite": "HB 108",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AR",
+     "year": 2017,
+     "billOrCite": "HB 2253",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "IA",
+     "year": 2017,
+     "billOrCite": "SF 333",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "KS",
+     "year": 2017,
+     "billOrCite": "SB 63",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MS",
+     "year": 2017,
+     "billOrCite": "HB 849",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MT",
+     "year": 2017,
+     "billOrCite": "SB 118",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NV",
+     "year": 2017,
+     "billOrCite": "AB 239",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NJ",
+     "year": 2017,
+     "billOrCite": "AB 3433",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NM",
+     "year": 2017,
+     "billOrCite": "SB 60",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ND",
+     "year": 2017,
+     "billOrCite": "HB 1214",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OH",
+     "year": 2017,
+     "billOrCite": "HB 432",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "SD",
+     "year": 2017,
+     "billOrCite": "HB 1080",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "TX",
+     "year": 2017,
+     "billOrCite": "SB 1193",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "UT",
+     "year": 2017,
+     "billOrCite": "HB 13",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VT",
+     "year": 2017,
+     "billOrCite": "HB 152",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VA",
+     "year": 2017,
+     "billOrCite": "HB 1608",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AZ",
+     "year": 2016,
+     "billOrCite": "SB 1413",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CO",
+     "year": 2016,
+     "billOrCite": "SB 88",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CT",
+     "year": 2016,
+     "billOrCite": "HB 5606",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "FL",
+     "year": 2016,
+     "billOrCite": "SB 494",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "HI",
+     "year": 2016,
+     "billOrCite": "SB 2298",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ID",
+     "year": 2016,
+     "billOrCite": "SB 1303",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "IL",
+     "year": 2016,
+     "billOrCite": "HB 4648",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "IN",
+     "year": 2016,
+     "billOrCite": "SB 253",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MD",
+     "year": 2016,
+     "billOrCite": "SB239/HB507",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MI",
+     "year": 2016,
+     "billOrCite": "HB 5034",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MN",
+     "year": 2016,
+     "billOrCite": "HF 200",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NE",
+     "year": 2016,
+     "billOrCite": "LB 829",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NY",
+     "year": 2016,
+     "billOrCite": "AB 9910",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NC",
+     "year": 2016,
+     "billOrCite": "SB 805",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OR",
+     "year": 2016,
+     "billOrCite": "SB 1554",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "SC",
+     "year": 2016,
+     "billOrCite": "SB 908",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "TN",
+     "year": 2016,
+     "billOrCite": "SB 326",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WA",
+     "year": 2016,
+     "billOrCite": "SB 5029",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WI",
+     "year": 2016,
+     "billOrCite": "AB 695",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WY",
+     "year": 2016,
+     "billOrCite": "SF 34",
+     "status": "Enacted"
+    }
+   ],
+   "pending": [
+    {
+     "jurisdiction": "MA",
+     "year": 2026,
+     "billOrCite": "H 4639/S 1110/S 1048",
+     "status": "Introduced"
+    }
+   ]
+  },
+  {
+   "id": "ruaga",
+   "name": "Revised Uniform Anatomical Gift Act",
+   "year": 2006,
+   "sourceUrl": "https://www.uniformlaws.org/committees/community-home?CommunityKey=015e18ad-4806-4dff-b011-8e1ebc0d1d0f",
+   "retrieved": "2026-09-16",
+   "note": "From the ULC tracker 'Bill List' page. Totals shown: Enacted 48.",
+   "enactments": [
+    {
+     "jurisdiction": "IL",
+     "year": 2013,
+     "billOrCite": "HB 2339",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MA",
+     "year": 2012,
+     "billOrCite": "SB 1098",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MD",
+     "year": 2011,
+     "billOrCite": "SB 756",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CT",
+     "year": 2010,
+     "billOrCite": "SB 250",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "KY",
+     "year": 2010,
+     "billOrCite": "SB 4",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "LA",
+     "year": 2010,
+     "billOrCite": "HB 1123",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NE",
+     "year": 2010,
+     "billOrCite": "LB 1036",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NH",
+     "year": 2010,
+     "billOrCite": "HB 1430",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VI",
+     "year": 2010,
+     "billOrCite": "28-0085",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VT",
+     "year": 2010,
+     "billOrCite": "SB 205",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OH",
+     "year": 2009,
+     "billOrCite": "HB 529",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OK",
+     "year": 2009,
+     "billOrCite": "SB 622",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "SC",
+     "year": 2009,
+     "billOrCite": "SB407",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "TX",
+     "year": 2009,
+     "billOrCite": "HB 2027",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WY",
+     "year": 2009,
+     "billOrCite": "SB 86",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AL",
+     "year": 2008,
+     "billOrCite": "HB 476",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AK",
+     "year": 2008,
+     "billOrCite": "HB 196",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CA",
+     "year": 2008,
+     "billOrCite": "AB 1689",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "DC",
+     "year": 2008,
+     "billOrCite": "B17-58",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "GA",
+     "year": 2008,
+     "billOrCite": "SB 405",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "HI",
+     "year": 2008,
+     "billOrCite": "HB 2139",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ME",
+     "year": 2008,
+     "billOrCite": "LD 1505",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MI",
+     "year": 2008,
+     "billOrCite": "HB 4940",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MS",
+     "year": 2008,
+     "billOrCite": "HB 1075",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MO",
+     "year": 2008,
+     "billOrCite": "SB 1139",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NJ",
+     "year": 2008,
+     "billOrCite": "SB 754",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WA",
+     "year": 2008,
+     "billOrCite": "HB 1637",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WV",
+     "year": 2008,
+     "billOrCite": "HB 4304",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "WI",
+     "year": 2008,
+     "billOrCite": "SB 310",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AZ",
+     "year": 2007,
+     "billOrCite": "SB 1099",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "AR",
+     "year": 2007,
+     "billOrCite": "SB 798",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "CO",
+     "year": 2007,
+     "billOrCite": "HB 1266",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ID",
+     "year": 2007,
+     "billOrCite": "SB 1017",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "IN",
+     "year": 2007,
+     "billOrCite": "SB 550",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "IA",
+     "year": 2007,
+     "billOrCite": "SF 509",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "KS",
+     "year": 2007,
+     "billOrCite": "HB 2010",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MN",
+     "year": 2007,
+     "billOrCite": "SF 883",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "MT",
+     "year": 2007,
+     "billOrCite": "SB 287",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NV",
+     "year": 2007,
+     "billOrCite": "SB 169",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NM",
+     "year": 2007,
+     "billOrCite": "HB 1276",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "NC",
+     "year": 2007,
+     "billOrCite": "HB 1372",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "ND",
+     "year": 2007,
+     "billOrCite": "SB 2163",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "OR",
+     "year": 2007,
+     "billOrCite": "HB 3092",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "RI",
+     "year": 2007,
+     "billOrCite": "SB 729",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "SD",
+     "year": 2007,
+     "billOrCite": "SB 197",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "TN",
+     "year": 2007,
+     "billOrCite": "HB 1557",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "UT",
+     "year": 2007,
+     "billOrCite": "SB 92",
+     "status": "Enacted"
+    },
+    {
+     "jurisdiction": "VA",
+     "year": 2007,
+     "billOrCite": "HB 2684",
+     "status": "Enacted"
+    }
+   ],
+   "pending": []
+  }
+ ],
+ "caModelActs": [
+  {
+   "id": "ulcc-uadafa-2016",
+   "name": "Uniform Access to Digital Assets by Fiduciaries Act",
+   "year": 2016,
+   "body": "Uniform Law Conference of Canada",
+   "sourceUrl": "https://www.ulcc-chlc.ca/Civil-Section/Uniform-Acts/Uniform-Access-to-Digital-Assets-by-Fiduciaries-Ac",
+   "summary": "Covers four fiduciaries: a personal representative, a guardian, an attorney under a POA, and a trustee. Confirms that their usual powers extend to digital assets, subject to the account holder's instructions. A personal representative gets access to all digital assets unless the will or another document says otherwise.",
+   "citations": [
+    "ulcc-uadafa-2016"
+   ],
+   "enactments": [
+    {
+     "jurisdiction": "SK",
+     "year": 2020,
+     "cite": "The Fiduciaries Access to Digital Information Act, SS 2020, c 6",
+     "sourceUrl": "https://publications.saskatchewan.ca/#/products/105180",
+     "citations": [
+      "sk-fadia-2020",
+      "yk-news-23-485"
+     ],
+     "note": "Title and chapter verified via the Saskatchewan King's Printer product record. In-force date (reported elsewhere as 29 June 2020) not verified on an official page.",
+     "unverified": false
+    },
+    {
+     "jurisdiction": "PE",
+     "year": null,
+     "cite": "Access to Digital Assets Act (Prince Edward Island)",
+     "sourceUrl": "https://www.princeedwardisland.ca/en/legislation/access-to-digital-assets-act",
+     "citations": [
+      "pei-adaa",
+      "yk-news-23-485"
+     ],
+     "note": "Enactment confirmed only indirectly: the Yukon government release lists PEI as having similar legislation. The PEI legislation site blocked access with a bot challenge, so chapter number, year and in-force date (reported in secondary sources as SPEI 2021, c 27, in force 1 Jan 2022) are unverified.",
+     "unverified": true
+    },
+    {
+     "jurisdiction": "NB",
+     "year": 2022,
+     "cite": "Fiduciaries Access to Digital Assets Act, SNB 2022, c 59",
+     "sourceUrl": "https://laws.gnb.ca/en/document/cs/2022,%20c.59",
+     "citations": [
+      "nb-fadaa-2022"
+     ],
+     "note": "Assented to 16 December 2022. No separate commencement section was found in the chapter.",
+     "unverified": false
+    },
+    {
+     "jurisdiction": "YT",
+     "year": 2023,
+     "cite": "Fiduciaries Access to Digital Assets Act, SY 2023, c 15",
+     "sourceUrl": "https://laws.yukon.ca/cms/acts-by-year.html?view=article&id=354:annual-acts-2023",
+     "citations": [
+      "yk-fadaa-2023",
+      "yk-news-23-485"
+     ],
+     "note": "Assent announced 15 November 2023. In-force date not verified.",
+     "unverified": false
+    }
+   ],
+   "notEnacted": [
+    {
+     "jurisdiction": "NS",
+     "note": "No enactment found. The official Yukon release (Nov 2023) names only NB, SK and PEI. Not verified against the Nova Scotia legislature after 2023.",
+     "unverified": true,
+     "citations": [
+      "yk-news-23-485"
+     ]
+    },
+    {
+     "jurisdiction": "AB",
+     "note": "Not enacted. The Alberta Law Reform Institute was still calling for legislation in July 2026 (law reform context only).",
+     "citations": [
+      "alri-2026-digital"
+     ]
+    },
+    {
+     "jurisdiction": "ON",
+     "note": "No Ontario fiduciary digital-assets statute; see ca-on.json.",
+     "citations": [
+      "yk-news-23-485"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ulcc-uepoaa-2015",
+   "name": "Uniform Enduring Powers of Attorney Act",
+   "year": 2015,
+   "amended": 2021,
+   "body": "Uniform Law Conference of Canada",
+   "sourceUrl": "https://ulcc-chlc.ca/ULCC/media/EN-Uniform-Acts/Consolidated-Uniform-Enduring-Powers-of-Attorney-Act-(2015)-as-Amended-2021.pdf",
+   "summary": "Model EPOA takes effect on the latest of signing, a stated date or a stated triggering event (s 11(1)). If it springs on incapacity, a qualified health care provider may confirm incapacity (s 11(2)). Authority ends on a specified date, written revocation, the grantor's death, the attorney's death, incapacity or resignation, appointment of a guardianship decision-maker, and spousal separation (s 17). The 2021 amendments added electronic EPOAs. The year is 2015 (amended 2021), not 2008.",
+   "citations": [
+    "ulcc-epoa-2015"
+   ],
+   "enactments": [],
+   "enactmentsNote": "No provincial or territorial enactment of the 2015 Uniform EPOA Act was verified. Several provinces have EPOA statutes that share features, but none was confirmed as an implementation of this model act."
+  }
+ ]
+}

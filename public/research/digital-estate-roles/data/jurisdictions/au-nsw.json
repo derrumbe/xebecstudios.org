@@ -1,0 +1,2207 @@
+{
+ "jurisdiction": "au-nsw",
+ "name": "New South Wales",
+ "country": "au",
+ "legalSystem": "common law",
+ "note": "NSW state roles as in force on 2026-09-16; Commonwealth nominee, My Health Record, tax and Privacy Act features are in au-commonwealth.",
+ "citations": [
+  {
+   "id": "nsw-poa-8",
+   "cite": "Powers of Attorney Act 2003 (NSW) s 8",
+   "title": "Creation of prescribed power of attorney",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.8",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An instrument ... that is in or to the effect of a form prescribed by the regulations ... creates a prescribed power of attorney"
+  },
+  {
+   "id": "nsw-poa-16",
+   "cite": "Powers of Attorney Act 2003 (NSW) s 16(1)",
+   "title": "Effect of irrevocable powers of attorney",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is not revoked or otherwise terminated by ... (b) the bankruptcy of the principal, (c) the mental incapacity of the principal, ... (e) the ..."
+  },
+  {
+   "id": "nsw-poa-18",
+   "cite": "Powers of Attorney Act 2003 (NSW) ss 17–18",
+   "title": "Initial and supervening mental incapacity",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.18",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A power of attorney is effective to the extent that it concerns any act within its scope that is ... not beyond the understanding ..."
+  },
+  {
+   "id": "nsw-poa-19",
+   "cite": "Powers of Attorney Act 2003 (NSW) s 19",
+   "title": "Creation of enduring power of attorney",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.19",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "expressed to be given with the intention that it will continue to be effective even if the principal lacks capacity through loss of mental capacity"
+  },
+  {
+   "id": "nsw-poa-20",
+   "cite": "Powers of Attorney Act 2003 (NSW) s 20",
+   "title": "Enduring power of attorney does not confer authority until attorney accepts appointment",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.20",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not operate to confer any authority on an attorney until the attorney has accepted the appointment by signing the instrument"
+  },
+  {
+   "id": "nsw-poa-21",
+   "cite": "Powers of Attorney Act 2003 (NSW) s 21",
+   "title": "Effect of enduring power of attorney",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.21",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not save a power of attorney from being or becoming ineffective by reason of any matter other than mental incapacity of the principal"
+  },
+  {
+   "id": "nsw-poa-36",
+   "cite": "Powers of Attorney Act 2003 (NSW) ss 33, 36",
+   "title": "Review of enduring powers of attorney (NCAT and Supreme Court)",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.36",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney can not be lawfully revoked by the principal while the principal is declared to be incapable by such an order."
+  },
+  {
+   "id": "nsw-poa-46-49",
+   "cite": "Powers of Attorney Act 2003 (NSW) ss 46–49",
+   "title": "Termination and suspension of powers of attorney",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.47",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An attorney under a power of attorney that is terminated must not do any act or thing under the power of attorney if the ..."
+  },
+  {
+   "id": "nsw-poa-50",
+   "cite": "Powers of Attorney Act 2003 (NSW) s 50",
+   "title": "Effect of management of estate",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.50",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A power of attorney is suspended while the estate of the principal is a managed estate."
+  },
+  {
+   "id": "nsw-poa-52",
+   "cite": "Powers of Attorney Act 2003 (NSW) ss 51–52",
+   "title": "Registration; powers of attorney to be registered for dealings affecting land",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2003-053#sec.52",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A conveyance or other deed affecting land executed on or after 1 July 1920 under a power of attorney has no effect unless the ..."
+  },
+  {
+   "id": "nsw-poa-reg-2024-form1",
+   "cite": "Powers of Attorney Regulation 2024 (NSW) Sch 2, Form 1 (General power of attorney)",
+   "title": "Prescribed form: general power of attorney",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/sl-2024-0412",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "A general power of attorney ceases if you lose your mental capacity after its execution."
+  },
+  {
+   "id": "nsw-poa-reg-2024-form2",
+   "cite": "Powers of Attorney Regulation 2024 (NSW) Sch 2, Form 2 (Enduring power of attorney), item 4 Commencement",
+   "title": "Prescribed form: enduring power of attorney",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/sl-2024-0412",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Once a medical practitioner considers that I am unable to manage my affairs (and provides a document to that effect)."
+  },
+  {
+   "id": "nsw-poa-reg-2024-vacancy",
+   "cite": "Powers of Attorney Regulation 2024 (NSW) Sch 2, Form 2 notes (\"Attorney vacates office\", referring to Act s 5)",
+   "title": "Prescribed form notes: attorney vacates office",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/sl-2024-0412",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "there is a vacancy in the office of attorney if the attorney dies, resigns, becomes bankrupt, loses mental capacity or the authority to act ..."
+  },
+  {
+   "id": "nswgov-poa",
+   "cite": "NSW Government, Choose a Power of Attorney (last updated 30 October 2025)",
+   "title": "Choose a Power of Attorney",
+   "url": "https://www.nsw.gov.au/family-and-relationships/planning-for-end-of-life/make-power-of-attorney",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "It also becomes invalid when you die. A Power of Attorney is only valid during your lifetime."
+  },
+  {
+   "id": "nsw-ga-3",
+   "cite": "Guardianship Act 1987 (NSW) s 3(1)–(2)",
+   "title": "Definitions: person in need of a guardian; person who has a disability",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "person in need of a guardian means a person who, because of a disability, is totally or partially incapable of managing his or her person."
+  },
+  {
+   "id": "nsw-ga-6a",
+   "cite": "Guardianship Act 1987 (NSW) s 6A",
+   "title": "When appointment has effect",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "has effect only during such period of time as the appointor is a person in need of a guardian"
+  },
+  {
+   "id": "nsw-ga-6c",
+   "cite": "Guardianship Act 1987 (NSW) ss 5, 6, 6C",
+   "title": "Adult may appoint guardian; method of appointment (eligible witness)",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6C",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "it is endorsed with the appointee's acceptance of the appointment, and (d) the execution of the instrument ... is witnessed by one or more ..."
+  },
+  {
+   "id": "nsw-ga-6da",
+   "cite": "Guardianship Act 1987 (NSW) s 6DA",
+   "title": "Substitute enduring guardians",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6DA",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(a) if the original enduring guardian dies, or (b) if the original enduring guardian resigns, or (c) during any incapacity of the original enduring guardian."
+  },
+  {
+   "id": "nsw-ga-6e",
+   "cite": "Guardianship Act 1987 (NSW) s 6E",
+   "title": "Functions of enduring guardians",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6E",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "giving consent under Part 5 to the carrying out of medical or dental treatment on the appointor"
+  },
+  {
+   "id": "nsw-ga-6h",
+   "cite": "Guardianship Act 1987 (NSW) s 6H",
+   "title": "Revocation of appointment by appointor",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6H",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "at the time of executing the instrument, the appointor had the legal capacity to revoke the appointment"
+  },
+  {
+   "id": "nsw-ga-6ha",
+   "cite": "Guardianship Act 1987 (NSW) s 6HA",
+   "title": "Automatic revocation of appointment by marriage of appointor",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6HA",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is revoked if the appointor marries or remarries a person (other than the appointee) after the date on which the person was appointed"
+  },
+  {
+   "id": "nsw-ga-6hb",
+   "cite": "Guardianship Act 1987 (NSW) s 6HB",
+   "title": "Resignation of appointment by appointee",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6HB",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the appointor is in need of a guardian—with the approval of the Tribunal."
+  },
+  {
+   "id": "nsw-ga-6i",
+   "cite": "Guardianship Act 1987 (NSW) s 6I",
+   "title": "Automatic suspension",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6I",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "operates to suspend, for the duration of the order, all authority of the enduring guardian to exercise a function under the appointment."
+  },
+  {
+   "id": "nsw-ga-6j-6k",
+   "cite": "Guardianship Act 1987 (NSW) ss 6J–6L",
+   "title": "Tribunal's and Supreme Court's review of appointment",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6K",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Tribunal is satisfied that it is in the best interests of the appointor that the appointment be revoked."
+  },
+  {
+   "id": "nsw-ga-6m",
+   "cite": "Guardianship Act 1987 (NSW) s 6M",
+   "title": "Tribunal may declare appointment has effect",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.6M",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A person appointed as an enduring guardian may apply to the Tribunal for an order declaring that the appointment has effect."
+  },
+  {
+   "id": "nsw-ga-14-16",
+   "cite": "Guardianship Act 1987 (NSW) ss 9, 14–16",
+   "title": "Applications for and making of guardianship orders",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.14",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Tribunal is satisfied that the person is a person in need of a guardian, it may make a guardianship order in respect of ..."
+  },
+  {
+   "id": "nsw-ga-18",
+   "cite": "Guardianship Act 1987 (NSW) s 18",
+   "title": "Duration of guardianship orders",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.18",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "for such period (not exceeding 3 years from the date when it was renewed) as the Tribunal may specify in the order."
+  },
+  {
+   "id": "nsw-ga-22a",
+   "cite": "Guardianship Act 1987 (NSW) s 22A",
+   "title": "Death of guardian",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.22A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if there is no surviving guardian or alternative guardian, the Public Guardian is taken to be the person's guardian."
+  },
+  {
+   "id": "nsw-ga-25-25c",
+   "cite": "Guardianship Act 1987 (NSW) ss 25–25C",
+   "title": "Review of guardianship orders; action on review",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.25C",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "determine that the order is to lapse (and revoke the order in respect of any unexpired period for which the order is specified to ..."
+  },
+  {
+   "id": "nsw-ga-25e-25g",
+   "cite": "Guardianship Act 1987 (NSW) ss 25E–25G",
+   "title": "Financial management orders",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.25G",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the person is not capable of managing those affairs, and (b) there is a need for another person to manage those affairs"
+  },
+  {
+   "id": "nsw-ga-25m",
+   "cite": "Guardianship Act 1987 (NSW) s 25M",
+   "title": "Tribunal may commit estate of protected person to management",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.25M",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "appoint a suitable person as manager of that estate, or (b) commit the management of that estate to the NSW Trustee."
+  },
+  {
+   "id": "nsw-ga-25p",
+   "cite": "Guardianship Act 1987 (NSW) s 25P",
+   "title": "Action on review of financial management order",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.25P",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Tribunal is satisfied that the protected person is capable of managing his or her affairs"
+  },
+  {
+   "id": "nsw-ga-33-34",
+   "cite": "Guardianship Act 1987 (NSW) ss 33(2), 34 (Part 5)",
+   "title": "Incapable of giving consent; application of Part 5",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.34",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "who is of or above the age of 16 years, and (b) who is incapable of giving consent to the carrying out of medical ..."
+  },
+  {
+   "id": "nsw-ga-33a",
+   "cite": "Guardianship Act 1987 (NSW) s 33A",
+   "title": "Person responsible",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1987-257#sec.33A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(b) the spouse of the person, if any, if— (i) the relationship between the person and the spouse is close and continuing"
+  },
+  {
+   "id": "nswgov-guardian-support",
+   "cite": "NSW Government, Guardian support services",
+   "title": "What do I do when the person I represent dies?",
+   "url": "https://www.nsw.gov.au/legal-and-justice/financial-management-and-guardianship-orders/guardianship-orders/guardian-support-services",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Your role as guardian ceases when the person you represent dies."
+  },
+  {
+   "id": "nswgov-enduring-guardian",
+   "cite": "NSW Government, Choose an enduring guardian (last updated 30 October 2025)",
+   "title": "Enduring Guardianship for end of life planning",
+   "url": "https://www.nsw.gov.au/family-and-relationships/planning-for-end-of-life/choose-enduring-guardian",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "The appointment continues for as long as you need it unless: you revoke or cancel it while you have mental capacity to do so"
+  },
+  {
+   "id": "nsw-ntga-93",
+   "cite": "NSW Trustee and Guardian Act 2009 (NSW) ss 93–94, 96",
+   "title": "Termination on death of person; estate handed to legal representative",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2009-049#sec.93",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The management of the estate of a managed person under this Act is terminated on the death of the person."
+  },
+  {
+   "id": "nsw-ntga-18",
+   "cite": "NSW Trustee and Guardian Act 2009 (NSW) s 18",
+   "title": "Power to pay small amounts of money due to deceased persons",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2009-049#sec.18",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "without requiring administration to be taken out in the estate of the deceased person if— (a) the amount does not exceed the amount prescribed"
+  },
+  {
+   "id": "nsw-ntga-26",
+   "cite": "NSW Trustee and Guardian Act 2009 (NSW) ss 26, 28 (Part 3.2 Div 1)",
+   "title": "Election to administer small estates",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2009-049#sec.26",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The NSW Trustee may file an election to administer the estate of a deceased person ... instead of applying for probate or administration"
+  },
+  {
+   "id": "nsw-ntga-31",
+   "cite": "NSW Trustee and Guardian Act 2009 (NSW) s 31 (Part 3.2 Div 2)",
+   "title": "No probate or administration required",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2009-049#sec.31",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The NSW Trustee may deal with the estate as if probate of the will of the deceased person or administration of the estate had ..."
+  },
+  {
+   "id": "nsw-paa-40",
+   "cite": "Probate and Administration Act 1898 (NSW) s 40",
+   "title": "Probate or administration may be granted of real or personal estate",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1898-013#sec.40",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The Court shall have jurisdiction to grant probate of the will or administration of the estate of any deceased person leaving property"
+  },
+  {
+   "id": "nsw-paa-44",
+   "cite": "Probate and Administration Act 1898 (NSW) s 44(1)",
+   "title": "Real and personal estate to vest in executor or administrator",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1898-013#sec.44",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall as from the death of such person pass to and become vested in the executor to whom probate has been granted or administrator"
+  },
+  {
+   "id": "nsw-paa-61",
+   "cite": "Probate and Administration Act 1898 (NSW) s 61; Div 2A (ss 61A–61F) repealed 2009",
+   "title": "Property of deceased to vest in NSW Trustee",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1898-013#sec.61",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "until probate, or administration, or an order to collect is granted ... shall be deemed to be vested in the NSW Trustee"
+  },
+  {
+   "id": "nsw-sa-13",
+   "cite": "Succession Act 2006 (NSW) s 13",
+   "title": "What is the effect of divorce or an annulment on a will?",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2006-080#sec.13",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an appointment of the testator's former spouse as an executor, trustee, advisory trustee or guardian made by the will"
+  },
+  {
+   "id": "nsw-hta-4",
+   "cite": "Human Tissue Act 1983 (NSW) s 4(1), definition of \"senior available next of kin\"",
+   "title": "Definitions",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1983-164#sec.4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a person who was a spouse of the deceased person immediately before the deceased person's death"
+  },
+  {
+   "id": "nsw-hta-23",
+   "cite": "Human Tissue Act 1983 (NSW) s 23",
+   "title": "Authority to remove tissue where body of deceased at a hospital",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1983-164#sec.23",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a senior available next of kin has given his or her consent in writing, or in any other manner prescribed by the regulations"
+  },
+  {
+   "id": "nsw-hta-24",
+   "cite": "Human Tissue Act 1983 (NSW) s 24",
+   "title": "Authority to remove tissue where body of deceased not at a hospital",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1983-164#sec.24",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A senior available next of kin must not grant an authority under subsection (3) if it appears ... that— (a) the deceased person had ..."
+  },
+  {
+   "id": "sa-aodr",
+   "cite": "Services Australia, Australian Organ Donor Register",
+   "title": "Australian Organ Donor Register",
+   "url": "https://www.servicesaustralia.gov.au/australian-organ-donor-register",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "The national register where you record your organ and tissue donation decision."
+  },
+  {
+   "id": "nsw-phr-104",
+   "cite": "Public Health Regulation 2022 (NSW) cl 104",
+   "title": "Cremation application for dead persons other than stillborn children",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/sl-2022-0502",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "The application may be made by— (a) an executor of the estate of the dead person, or (b) a nearest surviving relative of the ..."
+  },
+  {
+   "id": "nsw-phr-106",
+   "cite": "Public Health Regulation 2022 (NSW) cl 106(2)(b)",
+   "title": "Cremation permits for dead persons other than stillborn children",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/sl-2022-0502",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "the proposed cremation would be contrary to a written direction left by the dead person"
+  },
+  {
+   "id": "smith-v-tamworth",
+   "cite": "Smith v Tamworth City Council (1997) 41 NSWLR 680",
+   "title": "Right to control disposal of remains (executor / person with highest right to administration)",
+   "url": "https://www.austlii.edu.au/au/cases/nsw/NSWSC/",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "unverified": true,
+   "note": "Not retrieved: AustLII denies automated access; URL is the NSWSC database index, not the judgment."
+  },
+  {
+   "id": "nsw-hripa-5",
+   "cite": "Health Records and Information Privacy Act 2002 (NSW) s 5(3)(a)",
+   "title": "Definition of personal information (exclusion after 30 years)",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2002-071#sec.5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Personal information does not include ... (a) information about an individual who has been dead for more than 30 years"
+  },
+  {
+   "id": "nsw-hripa-8",
+   "cite": "Health Records and Information Privacy Act 2002 (NSW) s 8",
+   "title": "Authorised representatives",
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2002-071#sec.8",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a guardian within the meaning of the Guardianship Act 1987, or a person responsible within the meaning of Part 5 of that Act"
+  },
+  {
+   "id": "nswlrc-r147",
+   "cite": "NSW Law Reform Commission, Report 147: Access to digital records upon death or incapacity (December 2019)",
+   "title": "Access to digital records upon death or incapacity",
+   "url": "https://lawreform.nsw.gov.au/content/dam/dcj/law-reform-commission/documents/Publications/Reports/Report%20147.pdf",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "nswlrc-r145",
+   "cite": "NSW Law Reform Commission, Report 145: Review of the Guardianship Act 1987 (2018)",
+   "title": "Review of the Guardianship Act 1987",
+   "url": "https://lawreform.nsw.gov.au/content/dam/dcj/law-reform-commission/documents/Current-projects/Guardianship/Report/Report%20145.pdf",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "nswlrc-reports-list",
+   "cite": "NSW Law Reform Commission, Reports list",
+   "title": "Reports | The NSW Law Reform Commission",
+   "url": "https://lawreform.nsw.gov.au/publications/reports.html",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16",
+   "quote": "Review of the Guardianship Act 1987"
+  }
+ ],
+ "roles": [
+  {
+   "id": "nsw-enduring-poa",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney under an enduring power of attorney",
+   "localNames": [
+    "attorney",
+    "enduring power of attorney"
+   ],
+   "summary": "An attorney for legal and financial affairs whose power continues after the principal loses mental capacity. The instrument must say so, and must be witnessed and certified by a prescribed witness such as a lawyer or Local Court registrar. The attorney has no authority until they accept by signing. The prescribed form lets the principal choose when it operates, including only once a doctor certifies incapacity.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs an instrument expressed to continue despite loss of capacity. A prescribed witness (not an attorney) witnesses it and certifies they explained it and the principal appeared to understand.",
+     "phase": "capable",
+     "citations": [
+      "nsw-poa-19",
+      "nsw-poa-8",
+      "nsw-poa-reg-2024-form2"
+     ]
+    },
+    "starts": {
+     "event": "When the attorney accepts by signing (at execution or later), and then from the commencement chosen in the form: on acceptance (default), once a medical practitioner considers the principal unable to manage their affairs, once the attorney considers help is needed, or another event",
+     "phase": "capable",
+     "citations": [
+      "nsw-poa-20",
+      "nsw-poa-reg-2024-form2"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation by the principal while they have capacity. Once NCAT or the Supreme Court declares the principal incapable, the principal cannot lawfully revoke.",
+      "phase": "capable",
+      "citations": [
+       "nsw-poa-36",
+       "nsw-poa-reg-2024-form1"
+      ]
+     },
+     {
+      "event": "Revoked in whole or part by NCAT or the Supreme Court on review",
+      "phase": "incapacitated",
+      "citations": [
+       "nsw-poa-36"
+      ]
+     },
+     {
+      "event": "Suspended while the principal's estate is under a financial management order (managed estate), unless the Tribunal keeps it in force for excluded property. The Supreme Court may terminate it.",
+      "phase": "incapacitated",
+      "citations": [
+       "nsw-poa-50"
+      ]
+     },
+     {
+      "event": "Vacancy of the only attorney (death, resignation, bankruptcy, loss of capacity or revocation of the attorney), or of one joint attorney unless the instrument provides otherwise and a substitute exists",
+      "phase": "incapacitated",
+      "citations": [
+       "nsw-poa-46-49",
+       "nsw-poa-reg-2024-vacancy"
+      ]
+     },
+     {
+      "event": "Death of the principal. There is no express termination section: the rule comes from general law, which the Act assumes (only irrevocable powers are saved from death by s 16) and which NSW Government guidance states.",
+      "phase": "deceased",
+      "citations": [
+       "nsw-poa-16",
+       "nsw-poa-21",
+       "nswgov-poa"
+      ]
+     },
+     {
+      "event": "Bankruptcy of the principal (general law; the Act says so only indirectly, by saving irrevocable powers from bankruptcy)",
+      "phase": "capable",
+      "citations": [
+       "nsw-poa-16",
+       "nsw-poa-21"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Registration is optional (General Register of Deeds). It is required only before a conveyance or other deed affecting land made under the power can have effect; leases of 3 years or less are excluded. The citation is POA Act s 52, not Conveyancing Act s 163B, which is the predecessor provision.",
+     "citations": [
+      "nsw-poa-52"
+     ]
+    },
+    {
+     "text": "An attorney who acts without knowing of termination, and a third party who deals in good faith without knowing of it, are protected. Acting with knowledge of termination is an offence carrying up to 5 years imprisonment.",
+     "citations": [
+      "nsw-poa-46-49"
+     ]
+    },
+    {
+     "text": "An enduring attorney cannot make health or lifestyle decisions; those belong to an enduring guardian or tribunal-appointed guardian.",
+     "citations": [
+      "nsw-poa-reg-2024-form2"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No enduring power of attorney"
+     },
+     {
+      "id": "designated",
+      "label": "Instrument executed and certified; attorney has not yet accepted, or the chosen commencement event (e.g. medical opinion) has not occurred"
+     },
+     {
+      "id": "active",
+      "label": "Attorney has accepted and the power operates; continues through loss of capacity"
+     },
+     {
+      "id": "suspended",
+      "label": "Principal's estate is under management (financial management order / NSW Trustee)"
+     },
+     {
+      "id": "terminated",
+      "label": "Revoked, terminated by tribunal/court, attorney vacancy, or principal's death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal executes prescribed-form instrument before prescribed witness",
+      "conditions": [
+       "Expressed to continue despite loss of capacity",
+       "Witness certificate s 19(1)(c)"
+      ],
+      "citations": [
+       "nsw-poa-19"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-accept-commence",
+      "from": "designated",
+      "to": "active",
+      "event": "Attorney signs acceptance and chosen commencement occurs",
+      "conditions": [
+       "Default commencement is on acceptance"
+      ],
+      "citations": [
+       "nsw-poa-20",
+       "nsw-poa-reg-2024-form2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-manage",
+      "from": "active",
+      "to": "suspended",
+      "event": "Financial management order puts principal's estate under management",
+      "conditions": [
+       "Unless NCAT orders the power to remain for excluded property"
+      ],
+      "citations": [
+       "nsw-poa-50",
+       "nsw-ga-25e-25g"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-restore",
+      "from": "suspended",
+      "to": "active",
+      "event": "Supreme Court restores the power, or estate ceases to be managed",
+      "conditions": [],
+      "citations": [
+       "nsw-poa-50"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal revokes while capable, or NCAT/Supreme Court revokes on review",
+      "conditions": [
+       "Principal not declared incapable under s 36"
+      ],
+      "citations": [
+       "nsw-poa-36"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-vacancy",
+      "from": "active",
+      "to": "terminated",
+      "event": "Sole attorney's office vacated with no substitute",
+      "conditions": [],
+      "citations": [
+       "nsw-poa-46-49",
+       "nsw-poa-reg-2024-vacancy"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "conditions": [
+       "General law; not an irrevocable power"
+      ],
+      "citations": [
+       "nsw-poa-16",
+       "nswgov-poa"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-general-poa",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Attorney under a general power of attorney",
+   "localNames": [
+    "general power of attorney",
+    "prescribed power of attorney"
+   ],
+   "summary": "An attorney for financial and legal affairs appointed on the prescribed general form. The power ceases if the principal loses mental capacity after signing and becomes invalid at death.",
+   "lane": {
+    "assigned": {
+     "event": "Principal executes a power of attorney (prescribed Form 1 or other instrument)",
+     "phase": "capable",
+     "citations": [
+      "nsw-poa-8",
+      "nsw-poa-reg-2024-form1"
+     ]
+    },
+    "starts": {
+     "event": "From the commencement chosen in the form: immediately (default), between specified dates, while overseas, or other",
+     "phase": "capable",
+     "citations": [
+      "nsw-poa-reg-2024-form1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal loses mental capacity (power effective only for acts within the principal's understanding)",
+      "phase": "incapacitated",
+      "citations": [
+       "nsw-poa-18",
+       "nsw-poa-reg-2024-form1",
+       "nswgov-poa"
+      ]
+     },
+     {
+      "event": "Revocation by the principal (notify the attorney, preferably in writing)",
+      "phase": "capable",
+      "citations": [
+       "nsw-poa-reg-2024-form1"
+      ]
+     },
+     {
+      "event": "Death of the principal",
+      "phase": "deceased",
+      "citations": [
+       "nswgov-poa",
+       "nsw-poa-16"
+      ]
+     },
+     {
+      "event": "End date specified in the instrument",
+      "phase": "capable",
+      "citations": [
+       "nsw-poa-reg-2024-form1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power of attorney"
+     },
+     {
+      "id": "active",
+      "label": "Power operates while principal has capacity"
+     },
+     {
+      "id": "terminated",
+      "label": "Loss of capacity, revocation, expiry or death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Principal executes and commencement occurs",
+      "conditions": [],
+      "citations": [
+       "nsw-poa-8",
+       "nsw-poa-reg-2024-form1"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incapacity",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal loses mental capacity",
+      "conditions": [],
+      "citations": [
+       "nsw-poa-18",
+       "nsw-poa-reg-2024-form1"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal revokes or specified period ends",
+      "conditions": [],
+      "citations": [
+       "nsw-poa-reg-2024-form1"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "conditions": [],
+      "citations": [
+       "nswgov-poa"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-enduring-guardian",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Enduring guardian",
+   "localNames": [
+    "enduring guardian",
+    "substitute enduring guardian"
+   ],
+   "summary": "A person an adult appoints, by a witnessed instrument the appointee also accepts, to make decisions about where they live, health care, personal services and consent to medical and dental treatment. The appointment operates only while the appointor is a 'person in need of a guardian'. It is revoked automatically if the appointor later marries someone else, and is suspended by any guardianship order.",
+   "lane": {
+    "assigned": {
+     "event": "Adult (18+) signs prescribed-form instrument; appointee endorses acceptance; eligible witness certifies voluntary execution and apparent understanding",
+     "phase": "capable",
+     "citations": [
+      "nsw-ga-6c"
+     ]
+    },
+    "starts": {
+     "event": "Only while the appointor is totally or partially incapable of managing their person because of a disability. The appointee may ask NCAT to declare that the appointment has effect.",
+     "phase": "incapacitated",
+     "citations": [
+      "nsw-ga-6a",
+      "nsw-ga-3",
+      "nsw-ga-6m"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation by the appointor with legal capacity, by prescribed witnessed instrument with written notice to the appointee",
+      "phase": "capable",
+      "citations": [
+       "nsw-ga-6h",
+       "nswgov-enduring-guardian"
+      ]
+     },
+     {
+      "event": "Appointor marries or remarries someone other than the appointee",
+      "phase": "capable",
+      "citations": [
+       "nsw-ga-6ha"
+      ]
+     },
+     {
+      "event": "Resignation: by written notice if the appointor is not in need of a guardian, or with Tribunal approval if they are",
+      "phase": "incapacitated",
+      "citations": [
+       "nsw-ga-6hb"
+      ]
+     },
+     {
+      "event": "Revocation by NCAT on review (best interests or at the guardian's request) or by the Supreme Court",
+      "phase": "incapacitated",
+      "citations": [
+       "nsw-ga-6j-6k"
+      ]
+     },
+     {
+      "event": "Appointor regains capacity: the appointment stops having effect, but revives in any later period of need",
+      "phase": "capable",
+      "citations": [
+       "nsw-ga-6a"
+      ]
+     },
+     {
+      "event": "Death of the appointor",
+      "phase": "deceased",
+      "citations": [
+       "nswgov-guardian-support",
+       "nsw-ga-6a"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A guardianship order automatically suspends all the enduring guardian's authority for as long as the order lasts. A person already under a guardianship order cannot validly appoint an enduring guardian.",
+     "citations": [
+      "nsw-ga-6i"
+     ]
+    },
+    {
+     "text": "A substitute enduring guardian acts only if the original guardian dies or resigns, or while the original guardian is incapacitated.",
+     "citations": [
+      "nsw-ga-6da"
+     ]
+    },
+    {
+     "text": "Section 6A has no separate commencement trigger such as a medical certificate. Whether the appointor is in need of a guardian is a question of fact, and NCAT can make a declaration.",
+     "citations": [
+      "nsw-ga-6a",
+      "nsw-ga-6m"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No enduring guardian"
+     },
+     {
+      "id": "designated",
+      "label": "Valid appointment; appointor not in need of a guardian"
+     },
+     {
+      "id": "active",
+      "label": "Appointor is a person in need of a guardian; functions exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Suspended by a guardianship order or by NCAT pending review"
+     },
+     {
+      "id": "terminated",
+      "label": "Revoked, resigned, revoked by marriage or tribunal, or appointor died"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Instrument executed, accepted and witnessed",
+      "conditions": [
+       "Appointee 18+ and not a paid care/accommodation/medical provider (or their relative)"
+      ],
+      "citations": [
+       "nsw-ga-6c"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-activate",
+      "from": "designated",
+      "to": "active",
+      "event": "Appointor becomes a person in need of a guardian",
+      "conditions": [
+       "Optional NCAT declaration under s 6M"
+      ],
+      "citations": [
+       "nsw-ga-6a",
+       "nsw-ga-6m"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-recover",
+      "from": "active",
+      "to": "designated",
+      "event": "Appointor ceases to be in need of a guardian",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-6a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-order",
+      "from": "active",
+      "to": "suspended",
+      "event": "Guardianship order made, or NCAT suspends pending review",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-6i",
+       "nsw-ga-6j-6k"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-order-ends",
+      "from": "suspended",
+      "to": "active",
+      "event": "Guardianship order ends or NCAT confirms appointment",
+      "conditions": [
+       "Appointor still in need of a guardian"
+      ],
+      "citations": [
+       "nsw-ga-6i",
+       "nsw-ga-6j-6k"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Appointor revokes with capacity, or marries/remarries another person",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-6h",
+       "nsw-ga-6ha"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-tribunal-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "NCAT revokes on review or approves resignation",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-6j-6k",
+       "nsw-ga-6hb"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Appointor dies",
+      "conditions": [],
+      "citations": [
+       "nswgov-guardian-support"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-person-responsible",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Person responsible (medical and dental consent)",
+   "localNames": [
+    "person responsible"
+   ],
+   "summary": "The statutory substitute who consents to medical or dental treatment for a patient aged 16 or over who cannot consent. In order: a guardian (including an enduring guardian) with medical consent authority; a spouse or de facto partner in a close and continuing relationship; an unpaid carer; a close friend or relative.",
+   "lane": {
+    "assigned": {
+     "event": "By operation of law under the s 33A hierarchy; no instrument",
+     "phase": "incapacitated",
+     "citations": [
+      "nsw-ga-33a"
+     ]
+    },
+    "starts": {
+     "event": "When a patient aged 16+ is incapable of understanding the general nature and effect of proposed treatment or of indicating consent",
+     "phase": "incapacitated",
+     "citations": [
+      "nsw-ga-33-34"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Patient regains capacity to consent to the treatment",
+      "phase": "capable",
+      "citations": [
+       "nsw-ga-33-34"
+      ]
+     },
+     {
+      "event": "Person declines in writing or is certified incapable of acting; the next person in the hierarchy becomes person responsible",
+      "phase": "incapacitated",
+      "citations": [
+       "nsw-ga-33a"
+      ]
+     },
+     {
+      "event": "Death of the patient (Part 5 applies only to living patients needing treatment)",
+      "phase": "deceased",
+      "citations": [
+       "nsw-ga-33-34"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Patient capable of consenting"
+     },
+     {
+      "id": "active",
+      "label": "Patient incapable; highest-ranked available person may consent"
+     },
+     {
+      "id": "terminated",
+      "label": "Patient regains capacity or dies"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-incapable",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Patient becomes incapable of giving consent",
+      "conditions": [
+       "Patient aged 16+",
+       "Hierarchy: guardian with medical function > spouse > carer > close friend/relative"
+      ],
+      "citations": [
+       "nsw-ga-33-34",
+       "nsw-ga-33a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-decline",
+      "from": "active",
+      "to": "active",
+      "event": "Person declines in writing or is certified incapable; next in hierarchy steps up",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-33a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Patient regains capacity",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-33-34"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Patient dies",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-33-34"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-guardian-order",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Guardian appointed by NCAT (Guardianship Division)",
+   "localNames": [
+    "guardian",
+    "Public Guardian"
+   ],
+   "summary": "A personal decision-maker appointed by a plenary or limited, continuing or temporary guardianship order of the Civil and Administrative Tribunal. The Tribunal must find the person is in need of a guardian. Orders are time-limited and reviewable. The Public Guardian is appointed only as a last resort.",
+   "lane": {
+    "assigned": {
+     "event": "Application to NCAT (by the person, Public Guardian or anyone with genuine concern); hearing; order under s 14",
+     "phase": "incapacitated",
+     "citations": [
+      "nsw-ga-14-16"
+     ]
+    },
+    "starts": {
+     "event": "When the guardianship order is made",
+     "phase": "incapacitated",
+     "citations": [
+      "nsw-ga-14-16"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Expiry of the order's period (continuing order: up to 1 year initially and up to 3 years on renewal, or up to 3 and 5 years for permanent disability; temporary order: up to 30 days, renewable once), unless renewed on review",
+      "phase": "incapacitated",
+      "citations": [
+       "nsw-ga-18",
+       "nsw-ga-25-25c"
+      ]
+     },
+     {
+      "event": "NCAT revokes, suspends or lets the order lapse on review",
+      "phase": "capable",
+      "citations": [
+       "nsw-ga-25-25c"
+      ]
+     },
+     {
+      "event": "Death of the person under guardianship",
+      "phase": "deceased",
+      "citations": [
+       "nswgov-guardian-support"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "If a guardian dies, a joint surviving guardian, then the alternative guardian, then the Public Guardian takes over until the order is reviewed.",
+     "citations": [
+      "nsw-ga-22a"
+     ]
+    },
+    {
+     "text": "A guardianship order suspends any enduring guardian's authority for its duration.",
+     "citations": [
+      "nsw-ga-6i"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No order"
+     },
+     {
+      "id": "active",
+      "label": "Guardianship order in force"
+     },
+     {
+      "id": "suspended",
+      "label": "Order suspended by NCAT on review"
+     },
+     {
+      "id": "terminated",
+      "label": "Order lapsed, revoked, or person died"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-order",
+      "from": "not_designated",
+      "to": "active",
+      "event": "NCAT makes guardianship order",
+      "conditions": [
+       "Person is in need of a guardian",
+       "Least restrictive order that suffices"
+      ],
+      "citations": [
+       "nsw-ga-14-16"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-suspend",
+      "from": "active",
+      "to": "suspended",
+      "event": "NCAT suspends on review",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-25-25c"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-renew",
+      "from": "active",
+      "to": "active",
+      "event": "NCAT renews order on review",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-25-25c",
+       "nsw-ga-18"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-lapse",
+      "from": "active",
+      "to": "terminated",
+      "event": "Period expires without renewal, or NCAT revokes",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-18",
+       "nsw-ga-25-25c"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person under guardianship dies",
+      "conditions": [],
+      "citations": [
+       "nswgov-guardian-support"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-financial-manager",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Financial manager under a financial management order",
+   "localNames": [
+    "manager of the estate",
+    "NSW Trustee and Guardian (as financial manager)",
+    "private manager"
+   ],
+   "summary": "If NCAT finds a person not capable of managing their affairs, that someone needs to manage them, and that an order is in the person's best interests, it puts the estate under management. It appoints a private manager, who acts under Supreme Court directions or NSW Trustee authorisation, or commits management to the NSW Trustee. Any power of attorney is suspended while the estate is managed. Management ends at death.",
+   "lane": {
+    "assigned": {
+     "event": "NCAT makes financial management order and appoints manager or commits estate to NSW Trustee",
+     "phase": "incapacitated",
+     "citations": [
+      "nsw-ga-25e-25g",
+      "nsw-ga-25m"
+     ]
+    },
+    "starts": {
+     "event": "On the order. A private manager may take only protective steps until Supreme Court directions or NSW Trustee authorisation are obtained.",
+     "phase": "incapacitated",
+     "citations": [
+      "nsw-ga-25m"
+     ]
+    },
+    "ends": [
+     {
+      "event": "NCAT revokes the order on review (person capable, or revocation in their best interests)",
+      "phase": "capable",
+      "citations": [
+       "nsw-ga-25p"
+      ]
+     },
+     {
+      "event": "Death of the managed person. Management terminates, the NSW Trustee hands money and property to the legal representative, and may complete transactions already under way.",
+      "phase": "deceased",
+      "citations": [
+       "nsw-ntga-93"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Estate not managed"
+     },
+     {
+      "id": "designated",
+      "label": "Private manager appointed, awaiting directions/authorisation (protective acts only)"
+     },
+     {
+      "id": "active",
+      "label": "Estate under management"
+     },
+     {
+      "id": "terminated",
+      "label": "Order revoked or person died"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-order-private",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "NCAT orders management and appoints a private manager",
+      "conditions": [
+       "s 25G grounds"
+      ],
+      "citations": [
+       "nsw-ga-25e-25g",
+       "nsw-ga-25m"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-authorise",
+      "from": "designated",
+      "to": "active",
+      "event": "Supreme Court directions or NSW Trustee authorisation obtained",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-25m"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-order-nswtg",
+      "from": "not_designated",
+      "to": "active",
+      "event": "NCAT commits estate to NSW Trustee",
+      "conditions": [
+       "s 25G grounds"
+      ],
+      "citations": [
+       "nsw-ga-25m"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "NCAT revokes order on review",
+      "conditions": [],
+      "citations": [
+       "nsw-ga-25p"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Managed person dies",
+      "conditions": [],
+      "citations": [
+       "nsw-ntga-93"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-hripa-authorised-representative",
+   "canonical": "health-records-representative",
+   "group": "health",
+   "name": "Authorised representative under the Health Records and Information Privacy Act",
+   "localNames": [
+    "authorised representative (HRIP Act)"
+   ],
+   "summary": "For NSW health-privacy purposes, an enduring attorney, guardian, person responsible, parent of a child, or other person empowered by law can act for an individual. The scope depends on that underlying role.",
+   "derivedFrom": [
+    "nsw-enduring-poa",
+    "nsw-enduring-guardian",
+    "nsw-guardian-order",
+    "nsw-person-responsible"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Holding one of the listed underlying roles",
+     "phase": "capable",
+     "citations": [
+      "nsw-hripa-8"
+     ]
+    },
+    "starts": {
+     "event": "When the underlying authority is in effect (for example, the enduring guardian's appointment takes effect)",
+     "phase": "incapacitated",
+     "citations": [
+      "nsw-hripa-8",
+      "nsw-ga-6e"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Underlying authority ends, or acting would be inconsistent with a court or tribunal order",
+      "phase": "deceased",
+      "citations": [
+       "nsw-hripa-8"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Post-death access by an executor or administrator (e.g. under the 'otherwise empowered under law' limb) was not verified. The Act stops treating information as personal information once the person has been dead for more than 30 years.",
+     "citations": [
+      "nsw-hripa-8",
+      "nsw-hripa-5"
+     ],
+     "unverified": true
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No underlying authority"
+     },
+     {
+      "id": "active",
+      "label": "Underlying authority in effect"
+     },
+     {
+      "id": "terminated",
+      "label": "Underlying authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-derive",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Underlying role takes effect",
+      "conditions": [],
+      "citations": [
+       "nsw-hripa-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Underlying role ends or conflicting court/tribunal order",
+      "conditions": [],
+      "citations": [
+       "nsw-hripa-8"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor",
+   "localNames": [
+    "executor",
+    "executor to whom probate has been granted"
+   ],
+   "summary": "The person named in the will. When the Supreme Court grants probate, the deceased's NSW property vests in the executor as from the date of death. Until a grant, the property is deemed vested in the NSW Trustee. Divorce or annulment revokes the appointment of a former spouse as executor unless the will shows a contrary intention.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names executor in a valid will",
+     "phase": "capable",
+     "citations": [
+      "nsw-sa-13"
+     ]
+    },
+    "starts": {
+     "event": "On grant of probate by the Supreme Court; vesting relates back to the date of death. Any authority to act before the grant comes from general law (not verified here), and third parties such as the ATO generally require the grant.",
+     "phase": "administration",
+     "citations": [
+      "nsw-paa-40",
+      "nsw-paa-44",
+      "nsw-paa-61"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Testator's divorce or annulment revokes the appointment of the former spouse as executor (unless contrary intention)",
+      "phase": "capable",
+      "citations": [
+       "nsw-sa-13"
+      ]
+     },
+     {
+      "event": "Estate fully administered and distributed (no statutory discharge event identified)",
+      "phase": "closed",
+      "citations": [
+       "nsw-paa-44"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No will naming the person"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will; testator alive, or deceased but no grant yet (estate deemed vested in NSW Trustee)"
+     },
+     {
+      "id": "active",
+      "label": "Probate granted; estate vested in executor from date of death"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment revoked (divorce/annulment, revocation of will) or administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will executed naming executor",
+      "conditions": [],
+      "citations": [
+       "nsw-sa-13"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-divorce",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Testator divorced from, or marriage annulled with, the named executor",
+      "conditions": [
+       "No contrary intention in will"
+      ],
+      "citations": [
+       "nsw-sa-13"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-probate",
+      "from": "designated",
+      "to": "active",
+      "event": "Supreme Court grants probate",
+      "conditions": [
+       "Testator has died"
+      ],
+      "citations": [
+       "nsw-paa-40",
+       "nsw-paa-44",
+       "nsw-paa-61"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration complete",
+      "conditions": [],
+      "citations": [
+       "nsw-paa-44"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator",
+   "localNames": [
+    "administrator",
+    "administrator with the will annexed"
+   ],
+   "summary": "A person to whom the Supreme Court grants letters of administration (on intestacy, or with the will annexed where there is no available executor). Authority comes from the grant, and the estate then vests in them as from death.",
+   "lane": {
+    "assigned": {
+     "event": "Supreme Court grants letters of administration",
+     "phase": "administration",
+     "citations": [
+      "nsw-paa-40",
+      "nsw-paa-44"
+     ]
+    },
+    "starts": {
+     "event": "On the grant; until then the estate is deemed vested in the NSW Trustee",
+     "phase": "administration",
+     "citations": [
+      "nsw-paa-44",
+      "nsw-paa-61"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate fully administered (no statutory discharge event identified)",
+      "phase": "closed",
+      "citations": [
+       "nsw-paa-44"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No grant"
+     },
+     {
+      "id": "active",
+      "label": "Letters of administration granted"
+     },
+     {
+      "id": "terminated",
+      "label": "Administration complete or grant revoked"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-grant",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Supreme Court grants administration",
+      "conditions": [],
+      "citations": [
+       "nsw-paa-40",
+       "nsw-paa-44"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration complete",
+      "conditions": [],
+      "citations": [
+       "nsw-paa-44"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-trustee-small-estate",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "NSW Trustee administering a small estate without a grant",
+   "localNames": [
+    "NSW Trustee and Guardian (small estate)"
+   ],
+   "summary": "NSW has no general affidavit procedure that lets family collect a small estate without a grant. Only the NSW Trustee has statutory small-estate powers: it may file an election to administer instead of seeking a grant, deal with an estate as if it held a grant after giving notice, or pay small sums it owes to a deceased person without administration. All thresholds are 'prescribed by the regulations'. Private institutions' release-without-probate thresholds are their own policy.",
+   "lane": {
+    "assigned": {
+     "event": "Automatic statutory capacity of the NSW Trustee when estate value is below the prescribed amount",
+     "phase": "deceased",
+     "citations": [
+      "nsw-ntga-26",
+      "nsw-ntga-31"
+     ]
+    },
+    "starts": {
+     "event": "On filing an election in the Supreme Court registry (s 26), or on giving notice under the regulations (s 31), where no grant has been sought",
+     "phase": "administration",
+     "citations": [
+      "nsw-ntga-26",
+      "nsw-ntga-31"
+     ]
+    },
+    "ends": [
+     {
+      "event": "NSW Trustee learns gross value exceeds the prescribed amount and files notice; it may not continue under the election",
+      "phase": "administration",
+      "citations": [
+       "nsw-ntga-26"
+      ]
+     },
+     {
+      "event": "Estate administered",
+      "phase": "closed",
+      "citations": [
+       "nsw-ntga-31"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No NSW Trustee small-estate action"
+     },
+     {
+      "id": "active",
+      "label": "Election filed or s 31 notice given; NSW Trustee deals with estate as if granted"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate exceeds threshold (notice filed) or administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-elect",
+      "from": "not_designated",
+      "to": "active",
+      "event": "NSW Trustee files election (s 26) or gives notice (s 31)",
+      "conditions": [
+       "Value below prescribed amount",
+       "No grant obtained or applied for"
+      ],
+      "citations": [
+       "nsw-ntga-26",
+       "nsw-ntga-31"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-exceed",
+      "from": "active",
+      "to": "terminated",
+      "event": "Value found to exceed prescribed amount; notice filed",
+      "conditions": [],
+      "citations": [
+       "nsw-ntga-26"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration complete",
+      "conditions": [],
+      "citations": [
+       "nsw-ntga-31"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-senior-available-next-of-kin",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Senior available next of kin (tissue donation)",
+   "localNames": [
+    "senior available next of kin",
+    "designated officer (hospital)"
+   ],
+   "summary": "NSW is opt-in. If the deceased gave unrevoked written consent, a hospital designated officer may authorise removal on that basis. Otherwise, provided the deceased had not objected, the senior available next of kin may consent: spouse or de facto partner, then adult child, then parent, then adult sibling. No next of kin of the same or higher class may object.",
+   "lane": {
+    "assigned": {
+     "event": "By operation of law under the s 4 definition at death",
+     "phase": "deceased",
+     "citations": [
+      "nsw-hta-4"
+     ]
+    },
+    "starts": {
+     "event": "On death, where the deceased's own written consent is not established",
+     "phase": "deceased",
+     "citations": [
+      "nsw-hta-23",
+      "nsw-hta-24"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removal authorised or not pursued. Consent is barred if the deceased objected (and the objection was not later withdrawn) or if equal- or higher-ranked next of kin object.",
+      "phase": "deceased",
+      "citations": [
+       "nsw-hta-23",
+       "nsw-hta-24"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The Australian Organ Donor Register is the national register where people 16 and over record a donation decision. Its legal effect in NSW works through the Human Tissue Act consent provisions; no statutory link was verified.",
+     "citations": [
+      "sa-aodr"
+     ],
+     "unverified": true
+    },
+    {
+     "text": "Special rules apply to deceased children and to children in the care of the State (ss 23A, 24A).",
+     "citations": [
+      "nsw-hta-23",
+      "nsw-hta-24"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Person living"
+     },
+     {
+      "id": "active",
+      "label": "Deceased; senior available next of kin may consent absent objection"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority given or refused / window closed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death without an established unrevoked written consent",
+      "conditions": [
+       "No known objection by deceased"
+      ],
+      "citations": [
+       "nsw-hta-23",
+       "nsw-hta-24"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-decide",
+      "from": "active",
+      "to": "terminated",
+      "event": "Next of kin consents (designated officer authorises) or declines, or equal/higher-ranked kin objects",
+      "conditions": [],
+      "citations": [
+       "nsw-hta-23",
+       "nsw-hta-24"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "nsw-remains",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Person entitled to arrange disposal of the body",
+   "localNames": [
+    "executor",
+    "nearest surviving relative (cremation applicant)"
+   ],
+   "summary": "No NSW statute sets a general order of priority. At common law the executor (or the person with the highest right to administration) is said to control disposal (Smith v Tamworth City Council); this is not verified from a primary source here. For cremation, the Public Health Regulation 2022 lets an executor or a nearest surviving relative apply. A medical referee must refuse a permit if cremation would go against the deceased's written direction.",
+   "lane": {
+    "assigned": {
+     "event": "Named executor in will; otherwise nearest surviving relative (for cremation application)",
+     "phase": "capable",
+     "citations": [
+      "nsw-phr-104",
+      "smith-v-tamworth"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "nsw-phr-104"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Body buried or cremated",
+      "phase": "deceased",
+      "citations": [
+       "nsw-phr-104"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The executor's common-law right to possession and disposal (Smith v Tamworth City Council (1997) 41 NSWLR 680) could not be checked against an official copy. AustLII blocks automated access, and the judgment was not found on an official NSW host.",
+     "citations": [
+      "smith-v-tamworth"
+     ],
+     "unverified": true
+    },
+    {
+     "text": "If no executor or relative is available, a medical referee or coroner may accept a cremation application from another person they consider proper.",
+     "citations": [
+      "nsw-phr-104",
+      "nsw-phr-106"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "designated",
+      "label": "Executor named / relatives exist; person living"
+     },
+     {
+      "id": "active",
+      "label": "Deceased; entitled person arranges burial or applies for cremation"
+     },
+     {
+      "id": "terminated",
+      "label": "Disposal completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Death",
+      "conditions": [],
+      "citations": [
+       "nsw-phr-104"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-cremation-permit",
+      "from": "active",
+      "to": "active",
+      "event": "Medical referee issues cremation permit",
+      "conditions": [
+       "Not contrary to a written direction left by the deceased",
+       "Death not examinable by coroner"
+      ],
+      "citations": [
+       "nsw-phr-106"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-dispose",
+      "from": "active",
+      "to": "terminated",
+      "event": "Burial or cremation completed",
+      "conditions": [],
+      "citations": [
+       "nsw-phr-104"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A power of attorney endures only if it is expressed to continue despite loss of capacity and is certified by a prescribed witness. The general form ceases on loss of capacity.",
+   "citations": [
+    "nsw-poa-19",
+    "nsw-poa-reg-2024-form1"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "Prescribed Form 2 lets the principal choose when the power operates: on acceptance (default), once a medical practitioner considers the principal unable to manage their affairs, once the attorney considers help is needed, or 'Other'. The Act's only statutory gate is the attorney's acceptance (s 20).",
+   "citations": [
+    "nsw-poa-reg-2024-form2",
+    "nsw-poa-20"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "Registration is optional, except that a conveyance or deed affecting land under a power has no effect until the power is registered (leases of 3 years or less excluded). Citation: POA Act s 52, not Conveyancing Act s 163B.",
+   "citations": [
+    "nsw-poa-52",
+    "nswgov-poa"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "An enduring guardian's appointment has effect only while the appointor is a 'person in need of a guardian'. No clinician certificate is required, and NCAT may declare that the appointment has effect.",
+   "citations": [
+    "nsw-ga-6a",
+    "nsw-ga-3",
+    "nsw-ga-6m"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": false,
+   "year": null,
+   "name": "None. NSWLRC Report 145 (2018) recommended a new Assisted Decision-Making Act to replace the Guardianship Act 1987 and POA Act Part 4. Law-reform context only; not enacted in the current Guardianship Act.",
+   "citations": [
+    "nswlrc-r145",
+    "nswlrc-reports-list"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": "None enacted. NSWLRC Report 147 (2019) recommended a statutory scheme for access to digital records on death or incapacity. No such provision found in NSW in-force legislation.",
+   "citations": [
+    "nswlrc-r147",
+    "nswlrc-reports-list"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "citations": [
+    "nswlrc-r147"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Human Tissue Act 1983 (NSW): the deceased's written consent, or consent of the senior available next of kin absent objection. Decisions can be recorded on the national Australian Organ Donor Register.",
+   "citations": [
+    "nsw-hta-23",
+    "nsw-hta-24",
+    "nsw-hta-4",
+    "sa-aodr"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": false,
+   "threshold": null,
+   "currency": "AUD",
+   "waitingDays": null,
+   "note": "No general procedure lets a relative or affiant collect a small estate without a grant. The statutory small-estate powers belong to the NSW Trustee alone (NTGA ss 18, 26, 31), with amounts 'prescribed by the regulations'; the exact figures could not be read from the regulation (see unverified). The old Probate and Administration Act Div 2A (ss 61A–61F) was repealed in 2009. Banks' release-without-probate limits are institutional policy.",
+   "citations": [
+    "nsw-ntga-18",
+    "nsw-ntga-26",
+    "nsw-ntga-31",
+    "nsw-paa-61"
+   ]
+  },
+  "probateGrantName": {
+   "value": "grant of probate",
+   "note": "The Supreme Court of NSW grants probate (executor) or letters of administration (administrator).",
+   "citations": [
+    "nsw-paa-40",
+    "nsw-paa-44"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": "partial",
+   "note": "The Commonwealth Privacy Act does not protect deceased persons (see au-commonwealth). The NSW Health Records and Information Privacy Act 2002 excludes information only once the person has been dead for more than 30 years, so NSW health information stays protected for 30 years after death.",
+   "citations": [
+    "nsw-hripa-5"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "An enduring guardian's appointment operates only while the appointor is in need of a guardian. NSW Government guidance says a guardian's role ceases at death. Body disposal and estate matters pass to the executor or administrator.",
+   "citations": [
+    "nsw-ga-6a",
+    "nswgov-guardian-support"
+   ]
+  }
+ }
+}
