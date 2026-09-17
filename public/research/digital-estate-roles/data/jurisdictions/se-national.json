@@ -762,6 +762,15 @@
       "citations": [
        "se-ab-19-1"
       ]
+     },
+     {
+      "id": "se-t-te-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration completed",
+      "citations": [
+       "se-ab-19-1"
+      ]
      }
     ]
    },

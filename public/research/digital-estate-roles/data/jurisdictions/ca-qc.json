@@ -2652,10 +2652,6 @@
      {
       "id": "suspended",
       "label": "Deceased recorded a written refusal (grieving and cause-of-death access blocked; genetic-disease access still allowed)"
-     },
-     {
-      "id": "terminated",
-      "label": "Purpose exhausted"
      }
     ],
     "transitions": [

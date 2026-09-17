@@ -2511,6 +2511,15 @@
     ],
     "transitions": [
      {
+      "id": "bc-t-disp-passdown",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "A person higher in the s 5 order is unavailable or unwilling, so the right to control disposition passes down the list",
+      "citations": [
+       "bc-cifsa-5"
+      ]
+     },
+     {
       "id": "t-death",
       "from": "designated",
       "to": "active",

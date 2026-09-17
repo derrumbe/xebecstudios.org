@@ -480,6 +480,24 @@
    "url": "https://www.legislation.gov.uk/anaw/2013/5/section/19",
    "kind": "statute",
    "retrieved": "2026-09-16"
+  },
+  {
+   "id": "mca-s13-4",
+   "cite": "Mental Capacity Act 2005 s 13(4)",
+   "title": "Suspension of a property and affairs power on an interim bankruptcy restrictions order",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/13",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "But where P is bankrupt merely because an interim bankruptcy restrictions order has effect in respect of him … , the power is suspended, so far as it relates to P's property and affairs, for so long as the order has effect."
+  },
+  {
+   "id": "mca-s13-9",
+   "cite": "Mental Capacity Act 2005 s 13(9)",
+   "title": "Suspension of a property and affairs power on an interim bankruptcy restrictions order",
+   "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/13",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Where the donee is bankrupt merely because an interim bankruptcy restrictions order has effect in respect of him … , his appointment and the power are suspended, so far as they relate to P's property and affairs, for so long as the order has effect."
   }
  ],
  "roles": [
@@ -923,6 +941,26 @@
       ],
       "unverified": false,
       "phase": "capable"
+     },
+     {
+      "id": "ew-t-lpa-prop-suspend",
+      "from": "active",
+      "to": "suspended",
+      "event": "Donor or attorney bankrupt merely because an interim bankruptcy restrictions order has effect; the power is suspended so far as it relates to property and affairs",
+      "citations": [
+       "mca-s13-4",
+       "mca-s13-9"
+      ]
+     },
+     {
+      "id": "ew-t-lpa-prop-unsuspend",
+      "from": "suspended",
+      "to": "active",
+      "event": "The interim order ceases to have effect; the suspension lasts only for so long as the order does",
+      "citations": [
+       "mca-s13-4",
+       "mca-s13-9"
+      ]
      }
     ]
    }
@@ -1045,10 +1083,6 @@
      {
       "id": "active",
       "label": "Authority exercisable"
-     },
-     {
-      "id": "suspended",
-      "label": "Authority suspended"
      },
      {
       "id": "terminated",
@@ -1246,10 +1280,6 @@
       "label": "Not appointed"
      },
      {
-      "id": "designated",
-      "label": "Appointed/instrument made but not yet usable"
-     },
-     {
       "id": "active",
       "label": "Authority exercisable"
      },
@@ -1430,16 +1460,8 @@
       "label": "Not appointed"
      },
      {
-      "id": "designated",
-      "label": "Appointed/instrument made but not yet usable"
-     },
-     {
       "id": "active",
       "label": "Authority exercisable"
-     },
-     {
-      "id": "suspended",
-      "label": "Authority suspended"
      },
      {
       "id": "terminated",
@@ -1616,10 +1638,6 @@
       "label": "Authority exercisable"
      },
      {
-      "id": "suspended",
-      "label": "Authority suspended"
-     },
-     {
       "id": "terminated",
       "label": "Authority ended"
      },
@@ -1647,8 +1665,8 @@
      {
       "id": "t-order",
       "from": "designated",
-      "to": "active",
-      "event": "Court appoints deputy by order and sends it",
+      "to": "pending_bond",
+      "event": "Court of Protection makes the appointment order; a property and affairs deputy must arrange the required security bond first",
       "conditions": [
        "Deputy consents",
        "For property deputies, security bond set up if required"
@@ -1701,6 +1719,16 @@
       ],
       "unverified": false,
       "phase": "deceased"
+     },
+     {
+      "id": "ew-t-dep-sealed",
+      "from": "pending_bond",
+      "to": "active",
+      "event": "Security bond in place and the sealed order issues, so the deputy may act",
+      "citations": [
+       "govuk-deputy",
+       "mca-s19"
+      ]
      }
     ]
    }
@@ -1810,10 +1838,6 @@
      {
       "id": "active",
       "label": "Authority exercisable"
-     },
-     {
-      "id": "suspended",
-      "label": "Authority suspended"
      },
      {
       "id": "terminated",
@@ -2144,10 +2168,6 @@
       "label": "Testator dead; executor has title and authority (before or after probate)"
      },
      {
-      "id": "suspended",
-      "label": "Not used"
-     },
-     {
       "id": "terminated",
       "label": "Renounced, passed over/grant revoked, or administration complete"
      }
@@ -2324,10 +2344,6 @@
      {
       "id": "active",
       "label": "Letters of administration granted"
-     },
-     {
-      "id": "suspended",
-      "label": "Not used"
      },
      {
       "id": "terminated",
@@ -2736,10 +2752,6 @@
      {
       "id": "active",
       "label": "Authority exercisable"
-     },
-     {
-      "id": "suspended",
-      "label": "Authority suspended"
      },
      {
       "id": "terminated",

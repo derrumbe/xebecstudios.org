@@ -6,6 +6,15 @@
  "note": "Spanish state law: Código Civil as amended by Ley 8/2021 (support measures and preventive powers), Ley 41/2002 (patient autonomy) and Ley 30/1979 (organ donation). Catalonia, Aragón, Navarre, the Basque Country, Galicia and the Balearics have their own civil law of succession, which is not covered here.",
  "citations": [
   {
+   "id": "es-cc-1732",
+   "cite": "Código Civil art. 1732",
+   "title": "Extinción del mandato",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "El mandato se acaba: 1.º Por su revocación ... 3.º Por muerte o por concurso del mandante o del mandatario."
+  },
+  {
    "id": "es-cc-250",
    "cite": "Código Civil art. 250",
    "title": "Medidas de apoyo",
@@ -87,13 +96,13 @@
    "quote": "El testador podrá nombrar uno o más albaceas."
   },
   {
-   "id": "es-cc-1732",
-   "cite": "Código Civil art. 1732",
-   "title": "Extinción del mandato",
-   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "id": "es-l30-5",
+   "cite": "Ley 30/1979 art. quinto",
+   "title": "Extracción de órganos de fallecidos",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-26445",
    "kind": "statute",
    "retrieved": "2026-09-17",
-   "quote": "El mandato se acaba: 1.º Por su revocación ... 3.º Por muerte o por concurso del mandante o del mandatario."
+   "quote": "podrá realizarse con fines terapéuticos o científicos, en el caso de que éstos no hubieran dejado constancia expresa de su oposición"
   },
   {
    "id": "es-l41-11",
@@ -105,13 +114,13 @@
    "quote": "manifiesta anticipadamente su voluntad ... sobre los cuidados y el tratamiento de su salud o, una vez llegado el fallecimiento, sobre el destino de su cuerpo"
   },
   {
-   "id": "es-l30-5",
-   "cite": "Ley 30/1979 art. quinto",
-   "title": "Extracción de órganos de fallecidos",
-   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-26445",
+   "id": "es-l41-11-4",
+   "cite": "Ley 41/2002 art. 11.4",
+   "title": "Revocación de las instrucciones previas",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188",
    "kind": "statute",
    "retrieved": "2026-09-17",
-   "quote": "podrá realizarse con fines terapéuticos o científicos, en el caso de que éstos no hubieran dejado constancia expresa de su oposición"
+   "quote": "Las instrucciones previas podrán revocarse libremente en cualquier momento dejando constancia por escrito."
   }
  ],
  "roles": [
@@ -616,10 +625,11 @@
     },
     "ends": [
      {
-      "event": "Authority over the body and organs continues past death by the document's own terms",
+      "event": "Authority over the body and organs continues past death by the document’s own terms; the document itself may be revoked freely in writing at any time while the grantor can do so",
       "phase": "deceased",
       "citations": [
-       "es-l41-11"
+       "es-l41-11",
+       "es-l41-11-4"
       ]
      }
     ],
@@ -664,6 +674,15 @@
       "event": "El otorgante no puede expresar personalmente su voluntad",
       "citations": [
        "es-l41-11"
+      ]
+     },
+     {
+      "id": "es-t-ip-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Revocación libre en cualquier momento, dejando constancia por escrito (art. 11.4)",
+      "citations": [
+       "es-l41-11-4"
       ]
      }
     ]
@@ -876,6 +895,15 @@
       "from": "designated",
       "to": "active",
       "event": "Aceptación del cargo tras el fallecimiento",
+      "citations": [
+       "es-cc-892"
+      ]
+     },
+     {
+      "id": "es-t-alb-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Office discharged",
       "citations": [
        "es-cc-892"
       ]

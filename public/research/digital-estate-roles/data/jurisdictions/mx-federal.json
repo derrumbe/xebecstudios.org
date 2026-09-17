@@ -434,6 +434,15 @@
       "citations": [
        "mx-ccf-1706"
       ]
+     },
+     {
+      "id": "mx-t-alb-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Accounts rendered and the office discharged",
+      "citations": [
+       "mx-ccf-1706"
+      ]
      }
     ]
    },

@@ -607,6 +607,15 @@
       "citations": [
        "br-cc-1976"
       ]
+     },
+     {
+      "id": "br-t-test-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Dispositions carried out",
+      "citations": [
+       "br-cc-1976"
+      ]
      }
     ]
    },
