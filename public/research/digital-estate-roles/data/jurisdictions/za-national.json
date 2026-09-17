@@ -1,0 +1,325 @@
+{
+ "jurisdiction": "za-national",
+ "name": "South Africa",
+ "country": "za",
+ "legalSystem": "mixed",
+ "note": "South African estate administration: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice's published copies. Only the estate roles are covered. Powers of attorney (common law, and they lapse on the grantor's incapacity), curatorship and administrators under the Mental Health Care Act 17 of 2002, and organ donation under the National Health Act 61 of 2003 are NOT covered: those acts are not in the Department of Justice's legislation index and were not retrieved. Note also that the Department's PDFs are Juta typesettings of the acts, hosted by the Department.",
+ "citations": [
+  {
+   "id": "za-aea-14",
+   "cite": "Administration of Estates Act 66 of 1965, s 14",
+   "title": "Letters of executorship to executors testamentary",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The Master shall, subject to subsection (2) and sections 16 and 22, on the written application of any person who has been nominated as executor by any deceased person by a will"
+  },
+  {
+   "id": "za-aea-18",
+   "cite": "Administration of Estates Act 66 of 1965, s 18",
+   "title": "Proceedings on failure of nomination of executors or on death, incapacity or refusal to act",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "if any person has died without having by will nominated any person to be his executor; or if the whereabouts of any person so nominated to be sole executor ... are unknown"
+  },
+  {
+   "id": "za-aea-18-3",
+   "cite": "Administration of Estates Act 66 of 1965, s 18(3)",
+   "title": "Master may dispense with the appointment of an executor",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "value of any estate does not exceed the amount determined by the Minister by notice in the Gazette, the Master may dispense with the appointment of an executor and give directions as to the manner in which any such estate shall be liquidated and distributed"
+  },
+  {
+   "id": "za-isa-1",
+   "cite": "Intestate Succession Act 81 of 1987, s 1",
+   "title": "Intestate succession",
+   "url": "https://www.justice.gov.za/legislation/acts/1987-81.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "is survived by a spouse, but not by a descendant, such spouse shall inherit the intestate estate; is survived by a descendant, but not by a spouse, such descendant shall inherit"
+  },
+  {
+   "id": "za-wills-2",
+   "cite": "Wills Act 7 of 1953, s 2",
+   "title": "Formalities required in the execution of a will",
+   "url": "https://www.justice.gov.za/legislation/acts/1953-07.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "no will executed on or after the first day of January, 1954, shall be valid unless the will is signed at the end thereof by the testator"
+  }
+ ],
+ "roles": [
+  {
+   "id": "za-executor-testamentary",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor testamentary",
+   "localNames": [
+    "executor testamentary",
+    "letters of executorship"
+   ],
+   "summary": "An executor nominated by will. Authority comes from the Master of the High Court issuing letters of executorship on written application, not from the will alone.",
+   "lane": {
+    "assigned": {
+     "event": "Nominated as executor by a will that has been registered and accepted in the office of the Master",
+     "phase": "capable",
+     "citations": [
+      "za-aea-14",
+      "za-wills-2"
+     ]
+    },
+    "starts": {
+     "event": "Master issues letters of executorship on written application",
+     "phase": "administration",
+     "citations": [
+      "za-aea-14"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate liquidated and distributed",
+      "phase": "closed",
+      "citations": [
+       "za-aea-18"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None nominated"
+     },
+     {
+      "id": "designated",
+      "label": "Nominated by will"
+     },
+     {
+      "id": "active",
+      "label": "Letters issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate wound up"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-et-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Nomination by a valid will (Wills Act s 2)",
+      "citations": [
+       "za-wills-2"
+      ]
+     },
+     {
+      "id": "za-t-et-letters",
+      "from": "designated",
+      "to": "active",
+      "event": "Master issues letters of executorship (s 14)",
+      "conditions": [
+       "written application",
+       "will registered and accepted by the Master"
+      ],
+      "citations": [
+       "za-aea-14"
+      ]
+     },
+     {
+      "id": "za-t-et-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate liquidated and distributed",
+      "citations": [
+       "za-aea-18"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-executor-dative",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Executor dative",
+   "localNames": [
+    "executor dative",
+    "letters of executorship"
+   ],
+   "summary": "Where nobody was nominated by will, or the nominee cannot be found or will not act, the Master appoints. On intestacy the estate then devolves under the Intestate Succession Act.",
+   "lane": {
+    "assigned": {
+     "event": "Master acts where there is no nomination, or the nominee's whereabouts are unknown, or they have died, are incapacitated or refuse to act",
+     "phase": "administration",
+     "citations": [
+      "za-aea-18"
+     ]
+    },
+    "starts": {
+     "event": "Master issues letters of executorship",
+     "phase": "administration",
+     "citations": [
+      "za-aea-18"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate liquidated and distributed to those entitled",
+      "phase": "closed",
+      "citations": [
+       "za-isa-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Letters issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate wound up"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-ed-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Master appoints on failure of nomination (s 18(1))",
+      "citations": [
+       "za-aea-18"
+      ]
+     },
+     {
+      "id": "za-t-ed-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Distribution, on intestacy under the Intestate Succession Act s 1",
+      "citations": [
+       "za-isa-1"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-small-estate",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Estate dealt with without an executor",
+   "localNames": [
+    "section 18(3) estate",
+    "Master's directions"
+   ],
+   "summary": "Where the estate is below the amount the Minister sets by notice in the Gazette, the Master may dispense with an executor altogether and direct how the estate is to be liquidated and distributed.",
+   "lane": {
+    "assigned": {
+     "event": "Master decides the estate falls under the Gazetted amount",
+     "phase": "administration",
+     "citations": [
+      "za-aea-18-3"
+     ]
+    },
+    "starts": {
+     "event": "Master gives directions in place of appointing an executor",
+     "phase": "administration",
+     "citations": [
+      "za-aea-18-3"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate liquidated and distributed as directed",
+      "phase": "closed",
+      "citations": [
+       "za-aea-18-3"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Ordinary administration"
+     },
+     {
+      "id": "active",
+      "label": "Master's directions"
+     },
+     {
+      "id": "terminated",
+      "label": "Distributed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-se-dispense",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Master dispenses with an executor (s 18(3))",
+      "conditions": [
+       "estate does not exceed the amount determined by the Minister by notice in the Gazette"
+      ],
+      "citations": [
+       "za-aea-18-3"
+      ]
+     },
+     {
+      "id": "za-t-se-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate liquidated and distributed as directed",
+      "citations": [
+       "za-aea-18-3"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "probateGrantName": {
+   "value": "letters of executorship",
+   "note": "Issued by the Master of the High Court rather than a court, both where an executor is nominated by will and where the Master appoints.",
+   "citations": [
+    "za-aea-14",
+    "za-aea-18"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": true,
+   "threshold": null,
+   "currency": "ZAR",
+   "waitingDays": null,
+   "note": "The Master may dispense with an executor where the estate does not exceed an amount the Minister sets by notice in the Gazette. The Act itself does not state a figure, and the current notice was not retrieved, so no amount is recorded here.",
+   "citations": [
+    "za-aea-18-3"
+   ]
+  }
+ }
+}
