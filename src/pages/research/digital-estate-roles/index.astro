@@ -20,7 +20,7 @@ const retrieved = '17 September 2026';
 
 <Base
   title="Digital Estate Roles"
-  description="When legal authority over a person, their property and their digital estate is assigned, when it starts, and when it ends — sourced to statute, regulation and official policy, across nine countries."
+  description="When legal authority over a person, their property and their digital estate is assigned, when it starts, and when it ends — sourced to statute, regulation and official policy, across nineteen countries."
 >
   <div class="wrap">
     <section class="band">
@@ -39,6 +39,7 @@ const retrieved = '17 September 2026';
             </div>
           </div>
           <nav class="tabs" role="tablist">
+            <button role="tab" data-tab="map">Map</button>
             <button role="tab" data-tab="lanes">Lifecycle</button>
             <button role="tab" data-tab="role">Role detail</button>
             <button role="tab" data-tab="compare">Compare</button>
@@ -48,6 +49,23 @@ const retrieved = '17 September 2026';
         </header>
 
         <p id="jur-note" class="jur-note"></p>
+
+        <section id="tab-map" class="tab" hidden>
+          <p class="lede">
+            Every country with a researched role set. Select one to open its lifecycle; the
+            jurisdiction picker above switches between a country’s states, provinces or nations.
+          </p>
+          <div id="map"></div>
+          <p id="map-readout" class="map-readout"></p>
+          <div id="map-list" class="map-list"></div>
+          <p class="hint">
+            Coverage is uneven by design: the United States, United Kingdom, Canada and Australia
+            are broken down by state, nation or province because the authority is assigned at that
+            level; elsewhere the role set is national. Base map from
+            <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>
+            (public domain); borders are drawn at 1:110m and are not an expression of any view on them.
+          </p>
+        </section>
 
         <section id="tab-lanes" class="tab" hidden>
           <div class="toolbar">

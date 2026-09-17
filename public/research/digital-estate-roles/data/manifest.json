@@ -4,6 +4,7 @@
    "id": "mu",
    "name": "Mauritius",
    "region": "Africa",
+   "iso": "MU",
    "jurisdictions": [
     {
      "id": "mu-national",
@@ -22,6 +23,7 @@
    "id": "rw",
    "name": "Rwanda",
    "region": "Africa",
+   "iso": "RW",
    "jurisdictions": [
     {
      "id": "rw-national",
@@ -40,6 +42,7 @@
    "id": "za",
    "name": "South Africa",
    "region": "Africa",
+   "iso": "ZA",
    "jurisdictions": [
     {
      "id": "za-national",
@@ -58,6 +61,7 @@
    "id": "in",
    "name": "India",
    "region": "Asia",
+   "iso": "IN",
    "jurisdictions": [
     {
      "id": "in-national",
@@ -76,6 +80,7 @@
    "id": "jp",
    "name": "Japan",
    "region": "Asia",
+   "iso": "JP",
    "jurisdictions": [
     {
      "id": "jp-national",
@@ -94,6 +99,7 @@
    "id": "sg",
    "name": "Singapore",
    "region": "Asia",
+   "iso": "SG",
    "jurisdictions": [
     {
      "id": "sg-national",
@@ -112,6 +118,7 @@
    "id": "kr",
    "name": "South Korea",
    "region": "Asia",
+   "iso": "KR",
    "jurisdictions": [
     {
      "id": "kr-national",
@@ -130,6 +137,7 @@
    "id": "dk",
    "name": "Denmark",
    "region": "Europe",
+   "iso": "DK",
    "jurisdictions": [
     {
      "id": "dk-national",
@@ -148,6 +156,7 @@
    "id": "fi",
    "name": "Finland",
    "region": "Europe",
+   "iso": "FI",
    "jurisdictions": [
     {
      "id": "fi-national",
@@ -166,6 +175,7 @@
    "id": "de",
    "name": "Germany",
    "region": "Europe",
+   "iso": "DE",
    "jurisdictions": [
     {
      "id": "de-federal",
@@ -184,6 +194,7 @@
    "id": "es",
    "name": "Spain",
    "region": "Europe",
+   "iso": "ES",
    "jurisdictions": [
     {
      "id": "es-national",
@@ -202,6 +213,7 @@
    "id": "se",
    "name": "Sweden",
    "region": "Europe",
+   "iso": "SE",
    "jurisdictions": [
     {
      "id": "se-national",
@@ -220,6 +232,7 @@
    "id": "uk",
    "name": "United Kingdom",
    "region": "Europe",
+   "iso": "GB",
    "jurisdictions": [
     {
      "id": "uk-ew",
@@ -263,6 +276,7 @@
    "id": "ca",
    "name": "Canada",
    "region": "North America",
+   "iso": "CA",
    "jurisdictions": [
     {
      "id": "ca-bc",
@@ -306,6 +320,7 @@
    "id": "mx",
    "name": "Mexico",
    "region": "North America",
+   "iso": "MX",
    "jurisdictions": [
     {
      "id": "mx-federal",
@@ -324,6 +339,7 @@
    "id": "us",
    "name": "United States",
    "region": "North America",
+   "iso": "US",
    "jurisdictions": [
     {
      "id": "us-model",
@@ -439,6 +455,7 @@
    "id": "au",
    "name": "Australia",
    "region": "Oceania",
+   "iso": "AU",
    "jurisdictions": [
     {
      "id": "au-nsw",
@@ -482,6 +499,7 @@
    "id": "ar",
    "name": "Argentina",
    "region": "South America",
+   "iso": "AR",
    "jurisdictions": [
     {
      "id": "ar-national",
@@ -500,6 +518,7 @@
    "id": "br",
    "name": "Brazil",
    "region": "South America",
+   "iso": "BR",
    "jurisdictions": [
     {
      "id": "br-national",
