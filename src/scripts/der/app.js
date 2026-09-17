@@ -314,8 +314,8 @@
     renderGroupChips(m);
     const host = $('#lanes');
     host.innerHTML = '';
-    const W = 1200, LABEL = 290, HEAD = 58, GH = 28;
-    const ROW = m.roles.some((r) => nameEn(r)) ? 42 : 34;
+    const W = 1200, LABEL = 320, HEAD = 62, GH = 30;
+    const ROW = m.roles.some((r) => nameEn(r)) ? 48 : 38;
     const colW = (W - LABEL - 10) / PHASES.length;
     const colX = (i) => LABEL + i * colW;
     const groups = rolesByGroup(m).filter(([g]) => !state.hiddenGroups.has(g));
@@ -330,20 +330,20 @@
     // phase columns
     PHASES.forEach((p, i) => {
       el('rect', { x: colX(i), y: 0, width: colW, height: H, fill: i % 2 ? 'var(--phase-b)' : 'var(--phase-a)' }, svg);
-      txt(svg, colX(i) + colW / 2, 22, PHASE_LABEL[p], { 'text-anchor': 'middle', 'font-size': 13, 'font-weight': 600, fill: 'currentColor' });
+      txt(svg, colX(i) + colW / 2, 23, PHASE_LABEL[p], { 'text-anchor': 'middle', 'font-size': 14.5, 'font-weight': 600, fill: 'currentColor' });
       if (i < PHASES.length - 1) {
         el('line', { x1: colX(i) + colW - 26, y1: 38, x2: colX(i) + colW + 26, y2: 38, stroke: 'var(--ink-2)', 'stroke-width': 1.2, 'marker-end': 'url(#ph-arrow)', color: 'var(--ink-2)' }, svg);
       }
     });
     const trig = ['', 'incapacity', 'death', 'probate opened', 'discharge'];
-    PHASES.forEach((p, i) => { if (i) txt(svg, colX(i), 52, trig[i], { 'text-anchor': 'middle', 'font-size': 10.5, fill: 'var(--ink-2)' }); });
-    txt(svg, 12, 22, 'Role', { 'font-size': 13, 'font-weight': 600, fill: 'currentColor' });
-    txt(svg, 12, 40, 'Principal’s status →', { 'font-size': 11, fill: 'var(--ink-2)' });
+    PHASES.forEach((p, i) => { if (i) txt(svg, colX(i), 54, trig[i], { 'text-anchor': 'middle', 'font-size': 12, fill: 'var(--ink-2)' }); });
+    txt(svg, 12, 23, 'Role', { 'font-size': 14.5, 'font-weight': 600, fill: 'currentColor' });
+    txt(svg, 12, 43, 'Principal’s status →', { 'font-size': 12.5, fill: 'var(--ink-2)' });
 
     let y = HEAD;
     for (const [g, rs] of groups) {
       el('rect', { x: 0, y, width: W, height: GH, fill: 'var(--surface-2)' }, svg);
-      txt(svg, 12, y + 18, (GROUP_LABEL[g] || 'Other').toUpperCase(), { 'font-size': 11, 'font-weight': 700, 'letter-spacing': '.06em', fill: 'var(--ink-2)' });
+      txt(svg, 12, y + 20, (GROUP_LABEL[g] || 'Other').toUpperCase(), { 'font-size': 12.5, 'font-weight': 700, 'letter-spacing': '.06em', fill: 'var(--ink-2)' });
       y += GH;
       for (const r of rs) { drawLane(svg, m, r, y, { LABEL, ROW, colW, colX, W }); y += ROW; }
     }
@@ -361,10 +361,10 @@
     link.addEventListener('click', (e) => { e.preventDefault(); state.role = r.id; state.tab = 'role'; render(); });
     if (r.differs) el('rect', { x: 6, y: y + 5, width: 6, height: g.ROW - 10, rx: 2, fill: 'var(--diff-ink)' }, link);
     if (nameEn(r)) {
-      txt(link, 18, cy - 2, trunc(r.name, 40), { 'font-size': 12.5, fill: 'currentColor' });
-      txt(link, 18, cy + 12, trunc(nameEn(r), 46), { 'font-size': 10.5, 'font-style': 'italic', fill: 'var(--ink-2)' });
+      txt(link, 18, cy - 4, trunc(r.name, 35), { 'font-size': 14, fill: 'currentColor' });
+      txt(link, 18, cy + 13, trunc(nameEn(r), 41), { 'font-size': 12, 'font-style': 'italic', fill: 'var(--ink-2)' });
     } else {
-      txt(link, 18, cy + 4.5, trunc(r.name, 40), { 'font-size': 12.5, fill: 'currentColor' });
+      txt(link, 18, cy + 5, trunc(r.name, 35), { 'font-size': 14, fill: 'currentColor' });
     }
     const title = el('title', {}, link);
     title.textContent = r.name + (nameEn(r) ? ` — ${nameEn(r)}` : '') + (r.localNames.length ? ` (${r.localNames.map((t) => termEn(r, t) ? `${t} = ${termEn(r, t)}` : t).join(', ')})` : '');
@@ -568,11 +568,17 @@
       l.forEach((s, i) => row.set(s.id, i - (l.length - 1) / 2));
     });
 
-    const NW = 196, NH = 62, GX = 300, GY = 132, PX = 24;
+    const NW = 210, GX = 314, PX = 24;
+    // Wrap every label first: the node box is sized to the tallest label in this
+    // diagram, so a role with short state names keeps compact boxes.
+    const LINES = new Map(S.map((s) => [s.id, wrapWords(s.label || titleize(s.id), 21, 4)]));
+    const maxLines = Math.max(...[...LINES.values()].map((l) => l.length), 1);
+    const NH = Math.max(70, maxLines * 17 + 20);
+    const GY = Math.max(142, NH + 54);
     const maxRows = Math.max(...layers.map((l) => (l ? l.length : 0)), 1);
     const top = 70;
     const W = PX * 2 + (layers.length - 1) * GX + NW;
-    const H = top + maxRows * GY + 90;
+    const H = top + (maxRows - 1) * GY + NH + 90;   // rows, the last box itself, then room for the arcs beneath
     const midY = top + ((maxRows - 1) * GY) / 2;
     const pos = new Map();
     S.forEach((s) => pos.set(s.id, { x: PX + layer.get(s.id) * GX, y: midY + row.get(s.id) * GY }));
@@ -588,7 +594,10 @@
 
     const vbW = Math.max(W, 520);
     const svg = el('svg', { viewBox: `0 0 ${vbW} ${H}`, class: 'sm-svg', role: 'img', 'aria-label': `State machine for ${r.name}: ${T.map((t, i) => `${i + 1}. ${stateLabel(r, t.from)} to ${stateLabel(r, t.to)} on ${t.event}`).join('; ')}` });
-    svg.style.minWidth = Math.min(vbW, 1200) + 'px';
+    // Floor the width so the diagram stays legible on a phone (where the wrap scrolls),
+    // but keep it low enough that a container narrower than the diagram scales it to fit
+    // rather than slicing the last column off: Xebec's column is ~1050px.
+    svg.style.minWidth = Math.min(vbW, 900) + 'px';
     const defs = el('defs', {}, svg);
     for (const [id, color] of [['sm-a', 'var(--ink-2)'], ['sm-d', 'var(--diff-ink)']]) {
       const mk = el('marker', { id, viewBox: '0 0 10 10', refX: 9, refY: 5, markerWidth: 8, markerHeight: 8, orient: 'auto-start-reverse' }, defs);
@@ -636,12 +645,42 @@
       el('path', { d, fill: 'none', stroke, 'stroke-width': hl ? 2.2 : 1.5, 'stroke-dasharray': unv ? '5 4' : null, opacity: back ? 0.6 : null, 'marker-end': `url(#${hl ? 'sm-d' : 'sm-a'})` }, edgesG);
 
       const badge = el('g', {}, labelsG);
-      const label = pr.nums.join(' · ');
+      // A long list of transition numbers makes a pill wider than the gap between two
+      // boxes, which then covers their labels; past three, count the rest. The tooltip
+      // and the click target still carry every transition.
+      const label = pr.nums.length > 3 ? `${pr.nums[0]} · ${pr.nums[1]} +${pr.nums.length - 2}` : pr.nums.join(' · ');
       const bw = 12 + label.length * 6.6;
-      el('rect', { x: lx - bw / 2, y: ly - 10, width: bw, height: 20, rx: 10, fill: hl ? 'var(--diff)' : 'var(--surface)', stroke }, badge);
-      txt(badge, lx, ly + 4, label, { 'text-anchor': 'middle', 'font-size': 11, 'font-weight': 700, fill: hl ? 'var(--diff-ink)' : 'currentColor' });
+      // Nudge the pill off any box it lands on: a few pixels along the arrow is better
+      // than sitting on a state's label.
+      const hitsBox = (cx, cy) => S.some((s) => {
+        const q = pos.get(s.id);
+        return q && cx - bw / 2 < q.x + NW + 2 && cx + bw / 2 > q.x - 2
+          && cy - 10 < q.y + NH + 2 && cy + 10 > q.y - 2;
+      });
+      let bx = lx, by = ly;
+      if (hitsBox(bx, by)) {
+        const vy = NH / 2 + 16, vy2 = NH / 2 + 34;   // clearing a box means clearing its height
+        for (const [dx, dy] of [[0, -14], [0, 14], [-18, 0], [18, 0], [0, -vy], [0, vy], [-34, 0], [34, 0], [0, -vy2], [0, vy2]]) {
+          if (!hitsBox(lx + dx, ly + dy)) { bx = lx + dx; by = ly + dy; break; }
+        }
+      }
+      bx = Math.min(Math.max(bx, bw / 2 + 2), Math.max(vbW - bw / 2 - 2, bw / 2 + 2));
+      el('rect', { x: bx - bw / 2, y: by - 10, width: bw, height: 20, rx: 10, fill: hl ? 'var(--diff)' : 'var(--surface)', stroke }, badge);
+      txt(badge, bx, by + 4, label, { 'text-anchor': 'middle', 'font-size': 12.5, 'font-weight': 700, fill: hl ? 'var(--diff-ink)' : 'currentColor' });
       if (pairs.size <= 6 && pr.ts.length === 1 && pr.from !== pr.to) {
-        txt(badge, lx, ly + 24, trunc(pr.ts[0].event, 36), { 'text-anchor': 'middle', 'font-size': 10.5, fill: 'var(--ink-2)', stroke: 'var(--surface)', 'stroke-width': 4, 'paint-order': 'stroke', 'stroke-linejoin': 'round' });
+        const cap = trunc(pr.ts[0].event, 34);
+        // Centred captions near the first/last layer would spill past the viewBox.
+        const capHalf = cap.length * 3.2;
+        const capX = Math.min(Math.max(bx, capHalf + 6), Math.max(vbW - capHalf - 6, capHalf + 6));
+        // A caption is wider than the gap between two boxes, so only draw it where it
+        // clears every node: on the arcs that dip below the diagram there is room.
+        const capY = by + 26;
+        const clear = S.every((s) => {
+          const q = pos.get(s.id);
+          return !q || capX - capHalf > q.x + NW + 4 || capX + capHalf < q.x - 4
+            || capY - 11 > q.y + NH + 4 || capY + 4 < q.y - 4;
+        });
+        if (clear) txt(badge, capX, capY, cap, { 'text-anchor': 'middle', 'font-size': 12, fill: 'var(--ink-2)', stroke: 'var(--surface)', 'stroke-width': 4, 'paint-order': 'stroke', 'stroke-linejoin': 'round' });
       }
       badge.style.cursor = 'pointer';
       badge.addEventListener('click', () => { const tr = document.getElementById('tr-' + pr.nums[0]); if (tr) { tr.scrollIntoView({ behavior: 'smooth', block: 'center' }); pr.nums.forEach((n) => { const x = document.getElementById('tr-' + n); if (x) { x.classList.add('flash'); setTimeout(() => x.classList.remove('flash'), 1600); } }); } });
@@ -656,9 +695,9 @@
       const edge = { end: 'var(--end)', active: 'var(--active)', dormant: 'var(--dormant)', assigned: 'var(--assigned)', plain: 'var(--ink-2)' }[kind];
       el('rect', { x: p.x, y: p.y, width: NW, height: NH, rx: 8, fill: 'var(--surface)', stroke: edge, 'stroke-width': 1.8 }, g);
       el('rect', { x: p.x, y: p.y, width: 7, height: NH, rx: 3, fill: edge }, g);
-      const lines = wrapWords(s.label || titleize(s.id), 26, 3);
-      const y0 = p.y + NH / 2 - ((lines.length - 1) * 15) / 2 + 4.5;
-      lines.forEach((ln, i) => txt(g, p.x + NW / 2 + 4, y0 + i * 15, ln, { 'text-anchor': 'middle', 'font-size': 12.5, 'font-weight': 600, fill: 'currentColor' }));
+      const lines = LINES.get(s.id);
+      const y0 = p.y + NH / 2 - ((lines.length - 1) * 17) / 2 + 5;
+      lines.forEach((ln, i) => txt(g, p.x + NW / 2 + 4, y0 + i * 17, ln, { 'text-anchor': 'middle', 'font-size': 14, 'font-weight': 600, fill: 'currentColor' }));
       const ti = el('title', {}, g); ti.textContent = (s.label || s.id) + (s.description ? ' — ' + s.description : '');
     });
     return svg;
@@ -814,7 +853,7 @@
 
     box.innerHTML = `
       <p class="lede">Each cell is a single legal fact about a jurisdiction, backed by a citation — click a cell for the rule and its source. Counts and the timeline are computed from those cells, not written by hand.</p>
-      <div class="stat-row">${stats.map((st) => `<div class="stat"><div class="v">${st.yes}<span class="muted" style="font-size:15px">/${st.n}</span></div><div class="l">${esc(st.k === 'organDonationModel' ? 'Opt-out (deemed consent) organ donation' : st.label)}</div></div>`).join('')}</div>
+      <div class="stat-row">${stats.map((st) => `<div class="stat"><div class="v">${st.yes}<span class="muted" style="font-size:16px">/${st.n}</span></div><div class="l">${esc(st.k === 'organDonationModel' ? 'Opt-out (deemed consent) organ donation' : st.label)}</div></div>`).join('')}</div>
       ${timeline}
       <div class="card" style="padding:0"><div style="padding:14px 16px 0"><h3 style="margin-top:0">Feature matrix</h3></div>
         <div class="scroll-x" style="border:0;border-radius:0"><table class="cmp fmatrix"><thead>${head}</thead><tbody>${body}</tbody></table></div>
@@ -911,7 +950,7 @@
     box.innerHTML = `
       <p class="lede">Trends are computed from the Uniform Law Commission’s enactment records rather than editorial judgment: how widely each model act governing these roles has been adopted, and how quickly. Counts cover the 50 states and DC.</p>
       <div class="stat-row">
-        ${top.slice(0, 4).map((a) => `<div class="stat"><div class="v">${a.n}<span class="muted" style="font-size:15px">/51</span></div><div class="l">${esc(a.shortName || a.name)}</div></div>`).join('')}
+        ${top.slice(0, 4).map((a) => `<div class="stat"><div class="v">${a.n}<span class="muted" style="font-size:16px">/51</span></div><div class="l">${esc(a.shortName || a.name)}</div></div>`).join('')}
       </div>
       <div class="card"><h3 style="margin-top:0">Adoption of uniform acts</h3>
         <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Number of jurisdictions (of 51) enacting each uniform act; most widely adopted is ${esc(most ? most.name : '')}" style="width:100%;height:auto;color:var(--ink)">${bars}</svg>
