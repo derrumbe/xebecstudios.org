@@ -4,5 +4,5 @@ summary: "An iOS camera that signs a photograph at the moment of capture — C2P
 status: Active
 started: 2026-05-30
 repo: "https://github.com/derrumbe/Sigillo"
-order: 1
+order: 2
 ---
