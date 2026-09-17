@@ -681,10 +681,6 @@
       "label": "Attorney may act for property"
      },
      {
-      "id": "suspended",
-      "label": "Attorney's authority displaced pending court proceedings (e.g. guardianship application); not an express SDA status"
-     },
-     {
       "id": "terminated",
       "label": "Ended under s 12"
      }

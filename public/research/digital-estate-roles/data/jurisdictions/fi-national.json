@@ -620,6 +620,15 @@
       "citations": [
        "fi-pk-19-1"
       ]
+     },
+     {
+      "id": "fi-t-tt-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration completed",
+      "citations": [
+       "fi-pk-19-1"
+      ]
      }
     ]
    },

@@ -690,6 +690,15 @@
       "citations": [
        "dk-dsl-36"
       ]
+     },
+     {
+      "id": "dk-t-tb-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration completed",
+      "citations": [
+       "dk-dsl-36"
+      ]
      }
     ]
    },
@@ -776,6 +785,15 @@
       "from": "designated",
       "to": "active",
       "event": "Dødsfald; pårørende kan ikke modsætte sig en skriftlig bestemmelse",
+      "citations": [
+       "dk-sun-53"
+      ]
+     },
+     {
+      "id": "dk-t-org-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Procedure carried out or refused",
       "citations": [
        "dk-sun-53"
       ]

@@ -344,10 +344,6 @@
       "label": "Appointed and acting"
      },
      {
-      "id": "suspended",
-      "label": "Not used"
-     },
-     {
       "id": "terminated",
       "label": "Appointment ended"
      }
@@ -516,16 +512,8 @@
       "label": "No appointment"
      },
      {
-      "id": "designated",
-      "label": "Applied; awaiting decision"
-     },
-     {
       "id": "active",
       "label": "Appointed and acting"
-     },
-     {
-      "id": "suspended",
-      "label": "Not used"
      },
      {
       "id": "terminated",
@@ -678,10 +666,6 @@
      {
       "id": "active",
       "label": "Dealing with HMRC as personal representative"
-     },
-     {
-      "id": "suspended",
-      "label": "Not used"
      },
      {
       "id": "terminated",

@@ -1141,10 +1141,6 @@
       "label": "Authority exercisable"
      },
      {
-      "id": "suspended",
-      "label": "Authority exists but may not currently be exercised"
-     },
-     {
       "id": "terminated",
       "label": "Authority ended"
      }
@@ -1266,16 +1262,8 @@
       "label": "No appointment exists"
      },
      {
-      "id": "designated",
-      "label": "Appointed but authority not yet exercisable"
-     },
-     {
       "id": "active",
       "label": "Authority exercisable"
-     },
-     {
-      "id": "suspended",
-      "label": "Authority exists but may not currently be exercised"
      },
      {
       "id": "terminated",
@@ -1523,16 +1511,8 @@
       "label": "No appointment exists"
      },
      {
-      "id": "designated",
-      "label": "Appointed but authority not yet exercisable"
-     },
-     {
       "id": "active",
       "label": "Authority exercisable"
-     },
-     {
-      "id": "suspended",
-      "label": "Authority exists but may not currently be exercised"
      },
      {
       "id": "terminated",
@@ -1677,16 +1657,8 @@
       "label": "No appointment exists"
      },
      {
-      "id": "designated",
-      "label": "Appointed but authority not yet exercisable"
-     },
-     {
       "id": "active",
       "label": "Authority exercisable"
-     },
-     {
-      "id": "suspended",
-      "label": "Authority exists but may not currently be exercised"
      },
      {
       "id": "terminated",
