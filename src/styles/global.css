@@ -9,7 +9,11 @@
   /* Body for the outlined half of each compass point. */
   --facet-fill:.10; --facet-stroke:.46;
   --paper:#F3F4EF; --paper-2:#EAEBE4;
-  --ink:#16202B; --ink-soft:#5A6874; --ink-faint:#96A0A8;
+  --ink:#16202B; --ink-soft:#3F4B56; --ink-faint:#5F6B75;
+  /* Spectral Light reads grey as dark ink on paper; the thin strokes do not
+     carry. Regular in light mode. Dark mode keeps Light, where pale strokes
+     on a dark ground bloom and 400 would look heavy. */
+  --text-weight:400;
   --rule:#CFD2C9;
   --wind-principal:#16202B; --wind-half:#3F6B58; --wind-quarter:#A8322A;
   --lapis:#24486E;
@@ -32,7 +36,7 @@
     --rule:#2A3742;
     --wind-principal:#C3CBD2; --wind-half:#6FA98D; --wind-quarter:#D9705F;
     --lapis:#8FB4DC; --rhumb-op:.42;
-    --facet-fill:.17; --facet-stroke:.62;
+    --facet-fill:.17; --facet-stroke:.62; --text-weight:300;
   }
 }
 :root[data-theme="dark"]{
@@ -42,7 +46,7 @@
   --rule:#2A3742;
   --wind-principal:#C3CBD2; --wind-half:#6FA98D; --wind-quarter:#D9705F;
   --lapis:#8FB4DC; --rhumb-op:.42;
-  --facet-fill:.17; --facet-stroke:.62;
+  --facet-fill:.17; --facet-stroke:.62; --text-weight:300;
 }
 
 /* The toggle. Hidden until the script un-hides it, so a reader without
@@ -68,7 +72,7 @@
 html{-webkit-text-size-adjust:100%}
 body{
   margin:0;background:var(--paper);color:var(--ink);
-  font-family:var(--serif);font-weight:300;font-size:19px;line-height:1.65;
+  font-family:var(--serif);font-weight:var(--text-weight);font-size:19px;line-height:1.65;
   -webkit-font-smoothing:antialiased;
 }
 a{color:inherit}
@@ -191,7 +195,10 @@ h2{font-family:var(--display);font-weight:400;font-size:1.65rem;letter-spacing:-
   .margin .note{border-right:none;border-left:2px solid var(--wind-quarter);padding-right:0;padding-left:12px}
   .margin .note.aside{border-left-color:var(--wind-half)}
   .item .apparatus .subject{display:inline;margin-left:10px}
-  .masthead nav{margin-left:0;width:100%;gap:17px}
+  /* Six items on one line down to a 320px phone: the type scales with the
+     viewport and the row spreads to the full width instead of wrapping. */
+  .masthead nav{margin-left:0;width:100%;gap:6px;flex-wrap:nowrap;justify-content:space-between;overflow-x:auto}
+  .masthead nav a,.masthead nav .theme{font-size:clamp(14px,4.2vw,16.5px);white-space:nowrap}
   .plate{padding:48px 0 56px}
   .pair{grid-template-columns:1fr;gap:38px}
   .rose-node{margin-left:0;margin-right:auto;width:104px!important}
