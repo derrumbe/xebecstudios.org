@@ -6786,6 +6786,23 @@
     "citations": [
      "za-aea-18-3"
     ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity",
+    "note": "The mandate operates when the user is unable to give informed consent; there is no registration or court step.",
+    "citations": [
+     "za-nha-7",
+     "za-nha-7-mandate"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "A donation must be made by will, by signed document before two competent witnesses, or orally before two, and must nominate a donee or it is null and void. Absent a donation, the family may donate in the order the Act sets.",
+    "citations": [
+     "za-nha-62-1",
+     "za-nha-62-donee",
+     "za-nha-62-2"
+    ]
    }
   },
   "citations": [
@@ -6815,6 +6832,51 @@
     "kind": "statute",
     "retrieved": "2026-09-17",
     "quote": "value of any estate does not exceed the amount determined by the Minister by notice in the Gazette, the Master may dispense with the appointment of an executor and give directions as to the manner in which any such estate shall be liquidated and distributed"
+   },
+   {
+    "id": "za-nha-7",
+    "cite": "National Health Act 61 of 2003, s 7",
+    "title": "Consent of user",
+    "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "a health service may not be provided to a user without the user’s informed consent"
+   },
+   {
+    "id": "za-nha-7-mandate",
+    "cite": "National Health Act 61 of 2003, s 7(1)(a)",
+    "title": "Consent of user — mandated or authorised person",
+    "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "the user is unable to give informed consent and such consent is given by a person- (i) mandated by the user in writing to grant consent on his or her behalf; or (ii) authorised to give such consent in terms of any law or court order"
+   },
+   {
+    "id": "za-nha-62-1",
+    "cite": "National Health Act 61 of 2003, s 62(1)",
+    "title": "Donation of human bodies and tissue of deceased persons",
+    "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "in a document signed by him or her and at least two competent witnesses; or in an oral statement made in the presence of at least two competent witnesses, donate his or her body or any specified tissue thereof to be used after his or her death"
+   },
+   {
+    "id": "za-nha-62-donee",
+    "cite": "National Health Act 61 of 2003, s 62(1)(b)-(c)",
+    "title": "Donation must nominate a donee",
+    "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "must nominate an institution or a person contemplated in section 63 as donee"
+   },
+   {
+    "id": "za-nha-62-2",
+    "cite": "National Health Act 61 of 2003, s 62(2)",
+    "title": "Donation by family where the deceased made none",
+    "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "the spouse, partner, major child, parent, guardian, major brother or major sister of that person, in the specific order mentioned, may, after that person’s death, donate the body or any specific tissue of that person"
    }
   ]
  },

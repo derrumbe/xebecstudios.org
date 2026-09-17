@@ -1,113 +1,153 @@
 {
  "countries": [
   {
-   "id": "us",
-   "name": "United States",
+   "id": "za",
+   "name": "South Africa",
+   "region": "Africa",
    "jurisdictions": [
     {
-     "id": "us-model",
-     "name": "US — uniform/model law + federal",
-     "short": "US model",
+     "id": "za-national",
+     "name": "South Africa",
+     "short": "ZA",
      "files": [
-      "jurisdictions/us-model.json",
-      "jurisdictions/us-federal.json"
+      "jurisdictions/za-national.json"
      ],
-     "note": "Baseline built from the Uniform Law Commission's model acts (which bind nobody until a state enacts them) plus federal regulations that apply everywhere.",
-     "country": "us"
-    },
+     "country": "za",
+     "note": "South African estate administration, curatorship and health decision-making: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953 from the Department of Justice, with the National Health Act 61 of 2003 and Mental Health Care Act 17 of 2002 from the Government Printer. There is no enduring power of attorney: a power of attorney is common law and lapses on the grantor’s incapacity, so the written health mandate under National Health Act s 7 is the only advance appointment recorded here. Two statutory routes run in parallel for property — curatorship under the Administration of Estates Act and an administrator under the Mental Health Care Act. The Mental Health Care Act citations carry no quote because the Government Printer’s scan has a damaged text layer; the sections were read but are not reproduced verbatim.",
+     "label": "South Africa"
+    }
+   ]
+  },
+  {
+   "id": "in",
+   "name": "India",
+   "region": "Asia",
+   "jurisdictions": [
     {
-     "id": "us-ca",
-     "name": "California",
-     "short": "CA",
-     "code": "CA",
-     "extends": "us-model",
+     "id": "in-national",
+     "name": "India",
+     "short": "IN",
      "files": [
-      "jurisdictions/us-ca.json"
+      "jurisdictions/in-national.json"
      ],
-     "country": "us"
-    },
+     "country": "in",
+     "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved.",
+     "label": "India"
+    }
+   ]
+  },
+  {
+   "id": "kr",
+   "name": "South Korea",
+   "region": "Asia",
+   "jurisdictions": [
     {
-     "id": "us-fl",
-     "name": "Florida",
-     "short": "FL",
-     "code": "FL",
-     "extends": "us-model",
+     "id": "kr-national",
+     "name": "South Korea",
+     "short": "KR",
      "files": [
-      "jurisdictions/us-fl.json"
+      "jurisdictions/kr-national.json"
      ],
-     "country": "us"
-    },
+     "country": "kr",
+     "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs.",
+     "label": "South Korea"
+    }
+   ]
+  },
+  {
+   "id": "dk",
+   "name": "Denmark",
+   "region": "Europe",
+   "jurisdictions": [
     {
-     "id": "us-il",
-     "name": "Illinois",
-     "short": "IL",
-     "code": "IL",
-     "extends": "us-model",
+     "id": "dk-national",
+     "name": "Denmark",
+     "short": "DK",
      "files": [
-      "jurisdictions/us-il.json"
+      "jurisdictions/dk-national.json"
      ],
-     "country": "us"
-    },
+     "country": "dk",
+     "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
+     "label": "Denmark"
+    }
+   ]
+  },
+  {
+   "id": "fi",
+   "name": "Finland",
+   "region": "Europe",
+   "jurisdictions": [
     {
-     "id": "us-ny",
-     "name": "New York",
-     "short": "NY",
-     "code": "NY",
-     "extends": "us-model",
+     "id": "fi-national",
+     "name": "Finland",
+     "short": "FI",
      "files": [
-      "jurisdictions/us-ny.json"
+      "jurisdictions/fi-national.json"
      ],
-     "country": "us"
-    },
+     "country": "fi",
+     "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues.",
+     "label": "Finland"
+    }
+   ]
+  },
+  {
+   "id": "de",
+   "name": "Germany",
+   "region": "Europe",
+   "jurisdictions": [
     {
-     "id": "us-nc",
-     "name": "North Carolina",
-     "short": "NC",
-     "code": "NC",
-     "extends": "us-model",
+     "id": "de-federal",
+     "name": "Germany — federal law",
+     "short": "DE",
      "files": [
-      "jurisdictions/us-nc.json"
+      "jurisdictions/de-federal.json"
      ],
-     "country": "us"
-    },
+     "country": "de",
+     "note": "Federal German law: BGB (agency, Betreuung, succession, medical records), TPG (organ donation), SGB I and AO. Burial and disposition of remains are Länder law and are not covered here.",
+     "label": "Germany — federal law"
+    }
+   ]
+  },
+  {
+   "id": "es",
+   "name": "Spain",
+   "region": "Europe",
+   "jurisdictions": [
     {
-     "id": "us-oh",
-     "name": "Ohio",
-     "short": "OH",
-     "code": "OH",
-     "extends": "us-model",
+     "id": "es-national",
+     "name": "Spain — state law",
+     "short": "ES",
      "files": [
-      "jurisdictions/us-oh.json"
+      "jurisdictions/es-national.json"
      ],
-     "country": "us"
-    },
+     "country": "es",
+     "note": "Spanish state law: Código Civil as amended by Ley 8/2021 (support measures and preventive powers), Ley 41/2002 (patient autonomy) and Ley 30/1979 (organ donation). Catalonia, Aragón, Navarre, the Basque Country, Galicia and the Balearics have their own civil law of succession, which is not covered here.",
+     "label": "Spain — state law"
+    }
+   ]
+  },
+  {
+   "id": "se",
+   "name": "Sweden",
+   "region": "Europe",
+   "jurisdictions": [
     {
-     "id": "us-tx",
-     "name": "Texas",
-     "short": "TX",
-     "code": "TX",
-     "extends": "us-model",
+     "id": "se-national",
+     "name": "Sweden",
+     "short": "SE",
      "files": [
-      "jurisdictions/us-tx.json"
+      "jurisdictions/se-national.json"
      ],
-     "country": "us"
-    },
-    {
-     "id": "us-wa",
-     "name": "Washington",
-     "short": "WA",
-     "code": "WA",
-     "extends": "us-model",
-     "files": [
-      "jurisdictions/us-wa.json"
-     ],
-     "country": "us"
+     "country": "se",
+     "note": "Swedish national law: Lag (2017:310) om framtidsfullmakter, Ärvdabalk (1958:637), Föräldrabalk (1949:381) and Lag (1995:831) om transplantation m.m. Who may decide on disposal of the body is not covered: Begravningslag (1990:1144) was searched and no provision assigning that decision was located.",
+     "label": "Sweden"
     }
    ]
   },
   {
    "id": "uk",
    "name": "United Kingdom",
+   "region": "Europe",
    "jurisdictions": [
     {
      "id": "uk-ew",
@@ -118,18 +158,8 @@
       "jurisdictions/uk-ew.json"
      ],
      "country": "uk",
-     "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted."
-    },
-    {
-     "id": "uk-sco",
-     "name": "Scotland",
-     "short": "SCO",
-     "files": [
-      "jurisdictions/uk-national.json",
-      "jurisdictions/uk-sco.json"
-     ],
-     "country": "uk",
-     "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer."
+     "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted.",
+     "label": "United Kingdom — England & Wales"
     },
     {
      "id": "uk-ni",
@@ -140,13 +170,27 @@
       "jurisdictions/uk-ni.json"
      ],
      "country": "uk",
-     "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer."
+     "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer.",
+     "label": "United Kingdom — Northern Ireland"
+    },
+    {
+     "id": "uk-sco",
+     "name": "Scotland",
+     "short": "SCO",
+     "files": [
+      "jurisdictions/uk-national.json",
+      "jurisdictions/uk-sco.json"
+     ],
+     "country": "uk",
+     "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer.",
+     "label": "United Kingdom — Scotland"
     }
    ]
   },
   {
    "id": "ca",
    "name": "Canada",
+   "region": "North America",
    "jurisdictions": [
     {
      "id": "ca-bc",
@@ -157,7 +201,8 @@
       "jurisdictions/ca-bc.json"
      ],
      "country": "ca",
-     "note": "British Columbia provincial roles for incapacity, death and estate administration: enduring and general powers of attorney, representation agreements, temporary substitute decision makers, committees and statutory property guardians, executors and administrators under WESA, organ donation consent, control of disposition of remains, and access to a deceased person's records. Statutes as consolidated on bclaws.gov.bc.ca, current to 15 September 2026 (Supreme Court Civil Rules current to 8 September 2026). Federal roles (CPP/OAS trustees, CRA, PIPEDA, ULCC) are in ca-federal."
+     "note": "British Columbia provincial roles for incapacity, death and estate administration: enduring and general powers of attorney, representation agreements, temporary substitute decision makers, committees and statutory property guardians, executors and administrators under WESA, organ donation consent, control of disposition of remains, and access to a deceased person's records. Statutes as consolidated on bclaws.gov.bc.ca, current to 15 September 2026 (Supreme Court Civil Rules current to 8 September 2026). Federal roles (CPP/OAS trustees, CRA, PIPEDA, ULCC) are in ca-federal.",
+     "label": "Canada — British Columbia"
     },
     {
      "id": "ca-on",
@@ -168,7 +213,8 @@
       "jurisdictions/ca-on.json"
      ],
      "country": "ca",
-     "note": "Ontario provincial roles for incapacity, death and estates as in force on 2026-09-16 (e-Laws currency date 11 Sept 2026). Federal benefit, tax and privacy roles are in ca-federal.json."
+     "note": "Ontario provincial roles for incapacity, death and estates as in force on 2026-09-16 (e-Laws currency date 11 Sept 2026). Federal benefit, tax and privacy roles are in ca-federal.json.",
+     "label": "Canada — Ontario"
     },
     {
      "id": "ca-qc",
@@ -179,13 +225,148 @@
       "jurisdictions/ca-qc.json"
      ],
      "country": "ca",
-     "note": "Québec civil-law roles for incapacity, death and liquidation of successions under the Civil Code of Québec (CCQ) and Code of Civil Procedure (CCP), as amended by S.Q. 2020, c. 11 (in force 1 November 2022). Covers protection mandates, ordinary mandates, assistants, temporary representatives, tutors, consent to care, liquidators, organ donation, funeral arrangements and access to a deceased person's information. Consolidated texts were read from the official LégisQuébec PDFs marked 'Updated to April 7 2026'; later amendments, if any, were not checked. Federal roles are in ca-federal."
+     "note": "Québec civil-law roles for incapacity, death and liquidation of successions under the Civil Code of Québec (CCQ) and Code of Civil Procedure (CCP), as amended by S.Q. 2020, c. 11 (in force 1 November 2022). Covers protection mandates, ordinary mandates, assistants, temporary representatives, tutors, consent to care, liquidators, organ donation, funeral arrangements and access to a deceased person's information. Consolidated texts were read from the official LégisQuébec PDFs marked 'Updated to April 7 2026'; later amendments, if any, were not checked. Federal roles are in ca-federal.",
+     "label": "Canada — Québec"
+    }
+   ]
+  },
+  {
+   "id": "mx",
+   "name": "Mexico",
+   "region": "North America",
+   "jurisdictions": [
+    {
+     "id": "mx-federal",
+     "name": "Mexico — federal law",
+     "short": "MX",
+     "files": [
+      "jurisdictions/mx-federal.json"
+     ],
+     "country": "mx",
+     "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here.",
+     "label": "Mexico — federal law"
+    }
+   ]
+  },
+  {
+   "id": "us",
+   "name": "United States",
+   "region": "North America",
+   "jurisdictions": [
+    {
+     "id": "us-model",
+     "name": "US — uniform/model law + federal",
+     "short": "US model",
+     "files": [
+      "jurisdictions/us-model.json",
+      "jurisdictions/us-federal.json"
+     ],
+     "note": "Baseline built from the Uniform Law Commission's model acts (which bind nobody until a state enacts them) plus federal regulations that apply everywhere.",
+     "country": "us",
+     "label": "United States — uniform/model law + federal"
+    },
+    {
+     "id": "us-ca",
+     "name": "California",
+     "short": "CA",
+     "code": "CA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ca.json"
+     ],
+     "country": "us",
+     "label": "United States — California"
+    },
+    {
+     "id": "us-fl",
+     "name": "Florida",
+     "short": "FL",
+     "code": "FL",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-fl.json"
+     ],
+     "country": "us",
+     "label": "United States — Florida"
+    },
+    {
+     "id": "us-il",
+     "name": "Illinois",
+     "short": "IL",
+     "code": "IL",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-il.json"
+     ],
+     "country": "us",
+     "label": "United States — Illinois"
+    },
+    {
+     "id": "us-ny",
+     "name": "New York",
+     "short": "NY",
+     "code": "NY",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ny.json"
+     ],
+     "country": "us",
+     "label": "United States — New York"
+    },
+    {
+     "id": "us-nc",
+     "name": "North Carolina",
+     "short": "NC",
+     "code": "NC",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-nc.json"
+     ],
+     "country": "us",
+     "label": "United States — North Carolina"
+    },
+    {
+     "id": "us-oh",
+     "name": "Ohio",
+     "short": "OH",
+     "code": "OH",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-oh.json"
+     ],
+     "country": "us",
+     "label": "United States — Ohio"
+    },
+    {
+     "id": "us-tx",
+     "name": "Texas",
+     "short": "TX",
+     "code": "TX",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-tx.json"
+     ],
+     "country": "us",
+     "label": "United States — Texas"
+    },
+    {
+     "id": "us-wa",
+     "name": "Washington",
+     "short": "WA",
+     "code": "WA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-wa.json"
+     ],
+     "country": "us",
+     "label": "United States — Washington"
     }
    ]
   },
   {
    "id": "au",
    "name": "Australia",
+   "region": "Oceania",
    "jurisdictions": [
     {
      "id": "au-nsw",
@@ -196,7 +377,8 @@
       "jurisdictions/au-nsw.json"
      ],
      "country": "au",
-     "note": "NSW state roles as in force on 2026-09-16; Commonwealth nominee, My Health Record, tax and Privacy Act features are in au-commonwealth."
+     "note": "NSW state roles as in force on 2026-09-16; Commonwealth nominee, My Health Record, tax and Privacy Act features are in au-commonwealth.",
+     "label": "Australia — New South Wales"
     },
     {
      "id": "au-qld",
@@ -207,7 +389,8 @@
       "jurisdictions/au-qld.json"
      ],
      "country": "au",
-     "note": "Queensland state law on enduring documents, statutory health attorneys, QCAT appointments, deceased estates, tissue donation and cremation, as in force on 2026-09-16 (reprints current as at 28 April 2026 for the main Acts). Commonwealth roles are in the au-commonwealth layer."
+     "note": "Queensland state law on enduring documents, statutory health attorneys, QCAT appointments, deceased estates, tissue donation and cremation, as in force on 2026-09-16 (reprints current as at 28 April 2026 for the main Acts). Commonwealth roles are in the au-commonwealth layer.",
+     "label": "Australia — Queensland"
     },
     {
      "id": "au-vic",
@@ -218,157 +401,15 @@
       "jurisdictions/au-vic.json"
      ],
      "country": "au",
-     "note": "Victorian state law on substitute and supported decision-making, deceased estates, tissue donation and disposal of remains, as in force on 2026-09-16. Commonwealth roles (Centrelink, My Health Record, ATO, Privacy Act) are in the au-commonwealth layer."
-    }
-   ]
-  },
-  {
-   "id": "de",
-   "name": "Germany",
-   "jurisdictions": [
-    {
-     "id": "de-federal",
-     "name": "Germany — federal law",
-     "short": "DE",
-     "files": [
-      "jurisdictions/de-federal.json"
-     ],
-     "country": "de",
-     "note": "Federal German law: BGB (agency, Betreuung, succession, medical records), TPG (organ donation), SGB I and AO. Burial and disposition of remains are Länder law and are not covered here."
-    }
-   ]
-  },
-  {
-   "id": "es",
-   "name": "Spain",
-   "jurisdictions": [
-    {
-     "id": "es-national",
-     "name": "Spain — state law",
-     "short": "ES",
-     "files": [
-      "jurisdictions/es-national.json"
-     ],
-     "country": "es",
-     "note": "Spanish state law: Código Civil as amended by Ley 8/2021 (support measures and preventive powers), Ley 41/2002 (patient autonomy) and Ley 30/1979 (organ donation). Catalonia, Aragón, Navarre, the Basque Country, Galicia and the Balearics have their own civil law of succession, which is not covered here."
-    }
-   ]
-  },
-  {
-   "id": "se",
-   "name": "Sweden",
-   "jurisdictions": [
-    {
-     "id": "se-national",
-     "name": "Sweden",
-     "short": "SE",
-     "files": [
-      "jurisdictions/se-national.json"
-     ],
-     "country": "se",
-     "note": "Swedish national law: Lag (2017:310) om framtidsfullmakter, Ärvdabalk (1958:637), Föräldrabalk (1949:381) and Lag (1995:831) om transplantation m.m. Who may decide on disposal of the body is not covered: Begravningslag (1990:1144) was searched and no provision assigning that decision was located."
-    }
-   ]
-  },
-  {
-   "id": "fi",
-   "name": "Finland",
-   "jurisdictions": [
-    {
-     "id": "fi-national",
-     "name": "Finland",
-     "short": "FI",
-     "files": [
-      "jurisdictions/fi-national.json"
-     ],
-     "country": "fi",
-     "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues."
-    }
-   ]
-  },
-  {
-   "id": "br",
-   "name": "Brazil",
-   "jurisdictions": [
-    {
-     "id": "br-national",
-     "name": "Brazil",
-     "short": "BR",
-     "files": [
-      "jurisdictions/br-national.json"
-     ],
-     "country": "br",
-     "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here."
-    }
-   ]
-  },
-  {
-   "id": "mx",
-   "name": "Mexico",
-   "jurisdictions": [
-    {
-     "id": "mx-federal",
-     "name": "Mexico — federal law",
-     "short": "MX",
-     "files": [
-      "jurisdictions/mx-federal.json"
-     ],
-     "country": "mx",
-     "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here."
-    }
-   ]
-  },
-  {
-   "id": "za",
-   "name": "South Africa",
-   "jurisdictions": [
-    {
-     "id": "za-national",
-     "name": "South Africa",
-     "short": "ZA",
-     "files": [
-      "jurisdictions/za-national.json"
-     ],
-     "country": "za",
-     "note": "South African estate administration plus curatorship of property: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice’s published copies. The Act’s curatorship is over property only — letters of curatorship authorise acts in respect of property and business, not personal or health decisions — and s 73 still cross-refers to the repealed Mental Health Act 1973, so the modern appointment route under the Mental Health Care Act 17 of 2002 is not recorded here. Health-care proxies, the statutory consent hierarchy and organ donation sit in Department of Health legislation that was not reachable for this entry, so those roles are still missing. Powers of attorney are common law and lapse on the grantor’s incapacity; no statutory enduring power exists."
-    }
-   ]
-  },
-  {
-   "id": "dk",
-   "name": "Denmark",
-   "jurisdictions": [
-    {
-     "id": "dk-national",
-     "name": "Denmark",
-     "short": "DK",
-     "files": [
-      "jurisdictions/dk-national.json"
-     ],
-     "country": "dk",
-     "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions."
-    }
-   ]
-  },
-  {
-   "id": "kr",
-   "name": "South Korea",
-   "jurisdictions": [
-    {
-     "id": "kr-national",
-     "name": "South Korea",
-     "short": "KR",
-     "files": [
-      "jurisdictions/kr-national.json"
-     ],
-     "country": "kr",
-     "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs."
+     "note": "Victorian state law on substitute and supported decision-making, deceased estates, tissue donation and disposal of remains, as in force on 2026-09-16. Commonwealth roles (Centrelink, My Health Record, ATO, Privacy Act) are in the au-commonwealth layer.",
+     "label": "Australia — Victoria"
     }
    ]
   },
   {
    "id": "ar",
    "name": "Argentina",
+   "region": "South America",
    "jurisdictions": [
     {
      "id": "ar-national",
@@ -378,126 +419,118 @@
       "jurisdictions/ar-national.json"
      ],
      "country": "ar",
-     "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded."
+     "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded.",
+     "label": "Argentina"
     }
    ]
   },
   {
-   "id": "in",
-   "name": "India",
+   "id": "br",
+   "name": "Brazil",
+   "region": "South America",
    "jurisdictions": [
     {
-     "id": "in-national",
-     "name": "India",
-     "short": "IN",
+     "id": "br-national",
+     "name": "Brazil",
+     "short": "BR",
      "files": [
-      "jurisdictions/in-national.json"
+      "jurisdictions/br-national.json"
      ],
-     "country": "in",
-     "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved."
+     "country": "br",
+     "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here.",
+     "label": "Brazil"
     }
    ]
   }
  ],
  "jurisdictions": [
   {
-   "id": "us-model",
-   "name": "US — uniform/model law + federal",
-   "short": "US model",
+   "id": "za-national",
+   "name": "South Africa",
+   "short": "ZA",
    "files": [
-    "jurisdictions/us-model.json",
-    "jurisdictions/us-federal.json"
+    "jurisdictions/za-national.json"
    ],
-   "note": "Baseline built from the Uniform Law Commission's model acts (which bind nobody until a state enacts them) plus federal regulations that apply everywhere.",
-   "country": "us"
+   "country": "za",
+   "note": "South African estate administration, curatorship and health decision-making: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953 from the Department of Justice, with the National Health Act 61 of 2003 and Mental Health Care Act 17 of 2002 from the Government Printer. There is no enduring power of attorney: a power of attorney is common law and lapses on the grantor’s incapacity, so the written health mandate under National Health Act s 7 is the only advance appointment recorded here. Two statutory routes run in parallel for property — curatorship under the Administration of Estates Act and an administrator under the Mental Health Care Act. The Mental Health Care Act citations carry no quote because the Government Printer’s scan has a damaged text layer; the sections were read but are not reproduced verbatim.",
+   "label": "South Africa"
   },
   {
-   "id": "us-ca",
-   "name": "California",
-   "short": "CA",
-   "code": "CA",
-   "extends": "us-model",
+   "id": "in-national",
+   "name": "India",
+   "short": "IN",
    "files": [
-    "jurisdictions/us-ca.json"
+    "jurisdictions/in-national.json"
    ],
-   "country": "us"
+   "country": "in",
+   "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved.",
+   "label": "India"
   },
   {
-   "id": "us-fl",
-   "name": "Florida",
-   "short": "FL",
-   "code": "FL",
-   "extends": "us-model",
+   "id": "kr-national",
+   "name": "South Korea",
+   "short": "KR",
    "files": [
-    "jurisdictions/us-fl.json"
+    "jurisdictions/kr-national.json"
    ],
-   "country": "us"
+   "country": "kr",
+   "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs.",
+   "label": "South Korea"
   },
   {
-   "id": "us-il",
-   "name": "Illinois",
-   "short": "IL",
-   "code": "IL",
-   "extends": "us-model",
+   "id": "dk-national",
+   "name": "Denmark",
+   "short": "DK",
    "files": [
-    "jurisdictions/us-il.json"
+    "jurisdictions/dk-national.json"
    ],
-   "country": "us"
+   "country": "dk",
+   "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
+   "label": "Denmark"
   },
   {
-   "id": "us-ny",
-   "name": "New York",
-   "short": "NY",
-   "code": "NY",
-   "extends": "us-model",
+   "id": "fi-national",
+   "name": "Finland",
+   "short": "FI",
    "files": [
-    "jurisdictions/us-ny.json"
+    "jurisdictions/fi-national.json"
    ],
-   "country": "us"
+   "country": "fi",
+   "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues.",
+   "label": "Finland"
   },
   {
-   "id": "us-nc",
-   "name": "North Carolina",
-   "short": "NC",
-   "code": "NC",
-   "extends": "us-model",
+   "id": "de-federal",
+   "name": "Germany — federal law",
+   "short": "DE",
    "files": [
-    "jurisdictions/us-nc.json"
+    "jurisdictions/de-federal.json"
    ],
-   "country": "us"
+   "country": "de",
+   "note": "Federal German law: BGB (agency, Betreuung, succession, medical records), TPG (organ donation), SGB I and AO. Burial and disposition of remains are Länder law and are not covered here.",
+   "label": "Germany — federal law"
   },
   {
-   "id": "us-oh",
-   "name": "Ohio",
-   "short": "OH",
-   "code": "OH",
-   "extends": "us-model",
+   "id": "es-national",
+   "name": "Spain — state law",
+   "short": "ES",
    "files": [
-    "jurisdictions/us-oh.json"
+    "jurisdictions/es-national.json"
    ],
-   "country": "us"
+   "country": "es",
+   "note": "Spanish state law: Código Civil as amended by Ley 8/2021 (support measures and preventive powers), Ley 41/2002 (patient autonomy) and Ley 30/1979 (organ donation). Catalonia, Aragón, Navarre, the Basque Country, Galicia and the Balearics have their own civil law of succession, which is not covered here.",
+   "label": "Spain — state law"
   },
   {
-   "id": "us-tx",
-   "name": "Texas",
-   "short": "TX",
-   "code": "TX",
-   "extends": "us-model",
+   "id": "se-national",
+   "name": "Sweden",
+   "short": "SE",
    "files": [
-    "jurisdictions/us-tx.json"
+    "jurisdictions/se-national.json"
    ],
-   "country": "us"
-  },
-  {
-   "id": "us-wa",
-   "name": "Washington",
-   "short": "WA",
-   "code": "WA",
-   "extends": "us-model",
-   "files": [
-    "jurisdictions/us-wa.json"
-   ],
-   "country": "us"
+   "country": "se",
+   "note": "Swedish national law: Lag (2017:310) om framtidsfullmakter, Ärvdabalk (1958:637), Föräldrabalk (1949:381) and Lag (1995:831) om transplantation m.m. Who may decide on disposal of the body is not covered: Begravningslag (1990:1144) was searched and no provision assigning that decision was located.",
+   "label": "Sweden"
   },
   {
    "id": "uk-ew",
@@ -508,18 +541,8 @@
     "jurisdictions/uk-ew.json"
    ],
    "country": "uk",
-   "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted."
-  },
-  {
-   "id": "uk-sco",
-   "name": "Scotland",
-   "short": "SCO",
-   "files": [
-    "jurisdictions/uk-national.json",
-    "jurisdictions/uk-sco.json"
-   ],
-   "country": "uk",
-   "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer."
+   "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted.",
+   "label": "United Kingdom — England & Wales"
   },
   {
    "id": "uk-ni",
@@ -530,7 +553,20 @@
     "jurisdictions/uk-ni.json"
    ],
    "country": "uk",
-   "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer."
+   "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer.",
+   "label": "United Kingdom — Northern Ireland"
+  },
+  {
+   "id": "uk-sco",
+   "name": "Scotland",
+   "short": "SCO",
+   "files": [
+    "jurisdictions/uk-national.json",
+    "jurisdictions/uk-sco.json"
+   ],
+   "country": "uk",
+   "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer.",
+   "label": "United Kingdom — Scotland"
   },
   {
    "id": "ca-bc",
@@ -541,7 +577,8 @@
     "jurisdictions/ca-bc.json"
    ],
    "country": "ca",
-   "note": "British Columbia provincial roles for incapacity, death and estate administration: enduring and general powers of attorney, representation agreements, temporary substitute decision makers, committees and statutory property guardians, executors and administrators under WESA, organ donation consent, control of disposition of remains, and access to a deceased person's records. Statutes as consolidated on bclaws.gov.bc.ca, current to 15 September 2026 (Supreme Court Civil Rules current to 8 September 2026). Federal roles (CPP/OAS trustees, CRA, PIPEDA, ULCC) are in ca-federal."
+   "note": "British Columbia provincial roles for incapacity, death and estate administration: enduring and general powers of attorney, representation agreements, temporary substitute decision makers, committees and statutory property guardians, executors and administrators under WESA, organ donation consent, control of disposition of remains, and access to a deceased person's records. Statutes as consolidated on bclaws.gov.bc.ca, current to 15 September 2026 (Supreme Court Civil Rules current to 8 September 2026). Federal roles (CPP/OAS trustees, CRA, PIPEDA, ULCC) are in ca-federal.",
+   "label": "Canada — British Columbia"
   },
   {
    "id": "ca-on",
@@ -552,7 +589,8 @@
     "jurisdictions/ca-on.json"
    ],
    "country": "ca",
-   "note": "Ontario provincial roles for incapacity, death and estates as in force on 2026-09-16 (e-Laws currency date 11 Sept 2026). Federal benefit, tax and privacy roles are in ca-federal.json."
+   "note": "Ontario provincial roles for incapacity, death and estates as in force on 2026-09-16 (e-Laws currency date 11 Sept 2026). Federal benefit, tax and privacy roles are in ca-federal.json.",
+   "label": "Canada — Ontario"
   },
   {
    "id": "ca-qc",
@@ -563,7 +601,127 @@
     "jurisdictions/ca-qc.json"
    ],
    "country": "ca",
-   "note": "Québec civil-law roles for incapacity, death and liquidation of successions under the Civil Code of Québec (CCQ) and Code of Civil Procedure (CCP), as amended by S.Q. 2020, c. 11 (in force 1 November 2022). Covers protection mandates, ordinary mandates, assistants, temporary representatives, tutors, consent to care, liquidators, organ donation, funeral arrangements and access to a deceased person's information. Consolidated texts were read from the official LégisQuébec PDFs marked 'Updated to April 7 2026'; later amendments, if any, were not checked. Federal roles are in ca-federal."
+   "note": "Québec civil-law roles for incapacity, death and liquidation of successions under the Civil Code of Québec (CCQ) and Code of Civil Procedure (CCP), as amended by S.Q. 2020, c. 11 (in force 1 November 2022). Covers protection mandates, ordinary mandates, assistants, temporary representatives, tutors, consent to care, liquidators, organ donation, funeral arrangements and access to a deceased person's information. Consolidated texts were read from the official LégisQuébec PDFs marked 'Updated to April 7 2026'; later amendments, if any, were not checked. Federal roles are in ca-federal.",
+   "label": "Canada — Québec"
+  },
+  {
+   "id": "mx-federal",
+   "name": "Mexico — federal law",
+   "short": "MX",
+   "files": [
+    "jurisdictions/mx-federal.json"
+   ],
+   "country": "mx",
+   "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here.",
+   "label": "Mexico — federal law"
+  },
+  {
+   "id": "us-model",
+   "name": "US — uniform/model law + federal",
+   "short": "US model",
+   "files": [
+    "jurisdictions/us-model.json",
+    "jurisdictions/us-federal.json"
+   ],
+   "note": "Baseline built from the Uniform Law Commission's model acts (which bind nobody until a state enacts them) plus federal regulations that apply everywhere.",
+   "country": "us",
+   "label": "United States — uniform/model law + federal"
+  },
+  {
+   "id": "us-ca",
+   "name": "California",
+   "short": "CA",
+   "code": "CA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ca.json"
+   ],
+   "country": "us",
+   "label": "United States — California"
+  },
+  {
+   "id": "us-fl",
+   "name": "Florida",
+   "short": "FL",
+   "code": "FL",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-fl.json"
+   ],
+   "country": "us",
+   "label": "United States — Florida"
+  },
+  {
+   "id": "us-il",
+   "name": "Illinois",
+   "short": "IL",
+   "code": "IL",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-il.json"
+   ],
+   "country": "us",
+   "label": "United States — Illinois"
+  },
+  {
+   "id": "us-ny",
+   "name": "New York",
+   "short": "NY",
+   "code": "NY",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ny.json"
+   ],
+   "country": "us",
+   "label": "United States — New York"
+  },
+  {
+   "id": "us-nc",
+   "name": "North Carolina",
+   "short": "NC",
+   "code": "NC",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-nc.json"
+   ],
+   "country": "us",
+   "label": "United States — North Carolina"
+  },
+  {
+   "id": "us-oh",
+   "name": "Ohio",
+   "short": "OH",
+   "code": "OH",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-oh.json"
+   ],
+   "country": "us",
+   "label": "United States — Ohio"
+  },
+  {
+   "id": "us-tx",
+   "name": "Texas",
+   "short": "TX",
+   "code": "TX",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-tx.json"
+   ],
+   "country": "us",
+   "label": "United States — Texas"
+  },
+  {
+   "id": "us-wa",
+   "name": "Washington",
+   "short": "WA",
+   "code": "WA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-wa.json"
+   ],
+   "country": "us",
+   "label": "United States — Washington"
   },
   {
    "id": "au-nsw",
@@ -574,7 +732,8 @@
     "jurisdictions/au-nsw.json"
    ],
    "country": "au",
-   "note": "NSW state roles as in force on 2026-09-16; Commonwealth nominee, My Health Record, tax and Privacy Act features are in au-commonwealth."
+   "note": "NSW state roles as in force on 2026-09-16; Commonwealth nominee, My Health Record, tax and Privacy Act features are in au-commonwealth.",
+   "label": "Australia — New South Wales"
   },
   {
    "id": "au-qld",
@@ -585,7 +744,8 @@
     "jurisdictions/au-qld.json"
    ],
    "country": "au",
-   "note": "Queensland state law on enduring documents, statutory health attorneys, QCAT appointments, deceased estates, tissue donation and cremation, as in force on 2026-09-16 (reprints current as at 28 April 2026 for the main Acts). Commonwealth roles are in the au-commonwealth layer."
+   "note": "Queensland state law on enduring documents, statutory health attorneys, QCAT appointments, deceased estates, tissue donation and cremation, as in force on 2026-09-16 (reprints current as at 28 April 2026 for the main Acts). Commonwealth roles are in the au-commonwealth layer.",
+   "label": "Australia — Queensland"
   },
   {
    "id": "au-vic",
@@ -596,97 +756,8 @@
     "jurisdictions/au-vic.json"
    ],
    "country": "au",
-   "note": "Victorian state law on substitute and supported decision-making, deceased estates, tissue donation and disposal of remains, as in force on 2026-09-16. Commonwealth roles (Centrelink, My Health Record, ATO, Privacy Act) are in the au-commonwealth layer."
-  },
-  {
-   "id": "de-federal",
-   "name": "Germany — federal law",
-   "short": "DE",
-   "files": [
-    "jurisdictions/de-federal.json"
-   ],
-   "country": "de",
-   "note": "Federal German law: BGB (agency, Betreuung, succession, medical records), TPG (organ donation), SGB I and AO. Burial and disposition of remains are Länder law and are not covered here."
-  },
-  {
-   "id": "es-national",
-   "name": "Spain — state law",
-   "short": "ES",
-   "files": [
-    "jurisdictions/es-national.json"
-   ],
-   "country": "es",
-   "note": "Spanish state law: Código Civil as amended by Ley 8/2021 (support measures and preventive powers), Ley 41/2002 (patient autonomy) and Ley 30/1979 (organ donation). Catalonia, Aragón, Navarre, the Basque Country, Galicia and the Balearics have their own civil law of succession, which is not covered here."
-  },
-  {
-   "id": "se-national",
-   "name": "Sweden",
-   "short": "SE",
-   "files": [
-    "jurisdictions/se-national.json"
-   ],
-   "country": "se",
-   "note": "Swedish national law: Lag (2017:310) om framtidsfullmakter, Ärvdabalk (1958:637), Föräldrabalk (1949:381) and Lag (1995:831) om transplantation m.m. Who may decide on disposal of the body is not covered: Begravningslag (1990:1144) was searched and no provision assigning that decision was located."
-  },
-  {
-   "id": "fi-national",
-   "name": "Finland",
-   "short": "FI",
-   "files": [
-    "jurisdictions/fi-national.json"
-   ],
-   "country": "fi",
-   "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues."
-  },
-  {
-   "id": "br-national",
-   "name": "Brazil",
-   "short": "BR",
-   "files": [
-    "jurisdictions/br-national.json"
-   ],
-   "country": "br",
-   "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here."
-  },
-  {
-   "id": "mx-federal",
-   "name": "Mexico — federal law",
-   "short": "MX",
-   "files": [
-    "jurisdictions/mx-federal.json"
-   ],
-   "country": "mx",
-   "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here."
-  },
-  {
-   "id": "za-national",
-   "name": "South Africa",
-   "short": "ZA",
-   "files": [
-    "jurisdictions/za-national.json"
-   ],
-   "country": "za",
-   "note": "South African estate administration plus curatorship of property: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice’s published copies. The Act’s curatorship is over property only — letters of curatorship authorise acts in respect of property and business, not personal or health decisions — and s 73 still cross-refers to the repealed Mental Health Act 1973, so the modern appointment route under the Mental Health Care Act 17 of 2002 is not recorded here. Health-care proxies, the statutory consent hierarchy and organ donation sit in Department of Health legislation that was not reachable for this entry, so those roles are still missing. Powers of attorney are common law and lapse on the grantor’s incapacity; no statutory enduring power exists."
-  },
-  {
-   "id": "dk-national",
-   "name": "Denmark",
-   "short": "DK",
-   "files": [
-    "jurisdictions/dk-national.json"
-   ],
-   "country": "dk",
-   "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions."
-  },
-  {
-   "id": "kr-national",
-   "name": "South Korea",
-   "short": "KR",
-   "files": [
-    "jurisdictions/kr-national.json"
-   ],
-   "country": "kr",
-   "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs."
+   "note": "Victorian state law on substitute and supported decision-making, deceased estates, tissue donation and disposal of remains, as in force on 2026-09-16. Commonwealth roles (Centrelink, My Health Record, ATO, Privacy Act) are in the au-commonwealth layer.",
+   "label": "Australia — Victoria"
   },
   {
    "id": "ar-national",
@@ -696,17 +767,19 @@
     "jurisdictions/ar-national.json"
    ],
    "country": "ar",
-   "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded."
+   "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded.",
+   "label": "Argentina"
   },
   {
-   "id": "in-national",
-   "name": "India",
-   "short": "IN",
+   "id": "br-national",
+   "name": "Brazil",
+   "short": "BR",
    "files": [
-    "jurisdictions/in-national.json"
+    "jurisdictions/br-national.json"
    ],
-   "country": "in",
-   "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved."
+   "country": "br",
+   "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here.",
+   "label": "Brazil"
   }
  ],
  "adoption": "adoption.json",
