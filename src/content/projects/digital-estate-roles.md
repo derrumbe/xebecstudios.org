@@ -4,5 +4,5 @@ summary: "A sourced reference for when legal authority over a person, their prop
 status: Active
 started: 2026-09-01
 url: "https://xebecstudios.org/research/digital-estate-roles/"
-order: 2
+order: 1
 ---
