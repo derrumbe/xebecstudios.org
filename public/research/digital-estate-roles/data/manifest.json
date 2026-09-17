@@ -58,6 +58,25 @@
    ]
   },
   {
+   "id": "cn",
+   "name": "China",
+   "region": "Asia",
+   "iso": "CN",
+   "jurisdictions": [
+    {
+     "id": "cn-national",
+     "name": "China",
+     "short": "CN",
+     "files": [
+      "jurisdictions/cn-national.json"
+     ],
+     "country": "cn",
+     "note": "Roles under the Civil Code of the People’s Republic of China, in force 1 January 2021, with the Trust Law, the Personal Information Protection Law, the Mental Health Law and the 2024 Regulations on Human Organ Donation and Transplantation. Mainland China only: Hong Kong and Macau keep their own systems, and Taiwan is outside this file. Text from the NPC National Database of Laws and Regulations.",
+     "label": "China"
+    }
+   ]
+  },
+  {
    "id": "in",
    "name": "India",
    "region": "Asia",
@@ -567,6 +586,17 @@
    "country": "za",
    "note": "South African estate administration, curatorship and health decision-making: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953 from the Department of Justice, with the National Health Act 61 of 2003 and Mental Health Care Act 17 of 2002 from the Government Printer. There is no enduring power of attorney: a power of attorney is common law and lapses on the grantor’s incapacity, so the written health mandate under National Health Act s 7 is the only advance appointment recorded here. Two statutory routes run in parallel for property — curatorship under the Administration of Estates Act and an administrator under the Mental Health Care Act. The Mental Health Care Act citations carry no quote because the Government Printer’s scan has a damaged text layer; the sections were read but are not reproduced verbatim.",
    "label": "South Africa"
+  },
+  {
+   "id": "cn-national",
+   "name": "China",
+   "short": "CN",
+   "files": [
+    "jurisdictions/cn-national.json"
+   ],
+   "country": "cn",
+   "note": "Roles under the Civil Code of the People’s Republic of China, in force 1 January 2021, with the Trust Law, the Personal Information Protection Law, the Mental Health Law and the 2024 Regulations on Human Organ Donation and Transplantation. Mainland China only: Hong Kong and Macau keep their own systems, and Taiwan is outside this file. Text from the NPC National Database of Laws and Regulations.",
+   "label": "China"
   },
   {
    "id": "in-national",

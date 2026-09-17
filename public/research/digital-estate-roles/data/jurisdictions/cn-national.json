@@ -1,0 +1,2048 @@
+{
+ "jurisdiction": "cn-national",
+ "name": "China",
+ "country": "cn",
+ "legalSystem": "civil law",
+ "note": "Roles under the Civil Code of the People’s Republic of China, in force 1 January 2021, with the Trust Law, the Personal Information Protection Law, the Mental Health Law and the 2024 Regulations on Human Organ Donation and Transplantation. Mainland China only: Hong Kong and Macau keep their own systems, and Taiwan is outside this file. Text from the NPC National Database of Laws and Regulations.",
+ "citations": [
+  {
+   "id": "cn-cc-27",
+   "cite": "中华人民共和国民法典第二十七条",
+   "title": "Guardians of a minor",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "父母是未成年子女的监护人。未成年人的父母已经死亡或者没有监护能力的，由下列有监护能力的人按顺序担任监护人：（一）祖父母、外祖父母；（二）兄、姐；（三）其他愿意担任监护人的个人或者组织，但是须经未成年人住所地的居民委员会、…"
+  },
+  {
+   "id": "cn-cc-28",
+   "cite": "中华人民共和国民法典第二十八条",
+   "title": "Guardians of an adult without or with limited capacity for civil conduct",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "无民事行为能力或者限制民事行为能力的成年人，由下列有监护能力的人按顺序担任监护人：（一）配偶；（二）父母、子女；（三）其他近亲属；（四）其他愿意担任监护人的个人或者组织，但是须经被监护人住所地的居民委员会、村民委员会或者…"
+  },
+  {
+   "id": "cn-cc-30",
+   "cite": "中华人民共和国民法典第三十条",
+   "title": "Guardian settled by agreement among those qualified",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "依法具有监护资格的人之间可以协议确定监护人。协议确定监护人应当尊重被监护人的真实意愿。"
+  },
+  {
+   "id": "cn-cc-31",
+   "cite": "中华人民共和国民法典第三十一条",
+   "title": "Designation of a guardian where the choice is disputed; interim guardian",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "对监护人的确定有争议的，由被监护人住所地的居民委员会、村民委员会或者民政部门指定监护人，有关当事人对指定不服的，可以向人民法院申请指定监护人；有关当事人也可以直接向人民法院申请指定监护人。"
+  },
+  {
+   "id": "cn-cc-32",
+   "cite": "中华人民共和国民法典第三十二条",
+   "title": "Civil affairs department or committee as guardian where nobody qualifies",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "没有依法具有监护资格的人的，监护人由民政部门担任，也可以由具备履行监护职责条件的被监护人住所地的居民委员会、村民委员会担任。"
+  },
+  {
+   "id": "cn-cc-33",
+   "cite": "中华人民共和国民法典第三十三条",
+   "title": "Adult appoints their own guardian in advance, in writing",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "具有完全民事行为能力的成年人，可以与其近亲属、其他愿意担任监护人的个人或者组织事先协商，以书面形式确定自己的监护人，在自己丧失或者部分丧失民事行为能力时，由该监护人履行监护职责。"
+  },
+  {
+   "id": "cn-cc-34",
+   "cite": "中华人民共和国民法典第三十四条",
+   "title": "Duties of a guardian",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "监护人的职责是代理被监护人实施民事法律行为，保护被监护人的人身权利、财产权利以及其他合法权益等。监护人依法履行监护职责产生的权利，受法律保护。监护人不履行监护职责或者侵害被监护人合法权益的，应当承担法律责任。"
+  },
+  {
+   "id": "cn-cc-35",
+   "cite": "中华人民共和国民法典第三十五条",
+   "title": "Guardian acts on the principle most favourable to the ward",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "监护人应当按照最有利于被监护人的原则履行监护职责。监护人除为维护被监护人利益外，不得处分被监护人的财产。"
+  },
+  {
+   "id": "cn-cc-36",
+   "cite": "中华人民共和国民法典第三十六条",
+   "title": "Court revokes a guardian's qualification",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "监护人有下列情形之一的，人民法院根据有关个人或者组织的申请，撤销其监护人资格，安排必要的临时监护措施，并按照最有利于被监护人的原则依法指定监护人：（一）实施严重损害被监护人身心健康的行为；（二）怠于履行监护职责，或者无法…"
+  },
+  {
+   "id": "cn-cc-38",
+   "cite": "中华人民共和国民法典第三十八条",
+   "title": "Restoration of a parent or child as guardian",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "被监护人的父母或者子女被人民法院撤销监护人资格后，除对被监护人实施故意犯罪的外，确有悔改表现的，经其申请，人民法院可以在尊重被监护人真实意愿的前提下，视情况恢复其监护人资格，人民法院指定的监护人与被监护人的监护关系同时终…"
+  },
+  {
+   "id": "cn-cc-39",
+   "cite": "中华人民共和国民法典第三十九条",
+   "title": "Termination of the guardianship relationship",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "有下列情形之一的，监护关系终止：（一）被监护人取得或者恢复完全民事行为能力；（二）监护人丧失监护能力；（三）被监护人或者监护人死亡；（四）人民法院认定监护关系终止的其他情形。"
+  },
+  {
+   "id": "cn-cc-40",
+   "cite": "中华人民共和国民法典第四十条",
+   "title": "Declaration that a person is missing after two years",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "自然人下落不明满二年的，利害关系人可以向人民法院申请宣告该自然人为失踪人。"
+  },
+  {
+   "id": "cn-cc-42",
+   "cite": "中华人民共和国民法典第四十二条",
+   "title": "Custodian of a missing person’s property",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "失踪人的财产由其配偶、成年子女、父母或者其他愿意担任财产代管人的人代管。代管有争议，没有前款规定的人，或者前款规定的人无代管能力的，由人民法院指定的人代管。"
+  },
+  {
+   "id": "cn-cc-43",
+   "cite": "中华人民共和国民法典第四十三条",
+   "title": "Duties of the property custodian",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "财产代管人应当妥善管理失踪人的财产，维护其财产权益。失踪人所欠税款、债务和应付的其他费用，由财产代管人从失踪人的财产中支付。财产代管人因故意或者重大过失造成失踪人财产损失的，应当承担赔偿责任。"
+  },
+  {
+   "id": "cn-cc-44",
+   "cite": "中华人民共和国民法典第四十四条",
+   "title": "Change of property custodian",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "财产代管人不履行代管职责、侵害失踪人财产权益或者丧失代管能力的，失踪人的利害关系人可以向人民法院申请变更财产代管人。财产代管人有正当理由的，可以向人民法院申请变更财产代管人。"
+  },
+  {
+   "id": "cn-cc-45",
+   "cite": "中华人民共和国民法典第四十五条",
+   "title": "Reappearance revokes the declaration; property handed back",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "失踪人重新出现，经本人或者利害关系人申请，人民法院应当撤销失踪宣告。失踪人重新出现，有权请求财产代管人及时移交有关财产并报告财产代管情况。"
+  },
+  {
+   "id": "cn-cc-46",
+   "cite": "中华人民共和国民法典第四十六条",
+   "title": "Declaration of death",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "自然人有下列情形之一的，利害关系人可以向人民法院申请宣告该自然人死亡：（一）下落不明满四年；（二）因意外事件，下落不明满二年。因意外事件下落不明，经有关机关证明该自然人不可能生存的，申请宣告死亡不受二年时间的限制。"
+  },
+  {
+   "id": "cn-cc-48",
+   "cite": "中华人民共和国民法典第四十八条",
+   "title": "Date treated as the date of death",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "被宣告死亡的人，人民法院宣告死亡的判决作出之日视为其死亡的日期；因意外事件下落不明宣告死亡的，意外事件发生之日视为其死亡的日期。"
+  },
+  {
+   "id": "cn-cc-127",
+   "cite": "中华人民共和国民法典第一百二十七条",
+   "title": "Data and online virtual property",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "法律对数据、网络虚拟财产的保护有规定的，依照其规定。"
+  },
+  {
+   "id": "cn-cc-165",
+   "cite": "中华人民共和国民法典第一百六十五条",
+   "title": "Written authorisation for mandate agency",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "委托代理授权采用书面形式的，授权委托书应当载明代理人的姓名或者名称、代理事项、权限和期限，并由被代理人签名或者盖章。"
+  },
+  {
+   "id": "cn-cc-173",
+   "cite": "中华人民共和国民法典第一百七十三条",
+   "title": "Termination of mandate agency",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "有下列情形之一的，委托代理终止：（一）代理期限届满或者代理事务完成；（二）被代理人取消委托或者代理人辞去委托；（三）代理人丧失民事行为能力；（四）代理人或者被代理人死亡；（五）作为代理人或者被代理人的法人、非法人组织终止。"
+  },
+  {
+   "id": "cn-cc-1006",
+   "cite": "中华人民共和国民法典第一千零六条",
+   "title": "Donation of cells, tissue, organs and the body",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "完全民事行为能力人有权依法自主决定无偿捐献其人体细胞、人体组织、人体器官、遗体。任何组织或者个人不得强迫、欺骗、利诱其捐献。完全民事行为能力人依据前款规定同意捐献的，应当采用书面形式，也可以订立遗嘱。"
+  },
+  {
+   "id": "cn-cc-1121",
+   "cite": "中华人民共和国民法典第一千一百二十一条",
+   "title": "Succession begins on the death of the decedent",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "继承从被继承人死亡时开始。相互有继承关系的数人在同一事件中死亡，难以确定死亡时间的，推定没有其他继承人的人先死亡。都有其他继承人，辈份不同的，推定长辈先死亡；辈份相同的，推定同时死亡，相互不发生继承。"
+  },
+  {
+   "id": "cn-cc-1122",
+   "cite": "中华人民共和国民法典第一千一百二十二条",
+   "title": "The estate is the lawful property left at death",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "遗产是自然人死亡时遗留的个人合法财产。依照法律规定或者根据其性质不得继承的遗产，不得继承。"
+  },
+  {
+   "id": "cn-cc-1123",
+   "cite": "中华人民共和国民法典第一千一百二十三条",
+   "title": "Statutory succession, will, legacy, or legacy-support agreement",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "继承开始后，按照法定继承办理；有遗嘱的，按照遗嘱继承或者遗赠办理；有遗赠扶养协议的，按照协议办理。"
+  },
+  {
+   "id": "cn-cc-1124",
+   "cite": "中华人民共和国民法典第一千一百二十四条",
+   "title": "Renunciation in writing before the estate is dealt with",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "继承开始后，继承人放弃继承的，应当在遗产处理前，以书面形式作出放弃继承的表示；没有表示的，视为接受继承。受遗赠人应当在知道受遗赠后六十日内，作出接受或者放弃受遗赠的表示；到期没有表示的，视为放弃受遗赠。"
+  },
+  {
+   "id": "cn-cc-1133",
+   "cite": "中华人民共和国民法典第一千一百三十三条",
+   "title": "Testator may appoint an executor and set up a testamentary trust",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "自然人可以依照本法规定立遗嘱处分个人财产，并可以指定遗嘱执行人。自然人可以立遗嘱将个人财产指定由法定继承人中的一人或者数人继承。自然人可以立遗嘱将个人财产赠与国家、集体或者法定继承人以外的组织、个人。"
+  },
+  {
+   "id": "cn-cc-1142",
+   "cite": "中华人民共和国民法典第一千一百四十二条",
+   "title": "Revocation and variation of a will",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "遗嘱人可以撤回、变更自己所立的遗嘱。立遗嘱后，遗嘱人实施与遗嘱内容相反的民事法律行为的，视为对遗嘱相关内容的撤回。立有数份遗嘱，内容相抵触的，以最后的遗嘱为准。"
+  },
+  {
+   "id": "cn-cc-1145",
+   "cite": "中华人民共和国民法典第一千一百四十五条",
+   "title": "Who is the estate administrator",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "继承开始后，遗嘱执行人为遗产管理人；没有遗嘱执行人的，继承人应当及时推选遗产管理人；继承人未推选的，由继承人共同担任遗产管理人；没有继承人或者继承人均放弃继承的，由被继承人生前住所地的民政部门或者村民委员会担任遗产管理人。"
+  },
+  {
+   "id": "cn-cc-1146",
+   "cite": "中华人民共和国民法典第一千一百四十六条",
+   "title": "Court designates the estate administrator where disputed",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "对遗产管理人的确定有争议的，利害关系人可以向人民法院申请指定遗产管理人。"
+  },
+  {
+   "id": "cn-cc-1147",
+   "cite": "中华人民共和国民法典第一千一百四十七条",
+   "title": "Duties of the estate administrator",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "遗产管理人应当履行下列职责：（一）清理遗产并制作遗产清单；（二）向继承人报告遗产情况；（三）采取必要措施防止遗产毁损、灭失；（四）处理被继承人的债权债务；（五）按照遗嘱或者依照法律规定分割遗产；（六）实施与管理遗产有关的…"
+  },
+  {
+   "id": "cn-cc-1148",
+   "cite": "中华人民共和国民法典第一千一百四十八条",
+   "title": "Liability of the estate administrator",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "遗产管理人应当依法履行职责，因故意或者重大过失造成继承人、受遗赠人、债权人损害的，应当承担民事责任。"
+  },
+  {
+   "id": "cn-cc-1149",
+   "cite": "中华人民共和国民法典第一千一百四十九条",
+   "title": "Remuneration of the estate administrator",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "遗产管理人可以依照法律规定或者按照约定获得报酬。"
+  },
+  {
+   "id": "cn-trust-8",
+   "cite": "中华人民共和国信托法第八条",
+   "title": "A trust is created in writing",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf60e1d0271",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "设立信托，应当采取书面形式。书面形式包括信托合同、遗嘱或者法律、行政法规规定的其他书面文件等。采取信托合同形式设立信托的，信托合同签订时，信托成立。采取其他书面形式设立信托的，受托人承诺信托时，信托成立。"
+  },
+  {
+   "id": "cn-trust-13",
+   "cite": "中华人民共和国信托法第十三条",
+   "title": "Testamentary trust; replacement where the named trustee will not or cannot act",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf60e1d0271",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "设立遗嘱信托，应当遵守继承法关于遗嘱的规定。遗嘱指定的人拒绝或者无能力担任受托人的，由受益人另行选任受托人；受益人为无民事行为能力人或者限制民事行为能力人的，依法由其监护人代行选任。遗嘱对选任受托人另有规定的，从其规定。"
+  },
+  {
+   "id": "cn-trust-24",
+   "cite": "中华人民共和国信托法第二十四条",
+   "title": "Who may be a trustee",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf60e1d0271",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "受托人应当是具有完全民事行为能力的自然人、法人。法律、行政法规对受托人的条件另有规定的，从其规定。"
+  },
+  {
+   "id": "cn-trust-38",
+   "cite": "中华人民共和国信托法第三十八条",
+   "title": "Resignation of a trustee",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf60e1d0271",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "设立信托后，经委托人和受益人同意，受托人可以辞任。本法对公益信托的受托人辞任另有规定的，从其规定。受托人辞任的，在新受托人选出前仍应履行管理信托事务的职责。"
+  },
+  {
+   "id": "cn-trust-39",
+   "cite": "中华人民共和国信托法第三十九条",
+   "title": "Termination of a trustee's duties",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf60e1d0271",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "受托人有下列情形之一的，其职责终止：（一）死亡或者被依法宣告死亡；（二）被依法宣告为无民事行为能力人或者限制民事行为能力人；（三）被依法撤销或者被宣告破产；（四）依法解散或者法定资格丧失；（五）辞任或者被解任；（六）法律…"
+  },
+  {
+   "id": "cn-trust-40",
+   "cite": "中华人民共和国信托法第四十条",
+   "title": "Selection of a new trustee",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf60e1d0271",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "受托人职责终止的，依照信托文件规定选任新受托人；信托文件未规定的，由委托人选任；委托人不指定或者无能力指定的，由受益人选任；受益人为无民事行为能力人或者限制民事行为能力人的，依法由其监护人代行选任。"
+  },
+  {
+   "id": "cn-trust-52",
+   "cite": "中华人民共和国信托法第五十二条",
+   "title": "The trust does not end with the trustee",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf60e1d0271",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "信托不因委托人或者受托人的死亡、丧失民事行为能力、依法解散、被依法撤销或者被宣告破产而终止，也不因受托人的辞任而终止。但本法或者信托文件另有规定的除外。"
+  },
+  {
+   "id": "cn-trust-53",
+   "cite": "中华人民共和国信托法第五十三条",
+   "title": "Termination of the trust",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf60e1d0271",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "有下列情形之一的，信托终止：（一）信托文件规定的终止事由发生；（二）信托的存续违反信托目的；（三）信托目的已经实现或者不能实现；（四）信托当事人协商同意；（五）信托被撤销；（六）信托被解除。"
+  },
+  {
+   "id": "cn-pipl-49",
+   "cite": "中华人民共和国个人信息保护法第四十九条",
+   "title": "Close relatives' rights over a deceased person's personal information",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff8081817b6472a3017b656cc2040044",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "自然人死亡的，其近亲属为了自身的合法、正当利益，可以对死者的相关个人信息行使本章规定的查阅、复制、更正、删除等权利；死者生前另有安排的除外。"
+  },
+  {
+   "id": "cn-mhl-31",
+   "cite": "中华人民共和国精神卫生法第三十一条",
+   "title": "Guardian consents to inpatient treatment",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf7448a066d",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "精神障碍患者有本法第三十条第二款第一项情形的，经其监护人同意，医疗机构应当对患者实施住院治疗；监护人不同意的，医疗机构不得对患者实施住院治疗。监护人应当对在家居住的患者做好看护管理。"
+  },
+  {
+   "id": "cn-mhl-36",
+   "cite": "中华人民共和国精神卫生法第三十六条",
+   "title": "Guardian completes admission formalities",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf7448a066d",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "诊断结论表明需要住院治疗的精神障碍患者，本人没有能力办理住院手续的，由其监护人办理住院手续；患者属于查找不到监护人的流浪乞讨人员的，由送诊的有关部门办理住院手续。"
+  },
+  {
+   "id": "cn-mhl-43",
+   "cite": "中华人民共和国精神卫生法第四十三条",
+   "title": "Written consent of the guardian to specified treatment",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf7448a066d",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "医疗机构对精神障碍患者实施下列治疗措施，应当向患者或者其监护人告知医疗风险、替代医疗方案等情况，并取得患者的书面同意；无法取得患者意见的，应当取得其监护人的书面同意，并经本医疗机构伦理委员会批准：（一）导致人体器官丧失功…"
+  },
+  {
+   "id": "cn-mhl-45",
+   "cite": "中华人民共和国精神卫生法第四十五条",
+   "title": "Guardian completes discharge formalities",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf7448a066d",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "精神障碍患者出院，本人没有能力办理出院手续的，监护人应当为其办理出院手续。"
+  },
+  {
+   "id": "cn-organ-9",
+   "cite": "人体器官捐献和移植条例第九条",
+   "title": "Donation decided by the citizen, revocably; family decision after death",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff8081818c24df58018c8d0fb82e6563",
+   "kind": "regulation",
+   "retrieved": "2026-09-17",
+   "quote": "具有完全民事行为能力的公民有权依法自主决定捐献其人体器官。公民表示捐献其人体器官的意愿，应当采用书面形式，也可以订立遗嘱。公民对已经表示捐献其人体器官的意愿，有权予以撤销。"
+  },
+  {
+   "id": "cn-organ-19",
+   "cite": "人体器官捐献和移植条例第十九条",
+   "title": "Procurement only after death is determined",
+   "url": "https://flk.npc.gov.cn/detail?bbbs=ff8081818c24df58018c8d0fb82e6563",
+   "kind": "regulation",
+   "retrieved": "2026-09-17",
+   "quote": "获取遗体器官，应当在依法判定遗体器官捐献人死亡后进行。从事人体器官获取、移植的医务人员不得参与遗体器官捐献人的死亡判定。获取遗体器官，应当经人体器官捐献协调员见证。"
+  }
+ ],
+ "roles": [
+  {
+   "id": "cn-appointed-guardian",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Guardian appointed in advance by the adult (意定监护人)",
+   "localNames": [
+    "意定监护人",
+    "监护人"
+   ],
+   "summary": "An adult with full capacity may agree in advance, in writing, with a close relative or another willing person or organisation that they will act as guardian if capacity is later lost or partly lost. This, not the mandate, is the Civil Code’s durable arrangement: the guardian both represents the person in juristic acts and protects their personal and property rights.",
+   "lane": {
+    "assigned": {
+     "event": "The adult, while holding full capacity for civil conduct, settles their own guardian in writing after consulting close relatives or another willing person or organisation",
+     "phase": "capable",
+     "citations": [
+      "cn-cc-33"
+     ]
+    },
+    "starts": {
+     "event": "The appointed guardian performs guardianship duties when the adult loses or partly loses capacity for civil conduct",
+     "phase": "incapacitated",
+     "citations": [
+      "cn-cc-33",
+      "cn-cc-34"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The ward acquires or recovers full capacity for civil conduct, and the guardianship relationship terminates",
+      "phase": "capable",
+      "citations": [
+       "cn-cc-39"
+      ]
+     },
+     {
+      "event": "Death of the ward or of the guardian",
+      "phase": "deceased",
+      "citations": [
+       "cn-cc-39"
+      ]
+     },
+     {
+      "event": "The People’s Court revokes the guardian’s qualification on application, for serious harm, neglect or other serious infringement",
+      "phase": "incapacitated",
+      "citations": [
+       "cn-cc-36"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No advance appointment"
+     },
+     {
+      "id": "designated",
+      "label": "Appointed in writing"
+     },
+     {
+      "id": "active",
+      "label": "Guardian performs guardianship duties"
+     },
+     {
+      "id": "terminated",
+      "label": "Terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-ag-agree",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "事先协商，以书面形式确定自己的监护人（第三十三条）",
+      "citations": [
+       "cn-cc-33"
+      ]
+     },
+     {
+      "id": "cn-t-ag-start",
+      "from": "designated",
+      "to": "active",
+      "event": "本人丧失或者部分丧失民事行为能力（第三十三条）",
+      "citations": [
+       "cn-cc-33"
+      ]
+     },
+     {
+      "id": "cn-t-ag-duties",
+      "from": "active",
+      "to": "active",
+      "event": "代理被监护人实施民事法律行为，保护其人身、财产权利（第三十四条、第三十五条）",
+      "citations": [
+       "cn-cc-34",
+       "cn-cc-35"
+      ]
+     },
+     {
+      "id": "cn-t-ag-restore",
+      "from": "active",
+      "to": "terminated",
+      "event": "被监护人取得或者恢复完全民事行为能力（第三十九条第一项）",
+      "citations": [
+       "cn-cc-39"
+      ]
+     },
+     {
+      "id": "cn-t-ag-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "被监护人或者监护人死亡（第三十九条第三项）",
+      "citations": [
+       "cn-cc-39"
+      ]
+     },
+     {
+      "id": "cn-t-ag-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "人民法院撤销监护人资格（第三十六条）",
+      "citations": [
+       "cn-cc-36"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Guardian appointed in advance by the adult",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "意定监护人": {
+     "en": "guardian appointed in advance by the adult",
+     "basis": "descriptive"
+    },
+    "监护人": {
+     "en": "guardian",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-statutory-guardian",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Statutory guardian of an adult (法定监护人)",
+   "localNames": [
+    "法定监护人",
+    "监护人"
+   ],
+   "summary": "Where an adult is without, or has only limited, capacity for civil conduct and has made no advance appointment, the Civil Code supplies the guardian by statutory order: spouse; parents and children; other close relatives; then others willing to serve, with the consent of the residents’ or villagers’ committee or the civil affairs department. China has no separate health-care agent — it is this guardian who consents to psychiatric admission and to specified treatment.",
+   "lane": {
+    "assigned": {
+     "event": "The Code names the guardians in order — spouse, then parents and children, then other close relatives, then others willing to serve with official consent; those qualified may instead settle the guardian by agreement",
+     "phase": "incapacitated",
+     "citations": [
+      "cn-cc-28",
+      "cn-cc-30"
+     ]
+    },
+    "starts": {
+     "event": "Guardianship duties begin: representing the ward in juristic acts and protecting their personal and property rights, on the principle most favourable to the ward",
+     "phase": "incapacitated",
+     "citations": [
+      "cn-cc-34",
+      "cn-cc-35"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The ward acquires or recovers full capacity, the guardian loses the ability to act as guardian, or either dies",
+      "phase": "capable",
+      "citations": [
+       "cn-cc-39"
+      ]
+     },
+     {
+      "event": "The People’s Court revokes the guardian’s qualification",
+      "phase": "incapacitated",
+      "citations": [
+       "cn-cc-36"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No guardianship"
+     },
+     {
+      "id": "active",
+      "label": "Statutory guardian acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-sg-order",
+      "from": "none",
+      "to": "active",
+      "event": "成年人无民事行为能力或者限制民事行为能力，按第二十八条顺序担任监护人",
+      "citations": [
+       "cn-cc-28"
+      ]
+     },
+     {
+      "id": "cn-t-sg-agree",
+      "from": "none",
+      "to": "active",
+      "event": "依法具有监护资格的人之间协议确定监护人（第三十条）",
+      "citations": [
+       "cn-cc-30"
+      ]
+     },
+     {
+      "id": "cn-t-sg-duties",
+      "from": "active",
+      "to": "active",
+      "event": "代理被监护人实施民事法律行为，保护其人身权利、财产权利；按照最有利于被监护人的原则履行职责（第三十四条、第三十五条）",
+      "citations": [
+       "cn-cc-34",
+       "cn-cc-35"
+      ]
+     },
+     {
+      "id": "cn-t-sg-health",
+      "from": "active",
+      "to": "active",
+      "event": "监护人同意住院治疗、办理住院手续、对特定治疗措施书面同意（精神卫生法第三十一条、第三十六条、第四十三条）",
+      "citations": [
+       "cn-mhl-31",
+       "cn-mhl-36",
+       "cn-mhl-43"
+      ]
+     },
+     {
+      "id": "cn-t-sg-discharge",
+      "from": "active",
+      "to": "active",
+      "event": "患者没有能力办理出院手续的，由监护人办理（精神卫生法第四十五条）",
+      "citations": [
+       "cn-mhl-45"
+      ]
+     },
+     {
+      "id": "cn-t-sg-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "监护关系终止（第三十九条）",
+      "citations": [
+       "cn-cc-39"
+      ]
+     },
+     {
+      "id": "cn-t-sg-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "人民法院撤销监护人资格（第三十六条）",
+      "citations": [
+       "cn-cc-36"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Statutory guardian of an adult",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "法定监护人": {
+     "en": "statutory guardian",
+     "basis": "descriptive"
+    },
+    "监护人": {
+     "en": "guardian",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-designated-guardian",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Designated guardian (指定监护人)",
+   "localNames": [
+    "指定监护人",
+    "临时监护人"
+   ],
+   "summary": "Where who should be guardian is disputed, the residents’ or villagers’ committee or the civil affairs department designates one, and a party dissatisfied with that designation — or any party directly — may apply to the People’s Court. If the ward’s rights would otherwise be unprotected while the designation is pending, the committee, a body provided by law or the civil affairs department serves as interim guardian.",
+   "lane": {
+    "assigned": {
+     "event": "The choice of guardian is disputed, or nobody is qualified to serve",
+     "phase": "incapacitated",
+     "citations": [
+      "cn-cc-31",
+      "cn-cc-32"
+     ]
+    },
+    "starts": {
+     "event": "The committee or civil affairs department designates a guardian, or the People’s Court does so on application; the designation may not then be changed at will",
+     "phase": "incapacitated",
+     "citations": [
+      "cn-cc-31"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The guardianship relationship terminates under art 39",
+      "phase": "capable",
+      "citations": [
+       "cn-cc-39"
+      ]
+     },
+     {
+      "event": "A parent or child whose qualification was revoked is restored by the court, and the designated guardian’s relationship terminates at the same time",
+      "phase": "incapacitated",
+      "citations": [
+       "cn-cc-38"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No guardianship"
+     },
+     {
+      "id": "interim",
+      "label": "Interim guardian"
+     },
+     {
+      "id": "active",
+      "label": "Designated guardian acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-dg-interim",
+      "from": "none",
+      "to": "interim",
+      "event": "指定前权益处于无人保护状态的，由居民委员会、村民委员会、有关组织或者民政部门担任临时监护人（第三十一条第三款）",
+      "citations": [
+       "cn-cc-31"
+      ]
+     },
+     {
+      "id": "cn-t-dg-designate",
+      "from": "none",
+      "to": "active",
+      "event": "居民委员会、村民委员会或者民政部门指定监护人（第三十一条第一款）",
+      "citations": [
+       "cn-cc-31"
+      ]
+     },
+     {
+      "id": "cn-t-dg-court",
+      "from": "none",
+      "to": "active",
+      "event": "当事人向人民法院申请指定监护人（第三十一条第一款）",
+      "citations": [
+       "cn-cc-31"
+      ]
+     },
+     {
+      "id": "cn-t-dg-default",
+      "from": "none",
+      "to": "active",
+      "event": "没有依法具有监护资格的人的，由民政部门或者居民委员会、村民委员会担任（第三十二条）",
+      "citations": [
+       "cn-cc-32"
+      ]
+     },
+     {
+      "id": "cn-t-dg-from-interim",
+      "from": "interim",
+      "to": "active",
+      "event": "监护人被指定（第三十一条）",
+      "citations": [
+       "cn-cc-31"
+      ]
+     },
+     {
+      "id": "cn-t-dg-restore",
+      "from": "active",
+      "to": "terminated",
+      "event": "人民法院恢复父母或者子女的监护人资格，指定监护人的监护关系同时终止（第三十八条）",
+      "citations": [
+       "cn-cc-38"
+      ]
+     },
+     {
+      "id": "cn-t-dg-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "人民法院撤销监护人资格（第三十六条）",
+      "citations": [
+       "cn-cc-36"
+      ]
+     },
+     {
+      "id": "cn-t-dg-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "监护关系终止（第三十九条）",
+      "citations": [
+       "cn-cc-39"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Designated guardian",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "指定监护人": {
+     "en": "designated guardian",
+     "basis": "descriptive"
+    },
+    "临时监护人": {
+     "en": "interim guardian",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-property-custodian",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Custodian of a missing person’s property (财产代管人)",
+   "localNames": [
+    "财产代管人"
+   ],
+   "summary": "Two years after a person drops out of contact, an interested party may apply to have them declared missing; their property is then held by spouse, adult children, parents or another willing person, or by someone the court designates where that is disputed or nobody is able. The custodian pays the missing person’s taxes and debts out of the property and answers for loss caused intentionally or by gross negligence.",
+   "lane": {
+    "assigned": {
+     "event": "An interested party applies to the People’s Court to declare the person missing, two years after they were last heard of",
+     "phase": "incapacitated",
+     "citations": [
+      "cn-cc-40"
+     ]
+    },
+    "starts": {
+     "event": "The property is held by spouse, adult children, parents or another willing person; where that is disputed, nobody qualifies, or they are unable, by a person the court designates",
+     "phase": "incapacitated",
+     "citations": [
+      "cn-cc-42",
+      "cn-cc-43"
+     ]
+    },
+    "ends": [
+     {
+      "event": "An interested party, or the custodian with good reason, applies to the court to change the custodian, who must hand over the property and report",
+      "phase": "incapacitated",
+      "citations": [
+       "cn-cc-44"
+      ]
+     },
+     {
+      "event": "The missing person reappears, the court revokes the declaration, and the property is handed back on demand",
+      "phase": "capable",
+      "citations": [
+       "cn-cc-45"
+      ]
+     },
+     {
+      "event": "The person is declared dead, and succession opens",
+      "phase": "deceased",
+      "citations": [
+       "cn-cc-46",
+       "cn-cc-48"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No custodianship"
+     },
+     {
+      "id": "declared",
+      "label": "Declared missing"
+     },
+     {
+      "id": "active",
+      "label": "Custodian holds the property"
+     },
+     {
+      "id": "terminated",
+      "label": "Terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-pc-declare",
+      "from": "none",
+      "to": "declared",
+      "event": "下落不明满二年，利害关系人申请宣告失踪（第四十条）",
+      "citations": [
+       "cn-cc-40"
+      ]
+     },
+     {
+      "id": "cn-t-pc-family",
+      "from": "declared",
+      "to": "active",
+      "event": "由配偶、成年子女、父母或者其他愿意担任财产代管人的人代管（第四十二条第一款）",
+      "citations": [
+       "cn-cc-42"
+      ]
+     },
+     {
+      "id": "cn-t-pc-court",
+      "from": "declared",
+      "to": "active",
+      "event": "代管有争议、没有前款规定的人或者其无代管能力的，由人民法院指定的人代管（第四十二条第二款）",
+      "citations": [
+       "cn-cc-42"
+      ]
+     },
+     {
+      "id": "cn-t-pc-duties",
+      "from": "active",
+      "to": "active",
+      "event": "妥善管理失踪人的财产，从财产中支付税款、债务（第四十三条）",
+      "citations": [
+       "cn-cc-43"
+      ]
+     },
+     {
+      "id": "cn-t-pc-change",
+      "from": "active",
+      "to": "terminated",
+      "event": "人民法院变更财产代管人，原代管人移交财产并报告（第四十四条）",
+      "citations": [
+       "cn-cc-44"
+      ]
+     },
+     {
+      "id": "cn-t-pc-return",
+      "from": "active",
+      "to": "terminated",
+      "event": "失踪人重新出现，人民法院撤销失踪宣告（第四十五条）",
+      "citations": [
+       "cn-cc-45"
+      ]
+     },
+     {
+      "id": "cn-t-pc-dead",
+      "from": "active",
+      "to": "terminated",
+      "event": "宣告死亡，判决作出之日视为死亡日期（第四十六条、第四十八条）",
+      "citations": [
+       "cn-cc-46",
+       "cn-cc-48"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Custodian of a missing person’s property",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "财产代管人": {
+     "en": "custodian of the property",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-mandate-agent",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Agent under a mandate (委托代理人)",
+   "localNames": [
+    "委托代理人",
+    "授权委托书"
+   ],
+   "summary": "Ordinary agency by authorisation. Where the authorisation is in writing it must state the agent, the matters, the scope and the period, and be signed or sealed by the principal. Article 173 lists what ends it, including the death of either party; the principal’s loss of capacity is not among the listed events, and the Code’s express mechanism for authority meant to operate after capacity is lost is the advance-appointed guardianship of art 33.",
+   "lane": {
+    "assigned": {
+     "event": "The principal authorises the agent; a written authorisation states the agent, the matters, the scope and the period, signed or sealed by the principal",
+     "phase": "capable",
+     "citations": [
+      "cn-cc-165"
+     ]
+    },
+    "starts": {
+     "event": "The agent acts within the authority conferred",
+     "phase": "capable",
+     "citations": [
+      "cn-cc-165"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The period expires or the business is completed",
+      "phase": "capable",
+      "citations": [
+       "cn-cc-173"
+      ]
+     },
+     {
+      "event": "The principal revokes the mandate, or the agent resigns it",
+      "phase": "capable",
+      "citations": [
+       "cn-cc-173"
+      ]
+     },
+     {
+      "event": "The agent loses capacity for civil conduct",
+      "phase": "capable",
+      "citations": [
+       "cn-cc-173"
+      ]
+     },
+     {
+      "event": "Death of the agent or of the principal",
+      "phase": "deceased",
+      "citations": [
+       "cn-cc-173"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No mandate"
+     },
+     {
+      "id": "designated",
+      "label": "Authorisation granted"
+     },
+     {
+      "id": "active",
+      "label": "Agent acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-ma-grant",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "授权委托书载明代理人、代理事项、权限和期限，由被代理人签名或者盖章（第一百六十五条）",
+      "citations": [
+       "cn-cc-165"
+      ]
+     },
+     {
+      "id": "cn-t-ma-start",
+      "from": "designated",
+      "to": "active",
+      "event": "代理人在代理权限内实施代理行为（第一百六十五条）",
+      "citations": [
+       "cn-cc-165"
+      ]
+     },
+     {
+      "id": "cn-t-ma-expire",
+      "from": "active",
+      "to": "terminated",
+      "event": "代理期限届满或者代理事务完成（第一百七十三条第一项）",
+      "citations": [
+       "cn-cc-173"
+      ]
+     },
+     {
+      "id": "cn-t-ma-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "被代理人取消委托或者代理人辞去委托（第一百七十三条第二项）",
+      "citations": [
+       "cn-cc-173"
+      ]
+     },
+     {
+      "id": "cn-t-ma-incap",
+      "from": "active",
+      "to": "terminated",
+      "event": "代理人丧失民事行为能力（第一百七十三条第三项）",
+      "citations": [
+       "cn-cc-173"
+      ]
+     },
+     {
+      "id": "cn-t-ma-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "代理人或者被代理人死亡（第一百七十三条第四项）",
+      "citations": [
+       "cn-cc-173"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Agent under a mandate",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "委托代理人": {
+     "en": "agent under a mandate",
+     "basis": "descriptive"
+    },
+    "授权委托书": {
+     "en": "letter of authorisation",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-heir",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Heir (继承人)",
+   "localNames": [
+    "继承人",
+    "受遗赠人"
+   ],
+   "summary": "Succession begins at the moment the decedent dies. An heir who wants out must say so in writing before the estate is dealt with; saying nothing counts as acceptance. A legatee, by contrast, must accept within sixty days of learning of the legacy or is taken to have renounced.",
+   "lane": {
+    "assigned": {
+     "event": "Succession begins on the death of the decedent; the estate is the lawful property they leave",
+     "phase": "deceased",
+     "citations": [
+      "cn-cc-1121",
+      "cn-cc-1122"
+     ]
+    },
+    "starts": {
+     "event": "Statutory succession applies, or a will, legacy or legacy-support agreement where there is one; an heir who does not renounce in writing before the estate is dealt with is taken to have accepted",
+     "phase": "deceased",
+     "citations": [
+      "cn-cc-1123",
+      "cn-cc-1124"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The heir renounces in writing before the estate is dealt with",
+      "phase": "deceased",
+      "citations": [
+       "cn-cc-1124"
+      ]
+     },
+     {
+      "event": "The estate administrator divides the estate under the will or as the law provides",
+      "phase": "administration",
+      "citations": [
+       "cn-cc-1147"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Decedent alive"
+     },
+     {
+      "id": "opened",
+      "label": "Succession opened"
+     },
+     {
+      "id": "accepted",
+      "label": "Acceptance (no renunciation)"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-h-open",
+      "from": "none",
+      "to": "opened",
+      "event": "继承从被继承人死亡时开始（第一千一百二十一条）",
+      "citations": [
+       "cn-cc-1121"
+      ]
+     },
+     {
+      "id": "cn-t-h-accept",
+      "from": "opened",
+      "to": "accepted",
+      "event": "没有表示放弃的，视为接受继承（第一千一百二十四条）",
+      "citations": [
+       "cn-cc-1124"
+      ]
+     },
+     {
+      "id": "cn-t-h-renounce",
+      "from": "opened",
+      "to": "terminated",
+      "event": "遗产处理前以书面形式作出放弃继承的表示（第一千一百二十四条）",
+      "citations": [
+       "cn-cc-1124"
+      ]
+     },
+     {
+      "id": "cn-t-h-divide",
+      "from": "accepted",
+      "to": "terminated",
+      "event": "按照遗嘱或者依照法律规定分割遗产（第一千一百四十七条第五项）",
+      "citations": [
+       "cn-cc-1147"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "继承人": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "受遗赠人": {
+     "en": "legatee",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-will-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor of a will (遗嘱执行人)",
+   "localNames": [
+    "遗嘱执行人"
+   ],
+   "summary": "A natural person may make a will disposing of their property and may name an executor in it, and may set up a testamentary trust. The will can be withdrawn or varied at any time, and a later inconsistent act counts as a withdrawal. Once succession opens, the named executor is the estate administrator, so the duties are those of that office.",
+   "lane": {
+    "assigned": {
+     "event": "The testator names an executor in a will, and may also set up a testamentary trust",
+     "phase": "capable",
+     "citations": [
+      "cn-cc-1133"
+     ]
+    },
+    "starts": {
+     "event": "Succession opens on death, and the executor is the estate administrator",
+     "phase": "deceased",
+     "citations": [
+      "cn-cc-1121",
+      "cn-cc-1145"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The testator withdraws or varies the will, or performs an act contrary to it, which counts as a withdrawal of the relevant content",
+      "phase": "capable",
+      "citations": [
+       "cn-cc-1142"
+      ]
+     },
+     {
+      "event": "The duties of the office are discharged: the estate is cleared, reported, protected, its debts dealt with and the estate divided",
+      "phase": "administration",
+      "citations": [
+       "cn-cc-1147"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No executor named"
+     },
+     {
+      "id": "designated",
+      "label": "Named in a will"
+     },
+     {
+      "id": "active",
+      "label": "Executor is the estate administrator"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-we-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "立遗嘱处分个人财产，并可以指定遗嘱执行人（第一千一百三十三条）",
+      "citations": [
+       "cn-cc-1133"
+      ]
+     },
+     {
+      "id": "cn-t-we-withdraw",
+      "from": "designated",
+      "to": "not_designated",
+      "event": "遗嘱人撤回、变更所立的遗嘱（第一千一百四十二条）",
+      "citations": [
+       "cn-cc-1142"
+      ]
+     },
+     {
+      "id": "cn-t-we-start",
+      "from": "designated",
+      "to": "active",
+      "event": "继承开始后，遗嘱执行人为遗产管理人（第一千一百二十一条、第一千一百四十五条）",
+      "citations": [
+       "cn-cc-1121",
+       "cn-cc-1145"
+      ]
+     },
+     {
+      "id": "cn-t-we-done",
+      "from": "active",
+      "to": "terminated",
+      "event": "履行第一千一百四十七条职责完毕",
+      "citations": [
+       "cn-cc-1147"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor of a will",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "遗嘱执行人": {
+     "en": "executor of the will",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-estate-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Estate administrator (遗产管理人)",
+   "localNames": [
+    "遗产管理人"
+   ],
+   "summary": "An office the 2021 Civil Code created outright. Once succession opens the executor is the administrator; if there is none the heirs must promptly elect one, and if they do not elect they serve jointly. Where there are no heirs, or all renounce, the civil affairs department or the villagers’ committee of the decedent’s last domicile serves. Where the choice is disputed an interested party may ask the court to designate.",
+   "lane": {
+    "assigned": {
+     "event": "Succession opens; the executor is the administrator, failing which the heirs elect or serve jointly, failing which the civil affairs department or villagers’ committee serves",
+     "phase": "deceased",
+     "citations": [
+      "cn-cc-1145"
+     ]
+    },
+    "starts": {
+     "event": "The administrator clears the estate and makes an inventory, reports to the heirs, prevents loss, deals with the decedent’s debts and claims, and divides the estate",
+     "phase": "administration",
+     "citations": [
+      "cn-cc-1147"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The duties in art 1147 are discharged, ending with division of the estate",
+      "phase": "closed",
+      "citations": [
+       "cn-cc-1147"
+      ]
+     },
+     {
+      "event": "An interested party applies to the People’s Court, which designates a different administrator where the choice is disputed",
+      "phase": "administration",
+      "citations": [
+       "cn-cc-1146"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Decedent alive"
+     },
+     {
+      "id": "active",
+      "label": "Administrator acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate divided"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-ea-executor",
+      "from": "none",
+      "to": "active",
+      "event": "继承开始后，遗嘱执行人为遗产管理人（第一千一百四十五条）",
+      "citations": [
+       "cn-cc-1145"
+      ]
+     },
+     {
+      "id": "cn-t-ea-elect",
+      "from": "none",
+      "to": "active",
+      "event": "没有遗嘱执行人的，继承人应当及时推选；未推选的，由继承人共同担任（第一千一百四十五条）",
+      "citations": [
+       "cn-cc-1145"
+      ]
+     },
+     {
+      "id": "cn-t-ea-public",
+      "from": "none",
+      "to": "active",
+      "event": "没有继承人或者继承人均放弃继承的，由民政部门或者村民委员会担任（第一千一百四十五条）",
+      "citations": [
+       "cn-cc-1145"
+      ]
+     },
+     {
+      "id": "cn-t-ea-court",
+      "from": "none",
+      "to": "active",
+      "event": "对确定有争议的，利害关系人可以申请人民法院指定（第一千一百四十六条）",
+      "citations": [
+       "cn-cc-1146"
+      ]
+     },
+     {
+      "id": "cn-t-ea-duties",
+      "from": "active",
+      "to": "active",
+      "event": "清理遗产、报告、防止毁损、处理债权债务、分割遗产（第一千一百四十七条）；故意或者重大过失致损的承担民事责任（第一千一百四十八条）；可以获得报酬（第一千一百四十九条）",
+      "citations": [
+       "cn-cc-1147",
+       "cn-cc-1148",
+       "cn-cc-1149"
+      ]
+     },
+     {
+      "id": "cn-t-ea-done",
+      "from": "active",
+      "to": "terminated",
+      "event": "按照遗嘱或者依照法律规定分割遗产（第一千一百四十七条第五项）",
+      "citations": [
+       "cn-cc-1147"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Estate administrator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "遗产管理人": {
+     "en": "estate administrator",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-trustee",
+   "canonical": "successor-trustee",
+   "group": "trust",
+   "name": "Trustee (受托人)",
+   "localNames": [
+    "受托人",
+    "遗嘱信托"
+   ],
+   "summary": "A trust must be created in writing — a trust contract, a will, or another written document the law allows. A trustee must be a natural person with full capacity, or a legal person. The trust survives its trustee: article 52 says it does not end because the settlor or trustee dies, loses capacity, is dissolved, revoked or declared bankrupt, nor because the trustee resigns.",
+   "lane": {
+    "assigned": {
+     "event": "The trust is created in writing — by trust contract, by will, or by another written document the law provides; a testamentary trust follows the rules on wills",
+     "phase": "capable",
+     "citations": [
+      "cn-trust-8",
+      "cn-trust-13"
+     ]
+    },
+    "starts": {
+     "event": "The trustee — a natural person with full capacity for civil conduct, or a legal person — takes up administration of the trust business",
+     "phase": "capable",
+     "citations": [
+      "cn-trust-24"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The trustee resigns with the consent of settlor and beneficiary, but must continue until a new trustee is chosen",
+      "phase": "capable",
+      "citations": [
+       "cn-trust-38",
+       "cn-trust-40"
+      ]
+     },
+     {
+      "event": "The trustee’s duties terminate on death, declared death, being declared without or with limited capacity, dissolution, bankruptcy, loss of qualification, resignation or removal — the trust itself continuing",
+      "phase": "deceased",
+      "citations": [
+       "cn-trust-39",
+       "cn-trust-52"
+      ]
+     },
+     {
+      "event": "The trust terminates: the event set in the trust document occurs, its purpose is achieved or cannot be, the parties agree, or it is revoked or rescinded",
+      "phase": "closed",
+      "citations": [
+       "cn-trust-53"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated",
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No trust"
+     },
+     {
+      "id": "designated",
+      "label": "Trust created in writing"
+     },
+     {
+      "id": "active",
+      "label": "Trustee administers the trust"
+     },
+     {
+      "id": "terminated",
+      "label": "Trust terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-tr-create",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "设立信托应当采取书面形式，包括信托合同、遗嘱（信托法第八条）",
+      "citations": [
+       "cn-trust-8"
+      ]
+     },
+     {
+      "id": "cn-t-tr-will",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "设立遗嘱信托；遗嘱指定的人拒绝或者无能力担任的，由受益人另行选任（信托法第十三条）",
+      "citations": [
+       "cn-trust-13"
+      ]
+     },
+     {
+      "id": "cn-t-tr-start",
+      "from": "designated",
+      "to": "active",
+      "event": "受托人承诺信托；受托人应当是具有完全民事行为能力的自然人、法人（信托法第八条、第二十四条）",
+      "citations": [
+       "cn-trust-8",
+       "cn-trust-24"
+      ]
+     },
+     {
+      "id": "cn-t-tr-resign",
+      "from": "active",
+      "to": "active",
+      "event": "经委托人和受益人同意辞任，新受托人选出前仍应履行职责（信托法第三十八条、第四十条）",
+      "citations": [
+       "cn-trust-38",
+       "cn-trust-40"
+      ]
+     },
+     {
+      "id": "cn-t-tr-dutyend",
+      "from": "active",
+      "to": "active",
+      "event": "受托人职责终止，信托不因此终止，由新受托人承继（信托法第三十九条、第四十条、第五十二条）",
+      "citations": [
+       "cn-trust-39",
+       "cn-trust-40",
+       "cn-trust-52"
+      ]
+     },
+     {
+      "id": "cn-t-tr-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "信托终止（信托法第五十三条）",
+      "citations": [
+       "cn-trust-53"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Trustee",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "受托人": {
+     "en": "trustee",
+     "basis": "descriptive"
+    },
+    "遗嘱信托": {
+     "en": "testamentary trust",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-organ-donation-decider",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Donation decision maker (人体器官捐献决定人)",
+   "localNames": [
+    "人体器官捐献",
+    "遗体器官捐献"
+   ],
+   "summary": "A citizen with full capacity decides for themselves, in writing or by will, and may revoke a willingness already expressed. An objection expressed before death is absolute: no organisation or individual may then donate or procure. Only where the person expressed no objection may spouse, adult children and parents jointly decide, in writing, after death.",
+   "lane": {
+    "assigned": {
+     "event": "A person with full capacity decides to donate, in writing or by will; nobody may coerce, deceive or induce them",
+     "phase": "capable",
+     "citations": [
+      "cn-cc-1006",
+      "cn-organ-9"
+     ]
+    },
+    "starts": {
+     "event": "Procurement takes place only after death has been determined as the law requires, and the staff who procure or transplant may not take part in determining death",
+     "phase": "deceased",
+     "citations": [
+      "cn-organ-19"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The person revokes a willingness to donate already expressed",
+      "phase": "capable",
+      "citations": [
+       "cn-organ-9"
+      ]
+     },
+     {
+      "event": "The person expressed an objection before death, after which no organisation or individual may donate or procure",
+      "phase": "deceased",
+      "citations": [
+       "cn-organ-9"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Nothing expressed"
+     },
+     {
+      "id": "self_consent",
+      "label": "Donation agreed in writing or by will"
+     },
+     {
+      "id": "objected",
+      "label": "Objection expressed before death"
+     },
+     {
+      "id": "family_decision",
+      "label": "Spouse, adult children and parents decide jointly in writing"
+     },
+     {
+      "id": "procured",
+      "label": "Procurement after death is determined"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-od-self",
+      "from": "none",
+      "to": "self_consent",
+      "event": "本人书面表示捐献意愿，也可以订立遗嘱（第一千零六条、条例第九条）",
+      "citations": [
+       "cn-cc-1006",
+       "cn-organ-9"
+      ]
+     },
+     {
+      "id": "cn-t-od-revoke",
+      "from": "self_consent",
+      "to": "none",
+      "event": "对已经表示捐献的意愿，有权予以撤销（条例第九条）",
+      "citations": [
+       "cn-organ-9"
+      ]
+     },
+     {
+      "id": "cn-t-od-object",
+      "from": "none",
+      "to": "objected",
+      "event": "生前表示不同意捐献的，任何组织或者个人不得捐献、获取（条例第九条）",
+      "citations": [
+       "cn-organ-9"
+      ]
+     },
+     {
+      "id": "cn-t-od-family",
+      "from": "none",
+      "to": "family_decision",
+      "event": "生前未表示不同意的，死亡后配偶、成年子女、父母共同以书面形式决定（第一千零六条、条例第九条）",
+      "citations": [
+       "cn-cc-1006",
+       "cn-organ-9"
+      ]
+     },
+     {
+      "id": "cn-t-od-procure",
+      "from": "self_consent",
+      "to": "procured",
+      "event": "依法判定死亡后获取遗体器官（条例第十九条）",
+      "citations": [
+       "cn-organ-19"
+      ]
+     },
+     {
+      "id": "cn-t-od-procure2",
+      "from": "family_decision",
+      "to": "procured",
+      "event": "依法判定死亡后获取遗体器官（条例第十九条）",
+      "citations": [
+       "cn-organ-19"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Donation decision maker",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "人体器官捐献": {
+     "en": "human organ donation",
+     "basis": "descriptive"
+    },
+    "遗体器官捐献": {
+     "en": "donation of organs from the body of the deceased",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "cn-deceased-information-relative",
+   "canonical": "digital-assets-fiduciary",
+   "group": "digital",
+   "name": "Close relative exercising a deceased person’s information rights (近亲属)",
+   "localNames": [
+    "近亲属",
+    "死者的相关个人信息"
+   ],
+   "summary": "The Personal Information Protection Law is where China answers the digital-estate question. On a natural person’s death their close relatives may, for their own lawful and legitimate interests, exercise the rights of that chapter — access, copy, correct, delete — over the deceased’s personal information, except where the deceased arranged otherwise before death. The Civil Code adds only that data and online virtual property are protected as other law provides.",
+   "lane": {
+    "assigned": {
+     "event": "The person dies, leaving personal information held by handlers; the Civil Code protects data and online virtual property as other law provides",
+     "phase": "deceased",
+     "citations": [
+      "cn-pipl-49",
+      "cn-cc-127"
+     ]
+    },
+    "starts": {
+     "event": "Close relatives may exercise the rights of access, copying, correction and deletion, for their own lawful and legitimate interests",
+     "phase": "deceased",
+     "citations": [
+      "cn-pipl-49"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The deceased arranged otherwise before death, which displaces the relatives’ exercise of those rights",
+      "phase": "deceased",
+      "citations": [
+       "cn-pipl-49"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Person living"
+     },
+     {
+      "id": "arranged",
+      "label": "Deceased arranged otherwise before death"
+     },
+     {
+      "id": "relatives",
+      "label": "Close relatives exercise the rights"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "cn-t-di-relatives",
+      "from": "none",
+      "to": "relatives",
+      "event": "自然人死亡的，其近亲属为自身的合法、正当利益，可以行使查阅、复制、更正、删除等权利（个人信息保护法第四十九条）",
+      "citations": [
+       "cn-pipl-49"
+      ]
+     },
+     {
+      "id": "cn-t-di-arranged",
+      "from": "none",
+      "to": "arranged",
+      "event": "死者生前另有安排的除外（个人信息保护法第四十九条）",
+      "citations": [
+       "cn-pipl-49"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Close relative exercising a deceased person’s information rights",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "近亲属": {
+     "en": "close relatives",
+     "basis": "descriptive"
+    },
+    "死者的相关个人信息": {
+     "en": "the deceased person’s relevant personal information",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": null,
+   "note": "Article 173 lists what ends a mandate — expiry or completion, revocation or resignation, the agent losing capacity, the death of either party, the ending of a party that is an entity. The principal losing capacity is not among them, and the Code settles nothing either way; the arrangement it does provide expressly for authority after capacity is lost is the advance-appointed guardianship of art 33.",
+   "citations": [
+    "cn-cc-173",
+    "cn-cc-33"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "Article 33 is inherently springing: the adult settles the guardian in writing while holding full capacity, and that guardian performs guardianship duties when the adult later loses or partly loses capacity for civil conduct.",
+   "citations": [
+    "cn-cc-33"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "Article 33 requires writing and prior consultation, and imposes no registration or official approval before the appointment can be used. Consent of the residents’ or villagers’ committee or the civil affairs department is required only where an outsider serves as statutory guardian under art 28(4).",
+   "citations": [
+    "cn-cc-33",
+    "cn-cc-28"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "There is no separate health-care agent: the guardian decides. An advance-appointed guardian starts when the adult loses or partly loses capacity for civil conduct; the Mental Health Law then makes the guardian the one who consents to inpatient treatment and who gives written consent to specified treatment where the patient’s own view cannot be obtained.",
+   "citations": [
+    "cn-cc-33",
+    "cn-mhl-31",
+    "cn-mhl-43"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": false,
+   "note": "China has no separate supported decision-making status. The duty runs the other way, inside guardianship: a guardian of an adult must respect the ward’s true wishes to the greatest extent, safeguard and assist the ward in performing juristic acts suited to their intellectual and mental condition, and may not interfere in matters the ward can handle alone.",
+   "citations": [
+    "cn-cc-35"
+   ],
+   "year": null,
+   "name": null
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "note": "No fiduciary is given statutory access to digital assets as such. The Civil Code says only that data and online virtual property are protected where other law so provides; the nearest thing to an access right is PIPL art 49, which is held by close relatives rather than by any fiduciary.",
+   "citations": [
+    "cn-cc-127",
+    "cn-pipl-49"
+   ],
+   "year": null,
+   "name": null
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No platform-level designation mechanism is recognised. PIPL art 49 does, however, subordinate the relatives’ rights to whatever the deceased arranged before death, without saying how such an arrangement is to be made.",
+   "citations": [
+    "cn-pipl-49"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "note": "Consent is required, never presumed. The person decides in writing or by will and may revoke; an objection expressed before death is absolute. Only where no objection was expressed may spouse, adult children and parents jointly decide in writing after death.",
+   "citations": [
+    "cn-cc-1006",
+    "cn-organ-9"
+   ],
+   "optOutSinceYear": null,
+   "name": "人体器官捐献和移植条例（2023年12月14日国务院令第767号公布，2024年5月1日施行）"
+  },
+  "smallEstateWithoutGrant": {
+   "value": null,
+   "note": "The question does not arise: there is no grant of representation to obtain or to dispense with. Succession begins at the moment of death, and the estate administrator’s authority comes from art 1145 — the executor, failing which the heirs, failing which the civil affairs department or villagers’ committee — not from any court instrument.",
+   "citations": [
+    "cn-cc-1121",
+    "cn-cc-1145"
+   ],
+   "threshold": null,
+   "currency": "CNY",
+   "waitingDays": null
+  },
+  "probateGrantName": {
+   "value": null,
+   "note": "There is no grant of probate or equivalent instrument. Where who should administer is disputed, an interested party may apply to the People’s Court to designate an estate administrator, but the court designates the person rather than issuing a grant of authority over the estate.",
+   "citations": [
+    "cn-cc-1145",
+    "cn-cc-1146"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": "partial",
+   "note": "The deceased’s personal information is not protected in their own right, but their close relatives may exercise the access, copying, correction and deletion rights over it for their own lawful and legitimate interests, unless the deceased arranged otherwise before death.",
+   "citations": [
+    "cn-pipl-49"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "The guardianship relationship terminates on the death of the ward. The power that operates after death is a different one and belongs to a different set of people: spouse, adult children and parents deciding jointly on donation, and close relatives exercising the deceased’s information rights.",
+   "citations": [
+    "cn-cc-39",
+    "cn-cc-1006",
+    "cn-pipl-49"
+   ]
+  }
+ }
+}

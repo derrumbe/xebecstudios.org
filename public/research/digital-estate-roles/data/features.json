@@ -7434,6 +7434,241 @@
    }
   ]
  },
+ "cn-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": null,
+    "note": "Article 173 lists what ends a mandate — expiry or completion, revocation or resignation, the agent losing capacity, the death of either party, the ending of a party that is an entity. The principal losing capacity is not among them, and the Code settles nothing either way; the arrangement it does provide expressly for authority after capacity is lost is the advance-appointed guardianship of art 33.",
+    "citations": [
+     "cn-cc-173",
+     "cn-cc-33"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "Article 33 is inherently springing: the adult settles the guardian in writing while holding full capacity, and that guardian performs guardianship duties when the adult later loses or partly loses capacity for civil conduct.",
+    "citations": [
+     "cn-cc-33"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "Article 33 requires writing and prior consultation, and imposes no registration or official approval before the appointment can be used. Consent of the residents’ or villagers’ committee or the civil affairs department is required only where an outsider serves as statutory guardian under art 28(4).",
+    "citations": [
+     "cn-cc-33",
+     "cn-cc-28"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity",
+    "note": "There is no separate health-care agent: the guardian decides. An advance-appointed guardian starts when the adult loses or partly loses capacity for civil conduct; the Mental Health Law then makes the guardian the one who consents to inpatient treatment and who gives written consent to specified treatment where the patient’s own view cannot be obtained.",
+    "citations": [
+     "cn-cc-33",
+     "cn-mhl-31",
+     "cn-mhl-43"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": false,
+    "note": "China has no separate supported decision-making status. The duty runs the other way, inside guardianship: a guardian of an adult must respect the ward’s true wishes to the greatest extent, safeguard and assist the ward in performing juristic acts suited to their intellectual and mental condition, and may not interfere in matters the ward can handle alone.",
+    "citations": [
+     "cn-cc-35"
+    ],
+    "year": null,
+    "name": null
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": false,
+    "note": "No fiduciary is given statutory access to digital assets as such. The Civil Code says only that data and online virtual property are protected where other law so provides; the nearest thing to an access right is PIPL art 49, which is held by close relatives rather than by any fiduciary.",
+    "citations": [
+     "cn-cc-127",
+     "cn-pipl-49"
+    ],
+    "year": null,
+    "name": null
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": false,
+    "note": "No platform-level designation mechanism is recognised. PIPL art 49 does, however, subordinate the relatives’ rights to whatever the deceased arranged before death, without saying how such an arrangement is to be made.",
+    "citations": [
+     "cn-pipl-49"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Consent is required, never presumed. The person decides in writing or by will and may revoke; an objection expressed before death is absolute. Only where no objection was expressed may spouse, adult children and parents jointly decide in writing after death.",
+    "citations": [
+     "cn-cc-1006",
+     "cn-organ-9"
+    ],
+    "optOutSinceYear": null,
+    "name": "人体器官捐献和移植条例（2023年12月14日国务院令第767号公布，2024年5月1日施行）"
+   },
+   "smallEstateWithoutGrant": {
+    "value": null,
+    "note": "The question does not arise: there is no grant of representation to obtain or to dispense with. Succession begins at the moment of death, and the estate administrator’s authority comes from art 1145 — the executor, failing which the heirs, failing which the civil affairs department or villagers’ committee — not from any court instrument.",
+    "citations": [
+     "cn-cc-1121",
+     "cn-cc-1145"
+    ],
+    "threshold": null,
+    "currency": "CNY",
+    "waitingDays": null
+   },
+   "probateGrantName": {
+    "value": null,
+    "note": "There is no grant of probate or equivalent instrument. Where who should administer is disputed, an interested party may apply to the People’s Court to designate an estate administrator, but the court designates the person rather than issuing a grant of authority over the estate.",
+    "citations": [
+     "cn-cc-1145",
+     "cn-cc-1146"
+    ]
+   },
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "The deceased’s personal information is not protected in their own right, but their close relatives may exercise the access, copying, correction and deletion rights over it for their own lawful and legitimate interests, unless the deceased arranged otherwise before death.",
+    "citations": [
+     "cn-pipl-49"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": false,
+    "note": "The guardianship relationship terminates on the death of the ward. The power that operates after death is a different one and belongs to a different set of people: spouse, adult children and parents deciding jointly on donation, and close relatives exercising the deceased’s information rights.",
+    "citations": [
+     "cn-cc-39",
+     "cn-cc-1006",
+     "cn-pipl-49"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "cn-cc-173",
+    "cite": "中华人民共和国民法典第一百七十三条",
+    "title": "Termination of mandate agency",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "有下列情形之一的，委托代理终止：（一）代理期限届满或者代理事务完成；（二）被代理人取消委托或者代理人辞去委托；（三）代理人丧失民事行为能力；（四）代理人或者被代理人死亡；（五）作为代理人或者被代理人的法人、非法人组织终止。"
+   },
+   {
+    "id": "cn-cc-33",
+    "cite": "中华人民共和国民法典第三十三条",
+    "title": "Adult appoints their own guardian in advance, in writing",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "具有完全民事行为能力的成年人，可以与其近亲属、其他愿意担任监护人的个人或者组织事先协商，以书面形式确定自己的监护人，在自己丧失或者部分丧失民事行为能力时，由该监护人履行监护职责。"
+   },
+   {
+    "id": "cn-cc-28",
+    "cite": "中华人民共和国民法典第二十八条",
+    "title": "Guardians of an adult without or with limited capacity for civil conduct",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "无民事行为能力或者限制民事行为能力的成年人，由下列有监护能力的人按顺序担任监护人：（一）配偶；（二）父母、子女；（三）其他近亲属；（四）其他愿意担任监护人的个人或者组织，但是须经被监护人住所地的居民委员会、村民委员会或者…"
+   },
+   {
+    "id": "cn-mhl-31",
+    "cite": "中华人民共和国精神卫生法第三十一条",
+    "title": "Guardian consents to inpatient treatment",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf7448a066d",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "精神障碍患者有本法第三十条第二款第一项情形的，经其监护人同意，医疗机构应当对患者实施住院治疗；监护人不同意的，医疗机构不得对患者实施住院治疗。监护人应当对在家居住的患者做好看护管理。"
+   },
+   {
+    "id": "cn-mhl-43",
+    "cite": "中华人民共和国精神卫生法第四十三条",
+    "title": "Written consent of the guardian to specified treatment",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=2c909fdd678bf17901678bf7448a066d",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "医疗机构对精神障碍患者实施下列治疗措施，应当向患者或者其监护人告知医疗风险、替代医疗方案等情况，并取得患者的书面同意；无法取得患者意见的，应当取得其监护人的书面同意，并经本医疗机构伦理委员会批准：（一）导致人体器官丧失功…"
+   },
+   {
+    "id": "cn-cc-35",
+    "cite": "中华人民共和国民法典第三十五条",
+    "title": "Guardian acts on the principle most favourable to the ward",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "监护人应当按照最有利于被监护人的原则履行监护职责。监护人除为维护被监护人利益外，不得处分被监护人的财产。"
+   },
+   {
+    "id": "cn-cc-127",
+    "cite": "中华人民共和国民法典第一百二十七条",
+    "title": "Data and online virtual property",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "法律对数据、网络虚拟财产的保护有规定的，依照其规定。"
+   },
+   {
+    "id": "cn-pipl-49",
+    "cite": "中华人民共和国个人信息保护法第四十九条",
+    "title": "Close relatives' rights over a deceased person's personal information",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff8081817b6472a3017b656cc2040044",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "自然人死亡的，其近亲属为了自身的合法、正当利益，可以对死者的相关个人信息行使本章规定的查阅、复制、更正、删除等权利；死者生前另有安排的除外。"
+   },
+   {
+    "id": "cn-cc-1006",
+    "cite": "中华人民共和国民法典第一千零六条",
+    "title": "Donation of cells, tissue, organs and the body",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "完全民事行为能力人有权依法自主决定无偿捐献其人体细胞、人体组织、人体器官、遗体。任何组织或者个人不得强迫、欺骗、利诱其捐献。完全民事行为能力人依据前款规定同意捐献的，应当采用书面形式，也可以订立遗嘱。"
+   },
+   {
+    "id": "cn-organ-9",
+    "cite": "人体器官捐献和移植条例第九条",
+    "title": "Donation decided by the citizen, revocably; family decision after death",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff8081818c24df58018c8d0fb82e6563",
+    "kind": "regulation",
+    "retrieved": "2026-09-17",
+    "quote": "具有完全民事行为能力的公民有权依法自主决定捐献其人体器官。公民表示捐献其人体器官的意愿，应当采用书面形式，也可以订立遗嘱。公民对已经表示捐献其人体器官的意愿，有权予以撤销。"
+   },
+   {
+    "id": "cn-cc-1121",
+    "cite": "中华人民共和国民法典第一千一百二十一条",
+    "title": "Succession begins on the death of the decedent",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "继承从被继承人死亡时开始。相互有继承关系的数人在同一事件中死亡，难以确定死亡时间的，推定没有其他继承人的人先死亡。都有其他继承人，辈份不同的，推定长辈先死亡；辈份相同的，推定同时死亡，相互不发生继承。"
+   },
+   {
+    "id": "cn-cc-1145",
+    "cite": "中华人民共和国民法典第一千一百四十五条",
+    "title": "Who is the estate administrator",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "继承开始后，遗嘱执行人为遗产管理人；没有遗嘱执行人的，继承人应当及时推选遗产管理人；继承人未推选的，由继承人共同担任遗产管理人；没有继承人或者继承人均放弃继承的，由被继承人生前住所地的民政部门或者村民委员会担任遗产管理人。"
+   },
+   {
+    "id": "cn-cc-1146",
+    "cite": "中华人民共和国民法典第一千一百四十六条",
+    "title": "Court designates the estate administrator where disputed",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "对遗产管理人的确定有争议的，利害关系人可以向人民法院申请指定遗产管理人。"
+   },
+   {
+    "id": "cn-cc-39",
+    "cite": "中华人民共和国民法典第三十九条",
+    "title": "Termination of the guardianship relationship",
+    "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "有下列情形之一的，监护关系终止：（一）被监护人取得或者恢复完全民事行为能力；（二）监护人丧失监护能力；（三）被监护人或者监护人死亡；（四）人民法院认定监护关系终止的其他情形。"
+   }
+  ]
+ },
  "jp-national": {
   "features": {
    "poaDurableByDefault": {
