@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git -C \"$CLAUDE_PROJECT_DIR\" config user.email derrumbe@users.noreply.github.com && git -C \"$CLAUDE_PROJECT_DIR\" config user.name derrumbe 2>/dev/null || true",
+            "statusMessage": "Setting noreply git identity"
+          }
+        ]
+      }
+    ]
+  }
+}
