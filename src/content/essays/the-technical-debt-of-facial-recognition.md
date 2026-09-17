@@ -2,7 +2,7 @@
 title: "The Technical Debt of Facial Recognition"
 date: 2020-11-11
 subject: Technology  # TODO re-file: Technology | History | Philosophy
-description: "TODO write a one-line description"
+description: "The ACM called for a moratorium and three vendors stepped back. Shipping before it works is a debt, and someone else settles it."
 legacySlug: "the-technical-debt-of-facial-recognition"
 # ~5 min
 ---

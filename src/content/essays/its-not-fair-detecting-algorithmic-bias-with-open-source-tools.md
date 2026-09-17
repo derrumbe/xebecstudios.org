@@ -2,7 +2,7 @@
 title: "It’s Not Fair! Detecting Algorithmic Bias with Open Source Tools"
 date: 2022-06-03
 subject: Technology  # TODO re-file: Technology | History | Philosophy
-description: "TODO write a one-line description"
+description: "Algorithms now shape bail decisions and transplant lists. The open-source tools that make them explainable enough to argue with."
 legacySlug: "its-not-fair-detecting-algorithmic-bias-with-open-source-tools"
 # ~3 min
 ---

@@ -2,7 +2,7 @@
 title: "Shared Signals, and Thanks for All the Fish"
 date: 2024-12-13
 subject: Technology  # TODO re-file: Technology | History | Philosophy
-description: "TODO write a one-line description"
+description: "Fifteen species of dolphin fish cooperatively with people. An argument for security systems that tell each other what they see."
 legacySlug: "shared-signals-and-thanks-for-all-the-fish"
 # ~4 min
 ---

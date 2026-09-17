@@ -2,7 +2,7 @@
 title: "Now With More Privacy! The Rise of Nutritional Labelling and Customer Choice"
 date: 2021-04-08
 subject: Technology  # TODO re-file: Technology | History | Philosophy
-description: "TODO write a one-line description"
+description: "Apple put nutrition labels on apps. A bank printing its own would first have to know what data it holds, and who can reach it."
 legacySlug: "privacy-and-nutrional-labeling"
 # ~3 min
 ---
