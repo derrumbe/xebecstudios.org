@@ -54,8 +54,9 @@
     raw: {},          // file path -> json
     merged: {},       // jurisdiction id -> { id, name, roles[], citations Map, principalStates, note, overlay }
     adoption: null,
+    world: null,      // locator-map geometry (data/world.json), or null if absent
     jur: 'us-model',
-    tab: 'lanes',
+    tab: 'map',
     role: null,
     hiddenGroups: new Set(),
   };
@@ -204,6 +205,7 @@
     if (state.manifest.features) {
       try { state.features = await getJSON(state.manifest.features); } catch (e) { console.warn(e); }
     }
+    try { state.world = await getJSON('world.json'); } catch (e) { console.warn('no map geometry', e); }
     const bases = {};
     for (const j of state.manifest.jurisdictions) {
       if (!j.extends) { bases[j.id] = buildBase(j); state.merged[j.id] = bases[j.id]; }
@@ -262,7 +264,7 @@
     sel.innerHTML = byRegion.map((g) => `<optgroup label="${esc(g.region)}">${
       g.items.map((j) => `<option value="${esc(j.id)}">${esc(j.label || j.name)}</option>`).join('')}</optgroup>`).join('');
     sel.value = state.jur;
-    sel.onchange = () => { state.jur = sel.value; render(); };
+    sel.onchange = () => { state.jur = sel.value; if (state.tab === 'map') state.tab = 'lanes'; render(); };
     document.querySelectorAll('.tabs button').forEach((b) => {
       b.onclick = () => { state.tab = b.dataset.tab; render(); };
     });
@@ -274,12 +276,148 @@
     document.querySelectorAll('.tab').forEach((s) => { s.hidden = s.id !== 'tab-' + state.tab; });
     const j = state.manifest.jurisdictions.find((x) => x.id === state.jur);
     $('#jur-note').textContent = m.note || j.note || '';
+    $('#jur-note').hidden = state.tab === 'map';
+    if (state.tab === 'map') renderMap();
     if (state.tab === 'lanes') renderLanes(m);
     if (state.tab === 'role') renderRole(m);
     if (state.tab === 'compare') renderCompare();
     if (state.tab === 'trends') renderTrends();
     if (state.tab === 'sources') renderSources(m);
     writeHash();
+  }
+
+  // ---------- map ----------
+  // A locator map, not an atlas. The geometry is Natural Earth 110m, projected
+  // equirectangular by scripts/make-world.py into data/world.json; coordinates are
+  // tenths of a degree. It answers one question — which countries are covered — and
+  // opens one. Everything it draws uses tokens the stylesheet already defines, so
+  // the Xebec copy inherits its palette and gains no colour of its own.
+
+  // Bounding box of a run of "x,y" integers, in viewBox units.
+  function pathExtent(d) {
+    const n = d.match(/-?\d+/g) || [];
+    let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+    for (let i = 0; i + 1 < n.length; i += 2) {
+      const x = +n[i], y = +n[i + 1];
+      if (x < x0) x0 = x; if (x > x1) x1 = x;
+      if (y < y0) y0 = y; if (y > y1) y1 = y;
+    }
+    if (x0 === Infinity) return null;
+    return { w: x1 - x0, h: y1 - y0, cx: (x0 + x1) / 2, cy: (y0 + y1) / 2 };
+  }
+  // The largest ring of a multi-polygon country: the centroid of all of them together
+  // puts the United States in the Pacific, because Alaska and Hawaii drag it there.
+  function mainRing(d) {
+    let best = null;
+    for (const seg of String(d).split('M')) {
+      if (!seg) continue;
+      const e = pathExtent(seg);
+      if (e && (!best || e.w * e.h > best.w * best.h)) best = e;
+    }
+    return best;
+  }
+
+  const MARKER_MIN = 35;  // 3.5 degrees: below this a country is a few pixels wide
+  const MARKER_R = 26;
+
+  function countrySummary(c) {
+    const js = c.jurisdictions;
+    if (js.length === 1) return '';           // the jurisdiction is the country; saying so twice says nothing
+    if (js.length <= 4) return js.map((j) => j.name).join(', ');
+    return `${js.length} jurisdictions`;
+  }
+  const countryLabel = (c) => {
+    const s = countrySummary(c);
+    return s ? `${c.name} — ${s}` : c.name;
+  };
+  function openCountry(c) {
+    state.jur = c.jurisdictions[0].id;
+    state.role = null;
+    state.tab = 'lanes';
+    $('#jur').value = state.jur;
+    render();
+  }
+
+  function renderMap() {
+    const covered = (state.manifest.countries || []).filter((c) => c.iso && c.jurisdictions.length);
+    const byIso = new Map(covered.map((c) => [c.iso, c]));
+    const readout = $('#map-readout');
+    const idle = `${covered.length} countries · ${state.manifest.jurisdictions.length} jurisdictions. `
+      + 'Select one to open its lifecycle.';
+    const say = (s) => { readout.textContent = s || idle; };
+    say();
+    renderMapList(covered, say);
+
+    const box = $('#map');
+    box.innerHTML = '';
+    const w = state.world;
+    if (!w) return;  // the list below is the whole map then, and still works
+
+    const svg = el('svg', {
+      viewBox: w.viewBox, class: 'worldmap', role: 'group',
+      'aria-label': 'Countries with a researched role set',
+    }, box);
+
+    // Everything not covered is scenery, so it is one path and no target.
+    const rest = Object.entries(w.paths).filter(([iso]) => !byIso.has(iso)).map(([, v]) => v.d).join('');
+    if (rest) el('path', { d: rest, class: 'm-rest' }, svg);
+
+    for (const c of covered) {
+      const shape = w.paths[c.iso];
+      const pt = w.points[c.iso];
+      if (!shape && !pt) continue;
+      const g = el('g', {
+        class: 'm-country', tabindex: '0', role: 'link',
+        'aria-label': countryLabel(c),
+      }, svg);
+      el('title', {}, g).textContent = countryLabel(c);
+      let ring = null;
+      if (shape) {
+        el('path', { d: shape.d, class: 'm-fill' }, g);
+        ring = mainRing(shape.d);
+      }
+      // Denmark, Korea, Rwanda and the island states are a handful of pixels at this
+      // scale, and Singapore and Mauritius have no polygon at all: give them a target.
+      if (!ring || ring.w < MARKER_MIN || ring.h < MARKER_MIN) {
+        const cx = pt ? pt.x : ring.cx, cy = pt ? pt.y : ring.cy;
+        el('circle', { cx, cy, r: MARKER_R, class: 'm-dot' }, g);
+      }
+      const open = () => openCountry(c);
+      g.addEventListener('click', open);
+      g.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+      });
+      const hi = () => say(countryLabel(c));
+      g.addEventListener('mouseenter', hi);
+      g.addEventListener('mouseleave', () => say());
+      // focus/blur on an SVG <g> do not reach a listener bound to the group in
+      // Chromium; the bubbling pair does, and keyboard users need the readout.
+      g.addEventListener('focusin', hi);
+      g.addEventListener('focusout', () => say());
+    }
+  }
+
+  // The list is not a fallback: at this scale several covered countries are a dot,
+  // and a reader wants to see the whole set named.
+  function renderMapList(covered, say) {
+    const regions = [];
+    for (const c of covered) {
+      const r = c.region || 'Other';
+      let g = regions.find((x) => x.region === r);
+      if (!g) regions.push((g = { region: r, items: [] }));
+      g.items.push(c);
+    }
+    const box = $('#map-list');
+    box.innerHTML = regions.map((g) => `<div class="map-region"><h3>${esc(g.region)}</h3><div class="chips">${
+      g.items.map((c) => `<button type="button" class="chip" data-country="${esc(c.id)}">${esc(c.name)}${
+        c.jurisdictions.length > 1 ? `<span class="n">${c.jurisdictions.length}</span>` : ''}</button>`).join('')
+    }</div></div>`).join('');
+    box.querySelectorAll('button[data-country]').forEach((b) => {
+      const c = covered.find((x) => x.id === b.dataset.country);
+      b.onclick = () => openCountry(c);
+      b.onmouseenter = () => say(countryLabel(c));
+      b.onmouseleave = () => say();
+    });
   }
 
   // ---------- lanes ----------

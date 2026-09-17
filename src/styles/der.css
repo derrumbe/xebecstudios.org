@@ -182,3 +182,23 @@
  * band is just a toolbar here: it still carries the jurisdiction selector. */
 .der .top{ background:none; border-bottom:1px solid var(--rule); }
 .der .top-inner{ padding-top:0; }
+
+/* ---------- map ---------- */
+/* The locator map draws only in the tokens redefined at the top of this file, so
+   it is lapis and paper like everything else here and adds no fourth colour.
+   Strokes are non-scaling: the same viewBox renders from ~360px to ~1200px wide,
+   and a stroke in user units is either invisible or a blob at one of those ends. */
+.der .worldmap { width: 100%; height: auto; display: block; max-height: 62vh; }
+.der .worldmap path, .der .worldmap circle { vector-effect: non-scaling-stroke; stroke-width: 1px; stroke-linejoin: round; }
+.der .m-rest { fill: var(--surface-2); stroke: var(--line); }
+.der .m-fill { fill: var(--accent); fill-opacity: .55; stroke: var(--accent); }
+.der .worldmap .m-dot { fill: none; stroke: var(--accent); stroke-width: 3px; }
+.der .m-country { cursor: pointer; }
+.der .m-country:hover .m-fill, .der .m-country:focus .m-fill { fill-opacity: 1; }
+.der .m-country:hover .m-dot, .der .m-country:focus .m-dot { stroke-width: 5px; }
+.der .m-country:focus { outline: none; }
+.der .m-country:focus .m-fill, .der .m-country:focus .m-dot { stroke-dasharray: 4 3; }
+.der .map-readout { min-height: 1.5em; margin: .5rem 0 0; color: var(--ink-2); font-size: .95rem; }
+.der .map-list { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin-top: 1rem; }
+.der .map-region h3 { margin: 0 0 .4rem; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
+.der .map-list .chip .n { margin-left: .4em; padding: 0 .35em; border-radius: 6px; background: var(--surface-2); color: var(--ink-2); font-size: .82em; }
