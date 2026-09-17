@@ -56,6 +56,7 @@
     adoption: null,
     world: null,      // locator-map geometry (data/world.json), or null if absent
     jur: 'us-model',
+    chosen: false,    // has the reader actually picked a jurisdiction, or is this just the default?
     tab: 'map',
     role: null,
     hiddenGroups: new Set(),
@@ -233,17 +234,40 @@
   }
 
   // ---------- routing ----------
+  // The hash is the whole route: readHash derives state from it rather than layering
+  // onto whatever was there, so going back to an earlier entry — or to no hash at
+  // all — restores that view instead of leaving the last one on screen.
   function readHash() {
     const p = new URLSearchParams(location.hash.slice(1));
-    if (p.get('j') && state.merged[p.get('j')]) state.jur = p.get('j');
-    if (p.get('tab')) state.tab = p.get('tab');
-    if (p.get('role')) state.role = p.get('role');
+    const j = p.get('j');
+    state.chosen = !!(j && state.merged[j]);
+    state.jur = state.chosen ? j : 'us-model';
+    state.tab = p.get('tab') || 'map';
+    state.role = p.get('role') || null;
   }
+  // Set by anything the reader did on purpose, so it earns a history entry; an
+  // implicit render (boot, or the re-render that back/forward itself triggers)
+  // replaces instead, or Back would have to be pressed twice to leave a view.
+  let pushNext = false;
   function writeHash() {
-    const p = new URLSearchParams();
-    p.set('j', state.jur); p.set('tab', state.tab);
-    if (state.role) p.set('role', state.role);
-    history.replaceState(null, '', '#' + p.toString());
+    // On the map with nothing chosen there is nothing to say: the landing view
+    // keeps a clean URL, and Back from a jurisdiction returns to exactly it.
+    let h = '';
+    if (state.chosen || state.tab !== 'map') {
+      const p = new URLSearchParams();
+      p.set('j', state.jur); p.set('tab', state.tab);
+      if (state.role) p.set('role', state.role);
+      h = '#' + p.toString();
+    }
+    if (location.hash === h) return;
+    const url = location.pathname + location.search + h;
+    if (pushNext) history.pushState(null, '', url);
+    else history.replaceState(null, '', url);
+    pushNext = false;
+  }
+  function syncPicker() {
+    const sel = $('#jur');
+    if (sel) sel.value = state.chosen ? state.jur : '';
   }
 
   // ---------- chrome ----------
@@ -261,12 +285,22 @@
       if (!g) byRegion.push((g = { region, items: [] }));
       for (const j of c.jurisdictions) g.items.push(j);
     }
-    sel.innerHTML = byRegion.map((g) => `<optgroup label="${esc(g.region)}">${
-      g.items.map((j) => `<option value="${esc(j.id)}">${esc(j.label || j.name)}</option>`).join('')}</optgroup>`).join('');
-    sel.value = state.jur;
-    sel.onchange = () => { state.jur = sel.value; if (state.tab === 'map') state.tab = 'lanes'; render(); };
+    // Until the reader picks one, the picker said "US — uniform/model law + federal",
+    // which asserts a choice nobody made. It holds a placeholder instead.
+    sel.innerHTML = '<option value="" disabled>Choose a jurisdiction…</option>'
+      + byRegion.map((g) => `<optgroup label="${esc(g.region)}">${
+        g.items.map((j) => `<option value="${esc(j.id)}">${esc(j.label || j.name)}</option>`).join('')}</optgroup>`).join('');
+    syncPicker();
+    sel.onchange = () => {
+      if (!sel.value) return;
+      pushNext = true;
+      state.jur = sel.value;
+      state.chosen = true;
+      if (state.tab === 'map') state.tab = 'lanes';  // changing it means "show me that one"
+      render();
+    };
     document.querySelectorAll('.tabs button').forEach((b) => {
-      b.onclick = () => { state.tab = b.dataset.tab; render(); };
+      b.onclick = () => { pushNext = true; state.tab = b.dataset.tab; render(); };
     });
   }
 
@@ -331,10 +365,12 @@
     return s ? `${c.name} — ${s}` : c.name;
   };
   function openCountry(c) {
+    pushNext = true;
     state.jur = c.jurisdictions[0].id;
+    state.chosen = true;
     state.role = null;
     state.tab = 'lanes';
-    $('#jur').value = state.jur;
+    syncPicker();
     render();
   }
 
@@ -507,7 +543,7 @@
     const L = r.lane;
 
     const link = el('a', { class: 'role-link', href: `#j=${state.jur}&tab=role&role=${encodeURIComponent(r.id)}`, tabindex: 0 }, row);
-    link.addEventListener('click', (e) => { e.preventDefault(); state.role = r.id; state.tab = 'role'; render(); });
+    link.addEventListener('click', (e) => { e.preventDefault(); pushNext = true; state.role = r.id; state.tab = 'role'; render(); });
     if (r.differs) el('rect', { x: 6, y: y + 5, width: 6, height: g.ROW - 10, rx: 2, fill: 'var(--diff-ink)' }, link);
     if (nameEn(r)) {
       txt(link, 18, cy - 4, trunc(r.name, 35), { 'font-size': 14, fill: 'currentColor' });
@@ -616,7 +652,7 @@
       rs.map((r) => `<option value="${esc(r.id)}">${esc(r.name)}${nameEn(r) ? ' — ' + esc(nameEn(r)) : ''}${r.differs ? ' •' : ''}</option>`).join('')}</optgroup>`).join('');
     if (!state.role || !m.roles.find((r) => r.id === state.role)) state.role = m.roles[0] && m.roles[0].id;
     sel.value = state.role;
-    sel.onchange = () => { state.role = sel.value; render(); };
+    sel.onchange = () => { pushNext = true; state.role = sel.value; render(); };
     const r = m.roles.find((x) => x.id === state.role);
     const box = $('#role-detail');
     if (!r) { box.innerHTML = '<p>No roles loaded.</p>'; return; }
@@ -956,7 +992,8 @@
     ss.value = state.cmpScope;
     ss.onchange = () => { state.cmpScope = ss.value; renderCompare(); };
     $('#compare').querySelectorAll('a[data-j]').forEach((a) => a.addEventListener('click', (e) => {
-      e.preventDefault(); state.jur = a.dataset.j; state.role = a.dataset.role; state.tab = 'role'; $('#jur').value = state.jur; render();
+      e.preventDefault(); pushNext = true; state.jur = a.dataset.j; state.chosen = true;
+      state.role = a.dataset.role; state.tab = 'role'; syncPicker(); render();
     }));
   }
 
@@ -1183,7 +1220,9 @@
     readHash();
     renderChrome();
     render();
-    window.addEventListener('hashchange', () => { readHash(); $('#jur').value = state.jur; render(); });
+    const fromHistory = () => { pushNext = false; readHash(); syncPicker(); render(); };
+    window.addEventListener('hashchange', fromHistory);
+    window.addEventListener('popstate', fromHistory);
   }).catch((e) => {
     document.querySelector('main').innerHTML = `<p>Could not load data: ${esc(e.message)}</p>`;
     console.error(e);
