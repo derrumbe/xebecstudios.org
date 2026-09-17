@@ -1,0 +1,1145 @@
+{
+ "jurisdiction": "ar-national",
+ "name": "Argentina",
+ "country": "ar",
+ "legalSystem": "civil law",
+ "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded.",
+ "citations": [
+  {
+   "id": "ar-ccyc-32",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 32",
+   "title": "Persona con capacidad restringida y con incapacidad",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Persona con capacidad restringida y con incapacidad. El juez puede restringir la capacidad para determinados actos de una persona mayor de trece años que padece una adicción o una alteración mental permanente o prolongada, de suficiente gravedad, siempre que estime que del ejercicio de su plena capacidad puede resultar un daño…"
+  },
+  {
+   "id": "ar-ccyc-38",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 38",
+   "title": "Alcances de la sentencia",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Alcances de la sentencia. La sentencia debe determinar la extensión y alcance de la restricción y especificar las funciones y actos que se limitan, procurando que la afectación de la autonomía personal sea la menor posible. Asimismo, debe designar una o más personas de apoyo o curadores de acuerdo a lo establecido en el"
+  },
+  {
+   "id": "ar-ccyc-43",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 43",
+   "title": "Concepto",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Concepto. Función. Designación. Se entiende por apoyo cualquier medida de carácter judicial o extrajudicial que facilite a la persona que lo necesite la toma de decisiones para dirigir su persona, administrar sus bienes y celebrar actos jurídicos en general. Las medidas de apoyo tienen como función la de promover la autonomía y…"
+  },
+  {
+   "id": "ar-ccyc-60",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 60",
+   "title": "Directivas médicas anticipadas",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Directivas médicas anticipadas. La persona plenamente capaz puede anticipar directivas y conferir mandato respecto de su salud y en previsión de su propia incapacidad. Puede también designar a la persona o personas que han de expresar el consentimiento para los actos médicos y para ejercer su curatela. Las directivas que…"
+  },
+  {
+   "id": "ar-ccyc-61",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 61",
+   "title": "Exequias",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Exequias. La persona plenamente capaz puede disponer, por cualquier forma, el modo y circunstancias de sus exequias e inhumación, así como la dación de todo o parte del cadáver con fines terapéuticos, científicos, pedagógicos o de índole similar. Si la voluntad del fallecido no ha sido expresada, o ésta no es presumida, la…"
+  },
+  {
+   "id": "ar-ccyc-138",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 138",
+   "title": "Normas aplicables",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Normas aplicables. La curatela se rige por las reglas de la tutela no modificadas en esta Sección. La principal función del curador es la de cuidar a la persona y los bienes de la persona incapaz, y tratar de que recupere su salud. Las rentas de los bienes de la persona protegida deben ser destinadas preferentemente a ese fin."
+  },
+  {
+   "id": "ar-ccyc-380",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 380",
+   "title": "Extinción",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Extinción. El poder se extingue: a) por el cumplimiento del o de los actos encomendados en el apoderamiento; b) por la muerte del representante o del representado; sin embargo subsiste en caso de muerte del representado siempre que haya sido conferido para actos especialmente determinados y en razón de un interés legítimo que…"
+  },
+  {
+   "id": "ar-ccyc-1329",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 1329",
+   "title": "Extinción del mandato",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Extinción del mandato. El mandato se extingue: a) por el transcurso del plazo por el que fue otorgado, o por el cumplimiento de la condición resolutoria pactada; b) por la ejecución del negocio para el cual fue dado; c) por la revocación del mandante; d) por la renuncia del mandatario; e) por la muerte o incapacidad del…"
+  },
+  {
+   "id": "ar-ccyc-2277",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2277",
+   "title": "Apertura de la sucesión",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Apertura de la sucesión. La muerte real o presunta de una persona causa la apertura de su sucesión y la transmisión de su herencia a las personas llamadas a sucederle por el testa-mento o por la ley. Si el testamento dispone sólo parcialmente de los bienes, el resto de la herencia se defiere por la ley. La herencia comprende…"
+  },
+  {
+   "id": "ar-ccyc-2287",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2287",
+   "title": "Libertad de aceptar o renunciar",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Libertad de aceptar o renunciar. Todo heredero puede aceptar la herencia que le es deferida o renunciarla, pero no puede hacerlo por una parte de la herencia ni sujetar su opción a modalidades. La aceptación parcial implica la del todo; la aceptación bajo modalidades se tiene por no hecha."
+  },
+  {
+   "id": "ar-ccyc-2288",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2288",
+   "title": "Caducidad del derecho de opción",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Caducidad del derecho de opción. El derecho de aceptar la herencia caduca a los diez años de la apertura de la sucesión. El heredero que no la haya aceptado en ese plazo es tenido por renunciante. El plazo para las personas llamadas a suceder en defecto de un heredero preferente que acepta la herencia y luego es excluido de…"
+  },
+  {
+   "id": "ar-ccyc-2337",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2337",
+   "title": "Investidura de pleno derecho",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Investidura de pleno derecho. Si la sucesión tiene lugar entre ascendientes, descendientes y cónyuge, el heredero queda investido de su calidad de tal desde el día de la muerte del causante, sin ninguna formalidad o intervención de los jueces, aunque ignore la apertura de la sucesión y su llamamiento a la herencia. Puede…"
+  },
+  {
+   "id": "ar-ccyc-2338",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2338",
+   "title": "Facultades judiciales",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Facultades judiciales. En la sucesión de los colaterales, corresponde al juez del juicio sucesorio investir a los herederos de su carácter de tales, previa justificación del fallecimiento del causante y del título hereditario invocado. En las sucesiones testamentarias, la investidura resulta de la declaración de validez formal…"
+  },
+  {
+   "id": "ar-ccyc-2345",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2345",
+   "title": "Capacidad",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Capacidad. Las personas humanas plenamente capaces, y las personas jurídicas autorizadas por la ley o los estatutos para administrar bienes ajenos, pueden ejercer el cargo de administrador."
+  },
+  {
+   "id": "ar-ccyc-2523",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2523",
+   "title": "Atribuciones",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Atribuciones. Las atribuciones del albacea designado en el testamento son las conferidas por el testador y, en defecto de ello, las que según las circunstancias son necesarias para lograr el cumplimiento de su voluntad. El testador no puede dispensar al albacea de los deberes de inventariar los bienes y de rendir cuentas. Si el…"
+  },
+  {
+   "id": "ar-ccyc-2524",
+   "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2524",
+   "title": "Forma de la designación",
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Forma de la designación. Capacidad. El nombramiento del albacea debe ajustarse a las formas testamentarias, aunque no se realice en el testamento cuya ejecución se encomienda. Pueden ser albaceas las personas humanas plenamente capaces al momento en que deben desempeñar el cargo, las personas jurídicas, y los organismos de la…"
+  }
+ ],
+ "roles": [
+  {
+   "id": "ar-apoyo",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Persona de apoyo",
+   "localNames": [
+    "apoyo",
+    "medidas de apoyo",
+    "persona de apoyo"
+   ],
+   "summary": "Argentina’s default response to impaired capacity is support, not substitution. A support measure may be judicial or extrajudicial, and its stated purpose is to promote autonomy and facilitate the person’s own communication, understanding and expression of will.",
+   "lane": {
+    "assigned": {
+     "event": "Judge restricts capacity for specified acts and designates one or more support persons, or a support is arranged extrajudicially",
+     "phase": "incapacitated",
+     "citations": [
+      "ar-ccyc-32",
+      "ar-ccyc-43"
+     ]
+    },
+    "starts": {
+     "event": "The judgment sets the extent and scope of the restriction and specifies the functions and acts limited, keeping the intrusion on personal autonomy as small as possible",
+     "phase": "incapacitated",
+     "citations": [
+      "ar-ccyc-38"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "ar-ccyc-2277"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No support measure"
+     },
+     {
+      "id": "active",
+      "label": "Support designated, scope set by judgment"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-ap-open",
+      "from": "none",
+      "to": "active",
+      "event": "Judge restricts capacity for specified acts and designates apoyos (arts 32, 43)",
+      "citations": [
+       "ar-ccyc-32",
+       "ar-ccyc-43"
+      ]
+     },
+     {
+      "id": "ar-t-ap-scope",
+      "from": "active",
+      "to": "active",
+      "event": "Judgment specifies the functions and acts limited, minimising the effect on autonomy (art 38)",
+      "citations": [
+       "ar-ccyc-38"
+      ]
+     },
+     {
+      "id": "ar-t-ap-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the person opens the succession (art 2277)",
+      "citations": [
+       "ar-ccyc-2277"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Support person",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "apoyo": {
+     "en": "support",
+     "basis": "descriptive"
+    },
+    "medidas de apoyo": {
+     "en": "support measures",
+     "basis": "descriptive"
+    },
+    "persona de apoyo": {
+     "en": "support person",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "ar-curador",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curador",
+   "localNames": [
+    "curatela",
+    "curador"
+   ],
+   "summary": "Reserved for incapacity rather than restricted capacity. The curator’s main function is to care for the person and property of the incapable person and to try to restore their health — income from their property must preferentially be spent on that.",
+   "lane": {
+    "assigned": {
+     "event": "Judge declares incapacity and designates a curator",
+     "phase": "incapacitated",
+     "citations": [
+      "ar-ccyc-32"
+     ]
+    },
+    "starts": {
+     "event": "On designation; the curator cares for the person and the property of the incapable person",
+     "phase": "incapacitated",
+     "citations": [
+      "ar-ccyc-138"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the protected person",
+      "phase": "deceased",
+      "citations": [
+       "ar-ccyc-2277"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No curatorship"
+     },
+     {
+      "id": "active",
+      "label": "Curator caring for person and property"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-cu-open",
+      "from": "none",
+      "to": "active",
+      "event": "Judge declares incapacity and designates a curador (arts 32, 138)",
+      "citations": [
+       "ar-ccyc-32",
+       "ar-ccyc-138"
+      ]
+     },
+     {
+      "id": "ar-t-cu-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the protected person (art 2277)",
+      "citations": [
+       "ar-ccyc-2277"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Curator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "curatela": {
+     "en": "curatorship",
+     "basis": "descriptive"
+    },
+    "curador": {
+     "en": "curator",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "ar-directiva-salud",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Persona designada en directivas médicas anticipadas",
+   "localNames": [
+    "directivas médicas anticipadas",
+    "directivas anticipadas"
+   ],
+   "summary": "A fully capable person may issue advance directives and confer a mandate about their health in anticipation of their own incapacity, and may name who is to give consent to medical acts and to act as curator. Directives amounting to euthanasia are treated as unwritten.",
+   "lane": {
+    "assigned": {
+     "event": "Fully capable person anticipates directives and designates the person who is to express consent to medical acts and to exercise the curatela",
+     "phase": "capable",
+     "citations": [
+      "ar-ccyc-60"
+     ]
+    },
+    "starts": {
+     "event": "In anticipation of the grantor’s own incapacity",
+     "phase": "incapacitated",
+     "citations": [
+      "ar-ccyc-60"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the grantor",
+      "phase": "deceased",
+      "citations": [
+       "ar-ccyc-2277"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No directive"
+     },
+     {
+      "id": "designated",
+      "label": "Directive made, person designated"
+     },
+     {
+      "id": "active",
+      "label": "Designated person consenting to medical acts"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-ds-make",
+      "from": "none",
+      "to": "designated",
+      "event": "Fully capable person issues advance directives and designates a decision maker (art 60)",
+      "citations": [
+       "ar-ccyc-60"
+      ]
+     },
+     {
+      "id": "ar-t-ds-act",
+      "from": "designated",
+      "to": "active",
+      "event": "The grantor’s own incapacity, as anticipated in the directive (art 60)",
+      "citations": [
+       "ar-ccyc-60"
+      ]
+     },
+     {
+      "id": "ar-t-ds-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the grantor (art 2277)",
+      "citations": [
+       "ar-ccyc-2277"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Person named in advance medical directives",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "directivas médicas anticipadas": {
+     "en": "advance medical directives",
+     "basis": "descriptive"
+    },
+    "directivas anticipadas": {
+     "en": "advance directives",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "ar-exequias",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Persona con derecho a decidir las exequias",
+   "localNames": [
+    "exequias",
+    "inhumación"
+   ],
+   "summary": "A fully capable person may direct the manner and circumstances of their funeral and burial in any form. If no wish was expressed or can be presumed, the decision falls to the spouse, then the cohabitant, and failing them the relatives.",
+   "lane": {
+    "assigned": {
+     "event": "The person directs the manner and circumstances of their exequias in any form; otherwise the statutory order applies",
+     "phase": "capable",
+     "citations": [
+      "ar-ccyc-61"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "ar-ccyc-61",
+      "ar-ccyc-2277"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Funeral and burial carried out",
+      "phase": "administration",
+      "citations": [
+       "ar-ccyc-61"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No direction given"
+     },
+     {
+      "id": "directed",
+      "label": "Wishes expressed by the person"
+     },
+     {
+      "id": "active",
+      "label": "Decision exercised on death"
+     },
+     {
+      "id": "ended",
+      "label": "Carried out"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-ex-dir",
+      "from": "none",
+      "to": "directed",
+      "event": "The person directs the manner and circumstances of exequias, in any form (art 61)",
+      "citations": [
+       "ar-ccyc-61"
+      ]
+     },
+     {
+      "id": "ar-t-ex-default",
+      "from": "none",
+      "to": "active",
+      "event": "No wish expressed or presumed: spouse, then cohabitant, then relatives decide (art 61)",
+      "citations": [
+       "ar-ccyc-61"
+      ]
+     },
+     {
+      "id": "ar-t-ex-act",
+      "from": "directed",
+      "to": "active",
+      "event": "Death of the person (arts 61, 2277)",
+      "citations": [
+       "ar-ccyc-61",
+       "ar-ccyc-2277"
+      ]
+     },
+     {
+      "id": "ar-t-ex-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Funeral and burial carried out (art 61)",
+      "citations": [
+       "ar-ccyc-61"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Person entitled to decide the funeral",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "exequias": {
+     "en": "funeral rites",
+     "basis": "descriptive"
+    },
+    "inhumación": {
+     "en": "burial",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "ar-dacion-cadaver",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Persona que decide la dación del cadáver",
+   "localNames": [
+    "dación del cadáver"
+   ],
+   "summary": "The same article that governs funerals lets a fully capable person give all or part of their body for therapeutic, scientific or teaching purposes, and passes the decision to the spouse, cohabitant or relatives where no wish was expressed. The separate transplant statute was not retrieved for this entry.",
+   "lane": {
+    "assigned": {
+     "event": "Fully capable person directs the giving of all or part of the body for therapeutic, scientific, teaching or similar purposes",
+     "phase": "capable",
+     "citations": [
+      "ar-ccyc-61"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "ar-ccyc-61",
+      "ar-ccyc-2277"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Decision taken and the body or part given or refused",
+      "phase": "administration",
+      "citations": [
+       "ar-ccyc-61"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No direction"
+     },
+     {
+      "id": "directed",
+      "label": "Donation directed by the person"
+     },
+     {
+      "id": "active",
+      "label": "Decision exercised on death"
+     },
+     {
+      "id": "ended",
+      "label": "Decided"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-dc-dir",
+      "from": "none",
+      "to": "directed",
+      "event": "Person directs the giving of all or part of the body (art 61)",
+      "citations": [
+       "ar-ccyc-61"
+      ]
+     },
+     {
+      "id": "ar-t-dc-default",
+      "from": "none",
+      "to": "active",
+      "event": "No wish expressed or presumed: spouse, cohabitant, then relatives decide (art 61)",
+      "citations": [
+       "ar-ccyc-61"
+      ]
+     },
+     {
+      "id": "ar-t-dc-act",
+      "from": "directed",
+      "to": "active",
+      "event": "Death of the person (arts 61, 2277)",
+      "citations": [
+       "ar-ccyc-61",
+       "ar-ccyc-2277"
+      ]
+     },
+     {
+      "id": "ar-t-dc-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Decision taken (art 61)",
+      "citations": [
+       "ar-ccyc-61"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Person deciding the giving of the body",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "dación del cadáver": {
+     "en": "giving of the body",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "ar-apoderado",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Apoderado (mandatario)",
+   "localNames": [
+    "poder",
+    "mandato",
+    "apoderado",
+    "mandatario"
+   ],
+   "summary": "An ordinary power. It is not durable: the mandate ends on the death or incapacity of either party, and the power itself ends on the death of representative or represented, save for a special power granted for determined acts in a legitimate interest.",
+   "lane": {
+    "assigned": {
+     "event": "Principal grants a power for the acts entrusted",
+     "phase": "capable",
+     "citations": [
+      "ar-ccyc-380"
+     ]
+    },
+    "starts": {
+     "event": "On the grant of the power",
+     "phase": "capable",
+     "citations": [
+      "ar-ccyc-380"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death or incapacity of either party, revocation by the principal, or renunciation by the mandatary",
+      "phase": "incapacitated",
+      "citations": [
+       "ar-ccyc-1329"
+      ]
+     },
+     {
+      "event": "Death of the represented person; the power survives only where granted for specially determined acts in a legitimate interest",
+      "phase": "deceased",
+      "citations": [
+       "ar-ccyc-380"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No power"
+     },
+     {
+      "id": "active",
+      "label": "Power in force"
+     },
+     {
+      "id": "ended",
+      "label": "Extinguished"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-po-make",
+      "from": "none",
+      "to": "active",
+      "event": "Principal grants the power (art 380)",
+      "citations": [
+       "ar-ccyc-380"
+      ]
+     },
+     {
+      "id": "ar-t-po-inc",
+      "from": "active",
+      "to": "ended",
+      "event": "Death or incapacity of mandante or mandatario, revocation, or renunciation (art 1329)",
+      "citations": [
+       "ar-ccyc-1329"
+      ]
+     },
+     {
+      "id": "ar-t-po-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of representative or represented, subject to the special-power exception (art 380(b))",
+      "citations": [
+       "ar-ccyc-380"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Attorney under a power (mandatary)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "poder": {
+     "en": "power of attorney",
+     "basis": "descriptive"
+    },
+    "mandato": {
+     "en": "mandate",
+     "basis": "descriptive"
+    },
+    "apoderado": {
+     "en": "attorney-in-fact",
+     "basis": "descriptive"
+    },
+    "mandatario": {
+     "en": "mandatary",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "ar-heredero",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Heredero",
+   "localNames": [
+    "heredero",
+    "herencia",
+    "sucesión"
+   ],
+   "summary": "Death opens the succession and transmits the estate. Descendants, ascendants and the spouse are invested as heirs from the day of death with no formality and no judicial intervention, even if unaware; collateral and testamentary heirs must be invested by the succession judge.",
+   "lane": {
+    "assigned": {
+     "event": "Real or presumed death opens the succession and transmits the estate to those called by will or by law",
+     "phase": "deceased",
+     "citations": [
+      "ar-ccyc-2277"
+     ]
+    },
+    "starts": {
+     "event": "Descendants, ascendants and spouse are invested from the day of death without formality or judicial intervention; collaterals and testamentary heirs are invested by the judge",
+     "phase": "deceased",
+     "citations": [
+      "ar-ccyc-2337",
+      "ar-ccyc-2338"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Renunciation, or the right to accept lapsing ten years after the succession opens, the heir then being treated as renouncing",
+      "phase": "administration",
+      "citations": [
+       "ar-ccyc-2287",
+       "ar-ccyc-2288"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Deceased alive"
+     },
+     {
+      "id": "vested",
+      "label": "Invested by operation of law on death"
+     },
+     {
+      "id": "judicial",
+      "label": "Invested by the succession judge"
+     },
+     {
+      "id": "accepted",
+      "label": "Accepted"
+     },
+     {
+      "id": "renounced",
+      "label": "Renounced or right lapsed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-he-open",
+      "from": "none",
+      "to": "vested",
+      "event": "Death opens the succession; descendants, ascendants and spouse invested from that day (arts 2277, 2337)",
+      "citations": [
+       "ar-ccyc-2277",
+       "ar-ccyc-2337"
+      ]
+     },
+     {
+      "id": "ar-t-he-judicial",
+      "from": "none",
+      "to": "judicial",
+      "event": "Collateral or testamentary heirs invested by the succession judge (art 2338)",
+      "citations": [
+       "ar-ccyc-2338"
+      ]
+     },
+     {
+      "id": "ar-t-he-accept",
+      "from": "vested",
+      "to": "accepted",
+      "event": "Acceptance of the inheritance (art 2287)",
+      "citations": [
+       "ar-ccyc-2287"
+      ]
+     },
+     {
+      "id": "ar-t-he-renounce",
+      "from": "vested",
+      "to": "renounced",
+      "event": "Renunciation, or the option lapsing ten years after the succession opens (arts 2287, 2288)",
+      "citations": [
+       "ar-ccyc-2287",
+       "ar-ccyc-2288"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "heredero": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "herencia": {
+     "en": "inheritance",
+     "basis": "descriptive"
+    },
+    "sucesión": {
+     "en": "succession",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "ar-albacea",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Albacea",
+   "localNames": [
+    "albacea",
+    "ejecutor testamentario"
+   ],
+   "summary": "Named in testamentary form. The albacea’s powers are those the testator confers and, failing that, whatever the circumstances make necessary to carry out the will. The testator cannot excuse the albacea from inventorying the estate or rendering accounts.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names an albacea in testamentary form, though not necessarily in the will being executed",
+     "phase": "capable",
+     "citations": [
+      "ar-ccyc-2524"
+     ]
+    },
+    "starts": {
+     "event": "On death, with the powers the testator conferred or those necessary in the circumstances to carry out the will",
+     "phase": "deceased",
+     "citations": [
+      "ar-ccyc-2523",
+      "ar-ccyc-2277"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The will is carried out and accounts rendered",
+      "phase": "administration",
+      "citations": [
+       "ar-ccyc-2523"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No albacea"
+     },
+     {
+      "id": "named",
+      "label": "Named in testamentary form"
+     },
+     {
+      "id": "active",
+      "label": "Carrying out the will"
+     },
+     {
+      "id": "ended",
+      "label": "Will executed, accounts rendered"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-al-name",
+      "from": "none",
+      "to": "named",
+      "event": "Testator names an albacea in testamentary form (art 2524)",
+      "citations": [
+       "ar-ccyc-2524"
+      ]
+     },
+     {
+      "id": "ar-t-al-act",
+      "from": "named",
+      "to": "active",
+      "event": "Death of the testator; albacea exercises the conferred or necessary powers (arts 2277, 2523)",
+      "citations": [
+       "ar-ccyc-2277",
+       "ar-ccyc-2523"
+      ]
+     },
+     {
+      "id": "ar-t-al-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Will carried out; inventory and accounts rendered (art 2523)",
+      "citations": [
+       "ar-ccyc-2523"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "albacea": {
+     "en": "executor",
+     "basis": "descriptive"
+    },
+    "ejecutor testamentario": {
+     "en": "testamentary executor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "ar-administrador",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrador de la herencia",
+   "localNames": [
+    "administrador de la herencia"
+   ],
+   "summary": "The estate administrator. Fully capable natural persons, and legal persons authorised by law or by their statutes to administer the property of others, may hold the office.",
+   "lane": {
+    "assigned": {
+     "event": "A fully capable person, or a legal person authorised to administer the property of others, takes the office of administrator",
+     "phase": "administration",
+     "citations": [
+      "ar-ccyc-2345"
+     ]
+    },
+    "starts": {
+     "event": "On taking the office",
+     "phase": "administration",
+     "citations": [
+      "ar-ccyc-2345"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration of the estate completed",
+      "phase": "closed",
+      "citations": [
+       "ar-ccyc-2345"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No administrator"
+     },
+     {
+      "id": "active",
+      "label": "Administering the estate"
+     },
+     {
+      "id": "ended",
+      "label": "Administration ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ar-t-ad-open",
+      "from": "none",
+      "to": "active",
+      "event": "Administrator takes office (art 2345)",
+      "citations": [
+       "ar-ccyc-2345"
+      ]
+     },
+     {
+      "id": "ar-t-ad-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Administration of the estate completed (art 2345)",
+      "citations": [
+       "ar-ccyc-2345"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Administrator of the estate",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "administrador de la herencia": {
+     "en": "administrator of the estate",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "The mandate is extinguished by the death or incapacity of either mandante or mandatario, and the power by the death of representative or represented.",
+   "citations": [
+    "ar-ccyc-1329",
+    "ar-ccyc-380"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "restricted",
+   "note": "Only for health: a fully capable person may anticipate directives and confer a mandate about their health in anticipation of their own incapacity. No equivalent for property.",
+   "citations": [
+    "ar-ccyc-60",
+    "ar-ccyc-1329"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "The directive and the health mandate are made in anticipation of the grantor’s own incapacity.",
+   "citations": [
+    "ar-ccyc-60"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "year": null,
+   "name": "Medidas de apoyo, Código Civil y Comercial arts 32, 38 and 43",
+   "citations": [
+    "ar-ccyc-32",
+    "ar-ccyc-38",
+    "ar-ccyc-43"
+   ]
+  },
+  "probateGrantName": {
+   "value": "investidura de la calidad de heredero",
+   "note": "No grant for the closest heirs: descendants, ascendants and the spouse are invested from the day of death without formality. Collateral and testamentary heirs are invested by the succession judge.",
+   "citations": [
+    "ar-ccyc-2337",
+    "ar-ccyc-2338"
+   ]
+  }
+ }
+}

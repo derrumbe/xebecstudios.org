@@ -1,0 +1,1024 @@
+{
+ "jurisdiction": "kr-national",
+ "name": "South Korea",
+ "country": "kr",
+ "legalSystem": "civil law",
+ "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs.",
+ "citations": [
+  {
+   "id": "kr-civil-9",
+   "cite": "Civil Act (Republic of Korea), Article 9",
+   "title": "Adjudication on Commencement of Adult Guardianship",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The Family Court shall adjudicate on the commencement of adult guardianship for a person who continuously lacks the capacity to manage affairs due to mental restraints caused by a disease, disability, old age or by any other cause upon the application of the principal, his or her spouse, his or her first cousin or…"
+  },
+  {
+   "id": "kr-civil-11",
+   "cite": "Civil Act (Republic of Korea), Article 11",
+   "title": "Adjudication on Termination of Adult Guardianship",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Where the cause for commencement of adult guardianship has ceased, the Family Court shall adjudicate on the termination of adult guardianship upon the application of the principal, his or her spouse, his or her first cousin or closer relative, adult guardian, supervisor of guardianship for the adult, public…"
+  },
+  {
+   "id": "kr-civil-12",
+   "cite": "Civil Act (Republic of Korea), Article 12",
+   "title": "Adjudication on Commencement of Limited Guardianship",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The Family Court shall adjudicate on the commencement of limited guardianship for a person who continuously lacks the capacity to manage affairs due to mental restraints caused by a disease, disability, old age or by any other cause upon the application of the person himself or herself, his or her spouse, his or her…"
+  },
+  {
+   "id": "kr-civil-13",
+   "cite": "Civil Act (Republic of Korea), Article 13",
+   "title": "Acts of Limited Wards and Consent",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The Family Court may determine the scope of acts for which a limited ward shall obtain consent from his or her limited guardian. The Family Court may change the scope of acts for which a limited ward must obtain consent from his or her limited guardian under paragraph (1) upon the application of the principal, his or…"
+  },
+  {
+   "id": "kr-civil-14-2",
+   "cite": "Civil Act (Republic of Korea), Article 14-2",
+   "title": "Adjudication on Specific Guardian",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The Family Court shall adjudicate on the commencement of specific guardianship for a person who requires temporary guardianship or guardianship for any specific affairs due to mental restraints caused by a disease, disability, old age or by any other cause upon the application of the principal, his or her spouse, his…"
+  },
+  {
+   "id": "kr-civil-680",
+   "cite": "Civil Act (Republic of Korea), Article 680",
+   "title": "Definition of Mandate",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A mandate shall become effective when one of the parties has entrusted the other party with the management of affairs and the other party has consented thereto."
+  },
+  {
+   "id": "kr-civil-690",
+   "cite": "Civil Act (Republic of Korea), Article 690",
+   "title": "Death, Bankruptcy, etc. and Termination of Mandate",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A mandate shall terminate upon the death or bankruptcy of either party. The same shall apply where the mandatory is adjudged to commence adult guardianship."
+  },
+  {
+   "id": "kr-civil-929",
+   "cite": "Civil Act (Republic of Korea), Article 929",
+   "title": "Commencement of Guardianship by Adjudication on Commencement of Adult Guardianship",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "If an adjudication on the commencement of adult guardianship has been made by the Family Court, an adult guardian shall be appointed over such person who has been adjudicated as such."
+  },
+  {
+   "id": "kr-civil-938",
+   "cite": "Civil Act (Republic of Korea), Article 938",
+   "title": "Right of Representation, etc. of Guardians",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A guardian shall become the legal representative of the ward. The Family Court may determine the scope of the right of legal representation granted to an adult guardian under paragraph (1). The Family Court may determine the scope of the authority of an adult guardian under which he or she can make decision on the…"
+  },
+  {
+   "id": "kr-civil-959-4",
+   "cite": "Civil Act (Republic of Korea), Article 959-4",
+   "title": "Rights to Representation, etc. of Limited Guardians",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The Family Court may adjudge to confer the right to representation on a limited guardian."
+  },
+  {
+   "id": "kr-civil-959-11",
+   "cite": "Civil Act (Republic of Korea), Article 959-11",
+   "title": "Rights to Representation of Specific Guardians",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The Family Court may adjudge to confer the right to representation on a specific guardian to support a specific ward, setting the period and scope thereof, if deemed necessary. In cases falling under paragraph (1), the Family Court may order a specific guardian to obtain the consent of the supervisor of specific…"
+  },
+  {
+   "id": "kr-civil-959-14",
+   "cite": "Civil Act (Republic of Korea), Article 959-14",
+   "title": "Meaning, Method, etc. of Contracting Guardianship",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The contents of a guardianship contract shall be to entrust all or some of a person's affairs related to property management and protection of private matters to another person where the person is in the state of lacking the capacity to manage the affairs due to a disease, disability, old age or by any other cause or…"
+  },
+  {
+   "id": "kr-civil-959-15",
+   "cite": "Civil Act (Republic of Korea), Article 959-15",
+   "title": "Appointment of Supervisors of Voluntary Guardianship",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Where a guardianship contract is registered and the principal is deemed in the state of lacking capacity to mange his or her affairs, the Family Court shall appoint a supervisor of voluntary guardianship upon the application of the principal, his or her spouse, any of the first cousins or closer relatives, the…"
+  },
+  {
+   "id": "kr-civil-959-20",
+   "cite": "Civil Act (Republic of Korea), Article 959-20",
+   "title": "Relationships between Guardianship Contract and Adult Guardianship, Limited Guardianship and Specific Guardianship",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Where a guardianship has been registered, the Family Court may adjudicate on adult guardianship, limited guardianship or specific guardianship upon the application of a voluntary guardian or a supervisor of voluntary guardianship, only when such guardianship is particularly necessary for the principal's interest. In…"
+  },
+  {
+   "id": "kr-civil-997",
+   "cite": "Civil Act (Republic of Korea), Article 997",
+   "title": "Causes for Commencement of Inheritance",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "An inheritance shall be commenced by death."
+  },
+  {
+   "id": "kr-civil-1005",
+   "cite": "Civil Act (Republic of Korea), Article 1005",
+   "title": "Inheritance and Succession of Blanket Rights and Duties",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "An inheritor succeeds, from the time of the commencement of the inheritance, to the blanket rights and duties pertaining to the property of the inheritee: Provided , That this shall not apply to the property which is entirely personal to the inheritee."
+  },
+  {
+   "id": "kr-civil-1019",
+   "cite": "Civil Act (Republic of Korea), Article 1019",
+   "title": "Period for Acceptance and Renunciation",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "An inheritor to property may, within three months after he is informed of the commencement of an inheritance, effect an acceptance, absolute or qualified, or a renunciation: Provided , That such period may be extended by the Family Court upon the application of any party interested or of a public prosecutor. An…"
+  },
+  {
+   "id": "kr-civil-1053",
+   "cite": "Civil Act (Republic of Korea), Article 1053",
+   "title": "Administrator of Property of which Inheritor does not Exist",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "If it is unknown whether an inheritor exists, the court shall, upon the application of any relative of the inheritee pursuant to the provisions of"
+  },
+  {
+   "id": "kr-civil-1093",
+   "cite": "Civil Act (Republic of Korea), Article 1093",
+   "title": "Designation of Executor",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A testator may designate an executor by will or commission a third person to designate an executor."
+  },
+  {
+   "id": "kr-civil-1095",
+   "cite": "Civil Act (Republic of Korea), Article 1095",
+   "title": "Cases in which No Designated Executor Exists",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "If there exists no designated executor pursuant to the provisions of Articles 1093 and 1094 , an inheritor becomes an executor."
+  },
+  {
+   "id": "kr-civil-1101",
+   "cite": "Civil Act (Republic of Korea), Article 1101",
+   "title": "Rights and Duties of Executor",
+   "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "An executor has the right and duty to manage the property which is the subject of a testamentary gift, and to perform acts necessary for carrying out the will."
+  }
+ ],
+ "roles": [
+  {
+   "id": "kr-adult-guardian",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Adult guardian",
+   "localNames": [
+    "성년후견인",
+    "adult guardian"
+   ],
+   "summary": "Appointed by the Family Court for a person who continuously lacks the capacity to manage affairs. The guardian is the ward’s legal representative, but the court sets how far that representation reaches and how far the guardian may decide personal affairs.",
+   "lane": {
+    "assigned": {
+     "event": "Family Court adjudicates commencement of adult guardianship on application by the principal, spouse, a relative within the fourth degree, a public prosecutor or the head of a local government",
+     "phase": "incapacitated",
+     "citations": [
+      "kr-civil-9"
+     ]
+    },
+    "starts": {
+     "event": "An adult guardian is appointed once commencement is adjudged; the guardian becomes legal representative within the scope the court sets",
+     "phase": "incapacitated",
+     "citations": [
+      "kr-civil-929",
+      "kr-civil-938"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Family Court adjudicates termination once the cause for commencement has ceased",
+      "phase": "capable",
+      "citations": [
+       "kr-civil-11"
+      ]
+     },
+     {
+      "event": "Death of the ward; the estate passes to the heirs by universal succession",
+      "phase": "deceased",
+      "citations": [
+       "kr-civil-997",
+       "kr-civil-1005"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No guardianship"
+     },
+     {
+      "id": "adjudged",
+      "label": "Commencement adjudged; guardian appointed"
+     },
+     {
+      "id": "active",
+      "label": "Guardian acting as legal representative within court-set scope"
+     },
+     {
+      "id": "ended",
+      "label": "Guardianship terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "kr-t-ag-open",
+      "from": "none",
+      "to": "adjudged",
+      "event": "Family Court adjudicates commencement of adult guardianship (art 9)",
+      "citations": [
+       "kr-civil-9"
+      ]
+     },
+     {
+      "id": "kr-t-ag-act",
+      "from": "adjudged",
+      "to": "active",
+      "event": "Adult guardian appointed; becomes legal representative, scope determined by the court (arts 929, 938)",
+      "citations": [
+       "kr-civil-929",
+       "kr-civil-938"
+      ]
+     },
+     {
+      "id": "kr-t-ag-scope",
+      "from": "active",
+      "to": "active",
+      "event": "Family Court modifies the scope of representation or of authority over personal affairs (art 938(4))",
+      "citations": [
+       "kr-civil-938"
+      ]
+     },
+     {
+      "id": "kr-t-ag-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Cause for commencement ceases; Family Court adjudicates termination (art 11)",
+      "citations": [
+       "kr-civil-11"
+      ]
+     },
+     {
+      "id": "kr-t-ag-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the ward (arts 997, 1005)",
+      "citations": [
+       "kr-civil-997",
+       "kr-civil-1005"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kr-limited-guardian",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Limited guardian",
+   "localNames": [
+    "한정후견인",
+    "limited guardian"
+   ],
+   "summary": "A lighter court regime: the ward keeps capacity except for acts the court lists as needing the limited guardian’s consent. Representation is not automatic — the court must confer it separately.",
+   "lane": {
+    "assigned": {
+     "event": "Family Court adjudicates commencement of limited guardianship",
+     "phase": "incapacitated",
+     "citations": [
+      "kr-civil-12"
+     ]
+    },
+    "starts": {
+     "event": "Court determines the scope of acts requiring the limited guardian’s consent; the court may separately confer a right of representation",
+     "phase": "incapacitated",
+     "citations": [
+      "kr-civil-13",
+      "kr-civil-959-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Guardianship contract supervisor appointed, or adult guardianship adjudged, displacing the limited guardianship",
+      "phase": "incapacitated",
+      "citations": [
+       "kr-civil-959-20"
+      ]
+     },
+     {
+      "event": "Death of the ward",
+      "phase": "deceased",
+      "citations": [
+       "kr-civil-997"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No guardianship"
+     },
+     {
+      "id": "active",
+      "label": "Consent scope set by court"
+     },
+     {
+      "id": "repn",
+      "label": "Right of representation conferred"
+     },
+     {
+      "id": "ended",
+      "label": "Guardianship ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "kr-t-lg-open",
+      "from": "none",
+      "to": "active",
+      "event": "Family Court adjudicates commencement of limited guardianship (art 12)",
+      "citations": [
+       "kr-civil-12"
+      ]
+     },
+     {
+      "id": "kr-t-lg-scope",
+      "from": "active",
+      "to": "active",
+      "event": "Court determines or changes the acts needing the guardian’s consent (art 13)",
+      "citations": [
+       "kr-civil-13"
+      ]
+     },
+     {
+      "id": "kr-t-lg-repn",
+      "from": "active",
+      "to": "repn",
+      "event": "Family Court adjudges to confer a right of representation (art 959-4)",
+      "citations": [
+       "kr-civil-959-4"
+      ]
+     },
+     {
+      "id": "kr-t-lg-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Displaced by adult guardianship or by a voluntary guardianship supervisor (art 959-20)",
+      "citations": [
+       "kr-civil-959-20"
+      ]
+     },
+     {
+      "id": "kr-t-lg-death",
+      "from": "repn",
+      "to": "ended",
+      "event": "Death of the ward (art 997)",
+      "citations": [
+       "kr-civil-997"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kr-specific-guardian",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Specific guardian",
+   "localNames": [
+    "특정후견인",
+    "specific guardian"
+   ],
+   "summary": "Support for one matter or one period, and the only Korean guardianship that cannot be imposed over the principal’s objection. Representation is optional and time- and scope-limited when the court grants it.",
+   "lane": {
+    "assigned": {
+     "event": "Family Court adjudicates commencement of specific guardianship, fixing the period or the scope of affairs",
+     "phase": "incapacitated",
+     "citations": [
+      "kr-civil-14-2"
+     ]
+    },
+    "starts": {
+     "event": "Court may confer a right of representation on the specific guardian for a set period and scope, and may require the supervisor’s consent to its exercise",
+     "phase": "incapacitated",
+     "citations": [
+      "kr-civil-959-11"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The fixed period expires or the specified affairs are completed",
+      "phase": "incapacitated",
+      "citations": [
+       "kr-civil-14-2"
+      ]
+     },
+     {
+      "event": "Death of the principal",
+      "phase": "deceased",
+      "citations": [
+       "kr-civil-997"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No specific guardianship"
+     },
+     {
+      "id": "active",
+      "label": "Support for set period or affairs"
+     },
+     {
+      "id": "repn",
+      "label": "Representation conferred for set period and scope"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "kr-t-sg-open",
+      "from": "none",
+      "to": "active",
+      "event": "Family Court adjudicates specific guardianship, fixing period or scope; it may not be exercised against the principal’s will (art 14-2)",
+      "citations": [
+       "kr-civil-14-2"
+      ]
+     },
+     {
+      "id": "kr-t-sg-repn",
+      "from": "active",
+      "to": "repn",
+      "event": "Court confers a right of representation, setting period and scope (art 959-11)",
+      "citations": [
+       "kr-civil-959-11"
+      ]
+     },
+     {
+      "id": "kr-t-sg-end",
+      "from": "repn",
+      "to": "ended",
+      "event": "Period expires or the specified affairs are completed (art 14-2(3))",
+      "citations": [
+       "kr-civil-14-2"
+      ]
+     },
+     {
+      "id": "kr-t-sg-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the principal (art 997)",
+      "citations": [
+       "kr-civil-997"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kr-voluntary-guardian",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Voluntary guardian under a guardianship contract",
+   "localNames": [
+    "임의후견인",
+    "후견계약",
+    "guardianship contract"
+   ],
+   "summary": "Korea’s advance instrument. It must be made as an authentic deed and registered, and — unusually — it has no effect at all until the Family Court appoints a supervisor of voluntary guardianship, which it does once the principal is found to lack capacity.",
+   "lane": {
+    "assigned": {
+     "event": "Principal enters a guardianship contract in an authentic deed, entrusting property management and personal matters and conferring a right of representation",
+     "phase": "capable",
+     "citations": [
+      "kr-civil-959-14"
+     ]
+    },
+    "starts": {
+     "event": "Only when the Family Court appoints a supervisor of voluntary guardianship, the contract being registered and the principal deemed to lack capacity to manage affairs",
+     "phase": "incapacitated",
+     "citations": [
+      "kr-civil-959-14",
+      "kr-civil-959-15"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Contract terminates when commencement of adult or limited guardianship is adjudged for the principal",
+      "phase": "incapacitated",
+      "citations": [
+       "kr-civil-959-20"
+      ]
+     },
+     {
+      "event": "Death of the principal",
+      "phase": "deceased",
+      "citations": [
+       "kr-civil-997",
+       "kr-civil-1005"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No contract"
+     },
+     {
+      "id": "registered",
+      "label": "Contract in authentic deed, registered, not yet effective"
+     },
+     {
+      "id": "active",
+      "label": "Supervisor appointed; contract in force"
+     },
+     {
+      "id": "ended",
+      "label": "Terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "kr-t-vg-make",
+      "from": "none",
+      "to": "registered",
+      "event": "Guardianship contract entered into in an authentic deed (art 959-14(1)-(2))",
+      "citations": [
+       "kr-civil-959-14"
+      ]
+     },
+     {
+      "id": "kr-t-vg-force",
+      "from": "registered",
+      "to": "active",
+      "event": "Family Court appoints a supervisor of voluntary guardianship; the contract takes effect at that time (arts 959-14(3), 959-15)",
+      "citations": [
+       "kr-civil-959-14",
+       "kr-civil-959-15"
+      ]
+     },
+     {
+      "id": "kr-t-vg-displaced",
+      "from": "active",
+      "to": "ended",
+      "event": "Adult or limited guardianship adjudged; the guardianship contract terminates (art 959-20(1))",
+      "citations": [
+       "kr-civil-959-20"
+      ]
+     },
+     {
+      "id": "kr-t-vg-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the principal (arts 997, 1005)",
+      "citations": [
+       "kr-civil-997",
+       "kr-civil-1005"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kr-mandatary",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Mandatary under an ordinary mandate",
+   "localNames": [
+    "수임인",
+    "위임"
+   ],
+   "summary": "The ordinary agency relationship. It is not a durable instrument: it ends on the death or bankruptcy of either party, and also if the mandatary is placed under adult guardianship.",
+   "lane": {
+    "assigned": {
+     "event": "Mandate entrusts the mandatary with the management of affairs, and the mandatary accepts",
+     "phase": "capable",
+     "citations": [
+      "kr-civil-680"
+     ]
+    },
+    "starts": {
+     "event": "On acceptance of the mandate",
+     "phase": "capable",
+     "citations": [
+      "kr-civil-680"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death or bankruptcy of either party, or the mandatary is adjudged to commence adult guardianship",
+      "phase": "deceased",
+      "citations": [
+       "kr-civil-690"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No mandate"
+     },
+     {
+      "id": "active",
+      "label": "Mandate in force"
+     },
+     {
+      "id": "ended",
+      "label": "Mandate terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "kr-t-md-make",
+      "from": "none",
+      "to": "active",
+      "event": "Mandate entrusted and accepted (art 680)",
+      "citations": [
+       "kr-civil-680"
+      ]
+     },
+     {
+      "id": "kr-t-md-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Death or bankruptcy of either party, or adult guardianship adjudged for the mandatary (art 690)",
+      "citations": [
+       "kr-civil-690"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kr-heir",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Heir",
+   "localNames": [
+    "상속인"
+   ],
+   "summary": "Korea has no grant of representation: inheritance commences by death and the heir succeeds to the blanket rights and duties of the estate from that moment. The heir has three months from learning of the commencement to accept absolutely, accept with limitation, or renounce.",
+   "lane": {
+    "assigned": {
+     "event": "Inheritance is commenced by death",
+     "phase": "deceased",
+     "citations": [
+      "kr-civil-997"
+     ]
+    },
+    "starts": {
+     "event": "The heir succeeds to the blanket rights and duties of the estate from the time inheritance commences, with no grant",
+     "phase": "deceased",
+     "citations": [
+      "kr-civil-1005"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Renunciation within three months of learning of the commencement, or the period passes with absolute acceptance",
+      "phase": "administration",
+      "citations": [
+       "kr-civil-1019"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Deceased alive"
+     },
+     {
+      "id": "vested",
+      "label": "Estate vested in heir on death"
+     },
+     {
+      "id": "settled",
+      "label": "Accepted, absolutely or with limitation"
+     },
+     {
+      "id": "renounced",
+      "label": "Renounced"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "kr-t-h-death",
+      "from": "none",
+      "to": "vested",
+      "event": "Death commences the inheritance; blanket rights and duties pass to the heir (arts 997, 1005)",
+      "citations": [
+       "kr-civil-997",
+       "kr-civil-1005"
+      ]
+     },
+     {
+      "id": "kr-t-h-accept",
+      "from": "vested",
+      "to": "settled",
+      "event": "Acceptance, absolute or qualified, within three months of learning of the commencement (art 1019)",
+      "citations": [
+       "kr-civil-1019"
+      ]
+     },
+     {
+      "id": "kr-t-h-renounce",
+      "from": "vested",
+      "to": "renounced",
+      "event": "Renunciation within the same three-month period, extendable by the Family Court (art 1019)",
+      "citations": [
+       "kr-civil-1019"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kr-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor of a will",
+   "localNames": [
+    "유언집행자"
+   ],
+   "summary": "Designated in the will, or by a third person the testator commissions. Where nobody is designated, the heir is the executor by operation of law. The executor manages the property given by will and does what is needed to carry it out.",
+   "lane": {
+    "assigned": {
+     "event": "Testator designates an executor by will, or commissions a third person to designate one",
+     "phase": "capable",
+     "citations": [
+      "kr-civil-1093"
+     ]
+    },
+    "starts": {
+     "event": "On the testator’s death the executor holds the right and duty to manage the bequeathed property and to perform the acts necessary to carry out the will",
+     "phase": "deceased",
+     "citations": [
+      "kr-civil-1101",
+      "kr-civil-997"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The acts necessary to carry out the will are performed",
+      "phase": "administration",
+      "citations": [
+       "kr-civil-1101"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No executor"
+     },
+     {
+      "id": "designated",
+      "label": "Designated in the will"
+     },
+     {
+      "id": "active",
+      "label": "Administering the testamentary gift"
+     },
+     {
+      "id": "ended",
+      "label": "Will carried out"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "kr-t-ex-name",
+      "from": "none",
+      "to": "designated",
+      "event": "Testator designates an executor by will, or commissions a third person to do so (art 1093)",
+      "citations": [
+       "kr-civil-1093"
+      ]
+     },
+     {
+      "id": "kr-t-ex-default",
+      "from": "none",
+      "to": "active",
+      "event": "No executor designated, so the heir becomes executor (art 1095)",
+      "citations": [
+       "kr-civil-1095"
+      ]
+     },
+     {
+      "id": "kr-t-ex-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Death of the testator; executor manages the bequeathed property (arts 997, 1101)",
+      "citations": [
+       "kr-civil-997",
+       "kr-civil-1101"
+      ]
+     },
+     {
+      "id": "kr-t-ex-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Acts necessary to carry out the will are performed (art 1101)",
+      "citations": [
+       "kr-civil-1101"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kr-estate-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator of an estate with no known heir",
+   "localNames": [
+    "상속재산관리인"
+   ],
+   "summary": "Where it is unknown whether an heir exists, the court appoints an administrator of the inherited property on the application of a relative or other interested party.",
+   "lane": {
+    "assigned": {
+     "event": "Court appoints an administrator on application, where it is unknown whether an heir exists",
+     "phase": "administration",
+     "citations": [
+      "kr-civil-1053"
+     ]
+    },
+    "starts": {
+     "event": "On appointment by the court",
+     "phase": "administration",
+     "citations": [
+      "kr-civil-1053"
+     ]
+    },
+    "ends": [
+     {
+      "event": "An heir is found and accepts, or the administration is completed",
+      "phase": "closed",
+      "citations": [
+       "kr-civil-1053"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No administrator"
+     },
+     {
+      "id": "active",
+      "label": "Administering estate of unknown heirship"
+     },
+     {
+      "id": "ended",
+      "label": "Administration ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "kr-t-ad-open",
+      "from": "none",
+      "to": "active",
+      "event": "Court appoints an administrator where it is unknown whether an heir exists (art 1053)",
+      "citations": [
+       "kr-civil-1053"
+      ]
+     },
+     {
+      "id": "kr-t-ad-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Heir found, or administration completed (art 1053)",
+      "citations": [
+       "kr-civil-1053"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "An ordinary mandate ends on the death or bankruptcy of either party; the durable instrument is the guardianship contract, which needs an authentic deed and takes effect only when the Family Court appoints a supervisor.",
+   "citations": [
+    "kr-civil-690",
+    "kr-civil-959-14"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "The guardianship contract is inherently springing: it takes effect at the time the Family Court appoints a supervisor of voluntary guardianship, once the principal is deemed to lack capacity to manage affairs.",
+   "citations": [
+    "kr-civil-959-14",
+    "kr-civil-959-15"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "The contract must be registered, and a supervisor appointed by the Family Court, before it has effect.",
+   "citations": [
+    "kr-civil-959-14",
+    "kr-civil-959-15"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "year": 2011,
+   "name": "Specific guardianship, Civil Act arts 14-2 and 959-11 (added by Act No. 10429, 7 Mar 2011)",
+   "citations": [
+    "kr-civil-14-2",
+    "kr-civil-959-11"
+   ]
+  },
+  "probateGrantName": {
+   "value": "none",
+   "note": "No grant of representation. Inheritance is commenced by death and the heir succeeds to the blanket rights and duties of the estate from that moment.",
+   "citations": [
+    "kr-civil-997",
+    "kr-civil-1005"
+   ]
+  }
+ }
+}
