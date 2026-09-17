@@ -1,0 +1,469 @@
+{
+ "jurisdiction": "rw-national",
+ "name": "Rwanda",
+ "country": "rw",
+ "legalSystem": "civil law",
+ "note": "Law nº 71/2024 of 26/06/2024 governing persons and family, which carries both adult guardianship (Chapter VII) and succession (Chapter XVII) in one statute and replaces the 2016 law. Published in the trilingual Official Gazette; the English version is quoted here, alongside Kinyarwanda and French. Estate administration runs through a succession council that chooses, supervises and signs off a liquidator, so no role here matches an executor acting alone. Powers of attorney, health-care proxies and organ donation were not found in this Law and are not recorded; they would sit in other legislation not retrieved for this entry.",
+ "citations": [
+  {
+   "id": "rw-pf-137",
+   "cite": "Law nº 71/2024 of 26/06/2024 governing persons and family, art 137",
+   "title": "Guardianship for an adult",
+   "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/OG_n___Special_of_30.07.2024_Abantu_n_umuryango.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The competent court declares that an adult with mental disability be provided with a guardian."
+  },
+  {
+   "id": "rw-pf-138",
+   "cite": "Law nº 71/2024 of 26/06/2024 governing persons and family, art 138",
+   "title": "Procedure for the appointment of a guardian for an adult",
+   "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/OG_n___Special_of_30.07.2024_Abantu_n_umuryango.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The court seized of the application to declare that an adult with mental disability be provided with a guardian, the court appoints the guardian after hearing and observing the person for whom the guardianship is applied for as well as hearing witnesses, family council and examining medical records indicating mental health of…"
+  },
+  {
+   "id": "rw-pf-139",
+   "cite": "Law nº 71/2024 of 26/06/2024 governing persons and family, art 139",
+   "title": "Eligible person to apply that an adult with mental disability be provided with a guardian",
+   "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/OG_n___Special_of_30.07.2024_Abantu_n_umuryango.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The application for an adult with mental disability to be provided with a guardian is admissible for the following persons: (a) one of the parents if filed with respect to an (b) one of the spouses if filed with respect to (c) an adult if filed with respect to his or her"
+  },
+  {
+   "id": "rw-pf-354",
+   "cite": "Law nº 71/2024 of 26/06/2024 governing persons and family, art 354",
+   "title": "Opening of succession",
+   "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/OG_n___Special_of_30.07.2024_Abantu_n_umuryango.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) Succession opens upon the death of a person, at his or her domicile or residence. (2) Starting from the day of the opening of succession, a person entitled to succeed by way of a will or under law is called an heir as long as he or she accepts it. (3) In the event of absence or disappearance, succession opens with a final…"
+  },
+  {
+   "id": "rw-pf-369",
+   "cite": "Law nº 71/2024 of 26/06/2024 governing persons and family, art 369",
+   "title": "Appointment of an executor in a will",
+   "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/OG_n___Special_of_30.07.2024_Abantu_n_umuryango.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) The testator may appoint in his or her will one or several testamentary executors responsible for liquidating the estate. (2) If the testator has not appointed the executor, he or she is appointed in accordance with provisions of this law."
+  },
+  {
+   "id": "rw-pf-387",
+   "cite": "Law nº 71/2024 of 26/06/2024 governing persons and family, art 387",
+   "title": "Responsibilities of the succession council",
+   "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/OG_n___Special_of_30.07.2024_Abantu_n_umuryango.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(a) to choose and supervise the liquidator, if possible, he or she is chosen from heirs of the deceased; (b) to set the deadline for the discharge of responsibilities of the liquidator; (c) to approve the acts of a liquidator; of the liquidator;"
+  },
+  {
+   "id": "rw-pf-388",
+   "cite": "Law nº 71/2024 of 26/06/2024 governing persons and family, art 388",
+   "title": "Duties of liquidator",
+   "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/OG_n___Special_of_30.07.2024_Abantu_n_umuryango.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) Unless otherwise specified in the will, the liquidator has duties including liquidation of the estate, presenting and determining the procedure for the repayment of the inherited debts. (2) Upon completion of his or her responsibilities, the liquidator reports to the succession council for approval of the acts performed."
+  }
+ ],
+ "roles": [
+  {
+   "id": "rw-guardian-adult",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Guardian of an adult",
+   "localNames": [
+    "guardianship of an adult with mental disability"
+   ],
+   "summary": "A court declares that an adult with mental disability be provided with a guardian. What stands out is the procedure: the court appoints only after hearing and observing the person themselves, hearing witnesses and the family council, and examining medical records of that person’s mental health.",
+   "lane": {
+    "assigned": {
+     "event": "A parent, a spouse, or the adult themselves applies for a guardian to be provided",
+     "phase": "incapacitated",
+     "citations": [
+      "rw-pf-139"
+     ]
+    },
+    "starts": {
+     "event": "The competent court declares that the adult be provided with a guardian and appoints one, after hearing and observing the person, hearing witnesses and the family council, and examining medical records",
+     "phase": "incapacitated",
+     "citations": [
+      "rw-pf-137",
+      "rw-pf-138"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the adult, which opens the succession",
+      "phase": "deceased",
+      "citations": [
+       "rw-pf-354"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No guardianship"
+     },
+     {
+      "id": "applied",
+      "label": "Application made"
+     },
+     {
+      "id": "active",
+      "label": "Guardian appointed by the court"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "rw-t-ga-apply",
+      "from": "none",
+      "to": "applied",
+      "event": "A parent, spouse or the adult applies for a guardian (art 139)",
+      "citations": [
+       "rw-pf-139"
+      ]
+     },
+     {
+      "id": "rw-t-ga-appoint",
+      "from": "applied",
+      "to": "active",
+      "event": "Court declares the adult be provided with a guardian and appoints one, after hearing and observing them, hearing witnesses and the family council, and examining medical records (arts 137, 138)",
+      "citations": [
+       "rw-pf-137",
+       "rw-pf-138"
+      ]
+     },
+     {
+      "id": "rw-t-ga-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the adult opens the succession (art 354)",
+      "citations": [
+       "rw-pf-354"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "rw-heir",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Heir",
+   "localNames": [
+    "heir",
+    "succession"
+   ],
+   "summary": "Succession opens on death at the deceased’s domicile or residence, and from that day a person entitled by will or by law is called an heir — but only for as long as they accept it. Where someone has disappeared, succession opens instead on a final declaratory judgement of death.",
+   "lane": {
+    "assigned": {
+     "event": "Succession opens on the death of a person, at their domicile or residence",
+     "phase": "deceased",
+     "citations": [
+      "rw-pf-354"
+     ]
+    },
+    "starts": {
+     "event": "From the day of the opening of succession the person entitled by will or by law is called an heir, as long as they accept it",
+     "phase": "deceased",
+     "citations": [
+      "rw-pf-354"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate liquidated and the liquidator’s acts approved by the succession council",
+      "phase": "administration",
+      "citations": [
+       "rw-pf-388",
+       "rw-pf-387"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Deceased alive"
+     },
+     {
+      "id": "open",
+      "label": "Succession open; entitled person called heir on acceptance"
+     },
+     {
+      "id": "declared",
+      "label": "Opened by declaratory judgement of death"
+     },
+     {
+      "id": "ended",
+      "label": "Estate liquidated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "rw-t-he-death",
+      "from": "none",
+      "to": "open",
+      "event": "Death opens the succession at the domicile or residence (art 354(1)-(2))",
+      "citations": [
+       "rw-pf-354"
+      ]
+     },
+     {
+      "id": "rw-t-he-absent",
+      "from": "none",
+      "to": "declared",
+      "event": "Absence or disappearance: succession opens on a final declaratory judgement of death (art 354(3))",
+      "citations": [
+       "rw-pf-354"
+      ]
+     },
+     {
+      "id": "rw-t-he-end",
+      "from": "open",
+      "to": "ended",
+      "event": "Estate liquidated and the acts approved by the succession council (arts 387, 388)",
+      "citations": [
+       "rw-pf-387",
+       "rw-pf-388"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "rw-liquidator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Liquidator",
+   "localNames": [
+    "liquidator",
+    "succession council"
+   ],
+   "summary": "Rwanda does not leave the estate to the heirs to settle between themselves. After the succession opens a liquidator is appointed, chosen and supervised by the succession council — from among the heirs if possible — which sets the deadline for the work and must approve what the liquidator has done.",
+   "lane": {
+    "assigned": {
+     "event": "After the opening of succession a liquidator is appointed; the succession council chooses and supervises them, from among the heirs if possible, and sets the deadline for discharging the role",
+     "phase": "administration",
+     "citations": [
+      "rw-pf-354",
+      "rw-pf-387"
+     ]
+    },
+    "starts": {
+     "event": "The liquidator liquidates the estate and presents and determines the procedure for repayment of the inherited debts",
+     "phase": "administration",
+     "citations": [
+      "rw-pf-388"
+     ]
+    },
+    "ends": [
+     {
+      "event": "On completion the liquidator reports to the succession council, which approves the acts performed",
+      "phase": "closed",
+      "citations": [
+       "rw-pf-388",
+       "rw-pf-387"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No liquidator"
+     },
+     {
+      "id": "appointed",
+      "label": "Chosen and supervised by the succession council"
+     },
+     {
+      "id": "active",
+      "label": "Liquidating the estate"
+     },
+     {
+      "id": "ended",
+      "label": "Acts approved by the succession council"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "rw-t-li-appoint",
+      "from": "none",
+      "to": "appointed",
+      "event": "Liquidator appointed after the opening of succession, chosen by the succession council from the heirs if possible (arts 354(4), 387(a))",
+      "citations": [
+       "rw-pf-354",
+       "rw-pf-387"
+      ]
+     },
+     {
+      "id": "rw-t-li-act",
+      "from": "appointed",
+      "to": "active",
+      "event": "Liquidator liquidates the estate and determines the procedure for repaying inherited debts (art 388(1))",
+      "citations": [
+       "rw-pf-388"
+      ]
+     },
+     {
+      "id": "rw-t-li-approve",
+      "from": "active",
+      "to": "ended",
+      "event": "Liquidator reports to the succession council, which approves the acts performed and had set the deadline (arts 387, 388(2))",
+      "citations": [
+       "rw-pf-387",
+       "rw-pf-388"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "rw-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Testamentary executor",
+   "localNames": [
+    "testamentary executor"
+   ],
+   "summary": "The testator may name one or several testamentary executors in the will, responsible for liquidating the estate. Where the will names none, an executor is appointed under the law instead — so the office is filled either way.",
+   "lane": {
+    "assigned": {
+     "event": "Testator appoints one or several testamentary executors in the will, responsible for liquidating the estate",
+     "phase": "capable",
+     "citations": [
+      "rw-pf-369"
+     ]
+    },
+    "starts": {
+     "event": "On the opening of the succession; where the testator named nobody, an executor is appointed under the law",
+     "phase": "deceased",
+     "citations": [
+      "rw-pf-369",
+      "rw-pf-354"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate liquidated, the acts being approved by the succession council",
+      "phase": "administration",
+      "citations": [
+       "rw-pf-388",
+       "rw-pf-387"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No executor"
+     },
+     {
+      "id": "named",
+      "label": "Named in the will"
+     },
+     {
+      "id": "bylaw",
+      "label": "Appointed under the law, none named"
+     },
+     {
+      "id": "active",
+      "label": "Liquidating the estate"
+     },
+     {
+      "id": "ended",
+      "label": "Completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "rw-t-ex-name",
+      "from": "none",
+      "to": "named",
+      "event": "Testator appoints one or several testamentary executors in the will (art 369(1))",
+      "citations": [
+       "rw-pf-369"
+      ]
+     },
+     {
+      "id": "rw-t-ex-default",
+      "from": "none",
+      "to": "bylaw",
+      "event": "No executor appointed by the testator, so one is appointed under this law (art 369(2))",
+      "citations": [
+       "rw-pf-369"
+      ]
+     },
+     {
+      "id": "rw-t-ex-act",
+      "from": "named",
+      "to": "active",
+      "event": "Succession opens; the executor is responsible for liquidating the estate (arts 354, 369)",
+      "citations": [
+       "rw-pf-354",
+       "rw-pf-369"
+      ]
+     },
+     {
+      "id": "rw-t-ex-act2",
+      "from": "bylaw",
+      "to": "active",
+      "event": "Appointed executor takes up liquidation of the estate (art 369(2))",
+      "citations": [
+       "rw-pf-369"
+      ]
+     },
+     {
+      "id": "rw-t-ex-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Estate liquidated and the acts approved by the succession council (arts 387, 388)",
+      "citations": [
+       "rw-pf-387",
+       "rw-pf-388"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "probateGrantName": {
+   "value": "none",
+   "note": "No grant. Succession opens on death at the domicile or residence and the entitled person is called an heir from that day, subject to acceptance; a liquidator is then appointed to settle the estate.",
+   "citations": [
+    "rw-pf-354"
+   ]
+  }
+ }
+}

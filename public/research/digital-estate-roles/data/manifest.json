@@ -19,6 +19,24 @@
    ]
   },
   {
+   "id": "rw",
+   "name": "Rwanda",
+   "region": "Africa",
+   "jurisdictions": [
+    {
+     "id": "rw-national",
+     "name": "Rwanda",
+     "short": "RW",
+     "files": [
+      "jurisdictions/rw-national.json"
+     ],
+     "country": "rw",
+     "note": "Law nº 71/2024 of 26/06/2024 governing persons and family, which carries both adult guardianship (Chapter VII) and succession (Chapter XVII) in one statute and replaces the 2016 law. Published in the trilingual Official Gazette; the English version is quoted here, alongside Kinyarwanda and French. Estate administration runs through a succession council that chooses, supervises and signs off a liquidator, so no role here matches an executor acting alone. Powers of attorney, health-care proxies and organ donation were not found in this Law and are not recorded; they would sit in other legislation not retrieved for this entry.",
+     "label": "Rwanda"
+    }
+   ]
+  },
+  {
    "id": "za",
    "name": "South Africa",
    "region": "Africa",
@@ -472,6 +490,17 @@
    "country": "mu",
    "note": "A mixed system: the Code Civil Mauricien supplies succession and adult protection, while the Curatelle Act, Mental Health Care Act and Succession and Wills Act are English-language statutes layered over it — the Mental Health Care Act reaches a patient’s property by having the Ministère Public apply for an ouverture de tutelle under the Code. Succession vests without a grant: the heirs are seised of plein droit. No organ-donation role is recorded: the Human Tissue (Removal, Preservation and Transplant) Act 2006 commences by proclamation and the revised-laws editorial note states that, as at 30 September 2007, only section 16 had come into operation, so the donation regime is enacted but not in force on the face of the published text. Powers of attorney and health-care proxies were not located in the Acts retrieved and are not recorded.",
    "label": "Mauritius"
+  },
+  {
+   "id": "rw-national",
+   "name": "Rwanda",
+   "short": "RW",
+   "files": [
+    "jurisdictions/rw-national.json"
+   ],
+   "country": "rw",
+   "note": "Law nº 71/2024 of 26/06/2024 governing persons and family, which carries both adult guardianship (Chapter VII) and succession (Chapter XVII) in one statute and replaces the 2016 law. Published in the trilingual Official Gazette; the English version is quoted here, alongside Kinyarwanda and French. Estate administration runs through a succession council that chooses, supervises and signs off a liquidator, so no role here matches an executor acting alone. Powers of attorney, health-care proxies and organ donation were not found in this Law and are not recorded; they would sit in other legislation not retrieved for this entry.",
+   "label": "Rwanda"
   },
   {
    "id": "za-national",

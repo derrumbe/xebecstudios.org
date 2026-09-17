@@ -7411,5 +7411,27 @@
     "quote": "This Act shall come into operation on a date to be fixed by proclamation. (2) Different dates may be fixed for the coming into force of different provisions of this Act."
    }
   ]
+ },
+ "rw-national": {
+  "features": {
+   "probateGrantName": {
+    "value": "none",
+    "note": "No grant. Succession opens on death at the domicile or residence and the entitled person is called an heir from that day, subject to acceptance; a liquidator is then appointed to settle the estate.",
+    "citations": [
+     "rw-pf-354"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "rw-pf-354",
+    "cite": "Law nº 71/2024 of 26/06/2024 governing persons and family, art 354",
+    "title": "Opening of succession",
+    "url": "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Publications/Laws/OG_n___Special_of_30.07.2024_Abantu_n_umuryango.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) Succession opens upon the death of a person, at his or her domicile or residence. (2) Starting from the day of the opening of succession, a person entitled to succeed by way of a will or under law is called an heir as long as he or she accepts it. (3) In the event of absence or disappearance, succession opens with a final…"
+   }
+  ]
  }
 }
