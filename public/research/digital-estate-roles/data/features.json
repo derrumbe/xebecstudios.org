@@ -7181,5 +7181,116 @@
     "quote": "Facultades judiciales. En la sucesión de los colaterales, corresponde al juez del juicio sucesorio investir a los herederos de su carácter de tales, previa justificación del fallecimiento del causante y del título hereditario invocado. En las sucesiones testamentarias, la investidura resulta de la declaración de validez formal…"
    }
   ]
+ },
+ "in-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "An agency is terminated by either the principal or the agent dying or becoming of unsound mind. The only exception is an agency coupled with an interest, which protects the agent rather than the principal.",
+    "citations": [
+     "in-ica-201",
+     "in-ica-202"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": 2016,
+    "name": "Rights of Persons with Disabilities Act, 2016, ss 13-14 — support first, limited guardianship only where support has not sufficed",
+    "citations": [
+     "in-rpwd-13",
+     "in-rpwd-14"
+    ]
+   },
+   "probateGrantName": {
+    "value": "probate / letters of administration",
+    "note": "Probate is granted only to an executor appointed by the will; otherwise letters of administration. Section 213 does not apply to wills made by Muslims or Indian Christians.",
+    "citations": [
+     "in-isa-222",
+     "in-isa-218",
+     "in-isa-213"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Removal needs the donor’s unequivocal written authorisation before two witnesses; failing that, the person lawfully in possession of the body may authorise where the deceased expressed no objection and no near relative objects.",
+    "citations": [
+     "in-thota-3"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "in-ica-201",
+    "cite": "The Indian Contract Act, 1872 (Act 9 of 1872), s 201",
+    "title": "Termination of agency",
+    "url": "https://indiacode.gov.in/handle/123456789/531525",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "An agency is terminated by the principal revoking his authority; or by the agent renouncing the business of the agency; or by the business of the agency being completed; or by either the principal or agent dying or becoming of unsound mind; or by the principal being adjudicated an insolvent under the provisions of any Act for the time…"
+   },
+   {
+    "id": "in-ica-202",
+    "cite": "The Indian Contract Act, 1872 (Act 9 of 1872), s 202",
+    "title": "Termination of agency, where agent has an interest in subject-matter",
+    "url": "https://indiacode.gov.in/handle/123456789/531526",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Where the agent has himself an interest in the property which forms the subject-matter of the agency, the agency cannot, in the absence of an express contract, be terminated to the prejudice of such interest. Illustrations (a) A gives authority to B to sell A's land, and to pay himself, out of the proceeds, the debts due to him from A. A…"
+   },
+   {
+    "id": "in-rpwd-13",
+    "cite": "The Rights of Persons with Disabilities Act, 2016 (Act 49 of 2016), s 13",
+    "title": "Legal capacity",
+    "url": "https://indiacode.gov.in/handle/123456789/514106",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) The appropriate Government shall ensure that the persons with disabilities have right, equally with others, to own or inherit property, movable or immovable, control their financial affairs and have access to bank loans, mortgages and other forms of financial credit. (2) The appropriate Government shall ensure that the persons with…"
+   },
+   {
+    "id": "in-rpwd-14",
+    "cite": "The Rights of Persons with Disabilities Act, 2016 (Act 49 of 2016), s 14",
+    "title": "Provision for guardianship",
+    "url": "https://indiacode.gov.in/handle/123456789/514107",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) Notwithstanding anything contained in any other law for the time being in force, on and from the date of commencement of this Act, where a district court or any designated authority, as notified by the State Government, finds that a person with disability, who had been provided adequate and appropriate support but is unable to take…"
+   },
+   {
+    "id": "in-isa-222",
+    "cite": "The Indian Succession Act, 1925 (Act 39 of 1925), s 222",
+    "title": "Probate only to appointed executor",
+    "url": "https://indiacode.gov.in/handle/123456789/527790",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) Probate shall be granted only to an executor appointed by the will. (2) The appointment may be expressed or by necessary implication. Illustrations (i) A wills that C be his executor if B will not. B is appointed executor by implication. (ii) A gives a legacy to B and several legacies to other persons, among the rest to his…"
+   },
+   {
+    "id": "in-isa-218",
+    "cite": "The Indian Succession Act, 1925 (Act 39 of 1925), s 218",
+    "title": "To whom administration may be granted, where deceased is a Hindu, Muhammadan, Budhist, Sikh, Jaina or exempted person",
+    "url": "https://indiacode.gov.in/handle/123456789/527785",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) If the deceased has died intestate and was a Hindu, Muhammadan, Buddhist, Sikh or Jaina or an exempted person, administration of his estate may be granted to any person who, according to the rules for the distribution of the estate applicable in the case of such deceased, would be entitled to the whole or any part of such deceased's…"
+   },
+   {
+    "id": "in-isa-213",
+    "cite": "The Indian Succession Act, 1925 (Act 39 of 1925), s 213",
+    "title": "Right as executor or legatee when established",
+    "url": "https://indiacode.gov.in/handle/123456789/527780",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "(1) No right as executor or legatee can be established in any Court of Justice, unless a Court of competent jurisdiction in 1 [India] has granted probate of the will under which the right is claimed, or has granted letters of administration with the will or with a copy of an authenticated copy of the will annexed. 2 [(2) This section…"
+   },
+   {
+    "id": "in-thota-3",
+    "cite": "The Transplantation of Human Organs and Tissues Act, 1994 (Act 42 of 1994), s 3",
+    "title": "Authority for removal of human organs or tissues or both",
+    "url": "https://indiacode.gov.in/handle/123456789/541020",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "1 [ 3. Authority for removal of 1 [human organs or tissues or both]. -- (1) Any donor may, in such manner and subject to such conditions as may be prescribed, authorise the removal, before his death, of any 2 [human organ or tissue or both] of his body for therapeutic purposes. 3 [(1A) For the purpose of removal, storage or…"
+   }
+  ]
  }
 }
