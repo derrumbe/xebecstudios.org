@@ -1,0 +1,97 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+
+/**
+ * Companion page to the GenAI bias talk, at the exact path Ghost served.
+ *
+ * The numbering is load-bearing: the slides cite these by number, so (4) has
+ * to stay (4). Annotations go beside the links rather than regrouping them,
+ * because a reader arriving from a slide is looking for one specific number.
+ * The Guardian URL has lost its mibextid tracking parameter, in the same
+ * spirit as the migration stripping Ghost's ?ref=.
+ */
+---
+<Base
+  title="Breaking the Pattern: references"
+  description="The reference list for Breaking the Pattern — open-source approaches to quantifying bias in generative AI."
+>
+  <div class="wrap">
+    <div class="plate">
+      <div class="grid">
+        <Margin
+          label="References"
+          notes={[{ note: 'Numbered as they are on the slides. If you came here from number seven, number seven is still number seven.' }]}
+        />
+        <div>
+          <h1>Breaking the Pattern</h1>
+          <p class="lede">
+            Open-source approaches to quantifying bias in generative AI — the works cited, and the
+            tools you can actually run. The
+            <a href="/speaking/#its-not-fair-algorithmic-bias">earlier version of this argument</a>
+            is in the speaking list.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="band">
+      <div class="grid">
+        <Margin notes={[{ note: 'The first four are the problem. The rest are the instruments.', tone: 'aside' }]} />
+        <div class="body plain">
+          <ol class="refs">
+            <li>
+              <a href="https://www.weforum.org/agenda/2019/05/ai-assisted-recruitment-is-biased-heres-how-to-beat-it/">AI-assisted recruitment is biased. Here's how to beat it</a>
+              — World Economic Forum, 2019. Hiring as the first place most people met algorithmic bias.
+            </li>
+            <li>
+              <a href="https://www.theguardian.com/us-news/2022/dec/09/lensa-ai-portraits-misogyny">Lensa AI portraits and misogyny</a>
+              — The Guardian, 2022. What a consumer app returned to women who fed it their own photographs.
+            </li>
+            <li>
+              <a href="https://www.vice.com/en/article/qjk745/ai-police-sketches">AI police sketches</a>
+              — Vice, 2022. Generative models pointed at forensic use, with predictable results.
+            </li>
+            <li>
+              <a href="https://www.rsaconference.com/Library/presentation/USA/2022/Its%20Not%20Fair%20Detecting%20Algorithmic%20Bias%20with%20Open%20Source%20Tools">It's Not Fair: Detecting Algorithmic Bias with Open Source Tools</a>
+              — RSA Conference, 2022. The earlier talk this one builds on.
+            </li>
+            <li>
+              <a href="https://github.com/amazon-science/bold">BOLD</a>
+              — dataset and metrics for measuring bias in open-ended language generation.
+            </li>
+            <li>
+              <a href="https://github.com/nyu-mll/bbq#about-bbq-paper-abstract">BBQ</a>
+              — the Bias Benchmark for QA, which tests what a model assumes when the question does not say.
+            </li>
+            <li>
+              <a href="https://link.springer.com/article/10.1007/s11127-023-01097-2">More human than human: measuring ChatGPT political bias</a>
+              — Public Choice, 2023.
+            </li>
+            <li>
+              <a href="https://huggingface.co/spaces/society-ethics/StableBias">StableBias</a>
+              — a running demonstration of how generated faces shift with the prompt's profession.
+            </li>
+            <li>
+              <a href="https://github.com/eric-ai-lab/T2IAT">T2IAT</a>
+              — measuring valence and stereotypical bias in text-to-image generation.
+            </li>
+            <li>
+              <a href="https://arxiv.org/abs/2211.06323">A Sign That Spells: DALL-E 2, Invisual Images and The Racial Politics of Feature Space</a>
+              — arXiv, 2022.
+            </li>
+          </ol>
+          <p>
+            If a link here has rotted, or the tooling has moved on,
+            <a href="/about/#contact">tell me</a> and I will fix it.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .refs { padding-left: 1.6em; }
+  .refs li { margin-bottom: .7em; }
+</style>
