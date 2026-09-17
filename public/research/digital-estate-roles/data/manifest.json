@@ -159,7 +159,7 @@
      ],
      "country": "uk",
      "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted.",
-     "label": "United Kingdom — England & Wales"
+     "label": "UK — England & Wales"
     },
     {
      "id": "uk-ni",
@@ -171,7 +171,7 @@
      ],
      "country": "uk",
      "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer.",
-     "label": "United Kingdom — Northern Ireland"
+     "label": "UK — Northern Ireland"
     },
     {
      "id": "uk-sco",
@@ -183,7 +183,7 @@
      ],
      "country": "uk",
      "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer.",
-     "label": "United Kingdom — Scotland"
+     "label": "UK — Scotland"
     }
    ]
   },
@@ -263,7 +263,7 @@
      ],
      "note": "Baseline built from the Uniform Law Commission's model acts (which bind nobody until a state enacts them) plus federal regulations that apply everywhere.",
      "country": "us",
-     "label": "United States — uniform/model law + federal"
+     "label": "US — uniform/model law + federal"
     },
     {
      "id": "us-ca",
@@ -275,7 +275,7 @@
       "jurisdictions/us-ca.json"
      ],
      "country": "us",
-     "label": "United States — California"
+     "label": "US — California"
     },
     {
      "id": "us-fl",
@@ -287,7 +287,7 @@
       "jurisdictions/us-fl.json"
      ],
      "country": "us",
-     "label": "United States — Florida"
+     "label": "US — Florida"
     },
     {
      "id": "us-il",
@@ -299,7 +299,7 @@
       "jurisdictions/us-il.json"
      ],
      "country": "us",
-     "label": "United States — Illinois"
+     "label": "US — Illinois"
     },
     {
      "id": "us-ny",
@@ -311,7 +311,7 @@
       "jurisdictions/us-ny.json"
      ],
      "country": "us",
-     "label": "United States — New York"
+     "label": "US — New York"
     },
     {
      "id": "us-nc",
@@ -323,7 +323,7 @@
       "jurisdictions/us-nc.json"
      ],
      "country": "us",
-     "label": "United States — North Carolina"
+     "label": "US — North Carolina"
     },
     {
      "id": "us-oh",
@@ -335,7 +335,7 @@
       "jurisdictions/us-oh.json"
      ],
      "country": "us",
-     "label": "United States — Ohio"
+     "label": "US — Ohio"
     },
     {
      "id": "us-tx",
@@ -347,7 +347,7 @@
       "jurisdictions/us-tx.json"
      ],
      "country": "us",
-     "label": "United States — Texas"
+     "label": "US — Texas"
     },
     {
      "id": "us-wa",
@@ -359,7 +359,7 @@
       "jurisdictions/us-wa.json"
      ],
      "country": "us",
-     "label": "United States — Washington"
+     "label": "US — Washington"
     }
    ]
   },
@@ -542,7 +542,7 @@
    ],
    "country": "uk",
    "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted.",
-   "label": "United Kingdom — England & Wales"
+   "label": "UK — England & Wales"
   },
   {
    "id": "uk-ni",
@@ -554,7 +554,7 @@
    ],
    "country": "uk",
    "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer.",
-   "label": "United Kingdom — Northern Ireland"
+   "label": "UK — Northern Ireland"
   },
   {
    "id": "uk-sco",
@@ -566,7 +566,7 @@
    ],
    "country": "uk",
    "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer.",
-   "label": "United Kingdom — Scotland"
+   "label": "UK — Scotland"
   },
   {
    "id": "ca-bc",
@@ -625,7 +625,7 @@
    ],
    "note": "Baseline built from the Uniform Law Commission's model acts (which bind nobody until a state enacts them) plus federal regulations that apply everywhere.",
    "country": "us",
-   "label": "United States — uniform/model law + federal"
+   "label": "US — uniform/model law + federal"
   },
   {
    "id": "us-ca",
@@ -637,7 +637,7 @@
     "jurisdictions/us-ca.json"
    ],
    "country": "us",
-   "label": "United States — California"
+   "label": "US — California"
   },
   {
    "id": "us-fl",
@@ -649,7 +649,7 @@
     "jurisdictions/us-fl.json"
    ],
    "country": "us",
-   "label": "United States — Florida"
+   "label": "US — Florida"
   },
   {
    "id": "us-il",
@@ -661,7 +661,7 @@
     "jurisdictions/us-il.json"
    ],
    "country": "us",
-   "label": "United States — Illinois"
+   "label": "US — Illinois"
   },
   {
    "id": "us-ny",
@@ -673,7 +673,7 @@
     "jurisdictions/us-ny.json"
    ],
    "country": "us",
-   "label": "United States — New York"
+   "label": "US — New York"
   },
   {
    "id": "us-nc",
@@ -685,7 +685,7 @@
     "jurisdictions/us-nc.json"
    ],
    "country": "us",
-   "label": "United States — North Carolina"
+   "label": "US — North Carolina"
   },
   {
    "id": "us-oh",
@@ -697,7 +697,7 @@
     "jurisdictions/us-oh.json"
    ],
    "country": "us",
-   "label": "United States — Ohio"
+   "label": "US — Ohio"
   },
   {
    "id": "us-tx",
@@ -709,7 +709,7 @@
     "jurisdictions/us-tx.json"
    ],
    "country": "us",
-   "label": "United States — Texas"
+   "label": "US — Texas"
   },
   {
    "id": "us-wa",
@@ -721,7 +721,7 @@
     "jurisdictions/us-wa.json"
    ],
    "country": "us",
-   "label": "United States — Washington"
+   "label": "US — Washington"
   },
   {
    "id": "au-nsw",

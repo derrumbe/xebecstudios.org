@@ -48,7 +48,11 @@
 .der h3 { font-size: 16px; margin: 20px 0 8px; }
 
 .der .top { background: var(--surface); border-bottom: 1px solid var(--line); }
-.der .top-inner { display: flex; gap: 16px; align-items: flex-end; justify-content: space-between; padding-top: 14px; padding-bottom: 10px; flex-wrap: wrap; }
+.der .top-inner { display: flex; gap: 16px; align-items: flex-end; justify-content: space-between; padding-top: 14px; padding-bottom: 10px; flex-wrap: nowrap; }
+/* The picker stays on the description's line: the brand column absorbs the
+   squeeze by wrapping its text, rather than the controls dropping below. */
+.der .brand { min-width: 0; }
+.der .controls { flex: none; }
 .der .brand h1 { font-size: 22px; letter-spacing: -0.01em; }
 .der .sub { margin: 4px 0 0; color: var(--ink-2); font-size: 15px; }
 .der .controls { display: flex; gap: 8px; align-items: flex-end; }
@@ -140,6 +144,7 @@
 
 @media (max-width: 640px) {
   .der .brand h1 { font-size: 19px; }
+  .der .top-inner { flex-wrap: wrap; }
   .der .controls { width: 100%; }
   .der .controls .field { flex: 1; }
   .der .cmp td { min-width: 150px; }
