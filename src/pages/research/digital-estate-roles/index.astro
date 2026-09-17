@@ -1,6 +1,5 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import Margin from '../../../components/Margin.astro';
 import '../../../styles/der.css';
 
 /**
@@ -25,27 +24,13 @@ const retrieved = '17 September 2026';
 >
   <div class="wrap">
     <section class="band">
-      <div class="grid" style="margin-bottom:22px">
-        <Margin
-          label="Digital Estate Roles"
-          notes={[
-            { note: `Not legal advice. A research aid summarising primary sources as retrieved on the dates shown — most recently ${retrieved}.` },
-            { note: 'Uniform acts are models. They bind nobody until a state enacts them, and states change them on the way through.', tone: 'aside' },
-          ]}
-        />
-        <div>
-          <p class="lede">
-            Authority over a person and their property is handed over in pieces, at different
-            moments, by different instruments. This maps when each role is <b>assigned</b>, when it
-            <b>starts</b>, and when it <b>ends</b> — across the United States, the United Kingdom,
-            Canada, Australia, Germany, Spain, Sweden, Finland and Denmark.
-          </p>
-        </div>
-      </div>
-
       <div class="der" data-der data-base={DATA}>
         <header class="top">
           <div class="top-inner">
+            <div class="brand">
+              <h1>Digital Estate Roles</h1>
+              <p class="sub">When authority is <b>assigned</b>, when it <b>starts</b>, and when it <b>ends</b> — from statute, regulation and uniform acts.</p>
+            </div>
             <div class="controls">
               <label class="field">
                 <span>Jurisdiction</span>
@@ -104,23 +89,17 @@ const retrieved = '17 September 2026';
 
         <section id="tab-trends" class="tab" hidden><div id="trends"></div></section>
         <section id="tab-sources" class="tab" hidden><div id="sources"></div></section>
-      </div>
 
-      <div class="grid" style="margin-top:26px">
-        <Margin label="Standing note" />
-        <div>
-          <p class="foot-note">
-            <b>Not legal advice.</b> This is a research aid summarising primary legal sources as
-            retrieved on the dates shown. Always read the cited current text and consult a lawyer
-            licensed in the jurisdiction. Claims without a verified primary-source citation are drawn
-            dashed and labelled <em>unverified</em>.
-          </p>
-          <p class="foot-note">
-            Part of research for the
-            <a href="https://github.com/dhs-aws/death-and-the-digital-estate">Death and the Digital Estate</a>
-            effort.
-          </p>
-        </div>
+        <footer class="foot">
+          <p><b>Not legal advice.</b> This is a research aid summarising primary legal sources as
+            retrieved on the dates shown. Uniform acts are models: they have no force in a state
+            until enacted, and states frequently modify them. Always read the cited current text and
+            consult a lawyer licensed in the jurisdiction.</p>
+          <p>Part of research for the
+            <a href="https://github.com/dhs-aws/death-and-the-digital-estate">Death and the Digital Estate (DADE)</a>
+            effort. Claims without a verified primary-source citation are shown dashed and labelled
+            <em>unverified</em>.</p>
+        </footer>
       </div>
     </section>
   </div>
@@ -129,8 +108,3 @@ const retrieved = '17 September 2026';
 <script>
   import '../../../scripts/der/app.js';
 </script>
-
-<style>
-  .foot-note { font-size: 15.5px; color: var(--ink-soft); margin: 0 0 10px; max-width: var(--measure); }
-  .foot-note a { color: var(--lapis); text-underline-offset: 3px; }
-</style>
