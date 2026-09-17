@@ -1,0 +1,2764 @@
+{
+ "jurisdiction": "ca-bc",
+ "name": "British Columbia",
+ "country": "ca",
+ "legalSystem": "common law",
+ "note": "British Columbia provincial roles for incapacity, death and estate administration: enduring and general powers of attorney, representation agreements, temporary substitute decision makers, committees and statutory property guardians, executors and administrators under WESA, organ donation consent, control of disposition of remains, and access to a deceased person's records. Statutes as consolidated on bclaws.gov.bc.ca, current to 15 September 2026 (Supreme Court Civil Rules current to 8 September 2026). Federal roles (CPP/OAS trustees, CRA, PIPEDA, ULCC) are in ca-federal.",
+ "citations": [
+  {
+   "id": "bc-poa-2",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 2(0.1)",
+   "title": "Application (Part 1 does not apply to enduring powers of attorney)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section2",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This Part does not apply to an enduring power of attorney under Part 2."
+  },
+  {
+   "id": "bc-poa-4",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, ss 1, 3, 4",
+   "title": "Liability of agent; effect of termination (protection of third parties without knowledge)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the transaction is, in favour of that person, deemed to be as valid as if the authority had existed."
+  },
+  {
+   "id": "bc-poa-9",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 9 and Schedule Forms 1-2",
+   "title": "Short form general power of attorney",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section9",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A general power of attorney may be in Form 1 or Form 2 of the Schedule."
+  },
+  {
+   "id": "bc-poa-10",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 10",
+   "title": "Definitions: enduring power of attorney",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section10",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "that continues to have effect while, or comes into effect when, the adult is incapable"
+  },
+  {
+   "id": "bc-poa-12",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, ss 11-12",
+   "title": "Presumption of capability; adult may make enduring power of attorney unless incapable",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section12",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An adult may make an enduring power of attorney unless the adult is incapable of understanding the nature and consequences"
+  },
+  {
+   "id": "bc-poa-14",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 14",
+   "title": "Enduring power of attorney must include provision for continued authority",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section14",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "that the authority of the attorney continues despite the adult's incapability."
+  },
+  {
+   "id": "bc-poa-16",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, ss 16-17",
+   "title": "Adult and attorney must sign enduring power of attorney",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Before a person may exercise the authority of an attorney granted in an enduring power of attorney, the person must sign"
+  },
+  {
+   "id": "bc-poa-20",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 20(6)",
+   "title": "Attorney's powers: delivery of the adult's property on request",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section20",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a person having custody or control of property belonging to an adult must deliver the property promptly, on request of the adult's attorney"
+  },
+  {
+   "id": "bc-poa-25",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 25",
+   "title": "Resignation of attorney",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section25",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An attorney may resign by giving written notice to the adult and any other attorneys"
+  },
+  {
+   "id": "bc-poa-26",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 26",
+   "title": "When enduring power of attorney is effective",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section26",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the date an event described in the enduring power of attorney as bringing the power of attorney into effect is confirmed to have occurred."
+  },
+  {
+   "id": "bc-poa-28",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 28",
+   "title": "Changing or revoking enduring powers of attorney",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section28",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A change or revocation is effective when notice is given under subsection (2) or on a later date stated in the notice."
+  },
+  {
+   "id": "bc-poa-29",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 29",
+   "title": "When authority of attorney is suspended or ends",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section29",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is the adult's spouse and their marriage or marriage-like relationship ends, becomes incapable or dies, is bankrupt"
+  },
+  {
+   "id": "bc-poa-30",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 30",
+   "title": "When enduring power of attorney is suspended or terminates",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney terminates ... if the adult who made the enduring power of attorney dies"
+  },
+  {
+   "id": "bc-poa-36",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 36",
+   "title": "Court directions and orders (termination of enduring power of attorney)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section36",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "to terminate all or part of an enduring power of attorney"
+  },
+  {
+   "id": "bc-poa-38",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 38",
+   "title": "Extrajurisdictional powers of attorney",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section38",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-poa-40",
+   "cite": "Power of Attorney Act, RSBC 1996, c 370, s 40",
+   "title": "Conflict with representation agreement",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96370_01#section40",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the inconsistency or conflict is to be resolved in favour of the provision in the enduring power of attorney."
+  },
+  {
+   "id": "bc-fpt-poa-guide",
+   "cite": "What every older Canadian should know about powers of attorney (B.C. supplement), Federal/Provincial/Territorial Ministers Responsible for Seniors Forum, hosted by Government of British Columbia",
+   "title": "General power of attorney vs enduring power of attorney",
+   "url": "https://www2.gov.bc.ca/assets/gov/people/seniors/financial-legal-matters/pdf/powersofattorney_bc_web_final.pdf",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "A general power of attorney will also end if you become mentally incompetent and can no longer make decisions."
+  },
+  {
+   "id": "bc-raa-2",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, ss 2-3",
+   "title": "Purpose of Act; presumption of capability",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section2",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "to avoid the need for the court to appoint someone to help adults make decisions, or someone to make decisions for adults"
+  },
+  {
+   "id": "bc-raa-5",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, ss 5-6",
+   "title": "Representatives and alternate representatives",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section5",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-raa-7",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 7",
+   "title": "Standard provisions",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section7",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an adult may authorize the adult's representative to help the adult make decisions, or to make decisions on behalf of the adult"
+  },
+  {
+   "id": "bc-raa-8",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 8",
+   "title": "Test of incapability for standard provisions",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section8",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "even though the adult is incapable of (a) making a contract"
+  },
+  {
+   "id": "bc-raa-9",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, ss 9-10",
+   "title": "Non-standard representation agreements; test of incapability",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section9",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the representative may give or refuse consent to health care necessary to preserve life."
+  },
+  {
+   "id": "bc-raa-9-1",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 9.1",
+   "title": "Duration and exercise of authority",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section9.1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is not terminated solely because the adult subsequently becomes incapable"
+  },
+  {
+   "id": "bc-raa-12",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 12",
+   "title": "Monitors (suspension of representative authority if monitor ceases)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section12",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority given to each representative by the representation agreement is suspended"
+  },
+  {
+   "id": "bc-raa-13",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 13",
+   "title": "Form, signing and witnessing of agreements",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section13",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Before a person may exercise the authority of a representative granted in a representation agreement, the person must sign"
+  },
+  {
+   "id": "bc-raa-15",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 15",
+   "title": "When agreements become effective",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section15",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A representation agreement becomes effective on the date it is executed unless the agreement provides that it ... becomes effective later"
+  },
+  {
+   "id": "bc-raa-16",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 16",
+   "title": "Duties of representatives",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "consult, to the extent reasonable, with the adult to determine the adult's current wishes"
+  },
+  {
+   "id": "bc-raa-27",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 27",
+   "title": "Changing or revoking agreements",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section27",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-raa-28",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 28",
+   "title": "Automatic cancellation of financial, business or asset provisions",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section28",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "on the bankruptcy of the adult or the representative or on the appointment of a receiver for the adult"
+  },
+  {
+   "id": "bc-raa-29",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, s 29",
+   "title": "When agreements come to an end",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section29",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A representation agreement ends as follows: (a) on the death of the adult who made the agreement"
+  },
+  {
+   "id": "bc-raa-32",
+   "cite": "Representation Agreement Act, RSBC 1996, c 405, ss 30, 32",
+   "title": "Objections to Public Guardian and Trustee; court orders cancelling agreements",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96405_01#section32",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-hcca-5",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, ss 4-5",
+   "title": "Consent rights; general rule that consent is needed",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A health care provider must not provide any health care to an adult without the adult's consent except under sections 11 to 15."
+  },
+  {
+   "id": "bc-hcca-7",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, s 7",
+   "title": "How incapability is determined",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section7",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a health care provider must base the decision on whether or not the adult demonstrates that the adult understands"
+  },
+  {
+   "id": "bc-hcca-11",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, s 11",
+   "title": "Exception: if personal guardian or representative consents",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section11",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the health care provider is of the opinion that the adult needs the health care and is incapable of giving or refusing consent"
+  },
+  {
+   "id": "bc-hcca-12",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, ss 12-12.2",
+   "title": "Urgent or emergency health care",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section12",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-hcca-14",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, ss 14-15",
+   "title": "Exceptions for major and minor health care (substitute consent by person chosen under s 16)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section14",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the adult does not have a personal guardian or representative who is authorized to consent to the major health care, is capable of doing so and is available"
+  },
+  {
+   "id": "bc-hcca-16",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, s 16",
+   "title": "Temporary substitute decision makers",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a health care provider must choose the first, in listed order, of the following who is available and qualifies"
+  },
+  {
+   "id": "bc-hcca-17",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, s 17",
+   "title": "Authority of a temporary substitute decision maker",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section17",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority to give or refuse substitute consent to health care for the adult is terminated"
+  },
+  {
+   "id": "bc-hcca-18",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, ss 18-19",
+   "title": "Restrictions on authority and duties of a temporary substitute decision maker",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section18",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "has authority to refuse substitute consent to health care necessary to preserve life, but only if there is substantial agreement among the health care providers"
+  },
+  {
+   "id": "bc-hcca-19-3",
+   "cite": "Health Care (Consent) and Care Facility (Admission) Act, RSBC 1996, c 181, ss 19.1-19.3, 19.8",
+   "title": "Advance directives; interaction with representation agreements",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96181_01#section19.3",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-ppa-1",
+   "cite": "Patients Property Act, RSBC 1996, c 349, s 1",
+   "title": "Definitions: committee, patient",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96349_01#section1",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a statutory property guardian under Part 2.1 of the Adult Guardianship Act"
+  },
+  {
+   "id": "bc-ppa-3",
+   "cite": "Patients Property Act, RSBC 1996, c 349, ss 2-3",
+   "title": "Application and hearing: declaration of incapability on affidavits of 2 medical practitioners",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96349_01#section3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "reading the affidavits of 2 medical practitioners"
+  },
+  {
+   "id": "bc-ppa-4",
+   "cite": "Patients Property Act, RSBC 1996, c 349, ss 4, 11-13",
+   "title": "Order declaring person no longer incapable; ceasing to be a patient; discharge of committee",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96349_01#section11",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court may order that the committee is discharged."
+  },
+  {
+   "id": "bc-ppa-6",
+   "cite": "Patients Property Act, RSBC 1996, c 349, ss 6, 9",
+   "title": "Appointment of committee; nomination of committee by patient",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96349_01#section6",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court may appoint any person to be the committee of the patient."
+  },
+  {
+   "id": "bc-ppa-15",
+   "cite": "Patients Property Act, RSBC 1996, c 349, ss 15-17",
+   "title": "Powers of committee (estate and/or custody of the person)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96349_01#section15",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "declared to be incapable of managing himself or herself has the custody of the person of the patient"
+  },
+  {
+   "id": "bc-ppa-16",
+   "cite": "Patients Property Act, RSBC 1996, c 349, s 16",
+   "title": "Special direction limiting powers of committee",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96349_01#section16",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court may, by the same order, attach conditions or restrictions on the committee's exercise of certain rights"
+  },
+  {
+   "id": "bc-ppa-19",
+   "cite": "Patients Property Act, RSBC 1996, c 349, ss 19-19.1",
+   "title": "Effect on powers of attorney and representation agreements of becoming a patient",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96349_01#section19",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "every power of attorney given by the person is terminated"
+  },
+  {
+   "id": "bc-ppa-24",
+   "cite": "Patients Property Act, RSBC 1996, c 349, s 24",
+   "title": "Death of patient",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96349_01#section24",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "continues to have the rights, powers, duties and privileges that the committee would have had if the patient had not died"
+  },
+  {
+   "id": "bc-aga-2-1",
+   "cite": "Adult Guardianship Act, RSBC 1996, c 6, Part 2 (ss 4-31) not in force",
+   "title": "Contents: Part 2 (court-appointed guardians) not in force",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96006_01",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "4-31 Not in force — see Supplement"
+  },
+  {
+   "id": "bc-aga-32",
+   "cite": "Adult Guardianship Act, RSBC 1996, c 6, s 32",
+   "title": "Obtaining a statutory property guardian (certificate of incapability)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96006_01#section32",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The Public Guardian and Trustee is the adult's statutory property guardian as of the date on which the certificate of incapability was signed"
+  },
+  {
+   "id": "bc-aga-35",
+   "cite": "Adult Guardianship Act, RSBC 1996, c 6, ss 33-35",
+   "title": "Second assessment, reassessment and court review",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96006_01#section35",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-aga-37",
+   "cite": "Adult Guardianship Act, RSBC 1996, c 6, s 37(3)-(4)",
+   "title": "When authority ends (statutory property guardianship)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96006_01#section37",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court appoints, under the Patients Property Act, a committee responsible for managing the adult's affairs."
+  },
+  {
+   "id": "bc-wesa-56",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 56",
+   "title": "Revocation of gifts (and executor appointment) on ceasing to be spouses",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section56",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "appoints as executor or trustee a person who was or becomes the spouse of the will-maker"
+  },
+  {
+   "id": "bc-wesa-102",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 102",
+   "title": "Vesting of property on death",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section102",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The estate of a deceased person vests in the person's personal representative when the personal representative assumes or is appointed to that office."
+  },
+  {
+   "id": "bc-wesa-103",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 103",
+   "title": "Administration pending legal proceedings",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section103",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-wesa-104",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, ss 104-105, 108",
+   "title": "Renunciation and forfeiture of executorship; requirement to accept or explain",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section104",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The renunciation of executorship, unless a court otherwise orders, terminates the executorship of the person renouncing it"
+  },
+  {
+   "id": "bc-wesa-109",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, Part 6, Division 2 (ss 109-120)",
+   "title": "Division 2 (small estate administration) not in force",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section109",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "109-120 [Not in force.]"
+  },
+  {
+   "id": "bc-wesa-121",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, ss 121-122",
+   "title": "Notice of proposed application; disclosure",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section121",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An applicant for a grant of probate or administration must give notice of the proposed application to the persons referred to in the Supreme Court Civil Rules."
+  },
+  {
+   "id": "bc-wesa-124",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 124",
+   "title": "Opportunity for Public Guardian and Trustee to comment",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section124",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court must not issue the representation grant unless the applicant provides to the court the written comments of the Public Guardian and Trustee"
+  },
+  {
+   "id": "bc-wesa-128",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 128",
+   "title": "Security for administration of estates",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section128",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-wesa-129",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 129",
+   "title": "Grant of probate or administration",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section129",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-wesa-130",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 130",
+   "title": "Priority among applicants: intestate estate",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section130",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the spouse of the deceased person or a person nominated by the spouse"
+  },
+  {
+   "id": "bc-wesa-131",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, ss 131-132",
+   "title": "Priority of applicants: administration with will annexed; special circumstances",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section131",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-wesa-135",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 135",
+   "title": "Effective date of grant for intestate estate",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section135",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is conclusively deemed to be the personal representative from the date of death of the deceased person."
+  },
+  {
+   "id": "bc-wesa-136",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, ss 136-137",
+   "title": "Effect of and reliance on representation grant",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section136",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "gives to the personal representative exclusive authority to administer the estate"
+  },
+  {
+   "id": "bc-wesa-141",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 141",
+   "title": "Revocation of grant of probate or administration",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section141",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-wesa-142",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 142",
+   "title": "Personal representatives: general authority",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section142",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "has the same authority over the estate ... as the deceased person would have if living"
+  },
+  {
+   "id": "bc-wesa-155",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, s 155",
+   "title": "Distribution of estate (210-day rule)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section155",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must not distribute the estate of the deceased person within the 210 days following the date of the issue of a representation grant"
+  },
+  {
+   "id": "bc-wesa-157",
+   "cite": "Wills, Estates and Succession Act, SBC 2009, c 13, ss 157-159",
+   "title": "Discharge, removal and substitution of personal representatives",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01#section157",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The personal representative of a deceased person may apply to the court to be discharged from the office of personal representative."
+  },
+  {
+   "id": "bc-scr-25-1",
+   "cite": "Supreme Court Civil Rules, BC Reg 168/2009, Rule 25-1",
+   "title": "Estates: definitions (estate grant, executor)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/168_2009_03_1",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "\"estate grant\" means (a) a grant of probate ... (b) a grant of administration"
+  },
+  {
+   "id": "bc-scr-25-2",
+   "cite": "Supreme Court Civil Rules, BC Reg 168/2009, Rule 25-2(1), (2.1), (3)",
+   "title": "Notice must be provided; when application may be made",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/168_2009_03_1",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "A person may not make an application referred to in subrule (1) until at least 21 days after the date on which the person delivers the notice"
+  },
+  {
+   "id": "bc-scr-25-4",
+   "cite": "Supreme Court Civil Rules, BC Reg 168/2009, Rules 25-3, 25-4",
+   "title": "Application for estate grant; procedure after filing (registrar issues grant in Form P19)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/168_2009_03_1",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "issue an estate grant in Form P19 once all fees payable in relation to that filing, including all applicable probate fees, have been paid."
+  },
+  {
+   "id": "bc-probate-fee-2",
+   "cite": "Probate Fee Act, SBC 1999, c 4, s 2",
+   "title": "Probate fee (none if estate value does not exceed $25 000)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/99004_01#section2",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "No fee is payable under this Act ... if the value of the estate does not exceed $25 000."
+  },
+  {
+   "id": "bc-htga-4",
+   "cite": "Human Tissue Gift Act, RSBC 1996, c 211, s 4",
+   "title": "Consent by person for use of body after death",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96211_01#section4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "On the death of a person who has given a consent under this section, the consent is binding and is full authority"
+  },
+  {
+   "id": "bc-htga-5",
+   "cite": "Human Tissue Gift Act, RSBC 1996, c 211, s 5",
+   "title": "Consent by spouse or others for use of body after death",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96211_01#section5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A person must not give a consent under this section if the person has reason to believe that the person who died ... would have objected to it."
+  },
+  {
+   "id": "bc-htga-7",
+   "cite": "Human Tissue Gift Act, RSBC 1996, c 211, ss 7, 13(2)",
+   "title": "Determination of death; Health Care (Consent) Act does not affect this Act",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96211_01#section7",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The Health Care (Consent) and Care Facility (Admission) Act does not affect anything in this Act."
+  },
+  {
+   "id": "bc-cifsa-5",
+   "cite": "Cremation, Interment and Funeral Services Act, SBC 2004, c 35, s 5",
+   "title": "Control of disposition of human remains or cremated remains",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/04035_01#section5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(a) the personal representative named in the will of the deceased; (b) the spouse of the deceased"
+  },
+  {
+   "id": "bc-cifsa-6",
+   "cite": "Cremation, Interment and Funeral Services Act, SBC 2004, c 35, s 6",
+   "title": "Disposition to be in accordance with preference of deceased",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/04035_01#section6",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A written preference by a deceased person respecting the disposition ... is binding on the person who under section 5"
+  },
+  {
+   "id": "bc-cifsa-8",
+   "cite": "Cremation, Interment and Funeral Services Act, SBC 2004, c 35, s 8",
+   "title": "Requirement for authorization before funeral services or disposition",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/04035_01#section8",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "bc-pipa-22",
+   "cite": "Personal Information Protection Act, SBC 2003, c 63, s 22",
+   "title": "Disclosure for archival or historical purposes (20 years after death)",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/03063_01#section22",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the information is about someone who has been dead for 20 or more years"
+  },
+  {
+   "id": "bc-pipa-reg-3",
+   "cite": "Personal Information Protection Act Regulations, BC Reg 473/2003, s 3",
+   "title": "Who may act for deceased persons",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/473_2003#section3",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "a personal representative includes a person named as executor in the will ... whether or not a representation grant has been issued"
+  },
+  {
+   "id": "bc-fippa-reg-5",
+   "cite": "Freedom of Information and Protection of Privacy Regulation, BC Reg 155/2012, s 5",
+   "title": "Who may act for a deceased individual",
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/155_2012#section5",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "a committee acting under section 24 of the Patients Property Act for the deceased"
+  },
+  {
+   "id": "ulcc-uadafa-2016",
+   "cite": "Uniform Law Conference of Canada, Uniform Access to Digital Assets by Fiduciaries Act (2016)",
+   "title": "Uniform Access to Digital Assets by Fiduciaries Act (model act; not enacted in British Columbia)",
+   "url": "https://ulcc-chlc.ca/Civil-Section/Uniform-Acts/Uniform-Access-to-Digital-Assets-by-Fiduciaries-Ac/Uniform-Access-to-Digital-Assets-by-Fiduciarie-(1)",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16"
+  }
+ ],
+ "roles": [
+  {
+   "id": "bc-epoa-attorney",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney under an enduring power of attorney",
+   "localNames": [
+    "attorney",
+    "enduring power of attorney"
+   ],
+   "summary": "An adult (19 or older) names an attorney to manage financial affairs, and the document must say the authority continues despite incapability. It can take effect as soon as it is signed, or on a stated date or confirmed event such as incapability. It ends on the adult's death, revocation, a court order, a Patients Property Act committee order, or events affecting the attorney.",
+   "lane": {
+    "assigned": {
+     "event": "Capable adult signs the enduring power of attorney before 2 witnesses (or 1 lawyer or notary witness)",
+     "phase": "capable",
+     "citations": [
+      "bc-poa-12",
+      "bc-poa-14",
+      "bc-poa-16"
+     ]
+    },
+    "starts": {
+     "event": "Latest of: signing by both the adult and the attorney, a stated effective date, or confirmation of a stated triggering event (e.g. incapability confirmed as the document directs, or by a qualified health care provider if the named person cannot act)",
+     "phase": "capable",
+     "citations": [
+      "bc-poa-26",
+      "bc-poa-16"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Adult dies",
+      "phase": "deceased",
+      "citations": [
+       "bc-poa-30"
+      ]
+     },
+     {
+      "event": "Adult revokes (while capable) and gives written notice to each attorney",
+      "phase": "capable",
+      "citations": [
+       "bc-poa-28",
+       "bc-poa-30"
+      ]
+     },
+     {
+      "event": "Court terminates the enduring power of attorney under s 36(5)",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-poa-36",
+       "bc-poa-30"
+      ]
+     },
+     {
+      "event": "Adult becomes a patient by court declaration under the Patients Property Act (terminated), or a statutory property guardianship begins and the Public Guardian and Trustee decides to manage the property (suspended, then terminated)",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-ppa-19",
+       "bc-poa-30"
+      ]
+     },
+     {
+      "event": "The attorney's authority ends: attorney resigns, dies, becomes incapable or bankrupt, is convicted of a prescribed offence or one against the adult, or is the adult's spouse and they separate (unless the document says otherwise)",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-poa-29",
+       "bc-poa-25"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No enduring power of attorney"
+     },
+     {
+      "id": "designated",
+      "label": "Signed by the adult but not yet effective (the attorney has not signed, or the stated date or event has not arrived or been confirmed)"
+     },
+     {
+      "id": "active",
+      "label": "Attorney may act on the adult's financial affairs"
+     },
+     {
+      "id": "suspended",
+      "label": "Suspended under circumstances stated in the document, or under Patients Property Act s 19.1 pending the Public Guardian and Trustee's decision"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Adult signs before witnesses",
+      "conditions": [
+       "Adult understands the matters in s 12(2)",
+       "Document states whether the attorney may act while the adult is capable or only while incapable, and that authority continues despite incapability"
+      ],
+      "citations": [
+       "bc-poa-12",
+       "bc-poa-14",
+       "bc-poa-16"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-activate-immediate",
+      "from": "designated",
+      "to": "active",
+      "event": "Attorney signs before 2 witnesses and no later effective date or triggering event is stated",
+      "conditions": [],
+      "citations": [
+       "bc-poa-16",
+       "bc-poa-26"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-activate-springing",
+      "from": "designated",
+      "to": "active",
+      "event": "Stated triggering event (e.g. incapability) is confirmed by the person and method named in the document",
+      "conditions": [
+       "If the named person cannot or will not confirm incapability, a qualified health care provider may confirm it"
+      ],
+      "citations": [
+       "bc-poa-26"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-continue-incapacity",
+      "from": "active",
+      "to": "active",
+      "event": "Adult becomes incapable",
+      "conditions": [
+       "Authority continues; attorney may act despite the incapable adult's objections, subject to s 19 duties"
+      ],
+      "citations": [
+       "bc-poa-30",
+       "bc-poa-26"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-suspend",
+      "from": "active",
+      "to": "suspended",
+      "event": "Circumstances stated in the document arise, or a certificate of incapability makes the adult a patient (Patients Property Act s 19.1)",
+      "conditions": [],
+      "citations": [
+       "bc-poa-29",
+       "bc-poa-30",
+       "bc-ppa-19"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-resume",
+      "from": "suspended",
+      "to": "active",
+      "event": "Suspending circumstances end, or the Public Guardian and Trustee decides it need not manage the property",
+      "conditions": [],
+      "citations": [
+       "bc-poa-30",
+       "bc-ppa-19"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Capable adult revokes and gives written notice",
+      "conditions": [
+       "Effective when notice given or on a later stated date"
+      ],
+      "citations": [
+       "bc-poa-28"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-committee",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court declares the adult a patient under the Patients Property Act, or PGT decides to manage property after a certificate of incapability",
+      "conditions": [],
+      "citations": [
+       "bc-ppa-19",
+       "bc-poa-30"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-attorney-event",
+      "from": "active",
+      "to": "terminated",
+      "event": "Attorney resigns, dies, becomes incapable or bankrupt, or spousal relationship with the adult ends",
+      "conditions": [
+       "Remaining attorneys may continue unless the document says otherwise",
+       "Separation rule does not apply if the document says authority continues"
+      ],
+      "citations": [
+       "bc-poa-29",
+       "bc-poa-25"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult dies",
+      "conditions": [],
+      "citations": [
+       "bc-poa-30"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Adult bankruptcy is not listed in Power of Attorney Act s 30 as ending an enduring power of attorney. Only the attorney's bankruptcy (s 29(2)(d)(iii)) is listed. A government-hosted seniors' guide says both types of POA end on the donor's bankruptcy; that rests on general law, not on the text of the Act.",
+     "citations": [
+      "bc-poa-29",
+      "bc-poa-30",
+      "bc-fpt-poa-guide"
+     ]
+    },
+    {
+     "text": "An enduring power of attorney made outside BC that continues during incapacity may be treated as a BC enduring power of attorney, subject to regulations.",
+     "citations": [
+      "bc-poa-38"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bc-general-poa-attorney",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Attorney under a general (non-enduring) power of attorney",
+   "localNames": [
+    "attorney",
+    "agent",
+    "general power of attorney"
+   ],
+   "summary": "A general power of attorney under Part 1 of the Power of Attorney Act (short forms 1 and 2) lets an attorney do anything the donor can lawfully do by an attorney. It is not an enduring power of attorney, so it ends if the donor becomes mentally incapable, and also on death or revocation. Part 1 protects agents and third parties who act without knowing the authority has ended.",
+   "lane": {
+    "assigned": {
+     "event": "Donor signs a general power of attorney (Form 1 or 2 or other form)",
+     "phase": "capable",
+     "citations": [
+      "bc-poa-9"
+     ]
+    },
+    "starts": {
+     "event": "On signing, subject to any conditions in the document",
+     "phase": "capable",
+     "citations": [
+      "bc-poa-9"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor becomes mentally incapable (not an enduring power of attorney)",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-fpt-poa-guide",
+       "bc-poa-2",
+       "bc-poa-10"
+      ]
+     },
+     {
+      "event": "Donor dies or revokes",
+      "phase": "deceased",
+      "citations": [
+       "bc-fpt-poa-guide",
+       "bc-poa-4"
+      ]
+     },
+     {
+      "event": "Donor declared a patient by the court under the Patients Property Act",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-ppa-19"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power of attorney"
+     },
+     {
+      "id": "active",
+      "label": "Attorney may act"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended by incapability, death, revocation or court declaration"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-sign",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Donor signs general power of attorney",
+      "conditions": [],
+      "citations": [
+       "bc-poa-9"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-incapacity",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor becomes mentally incapable",
+      "conditions": [
+       "Rule comes from general agency law as described in official guidance; the Act defines only enduring powers as continuing during incapability"
+      ],
+      "citations": [
+       "bc-fpt-poa-guide",
+       "bc-poa-10"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-patient",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court declares donor a patient",
+      "conditions": [],
+      "citations": [
+       "bc-ppa-19"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies",
+      "conditions": [
+       "Acts by an agent without knowledge of termination remain valid for the agent and good-faith third parties (ss 3-4)"
+      ],
+      "citations": [
+       "bc-fpt-poa-guide",
+       "bc-poa-4"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bc-ra-s9-representative",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Representative under a section 9 (non-standard) representation agreement",
+   "localNames": [
+    "representative",
+    "alternate representative",
+    "representation agreement (section 9)"
+   ],
+   "summary": "A capable adult can authorize a representative to make personal care and health care decisions, including where to live and giving or refusing life-sustaining treatment. The agreement takes effect on execution unless it names a later triggering event. The representative helps the adult decide or decides for the adult; the representative does not need a finding of incapacity. The agreement ends on the adult's death.",
+   "lane": {
+    "assigned": {
+     "event": "Adult who understands the nature and consequences signs a s 9 agreement before 2 witnesses (or 1 lawyer or notary); representative signs",
+     "phase": "capable",
+     "citations": [
+      "bc-raa-9",
+      "bc-raa-13"
+     ]
+    },
+    "starts": {
+     "event": "On execution unless the agreement names a later triggering event and says who confirms it. For substitute consent to health care, the health care provider must first be of the opinion that the adult is incapable of consenting.",
+     "phase": "capable",
+     "citations": [
+      "bc-raa-15",
+      "bc-hcca-11",
+      "bc-hcca-7"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Adult dies",
+      "phase": "deceased",
+      "citations": [
+       "bc-raa-29"
+      ]
+     },
+     {
+      "event": "Capable adult revokes with written notice",
+      "phase": "capable",
+      "citations": [
+       "bc-raa-27",
+       "bc-raa-29"
+      ]
+     },
+     {
+      "event": "Court cancels the agreement",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-raa-32",
+       "bc-raa-29"
+      ]
+     },
+     {
+      "event": "Representative resigns, dies or becomes incapable, or spousal relationship ends (unless an alternate or co-representative continues, or the agreement says otherwise)",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-raa-29"
+      ]
+     },
+     {
+      "event": "Adult becomes a patient by court order under the Patients Property Act (unless the court orders otherwise)",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-ppa-19"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No representation agreement"
+     },
+     {
+      "id": "designated",
+      "label": "Executed but awaiting a stated triggering event"
+     },
+     {
+      "id": "active",
+      "label": "Representative may help make, or make, covered decisions"
+     },
+     {
+      "id": "suspended",
+      "label": "Suspended (e.g. a required monitor ceased to act, s 12(8))"
+     },
+     {
+      "id": "terminated",
+      "label": "Agreement ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Agreement executed (signed, witnessed, certificates completed) with no delayed trigger",
+      "conditions": [
+       "Representative must sign before exercising authority"
+      ],
+      "citations": [
+       "bc-raa-13",
+       "bc-raa-15"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-execute-delayed",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Agreement executed with a provision taking effect when an event occurs",
+      "conditions": [
+       "Agreement must say how and by whom the event is confirmed"
+      ],
+      "citations": [
+       "bc-raa-15"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-trigger",
+      "from": "designated",
+      "to": "active",
+      "event": "Triggering event confirmed",
+      "conditions": [],
+      "citations": [
+       "bc-raa-15"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-continue",
+      "from": "active",
+      "to": "active",
+      "event": "Adult becomes incapable",
+      "conditions": [
+       "Authority not terminated solely by later incapability"
+      ],
+      "citations": [
+       "bc-raa-9-1"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-suspend-monitor",
+      "from": "active",
+      "to": "suspended",
+      "event": "Required monitor resigns, dies or becomes unable to act",
+      "conditions": [
+       "Mainly for s 7(1)(b) financial provisions; lasts until a new monitor is appointed or the court dispenses with one"
+      ],
+      "citations": [
+       "bc-raa-12"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Capable adult revokes with written notice",
+      "conditions": [],
+      "citations": [
+       "bc-raa-27"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-rep-event",
+      "from": "active",
+      "to": "terminated",
+      "event": "Representative dies, resigns, becomes incapable, or spousal relationship ends",
+      "conditions": [
+       "Not if another named representative may continue or an alternate is willing and able"
+      ],
+      "citations": [
+       "bc-raa-29"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult dies",
+      "conditions": [],
+      "citations": [
+       "bc-raa-29"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "If the adult also has an advance directive, instructions in it about matters within the representative's authority are treated as the adult's capable wishes, unless the agreement lets the provider follow the directive directly.",
+     "citations": [
+      "bc-hcca-19-3"
+     ]
+    },
+    {
+     "text": "Where a representation agreement and an enduring power of attorney conflict on financial matters, the enduring power of attorney prevails.",
+     "citations": [
+      "bc-poa-40"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bc-ra-s7-representative",
+   "canonical": "supported-decision-maker",
+   "group": "health",
+   "name": "Representative under a section 7 (standard) representation agreement",
+   "localNames": [
+    "representative",
+    "monitor",
+    "representation agreement (section 7)",
+    "standard provisions"
+   ],
+   "summary": "BC's supported decision-making tool. An adult can make a section 7 agreement even if unable to make a contract. It authorizes a representative to help the adult decide, or to decide for the adult, about personal care, routine finances, most health care and legal services. It cannot cover refusing life-preserving care. It takes effect on execution and ends on death.",
+   "lane": {
+    "assigned": {
+     "event": "Adult signs a s 7 agreement; the capacity test weighs relationship of trust and expressed wishes rather than contractual capacity",
+     "phase": "capable",
+     "citations": [
+      "bc-raa-7",
+      "bc-raa-8",
+      "bc-raa-13"
+     ]
+    },
+    "starts": {
+     "event": "On execution (all signatures, witnesses and certificates), unless a later triggering event is specified",
+     "phase": "capable",
+     "citations": [
+      "bc-raa-15",
+      "bc-raa-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Adult dies",
+      "phase": "deceased",
+      "citations": [
+       "bc-raa-29"
+      ]
+     },
+     {
+      "event": "Revocation, court cancellation, or representative's death, resignation or incapability",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-raa-27",
+       "bc-raa-29",
+       "bc-raa-32"
+      ]
+     },
+     {
+      "event": "Routine financial provisions cancelled on bankruptcy of the adult or representative, a receiver's appointment, or the representative's conviction for dishonesty",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-raa-28"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No agreement"
+     },
+     {
+      "id": "active",
+      "label": "Representative helps the adult decide or decides for the adult on covered matters"
+     },
+     {
+      "id": "suspended",
+      "label": "Suspended while a required monitor is absent"
+     },
+     {
+      "id": "terminated",
+      "label": "Agreement or relevant provision ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Agreement executed",
+      "conditions": [
+       "Each representative, and any required monitor, completes the prescribed certificate",
+       "Monitor required for routine financial provisions unless the representative is the spouse, PGT, trust company or credit union, or 2+ representatives must act unanimously"
+      ],
+      "citations": [
+       "bc-raa-5",
+       "bc-raa-12",
+       "bc-raa-13",
+       "bc-raa-15"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-support",
+      "from": "active",
+      "to": "active",
+      "event": "Representative consults the adult and follows current wishes where reasonable",
+      "conditions": [],
+      "citations": [
+       "bc-raa-16"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-suspend-monitor",
+      "from": "active",
+      "to": "suspended",
+      "event": "Required monitor ceases to act",
+      "conditions": [],
+      "citations": [
+       "bc-raa-12"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-cancel-financial",
+      "from": "active",
+      "to": "terminated",
+      "event": "Bankruptcy of adult or representative, receiver appointed, or representative convicted of dishonesty offence (financial provisions only)",
+      "conditions": [],
+      "citations": [
+       "bc-raa-28"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult dies",
+      "conditions": [],
+      "citations": [
+       "bc-raa-29"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bc-temporary-substitute-decision-maker",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Temporary substitute decision maker (TSDM)",
+   "localNames": [
+    "temporary substitute decision maker",
+    "person chosen under section 16"
+   ],
+   "summary": "If an adult who needs health care is found incapable of consenting and has no available personal guardian or representative with authority, the health care provider chooses the first qualified person on a statutory list (spouse, child, parent, sibling, grandparent, grandchild, other relative, close friend, relative by marriage), or someone authorized by the Public Guardian and Trustee. Authority is decision-specific and ends if the adult regains capability.",
+   "lane": {
+    "assigned": {
+     "event": "Health care provider decides the adult is incapable and chooses the first available qualified person in the s 16 order",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-hcca-7",
+      "bc-hcca-14",
+      "bc-hcca-16"
+     ]
+    },
+    "starts": {
+     "event": "When chosen for a particular health care decision",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-hcca-17"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Adult becomes capable of giving or refusing consent",
+      "phase": "capable",
+      "citations": [
+       "bc-hcca-17"
+      ]
+     },
+     {
+      "event": "Person asks to be relieved and the provider chooses another person",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-hcca-17"
+      ]
+     },
+     {
+      "event": "Adult dies (no statutory post-death role; unverified as there is no express provision)",
+      "phase": "deceased",
+      "citations": [
+       "bc-hcca-5"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not chosen"
+     },
+     {
+      "id": "active",
+      "label": "Chosen; may give or refuse substitute consent to the proposed health care"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-choose",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Provider chooses person under s 16",
+      "conditions": [
+       "Adult has no available, capable personal guardian or representative with authority",
+       "Person is 19+, in contact with the adult in the last 12 months, has no dispute with the adult, is capable and willing to follow s 19 duties",
+       "PGT authorizes someone if nobody on the list qualifies or there is a dispute"
+      ],
+      "citations": [
+       "bc-hcca-14",
+       "bc-hcca-16"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-reconfirm",
+      "from": "active",
+      "to": "active",
+      "event": "Provider confirms in writing, no more than 21 days before care begins, that the adult is still incapable and the TSDM confirms care should begin",
+      "conditions": [],
+      "citations": [
+       "bc-hcca-17"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult regains capability",
+      "conditions": [
+       "Decision rescinded; adult must consent before care begins or continues"
+      ],
+      "citations": [
+       "bc-hcca-17"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-relieved",
+      "from": "active",
+      "to": "terminated",
+      "event": "TSDM asks to be relieved",
+      "conditions": [],
+      "citations": [
+       "bc-hcca-17"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "A TSDM may refuse life-preserving care only if the health care providers substantially agree that the refusal is medically appropriate and the TSDM followed s 19 duties. Some prescribed kinds of care are excluded.",
+     "citations": [
+      "bc-hcca-18"
+     ]
+    },
+    {
+     "text": "A TSDM may apply for a personal guardian under the Adult Guardianship Act, and authority continues until a final order. That Act's Part 2 guardianship provisions are shown on bclaws as not in force, so in practice the court route is a Patients Property Act committee.",
+     "citations": [
+      "bc-hcca-17",
+      "bc-aga-2-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bc-committee-person",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Committee of the person (Patients Property Act)",
+   "localNames": [
+    "committee",
+    "committee of the person",
+    "patient"
+   ],
+   "summary": "On a court declaration, supported by 2 medical affidavits, that an adult cannot manage themself, the Supreme Court appoints a committee with custody of the person. The Public Guardian and Trustee is committee when no one else is appointed. The appointment terminates the adult's powers of attorney and, unless the court orders otherwise, their representation agreements. It ends when the court declares the person no longer incapable, or on discharge.",
+   "lane": {
+    "assigned": {
+     "event": "Supreme Court declares the adult incapable of managing himself or herself and appoints a committee (adult's own written nomination must be followed absent good reason)",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-ppa-3",
+      "bc-ppa-6"
+     ]
+    },
+    "starts": {
+     "event": "On the court order",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-ppa-6",
+      "bc-ppa-15"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court declares the patient no longer incapable (application after 1 year, or sooner by leave), then committee discharged",
+      "phase": "capable",
+      "citations": [
+       "bc-ppa-4"
+      ]
+     },
+     {
+      "event": "Court rescinds the appointment or appoints a successor committee",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-ppa-6"
+      ]
+     },
+     {
+      "event": "Patient dies: custody of the person has no further object; committee accounts to the executor or administrator and may be discharged",
+      "phase": "deceased",
+      "citations": [
+       "bc-ppa-24"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No declaration"
+     },
+     {
+      "id": "active",
+      "label": "Committee has custody of the person"
+     },
+     {
+      "id": "terminated",
+      "label": "Discharged, rescinded or patient deceased"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-declare",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Court declaration and appointment",
+      "conditions": [
+       "At least 10 days' personal notice to the adult unless dispensed with",
+       "Affidavits of 2 medical practitioners"
+      ],
+      "citations": [
+       "bc-ppa-3",
+       "bc-ppa-6"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-restored",
+      "from": "active",
+      "to": "terminated",
+      "event": "Order declaring person no longer incapable; discharge",
+      "conditions": [],
+      "citations": [
+       "bc-ppa-4"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Patient dies",
+      "conditions": [],
+      "citations": [
+       "bc-ppa-24"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bc-committee-estate",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Committee of the estate (Patients Property Act)",
+   "localNames": [
+    "committee",
+    "committee of the estate",
+    "Public Guardian and Trustee as committee"
+   ],
+   "summary": "A court-appointed committee for an adult declared incapable of managing their affairs. The committee has all the adult's rights and powers over the estate, except making a will. It must account to the Public Guardian and Trustee. After the patient's death, and until a representation grant is issued and served on it, the committee keeps its powers and also has a personal representative's powers.",
+   "lane": {
+    "assigned": {
+     "event": "Court declares adult incapable of managing affairs and appoints committee (or PGT by default)",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-ppa-3",
+      "bc-ppa-6"
+     ]
+    },
+    "starts": {
+     "event": "On the court order; any power of attorney terminates",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-ppa-15",
+      "bc-ppa-19"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court declares the person no longer incapable, then discharges the committee after accounts are passed",
+      "phase": "capable",
+      "citations": [
+       "bc-ppa-4"
+      ]
+     },
+     {
+      "event": "After death: when a representation grant has issued and written notice of it has been served on the committee (committee then accounts to the executor or administrator and may be discharged)",
+      "phase": "administration",
+      "citations": [
+       "bc-ppa-24"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No committee"
+     },
+     {
+      "id": "active",
+      "label": "Committee manages estate"
+     },
+     {
+      "id": "post_death_interim",
+      "label": "Patient has died; committee continues with the added powers of a representation grant holder until a grant issues and notice is served"
+     },
+     {
+      "id": "terminated",
+      "label": "Discharged or superseded"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Court appointment",
+      "conditions": [
+       "Court may restrict powers or require PGT consent"
+      ],
+      "citations": [
+       "bc-ppa-6",
+       "bc-ppa-15",
+       "bc-ppa-16"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "post_death_interim",
+      "event": "Patient dies",
+      "conditions": [],
+      "citations": [
+       "bc-ppa-24"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-grant-served",
+      "from": "post_death_interim",
+      "to": "terminated",
+      "event": "Representation grant issued and written notice served on committee",
+      "conditions": [
+       "Committee must provide accounts to executor/administrator (or beneficiaries)"
+      ],
+      "citations": [
+       "bc-ppa-24"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-restored",
+      "from": "active",
+      "to": "terminated",
+      "event": "Declared no longer incapable; discharged",
+      "conditions": [],
+      "citations": [
+       "bc-ppa-4"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bc-statutory-property-guardian",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Statutory property guardian (Public Guardian and Trustee by certificate of incapability)",
+   "localNames": [
+    "statutory property guardian",
+    "certificate of incapability",
+    "health authority designate"
+   ],
+   "summary": "An administrative route without a court. A qualified health care provider assesses the adult and reports to a health authority designate, who may issue a certificate of incapability after consulting the Public Guardian and Trustee (PGT) and notifying the adult and family. The PGT then becomes statutory property guardian. That suspends powers of attorney, which terminate if the PGT decides to manage the property.",
+   "lane": {
+    "assigned": {
+     "event": "Health authority designate issues a certificate of incapability",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-aga-32"
+     ]
+    },
+    "starts": {
+     "event": "As of the date the certificate is signed",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-aga-32",
+      "bc-ppa-19"
+     ]
+    },
+    "ends": [
+     {
+      "event": "PGT satisfied the adult no longer needs a guardian and gives notice",
+      "phase": "capable",
+      "citations": [
+       "bc-aga-37"
+      ]
+     },
+     {
+      "event": "Reassessment finds capability, accepted by health authority designate",
+      "phase": "capable",
+      "citations": [
+       "bc-aga-35",
+       "bc-aga-37"
+      ]
+     },
+     {
+      "event": "Court ends it on review, or appoints a Patients Property Act committee",
+      "phase": "incapacitated",
+      "citations": [
+       "bc-aga-35",
+       "bc-aga-37"
+      ]
+     },
+     {
+      "event": "Adult dies: committee powers continue until a representation grant is served",
+      "phase": "administration",
+      "citations": [
+       "bc-ppa-1",
+       "bc-ppa-24"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No certificate"
+     },
+     {
+      "id": "active",
+      "label": "PGT is statutory property guardian"
+     },
+     {
+      "id": "terminated",
+      "label": "Guardianship ended and certificate cancelled"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-certify",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Certificate of incapability issued",
+      "conditions": [
+       "Adult needs decisions made, is incapable, will benefit, alternatives insufficient",
+       "No attorney with power over all financial affairs, or attorney not complying",
+       "No PPA committee exists"
+      ],
+      "citations": [
+       "bc-aga-32"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-end-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Capability found on reassessment, or PGT gives notice guardianship no longer needed",
+      "conditions": [],
+      "citations": [
+       "bc-aga-37"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-end-court",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court review ends guardianship or committee appointed",
+      "conditions": [],
+      "citations": [
+       "bc-aga-35",
+       "bc-aga-37"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bc-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor (grant of probate)",
+   "localNames": [
+    "executor",
+    "personal representative",
+    "grant of probate",
+    "estate grant",
+    "representation grant"
+   ],
+   "summary": "The executor named in a will gets authority from the will at death, and the estate vests in the executor on assuming office. To deal with most assets the executor applies to the Supreme Court for a grant of probate. The executor must first deliver notice (Form P1) to beneficiaries and others, then wait at least 21 days. The grant gives exclusive authority, and the executor is finished when discharged by the court.",
+   "lane": {
+    "assigned": {
+     "event": "Will-maker names executor in will",
+     "phase": "capable",
+     "citations": [
+      "bc-scr-25-1"
+     ]
+    },
+    "starts": {
+     "event": "At death (executor assumes office; estate vests); exclusive authority confirmed by grant of probate after the notice period",
+     "phase": "deceased",
+     "citations": [
+      "bc-wesa-102",
+      "bc-wesa-136",
+      "bc-scr-25-2"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Appointment revoked before death because will-maker and executor-spouse ceased to be spouses (unless contrary intention in will)",
+      "phase": "capable",
+      "citations": [
+       "bc-wesa-56"
+      ]
+     },
+     {
+      "event": "Renunciation, or death before probate / failure to appear (forfeiture)",
+      "phase": "deceased",
+      "citations": [
+       "bc-wesa-104"
+      ]
+     },
+     {
+      "event": "Removal or passing over by court, or revocation of grant",
+      "phase": "administration",
+      "citations": [
+       "bc-wesa-157",
+       "bc-wesa-141"
+      ]
+     },
+     {
+      "event": "Court order discharging the personal representative after accounts",
+      "phase": "closed",
+      "citations": [
+       "bc-wesa-157"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not named"
+     },
+     {
+      "id": "designated",
+      "label": "Named in an unrevoked will; will-maker living"
+     },
+     {
+      "id": "active",
+      "label": "Will-maker dead; executor has assumed office (pre-grant powers derive from the will)"
+     },
+     {
+      "id": "pending_grant",
+      "label": "Notice delivered; waiting 21 days, then application for estate grant filed"
+     },
+     {
+      "id": "granted",
+      "label": "Grant of probate issued; exclusive authority; 210-day distribution restriction applies"
+     },
+     {
+      "id": "terminated",
+      "label": "Renounced, forfeited, removed or discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will executed naming executor",
+      "conditions": [],
+      "citations": [
+       "bc-scr-25-1"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-spouse-separation",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Will-maker and named executor-spouse cease to be spouses before death",
+      "conditions": [
+       "Subject to contrary intention in the will; reconciliation does not revive"
+      ],
+      "citations": [
+       "bc-wesa-56"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Will-maker dies and executor assumes office",
+      "conditions": [],
+      "citations": [
+       "bc-wesa-102"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-notice",
+      "from": "active",
+      "to": "pending_grant",
+      "event": "Executor delivers notice of proposed application (Form P1) and will copy",
+      "conditions": [
+       "Application no earlier than 21 days after delivery",
+       "Diligent search for assets; affidavit of assets and liabilities",
+       "PGT notice where minors or incapable persons interested"
+      ],
+      "citations": [
+       "bc-wesa-121",
+       "bc-scr-25-2",
+       "bc-wesa-124"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-grant",
+      "from": "pending_grant",
+      "to": "granted",
+      "event": "Registrar or court issues grant of probate (Form P19) after probate fees paid",
+      "conditions": [
+       "Probate fee payable only if estate value exceeds $25 000"
+      ],
+      "citations": [
+       "bc-wesa-129",
+       "bc-scr-25-4",
+       "bc-probate-fee-2"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-renounce",
+      "from": "active",
+      "to": "terminated",
+      "event": "Executor renounces or is cited and fails to appear",
+      "conditions": [],
+      "citations": [
+       "bc-wesa-104"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-discharge",
+      "from": "granted",
+      "to": "terminated",
+      "event": "Court discharges personal representative",
+      "conditions": [
+       "Without notice if accounts passed or all beneficiaries consented"
+      ],
+      "citations": [
+       "bc-wesa-157"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bc-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator (grant of administration, with or without will annexed)",
+   "localNames": [
+    "administrator",
+    "administrator with will annexed",
+    "grant of administration",
+    "personal representative"
+   ],
+   "summary": "If there is no will, or no executor who can or will act, the court grants administration by statutory priority. For intestacy the order is spouse, then a child with the consent of a majority of children, then other intestate successors, then anyone the court considers appropriate, including the PGT. An intestate administrator is deemed personal representative from the date of death.",
+   "lane": {
+    "assigned": {
+     "event": "Court grants administration following the s 130 or s 131 priority list, or special-circumstances appointment",
+     "phase": "administration",
+     "citations": [
+      "bc-wesa-130",
+      "bc-wesa-131",
+      "bc-wesa-129"
+     ]
+    },
+    "starts": {
+     "event": "On issue of the grant (estate vests in the court until then); for intestacy the administrator is conclusively deemed personal representative from the date of death",
+     "phase": "administration",
+     "citations": [
+      "bc-wesa-102",
+      "bc-wesa-135",
+      "bc-wesa-136"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Grant revoked, or administrator removed",
+      "phase": "administration",
+      "citations": [
+       "bc-wesa-141",
+       "bc-wesa-157"
+      ]
+     },
+     {
+      "event": "Court discharge",
+      "phase": "closed",
+      "citations": [
+       "bc-wesa-157"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No application"
+     },
+     {
+      "id": "pending_grant",
+      "label": "Notice delivered (21-day wait); application filed; security if required"
+     },
+     {
+      "id": "active",
+      "label": "Grant issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Revoked, removed or discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-notice",
+      "from": "not_designated",
+      "to": "pending_grant",
+      "event": "Applicant with priority delivers notice and applies",
+      "conditions": [
+       "At least 21 days after notice",
+       "Security only if a minor or mentally incapable person without a nominee is interested, or the court requires it"
+      ],
+      "citations": [
+       "bc-scr-25-2",
+       "bc-wesa-128",
+       "bc-wesa-130"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-grant",
+      "from": "pending_grant",
+      "to": "active",
+      "event": "Grant of administration issued",
+      "conditions": [],
+      "citations": [
+       "bc-wesa-129",
+       "bc-scr-25-4"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-discharge",
+      "from": "active",
+      "to": "terminated",
+      "event": "Discharge by court",
+      "conditions": [],
+      "citations": [
+       "bc-wesa-157"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "While a will contest or grant proceeding is pending, the court can appoint an administrator with full powers except distribution.",
+     "citations": [
+      "bc-wesa-103"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bc-organ-donation-consent",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Person consenting to post-mortem tissue gift (Human Tissue Gift Act)",
+   "localNames": [
+    "spouse",
+    "next of kin",
+    "person lawfully in possession of the body"
+   ],
+   "summary": "BC uses opt-in consent. A person 19 or older can consent in writing, or orally before 2 witnesses during a last illness, and that consent binds after death. Without it, consent can come from, in order: spouse, adult child, parent, adult sibling, other adult next of kin, then the person lawfully in possession of the body. Nobody may consent if there is reason to believe the deceased would have objected.",
+   "lane": {
+    "assigned": {
+     "event": "No consent by the person; the first readily available person in the s 5 order is entitled",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-htga-5"
+     ]
+    },
+    "starts": {
+     "event": "On death, or when a medical practitioner believes death is imminent and the person cannot consent",
+     "phase": "incapacitated",
+     "citations": [
+      "bc-htga-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Tissue removed or the gift cannot be used (body then dealt with as if no consent)",
+      "phase": "deceased",
+      "citations": [
+       "bc-htga-5",
+       "bc-htga-7"
+      ]
+     },
+     {
+      "event": "Known objection by the deceased or a person of the same or closer relationship",
+      "phase": "deceased",
+      "citations": [
+       "bc-htga-5"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Deceased gave own consent (s 4), or no entitled person"
+     },
+     {
+      "id": "active",
+      "label": "Entitled relative may consent"
+     },
+     {
+      "id": "terminated",
+      "label": "Consent acted on, barred by objection, or window closed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-own-consent",
+      "from": "not_designated",
+      "to": "terminated",
+      "event": "Person's own s 4 consent governs on death",
+      "conditions": [
+       "Must not act if reason to believe consent withdrawn, unless consent is in a valid will"
+      ],
+      "citations": [
+       "bc-htga-4"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-relative",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Imminent death or death without own consent",
+      "conditions": [
+       "Consent in writing, orally before 2 witnesses, or recorded message"
+      ],
+      "citations": [
+       "bc-htga-5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-objection",
+      "from": "active",
+      "to": "terminated",
+      "event": "Actual knowledge of objection by deceased or equal/closer relative",
+      "conditions": [],
+      "citations": [
+       "bc-htga-5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bc-disposition-control",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Person with right to control disposition of remains",
+   "localNames": [
+    "person with the right to control the disposition",
+    "personal representative named in the will"
+   ],
+   "summary": "The right to control disposition of human remains passes in this order: the personal representative named in the will, spouse, adult child, adult grandchild, guardian (for a minor), parent, adult sibling, adult nephew or niece, adult next of kin, the ministry or PGT, then another adult with a personal relationship. Written preferences in a will or preneed contract bind that person unless unreasonable. Funeral providers need that person's written authorization.",
+   "lane": {
+    "assigned": {
+     "event": "Will names a personal representative, or by statutory order at death",
+     "phase": "capable",
+     "citations": [
+      "bc-cifsa-5"
+     ]
+    },
+    "starts": {
+     "event": "At death",
+     "phase": "deceased",
+     "citations": [
+      "bc-cifsa-5",
+      "bc-cifsa-8"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Remains disposed of",
+      "phase": "deceased",
+      "citations": [
+       "bc-cifsa-8"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "Person unavailable or unwilling: right passes to next in priority",
+      "phase": "deceased",
+      "citations": [
+       "bc-cifsa-5"
+      ]
+     },
+     {
+      "event": "Supreme Court orders sole right to another applicant",
+      "phase": "deceased",
+      "citations": [
+       "bc-cifsa-5"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not top of priority"
+     },
+     {
+      "id": "designated",
+      "label": "Named as personal representative in will (will-maker living)"
+     },
+     {
+      "id": "active",
+      "label": "Holds right to give instructions"
+     },
+     {
+      "id": "terminated",
+      "label": "Right passed on or exhausted"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Death",
+      "conditions": [
+       "Must follow written preferences in will or preneed contract if reasonable, practicable and not causing hardship"
+      ],
+      "citations": [
+       "bc-cifsa-5",
+       "bc-cifsa-6"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-pass",
+      "from": "active",
+      "to": "terminated",
+      "event": "Unavailable/unwilling, or court order in favour of another",
+      "conditions": [
+       "Equal rank: agreement, else eldest first"
+      ],
+      "citations": [
+       "bc-cifsa-5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   },
+   "notes": [
+    {
+     "text": "Top priority goes to the personal representative named in the will, not to a representative under a representation agreement or an attorney. Those roles end at death.",
+     "citations": [
+      "bc-cifsa-5",
+      "bc-raa-29",
+      "bc-poa-30"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bc-deceased-records-representative",
+   "canonical": "health-records-representative",
+   "group": "health",
+   "name": "Person who may act for a deceased individual under BC privacy law",
+   "localNames": [
+    "appropriate person",
+    "nearest relative",
+    "personal representative"
+   ],
+   "summary": "Public bodies such as health authorities fall under FIPPA. There, a committee acting under Patients Property Act s 24, otherwise the personal representative, otherwise the nearest relative, may make access requests and give consents for a deceased adult. Private organizations such as private clinics fall under PIPA. There, the personal representative acts, including an executor named in the will before any grant, otherwise the nearest relative.",
+   "lane": {
+    "assigned": {
+     "event": "Status under statute or regulation at death (committee, personal representative, or nearest relative)",
+     "phase": "deceased",
+     "citations": [
+      "bc-fippa-reg-5",
+      "bc-pipa-reg-3"
+     ]
+    },
+    "starts": {
+     "event": "At death",
+     "phase": "deceased",
+     "citations": [
+      "bc-fippa-reg-5",
+      "bc-pipa-reg-3"
+     ]
+    },
+    "ends": [
+     {
+      "event": "A higher-ranked person (committee or personal representative) exists or becomes available, or the nearest relative ceases to be willing and able (passes to next)",
+      "phase": "administration",
+      "citations": [
+       "bc-fippa-reg-5"
+      ]
+     },
+     {
+      "event": "PIPA: information about someone dead 20 or more years may be disclosed for archival or historical purposes without consent",
+      "phase": "closed",
+      "citations": [
+       "bc-pipa-22"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not the appropriate person"
+     },
+     {
+      "id": "active",
+      "label": "May exercise the deceased's access and consent rights"
+     },
+     {
+      "id": "terminated",
+      "label": "Right passed to another person"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death; person is highest-ranked available",
+      "conditions": [
+       "FIPPA: committee under PPA s 24, then personal representative, then nearest relative (spouse, adult child, parent, adult sibling, other relative, relative by marriage)"
+      ],
+      "citations": [
+       "bc-fippa-reg-5",
+       "bc-pipa-reg-3",
+       "bc-ppa-24"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-pass",
+      "from": "active",
+      "to": "terminated",
+      "event": "Nearest relative stops being willing or able",
+      "conditions": [],
+      "citations": [
+       "bc-fippa-reg-5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A power of attorney is enduring only if it states that authority continues despite incapability, and whether it may be used while the adult is capable or only while incapable. A general power of attorney ends on the donor's mental incapability.",
+   "citations": [
+    "bc-poa-14",
+    "bc-poa-10",
+    "bc-fpt-poa-guide"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "An enduring power of attorney may take effect on a stated date or on a confirmed event, including incapability. The document must say how and by whom the event is confirmed. A qualified health care provider may confirm incapability if the named person cannot. Representation agreements can also have delayed triggers.",
+   "citations": [
+    "bc-poa-26",
+    "bc-raa-15"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "No registration with a government registry is needed before use. The attorney must sign before acting. For land, the enduring power of attorney must be executed and witnessed under the Land Title Act.",
+   "citations": [
+    "bc-poa-16"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "on-appointment",
+   "note": "A representation agreement takes effect on execution unless it names a later event. Representatives may act while the adult is capable, helping them decide. Substitute consent to a particular health care decision still requires the provider's opinion that the adult is incapable of consenting (HCCCFAA ss 7, 11).",
+   "citations": [
+    "bc-raa-15",
+    "bc-raa-7",
+    "bc-hcca-11",
+    "bc-hcca-7"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "year": null,
+   "name": "Representation Agreement Act, RSBC 1996, c 405 (section 7 standard agreements)",
+   "note": "Section 7 agreements let a representative help the adult make decisions, and can be made by an adult who cannot make a contract. The year is left null: the Act comes into force by regulation (s 45), and the original enactment and commencement dates were not verified on bclaws.",
+   "citations": [
+    "bc-raa-7",
+    "bc-raa-8",
+    "bc-raa-2",
+    "bc-raa-16"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No BC statute on fiduciary access to digital assets was found on bclaws. BC has not enacted the ULCC Uniform Access to Digital Assets by Fiduciaries Act (2016). Personal representatives rely on general authority under WESA s 142, and attorneys on Power of Attorney Act s 20(6) (delivery of property on request).",
+   "citations": [
+    "ulcc-uadafa-2016",
+    "bc-wesa-142",
+    "bc-poa-20"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No BC enactment recognizes platform online-tool designations (e.g. legacy contacts).",
+   "citations": [
+    "ulcc-uadafa-2016"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Human Tissue Gift Act, RSBC 1996, c 211",
+   "note": "Express consent by the donor (s 4), or by relatives in statutory order (s 5). There is no deemed consent.",
+   "citations": [
+    "bc-htga-4",
+    "bc-htga-5"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": false,
+   "threshold": null,
+   "currency": "CAD",
+   "waitingDays": null,
+   "note": "WESA Part 6, Division 2 (ss 109-120, small estate administration) is shown on bclaws as not in force. No statutory small-estate procedure without a grant is in force. The Probate Fee Act waives probate fees where the estate's value does not exceed $25 000, but a grant is still needed. All grant applications need notice at least 21 days before applying (Rule 25-2(2.1)).",
+   "citations": [
+    "bc-wesa-109",
+    "bc-probate-fee-2",
+    "bc-scr-25-2"
+   ]
+  },
+  "probateGrantName": {
+   "value": "grant of probate",
+   "note": "WESA also uses 'grant of administration' (with or without will annexed), collectively 'representation grant'. The Supreme Court Civil Rules use 'estate grant'.",
+   "citations": [
+    "bc-wesa-129",
+    "bc-scr-25-1"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": true,
+   "note": "Provincial privacy laws (FIPPA for public bodies, PIPA for private organizations) apply to deceased individuals' personal information. Regulations name who acts for the deceased, and PIPA permits archival disclosure after 20 years. Federal PIPEDA status is in ca-federal.",
+   "citations": [
+    "bc-fippa-reg-5",
+    "bc-pipa-reg-3",
+    "bc-pipa-22"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "Representation agreements and enduring powers of attorney end on death. The right to control disposition of remains goes to the personal representative named in the will, then family (CIFSA s 5). Exception on the property side: a Patients Property Act committee keeps its powers after the patient's death until a representation grant is served.",
+   "citations": [
+    "bc-raa-29",
+    "bc-poa-30",
+    "bc-cifsa-5",
+    "bc-ppa-24"
+   ]
+  }
+ }
+}

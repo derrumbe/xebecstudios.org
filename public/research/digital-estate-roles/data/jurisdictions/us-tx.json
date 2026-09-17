@@ -1,0 +1,1393 @@
+{
+ "jurisdiction": "us-tx",
+ "name": "Texas",
+ "extends": "us-model",
+ "uniformActsAdopted": {
+  "upoaa": {
+   "adopted": "partial",
+   "citation": "tx-est-751-003",
+   "unverified": true,
+   "note": "Durable Power of Attorney Act (Est. Code ch. 751-752) has a uniformity clause and UPOAA-like acceptance, reliance and termination rules added in 2017 (HB 1974), but it is not titled UPOAA and does not make POAs durable by default. ULC enactment status not checked."
+  },
+  "uhcda": {
+   "adopted": false,
+   "citation": "tx-hsc-166-152",
+   "unverified": true,
+   "note": "Advance Directives Act (H&S ch. 166) and Consent to Medical Treatment Act (ch. 313) are Texas-specific."
+  },
+  "ugcopaa": {
+   "adopted": false,
+   "citation": "tx-est-1101-101",
+   "unverified": true
+  },
+  "upc": {
+   "adopted": false,
+   "citation": "tx-est-401-001",
+   "unverified": true,
+   "note": "Texas Estates Code, with independent administration and muniment of title."
+  },
+  "utc": {
+   "adopted": false,
+   "citation": "tx-prop-111-001",
+   "unverified": true,
+   "note": "Texas Trust Code."
+  },
+  "rufadaa": {
+   "adopted": true,
+   "citation": "tx-est-2001-001",
+   "note": "Titled the 'Texas Revised Uniform Fiduciary Access to Digital Assets Act' (2017), with Texas modifications such as §2001.051(c)."
+  },
+  "revised-uaga": {
+   "adopted": true,
+   "citation": "tx-hsc-692A-001"
+  }
+ },
+ "citations": [
+  {
+   "id": "tx-est-751-001",
+   "cite": "Tex. Est. Code §751.001",
+   "title": "Short title: Durable Power of Attorney Act",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-751-0015",
+   "cite": "Tex. Est. Code §751.0015",
+   "title": "Applicability: durable POAs only; excludes medical POA",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.0015",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-751-00201",
+   "cite": "Tex. Est. Code §751.00201",
+   "title": "Meaning of disabled or incapacitated: physician written certification",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.00201",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if a physician certifies in writing at a date later than the date the durable power of attorney is executed"
+  },
+  {
+   "id": "tx-est-751-0021",
+   "cite": "Tex. Est. Code §751.0021",
+   "title": "Requirements of durable POA (durability words; acknowledgment)",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.0021",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This power of attorney becomes effective on the disability or incapacity of the principal"
+  },
+  {
+   "id": "tx-est-751-003",
+   "cite": "Tex. Est. Code §751.003",
+   "title": "Uniformity of application and construction",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.003",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-751-131",
+   "cite": "Tex. Est. Code §751.131",
+   "title": "Termination of durable power of attorney",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.131",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A durable power of attorney terminates when: (1) the principal dies;"
+  },
+  {
+   "id": "tx-est-751-132",
+   "cite": "Tex. Est. Code §751.132",
+   "title": "Termination of agent's authority",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.132",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-751-133",
+   "cite": "Tex. Est. Code §751.133",
+   "title": "Guardian of estate: permanent guardian revokes; temporary guardian suspends",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.133",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-751-134",
+   "cite": "Tex. Est. Code §751.134",
+   "title": "Termination not effective against persons acting in good faith without actual knowledge",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.751.htm#751.134",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-752-051",
+   "cite": "Tex. Est. Code §752.051",
+   "title": "Statutory durable power of attorney form",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.752.htm#752.051",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "UNLESS YOU DIRECT OTHERWISE BELOW, THIS POWER OF ATTORNEY IS EFFECTIVE IMMEDIATELY AND WILL CONTINUE UNTIL IT TERMINATES."
+  },
+  {
+   "id": "tx-hsc-166-152",
+   "cite": "Tex. Health & Safety Code §166.152",
+   "title": "Scope and duration of medical POA agent's authority",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.166.htm#166.152",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An agent may exercise authority only if the principal's attending physician certifies in writing"
+  },
+  {
+   "id": "tx-hsc-166-155",
+   "cite": "Tex. Health & Safety Code §166.155",
+   "title": "Revocation of medical POA; effect of divorce",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.166.htm#166.155",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-hsc-166-156",
+   "cite": "Tex. Health & Safety Code §166.156",
+   "title": "Probate court determines whether to suspend or revoke agent on guardianship",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.166.htm#166.156",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-hsc-166-039",
+   "cite": "Tex. Health & Safety Code §166.039",
+   "title": "Life-sustaining treatment decisions without directive: guardian, agent, or family priority",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.166.htm#166.039",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-hsc-313-003",
+   "cite": "Tex. Health & Safety Code §313.003",
+   "title": "Consent to Medical Treatment Act exceptions (medical POA, guardian)",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.313.htm#313.003",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-hsc-313-004",
+   "cite": "Tex. Health & Safety Code §313.004",
+   "title": "Surrogate consent to medical treatment: priority list",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.313.htm#313.004",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the patient's spouse;"
+  },
+  {
+   "id": "tx-est-1101-101",
+   "cite": "Tex. Est. Code §1101.101",
+   "title": "Findings required before appointing guardian (clear and convincing evidence; alternatives considered)",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1101.htm#1101.101",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-1105-002",
+   "cite": "Tex. Est. Code §1105.002",
+   "title": "Manner of qualification of guardian (oath/declaration, bond)",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1105.htm#1105.002",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-1106-001",
+   "cite": "Tex. Est. Code §1106.001",
+   "title": "Clerk's certificate constitutes letters of guardianship",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1106.htm#1106.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-1106-002",
+   "cite": "Tex. Est. Code §1106.002",
+   "title": "Letters of guardianship expire one year and four months after issuance unless renewed",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1106.htm#1106.002",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Letters of guardianship expire one year and four months after the date the letters are issued, unless renewed."
+  },
+  {
+   "id": "tx-est-1202-001",
+   "cite": "Tex. Est. Code §1202.001",
+   "title": "Term of guardian; guardianship settled and closed on ward's death, restoration, etc.",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1202.htm#1202.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-1204-001",
+   "cite": "Tex. Est. Code §1204.001",
+   "title": "Settlement of guardianship of the estate (ward dies, restoration, etc.)",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1204.htm#1204.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-1204-051",
+   "cite": "Tex. Est. Code §1204.051",
+   "title": "Before closing on ward's death, guardian may make funeral arrangements with court approval",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1204.htm#1204.051",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-1251-001",
+   "cite": "Tex. Est. Code §1251.001",
+   "title": "Appointment of temporary guardian",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1251.htm#1251.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-1251-151",
+   "cite": "Tex. Est. Code §1251.151",
+   "title": "Temporary guardianship limited to 60 days",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1251.htm#1251.151",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a temporary guardianship may not remain in effect for more than 60 days."
+  },
+  {
+   "id": "tx-est-1357-003",
+   "cite": "Tex. Est. Code §1357.003",
+   "title": "Supported Decision-Making Agreement Act purpose (alternative to guardianship)",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1357.htm#1357.003",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-1357-053",
+   "cite": "Tex. Est. Code §1357.053",
+   "title": "Term of supported decision-making agreement; terminated when guardian qualifies",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.1357.htm#1357.053",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-101-001",
+   "cite": "Tex. Est. Code §101.001",
+   "title": "Estate vests immediately on death in devisees or heirs",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.101.htm#101.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-256-003",
+   "cite": "Tex. Est. Code §256.003",
+   "title": "Will may not be admitted to probate after fourth anniversary of death unless applicant not in default",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.256.htm#256.003",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a will may not be admitted to probate after the fourth anniversary of the testator's death"
+  },
+  {
+   "id": "tx-est-301-002",
+   "cite": "Tex. Est. Code §301.002",
+   "title": "Application for letters must be filed by fourth anniversary of death",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.301.htm#301.002",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-304-001",
+   "cite": "Tex. Est. Code §304.001",
+   "title": "Order of persons qualified to serve as personal representative",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.304.htm#304.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-305-002",
+   "cite": "Tex. Est. Code §305.002",
+   "title": "Manner of qualification of personal representative",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.305.htm#305.002",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-306-001",
+   "cite": "Tex. Est. Code §306.001",
+   "title": "Granting of letters testamentary",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.306.htm#306.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-306-002",
+   "cite": "Tex. Est. Code §306.002",
+   "title": "Granting of letters of administration; necessity required",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.306.htm#306.002",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-306-007",
+   "cite": "Tex. Est. Code §306.007",
+   "title": "Effect of letters",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.306.htm#306.007",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-257-001",
+   "cite": "Tex. Est. Code §257.001",
+   "title": "Probate of will as muniment of title",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.257.htm#257.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-257-102",
+   "cite": "Tex. Est. Code §257.102",
+   "title": "Muniment of title order is authority to transfer without administration",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.257.htm#257.102",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-401-001",
+   "cite": "Tex. Est. Code §401.001",
+   "title": "Testator may direct independent administration",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.401.htm#401.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-405-007",
+   "cite": "Tex. Est. Code §405.007",
+   "title": "Effect of closing report or notice of closing independent administration",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.405.htm#405.007",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "terminates the power and authority of the independent executor"
+  },
+  {
+   "id": "tx-est-205-001",
+   "cite": "Tex. Est. Code §205.001",
+   "title": "Small estate affidavit: intestate estates, 30 days, $75,000",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.205.htm#205.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the value of the estate assets on the date of the affidavit described by Subdivision (4), excluding homestead and exempt property, does not exceed $75,000;"
+  },
+  {
+   "id": "tx-est-205-002",
+   "cite": "Tex. Est. Code §205.002",
+   "title": "Small estate affidavit requirements (two disinterested witnesses, distributees)",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.205.htm#205.002",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-205-006",
+   "cite": "Tex. Est. Code §205.006",
+   "title": "Homestead title transfer under small estate affidavit",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.205.htm#205.006",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-205-007",
+   "cite": "Tex. Est. Code §205.007",
+   "title": "Liability and accountability of distributees under affidavit",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.205.htm#205.007",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-2001-001",
+   "cite": "Tex. Est. Code §2001.001",
+   "title": "Short title: Texas Revised Uniform Fiduciary Access to Digital Assets Act",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.2001.htm#2001.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This chapter may be cited as the Texas Revised Uniform Fiduciary Access to Digital Assets Act."
+  },
+  {
+   "id": "tx-est-2001-051",
+   "cite": "Tex. Est. Code §2001.051",
+   "title": "User direction via online tool or will/trust/POA",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.2001.htm#2001.051",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "that does not require the user to act affirmatively and distinctly from the user's assent to the terms of service."
+  },
+  {
+   "id": "tx-est-2001-101",
+   "cite": "Tex. Est. Code §2001.101",
+   "title": "Disclosure of content of deceased user's communications to personal representative",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.2001.htm#2001.101",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-2001-102",
+   "cite": "Tex. Est. Code §2001.102",
+   "title": "Disclosure of catalog and other digital assets of deceased user",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.2001.htm#2001.102",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-2001-131",
+   "cite": "Tex. Est. Code §2001.131",
+   "title": "Disclosure of content of principal's communications to agent",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.2001.htm#2001.131",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-est-2001-171",
+   "cite": "Tex. Est. Code §2001.171",
+   "title": "Disclosure of digital assets to guardian after opportunity for hearing",
+   "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.2001.htm#2001.171",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-hsc-711-002",
+   "cite": "Tex. Health & Safety Code §711.002",
+   "title": "Disposition of remains: right to control, priority, appointment form, time limits",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.711.htm#711.002",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This appointment becomes effective upon my death."
+  },
+  {
+   "id": "tx-hsc-692A-001",
+   "cite": "Tex. Health & Safety Code §692A.001",
+   "title": "Short title: Revised Uniform Anatomical Gift Act",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.692A.htm#692A.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This chapter may be cited as the Revised Uniform Anatomical Gift Act."
+  },
+  {
+   "id": "tx-hsc-692A-009",
+   "cite": "Tex. Health & Safety Code §692A.009",
+   "title": "Who may make anatomical gift of decedent's body or part",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.692A.htm#692A.009",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-prop-111-001",
+   "cite": "Tex. Prop. Code §111.001",
+   "title": "Short title: Texas Trust Code",
+   "url": "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.111.htm#111.001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "tx-prop-112-051",
+   "cite": "Tex. Prop. Code §112.051",
+   "title": "Settlor may revoke unless trust irrevocable by express terms",
+   "url": "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.112.htm#112.051",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A settlor may revoke the trust unless it is irrevocable by the express terms of the instrument creating it"
+  },
+  {
+   "id": "tx-prop-113-083",
+   "cite": "Tex. Prop. Code §113.083",
+   "title": "Appointment of successor trustee",
+   "url": "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.113.htm#113.083",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent",
+    "attorney in fact",
+    "agent under statutory durable power of attorney"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Adult principal signs a writing with durability words and acknowledges it before a notary or other authorized officer",
+     "phase": "capable",
+     "citations": [
+      "tx-est-751-0021"
+     ]
+    },
+    "starts": {
+     "event": "Immediately unless the principal selects 'effective upon my disability or incapacity'",
+     "phase": "capable",
+     "citations": [
+      "tx-est-752-051"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal dies",
+      "phase": "deceased",
+      "citations": [
+       "tx-est-751-131",
+       "tx-est-751-134"
+      ]
+     },
+     {
+      "event": "Principal revokes; POA's own termination terms; purpose accomplished; no agent remains",
+      "phase": "capable",
+      "citations": [
+       "tx-est-751-131",
+       "tx-est-751-132"
+      ]
+     },
+     {
+      "event": "Permanent guardian of the estate qualifies (automatic revocation unless court orders suspension)",
+      "phase": "incapacitated",
+      "citations": [
+       "tx-est-751-133"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "tx-t-temp-guardian-suspend",
+     "from": "active",
+     "to": "suspended",
+     "event": "Temporary guardian of the estate qualifies",
+     "conditions": [
+      "Unless court order affirms the POA and confirms the agent"
+     ],
+     "citations": [
+      "tx-est-751-133"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-perm-guardian-revoke",
+     "from": "active",
+     "to": "terminated",
+     "event": "Permanent guardian of the estate qualifies",
+     "conditions": [
+      "Unless court orders suspension during guardianship",
+      "Agent must deliver assets and account to guardian"
+     ],
+     "citations": [
+      "tx-est-751-133"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Texas requires notarial acknowledgment and express durability words (§751.0021), so Texas POAs are not durable by default as they are under UPOAA. A permanent guardian of the estate who qualifies automatically REVOKES the POA, and a temporary guardian SUSPENDS it (§751.133). Chapter 751 took on many UPOAA-style provisions in 2017 (HB 1974), including a uniformity clause (§751.003).",
+   "citations": [
+    "tx-est-751-001",
+    "tx-est-751-0021",
+    "tx-est-751-003",
+    "tx-est-751-131",
+    "tx-est-751-132",
+    "tx-est-751-133",
+    "tx-est-751-134",
+    "tx-est-752-051"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "nondurable power of attorney"
+   ],
+   "diff": "The Durable Power of Attorney Act covers only durable POAs (§751.0015). This research found no Texas statute governing when a nondurable POA starts or ends; presumably common-law agency applies (not verified).",
+   "citations": [
+    "tx-est-751-0015"
+   ],
+   "unverified": true
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "power of attorney effective on disability or incapacity"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Principal's disability or incapacity; unless the POA defines it, a physician certifies in writing, after execution and based on a medical examination, that the principal cannot manage financial affairs",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-est-751-00201",
+      "tx-est-751-0021",
+      "tx-est-752-051"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "tx-t-springing-physician",
+     "from": "designated",
+     "to": "active",
+     "event": "Physician's written certification of mental incapacity to manage financial affairs",
+     "conditions": [
+      "Certification dated after POA execution",
+      "Based on physician's medical examination",
+      "POA may supply its own definition"
+     ],
+     "citations": [
+      "tx-est-751-00201"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Springing POAs rest on the statutory durability wording 'becomes effective on the disability or incapacity of the principal' (§751.0021(a)(3)(A)(ii)); §751.0021 has no separate springing provision. The default trigger is a physician's certification only (§751.00201), with no psychologist, attorney or judge option as under UPOAA.",
+   "citations": [
+    "tx-est-751-00201",
+    "tx-est-751-0021",
+    "tx-est-752-051"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under medical power of attorney"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Attending physician certifies in writing, filed in the medical record, that the principal is incompetent",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-hsc-166-152"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation by oral or written notice or any act showing intent to revoke, regardless of principal's competence; or a later medical POA",
+      "phase": "incapacitated",
+      "citations": [
+       "tx-hsc-166-155"
+      ]
+     },
+     {
+      "event": "Divorce, annulment or voiding of marriage to agent unless POA provides otherwise",
+      "phase": "capable",
+      "citations": [
+       "tx-hsc-166-155"
+      ]
+     },
+     {
+      "event": "Probate court suspends or revokes agent in guardianship proceeding",
+      "phase": "incapacitated",
+      "citations": [
+       "tx-hsc-166-156"
+      ]
+     },
+     {
+      "event": "Principal's death",
+      "phase": "deceased",
+      "citations": [
+       "tx-hsc-166-152"
+      ],
+      "unverified": true,
+      "note": "Subchapter D does not state death as a termination event in the sections reviewed. Post-death control of remains needs a separate §711.002 appointment."
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "tx-t-mpoa-objection",
+     "from": "active",
+     "to": "active",
+     "event": "Principal objects to treatment decision",
+     "conditions": [
+      "Treatment may not be given or withheld over the principal's objection, whether or not competent"
+     ],
+     "citations": [
+      "tx-hsc-166-152"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-mpoa-guardian",
+     "from": "active",
+     "to": "suspended",
+     "event": "Guardianship petition filed: court determines whether to suspend/revoke agent; if guardian appointed, guardian has sole authority pending determination",
+     "conditions": [],
+     "citations": [
+      "tx-hsc-166-156"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The trigger is narrower than UHCDA's: authority exists only after the attending physician certifies incompetence in writing in the medical record (§166.152(b)). The principal can revoke at any time regardless of mental state (§166.155(a)(1)), and treatment may not be given or withheld over the principal's objection. The medical POA is excluded from the Durable POA Act (§751.0015).",
+   "citations": [
+    "tx-hsc-166-152",
+    "tx-hsc-166-155",
+    "tx-hsc-166-156",
+    "tx-est-751-0015"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate decision-maker (Consent to Medical Treatment Act)",
+    "person making treatment decision under §166.039"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Adult patient in hospital, nursing home, home health agency or county/municipal jail is comatose, incapacitated or unable to communicate, with no guardian or medical POA agent reasonably available",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-hsc-313-004",
+      "tx-hsc-313-003"
+     ]
+    },
+    "starts": {
+     "event": "Attending physician documents incapacity and proposed treatment and makes diligent effort to contact surrogates",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-hsc-313-004"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "tx-t-313-priority",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Surrogate consents in priority order: spouse, adult children, parents, nearest living relative",
+     "conditions": [
+      "Cannot consent to voluntary inpatient mental health services, electro-convulsive treatment, or appoint another surrogate",
+      "If none available, another uninvolved physician may concur"
+     ],
+     "citations": [
+      "tx-hsc-313-004"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-166039-lst",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Life-sustaining treatment decision without directive: attending physician plus guardian/agent, or one person from spouse, adult children, parents, nearest relative",
+     "conditions": [
+      "If no guardian and no listed person, second physician or ethics committee concurrence required"
+     ],
+     "citations": [
+      "tx-hsc-166-039"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-jail-120",
+     "from": "active",
+     "to": "terminated",
+     "event": "For jail inmates, surrogate authority expires at the earlier of 120 days or release",
+     "conditions": [],
+     "citations": [
+      "tx-hsc-313-004"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Texas has two default-surrogate statutes. Ch. 313 covers general medical treatment in listed settings but excludes life-sustaining treatment decisions, and §166.039 covers those decisions. The priority lists are shorter than UHCDA's (no siblings or close friends), and a disinterested physician's concurrence is the fallback. Disputes go to a court with Title 3 guardianship jurisdiction.",
+   "citations": [
+    "tx-hsc-313-003",
+    "tx-hsc-313-004",
+    "tx-hsc-166-039"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court finds by clear and convincing evidence that the proposed ward is incapacitated and that alternatives and supports are not feasible",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-est-1101-101"
+     ]
+    },
+    "starts": {
+     "event": "Guardian qualifies (oath/declaration, bond if required) and clerk issues certificate as letters",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-est-1105-002",
+      "tx-est-1106-001"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Ward dies (guardianship settled and closed; guardian may make funeral arrangements with court approval before closing)",
+      "phase": "deceased",
+      "citations": [
+       "tx-est-1202-001",
+       "tx-est-1204-051"
+      ]
+     },
+     {
+      "event": "Court finds full capacity, or sufficient capacity with supports and services",
+      "phase": "capable",
+      "citations": [
+       "tx-est-1202-001"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "tx-t-letters-expire",
+     "from": "active",
+     "to": "suspended",
+     "event": "Letters expire 1 year 4 months after issuance unless renewed",
+     "conditions": [],
+     "citations": [
+      "tx-est-1106-002"
+     ],
+     "unverified": true
+    },
+    {
+     "id": "tx-t-temp-guardian",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Temporary guardian appointed on substantial evidence of incapacity and probable cause of immediate need; max 60 days except as §1251.052 provides",
+     "conditions": [],
+     "citations": [
+      "tx-est-1251-001",
+      "tx-est-1251-151"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-sdm-terminated",
+     "from": "not_designated",
+     "to": "not_designated",
+     "event": "Qualification of a guardian terminates any supported decision-making agreement",
+     "conditions": [],
+     "citations": [
+      "tx-est-1357-053"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Texas uses 'guardian' for adults (Estates Code Title 3). The court must find that alternatives, including supported decision-making agreements (ch. 1357), are not feasible. Letters expire after 16 months unless renewed (§1106.002). Termination at death is in §1202.001(b)(1); ch. 1204 covers final settlement, accounting and discharge.",
+   "citations": [
+    "tx-est-1101-101",
+    "tx-est-1106-001",
+    "tx-est-1106-002",
+    "tx-est-1202-001",
+    "tx-est-1204-051",
+    "tx-est-1357-003",
+    "tx-est-1357-053"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "guardian of the estate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court appoints guardian of the estate after findings",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-est-1101-101"
+     ]
+    },
+    "starts": {
+     "event": "Qualification and issuance of letters",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-est-1105-002",
+      "tx-est-1106-001"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Ward's death triggers settlement; guardian presents final account; personal representative may compel account",
+      "phase": "deceased",
+      "citations": [
+       "tx-est-1204-001",
+       "tx-est-1204-051"
+      ]
+     },
+     {
+      "event": "Restoration to capacity, estate exhausted, or no longer necessary",
+      "phase": "capable",
+      "citations": [
+       "tx-est-1204-001"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "tx-t-ge-revokes-poa",
+     "from": "active",
+     "to": "active",
+     "event": "Permanent guardian of estate qualifies; agent's powers under durable POA automatically revoked",
+     "conditions": [],
+     "citations": [
+      "tx-est-751-133"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-ge-digital",
+     "from": "active",
+     "to": "active",
+     "event": "Court grants guardian access to ward's digital assets after opportunity for hearing",
+     "conditions": [],
+     "citations": [
+      "tx-est-2001-171"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Texas calls this role a 'guardian of the estate'. When a permanent guardian qualifies, the durable POA is revoked by operation of law (§751.133).",
+   "citations": [
+    "tx-est-1204-001",
+    "tx-est-751-133",
+    "tx-est-2001-171"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "independent executor",
+    "dependent executor"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Named in will; application filed and will admitted to probate",
+     "phase": "deceased",
+     "citations": [
+      "tx-est-304-001",
+      "tx-est-306-001"
+     ]
+    },
+    "starts": {
+     "event": "Executor qualifies (oath/declaration; bond if required) and clerk issues letters",
+     "phase": "administration",
+     "citations": [
+      "tx-est-305-002",
+      "tx-est-306-007"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Independent administration closes 30 days after closing report or notice of closing (absent objection), terminating authority and cancelling letters",
+      "phase": "closed",
+      "citations": [
+       "tx-est-405-007"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "tx-t-4yr-bar",
+     "from": "designated",
+     "to": "terminated",
+     "event": "Fourth anniversary of death passes: will may not be admitted (absent proof applicant not in default) and letters testamentary may not issue unless application filed within 4 years",
+     "conditions": [],
+     "citations": [
+      "tx-est-256-003",
+      "tx-est-301-002"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-muniment",
+     "from": "designated",
+     "to": "not_designated",
+     "event": "Will admitted as muniment of title (no unpaid debts other than real-estate liens, or no necessity); no executor is appointed",
+     "conditions": [],
+     "citations": [
+      "tx-est-257-001",
+      "tx-est-257-102"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-exec-fail",
+     "from": "designated",
+     "to": "terminated",
+     "event": "Named executor fails to qualify within 20 days after probate, or fails to present will within 30 days after death without good cause; administration with will annexed may be granted",
+     "conditions": [],
+     "citations": [
+      "tx-est-306-002"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-independent",
+     "from": "designated",
+     "to": "active",
+     "event": "Will directs independent administration; court involvement limited to probate, inventory and claims list",
+     "conditions": [],
+     "citations": [
+      "tx-est-401-001"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Texas has a 4-year deadline both to probate a will and to obtain letters testamentary (§§256.003, 301.002; the UPC's comparable limit is 3 years). Texas also offers muniment of title (ch. 257), which transfers property under the will with no personal representative, and independent administration that closes by filing a closing report or notice.",
+   "citations": [
+    "tx-est-101-001",
+    "tx-est-256-003",
+    "tx-est-301-002",
+    "tx-est-257-001",
+    "tx-est-306-001",
+    "tx-est-306-002",
+    "tx-est-401-001",
+    "tx-est-405-007"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "administrator with will annexed",
+    "independent administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court grants administration by priority (spouse, principal devisee, devisee, next of kin, creditor, ...) only if a necessity for administration exists",
+     "phase": "deceased",
+     "citations": [
+      "tx-est-304-001",
+      "tx-est-306-002"
+     ]
+    },
+    "starts": {
+     "event": "Qualification and issuance of letters",
+     "phase": "administration",
+     "citations": [
+      "tx-est-305-002",
+      "tx-est-306-007"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Closing of administration",
+      "phase": "closed",
+      "citations": [
+       "tx-est-405-007"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "tx-t-necessity",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Court finds necessity (e.g., two or more debts, partition, recover property, dangerous real property)",
+     "conditions": [],
+     "citations": [
+      "tx-est-306-002"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Texas requires the court to find a necessity for administration (§306.002(b)-(c)) and applies the same 4-year filing limit (§301.002). A 'person designated as administrator' under §254.006 ranks just after the named executor (§304.001(a)(1-a)).",
+   "citations": [
+    "tx-est-304-001",
+    "tx-est-306-002",
+    "tx-est-301-002"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "distributee filing small estate affidavit"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "All capable distributees and two disinterested witnesses swear to affidavit listing assets, liabilities and heirship facts",
+     "phase": "deceased",
+     "citations": [
+      "tx-est-205-002"
+     ]
+    },
+    "starts": {
+     "event": "Decedent died intestate, 30 days have elapsed, no PR petition pending or granted, non-exempt assets (excluding homestead and exempt property) do not exceed $75,000, and the judge approves the filed affidavit",
+     "phase": "deceased",
+     "citations": [
+      "tx-est-205-001"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Assets delivered; distributees remain accountable to later-appointed PR and to persons with prior rights",
+      "phase": "closed",
+      "citations": [
+       "tx-est-205-007"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "tx-t-sea-homestead",
+     "from": "active",
+     "to": "active",
+     "event": "If homestead is the only real property, title may pass under recorded affidavit",
+     "conditions": [],
+     "citations": [
+      "tx-est-205-006"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The Texas affidavit is available only for INTESTATE estates (§205.001). It must be filed with and approved by the court, requires two disinterested witnesses, waits 30 days, and caps non-exempt assets at $75,000. For testate small estates, muniment of title (ch. 257) is the usual route.",
+   "citations": [
+    "tx-est-205-001",
+    "tx-est-205-002",
+    "tx-est-205-006",
+    "tx-est-205-007",
+    "tx-est-257-001"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Selected by method in trust instrument; otherwise court appoints on petition",
+     "phase": "capable",
+     "citations": [
+      "tx-prop-113-083"
+     ]
+    },
+    "starts": {
+     "event": "Death, resignation, incapacity or removal of sole or surviving trustee",
+     "phase": "incapacitated",
+     "citations": [
+      "tx-prop-113-083"
+     ]
+    }
+   },
+   "diff": "The Texas Trust Code (Prop. Code Title 9) is not the UTC. A trust is revocable unless it is irrevocable by its express terms (§112.051). No Texas analog to California's 60-day post-death trustee notice was identified in this research.",
+   "citations": [
+    "tx-prop-111-001",
+    "tx-prop-112-051",
+    "tx-prop-113-083"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "User directs custodian via online tool",
+     "phase": "capable",
+     "citations": [
+      "tx-est-2001-051"
+     ]
+    }
+   },
+   "diff": "Texas modified RUFADAA's override rule: a user's direction overrides only a terms-of-service provision that does not require the user to act affirmatively and separately from accepting the terms of service (§2001.051(c)).",
+   "citations": [
+    "tx-est-2001-051"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "personal representative",
+    "agent",
+    "trustee",
+    "guardian"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Written request plus death certificate and letters, §205.001 small estate affidavit, or other court order",
+     "phase": "administration",
+     "citations": [
+      "tx-est-2001-101",
+      "tx-est-2001-102"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "tx-t-dig-content",
+     "from": "designated",
+     "to": "active",
+     "event": "PR obtains content of communications",
+     "conditions": [
+      "Deceased user consented or a court directs"
+     ],
+     "citations": [
+      "tx-est-2001-101"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-dig-agent",
+     "from": "designated",
+     "to": "active",
+     "event": "Agent obtains content where POA expressly grants that authority",
+     "conditions": [],
+     "citations": [
+      "tx-est-2001-131"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-dig-guardian",
+     "from": "designated",
+     "to": "active",
+     "event": "Court grants guardian access after opportunity for hearing; guardian may request suspension/termination for good cause",
+     "conditions": [],
+     "citations": [
+      "tx-est-2001-171"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Texas enacted RUFADAA in 2017 as Est. Code ch. 2001, with a guardian in place of the uniform act's conservator (§2001.171). The small estate affidavit filed under §205.001 is an accepted credential.",
+   "citations": [
+    "tx-est-2001-001",
+    "tx-est-2001-101",
+    "tx-est-2001-102",
+    "tx-est-2001-131",
+    "tx-est-2001-171"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "agent (anatomical gift)"
+   ],
+   "lane": {
+    "starts": {
+     "event": "At death, as first-priority class if agent could have made the gift immediately before death",
+     "phase": "deceased",
+     "citations": [
+      "tx-hsc-692A-009"
+     ]
+    }
+   },
+   "diff": "Texas enacted the Revised UAGA (H&S ch. 692A). The §692A.009 priority list includes the hospital administrator as a separate class ahead of any other person with authority to dispose of the body.",
+   "citations": [
+    "tx-hsc-692A-001",
+    "tx-hsc-692A-009"
+   ]
+  },
+  {
+   "role": "disposition-of-remains-agent",
+   "name": "Person with right to control disposition of remains",
+   "group": "remains",
+   "localNames": [
+    "agent under Appointment for Disposition of Remains"
+   ],
+   "summary": "The person who controls disposition of remains, including cremation, and must inter them. That person is liable for the reasonable cost of interment (except an executor or administrator) and may seek reimbursement from the estate.",
+   "lane": {
+    "assigned": {
+     "event": "Decedent signs a written instrument (statutory form available) with acknowledged signature naming agent and successors",
+     "phase": "capable",
+     "citations": [
+      "tx-hsc-711-002"
+     ]
+    },
+    "starts": {
+     "event": "Decedent's death; agent must sign acceptance before acting",
+     "phase": "deceased",
+     "citations": [
+      "tx-hsc-711-002"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Holder fails to make or delegate arrangements by the earlier of the 6th day after notice of death or the 10th day after death; right passes",
+      "phase": "deceased",
+      "citations": [
+       "tx-hsc-711-002"
+      ]
+     },
+     {
+      "event": "Remains interred / disposition completed",
+      "phase": "administration",
+      "citations": [
+       "tx-hsc-711-002"
+      ],
+      "unverified": true,
+      "note": "No explicit statutory end point; inferred."
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No appointment"
+    },
+    {
+     "id": "designated",
+     "label": "Appointment signed and acknowledged"
+    },
+    {
+     "id": "active",
+     "label": "Right vested after death"
+    },
+    {
+     "id": "terminated",
+     "label": "Presumed unwilling / passed / disposition complete"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "tx-t-dor-vest",
+     "from": "designated",
+     "to": "active",
+     "event": "Death: right vests by priority",
+     "conditions": [
+      "(1) person designated in signed written instrument; (2) surviving spouse; (3) any one adult child; (4) either parent; (5) any one adult sibling; (6) qualified executor/administrator; (7) next of kin by inheritance order",
+      "DD Form 93 controls for certain military deaths"
+     ],
+     "citations": [
+      "tx-hsc-711-002"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-dor-lapse",
+     "from": "active",
+     "to": "terminated",
+     "event": "No arrangements by earlier of 6th day after notice or 10th day after death: presumed unable/unwilling; right passes",
+     "conditions": [],
+     "citations": [
+      "tx-hsc-711-002"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "tx-t-dor-divorce",
+     "from": "designated",
+     "to": "not_designated",
+     "event": "Divorce, annulment or voiding of marriage to spouse-agent before death revokes designation unless instrument provides otherwise",
+     "conditions": [],
+     "citations": [
+      "tx-hsc-711-002"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "New role. Texas has a dedicated Appointment for Disposition of Remains form, separate from the medical POA. It must be acknowledged, and the agent must sign an acceptance before acting (§711.002(b)-(c)). The time limit for acting is short (6 days after notice or 10 days after death). An executor or administrator ranks 6th and is not personally liable for costs.",
+   "citations": [
+    "tx-hsc-711-002"
+   ],
+   "canonical": "disposition-of-remains-agent"
+  }
+ ]
+}

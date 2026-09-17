@@ -1,0 +1,1657 @@
+{
+ "jurisdiction": "us-ca",
+ "name": "California",
+ "extends": "us-model",
+ "uniformActsAdopted": {
+  "upoaa": {
+   "adopted": false,
+   "citation": "ca-prob-4400",
+   "note": "California uses its own Power of Attorney Law (Div. 4.5) and the earlier Uniform Statutory Form Power of Attorney Act (Part 3, §4400), not UPOAA (2006)."
+  },
+  "uhcda": {
+   "adopted": false,
+   "citation": "ca-prob-4600",
+   "unverified": true,
+   "note": "Division 4.7 is titled the 'Health Care Decisions Law' with no uniform-act short title. Whether the ULC counts it as a UHCDA enactment was not verified."
+  },
+  "ugcopaa": {
+   "adopted": false,
+   "citation": "ca-prob-1801",
+   "unverified": true,
+   "note": "Conservatorship law is Prob. Code §1800 et seq. with no uniform short title. ULC enactment list not checked."
+  },
+  "upc": {
+   "adopted": false,
+   "citation": "ca-prob-8400",
+   "unverified": true,
+   "note": "California Probate Code is not the UPC (no informal probate). ULC enactment list not checked."
+  },
+  "utc": {
+   "adopted": false,
+   "citation": "ca-prob-16061-7",
+   "unverified": true,
+   "note": "California Trust Law (Prob. Code Div. 9) is not titled the UTC. ULC enactment list not checked."
+  },
+  "rufadaa": {
+   "adopted": true,
+   "citation": "ca-prob-870",
+   "note": "Enacted 2016 (AB 691), originally only for decedents and trusts. Agents and conservators added eff. Jan. 1, 2025 (SB 1458)."
+  },
+  "revised-uaga": {
+   "adopted": true,
+   "citation": "ca-hsc-7150",
+   "note": "Chapter repealed and re-added 2007 (eff. Jan. 1, 2008) with the short title 'Uniform Anatomical Gift Act'. The structure (e.g., §7150.40 priority list) follows the 2006 revised act."
+  }
+ },
+ "citations": [
+  {
+   "id": "ca-prob-4030",
+   "cite": "Cal. Prob. Code §4030",
+   "title": "Springing power of attorney (definition)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4030",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "becomes effective at a specified future time or on the occurrence of a specified future event or contingency"
+  },
+  {
+   "id": "ca-prob-4050",
+   "cite": "Cal. Prob. Code §4050",
+   "title": "Scope of Division 4.5 (durable POAs other than health care; statutory form POAs)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4050",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4124",
+   "cite": "Cal. Prob. Code §4124",
+   "title": "Durable power of attorney (required durability language)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4124",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This power of attorney shall not be affected by subsequent incapacity"
+  },
+  {
+   "id": "ca-prob-4125",
+   "cite": "Cal. Prob. Code §4125",
+   "title": "Effect of acts during principal's incapacity under durable POA",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4125",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "All acts done by an attorney-in-fact pursuant to a durable power of attorney during any period of incapacity of the principal have the same effect"
+  },
+  {
+   "id": "ca-prob-4126",
+   "cite": "Cal. Prob. Code §4126",
+   "title": "Nomination of conservator in durable power of attorney",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4126",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4127",
+   "cite": "Cal. Prob. Code §4127",
+   "title": "Lapse of time does not end authority unless POA states a termination time",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4127",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4129",
+   "cite": "Cal. Prob. Code §4129",
+   "title": "Springing POA: designated person's declaration under penalty of perjury",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4129",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "becomes effective when the person or persons designated in the power of attorney execute a written declaration under penalty of perjury"
+  },
+  {
+   "id": "ca-prob-4152",
+   "cite": "Cal. Prob. Code §4152",
+   "title": "Termination of attorney-in-fact's authority",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4152",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Death of the principal, except as to specific authority permitted by statute to be exercised after the principal’s death."
+  },
+  {
+   "id": "ca-prob-4155",
+   "cite": "Cal. Prob. Code §4155",
+   "title": "Nondurable POA terminated by principal's incapacity",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4155",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority of an attorney-in-fact under a nondurable power of attorney is terminated by the incapacity of the principal to contract."
+  },
+  {
+   "id": "ca-prob-4206",
+   "cite": "Cal. Prob. Code §4206",
+   "title": "Conservator of the estate may revoke durable POA only with court order",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4206",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4304",
+   "cite": "Cal. Prob. Code §4304",
+   "title": "Good-faith acts without knowledge of principal's death or incapacity",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4304",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not revoke or terminate the agency"
+  },
+  {
+   "id": "ca-prob-4400",
+   "cite": "Cal. Prob. Code §4400",
+   "title": "Short title: Uniform Statutory Form Power of Attorney Act",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4400",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This part may be cited as the Uniform Statutory Form Power of Attorney Act."
+  },
+  {
+   "id": "ca-prob-4401",
+   "cite": "Cal. Prob. Code §4401",
+   "title": "Statutory form power of attorney (form text published only in Stats. 2011, ch. 113)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4401",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "note": "The online code shows a notice that the form text appears only in the chaptered bill; the form's effectiveness wording was not retrieved."
+  },
+  {
+   "id": "ca-prob-4405",
+   "cite": "Cal. Prob. Code §4405",
+   "title": "Statutory form POA limited to take effect on a contingency; designated person's declaration",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4405",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4600",
+   "cite": "Cal. Prob. Code §4600",
+   "title": "Short title: Health Care Decisions Law",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4600",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This division may be cited as the Health Care Decisions Law."
+  },
+  {
+   "id": "ca-prob-4658",
+   "cite": "Cal. Prob. Code §4658",
+   "title": "Primary physician determines lack or recovery of capacity",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4658",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall be made by the primary physician."
+  },
+  {
+   "id": "ca-prob-4671",
+   "cite": "Cal. Prob. Code §4671",
+   "title": "Adult having capacity may execute a power of attorney for health care",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4671",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4682",
+   "cite": "Cal. Prob. Code §4682",
+   "title": "When health care agent's authority is effective",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4682",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority of an agent becomes effective only on a determination that the principal lacks capacity"
+  },
+  {
+   "id": "ca-prob-4683",
+   "cite": "Cal. Prob. Code §4683",
+   "title": "Agent's authority, including decisions effective after principal's death",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4683",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The agent may also make decisions that may be effective after the principal’s death"
+  },
+  {
+   "id": "ca-prob-4695",
+   "cite": "Cal. Prob. Code §4695",
+   "title": "Revocation of agent designation",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4695",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A patient having capacity may revoke the designation of an agent only by a signed writing or by personally informing the supervising health care provider."
+  },
+  {
+   "id": "ca-prob-4697",
+   "cite": "Cal. Prob. Code §4697",
+   "title": "Dissolution or annulment of marriage revokes spouse-agent designation",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4697",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4711",
+   "cite": "Cal. Prob. Code §4711",
+   "title": "Patient-designated surrogate; effective for course of treatment/stay or 60 days",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4711",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4712",
+   "cite": "Cal. Prob. Code §4712",
+   "title": "Priority of legally recognized health care decisionmakers; provider-selected surrogate (AB 2338, eff. Jan. 1, 2023)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4712",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-4714",
+   "cite": "Cal. Prob. Code §4714",
+   "title": "Surrogate decision standard",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=4714",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-1801",
+   "cite": "Cal. Prob. Code §1801",
+   "title": "Grounds for conservator of the person / estate",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=1801",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-1860",
+   "cite": "Cal. Prob. Code §1860",
+   "title": "Conservatorship continues until death of conservatee or court order",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=1860",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A conservatorship continues until terminated by the death of the conservatee or by order of the court pursuant to Section 1863"
+  },
+  {
+   "id": "ca-prob-2250",
+   "cite": "Cal. Prob. Code §2250",
+   "title": "Temporary guardian or conservator",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=2250",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-2300",
+   "cite": "Cal. Prob. Code §2300",
+   "title": "Oath and bond before appointment is effective",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=2300",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-2310",
+   "cite": "Cal. Prob. Code §2310",
+   "title": "Letters evidence appointment; appointment not effective until letters issue",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=2310",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "WARNING: THIS APPOINTMENT IS NOT EFFECTIVE UNTIL LETTERS HAVE ISSUED."
+  },
+  {
+   "id": "ca-prob-2355",
+   "cite": "Cal. Prob. Code §2355",
+   "title": "Conservator's exclusive health care authority when conservatee adjudicated to lack capacity",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=2355",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-2467",
+   "cite": "Cal. Prob. Code §2467",
+   "title": "Duty of custody of estate continues after death pending delivery to personal representative",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=2467",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The guardian or conservator continues to have the duty of custody and conservation of the estate after the death of the ward or conservatee"
+  },
+  {
+   "id": "ca-prob-2630",
+   "cite": "Cal. Prob. Code §2630",
+   "title": "Court retains jurisdiction to settle accounts after termination",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=2630",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-2631",
+   "cite": "Cal. Prob. Code §2631",
+   "title": "Post-death payment of last illness and disposition expenses by conservator",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=2631",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-7000",
+   "cite": "Cal. Prob. Code §7000",
+   "title": "Title passes on death to devisees or heirs",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=7000",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-8000",
+   "cite": "Cal. Prob. Code §8000",
+   "title": "Petition for administration may be filed at any time after death",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8000",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "At any time after a decedent’s death, any interested person may commence proceedings for administration of the estate"
+  },
+  {
+   "id": "ca-prob-8001",
+   "cite": "Cal. Prob. Code §8001",
+   "title": "Named executor who fails to petition within 30 days may be held to have waived appointment",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-8400",
+   "cite": "Cal. Prob. Code §8400",
+   "title": "No power to administer until letters issue; named executor may pay funeral expenses and preserve estate",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8400",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Appointment of a personal representative becomes effective when the person appointed is issued letters."
+  },
+  {
+   "id": "ca-prob-8403",
+   "cite": "Cal. Prob. Code §8403",
+   "title": "Oath before letters issue",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8403",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-8440",
+   "cite": "Cal. Prob. Code §8440",
+   "title": "Administrator with the will annexed",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8440",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-8461",
+   "cite": "Cal. Prob. Code §8461",
+   "title": "Priority for appointment as administrator",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8461",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-8540",
+   "cite": "Cal. Prob. Code §8540",
+   "title": "Special administrator",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=8540",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-12250",
+   "cite": "Cal. Prob. Code §12250",
+   "title": "Discharge of personal representative after final distribution",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=12250",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-13050",
+   "cite": "Cal. Prob. Code §13050",
+   "title": "Property excluded from small-estate valuation (joint tenancy, revocable trust property, etc.)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=13050",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-13100",
+   "cite": "Cal. Prob. Code §13100",
+   "title": "Collection of personal property by affidavit without administration",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=13100",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if 40 days have elapsed since the death of the decedent"
+  },
+  {
+   "id": "ca-prob-13101",
+   "cite": "Cal. Prob. Code §13101",
+   "title": "Affidavit contents; dollar cap depends on date of death (subd. (g))",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=13101",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-13200",
+   "cite": "Cal. Prob. Code §13200",
+   "title": "Affidavit procedure for real property (no sooner than six months after death)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=13200",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-890",
+   "cite": "Cal. Prob. Code §890",
+   "title": "Triennial CPI adjustment of Division 8 dollar amounts by Judicial Council",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=890",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-jc-890-amounts",
+   "cite": "Judicial Council of California, Probate Code §890 adjusted amounts",
+   "title": "Maximum Amounts for Determining Eligibility for Summary Succession Procedures",
+   "url": "https://courts.ca.gov/system/files/file/probate-code-890-adjusted-amounts.pdf",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Unless otherwise provided by statute, these amounts will next be adjusted on April 1, 2028."
+  },
+  {
+   "id": "ca-prob-870",
+   "cite": "Cal. Prob. Code §870",
+   "title": "Short title: Revised Uniform Fiduciary Access to Digital Assets Act",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=870",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This part shall be known, and may be cited, as the Revised Uniform Fiduciary Access to Digital Assets Act."
+  },
+  {
+   "id": "ca-prob-871",
+   "cite": "Cal. Prob. Code §871",
+   "title": "Definitions (fiduciary includes personal representative, conservator, agent, trustee as amended 2024)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=871",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-872",
+   "cite": "Cal. Prob. Code §872",
+   "title": "Applicability; conservators and POA fiduciaries added effective Jan. 1, 2025 (SB 1458)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=872",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-873",
+   "cite": "Cal. Prob. Code §873",
+   "title": "User direction via online tool or will/trust/POA/other record",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=873",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-876",
+   "cite": "Cal. Prob. Code §876",
+   "title": "Disclosure of content of deceased user's electronic communications to personal representative",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=876",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If a deceased user consented to or a court directs disclosure of the content of electronic communications of the user"
+  },
+  {
+   "id": "ca-prob-877",
+   "cite": "Cal. Prob. Code §877",
+   "title": "Disclosure of catalogue and non-content digital assets of deceased user",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=877",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-879-1",
+   "cite": "Cal. Prob. Code §879.1",
+   "title": "Disclosure of content to agent under POA (added 2024, SB 1458)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=879.1",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-879-2",
+   "cite": "Cal. Prob. Code §879.2",
+   "title": "Disclosure of catalogue/other digital assets to agent (added 2024, SB 1458)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=879.2",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-879-3",
+   "cite": "Cal. Prob. Code §879.3",
+   "title": "Conservator access to digital assets after noticed hearing (added 2024, SB 1458)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=879.3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "After a noticed hearing, the court may grant a conservator access to the digital assets of a conservatee."
+  },
+  {
+   "id": "ca-prob-880",
+   "cite": "Cal. Prob. Code §880",
+   "title": "Fiduciary duties and authority over digital assets; account termination request",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=880",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-881",
+   "cite": "Cal. Prob. Code §881",
+   "title": "Custodian compliance within 60 days; court order",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=881",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-hsc-7100",
+   "cite": "Cal. Health & Safety Code §7100",
+   "title": "Right to control disposition of remains; priority order",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=7100",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-hsc-7100-1",
+   "cite": "Cal. Health & Safety Code §7100.1",
+   "title": "Decedent's written directions for disposition",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=7100.1",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-hsc-7105",
+   "cite": "Cal. Health & Safety Code §7105",
+   "title": "Relinquishment of right if not exercised within 7 days (10 days for surviving spouse); court petition",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=7105",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-hsc-7150",
+   "cite": "Cal. Health & Safety Code §7150",
+   "title": "Short title: Uniform Anatomical Gift Act (repealed and added 2007)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=7150",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This chapter shall be known, and may be cited, as the Uniform Anatomical Gift Act."
+  },
+  {
+   "id": "ca-hsc-7150-15",
+   "cite": "Cal. Health & Safety Code §7150.15",
+   "title": "Lifetime gift by donor's agent if POA for health care expressly permits",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=7150.15",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-hsc-7150-40",
+   "cite": "Cal. Health & Safety Code §7150.40",
+   "title": "Priority of persons who may make anatomical gift of decedent's body",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=7150.40",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-15401",
+   "cite": "Cal. Prob. Code §15401",
+   "title": "Methods of revocation; attorney-in-fact may not revoke unless trust expressly permits",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=15401",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-15660",
+   "cite": "Cal. Prob. Code §15660",
+   "title": "Filling trustee vacancy",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=15660",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-15800",
+   "cite": "Cal. Prob. Code §15800",
+   "title": "Rights while trust revocable; notice when last holder of revocation power becomes incompetent",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=15800",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ca-prob-16061-7",
+   "cite": "Cal. Prob. Code §16061.7",
+   "title": "Notification by trustee within 60 days after trust becomes irrevocable on settlor's death",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=16061.7",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The notification by trustee shall be served not later than 60 days following the occurrence of the event requiring service"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "attorney-in-fact",
+    "agent under durable power of attorney",
+    "agent under Uniform Statutory Form Power of Attorney"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal executes a written POA containing the §4124 durability language (or uses the Uniform Statutory Form POA, Prob. Code §4400 et seq.)",
+     "phase": "capable",
+     "citations": [
+      "ca-prob-4124",
+      "ca-prob-4050",
+      "ca-prob-4400"
+     ]
+    },
+    "starts": {
+     "event": "On execution unless the instrument makes it springing (see financial-poa-springing)",
+     "phase": "capable",
+     "citations": [
+      "ca-prob-4030",
+      "ca-prob-4127"
+     ],
+     "unverified": true,
+     "note": "California's default 'effective on execution' rule for a non-springing POA was inferred from §4030 (springing defined as the exception); the form language in §4401 is not online."
+    },
+    "ends": [
+     {
+      "event": "Death of principal, except specific authority permitted by statute after death; good-faith acts without knowledge of death still bind",
+      "phase": "deceased",
+      "citations": [
+       "ca-prob-4152",
+       "ca-prob-4304"
+      ]
+     },
+     {
+      "event": "Revocation, removal, resignation, agent's death or incapacity, dissolution/annulment of marriage to principal, terms of POA",
+      "phase": "capable",
+      "citations": [
+       "ca-prob-4152"
+      ]
+     },
+     {
+      "event": "Conservator of the estate revokes or amends, but only after an order of the conservatorship court",
+      "phase": "incapacitated",
+      "citations": [
+       "ca-prob-4206"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-conservator-revoke",
+     "from": "active",
+     "to": "terminated",
+     "event": "Conservator of the estate revokes durable POA",
+     "conditions": [
+      "Court in the conservatorship proceeding first orders or authorizes the revocation"
+     ],
+     "citations": [
+      "ca-prob-4206"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "California's pre-UPOAA Power of Attorney Law (Prob. Code Div. 4.5, §4000 et seq.) governs. Unlike UPOAA §104, a POA is NOT durable by default: durability requires the §4124 statement. A California conservator of the estate may revoke or amend a durable POA only after the conservatorship court authorizes it (§4206(b)). The Uniform Statutory Form POA Act (§4400 et seq.) is the 1988 uniform form act, not UPOAA.",
+   "citations": [
+    "ca-prob-4124",
+    "ca-prob-4125",
+    "ca-prob-4152",
+    "ca-prob-4206",
+    "ca-prob-4304",
+    "ca-prob-4400",
+    "ca-prob-4401",
+    "ca-prob-4126"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "attorney-in-fact under nondurable power of attorney"
+   ],
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal loses capacity to contract (not overridable by the instrument)",
+      "phase": "incapacitated",
+      "citations": [
+       "ca-prob-4155"
+      ]
+     },
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "ca-prob-4152",
+       "ca-prob-4304"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "diff": "Consistent with the baseline: incapacity ends a nondurable POA (§4155(a)), and §4155(c) says this cannot be limited by the instrument. Third parties and agents acting in good faith without knowledge of incapacity or death are protected (§4304).",
+   "citations": [
+    "ca-prob-4155",
+    "ca-prob-4304",
+    "ca-prob-4050"
+   ],
+   "differs": false
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Specified future time, event or contingency (e.g., incapacity) occurs; if the POA designates a person to make the determination, when that person signs a written declaration under penalty of perjury",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-4030",
+      "ca-prob-4129",
+      "ca-prob-4405"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "ca-t-springing-declaration",
+     "from": "designated",
+     "to": "active",
+     "event": "Designated person executes written declaration under penalty of perjury that the contingency occurred",
+     "conditions": [
+      "Third persons may rely on the declaration whether or not the contingency actually occurred"
+     ],
+     "citations": [
+      "ca-prob-4129",
+      "ca-prob-4405"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "California expressly lets the principal name a person whose penalty-of-perjury declaration conclusively triggers a springing POA, with third-party reliance protection (§4129; statutory-form equivalent §4405). §4129(d) says this is not the only method. UPOAA §109 instead uses a person designated in the POA or, failing that, a physician/psychologist or other authority.",
+   "citations": [
+    "ca-prob-4030",
+    "ca-prob-4129",
+    "ca-prob-4405"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under power of attorney for health care",
+    "agent under advance health care directive"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Adult having capacity executes a power of attorney for health care (Health Care Decisions Law, Prob. Code §4600 et seq.)",
+     "phase": "capable",
+     "citations": [
+      "ca-prob-4600",
+      "ca-prob-4671"
+     ]
+    },
+    "starts": {
+     "event": "Unless the POA provides otherwise, on a determination that the principal lacks capacity, made by the primary physician unless the directive specifies otherwise",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-4682",
+      "ca-prob-4658"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Determination that the principal has recovered capacity (authority ceases; can resume on a new determination)",
+      "phase": "capable",
+      "citations": [
+       "ca-prob-4682"
+      ]
+     },
+     {
+      "event": "Revocation by signed writing or by personally informing the supervising provider",
+      "phase": "capable",
+      "citations": [
+       "ca-prob-4695"
+      ]
+     },
+     {
+      "event": "Dissolution or annulment of marriage to the agent",
+      "phase": "capable",
+      "citations": [
+       "ca-prob-4697"
+      ]
+     },
+     {
+      "event": "Post-death decisions end once anatomical gift, autopsy, remains disposition and records release are completed",
+      "phase": "deceased",
+      "citations": [
+       "ca-prob-4683"
+      ],
+      "unverified": true,
+      "note": "§4683(b) allows these post-death decisions; the statute does not state a separate end point."
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-hca-surrogate-priority",
+     "from": "active",
+     "to": "suspended",
+     "event": "Patient orally designates a surrogate under §4711, who outranks the agent for that treatment/stay or 60 days, whichever is shorter",
+     "conditions": [
+      "Designation does not revoke the agent unless the patient complies with §4695(a)"
+     ],
+     "citations": [
+      "ca-prob-4711"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-hca-postdeath",
+     "from": "active",
+     "to": "active",
+     "event": "Principal dies: agent may make anatomical gift, authorize autopsy, direct disposition of remains, release records",
+     "conditions": [
+      "Subject to limitations in the power of attorney"
+     ],
+     "citations": [
+      "ca-prob-4683",
+      "ca-hsc-7100",
+      "ca-hsc-7150-40"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Similar to UHCDA §2(c) (effective on incapacity; primary physician determines). California-specific points: the agent's authority continues after death for anatomical gifts, autopsy and disposition of remains (§4683(b)), and a health-care agent ranks first to control disposition of remains (H&S §7100(a)(1)). A surrogate the patient designates orally under §4711 temporarily outranks the agent.",
+   "citations": [
+    "ca-prob-4682",
+    "ca-prob-4658",
+    "ca-prob-4683",
+    "ca-prob-4711",
+    "ca-prob-4695",
+    "ca-prob-4697"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate",
+    "legally recognized health care decisionmaker",
+    "provider-selected surrogate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Patient lacks capacity with no §4711 surrogate, agent or conservator; the health care provider or facility designee picks an adult who has shown special care and concern",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-4712"
+     ]
+    },
+    "starts": {
+     "event": "Determination of incapacity by primary physician and selection by provider",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-4712",
+      "ca-prob-4658"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Patient recovers capacity (determination by primary physician)",
+      "phase": "capable",
+      "citations": [
+       "ca-prob-4658"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "Patient disqualifies the person",
+      "phase": "capable",
+      "citations": [
+       "ca-prob-4712"
+      ],
+      "unverified": true,
+      "note": "§4712(b) cross-references §4715 for exceptions; the retrieved §4715 text concerns disqualification by the patient."
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-surrogate-select",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Provider selects surrogate from spouse/domestic partner, adult child, parent, adult sibling, adult grandchild, adult relative or close friend",
+     "conditions": [
+      "No legally recognized decisionmaker under §4712(a)",
+      "Candidate is reasonably available and willing"
+     ],
+     "citations": [
+      "ca-prob-4712"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Unlike UHCDA §5's fixed priority list, California's §4712(b) (added 2023 by AB 2338) lists eligible classes but lets the provider choose among them, based on who has shown special care and concern. It is not a strict descending order. A surrogate the patient designates orally under §4711 is valid for up to 60 days.",
+   "citations": [
+    "ca-prob-4711",
+    "ca-prob-4712",
+    "ca-prob-4714"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "conservator of the person"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court appoints conservator of the person for an adult unable to provide for personal needs (clear and convincing evidence)",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-1801"
+     ]
+    },
+    "starts": {
+     "event": "Oath taken, bond filed if required, and letters issued; appointment not effective until letters issue",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-2300",
+      "ca-prob-2310"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of conservatee (subject to wind-up duties and continuing court jurisdiction over accounts)",
+      "phase": "deceased",
+      "citations": [
+       "ca-prob-1860",
+       "ca-prob-2630",
+       "ca-prob-2631"
+      ]
+     },
+     {
+      "event": "Court order terminating conservatorship",
+      "phase": "capable",
+      "citations": [
+       "ca-prob-1860"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-temp-conservator",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Temporary conservator appointed pending hearing",
+     "conditions": [
+      "Good cause shown"
+     ],
+     "citations": [
+      "ca-prob-2250"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-hc-exclusive",
+     "from": "active",
+     "to": "active",
+     "event": "Court adjudicates conservatee lacks capacity for health care decisions; conservator gains exclusive health care authority",
+     "conditions": [],
+     "citations": [
+      "ca-prob-2355"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-postdeath-expenses",
+     "from": "active",
+     "to": "terminated",
+     "event": "Conservatee dies; conservator may pay last-illness and disposition expenses, then accounts",
+     "conditions": [],
+     "citations": [
+      "ca-prob-2631",
+      "ca-prob-2630"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "In California the adult court-appointed 'guardian' is called a conservator (Prob. Code §1800 et seq.). Letters are what make the appointment effective (§2310). A conservator of the person ranks 7th for disposition of remains (H&S §7100(a)(7)).",
+   "citations": [
+    "ca-prob-1801",
+    "ca-prob-1860",
+    "ca-prob-2300",
+    "ca-prob-2310",
+    "ca-prob-2355",
+    "ca-prob-2631"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator of the estate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court appoints conservator of the estate for person substantially unable to manage finances or resist fraud or undue influence",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-1801"
+     ]
+    },
+    "starts": {
+     "event": "Letters issue after oath and bond",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-2300",
+      "ca-prob-2310"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of conservatee; custody duty continues until estate delivered to personal representative",
+      "phase": "deceased",
+      "citations": [
+       "ca-prob-1860",
+       "ca-prob-2467"
+      ]
+     },
+     {
+      "event": "Court termination order",
+      "phase": "capable",
+      "citations": [
+       "ca-prob-1860"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-ce-postdeath-custody",
+     "from": "active",
+     "to": "suspended",
+     "event": "Conservatee dies: powers limited to custody and conservation pending delivery to personal representative",
+     "conditions": [],
+     "citations": [
+      "ca-prob-2467"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-ce-small-estate-liquidate",
+     "from": "suspended",
+     "to": "terminated",
+     "event": "If remaining estate is within the §13100 limit, conservator may petition to liquidate and transfer under Division 8",
+     "conditions": [],
+     "citations": [
+      "ca-prob-2631"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-ce-revoke-poa",
+     "from": "active",
+     "to": "active",
+     "event": "Conservator obtains court order to revoke or modify principal's durable POA",
+     "conditions": [],
+     "citations": [
+      "ca-prob-4206"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The baseline conservator lane holds. California adds post-death custody duties (§2467), a streamlined path to liquidate small estates (§2631(b)), and a court-order requirement before a conservator can revoke a durable POA (§4206(b)). Conservators can also reach digital assets after a noticed hearing (§879.3, eff. 2025).",
+   "citations": [
+    "ca-prob-1801",
+    "ca-prob-1860",
+    "ca-prob-2467",
+    "ca-prob-2631",
+    "ca-prob-4206",
+    "ca-prob-879-3"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "personal representative"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Named in will; petition for probate filed any time after death (named executor who waits more than 30 days after knowledge may be held to have waived)",
+     "phase": "deceased",
+     "citations": [
+      "ca-prob-8000",
+      "ca-prob-8001"
+     ]
+    },
+    "starts": {
+     "event": "Letters issue after oath (appointment not effective until letters)",
+     "phase": "administration",
+     "citations": [
+      "ca-prob-8400",
+      "ca-prob-8403"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court order of discharge after final distribution and receipts",
+      "phase": "closed",
+      "citations": [
+       "ca-prob-12250"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-exec-preletters",
+     "from": "designated",
+     "to": "designated",
+     "event": "Before letters, named executor may pay funeral expenses and take necessary measures to preserve the estate",
+     "conditions": [],
+     "citations": [
+      "ca-prob-8400"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-exec-waiver",
+     "from": "designated",
+     "to": "terminated",
+     "event": "Named executor fails to petition within 30 days after knowledge of death and nomination without good cause",
+     "conditions": [
+      "Court may hold right to appointment waived"
+     ],
+     "citations": [
+      "ca-prob-8001"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Like the UPC, no power to administer exists until letters issue, but California has no UPC informal probate. §8000 allows a petition 'at any time' after death, with no UPC §3-108-style 3-year limit. A named executor has a 30-day waiver risk (§8001) and limited powers before appointment (§8400(b)).",
+   "citations": [
+    "ca-prob-8000",
+    "ca-prob-8001",
+    "ca-prob-8400",
+    "ca-prob-8403",
+    "ca-prob-12250",
+    "ca-prob-7000"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "administrator with the will annexed",
+    "special administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court appoints by statutory priority (spouse/domestic partner, children, ... public administrator, creditors)",
+     "phase": "deceased",
+     "citations": [
+      "ca-prob-8461",
+      "ca-prob-8440"
+     ]
+    },
+    "starts": {
+     "event": "Letters issue",
+     "phase": "administration",
+     "citations": [
+      "ca-prob-8400"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Discharge after final distribution",
+      "phase": "closed",
+      "citations": [
+       "ca-prob-12250"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-special-admin",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Court appoints special administrator when circumstances require immediate appointment",
+     "conditions": [
+      "Powers limited to preservation or as the order specifies"
+     ],
+     "citations": [
+      "ca-prob-8540"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "California's priority list (§8461) includes a domestic partner, a conservator of the estate who has filed a first account, and the public administrator. The special administrator (§8540) serves the role of the UPC special administrator.",
+   "citations": [
+    "ca-prob-8461",
+    "ca-prob-8440",
+    "ca-prob-8540",
+    "ca-prob-8400"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "successor of the decedent (Prob. Code §13100 affiant/declarant)"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Successor of decedent signs affidavit or declaration under penalty of perjury",
+     "phase": "deceased",
+     "citations": [
+      "ca-prob-13101"
+     ]
+    },
+    "starts": {
+     "event": "40 days have elapsed since death, no administration pending (or PR consents), and gross California real and personal property (excluding §13050 property) is within the cap for the date of death",
+     "phase": "deceased",
+     "citations": [
+      "ca-prob-13100",
+      "ca-prob-13101",
+      "ca-prob-13050"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Property collected/transferred; affiant remains answerable to a later-appointed personal representative or persons with superior right",
+      "phase": "closed",
+      "citations": [
+       "ca-prob-13100"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-sea-cap",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Affidavit delivered to holder with certified death certificate and the Judicial Council list of adjusted amounts",
+     "conditions": [
+      "Date of death before Apr. 1, 2022: $166,250",
+      "On or after Apr. 1, 2022 and before Apr. 1, 2025: $184,500",
+      "On or after Apr. 1, 2025: $208,850",
+      "Next adjustment Apr. 1, 2028"
+     ],
+     "citations": [
+      "ca-prob-13101",
+      "ca-prob-890",
+      "ca-jc-890-amounts"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-sea-realprop",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Real property affidavit filed no sooner than 6 months after death (separate cap: $69,625 for deaths on/after Apr. 1, 2025)",
+     "conditions": [],
+     "citations": [
+      "ca-prob-13200",
+      "ca-jc-890-amounts"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "California waits 40 days (UPC §3-1201: 30 days). The cap is tied to the date of death and adjusted every three years by the Judicial Council under §890. §13100's text still says $166,250, but §13101(g) applies the published adjusted amount for deaths on or after Apr. 1, 2022: $208,850 for deaths on or after Apr. 1, 2025. Revocable-trust assets, joint tenancy and some vehicles are excluded (§13050).",
+   "citations": [
+    "ca-prob-13100",
+    "ca-prob-13101",
+    "ca-prob-890",
+    "ca-jc-890-amounts",
+    "ca-prob-13050",
+    "ca-prob-13200"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Named in trust instrument, or vacancy filled per instrument, by trust company with beneficiary agreement, or by court",
+     "phase": "capable",
+     "citations": [
+      "ca-prob-15660"
+     ]
+    },
+    "starts": {
+     "event": "Per trust instrument (commonly settlor-trustee's incapacity or death); when no holder of the revocation power is competent, trustee must give beneficiaries notice and trust copy within 60 days",
+     "phase": "incapacitated",
+     "citations": [
+      "ca-prob-15800"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Trust terms, resignation/removal, or completion of distribution",
+      "phase": "closed",
+      "citations": [
+       "ca-prob-15660"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-trust-notice-death",
+     "from": "active",
+     "to": "active",
+     "event": "Settlor dies and trust becomes irrevocable: successor trustee serves §16061.7 notification within 60 days (120-day contest warning)",
+     "conditions": [],
+     "citations": [
+      "ca-prob-16061-7"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-trust-incompetent",
+     "from": "designated",
+     "to": "active",
+     "event": "Last holder of revocation power becomes incompetent (method in instrument or judicial determination); duties shift to beneficiaries and 60-day notice",
+     "conditions": [],
+     "citations": [
+      "ca-prob-15800"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "California is not a UTC state. §16061.7 requires a 60-day notice on the settlor's death that starts a 120-day contest period (compare UTC §813 and §604). §15800(b) adds duties when the last person who can revoke becomes incompetent. An attorney-in-fact cannot modify or revoke a trust unless the trust expressly allows it (§15401(c)).",
+   "citations": [
+    "ca-prob-15800",
+    "ca-prob-16061-7",
+    "ca-prob-15660",
+    "ca-prob-15401"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "User names designated recipient via a custodian's online tool",
+     "phase": "capable",
+     "citations": [
+      "ca-prob-873",
+      "ca-prob-871"
+     ]
+    }
+   },
+   "diff": "Same as RUFADAA §4: an online-tool direction that can be modified overrides a contrary will, trust or POA (§873(a)).",
+   "citations": [
+    "ca-prob-870",
+    "ca-prob-871",
+    "ca-prob-873"
+   ],
+   "differs": false
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "personal representative",
+    "trustee",
+    "agent",
+    "conservator (digital assets)"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Fiduciary gives custodian written request, death certificate (decedent), letters or §13101 small-estate affidavit or court order; content requires user consent or court direction",
+     "phase": "administration",
+     "citations": [
+      "ca-prob-876",
+      "ca-prob-877"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Fiduciary authority ends (e.g., discharge); custodian must comply within 60 days of a complete request",
+      "phase": "closed",
+      "citations": [
+       "ca-prob-881"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ca-t-dig-content-decedent",
+     "from": "designated",
+     "to": "active",
+     "event": "Custodian discloses content of deceased user's communications to PR",
+     "conditions": [
+      "Deceased user consented or court directs",
+      "Custodian may request court findings under §876(e)(3)"
+     ],
+     "citations": [
+      "ca-prob-876"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-dig-agent",
+     "from": "designated",
+     "to": "active",
+     "event": "Agent under POA obtains catalogue/other assets (general or specific authority) or content (express authority)",
+     "conditions": [
+      "Applies to POAs executed before, on, or after Jan. 1, 2025"
+     ],
+     "citations": [
+      "ca-prob-879-1",
+      "ca-prob-879-2",
+      "ca-prob-872"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-dig-conservator",
+     "from": "designated",
+     "to": "active",
+     "event": "Court grants conservator access to catalogue/non-content digital assets after noticed hearing",
+     "conditions": [],
+     "citations": [
+      "ca-prob-879-3"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-dig-terminate",
+     "from": "active",
+     "to": "terminated",
+     "event": "Fiduciary or §13101 affiant requests account termination",
+     "conditions": [
+      "Conservator needs court order authorizing termination"
+     ],
+     "citations": [
+      "ca-prob-880"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "California enacted RUFADAA in 2016 (AB 691) for decedents and trusts only. Agents under POAs and conservators were added effective Jan. 1, 2025 (SB 1458; §§879.1–879.3). No court order is required in every case: a personal representative gets content if the user consented or a court directs (§876), though a custodian may ask for court findings. A §13101 small-estate affiant counts as a personal representative's credential (§§876(c), 877(c)).",
+   "citations": [
+    "ca-prob-870",
+    "ca-prob-872",
+    "ca-prob-876",
+    "ca-prob-877",
+    "ca-prob-879-1",
+    "ca-prob-879-2",
+    "ca-prob-879-3",
+    "ca-prob-880",
+    "ca-prob-881"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "agent under power of attorney for health care (anatomical gift)"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "POA for health care or other record expressly permits agent to make anatomical gift",
+     "phase": "capable",
+     "citations": [
+      "ca-hsc-7150-15"
+     ]
+    },
+    "starts": {
+     "event": "Lifetime (if record permits) or at death as first-priority class member",
+     "phase": "deceased",
+     "citations": [
+      "ca-hsc-7150-40",
+      "ca-prob-4683"
+     ]
+    }
+   },
+   "diff": "Follows Revised UAGA §9's priority list (H&S §7150.40), adding domestic partners to the spouse class. California requires a 12-hour search before a coroner, medical examiner or hospital administrator may consent (§7150.40(a)(10)(B)). A donor's refusal, or the donor's membership in a religion that relies on prayer for healing, bars gifts by others (§7150.30).",
+   "citations": [
+    "ca-hsc-7150",
+    "ca-hsc-7150-15",
+    "ca-hsc-7150-40",
+    "ca-prob-4683"
+   ]
+  },
+  {
+   "role": "disposition-of-remains-agent",
+   "name": "Person with right to control disposition of remains",
+   "group": "remains",
+   "localNames": [
+    "agent under power of attorney for health care with right and duty of disposition"
+   ],
+   "summary": "The person who controls disposition of remains, the location and conditions of interment, and funeral arrangements, and who bears the duty and liability for disposition costs.",
+   "lane": {
+    "assigned": {
+     "event": "Principal names an agent in a power of attorney for health care (first priority); otherwise the right vests by statutory order. The decedent may also leave binding written directions (§7100.1)",
+     "phase": "capable",
+     "citations": [
+      "ca-hsc-7100",
+      "ca-prob-4683",
+      "ca-hsc-7100-1"
+     ]
+    },
+    "starts": {
+     "event": "Death of decedent",
+     "phase": "deceased",
+     "citations": [
+      "ca-hsc-7100"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Right relinquished to the next class if the holder fails to act or delegate within 7 days (10 days for a surviving spouse) or cannot be found",
+      "phase": "deceased",
+      "citations": [
+       "ca-hsc-7105"
+      ]
+     },
+     {
+      "event": "Disposition completed",
+      "phase": "administration",
+      "citations": [
+       "ca-hsc-7100"
+      ],
+      "unverified": true,
+      "note": "No explicit statutory end point; inferred from the nature of the right."
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No agent named"
+    },
+    {
+     "id": "designated",
+     "label": "Health care agent named"
+    },
+    {
+     "id": "active",
+     "label": "Right vested after death"
+    },
+    {
+     "id": "terminated",
+     "label": "Relinquished, passed, or disposition complete"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "ca-t-dor-vest",
+     "from": "designated",
+     "to": "active",
+     "event": "Death: right vests in first available class",
+     "conditions": [
+      "Order: (1) health care agent; (2) competent surviving spouse; (3) majority of adult children; (4) parents; (5) majority of adult siblings; (6) next degree of kinship; (7) conservator of person; (8) conservator of estate; (9) public administrator (sufficient assets)"
+     ],
+     "citations": [
+      "ca-hsc-7100"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-dor-lapse",
+     "from": "active",
+     "to": "terminated",
+     "event": "Holder fails to act/delegate within 7 days (10 days for spouse) or cannot be found; right passes to next class",
+     "conditions": [],
+     "citations": [
+      "ca-hsc-7105"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-dor-dispute",
+     "from": "active",
+     "to": "active",
+     "event": "Co-equal holders fail to agree within 7 days; court petition decides and sets alternates",
+     "conditions": [],
+     "citations": [
+      "ca-hsc-7105"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ca-t-dor-homicide",
+     "from": "active",
+     "to": "terminated",
+     "event": "Holder charged with murder or voluntary manslaughter of decedent; right passes (restored if charges dropped/acquitted)",
+     "conditions": [],
+     "citations": [
+      "ca-hsc-7100"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "New role. California has no separate 'designated agent for disposition' form. The agent is the health care agent under Prob. Code §4683(b)(3), who ranks first under H&S §7100(a)(1). Conservators rank after all kin.",
+   "citations": [
+    "ca-hsc-7100",
+    "ca-hsc-7100-1",
+    "ca-hsc-7105",
+    "ca-prob-4683"
+   ],
+   "canonical": "disposition-of-remains-agent"
+  }
+ ]
+}

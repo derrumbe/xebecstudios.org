@@ -1,0 +1,2132 @@
+{
+ "jurisdiction": "us-fl",
+ "name": "Florida",
+ "extends": "us-model",
+ "uniformActsAdopted": {
+  "UPOAA": {
+   "adopted": false,
+   "note": "Florida Power of Attorney Act, ch. 709 Part II (ch. 2011-210), a state act with UPOAA-like structure but material departures; formal UPOAA enactment status not verified on uniformlaws.org",
+   "citations": [
+    "fl-709-2101"
+   ],
+   "unverified": true
+  },
+  "UHCDA": {
+   "adopted": false,
+   "note": "Florida uses ch. 765 (health care advance directives; surrogate and proxy)",
+   "citations": [
+    "fl-765-202",
+    "fl-765-401"
+   ],
+   "unverified": true
+  },
+  "UGCOPAA": {
+   "adopted": false,
+   "note": "Florida guardianship is ch. 744; guardian advocates ch. 393",
+   "citations": [
+    "fl-744-345"
+   ],
+   "unverified": true
+  },
+  "UPC": {
+   "adopted": false,
+   "note": "Florida Probate Code (chs. 731-735) is state-specific; UPC enactment status not verified",
+   "citations": [
+    "fl-733-301"
+   ],
+   "unverified": true
+  },
+  "UTC": {
+   "adopted": "based-on",
+   "note": "Florida Trust Code, ch. 736, uses UTC section numbering; enactment status not verified on uniformlaws.org",
+   "citations": [
+    "fl-736-0101"
+   ],
+   "unverified": true
+  },
+  "RUFADAA": {
+   "adopted": "based-on",
+   "note": "Florida Fiduciary Access to Digital Assets Act, ch. 740 (ch. 2016-46), tracks RUFADAA text with Florida modifications",
+   "citations": [
+    "fl-740-001",
+    "fl-740-003"
+   ],
+   "unverified": true
+  },
+  "RUAGA": {
+   "adopted": "unverified",
+   "note": "Anatomical gifts are in ch. 765 Part V; priority list differs from Revised UAGA §9",
+   "citations": [
+    "fl-765-512"
+   ],
+   "unverified": true
+  }
+ },
+ "citations": [
+  {
+   "id": "fl-709-2101",
+   "cite": "Fla. Stat. §709.2101 (2026)",
+   "title": "Short title (Florida Power of Attorney Act)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2101.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This part may be cited as the “Florida Power of Attorney Act.”"
+  },
+  {
+   "id": "fl-709-2104",
+   "cite": "Fla. Stat. §709.2104 (2026)",
+   "title": "Durable power of attorney",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2104.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a power of attorney is durable if it contains the words: “This durable power of attorney is not terminated by subsequent incapacity of the principal"
+  },
+  {
+   "id": "fl-709-2105",
+   "cite": "Fla. Stat. §709.2105 (2026)",
+   "title": "Qualifications of agent; execution of power of attorney",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2105.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A power of attorney must be signed by the principal and by two subscribing witnesses and be acknowledged by the principal before a notary public"
+  },
+  {
+   "id": "fl-709-2106",
+   "cite": "Fla. Stat. §709.2106 (2026)",
+   "title": "Validity of power of attorney",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2106.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A deployment-contingent power of attorney may be signed in advance, is effective upon the deployment of the principal"
+  },
+  {
+   "id": "fl-709-2108",
+   "cite": "Fla. Stat. §709.2108 (2026)",
+   "title": "When power of attorney is effective",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2108.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a power of attorney is ineffective if the power of attorney provides that it is to become effective at a future date or upon"
+  },
+  {
+   "id": "fl-709-2108-2",
+   "cite": "Fla. Stat. §709.2108(2) (2026)",
+   "title": "When power of attorney is effective (pre-October 1, 2011 springing powers)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2108.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the power of attorney is exercisable upon the delivery of the affidavit of a physician who has primary responsibility for the treatment and care"
+  },
+  {
+   "id": "fl-709-2108-1",
+   "cite": "Fla. Stat. §709.2108(1) (2026)",
+   "title": "When power of attorney is effective (general rule)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2108.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Except as provided in this section, a power of attorney is exercisable when executed."
+  },
+  {
+   "id": "fl-709-2109",
+   "cite": "Fla. Stat. §709.2109 (2026)",
+   "title": "Termination or suspension of power of attorney or agent’s authority",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2109.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The principal is adjudicated totally or partially incapacitated by a court, unless the court determines that certain authority granted by the power of attorney"
+  },
+  {
+   "id": "fl-709-2109-1a",
+   "cite": "Fla. Stat. §709.2109(1)(a)-(b) (2026)",
+   "title": "Termination on death; nondurable power terminates on incapacity",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2109.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The principal dies; (b) The principal becomes incapacitated, if the power of attorney is not durable;"
+  },
+  {
+   "id": "fl-709-2109-2",
+   "cite": "Fla. Stat. §709.2109(2) (2026)",
+   "title": "Termination of agent’s authority",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2109.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An action is filed for the dissolution or annulment of the agent’s marriage to the principal or for their legal separation, unless the power"
+  },
+  {
+   "id": "fl-709-2109-3",
+   "cite": "Fla. Stat. §709.2109(3) (2026)",
+   "title": "Suspension on initiation of incapacity proceedings",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2109.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority granted under the power of attorney is suspended until the petition is dismissed or withdrawn or the court enters an order authorizing"
+  },
+  {
+   "id": "fl-709-2109-3b",
+   "cite": "Fla. Stat. §709.2109(3)(b) (2026)",
+   "title": "Incapacity proceeding does not affect health care authority",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2109.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a proceeding to determine incapacity does not affect the authority of the agent to make health care decisions for the principal"
+  },
+  {
+   "id": "fl-709-2109-4",
+   "cite": "Fla. Stat. §709.2109(4) (2026)",
+   "title": "Good-faith acts without knowledge of termination",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2109.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is not effective as to an agent who, without knowledge of the termination or suspension, acts in good faith under the power of attorney."
+  },
+  {
+   "id": "fl-709-2110",
+   "cite": "Fla. Stat. §709.2110 (2026)",
+   "title": "Revocation of power of attorney",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2110.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A principal may revoke a power of attorney by expressing the revocation in a subsequently executed power of attorney or other writing signed by"
+  },
+  {
+   "id": "fl-709-2119",
+   "cite": "Fla. Stat. §709.2119 (2026)",
+   "title": "Acceptance of and reliance upon power of attorney",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2119.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A third person may require: (a) An agent to execute an affidavit stating where the principal is domiciled; that the principal is not deceased;"
+  },
+  {
+   "id": "fl-709-2120",
+   "cite": "Fla. Stat. §709.2120 (2026)",
+   "title": "Rejecting power of attorney",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2120.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Four days, excluding Saturdays, Sundays, and legal holidays, are presumed to be a reasonable time for a financial institution or broker-dealer to accept or reject"
+  },
+  {
+   "id": "fl-709-2201",
+   "cite": "Fla. Stat. §709.2201 (2026)",
+   "title": "Authority of agent",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2201.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "General provisions in a power of attorney which do not identify the specific authority granted, such as provisions purporting to give the agent authority"
+  },
+  {
+   "id": "fl-709-2201-2c",
+   "cite": "Fla. Stat. §709.2201(2)(c) (2026)",
+   "title": "Authority of agent (health care decisions)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0709/Sections/0709.2201.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If such authority is specifically granted in a durable power of attorney, make all health care decisions on behalf of the principal"
+  },
+  {
+   "id": "fl-744-3203",
+   "cite": "Fla. Stat. §744.3203 (2026)",
+   "title": "Suspension of power of attorney before incapacity determination",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.3203.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority granted under an alleged incapacitated person’s power of attorney to a parent, spouse, child, or grandchild is suspended when the petitioner files"
+  },
+  {
+   "id": "fl-765-101-21",
+   "cite": "Fla. Stat. §765.101(21) (2026)",
+   "title": "Definitions: “Surrogate”",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.101.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The principal may stipulate whether the authority of the surrogate to make health care decisions or to receive health information is exercisable immediately"
+  },
+  {
+   "id": "fl-765-104",
+   "cite": "Fla. Stat. §765.104 (2026)",
+   "title": "Amendment or revocation",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.104.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "By means of an oral expression of intent to amend or revoke;"
+  },
+  {
+   "id": "fl-765-104-2",
+   "cite": "Fla. Stat. §765.104(2) (2026)",
+   "title": "Amendment or revocation (dissolution of marriage)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.104.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the dissolution or annulment of marriage of the principal revokes the designation of the principal’s former spouse as a surrogate."
+  },
+  {
+   "id": "fl-765-104-4",
+   "cite": "Fla. Stat. §765.104(4) (2026)",
+   "title": "Amendment or revocation (medical proxy)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.104.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may amend or revoke the recognition of the medical proxy and any uncompleted decision made by that proxy."
+  },
+  {
+   "id": "fl-765-202",
+   "cite": "Fla. Stat. §765.202 (2026)",
+   "title": "Designation of a health care surrogate",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.202.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall be signed by the principal in the presence of two subscribing adult witnesses."
+  },
+  {
+   "id": "fl-765-202-2",
+   "cite": "Fla. Stat. §765.202(2) (2026)",
+   "title": "Designation of a health care surrogate (witness restrictions)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.202.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "At least one person who acts as a witness shall be neither the principal’s spouse nor blood relative."
+  },
+  {
+   "id": "fl-765-202-6",
+   "cite": "Fla. Stat. §765.202(6) (2026)",
+   "title": "Designation of a health care surrogate (immediately exercisable authority)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.202.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is exercisable immediately without the necessity for a determination of incapacity as provided in s. 765.204 ."
+  },
+  {
+   "id": "fl-765-202-7",
+   "cite": "Fla. Stat. §765.202(7) (2026)",
+   "title": "Designation of a health care surrogate (duration)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.202.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Unless the document states a time of termination, the designation shall remain in effect until revoked by the principal."
+  },
+  {
+   "id": "fl-765-203",
+   "cite": "Fla. Stat. §765.203 (2026)",
+   "title": "Suggested form of designation",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.203.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "MY HEALTH CARE SURROGATE’S AUTHORITY BECOMES EFFECTIVE WHEN MY PRIMARY PHYSICIAN DETERMINES THAT I AM UNABLE TO MAKE MY OWN HEALTH CARE DECISIONS"
+  },
+  {
+   "id": "fl-765-204-2",
+   "cite": "Fla. Stat. §765.204(2) (2026)",
+   "title": "Capacity of principal; procedure (physician evaluation)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.204.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If the evaluating physician has a question as to whether the principal lacks capacity, another physician shall also evaluate the principal’s capacity"
+  },
+  {
+   "id": "fl-765-204-3",
+   "cite": "Fla. Stat. §765.204(3) (2026)",
+   "title": "Capacity of principal; procedure (commencement and cessation of surrogate authority)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.204.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority of the surrogate shall cease, but recommences if the principal subsequently loses capacity as determined pursuant to this section."
+  },
+  {
+   "id": "fl-765-205",
+   "cite": "Fla. Stat. §765.205 (2026)",
+   "title": "Responsibility of the surrogate",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.205.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the surrogate shall continue to make health care decisions for the principal, unless the court has modified or revoked the authority of the surrogate"
+  },
+  {
+   "id": "fl-765-401",
+   "cite": "Fla. Stat. §765.401 (2026)",
+   "title": "The proxy",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.401.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "health care decisions may be made for the patient by any of the following individuals, in the following order of priority"
+  },
+  {
+   "id": "fl-765-401-1h",
+   "cite": "Fla. Stat. §765.401(1)(h) (2026)",
+   "title": "The proxy (clinical social worker)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.401.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A clinical social worker licensed pursuant to chapter 491, or who is a graduate of a court-approved guardianship program."
+  },
+  {
+   "id": "fl-765-401-3",
+   "cite": "Fla. Stat. §765.401(3) (2026)",
+   "title": "The proxy (life-prolonging procedures standard)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.401.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a proxy’s decision to withhold or withdraw life-prolonging procedures must be supported by clear and convincing evidence"
+  },
+  {
+   "id": "fl-765-512",
+   "cite": "Fla. Stat. §765.512 (2026)",
+   "title": "Persons who may make an anatomical gift",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.512.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A family member, guardian, representative ad litem, or health care surrogate may not modify, deny, or prevent a donor’s wish or intent to make"
+  },
+  {
+   "id": "fl-765-512-2",
+   "cite": "Fla. Stat. §765.512(2) (2026)",
+   "title": "Persons who may make an anatomical gift (health care surrogate)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.512.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A health care surrogate designated by the decedent pursuant to part II of this chapter may give all or any part of the decedent’s body"
+  },
+  {
+   "id": "fl-765-512-3",
+   "cite": "Fla. Stat. §765.512(3) (2026)",
+   "title": "Persons who may make an anatomical gift (priority classes)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.512.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If the decedent has not made an anatomical gift or designated a health surrogate, a member of one of the classes of persons listed below"
+  },
+  {
+   "id": "fl-765-512-5",
+   "cite": "Fla. Stat. §765.512(5) (2026)",
+   "title": "Persons who may make an anatomical gift (timing)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0765/Sections/0765.512.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The person authorized by subsection (3) may make the anatomical gift after the decedent’s death or immediately before the decedent’s death."
+  },
+  {
+   "id": "fl-744-3031",
+   "cite": "Fla. Stat. §744.3031 (2026)",
+   "title": "Emergency temporary guardianship",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.3031.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The authority of an emergency temporary guardian expires 90 days after the date of appointment or when a guardian is appointed, whichever occurs first."
+  },
+  {
+   "id": "fl-744-3045",
+   "cite": "Fla. Stat. §744.3045 (2026)",
+   "title": "Preneed guardian",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.3045.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The preneed guardian shall assume the duties of guardian immediately upon an adjudication of incapacity."
+  },
+  {
+   "id": "fl-744-3045-7",
+   "cite": "Fla. Stat. §744.3045(7) (2026)",
+   "title": "Preneed guardian (confirmation)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.3045.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Within 20 days after assumption of duties as guardian, a preneed guardian shall petition for confirmation of appointment."
+  },
+  {
+   "id": "fl-744-309",
+   "cite": "Fla. Stat. §744.309 (2026)",
+   "title": "Who may be appointed guardian of a resident ward",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.309.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A nonresident of the state may serve as guardian of a resident ward if he or she is: (a) Related by lineal consanguinity to"
+  },
+  {
+   "id": "fl-744-3115",
+   "cite": "Fla. Stat. §744.3115 (2026)",
+   "title": "Advance directives for health care",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.3115.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court shall specify in its order and letters of guardianship what authority, if any, the guardian shall exercise over the ward with regard"
+  },
+  {
+   "id": "fl-744-331",
+   "cite": "Fla. Stat. §744.331 (2026)",
+   "title": "Procedures to determine incapacity",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.331.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If, after making findings of fact on the basis of clear and convincing evidence, the court finds that a person is incapacitated"
+  },
+  {
+   "id": "fl-744-345",
+   "cite": "Fla. Stat. §744.345 (2026)",
+   "title": "Letters of guardianship",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.345.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The letters must state whether the guardianship is plenary or limited, and, if limited, the letters must state the powers and duties of the guardian."
+  },
+  {
+   "id": "fl-744-464",
+   "cite": "Fla. Stat. §744.464 (2026)",
+   "title": "Restoration to capacity",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.464.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Any interested person, including the ward, may file a suggestion of capacity."
+  },
+  {
+   "id": "fl-744-521",
+   "cite": "Fla. Stat. §744.521 (2026)",
+   "title": "Termination of guardianship",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.521.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A guardian of the person is discharged without further proceeding upon filing a certified copy of the ward’s death certificate."
+  },
+  {
+   "id": "fl-744-527",
+   "cite": "Fla. Stat. §744.527 (2026)",
+   "title": "Final reports and application for discharge; hearing",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0744/Sections/0744.527.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If the ward has died, the guardian must file a final report with the court no later than 45 days after he or she"
+  },
+  {
+   "id": "fl-393-12",
+   "cite": "Fla. Stat. §393.12 (2026)",
+   "title": "Capacity; appointment of guardian advocate",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0393/Sections/0393.12.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A circuit court may appoint a guardian advocate, without an adjudication of incapacity, for a person with developmental disabilities"
+  },
+  {
+   "id": "fl-732-804",
+   "cite": "Fla. Stat. §732.804 (2026)",
+   "title": "Provisions relating to disposition of the body",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0732/Sections/0732.804.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Before issuance of letters, any person may carry out written instructions of the decedent relating to the decedent’s body and funeral and burial arrangements."
+  },
+  {
+   "id": "fl-733-301",
+   "cite": "Fla. Stat. §733.301 (2026)",
+   "title": "Preference in appointment of personal representative",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.301.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The personal representative, or his or her successor, nominated by the will or pursuant to a power conferred in the will."
+  },
+  {
+   "id": "fl-733-301-1b",
+   "cite": "Fla. Stat. §733.301(1)(b) (2026)",
+   "title": "Preference in appointment of personal representative (intestate)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.301.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "In intestate estates: 1. The surviving spouse. 2. The person selected by a majority in interest of the heirs. 3. The heir nearest in degree."
+  },
+  {
+   "id": "fl-733-301-5",
+   "cite": "Fla. Stat. §733.301(5) (2026)",
+   "title": "Preference in appointment of personal representative (later-admitted will)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.301.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if any will is subsequently admitted to probate, the letters shall be revoked and new letters granted."
+  },
+  {
+   "id": "fl-733-302",
+   "cite": "Fla. Stat. §733.302 (2026)",
+   "title": "Who may be appointed personal representative",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.302.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "any person who is sui juris and is a resident of Florida at the time of the death of the person whose estate is"
+  },
+  {
+   "id": "fl-733-304",
+   "cite": "Fla. Stat. §733.304 (2026)",
+   "title": "Nonresidents",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.304.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A person who is not domiciled in the state cannot qualify as personal representative unless the person is:"
+  },
+  {
+   "id": "fl-733-307",
+   "cite": "Fla. Stat. §733.307 (2026)",
+   "title": "Succession of administration",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.307.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "On the death of a sole or surviving personal representative, the court shall appoint a successor personal representative to complete the administration of the estate."
+  },
+  {
+   "id": "fl-733-502",
+   "cite": "Fla. Stat. §733.502 (2026)",
+   "title": "Resignation of personal representative",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.502.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "After notice to all interested persons, the court may accept the resignation and then revoke the letters of the resigning personal representative"
+  },
+  {
+   "id": "fl-733-601",
+   "cite": "Fla. Stat. §733.601 (2026)",
+   "title": "Time of accrual of duties and powers",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.601.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The duties and powers of a personal representative commence upon appointment. The powers of a personal representative relate back in time"
+  },
+  {
+   "id": "fl-733-901",
+   "cite": "Fla. Stat. §733.901 (2026)",
+   "title": "Final discharge",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.901.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "After administration has been completed, the personal representative shall be discharged."
+  },
+  {
+   "id": "fl-735-201",
+   "cite": "Fla. Stat. §735.201 (2026)",
+   "title": "Summary administration; nature of proceedings",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0735/Sections/0735.201.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not exceed $150,000 or that the decedent has been dead for more than 2 years."
+  },
+  {
+   "id": "fl-735-206",
+   "cite": "Fla. Stat. §735.206 (2026)",
+   "title": "Summary administration distribution",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0735/Sections/0735.206.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The court may enter an order of summary administration allowing immediate distribution of the assets to the persons entitled to them."
+  },
+  {
+   "id": "fl-735-301",
+   "cite": "Fla. Stat. §735.301 (2026)",
+   "title": "Disposition without administration",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0735/Sections/0735.301.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court, by letter or other writing under the seal of the court, may authorize the payment, transfer, or disposition of the personal property"
+  },
+  {
+   "id": "fl-735-303",
+   "cite": "Fla. Stat. §735.303 (2026)",
+   "title": "Payment to successor without court proceedings",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0735/Sections/0735.303.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The financial institution may not make such payment earlier than 6 months after the date of the decedent’s death."
+  },
+  {
+   "id": "fl-735-303-2",
+   "cite": "Fla. Stat. §735.303(2) (2026)",
+   "title": "Payment to successor without court proceedings (amount)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0735/Sections/0735.303.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the total amount of the combined funds in the qualified accounts at the financial institution do not exceed an aggregate total of $2,000."
+  },
+  {
+   "id": "fl-laws-2026-57",
+   "cite": "Ch. 2026-57, Laws of Fla. (CS/HB 1337)",
+   "title": "An act relating to estates (amends ss. 735.201, 735.302, 735.303, 735.304)",
+   "url": "https://laws.flrules.org/2026/57",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This act shall take effect July 1, 2026."
+  },
+  {
+   "id": "fl-740-001",
+   "cite": "Fla. Stat. §740.001 (2026)",
+   "title": "Short title",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.001.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "fl-740-002",
+   "cite": "Fla. Stat. §740.002(8),(14) (2026)",
+   "title": "Definitions (designated recipient; guardian)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.002.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "as well as a person appointed by the court as an emergency temporary guardian of the property."
+  },
+  {
+   "id": "fl-740-003",
+   "cite": "Fla. Stat. §740.003 (2026)",
+   "title": "User direction for disclosure of digital assets",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.003.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+  },
+  {
+   "id": "fl-740-006",
+   "cite": "Fla. Stat. §740.006 (2026)",
+   "title": "Disclosure of content of electronic communications of deceased user",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.006.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the order authorizing a curator or administrator ad litem, the order of summary administration issued pursuant to chapter 735, or other court order;"
+  },
+  {
+   "id": "fl-740-007",
+   "cite": "Fla. Stat. §740.007 (2026)",
+   "title": "Disclosure of other digital assets of deceased user",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.007.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Unless a user prohibited disclosure of digital assets or the court directs otherwise, a custodian shall disclose to the personal representative of the estate"
+  },
+  {
+   "id": "fl-740-008",
+   "cite": "Fla. Stat. §740.008 (2026)",
+   "title": "Disclosure of content of electronic communications of principal",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.008.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "To the extent a power of attorney expressly grants an agent authority over the content of electronic communications sent or received by the principal"
+  },
+  {
+   "id": "fl-740-04",
+   "cite": "Fla. Stat. §740.04 (2026)",
+   "title": "Disclosure of digital assets to guardian of ward",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.04.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "After an opportunity for a hearing under chapter 744, the court may grant a guardian access to the digital assets of a ward."
+  },
+  {
+   "id": "fl-740-05",
+   "cite": "Fla. Stat. §740.05 (2026)",
+   "title": "Fiduciary duty and authority",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.05.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A fiduciary of a user may request a custodian to terminate the user’s account."
+  },
+  {
+   "id": "fl-740-06",
+   "cite": "Fla. Stat. §740.06 (2026)",
+   "title": "Custodian compliance and immunity",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.06.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Not later than 60 days after receipt of the information required under ss. 740.006 - 740.04 , a custodian shall comply with a request"
+  },
+  {
+   "id": "fl-740-08",
+   "cite": "Fla. Stat. §740.08 (2026)",
+   "title": "Applicability",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0740/Sections/0740.08.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This chapter applies to a custodian if the user resides in this state or resided in this state at the time of the user’s death."
+  },
+  {
+   "id": "fl-736-0101",
+   "cite": "Fla. Stat. §736.0101 (2026)",
+   "title": "Short title (Florida Trust Code)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0736/Sections/0736.0101.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This chapter may be cited as the “Florida Trust Code”"
+  },
+  {
+   "id": "fl-736-0701",
+   "cite": "Fla. Stat. §736.0701 (2026)",
+   "title": "Accepting or declining trusteeship",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0736/Sections/0736.0701.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A designated trustee who does not accept the trusteeship within a reasonable time after knowing of the designation is deemed to have declined the trusteeship."
+  },
+  {
+   "id": "fl-736-0704",
+   "cite": "Fla. Stat. §736.0704 (2026)",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0736/Sections/0736.0704.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "By a person appointed by unanimous agreement of the qualified beneficiaries."
+  },
+  {
+   "id": "fl-736-0704-1f",
+   "cite": "Fla. Stat. §736.0704(1)(f) (2026)",
+   "title": "Vacancy in trusteeship (adjudicated incapacity)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0736/Sections/0736.0704.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A trustee is adjudicated to be incapacitated."
+  },
+  {
+   "id": "fl-736-0705",
+   "cite": "Fla. Stat. §736.0705 (2026)",
+   "title": "Resignation of trustee",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0736/Sections/0736.0705.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Upon at least 30 days’ notice to the qualified beneficiaries, the settlor, if living, and all cotrustees;"
+  },
+  {
+   "id": "fl-736-0706",
+   "cite": "Fla. Stat. §736.0706 (2026)",
+   "title": "Removal of trustee",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0736/Sections/0736.0706.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The settlor, a cotrustee, or a beneficiary may request the court to remove a trustee"
+  },
+  {
+   "id": "fl-736-0707",
+   "cite": "Fla. Stat. §736.0707 (2026)",
+   "title": "Delivery of property by former trustee",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0736/Sections/0736.0707.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a trustee who has resigned or been removed has the duties of a trustee and the powers necessary to protect the trust property."
+  },
+  {
+   "id": "fl-497-005-43",
+   "cite": "Fla. Stat. §497.005(43) (2026)",
+   "title": "Definitions: “Legally authorized person”",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0497/Sections/0497.005.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "“Legally authorized person” means, in the priority listed: 1. The decedent, when written inter vivos authorizations and directions are provided by the decedent;"
+  },
+  {
+   "id": "fl-497-005-43b",
+   "cite": "Fla. Stat. §497.005(43)(b) (2026)",
+   "title": "Definitions: “Legally authorized person” (fallback persons; disqualification)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0497/Sections/0497.005.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the funeral establishment shall rely upon the authorization of any one legally authorized person of that class"
+  },
+  {
+   "id": "fl-497-005-43dq",
+   "cite": "Fla. Stat. §497.005(43)(b) (2026)",
+   "title": "Definitions: “Legally authorized person” (disqualification)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0497/Sections/0497.005.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "No person who has been arrested for committing against the deceased an act of domestic violence as defined in s. 741.28"
+  },
+  {
+   "id": "fl-497-607",
+   "cite": "Fla. Stat. §497.607 (2026)",
+   "title": "Cremation; procedure required; disposal permitted after 90 days where no direction provided",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0497/Sections/0497.607.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A cremation may not be performed until a legally authorized person gives written authorization"
+  },
+  {
+   "id": "fl-497-607-2",
+   "cite": "Fla. Stat. §497.607(2) (2026)",
+   "title": "Cremation (division of cremated remains)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0497/Sections/0497.607.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A dispute regarding the division of cremated remains shall be resolved by a court of competent jurisdiction."
+  },
+  {
+   "id": "fl-497-607-3",
+   "cite": "Fla. Stat. §497.607(3)(a) (2026)",
+   "title": "Cremation (unclaimed cremated remains)",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0497/Sections/0497.607.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if after 90 days from the time of cremation the cremated remains have not been claimed, the funeral or direct disposal establishment may dispose"
+  },
+  {
+   "id": "fl-406-50",
+   "cite": "Fla. Stat. §406.50 (2026)",
+   "title": "Unclaimed remains; disposition, procedure",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0406/Sections/0406.50.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "When no family exists or is available, a funeral director licensed under chapter 497 may assume the responsibility of a legally authorized person"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent",
+    "attorney in fact"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs before two subscribing witnesses and acknowledges before a notary; power is durable only if it contains the statutory durability words or similar words",
+     "phase": "capable",
+     "citations": [
+      "fl-709-2105",
+      "fl-709-2104"
+     ]
+    },
+    "starts": {
+     "event": "Exercisable when executed (post-10/1/2011 powers cannot be springing)",
+     "phase": "capable",
+     "citations": [
+      "fl-709-2108-1",
+      "fl-709-2108"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "fl-709-2109-1a"
+      ]
+     },
+     {
+      "event": "Court adjudicates principal totally or partially incapacitated, unless the court preserves specific authority",
+      "phase": "incapacitated",
+      "citations": [
+       "fl-709-2109"
+      ]
+     },
+     {
+      "event": "Revocation by later power of attorney or other signed writing",
+      "phase": "capable",
+      "citations": [
+       "fl-709-2110"
+      ]
+     },
+     {
+      "event": "Filing of action for dissolution, annulment or legal separation where agent is principal's spouse (unless POA provides otherwise)",
+      "phase": "capable",
+      "citations": [
+       "fl-709-2109-2"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-sign",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Principal signs with two witnesses and notary acknowledgment",
+     "conditions": [
+      "Agent is a natural person 18+ or a Florida trust-powers financial institution",
+      "Durability words present, otherwise the power is nondurable"
+     ],
+     "citations": [
+      "fl-709-2105",
+      "fl-709-2104"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-activate",
+     "from": "designated",
+     "to": "active",
+     "event": "Power is exercisable on execution",
+     "conditions": [
+      "No springing condition (a post-10/1/2011 conditional power is ineffective)"
+     ],
+     "citations": [
+      "fl-709-2108-1",
+      "fl-709-2108"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-suspend-incapacity-petition",
+     "from": "active",
+     "to": "suspended",
+     "event": "Any person initiates judicial proceedings to determine principal's incapacity or to appoint a guardian advocate",
+     "conditions": [
+      "If agent is principal's parent, spouse, child or grandchild, suspension requires a verified motion under §744.3203",
+      "Health care decision authority is not suspended unless court orders"
+     ],
+     "citations": [
+      "fl-709-2109-3",
+      "fl-744-3203",
+      "fl-709-2109-3b"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-resume",
+     "from": "suspended",
+     "to": "active",
+     "event": "Petition dismissed or withdrawn, or court order authorizes agent to exercise powers",
+     "conditions": [],
+     "citations": [
+      "fl-709-2109-3"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-terminate-adjudication",
+     "from": "suspended",
+     "to": "terminated",
+     "event": "Principal adjudicated totally or partially incapacitated",
+     "conditions": [
+      "Unless court determines certain authority remains exercisable by the agent"
+     ],
+     "citations": [
+      "fl-709-2109"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-terminate-death",
+     "from": "active",
+     "to": "terminated",
+     "event": "Principal dies",
+     "conditions": [
+      "Good-faith acts by an agent without knowledge of the termination bind the principal's successors"
+     ],
+     "citations": [
+      "fl-709-2109-1a",
+      "fl-709-2109-4"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Differs from UPOAA: (1) a power is durable only if it contains durability language (UPOAA §104 makes durability the default); (2) execution requires two witnesses plus notary; (3) new springing powers are void (see financial-poa-springing); (4) filing an incapacity/guardian-advocate petition suspends the power, and adjudication of incapacity terminates it unless the court preserves authority (UPOAA does not terminate on guardianship); (5) general 'all acts' grants confer no authority, each power must be specifically granted; (6) financial institutions presumptively have 4 business days to accept or reject for banking/investment transactions, and may demand an agent affidavit.",
+   "citations": [
+    "fl-709-2101",
+    "fl-709-2104",
+    "fl-709-2105",
+    "fl-709-2108-1",
+    "fl-709-2109",
+    "fl-709-2109-3",
+    "fl-744-3203",
+    "fl-709-2110",
+    "fl-709-2201",
+    "fl-709-2119",
+    "fl-709-2120"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal becomes incapacitated (power lacks durability language)",
+      "phase": "incapacitated",
+      "citations": [
+       "fl-709-2109-1a"
+      ]
+     },
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "fl-709-2109-1a"
+      ]
+     },
+     {
+      "event": "Revocation by signed writing",
+      "phase": "capable",
+      "citations": [
+       "fl-709-2110"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-terminate-incapacity",
+     "from": "active",
+     "to": "terminated",
+     "event": "Principal becomes incapacitated",
+     "conditions": [
+      "Power does not contain the §709.2104 durability words or similar words"
+     ],
+     "citations": [
+      "fl-709-2109-1a",
+      "fl-709-2104"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "In Florida nondurable is the default: any power of attorney without the §709.2104 durability language ends when the principal becomes incapacitated. Under UPOAA §104 the default is the reverse.",
+   "citations": [
+    "fl-709-2104",
+    "fl-709-2109-1a"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "conditional power of attorney (pre-October 1, 2011 only)"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Only powers executed before October 1, 2011 may be conditioned on incapacity; a power executed on or after that date that is to become effective at a future date or event is ineffective (exception: military deployment-contingent power)",
+     "phase": "capable",
+     "citations": [
+      "fl-709-2108",
+      "fl-709-2106"
+     ]
+    },
+    "starts": {
+     "event": "Pre-10/1/2011 power: delivery of an affidavit of the principal's primary physician stating the principal lacks capacity to manage property",
+     "phase": "incapacitated",
+     "citations": [
+      "fl-709-2108-2"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "t-sign",
+     "from": "not_designated",
+     "to": "terminated",
+     "event": "Principal executes a power conditioned on a future date, event or contingency on or after October 1, 2011",
+     "conditions": [
+      "Power is ineffective under §709.2108(3)",
+      "Exception: deployment-contingent military power under §709.2106(4)"
+     ],
+     "citations": [
+      "fl-709-2108",
+      "fl-709-2106"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-activate",
+     "from": "designated",
+     "to": "active",
+     "event": "Physician affidavit delivered (only for powers executed before 10/1/2011 not already exercisable)",
+     "conditions": [
+      "Physician licensed under ch. 458 or 459",
+      "Primary physician responsible for principal's care",
+      "States belief principal lacks capacity to manage property"
+     ],
+     "citations": [
+      "fl-709-2108-2"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Florida bars new springing powers. Section 709.2108(3) makes a power ineffective if it is to become effective at a future date or on a future event, with exceptions only for legacy pre-October 1, 2011 powers (activated by physician affidavit) and military deployment-contingent powers. UPOAA §109 permits springing powers.",
+   "citations": [
+    "fl-709-2108",
+    "fl-709-2108-2",
+    "fl-709-2106"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care surrogate",
+    "alternate surrogate",
+    "agent under durable power of attorney with health care authority"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs written designation before two subscribing adult witnesses; surrogate may not witness and one witness must be neither spouse nor blood relative",
+     "phase": "capable",
+     "citations": [
+      "fl-765-202",
+      "fl-765-202-2"
+     ]
+    },
+    "starts": {
+     "event": "Primary or attending physician determines principal lacks capacity and enters evaluation in record (second physician if in question); or immediately if the document so stipulates",
+     "phase": "incapacitated",
+     "citations": [
+      "fl-765-204-2",
+      "fl-765-204-3",
+      "fl-765-202-6",
+      "fl-765-101-21",
+      "fl-765-203"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Physician determines principal regained capacity (authority ceases but recommences on later incapacity; not applicable to immediately exercisable authority)",
+      "phase": "capable",
+      "citations": [
+       "fl-765-204-3"
+      ]
+     },
+     {
+      "event": "Revocation by signed writing, destruction, oral expression, or materially different later directive; effective when communicated",
+      "phase": "capable",
+      "citations": [
+       "fl-765-104"
+      ]
+     },
+     {
+      "event": "Dissolution or annulment of marriage revokes designation of former spouse",
+      "phase": "capable",
+      "citations": [
+       "fl-765-104-2"
+      ]
+     },
+     {
+      "event": "Court in guardianship modifies or revokes surrogate authority",
+      "phase": "incapacitated",
+      "citations": [
+       "fl-744-3115",
+       "fl-765-205"
+      ]
+     },
+     {
+      "event": "Time of termination stated in the document",
+      "phase": "capable",
+      "citations": [
+       "fl-765-202-7"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-activate",
+     "from": "designated",
+     "to": "active",
+     "event": "Physician incapacity determination entered in medical record; facility notifies surrogate in writing",
+     "conditions": [
+      "If the evaluating physician has a question as to capacity, a second physician must concur"
+     ],
+     "citations": [
+      "fl-765-204-2",
+      "fl-765-204-3"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-activate-immediate",
+     "from": "designated",
+     "to": "active",
+     "event": "Designation stipulates authority to receive health information and/or make decisions is exercisable immediately",
+     "conditions": [
+      "While principal has capacity, principal's decisions take precedence in a material conflict"
+     ],
+     "citations": [
+      "fl-765-202-6",
+      "fl-765-101-21",
+      "fl-765-204-3"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-regain-capacity",
+     "from": "active",
+     "to": "suspended",
+     "event": "Physician determines principal regained capacity",
+     "conditions": [
+      "Only where authority commenced because of incapacity"
+     ],
+     "citations": [
+      "fl-765-204-3"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-anatomical-gift-post-death",
+     "from": "active",
+     "to": "active",
+     "event": "After principal's death the designated surrogate may make an anatomical gift",
+     "conditions": [
+      "Absent actual notice of contrary indications by decedent"
+     ],
+     "citations": [
+      "fl-765-512-2"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Florida uses a 'health care surrogate' designation (ch. 765 Part II) rather than the UHCDA power of attorney for health care. Execution requires two adult witnesses with relationship limits. By default authority begins only on a physician's incapacity determination and lapses if capacity returns, but the principal may make it immediately exercisable. Revocation may be oral and takes effect when communicated. An agent under a durable POA may also hold health care powers if specifically granted, and an incapacity proceeding does not suspend those powers. The surrogate survives guardianship unless the court modifies it (§744.3115).",
+   "citations": [
+    "fl-765-202",
+    "fl-765-204-3",
+    "fl-765-202-6",
+    "fl-765-104",
+    "fl-709-2201-2c",
+    "fl-709-2109-3b",
+    "fl-744-3115"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "proxy"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Incapacitated patient has no advance directive or designated surrogate, or the surrogate is unavailable; first reasonably available, willing and competent class acts",
+     "phase": "incapacitated",
+     "citations": [
+      "fl-765-401"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Patient whose disability is removed amends or revokes recognition of the proxy (effective when communicated in writing, or orally before a third person)",
+      "phase": "capable",
+      "citations": [
+       "fl-765-104-4"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-activate",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Proxy recognized in priority order: (a) guardian/guardian advocate authorized to consent; (b) spouse; (c) adult child or majority of available adult children; (d) parent; (e) adult sibling or majority of available adult siblings; (f) adult relative who has shown special care and concern; (g) close friend; (h) licensed clinical social worker (or graduate of court-approved guardianship program) selected by a bioethics committee",
+     "conditions": [
+      "No individual in a prior class reasonably available, willing, or competent",
+      "Efforts to locate prior classes documented when (h) is used"
+     ],
+     "citations": [
+      "fl-765-401",
+      "fl-765-401-1h"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-withdraw-life-prolonging",
+     "from": "active",
+     "to": "active",
+     "event": "Proxy decides to withhold or withdraw life-prolonging procedures",
+     "conditions": [
+      "Clear and convincing evidence the patient would have chosen it, or best interest if no indication"
+     ],
+     "citations": [
+      "fl-765-401-3"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Florida's proxy list (§765.401) differs from UHCDA §5. It puts a previously appointed guardian first, lists parents ahead of siblings, uses majority rule for adult children and siblings, adds an adult relative who has shown special care and concern, a close friend, and a bioethics-committee-selected clinical social worker as last resort, and requires clear and convincing evidence to withhold or withdraw life-prolonging procedures. UHCDA lets a patient orally designate a surrogate. That route was not found in §765.401.",
+   "citations": [
+    "fl-765-401",
+    "fl-765-401-1h",
+    "fl-765-401-3",
+    "fl-765-104-4"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person",
+    "plenary guardian",
+    "limited guardian",
+    "preneed guardian",
+    "emergency temporary guardian",
+    "guardian advocate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court adjudicates incapacity on clear and convincing evidence and issues letters stating plenary or limited powers (preneed guardian named by the ward is presumptively entitled)",
+     "phase": "incapacitated",
+     "citations": [
+      "fl-744-331",
+      "fl-744-345",
+      "fl-744-3045"
+     ]
+    },
+    "starts": {
+     "event": "Preneed guardian assumes duties immediately on adjudication and must petition for confirmation within 20 days; other guardians act on letters",
+     "phase": "incapacitated",
+     "citations": [
+      "fl-744-3045",
+      "fl-744-3045-7",
+      "fl-744-345"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Ward restored to capacity (suggestion of capacity, order of restoration) then final report and discharge",
+      "phase": "capable",
+      "citations": [
+       "fl-744-464",
+       "fl-744-521"
+      ]
+     },
+     {
+      "event": "Ward dies: guardian of the person discharged on filing certified death certificate",
+      "phase": "deceased",
+      "citations": [
+       "fl-744-521"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "fl-t-preneed-declaration",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Competent adult signs preneed guardian declaration before two attesting witnesses (may file with clerk)",
+     "conditions": [
+      "Rebuttable presumption only; court not bound if preneed guardian unqualified"
+     ],
+     "citations": [
+      "fl-744-3045"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-emergency-temporary",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Court appoints emergency temporary guardian after an incapacity petition is filed on finding of imminent danger",
+     "conditions": [
+      "Authority expires 90 days after appointment or when a guardian is appointed; extendable 90 days"
+     ],
+     "citations": [
+      "fl-744-3031"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-guardian-advocate",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Court appoints guardian advocate for person with developmental disabilities without adjudication of incapacity",
+     "conditions": [
+      "Only decisionmaking tasks the person lacks ability to exercise may be delegated"
+     ],
+     "citations": [
+      "fl-393-12"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-terminate-death",
+     "from": "active",
+     "to": "terminated",
+     "event": "Ward dies; guardian of the person files certified death certificate",
+     "conditions": [],
+     "citations": [
+      "fl-744-521"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Florida (ch. 744) differs from UGCOPAA: a nonresident may serve only if related to the ward in listed degrees; a written preneed guardian declaration creates a rebuttable presumption and the preneed guardian acts immediately on adjudication; emergency temporary guardianship lasts 90 days; developmental-disability cases may use a guardian advocate without adjudication (ch. 393). Adjudication terminates a financial power of attorney unless the court preserves it, while the court must specify whether a health care surrogate continues.",
+   "citations": [
+    "fl-744-309",
+    "fl-744-3045",
+    "fl-744-3031",
+    "fl-393-12",
+    "fl-709-2109",
+    "fl-744-3115",
+    "fl-744-521"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "guardian of the property",
+    "emergency temporary guardian of the property"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court adjudicates incapacity and issues letters of guardianship of the property (plenary or limited)",
+     "phase": "incapacitated",
+     "citations": [
+      "fl-744-331",
+      "fl-744-345"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Ward restored, property exhausted, or ward cannot be located: final report and discharge",
+      "phase": "capable",
+      "citations": [
+       "fl-744-521"
+      ]
+     },
+     {
+      "event": "Ward dies: guardian must file final report no later than 45 days after being served with letters of administration or curatorship, then discharge",
+      "phase": "administration",
+      "citations": [
+       "fl-744-527"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-terminate-death",
+     "from": "active",
+     "to": "terminated",
+     "event": "Ward dies; guardian of property files final report within 45 days after service of letters of administration and receives discharge",
+     "conditions": [
+      "May retain funds for final costs including guardian and attorney fees"
+     ],
+     "citations": [
+      "fl-744-527",
+      "fl-744-521"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-digital-access",
+     "from": "active",
+     "to": "active",
+     "event": "Court grants guardian access to ward's digital assets after opportunity for hearing",
+     "conditions": [
+      "Custodian disclosure requires letters of plenary guardianship of the property or court order"
+     ],
+     "citations": [
+      "fl-740-04"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Florida calls this role 'guardian of the property' under ch. 744 rather than conservator. When the ward dies, the guardian stays in office until a final report is filed within 45 days after letters of administration are served, so the role reaches into the administration phase. A guardian of the property may also select the personal representative when the ward would have been entitled to (§733.301(2)).",
+   "citations": [
+    "fl-744-345",
+    "fl-744-521",
+    "fl-744-527",
+    "fl-733-301"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "personal representative"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court grants letters of administration to PR nominated by will (first preference), else person selected by majority in interest, else a devisee",
+     "phase": "administration",
+     "citations": [
+      "fl-733-301"
+     ]
+    },
+    "starts": {
+     "event": "Duties and powers commence upon appointment; powers relate back to beneficial pre-appointment acts",
+     "phase": "administration",
+     "citations": [
+      "fl-733-601"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Discharge after administration completed",
+      "phase": "closed",
+      "citations": [
+       "fl-733-901"
+      ]
+     },
+     {
+      "event": "Court accepts resignation and revokes letters",
+      "phase": "administration",
+      "citations": [
+       "fl-733-502"
+      ]
+     },
+     {
+      "event": "Death of sole or surviving PR; court appoints successor (PR's own PR does not succeed)",
+      "phase": "administration",
+      "citations": [
+       "fl-733-307"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "fl-t-qualify",
+     "from": "designated",
+     "to": "pending_letters",
+     "event": "Nominee must be sui juris and a Florida resident at decedent's death, or a nonresident within listed family relationships",
+     "conditions": [
+      "Nonresident must be adopted child/adoptive parent, lineal relative, spouse, sibling, uncle, aunt, nephew, niece, lineal relative of such person, or spouse of a qualified person"
+     ],
+     "citations": [
+      "fl-733-302",
+      "fl-733-304"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-body-instructions-pre-letters",
+     "from": "designated",
+     "to": "designated",
+     "event": "Before letters issue, any person may carry out decedent's written instructions on body, funeral and burial",
+     "conditions": [],
+     "citations": [
+      "fl-732-804"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-activate",
+     "from": "pending_letters",
+     "to": "active",
+     "event": "Appointment / letters issued",
+     "conditions": [
+      "Beneficial acts before appointment are given the same effect"
+     ],
+     "citations": [
+      "fl-733-601"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-discharge",
+     "from": "active",
+     "to": "terminated",
+     "event": "Order of final discharge",
+     "conditions": [],
+     "citations": [
+      "fl-733-901"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Florida uses the single title 'personal representative'. Unlike UPC §3-203, which lets any qualified adult serve, a nonresident may serve only if closely related to the decedent (§733.304). Powers start at appointment and relate back to beneficial prior acts, as under UPC §3-701. State-added role state: pending_letters, meaning nominated but letters not yet issued.",
+   "citations": [
+    "fl-733-301",
+    "fl-733-302",
+    "fl-733-304",
+    "fl-733-601",
+    "fl-733-901"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "personal representative"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Intestate preference: surviving spouse; person selected by majority in interest of heirs; heir nearest in degree; otherwise court appoints a capable person",
+     "phase": "administration",
+     "citations": [
+      "fl-733-301-1b",
+      "fl-733-301"
+     ]
+    },
+    "starts": {
+     "event": "Upon appointment (relation back for beneficial acts)",
+     "phase": "administration",
+     "citations": [
+      "fl-733-601"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Letters revoked if a will is later admitted to probate",
+      "phase": "administration",
+      "citations": [
+       "fl-733-301-5"
+      ]
+     },
+     {
+      "event": "Discharge after administration completed",
+      "phase": "closed",
+      "citations": [
+       "fl-733-901"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "fl-t-revoke-later-will",
+     "from": "active",
+     "to": "terminated",
+     "event": "Will subsequently admitted to probate",
+     "conditions": [
+      "New letters granted"
+     ],
+     "citations": [
+      "fl-733-301-5"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Florida's intestate order (spouse, then majority in interest of heirs, then nearest heir) is shorter than UPC §3-203. A guardian of the property may make the selection for a ward. The same residency limits apply as for a will-nominated PR.",
+   "citations": [
+    "fl-733-301-1b",
+    "fl-733-304",
+    "fl-733-301-5"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "family member (§735.303 affidavit)",
+    "summary administration petitioner"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Surviving spouse, else adult child, else adult descendant, else parent, signs sworn affidavit to a financial institution for qualified sole-name accounts totaling no more than $2,000",
+     "phase": "deceased",
+     "citations": [
+      "fl-735-303",
+      "fl-735-303-2"
+     ]
+    },
+    "starts": {
+     "event": "Financial institution may not pay earlier than 6 months after death",
+     "phase": "deceased",
+     "citations": [
+      "fl-735-303"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Payment made (affiant personally liable to creditors and rightful takers for excess)",
+      "phase": "closed",
+      "citations": [
+       "fl-735-303"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "fl-t-summary-administration",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Court enters order of summary administration where estate subject to administration (less exempt property) does not exceed $150,000 or decedent dead more than 2 years",
+     "conditions": [
+      "Will does not direct administration under ch. 733",
+      "Petitioner must diligently search for creditors and serve them",
+      "Threshold raised from $75,000 to $150,000 by ch. 2026-57, effective July 1, 2026"
+     ],
+     "citations": [
+      "fl-735-201",
+      "fl-735-206",
+      "fl-laws-2026-57"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-disposition-without-administration",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Court letter authorizes transfer where estate is only exempt property plus nonexempt personal property not exceeding preferred funeral expenses and last-60-day medical expenses",
+     "conditions": [
+      "Informal application by any interested party"
+     ],
+     "citations": [
+      "fl-735-301"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Florida has no UPC §3-1201 style small-estate affidavit usable with anyone who holds the property. The only affidavit route is §735.303: payment of up to $2,000 in sole-name accounts at one institution to a family member, no sooner than 6 months after death (limit raised from $1,000 by ch. 2026-57). Larger small estates go through court: summary administration (§735.201, now up to $150,000; raised from $75,000 effective July 1, 2026) or disposition without administration (§735.301). An order of summary administration also works as fiduciary credentials under ch. 740.",
+   "citations": [
+    "fl-735-303",
+    "fl-735-303-2",
+    "fl-735-201",
+    "fl-laws-2026-57",
+    "fl-735-301",
+    "fl-740-006"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "lane": {
+    "starts": {
+     "event": "Vacancy occurs (declination, resignation, removal, death, or adjudication of incapacity of trustee) and successor accepts",
+     "phase": "incapacitated",
+     "citations": [
+      "fl-736-0704",
+      "fl-736-0704-1f",
+      "fl-736-0701"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "t-vacancy",
+     "from": "designated",
+     "to": "active",
+     "event": "Vacancy filled in priority: person named or designated under trust terms; person appointed by unanimous agreement of qualified beneficiaries; court (noncharitable trust)",
+     "conditions": [
+      "Vacancy on incapacity requires the trustee to be adjudicated incapacitated",
+      "Designee accepts by complying with trust method or by accepting property/acting; silence beyond a reasonable time is a deemed declination"
+     ],
+     "citations": [
+      "fl-736-0704",
+      "fl-736-0704-1f",
+      "fl-736-0701"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-resign",
+     "from": "active",
+     "to": "terminated",
+     "event": "Trustee resigns on at least 30 days' notice to qualified beneficiaries, living settlor and cotrustees, or with court approval",
+     "conditions": [
+      "Resigned trustee keeps protective duties and powers until property delivered"
+     ],
+     "citations": [
+      "fl-736-0705",
+      "fl-736-0707"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The Florida Trust Code (ch. 736) tracks the UTC framework. Section 736.0704(1)(f) keys vacancy to a trustee being 'adjudicated to be incapacitated'. Removal may be requested by settlor, cotrustee, or beneficiary (§736.0706). Whether Florida enacted the UTC as a uniform act was not checked on uniformlaws.org.",
+   "citations": [
+    "fl-736-0101",
+    "fl-736-0704",
+    "fl-736-0705",
+    "fl-736-0706",
+    "fl-736-0707"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "lane": {
+    "assigned": {
+     "event": "User directs custodian through an online tool to disclose (or not) digital assets to a designated recipient",
+     "phase": "capable",
+     "citations": [
+      "fl-740-003",
+      "fl-740-002"
+     ]
+    }
+   },
+   "diff": "Section 740.003 matches RUFADAA §4. An online-tool direction that the user can change at any time overrides contrary will, trust, or POA provisions. The chapter applies when the user lives in Florida or did at death (§740.08).",
+   "citations": [
+    "fl-740-003",
+    "fl-740-08",
+    "fl-740-06"
+   ],
+   "differs": false
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "personal representative",
+    "curator",
+    "administrator ad litem",
+    "guardian of the property",
+    "agent",
+    "trustee"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Fiduciary delivers written request plus credentials; custodian must comply within 60 days",
+     "phase": "administration",
+     "citations": [
+      "fl-740-006",
+      "fl-740-007",
+      "fl-740-06"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "fl-t-pr-credentials",
+     "from": "designated",
+     "to": "active",
+     "event": "PR (or curator/administrator ad litem, or beneficiary under summary administration order) presents death certificate and certified letters of administration, curator/administrator ad litem order, order of summary administration, or other court order",
+     "conditions": [
+      "Content of communications requires user consent (will, trust, POA, other record or online tool) or court direction"
+     ],
+     "citations": [
+      "fl-740-006",
+      "fl-740-007"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-guardian-court-grant",
+     "from": "designated",
+     "to": "active",
+     "event": "Court grants guardian access after opportunity for hearing under ch. 744",
+     "conditions": [
+      "Emergency temporary guardian of the property is included in 'guardian'",
+      "Content of communications is not disclosed to guardians under §740.04"
+     ],
+     "citations": [
+      "fl-740-04",
+      "fl-740-002"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-agent-content",
+     "from": "designated",
+     "to": "active",
+     "event": "Agent under POA expressly granting authority over content presents POA and certification under penalty of perjury that it is in effect",
+     "conditions": [],
+     "citations": [
+      "fl-740-008"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "fl-t-terminate-account",
+     "from": "active",
+     "to": "active",
+     "event": "Fiduciary requests custodian to terminate account",
+     "conditions": [
+      "Written request with death certificate (if deceased) and letters/order/POA/trust"
+     ],
+     "citations": [
+      "fl-740-05"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Chapter 740, the Florida Fiduciary Access to Digital Assets Act, follows RUFADAA with Florida-specific credentials: letters of administration, a curator or administrator ad litem order, or an order of summary administration under ch. 735. A guardian needs a court grant after an opportunity for a hearing plus letters of plenary guardianship of the property or a court order, and 'guardian' includes an emergency temporary guardian of the property.",
+   "citations": [
+    "fl-740-001",
+    "fl-740-002",
+    "fl-740-006",
+    "fl-740-007",
+    "fl-740-04",
+    "fl-740-06"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "health care surrogate (anatomical gift)",
+    "representative ad litem"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Designated health care surrogate; otherwise first available class: spouse, adult child, parent, adult sibling, adult grandchild, grandparent, close personal friend, guardian of the person at death, representative ad litem appointed ex parte",
+     "phase": "deceased",
+     "citations": [
+      "fl-765-512-2",
+      "fl-765-512-3"
+     ]
+    },
+    "starts": {
+     "event": "After death or immediately before death",
+     "phase": "deceased",
+     "citations": [
+      "fl-765-512-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donor's own unrevoked gift is irrevocable after death and cannot be overridden by family, guardian or surrogate",
+      "phase": "deceased",
+      "citations": [
+       "fl-765-512"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-authorize-gift",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Class member gives all or part of body",
+     "conditions": [
+      "No actual notice of contrary indications by decedent",
+      "No actual notice of opposition by a member of a prior class"
+     ],
+     "citations": [
+      "fl-765-512-3",
+      "fl-765-512-5"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Section 765.512 differs from Revised UAGA §9. A designated health care surrogate may make the gift. The fallback list runs spouse, adult children, parents, adult siblings, adult grandchildren, grandparents, close personal friend, guardian of the person, then a court-appointed representative ad litem, and Revised UAGA's 'adult who exhibited special care and concern' class is absent. Florida's formal adoption of Revised UAGA was not verified.",
+   "citations": [
+    "fl-765-512",
+    "fl-765-512-2",
+    "fl-765-512-3",
+    "fl-765-512-5"
+   ]
+  },
+  {
+   "role": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Legally authorized person to direct disposition of remains",
+   "localNames": [
+    "legally authorized person"
+   ],
+   "summary": "The person with legal authority to authorize and direct disposition of a decedent's remains, including cremation, under Florida's funeral and cemetery law.",
+   "new": true,
+   "lane": {
+    "assigned": {
+     "event": "Priority: (1) decedent's own written inter vivos authorization; (2) DD Form 93 designee if decedent died in military service; (3) surviving spouse; (4) adult child; (5) parent; (6) adult sibling; (7) adult grandchild; (8) grandparent; (9) next degree of kinship; if none, fallback includes guardian at death, PR, attorney in fact at death, health surrogate at death, public officials, institution, or a willing friend",
+     "phase": "deceased",
+     "citations": [
+      "fl-497-005-43",
+      "fl-497-005-43b"
+     ]
+    },
+    "starts": {
+     "event": "Death of the decedent",
+     "phase": "deceased",
+     "citations": [
+      "fl-497-005-43",
+      "fl-732-804"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Cremated remains unclaimed 90 days after cremation: establishment may dispose",
+      "phase": "deceased",
+      "citations": [
+       "fl-497-607-3"
+      ]
+     },
+     {
+      "event": "Final disposition completed (statute does not state an explicit end point)",
+      "phase": "deceased",
+      "citations": [
+       "fl-497-607"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No written directions; priority determined at death"
+     },
+     {
+      "id": "designated",
+      "label": "Decedent left written inter vivos authorization or DD Form 93 designation"
+     },
+     {
+      "id": "active",
+      "label": "Legally authorized person directing disposition"
+     },
+     {
+      "id": "terminated",
+      "label": "Disposition complete, or right lost"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fl-t-written-directions",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Decedent provides written inter vivos authorizations and directions",
+      "conditions": [
+       "Before letters, any person may carry out decedent's written body/funeral instructions"
+      ],
+      "citations": [
+       "fl-497-005-43",
+       "fl-732-804"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "fl-t-death-priority",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death: highest available priority class becomes legally authorized person",
+      "conditions": [
+       "Funeral establishment may rely on any one member of a class who represents no known objection by same or higher class (cremation)"
+      ],
+      "citations": [
+       "fl-497-005-43",
+       "fl-497-005-43b"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "fl-t-disqualify",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person arrested for domestic violence against the deceased or an act that caused or contributed to death is accorded no interest",
+      "conditions": [],
+      "citations": [
+       "fl-497-005-43dq"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "fl-t-cremation-authorization",
+      "from": "active",
+      "to": "active",
+      "event": "Legally authorized person gives written cremation authorization and declaration of intent for cremated remains",
+      "conditions": [
+       "Division of cremated remains requires LAP consent; disputes go to court"
+      ],
+      "citations": [
+       "fl-497-607",
+       "fl-497-607-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "fl-t-unclaimed",
+      "from": "not_designated",
+      "to": "active",
+      "event": "No family exists or is available for unclaimed remains: licensed funeral director may assume LAP responsibility; county may authorize burial or cremation",
+      "conditions": [],
+      "citations": [
+       "fl-406-50"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "fl-t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Final disposition carried out",
+      "conditions": [],
+      "citations": [
+       "fl-497-607"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "diff": "No Uniform Act baseline. Florida puts the right in the 'legally authorized person' defined in §497.005(43); §406.50 separately covers unclaimed remains. The reviewed sections have no general statutory form for naming a third party as disposition agent before death. The decedent's own written authorization comes first, then a military DD Form 93 designee, then next of kin. An attorney in fact, health surrogate, guardian or PR qualifies only as a fallback when no family member exists or is available. The end of the right is not stated in the statute.",
+   "citations": [
+    "fl-497-005-43",
+    "fl-497-005-43b",
+    "fl-497-005-43dq",
+    "fl-497-607",
+    "fl-406-50",
+    "fl-732-804"
+   ],
+   "canonical": "disposition-of-remains-agent"
+  }
+ ]
+}

@@ -1,0 +1,1135 @@
+{
+ "jurisdiction": "us-ny",
+ "name": "New York",
+ "extends": "us-model",
+ "uniformActsAdopted": {
+  "upoaa": {
+   "adopted": false,
+   "citation": "ny-gob-5-1501b",
+   "unverified": true,
+   "note": "GOL Title 15 is New York's own statute (major 2009 and 2021 revisions), though it shares UPOAA's durable-by-default rule (§5-1501A)."
+  },
+  "uhcda": {
+   "adopted": false,
+   "citation": "ny-phl-2981",
+   "unverified": true,
+   "note": "Health care proxy law (PHL Art. 29-C) and FHCDA (Art. 29-CC) are New York-specific."
+  },
+  "ugcopaa": {
+   "adopted": false,
+   "citation": "ny-mhl-81-36",
+   "unverified": true,
+   "note": "MHL Article 81."
+  },
+  "upc": {
+   "adopted": false,
+   "citation": "ny-scpa-1414",
+   "unverified": true,
+   "note": "SCPA/EPTL."
+  },
+  "utc": {
+   "adopted": false,
+   "citation": "ny-eptl-7-1-17",
+   "unverified": true
+  },
+  "rufadaa": {
+   "adopted": true,
+   "citation": "ny-eptl-13-a-2-2",
+   "unverified": true,
+   "note": "EPTL Art. 13-A follows RUFADAA's section structure. The article is titled 'Administration of Digital Assets', not by the uniform name, so ULC enactment status was not confirmed."
+  },
+  "revised-uaga": {
+   "adopted": false,
+   "citation": "ny-phl-4301",
+   "unverified": true,
+   "note": "PHL Art. 43 is not titled a uniform act. Whether ULC lists New York as enacting the 2006 revision was not verified."
+  }
+ },
+ "citations": [
+  {
+   "id": "ny-gob-5-1501",
+   "cite": "N.Y. Gen. Oblig. Law §5-1501",
+   "title": "Application and definitions",
+   "url": "https://www.nysenate.gov/legislation/laws/GOB/5-1501",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-gob-5-1501a",
+   "cite": "N.Y. Gen. Oblig. Law §5-1501A",
+   "title": "Durable by default; effect of subsequent incapacity",
+   "url": "https://www.nysenate.gov/legislation/laws/GOB/5-1501A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A power of attorney is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+  },
+  {
+   "id": "ny-gob-5-1501b",
+   "cite": "N.Y. Gen. Oblig. Law §5-1501B",
+   "title": "Creation of a valid power of attorney; when effective",
+   "url": "https://www.nysenate.gov/legislation/laws/GOB/5-1501B",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The date on which an agent's signature is acknowledged is the effective date of the power of attorney as to that agent"
+  },
+  {
+   "id": "ny-gob-5-1504",
+   "cite": "N.Y. Gen. Oblig. Law §5-1504",
+   "title": "Acceptance of and reliance upon power of attorney; no liability without actual notice of revocation or termination",
+   "url": "https://www.nysenate.gov/legislation/laws/GOB/5-1504",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-gob-5-1511",
+   "cite": "N.Y. Gen. Oblig. Law §5-1511",
+   "title": "Termination or revocation of power of attorney",
+   "url": "https://www.nysenate.gov/legislation/laws/GOB/5-1511",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the principal becomes incapacitated, if the power of attorney is not durable"
+  },
+  {
+   "id": "ny-gob-5-1513",
+   "cite": "N.Y. Gen. Oblig. Law §5-1513",
+   "title": "Statutory short form power of attorney",
+   "url": "https://www.nysenate.gov/legislation/laws/GOB/5-1513",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This POWER OF ATTORNEY shall not be affected by my subsequent incapacity unless I have stated otherwise below"
+  },
+  {
+   "id": "ny-phl-2981",
+   "cite": "N.Y. Pub. Health Law §2981",
+   "title": "Appointment of health care agent; health care proxy",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/2981",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The agent's authority shall commence upon a determination, made pursuant to subdivision one of section two thousand nine hundred eighty-three of this article"
+  },
+  {
+   "id": "ny-phl-2982",
+   "cite": "N.Y. Pub. Health Law §2982",
+   "title": "Rights and duties of agent",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/2982",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-phl-2983",
+   "cite": "N.Y. Pub. Health Law §2983",
+   "title": "Determination of lack of capacity to make health care decisions for the purpose of empowering agent",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/2983",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "In the event the attending practitioner determines that the principal has regained capacity, the authority of the agent shall cease"
+  },
+  {
+   "id": "ny-phl-2985",
+   "cite": "N.Y. Pub. Health Law §2985",
+   "title": "Revocation",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/2985",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A competent adult may revoke a health care proxy by notifying the agent or a health care provider orally or in writing"
+  },
+  {
+   "id": "ny-phl-2994-b",
+   "cite": "N.Y. Pub. Health Law §2994-B",
+   "title": "FHCDA applicability; priority of other surrogate laws (does not apply where a health care agent exists)",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/2994-B",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-phl-2994-c",
+   "cite": "N.Y. Pub. Health Law §2994-C",
+   "title": "FHCDA determination of incapacity by attending practitioner",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/2994-C",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-phl-2994-d",
+   "cite": "N.Y. Pub. Health Law §2994-D",
+   "title": "FHCDA health care decisions for adult patients by surrogates (priority list; commencement and cessation)",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/2994-D",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority of the surrogate shall cease"
+  },
+  {
+   "id": "ny-mhl-81-21",
+   "cite": "N.Y. Mental Hyg. Law §81.21",
+   "title": "Powers of guardian; property management (incl. paying funeral expenses and certain bills after death)",
+   "url": "https://www.nysenate.gov/legislation/laws/MHY/81.21",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "pay the funeral expenses of the incapacitated person"
+  },
+  {
+   "id": "ny-mhl-81-26",
+   "cite": "N.Y. Mental Hyg. Law §81.26",
+   "title": "Designation of clerk to receive process; no commission effective until designation filed",
+   "url": "https://www.nysenate.gov/legislation/laws/MHY/81.26",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-mhl-81-27",
+   "cite": "N.Y. Mental Hyg. Law §81.27",
+   "title": "Commission to guardian",
+   "url": "https://www.nysenate.gov/legislation/laws/MHY/81.27",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-mhl-81-29",
+   "cite": "N.Y. Mental Hyg. Law §81.29",
+   "title": "Incapacitated person retains powers not granted; court may modify or revoke prior POA/advance directive",
+   "url": "https://www.nysenate.gov/legislation/laws/MHY/81.29",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-mhl-81-36",
+   "cite": "N.Y. Mental Hyg. Law §81.36",
+   "title": "Discharge or modification of powers of guardian (incl. death of incapacitated person)",
+   "url": "https://www.nysenate.gov/legislation/laws/MHY/81.36",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-mhl-81-44",
+   "cite": "N.Y. Mental Hyg. Law §81.44",
+   "title": "Proceedings upon the death of an incapacitated person (20-day and 150-day deadlines)",
+   "url": "https://www.nysenate.gov/legislation/laws/MHY/81.44",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-scpa-1001",
+   "cite": "N.Y. Surr. Ct. Proc. Act §1001",
+   "title": "Order of priority for granting letters of administration",
+   "url": "https://www.nysenate.gov/legislation/laws/SCP/1001",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-scpa-1412",
+   "cite": "N.Y. Surr. Ct. Proc. Act §1412",
+   "title": "Preliminary letters testamentary",
+   "url": "https://www.nysenate.gov/legislation/laws/SCP/1412",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-scpa-1414",
+   "cite": "N.Y. Surr. Ct. Proc. Act §1414",
+   "title": "When letters testamentary may be issued",
+   "url": "https://www.nysenate.gov/legislation/laws/SCP/1414",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "any person entitled to letters thereunder who is eligible and who appears and qualifies is entitled to letters testamentary."
+  },
+  {
+   "id": "ny-scpa-1301",
+   "cite": "N.Y. Surr. Ct. Proc. Act §1301",
+   "title": "Definitions: small estate",
+   "url": "https://www.nysenate.gov/legislation/laws/SCP/1301",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "personal property having a gross value of $50,000 or less exclusive of property required to be set off under EPTL 5-3.1 (a)."
+  },
+  {
+   "id": "ny-scpa-1303",
+   "cite": "N.Y. Surr. Ct. Proc. Act §1303",
+   "title": "Persons who may become a voluntary administrator",
+   "url": "https://www.nysenate.gov/legislation/laws/SCP/1303",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-scpa-1304",
+   "cite": "N.Y. Surr. Ct. Proc. Act §1304",
+   "title": "Procedure for voluntary administration (no waiting period; affidavit; short certificate)",
+   "url": "https://www.nysenate.gov/legislation/laws/SCP/1304",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "No waiting period after the death of the decedent is required."
+  },
+  {
+   "id": "ny-scpa-1306",
+   "cite": "N.Y. Surr. Ct. Proc. Act §1306",
+   "title": "Powers of voluntary administrator; cease on appointment of another fiduciary",
+   "url": "https://www.nysenate.gov/legislation/laws/SCP/1306",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-eptl-13-a-2-1",
+   "cite": "N.Y. Est. Powers & Trusts Law §13-A-2.1",
+   "title": "Article 13-A applicability (wills, trusts, POAs, guardianship proceedings)",
+   "url": "https://www.nysenate.gov/legislation/laws/EPT/13-A-2.1",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-eptl-13-a-2-2",
+   "cite": "N.Y. Est. Powers & Trusts Law §13-A-2.2",
+   "title": "User direction for disclosure of digital assets (online tool / designated recipient)",
+   "url": "https://www.nysenate.gov/legislation/laws/EPT/13-A-2.2",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A user may use an online tool to direct the custodian to disclose to a designated recipient"
+  },
+  {
+   "id": "ny-eptl-13-a-3-1",
+   "cite": "N.Y. Est. Powers & Trusts Law §13-A-3.1",
+   "title": "Disclosure of content of electronic communications of deceased user",
+   "url": "https://www.nysenate.gov/legislation/laws/EPT/13-A-3.1",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-eptl-13-a-3-2",
+   "cite": "N.Y. Est. Powers & Trusts Law §13-A-3.2",
+   "title": "Disclosure of other digital assets of deceased user",
+   "url": "https://www.nysenate.gov/legislation/laws/EPT/13-A-3.2",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-eptl-13-a-3-3",
+   "cite": "N.Y. Est. Powers & Trusts Law §13-A-3.3",
+   "title": "Disclosure of content of electronic communications of principal",
+   "url": "https://www.nysenate.gov/legislation/laws/EPT/13-A-3.3",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-eptl-13-a-3-8",
+   "cite": "N.Y. Est. Powers & Trusts Law §13-A-3.8",
+   "title": "Disclosure of digital assets to guardian of ward",
+   "url": "https://www.nysenate.gov/legislation/laws/EPT/13-A-3.8",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-phl-4201",
+   "cite": "N.Y. Pub. Health Law §4201",
+   "title": "Disposition of remains; responsibility (priority; written designation of agent)",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/4201",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-phl-4301",
+   "cite": "N.Y. Pub. Health Law §4301",
+   "title": "Persons who may execute an anatomical gift",
+   "url": "https://www.nysenate.gov/legislation/laws/PBH/4301",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the person designated as the decedent's health care agent under article twenty-nine-C of this chapter"
+  },
+  {
+   "id": "ny-eptl-7-1-17",
+   "cite": "N.Y. Est. Powers & Trusts Law §7-1.17",
+   "title": "Execution, amendment and revocation of lifetime trusts",
+   "url": "https://www.nysenate.gov/legislation/laws/EPT/7-1.17",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ny-eptl-7-2-3",
+   "cite": "N.Y. Est. Powers & Trusts Law §7-2.3",
+   "title": "Trust estate not to descend on death of trustee; court may appoint successor",
+   "url": "https://www.nysenate.gov/legislation/laws/EPT/7-2.3",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent under statutory short form power of attorney",
+    "attorney-in-fact"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal with capacity signs, initials and dates; signature acknowledged and witnessed by two non-agent witnesses; POA substantially conforms to statutory 'Caution to the Principal' and 'Important Information for the Agent'",
+     "phase": "capable",
+     "citations": [
+      "ny-gob-5-1501b"
+     ]
+    },
+    "starts": {
+     "event": "As to each agent, the date the AGENT's signature is acknowledged (co-agents acting together: when all have signed and acknowledged)",
+     "phase": "capable",
+     "citations": [
+      "ny-gob-5-1501b"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal dies",
+      "phase": "deceased",
+      "citations": [
+       "ny-gob-5-1511",
+       "ny-gob-5-1513"
+      ]
+     },
+     {
+      "event": "Principal revokes; agent dies, becomes incapacitated or resigns; purpose accomplished; divorce/annulment ends spouse-agent authority unless POA provides otherwise",
+      "phase": "capable",
+      "citations": [
+       "ny-gob-5-1511"
+      ]
+     },
+     {
+      "event": "Court revokes under GOL §5-1510 or in an Article 81 guardianship (MHL §81.29(d))",
+      "phase": "incapacitated",
+      "citations": [
+       "ny-gob-5-1511",
+       "ny-mhl-81-29"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ny-t-agent-ack",
+     "from": "designated",
+     "to": "active",
+     "event": "Agent signs and signature is acknowledged",
+     "conditions": [
+      "A lapse of time between principal's and agent's acknowledgments, or principal's intervening incapacity, does not invalidate the POA"
+     ],
+     "citations": [
+      "ny-gob-5-1501b"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-guardian-accounts",
+     "from": "active",
+     "to": "active",
+     "event": "Guardian appointed: agent accounts to the guardian during the guardianship",
+     "conditions": [],
+     "citations": [
+      "ny-gob-5-1501a"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Like UPOAA, New York POAs are durable by default (§5-1501A). New York is unusual in that the POA becomes effective as to each agent only when that agent signs and the agent's signature is acknowledged (§5-1501B(3)(a)). Execution requires notarization plus two witnesses. Third parties are protected until they receive actual notice of revocation or termination, including death (§§5-1504, 5-1511).",
+   "citations": [
+    "ny-gob-5-1501a",
+    "ny-gob-5-1501b",
+    "ny-gob-5-1504",
+    "ny-gob-5-1511",
+    "ny-gob-5-1513",
+    "ny-mhl-81-29"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "non-durable power of attorney"
+   ],
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal becomes incapacitated, when POA expressly says incapacity terminates it",
+      "phase": "incapacitated",
+      "citations": [
+       "ny-gob-5-1511",
+       "ny-gob-5-1501a"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "diff": "A New York POA is nondurable only if it expressly says so, for example through the 'Modifications' section of the statutory short form (§§5-1501A, 5-1513).",
+   "citations": [
+    "ny-gob-5-1501",
+    "ny-gob-5-1501a",
+    "ny-gob-5-1511",
+    "ny-gob-5-1513"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "power of attorney effective on a contingency"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Date or contingency named in the document has occurred AND agent's signature has been acknowledged; if the document requires a named person's written declaration, that declaration suffices even if the contingency has not actually occurred",
+     "phase": "incapacitated",
+     "citations": [
+      "ny-gob-5-1501b"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "ny-t-springing",
+     "from": "designated",
+     "to": "active",
+     "event": "Contingency occurs (or designated person declares it in writing) and agent's signature acknowledged",
+     "conditions": [],
+     "citations": [
+      "ny-gob-5-1501b"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The springing mechanism is in GOL §5-1501B(3)(b). Like California §4129, a written declaration by a designated person can conclusively satisfy the condition. No default physician trigger was found.",
+   "citations": [
+    "ny-gob-5-1501b"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care agent",
+    "agent under health care proxy"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Competent adult signs and dates health care proxy before two adult witnesses (agent cannot witness)",
+     "phase": "capable",
+     "citations": [
+      "ny-phl-2981"
+     ]
+    },
+    "starts": {
+     "event": "Attending practitioner determines, in writing and to a reasonable degree of medical certainty, that principal lacks capacity; consultation required for certain decisions or conditions; notice to principal and agent",
+     "phase": "incapacitated",
+     "citations": [
+      "ny-phl-2981",
+      "ny-phl-2983"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Attending practitioner determines principal regained capacity",
+      "phase": "capable",
+      "citations": [
+       "ny-phl-2983"
+      ]
+     },
+     {
+      "event": "Revocation (oral, written or any act showing specific intent); divorce or legal separation from spouse-agent unless proxy specifies otherwise",
+      "phase": "capable",
+      "citations": [
+       "ny-phl-2985"
+      ]
+     },
+     {
+      "event": "Expiration date or condition stated in the proxy",
+      "phase": "capable",
+      "citations": [
+       "ny-phl-2981"
+      ]
+     },
+     {
+      "event": "Death, except that the agent ranks first to make an anatomical gift of the decedent's body",
+      "phase": "deceased",
+      "citations": [
+       "ny-phl-4301"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ny-t-hcp-objection",
+     "from": "active",
+     "to": "suspended",
+     "event": "Principal objects to determination or decision",
+     "conditions": [
+      "Principal's objection prevails unless a court determines principal lacks capacity"
+     ],
+     "citations": [
+      "ny-phl-2983"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-hcp-gift",
+     "from": "active",
+     "to": "active",
+     "event": "After death, agent may consent to anatomical gift (first priority), subject to written statements in the proxy",
+     "conditions": [],
+     "citations": [
+      "ny-phl-4301"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Mostly consistent with the UHCDA pattern. In New York the principal's objection prevails unless a court finds incapacity (PHL §2983). The agent keeps post-death authority for anatomical gifts (PHL §4301(2)(a)(i)) but is NOT on the §4201 priority list for disposition of remains, which requires a separate designation.",
+   "citations": [
+    "ny-phl-2981",
+    "ny-phl-2982",
+    "ny-phl-2983",
+    "ny-phl-2985",
+    "ny-phl-4301"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate (Family Health Care Decisions Act)"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Adult patient in a hospital (as defined by the Act) or receiving hospice care lacks decision-making capacity and has no health care agent",
+     "phase": "incapacitated",
+     "citations": [
+      "ny-phl-2994-b"
+     ]
+    },
+    "starts": {
+     "event": "Attending practitioner's initial determination of incapacity (with concurring determination as required) and identification of the surrogate",
+     "phase": "incapacitated",
+     "citations": [
+      "ny-phl-2994-c",
+      "ny-phl-2994-d"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Attending practitioner determines patient regained decision-making capacity",
+      "phase": "capable",
+      "citations": [
+       "ny-phl-2994-d"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ny-t-fhcda-priority",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Surrogate identified from highest reasonably available, willing and competent class",
+     "conditions": [
+      "(a) Article 81 guardian authorized for health care; (b) spouse (not legally separated) or domestic partner; (c) adult child; (d) parent; (e) adult sibling; (f) close friend"
+     ],
+     "citations": [
+      "ny-phl-2994-d"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The FHCDA (PHL Art. 29-CC) is setting-limited: it covers hospital care and hospice decisions and does not apply when a health care agent exists (§2994-b). The priority list resembles UHCDA's but puts an Article 81 guardian first and includes domestic partners and close friends. People with intellectual or developmental disabilities who have SCPA 17-A guardians are governed by SCPA 1750-b instead.",
+   "citations": [
+    "ny-phl-2994-b",
+    "ny-phl-2994-c",
+    "ny-phl-2994-d"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "Article 81 guardian (personal needs)"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Guardian files designation of clerk (and bond if required); clerk issues commission stating specific powers",
+     "phase": "incapacitated",
+     "citations": [
+      "ny-mhl-81-26",
+      "ny-mhl-81-27"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court discharges guardian or modifies powers when the person regains capacity, dies, or guardianship no longer warranted",
+      "phase": "capable",
+      "citations": [
+       "ny-mhl-81-36"
+      ]
+     },
+     {
+      "event": "Death of incapacitated person: statement of death within 20 days; final report within 150 days",
+      "phase": "deceased",
+      "citations": [
+       "ny-mhl-81-44"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ny-t-g-commission",
+     "from": "designated",
+     "to": "active",
+     "event": "Commission issues (within 5 days after designation and bond filed)",
+     "conditions": [],
+     "citations": [
+      "ny-mhl-81-27",
+      "ny-mhl-81-26"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-g-death",
+     "from": "active",
+     "to": "terminated",
+     "event": "Incapacitated person dies; wind-up under §81.44; discharge under §81.36",
+     "conditions": [],
+     "citations": [
+      "ny-mhl-81-44",
+      "ny-mhl-81-36"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Article 81 guardianship is tailored: the person keeps every power not granted to the guardian (§81.29(a)). Authority starts when the commission issues. On death, New York imposes a 20-day deadline to serve a statement of death and a 150-day deadline to deliver property and file the final report (§81.44).",
+   "citations": [
+    "ny-mhl-81-26",
+    "ny-mhl-81-27",
+    "ny-mhl-81-29",
+    "ny-mhl-81-36",
+    "ny-mhl-81-44"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "Article 81 guardian (property management)"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Commission issues",
+     "phase": "incapacitated",
+     "citations": [
+      "ny-mhl-81-27"
+     ]
+    },
+    "ends": [
+     {
+      "event": "After death: guardian may pay funeral expenses and pre-existing bills until an executor or temporary administrator is appointed; must deliver property to PR within 150 days and file final report",
+      "phase": "deceased",
+      "citations": [
+       "ny-mhl-81-21",
+       "ny-mhl-81-44"
+      ]
+     },
+     {
+      "event": "Discharge by court",
+      "phase": "closed",
+      "citations": [
+       "ny-mhl-81-36"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ny-t-gp-postdeath",
+     "from": "active",
+     "to": "suspended",
+     "event": "Incapacitated person dies: limited post-death payment authority",
+     "conditions": [
+      "Only bills the guardian had authority to pay before death",
+      "Until a temporary administrator or executor is appointed"
+     ],
+     "citations": [
+      "ny-mhl-81-21"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-gp-revoke-poa",
+     "from": "active",
+     "to": "active",
+     "event": "Court modifies, amends or revokes previously executed POA or advance directive",
+     "conditions": [],
+     "citations": [
+      "ny-mhl-81-29"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-gp-digital",
+     "from": "active",
+     "to": "active",
+     "event": "Court grants guardian access to digital assets; custodian discloses catalogue/non-content",
+     "conditions": [],
+     "citations": [
+      "ny-eptl-13-a-3-8"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "New York uses one Article 81 guardian with property-management powers, not a separate conservator. Post-death wind-up follows the §81.44 20-day and 150-day deadlines.",
+   "citations": [
+    "ny-mhl-81-21",
+    "ny-mhl-81-29",
+    "ny-mhl-81-44",
+    "ny-eptl-13-a-3-8"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "preliminary executor"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Will admitted to probate and named executor qualifies; letters testamentary issue",
+     "phase": "administration",
+     "citations": [
+      "ny-scpa-1414"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "ny-t-prelim-letters",
+     "from": "designated",
+     "to": "active",
+     "event": "Preliminary letters testamentary issued pending probate",
+     "conditions": [
+      "Administrator's powers except paying legacies or distributive shares",
+      "Revoked by decree denying probate, unreasonable delay, or other cause"
+     ],
+     "citations": [
+      "ny-scpa-1412"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "SCPA Art. 14 governs. Preliminary letters (SCPA §1412) let a named executor act before probate. No statutory deadline to probate comparable to UPC §3-108 or Texas's 4-year limit was identified (not exhaustively verified).",
+   "citations": [
+    "ny-scpa-1412",
+    "ny-scpa-1414"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Surrogate's Court grants letters by priority: spouse, children, grandchildren, either parent, siblings, other distributees (largest share preferred)",
+     "phase": "deceased",
+     "citations": [
+      "ny-scpa-1001"
+     ]
+    }
+   },
+   "diff": "The SCPA §1001 priority list is limited to distributees and does not include creditors or a public administrator in subdivision 1. Domestic partners are not listed there.",
+   "citations": [
+    "ny-scpa-1001"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "voluntary administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Eligible person (spouse; adult distributee relatives; guardian of distributee; county chief fiscal officer; named executor if testate) files affidavit and death certificate with Surrogate's Court",
+     "phase": "deceased",
+     "citations": [
+      "ny-scpa-1303",
+      "ny-scpa-1304"
+     ]
+    },
+    "starts": {
+     "event": "No waiting period after death; authority evidenced by short certificate. Personal property gross value $50,000 or less (excluding EPTL 5-3.1(a) set-off)",
+     "phase": "deceased",
+     "citations": [
+      "ny-scpa-1304",
+      "ny-scpa-1301"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Appointment and qualification of another fiduciary (voluntary administrator's powers cease)",
+      "phase": "administration",
+      "citations": [
+       "ny-scpa-1306"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "ny-t-va-testate-wait",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Testate estate: if named executor does not act, others may qualify after 30 days from filing of the will",
+     "conditions": [],
+     "citations": [
+      "ny-scpa-1303"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "New York uses court-filed voluntary administration (SCPA Art. 13) rather than a UPC-style affidavit given directly to asset holders. There is no waiting period, and the voluntary administrator receives a court short certificate. The limit is $50,000 of personal property, confirmed in SCPA §1301 as retrieved; real property is not covered.",
+   "citations": [
+    "ny-scpa-1301",
+    "ny-scpa-1303",
+    "ny-scpa-1304",
+    "ny-scpa-1306"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Named in lifetime trust executed and acknowledged (or witnessed) per EPTL 7-1.17",
+     "phase": "capable",
+     "citations": [
+      "ny-eptl-7-1-17"
+     ]
+    },
+    "ends": [
+     {
+      "event": "On death of sole surviving trustee the trust estate vests in the court (absent contrary terms); court may appoint successor",
+      "phase": "administration",
+      "citations": [
+       "ny-eptl-7-2-3"
+      ]
+     }
+    ]
+   },
+   "diff": "New York has not adopted the UTC. Lifetime trusts must be executed and acknowledged, or signed before two witnesses, and amendments and revocations take effect on execution (EPTL 7-1.17). When a sole surviving trustee dies, the trust estate vests in the court rather than the trustee's estate (EPTL 7-2.3).",
+   "citations": [
+    "ny-eptl-7-1-17",
+    "ny-eptl-7-2-3"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "User directs custodian via online tool",
+     "phase": "capable",
+     "citations": [
+      "ny-eptl-13-a-2-2"
+     ]
+    }
+   },
+   "diff": "Matches RUFADAA §4 (EPTL 13-A-2.2).",
+   "citations": [
+    "ny-eptl-13-a-2-2"
+   ],
+   "differs": false
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "executor",
+    "administrator",
+    "personal representative",
+    "agent",
+    "trustee",
+    "guardian"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Written request, death certificate, and certified letters, small-estate affidavit or court order",
+     "phase": "administration",
+     "citations": [
+      "ny-eptl-13-a-3-2",
+      "ny-eptl-13-a-3-1"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "ny-t-dig-content",
+     "from": "designated",
+     "to": "active",
+     "event": "PR obtains content of electronic communications",
+     "conditions": [
+      "Deceased user consented or court directs"
+     ],
+     "citations": [
+      "ny-eptl-13-a-3-1"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-dig-agent",
+     "from": "designated",
+     "to": "active",
+     "event": "Agent obtains content if POA expressly grants authority; agent supplies affidavit that copy is accurate and power remains in effect",
+     "conditions": [],
+     "citations": [
+      "ny-eptl-13-a-3-3"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-dig-guardian",
+     "from": "designated",
+     "to": "active",
+     "event": "Court grants guardian access; custodian discloses catalogue/non-content",
+     "conditions": [],
+     "citations": [
+      "ny-eptl-13-a-3-8"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "New York enacted Article 13-A, 'Administration of Digital Assets', with RUFADAA's structure. An agent seeking content supplies an affidavit that the POA copy is accurate and still in effect, where RUFADAA uses a certification. Guardians replace conservators (13-A-3.8).",
+   "citations": [
+    "ny-eptl-13-a-2-1",
+    "ny-eptl-13-a-3-1",
+    "ny-eptl-13-a-3-2",
+    "ny-eptl-13-a-3-3",
+    "ny-eptl-13-a-3-8"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "health care agent (anatomical gift)",
+    "agent designated under PHL Art. 42"
+   ],
+   "lane": {
+    "starts": {
+     "event": "After death, absent a donor gift and without actual notice of contrary indications: health care agent first, then §4201 disposition agent, then family classes",
+     "phase": "deceased",
+     "citations": [
+      "ny-phl-4301"
+     ]
+    }
+   },
+   "diff": "PHL §4301(2)(a) ranks the health care agent first and the PHL Art. 42 remains agent second, then family. New York's anatomical gift article (PHL Art. 43) is not titled a Uniform Anatomical Gift Act.",
+   "citations": [
+    "ny-phl-4301"
+   ]
+  },
+  {
+   "role": "disposition-of-remains-agent",
+   "name": "Person with right to control disposition of remains",
+   "group": "remains",
+   "localNames": [
+    "person designated in a written instrument under PHL §4201"
+   ],
+   "summary": "The person who has the right to control disposition of remains and must carry out the decedent's directions where lawful and practicable.",
+   "lane": {
+    "assigned": {
+     "event": "Decedent signs statutory written instrument before two adult witnesses",
+     "phase": "capable",
+     "citations": [
+      "ny-phl-4201"
+     ]
+    },
+    "starts": {
+     "event": "Death ('becomes effective upon my death')",
+     "phase": "deceased",
+     "citations": [
+      "ny-phl-4201"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Agent not reasonably available, unwilling or not competent: next class assumes control",
+      "phase": "deceased",
+      "citations": [
+       "ny-phl-4201"
+      ]
+     },
+     {
+      "event": "Disposition completed",
+      "phase": "administration",
+      "citations": [
+       "ny-phl-4201"
+      ],
+      "unverified": true,
+      "note": "No explicit statutory end point or day-count forfeiture found in retrieved text."
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No designation"
+    },
+    {
+     "id": "designated",
+     "label": "Written designation executed"
+    },
+    {
+     "id": "active",
+     "label": "Right vested after death"
+    },
+    {
+     "id": "terminated",
+     "label": "Passed to next class / disposition complete"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "ny-t-dor-vest",
+     "from": "designated",
+     "to": "active",
+     "event": "Death: right vests by priority",
+     "conditions": [
+      "(i) designated agent; (ii) spouse; (ii-a) domestic partner; (iii) adult child; (iv) either parent; (v) adult sibling; (vi) SCPA 17/17-A or MHL Art. 81 guardian; (vii) other adult distributee (closest first); (viii) estate fiduciary; (ix) close friend or relative with written statement; (x) county chief fiscal officer / public administrator or other person with written statement"
+     ],
+     "citations": [
+      "ny-phl-4201"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-dor-disqualify",
+     "from": "active",
+     "to": "terminated",
+     "event": "Person subject to protection order or criminally charged in connection with death is disqualified (court may waive)",
+     "conditions": [],
+     "citations": [
+      "ny-phl-4201"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "ny-t-dor-divorce",
+     "from": "designated",
+     "to": "not_designated",
+     "event": "Divorce, legal separation, or end of domestic partnership revokes spouse/partner designation unless decedent specified otherwise in writing",
+     "conditions": [],
+     "citations": [
+      "ny-phl-4201"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "New role. New York uses a stand-alone witnessed designation (PHL §4201(3)). Unlike California, the health care agent is not on the disposition priority list. An Article 81 guardian ranks above distant distributees and the estate fiduciary.",
+   "citations": [
+    "ny-phl-4201"
+   ],
+   "canonical": "disposition-of-remains-agent"
+  }
+ ]
+}

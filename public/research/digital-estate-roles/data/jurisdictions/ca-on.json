@@ -1,0 +1,2505 @@
+{
+ "jurisdiction": "ca-on",
+ "name": "Ontario",
+ "country": "ca",
+ "legalSystem": "common law",
+ "extendsNational": "ca-federal",
+ "note": "Ontario provincial roles for incapacity, death and estates as in force on 2026-09-16 (e-Laws currency date 11 Sept 2026). Federal benefit, tax and privacy roles are in ca-federal.json.",
+ "citations": [
+  {
+   "id": "on-sda-6",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 6",
+   "title": "Incapacity to manage property",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-7-1",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 7(1)",
+   "title": "Continuing power of attorney for property",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "it states that it is a continuing power of attorney; or ... expresses the intention that the authority given may be exercised during the grantor's incapacity"
+  },
+  {
+   "id": "on-sda-7-2",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 7(2)",
+   "title": "Scope of continuing POA",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "anything in respect of property that the grantor could do if capable, except make a will"
+  },
+  {
+   "id": "on-sda-7-7",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 7(7)",
+   "title": "Postponed effectiveness",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may provide that it comes into effect on a specified date or when a specified contingency happens"
+  },
+  {
+   "id": "on-sda-8",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 8",
+   "title": "Capacity to give continuing power of attorney",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-9",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 9(1)-(3)",
+   "title": "Validity despite incapacity; determining incapacity",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the attorney is notified in the prescribed form by an assessor that the assessor has performed an assessment"
+  },
+  {
+   "id": "on-sda-10",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 10",
+   "title": "Execution (two witnesses)",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall be executed in the presence of two witnesses, each of whom shall sign"
+  },
+  {
+   "id": "on-sda-12",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 12(1)",
+   "title": "Termination of continuing POA",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(f) when the grantor dies"
+  },
+  {
+   "id": "on-sda-13",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 13",
+   "title": "Exercise after termination or invalidity",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-15",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 15",
+   "title": "P.G.T. as statutory guardian (Mental Health Act certificate)",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Public Guardian and Trustee is the person's statutory guardian of property"
+  },
+  {
+   "id": "on-sda-16",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 16",
+   "title": "Assessment of capacity for statutory guardianship",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "As soon as he or she receives the copy of the certificate, the Public Guardian and Trustee is the person's statutory guardian of property."
+  },
+  {
+   "id": "on-sda-16-1",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 16.1",
+   "title": "Termination of statutory guardianship by attorney",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-17",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 17",
+   "title": "Replacement of P.G.T. as statutory guardian",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-20",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 20(1)",
+   "title": "Termination of statutory guardianship",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "5. The person dies."
+  },
+  {
+   "id": "on-sda-22",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 22",
+   "title": "Court appointment of guardian of property",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "appoint a guardian of property for a person who is incapable of managing property"
+  },
+  {
+   "id": "on-sda-24",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 24",
+   "title": "Appointment criteria (guardian of property)",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-28",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, ss 28-29",
+   "title": "Termination and suspension of court-appointed guardianship of property",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-35",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 35(1)",
+   "title": "P.G.T. powers after death of incapable person",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may, but need not, exercise the powers of an executor ... until notified of another person's appointment as personal representative"
+  },
+  {
+   "id": "on-sda-46",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 46",
+   "title": "Power of attorney for personal care",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-48",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 48",
+   "title": "Execution of power of attorney for personal care",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall be executed in the presence of two witnesses"
+  },
+  {
+   "id": "on-sda-63-64",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, ss 63-64",
+   "title": "Termination and suspension of guardianship of the person",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The court may terminate a guardianship created under section 55, on motion"
+  },
+  {
+   "id": "on-sda-47",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 47",
+   "title": "Capacity to give power of attorney for personal care",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-49",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 49",
+   "title": "When power of attorney for personal care effective",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Health Care Consent Act, 1996 applies to the decision and that Act authorizes the attorney to make the decision"
+  },
+  {
+   "id": "on-sda-50",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 50",
+   "title": "Special provisions (use of force) requiring assessor statement",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-53",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 53(1)",
+   "title": "Termination of power of attorney for personal care",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-sda-55",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 55",
+   "title": "Court appointment of guardian of the person",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "appoint a guardian of the person for a person who is incapable of personal care"
+  },
+  {
+   "id": "on-sda-57",
+   "cite": "Substitute Decisions Act, 1992, SO 1992, c 30, s 57",
+   "title": "Appointment criteria (guardian of the person)",
+   "url": "https://www.ontario.ca/laws/statute/92s30",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-poaa-2-3",
+   "cite": "Powers of Attorney Act, RSO 1990, c P.20, ss 2-3",
+   "title": "General power of attorney; exercise after termination",
+   "url": "https://www.ontario.ca/laws/statute/90p20",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-hcca-10",
+   "cite": "Health Care Consent Act, 1996, SO 1996, c 2, Sched A, s 10",
+   "title": "No treatment without consent",
+   "url": "https://www.ontario.ca/laws/statute/96h02",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "he or she is of the opinion that the person is incapable with respect to the treatment, and the person's substitute decision-maker has given consent"
+  },
+  {
+   "id": "on-hcca-16",
+   "cite": "Health Care Consent Act, 1996, SO 1996, c 2, Sched A, s 16",
+   "title": "Return of capacity",
+   "url": "https://www.ontario.ca/laws/statute/96h02",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the person's own decision to give or refuse consent to the treatment governs"
+  },
+  {
+   "id": "on-hcca-20",
+   "cite": "Health Care Consent Act, 1996, SO 1996, c 2, Sched A, s 20",
+   "title": "List of persons who may give or refuse consent",
+   "url": "https://www.ontario.ca/laws/statute/96h02",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If no person described in subsection (1) meets the requirements of subsection (2), the Public Guardian and Trustee shall make the decision"
+  },
+  {
+   "id": "on-hcca-33",
+   "cite": "Health Care Consent Act, 1996, SO 1996, c 2, Sched A, s 33",
+   "title": "Application for appointment of representative (Consent and Capacity Board)",
+   "url": "https://www.ontario.ca/laws/statute/96h02",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-ea-1",
+   "cite": "Estates Act, RSO 1990, c E.21, s 1 \"small estate\" and s 1(2)",
+   "title": "Definition of small estate",
+   "url": "https://www.ontario.ca/laws/statute/90e21",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "\"small estate\" means an estate that does not exceed the amount prescribed by regulations"
+  },
+  {
+   "id": "on-ea-7-4",
+   "cite": "Estates Act, RSO 1990, c E.21, s 7(4)",
+   "title": "Rules of court; small estates procedures",
+   "url": "https://www.ontario.ca/laws/statute/90e21",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-ea-29",
+   "cite": "Estates Act, RSO 1990, c E.21, s 29",
+   "title": "To what persons administration shall be granted",
+   "url": "https://www.ontario.ca/laws/statute/90e21",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "administration of the property of the deceased may be committed by the Superior Court of Justice to"
+  },
+  {
+   "id": "on-ea-32",
+   "cite": "Estates Act, RSO 1990, c E.21, s 32",
+   "title": "Evaluation of estate (statement of value)",
+   "url": "https://www.ontario.ca/laws/statute/90e21",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-ea-34",
+   "cite": "Estates Act, RSO 1990, c E.21, s 34",
+   "title": "Consequences upon executor renouncing",
+   "url": "https://www.ontario.ca/laws/statute/90e21",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the person's rights in respect of the executorship wholly cease"
+  },
+  {
+   "id": "on-ea-36",
+   "cite": "Estates Act, RSO 1990, c E.21, s 36(3)",
+   "title": "Bond not required for small estate (with exceptions)",
+   "url": "https://www.ontario.ca/laws/statute/90e21",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-oreg-110-21",
+   "cite": "O Reg 110/21 (Small Estates), s 1, under the Estates Act",
+   "title": "Value of a small estate",
+   "url": "https://www.ontario.ca/laws/regulation/210110",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "the prescribed amount is $150,000"
+  },
+  {
+   "id": "on-rcp-1-03",
+   "cite": "Rules of Civil Procedure, RRO 1990, Reg 194, r 1.03 \"certificate of appointment of estate trustee\"",
+   "title": "Definition",
+   "url": "https://www.ontario.ca/laws/regulation/900194",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "means letters probate, letters of administration or letters of administration with the will annexed, and includes a small estate certificate"
+  },
+  {
+   "id": "on-rcp-74-04",
+   "cite": "Rules of Civil Procedure, RRO 1990, Reg 194, r 74.04",
+   "title": "Application for certificate of appointment of estate trustee (Form 74A)",
+   "url": "https://www.ontario.ca/laws/regulation/900194",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-rcp-74-16-18",
+   "cite": "Rules of Civil Procedure, RRO 1990, Reg 194, rr 74.16-74.18",
+   "title": "Passing of estate accounts",
+   "url": "https://www.ontario.ca/laws/regulation/900194",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-rcp-74-1",
+   "cite": "Rules of Civil Procedure, RRO 1990, Reg 194, rr 74.1.01-74.1.06",
+   "title": "Small estates - non-contentious proceedings",
+   "url": "https://www.ontario.ca/laws/regulation/900194",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "quote": "the estate trustee named in the certificate may make an application for a certificate of appointment of estate trustee under Rule 74"
+  },
+  {
+   "id": "on-eaa-2",
+   "cite": "Estates Administration Act, RSO 1990, c E.22, s 2(1)",
+   "title": "Devolution of property to personal representative",
+   "url": "https://www.ontario.ca/laws/statute/90e22",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "devolves to and becomes vested in his or her personal representative from time to time as trustee"
+  },
+  {
+   "id": "on-eaa-9",
+   "cite": "Estates Administration Act, RSO 1990, c E.22, s 9(1)",
+   "title": "Real property vests in beneficiaries after three years unless cautioned",
+   "url": "https://www.ontario.ca/laws/statute/90e22",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-ta-37",
+   "cite": "Trustee Act, RSO 1990, c T.23, s 37",
+   "title": "Removal of personal representatives",
+   "url": "https://www.ontario.ca/laws/statute/90t23",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-slra-15-16",
+   "cite": "Succession Law Reform Act, RSO 1990, c S.26, ss 15(a), 16 (repealed)",
+   "title": "Revocation by marriage repealed",
+   "url": "https://www.ontario.ca/laws/statute/90s26",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "16 Repealed: 2021, c. 4, Sched. 9, s. 3."
+  },
+  {
+   "id": "on-slra-17",
+   "cite": "Succession Law Reform Act, RSO 1990, c S.26, s 17(2)-(5)",
+   "title": "Revocation on termination of marriage or separation",
+   "url": "https://www.ontario.ca/laws/statute/90s26",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an appointment of his or her former spouse as executor or trustee"
+  },
+  {
+   "id": "on-ontario-probate",
+   "cite": "Government of Ontario, Apply for probate for an estate",
+   "title": "Probate guidance",
+   "url": "https://www.ontario.ca/page/apply-probate-estate",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "confirm the authority of a person named as the estate trustee in the deceased's will"
+  },
+  {
+   "id": "on-ontario-admin-estates",
+   "cite": "Government of Ontario, Administering estates",
+   "title": "Estate administration guidance",
+   "url": "https://www.ontario.ca/page/administering-estates",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "If the deceased owned real property or assets held by a financial institution, the estate normally has to be probated."
+  },
+  {
+   "id": "on-gol-4",
+   "cite": "Gift of Life Act, RSO 1990, c H.20, s 4",
+   "title": "Consent by person for use of body after death",
+   "url": "https://www.ontario.ca/laws/statute/90h20",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the consent is binding and is full authority for the use of the body"
+  },
+  {
+   "id": "on-gol-5",
+   "cite": "Gift of Life Act, RSO 1990, c H.20, s 5",
+   "title": "Consent by other persons",
+   "url": "https://www.ontario.ca/laws/statute/90h20",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(a) the person's spouse; or (b) if none or if the spouse is not readily available, any one of the person's children"
+  },
+  {
+   "id": "on-gol-8-1",
+   "cite": "Gift of Life Act, RSO 1990, c H.20, ss 1 \"Agency\", 8.1",
+   "title": "Routine notification by designated facilities to the Agency",
+   "url": "https://www.ontario.ca/laws/statute/90h20",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-cca-3",
+   "cite": "Connecting Care Act, 2019, SO 2019, c 5, Sched 1, s 3(1)",
+   "title": "Ontario Health continued",
+   "url": "https://www.ontario.ca/laws/statute/19c05",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "continued as a corporation without share capital under the name Ontario Health"
+  },
+  {
+   "id": "on-bill3-44-1",
+   "cite": "Bill 3 (44th Parl, 1st Sess), Robbie's Legacy Act (Honouring Beloved Organ and Tissue Donors), 2026",
+   "title": "Pending Gift of Life Act amendment (donor recognition)",
+   "url": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-3",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "pending": true
+  },
+  {
+   "id": "on-fbcsa-reg30",
+   "cite": "O Reg 30/11 (General) under the Funeral, Burial and Cremation Services Act, 2002, ss 1, 53, 100, 101, 144",
+   "title": "Personal representative references; coroner's cremation certificate",
+   "url": "https://www.ontario.ca/laws/regulation/110030",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-fbcsa",
+   "cite": "Funeral, Burial and Cremation Services Act, 2002, SO 2002, c 33 (full text searched)",
+   "title": "No statutory priority list for control of remains found",
+   "url": "https://www.ontario.ca/laws/statute/02f33",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-saleh-reichert",
+   "cite": "Saleh v Reichert (1993), 104 DLR (4th) 384, 1993 CanLII 9394 (ON SC)",
+   "title": "Executor's right and duty to dispose of remains",
+   "url": "https://www.canlii.org/en/on/onsc/doc/1993/1993canlii9394/1993canlii9394.html",
+   "kind": "court-rule",
+   "retrieved": "2026-09-16",
+   "unverified": true,
+   "note": "Judgment text not reached (CanLII bot challenge). The holding is described from search-result summaries only."
+  },
+  {
+   "id": "on-phipa-9",
+   "cite": "Personal Health Information Protection Act, 2004, SO 2004, c 3, Sched A, s 9(1)",
+   "title": "Act ceases to apply 50 years after death",
+   "url": "https://www.ontario.ca/laws/statute/04p03",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the earlier of 120 years after a record containing the information was created and 50 years after the death of the individual"
+  },
+  {
+   "id": "on-phipa-23",
+   "cite": "Personal Health Information Protection Act, 2004, SO 2004, c 3, Sched A, s 23(1) para 4",
+   "title": "Persons who may consent: deceased individual",
+   "url": "https://www.ontario.ca/laws/statute/04p03",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the deceased's estate trustee or the person who has assumed responsibility for the administration of the deceased's estate"
+  },
+  {
+   "id": "on-phipa-25-26",
+   "cite": "Personal Health Information Protection Act, 2004, SO 2004, c 3, Sched A, ss 25, 26",
+   "title": "Authority of substitute decision-maker; incapable individual",
+   "url": "https://www.ontario.ca/laws/statute/04p03",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-phipa-38-4",
+   "cite": "Personal Health Information Protection Act, 2004, SO 2004, c 3, Sched A, s 38(4)",
+   "title": "Disclosure about deceased individual",
+   "url": "https://www.ontario.ca/laws/statute/04p03",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "on-yk-news",
+   "cite": "Government of Yukon news release #23-485 (15 Nov 2023)",
+   "title": "Jurisdictions with fiduciary digital-assets legislation (NB, SK, PEI, Yukon)",
+   "url": "https://yukon.ca/en/news/fiduciaries-access-digital-assets-act-receives-assent",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Similar legislation is in place in other jurisdictions including New Brunswick, Saskatchewan and Prince Edward Island."
+  },
+  {
+   "id": "on-lco-2017",
+   "cite": "Law Commission of Ontario, Legal Capacity, Decision-making and Guardianship: Final Report (March 2017)",
+   "title": "Reform report (context only)",
+   "url": "https://lco-cdo.org/en/publications/legal-capacity-decision-making-and-guardianship-final-report/",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16"
+  }
+ ],
+ "roles": [
+  {
+   "id": "on-cpoa-property",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney under a continuing power of attorney for property",
+   "localNames": [
+    "attorney",
+    "continuing power of attorney for property (CPOA)"
+   ],
+   "summary": "A property power of attorney is 'continuing' (survives incapacity) only if it says so or shows that intention. It is signed before two qualified witnesses. It lets the attorney do anything with property the grantor could do except make a will. Unless it postpones its effect, it can be used as soon as it is validly signed. It ends at death.",
+   "lane": {
+    "assigned": {
+     "event": "Grantor with capacity under s 8 signs a CPOA before two witnesses who are not disqualified",
+     "phase": "capable",
+     "citations": [
+      "on-sda-7-1",
+      "on-sda-8",
+      "on-sda-10"
+     ]
+    },
+    "starts": {
+     "event": "On execution, unless the document postpones effect to a specified date or contingency (see on-cpoa-springing)",
+     "phase": "capable",
+     "citations": [
+      "on-sda-7-7",
+      "on-sda-7-2"
+     ],
+     "note": "The SDA has no clause saying 'effective on signing'. That default follows from s 7(7), which makes postponement optional."
+    },
+    "ends": [
+     {
+      "event": "Grantor dies",
+      "phase": "deceased",
+      "citations": [
+       "on-sda-12"
+      ]
+     },
+     {
+      "event": "Grantor revokes in writing, executed like a CPOA",
+      "phase": "capable",
+      "citations": [
+       "on-sda-12"
+      ]
+     },
+     {
+      "event": "Grantor executes a new CPOA, unless multiple CPOAs are provided for",
+      "phase": "capable",
+      "citations": [
+       "on-sda-12"
+      ]
+     },
+     {
+      "event": "Court appoints a guardian of property under s 22",
+      "phase": "incapacitated",
+      "citations": [
+       "on-sda-12",
+       "on-sda-22"
+      ]
+     },
+     {
+      "event": "Attorney dies, becomes incapable of managing property or resigns, unless a joint attorney remains or a substitute is named and willing",
+      "phase": "incapacitated",
+      "citations": [
+       "on-sda-12"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Acts done after termination are still valid between the grantor or estate and anyone acting in good faith without knowing of the termination.",
+     "citations": [
+      "on-sda-13"
+     ]
+    },
+    {
+     "text": "A CPOA covering all property ends a PGT statutory guardianship once the attorney gives the PGT the document, an undertaking and proof of identity (s 16.1).",
+     "citations": [
+      "on-sda-16-1"
+     ]
+    },
+    {
+     "text": "No registration step exists: validity depends on capacity and execution formalities only.",
+     "citations": [
+      "on-sda-9",
+      "on-sda-10"
+     ]
+    },
+    {
+     "text": "The SDA has no automatic revocation of a spouse-attorney on separation or divorce. Contrast SLRA s 17 for executors.",
+     "citations": [
+      "on-sda-12",
+      "on-slra-17"
+     ]
+    },
+    {
+     "text": "A non-continuing ('general') POA under the Powers of Attorney Act is not continuing unless it meets SDA s 7(1). Its ending on the grantor's incapacity is a common-law rule, not stated in the Ontario statute text reviewed.",
+     "citations": [
+      "on-poaa-2-3",
+      "on-sda-7-1"
+     ],
+     "unverified": true
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No CPOA"
+     },
+     {
+      "id": "designated",
+      "label": "CPOA signed but its effect postponed"
+     },
+     {
+      "id": "active",
+      "label": "Attorney may act for property"
+     },
+     {
+      "id": "suspended",
+      "label": "Attorney's authority displaced pending court proceedings (e.g. guardianship application); not an express SDA status"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended under s 12"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-sign-immediate",
+      "from": "not_designated",
+      "to": "active",
+      "event": "CPOA executed with no postponement",
+      "conditions": [],
+      "citations": [
+       "on-sda-7-1",
+       "on-sda-7-7",
+       "on-sda-10"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-sign-postponed",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "CPOA executed with postponed effect",
+      "conditions": [],
+      "citations": [
+       "on-sda-7-7"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-guardian",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court appoints guardian of property",
+      "conditions": [],
+      "citations": [
+       "on-sda-12",
+       "on-sda-22"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revocation or new CPOA (unless multiple permitted)",
+      "conditions": [],
+      "citations": [
+       "on-sda-12"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-attorney-gone",
+      "from": "active",
+      "to": "terminated",
+      "event": "Attorney dies, becomes incapable or resigns with no remaining joint attorney or substitute",
+      "conditions": [],
+      "citations": [
+       "on-sda-12"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Grantor dies",
+      "conditions": [],
+      "citations": [
+       "on-sda-12"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-cpoa-springing",
+   "canonical": "financial-poa-springing",
+   "group": "financial",
+   "name": "Attorney under a continuing power of attorney for property with postponed effect",
+   "localNames": [
+    "continuing power of attorney that comes into effect on a specified date or contingency"
+   ],
+   "summary": "A CPOA may take effect on a specified date or when a specified contingency happens, including the grantor's incapacity. It may set its own test for incapacity. If it springs on incapacity without a method, it takes effect when the attorney is notified in the prescribed form of a capacity assessor's finding, or of a Mental Health Act certificate of incapacity.",
+   "lane": {
+    "assigned": {
+     "event": "Grantor executes a CPOA with a postponed-effect clause",
+     "phase": "capable",
+     "citations": [
+      "on-sda-7-7",
+      "on-sda-10"
+     ]
+    },
+    "starts": {
+     "event": "Specified date or contingency happens. For incapacity with no stated method, when the attorney is notified of an assessor's finding (prescribed form) or of a Mental Health Act certificate of incapacity.",
+     "phase": "incapacitated",
+     "citations": [
+      "on-sda-7-7",
+      "on-sda-9"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Same termination events as any CPOA, including the grantor's death",
+      "phase": "deceased",
+      "citations": [
+       "on-sda-12"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No CPOA"
+     },
+     {
+      "id": "designated",
+      "label": "Signed; waiting for date/contingency"
+     },
+     {
+      "id": "active",
+      "label": "In effect"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended under s 12"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "CPOA with postponed effect executed",
+      "conditions": [],
+      "citations": [
+       "on-sda-7-7"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-trigger-own-method",
+      "from": "designated",
+      "to": "active",
+      "event": "Contingency occurs as determined by the method set in the document",
+      "conditions": [],
+      "citations": [
+       "on-sda-7-7",
+       "on-sda-9"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-trigger-default",
+      "from": "designated",
+      "to": "active",
+      "event": "No method given: attorney notified of assessor finding or MHA certificate of incapacity",
+      "conditions": [
+       "Assessor notice in prescribed form, or notice that an MHA certificate of incapacity has issued"
+      ],
+      "citations": [
+       "on-sda-9"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death-before",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Grantor dies before trigger",
+      "conditions": [],
+      "citations": [
+       "on-sda-12"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Grantor dies",
+      "conditions": [],
+      "citations": [
+       "on-sda-12"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-poa-personal-care",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Attorney for personal care",
+   "localNames": [
+    "attorney for personal care",
+    "power of attorney for personal care (POAPC)"
+   ],
+   "summary": "A written power of attorney for personal care authorizes an attorney to make personal-care decisions (health care, shelter, nutrition, clothing, hygiene, safety). A provision is effective only when the grantor is incapable. For treatment covered by the HCCA, that means when the health practitioner finds the person incapable. For other decisions, when the attorney has reasonable grounds to believe so, unless the document requires confirmation (by its own method or a capacity assessor).",
+   "lane": {
+    "assigned": {
+     "event": "Grantor with capacity under s 47 signs a written POAPC (two witnesses)",
+     "phase": "capable",
+     "citations": [
+      "on-sda-46",
+      "on-sda-47",
+      "on-sda-48"
+     ]
+    },
+    "starts": {
+     "event": "Decision by decision. HCCA decisions: when a health practitioner finds the grantor incapable for that treatment and the HCCA gives the attorney authority. Other decisions: when the attorney has reasonable grounds to believe the grantor is incapable, or on assessor confirmation if the POA requires it.",
+     "phase": "incapacitated",
+     "citations": [
+      "on-sda-49",
+      "on-hcca-10",
+      "on-hcca-20"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Grantor regains capacity for the decision (their own decision governs)",
+      "phase": "capable",
+      "citations": [
+       "on-hcca-16",
+       "on-sda-49"
+      ]
+     },
+     {
+      "event": "Court appoints a guardian of the person under s 55",
+      "phase": "incapacitated",
+      "citations": [
+       "on-sda-53",
+       "on-sda-55"
+      ]
+     },
+     {
+      "event": "Revocation, or execution of a new POAPC unless multiple are provided for",
+      "phase": "capable",
+      "citations": [
+       "on-sda-53"
+      ]
+     },
+     {
+      "event": "Attorney dies, becomes incapable of personal care or resigns, with no remaining joint attorney or substitute",
+      "phase": "incapacitated",
+      "citations": [
+       "on-sda-53"
+      ]
+     },
+     {
+      "event": "Grantor dies: personal-care decision-making ends because there is no living grantor to decide for. Section 53 does NOT list the grantor's death (unlike s 12(1)(f) for CPOAs).",
+      "phase": "deceased",
+      "citations": [
+       "on-sda-53",
+       "on-sda-49"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Special provisions (e.g. authorizing force or confinement) take effect only with a statement by the grantor and an assessor's statement in prescribed form within 30 days of execution (s 50).",
+     "citations": [
+      "on-sda-50"
+     ]
+    },
+    {
+     "text": "After death, organ donation consent goes to the Gift of Life Act s 5 hierarchy (spouse, children, parents...), which does not name the attorney for personal care. Health-record consent goes to the estate trustee under PHIPA s 23(1) para 4.",
+     "citations": [
+      "on-gol-5",
+      "on-phipa-23"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No POAPC"
+     },
+     {
+      "id": "designated",
+      "label": "POAPC valid; grantor capable"
+     },
+     {
+      "id": "active",
+      "label": "Grantor incapable for the decision; attorney decides"
+     },
+     {
+      "id": "suspended",
+      "label": "Grantor capable again for a given decision"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended under s 53, or grantor died"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "POAPC executed",
+      "conditions": [],
+      "citations": [
+       "on-sda-46",
+       "on-sda-47"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-hcca-finding",
+      "from": "designated",
+      "to": "active",
+      "event": "Health practitioner finds grantor incapable for a proposed treatment",
+      "conditions": [],
+      "citations": [
+       "on-hcca-10",
+       "on-hcca-20",
+       "on-sda-49"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-reasonable-grounds",
+      "from": "designated",
+      "to": "active",
+      "event": "Non-HCCA decision: attorney has reasonable grounds to believe incapacity (or assessor confirms where required)",
+      "conditions": [],
+      "citations": [
+       "on-sda-49"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-capacity-returns",
+      "from": "active",
+      "to": "suspended",
+      "event": "Grantor becomes capable for the treatment; own decision governs",
+      "conditions": [],
+      "citations": [
+       "on-hcca-16"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-guardian",
+      "from": "active",
+      "to": "terminated",
+      "event": "Guardian of the person appointed",
+      "conditions": [],
+      "citations": [
+       "on-sda-53",
+       "on-sda-55"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Revocation or new POAPC",
+      "conditions": [],
+      "citations": [
+       "on-sda-53"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Grantor dies (not an express s 53 ground)",
+      "conditions": [],
+      "citations": [
+       "on-sda-53"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-hcca-sdm",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Substitute decision-maker under the Health Care Consent Act hierarchy",
+   "localNames": [
+    "substitute decision-maker",
+    "representative appointed by the Consent and Capacity Board",
+    "spouse or partner",
+    "child or parent",
+    "brother or sister",
+    "any other relative"
+   ],
+   "summary": "When a health practitioner finds a person incapable for a proposed treatment, consent comes from the highest-ranking person who is capable, 16 or older (unless a parent), available, willing and not barred. The ranking is: guardian of the person, attorney for personal care, Consent and Capacity Board representative, spouse or partner, child or parent (or CAS), parent with access only, sibling, any other relative. If no one qualifies, or equal-ranked people disagree, the Public Guardian and Trustee decides.",
+   "lane": {
+    "assigned": {
+     "event": "By statute. No appointment is needed for family members. Ranking is set by s 20(1), subject to s 20(2)-(4).",
+     "phase": "incapacitated",
+     "citations": [
+      "on-hcca-20",
+      "on-hcca-33"
+     ]
+    },
+    "starts": {
+     "event": "Health practitioner forms the opinion that the person is incapable with respect to the treatment",
+     "phase": "incapacitated",
+     "citations": [
+      "on-hcca-10"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Person becomes capable for the treatment (own decision governs), or the Consent and Capacity Board or a court on appeal finds them capable",
+      "phase": "capable",
+      "citations": [
+       "on-hcca-16",
+       "on-hcca-10"
+      ]
+     },
+     {
+      "event": "Person dies: HCCA consent authority ends. Post-death donation consent is under the Gift of Life Act.",
+      "phase": "deceased",
+      "citations": [
+       "on-hcca-10",
+       "on-gol-5"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "A higher-ranked person becomes available and willing",
+      "phase": "incapacitated",
+      "citations": [
+       "on-hcca-20"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "'Spouse' excludes people living separate and apart because the relationship broke down (s 20(8)). 'Partner' means two people who have lived together at least a year in a close personal relationship of primary importance (s 20(9)).",
+     "citations": [
+      "on-hcca-20"
+     ]
+    },
+    {
+     "text": "The PGT is the decision-maker of last resort, and also decides when equal-ranking persons disagree.",
+     "citations": [
+      "on-hcca-20"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Person capable, or no treatment proposed"
+     },
+     {
+      "id": "active",
+      "label": "Highest-ranking eligible person gives or refuses consent"
+     },
+     {
+      "id": "terminated",
+      "label": "Capacity returns, the person dies, or a higher-ranked person displaces"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-finding",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Health practitioner finds the person incapable for the treatment",
+      "conditions": [
+       "Meets s 20(2): capable, 16+ (unless parent), not prohibited, available, willing",
+       "No higher-ranked eligible person"
+      ],
+      "citations": [
+       "on-hcca-10",
+       "on-hcca-20"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-pgt",
+      "from": "not_designated",
+      "to": "active",
+      "event": "No eligible listed person: PGT decides",
+      "conditions": [],
+      "citations": [
+       "on-hcca-20"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person becomes capable (own decision governs)",
+      "conditions": [],
+      "citations": [
+       "on-hcca-16"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person dies",
+      "conditions": [],
+      "citations": [
+       "on-hcca-10"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-pgt-statutory-guardian-property",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Statutory guardian of property (Public Guardian and Trustee)",
+   "localNames": [
+    "statutory guardian of property",
+    "Public Guardian and Trustee (P.G.T.)"
+   ],
+   "summary": "The PGT becomes statutory guardian of property without a court order in two cases: when a Mental Health Act certificate finds a psychiatric-facility patient incapable of managing property, or when a capacity assessor issues a certificate of incapacity after a s 16 request (the requester must have found no attorney with authority over all property and no family member planning to apply to court). A qualifying family member may later replace the PGT (s 17).",
+   "lane": {
+    "assigned": {
+     "event": "MHA certificate of incapacity to manage property (s 15) or assessor's certificate of incapacity (s 16)",
+     "phase": "incapacitated",
+     "citations": [
+      "on-sda-15",
+      "on-sda-16"
+     ]
+    },
+    "starts": {
+     "event": "s 15: when the MHA certificate is issued. s 16: as soon as the PGT receives its copy of the assessor's certificate.",
+     "phase": "incapacitated",
+     "citations": [
+      "on-sda-15",
+      "on-sda-16"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The person dies",
+      "phase": "deceased",
+      "citations": [
+       "on-sda-20"
+      ]
+     },
+     {
+      "event": "Court appoints a guardian of property under s 22",
+      "phase": "incapacitated",
+      "citations": [
+       "on-sda-20",
+       "on-sda-22"
+      ]
+     },
+     {
+      "event": "Attorney under a pre-existing CPOA over all property gives the PGT the POA, an undertaking and proof of identity",
+      "phase": "incapacitated",
+      "citations": [
+       "on-sda-16-1",
+       "on-sda-20"
+      ]
+     },
+     {
+      "event": "Capacity restored: MHA certificate cancelled or patient discharged (s 15 cases), an assessor's notice of capacity, or a final Consent and Capacity Board or court finding of capacity",
+      "phase": "capable",
+      "citations": [
+       "on-sda-20"
+      ]
+     },
+     {
+      "event": "Guardian resigns with notice",
+      "phase": "incapacitated",
+      "citations": [
+       "on-sda-20"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "After the incapable person dies, if the PGT was guardian of property it may (but need not) use an executor's powers to pay debts and distribute until notified that a personal representative has been appointed.",
+     "citations": [
+      "on-sda-35"
+     ]
+    },
+    {
+     "text": "The PGT must tell the person they may apply to the Consent and Capacity Board to review the assessor's finding.",
+     "citations": [
+      "on-sda-16"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No statutory guardianship"
+     },
+     {
+      "id": "active",
+      "label": "PGT (or replacement under s 17) manages property"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended under s 16.1 or s 20"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-mha",
+      "from": "not_designated",
+      "to": "active",
+      "event": "MHA certificate of incapacity issued for a psychiatric-facility patient",
+      "conditions": [],
+      "citations": [
+       "on-sda-15"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-assessor",
+      "from": "not_designated",
+      "to": "active",
+      "event": "PGT receives an assessor's certificate of incapacity after a s 16 request",
+      "conditions": [
+       "Requester has no knowledge of a CPOA over all property or of a family member intending a s 22 application"
+      ],
+      "citations": [
+       "on-sda-16"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-attorney",
+      "from": "active",
+      "to": "terminated",
+      "event": "Attorney under prior CPOA over all property steps in",
+      "conditions": [],
+      "citations": [
+       "on-sda-16-1"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-court",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court appoints guardian of property",
+      "conditions": [],
+      "citations": [
+       "on-sda-20",
+       "on-sda-22"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Capacity restored per s 20(1) paras 3-4",
+      "conditions": [],
+      "citations": [
+       "on-sda-20"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person dies",
+      "conditions": [],
+      "citations": [
+       "on-sda-20"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-court-guardian-property",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Court-appointed guardian of property",
+   "localNames": [
+    "guardian of property"
+   ],
+   "summary": "On any person's application, the Superior Court may appoint a guardian of property for someone incapable of managing property who needs decisions made. It will not do so if a less restrictive alternative that needs no incapacity finding would meet the need. Paid care or service providers are ineligible unless they are a spouse, partner, relative or attorney. The PGT is appointed only with its consent and as a last resort.",
+   "lane": {
+    "assigned": {
+     "event": "Court order under s 22 (Part III procedure)",
+     "phase": "incapacitated",
+     "citations": [
+      "on-sda-22",
+      "on-sda-24"
+     ]
+    },
+    "starts": {
+     "event": "On the court's appointment",
+     "phase": "incapacitated",
+     "citations": [
+      "on-sda-22"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court terminates the guardianship on motion (e.g. capacity regained)",
+      "phase": "capable",
+      "citations": [
+       "on-sda-28"
+      ]
+     },
+     {
+      "event": "The incapable person dies. The estate passes to the personal representative, and the guardian must pass accounts on request.",
+      "phase": "deceased",
+      "citations": [
+       "on-eaa-2",
+       "on-rcp-74-16-18"
+      ],
+      "unverified": true,
+      "note": "No express 'death terminates court guardianship of property' text was found in the SDA. The end follows from EAA s 2 vesting property in the personal representative."
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Appointment ends any existing CPOA (s 12(1)(c)) and any statutory guardianship (s 20(1) para 1).",
+     "citations": [
+      "on-sda-12",
+      "on-sda-20"
+     ]
+    },
+    {
+     "text": "Rules 74.17-74.18 on passing accounts apply, with necessary modifications, to guardians of property and attorneys directed by the court to account.",
+     "citations": [
+      "on-rcp-74-16-18"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No application"
+     },
+     {
+      "id": "designated",
+      "label": "Application pending"
+     },
+     {
+      "id": "active",
+      "label": "Guardian appointed"
+     },
+     {
+      "id": "suspended",
+      "label": "Powers suspended on a motion to terminate (s 29)"
+     },
+     {
+      "id": "terminated",
+      "label": "Terminated by court or on death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Application under s 22",
+      "conditions": [],
+      "citations": [
+       "on-sda-22"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-appoint",
+      "from": "designated",
+      "to": "active",
+      "event": "Court appoints guardian",
+      "conditions": [
+       "Incapable of managing property",
+       "Necessary for decisions to be made",
+       "No less restrictive alternative"
+      ],
+      "citations": [
+       "on-sda-22",
+       "on-sda-24"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-suspend",
+      "from": "active",
+      "to": "suspended",
+      "event": "Court suspends powers during termination motion",
+      "conditions": [],
+      "citations": [
+       "on-sda-28"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-terminate",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court terminates guardianship",
+      "conditions": [],
+      "citations": [
+       "on-sda-28"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Incapable person dies",
+      "conditions": [],
+      "citations": [
+       "on-eaa-2"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-court-guardian-person",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Court-appointed guardian of the person",
+   "localNames": [
+    "guardian of the person"
+   ],
+   "summary": "On any person's application, the court may appoint a guardian of the person for someone incapable of personal care who needs decisions made, unless a less restrictive alternative would do. The guardian ranks first in the HCCA consent hierarchy, and the appointment ends any power of attorney for personal care.",
+   "lane": {
+    "assigned": {
+     "event": "Court order under s 55",
+     "phase": "incapacitated",
+     "citations": [
+      "on-sda-55",
+      "on-sda-57"
+     ]
+    },
+    "starts": {
+     "event": "On appointment",
+     "phase": "incapacitated",
+     "citations": [
+      "on-sda-55"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court terminates the guardianship on motion (powers may be suspended pending the motion)",
+      "phase": "capable",
+      "citations": [
+       "on-sda-63-64"
+      ]
+     },
+     {
+      "event": "Person dies (no express SDA termination-on-death clause for court guardianship of the person was found)",
+      "phase": "deceased",
+      "citations": [
+       "on-sda-63-64"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Ranks first among substitute decision-makers for treatment decisions within the authority granted.",
+     "citations": [
+      "on-hcca-20"
+     ]
+    },
+    {
+     "text": "Appointment terminates any power of attorney for personal care.",
+     "citations": [
+      "on-sda-53"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No application"
+     },
+     {
+      "id": "active",
+      "label": "Guardian appointed"
+     },
+     {
+      "id": "terminated",
+      "label": "Terminated by court or on death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Court appoints guardian of the person",
+      "conditions": [
+       "Incapable of personal care",
+       "Needs decisions made",
+       "No less restrictive alternative"
+      ],
+      "citations": [
+       "on-sda-55"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-terminate",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court terminates on motion",
+      "conditions": [],
+      "citations": [
+       "on-sda-63-64"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person dies",
+      "conditions": [],
+      "citations": [
+       "on-sda-63-64"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-estate-trustee-with-will",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Estate trustee with a will (executor)",
+   "localNames": [
+    "estate trustee with a will",
+    "executor",
+    "certificate of appointment of estate trustee with a will",
+    "small estate certificate"
+   ],
+   "summary": "The executor's authority comes from the will and takes effect at death. The estate vests in the personal representative. A court certificate of appointment of estate trustee ('probate') confirms that authority and is normally needed in practice when there is real property or financial-institution assets. For estates of $150,000 or less, a small estate certificate under rule 74.1 is available.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names the executor in a valid will",
+     "phase": "capable",
+     "citations": [
+      "on-ontario-probate"
+     ]
+    },
+    "starts": {
+     "event": "On the testator's death, property vests in the personal representative. A certificate of appointment (r 74.04) or small estate certificate (r 74.1.03) confirms authority where third parties require it.",
+     "phase": "deceased",
+     "citations": [
+      "on-eaa-2",
+      "on-ontario-probate",
+      "on-rcp-1-03",
+      "on-rcp-74-04",
+      "on-rcp-74-1",
+      "on-ontario-admin-estates"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Executor renounces before acting: rights as executor wholly cease",
+      "phase": "deceased",
+      "citations": [
+       "on-ea-34"
+      ]
+     },
+     {
+      "event": "Court removes the personal representative",
+      "phase": "administration",
+      "citations": [
+       "on-ta-37"
+      ]
+     },
+     {
+      "event": "Spouse-executor's appointment revoked: divorce or nullity after the will, or spouses separated at death under s 17(4)",
+      "phase": "deceased",
+      "citations": [
+       "on-slra-17"
+      ]
+     },
+     {
+      "event": "Estate fully administered: debts paid, accounts passed or approved, property distributed",
+      "phase": "closed",
+      "citations": [
+       "on-rcp-74-16-18",
+       "on-eaa-2"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Ontario's official guidance describes probate as a procedure to 'confirm the authority' of the estate trustee named in the will, and says probate is not always required.",
+     "citations": [
+      "on-ontario-probate"
+     ]
+    },
+    {
+     "text": "Marriage no longer revokes a will: s 16 and s 15(a) SLRA were repealed effective 1 January 2022.",
+     "citations": [
+      "on-slra-15-16"
+     ]
+    },
+    {
+     "text": "Separation rule (s 17(3)-(5)): the former-spouse executor appointment is treated as if the spouse predeceased, if at death the spouses were living apart because of marriage breakdown and had lived apart 3 years before death, or had a separation agreement, court order or family arbitration award. It applies to separations on or after 1 January 2022.",
+     "citations": [
+      "on-slra-17"
+     ]
+    },
+    {
+     "text": "Small estate: 'small estate' means an estate not exceeding the prescribed amount, currently $150,000 (O Reg 110/21, unchanged since 1 April 2021). A small estate certificate counts as a 'certificate of appointment of estate trustee' under the Rules. If more assets are later found and the estate exceeds the limit, the named trustee applies under rule 74, and issuing that certificate is deemed to revoke the small estate certificate.",
+     "citations": [
+      "on-ea-1",
+      "on-oreg-110-21",
+      "on-rcp-1-03",
+      "on-rcp-74-1"
+     ]
+    },
+    {
+     "text": "Real property not distributed or cautioned within three years of death vests in the beneficiaries without a conveyance.",
+     "citations": [
+      "on-eaa-9"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No will naming an executor"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will; testator alive"
+     },
+     {
+      "id": "active",
+      "label": "Testator dead; executor administering"
+     },
+     {
+      "id": "pending_letters",
+      "label": "Executor acting but third parties require a certificate of appointment; application under r 74.04 or r 74.1 pending"
+     },
+     {
+      "id": "terminated",
+      "label": "Renounced, removed, revoked by SLRA s 17, or administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-will",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will naming executor executed",
+      "conditions": [],
+      "citations": [
+       "on-ontario-probate"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Testator dies; estate vests in personal representative",
+      "conditions": [],
+      "citations": [
+       "on-eaa-2"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-apply",
+      "from": "active",
+      "to": "pending_letters",
+      "event": "Application for certificate of appointment of estate trustee (Form 74A) or small estate certificate (Form 74.1A)",
+      "conditions": [],
+      "citations": [
+       "on-rcp-74-04",
+       "on-rcp-74-1"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-granted",
+      "from": "pending_letters",
+      "to": "active",
+      "event": "Certificate issued",
+      "conditions": [],
+      "citations": [
+       "on-rcp-1-03",
+       "on-rcp-74-04"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-renounce",
+      "from": "active",
+      "to": "terminated",
+      "event": "Executor renounces",
+      "conditions": [],
+      "citations": [
+       "on-ea-34"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-spouse-revoked",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Divorce/nullity or separation at death revokes spouse's appointment",
+      "conditions": [],
+      "citations": [
+       "on-slra-17"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-remove",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court removes personal representative",
+      "conditions": [],
+      "citations": [
+       "on-ta-37"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-close",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate distributed and accounts settled",
+      "conditions": [],
+      "citations": [
+       "on-rcp-74-16-18"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-estate-trustee-without-will",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Estate trustee without a will (administrator)",
+   "localNames": [
+    "estate trustee without a will",
+    "administrator",
+    "letters of administration",
+    "certificate of appointment of estate trustee without a will",
+    "small estate certificate"
+   ],
+   "summary": "If a person dies intestate, or the named executor refuses to prove the will, the Superior Court may commit administration to the married or conjugal spouse, the next of kin, or both, at its discretion. With the consent of the majority of those entitled, it may appoint another person. The administrator's authority comes from the court certificate. A bond is generally required, but not for small estates without minor or incapable beneficiaries.",
+   "lane": {
+    "assigned": {
+     "event": "Court issues a certificate of appointment of estate trustee without a will (or a small estate certificate)",
+     "phase": "administration",
+     "citations": [
+      "on-ea-29",
+      "on-rcp-74-04",
+      "on-rcp-74-1"
+     ]
+    },
+    "starts": {
+     "event": "On issuance of the certificate",
+     "phase": "administration",
+     "citations": [
+      "on-ea-29",
+      "on-rcp-1-03"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court removes the administrator",
+      "phase": "administration",
+      "citations": [
+       "on-ta-37"
+      ]
+     },
+     {
+      "event": "Estate fully administered and accounts passed or approved",
+      "phase": "closed",
+      "citations": [
+       "on-rcp-74-16-18"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Priority under s 29(1): the person married to, or living in a conjugal relationship with, the deceased immediately before death, and/or the next of kin. Among equal next of kin the court picks. Under s 29(2), those entitled (or a resident majority) may request another person's appointment, and s 29(3) lets the court appoint someone else in special circumstances.",
+     "citations": [
+      "on-ea-29"
+     ]
+    },
+    {
+     "text": "Official guidance: without a will, the spouse or common-law partner usually has first right to apply, then a close adult relative.",
+     "citations": [
+      "on-ontario-probate"
+     ]
+    },
+    {
+     "text": "Small estates (up to $150,000): no bond unless a beneficiary is a minor or incapable.",
+     "citations": [
+      "on-ea-36",
+      "on-oreg-110-21"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No one appointed"
+     },
+     {
+      "id": "pending_letters",
+      "label": "Application filed"
+     },
+     {
+      "id": "active",
+      "label": "Certificate issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Removed or administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "pending_letters",
+      "event": "Application under r 74.04 or r 74.1.03",
+      "conditions": [],
+      "citations": [
+       "on-rcp-74-04",
+       "on-rcp-74-1",
+       "on-ea-29"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-grant",
+      "from": "pending_letters",
+      "to": "active",
+      "event": "Certificate issued",
+      "conditions": [],
+      "citations": [
+       "on-ea-29",
+       "on-rcp-1-03"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-remove",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court removes",
+      "conditions": [],
+      "citations": [
+       "on-ta-37"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-close",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration complete",
+      "conditions": [],
+      "citations": [
+       "on-rcp-74-16-18"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-gift-of-life-substitute",
+   "canonical": "anatomical-gift-agent",
+   "group": "health",
+   "name": "Person who may consent to post-mortem donation (Gift of Life Act)",
+   "localNames": [
+    "spouse",
+    "child",
+    "parent",
+    "brother or sister",
+    "next of kin",
+    "person lawfully in possession of the body"
+   ],
+   "summary": "Ontario uses opt-in. A person 16 or older may consent to donation after death in a signed writing, or orally before two witnesses during their last illness, and that consent is binding at death. If they gave no consent, or cannot give one because death is imminent, the next person in the ranked list may consent: spouse, then child, parent, sibling, other next of kin, then the person lawfully in possession of the body (not a hospital administrative head). They may not consent if they believe the person would have objected.",
+   "lane": {
+    "assigned": {
+     "event": "By statute, in rank order, where the person has not given (or cannot give) consent",
+     "phase": "deceased",
+     "citations": [
+      "on-gol-5"
+     ]
+    },
+    "starts": {
+     "event": "On death, or when a physician is of the opinion that the person is incapable of consenting because of injury or disease and death is imminent",
+     "phase": "incapacitated",
+     "citations": [
+      "on-gol-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The body or parts are used or removed under the consent, or a known objection by the person or a closer or equal relative prevents acting on it",
+      "phase": "deceased",
+      "citations": [
+       "on-gol-5"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The person's own s 4 consent is full authority on death, unless there is reason to believe it was withdrawn.",
+     "citations": [
+      "on-gol-4"
+     ]
+    },
+    {
+     "text": "The statute is now titled the Gift of Life Act (formerly the Trillium Gift of Life Network Act). 'Agency' means the corporation continued under the Connecting Care Act, 2019, i.e. Ontario Health, which designated facilities must notify of deaths and imminent deaths.",
+     "citations": [
+      "on-gol-8-1",
+      "on-cca-3"
+     ]
+    },
+    {
+     "text": "Pending: Bill 3, Robbie's Legacy Act, 2026 (referred to committee after second reading, 5 May 2026) would allow public recognition of donors. It does not change the opt-in model.",
+     "citations": [
+      "on-bill3-44-1"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No consent situation"
+     },
+     {
+      "id": "active",
+      "label": "Highest-ranked readily available person may consent"
+     },
+     {
+      "id": "terminated",
+      "label": "Consent acted on, refused or blocked by objection"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-trigger",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death or imminent death with incapacity, and no s 4 consent",
+      "conditions": [
+       "No reason to believe the person would have objected"
+      ],
+      "citations": [
+       "on-gol-5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-done",
+      "from": "active",
+      "to": "terminated",
+      "event": "Consent given and acted on, or refused",
+      "conditions": [],
+      "citations": [
+       "on-gol-5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-estate-trustee-remains",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Estate trustee's right and duty to dispose of the body",
+   "localNames": [
+    "estate trustee",
+    "executor",
+    "administrator"
+   ],
+   "summary": "No Ontario statute sets a priority list for who controls disposal of remains. Under case law (Saleh v Reichert, 1993), the estate trustee has the duty and authority to dispose of the body and may follow the deceased's lawful wishes. The funeral regulations assume a 'purchaser' and a 'personal representative' but do not rank decision-makers. Cremation also needs a coroner's certificate.",
+   "lane": {
+    "assigned": {
+     "event": "Person named executor in will, or person entitled to be administrator",
+     "phase": "deceased",
+     "citations": [
+      "on-saleh-reichert"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "on-saleh-reichert"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Remains disposed of (burial, cremation or other lawful means)",
+      "phase": "deceased",
+      "citations": [
+       "on-saleh-reichert",
+       "on-fbcsa-reg30"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "unverified": true,
+   "notes": [
+    {
+     "text": "The FBCSA, 2002 and O Reg 30/11 were searched for a statutory decision-maker hierarchy and none was found. The regulation refers to the 'purchaser', 'personal representative' (as defined in the SLRA) or family member, e.g. for records and unclaimed cremated remains. A crematorium may not cremate without a coroner's certificate.",
+     "citations": [
+      "on-fbcsa",
+      "on-fbcsa-reg30"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Alive"
+     },
+     {
+      "id": "active",
+      "label": "Estate trustee arranges disposal"
+     },
+     {
+      "id": "terminated",
+      "label": "Disposal completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death",
+      "conditions": [],
+      "citations": [
+       "on-saleh-reichert"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-dispose",
+      "from": "active",
+      "to": "terminated",
+      "event": "Burial or cremation completed",
+      "conditions": [],
+      "citations": [
+       "on-saleh-reichert",
+       "on-fbcsa-reg30"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "on-phipa-estate-trustee-records",
+   "canonical": "health-records-representative",
+   "group": "health",
+   "name": "Substitute decision-maker for personal health information (PHIPA)",
+   "localNames": [
+    "substitute decision-maker",
+    "estate trustee",
+    "person who has assumed responsibility for the administration of the deceased's estate"
+   ],
+   "summary": "Under PHIPA, consent about an incapable person's health information goes to a hierarchy that mirrors the HCCA: guardians and attorneys (within their authority), then the Board representative, spouse, and so on. That person can also make access requests. After death, the estate trustee (or whoever has assumed administration if there is none) acts. PHIPA stops applying 50 years after death, or 120 years after the record was created if earlier.",
+   "lane": {
+    "assigned": {
+     "event": "By statute: PHIPA s 26 ranking for an incapable individual; s 23(1) para 4 for a deceased individual",
+     "phase": "incapacitated",
+     "citations": [
+      "on-phipa-25-26",
+      "on-phipa-23"
+     ]
+    },
+    "starts": {
+     "event": "When the individual is found incapable of consenting to collection, use or disclosure. For the estate trustee, on death.",
+     "phase": "incapacitated",
+     "citations": [
+      "on-phipa-25-26",
+      "on-phipa-23"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Individual regains capacity (living SDM)",
+      "phase": "capable",
+      "citations": [
+       "on-phipa-25-26"
+      ],
+      "unverified": true
+     },
+     {
+      "event": "PHIPA ceases to apply: the earlier of 120 years after record creation and 50 years after death",
+      "phase": "closed",
+      "citations": [
+       "on-phipa-9"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Separately, a custodian may disclose a deceased person's information to identify them, to inform people of the death, or to a spouse, partner, sibling or child who needs it for their own or their children's health care.",
+     "citations": [
+      "on-phipa-38-4"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Individual capable"
+     },
+     {
+      "id": "active",
+      "label": "SDM or estate trustee exercises PHIPA consent/access rights"
+     },
+     {
+      "id": "terminated",
+      "label": "Capacity regained or PHIPA no longer applies"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-incapable",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Individual determined incapable of consenting",
+      "conditions": [],
+      "citations": [
+       "on-phipa-25-26"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Individual dies; estate trustee acts",
+      "conditions": [],
+      "citations": [
+       "on-phipa-23"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-50y",
+      "from": "active",
+      "to": "terminated",
+      "event": "50 years after death (or 120 years after record creation)",
+      "conditions": [],
+      "citations": [
+       "on-phipa-9"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A property POA is 'continuing' only if it says so or expresses the intention that it may be used during the grantor's incapacity (SDA s 7(1)). Otherwise it is a general POA under the Powers of Attorney Act.",
+   "citations": [
+    "on-sda-7-1",
+    "on-poaa-2-3"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "A CPOA may take effect on a specified date or contingency (s 7(7)). For incapacity without a stated method, it takes effect on notice of an assessor's finding or an MHA certificate (s 9(3)). A POA for personal care is inherently effective only on incapacity (s 49).",
+   "citations": [
+    "on-sda-7-7",
+    "on-sda-9",
+    "on-sda-49"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "No registry or registration step. Validity rests on capacity (ss 8, 47) and execution before two witnesses (s 10).",
+   "citations": [
+    "on-sda-8",
+    "on-sda-10",
+    "on-sda-47"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity-finding-by-clinician",
+   "note": "For treatment, the attorney for personal care or other SDM acts only after the health practitioner forms the opinion that the person is incapable for that treatment (HCCA s 10; SDA s 49(1)(a)). For non-HCCA personal-care decisions, the attorney needs reasonable grounds to believe incapacity, or assessor confirmation if the POA requires it (s 49(1)(b), (2)).",
+   "citations": [
+    "on-hcca-10",
+    "on-sda-49"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No Ontario statute creates supported decision-making arrangements. The SDA and HCCA provide substitute decision-making only. The LCO's 2017 final report is cited only as reform context.",
+   "citations": [
+    "on-sda-46",
+    "on-hcca-20",
+    "on-lco-2017"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "Ontario has not enacted the ULCC Uniform Access to Digital Assets by Fiduciaries Act. The official Yukon release lists NB, SK and PEI as the other enacting jurisdictions. Fiduciaries rely on general powers: the CPOA 'anything in respect of property' power (SDA s 7(2)) and estate vesting in the personal representative (EAA s 2). No reference to digital assets appears in the SDA, EAA, Estates Act or SLRA texts reviewed.",
+   "citations": [
+    "on-yk-news",
+    "on-sda-7-2",
+    "on-eaa-2"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No Ontario statute recognizes platform online-tool designations (no fiduciary digital-assets act).",
+   "citations": [
+    "on-yk-news"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Gift of Life Act, RSO 1990, c H.20 (formerly Trillium Gift of Life Network Act)",
+   "citations": [
+    "on-gol-4",
+    "on-gol-5",
+    "on-bill3-44-1"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": false,
+   "threshold": null,
+   "currency": "CAD",
+   "waitingDays": null,
+   "note": "No affidavit or no-grant procedure. For estates of $150,000 or less (O Reg 110/21), a simplified court small estate certificate (r 74.1) is available, but it is still a certificate of appointment of estate trustee under the Rules.",
+   "smallEstateCertificateThreshold": 150000,
+   "citations": [
+    "on-ea-1",
+    "on-oreg-110-21",
+    "on-rcp-1-03",
+    "on-rcp-74-1",
+    "on-ontario-probate"
+   ]
+  },
+  "probateGrantName": {
+   "value": "certificate of appointment of estate trustee",
+   "note": "With or without a will (single Form 74A application since the 2021-22 rule changes). The rules define it as including a small estate certificate.",
+   "citations": [
+    "on-rcp-1-03",
+    "on-rcp-74-04"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": "partial",
+   "note": "Provincial health information layer: PHIPA protects personal health information until the earlier of 50 years after death and 120 years after record creation, with the estate trustee acting for the deceased. See ca-federal for the Privacy Act / PIPEDA position.",
+   "citations": [
+    "on-phipa-9",
+    "on-phipa-23"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "HCCA/SDA authority is tied to the living person's incapacity. After death, donation consent follows the Gift of Life Act s 5 family hierarchy, not the attorney. Health-record consent passes to the estate trustee (PHIPA s 23(1) para 4). Oddly, SDA s 53 (termination of POA for personal care) does not list the grantor's death, unlike s 12(1)(f) for CPOAs.",
+   "citations": [
+    "on-sda-49",
+    "on-sda-53",
+    "on-gol-5",
+    "on-phipa-23"
+   ]
+  }
+ }
+}

@@ -1,0 +1,4627 @@
+{
+ "jurisdiction": "us-model",
+ "name": "United States — Uniform/Model law baseline",
+ "principalStates": [
+  {
+   "id": "capable",
+   "label": "Capable",
+   "description": "The individual is alive and presumed to have capacity to make and revoke financial, health-care, and estate-planning decisions."
+  },
+  {
+   "id": "incapacitated",
+   "label": "Incapacitated",
+   "description": "The individual is alive but found (by the method each act specifies) to lack capacity, or, for financial purposes, is missing, detained, or unable to return to the U.S."
+  },
+  {
+   "id": "deceased",
+   "label": "Deceased",
+   "description": "The individual has died; lifetime agencies end and post-death roles (anatomical gift priority, small-estate successor, named executor) come into play."
+  },
+  {
+   "id": "administration",
+   "label": "Estate administration",
+   "description": "A personal representative has been appointed and letters issued, so estate administration has commenced (UPC §3-103)."
+  },
+  {
+   "id": "closed",
+   "label": "Closed",
+   "description": "The estate is settled by court order or closing statement, and the personal representative's appointment has terminated."
+  }
+ ],
+ "citations": [
+  {
+   "id": "upoaa-102",
+   "cite": "UPOAA §102(2), (5) (2006)",
+   "title": "Definitions: durable; incapacity",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "“Durable,” with respect to a power of attorney, means not terminated by the principal’s incapacity."
+  },
+  {
+   "id": "upoaa-103",
+   "cite": "UPOAA §103(2) (2006)",
+   "title": "Applicability (excludes powers to make health-care decisions)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "This [act] applies to all powers of attorney except: ... (2) a power to make health-care decisions"
+  },
+  {
+   "id": "upoaa-104",
+   "cite": "UPOAA §104 (2006)",
+   "title": "Power of attorney is durable",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+  },
+  {
+   "id": "upoaa-105",
+   "cite": "UPOAA §105 (2006)",
+   "title": "Execution of power of attorney",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "must be signed by the principal or in the principal’s conscious presence by another individual directed by the principal"
+  },
+  {
+   "id": "upoaa-108",
+   "cite": "UPOAA §108 (2006)",
+   "title": "Nomination of conservator or guardian; relation of agent to court-appointed fiduciary",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "[The power of attorney is not terminated and the agent’s authority continues unless limited, suspended, or terminated by the court.]"
+  },
+  {
+   "id": "upoaa-109",
+   "cite": "UPOAA §109(a)-(b) (2006)",
+   "title": "When power of attorney effective",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date"
+  },
+  {
+   "id": "upoaa-109c",
+   "cite": "UPOAA §109(c)-(d) (2006)",
+   "title": "When power of attorney effective: default incapacity determination for springing power",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a physician [or licensed psychologist] that the principal is incapacitated within the meaning of Section 102(5)(A)"
+  },
+  {
+   "id": "upoaa-110a",
+   "cite": "UPOAA §110(a) (2006)",
+   "title": "Termination of power of attorney",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A power of attorney terminates when: (1) the principal dies; (2) the principal becomes incapacitated, if the power of attorney is not durable"
+  },
+  {
+   "id": "upoaa-110b",
+   "cite": "UPOAA §110(b) (2006)",
+   "title": "Termination of agent's authority",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "an action is filed for the [dissolution] or annulment of the agent’s marriage to the principal or their legal separation"
+  },
+  {
+   "id": "upoaa-110d",
+   "cite": "UPOAA §110(d) (2006)",
+   "title": "Good-faith acts without actual knowledge of termination",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "not effective as to the agent or another person that, without actual knowledge of the termination, acts in good faith"
+  },
+  {
+   "id": "upoaa-110e",
+   "cite": "UPOAA §110(e) (2006)",
+   "title": "Good-faith acts without actual knowledge of incapacity (nondurable power)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Incapacity of the principal of a power of attorney that is not durable does not revoke or terminate the power"
+  },
+  {
+   "id": "upoaa-110-cmt",
+   "cite": "UPOAA §110 cmt. (2006)",
+   "title": "Comment: death of principal and good-faith agent",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "an agent who acts in good faith under a power of attorney without actual knowledge of the principal’s death will bind the principal’s successors"
+  },
+  {
+   "id": "upoaa-111",
+   "cite": "UPOAA §111(b) (2006)",
+   "title": "Coagents and successor agents",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may not act until all predecessor agents have resigned, died, become incapacitated, are no longer qualified to serve, or have declined to serve."
+  },
+  {
+   "id": "upoaa-113",
+   "cite": "UPOAA §113 (2006)",
+   "title": "Agent's acceptance",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "accepts appointment as an agent under a power of attorney by exercising authority or performing duties as an agent"
+  },
+  {
+   "id": "upoaa-116",
+   "cite": "UPOAA §116 (2006)",
+   "title": "Judicial relief",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may petition a court to construe a power of attorney or review the agent’s conduct, and grant appropriate relief"
+  },
+  {
+   "id": "upoaa-118",
+   "cite": "UPOAA §118 (2006)",
+   "title": "Agent's resignation; notice",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "an agent may resign by giving notice to the principal and, if the principal is incapacitated"
+  },
+  {
+   "id": "uhcda93-1",
+   "cite": "UHCDA §1 (1993)",
+   "title": "Definitions (agent, capacity, guardian, surrogate)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "“Surrogate” means an individual, other than a patient's agent or guardian, authorized under this [Act] to make a health-care decision"
+  },
+  {
+   "id": "uhcda93-2",
+   "cite": "UHCDA §2 (1993)",
+   "title": "Advance health-care directives",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the authority of an agent becomes effective only upon a determination that the principal lacks capacity, and ceases to be effective upon"
+  },
+  {
+   "id": "uhcda93-2d",
+   "cite": "UHCDA §2(d) (1993)",
+   "title": "Advance health-care directives: who determines capacity",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a determination that an individual lacks or has recovered capacity ... must be made by the primary physician."
+  },
+  {
+   "id": "uhcda93-2-cmt",
+   "cite": "UHCDA §2 cmt. (1993)",
+   "title": "Comment: agent authority may be made immediately effective",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A principal may provide, however, that the authority of the agent becomes effective immediately"
+  },
+  {
+   "id": "uhcda93-3",
+   "cite": "UHCDA §3 (1993)",
+   "title": "Revocation of advance health-care directive",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "An individual may revoke the designation of an agent only by a signed writing or by personally informing the supervising health-care provider."
+  },
+  {
+   "id": "uhcda93-4",
+   "cite": "UHCDA §4 (1993)",
+   "title": "Optional form (Part 3: donation of organs at death)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Part 3 of this form lets you express an intention to donate your bodily organs and tissues following your death."
+  },
+  {
+   "id": "uhcda93-5",
+   "cite": "UHCDA §5 (1993)",
+   "title": "Decisions by surrogate",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "determined by the primary physician to lack capacity and no agent or guardian has been appointed or the agent or guardian is not reasonably available."
+  },
+  {
+   "id": "uhcda93-6",
+   "cite": "UHCDA §6 (1993)",
+   "title": "Decisions by guardian",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may not revoke the ward's advance health-care directive unless the appointing court expressly so authorizes."
+  },
+  {
+   "id": "uhcda93-8",
+   "cite": "UHCDA §8 (1993)",
+   "title": "Health-care information",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a person then authorized to make health-care decisions for a patient has the same rights as the patient to request, receive, examine"
+  },
+  {
+   "id": "uhcda93-11",
+   "cite": "UHCDA §11 (1993)",
+   "title": "Capacity (presumption)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=82313106-0f38-910a-f014-594e7e715f72",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "An individual is presumed to have capacity to make a health-care decision, to give or revoke an advance health-care directive"
+  },
+  {
+   "id": "uhcda23-2",
+   "cite": "UHCDA §2(3), (6), (28) (2023)",
+   "title": "Definitions: agent, default surrogate, surrogate",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "“Default surrogate” means an individual authorized under Section 12 to make a health-care decision for another individual."
+  },
+  {
+   "id": "uhcda23-4",
+   "cite": "UHCDA §4 (2023)",
+   "title": "Presumption of capacity; overcoming presumption",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "made on the basis of a contemporaneous examination by any of the following: (A) a physician; (B) a psychologist"
+  },
+  {
+   "id": "uhcda23-5",
+   "cite": "UHCDA §5 (2023)",
+   "title": "Notice of finding of lack of capacity; right to object",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the finding under Section 4(b) is not sufficient to rebut a presumption of capacity ... unless"
+  },
+  {
+   "id": "uhcda23-6",
+   "cite": "UHCDA §6 (2023)",
+   "title": "Judicial review of finding of lack of capacity",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The court may determine the individual lacks capacity only if the court finds by clear and convincing evidence"
+  },
+  {
+   "id": "uhcda23-7",
+   "cite": "UHCDA §7(a) (2023)",
+   "title": "Health-care instruction (may nominate guardian and default surrogate)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "(4) a person to serve as guardian for the individual if one is appointed; and (5) an individual to serve as a default surrogate."
+  },
+  {
+   "id": "uhcda23-8",
+   "cite": "UHCDA §8 (2023)",
+   "title": "Power of attorney for health care",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "must be in a record, signed by the individual creating the power, and signed by an adult witness"
+  },
+  {
+   "id": "uhcda23-11-cmt",
+   "cite": "UHCDA §11 cmt., Part D (2023)",
+   "title": "Optional form comment: organ donation",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Part D of the form provides the individual an opportunity to express an intention to donate bodily organs and tissues at death."
+  },
+  {
+   "id": "uhcda23-12",
+   "cite": "UHCDA §12 (2023)",
+   "title": "Default surrogate",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "for whom an agent, or guardian authorized to make health-care decisions, has not been appointed or is not reasonably available."
+  },
+  {
+   "id": "uhcda23-13",
+   "cite": "UHCDA §13 (2023)",
+   "title": "Disagreement among default surrogates",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "shall comply with the decision of a majority of the members of the class with highest priority"
+  },
+  {
+   "id": "uhcda23-14",
+   "cite": "UHCDA §14 (2023)",
+   "title": "Disqualification to act as default surrogate",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Disqualification under this subsection is effective even if made by an individual who lacks capacity to make an advance directive"
+  },
+  {
+   "id": "uhcda23-15",
+   "cite": "UHCDA §15 (2023)",
+   "title": "Revocation",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may be by any act of the individual that clearly indicates that the individual intends to revoke"
+  },
+  {
+   "id": "uhcda23-15d",
+   "cite": "UHCDA §15(d) (2023)",
+   "title": "Revocation of spouse-agent on divorce filing, decree, separation agreement, or abandonment",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a petition for annulment, divorce, dissolution of marriage, legal separation, or termination has been filed and not dismissed or withdrawn"
+  },
+  {
+   "id": "uhcda23-17",
+   "cite": "UHCDA §17 (2023)",
+   "title": "Duties of agent and default surrogate",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "An agent or default surrogate has a fiduciary duty to the individual"
+  },
+  {
+   "id": "uhcda23-18",
+   "cite": "UHCDA §18(a) (2023)",
+   "title": "Powers of agent and default surrogate: commencement, cessation, resumption",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the power of an agent or default surrogate commences when the individual is found under Section 4(b) or by a court to lack capacity"
+  },
+  {
+   "id": "uhcda23-18c",
+   "cite": "UHCDA §18(b)-(c) (2023)",
+   "title": "Health-information power may commence on appointment",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A power of attorney for health care may provide that the power of an agent under subsection (b) commences on appointment."
+  },
+  {
+   "id": "uhcda23-18-cmt",
+   "cite": "UHCDA §18 cmt. (2023)",
+   "title": "Comment: decision-making power is 'springing'",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a default surrogate may not make decisions for an individual unless the individual lacks capacity to make those decisions for themselves."
+  },
+  {
+   "id": "uhcda23-19",
+   "cite": "UHCDA §19(b) (2023)",
+   "title": "Limitation on powers of default surrogate",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A default surrogate may not make a health-care decision if, under other law of this state, the decision: (1) may not be made"
+  },
+  {
+   "id": "uhcda23-20",
+   "cite": "UHCDA §20 (2023)",
+   "title": "Co-agents; alternate agent",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "if a predecessor agent resigns, dies, becomes disqualified, is not reasonably available, or otherwise is unwilling or unable to act as agent."
+  },
+  {
+   "id": "uhcda23-22",
+   "cite": "UHCDA §22 (2023)",
+   "title": "Decision by guardian",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A guardian may refuse to comply with or revoke the individual’s advance health-care directive only if the court appointing the guardian expressly orders"
+  },
+  {
+   "id": "ugcopaa-prefatory",
+   "cite": "UGCOPAA Prefatory Note (2017)",
+   "title": "Relationship to UGPPA and UPC Article V",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "This act replaces the Uniform Guardianship and Protective Proceedings Act (UGPPA) which was last comprehensively revised in 1997."
+  },
+  {
+   "id": "ugcopaa-102",
+   "cite": "UGCOPAA §102(5), (9), (13)-(16) (2017)",
+   "title": "Definitions: conservator, guardian, less restrictive alternative, letters, limited guardianship/conservatorship",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "“Letters of office” means a record issued by a court certifying a guardian’s or conservator’s authority to act."
+  },
+  {
+   "id": "ugcopaa-108",
+   "cite": "UGCOPAA §108 (2017)",
+   "title": "Letters of office",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The court shall issue letters of office to a guardian on filing by the guardian of an acceptance of appointment."
+  },
+  {
+   "id": "ugcopaa-111",
+   "cite": "UGCOPAA §111 (2017)",
+   "title": "Judicial appointment of successor guardian or successor conservator",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The court at any time may appoint a successor guardian or successor conservator to serve immediately or when a designated event occurs."
+  },
+  {
+   "id": "ugcopaa-112",
+   "cite": "UGCOPAA §112 (2017)",
+   "title": "Effect of death, removal, or resignation of guardian or conservator",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Appointment of a guardian or conservator terminates on the death or removal of the guardian or conservator"
+  },
+  {
+   "id": "ugcopaa-125",
+   "cite": "UGCOPAA §125 (2017)",
+   "title": "Temporary substitute guardian or conservator",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The authority of the existing guardian or conservator is suspended for as long as the temporary substitute guardian or conservator has authority."
+  },
+  {
+   "id": "ugcopaa-207",
+   "cite": "UGCOPAA §207 (2017)",
+   "title": "Standby guardian for minor",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A standby guardian appointed under this section may act as guardian ... when no parent of the minor is willing or able"
+  },
+  {
+   "id": "ugcopaa-301",
+   "cite": "UGCOPAA §301 (2017)",
+   "title": "Basis for appointment of guardian for adult",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "appoint a guardian for an adult if the court finds by clear-and-convincing evidence"
+  },
+  {
+   "id": "ugcopaa-302",
+   "cite": "UGCOPAA §302(a) (2017)",
+   "title": "Petition for appointment of guardian for adult",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A person interested in an adult’s welfare, including the adult for whom the order is sought, may petition for appointment of a guardian"
+  },
+  {
+   "id": "ugcopaa-309",
+   "cite": "UGCOPAA §309 (2017)",
+   "title": "Who may be guardian for adult; order of priority",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a person nominated as guardian by the respondent, including the respondent’s most recent nomination made in a power of attorney"
+  },
+  {
+   "id": "ugcopaa-310",
+   "cite": "UGCOPAA §310 (2017)",
+   "title": "Order of appointment for guardian (limited vs. full)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A court order establishing a limited guardianship for an adult must state the specific powers granted to the guardian."
+  },
+  {
+   "id": "ugcopaa-312",
+   "cite": "UGCOPAA §312 (2017)",
+   "title": "Emergency guardian for adult",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The duration of authority of an emergency guardian for an adult may not exceed [60] days"
+  },
+  {
+   "id": "ugcopaa-314",
+   "cite": "UGCOPAA §314 (2017)",
+   "title": "Powers of guardian for adult",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "consent to health or other care, treatment, or service for the adult"
+  },
+  {
+   "id": "ugcopaa-318",
+   "cite": "UGCOPAA §318 (2017)",
+   "title": "Removal of guardian for adult; appointment of successor",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The court may remove a guardian for an adult for failure to perform the guardian’s duties or for other good cause"
+  },
+  {
+   "id": "ugcopaa-319",
+   "cite": "UGCOPAA §319 (2017)",
+   "title": "Termination or modification of guardianship for adult",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the court shall order termination unless it is proven that a basis for appointment of a guardian under Section 301 exists."
+  },
+  {
+   "id": "ugcopaa-319-cmt",
+   "cite": "UGCOPAA §319 cmt. (2017)",
+   "title": "Comment: termination restores rights; termination on death",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "all powers granted to the guardian are restored to the individual ... Termination also occurs upon the individual’s death."
+  },
+  {
+   "id": "ugcopaa-401",
+   "cite": "UGCOPAA §401(b) (2017)",
+   "title": "Basis for appointment of conservator (adult)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the adult is missing, detained, or unable to return to the United States"
+  },
+  {
+   "id": "ugcopaa-410",
+   "cite": "UGCOPAA §410 (2017)",
+   "title": "Who may be conservator; order of priority",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "an agent appointed by the respondent to manage the respondent’s property under a power of attorney for finances"
+  },
+  {
+   "id": "ugcopaa-411",
+   "cite": "UGCOPAA §411 (2017)",
+   "title": "Order of appointment of conservator",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A court order establishing a limited conservatorship must state the specific property placed under the control of the conservator"
+  },
+  {
+   "id": "ugcopaa-413",
+   "cite": "UGCOPAA §413 (2017)",
+   "title": "Emergency conservator",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The duration of authority of an emergency conservator may not exceed [60] days"
+  },
+  {
+   "id": "ugcopaa-418l",
+   "cite": "UGCOPAA §418(l) (2017)",
+   "title": "Duties of conservator: digital assets",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A conservator has access to and authority over a digital asset ... to the extent provided by [the Revised Uniform Fiduciary Access"
+  },
+  {
+   "id": "ugcopaa-427",
+   "cite": "UGCOPAA §427 (2017)",
+   "title": "Death of individual subject to conservatorship",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "If 40 days after the death ... no personal representative has been appointed ... the conservator may apply to exercise the powers"
+  },
+  {
+   "id": "ugcopaa-431",
+   "cite": "UGCOPAA §431 (2017)",
+   "title": "Termination or modification of conservatorship",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A conservatorship for an adult terminates on order of the court or when the adult dies."
+  },
+  {
+   "id": "ugcopaa-431k",
+   "cite": "UGCOPAA §431(j)-(l) (2017)",
+   "title": "Wind-up after termination (final report, distribution, discharge)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the conservator promptly shall file a final report and petition for discharge"
+  },
+  {
+   "id": "upc-5-101",
+   "cite": "UPC §5-101 (as amended through 2019)",
+   "title": "Article V short title (UGPPA)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "This [article] may be cited as the Uniform Guardianship and Protective Proceedings Act."
+  },
+  {
+   "id": "upc-3-103",
+   "cite": "UPC §3-103",
+   "title": "Necessity of appointment for administration",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a person must be appointed by order of the court or Registrar, qualify and be issued letters."
+  },
+  {
+   "id": "upc-3-108",
+   "cite": "UPC §3-108",
+   "title": "Probate, testacy and appointment proceedings; ultimate time limit",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may be commenced more than three years after the decedent’s death, except"
+  },
+  {
+   "id": "upc-3-203",
+   "cite": "UPC §3-203",
+   "title": "Priority among persons seeking appointment as personal representative",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "(4) the surviving spouse of the decedent; (5) other heirs of the decedent; (6) 45 days after the death of the decedent, any creditor."
+  },
+  {
+   "id": "upc-3-307",
+   "cite": "UPC §3-307",
+   "title": "Informal appointment proceedings; delay in order; effect of appointment",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "if at least 120 hours have elapsed since the decedent’s death, the Registrar ... shall appoint the applicant subject to qualification and acceptance"
+  },
+  {
+   "id": "upc-3-308",
+   "cite": "UPC §3-308(a)(5)",
+   "title": "Informal appointment proceedings; proof and findings required",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "any will to which the requested appointment relates has been formally or informally probated"
+  },
+  {
+   "id": "upc-3-601",
+   "cite": "UPC §3-601",
+   "title": "Qualification",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Prior to receiving letters, a personal representative shall qualify by filing with the appointing court any required bond and a statement of acceptance"
+  },
+  {
+   "id": "upc-3-608",
+   "cite": "UPC §3-608",
+   "title": "Termination of appointment; general",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may perform acts necessary to protect the estate and may deliver the assets to a successor representative."
+  },
+  {
+   "id": "upc-3-609",
+   "cite": "UPC §3-609",
+   "title": "Termination of appointment; death or disability",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The death of a personal representative or the appointment of a conservator for the estate of a personal representative, terminates"
+  },
+  {
+   "id": "upc-3-610",
+   "cite": "UPC §3-610",
+   "title": "Termination of appointment; voluntary",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "An order closing an estate as provided in Section 3-1001 or 3-1002 terminates an appointment of a personal representative."
+  },
+  {
+   "id": "upc-3-611",
+   "cite": "UPC §3-611",
+   "title": "Termination of appointment by removal; cause; procedure",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the personal representative shall not act except to account, to correct maladministration or preserve the estate."
+  },
+  {
+   "id": "upc-3-612",
+   "cite": "UPC §3-612",
+   "title": "Termination of appointment; change of testacy status",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Termination occurs upon appointment ... of a person entitled to appointment under the later assumption concerning testacy."
+  },
+  {
+   "id": "upc-3-614",
+   "cite": "UPC §3-614",
+   "title": "Special administrator; appointment",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "when necessary to protect the estate of a decedent prior to the appointment of a general personal representative"
+  },
+  {
+   "id": "upc-3-701",
+   "cite": "UPC §3-701",
+   "title": "Time of accrual of duties and powers",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The powers of a personal representative relate back in time to give acts ... beneficial to the estate ... the same effect"
+  },
+  {
+   "id": "upc-3-701-remains",
+   "cite": "UPC §3-701",
+   "title": "Time of accrual of duties and powers (pre-appointment funeral instructions)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a person named executor in a will may carry out written instructions of the decedent relating to the decedent’s body, funeral, and burial arrangements."
+  },
+  {
+   "id": "upc-3-703",
+   "cite": "UPC §3-703(a)",
+   "title": "General duties",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A personal representative is a fiduciary who shall observe the standards of care applicable to trustees."
+  },
+  {
+   "id": "upc-3-715",
+   "cite": "UPC §3-715",
+   "title": "Transactions authorized for personal representatives; exceptions",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a personal representative, acting reasonably for the benefit of the interested persons, may properly"
+  },
+  {
+   "id": "upc-3-1001",
+   "cite": "UPC §3-1001",
+   "title": "Formal proceedings terminating administration; testate or intestate",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may petition for an order of complete settlement of the estate"
+  },
+  {
+   "id": "upc-3-1002",
+   "cite": "UPC §3-1002",
+   "title": "Formal proceedings terminating testate administration; order construing will",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may petition for an order of settlement of the estate which will not adjudicate the testacy status of the decedent."
+  },
+  {
+   "id": "upc-3-1003",
+   "cite": "UPC §3-1003",
+   "title": "Closing estates by sworn statement of personal representative",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "If no proceedings involving the personal representative are pending in the court one year after the closing statement is filed the appointment ... terminates."
+  },
+  {
+   "id": "upc-3-1201",
+   "cite": "UPC §3-1201",
+   "title": "Collection of personal property by affidavit",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the value of the entire estate, wherever located, less liens and encumbrances, does not exceed $25,000; and (2) 30 days have elapsed"
+  },
+  {
+   "id": "upc-3-1202",
+   "cite": "UPC §3-1202",
+   "title": "Effect of affidavit",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "is discharged and released to the same extent as if the person dealt with a personal representative of the decedent."
+  },
+  {
+   "id": "utc-105",
+   "cite": "UTC §105 (2000, as amended; 2023 text)",
+   "title": "Default and mandatory rules",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Except as otherwise provided in the terms of the trust, this [Code] governs the duties and powers of a trustee"
+  },
+  {
+   "id": "utc-601",
+   "cite": "UTC §601",
+   "title": "Capacity of settlor of revocable trust",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "is the same as that required to make a will."
+  },
+  {
+   "id": "utc-602",
+   "cite": "UTC §602(e)-(f)",
+   "title": "Revocation or amendment of revocable trust (agent; conservator)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may exercise a settlor’s powers with respect to revocation, amendment, or distribution of trust property only with the approval of the court"
+  },
+  {
+   "id": "utc-603",
+   "cite": "UTC §603",
+   "title": "Settlor's powers; powers of withdrawal",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "[and the settlor has capacity to revoke the trust], rights of the beneficiaries are subject to the control of ... the settlor."
+  },
+  {
+   "id": "utc-603-cmt",
+   "cite": "UTC §603 cmt.",
+   "title": "Comment: effect of settlor incapacity on beneficiaries' rights",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "If the settlor loses capacity, subsection (b) no longer applies"
+  },
+  {
+   "id": "utc-701",
+   "cite": "UTC §701",
+   "title": "Accepting or declining trusteeship",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "by accepting delivery of the trust property, exercising powers or performing duties as trustee, or otherwise indicating acceptance"
+  },
+  {
+   "id": "utc-704",
+   "cite": "UTC §704",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "(5) a trustee dies; or (6) a [guardian] or [conservator] is appointed for an individual serving as trustee."
+  },
+  {
+   "id": "utc-705",
+   "cite": "UTC §705",
+   "title": "Resignation of trustee",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "upon at least 30 days’ notice to the qualified beneficiaries, the settlor, if living, and all cotrustees"
+  },
+  {
+   "id": "utc-706",
+   "cite": "UTC §706",
+   "title": "Removal of trustee",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The settlor, a cotrustee, or a beneficiary may request the court to remove a trustee"
+  },
+  {
+   "id": "utc-813",
+   "cite": "UTC §813(b)",
+   "title": "Duty to inform and report",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the trustee acquires knowledge that a formerly revocable trust has become irrevocable, whether by the death of the settlor or otherwise"
+  },
+  {
+   "id": "utc-817",
+   "cite": "UTC §817(b)",
+   "title": "Distribution upon termination",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "the trustee shall proceed expeditiously to distribute the trust property to the persons entitled to it"
+  },
+  {
+   "id": "rufadaa-2",
+   "cite": "RUFADAA §2(4), (6), (9), (14), (16) (2015)",
+   "title": "Definitions: catalogue, content, designated recipient, fiduciary, online tool",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "“Designated recipient” means a person chosen by a user using an online tool to administer digital assets of the user."
+  },
+  {
+   "id": "rufadaa-2-cmt",
+   "cite": "RUFADAA §2 cmt. (2015)",
+   "title": "Comment: online tool and designated recipient",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A designated recipient may perform many of the same tasks as a fiduciary, but is not held to the same legal standard of conduct."
+  },
+  {
+   "id": "rufadaa-3",
+   "cite": "RUFADAA §3 (2015)",
+   "title": "Applicability",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "This [act] applies to a custodian if the user resides in this state or resided in this state at the time of the user’s death."
+  },
+  {
+   "id": "rufadaa-4",
+   "cite": "RUFADAA §4 (2015)",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+  },
+  {
+   "id": "rufadaa-4c",
+   "cite": "RUFADAA §4(c) (2015)",
+   "title": "User direction overrides terms of service",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "overrides a contrary provision in a terms-of-service agreement that does not require the user to act affirmatively and distinctly"
+  },
+  {
+   "id": "rufadaa-5",
+   "cite": "RUFADAA §5 (2015)",
+   "title": "Terms-of-service agreement",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "does not give a fiduciary or designated recipient any new or expanded rights other than those held by the user"
+  },
+  {
+   "id": "rufadaa-6",
+   "cite": "RUFADAA §6 (2015)",
+   "title": "Procedure for disclosing digital assets",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "A custodian need not disclose under this [act] a digital asset deleted by a user."
+  },
+  {
+   "id": "rufadaa-7",
+   "cite": "RUFADAA §7 (2015)",
+   "title": "Disclosure of content of electronic communications of deceased user",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "If a deceased user consented or a court directs disclosure of the contents of electronic communications of the user, the custodian shall disclose"
+  },
+  {
+   "id": "rufadaa-8",
+   "cite": "RUFADAA §8 (2015)",
+   "title": "Disclosure of other digital assets of deceased user",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Unless the user prohibited disclosure of digital assets or the court directs otherwise, a custodian shall disclose ... a catalogue of electronic communications"
+  },
+  {
+   "id": "rufadaa-9",
+   "cite": "RUFADAA §9 (2015)",
+   "title": "Disclosure of content of electronic communications of principal",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "To the extent a power of attorney expressly grants an agent authority over the content of electronic communications"
+  },
+  {
+   "id": "rufadaa-10",
+   "cite": "RUFADAA §10 (2015)",
+   "title": "Disclosure of other digital assets of principal",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "an agent with specific authority over digital assets or general authority to act on behalf of a principal a catalogue"
+  },
+  {
+   "id": "rufadaa-11",
+   "cite": "RUFADAA §11 (2015)",
+   "title": "Disclosure of digital assets held in trust when trustee is original user",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a custodian shall disclose to a trustee that is an original user of an account any digital asset of the account held in trust"
+  },
+  {
+   "id": "rufadaa-12",
+   "cite": "RUFADAA §12 (2015)",
+   "title": "Disclosure of contents held in trust when trustee not original user",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a certified copy of the trust instrument ... that includes consent to disclosure of the content of electronic communications to the trustee"
+  },
+  {
+   "id": "rufadaa-13",
+   "cite": "RUFADAA §13 (2015)",
+   "title": "Disclosure of other digital assets held in trust when trustee not original user",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a catalogue of electronic communications sent or received by an original or successor user"
+  },
+  {
+   "id": "rufadaa-14",
+   "cite": "RUFADAA §14 (2015)",
+   "title": "Disclosure of digital assets to conservator of protected person",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "After an opportunity for a hearing under [state conservatorship law], the court may grant a [conservator] access to the digital assets"
+  },
+  {
+   "id": "rufadaa-15",
+   "cite": "RUFADAA §15 (2015)",
+   "title": "Fiduciary duty and authority (incl. account termination request)",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may not be used to impersonate the user."
+  },
+  {
+   "id": "rufadaa-16",
+   "cite": "RUFADAA §16 (2015)",
+   "title": "Custodian compliance and immunity",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "Not later than [60] days after receipt of the information required under Sections 7 through 15, a custodian shall comply"
+  },
+  {
+   "id": "ruaga-2",
+   "cite": "Revised UAGA §2(1) (2006)",
+   "title": "Definitions: agent",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "authorized to make health-care decisions on the principal’s behalf by a power of attorney for health care"
+  },
+  {
+   "id": "ruaga-4",
+   "cite": "Revised UAGA §4 (2006)",
+   "title": "Who may make anatomical gift before donor's death",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "an agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift"
+  },
+  {
+   "id": "ruaga-5",
+   "cite": "Revised UAGA §5 (2006)",
+   "title": "Manner of making anatomical gift before donor's death",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "may make a gift by a donor card or other record signed by the donor or other person making the gift"
+  },
+  {
+   "id": "ruaga-6",
+   "cite": "Revised UAGA §6 (2006)",
+   "title": "Amending or revoking anatomical gift before donor's death",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a donor or other person authorized to make an anatomical gift under Section 4 may amend or revoke an anatomical gift"
+  },
+  {
+   "id": "ruaga-7",
+   "cite": "Revised UAGA §7(d) (2006)",
+   "title": "Refusal to make anatomical gift and effect of refusal",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "an individual’s unrevoked refusal to make an anatomical gift ... bars all other persons from making an anatomical gift"
+  },
+  {
+   "id": "ruaga-8",
+   "cite": "Revised UAGA §8(a) (2006)",
+   "title": "Preclusive effect of anatomical gift, amendment, or revocation",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "a person other than the donor is barred from making, amending, or revoking an anatomical gift of a donor’s body"
+  },
+  {
+   "id": "ruaga-9",
+   "cite": "Revised UAGA §9 (2006)",
+   "title": "Who may make anatomical gift of decedent's body or part",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "an agent of the decedent at the time of death who could have made an anatomical gift under Section 4(2) immediately before the decedent’s death"
+  },
+  {
+   "id": "ruaga-9c",
+   "cite": "Revised UAGA §9(c) (2006)",
+   "title": "Priority: prior class reasonably available",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "No person may make an anatomical gift if, at the time of the decedent’s death, a person in a prior class ... is reasonably available"
+  },
+  {
+   "id": "ruaga-10",
+   "cite": "Revised UAGA §10 (2006)",
+   "title": "Manner of making, amending, or revoking anatomical gift of decedent's body",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "by a document of gift signed by the person making the gift or that person’s oral communication that is electronically recorded"
+  },
+  {
+   "id": "ruaga-10c",
+   "cite": "Revised UAGA §10(c) (2006)",
+   "title": "Revocation cutoff",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "before an incision has been made to remove a part from the donor’s body or before invasive procedures have begun"
+  },
+  {
+   "id": "ruaga-14",
+   "cite": "Revised UAGA §14(c), (g) (2006)",
+   "title": "Rights and duties of procurement organization",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "shall make a reasonable search for any person listed in Section 9 having priority to make an anatomical gift"
+  },
+  {
+   "id": "ruaga-21",
+   "cite": "Revised UAGA §21 (2006)",
+   "title": "Effect of anatomical gift on advance health-care directive",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "measures necessary to insure the medical suitability of an organ for transplantation or therapy may not be withheld or withdrawn"
+  }
+ ],
+ "roles": [
+  {
+   "id": "financial-poa-durable",
+   "group": "financial",
+   "name": "Agent under durable financial power of attorney",
+   "localNames": [
+    "attorney-in-fact",
+    "agent"
+   ],
+   "summary": "A person the principal appoints in a signed power of attorney to act on property and financial matters. Under the UPOAA a power is durable (survives the principal's incapacity) unless it expressly says otherwise, and it ends at the principal's death.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs the power of attorney (acknowledgment before a notary creates a presumption of genuineness)",
+     "phase": "capable",
+     "citations": [
+      "upoaa-105"
+     ]
+    },
+    "starts": {
+     "event": "Effective when executed unless the POA states a future date or contingency; agency duties attach when the agent accepts by acting or other conduct",
+     "phase": "capable",
+     "citations": [
+      "upoaa-109",
+      "upoaa-113"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of principal (good-faith acts without actual knowledge still bind successors)",
+      "phase": "deceased",
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110d"
+      ]
+     },
+     {
+      "event": "Revocation by principal; POA terms; purpose accomplished",
+      "phase": "capable",
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b"
+      ]
+     },
+     {
+      "event": "Agent dies, becomes incapacitated, resigns, or (spouse-agent) dissolution/annulment/legal separation action filed",
+      "phase": "capable",
+      "citations": [
+       "upoaa-110b"
+      ]
+     },
+     {
+      "event": "Court limits, suspends, or terminates authority after appointment of a conservator",
+      "phase": "incapacitated",
+      "citations": [
+       "upoaa-108"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power of attorney"
+     },
+     {
+      "id": "designated",
+      "label": "POA executed; agent named but has not yet accepted"
+     },
+     {
+      "id": "active",
+      "label": "Agent has accepted; authority exercisable (continues through incapacity)"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority limited or suspended by court order"
+     },
+     {
+      "id": "terminated",
+      "label": "POA or agent's authority terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal signs POA (or directs another to sign in principal's conscious presence)",
+      "conditions": [
+       "Notarial acknowledgment not required for validity but gives presumption of genuineness",
+       "Durable by default: no statement needed (§104)",
+       "UPOAA does not cover powers to make health-care decisions (§103)"
+      ],
+      "citations": [
+       "upoaa-105",
+       "upoaa-104",
+       "upoaa-103"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-accept",
+      "from": "designated",
+      "to": "active",
+      "event": "Agent accepts by exercising authority, performing duties, or other conduct indicating acceptance",
+      "conditions": [
+       "POA must already be effective: default is effective on execution (§109(a))"
+      ],
+      "citations": [
+       "upoaa-113",
+       "upoaa-109"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-principal-incapacity",
+      "from": "active",
+      "to": "active",
+      "event": "Principal becomes incapacitated",
+      "conditions": [
+       "Durable: authority is not terminated by incapacity",
+       "Incapacity includes impairment and also being missing, detained, or outside the U.S. and unable to return (§102(5))"
+      ],
+      "citations": [
+       "upoaa-104",
+       "upoaa-102"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal revokes the power of attorney or the agent's authority",
+      "conditions": [
+       "Principal must have capacity to revoke (see §116(b) referring to capacity to revoke)",
+       "Execution of a later POA does not revoke an earlier one unless it says so (§110(f))"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b",
+       "upoaa-116"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke-before-acceptance",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Principal revokes before agent accepts",
+      "conditions": [],
+      "citations": [
+       "upoaa-110a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-principal-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "conditions": [
+       "Acts by the agent or a third party in good faith without actual knowledge of the death still bind the principal's successors in interest (§110(d))"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110d",
+       "upoaa-110-cmt"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-agent-exit",
+      "from": "active",
+      "to": "terminated",
+      "event": "Agent dies, becomes incapacitated, or resigns (and no coagent/successor agent is provided)",
+      "conditions": [
+       "If the POA names a successor agent, the successor may act once all predecessors have resigned, died, become incapacitated, are not qualified or decline (§111(b)); the POA itself continues",
+       "Resignation is by notice to the principal and, if the principal is incapacitated, to the conservator/guardian and coagent or successor, or others listed (§118)"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b",
+       "upoaa-111",
+       "upoaa-118"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-spouse-dissolution",
+      "from": "active",
+      "to": "terminated",
+      "event": "An action is filed for dissolution/annulment of the agent's marriage to the principal, or their legal separation",
+      "conditions": [
+       "Applies only where the agent is the principal's spouse",
+       "Default only: the POA may provide otherwise"
+      ],
+      "citations": [
+       "upoaa-110b"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-terms-or-purpose",
+      "from": "active",
+      "to": "terminated",
+      "event": "POA provides that it terminates, or its purpose is accomplished",
+      "conditions": [
+       "Lapse of time alone does not terminate authority unless the POA so provides (§110(c))"
+      ],
+      "citations": [
+       "upoaa-110a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-conservator-appointed",
+      "from": "active",
+      "to": "active",
+      "event": "Court appoints a conservator/guardian of the principal's estate",
+      "conditions": [
+       "Agent becomes accountable to the fiduciary as well as the principal",
+       "[Bracketed text] POA not terminated; authority continues unless the court limits, suspends, or terminates it"
+      ],
+      "citations": [
+       "upoaa-108"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-court-suspends",
+      "from": "active",
+      "to": "suspended",
+      "event": "Court limits or suspends the agent's authority",
+      "conditions": [
+       "On petition by persons listed in §116(a), including a conservator/guardian"
+      ],
+      "citations": [
+       "upoaa-108",
+       "upoaa-116"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-court-terminates",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Court terminates the agent's authority",
+      "conditions": [],
+      "citations": [
+       "upoaa-108",
+       "upoaa-116"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "financial-poa-durable"
+  },
+  {
+   "id": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Agent under nondurable financial power of attorney",
+   "localNames": [
+    "attorney-in-fact",
+    "agent"
+   ],
+   "summary": "An agent under a power of attorney that expressly states it ends if the principal becomes incapacitated. It works only while the principal is capable, and ends at incapacity or death.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs POA expressly stating it terminates on incapacity",
+     "phase": "capable",
+     "citations": [
+      "upoaa-105",
+      "upoaa-104"
+     ]
+    },
+    "starts": {
+     "event": "Effective on execution unless otherwise stated; agent accepts by acting",
+     "phase": "capable",
+     "citations": [
+      "upoaa-109",
+      "upoaa-113"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal becomes incapacitated (good-faith acts without actual knowledge still bind)",
+      "phase": "incapacitated",
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110e"
+      ]
+     },
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110d"
+      ]
+     },
+     {
+      "event": "Revocation; POA terms; purpose accomplished; agent death/incapacity/resignation; spouse-agent dissolution filing",
+      "phase": "capable",
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power of attorney"
+     },
+     {
+      "id": "designated",
+      "label": "POA executed; agent has not accepted"
+     },
+     {
+      "id": "active",
+      "label": "Agent has accepted; authority exercisable while principal has capacity"
+     },
+     {
+      "id": "terminated",
+      "label": "Terminated (incapacity, death, revocation, etc.)"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal signs POA that expressly provides it terminates on the principal's incapacity",
+      "conditions": [
+       "Nondurability must be expressly stated; otherwise the POA is durable"
+      ],
+      "citations": [
+       "upoaa-105",
+       "upoaa-104"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-accept",
+      "from": "designated",
+      "to": "active",
+      "event": "Agent accepts by exercising authority or other conduct",
+      "conditions": [],
+      "citations": [
+       "upoaa-113",
+       "upoaa-109"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-principal-incapacity",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal becomes incapacitated",
+      "conditions": [
+       "Good-faith acts by agent or third party without actual knowledge of the incapacity bind the principal and successors (§110(e))"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110e",
+       "upoaa-102"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal revokes the power of attorney or the agent's authority",
+      "conditions": [
+       "Principal must have capacity to revoke (see §116(b) referring to capacity to revoke)",
+       "Execution of a later POA does not revoke an earlier one unless it says so (§110(f))"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b",
+       "upoaa-116"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke-before-acceptance",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Principal revokes before agent accepts",
+      "conditions": [],
+      "citations": [
+       "upoaa-110a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-principal-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "conditions": [
+       "Acts by the agent or a third party in good faith without actual knowledge of the death still bind the principal's successors in interest (§110(d))"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110d",
+       "upoaa-110-cmt"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-agent-exit",
+      "from": "active",
+      "to": "terminated",
+      "event": "Agent dies, becomes incapacitated, or resigns (and no coagent/successor agent is provided)",
+      "conditions": [
+       "If the POA names a successor agent, the successor may act once all predecessors have resigned, died, become incapacitated, are not qualified or decline (§111(b)); the POA itself continues",
+       "Resignation is by notice to the principal and, if the principal is incapacitated, to the conservator/guardian and coagent or successor, or others listed (§118)"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b",
+       "upoaa-111",
+       "upoaa-118"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-spouse-dissolution",
+      "from": "active",
+      "to": "terminated",
+      "event": "An action is filed for dissolution/annulment of the agent's marriage to the principal, or their legal separation",
+      "conditions": [
+       "Applies only where the agent is the principal's spouse",
+       "Default only: the POA may provide otherwise"
+      ],
+      "citations": [
+       "upoaa-110b"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-terms-or-purpose",
+      "from": "active",
+      "to": "terminated",
+      "event": "POA provides that it terminates, or its purpose is accomplished",
+      "conditions": [
+       "Lapse of time alone does not terminate authority unless the POA so provides (§110(c))"
+      ],
+      "citations": [
+       "upoaa-110a"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "financial-poa-nondurable"
+  },
+  {
+   "id": "financial-poa-springing",
+   "group": "financial",
+   "name": "Agent under springing (contingent) financial power of attorney",
+   "localNames": [
+    "attorney-in-fact",
+    "agent under contingent power of attorney"
+   ],
+   "summary": "A power of attorney that the principal writes to take effect at a future date or on a future event, most often the principal's incapacity. The POA can name who decides that the event has happened. If it names no one, a physician (or licensed psychologist) can certify impairment, or a lawyer, judge or government official can certify that the principal is missing or detained.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs POA stating it becomes effective on a future date/event (e.g., incapacity)",
+     "phase": "capable",
+     "citations": [
+      "upoaa-105",
+      "upoaa-109"
+     ]
+    },
+    "starts": {
+     "event": "Written determination that the event/incapacity occurred, by the person the POA authorizes or, by default, a physician [or licensed psychologist] (impairment) or an attorney, judge, or appropriate governmental official (missing/detained/unable to return)",
+     "phase": "incapacitated",
+     "citations": [
+      "upoaa-109",
+      "upoaa-109c"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of principal (good-faith acts without actual knowledge still bind)",
+      "phase": "deceased",
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110d"
+      ]
+     },
+     {
+      "event": "Revocation, POA terms, purpose accomplished, agent exit, spouse-agent dissolution filing",
+      "phase": "incapacitated",
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b"
+      ]
+     },
+     {
+      "event": "Court limits/suspends/terminates after conservator appointment",
+      "phase": "incapacitated",
+      "citations": [
+       "upoaa-108"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power of attorney"
+     },
+     {
+      "id": "designated",
+      "label": "POA executed but not yet effective (awaiting the specified event or contingency)"
+     },
+     {
+      "id": "active",
+      "label": "Triggering event determined in a writing/record; agent has accepted; authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority limited or suspended by court order"
+     },
+     {
+      "id": "terminated",
+      "label": "POA or agent's authority terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-execute",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal signs POA with future-date or contingency effectiveness clause",
+      "conditions": [
+       "Principal may authorize one or more persons to determine in a writing or other record that the event has occurred (§109(b))",
+       "Durable by default unless it expressly provides otherwise (§104)"
+      ],
+      "citations": [
+       "upoaa-105",
+       "upoaa-109",
+       "upoaa-104"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-trigger-authorized-person",
+      "from": "designated",
+      "to": "active",
+      "event": "Person authorized in the POA determines in a writing/record that the event or contingency occurred",
+      "conditions": [
+       "The authorized person may act as the principal's HIPAA personal representative to obtain health information and communicate with providers (§109(d))",
+       "Agent acceptance by conduct (§113)"
+      ],
+      "citations": [
+       "upoaa-109",
+       "upoaa-109c",
+       "upoaa-113"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-trigger-default",
+      "from": "designated",
+      "to": "active",
+      "event": "No authorized person (or authorized person unable/unwilling): written determination of incapacity by default determiner",
+      "conditions": [
+       "Impairment (§102(5)(A)): physician [or licensed psychologist]",
+       "Missing, detained, or outside the U.S. and unable to return (§102(5)(B)): attorney at law, judge, or appropriate governmental official",
+       "Default mechanism applies only to incapacity-triggered powers, and cannot be used to challenge the authorized designee's determination (comment)"
+      ],
+      "citations": [
+       "upoaa-109c",
+       "upoaa-102"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-principal-incapacity-continues",
+      "from": "active",
+      "to": "active",
+      "event": "Principal remains incapacitated",
+      "conditions": [
+       "Continues unless the POA expressly provides it terminates on incapacity"
+      ],
+      "citations": [
+       "upoaa-104"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal revokes the power of attorney or the agent's authority",
+      "conditions": [
+       "Principal must have capacity to revoke (see §116(b) referring to capacity to revoke)",
+       "Execution of a later POA does not revoke an earlier one unless it says so (§110(f))"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b",
+       "upoaa-116"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke-before-acceptance",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Principal revokes before agent accepts",
+      "conditions": [],
+      "citations": [
+       "upoaa-110a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-principal-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "conditions": [
+       "Acts by the agent or a third party in good faith without actual knowledge of the death still bind the principal's successors in interest (§110(d))"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110d",
+       "upoaa-110-cmt"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-agent-exit",
+      "from": "active",
+      "to": "terminated",
+      "event": "Agent dies, becomes incapacitated, or resigns (and no coagent/successor agent is provided)",
+      "conditions": [
+       "If the POA names a successor agent, the successor may act once all predecessors have resigned, died, become incapacitated, are not qualified or decline (§111(b)); the POA itself continues",
+       "Resignation is by notice to the principal and, if the principal is incapacitated, to the conservator/guardian and coagent or successor, or others listed (§118)"
+      ],
+      "citations": [
+       "upoaa-110a",
+       "upoaa-110b",
+       "upoaa-111",
+       "upoaa-118"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-spouse-dissolution",
+      "from": "active",
+      "to": "terminated",
+      "event": "An action is filed for dissolution/annulment of the agent's marriage to the principal, or their legal separation",
+      "conditions": [
+       "Applies only where the agent is the principal's spouse",
+       "Default only: the POA may provide otherwise"
+      ],
+      "citations": [
+       "upoaa-110b"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-terms-or-purpose",
+      "from": "active",
+      "to": "terminated",
+      "event": "POA provides that it terminates, or its purpose is accomplished",
+      "conditions": [
+       "Lapse of time alone does not terminate authority unless the POA so provides (§110(c))"
+      ],
+      "citations": [
+       "upoaa-110a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-conservator-appointed",
+      "from": "active",
+      "to": "active",
+      "event": "Court appoints a conservator/guardian of the principal's estate",
+      "conditions": [
+       "Agent becomes accountable to the fiduciary as well as the principal",
+       "[Bracketed text] POA not terminated; authority continues unless the court limits, suspends, or terminates it"
+      ],
+      "citations": [
+       "upoaa-108"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-court-suspends",
+      "from": "active",
+      "to": "suspended",
+      "event": "Court limits or suspends the agent's authority",
+      "conditions": [
+       "On petition by persons listed in §116(a), including a conservator/guardian"
+      ],
+      "citations": [
+       "upoaa-108",
+       "upoaa-116"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-court-terminates",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Court terminates the agent's authority",
+      "conditions": [],
+      "citations": [
+       "upoaa-108",
+       "upoaa-116"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "financial-poa-springing"
+  },
+  {
+   "id": "health-care-agent",
+   "group": "health",
+   "name": "Agent under power of attorney for health care",
+   "localNames": [
+    "health-care agent",
+    "health-care proxy",
+    "attorney-in-fact for health care"
+   ],
+   "summary": "An individual appointed in a power of attorney for health care to make health-care decisions when the principal cannot. Under UHCDA (2023) decision-making power always 'springs' on a finding of lack of capacity, and only the health-information power may start at once. The 1993 Act let the document make the agent's authority effective immediately.",
+   "lane": {
+    "assigned": {
+     "event": "Individual signs power of attorney for health care (2023: in a record with one qualifying adult witness; 1993: signed writing)",
+     "phase": "capable",
+     "citations": [
+      "uhcda23-8",
+      "uhcda93-2"
+     ]
+    },
+    "starts": {
+     "event": "Finding of lack of capacity under §4(b) or by a court (2023). 1993: primary physician's determination unless the directive says otherwise, or immediately if the POA so specifies",
+     "phase": "incapacitated",
+     "citations": [
+      "uhcda23-18",
+      "uhcda23-4",
+      "uhcda93-2",
+      "uhcda93-2d",
+      "uhcda93-2-cmt"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal found to have regained capacity (power ceases; may resume)",
+      "phase": "capable",
+      "citations": [
+       "uhcda23-18",
+       "uhcda93-2"
+      ]
+     },
+     {
+      "event": "Revocation by principal; spouse-agent divorce/separation events; disqualification",
+      "phase": "capable",
+      "citations": [
+       "uhcda23-15",
+       "uhcda23-15d",
+       "uhcda23-8",
+       "uhcda93-3"
+      ]
+     },
+     {
+      "event": "Principal's death: neither UHCDA text expressly addresses this; no post-death powers (autopsy, disposition of remains) are granted. Any post-death anatomical-gift authority comes from Revised UAGA §9(a)(1)",
+      "phase": "deceased",
+      "citations": [
+       "uhcda23-2",
+       "ruaga-9"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power of attorney for health care"
+     },
+     {
+      "id": "designated",
+      "label": "Agent appointed; principal has capacity (agent may hold immediate health-information access if the POA so provides)"
+     },
+     {
+      "id": "active",
+      "label": "Principal found to lack capacity; agent may make health-care decisions"
+     },
+     {
+      "id": "suspended",
+      "label": "Power ceased because principal objected to the incapacity finding (2023); may resume"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment revoked, disqualified, or otherwise ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Individual creates power of attorney for health care",
+      "conditions": [
+       "2023: record signed by the individual and an adult witness who is not the agent, the agent's spouse/domestic partner/cohabitant, or (for nursing-home residents) facility owner/operator/employee/contractor; witness may be present by real-time audio-visual or, in some cases, audio (§8(d)-(e))",
+       "1993: writing signed by principal; no witness required (§2(b) and comment)",
+       "Presumption of capacity to make the appointment (2023 §4(a); 1993 §11(b))"
+      ],
+      "citations": [
+       "uhcda23-8",
+       "uhcda23-4",
+       "uhcda93-1",
+       "uhcda93-2",
+       "uhcda93-11"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-immediate-info",
+      "from": "designated",
+      "to": "designated",
+      "event": "POA provides that agent's health-information power commences on appointment",
+      "conditions": [
+       "2023: applies only to the power to request, receive, examine, copy, and consent to disclosure of health information (§18(b)); decision-making still requires incapacity finding (§18 cmt.)"
+      ],
+      "citations": [
+       "uhcda23-18c",
+       "uhcda23-18-cmt"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-activate-2023",
+      "from": "designated",
+      "to": "active",
+      "event": "Individual found to lack capacity (2023 Act)",
+      "conditions": [
+       "Finding under §4(b): contemporaneous examination by physician, licensed psychologist, [PA/APRN/social worker with training], or responsible health-care professional in urgent situations when those are unavailable; documented in signed record with cause, nature, extent, probable duration",
+       "Finder may not be a family member, cohabitant, or the surrogate or surrogate's family (§4(c))",
+       "Or a court finding (§18(a); judicial review by clear and convincing evidence, §6)",
+       "Individual and surrogate must be informed (§5(a)-(b))"
+      ],
+      "citations": [
+       "uhcda23-18",
+       "uhcda23-4",
+       "uhcda23-5",
+       "uhcda23-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-activate-1993",
+      "from": "designated",
+      "to": "active",
+      "event": "Determination that principal lacks capacity (1993 Act)",
+      "conditions": [
+       "Made by primary physician unless the written directive specifies otherwise (§2(d))",
+       "If the POA expressly so provides, authority may be effective immediately or on another event (§2(c) and comment); in that case this transition is skipped",
+       "Person then authorized to decide has the patient's rights to health-care information unless the directive says otherwise (§8)"
+      ],
+      "citations": [
+       "uhcda93-2",
+       "uhcda93-2d",
+       "uhcda93-2-cmt",
+       "uhcda93-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-objection",
+      "from": "active",
+      "to": "suspended",
+      "event": "Individual objects to the §4(b) finding (orally, in a record, or by other act)",
+      "conditions": [
+       "2023 only; individual must be treated as having capacity unless an exception in §5(d) applies (e.g., urgent condition, court finding)"
+      ],
+      "citations": [
+       "uhcda23-5",
+       "uhcda23-18"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resume",
+      "from": "suspended",
+      "to": "active",
+      "event": "Finding confirmed by a second qualified, independent finder or by a court",
+      "conditions": [
+       "A second finding cannot rebut capacity where the individual requests life-sustaining treatment and the finding would be used to withhold/withdraw it (§5(e))"
+      ],
+      "citations": [
+       "uhcda23-5",
+       "uhcda23-18"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-recover",
+      "from": "active",
+      "to": "designated",
+      "event": "Individual later found to have capacity",
+      "conditions": [
+       "2023: presumption of capacity restored if condition no longer exists or responsible professional has good cause (§4(d))",
+       "1993: authority ceases on primary physician's determination of recovered capacity (§2(c)-(d))"
+      ],
+      "citations": [
+       "uhcda23-18",
+       "uhcda23-4",
+       "uhcda93-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Individual revokes appointment",
+      "conditions": [
+       "2023: any act clearly indicating intent, including oral statement to a health-care professional; not available if a court found (or a confirmed §4(b) finding shows) the individual lacks capacity to revoke (§15(a)-(b))",
+       "1993: revocation of agent designation only by signed writing or personally informing supervising provider (§3(a))"
+      ],
+      "citations": [
+       "uhcda23-15",
+       "uhcda93-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke-designated",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Individual revokes appointment while capable",
+      "conditions": [],
+      "citations": [
+       "uhcda23-15",
+       "uhcda93-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-spouse-divorce",
+      "from": "active",
+      "to": "terminated",
+      "event": "Spouse-agent: divorce/annulment/separation event",
+      "conditions": [
+       "2023: petition filed (not dismissed), decree issued, separation agreed in a record, or abandonment >1 year, unless directive provides otherwise (§15(d))",
+       "1993: decree of annulment, divorce, dissolution, or legal separation, unless decree or POA specifies otherwise (§3(d))"
+      ],
+      "citations": [
+       "uhcda23-15d",
+       "uhcda93-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-disqualified",
+      "from": "active",
+      "to": "terminated",
+      "event": "Agent disqualified",
+      "conditions": [
+       "2023: court finds agent poses danger, or agent is owner/operator/employee/contractor of the nursing home where the individual resides, unless family/cohabitant (§8(b))",
+       "1993: owner/operator/employee of residential long-term care institution where principal receives care, unless related (§2(b))"
+      ],
+      "citations": [
+       "uhcda23-8",
+       "uhcda93-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-alternate",
+      "from": "active",
+      "to": "active",
+      "event": "Original agent unavailable, resigns, dies, or is disqualified; alternate agent acts",
+      "conditions": [
+       "2023 default: alternate has same authority while the original agent is not reasonably available, or permanently once all predecessors resigned/died/disqualified (§20(c))"
+      ],
+      "citations": [
+       "uhcda23-20"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-guardian-revokes",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court appointing a guardian expressly orders revocation of the directive",
+      "conditions": [
+       "Absent such an order, the agent's decision prevails over the guardian's (2023 §22(b); 1993 §6(b))"
+      ],
+      "citations": [
+       "uhcda23-22",
+       "uhcda93-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "conditions": [
+       "Not expressly stated in UHCDA 1993 or 2023; inferred because a 'health-care decision' concerns the individual's own health care",
+       "Neither Act grants post-death authority (autopsy, disposition of remains). Anatomical-gift authority after death is under Revised UAGA §9(a)(1), see role anatomical-gift-agent"
+      ],
+      "citations": [
+       "uhcda23-2",
+       "ruaga-9"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "canonical": "health-care-agent"
+  },
+  {
+   "id": "default-surrogate",
+   "group": "health",
+   "name": "Default health-care surrogate",
+   "localNames": [
+    "surrogate",
+    "default surrogate",
+    "health-care surrogate"
+   ],
+   "summary": "A person who can make health-care decisions for an individual who lacks capacity and has no available agent or guardian. The law picks this person from a priority list, or the individual can name them without signing a power of attorney.",
+   "lane": {
+    "assigned": {
+     "event": "Individual identifies a surrogate other than in a POA (2023 §12(b)(1); 1993: by personally informing supervising provider), or by operation of the priority list",
+     "phase": "capable",
+     "citations": [
+      "uhcda23-12",
+      "uhcda93-5"
+     ]
+    },
+    "starts": {
+     "event": "Individual found to lack capacity and no agent/authorized guardian appointed or reasonably available; highest-priority reasonably available, non-disqualified person assumes authority",
+     "phase": "incapacitated",
+     "citations": [
+      "uhcda23-12",
+      "uhcda23-18",
+      "uhcda93-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Capacity regained, or agent/guardian becomes available",
+      "phase": "capable",
+      "citations": [
+       "uhcda23-18",
+       "uhcda23-12"
+      ]
+     },
+     {
+      "event": "Disqualification or bypass by responsible health-care professional",
+      "phase": "incapacitated",
+      "citations": [
+       "uhcda23-14",
+       "uhcda23-12"
+      ]
+     },
+     {
+      "event": "Death of individual (not expressly addressed)",
+      "phase": "deceased",
+      "citations": [
+       "uhcda23-12"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No identified or eligible surrogate"
+     },
+     {
+      "id": "designated",
+      "label": "Individual identified by the patient, or eligible by priority class; no authority while patient has capacity"
+     },
+     {
+      "id": "active",
+      "label": "Has assumed authority to make health-care decisions"
+     },
+     {
+      "id": "suspended",
+      "label": "Power ceased due to patient's objection to incapacity finding (2023)"
+     },
+     {
+      "id": "terminated",
+      "label": "Disqualified, bypassed, superseded, or ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-identify",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Individual identifies an adult to decide if the individual cannot",
+      "conditions": [
+       "2023: other than in a POA for health care; highest priority class (§12(b)(1)); may also be expressed in a health-care instruction (§7(a)(5))",
+       "1993: by personally informing the supervising health-care provider (§5(b))"
+      ],
+      "citations": [
+       "uhcda23-12",
+       "uhcda23-7",
+       "uhcda93-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-assume-2023",
+      "from": "designated",
+      "to": "active",
+      "event": "Individual found to lack capacity; surrogate assumes authority (2023)",
+      "conditions": [
+       "No agent or guardian authorized for health care appointed or reasonably available (§12(a))",
+       "Priority (unless directive says otherwise): (1) adult identified by individual; (2) spouse [or domestic partner] unless divorce/separation petition, decree, agreement, or abandonment >1 yr; (3) adult child or parent; (4) cohabitant; (5) adult sibling; (6) adult grandchild or grandparent; (7) adult who routinely assisted with supported decision making in prior 6 months; (8) adult stepchild actively parented; (9) adult who showed special care and concern and knows the individual's values (§12(b))",
+       "Responsible professional may require declaration under penalty of perjury (§12(c))",
+       "Majority of highest class controls on disagreement; even split resolved by other law (§13)",
+       "Power commences on §4(b) or court finding (§18(a))",
+       "May not make a decision that other state law bars a guardian from making, or allows only with specific court authorization (§19(b))"
+      ],
+      "citations": [
+       "uhcda23-12",
+       "uhcda23-13",
+       "uhcda23-18",
+       "uhcda23-4",
+       "uhcda23-19"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-assume-1993",
+      "from": "designated",
+      "to": "active",
+      "event": "Primary physician determines patient lacks capacity; surrogate acts (1993)",
+      "conditions": [
+       "No agent or guardian appointed or reasonably available (§5(a))",
+       "Priority: designee; then spouse unless legally separated, adult child, parent, adult sibling; then adult with special care and concern (§5(b)-(c))",
+       "Must notify family members in §5(b) (§5(d)); even split disqualifies the class and all lower classes (§5(e))"
+      ],
+      "citations": [
+       "uhcda93-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-objection",
+      "from": "active",
+      "to": "suspended",
+      "event": "Patient objects to §4(b) finding",
+      "conditions": [
+       "2023 only"
+      ],
+      "citations": [
+       "uhcda23-5",
+       "uhcda23-18"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resume",
+      "from": "suspended",
+      "to": "active",
+      "event": "Finding confirmed by second independent finder or court",
+      "conditions": [],
+      "citations": [
+       "uhcda23-5",
+       "uhcda23-18"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-recover",
+      "from": "active",
+      "to": "designated",
+      "event": "Patient found to have capacity",
+      "conditions": [],
+      "citations": [
+       "uhcda23-18",
+       "uhcda23-4"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-superseded",
+      "from": "active",
+      "to": "terminated",
+      "event": "Agent or guardian authorized for health care is appointed or becomes reasonably available",
+      "conditions": [
+       "Default surrogate authority exists only in their absence (§12(a); 1993 §5(a))"
+      ],
+      "citations": [
+       "uhcda23-12",
+       "uhcda93-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-bypass",
+      "from": "active",
+      "to": "terminated",
+      "event": "Responsible professional recognizes next in priority because surrogate is unwilling/unable to comply with §17 duties or fails to do so timely",
+      "conditions": [],
+      "citations": [
+       "uhcda23-12",
+       "uhcda23-17"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-disqualify",
+      "from": "active",
+      "to": "terminated",
+      "event": "Surrogate disqualified",
+      "conditions": [
+       "By the patient in a signed record or verbal/nonverbal communication, effective even if patient lacks capacity for an advance directive (§14(a))",
+       "Court finds danger; nursing-home owner/operator/employee/contractor unless family; refusal to give timely declaration (§14(b))",
+       "1993: patient may disqualify by signed writing or informing supervising provider (§5(h))"
+      ],
+      "citations": [
+       "uhcda23-14",
+       "uhcda93-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke-designation",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Individual revokes the designation of a default surrogate",
+      "conditions": [],
+      "citations": [
+       "uhcda23-15"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Patient dies",
+      "conditions": [
+       "Not expressly stated in either Act; inferred from scope of health-care decision authority"
+      ],
+      "citations": [
+       "uhcda23-12"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "canonical": "default-surrogate"
+  },
+  {
+   "id": "guardian-person",
+   "group": "court",
+   "name": "Guardian for an adult (personal affairs)",
+   "localNames": [
+    "guardian of the person",
+    "limited guardian",
+    "emergency guardian"
+   ],
+   "summary": "A person a court appoints to make decisions about an adult's personal affairs (where they live, health care and the like). The court must find by clear-and-convincing evidence that less restrictive alternatives will not work. UGCOPAA (2017) replaces the 1997 UGPPA, and the 2019 UPC still contains the UGPPA as Article V.",
+   "lane": {
+    "assigned": {
+     "event": "Nomination by respondent (e.g., in a POA or health-care directive) is considered for priority, but only a court appoints",
+     "phase": "capable",
+     "citations": [
+      "ugcopaa-309",
+      "upoaa-108",
+      "uhcda23-7"
+     ]
+    },
+    "starts": {
+     "event": "Court order of appointment, then filing of acceptance and issuance of letters of office",
+     "phase": "incapacitated",
+     "citations": [
+      "ugcopaa-301",
+      "ugcopaa-310",
+      "ugcopaa-108"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court terminates guardianship and restores rights (prima facie evidence standard)",
+      "phase": "capable",
+      "citations": [
+       "ugcopaa-319",
+       "ugcopaa-319-cmt"
+      ]
+     },
+     {
+      "event": "Adult dies (stated in official comment)",
+      "phase": "deceased",
+      "citations": [
+       "ugcopaa-319-cmt"
+      ]
+     },
+     {
+      "event": "Guardian dies, is removed, or court approves resignation",
+      "phase": "incapacitated",
+      "citations": [
+       "ugcopaa-112",
+       "ugcopaa-318"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No proceeding"
+     },
+     {
+      "id": "designated",
+      "label": "Person nominated by the respondent (nomination has priority weight only)"
+     },
+     {
+      "id": "petitioned",
+      "label": "Petition for guardianship pending"
+     },
+     {
+      "id": "emergency_active",
+      "label": "Emergency guardian appointed: only powers in the order, not more than [60] days (one extension)"
+     },
+     {
+      "id": "pending_letters",
+      "label": "Appointment ordered; letters not yet issued (acceptance not filed), or successor appointed to serve on a future event"
+     },
+     {
+      "id": "active",
+      "label": "Letters issued; guardian exercising powers granted (full or limited)"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended while a temporary substitute guardian serves"
+     },
+     {
+      "id": "terminated",
+      "label": "Guardianship or this guardian's appointment ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-nominate",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Respondent nominates a guardian (e.g., in a POA or advance health-care directive)",
+      "conditions": [
+       "Priority order: guardian acting in another jurisdiction; respondent's nominee (most recent, including in a POA); health-care agent; spouse [or domestic partner]; family member or other person with special care and concern; court may depart in respondent's best interest (§309)"
+      ],
+      "citations": [
+       "ugcopaa-309",
+       "upoaa-108",
+       "uhcda23-7",
+       "uhcda93-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-petition",
+      "from": "not_designated",
+      "to": "petitioned",
+      "event": "Person interested in the adult's welfare (including the adult) petitions",
+      "conditions": [
+       "Predecessor: UGPPA (1982/1997), which built on UPC Article V (1969); UGCOPAA replaces the 1997 UGPPA (Prefatory Note)",
+       "The UPC text as amended through 2019 still carries the UGPPA as Article V (§5-101)"
+      ],
+      "citations": [
+       "ugcopaa-302",
+       "ugcopaa-prefatory",
+       "upc-5-101"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-petition-nominee",
+      "from": "designated",
+      "to": "petitioned",
+      "event": "Petition filed where a nominee exists",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-302",
+       "ugcopaa-309"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-emergency",
+      "from": "petitioned",
+      "to": "emergency_active",
+      "event": "Court appoints emergency guardian",
+      "conditions": [
+       "Likely to prevent substantial harm; no other person appears to have authority and willingness to act; reason to believe §301 basis exists",
+       "Attorney appointed immediately; without-notice appointment requires notice within 48 hours and hearing within [5] days",
+       "Not a determination that a §301 basis exists"
+      ],
+      "citations": [
+       "ugcopaa-312"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-emergency-ends",
+      "from": "emergency_active",
+      "to": "petitioned",
+      "event": "Emergency authority expires ([60] days, extendable once) or court removes the emergency guardian",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-312"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-appoint",
+      "from": "petitioned",
+      "to": "pending_letters",
+      "event": "Court orders appointment after notice and hearing",
+      "conditions": [
+       "Clear-and-convincing evidence that respondent cannot meet essential requirements for health, safety, or self-care even with supports, and needs cannot be met by a protective arrangement or less restrictive alternative (§301(a))",
+       "Only powers necessitated by demonstrated needs; full guardianship only with findings that limited guardianship would not meet needs; order states retained rights to vote and marry (§§301(b), 310)"
+      ],
+      "citations": [
+       "ugcopaa-301",
+       "ugcopaa-309",
+       "ugcopaa-310",
+       "ugcopaa-102"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-letters",
+      "from": "pending_letters",
+      "to": "active",
+      "event": "Guardian files acceptance; court issues letters of office",
+      "conditions": [
+       "Limitations on powers must be stated on the letters (§108(c))",
+       "Default powers (except as limited by order) include establishing dwelling, consenting to health care, applying for benefits, receiving health information (§314)",
+       "Guardian may revoke or refuse to comply with an advance health-care directive only if the court expressly orders; agent's decision prevails unless court orders otherwise (UHCDA 2023 §22)"
+      ],
+      "citations": [
+       "ugcopaa-108",
+       "ugcopaa-314",
+       "uhcda23-22"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-successor-future",
+      "from": "not_designated",
+      "to": "pending_letters",
+      "event": "Court appoints successor guardian to serve immediately or when a designated event occurs (e.g., death of parent-guardian)",
+      "conditions": [
+       "Successor may act when the event occurs and it complies with §108; has predecessor's powers unless court provides otherwise",
+       "Note: a 'standby guardian' under the Act (§207) exists only for minors"
+      ],
+      "citations": [
+       "ugcopaa-111",
+       "ugcopaa-207"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-modify",
+      "from": "active",
+      "to": "active",
+      "event": "Court modifies powers (expands or limits) and issues new letters",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-319",
+       "ugcopaa-108"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-temp-substitute",
+      "from": "active",
+      "to": "suspended",
+      "event": "Court appoints temporary substitute guardian (≤6 months) while removal is pending or guardian not effectively performing",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-125"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-temp-substitute-ends",
+      "from": "suspended",
+      "to": "active",
+      "event": "Temporary substitute's authority ends without removal of the guardian",
+      "conditions": [
+       "Inferred: §125(c) suspends existing guardian's authority only 'for as long as' the substitute has authority"
+      ],
+      "citations": [
+       "ugcopaa-125"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-remove",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court removes guardian for failure to perform duties or good cause and appoints successor (per §309 priorities)",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-318"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-remove-from-suspended",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Court removes guardian after temporary substitution",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-318",
+       "ugcopaa-125"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resign",
+      "from": "active",
+      "to": "terminated",
+      "event": "Guardian petitions to resign; effective on court approval",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-112"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-guardian-dies",
+      "from": "active",
+      "to": "terminated",
+      "event": "Guardian dies",
+      "conditions": [
+       "Liability for prior acts and duty to account survive (§112(c))"
+      ],
+      "citations": [
+       "ugcopaa-112"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-restore",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court terminates guardianship (restoration of rights)",
+      "conditions": [
+       "Petition by adult, guardian, or interested person; on prima facie evidence court shall terminate unless §301 basis is proven",
+       "Adult has right to choose an attorney"
+      ],
+      "citations": [
+       "ugcopaa-319",
+       "ugcopaa-319-cmt"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-adult-dies",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult subject to guardianship dies",
+      "conditions": [
+       "Stated in official comment, not black-letter text of §319",
+       "UGCOPAA grants no express post-death winding-up authority to a guardian of the person (contrast conservator §§427, 431(k))"
+      ],
+      "citations": [
+       "ugcopaa-319-cmt"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "guardian-person"
+  },
+  {
+   "id": "conservator-estate",
+   "group": "court",
+   "name": "Conservator (property and financial affairs)",
+   "localNames": [
+    "conservator of the estate",
+    "guardian of the estate",
+    "limited conservator",
+    "emergency conservator"
+   ],
+   "summary": "A person a court appoints to manage an adult's property or financial affairs. When the adult dies, the conservatorship terminates. The conservator then winds it up by filing a final report and delivering the estate to the decedent's estate, and a bracketed option lets the conservator ask for personal-representative powers.",
+   "lane": {
+    "assigned": {
+     "event": "Respondent's nomination (including in a POA for finances) and agent status give priority; court appoints",
+     "phase": "capable",
+     "citations": [
+      "ugcopaa-410",
+      "upoaa-108"
+     ]
+    },
+    "starts": {
+     "event": "Court order, then acceptance and any bond filed and letters of office issued",
+     "phase": "incapacitated",
+     "citations": [
+      "ugcopaa-401",
+      "ugcopaa-411",
+      "ugcopaa-108"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Adult dies: conservatorship terminates; final report, distribution to estate, discharge",
+      "phase": "deceased",
+      "citations": [
+       "ugcopaa-431",
+       "ugcopaa-431k",
+       "ugcopaa-427"
+      ]
+     },
+     {
+      "event": "Court terminates (basis no longer exists); property passes to the individual",
+      "phase": "capable",
+      "citations": [
+       "ugcopaa-431",
+       "ugcopaa-431k"
+      ]
+     },
+     {
+      "event": "Conservator dies, is removed, or resignation approved",
+      "phase": "incapacitated",
+      "citations": [
+       "ugcopaa-112"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No proceeding"
+     },
+     {
+      "id": "designated",
+      "label": "Person nominated by respondent"
+     },
+     {
+      "id": "petitioned",
+      "label": "Petition pending"
+     },
+     {
+      "id": "emergency_active",
+      "label": "Emergency conservator: only powers in order, not more than [60] days (one extension)"
+     },
+     {
+      "id": "pending_letters",
+      "label": "Appointment ordered; awaiting acceptance and bond/asset-protection compliance"
+     },
+     {
+      "id": "active",
+      "label": "Letters issued; managing conservatorship estate"
+     },
+     {
+      "id": "suspended",
+      "label": "Authority suspended while a temporary substitute conservator serves"
+     },
+     {
+      "id": "winding_up",
+      "label": "Individual has died: conservator files final report, preserves and distributes estate, awaits discharge"
+     },
+     {
+      "id": "terminated",
+      "label": "Discharged or appointment ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-nominate",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Respondent nominates a conservator (e.g., in a POA)",
+      "conditions": [
+       "Priority: conservator in another jurisdiction; respondent's nominee (most recent, incl. in POA for finances); agent under POA for finances; spouse [or domestic partner]; family member or other person with special care and concern (§410)"
+      ],
+      "citations": [
+       "ugcopaa-410",
+       "upoaa-108"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-petition",
+      "from": "not_designated",
+      "to": "petitioned",
+      "event": "Petition filed",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-401"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-petition-nominee",
+      "from": "designated",
+      "to": "petitioned",
+      "event": "Petition filed where nominee exists",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-401",
+       "ugcopaa-410"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-emergency",
+      "from": "petitioned",
+      "to": "emergency_active",
+      "event": "Court appoints emergency conservator",
+      "conditions": [
+       "Likely to prevent substantial and irreparable harm to property/financial interests; no one else with authority and willingness; reason to believe §401 basis exists; hearing within [5] days"
+      ],
+      "citations": [
+       "ugcopaa-413"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-emergency-ends",
+      "from": "emergency_active",
+      "to": "petitioned",
+      "event": "Emergency authority expires or court removes emergency conservator",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-413"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-appoint",
+      "from": "petitioned",
+      "to": "pending_letters",
+      "event": "Court orders appointment",
+      "conditions": [
+       "Adult: clear-and-convincing evidence that adult cannot manage property due to decision-making limitation even with supports, or is missing, detained, or unable to return to the U.S.; appointment necessary to avoid harm/dissipation or to provide support; no less restrictive alternative (§401(b))",
+       "Limited conservatorship order must specify property and powers (§411(d))"
+      ],
+      "citations": [
+       "ugcopaa-401",
+       "ugcopaa-411"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-letters",
+      "from": "pending_letters",
+      "to": "active",
+      "event": "Conservator files acceptance and any required bond; letters issued",
+      "conditions": [
+       "Existing agent under a financial POA becomes accountable to conservator; authority continues unless court limits (UPOAA §108(b))",
+       "Digital assets: access to the extent RUFADAA or court order provides (§418(l); RUFADAA §14)",
+       "May exercise settlor's power to revoke/amend revocable trust only with court approval (UTC §602(f))"
+      ],
+      "citations": [
+       "ugcopaa-108",
+       "upoaa-108",
+       "ugcopaa-418l",
+       "rufadaa-14",
+       "utc-602"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-successor-future",
+      "from": "not_designated",
+      "to": "pending_letters",
+      "event": "Court appoints successor conservator to serve immediately or on a designated event",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-111"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-temp-substitute",
+      "from": "active",
+      "to": "suspended",
+      "event": "Temporary substitute conservator appointed (≤6 months)",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-125"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-temp-substitute-ends",
+      "from": "suspended",
+      "to": "active",
+      "event": "Temporary substitute's authority ends without removal",
+      "conditions": [
+       "Inferred from 'for as long as' wording of §125(c)"
+      ],
+      "citations": [
+       "ugcopaa-125"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-remove-resign-die",
+      "from": "active",
+      "to": "terminated",
+      "event": "Conservator dies, is removed, or court approves resignation",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-112"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-restore",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court terminates conservatorship (basis no longer exists / best interest)",
+      "conditions": [
+       "Prima facie evidence standard; property passes to the individual; final report and discharge (§431(f), (j))"
+      ],
+      "citations": [
+       "ugcopaa-431",
+       "ugcopaa-431k"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-individual-dies",
+      "from": "active",
+      "to": "winding_up",
+      "event": "Adult subject to conservatorship dies",
+      "conditions": [
+       "Conservatorship terminates at death (§431(b))",
+       "Deliver any will in possession to court and inform named personal representative (§427(a))",
+       "May take reasonable measures to preserve the estate until distribution (§431(k))"
+      ],
+      "citations": [
+       "ugcopaa-431",
+       "ugcopaa-427",
+       "ugcopaa-431k"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-conservator-as-pr",
+      "from": "winding_up",
+      "to": "winding_up",
+      "event": "[Bracketed option] 40 days after death with no PR appointed or pending, conservator applies to exercise PR powers",
+      "conditions": [
+       "Court may grant if no objection; letters endorsed; has effect of PR appointment under UPC §3-308 and Parts 6-10 of Article III (§427(b)-(c))"
+      ],
+      "citations": [
+       "ugcopaa-427"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-discharge",
+      "from": "winding_up",
+      "to": "terminated",
+      "event": "Court approves final report; conservator distributes to decedent's estate or as ordered; final order of discharge",
+      "conditions": [],
+      "citations": [
+       "ugcopaa-431k"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "conservator-estate"
+  },
+  {
+   "id": "personal-representative-executor",
+   "group": "estate",
+   "name": "Personal representative named in will (executor)",
+   "localNames": [
+    "executor",
+    "personal representative"
+   ],
+   "summary": "The person a will nominates to administer the decedent's estate. Being named gives no general power until a court or Registrar appoints them, they qualify, and letters issue. Once appointed, their powers relate back to earlier acts that benefited the estate.",
+   "lane": {
+    "assigned": {
+     "event": "Testator executes will nominating executor",
+     "phase": "capable",
+     "citations": [
+      "upc-3-203"
+     ]
+    },
+    "starts": {
+     "event": "Appointment (informal: ≥120 hours after death, will probated), qualification (bond/acceptance), issuance of letters; powers relate back",
+     "phase": "administration",
+     "citations": [
+      "upc-3-307",
+      "upc-3-308",
+      "upc-3-601",
+      "upc-3-103",
+      "upc-3-701"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Order closing estate (formal)",
+      "phase": "closed",
+      "citations": [
+       "upc-3-1001",
+       "upc-3-1002",
+       "upc-3-610"
+      ]
+     },
+     {
+      "event": "One year after closing statement with no pending proceedings",
+      "phase": "closed",
+      "citations": [
+       "upc-3-1003",
+       "upc-3-610"
+      ]
+     },
+     {
+      "event": "Removal, resignation (effective on successor), PR death/conservator, change of testacy",
+      "phase": "administration",
+      "citations": [
+       "upc-3-611",
+       "upc-3-610",
+       "upc-3-609",
+       "upc-3-612"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No will nomination"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will; before appointment may only carry out decedent's written instructions on body, funeral and burial"
+     },
+     {
+      "id": "pending_letters",
+      "label": "Appointment ordered by Registrar/court; must qualify (bond if required + statement of acceptance) before letters"
+     },
+     {
+      "id": "active",
+      "label": "Letters issued; administration commenced; full PR powers"
+     },
+     {
+      "id": "suspended",
+      "label": "Removal petition pending: may act only to account, correct maladministration, or preserve estate"
+     },
+     {
+      "id": "closing",
+      "label": "Closing statement filed; appointment continues for one year"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-nominated",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will nominates executor (or confers power to nominate)",
+      "conditions": [
+       "Person with priority under probated will is first in priority (§3-203(a)(1))",
+       "No PR powers before appointment (§3-103)"
+      ],
+      "citations": [
+       "upc-3-203",
+       "upc-3-103"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-remains-instructions",
+      "from": "designated",
+      "to": "designated",
+      "event": "Testator dies; named executor carries out written instructions about body, funeral, and burial",
+      "conditions": [
+       "Permitted before appointment (§3-701)"
+      ],
+      "citations": [
+       "upc-3-701-remains"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-apply",
+      "from": "designated",
+      "to": "pending_letters",
+      "event": "Application for informal appointment granted (or formal appointment order)",
+      "conditions": [
+       "Informal: at least 120 hours after death; will formally or informally probated; applicant has priority (§§3-307, 3-308)",
+       "Non-resident decedent: delay until 30 days after death unless exceptions (§3-307(a))",
+       "Generally no appointment proceeding more than 3 years after death, with exceptions (§3-108)",
+       "Must be at least [21] and not found unsuitable (§3-203(f))"
+      ],
+      "citations": [
+       "upc-3-307",
+       "upc-3-308",
+       "upc-3-108",
+       "upc-3-203"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-qualify",
+      "from": "pending_letters",
+      "to": "active",
+      "event": "Files any required bond and statement of acceptance; letters issued",
+      "conditions": [
+       "Administration commences on issuance of letters (§3-103)",
+       "Duties and powers commence on appointment; powers relate back to beneficial prior acts; may ratify others' proper acts (§3-701)",
+       "Fiduciary held to trustee standards; broad transaction powers (§§3-703, 3-715)",
+       "Digital assets: catalogue/non-content by default; content only with user consent or court direction (RUFADAA §§7-8)"
+      ],
+      "citations": [
+       "upc-3-601",
+       "upc-3-103",
+       "upc-3-701",
+       "upc-3-703",
+       "upc-3-715",
+       "rufadaa-7",
+       "rufadaa-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-renounce",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Nominee renounces or is disqualified",
+      "conditions": [
+       "Renunciation by writing filed with the court (§3-203(c)); disqualification (§3-203(f))"
+      ],
+      "citations": [
+       "upc-3-203"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-removal-petition",
+      "from": "active",
+      "to": "suspended",
+      "event": "Interested person petitions for removal; PR receives notice",
+      "conditions": [
+       "After notice PR shall not act except to account, correct maladministration, or preserve the estate, unless court orders otherwise (§3-611(a))"
+      ],
+      "citations": [
+       "upc-3-611"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-removed",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Court orders removal for cause",
+      "conditions": [
+       "Cause includes best interests of estate, misrepresentation, disregard of court order, incapacity, mismanagement (§3-611(b))",
+       "After termination, may still act to protect the estate and deliver assets to successor (§3-608)"
+      ],
+      "citations": [
+       "upc-3-611",
+       "upc-3-608"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resign",
+      "from": "active",
+      "to": "terminated",
+      "event": "PR files written resignation after ≥15 days' notice to interested persons",
+      "conditions": [
+       "Effective only on appointment and qualification of a successor and delivery of assets (§3-610(c))"
+      ],
+      "citations": [
+       "upc-3-610"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-pr-death-or-conservator",
+      "from": "active",
+      "to": "terminated",
+      "event": "PR dies or a conservator is appointed for PR's estate",
+      "conditions": [
+       "PR's own representative must protect the estate until a successor or special administrator is appointed (§3-609); special administrator may be appointed (§3-614)"
+      ],
+      "citations": [
+       "upc-3-609",
+       "upc-3-614"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-testacy-change",
+      "from": "active",
+      "to": "terminated",
+      "event": "Later will probated / probate vacated and a person entitled under the new testacy status is appointed",
+      "conditions": [],
+      "citations": [
+       "upc-3-612"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-close-formal",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court order of complete settlement (§3-1001) or settlement under informally probated will (§3-1002)",
+      "conditions": [
+       "Petition not entertained until time for presenting pre-death claims has expired"
+      ],
+      "citations": [
+       "upc-3-1001",
+       "upc-3-1002",
+       "upc-3-610"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-closing-statement",
+      "from": "active",
+      "to": "closing",
+      "event": "PR files verified closing statement ≥6 months after original appointment",
+      "conditions": [
+       "Creditor-claim period expired; estate fully administered and distributed; copies and account sent to distributees and known unpaid claimants (§3-1003(a))"
+      ],
+      "citations": [
+       "upc-3-1003"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-closing-final",
+      "from": "closing",
+      "to": "terminated",
+      "event": "One year after closing statement with no proceedings pending, appointment terminates",
+      "conditions": [],
+      "citations": [
+       "upc-3-1003",
+       "upc-3-610"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "personal-representative-executor"
+  },
+  {
+   "id": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Personal representative in intestacy (administrator)",
+   "localNames": [
+    "administrator",
+    "personal representative"
+   ],
+   "summary": "The personal representative of an estate with no will, or where no one named in a will serves. They are appointed from a statutory priority list: surviving spouse, then other heirs, then any creditor 45 days after death.",
+   "lane": {
+    "assigned": {
+     "event": "Priority arises at death by relationship (spouse, heirs) or by nomination from a person with priority",
+     "phase": "deceased",
+     "citations": [
+      "upc-3-203"
+     ]
+    },
+    "starts": {
+     "event": "Appointment (informal ≥120 hours after death), qualification, letters; powers relate back",
+     "phase": "administration",
+     "citations": [
+      "upc-3-307",
+      "upc-3-601",
+      "upc-3-103",
+      "upc-3-701"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Order closing estate",
+      "phase": "closed",
+      "citations": [
+       "upc-3-1001",
+       "upc-3-610"
+      ]
+     },
+     {
+      "event": "One year after closing statement with no pending proceedings",
+      "phase": "closed",
+      "citations": [
+       "upc-3-1003",
+       "upc-3-610"
+      ]
+     },
+     {
+      "event": "Removal, resignation, PR death/conservator, later will probated",
+      "phase": "administration",
+      "citations": [
+       "upc-3-611",
+       "upc-3-610",
+       "upc-3-609",
+       "upc-3-612"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Decedent alive or no eligible applicant"
+     },
+     {
+      "id": "designated",
+      "label": "Has statutory priority or has been nominated by persons with priority; no powers yet"
+     },
+     {
+      "id": "pending_letters",
+      "label": "Appointment ordered by Registrar/court; must qualify (bond if required + statement of acceptance) before letters"
+     },
+     {
+      "id": "active",
+      "label": "Letters issued; administration commenced; full PR powers"
+     },
+     {
+      "id": "suspended",
+      "label": "Removal petition pending: may act only to account, correct maladministration, or preserve estate"
+     },
+     {
+      "id": "closing",
+      "label": "Closing statement filed; appointment continues for one year"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-priority",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Decedent dies intestate (or will nominee does not serve); person holds priority",
+      "conditions": [
+       "Order when no will-based priority: surviving spouse who is devisee; other devisees; surviving spouse; other heirs; any creditor 45 days after death (§3-203(a))",
+       "Persons with priority (a)(2)-(5) may nominate a qualified person; co-equal priority holders must concur (§3-203(c))",
+       "Conservator (or guardian) of a protected heir may exercise that person's right to nominate (§3-203(d))"
+      ],
+      "citations": [
+       "upc-3-203"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-apply",
+      "from": "designated",
+      "to": "pending_letters",
+      "event": "Informal or formal appointment",
+      "conditions": [
+       "Informal: ≥120 hours after death; applicant has priority (§§3-307, 3-308(a)(7))",
+       "Appointment of someone without priority only in formal proceedings after those with priority fail to act (§3-203(e))",
+       "3-year ultimate time limit with exceptions (§3-108)"
+      ],
+      "citations": [
+       "upc-3-307",
+       "upc-3-308",
+       "upc-3-203",
+       "upc-3-108"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-special-admin",
+      "from": "not_designated",
+      "to": "pending_letters",
+      "event": "Special administrator appointed to protect estate before general PR",
+      "conditions": [
+       "Informally on application of interested person when necessary to protect the estate (§3-614)"
+      ],
+      "citations": [
+       "upc-3-614"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-qualify",
+      "from": "pending_letters",
+      "to": "active",
+      "event": "Bond (if required) and acceptance filed; letters issued",
+      "conditions": [
+       "Powers relate back (§3-701)"
+      ],
+      "citations": [
+       "upc-3-601",
+       "upc-3-103",
+       "upc-3-701",
+       "upc-3-715"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-renounce",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Renounces in writing filed with court",
+      "conditions": [],
+      "citations": [
+       "upc-3-203"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-removal-petition",
+      "from": "active",
+      "to": "suspended",
+      "event": "Interested person petitions for removal; PR receives notice",
+      "conditions": [
+       "After notice PR shall not act except to account, correct maladministration, or preserve the estate, unless court orders otherwise (§3-611(a))"
+      ],
+      "citations": [
+       "upc-3-611"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-removed",
+      "from": "suspended",
+      "to": "terminated",
+      "event": "Court orders removal for cause",
+      "conditions": [
+       "Cause includes best interests of estate, misrepresentation, disregard of court order, incapacity, mismanagement (§3-611(b))",
+       "After termination, may still act to protect the estate and deliver assets to successor (§3-608)"
+      ],
+      "citations": [
+       "upc-3-611",
+       "upc-3-608"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resign",
+      "from": "active",
+      "to": "terminated",
+      "event": "PR files written resignation after ≥15 days' notice to interested persons",
+      "conditions": [
+       "Effective only on appointment and qualification of a successor and delivery of assets (§3-610(c))"
+      ],
+      "citations": [
+       "upc-3-610"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-pr-death-or-conservator",
+      "from": "active",
+      "to": "terminated",
+      "event": "PR dies or a conservator is appointed for PR's estate",
+      "conditions": [
+       "PR's own representative must protect the estate until a successor or special administrator is appointed (§3-609); special administrator may be appointed (§3-614)"
+      ],
+      "citations": [
+       "upc-3-609",
+       "upc-3-614"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-testacy-change",
+      "from": "active",
+      "to": "terminated",
+      "event": "Later will probated / probate vacated and a person entitled under the new testacy status is appointed",
+      "conditions": [],
+      "citations": [
+       "upc-3-612"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-close-formal",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court order of complete settlement (§3-1001) or settlement under informally probated will (§3-1002)",
+      "conditions": [
+       "Petition not entertained until time for presenting pre-death claims has expired"
+      ],
+      "citations": [
+       "upc-3-1001",
+       "upc-3-1002",
+       "upc-3-610"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-closing-statement",
+      "from": "active",
+      "to": "closing",
+      "event": "PR files verified closing statement ≥6 months after original appointment",
+      "conditions": [
+       "Creditor-claim period expired; estate fully administered and distributed; copies and account sent to distributees and known unpaid claimants (§3-1003(a))"
+      ],
+      "citations": [
+       "upc-3-1003"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-closing-final",
+      "from": "closing",
+      "to": "terminated",
+      "event": "One year after closing statement with no proceedings pending, appointment terminates",
+      "conditions": [],
+      "citations": [
+       "upc-3-1003",
+       "upc-3-610"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "personal-representative-administrator"
+  },
+  {
+   "id": "small-estate-affiant",
+   "group": "estate",
+   "name": "Successor collecting personal property by small-estate affidavit",
+   "localNames": [
+    "affiant",
+    "successor",
+    "claiming successor"
+   ],
+   "summary": "For a small estate, a person entitled to the decedent's personal property can collect it by affidavit 30 days after death, without court appointment. Anyone who pays or delivers property to them is protected as if they had dealt with a personal representative.",
+   "lane": {
+    "assigned": {
+     "event": "Death; person is a successor entitled to payment or delivery",
+     "phase": "deceased",
+     "citations": [
+      "upc-3-1201"
+     ]
+    },
+    "starts": {
+     "event": "30 days after death, presents affidavit (entire estate net of liens ≤ $25,000; no PR application pending or granted)",
+     "phase": "deceased",
+     "citations": [
+      "upc-3-1201"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Property paid/delivered; affiant remains answerable to any PR or person with superior right",
+      "phase": "closed",
+      "citations": [
+       "upc-3-1202"
+      ]
+     },
+     {
+      "event": "PR application filed or granted (affidavit condition fails)",
+      "phase": "administration",
+      "citations": [
+       "upc-3-1201"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Decedent alive or no entitled successor"
+     },
+     {
+      "id": "designated",
+      "label": "Entitled successor; waiting period (30 days) running"
+     },
+     {
+      "id": "active",
+      "label": "Affidavit presented; holders must pay or deliver"
+     },
+     {
+      "id": "terminated",
+      "label": "Collection complete or superseded by PR appointment"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Decedent dies; person is successor entitled to property",
+      "conditions": [],
+      "citations": [
+       "upc-3-1201"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-affidavit",
+      "from": "designated",
+      "to": "active",
+      "event": "Affidavit presented to holder of property/debtor/transfer agent",
+      "conditions": [
+       "30 days elapsed since death",
+       "Value of entire estate wherever located, less liens and encumbrances, ≤ $25,000",
+       "No application or petition for PR appointment pending or granted in any jurisdiction",
+       "Affiant entitled to payment or delivery",
+       "No court involvement required",
+       "RUFADAA [bracketed] accepts a small-estate affidavit in lieu of letters for PR digital-asset requests (§§7(3), 8(3))"
+      ],
+      "citations": [
+       "upc-3-1201",
+       "rufadaa-7",
+       "rufadaa-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-refusal",
+      "from": "active",
+      "to": "active",
+      "event": "Holder refuses to pay/deliver",
+      "conditions": [
+       "Property may be recovered in a proceeding brought by or for persons entitled (§3-1202)"
+      ],
+      "citations": [
+       "upc-3-1202"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-delivered",
+      "from": "active",
+      "to": "terminated",
+      "event": "Payment/delivery made",
+      "conditions": [
+       "Payor discharged as if dealing with a PR; recipient answerable to any PR or person with superior right (§3-1202)"
+      ],
+      "citations": [
+       "upc-3-1202"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-pr-appointed",
+      "from": "designated",
+      "to": "terminated",
+      "event": "PR application/petition filed or granted",
+      "conditions": [
+       "Affidavit condition (a)(3) no longer satisfiable"
+      ],
+      "citations": [
+       "upc-3-1201"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "small-estate-affiant"
+  },
+  {
+   "id": "successor-trustee",
+   "group": "trust",
+   "name": "Successor trustee of a revocable (living) trust",
+   "localNames": [
+    "successor trustee"
+   ],
+   "summary": "A person named in the trust to take over when the trusteeship becomes vacant. When that happens depends mainly on the trust's own terms (for example, the settlor-trustee's incapacity as the trust defines it). By default the UTC creates a vacancy when a trustee dies, resigns, is removed, or gets a guardian or conservator. The successor serves only after accepting.",
+   "lane": {
+    "assigned": {
+     "event": "Settlor names successor trustee in the trust terms",
+     "phase": "capable",
+     "citations": [
+      "utc-704",
+      "utc-105"
+     ]
+    },
+    "starts": {
+     "event": "Vacancy occurs per trust terms (e.g., incapacity as defined by the trust) or by default on death, resignation, removal, or appointment of guardian/conservator for an individual trustee; successor accepts",
+     "phase": "incapacitated",
+     "citations": [
+      "utc-105",
+      "utc-704",
+      "utc-701"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Trust terminates (e.g., after distribution following settlor's death) and trustee distributes",
+      "phase": "closed",
+      "citations": [
+       "utc-817"
+      ]
+     },
+     {
+      "event": "Successor resigns, is removed, dies, or gets a guardian/conservator",
+      "phase": "administration",
+      "citations": [
+       "utc-705",
+       "utc-706",
+       "utc-704"
+      ]
+     },
+     {
+      "event": "Settlor with capacity revokes/amends trust to remove successor",
+      "phase": "capable",
+      "citations": [
+       "utc-602",
+       "utc-601"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No successor named"
+     },
+     {
+      "id": "designated",
+      "label": "Named in trust terms as successor; no duties before acceptance"
+     },
+     {
+      "id": "active",
+      "label": "Accepted trusteeship; administering trust"
+     },
+     {
+      "id": "terminated",
+      "label": "Rejected, resigned, removed, died, or trust terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-named",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Settlor names successor in trust instrument",
+      "conditions": [
+       "Capacity to create/amend revocable trust is same as to make a will (§601)",
+       "Trust terms generally prevail over UTC defaults (§105)"
+      ],
+      "citations": [
+       "utc-601",
+       "utc-704",
+       "utc-105"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-vacancy-accept",
+      "from": "designated",
+      "to": "active",
+      "event": "Vacancy occurs and successor accepts",
+      "conditions": [
+       "Trigger: whatever the trust terms specify (commonly settlor-trustee's incapacity as defined in the instrument), or by default: trustee dies, resigns, is removed or disqualified, or a [guardian]/[conservator] is appointed for an individual trustee (§704(a))",
+       "UTC itself contains no incapacity-certification procedure for trustees; the trust terms control (§105)",
+       "Acceptance: substantial compliance with trust's method, or by accepting delivery of trust property, exercising powers, or otherwise indicating acceptance (§701(a))",
+       "Before accepting, may act to preserve trust property if rejection is sent within a reasonable time, and may inspect property (§701(c))"
+      ],
+      "citations": [
+       "utc-704",
+       "utc-105",
+       "utc-701"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-reject",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Designated successor rejects, or does not accept within reasonable time after knowing of designation (deemed rejection)",
+      "conditions": [
+       "Vacancy then filled by next designated successor, unanimous agreement of qualified beneficiaries, or court (§704(c))"
+      ],
+      "citations": [
+       "utc-701",
+       "utc-704"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-settlor-incapacity-effect",
+      "from": "active",
+      "to": "active",
+      "event": "Settlor loses capacity while trust revocable",
+      "conditions": [
+       "[Bracketed] trustee's duties owed exclusively to settlor only while settlor has capacity to revoke; after incapacity beneficiaries' rights no longer subject to settlor control (§603(b) & cmt.)",
+       "Agent may exercise settlor's revocation/amendment powers only if expressly authorized by trust or POA; conservator/guardian only with court approval (§602(e)-(f))"
+      ],
+      "citations": [
+       "utc-603",
+       "utc-603-cmt",
+       "utc-602"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-settlor-death",
+      "from": "active",
+      "to": "active",
+      "event": "Settlor dies; trust becomes irrevocable",
+      "conditions": [
+       "Within 60 days after learning the trust became irrevocable, notify qualified beneficiaries of trust's existence, settlor identity, right to copy of instrument and to reports (§813(b)(3))",
+       "Within 60 days after accepting, notify qualified beneficiaries of acceptance and contact details (§813(b)(2))",
+       "Digital assets: trustee access under RUFADAA §§11-13"
+      ],
+      "citations": [
+       "utc-813",
+       "rufadaa-11",
+       "rufadaa-12",
+       "rufadaa-13"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-settlor-revokes",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Settlor (with capacity) amends/revokes trust to remove successor",
+      "conditions": [],
+      "citations": [
+       "utc-602",
+       "utc-601"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resign",
+      "from": "active",
+      "to": "terminated",
+      "event": "Trustee resigns on ≥30 days' notice to qualified beneficiaries, settlor if living, and cotrustees, or with court approval",
+      "conditions": [],
+      "citations": [
+       "utc-705"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-removed",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court removes trustee (serious breach, unfitness, changed circumstances, etc.)",
+      "conditions": [],
+      "citations": [
+       "utc-706"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-trustee-dies-incapacity",
+      "from": "active",
+      "to": "terminated",
+      "event": "Trustee dies or a guardian/conservator is appointed for trustee",
+      "conditions": [
+       "Former trustee's PR, conservator or guardian may send the report to qualified beneficiaries (§813(c))"
+      ],
+      "citations": [
+       "utc-704",
+       "utc-813"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-trust-terminates",
+      "from": "active",
+      "to": "terminated",
+      "event": "Trust terminates under its terms and trustee distributes",
+      "conditions": [
+       "Trustee shall proceed expeditiously to distribute, subject to reasonable reserve (§817(b))",
+       "Role ends on completion of wind-up; exact end point not specified in black-letter text"
+      ],
+      "citations": [
+       "utc-817"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "canonical": "successor-trustee"
+  },
+  {
+   "id": "rufadaa-designated-recipient",
+   "group": "digital",
+   "name": "Designated recipient under a custodian's online tool",
+   "localNames": [
+    "designated recipient",
+    "legacy contact",
+    "inactive account manager"
+   ],
+   "summary": "A person the account holder picks through a service provider's own online tool (separate from the terms of service) to receive or manage digital assets. If the tool lets the user change or delete the choice at any time, the direction overrides a contrary will, trust, or power of attorney. The designated recipient is not held to fiduciary standards.",
+   "lane": {
+    "assigned": {
+     "event": "User designates recipient via custodian's online tool",
+     "phase": "capable",
+     "citations": [
+      "rufadaa-4",
+      "rufadaa-2"
+     ]
+    },
+    "starts": {
+     "event": "Future event set by the online tool, such as the user's death or incapacity (the Act defers to the tool; no statutory trigger), then request to custodian",
+     "phase": "deceased",
+     "citations": [
+      "rufadaa-2-cmt",
+      "rufadaa-16"
+     ]
+    },
+    "ends": [
+     {
+      "event": "User modifies or deletes the direction",
+      "phase": "capable",
+      "citations": [
+       "rufadaa-4"
+      ]
+     },
+     {
+      "event": "Custodian discloses or terminates account (≤[60] days after required information) (end point not specified)",
+      "phase": "deceased",
+      "citations": [
+       "rufadaa-16",
+       "rufadaa-6"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No online-tool direction"
+     },
+     {
+      "id": "designated",
+      "label": "Named in online tool; direction revocable by user"
+     },
+     {
+      "id": "active",
+      "label": "Triggering event per online tool occurred; recipient may request disclosure or account termination"
+     },
+     {
+      "id": "terminated",
+      "label": "Direction deleted/modified, or disclosure/termination completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-online-tool",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "User directs custodian via online tool to disclose (or not) some or all digital assets, including content, to designated recipient",
+      "conditions": [
+       "Online tool must be distinct from the terms-of-service agreement (§2(16))",
+       "If the tool allows modification/deletion at all times, it overrides contrary will, trust, POA, or other record (§4(a))",
+       "Overrides contrary TOS provision not requiring distinct affirmative act (§4(c))",
+       "Priority: online tool, then will/trust/POA/other record, then TOS, then Act's defaults (§4 cmt.)"
+      ],
+      "citations": [
+       "rufadaa-2",
+       "rufadaa-4",
+       "rufadaa-4c"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-user-changes",
+      "from": "designated",
+      "to": "terminated",
+      "event": "User modifies or deletes the direction",
+      "conditions": [],
+      "citations": [
+       "rufadaa-4"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-trigger",
+      "from": "designated",
+      "to": "active",
+      "event": "Future event specified in the online tool occurs (e.g., death or incapacity)",
+      "conditions": [
+       "The Act does not define the trigger: the comment describes the tool as naming someone to manage assets 'after the occurrence of a future event, such as the user's death or incapacity'"
+      ],
+      "citations": [
+       "rufadaa-2-cmt"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-request",
+      "from": "active",
+      "to": "active",
+      "event": "Recipient requests disclosure or account termination",
+      "conditions": [
+       "Custodian may grant full access, partial access, or a copy of assets the user could have accessed (§6(a)); may charge reasonable fee (§6(b)); need not disclose assets the user deleted (§6(c)); may seek court order if segregation is unduly burdensome (§6(d))",
+       "Custodian must comply within [60] days after receiving required information, else recipient may seek court order (§16(a)); custodian may deny if aware of lawful access after the request (§16(d)); may notify user (§16(c))",
+       "Authority subject to TOS except as §4 provides, copyright and other law; may not impersonate user (§15(b)); no expanded rights beyond user's (§5(b))",
+       "Not held to fiduciary standard of conduct (§2 cmt.)"
+      ],
+      "citations": [
+       "rufadaa-6",
+       "rufadaa-16",
+       "rufadaa-15",
+       "rufadaa-5",
+       "rufadaa-2-cmt"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Disclosure or account termination completed",
+      "conditions": [
+       "Act does not specify when the designated recipient's role ends"
+      ],
+      "citations": [
+       "rufadaa-16"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "canonical": "online-tool-designee"
+  },
+  {
+   "id": "rufadaa-fiduciary",
+   "group": "digital",
+   "name": "Fiduciary seeking access to digital assets (PR, conservator, agent, trustee)",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "conservator",
+    "agent",
+    "trustee"
+   ],
+   "summary": "RUFADAA gives no new fiduciary status of its own. It sets out when an existing personal representative, conservator, agent, or trustee can get a digital-asset catalogue or content from a custodian. By default, content of electronic communications needs the user's consent (or, for a personal representative, a court direction). A conservator also needs a court order after a chance for a hearing.",
+   "lane": {
+    "assigned": {
+     "event": "Underlying fiduciary status arises under other law (POA, trust, court appointment, letters or small-estate affidavit)",
+     "phase": "capable",
+     "citations": [
+      "rufadaa-2",
+      "rufadaa-3"
+     ]
+    },
+    "starts": {
+     "event": "Written request with required documents; custodian must comply within [60] days",
+     "phase": "incapacitated",
+     "citations": [
+      "rufadaa-9",
+      "rufadaa-10",
+      "rufadaa-14",
+      "rufadaa-7",
+      "rufadaa-8",
+      "rufadaa-16"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Underlying authority ends (e.g., agent's POA ends at principal's death, conservatorship ends, PR appointment terminates)",
+      "phase": "deceased",
+      "citations": [
+       "rufadaa-9",
+       "rufadaa-15",
+       "upoaa-110a"
+      ]
+     },
+     {
+      "event": "Estate closed",
+      "phase": "closed",
+      "citations": [
+       "upc-3-610"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated",
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No fiduciary"
+     },
+     {
+      "id": "designated",
+      "label": "Holds fiduciary status under other law; no request made"
+     },
+     {
+      "id": "active",
+      "label": "Request submitted with required documents; custodian obligated to comply within [60] days"
+     },
+     {
+      "id": "terminated",
+      "label": "Underlying fiduciary authority ended, or request fulfilled"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-status",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Person becomes PR, conservator, agent, or trustee under other law",
+      "conditions": [
+       "Act applies to fiduciaries under instruments whenever executed, and to custodians if user resided in the state (§3)",
+       "Access may be modified/eliminated by user, federal law, or TOS if user gave no §4 direction (§5(c))"
+      ],
+      "citations": [
+       "rufadaa-2",
+       "rufadaa-3",
+       "rufadaa-5"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-pr-catalogue",
+      "from": "designated",
+      "to": "active",
+      "event": "Personal representative requests catalogue and non-content digital assets of deceased user",
+      "conditions": [
+       "Default: disclosed unless user prohibited or court directs otherwise",
+       "Documents: written request; [certified] death certificate; [certified] letters, small-estate affidavit, or court order; on custodian's request, account identifier, evidence linking account, affidavit that disclosure is reasonably necessary, or court finding (§8)"
+      ],
+      "citations": [
+       "rufadaa-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-pr-content",
+      "from": "designated",
+      "to": "active",
+      "event": "Personal representative requests content of electronic communications",
+      "conditions": [
+       "Only if deceased user consented or a court directs",
+       "Also requires copy of will/trust/POA/other record evidencing consent unless user used an online tool (§7(4))"
+      ],
+      "citations": [
+       "rufadaa-7"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-agent-content",
+      "from": "designated",
+      "to": "active",
+      "event": "Agent requests content of principal's electronic communications",
+      "conditions": [
+       "POA must expressly grant authority over content; unless principal or court directs otherwise",
+       "Documents: written request; original/copy of POA; agent's certification under penalty of perjury that POA is in effect (§9)"
+      ],
+      "citations": [
+       "rufadaa-9"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-agent-catalogue",
+      "from": "designated",
+      "to": "active",
+      "event": "Agent requests catalogue and non-content assets",
+      "conditions": [
+       "Agent with specific authority over digital assets or general authority; unless court, principal, or POA provides otherwise (§10)"
+      ],
+      "citations": [
+       "rufadaa-10"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-trustee",
+      "from": "designated",
+      "to": "active",
+      "event": "Trustee requests digital assets held in trust",
+      "conditions": [
+       "Trustee as original user: all assets incl. content (§11)",
+       "Trustee not original user: content requires trust instrument/certification including consent (§12); catalogue and other assets with certified trust copy/certification (§13)"
+      ],
+      "citations": [
+       "rufadaa-11",
+       "rufadaa-12",
+       "rufadaa-13"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-conservator",
+      "from": "designated",
+      "to": "active",
+      "event": "Conservator obtains court order granting access after opportunity for hearing, then requests",
+      "conditions": [
+       "Custodian discloses catalogue and non-content assets only (no content provision for conservators) (§14(a)-(b))",
+       "Conservator with general authority may request suspension/termination of account for good cause with certified court order (§14(c))"
+      ],
+      "citations": [
+       "rufadaa-14"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-custodian-response",
+      "from": "active",
+      "to": "active",
+      "event": "Custodian responds",
+      "conditions": [
+       "Full/partial access or copy at custodian's discretion; reasonable charge; deleted assets need not be disclosed; undue-burden court options (§6)",
+       "Must comply within [60] days of receiving required information; court order available; custodian may require court order with specified findings; good-faith immunity (§16)"
+      ],
+      "citations": [
+       "rufadaa-6",
+       "rufadaa-16"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-terminate-account",
+      "from": "designated",
+      "to": "active",
+      "event": "Fiduciary requests termination of user's account",
+      "conditions": [
+       "Written request with death certificate (if deceased) and [certified] letters/small-estate affidavit/court order/POA/trust (§15(g))",
+       "Fiduciary acting within scope is authorized user for computer-fraud laws; duties of care, loyalty, confidentiality apply; may not impersonate user (§15)"
+      ],
+      "citations": [
+       "rufadaa-15"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-authority-ends",
+      "from": "active",
+      "to": "terminated",
+      "event": "Underlying fiduciary authority ends",
+      "conditions": [
+       "E.g., agent's POA terminates at principal's death (UPOAA §110(a)(1)); agent must certify POA is in effect (§9(3), §10(3))",
+       "Authority limited by scope of the fiduciary's duties (§15(b)(3))"
+      ],
+      "citations": [
+       "rufadaa-9",
+       "rufadaa-10",
+       "rufadaa-15",
+       "upoaa-110a"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "digital-assets-fiduciary"
+  },
+  {
+   "id": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Agent authorized to make an anatomical gift",
+   "localNames": [
+    "health-care agent (anatomical gift)",
+    "agent"
+   ],
+   "summary": "A health-care agent, or a person a signed record expressly authorizes, can make an anatomical gift during the donor's life unless the document forbids it. After death, the person who was the decedent's agent at death has first priority to make a gift. The donor's own gift or refusal bars others.",
+   "lane": {
+    "assigned": {
+     "event": "Principal appoints health-care agent or signs record expressly authorizing anatomical gift",
+     "phase": "capable",
+     "citations": [
+      "ruaga-2"
+     ]
+    },
+    "starts": {
+     "event": "During donor's life: agent may make gift by donor card/record/registry (unless prohibited)",
+     "phase": "capable",
+     "citations": [
+      "ruaga-4",
+      "ruaga-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "After death: first-priority authority exercised or barred; revocation by others ineffective after incision/invasive procedures begin",
+      "phase": "deceased",
+      "citations": [
+       "ruaga-9",
+       "ruaga-9c",
+       "ruaga-10c"
+      ]
+     },
+     {
+      "event": "Donor's unrevoked refusal or own gift bars the agent",
+      "phase": "capable",
+      "citations": [
+       "ruaga-7",
+       "ruaga-8"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No agent"
+     },
+     {
+      "id": "designated",
+      "label": "Agent under health-care POA or record expressly authorizing gift"
+     },
+     {
+      "id": "active",
+      "label": "Donor alive; agent has made (and may amend or revoke) a gift under §4(2)"
+     },
+     {
+      "id": "post_death_priority",
+      "label": "Donor has died; agent at time of death holds first priority under §9(a)(1) while reasonably available"
+     },
+     {
+      "id": "terminated",
+      "label": "Barred, gift made and acted upon, or authority lapsed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal signs health-care POA, or another signed record expressly authorizing agent to make an anatomical gift",
+      "conditions": [
+       "Both UHCDA optional forms include an organ-donation part (1993 §4 Part 3; 2023 §11 Part D), but the gift's effect and priority are governed by the Revised UAGA"
+      ],
+      "citations": [
+       "ruaga-2",
+       "uhcda23-8",
+       "uhcda93-4",
+       "uhcda23-11-cmt"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-predeath-gift",
+      "from": "designated",
+      "to": "active",
+      "event": "Agent makes anatomical gift during donor's life",
+      "conditions": [
+       "Unless the POA or other record prohibits it (§4(2))",
+       "By donor card or other signed record, or authorizing registry entry (§5(b))",
+       "Barred if donor made an unrevoked refusal (§7(d)) or donor's own gift/amendment (absent contrary indication) (§8(a))",
+       "Where a directive exists, medical-suitability measures may not be withheld unless directive expressly provides otherwise (§21)"
+      ],
+      "citations": [
+       "ruaga-4",
+       "ruaga-5",
+       "ruaga-7",
+       "ruaga-8",
+       "ruaga-21"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-amend-revoke",
+      "from": "active",
+      "to": "designated",
+      "event": "Agent amends or revokes the gift the agent made",
+      "conditions": [
+       "By signed record, later document of gift, or destruction/cancellation with intent (§6)",
+       "Cannot alter a donor's own gift (§8(a))"
+      ],
+      "citations": [
+       "ruaga-6",
+       "ruaga-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-designated",
+      "from": "designated",
+      "to": "post_death_priority",
+      "event": "Donor dies with agent still authorized",
+      "conditions": [
+       "Class 1 priority: agent at time of death who could have made a gift under §4(2) immediately before death; then spouse, adult children, parents, adult siblings, adult grandchildren, grandparents, adult with special care and concern, guardian of the person, others with authority to dispose of body (§9(a))",
+       "Procurement organization must search for persons with priority (§14(g))"
+      ],
+      "citations": [
+       "ruaga-9",
+       "ruaga-14"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-active",
+      "from": "active",
+      "to": "terminated",
+      "event": "Donor dies after agent made a gift under §4",
+      "conditions": [
+       "Another person may not make, amend, or revoke that gift under §10 (§8(c))"
+      ],
+      "citations": [
+       "ruaga-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-postdeath-gift",
+      "from": "post_death_priority",
+      "to": "terminated",
+      "event": "Agent makes gift of decedent's body or part",
+      "conditions": [
+       "By signed document of gift, or oral communication electronically recorded or reduced to a signed record (§10(a))",
+       "Must be reasonably available; lower classes may not act if a prior class is reasonably available (§9(c))",
+       "Not permitted if barred by §7 or §8 (§9(d))"
+      ],
+      "citations": [
+       "ruaga-10",
+       "ruaga-9c",
+       "ruaga-9"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-barred",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Donor's own unrevoked refusal or gift bars others",
+      "conditions": [],
+      "citations": [
+       "ruaga-7",
+       "ruaga-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-unavailable",
+      "from": "post_death_priority",
+      "to": "terminated",
+      "event": "Agent not reasonably available; next class may act",
+      "conditions": [],
+      "citations": [
+       "ruaga-9",
+       "ruaga-9c"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "canonical": "anatomical-gift-agent"
+  }
+ ]
+}

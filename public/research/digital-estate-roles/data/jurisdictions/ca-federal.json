@@ -1,0 +1,1169 @@
+{
+ "jurisdiction": "ca-federal",
+ "name": "Canada (federal layer)",
+ "country": "ca",
+ "legalSystem": "common law (federal); provinces common law except Quebec (civil law)",
+ "note": "Nationwide roles only: CPP/OAS trustees, CRA legal representatives, Veterans Affairs Pension Act administration, and federal privacy status of deceased persons' data. Powers of attorney, guardianship, estates, donation and remains are provincial.",
+ "citations": [
+  {
+   "id": "cpp-reg-55",
+   "cite": "Canada Pension Plan Regulations, CRC, c 385, s 55",
+   "title": "Payment of Benefits to Persons on Behalf of Beneficiaries",
+   "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._385/section-55.html",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "the Minister may direct that the benefit be paid on behalf of such beneficiary to any person or agency"
+  },
+  {
+   "id": "cpp-reg-44",
+   "cite": "Canada Pension Plan Regulations, CRC, c 385, s 44(1)",
+   "title": "Applications on behalf of incapable persons",
+   "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._385/section-44.html",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "an application for a benefit ... may be made on that person's behalf by another person or by an agency"
+  },
+  {
+   "id": "cpp-reg-74",
+   "cite": "Canada Pension Plan Regulations, CRC, c 385, s 74",
+   "title": "Reconsideration and Appeal on Behalf of Certain Persons",
+   "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._385/section-74.html",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "oas-reg-24",
+   "cite": "Old Age Security Regulations, CRC, c 1246, s 24",
+   "title": "Payment to Person other than Beneficiary",
+   "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._1246/section-24.html",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "to any person or agency that the Minister may appoint for such purpose and that has entered into an agreement with the Minister"
+  },
+  {
+   "id": "oas-reg-4",
+   "cite": "Old Age Security Regulations, CRC, c 1246, s 4(1)",
+   "title": "Applications etc. made on behalf of a person unable to act",
+   "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._1246/section-4.html",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "oas-act-8-3",
+   "cite": "Old Age Security Act, RSC 1985, c O-9, s 8(3)",
+   "title": "Duration of pension",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/O-9/section-8.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall cease with the payment for the month in which the pensioner dies"
+  },
+  {
+   "id": "cpp-act-68",
+   "cite": "Canada Pension Plan, RSC 1985, c C-8, s 68",
+   "title": "Duration of payment (retirement pension)",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/C-8/section-68.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall cease with the payment for the month in which the beneficiary dies"
+  },
+  {
+   "id": "esdc-isp-3506",
+   "cite": "Service Canada form ISP-3506 (2026-06-01), Agreement to administer benefits under the Old Age Security Act and/or the Canada Pension Plan by a Private Trustee",
+   "title": "Private trustee undertaking",
+   "url": "https://catalogue.servicecanada.gc.ca/apps/EForms/pdf/en/ISP-3506_CPP.pdf",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "to notify Employment and Social Development Canada if the beneficiary changes address, becomes absent from Canada, dies, ceases to be incapable"
+  },
+  {
+   "id": "esdc-isp-3505",
+   "cite": "Service Canada form ISP-3505, Certificate of Incapability - OAS/CPP (form catalogue listing)",
+   "title": "Certificate of Incapability",
+   "url": "https://catalogue.servicecanada.gc.ca/content/EForms/en/Detail.html?Form=ISP3505CPP",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "esdc-oas-toolkit",
+   "cite": "ESDC, The Old Age Security program toolkit, s 2.4 'If you need someone to contact Service Canada or act on your behalf'",
+   "title": "OAS toolkit: trustees",
+   "url": "https://www.canada.ca/en/employment-social-development/programs/old-age-security/reports/oas-toolkit.html",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "If you are not able to manage your own affairs, another person or agency (a trustee) may be appointed to act on your behalf."
+  },
+  {
+   "id": "ita-248-1-legal-rep",
+   "cite": "Income Tax Act, RSC 1985, c 1 (5th Supp), s 248(1) \"legal representative\"",
+   "title": "Definitions",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-248.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an heir, an administrator, an executor, a liquidator of a succession, a committee, or any other like person"
+  },
+  {
+   "id": "ita-150-1-b",
+   "cite": "Income Tax Act, RSC 1985, c 1 (5th Supp), s 150(1)(b)",
+   "title": "Filing returns: deceased individuals",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-150.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "by the individual's legal representatives on or before the day that is the later of"
+  },
+  {
+   "id": "ita-150-1-d",
+   "cite": "Income Tax Act, RSC 1985, c 1 (5th Supp), s 150(1)(d)(i)",
+   "title": "Filing returns: individuals unable to file",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-150.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the person is unable for any reason to file the return, by the person's guardian, committee or other legal representative"
+  },
+  {
+   "id": "ita-159-2-3",
+   "cite": "Income Tax Act, RSC 1985, c 1 (5th Supp), s 159(2)-(3)",
+   "title": "Certificate before distribution; personal liability",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-159.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall, before distributing to one or more persons any property ... obtain a certificate from the Minister"
+  },
+  {
+   "id": "cra-represent-deceased",
+   "cite": "CRA, Represent someone who died",
+   "title": "Represent someone who died",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/represent-deceased.html",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cra-legal-representative",
+   "cite": "CRA, Legal representative",
+   "title": "Legal representative (living persons)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/representative-authorization/legal-representative.html",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "A legal representative is an individual or organization appointed by a legal document."
+  },
+  {
+   "id": "cra-rc552",
+   "cite": "CRA Form RC552, Register as Representative for a Deceased Person",
+   "title": "RC552",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/rc552.html",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cra-authorize-overview",
+   "cite": "CRA, Authorize a representative: Overview",
+   "title": "Authorized representatives",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/representative-authorization/overview.html",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Your representative's access won't expire when the CRA is notified of your death, unless they were your legal representative."
+  },
+  {
+   "id": "pension-act-41",
+   "cite": "Pension Act, RSC 1985, c P-6, s 41(1)",
+   "title": "Administration of awards",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/P-6/section-41.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Minister may direct that the award payable to that person be administered for the benefit of that person"
+  },
+  {
+   "id": "pension-act-83-5",
+   "cite": "Pension Act, RSC 1985, c P-6, s 83(5)",
+   "title": "Recovery from survivor or surviving dependant",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/P-6/section-83.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "retains any amount of the member's award paid after the last day of the month in which the member died"
+  },
+  {
+   "id": "vwb-reg-searched",
+   "cite": "Veterans Well-being Regulations, SOR/2006-50 (full text searched)",
+   "title": "No incapable-recipient administration provision found",
+   "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-50/FullText.html",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "privacy-act-3-m",
+   "cite": "Privacy Act, RSC 1985, c P-21, s 3 \"personal information\" para (m)",
+   "title": "Definition of personal information",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/P-21/section-3.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "information about an individual who has been dead for more than twenty years"
+  },
+  {
+   "id": "privacy-reg-10",
+   "cite": "Privacy Regulations, SOR/83-508, s 10(b)",
+   "title": "Exercise of rights on behalf of others",
+   "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-83-508/section-10.html",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "on behalf of a deceased person by a person authorized ... to administer the estate of that person, but only for the purpose of such administration"
+  },
+  {
+   "id": "pipeda-2-1",
+   "cite": "Personal Information Protection and Electronic Documents Act, SC 2000, c 5, s 2(1)",
+   "title": "Definitions: personal information; personal health information",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/section-2.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "personal health information, with respect to an individual, whether living or deceased, means"
+  },
+  {
+   "id": "pipeda-7-3",
+   "cite": "Personal Information Protection and Electronic Documents Act, SC 2000, c 5, s 7(3)(c.1)(iv), (d.4), (h)",
+   "title": "Disclosure without knowledge or consent",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/section-7.html",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "twenty years after the death of the individual whom the information is about"
+  },
+  {
+   "id": "opc-family-accounts",
+   "cite": "Office of the Privacy Commissioner of Canada, Guidance on managing family member/household accounts (2014)",
+   "title": "Deceased individuals' accounts",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/accessing-personal-information/obligations-for-organizations/gd_fam_201402/",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "only to an individual who is authorized to administer the estate of the deceased, such as an executor"
+  },
+  {
+   "id": "opc-2013-005",
+   "cite": "OPC, PIPEDA Report of Findings #2013-005",
+   "title": "Beneficiary's access to estate information is limited to his own personal information",
+   "url": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2013/pipeda-2013-005/",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "parl-c36-45-1",
+   "cite": "Bill C-36 (45th Parl, 1st Sess), An Act to enact the Protecting Privacy and Consumer Data Act ... (LEGISinfo)",
+   "title": "Pending replacement of PIPEDA Part 1",
+   "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "pending": true
+  },
+  {
+   "id": "ulcc-uadafa-2016",
+   "cite": "ULCC, Uniform Access to Digital Assets by Fiduciaries Act (2016)",
+   "title": "Uniform Act text and commentary",
+   "url": "https://www.ulcc-chlc.ca/ULCC/media/EN-Uniform-Acts/Uniform-Access-to-Digital-Assets-by-Fiduciaries-Act-(2016).pdf",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "The Uniform Act confirms that the usual powers of fiduciaries extend to digital assets"
+  },
+  {
+   "id": "ulcc-epoa-2015",
+   "cite": "ULCC, Consolidated Uniform Enduring Powers of Attorney Act (2015) (as amended 2021), ss 11, 17",
+   "title": "Uniform EPOA Act",
+   "url": "https://ulcc-chlc.ca/ULCC/media/EN-Uniform-Acts/Consolidated-Uniform-Enduring-Powers-of-Attorney-Act-(2015)-as-Amended-2021.pdf",
+   "kind": "uniform-act",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney is effective on the latest of"
+  },
+  {
+   "id": "sk-fadia-2020",
+   "cite": "The Fiduciaries Access to Digital Information Act, SS 2020, c 6",
+   "title": "Saskatchewan enactment (King's Printer product 105180)",
+   "url": "https://publications.saskatchewan.ca/#/products/105180",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "nb-fadaa-2022",
+   "cite": "Fiduciaries Access to Digital Assets Act, SNB 2022, c 59",
+   "title": "New Brunswick enactment (assented to 16 Dec 2022)",
+   "url": "https://laws.gnb.ca/en/document/cs/2022,%20c.59",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Assented to December 16, 2022"
+  },
+  {
+   "id": "yk-fadaa-2023",
+   "cite": "Fiduciaries Access to Digital Assets Act, SY 2023, c 15 (Annual Acts 2023 listing)",
+   "title": "Yukon enactment",
+   "url": "https://laws.yukon.ca/cms/acts-by-year.html?view=article&id=354:annual-acts-2023",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "yk-news-23-485",
+   "cite": "Government of Yukon news release #23-485 (15 Nov 2023), Fiduciaries Access to Digital Assets Act receives assent",
+   "title": "Yukon release naming other enacting jurisdictions",
+   "url": "https://yukon.ca/en/news/fiduciaries-access-digital-assets-act-receives-assent",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Similar legislation is in place in other jurisdictions including New Brunswick, Saskatchewan and Prince Edward Island."
+  },
+  {
+   "id": "pei-adaa",
+   "cite": "Access to Digital Assets Act (Prince Edward Island) - official page",
+   "title": "PEI enactment (official site blocked by bot challenge; citation details unverified)",
+   "url": "https://www.princeedwardisland.ca/en/legislation/access-to-digital-assets-act",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "unverified": true
+  },
+  {
+   "id": "alri-2026-digital",
+   "cite": "Alberta Law Reform Institute, 'Recent court decision highlights need for new laws for accessing digital assets' (July 2026)",
+   "title": "Alberta has not enacted (law reform context only)",
+   "url": "https://www.alri.ualberta.ca/2026/07/recent-court-decision-highlights-need-for-new-laws-for-accessing-digital-assets/",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ns-hotda-11",
+   "cite": "Human Organ and Tissue Donation Act, SNS 2019, c 6, s 11 and s 44 (proclamation note)",
+   "title": "Deemed consent; in force January 18, 2021",
+   "url": "https://nslegislature.ca/sites/default/files/legc/statutes/human%20organ%20and%20tissue%20donation.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "where an individual has not made a consent or refusal under Section 8, the individual is deemed to consent"
+  }
+ ],
+ "roles": [
+  {
+   "id": "ca-cpp-oas-trustee",
+   "canonical": "benefits-payee",
+   "group": "federal",
+   "name": "Trustee for CPP / OAS benefits of an incapable beneficiary",
+   "localNames": [
+    "trustee (Service Canada)",
+    "person or agency to whom the benefit is paid on behalf of a beneficiary",
+    "private trustee",
+    "agency or institution trustee"
+   ],
+   "summary": "If the Minister is satisfied that a beneficiary is incapable of managing their own affairs, CPP or OAS benefits can be paid to a person or agency on the beneficiary's behalf. That is a legally authorized manager (such as a provincial attorney or guardian) or, failing one, a person or agency the Minister approves who signs an agreement to administer the benefits. The trustee must account and must return payments issued after the month of death.",
+   "lane": {
+    "assigned": {
+     "event": "Minister is satisfied, on medical or other evidence (in practice a Certificate of Incapability, ISP-3505), that the beneficiary cannot manage their own affairs, and directs payment to a legally authorized person or agency or, if none, to a Minister-approved person or agency",
+     "phase": "incapacitated",
+     "citations": [
+      "cpp-reg-55",
+      "oas-reg-24",
+      "esdc-isp-3505",
+      "esdc-oas-toolkit"
+     ]
+    },
+    "starts": {
+     "event": "Once the person or agency has signed the agreement to administer the benefits (ISP-3506 private / ISP-3507 agency). Under the CPP Regulations, no benefit may be paid to them until they do.",
+     "phase": "incapacitated",
+     "citations": [
+      "cpp-reg-55",
+      "oas-reg-24",
+      "esdc-isp-3506"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Beneficiary dies: CPP retirement and OAS pensions stop with the payment for the month of death, and the trustee must return uncashed payments and any issued after that month",
+      "phase": "deceased",
+      "citations": [
+       "cpp-act-68",
+       "oas-act-8-3",
+       "esdc-isp-3506"
+      ]
+     },
+     {
+      "event": "Beneficiary stops being incapable of managing their own affairs: the trustee must notify ESDC, and the legal basis for a direction under s 55 / s 24 falls away",
+      "phase": "capable",
+      "citations": [
+       "esdc-isp-3506",
+       "cpp-reg-55",
+       "oas-reg-24"
+      ],
+      "unverified": true,
+      "note": "Neither regulation has an express revocation clause. The end on regaining capacity is inferred from the incapacity precondition and from the notice duty in the ISP-3506 undertaking."
+     },
+     {
+      "event": "The trusteeship ends for another reason, e.g. the trustee withdraws or the Minister redirects payment (the trustee must notify ESDC)",
+      "phase": "incapacitated",
+      "citations": [
+       "esdc-isp-3506"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A provincially authorized manager (e.g. an attorney under a continuing/enduring POA or a guardian of property) is preferred: the Minister pays that person or agency, and appoints a Minister-approved trustee only where no one is so authorized.",
+     "citations": [
+      "cpp-reg-55",
+      "oas-reg-24"
+     ]
+    },
+    {
+     "text": "Separate rules let another person or agency apply, or seek reconsideration or appeal, on behalf of an incapable person (CPP Regs ss 44, 74; OAS Regs s 4).",
+     "citations": [
+      "cpp-reg-44",
+      "cpp-reg-74",
+      "oas-reg-4"
+     ]
+    },
+    {
+     "text": "The trustee must account in the form and at the times the Minister requires. The ISP-3506 undertaking also requires yearly records.",
+     "citations": [
+      "cpp-reg-55",
+      "oas-reg-24",
+      "esdc-isp-3506"
+     ]
+    },
+    {
+     "text": "CPP section numbers: payment to another person is CPP Regulations s 55, not s 57. OAS: s 24, not s 34.",
+     "citations": [
+      "cpp-reg-55",
+      "oas-reg-24"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No direction to pay anyone other than the beneficiary"
+     },
+     {
+      "id": "designated",
+      "label": "Minister satisfied of incapability and has identified a payee; agreement not yet signed"
+     },
+     {
+      "id": "active",
+      "label": "Benefits paid to the trustee, who administers them for the beneficiary"
+     },
+     {
+      "id": "suspended",
+      "label": "Payment held pending agreement, accounting request or change of trustee (administrative)"
+     },
+     {
+      "id": "terminated",
+      "label": "Beneficiary died, regained capacity, or trusteeship ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-direct",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Minister directs payment to a person or agency on the incapable beneficiary's behalf",
+      "conditions": [
+       "Evidence satisfactory to the Minister of incapacity to manage own affairs",
+       "A legally authorized manager is chosen first; otherwise a Minister-approved person or agency"
+      ],
+      "citations": [
+       "cpp-reg-55",
+       "oas-reg-24",
+       "esdc-isp-3505"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-agree",
+      "from": "designated",
+      "to": "active",
+      "event": "Payee signs the agreement to administer and spend the benefit for the beneficiary",
+      "conditions": [],
+      "citations": [
+       "cpp-reg-55",
+       "oas-reg-24",
+       "esdc-isp-3506"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-suspend",
+      "from": "active",
+      "to": "suspended",
+      "event": "Payment withheld pending accounting or change of trustee",
+      "conditions": [],
+      "citations": [
+       "cpp-reg-55",
+       "esdc-isp-3506"
+      ],
+      "unverified": true,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Beneficiary dies; pension stops after the month of death, and later payments must be returned",
+      "conditions": [],
+      "citations": [
+       "cpp-act-68",
+       "oas-act-8-3",
+       "esdc-isp-3506"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-capable",
+      "from": "active",
+      "to": "terminated",
+      "event": "Beneficiary ceases to be incapable of managing own affairs (trustee must notify ESDC)",
+      "conditions": [],
+      "citations": [
+       "esdc-isp-3506",
+       "cpp-reg-55",
+       "oas-reg-24"
+      ],
+      "unverified": true,
+      "phase": "capable"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ca-cra-legal-rep-deceased",
+   "canonical": "tax-representative",
+   "group": "federal",
+   "name": "Legal representative of a deceased taxpayer (CRA)",
+   "localNames": [
+    "legal representative",
+    "executor",
+    "administrator",
+    "liquidator (Quebec)"
+   ],
+   "summary": "The Income Tax Act defines a deceased taxpayer's legal representative as the executor, administrator, liquidator, heir or similar fiduciary dealing with the estate. That person files the final return (due by the later of the normal due date and six months after death, for deaths after October). They must get a clearance certificate before distributing property, or they are personally liable for unpaid tax.",
+   "lane": {
+    "assigned": {
+     "event": "Appointment under provincial law (executor named in a will, court-appointed administrator/estate trustee, Quebec liquidator). The CRA registers the person on receiving the death certificate and the will, grant or letters, or Form RC552 if there is no will.",
+     "phase": "deceased",
+     "citations": [
+      "ita-248-1-legal-rep",
+      "cra-represent-deceased",
+      "cra-rc552"
+     ]
+    },
+    "starts": {
+     "event": "On death. The statutory filing duty falls on the legal representatives. CRA access to the deceased's tax records follows once the documents are processed.",
+     "phase": "deceased",
+     "citations": [
+      "ita-150-1-b",
+      "cra-represent-deceased"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Tax liabilities settled and a clearance certificate obtained before final distribution. Distributing without one makes the representative personally liable up to the value distributed.",
+      "phase": "closed",
+      "citations": [
+       "ita-159-2-3",
+       "cra-represent-deceased"
+      ]
+     },
+     {
+      "event": "The provincial fiduciary office ends (removal, renunciation, replacement). CRA representation follows the underlying appointment.",
+      "phase": "administration",
+      "citations": [
+       "ita-248-1-legal-rep"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The definition is functional ('or any other like person ... dealing in a representative or fiduciary capacity'), so it covers whoever holds the provincial estate office, not a CRA appointment.",
+     "citations": [
+      "ita-248-1-legal-rep"
+     ]
+    },
+    {
+     "text": "Authorized representatives the taxpayer appointed during life (e.g. via Represent a Client / AUT-01) keep access after the CRA is notified of death unless they were the legal representative. They stay until a legal representative asks for their removal.",
+     "citations": [
+      "cra-authorize-overview"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No person recognised as legal representative"
+     },
+     {
+      "id": "designated",
+      "label": "Named or appointed under provincial law; CRA not yet notified or documents pending"
+     },
+     {
+      "id": "active",
+      "label": "Recognised by CRA; files returns, deals with balances, requests clearance certificate"
+     },
+     {
+      "id": "terminated",
+      "label": "Clearance obtained and estate distributed, or fiduciary office ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Taxpayer dies; executor/administrator/liquidator holds the office under provincial law",
+      "conditions": [],
+      "citations": [
+       "ita-248-1-legal-rep",
+       "ita-150-1-b"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-register",
+      "from": "designated",
+      "to": "active",
+      "event": "CRA receives death certificate plus will/grant/letters, or RC552",
+      "conditions": [],
+      "citations": [
+       "cra-represent-deceased",
+       "cra-rc552"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-clearance",
+      "from": "active",
+      "to": "terminated",
+      "event": "Clearance certificate obtained and property distributed",
+      "conditions": [],
+      "citations": [
+       "ita-159-2-3"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     },
+     {
+      "id": "t-office-ends",
+      "from": "active",
+      "to": "terminated",
+      "event": "Provincial office ends (removal, renunciation, replacement)",
+      "conditions": [],
+      "citations": [
+       "ita-248-1-legal-rep"
+      ],
+      "unverified": true,
+      "phase": "administration"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ca-cra-legal-rep-living",
+   "canonical": "tax-representative",
+   "group": "federal",
+   "name": "Legal representative of a living taxpayer who cannot act (CRA)",
+   "localNames": [
+    "legal representative",
+    "guardian",
+    "committee",
+    "attorney under power of attorney",
+    "representative under a representation agreement"
+   ],
+   "summary": "If an individual cannot file their own return, the Income Tax Act lets their guardian, committee or other legal representative file it. The CRA recognises as legal representative a person appointed by a legal document: a court-appointed guardian, trustee or committee, a person named in a power of attorney, or a representative under a BC-style representation agreement. The authority comes from, and ends with, that provincial instrument.",
+   "lane": {
+    "assigned": {
+     "event": "Provincial instrument or order: power of attorney, representation agreement, or court appointment as guardian/trustee/committee",
+     "phase": "capable",
+     "citations": [
+      "cra-legal-representative",
+      "ita-248-1-legal-rep"
+     ]
+    },
+    "starts": {
+     "event": "When the underlying instrument is in effect and the CRA has received a copy (Represent a Client RepID linked to the taxpayer). The statutory filing role applies when the person cannot file for any reason.",
+     "phase": "incapacitated",
+     "citations": [
+      "cra-legal-representative",
+      "ita-150-1-d"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Taxpayer dies: the living-person authority ends under provincial law and the estate's legal representative takes over. CRA says only a legal representative's access ends on notice of death.",
+      "phase": "deceased",
+      "citations": [
+       "cra-authorize-overview",
+       "ita-150-1-b"
+      ]
+     },
+     {
+      "event": "Underlying POA/guardianship is revoked or terminated under provincial law",
+      "phase": "capable",
+      "citations": [
+       "cra-legal-representative"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "This is different from an 'authorized representative' the taxpayer appoints (Represent a Client / AUT-01). That access lasts until cancelled or until an optional expiry date, and CRA says it does not expire when the CRA is notified of death.",
+     "citations": [
+      "cra-authorize-overview"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No legal document appointing a representative"
+     },
+     {
+      "id": "designated",
+      "label": "POA/order exists; not yet filed with CRA or not yet in effect"
+     },
+     {
+      "id": "active",
+      "label": "CRA recognises the legal representative for the taxpayer's accounts"
+     },
+     {
+      "id": "terminated",
+      "label": "Taxpayer died or the instrument ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-instrument",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "POA executed, representation agreement made, or guardian/committee appointed",
+      "conditions": [],
+      "citations": [
+       "cra-legal-representative"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-cra",
+      "from": "designated",
+      "to": "active",
+      "event": "Copy of legal document submitted and RepID linked",
+      "conditions": [],
+      "citations": [
+       "cra-legal-representative"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Taxpayer dies; access as legal representative ends on CRA notification",
+      "conditions": [],
+      "citations": [
+       "cra-authorize-overview"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Instrument revoked or guardianship terminated under provincial law",
+      "conditions": [],
+      "citations": [
+       "cra-legal-representative"
+      ],
+      "unverified": true,
+      "phase": "capable"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ca-vac-pension-act-administrator",
+   "canonical": "veterans-fiduciary",
+   "group": "federal",
+   "name": "Administrator of a Pension Act award for an incapable recipient (Veterans Affairs Canada)",
+   "localNames": [
+    "administration of awards",
+    "person or agency selected by the Minister"
+   ],
+   "summary": "Under the Pension Act, if a person entitled to an award appears to the Minister to be incapable of managing their own affairs, the Minister may direct that the award be administered for them by the Department or by a person or agency the Minister selects. No equivalent provision was found in the Veterans Well-being Act or its Regulations.",
+   "lane": {
+    "assigned": {
+     "event": "Minister directs administration of the award because it appears the recipient cannot manage their own affairs because of infirmity, illness or other cause",
+     "phase": "incapacitated",
+     "citations": [
+      "pension-act-41"
+     ]
+    },
+    "starts": {
+     "event": "On the Minister's direction",
+     "phase": "incapacitated",
+     "citations": [
+      "pension-act-41"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Recipient dies: the award stops, and amounts paid after the last day of the month of death can be recovered from survivor awards",
+      "phase": "deceased",
+      "citations": [
+       "pension-act-83-5"
+      ],
+      "unverified": true,
+      "note": "Section 83(5) implies awards stop after the month of death. No express 'administration ends on death' text was found."
+     },
+     {
+      "event": "The Minister revokes or changes the direction (e.g. the recipient regains capacity)",
+      "phase": "capable",
+      "citations": [
+       "pension-act-41"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The Veterans Well-being Act (SC 2005, c 21) and the Veterans Well-being Regulations (SOR/2006-50) were searched. Neither has a comparable provision on administration for incapable recipients. The distinct statutory regime is only the Pension Act s 41.",
+     "citations": [
+      "vwb-reg-searched"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Award paid directly to recipient"
+     },
+     {
+      "id": "active",
+      "label": "Award administered by the Department or a selected person/agency"
+     },
+     {
+      "id": "terminated",
+      "label": "Recipient died or direction withdrawn"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-direct",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Minister directs administration of the award",
+      "conditions": [
+       "Appears to the Minister that the person is incapable of managing their own affairs (or is not maintaining a dependant for whom additional pension is paid)"
+      ],
+      "citations": [
+       "pension-act-41"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Recipient dies",
+      "conditions": [],
+      "citations": [
+       "pension-act-83-5"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-withdraw",
+      "from": "active",
+      "to": "terminated",
+      "event": "Direction withdrawn",
+      "conditions": [],
+      "citations": [
+       "pension-act-41"
+      ],
+      "unverified": true,
+      "phase": "capable"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ca-privacy-act-estate-representative",
+   "canonical": "health-records-representative",
+   "group": "federal",
+   "name": "Estate administrator exercising Privacy Act rights for a deceased person (federal institutions)",
+   "localNames": [
+    "person authorized ... to administer the estate of that person"
+   ],
+   "summary": "For personal information held by federal government institutions (including health and benefits records), the Privacy Regulations let a person authorized under federal or provincial law to administer a deceased person's estate exercise that person's Privacy Act rights, only for administering the estate. Information about someone dead more than 20 years is not 'personal information' for the use, disclosure and ATIA s 19 rules.",
+   "lane": {
+    "assigned": {
+     "event": "Appointment as estate administrator under provincial law (executor, estate trustee, liquidator, administrator)",
+     "phase": "deceased",
+     "citations": [
+      "privacy-reg-10"
+     ]
+    },
+    "starts": {
+     "event": "On authority to administer the estate",
+     "phase": "deceased",
+     "citations": [
+      "privacy-reg-10"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate administration ends (rights exist 'only for the purpose of such administration')",
+      "phase": "closed",
+      "citations": [
+       "privacy-reg-10"
+      ]
+     },
+     {
+      "event": "More than 20 years after death: the information is excluded from 'personal information' for Privacy Act ss 7, 8 and 26 and ATIA s 19",
+      "phase": "closed",
+      "citations": [
+       "privacy-act-3-m"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Section 10(a) of the Privacy Regulations likewise lets a person authorized to administer the affairs or estate of an incompetent person exercise that person's rights while they are alive.",
+     "citations": [
+      "privacy-reg-10"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No estate administrator"
+     },
+     {
+      "id": "active",
+      "label": "May exercise Privacy Act rights for estate administration"
+     },
+     {
+      "id": "terminated",
+      "label": "Administration complete or information older than 20 years post-death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Person becomes authorized to administer the estate",
+      "conditions": [],
+      "citations": [
+       "privacy-reg-10"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-close",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration complete",
+      "conditions": [],
+      "citations": [
+       "privacy-reg-10"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     },
+     {
+      "id": "t-20y",
+      "from": "active",
+      "to": "terminated",
+      "event": "20 years elapse after death",
+      "conditions": [],
+      "citations": [
+       "privacy-act-3-m"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "deceasedPersonalDataProtected": {
+   "value": "partial",
+   "note": "The federal law is split. (1) Public sector, Privacy Act: information about a person dead more than 20 years is excluded from 'personal information' for use and disclosure (ss 7, 8), s 26 and ATIA s 19. Within 20 years it stays protected, and an estate administrator may exercise the deceased's rights only for administration (Privacy Regs s 10(b)). (2) Private sector, PIPEDA: 'personal information' is information about an identifiable individual with no living-person limit. 'Personal health information' expressly covers an individual 'whether living or deceased'. Organizations may disclose without consent 20 years after death or 100 years after the record was created (s 7(3)(h)). OPC guidance limits a deceased's account information to the person authorized to administer the estate, and a beneficiary may access only information about themselves. PIPEDA does not apply where a substantially similar provincial law applies (e.g. Quebec, BC, Alberta private sector), and provincial health-information statutes govern many health records. Bill C-36 (introduced 15 June 2026, at second reading) would replace PIPEDA Part 1 with the Protecting Privacy and Consumer Data Act.",
+   "citations": [
+    "privacy-act-3-m",
+    "privacy-reg-10",
+    "pipeda-2-1",
+    "pipeda-7-3",
+    "opc-family-accounts",
+    "opc-2013-005",
+    "parl-c36-45-1"
+   ],
+   "unverified_components": [
+    "The OPC statement that PIPEDA covers deceased individuals was not found verbatim on an OPC page. This conclusion rests on the statute text (s 2(1), s 7(3)(h)) and the OPC guidance on deceased account holders."
+   ]
+  },
+  "organDonationModel": {
+   "value": null,
+   "note": "Not set nationally: organ and tissue donation is provincial. See provincialNotes for Nova Scotia's deemed-consent (opt-out) regime.",
+   "citations": [
+    "ns-hotda-11"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": null,
+   "note": "Not set nationally: fiduciary access to digital assets is provincial or territorial. See modelActs (ULCC Uniform Access to Digital Assets by Fiduciaries Act, 2016) for enacting jurisdictions.",
+   "citations": [
+    "ulcc-uadafa-2016",
+    "yk-news-23-485"
+   ]
+  }
+ },
+ "modelActs": [
+  {
+   "id": "ulcc-uadafa-2016",
+   "name": "Uniform Access to Digital Assets by Fiduciaries Act",
+   "year": 2016,
+   "body": "Uniform Law Conference of Canada",
+   "sourceUrl": "https://www.ulcc-chlc.ca/Civil-Section/Uniform-Acts/Uniform-Access-to-Digital-Assets-by-Fiduciaries-Ac",
+   "summary": "Covers four fiduciaries: a personal representative, a guardian, an attorney under a POA, and a trustee. Confirms that their usual powers extend to digital assets, subject to the account holder's instructions. A personal representative gets access to all digital assets unless the will or another document says otherwise.",
+   "citations": [
+    "ulcc-uadafa-2016"
+   ],
+   "enactments": [
+    {
+     "jurisdiction": "SK",
+     "year": 2020,
+     "cite": "The Fiduciaries Access to Digital Information Act, SS 2020, c 6",
+     "sourceUrl": "https://publications.saskatchewan.ca/#/products/105180",
+     "citations": [
+      "sk-fadia-2020",
+      "yk-news-23-485"
+     ],
+     "note": "Title and chapter verified via the Saskatchewan King's Printer product record. In-force date (reported elsewhere as 29 June 2020) not verified on an official page.",
+     "unverified": false
+    },
+    {
+     "jurisdiction": "PE",
+     "year": null,
+     "cite": "Access to Digital Assets Act (Prince Edward Island)",
+     "sourceUrl": "https://www.princeedwardisland.ca/en/legislation/access-to-digital-assets-act",
+     "citations": [
+      "pei-adaa",
+      "yk-news-23-485"
+     ],
+     "note": "Enactment confirmed only indirectly: the Yukon government release lists PEI as having similar legislation. The PEI legislation site blocked access with a bot challenge, so chapter number, year and in-force date (reported in secondary sources as SPEI 2021, c 27, in force 1 Jan 2022) are unverified.",
+     "unverified": true
+    },
+    {
+     "jurisdiction": "NB",
+     "year": 2022,
+     "cite": "Fiduciaries Access to Digital Assets Act, SNB 2022, c 59",
+     "sourceUrl": "https://laws.gnb.ca/en/document/cs/2022,%20c.59",
+     "citations": [
+      "nb-fadaa-2022"
+     ],
+     "note": "Assented to 16 December 2022. No separate commencement section was found in the chapter.",
+     "unverified": false
+    },
+    {
+     "jurisdiction": "YT",
+     "year": 2023,
+     "cite": "Fiduciaries Access to Digital Assets Act, SY 2023, c 15",
+     "sourceUrl": "https://laws.yukon.ca/cms/acts-by-year.html?view=article&id=354:annual-acts-2023",
+     "citations": [
+      "yk-fadaa-2023",
+      "yk-news-23-485"
+     ],
+     "note": "Assent announced 15 November 2023. In-force date not verified.",
+     "unverified": false
+    }
+   ],
+   "notEnacted": [
+    {
+     "jurisdiction": "NS",
+     "note": "No enactment found. The official Yukon release (Nov 2023) names only NB, SK and PEI. Not verified against the Nova Scotia legislature after 2023.",
+     "unverified": true,
+     "citations": [
+      "yk-news-23-485"
+     ]
+    },
+    {
+     "jurisdiction": "AB",
+     "note": "Not enacted. The Alberta Law Reform Institute was still calling for legislation in July 2026 (law reform context only).",
+     "citations": [
+      "alri-2026-digital"
+     ]
+    },
+    {
+     "jurisdiction": "ON",
+     "note": "No Ontario fiduciary digital-assets statute; see ca-on.json.",
+     "citations": [
+      "yk-news-23-485"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ulcc-uepoaa-2015",
+   "name": "Uniform Enduring Powers of Attorney Act",
+   "year": 2015,
+   "amended": 2021,
+   "body": "Uniform Law Conference of Canada",
+   "sourceUrl": "https://ulcc-chlc.ca/ULCC/media/EN-Uniform-Acts/Consolidated-Uniform-Enduring-Powers-of-Attorney-Act-(2015)-as-Amended-2021.pdf",
+   "summary": "Model EPOA takes effect on the latest of signing, a stated date or a stated triggering event (s 11(1)). If it springs on incapacity, a qualified health care provider may confirm incapacity (s 11(2)). Authority ends on a specified date, written revocation, the grantor's death, the attorney's death, incapacity or resignation, appointment of a guardianship decision-maker, and spousal separation (s 17). The 2021 amendments added electronic EPOAs. The year is 2015 (amended 2021), not 2008.",
+   "citations": [
+    "ulcc-epoa-2015"
+   ],
+   "enactments": [],
+   "enactmentsNote": "No provincial or territorial enactment of the 2015 Uniform EPOA Act was verified. Several provinces have EPOA statutes that share features, but none was confirmed as an implementation of this model act."
+  }
+ ],
+ "provincialNotes": [
+  {
+   "jurisdiction": "NS",
+   "topic": "organ-donation",
+   "model": "opt-out",
+   "optOutSinceYear": 2021,
+   "text": "Nova Scotia's Human Organ and Tissue Donation Act, SNS 2019, c 6, deems an individual who has not recorded a consent or refusal to consent to donation (s 11). Exceptions cover lack of capacity, non-residents and minors (ss 12–14). Proclaimed June 30, 2020; in force January 18, 2021 (per the official consolidation, current to June 18, 2026, as amended by 2025, c 2, s 6).",
+   "citations": [
+    "ns-hotda-11"
+   ]
+  }
+ ]
+}
