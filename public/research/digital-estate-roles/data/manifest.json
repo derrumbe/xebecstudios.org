@@ -1,6 +1,24 @@
 {
  "countries": [
   {
+   "id": "mu",
+   "name": "Mauritius",
+   "region": "Africa",
+   "jurisdictions": [
+    {
+     "id": "mu-national",
+     "name": "Mauritius",
+     "short": "MU",
+     "files": [
+      "jurisdictions/mu-national.json"
+     ],
+     "country": "mu",
+     "note": "A mixed system: the Code Civil Mauricien supplies succession and adult protection, while the Curatelle Act, Mental Health Care Act and Succession and Wills Act are English-language statutes layered over it — the Mental Health Care Act reaches a patient’s property by having the Ministère Public apply for an ouverture de tutelle under the Code. Succession vests without a grant: the heirs are seised of plein droit. No organ-donation role is recorded: the Human Tissue (Removal, Preservation and Transplant) Act 2006 commences by proclamation and the revised-laws editorial note states that, as at 30 September 2007, only section 16 had come into operation, so the donation regime is enacted but not in force on the face of the published text. Powers of attorney and health-care proxies were not located in the Acts retrieved and are not recorded.",
+     "label": "Mauritius"
+    }
+   ]
+  },
+  {
    "id": "za",
    "name": "South Africa",
    "region": "Africa",
@@ -444,6 +462,17 @@
   }
  ],
  "jurisdictions": [
+  {
+   "id": "mu-national",
+   "name": "Mauritius",
+   "short": "MU",
+   "files": [
+    "jurisdictions/mu-national.json"
+   ],
+   "country": "mu",
+   "note": "A mixed system: the Code Civil Mauricien supplies succession and adult protection, while the Curatelle Act, Mental Health Care Act and Succession and Wills Act are English-language statutes layered over it — the Mental Health Care Act reaches a patient’s property by having the Ministère Public apply for an ouverture de tutelle under the Code. Succession vests without a grant: the heirs are seised of plein droit. No organ-donation role is recorded: the Human Tissue (Removal, Preservation and Transplant) Act 2006 commences by proclamation and the revised-laws editorial note states that, as at 30 September 2007, only section 16 had come into operation, so the donation regime is enacted but not in force on the face of the published text. Powers of attorney and health-care proxies were not located in the Acts retrieved and are not recorded.",
+   "label": "Mauritius"
+  },
   {
    "id": "za-national",
    "name": "South Africa",

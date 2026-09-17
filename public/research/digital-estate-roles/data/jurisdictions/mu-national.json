@@ -1,0 +1,621 @@
+{
+ "jurisdiction": "mu-national",
+ "name": "Mauritius",
+ "country": "mu",
+ "legalSystem": "mixed",
+ "note": "A mixed system: the Code Civil Mauricien supplies succession and adult protection, while the Curatelle Act, Mental Health Care Act and Succession and Wills Act are English-language statutes layered over it — the Mental Health Care Act reaches a patient’s property by having the Ministère Public apply for an ouverture de tutelle under the Code. Succession vests without a grant: the heirs are seised of plein droit. No organ-donation role is recorded: the Human Tissue (Removal, Preservation and Transplant) Act 2006 commences by proclamation and the revised-laws editorial note states that, as at 30 September 2007, only section 16 had come into operation, so the donation regime is enacted but not in force on the face of the published text. Powers of attorney and health-care proxies were not located in the Acts retrieved and are not recorded.",
+ "citations": [
+  {
+   "id": "mu-cc-488",
+   "cite": "Code Civil Mauricien, art 488",
+   "title": "Majorité; protection du majeur",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/C/Code%20Civil%20Mauricien.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "La majorité est fixée à dix-huit ans accomplis; à cet âge, on est capable de tous les actes de la vie civile. Est néanmoins protégé par la loi, soit à l'occasion d'un acte particulier, soit d'une manière continue, le majeur qu'une altération de ses facultés personnelles met dans I'impossibilité de pourvoir seul à ses intérêts.…"
+  },
+  {
+   "id": "mu-cc-492",
+   "cite": "Code Civil Mauricien, art 492",
+   "title": "Régimes de protection en cas d’altération des facultés",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/C/Code%20Civil%20Mauricien.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Lorsque les facultés mentales sont altérées par une maladie, une infirmité ou un affaiblissement dû à l'âge, il est pourvu aux intérêts de la personne par l'un des régimes de protection prévus aux chapitres suivants. Les mêmes régimes de protection sont applicables à l'altération des facultés corporelles, si elle empêche…"
+  },
+  {
+   "id": "mu-cc-724",
+   "cite": "Code Civil Mauricien, art 724",
+   "title": "Saisine des héritiers",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/C/Code%20Civil%20Mauricien.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Les héritiers sont saisis de plein droit des biens, droits et actions du défunt, sous l’obligation d’acquitter toutes les charges de la succession. L’Etat doit se faire envoyer en possession par justice dans les formes déterminées par la Curatelle Act."
+  },
+  {
+   "id": "mu-cc-1031",
+   "cite": "Code Civil Mauricien, art 1031",
+   "title": "Devoirs des exécuteurs testamentaires",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/C/Code%20Civil%20Mauricien.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Les exécuteurs testamentaires feront apposer les scellés, s'il y a des héritiers mineurs, majeurs en tutelle ou absents. Ils feront faire, en présence de l'héritier présomptif, ou lui dûment appelé, l'inventaire des biens de la succession. Ils provoqueront la vente du mobilier, à défaut de deniers suffisants pour acquitter les…"
+  },
+  {
+   "id": "mu-cc-1030",
+   "cite": "Code Civil Mauricien, art 1030",
+   "title": "Le mineur ne peut être exécuteur testamentaire",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/C/Code%20Civil%20Mauricien.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Le mineur ne pourra être exécuteur testamentaire, même avec l'autorisation de son tuteur ou curateur. 1031. Les exécuteurs testamentaires feront apposer les scellés, s'il y a des héritiers mineurs, majeurs en tutelle ou absents. Ils feront faire, en présence de l'héritier présomptif, ou lui dûment appelé, l'inventaire des biens…"
+  },
+  {
+   "id": "mu-cur-4",
+   "cite": "Curatelle Act (Act 12 of 1973), s 4",
+   "title": "Curator to administer certain estates",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/C/Cu/CURATELLE%20ACT,%20No%2012%20of%201973.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Curator to administer certain estates (1) (a) The Curator shall, in accordance with such directions as the Attorney-General may give, administer all vacant estates and exercise all the powers vested in him as he thinks best in the interests of the persons entitled to the estates. (b) The Curator shall also administer the…"
+  },
+  {
+   "id": "mu-mhca-27",
+   "cite": "Mental Health Care Act (Act 24 of 1998), s 27",
+   "title": "Appointment of guardian",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/M/MENTAL%20HEALTH%20CARE%20ACT,%20No%2024%20of%201998.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Appointment of guardian (1) Where on a review under section 15, the Commission is of the opinion that a patient is likely to stay at a centre for a period exceeding 6 months and that the patient has significant assets which need protection, the Commission shall forward a report to that effect to the Ministère Public. (2) On…"
+  },
+  {
+   "id": "mu-sw-37",
+   "cite": "Succession and Wills Act (Cap 203), s 37",
+   "title": "Small successions",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/S/Su/SUCCESSIONANDWILLSACTCap203.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Small successions (1) Where application is made for the appointment of a notary, the Judge shall require proof, by affidavit or otherwise, of the value of the assets of the succession, and where the Judge is satisfied that the assets are not likely to exceed 6,000 rupees, he shall order the succession to be liquidated as a…"
+  },
+  {
+   "id": "mu-ht-22",
+   "cite": "Human Tissue (Removal, Preservation and Transplant) Act (Act 5 of 2006), s 22",
+   "title": "Commencement",
+   "url": "https://attorneygeneral.govmu.org/Documents/Laws%20of%20Mauritius/A-Z%20Acts/H/HUMAN%20TISSUE%20(REMOVAL,%20PRESERVATION%20AND%20TRANSPLANT)%20ACT,%205%20of%202006.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "This Act shall come into operation on a date to be fixed by proclamation. (2) Different dates may be fixed for the coming into force of different provisions of this Act."
+  }
+ ],
+ "roles": [
+  {
+   "id": "mu-tuteur",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Tuteur (ouverture de tutelle)",
+   "localNames": [
+    "tutelle",
+    "tuteur",
+    "ouverture de tutelle"
+   ],
+   "summary": "Protection of an adult runs through the Code Civil, but the Mental Health Care Act supplies a distinctly Mauritian trigger: where a review finds a patient likely to stay over six months with significant assets to protect, the Ministère Public applies to the Judge in Chambers for an ouverture de tutelle.",
+   "lane": {
+    "assigned": {
+     "event": "An adult whose altered faculties leave them unable to look after their own interests is protected by law, the alteration being medically established",
+     "phase": "incapacitated",
+     "citations": [
+      "mu-cc-488",
+      "mu-cc-492"
+     ]
+    },
+    "starts": {
+     "event": "Judge in Chambers orders the ouverture de tutelle and appoints a tuteur; under the Mental Health Care Act this follows a report that the patient will stay over six months and has significant assets",
+     "phase": "incapacitated",
+     "citations": [
+      "mu-mhca-27",
+      "mu-cc-492"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the protected person; the estate passes to the heirs by saisine",
+      "phase": "deceased",
+      "citations": [
+       "mu-cc-724"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No protection"
+     },
+     {
+      "id": "reported",
+      "label": "Report to the Ministère Public"
+     },
+     {
+      "id": "active",
+      "label": "Tutelle open, tuteur appointed"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mu-t-tu-report",
+      "from": "none",
+      "to": "reported",
+      "event": "Commission reports a patient likely to stay over six months with significant assets (MHCA s 27)",
+      "citations": [
+       "mu-mhca-27"
+      ]
+     },
+     {
+      "id": "mu-t-tu-open",
+      "from": "reported",
+      "to": "active",
+      "event": "Judge in Chambers orders ouverture de tutelle and appoints a tuteur (MHCA s 27; Code Civil arts 488, 492)",
+      "citations": [
+       "mu-mhca-27",
+       "mu-cc-488",
+       "mu-cc-492"
+      ]
+     },
+     {
+      "id": "mu-t-tu-direct",
+      "from": "none",
+      "to": "active",
+      "event": "Protection ordered directly under the Code Civil where altered faculties are medically established (arts 488, 492)",
+      "citations": [
+       "mu-cc-488",
+       "mu-cc-492"
+      ]
+     },
+     {
+      "id": "mu-t-tu-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the protected person (art 724)",
+      "citations": [
+       "mu-cc-724"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Guardian of property (opening of guardianship)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "tutelle": {
+     "en": "guardianship of an adult",
+     "basis": "descriptive"
+    },
+    "tuteur": {
+     "en": "guardian",
+     "basis": "descriptive"
+    },
+    "ouverture de tutelle": {
+     "en": "opening of guardianship",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "mu-curator-vacant",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Curator of Vacant Estates",
+   "localNames": [
+    "Curator",
+    "vacant estate",
+    "curatelle"
+   ],
+   "summary": "A standing public office rather than a per-estate appointment. The Curator administers all vacant estates on the Attorney-General’s directions, and also administers the estates of minors or adults that the Judge in Chambers vests in him under the Code Civil.",
+   "lane": {
+    "assigned": {
+     "event": "Estate falls vacant, or the Judge in Chambers vests the estate of a minor or adult in the Curator under the Code Civil",
+     "phase": "administration",
+     "citations": [
+      "mu-cur-4"
+     ]
+    },
+    "starts": {
+     "event": "The Curator administers the estate on the Attorney-General’s directions, exercising his powers as he thinks best in the interests of those entitled",
+     "phase": "administration",
+     "citations": [
+      "mu-cur-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed and the estate distributed to those entitled",
+      "phase": "closed",
+      "citations": [
+       "mu-cur-4"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Not vested in the Curator"
+     },
+     {
+      "id": "vested",
+      "label": "Vacant, or vested by the Judge in Chambers"
+     },
+     {
+      "id": "active",
+      "label": "Curator administering"
+     },
+     {
+      "id": "ended",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mu-t-cv-vacant",
+      "from": "none",
+      "to": "vested",
+      "event": "Estate falls vacant, or is vested in the Curator by the Judge in Chambers (Curatelle Act s 4)",
+      "citations": [
+       "mu-cur-4"
+      ]
+     },
+     {
+      "id": "mu-t-cv-admin",
+      "from": "vested",
+      "to": "active",
+      "event": "Curator administers on the Attorney-General’s directions (s 4(1)(a))",
+      "citations": [
+       "mu-cur-4"
+      ]
+     },
+     {
+      "id": "mu-t-cv-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Administration completed in the interests of those entitled (s 4)",
+      "citations": [
+       "mu-cur-4"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mu-heritier",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Héritier (saisine)",
+   "localNames": [
+    "héritier",
+    "saisine",
+    "succession"
+   ],
+   "summary": "No grant and no intermediate office: the heirs are seised of the deceased’s property, rights and actions of right, subject to the obligation to discharge all the charges of the succession. The State, by contrast, must be put in possession by the court.",
+   "lane": {
+    "assigned": {
+     "event": "Death of the deceased",
+     "phase": "deceased",
+     "citations": [
+      "mu-cc-724"
+     ]
+    },
+    "starts": {
+     "event": "Heirs are seised of plein droit of the property, rights and actions of the deceased, bound to discharge the charges of the succession",
+     "phase": "deceased",
+     "citations": [
+      "mu-cc-724"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Succession liquidated and partitioned",
+      "phase": "administration",
+      "citations": [
+       "mu-sw-37"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Deceased alive"
+     },
+     {
+      "id": "seised",
+      "label": "Heirs seised of plein droit on death"
+     },
+     {
+      "id": "ended",
+      "label": "Succession liquidated and partitioned"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mu-t-he-death",
+      "from": "none",
+      "to": "seised",
+      "event": "Death; heirs are seised of plein droit, subject to the charges of the succession (art 724)",
+      "citations": [
+       "mu-cc-724"
+      ]
+     },
+     {
+      "id": "mu-t-he-end",
+      "from": "seised",
+      "to": "ended",
+      "event": "Succession liquidated and partitioned (Succession and Wills Act s 37)",
+      "citations": [
+       "mu-sw-37"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir (vesting of right)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "héritier": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "saisine": {
+     "en": "automatic vesting in the heirs",
+     "basis": "descriptive"
+    },
+    "succession": {
+     "en": "succession",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "mu-executeur",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Exécuteur testamentaire",
+   "localNames": [
+    "exécuteur testamentaire"
+   ],
+   "summary": "Named by the testator. The executor seals the estate where there are minor, protected or absent heirs, has the inventory made in the presence of the presumptive heir, and provokes the sale of movables where there is not enough money to meet the legacies. A minor cannot serve, even with a guardian’s authority.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names an exécuteur testamentaire; a minor cannot serve, even authorised by a tuteur or curateur",
+     "phase": "capable",
+     "citations": [
+      "mu-cc-1030"
+     ]
+    },
+    "starts": {
+     "event": "On death, the executor seals the estate where heirs are minor, under tutelle or absent, and has the inventory made in the presence of the presumptive heir",
+     "phase": "deceased",
+     "citations": [
+      "mu-cc-1031",
+      "mu-cc-724"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Inventory made, movables sold where necessary and the will carried out",
+      "phase": "administration",
+      "citations": [
+       "mu-cc-1031"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No executor"
+     },
+     {
+      "id": "named",
+      "label": "Named by the testator"
+     },
+     {
+      "id": "active",
+      "label": "Sealing, inventorying, carrying out the will"
+     },
+     {
+      "id": "ended",
+      "label": "Duties discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mu-t-ex-name",
+      "from": "none",
+      "to": "named",
+      "event": "Testator names an exécuteur testamentaire (art 1030 on who may serve)",
+      "citations": [
+       "mu-cc-1030"
+      ]
+     },
+     {
+      "id": "mu-t-ex-act",
+      "from": "named",
+      "to": "active",
+      "event": "Death; executor seals the estate and has the inventory made (art 1031)",
+      "citations": [
+       "mu-cc-1031",
+       "mu-cc-724"
+      ]
+     },
+     {
+      "id": "mu-t-ex-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Inventory made and the will carried out (art 1031)",
+      "citations": [
+       "mu-cc-1031"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Testamentary executor",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "exécuteur testamentaire": {
+     "en": "testamentary executor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "mu-small-succession",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Small succession",
+   "localNames": [
+    "small succession",
+    "petite succession"
+   ],
+   "summary": "Where the Judge is satisfied on proof of value that the assets are not likely to exceed 6,000 rupees, the succession is liquidated as a small succession — and stays one even if the assets later turn out to exceed that figure. The appointed notary may sell the movables and effect the liquidation and partition.",
+   "lane": {
+    "assigned": {
+     "event": "Application for appointment of a notary, with proof by affidavit or otherwise of the value of the assets",
+     "phase": "administration",
+     "citations": [
+      "mu-sw-37"
+     ]
+    },
+    "starts": {
+     "event": "Judge satisfied the assets are not likely to exceed 6,000 rupees orders the succession liquidated as a small succession",
+     "phase": "administration",
+     "citations": [
+      "mu-sw-37"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Notary sells the movables and effects the liquidation and partition",
+      "phase": "closed",
+      "citations": [
+       "mu-sw-37"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No application"
+     },
+     {
+      "id": "applied",
+      "label": "Application with proof of value"
+     },
+     {
+      "id": "small",
+      "label": "Ordered liquidated as a small succession"
+     },
+     {
+      "id": "ended",
+      "label": "Liquidation and partition effected"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mu-t-ss-apply",
+      "from": "none",
+      "to": "applied",
+      "event": "Application for a notary with proof of the value of the assets (s 37(1))",
+      "citations": [
+       "mu-sw-37"
+      ]
+     },
+     {
+      "id": "mu-t-ss-order",
+      "from": "applied",
+      "to": "small",
+      "event": "Judge satisfied assets are not likely to exceed 6,000 rupees; the succession stays a small succession even if they later exceed it (s 37(1))",
+      "citations": [
+       "mu-sw-37"
+      ]
+     },
+     {
+      "id": "mu-t-ss-end",
+      "from": "small",
+      "to": "ended",
+      "event": "Notary sells the movables and effects the liquidation and partition (s 37(2))",
+      "citations": [
+       "mu-sw-37"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Small succession",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "petite succession": {
+     "en": "small succession",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "probateGrantName": {
+   "value": "none",
+   "note": "No grant. The heirs are seised of plein droit of the property, rights and actions of the deceased; only the State must be put in possession by the court.",
+   "citations": [
+    "mu-cc-724"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": true,
+   "threshold": 6000,
+   "currency": "MUR",
+   "waitingDays": null,
+   "note": "Liquidated as a small succession where the Judge is satisfied the assets are not likely to exceed 6,000 rupees, and it stays a small succession even if they later exceed that.",
+   "citations": [
+    "mu-sw-37"
+   ]
+  },
+  "organDonationModel": {
+   "value": null,
+   "note": "Enacted but not commenced. The Human Tissue (Removal, Preservation and Transplant) Act 2006 comes into operation on a date fixed by proclamation, and the revised-laws editorial note records that as at 30 September 2007 only section 16 had done so.",
+   "citations": [
+    "mu-ht-22"
+   ]
+  }
+ }
+}
