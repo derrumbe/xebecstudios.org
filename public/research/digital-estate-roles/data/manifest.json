@@ -330,7 +330,7 @@
       "jurisdictions/za-national.json"
      ],
      "country": "za",
-     "note": "South African estate administration: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice's published copies. Only the estate roles are covered. Powers of attorney (common law, and they lapse on the grantor's incapacity), curatorship and administrators under the Mental Health Care Act 17 of 2002, and organ donation under the National Health Act 61 of 2003 are NOT covered: those acts are not in the Department of Justice's legislation index and were not retrieved. Note also that the Department's PDFs are Juta typesettings of the acts, hosted by the Department."
+     "note": "South African estate administration plus curatorship of property: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice’s published copies. The Act’s curatorship is over property only — letters of curatorship authorise acts in respect of property and business, not personal or health decisions — and s 73 still cross-refers to the repealed Mental Health Act 1973, so the modern appointment route under the Mental Health Care Act 17 of 2002 is not recorded here. Health-care proxies, the statutory consent hierarchy and organ donation sit in Department of Health legislation that was not reachable for this entry, so those roles are still missing. Powers of attorney are common law and lapse on the grantor’s incapacity; no statutory enduring power exists."
     }
    ]
   },
@@ -666,7 +666,7 @@
     "jurisdictions/za-national.json"
    ],
    "country": "za",
-   "note": "South African estate administration: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice's published copies. Only the estate roles are covered. Powers of attorney (common law, and they lapse on the grantor's incapacity), curatorship and administrators under the Mental Health Care Act 17 of 2002, and organ donation under the National Health Act 61 of 2003 are NOT covered: those acts are not in the Department of Justice's legislation index and were not retrieved. Note also that the Department's PDFs are Juta typesettings of the acts, hosted by the Department."
+   "note": "South African estate administration plus curatorship of property: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice’s published copies. The Act’s curatorship is over property only — letters of curatorship authorise acts in respect of property and business, not personal or health decisions — and s 73 still cross-refers to the repealed Mental Health Act 1973, so the modern appointment route under the Mental Health Care Act 17 of 2002 is not recorded here. Health-care proxies, the statutory consent hierarchy and organ donation sit in Department of Health legislation that was not reachable for this entry, so those roles are still missing. Powers of attorney are common law and lapse on the grantor’s incapacity; no statutory enduring power exists."
   },
   {
    "id": "dk-national",

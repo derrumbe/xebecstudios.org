@@ -3,7 +3,7 @@
  "name": "South Africa",
  "country": "za",
  "legalSystem": "mixed",
- "note": "South African estate administration: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice's published copies. Only the estate roles are covered. Powers of attorney (common law, and they lapse on the grantor's incapacity), curatorship and administrators under the Mental Health Care Act 17 of 2002, and organ donation under the National Health Act 61 of 2003 are NOT covered: those acts are not in the Department of Justice's legislation index and were not retrieved. Note also that the Department's PDFs are Juta typesettings of the acts, hosted by the Department.",
+ "note": "South African estate administration plus curatorship of property: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953, from the Department of Justice’s published copies. The Act’s curatorship is over property only — letters of curatorship authorise acts in respect of property and business, not personal or health decisions — and s 73 still cross-refers to the repealed Mental Health Act 1973, so the modern appointment route under the Mental Health Care Act 17 of 2002 is not recorded here. Health-care proxies, the statutory consent hierarchy and organ donation sit in Department of Health legislation that was not reachable for this entry, so those roles are still missing. Powers of attorney are common law and lapse on the grantor’s incapacity; no statutory enduring power exists.",
  "citations": [
   {
    "id": "za-aea-14",
@@ -33,6 +33,60 @@
    "quote": "value of any estate does not exceed the amount determined by the Minister by notice in the Gazette, the Master may dispense with the appointment of an executor and give directions as to the manner in which any such estate shall be liquidated and distributed"
   },
   {
+   "id": "za-aea-54",
+   "cite": "Administration of Estates Act 66 of 1965, s 54",
+   "title": "Removal from office of executor",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) An executor may at any time be removed from his office- (a) by the Court- (i) ...... [Sub-para. (i) deleted by s. 16 (a) of Act 86 of 1983 (wef 6 July 1983).] (ii) if he has at any time been a party to an agreement or arrangement whereby he has undertaken that he will, in his capacity as executor, grant or endeavour to…"
+  },
+  {
+   "id": "za-aea-71",
+   "cite": "Administration of Estates Act 66 of 1965, s 71",
+   "title": "Certain persons not to administer property as tutor or curator without letters of tutorship or curatorship",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) No person who has been nominated, appointed or assumed as provided in section seventy-two shall take care of or administer any property belonging to the minor or other person concerned, or carry on any business or undertaking of the minor or other person, unless he is authorized to do so under letters of tutorship or…"
+  },
+  {
+   "id": "za-aea-72",
+   "cite": "Administration of Estates Act 66 of 1965, s 72",
+   "title": "Letters of tutorship and curatorship to tutors and curators nominate and endorsement in case of assumed tutors",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "and curators (1) The Master shall, subject to the provisions of subsection (3) and to any applicable provision of section 5 of the Matrimonial Affairs Act, 1953 (Act 37 of 1953), or any order of court made under any such provision or any provision of the Divorce Act, 1979, on the written application of any person- (a) who has…"
+  },
+  {
+   "id": "za-aea-73",
+   "cite": "Administration of Estates Act 66 of 1965, s 73",
+   "title": "Proceedings on failure of nomination of tutors or curators, or on death, incapacity or refusal to act, etc",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) The Master may, subject to the provisions of subsections (2), (3) and (4)- (a) if it comes to his knowledge- (i) that any minor is the owner of any property in the Republic which is not under the care of any guardian, tutor or curator; or (ii) that any absentee is the owner of any property in the Republic, and he is…"
+  },
+  {
+   "id": "za-aea-76",
+   "cite": "Administration of Estates Act 66 of 1965, s 76",
+   "title": "Authority conferred by letters of tutorship and curatorship",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) The Master may- (a) by any letters of tutorship granted by him, authorize the tutor to administer the property of the minor, and may by such letters also authorize the tutor to carry on, subject to any law which may be applicable, any business or undertaking of the minor; and (b) by any letters of curatorship granted by…"
+  },
+  {
+   "id": "za-aea-85",
+   "cite": "Administration of Estates Act 66 of 1965, s 85",
+   "title": "Application of certain sections to tutors and curators",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Sections 24, 26, 28 and 36, subsection (2) of section 42, sections 46 and 48, subsection (2) of section 49 and sections 52, 53, 54 and 56 shall mutatis mutandis apply with reference to tutors and curators: Provided that any reference in any of the said sections to a will shall, for the purposes of its application under this…"
+  },
+  {
    "id": "za-isa-1",
    "cite": "Intestate Succession Act 81 of 1987, s 1",
    "title": "Intestate succession",
@@ -52,6 +106,125 @@
   }
  ],
  "roles": [
+  {
+   "id": "za-curator-property",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curator (letters of curatorship)",
+   "localNames": [
+    "curator",
+    "letters of curatorship",
+    "curator bonis"
+   ],
+   "summary": "South Africa’s statutory substitute decision maker for property. Nobody may administer another’s property as curator without letters of curatorship from the Master, and the letters themselves fix the authority — a single act, care of the property, full administration, or carrying on a business.",
+   "lane": {
+    "assigned": {
+     "event": "Curator nominated by will or written instrument, or the Master appoints one where there is no nomination, where an absentee owns property, or where a court could appoint",
+     "phase": "incapacitated",
+     "citations": [
+      "za-aea-72",
+      "za-aea-73"
+     ]
+    },
+    "starts": {
+     "event": "On letters of curatorship being granted by the Master; without them no one may take care of or administer the property",
+     "phase": "incapacitated",
+     "citations": [
+      "za-aea-71",
+      "za-aea-76"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removal from office, the removal provisions for executors applying to curators",
+      "phase": "incapacitated",
+      "citations": [
+       "za-aea-85",
+       "za-aea-54"
+      ]
+     },
+     {
+      "event": "Death of the person, when the estate passes to the executor",
+      "phase": "deceased",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No curator"
+     },
+     {
+      "id": "nominated",
+      "label": "Nominated, no letters yet"
+     },
+     {
+      "id": "active",
+      "label": "Letters granted; authority as the letters specify"
+     },
+     {
+      "id": "ended",
+      "label": "Curatorship ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-cur-nominate",
+      "from": "none",
+      "to": "nominated",
+      "event": "Curator nominated by will or written instrument (s 72)",
+      "citations": [
+       "za-aea-72"
+      ]
+     },
+     {
+      "id": "za-t-cur-master",
+      "from": "none",
+      "to": "active",
+      "event": "Master appoints where there is no nomination, or for an absentee’s property (s 73)",
+      "citations": [
+       "za-aea-73"
+      ]
+     },
+     {
+      "id": "za-t-cur-letters",
+      "from": "nominated",
+      "to": "active",
+      "event": "Letters of curatorship granted; the letters fix whether the curator may perform a particular act, take care of, administer, or carry on a business (ss 71, 76)",
+      "citations": [
+       "za-aea-71",
+       "za-aea-76"
+      ]
+     },
+     {
+      "id": "za-t-cur-remove",
+      "from": "active",
+      "to": "ended",
+      "event": "Removal from office, s 54 applying to curators through s 85",
+      "citations": [
+       "za-aea-85",
+       "za-aea-54"
+      ]
+     },
+     {
+      "id": "za-t-cur-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the person; the estate passes to the executor (s 14)",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ]
+   }
+  },
   {
    "id": "za-executor-testamentary",
    "canonical": "personal-representative-executor",
