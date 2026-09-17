@@ -2437,6 +2437,58 @@
    }
   ]
  },
+ "us-wa": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   }
+  ]
+ },
  "uk-ew": {
   "features": {
    "deceasedPersonalDataProtected": {
@@ -6560,6 +6612,158 @@
     "kind": "statute",
     "retrieved": "2026-09-17",
     "quote": "Osakasten tulee, milloin ei ... ole järjestetty erityistä kuolinpesän hallintoa, pesän selvittämistä varten yhteisesti hallita pesän omaisuutta"
+   }
+  ]
+ },
+ "br-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "A mandate ends on the death or judicial interdiction of either party, so it does not survive the grantor's incapacity.",
+    "citations": [
+     "br-cc-682"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": 2015,
+    "name": "Tomada de decisão apoiada (Código Civil art. 1.783-A)",
+    "citations": [
+     "br-cc-1783a"
+    ],
+    "valueEn": {
+     "en": "supported decision-making",
+     "basis": "descriptive"
+    }
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": false,
+    "year": null,
+    "name": null,
+    "note": "No dedicated digital-asset statute in the Civil Code; digital assets follow the estate, which passes to the heirs at once on death.",
+    "citations": [
+     "br-cc-1784"
+    ]
+   },
+   "probateGrantName": {
+    "value": "inventário e partilha",
+    "note": "There is no grant: the inheritance passes at death and the inventariante administers until the partition is homologated.",
+    "citations": [
+     "br-cc-1784",
+     "br-cc-1991"
+    ],
+    "valueEn": {
+     "en": "inventory and partition",
+     "basis": "descriptive"
+    }
+   }
+  },
+  "citations": [
+   {
+    "id": "br-cc-682",
+    "cite": "Código Civil (Lei nº 10.406/2002), art. 682",
+    "title": "Cessação do mandato",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Cessa o mandato: I - pela revogação ou pela renúncia; II - pela morte ou interdição de uma das partes"
+   },
+   {
+    "id": "br-cc-1783a",
+    "cite": "Código Civil (Lei nº 10.406/2002), art. 1.783-A",
+    "title": "Tomada de decisão apoiada",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "a pessoa com deficiência elege pelo menos 2 (duas) pessoas idôneas, com as quais mantenha vínculos e que gozem de sua confiança, para prestar-lhe apoio na tomada de decisão"
+   },
+   {
+    "id": "br-cc-1784",
+    "cite": "Código Civil (Lei nº 10.406/2002), art. 1.784",
+    "title": "Transmissão da herança",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Aberta a sucessão, a herança transmite-se, desde logo, aos herdeiros legítimos e testamentários."
+   },
+   {
+    "id": "br-cc-1991",
+    "cite": "Código Civil (Lei nº 10.406/2002), art. 1.991",
+    "title": "Administração pelo inventariante",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Desde a assinatura do compromisso até a homologação da partilha, a administração da herança será exercida pelo inventariante."
+   }
+  ]
+ },
+ "mx-federal": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "A mandate ends on the death of either party and on interdiction, so it does not survive the grantor's incapacity.",
+    "citations": [
+     "mx-ccf-2595"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": false,
+    "year": null,
+    "name": null,
+    "note": "No dedicated digital-asset statute in the federal code; digital assets follow the herencia, which covers all rights and obligations that death does not extinguish.",
+    "citations": [
+     "mx-ccf-1281"
+    ]
+   },
+   "probateGrantName": {
+    "value": "albaceazgo",
+    "note": "There is no grant: the heirs take a right to the hereditary mass at death and an albacea administers, named by the testator, elected by the heirs, or appointed by the judge.",
+    "citations": [
+     "mx-ccf-1288",
+     "mx-ccf-1682"
+    ],
+    "valueEn": {
+     "en": "executorship",
+     "basis": "descriptive"
+    }
+   }
+  },
+  "citations": [
+   {
+    "id": "mx-ccf-2595",
+    "cite": "Código Civil Federal, art. 2595",
+    "title": "Terminación del mandato",
+    "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "El mandato termina: I. Por la revocación; II. Por la renuncia del mandatario; III. Por la muerte del mandante o del mandatario; IV. Por la interdicción"
+   },
+   {
+    "id": "mx-ccf-1281",
+    "cite": "Código Civil Federal, art. 1281",
+    "title": "Concepto de herencia",
+    "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Herencia es la sucesión en todos los bienes del difunto y en todos sus derechos y obligaciones que no se extinguen por la muerte."
+   },
+   {
+    "id": "mx-ccf-1288",
+    "cite": "Código Civil Federal, art. 1288",
+    "title": "Adquisición de la masa hereditaria",
+    "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A la muerte del autor de la sucesión los herederos adquieren derecho a la masa hereditaria como a un patrimonio común, mientras que no se hace la división."
+   },
+   {
+    "id": "mx-ccf-1682",
+    "cite": "Código Civil Federal, art. 1682",
+    "title": "Elección de albacea por los herederos",
+    "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Cuando el testador no hubiere designado albacea o el nombrado no desempeñare el cargo, los herederos elegirán albacea por mayoría de votos."
    }
   ]
  },

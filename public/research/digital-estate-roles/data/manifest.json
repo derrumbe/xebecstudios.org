@@ -91,6 +91,17 @@
       "jurisdictions/us-tx.json"
      ],
      "country": "us"
+    },
+    {
+     "id": "us-wa",
+     "name": "Washington",
+     "short": "WA",
+     "code": "WA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-wa.json"
+     ],
+     "country": "us"
     }
    ]
   },
@@ -276,6 +287,38 @@
    ]
   },
   {
+   "id": "br",
+   "name": "Brazil",
+   "jurisdictions": [
+    {
+     "id": "br-national",
+     "name": "Brazil",
+     "short": "BR",
+     "files": [
+      "jurisdictions/br-national.json"
+     ],
+     "country": "br",
+     "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here."
+    }
+   ]
+  },
+  {
+   "id": "mx",
+   "name": "Mexico",
+   "jurisdictions": [
+    {
+     "id": "mx-federal",
+     "name": "Mexico — federal law",
+     "short": "MX",
+     "files": [
+      "jurisdictions/mx-federal.json"
+     ],
+     "country": "mx",
+     "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here."
+    }
+   ]
+  },
+  {
    "id": "dk",
    "name": "Denmark",
    "jurisdictions": [
@@ -378,6 +421,17 @@
    "extends": "us-model",
    "files": [
     "jurisdictions/us-tx.json"
+   ],
+   "country": "us"
+  },
+  {
+   "id": "us-wa",
+   "name": "Washington",
+   "short": "WA",
+   "code": "WA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-wa.json"
    ],
    "country": "us"
   },
@@ -519,6 +573,26 @@
    ],
    "country": "fi",
    "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues."
+  },
+  {
+   "id": "br-national",
+   "name": "Brazil",
+   "short": "BR",
+   "files": [
+    "jurisdictions/br-national.json"
+   ],
+   "country": "br",
+   "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here."
+  },
+  {
+   "id": "mx-federal",
+   "name": "Mexico — federal law",
+   "short": "MX",
+   "files": [
+    "jurisdictions/mx-federal.json"
+   ],
+   "country": "mx",
+   "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here."
   },
   {
    "id": "dk-national",
