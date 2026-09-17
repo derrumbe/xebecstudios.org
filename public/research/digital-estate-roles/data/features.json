@@ -6952,5 +6952,234 @@
     "quote": "Skifteretten udleverer et bo til behandling ved bobestyrer, såfremt 1) en arving anmoder derom, 2) boet må antages at være insolvent ... 4) afdøde har bestemt dette i testamente"
    }
   ]
+ },
+ "kr-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "An ordinary mandate ends on the death or bankruptcy of either party; the durable instrument is the guardianship contract, which needs an authentic deed and takes effect only when the Family Court appoints a supervisor.",
+    "citations": [
+     "kr-civil-690",
+     "kr-civil-959-14"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "The guardianship contract is inherently springing: it takes effect at the time the Family Court appoints a supervisor of voluntary guardianship, once the principal is deemed to lack capacity to manage affairs.",
+    "citations": [
+     "kr-civil-959-14",
+     "kr-civil-959-15"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": true,
+    "note": "The contract must be registered, and a supervisor appointed by the Family Court, before it has effect.",
+    "citations": [
+     "kr-civil-959-14",
+     "kr-civil-959-15"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": 2011,
+    "name": "Specific guardianship, Civil Act arts 14-2 and 959-11 (added by Act No. 10429, 7 Mar 2011)",
+    "citations": [
+     "kr-civil-14-2",
+     "kr-civil-959-11"
+    ]
+   },
+   "probateGrantName": {
+    "value": "none",
+    "note": "No grant of representation. Inheritance is commenced by death and the heir succeeds to the blanket rights and duties of the estate from that moment.",
+    "citations": [
+     "kr-civil-997",
+     "kr-civil-1005"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "kr-civil-690",
+    "cite": "Civil Act (Republic of Korea), Article 690",
+    "title": "Death, Bankruptcy, etc. and Termination of Mandate",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A mandate shall terminate upon the death or bankruptcy of either party. The same shall apply where the mandatory is adjudged to commence adult guardianship."
+   },
+   {
+    "id": "kr-civil-959-14",
+    "cite": "Civil Act (Republic of Korea), Article 959-14",
+    "title": "Meaning, Method, etc. of Contracting Guardianship",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "The contents of a guardianship contract shall be to entrust all or some of a person's affairs related to property management and protection of private matters to another person where the person is in the state of lacking the capacity to manage the affairs due to a disease, disability, old age or by any other cause or…"
+   },
+   {
+    "id": "kr-civil-959-15",
+    "cite": "Civil Act (Republic of Korea), Article 959-15",
+    "title": "Appointment of Supervisors of Voluntary Guardianship",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Where a guardianship contract is registered and the principal is deemed in the state of lacking capacity to mange his or her affairs, the Family Court shall appoint a supervisor of voluntary guardianship upon the application of the principal, his or her spouse, any of the first cousins or closer relatives, the…"
+   },
+   {
+    "id": "kr-civil-14-2",
+    "cite": "Civil Act (Republic of Korea), Article 14-2",
+    "title": "Adjudication on Specific Guardian",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "The Family Court shall adjudicate on the commencement of specific guardianship for a person who requires temporary guardianship or guardianship for any specific affairs due to mental restraints caused by a disease, disability, old age or by any other cause upon the application of the principal, his or her spouse, his…"
+   },
+   {
+    "id": "kr-civil-959-11",
+    "cite": "Civil Act (Republic of Korea), Article 959-11",
+    "title": "Rights to Representation of Specific Guardians",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "The Family Court may adjudge to confer the right to representation on a specific guardian to support a specific ward, setting the period and scope thereof, if deemed necessary. In cases falling under paragraph (1), the Family Court may order a specific guardian to obtain the consent of the supervisor of specific…"
+   },
+   {
+    "id": "kr-civil-997",
+    "cite": "Civil Act (Republic of Korea), Article 997",
+    "title": "Causes for Commencement of Inheritance",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "An inheritance shall be commenced by death."
+   },
+   {
+    "id": "kr-civil-1005",
+    "cite": "Civil Act (Republic of Korea), Article 1005",
+    "title": "Inheritance and Succession of Blanket Rights and Duties",
+    "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "An inheritor succeeds, from the time of the commencement of the inheritance, to the blanket rights and duties pertaining to the property of the inheritee: Provided , That this shall not apply to the property which is entirely personal to the inheritee."
+   }
+  ]
+ },
+ "ar-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "The mandate is extinguished by the death or incapacity of either mandante or mandatario, and the power by the death of representative or represented.",
+    "citations": [
+     "ar-ccyc-1329",
+     "ar-ccyc-380"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "restricted",
+    "note": "Only for health: a fully capable person may anticipate directives and confer a mandate about their health in anticipation of their own incapacity. No equivalent for property.",
+    "citations": [
+     "ar-ccyc-60",
+     "ar-ccyc-1329"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity",
+    "note": "The directive and the health mandate are made in anticipation of the grantor’s own incapacity.",
+    "citations": [
+     "ar-ccyc-60"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": null,
+    "name": "Medidas de apoyo, Código Civil y Comercial arts 32, 38 and 43",
+    "citations": [
+     "ar-ccyc-32",
+     "ar-ccyc-38",
+     "ar-ccyc-43"
+    ]
+   },
+   "probateGrantName": {
+    "value": "investidura de la calidad de heredero",
+    "note": "No grant for the closest heirs: descendants, ascendants and the spouse are invested from the day of death without formality. Collateral and testamentary heirs are invested by the succession judge.",
+    "citations": [
+     "ar-ccyc-2337",
+     "ar-ccyc-2338"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "ar-ccyc-1329",
+    "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 1329",
+    "title": "Extinción del mandato",
+    "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Extinción del mandato. El mandato se extingue: a) por el transcurso del plazo por el que fue otorgado, o por el cumplimiento de la condición resolutoria pactada; b) por la ejecución del negocio para el cual fue dado; c) por la revocación del mandante; d) por la renuncia del mandatario; e) por la muerte o incapacidad del…"
+   },
+   {
+    "id": "ar-ccyc-380",
+    "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 380",
+    "title": "Extinción",
+    "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Extinción. El poder se extingue: a) por el cumplimiento del o de los actos encomendados en el apoderamiento; b) por la muerte del representante o del representado; sin embargo subsiste en caso de muerte del representado siempre que haya sido conferido para actos especialmente determinados y en razón de un interés legítimo que…"
+   },
+   {
+    "id": "ar-ccyc-60",
+    "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 60",
+    "title": "Directivas médicas anticipadas",
+    "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Directivas médicas anticipadas. La persona plenamente capaz puede anticipar directivas y conferir mandato respecto de su salud y en previsión de su propia incapacidad. Puede también designar a la persona o personas que han de expresar el consentimiento para los actos médicos y para ejercer su curatela. Las directivas que…"
+   },
+   {
+    "id": "ar-ccyc-32",
+    "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 32",
+    "title": "Persona con capacidad restringida y con incapacidad",
+    "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Persona con capacidad restringida y con incapacidad. El juez puede restringir la capacidad para determinados actos de una persona mayor de trece años que padece una adicción o una alteración mental permanente o prolongada, de suficiente gravedad, siempre que estime que del ejercicio de su plena capacidad puede resultar un daño…"
+   },
+   {
+    "id": "ar-ccyc-38",
+    "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 38",
+    "title": "Alcances de la sentencia",
+    "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Alcances de la sentencia. La sentencia debe determinar la extensión y alcance de la restricción y especificar las funciones y actos que se limitan, procurando que la afectación de la autonomía personal sea la menor posible. Asimismo, debe designar una o más personas de apoyo o curadores de acuerdo a lo establecido en el"
+   },
+   {
+    "id": "ar-ccyc-43",
+    "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 43",
+    "title": "Concepto",
+    "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Concepto. Función. Designación. Se entiende por apoyo cualquier medida de carácter judicial o extrajudicial que facilite a la persona que lo necesite la toma de decisiones para dirigir su persona, administrar sus bienes y celebrar actos jurídicos en general. Las medidas de apoyo tienen como función la de promover la autonomía y…"
+   },
+   {
+    "id": "ar-ccyc-2337",
+    "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2337",
+    "title": "Investidura de pleno derecho",
+    "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Investidura de pleno derecho. Si la sucesión tiene lugar entre ascendientes, descendientes y cónyuge, el heredero queda investido de su calidad de tal desde el día de la muerte del causante, sin ninguna formalidad o intervención de los jueces, aunque ignore la apertura de la sucesión y su llamamiento a la herencia. Puede…"
+   },
+   {
+    "id": "ar-ccyc-2338",
+    "cite": "Código Civil y Comercial de la Nación (Ley 26.994), artículo 2338",
+    "title": "Facultades judiciales",
+    "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Facultades judiciales. En la sucesión de los colaterales, corresponde al juez del juicio sucesorio investir a los herederos de su carácter de tales, previa justificación del fallecimiento del causante y del título hereditario invocado. En las sucesiones testamentarias, la investidura resulta de la declaración de validez formal…"
+   }
+  ]
  }
 }

@@ -349,6 +349,38 @@
      "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions."
     }
    ]
+  },
+  {
+   "id": "kr",
+   "name": "South Korea",
+   "jurisdictions": [
+    {
+     "id": "kr-national",
+     "name": "South Korea",
+     "short": "KR",
+     "files": [
+      "jurisdictions/kr-national.json"
+     ],
+     "country": "kr",
+     "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs."
+    }
+   ]
+  },
+  {
+   "id": "ar",
+   "name": "Argentina",
+   "jurisdictions": [
+    {
+     "id": "ar-national",
+     "name": "Argentina",
+     "short": "AR",
+     "files": [
+      "jurisdictions/ar-national.json"
+     ],
+     "country": "ar",
+     "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded."
+    }
+   ]
   }
  ],
  "jurisdictions": [
@@ -629,6 +661,26 @@
    ],
    "country": "dk",
    "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions."
+  },
+  {
+   "id": "kr-national",
+   "name": "South Korea",
+   "short": "KR",
+   "files": [
+    "jurisdictions/kr-national.json"
+   ],
+   "country": "kr",
+   "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs."
+  },
+  {
+   "id": "ar-national",
+   "name": "Argentina",
+   "short": "AR",
+   "files": [
+    "jurisdictions/ar-national.json"
+   ],
+   "country": "ar",
+   "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded."
   }
  ],
  "adoption": "adoption.json",
