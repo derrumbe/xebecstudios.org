@@ -1,0 +1,19 @@
+---
+import { getCollection, render } from 'astro:content';
+import Essay from '../layouts/Essay.astro';
+
+export async function getStaticPaths() {
+  const essays = await getCollection('essays', ({ data }) => !data.draft);
+  // Slugs are bare, at the site root, exactly as Ghost served them. That is
+  // what keeps /death-of-authenticity/ resolving after the move.
+  return essays.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+// Glosses are extracted from the body by remark, so they arrive here rather
+// than in entry.data.
+const { Content, remarkPluginFrontmatter } = await render(entry);
+---
+<Essay entry={entry} body={entry.body} glosses={remarkPluginFrontmatter.glosses ?? []}>
+  <Content />
+</Essay>

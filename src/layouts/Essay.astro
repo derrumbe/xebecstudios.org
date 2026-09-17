@@ -1,0 +1,125 @@
+---
+import Base from './Base.astro';
+import Margin from '../components/Margin.astro';
+import CompassRose from '../components/CompassRose.astro';
+import { SITE, fmtDate, readingMinutes } from '../consts';
+import { getEntry } from 'astro:content';
+
+const { entry, body, glosses = [] } = Astro.props;
+const d = entry.data;
+
+const minutes = readingMinutes(body ?? '');
+const talk = d.talk ? await getEntry('speaking', d.talk) : undefined;
+
+// The margin always has something in it. Header apparatus first, then any
+// glosses without a paragraph anchor.
+const headerNote = [d.subject, `${minutes} minutes`, d.series ? `Part of ${d.series}` : null]
+  .filter(Boolean)
+  .join('. ') + '.';
+---
+<Base title={d.title} description={d.description} type="article">
+  <div class="wrap">
+    <article>
+      <div class="art-open">
+        <div class="grid">
+          <Margin label={fmtDate(d.date, true)} notes={[{ note: headerNote }]}>
+            <CompassRose size={92} bearings={9} class="art-rose" />
+          </Margin>
+          <div>
+            <h1>{d.title}</h1>
+            <p class="byline">{SITE.author}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid" style="align-items:start">
+        <div class="margin art-margin">
+          {glosses.map((g: any) => (
+            <p class:list={['note', g.tone === 'aside' && 'aside']} data-at={g.at}>{g.note}</p>
+          ))}
+        </div>
+        <div>
+          <div class="body"><slot /></div>
+
+          {talk && (
+            <aside class="tie">
+              <p class="label">Said aloud, first</p>
+              <p><a href={`/speaking/#${talk.id}`}>{talk.data.title}</a></p>
+              <p class="sub">
+                {talk.data.event}, {fmtDate(talk.data.date, true)}.
+                {talk.data.minutes ? ` ${talk.data.minutes} minutes.` : ''}
+              </p>
+            </aside>
+          )}
+
+          {SITE.giscus.repoId && (
+            <section class="responses">
+              <h2>Responses</h2>
+              <p>Kept in GitHub Discussions. No trackers and no third-party cookies.</p>
+              <script
+                src="https://giscus.app/client.js"
+                data-repo={SITE.giscus.repo}
+                data-repo-id={SITE.giscus.repoId}
+                data-category={SITE.giscus.category}
+                data-category-id={SITE.giscus.categoryId}
+                data-mapping="pathname"
+                data-reactions-enabled="1"
+                data-theme="preferred_color_scheme"
+                data-lang="en"
+                crossorigin="anonymous"
+                async
+              />
+            </section>
+          )}
+        </div>
+      </div>
+    </article>
+  </div>
+</Base>
+
+<style is:global>
+  .art-rose{margin-top:26px}
+  .art-margin{padding-top:46px}
+</style>
+
+<script>
+  /**
+   * Align anchored glosses to the paragraph they comment on.
+   *
+   * Progressive: with no JS the notes stack in document order, which is a
+   * perfectly readable apparatus. With JS each one slides down to meet its
+   * paragraph. Runs only on the two-column layout — below 880px the margin is
+   * stacked above the text and alignment is meaningless.
+   */
+  const place = () => {
+    const marg = document.querySelector<HTMLElement>('.art-margin');
+    const body = document.querySelector<HTMLElement>('.body');
+    if (!marg || !body) return;
+
+    const notes = Array.from(marg.querySelectorAll<HTMLElement>('[data-at]'));
+    notes.forEach((n) => (n.style.marginTop = ''));
+    if (window.innerWidth < 880) return;
+
+    const paras = Array.from(body.querySelectorAll<HTMLElement>(':scope > p'));
+    const base = marg.getBoundingClientRect().top;
+
+    // Sequentially, because moving one note shifts every note after it.
+    for (const n of notes) {
+      const target = paras[Number(n.dataset.at)];
+      if (!target) continue;
+      const want = target.getBoundingClientRect().top - base;
+      const have = n.offsetTop;
+      if (want > have) n.style.marginTop = `${want - have}px`;
+    }
+  };
+
+  const debounced = (() => {
+    let t: number;
+    return () => { clearTimeout(t); t = window.setTimeout(place, 120); };
+  })();
+
+  place();
+  window.addEventListener('resize', debounced);
+  // Web fonts change paragraph heights after first paint.
+  if (document.fonts) document.fonts.ready.then(place);
+</script>

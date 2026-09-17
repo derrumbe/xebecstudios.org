@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import Margin from '../../components/Margin.astro';
+import { getCollection } from 'astro:content';
+import { SUBJECTS } from '../../content.config';
+import { fmtDate } from '../../consts';
+
+export async function getStaticPaths() {
+  return SUBJECTS.map((s) => ({ params: { subject: s.toLowerCase() }, props: { subject: s } }));
+}
+const { subject } = Astro.props;
+const essays = (await getCollection('essays', ({ data }) => !data.draft && data.subject === subject))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Base title={subject} description={`Essays filed under ${subject}.`}>
+  <div class="wrap">
+    <section class="band">
+      <div class="grid" style="margin-bottom:18px">
+        <Margin label={subject} notes={[{ note: `${essays.length} pieces.`, tone: 'aside' }]} />
+        <div>
+          <nav class="filters" aria-label="Filter essays by subject">
+            <a href="/essays/">Everything</a>
+            {SUBJECTS.map((s) => (
+              <a href={`/subjects/${s.toLowerCase()}/`} aria-current={s === subject ? 'page' : undefined}>{s}</a>
+            ))}
+          </nav>
+        </div>
+      </div>
+      {essays.map((e) => (
+        <a class="item" href={`/${e.id}/`}>
+          <span class="apparatus">{fmtDate(e.data.date)}<span class="subject">{e.data.subject}</span></span>
+          <span><h3>{e.data.title}</h3><p>{e.data.description}</p></span>
+        </a>
+      ))}
+    </section>
+  </div>
+</Base>

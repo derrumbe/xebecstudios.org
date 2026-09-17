@@ -1,0 +1,15 @@
+{
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "public/images",
+  "alwaysUpdateLinks": false,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "userIgnoreFilters": [
+    "node_modules/",
+    "dist/",
+    ".astro/",
+    "dist-redirects/",
+    "_ghost-export/"
+  ]
+}

@@ -1,0 +1,89 @@
+---
+/**
+ * A mariner's compass rose, with the 32-point rhumb network anchored to it.
+ *
+ * Eight points, each split lengthwise into a filled and an outlined half so it
+ * reads as faceted metal rather than as a symbol. North is the red one — that's
+ * a navigational convention, and it puts the accent colour somewhere it means
+ * something. The bezel carries the same 32 divisions as the bearings, so the
+ * rose and the lines are visibly the same instrument.
+ *
+ * The lines are a fixed-size SVG centred on this element with z-index -1, so
+ * they follow the rose wherever CSS puts it. Do not try to align them by
+ * viewBox coordinates — that drifts with the viewport and lands on the margin
+ * text at some widths.
+ */
+interface Props {
+  size?: number;
+  /** 32 for the home page, 9 for an article header, 0 for the rose alone. */
+  bearings?: number;
+  class?: string;
+}
+const { size = 150, bearings = 32, class: className = '' } = Astro.props;
+
+const c = size / 2;
+const Rmaj = size * 0.387;
+const Rmin = size * 0.267;
+const w = size * 0.067;
+const ring = size * 0.427;
+const tick = size * 0.04;
+
+const P = (r: number, deg: number): [number, number] => {
+  const a = (deg * Math.PI) / 180;
+  return [c + r * Math.cos(a), c + r * Math.sin(a)];
+};
+const F = ([x, y]: [number, number]) => `${x.toFixed(1)},${y.toFixed(1)}`;
+
+const ticks = Array.from({ length: 32 }, (_, i) => {
+  const d = i * 11.25 - 90;
+  const [x1, y1] = P(ring, d);
+  const [x2, y2] = P(ring + tick, d);
+  return { cls: i % 4 === 0 ? 'tk-p' : i % 2 === 0 ? 'tk-h' : 'tk-q', x1, y1, x2, y2 };
+});
+
+// Minor points first so the majors sit over them.
+const points = [
+  [45, Rmin], [135, Rmin], [225, Rmin], [315, Rmin],
+  [0, Rmaj], [90, Rmaj], [180, Rmaj], [270, Rmaj],
+].map(([deg, R]) => {
+  const d = deg - 90;
+  return {
+    solid: `${F(P(R, d))} ${F(P(w, d - 90))} ${c},${c}`,
+    open: `${F(P(R, d))} ${F(P(w, d + 90))} ${c},${c}`,
+    north: d === -90,
+  };
+});
+
+const lineIdx =
+  bearings >= 32 ? Array.from({ length: 32 }, (_, i) => i)
+  : bearings > 0 ? Array.from({ length: bearings }, (_, i) => i - Math.floor(bearings / 2))
+  : [];
+---
+
+<div class:list={['rose-node', className]} style={`width:${size}px`}>
+  {lineIdx.length > 0 && (
+    <svg class="lines" viewBox="0 0 2600 2600" aria-hidden="true">
+      {lineIdx.map((i) => (
+        <line
+          class={i % 4 === 0 ? 'w-p' : i % 2 === 0 ? 'w-h' : 'w-q'}
+          x1="1300" y1="1300" x2="3300" y2="1300"
+          transform={i === 0 ? undefined : `rotate(${i * 11.25} 1300 1300)`}
+        />
+      ))}
+    </svg>
+  )}
+  <svg class="rose" viewBox={`0 0 ${size} ${size}`} aria-hidden="true">
+    <circle class="bez" cx={c} cy={c} r={ring} />
+    <circle class="bez" cx={c} cy={c} r={ring + tick} />
+    {ticks.map((t) => (
+      <line class={t.cls} x1={t.x1.toFixed(1)} y1={t.y1.toFixed(1)} x2={t.x2.toFixed(1)} y2={t.y2.toFixed(1)} />
+    ))}
+    {points.map((p) => (
+      <>
+        <polygon class={p.north ? 'pt-n' : 'pt-solid'} points={p.solid} />
+        <polygon class="pt-open" points={p.open} />
+      </>
+    ))}
+    <circle class="hub" cx={c} cy={c} r={(w * 0.6).toFixed(1)} />
+  </svg>
+</div>

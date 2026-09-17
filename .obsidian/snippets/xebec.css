@@ -1,0 +1,40 @@
+/* Xebec Studios — make Obsidian's editor look a little like the site.
+   Enable under Settings → Appearance → CSS snippets. */
+
+/* --- glosses as margin notes --- */
+.callout[data-callout="gloss"],
+.callout[data-callout="aside"] {
+  background: transparent;
+  border: none;
+  border-left: 2px solid var(--xbc-rule, #A8322A);
+  border-radius: 0;
+  padding: 2px 0 2px 14px;
+  margin: 1.1em 0 1.1em 0;
+  mix-blend-mode: normal;
+}
+.callout[data-callout="aside"] { --xbc-rule: #3F6B58; }
+
+/* The title row is noise here — the rule colour already says which it is. */
+.callout[data-callout="gloss"] .callout-title,
+.callout[data-callout="aside"] .callout-title { display: none; }
+
+.callout[data-callout="gloss"] .callout-content,
+.callout[data-callout="aside"] .callout-content {
+  font-style: italic;
+  font-size: 0.88em;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+.callout[data-callout="gloss"] .callout-content p:last-child,
+.callout[data-callout="aside"] .callout-content p:last-child { margin-bottom: 0; }
+
+/* Live Preview shows the raw marker line while the cursor is inside the
+   callout. Dim it rather than hiding it, so it stays editable. */
+.cm-callout .callout-title { opacity: .45; font-size: .82em; }
+
+/* --- reading comfort, roughly matching the site's measure --- */
+.markdown-source-view.mod-cm6 .cm-content,
+.markdown-preview-view { max-width: 38rem; }
+
+/* --- frontmatter properties: quieter --- */
+.metadata-container { font-size: .88em; }

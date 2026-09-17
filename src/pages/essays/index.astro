@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import Margin from '../../components/Margin.astro';
+import { getCollection } from 'astro:content';
+import { SUBJECTS } from '../../content.config';
+import { fmtDate } from '../../consts';
+
+const essays = (await getCollection('essays', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Base title="Essays" description="Everything, oldest question first.">
+  <div class="wrap">
+    <section class="band">
+      <div class="grid" style="margin-bottom:18px">
+        <Margin label="Essays" notes={[{ note: `${essays.length} pieces, newest first.`, tone: 'aside' }]} />
+        <div>
+          <nav class="filters" aria-label="Filter essays by subject">
+            <a href="/essays/" aria-current="page">Everything</a>
+            {SUBJECTS.map((s) => <a href={`/subjects/${s.toLowerCase()}/`}>{s}</a>)}
+          </nav>
+        </div>
+      </div>
+      {essays.map((e) => (
+        <a class="item" href={`/${e.id}/`}>
+          <span class="apparatus">{fmtDate(e.data.date)}<span class="subject">{e.data.subject}</span></span>
+          <span><h3>{e.data.title}</h3><p>{e.data.description}</p></span>
+        </a>
+      ))}
+    </section>
+  </div>
+</Base>

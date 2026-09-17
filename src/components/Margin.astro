@@ -1,0 +1,18 @@
+---
+/**
+ * The margin column. It is never empty — that is the whole discipline of this
+ * layout. If a page has nothing to gloss, it still shows the apparatus (date,
+ * subject, length) so the column reads as intentional rather than unfinished.
+ */
+interface Props {
+  label?: string;
+  notes?: { note: string; tone?: 'claim' | 'aside' }[];
+  class?: string;
+}
+const { label, notes = [], class: className = '' } = Astro.props;
+---
+<div class:list={['margin', className]}>
+  {label && <p class="label">{label}</p>}
+  {notes.map((n) => <p class:list={['note', n.tone === 'aside' && 'aside']}>{n.note}</p>)}
+  <slot />
+</div>

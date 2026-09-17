@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro';
+import Margin from '../components/Margin.astro';
+import CompassRose from '../components/CompassRose.astro';
+import { getCollection } from 'astro:content';
+import { SUBJECTS } from '../content.config';
+import { fmtDate } from '../consts';
+
+const essays = (await getCollection('essays', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const recent = essays.slice(0, 5);
+
+const talks = (await getCollection('speaking'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
+
+const projects = (await getCollection('projects'))
+  .sort((a, b) => a.data.order - b.data.order).slice(0, 3);
+---
+<Base>
+  <div class="wrap">
+    <div class="plate">
+      <div class="grid">
+        <Margin
+          label="Xebec"
+          notes={[{ note: 'A three-masted ship. Also, if you replace every plank of one, the ship people have argued about for two thousand years.' }]}
+        >
+          <CompassRose size={152} bearings={32} class="hero-rose" />
+        </Margin>
+        <div>
+          <h1>An old question, asked with new equipment.</h1>
+          <p class="lede">
+            <a href="/about/">Mike Kiser</a> writes here about identity: who you are, who gets to
+            say so, and what it costs. Often that means digital systems, because that is where the
+            argument is currently loudest. It also means history and philosophy, because the
+            question is a great deal older than the technology.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="band">
+      <div class="grid" style="margin-bottom:18px">
+        <Margin notes={[{ note: 'Three ways at one subject. The technical pieces are usually the ones with deadlines.', tone: 'aside' }]} />
+        <div>
+          <div class="band-head">
+            <h2>Essays</h2>
+            <a href="/essays/">All essays</a>
+          </div>
+          <nav class="filters" aria-label="Filter essays by subject">
+            <a href="/essays/" aria-current="page">Everything</a>
+            {SUBJECTS.map((s) => <a href={`/subjects/${s.toLowerCase()}/`}>{s}</a>)}
+          </nav>
+        </div>
+      </div>
+
+      {recent.map((e, i) => (
+        <a class:list={['item', i === 0 && 'first']} href={`/${e.id}/`}>
+          <span class="apparatus">
+            {fmtDate(e.data.date)}
+            <span class="subject">{e.data.subject}</span>
+          </span>
+          <span>
+            <h3>{e.data.title}</h3>
+            <p>{e.data.description}</p>
+          </span>
+        </a>
+      ))}
+    </section>
+
+    <section class="band">
+      <div class="grid">
+        <Margin
+          label="Elsewhere"
+          notes={[{ note: 'Talks usually arrive before the essay. The essay is the argument after it survived questions.' }]}
+        />
+        <div class="pair">
+          <div>
+            <div class="band-head"><h2>Speaking</h2><a href="/speaking/">Full list</a></div>
+            {talks.map((t) => (
+              <div class="stub">
+                <h4>{t.data.title}</h4>
+                <p><span class="where">{t.data.event}.</span> {t.data.location}, {t.data.date.getUTCFullYear()}</p>
+              </div>
+            ))}
+          </div>
+          <div>
+            <div class="band-head"><h2>Open work</h2><a href="/projects/">All projects</a></div>
+            {projects.map((p) => (
+              <div class="stub">
+                <h4>{p.data.title}</h4>
+                <p>{p.data.summary}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style is:global>.hero-rose{margin-top:34px}</style>
