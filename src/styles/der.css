@@ -239,3 +239,24 @@
    reachable only by direct URL or from the sitemap. */
 .der .static-link { margin: .6rem 0 0; font-size: .92rem; color: var(--ink-2); }
 .der .canon-link { margin: .4rem 0 0; font-size: .95rem; }
+
+/* ---------- feedback form ---------- */
+.der .fb-form { display: grid; gap: 1rem; max-width: 42rem; margin-top: 1.2rem; }
+.der .fb-form label { display: grid; gap: .3rem; }
+.der .fb-form label > span { font-size: .9rem; color: var(--ink-2); }
+.der .fb-form input, .der .fb-form select, .der .fb-form textarea {
+  font: inherit; font-size: .95rem; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; padding: .5rem .6rem; width: 100%;
+}
+.der .fb-form textarea { resize: vertical; min-height: 7rem; }
+.der .fb-form button { justify-self: start; font: inherit; font-size: .95rem; cursor: pointer;
+  color: var(--surface); background: var(--accent); border: 1px solid var(--accent);
+  border-radius: 8px; padding: .5rem 1.1rem; }
+.der .fb-form .hint { margin: 0; }
+/* A honeypot, not a real field: off-screen rather than display:none, which some bots skip. */
+.der .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.der .form-msg { border: 1px solid var(--line); border-left-width: 3px; border-radius: 8px;
+  padding: .7rem .9rem; margin: 1rem 0 0; background: var(--surface-2); }
+.der .form-msg.ok { border-left-color: var(--active); }
+.der .form-msg.warn { border-left-color: var(--end); }
+.der .report-link { margin: .3rem 0 0; font-size: .88rem; }

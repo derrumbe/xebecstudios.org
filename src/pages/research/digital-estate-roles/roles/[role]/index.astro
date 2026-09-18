@@ -28,6 +28,11 @@ const PHASE: Record<string, string> = {
 const cite = (id: string) => role.citations[id];
 const viewer = (j: any) =>
   `/research/digital-estate-roles/#j=${j.jurisdiction}&tab=role&role=${j.roleId}`;
+// Prefilled so a reader reporting a gap does not have to explain which page they meant.
+const report = (j: any) =>
+  `/research/digital-estate-roles/feedback/?j=${encodeURIComponent(j.jurisdiction)}`
+  + `&role=${encodeURIComponent(j.roleId)}`
+  + `&page=${encodeURIComponent('/research/digital-estate-roles/roles/' + role.id + '/')}`;
 
 // group the rows by region for reading, keeping build.py's order within each
 const regions: { region: string; rows: any[] }[] = [];
@@ -93,6 +98,9 @@ const others = roles.filter((r: any) => r.id !== role.id);
                     </dd></>
                   ))}
                 </dl>
+                <p class="report-link">
+                  <a href={report(j)}>Something missing or wrong for {j.label}?</a>
+                </p>
                 {j.citations.length > 0 && (
                   <p class="cites">
                     {j.citations.map((id: string, i: number) => {
