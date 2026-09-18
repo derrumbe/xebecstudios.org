@@ -1,0 +1,59 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import '../../../../styles/der.css';
+import { readFileSync } from 'node:fs';
+
+/**
+ * Index of the canonical roles.
+ *
+ * These pages exist so that DADE documents have stable, citable URLs. The viewer's own
+ * deep links work for a reader in a browser, but the fragment never reaches the server,
+ * so anything that fetches rather than renders — a crawler, an archiver, a link preview,
+ * a citation checker — sees only the app shell. These pages are server-rendered from
+ * data/canonicals.json, which scripts/build.py in digital-estate-roles precomputes.
+ */
+const DATA = '/research/digital-estate-roles/data/';
+const { roles } = JSON.parse(
+  readFileSync('public/research/digital-estate-roles/data/canonicals.json', 'utf8'),
+);
+const jurisdictions = new Set(roles.flatMap((r: any) => r.jurisdictions.map((j: any) => j.jurisdiction)));
+---
+
+<Base
+  title="Digital Estate Roles — roles"
+  description="Each role that holds legal authority over a person, their property or their digital estate, and how it works in every jurisdiction researched."
+>
+  <div class="wrap">
+    <section class="band">
+      <div class="der der-static">
+        <header class="static-head">
+          <p class="crumb"><a href="/research/digital-estate-roles/">Digital Estate Roles</a></p>
+          <h1>Roles</h1>
+          <p class="lede">
+            Every role that holds legal authority over a person, their property or their digital
+            estate. Each page sets out how that role works across all {jurisdictions.size} jurisdictions
+            researched — when the authority is assigned, when it starts and when it ends — with the
+            statute or regulation behind each one.
+          </p>
+        </header>
+
+        <ul class="role-index">
+          {roles.map((r: any) => (
+            <li>
+              <a href={`/research/digital-estate-roles/roles/${r.id}/`}>{r.label}</a>
+              <p class="muted">{r.definition}</p>
+              <p class="counts">{r.jurisdictionCount} jurisdictions · {r.countryCount} countries</p>
+            </li>
+          ))}
+        </ul>
+
+        <p class="hint">
+          The <a href="/research/digital-estate-roles/">interactive viewer</a> carries the lifecycle
+          diagrams, state machines and the full source list for each jurisdiction.
+          <b>Not legal advice</b> — this is a research aid summarising primary legal sources as
+          retrieved on the dates shown.
+        </p>
+      </div>
+    </section>
+  </div>
+</Base>
