@@ -1,10 +1,12 @@
 // Digital Estate Roles viewer. Copied from the digital-estate-roles repo
-// (site/app.js) with one change: its own theme toggle is removed, because the
+// (site/app.js) with two changes: its own theme toggle is removed, because the
 // Xebec masthead already owns document.documentElement.dataset.theme and two
 // toggles writing different localStorage keys would fight over it.
 //
-// The data directory comes from data-base on the script tag, and every colour
-// resolves through CSS variables defined in src/styles/der.css.
+// The data directory comes from data-base on the mount element, and the base for the
+// static per-role pages from data-roles-base on it, because Astro bundles this as a
+// module where document.currentScript is null. Every colour resolves through CSS
+// variables defined in src/styles/der.css.
 
 /* Digital Estate Roles — static renderer. No dependencies.
  * Data: data/manifest.json -> jurisdiction files (base roles + overlay patches) + adoption.json
@@ -69,6 +71,10 @@
   const MOUNT = document.querySelector('[data-der]');
   const DATA_BASE = (MOUNT && MOUNT.dataset.base)
     || (document.currentScript && document.currentScript.dataset.base) || 'data/';
+  // Static per-canonical pages live on the host that has them. A deploy opts in by setting
+  // data-roles-base; where it is absent — irisar, which has no such pages — no link is drawn.
+  const ROLES_BASE = (MOUNT && MOUNT.dataset.rolesBase)
+    || (document.currentScript && document.currentScript.dataset.rolesBase) || '';
   async function getJSON(path) {
     const r = await fetch(DATA_BASE + path, { cache: 'no-cache' });
     if (!r.ok) throw new Error(path + ': HTTP ' + r.status);
@@ -671,6 +677,7 @@
           ${r.unverified ? '<span class="badge unv">contains unverified claims</span>' : ''}
         </div>
         ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
+        ${ROLES_BASE && r.canonical ? `<p class="canon-link"><a href="${esc(ROLES_BASE + r.canonical + '/')}">See this role in every jurisdiction</a></p>` : ''}
         ${r.diff ? `<div class="${r.differs ? 'diffbox' : 'card'}"><b>${esc(m.name)}${r.differs ? ' differs from the model baseline' : ''}:</b> ${esc(r.diff)}${
           r.stateCitations && r.stateCitations.length ? `<div class="cite">${citeLinks(m, r.stateCitations)}</div>` : ''}</div>` : ''}
       </div>
