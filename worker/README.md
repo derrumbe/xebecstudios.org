@@ -12,13 +12,29 @@ from.
 
 ## Before it can work
 
-Two secrets and one var. The var is in `wrangler.toml`; the secrets are not, and must never
-be committed:
+Authentication is a **GitHub App**, not a personal access token. A token expires, and when
+it does the failure is silent from our side — readers keep writing and nothing arrives,
+which is the worst possible failure for a form whose whole purpose is catching what you
+would otherwise never hear. An App mints an installation token per request, good for an
+hour.
+
+Create the App (Settings → Developer settings → GitHub Apps → New), give it **Repository
+permissions → Issues: Read and write** and nothing else, install it on the repository that
+receives the issues, and download its private key.
+
+Then:
 
 ```sh
-wrangler secret put GITHUB_TOKEN       # fine-grained PAT: Issues → read and write, on FEEDBACK_REPO only
-wrangler secret put TURNSTILE_SECRET   # the secret key of the Turnstile widget
+wrangler secret put GITHUB_APP_PRIVATE_KEY   # paste the .pem exactly as downloaded
+wrangler secret put TURNSTILE_SECRET         # the Turnstile widget's secret key
 ```
+
+and set `GITHUB_APP_ID` in `wrangler.toml` — the App's id is not a secret.
+
+You do not need the installation id: the Worker asks GitHub which installation covers
+`FEEDBACK_REPO`. The key can be pasted in either format — GitHub hands out PKCS#1
+(`BEGIN RSA PRIVATE KEY`) and WebCrypto wants PKCS#8, so the Worker converts it, and a test
+asserts that conversion is byte-identical to what `openssl pkcs8 -topk8` produces.
 
 The form also needs the widget's **site key**, which is public but is read at build time,
 not at run time. Set `PUBLIC_TURNSTILE_SITEKEY` in the Workers Builds environment
@@ -26,8 +42,8 @@ variables. Until it is set the form renders without the widget and the endpoint 
 every submission with `unconfigured` — deliberately, because a form that silently swallows
 what somebody wrote is worse than one that admits it is not ready.
 
-The token should be scoped to the single repository that receives the issues. It needs no
-access to code, and the repository can stay private: the reader never sees GitHub.
+The App needs no access to code, and the repository can stay private: the reader never sees
+GitHub.
 
 ## What it refuses
 
@@ -40,6 +56,7 @@ Turnstile are stubbed.
 - the honeypot field filled → accepted to the reader, discarded silently
 - missing configuration → refused, and says so
 - input is truncated before it reaches the API, so a 50 KB paste cannot become a 50 KB issue
+- an App that is not installed on the repository → nothing is filed
 
 Each outcome redirects to its own prerendered page under `feedback/`, rather than a query
 parameter on one page, because the site is prerendered: `?status=sent` would be invisible
