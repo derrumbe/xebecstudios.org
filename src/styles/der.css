@@ -235,3 +235,6 @@
   .der-static .lane { grid-template-columns: 1fr; gap: .1rem; }
   .der-static .lane dt { padding-top: .5rem; }
 }
+/* The one link from the viewer to the static role pages. Without it those pages are
+   reachable only by direct URL or from the sitemap. */
+.der .static-link { margin: .6rem 0 0; font-size: .92rem; color: var(--ink-2); }
