@@ -25,9 +25,19 @@ receives the issues, and download its private key.
 Then:
 
 ```sh
-wrangler secret put GITHUB_APP_PRIVATE_KEY   # paste the .pem exactly as downloaded
-wrangler secret put TURNSTILE_SECRET         # the Turnstile widget's secret key
+npx wrangler secret put GITHUB_APP_PRIVATE_KEY < path/to/app.private-key.pem
+npx wrangler secret put TURNSTILE_SECRET
 ```
+
+Piping the file avoids pasting a multi-line PEM into a prompt. The key is accepted in
+whatever shape it arrives — PKCS#1 or PKCS#8, flattened to one line with literal `\n`,
+quoted, or as downloaded.
+
+**Check the Worker name first.** These commands target the `name` in `wrangler.toml`, and
+if no Worker by that name exists wrangler creates an empty one and puts the secrets there,
+where nothing will ever read them. The live Worker is `xebecstudios-org`; the config once
+said `xebecstudios`, and that is exactly what happened. `wrangler secret list` will show
+you what a given Worker actually holds.
 
 and set `GITHUB_APP_ID` in `wrangler.toml` — the App's id is not a secret.
 

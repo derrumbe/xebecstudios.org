@@ -12,7 +12,12 @@
 # the reader's behalf so that nobody needs a GitHub account to report a gap. Every other
 # request is handed to env.ASSETS untouched.
 
-name = "xebecstudios"
+# The deployed Worker is xebecstudios-org, which is what Workers Builds creates and what
+# the dashboard shows. This said "xebecstudios" for a long time without anyone noticing,
+# because Workers Builds deploys by its own project name and never consulted it — but
+# `wrangler secret put` did, found no such Worker, and cheerfully created an empty one.
+# Secrets went there and the live Worker never saw them. Keep this matching the dashboard.
+name = "xebecstudios-org"
 main = "worker/index.js"
 compatibility_date = "2026-01-01"
 
