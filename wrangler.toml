@@ -26,6 +26,11 @@ FEEDBACK_REPO = "derrumbe/digital-estate-roles"
 directory = "./dist"
 # Bound so the Worker can fall through to the built files for everything but the one route.
 binding = "ASSETS"
+# Assets are matched before the Worker runs, and the feedback form's own page is an asset —
+# so without this a POST to it was answered by the asset handler with 405 and the script
+# never saw it. Naming the path makes the Worker run first there, and only there; its GET
+# still falls through to the page.
+run_worker_first = ["/research/digital-estate-roles/feedback/"]
 # Pages served /404.html for unmatched paths by convention. Workers does
 # not: the 404 page is built either way, but without this it is never
 # reached and visitors get the default response instead.
