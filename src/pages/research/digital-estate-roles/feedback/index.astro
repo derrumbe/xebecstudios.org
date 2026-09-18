@@ -1,0 +1,131 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import '../../../../styles/der.css';
+import { readFileSync } from 'node:fs';
+
+/**
+ * Report a gap, a mistake, or something missing for your jurisdiction.
+ *
+ * The form posts to the Worker route in worker/index.js, which files a GitHub issue using
+ * a token it holds. GitHub is the destination; nobody needs an account to reach it. The
+ * page is prefilled from query parameters so that a reader arriving from a role page does
+ * not have to explain which page they meant.
+ */
+const { roles } = JSON.parse(
+  readFileSync('public/research/digital-estate-roles/data/canonicals.json', 'utf8'),
+);
+const manifest = JSON.parse(
+  readFileSync('public/research/digital-estate-roles/data/manifest.json', 'utf8'),
+);
+
+// Turnstile's site key is public, but it is set per deploy; without it the form still
+// renders and the Worker refuses the post rather than pretending to have accepted it.
+const SITEKEY = import.meta.env.PUBLIC_TURNSTILE_SITEKEY || '';
+
+const jurisdictions = manifest.jurisdictions;
+---
+
+<Base
+  title="Report a gap — Digital Estate Roles"
+  description="Tell us what is missing, wrong or unclear for your jurisdiction. No account needed."
+>
+  <div class="wrap">
+    <section class="band">
+      <div class="der der-static">
+        <header class="static-head">
+          <p class="crumb">
+            <a href="/research/digital-estate-roles/">Digital Estate Roles</a> ·
+            <a href="/research/digital-estate-roles/roles/">Roles</a>
+          </p>
+          <h1>Report a gap</h1>
+          <p class="lede">
+            If you work with this law where you are and something here is missing, wrong, or
+            out of date, this is the place to say so. You do not need an account of any kind —
+            what you write is filed for us to work through.
+          </p>
+          <p class="counts">
+            What helps most: which jurisdiction, what the law actually provides, and a link to
+            the statute or regulation if you have one. Everything here is sourced to primary
+            law, so a pointer to the text is what lets a correction be made.
+          </p>
+        </header>
+
+        <form method="POST" action="/research/digital-estate-roles/feedback/" class="fb-form">
+          <label>
+            <span>What kind of thing is it?</span>
+            <select name="kind">
+              <option value="gap" >Something is missing</option>
+              <option value="correction" >Something is wrong or out of date</option>
+              <option value="unclear" >Something is unclear</option>
+              <option value="jurisdiction" >A jurisdiction you would like covered</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Jurisdiction</span>
+            <input list="jur-list" name="jurisdiction" placeholder="e.g. New South Wales, or au-nsw" autocomplete="off" />
+            <datalist id="jur-list">
+              {jurisdictions.map((j: any) => <option value={j.id}>{j.label || j.name}</option>)}
+            </datalist>
+          </label>
+
+          <label>
+            <span>Role, if it is about one</span>
+            <input list="role-list" name="role" placeholder="e.g. enduring guardian" autocomplete="off" />
+            <datalist id="role-list">
+              {roles.map((r: any) => <option value={r.id}>{r.label}</option>)}
+            </datalist>
+          </label>
+
+          <label>
+            <span>What is missing or wrong?</span>
+            <textarea name="body" rows="7" required minlength="20"
+              placeholder="In New South Wales an enduring guardian can also…"></textarea>
+          </label>
+
+          <label>
+            <span>A link to the statute or regulation, if you have one</span>
+            <input type="url" name="source" placeholder="https://legislation.nsw.gov.au/…" />
+          </label>
+
+          <label>
+            <span>How to reach you, if you would like a reply <em>(optional)</em></span>
+            <input name="contact" placeholder="email, or leave blank" />
+          </label>
+
+          <input type="hidden" name="page" value="" />
+          <input type="hidden" name="subject" value="" />
+          <p class="hp" aria-hidden="true">
+            <label>Leave this blank<input name="website" tabindex="-1" autocomplete="off" /></label>
+          </p>
+
+          {SITEKEY && <div class="cf-turnstile" data-sitekey={SITEKEY}></div>}
+
+          <button type="submit">Send</button>
+          <p class="hint">
+            What you send is filed as an issue for us to work through. Please do not include
+            anything confidential, and note that it is a research aid, not legal advice — we
+            cannot answer questions about your own situation.
+          </p>
+        </form>
+      </div>
+    </section>
+  </div>
+  <script is:inline>
+    // Convenience only: arriving from a role page carries the context, but the form is
+    // complete without it, because the page is prerendered and this may not run.
+    (() => {
+      const q = new URLSearchParams(location.search);
+      const set = (name, value) => {
+        const el = document.querySelector(`[name="${name}"]`);
+        if (el && value) el.value = value;
+      };
+      set('jurisdiction', q.get('j'));
+      set('role', q.get('role'));
+      set('page', q.get('page') || document.referrer || '');
+      const kind = q.get('kind');
+      if (kind) set('kind', kind);
+    })();
+  </script>
+  {SITEKEY && <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>}
+</Base>

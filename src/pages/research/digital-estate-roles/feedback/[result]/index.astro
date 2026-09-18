@@ -1,0 +1,59 @@
+---
+import Base from '../../../../../layouts/Base.astro';
+import '../../../../../styles/der.css';
+
+/**
+ * Where the Worker sends the reader after a submission.
+ *
+ * These are separate pages rather than one page reading ?status=, because the site is
+ * prerendered: a query parameter is not available at build time, so a reader with
+ * JavaScript off would be redirected to a page that said nothing at all. The whole point
+ * of this form is that it works for people who are not set up for any of this.
+ */
+export function getStaticPaths() {
+  return [
+    { params: { result: 'sent' }, props: {
+      tone: 'ok', heading: 'Thank you',
+      text: 'That has been filed. Everything on this site is sourced to primary law, so what you sent will be checked against the statute before anything changes — which means it may be a while before you see it reflected here.',
+    } },
+    { params: { result: 'short' }, props: {
+      tone: 'warn', heading: 'That was a little too short',
+      text: 'There was not enough there to act on. A sentence or two about what is missing or wrong, and where, is plenty — and a link to the provision if you have one.',
+    } },
+    { params: { result: 'captcha' }, props: {
+      tone: 'warn', heading: 'The anti-spam check did not pass',
+      text: 'Nothing was filed. If you have JavaScript turned off the check cannot run at all, which is the most likely explanation.',
+    } },
+    { params: { result: 'unconfigured' }, props: {
+      tone: 'warn', heading: 'The form is not switched on yet',
+      text: 'Nothing was sent and nothing was kept. This is our fault rather than yours: the form is published but not yet configured.',
+    } },
+    { params: { result: 'error' }, props: {
+      tone: 'warn', heading: 'Something went wrong',
+      text: 'Nothing was filed. Please try again — and if it keeps happening, it is worth telling us some other way.',
+    } },
+  ];
+}
+const { tone, heading, text } = Astro.props;
+---
+
+<Base title={`${heading} — Digital Estate Roles`} description="Feedback on the Digital Estate Roles research.">
+  <div class="wrap">
+    <section class="band">
+      <div class="der der-static">
+        <header class="static-head">
+          <p class="crumb">
+            <a href="/research/digital-estate-roles/">Digital Estate Roles</a> ·
+            <a href="/research/digital-estate-roles/roles/">Roles</a>
+          </p>
+          <h1>{heading}</h1>
+        </header>
+        <p class={`form-msg ${tone}`}>{text}</p>
+        <p class="hint">
+          <a href="/research/digital-estate-roles/feedback/">Back to the form</a> ·
+          <a href="/research/digital-estate-roles/">back to the viewer</a>
+        </p>
+      </div>
+    </section>
+  </div>
+</Base>
