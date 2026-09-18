@@ -55,6 +55,40 @@ what somebody wrote is worse than one that admits it is not ready.
 The App needs no access to code, and the repository can stay private: the reader never sees
 GitHub.
 
+## Setting a secret is not enough on its own
+
+This Worker records every change as a version, and the running code is whichever version is
+*deployed*. `wrangler secret put` stores the secret and creates a new version — it does not
+promote it. Until something deploys, the live Worker carries on with the version it had, and
+reports the secret missing, which is true of the code that is actually running.
+
+So after adding or rotating a secret:
+
+```sh
+npx wrangler versions deploy    # pick the newest, give it 100%
+```
+
+or merge anything to `main`, which makes Workers Builds deploy a fresh version carrying the
+Worker's current secrets. Either way, confirm with a POST — `?missing=` on the redirect names
+anything the running version still cannot see:
+
+```sh
+curl -si -X POST -d 'body=Checking which settings the running version can see' \
+  https://xebecstudios.org/research/digital-estate-roles/feedback/ | grep -i location
+```
+
+`captcha` is the good answer there: it means every setting resolved and only Turnstile is
+refusing, correctly, because curl has no widget token.
+
+Two things that cost an evening, so they are worth stating plainly:
+
+- **Check the Worker name before setting a secret.** `wrangler secret put` targets the `name`
+  in `wrangler.toml`. If no Worker has that name it creates an empty one and puts the secret
+  there, reporting success. The config said `xebecstudios` while the live Worker was
+  `xebecstudios-org`, and that is exactly what happened. `wrangler secret list` shows what a
+  given Worker actually holds.
+- **A secret that is stored is not necessarily a secret that is live.** See above.
+
 ## What it refuses
 
 `worker/index.test.mjs` covers the paths that matter, which are the ones that say no.
