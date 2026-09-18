@@ -260,3 +260,14 @@
 .der .form-msg.ok { border-left-color: var(--active); }
 .der .form-msg.warn { border-left-color: var(--end); }
 .der .report-link { margin: .3rem 0 0; font-size: .88rem; }
+
+/* The general ask. It sits at the foot of a page rather than the top, because on arrival
+   nobody has found a problem yet; by the foot they have read something and may doubt it.
+   The per-row .report-link above stays where the doubt is. Lapis is the accent already in
+   use for links, so this carries weight without a colour of its own. */
+.der .fb-callout {
+  border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 8px;
+  background: var(--surface-2); padding: .85rem 1rem; margin: 2rem 0 1.2rem;
+}
+.der .fb-callout p { margin: 0; }
+.der .fb-callout p + p { margin-top: .35rem; font-size: .9rem; color: var(--ink-2); }
