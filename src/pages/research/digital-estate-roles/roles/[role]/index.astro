@@ -1,0 +1,136 @@
+---
+import Base from '../../../../../layouts/Base.astro';
+import '../../../../../styles/der.css';
+import { readFileSync } from 'node:fs';
+
+/**
+ * One page per canonical role: how it works in every jurisdiction researched.
+ *
+ * Server-rendered from data/canonicals.json so the page is readable without JavaScript,
+ * crawlable, printable, and citable at a path the server actually sees. The row order is
+ * the order build.py emits — region, then country, then jurisdiction.
+ */
+export async function getStaticPaths() {
+  const { roles } = JSON.parse(
+    readFileSync('public/research/digital-estate-roles/data/canonicals.json', 'utf8'),
+  );
+  return roles.map((role: any) => ({ params: { role: role.id }, props: { role, roles } }));
+}
+
+const { role, roles } = Astro.props;
+const PHASE: Record<string, string> = {
+  capable: 'Capable',
+  incapacitated: 'Incapacitated',
+  deceased: 'Deceased',
+  administration: 'Estate administration',
+  closed: 'Estate closed',
+};
+const cite = (id: string) => role.citations[id];
+const viewer = (j: any) =>
+  `/research/digital-estate-roles/#j=${j.jurisdiction}&tab=role&role=${j.roleId}`;
+
+// group the rows by region for reading, keeping build.py's order within each
+const regions: { region: string; rows: any[] }[] = [];
+for (const j of role.jurisdictions) {
+  let g = regions.find((x) => x.region === j.region);
+  if (!g) regions.push((g = { region: j.region, rows: [] }));
+  g.rows.push(j);
+}
+const others = roles.filter((r: any) => r.id !== role.id);
+---
+
+<Base
+  title={`${role.label} — Digital Estate Roles`}
+  description={`${role.definition} How it works in ${role.jurisdictionCount} jurisdictions across ${role.countryCount} countries, sourced to statute and regulation.`}
+>
+  <div class="wrap">
+    <section class="band">
+      <div class="der der-static">
+        <header class="static-head">
+          <p class="crumb">
+            <a href="/research/digital-estate-roles/">Digital Estate Roles</a> ·
+            <a href="/research/digital-estate-roles/roles/">Roles</a>
+          </p>
+          <h1>{role.label}</h1>
+          <p class="lede">{role.definition}</p>
+          <p class="counts">
+            {role.jurisdictionCount} jurisdictions · {role.countryCount} countries ·
+            role id <code>{role.id}</code>
+          </p>
+        </header>
+
+        {regions.map((g) => (
+          <section class="region-block">
+            <h2>{g.region}</h2>
+            {g.rows.map((j: any) => (
+              <article class="jur-card">
+                <h3>
+                  <a href={viewer(j)}>{j.label}</a>
+                  {j.differsFromModel && <span class="tag">differs from the US model</span>}
+                </h3>
+                <p class="local">
+                  {j.roleName}
+                  {j.nameEn && j.nameEn.en && <span class="en-gloss"> — {j.nameEn.en}</span>}
+                </p>
+                {j.summary && <p class="summary">{j.summary}</p>}
+                <dl class="lane">
+                  {j.lane.assigned && (
+                    <><dt>Assigned</dt><dd>
+                      {j.lane.assigned.event}
+                      <span class="phase">{PHASE[j.lane.assigned.phase] || j.lane.assigned.phase}</span>
+                    </dd></>
+                  )}
+                  {j.lane.starts && (
+                    <><dt>Starts</dt><dd>
+                      {j.lane.starts.event}
+                      <span class="phase">{PHASE[j.lane.starts.phase] || j.lane.starts.phase}</span>
+                    </dd></>
+                  )}
+                  {j.lane.ends.map((e: any, i: number) => (
+                    <><dt>{i === 0 ? 'Ends' : ''}</dt><dd>
+                      {e.event}
+                      <span class="phase">{PHASE[e.phase] || e.phase}</span>
+                    </dd></>
+                  ))}
+                </dl>
+                {j.citations.length > 0 && (
+                  <p class="cites">
+                    {j.citations.map((id: string, i: number) => {
+                      const c = cite(id);
+                      if (!c) return null;
+                      return (
+                        <>
+                          {i > 0 && '; '}
+                          {c.url
+                            ? <a href={c.url} target="_blank" rel="noopener" title={c.title || ''}>{c.cite || c.title || id}</a>
+                            : <span>{c.cite || c.title || id}</span>}
+                        </>
+                      );
+                    })}
+                  </p>
+                )}
+              </article>
+            ))}
+          </section>
+        ))}
+
+        <nav class="other-roles">
+          <h2>Other roles</h2>
+          <ul>
+            {others.map((r: any) => (
+              <li><a href={`/research/digital-estate-roles/roles/${r.id}/`}>{r.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+
+        <p class="hint">
+          The <a href="/research/digital-estate-roles/">interactive viewer</a> carries the lifecycle
+          diagram, the state machine and the full source list, including the quoted text of each
+          provision. <b>Not legal advice.</b> This is a research aid summarising primary legal
+          sources as retrieved on the dates shown; always read the cited current text and consult a
+          lawyer licensed in the jurisdiction.
+        </p>
+      </div>
+    </section>
+  </div>
+</Base>
