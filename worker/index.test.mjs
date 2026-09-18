@@ -6,6 +6,7 @@
  */
 import worker from './index.js';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 
 const ASSETS = { fetch: async () => new Response('static', { status: 200 }) };
 const FULL = { ASSETS, GITHUB_TOKEN: 't', TURNSTILE_SECRET: 's', FEEDBACK_REPO: 'owner/repo' };
@@ -29,6 +30,15 @@ const stub = ({ turnstile = true, github = true }) => {
 };
 
 const tests = {
+  // Not a behaviour of the script but of the routing around it, and the reason the first
+  // deploy answered POSTs with 405: static assets are matched before the Worker runs, and
+  // the form's own page is an asset, so the script never saw the request.
+  'the form path is configured to reach the Worker at all': async () => {
+    const toml = readFileSync(new URL('../wrangler.toml', import.meta.url), 'utf8');
+    const m = toml.match(/run_worker_first\s*=\s*\[([^\]]*)\]/);
+    assert.ok(m, 'assets need run_worker_first, or POSTs are answered by the asset handler');
+    assert.match(m[1], /\/research\/digital-estate-roles\/feedback\//);
+  },
   'GET falls through to the built files': async () => {
     const r = await worker.fetch(new Request('https://xebecstudios.org/research/digital-estate-roles/'), FULL);
     assert.equal(await r.text(), 'static');
