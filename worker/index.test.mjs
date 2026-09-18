@@ -187,6 +187,25 @@ const tests = {
     const r = await worker.fetch(post({ body: BODY, 'cf-turnstile-response': 'x' }), FULL);
     assert.equal(statusOf(r), 'error');
   },
+  'the issue names the jurisdiction and keeps the id beside it': async () => {
+    calls = []; stub({});
+    await worker.fetch(post({
+      body: BODY, jurisdiction: 'Finland', jurisdiction_id: 'fi-national',
+      role: 'Edunvalvontavaltuutettu — Attorney under a continuing power of attorney',
+      role_id: 'fi-edunvalvontavaltuutettu', 'cf-turnstile-response': 'x',
+    }), FULL);
+    const payload = JSON.parse(calls.find((c) => c.url.endsWith('/issues')).init.body);
+    assert.match(payload.body, /\*\*Jurisdiction:\*\* Finland \(fi-national\)/);
+    assert.match(payload.body, /\*\*Role:\*\* Edunvalvontavaltuutettu .* \(fi-edunvalvontavaltuutettu\)/);
+    assert.match(payload.title, /^Finland:/, 'the title should read as the name, not the id');
+  },
+  'a jurisdiction we do not cover is filed under no id at all': async () => {
+    calls = []; stub({});
+    await worker.fetch(post({ body: BODY, jurisdiction: 'Fiji', 'cf-turnstile-response': 'x' }), FULL);
+    const payload = JSON.parse(calls.find((c) => c.url.endsWith('/issues')).init.body);
+    assert.match(payload.body, /\*\*Jurisdiction:\*\* Fiji\n/, 'no id, and no empty parentheses');
+    assert.ok(!/\(\)/.test(payload.body));
+  },
   'oversized input is truncated before it reaches the API': async () => {
     calls = []; stub({});
     await worker.fetch(post({ body: 'x'.repeat(50000), 'cf-turnstile-response': 'x' }), FULL);

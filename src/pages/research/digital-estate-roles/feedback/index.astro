@@ -24,7 +24,23 @@ const manifest = JSON.parse(
 // code change. The *secret* key is a Worker secret and is not here.
 const SITEKEY = import.meta.env.PUBLIC_TURNSTILE_SITEKEY || '0x4AAAAAAE7UQBvkDaWZmYB5';
 
-const jurisdictions = manifest.jurisdictions;
+// A reader should never have to read an id. The form shows the names the viewer shows —
+// 'Finland', not 'fi-national' — and resolves back to the id behind the scenes, so triage
+// keeps the exact row. A name we do not know is still accepted: someone reporting a
+// jurisdiction that is not covered has no id to give, and that is the report we most want.
+const jurOptions = manifest.jurisdictions.map((j: any) => ({ id: j.id, name: j.label || j.name }));
+const roleOptions = roles.map((r: any) => ({ id: r.id, name: r.label }));
+// Per-row links on a role page carry that jurisdiction's own role id, not the canonical one,
+// so both have to resolve. The statutory name leads, with the official English gloss after it.
+const roleAliases: Record<string, string> = {};
+for (const r of roles) {
+  for (const j of r.jurisdictions) {
+    roleAliases[j.roleId] = j.nameEn && j.nameEn.en && j.nameEn.en !== j.roleName
+      ? `${j.roleName} — ${j.nameEn.en}`
+      : j.roleName;
+  }
+}
+const NAMES = { jur: jurOptions, role: roleOptions, roleAliases };
 ---
 
 <Base
@@ -65,18 +81,20 @@ const jurisdictions = manifest.jurisdictions;
 
           <label>
             <span>Jurisdiction</span>
-            <input list="jur-list" name="jurisdiction" placeholder="e.g. New South Wales, or au-nsw" autocomplete="off" />
+            <input list="jur-list" name="jurisdiction" placeholder="e.g. New South Wales, or Finland" autocomplete="off" />
             <datalist id="jur-list">
-              {jurisdictions.map((j: any) => <option value={j.id}>{j.label || j.name}</option>)}
+              {jurOptions.map((j) => <option value={j.name}>{j.id}</option>)}
             </datalist>
+            <input type="hidden" name="jurisdiction_id" value="" />
           </label>
 
           <label>
             <span>Role, if it is about one</span>
             <input list="role-list" name="role" placeholder="e.g. enduring guardian" autocomplete="off" />
             <datalist id="role-list">
-              {roles.map((r: any) => <option value={r.id}>{r.label}</option>)}
+              {roleOptions.map((r) => <option value={r.name}>{r.id}</option>)}
             </datalist>
+            <input type="hidden" name="role_id" value="" />
           </label>
 
           <label>
@@ -113,20 +131,49 @@ const jurisdictions = manifest.jurisdictions;
       </div>
     </section>
   </div>
-  <script is:inline>
+  <script is:inline define:vars={{ NAMES }}>
     // Convenience only: arriving from a role page carries the context, but the form is
     // complete without it, because the page is prerendered and this may not run.
     (() => {
-      const q = new URLSearchParams(location.search);
-      const set = (name, value) => {
-        const el = document.querySelector(`[name="${name}"]`);
-        if (el && value) el.value = value;
+      const field = (name) => document.querySelector(`[name="${name}"]`);
+      const set = (name, value) => { const el = field(name); if (el && value) el.value = value; };
+
+      const jurName = new Map(NAMES.jur.map((j) => [j.id, j.name]));
+      const jurId = new Map(NAMES.jur.map((j) => [j.name.toLowerCase(), j.id]));
+      // Canonical ids last, so a link from a canonical role page gets the canonical wording
+      // even where a jurisdiction happens to use the same id for its own role.
+      const roleName = new Map([
+        ...Object.entries(NAMES.roleAliases),
+        ...NAMES.role.map((r) => [r.id, r.name]),
+      ]);
+      const roleId = new Map(NAMES.role.map((r) => [r.name.toLowerCase(), r.id]));
+      // A reader who does know the id and types it should not be treated as naming something
+      // we have never heard of, so ids resolve to themselves.
+      for (const [id] of jurName) jurId.set(id.toLowerCase(), id);
+      for (const r of NAMES.role) roleId.set(r.id.toLowerCase(), r.id);
+
+      // A link carries ids; show the name and keep the id in the field beside it.
+      const prefill = (visible, hidden, id, names) => {
+        if (!id) return;
+        set(hidden, id);
+        set(visible, names.get(id) || id);
       };
-      set('jurisdiction', q.get('j'));
-      set('role', q.get('role'));
+      const q = new URLSearchParams(location.search);
+      prefill('jurisdiction', 'jurisdiction_id', q.get('j'), jurName);
+      prefill('role', 'role_id', q.get('role'), roleName);
       set('page', q.get('page') || document.referrer || '');
       const kind = q.get('kind');
       if (kind) set('kind', kind);
+
+      // And when a reader picks or types a name themselves, resolve it back to an id — or
+      // clear a stale one, so a name we do not know is never filed under somebody else's id.
+      const track = (visible, hidden, ids) => {
+        const el = field(visible), h = field(hidden);
+        if (!el || !h) return;
+        el.addEventListener('input', () => { h.value = ids.get(el.value.trim().toLowerCase()) || ''; });
+      };
+      track('jurisdiction', 'jurisdiction_id', jurId);
+      track('role', 'role_id', roleId);
     })();
   </script>
   {SITEKEY && <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>}
