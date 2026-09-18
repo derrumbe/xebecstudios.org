@@ -25,7 +25,7 @@ compatibility_date = "2026-01-01"
 # An App rather than a personal access token because a token expires, and it would fail
 # silently from our side: readers would keep writing and nothing would arrive.
 FEEDBACK_REPO = "derrumbe/digital-estate-roles"
-GITHUB_APP_ID = ""
+GITHUB_APP_ID = "4986003"
 
 [assets]
 directory = "./dist"
