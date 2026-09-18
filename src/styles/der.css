@@ -25,8 +25,6 @@
                               --diff-ink: var(--wind-quarter);
   --phase-a: var(--paper);
   --phase-b: var(--paper-2);
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .der * { box-sizing: border-box; }
@@ -38,14 +36,16 @@
      at this size was hard to read. The page's own heading stays Spectral, so
      the section still reads as part of the site. */
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16.5px;
+  /* The base of the block's own type scale. Every absolute size below is set
+     against it, so moving this means moving those with it. */
+  font-size: 17.5px;
   line-height: 1.55;
 }
 .der a { color: var(--accent); }
 .der .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
 .der h1, .der h2, .der h3 { line-height: 1.2; margin: 0; }
-.der h2 { font-size: 20px; margin: 8px 0 6px; }
-.der h3 { font-size: 16px; margin: 20px 0 8px; }
+.der h2 { font-size: 21px; margin: 8px 0 6px; }
+.der h3 { font-size: 17px; margin: 20px 0 8px; }
 
 .der .top { background: var(--surface); border-bottom: 1px solid var(--line); }
 .der .top-inner { display: flex; gap: 16px; align-items: flex-end; justify-content: space-between; padding-top: 14px; padding-bottom: 10px; flex-wrap: nowrap; }
@@ -53,10 +53,10 @@
    squeeze by wrapping its text, rather than the controls dropping below. */
 .der .brand { min-width: 0; }
 .der .controls { flex: none; }
-.der .brand h1 { font-size: 22px; letter-spacing: -0.01em; }
-.der .sub { margin: 4px 0 0; color: var(--ink-2); font-size: 15px; }
+.der .brand h1 { font-size: 23.5px; letter-spacing: -0.01em; }
+.der .sub { margin: 4px 0 0; color: var(--ink-2); font-size: 16px; }
 .der .controls { display: flex; gap: 8px; align-items: flex-end; }
-.der .field { display: flex; flex-direction: column; gap: 2px; font-size: 13.5px; color: var(--ink-2); }
+.der .field { display: flex; flex-direction: column; gap: 2px; font-size: 14.5px; color: var(--ink-2); }
 .der .field.grow { flex: 1; max-width: 520px; }
 .der select, .der button { font: inherit; color: var(--ink); }
 .der select { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; min-height: 36px; max-width: 100%; }
@@ -66,14 +66,14 @@
 .der .tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
 
 .der main { padding-top: 12px; padding-bottom: 24px; }
-.der .jur-note { color: var(--ink-2); margin: 4px 0 12px; font-size: 15px; }
+.der .jur-note { color: var(--ink-2); margin: 4px 0 12px; font-size: 16px; }
 .der .lede { color: var(--ink-2); max-width: 70ch; }
-.der .hint { color: var(--ink-2); font-size: 14px; }
+.der .hint { color: var(--ink-2); font-size: 15px; }
 .der .toolbar { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; justify-content: space-between; margin-bottom: 10px; }
 .der .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.der .chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 3px 10px; font-size: 14px; cursor: pointer; }
+.der .chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 3px 10px; font-size: 15px; cursor: pointer; }
 .der .chip[aria-pressed="false"] { opacity: .5; text-decoration: line-through; }
-.der .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13.5px; color: var(--ink-2); }
+.der .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 14.5px; color: var(--ink-2); }
 .der .legend span { display: inline-flex; align-items: center; gap: 5px; }
 .der .lg { display: inline-block; width: 14px; height: 10px; }
 .der .lg-assigned { width: 9px; height: 9px; background: var(--assigned); transform: rotate(45deg); }
@@ -96,24 +96,24 @@
 
 .der .tip {
   position: fixed; z-index: 20; max-width: 340px; background: var(--surface); color: var(--ink);
-  border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font-size: 14px;
+  border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font-size: 15px;
   box-shadow: 0 6px 24px rgba(0,0,0,.18); pointer-events: none;
 }
-.der .tip .k { font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); }
+.der .tip .k { font-size: 13.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); }
 .der .tip .cites { margin-top: 6px; color: var(--ink-2); }
 
 .der .role-head { display: grid; gap: 6px; margin: 6px 0 12px; }
 .der .badges { display: flex; flex-wrap: wrap; gap: 6px; }
-.der .badge { font-size: 13.5px; border-radius: 4px; padding: 1px 7px; background: var(--surface-2); color: var(--ink-2); }
+.der .badge { font-size: 14.5px; border-radius: 4px; padding: 1px 7px; background: var(--surface-2); color: var(--ink-2); }
 .der .badge.diff { background: var(--diff); color: var(--diff-ink); }
 .der .badge.unv { border: 1px dashed var(--unverified); color: var(--unverified); background: transparent; }
 .der .diffbox { background: var(--diff); color: var(--diff-ink); border-radius: 6px; padding: 8px 12px; margin: 8px 0; }
 .der .sm-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow-x: auto; }
 .der .sm-svg { width: 100%; height: auto; color: var(--ink); }
 .der figure { margin: 0; }
-.der figcaption { color: var(--ink-2); font-size: 14px; padding: 6px 2px; }
+.der figcaption { color: var(--ink-2); font-size: 15px; padding: 6px 2px; }
 
-.der table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+.der table { border-collapse: collapse; width: 100%; font-size: 15.5px; }
 .der th, .der td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
 .der th { background: var(--surface-2); font-weight: 600; position: sticky; top: 0; }
 .der td.num { font-variant-numeric: tabular-nums; }
@@ -127,23 +127,23 @@
 .der .cmp th:first-child { background: var(--surface-2); z-index: 2; }
 .der .cmp .e { display: block; }
 .der .cmp .e + .e { margin-top: 4px; }
-.der .cmp .lbl { font-size: 12.5px; color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; }
+.der .cmp .lbl { font-size: 13.5px; color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; }
 .der .cite-list { margin: 0; padding-left: 18px; }
 .der .cite-list li { margin: 2px 0; }
-.der .cite { font-size: 14px; }
+.der .cite { font-size: 15px; }
 .der .muted { color: var(--ink-2); }
 .der .card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
 .der .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; margin-bottom: 16px; }
 .der .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
-.der .stat .v { font-size: 26px; font-weight: 650; font-variant-numeric: tabular-nums; }
-.der .stat .l { color: var(--ink-2); font-size: 14px; }
+.der .stat .v { font-size: 27.5px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.der .stat .l { color: var(--ink-2); font-size: 15px; }
 .der .src-group { margin-bottom: 18px; }
 .der .src-group li { margin: 4px 0; }
-.der .kind { font-size: 12.5px; color: var(--ink-2); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; margin-left: 4px; }
-.der .foot { color: var(--ink-2); font-size: 14px; border-top: 1px solid var(--line); padding-top: 12px; padding-bottom: 32px; }
+.der .kind { font-size: 13.5px; color: var(--ink-2); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; margin-left: 4px; }
+.der .foot { color: var(--ink-2); font-size: 15px; border-top: 1px solid var(--line); padding-top: 12px; padding-bottom: 32px; }
 
 @media (max-width: 640px) {
-  .der .brand h1 { font-size: 19px; }
+  .der .brand h1 { font-size: 20px; }
   .der .top-inner { flex-wrap: wrap; }
   .der .controls { width: 100%; }
   .der .controls .field { flex: 1; }
@@ -151,7 +151,7 @@
 }
 .der tr.flash td { background: color-mix(in srgb, var(--accent) 18%, transparent); transition: background .3s; }
 .der hr.sep { border: 0; border-top: 1px dashed var(--line); margin: 8px 0; }
-.der .fmatrix td, .der .fmatrix th { min-width: 96px; font-size: 14px; }
+.der .fmatrix td, .der .fmatrix th { min-width: 96px; font-size: 15px; }
 .der .fmatrix td:first-child { min-width: 220px; }
 .der .fmatrix th.ctry { text-align: center; border-left: 1px solid var(--line); }
 .der .fcell { cursor: pointer; }
@@ -159,12 +159,12 @@
 .der .fcell.no { color: var(--ink-2); }
 .der .fcell.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
 .der .fdetail { border-top: 1px solid var(--line); padding: 12px 16px; }
-.der .fdetail .k { font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); }
+.der .fdetail .k { font-size: 13.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-2); }
 .der .fdetail p { margin: 6px 0; max-width: 80ch; }
-.der .en-title { margin: 0; font-size: 16px; color: var(--ink-2); font-style: italic; }
+.der .en-title { margin: 0; font-size: 17px; color: var(--ink-2); font-style: italic; }
 .der .en-gloss, .der .en-inline { font-style: italic; }
 .der .en-inline { color: var(--ink-2); }
-.der .basis { font-style: normal; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-2); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; margin-left: 4px; text-decoration: none; }
+.der .basis { font-style: normal; font-size: 12.5px; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-2); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; margin-left: 4px; text-decoration: none; }
 .der a.basis:hover { color: var(--accent); }
 
 
@@ -198,35 +198,35 @@
 .der .m-country:hover .m-dot, .der .m-country:focus .m-dot { stroke-width: 5px; }
 .der .m-country:focus { outline: none; }
 .der .m-country:focus .m-fill, .der .m-country:focus .m-dot { stroke-dasharray: 4 3; }
-.der .map-readout { min-height: 1.5em; margin: .5rem 0 0; color: var(--ink-2); font-size: .95rem; }
+.der .map-readout { min-height: 1.5em; margin: .5rem 0 0; color: var(--ink-2); font-size: 1.01rem; }
 .der .map-list { display: flex; flex-wrap: wrap; gap: 1rem 2rem; margin-top: 1rem; }
-.der .map-region h3 { margin: 0 0 .4rem; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
+.der .map-region h3 { margin: 0 0 .4rem; font-size: 0.83rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
 .der .map-list .chip .n { margin-left: .4em; padding: 0 .35em; border-radius: 6px; background: var(--surface-2); color: var(--ink-2); font-size: .82em; }
 
 /* ---------- static per-role pages ---------- */
 /* Server-rendered pages under /roles/. They reuse the tokens defined at the top of this
    file, so they are lapis and paper like the viewer and add no colour of their own. */
 .der-static { max-width: 58rem; }
-.der-static .crumb { margin: 0 0 .4rem; font-size: .9rem; color: var(--ink-2); }
+.der-static .crumb { margin: 0 0 .4rem; font-size: 0.95rem; color: var(--ink-2); }
 .der-static h1 { margin: 0 0 .5rem; }
 .der-static .lede { margin: 0 0 .5rem; }
-.der-static .counts { margin: 0; color: var(--ink-2); font-size: .92rem; }
+.der-static .counts { margin: 0; color: var(--ink-2); font-size: 0.98rem; }
 .der-static .counts code { font-size: .92em; }
 .der-static .static-head { margin-bottom: 1.6rem; }
-.der-static h2 { margin: 2rem 0 .6rem; font-size: .82rem; letter-spacing: .07em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
+.der-static h2 { margin: 2rem 0 .6rem; font-size: 0.87rem; letter-spacing: .07em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
 .der-static .jur-card { border-top: 1px solid var(--line); padding: .9rem 0; }
-.der-static .jur-card h3 { margin: 0 0 .2rem; font-size: 1.02rem; }
-.der-static .jur-card .tag { margin-left: .5em; padding: 0 .4em; border: 1px solid var(--line); border-radius: 6px; font-size: .72rem; font-weight: 400; color: var(--ink-2); text-transform: none; letter-spacing: 0; }
+.der-static .jur-card h3 { margin: 0 0 .2rem; font-size: 1.08rem; }
+.der-static .jur-card .tag { margin-left: .5em; padding: 0 .4em; border: 1px solid var(--line); border-radius: 6px; font-size: 0.76rem; font-weight: 400; color: var(--ink-2); text-transform: none; letter-spacing: 0; }
 .der-static .local { margin: 0 0 .3rem; color: var(--ink-2); }
 .der-static .summary { margin: .3rem 0 .6rem; }
 .der-static .lane { display: grid; grid-template-columns: max-content 1fr; gap: .2rem .9rem; margin: .4rem 0 .5rem; }
-.der-static .lane dt { color: var(--ink-2); font-size: .82rem; letter-spacing: .05em; text-transform: uppercase; padding-top: .15rem; }
+.der-static .lane dt { color: var(--ink-2); font-size: 0.87rem; letter-spacing: .05em; text-transform: uppercase; padding-top: .15rem; }
 .der-static .lane dd { margin: 0; }
 .der-static .lane .phase { display: inline-block; margin-left: .5em; padding: 0 .4em; border-radius: 6px; background: var(--surface-2); color: var(--ink-2); font-size: .8em; white-space: nowrap; }
-.der-static .cites { margin: .2rem 0 0; font-size: .9rem; }
+.der-static .cites { margin: .2rem 0 0; font-size: 0.95rem; }
 .der-static .role-index { list-style: none; padding: 0; margin: 0; }
 .der-static .role-index li { border-top: 1px solid var(--line); padding: .8rem 0; }
-.der-static .role-index a { font-size: 1.05rem; }
+.der-static .role-index a { font-size: 1.11rem; }
 .der-static .role-index .muted { margin: .2rem 0 .1rem; color: var(--ink-2); }
 .der-static .other-roles ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; }
 .der-static .other-roles { border-top: 1px solid var(--line); padding-top: 1rem; margin-top: 2rem; }
@@ -237,19 +237,19 @@
 }
 /* The one link from the viewer to the static role pages. Without it those pages are
    reachable only by direct URL or from the sitemap. */
-.der .static-link { margin: .6rem 0 0; font-size: .92rem; color: var(--ink-2); }
-.der .canon-link { margin: .4rem 0 0; font-size: .95rem; }
+.der .static-link { margin: .6rem 0 0; font-size: 0.98rem; color: var(--ink-2); }
+.der .canon-link { margin: .4rem 0 0; font-size: 1.01rem; }
 
 /* ---------- feedback form ---------- */
 .der .fb-form { display: grid; gap: 1rem; max-width: 42rem; margin-top: 1.2rem; }
 .der .fb-form label { display: grid; gap: .3rem; }
-.der .fb-form label > span { font-size: .9rem; color: var(--ink-2); }
+.der .fb-form label > span { font-size: 0.95rem; color: var(--ink-2); }
 .der .fb-form input, .der .fb-form select, .der .fb-form textarea {
-  font: inherit; font-size: .95rem; color: var(--ink); background: var(--surface);
+  font: inherit; font-size: 1.01rem; color: var(--ink); background: var(--surface);
   border: 1px solid var(--line); border-radius: 8px; padding: .5rem .6rem; width: 100%;
 }
 .der .fb-form textarea { resize: vertical; min-height: 7rem; }
-.der .fb-form button { justify-self: start; font: inherit; font-size: .95rem; cursor: pointer;
+.der .fb-form button { justify-self: start; font: inherit; font-size: 1.01rem; cursor: pointer;
   color: var(--surface); background: var(--accent); border: 1px solid var(--accent);
   border-radius: 8px; padding: .5rem 1.1rem; }
 .der .fb-form .hint { margin: 0; }
@@ -259,7 +259,7 @@
   padding: .7rem .9rem; margin: 1rem 0 0; background: var(--surface-2); }
 .der .form-msg.ok { border-left-color: var(--active); }
 .der .form-msg.warn { border-left-color: var(--end); }
-.der .report-link { margin: .3rem 0 0; font-size: .88rem; }
+.der .report-link { margin: .3rem 0 0; font-size: 0.93rem; }
 
 /* The general ask. It sits at the foot of a page rather than the top, because on arrival
    nobody has found a problem yet; by the foot they have read something and may doubt it.
@@ -270,4 +270,4 @@
   background: var(--surface-2); padding: .85rem 1rem; margin: 2rem 0 1.2rem;
 }
 .der .fb-callout p { margin: 0; }
-.der .fb-callout p + p { margin-top: .35rem; font-size: .9rem; color: var(--ink-2); }
+.der .fb-callout p + p { margin-top: .35rem; font-size: 0.95rem; color: var(--ink-2); }
