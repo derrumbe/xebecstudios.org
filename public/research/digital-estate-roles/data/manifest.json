@@ -210,6 +210,25 @@
    ]
   },
   {
+   "id": "it",
+   "name": "Italy",
+   "region": "Europe",
+   "iso": "IT",
+   "jurisdictions": [
+    {
+     "id": "it-national",
+     "name": "Italy",
+     "short": "IT",
+     "files": [
+      "jurisdictions/it-national.json"
+     ],
+     "country": "it",
+     "note": "Roles under the Codice civile, the 2017 law on informed consent and advance directives, the 1999 organ transplant law and the privacy code as adapted to the GDPR. Text from Normattiva, the official consolidated portal; each citation records the date its wording took effect.",
+     "label": "Italy"
+    }
+   ]
+  },
+  {
    "id": "es",
    "name": "Spain",
    "region": "Europe",
@@ -674,6 +693,17 @@
    "country": "de",
    "note": "Federal German law: BGB (agency, Betreuung, succession, medical records), TPG (organ donation), SGB I and AO. Burial and disposition of remains are Länder law and are not covered here.",
    "label": "Germany — federal law"
+  },
+  {
+   "id": "it-national",
+   "name": "Italy",
+   "short": "IT",
+   "files": [
+    "jurisdictions/it-national.json"
+   ],
+   "country": "it",
+   "note": "Roles under the Codice civile, the 2017 law on informed consent and advance directives, the 1999 organ transplant law and the privacy code as adapted to the GDPR. Text from Normattiva, the official consolidated portal; each citation records the date its wording took effect.",
+   "label": "Italy"
   },
   {
    "id": "es-national",

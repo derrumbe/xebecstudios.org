@@ -7669,6 +7669,244 @@
    }
   ]
  },
+ "it-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "There is no general durable power of attorney. What survives incapacity is the advance designation of a support administrator, and even that does not confer authority by itself — the giudice tutelare still appoints, by a decree that fixes the object and duration of the office.",
+    "citations": [
+     "it-cc-408",
+     "it-cc-405"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "Article 408 is inherently springing: the designation is made in anticipation of the person’s own possible future incapacity, and takes effect through the appointment decree.",
+    "citations": [
+     "it-cc-408"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": true,
+    "note": "Not registration in a register, but a formality and a judicial step: the designation must be by public act or authenticated private writing, and authority arises only on the giudice tutelare’s decree of appointment.",
+    "citations": [
+     "it-cc-408",
+     "it-cc-405"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity",
+    "note": "The fiduciary stands in the person’s place with the doctor and the health service once the person can no longer decide; the directives are made in anticipation of future incapacity to self-determine.",
+    "citations": [
+     "it-l219-4"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "note": "Support administration is calibrated rather than status-based: the beneficiary keeps capacity for every act the decree does not reserve to exclusive representation or assistance, and the administrator must have regard to their needs and aspirations.",
+    "citations": [
+     "it-cc-409",
+     "it-cc-410"
+    ],
+    "year": 2004,
+    "name": "Legge 9 gennaio 2004, n. 6 (amministrazione di sostegno, artt. 404-413 c.c.)"
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": false,
+    "note": "No fiduciary is given statutory access to digital assets as such. What exists is a data-protection right: the deceased’s GDPR rights may be exercised by someone with their own interest, by the deceased’s mandatary, or for family reasons deserving protection.",
+    "citations": [
+     "it-d196-2-terdecies"
+    ],
+    "year": null,
+    "name": null
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "Uniquely explicit. The person may forbid the exercise of those rights by written declaration to the controller, and the prohibition binds precisely as against the direct offer of information society services — it must be unequivocal, specific, free and informed, may cover only some rights, and is revocable at any time.",
+    "citations": [
+     "it-d196-2-terdecies"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Enacted as opt-out and not in force as such. Article 4 treats a failure to declare as assent, but article 28(2) defers article 4 to the activation of the transplant information system under article 7. Until that date article 23 governs: removal unless the person explicitly refused, with written family opposition possible during the death-observation period.",
+    "citations": [
+     "it-l91-4",
+     "it-l91-28",
+     "it-l91-23"
+    ],
+    "optOutSinceYear": null,
+    "name": "Legge 1 aprile 1999, n. 91, art. 4 (efficacia differita ai sensi dell’art. 28, comma 2)"
+   },
+   "smallEstateWithoutGrant": {
+    "value": null,
+    "note": "The question does not arise in this form: there is no grant to obtain or dispense with. The estate is acquired by acceptance, whose effect relates back to the opening of the succession, and the heir chooses between pure acceptance and acceptance with the benefit of inventory.",
+    "citations": [
+     "it-cc-459",
+     "it-cc-470"
+    ],
+    "threshold": null,
+    "currency": "EUR",
+    "waitingDays": null
+   },
+   "probateGrantName": {
+    "value": null,
+    "note": "No grant of representation exists. Where nobody has accepted and no one called holds estate assets, the court appoints a curator of the vacant estate, whose office ends the moment the estate is accepted.",
+    "citations": [
+     "it-cc-528",
+     "it-cc-532"
+    ]
+   },
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "The deceased’s data are not protected in their own right, but the GDPR rights over them may be exercised by those the article names, subject to any prohibition the person laid down, and the prohibition can never prejudice third parties’ property rights arising from the death.",
+    "citations": [
+     "it-d196-2-terdecies"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": false,
+    "note": "The fiduciary’s role is to represent the person with the doctor and the health service while they cannot decide for themselves. Authority after death lies elsewhere: with the family for organ removal, and with those entitled under the privacy code for the deceased’s data.",
+    "citations": [
+     "it-l219-4",
+     "it-l91-23",
+     "it-d196-2-terdecies"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "it-cc-408",
+    "cite": "Codice civile art. 408",
+    "title": "Scelta dell'amministratore di sostegno",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art408",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "19-3-2004",
+    "quote": "La scelta dell'amministratore di sostegno avviene con esclusivo riguardo alla cura ed agli interessi della persona del beneficiario."
+   },
+   {
+    "id": "it-cc-405",
+    "cite": "Codice civile art. 405",
+    "title": "Decreto di nomina dell'amministratore di sostegno. Durata dell'incarico e relativa pubblicità",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art405",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "19-3-2004",
+    "quote": "Il giudice tutelare provvede entro sessanta giorni dalla data di presentazione della richiesta alla nomina dell'amministratore di sostegno con decreto motivato immediatamente esecutivo, su ricorso di …"
+   },
+   {
+    "id": "it-l219-4",
+    "cite": "L. 219/2017 art. 4",
+    "title": "",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-12-22;219~art4",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "31-1-2018",
+    "quote": ""
+   },
+   {
+    "id": "it-cc-409",
+    "cite": "Codice civile art. 409",
+    "title": "Effetti dell'amministrazione di sostegno",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art409",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "19-3-2004",
+    "quote": "Il beneficiario conserva la capacità di agire per tutti gli atti che non richiedono la rappresentanza esclusiva o l'assistenza necessaria dell'amministratore di sostegno."
+   },
+   {
+    "id": "it-cc-410",
+    "cite": "Codice civile art. 410",
+    "title": "Doveri dell'amministratore di sostegno",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art410",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "19-3-2004",
+    "quote": "Nello svolgimento dei suoi compiti l'amministratore di sostegno deve tener conto dei bisogni e delle aspirazioni del beneficiario."
+   },
+   {
+    "id": "it-d196-2-terdecies",
+    "cite": "D.lgs. 196/2003 art. 2-terdecies",
+    "title": "Diritti riguardanti le persone decedute",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "19-9-2018",
+    "quote": "1. I diritti di cui agli articoli da 15 a 22 del Regolamento riferiti ai dati personali concernenti persone decedute possono essere esercitati da chi ha un interesse proprio, o agisce a tutela dell'in…"
+   },
+   {
+    "id": "it-l91-4",
+    "cite": "L. 91/1999 art. 4",
+    "title": "Dichiarazione di volontà in ordine alla donazione",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art4",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "16-4-1999",
+    "quote": "1. Entro i termini, nelle forme e nei modi stabiliti dalla presente legge e dal decreto del Ministro della sanità di cui all'articolo 5, comma 1, i cittadini sono tenuti a dichiarare la propria libera…"
+   },
+   {
+    "id": "it-l91-28",
+    "cite": "L. 91/1999 art. 28",
+    "title": "Entrata in vigore",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art28",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "16-4-1999",
+    "quote": "1. La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 2."
+   },
+   {
+    "id": "it-l91-23",
+    "cite": "L. 91/1999 art. 23",
+    "title": "Disposizioni transitorie",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art23",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "16-4-1999",
+    "quote": "1. Fino alla data di cui all'articolo 28, comma 2, è consentito procedere al prelievo di organi e di tessuti da soggetto di cui sia stata accertata la morte ai sensi della legge 29 dicembre 1993, n."
+   },
+   {
+    "id": "it-cc-459",
+    "cite": "Codice civile art. 459",
+    "title": "Acquisto dell'eredità",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art459",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "19-4-1942",
+    "quote": "L'eredità si acquista con l'accettazione. L'effetto dell'accettazione risale al momento nel quale si è aperta la successione."
+   },
+   {
+    "id": "it-cc-470",
+    "cite": "Codice civile art. 470",
+    "title": "Accettazione pura e semplice e accettazione col beneficio d'inventario",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art470",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "19-4-1942",
+    "quote": "L'eredità può essere accettata puramente e semplicemente o col beneficio d'inventario. L'accettazione col beneficio d'inventario può farsi nonostante qualunque divieto del testatore."
+   },
+   {
+    "id": "it-cc-528",
+    "cite": "Codice civile art. 528",
+    "title": "Nomina del curatore",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art528",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "4-7-1998",
+    "quote": "Quando il chiamato non ha accettato l'eredità e non è nel possesso di beni ereditari, il tribunale del circondario in cui si è aperta la successione, su istanza delle persone interessate o anche d'uff…"
+   },
+   {
+    "id": "it-cc-532",
+    "cite": "Codice civile art. 532",
+    "title": "Cessazione della curatela per accettazione dell'eredità",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art532",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "inForce": "19-4-1942",
+    "quote": "Il curatore cessa dalle sue funzioni quando l'eredità è stata accettata."
+   }
+  ]
+ },
  "jp-national": {
   "features": {
    "poaDurableByDefault": {
