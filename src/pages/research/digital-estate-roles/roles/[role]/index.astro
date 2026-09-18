@@ -33,6 +33,12 @@ const report = (j: any) =>
   `/research/digital-estate-roles/feedback/?j=${encodeURIComponent(j.jurisdiction)}`
   + `&role=${encodeURIComponent(j.roleId)}`
   + `&page=${encodeURIComponent('/research/digital-estate-roles/roles/' + role.id + '/')}`;
+// The per-row links above catch a wrong row. They cannot catch the reader whose jurisdiction
+// has no row at all, which is what the first report we received actually was, so the foot of
+// the page carries the ask with the role filled in and the jurisdiction left open.
+const reportRole =
+  `/research/digital-estate-roles/feedback/?role=${encodeURIComponent(role.id)}`
+  + `&page=${encodeURIComponent('/research/digital-estate-roles/roles/' + role.id + '/')}`;
 
 // group the rows by region for reading, keeping build.py's order within each
 const regions: { region: string; rows: any[] }[] = [];
@@ -130,6 +136,18 @@ const others = roles.filter((r: any) => r.id !== role.id);
             ))}
           </ul>
         </nav>
+
+        <aside class="fb-callout">
+          <p>
+            <strong>Does this role work differently where you are?</strong>
+            <a href={reportRole}>Tell us</a> — no account needed.
+          </p>
+          <p>
+            That includes a jurisdiction with no entry above: if the role exists where you are and
+            is not here, say so. A pointer to the statute or regulation helps most, because
+            everything here is sourced to primary law.
+          </p>
+        </aside>
 
         <p class="hint">
           The <a href="/research/digital-estate-roles/">interactive viewer</a> carries the lifecycle
