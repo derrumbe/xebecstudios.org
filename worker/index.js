@@ -19,7 +19,8 @@
  */
 
 const FEEDBACK_PATH = '/research/digital-estate-roles/feedback';
-const LIMITS = { subject: 120, body: 4000, jurisdiction: 60, role: 80, page: 300, source: 500, contact: 120 };
+const LIMITS = { subject: 120, body: 4000, jurisdiction: 60, role: 80, page: 300, source: 500, contact: 120,
+                 jurisdiction_id: 60, role_id: 80 };
 const UA = 'xebecstudios.org feedback endpoint';
 const LABEL = 'reader feedback';
 
@@ -66,6 +67,10 @@ async function handleFeedback(request, env, url) {
     source: clean(form.get('source'), LIMITS.source),
     contact: clean(form.get('contact'), LIMITS.contact),
     kind: clean(form.get('kind'), 40) || 'gap',
+    // The form shows a reader the jurisdiction and role by name; these carry the id behind
+    // the name it resolved, when it resolved one, so triage keeps the exact row.
+    jurisdiction_id: clean(form.get('jurisdiction_id'), LIMITS.jurisdiction_id),
+    role_id: clean(form.get('role_id'), LIMITS.role_id),
   };
   if (fields.body.length < 20) return back(url, 'short');
 
@@ -107,9 +112,12 @@ async function turnstileOk(token, request, env) {
 
 function issueBody(f) {
   const line = (label, v) => (v ? `**${label}:** ${v}\n` : '');
+  // Name first, id after it: the name is what a reader recognises and the id is what finds
+  // the row in research/. A reader naming a jurisdiction we do not cover has only a name.
+  const named = (name, id) => (name && id && name !== id ? `${name} (${id})` : name || id);
   return [
-    line('Jurisdiction', f.jurisdiction),
-    line('Role', f.role),
+    line('Jurisdiction', named(f.jurisdiction, f.jurisdiction_id)),
+    line('Role', named(f.role, f.role_id)),
     line('Page', f.page),
     line('Kind', f.kind),
     '\n---\n\n',
@@ -202,7 +210,7 @@ async function installationToken(env) {
 
 async function createIssue(f, env) {
   const title = f.subject
-    || `${f.jurisdiction || 'Digital Estate Roles'}: ${f.body.slice(0, 60).replace(/\s+\S*$/, '')}…`;
+    || `${f.jurisdiction || f.jurisdiction_id || 'Digital Estate Roles'}: ${f.body.slice(0, 60).replace(/\s+\S*$/, '')}…`;
   try {
     const auth = await installationToken(env);
     if (!auth) return false;
