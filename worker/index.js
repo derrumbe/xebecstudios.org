@@ -38,9 +38,12 @@ const clean = (v, n) => String(v ?? '').replace(/\r\n/g, '\n').trim().slice(0, n
 // One prerendered page per outcome. A query parameter would be invisible to a reader with
 // JavaScript off, and they are exactly who this form is for.
 const RESULTS = new Set(['sent', 'short', 'captcha', 'unconfigured', 'error']);
-const back = (url, result) => {
+const back = (url, result, params) => {
   const where = RESULTS.has(result) ? result : 'error';
-  return Response.redirect(new URL(`${FEEDBACK_PATH}/${where}/`, url.origin).toString(), 303);
+  const to = new URL(`${FEEDBACK_PATH}/${where}/`, url.origin);
+  // The pages are prerendered and ignore this; it is for whoever is looking at the redirect.
+  for (const [k, v] of Object.entries(params || {})) if (v) to.searchParams.set(k, v);
+  return Response.redirect(to.toString(), 303);
 };
 
 async function handleFeedback(request, env, url) {
@@ -66,9 +69,17 @@ async function handleFeedback(request, env, url) {
   };
   if (fields.body.length < 20) return back(url, 'short');
 
-  if (!env.TURNSTILE_SECRET || !env.GITHUB_APP_PRIVATE_KEY || !env.GITHUB_APP_ID || !env.FEEDBACK_REPO) {
+  // Name what is absent. Which settings are unset is operational status rather than a
+  // secret, and without it "unconfigured" is a dead end for whoever has to fix it.
+  const missing = Object.entries({
+    app_id: env.GITHUB_APP_ID,
+    private_key: env.GITHUB_APP_PRIVATE_KEY,
+    turnstile_secret: env.TURNSTILE_SECRET,
+    feedback_repo: env.FEEDBACK_REPO,
+  }).filter(([, v]) => !v).map(([k]) => k);
+  if (missing.length) {
     // Better a plain refusal than a form that silently swallows what someone wrote.
-    return back(url, 'unconfigured');
+    return back(url, 'unconfigured', { missing: missing.join(',') });
   }
   if (!(await turnstileOk(form.get('cf-turnstile-response'), request, env))) {
     return back(url, 'captcha');

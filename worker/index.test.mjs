@@ -62,9 +62,16 @@ const tests = {
     const r = await worker.fetch(new Request('https://xebecstudios.org/research/digital-estate-roles/feedback/'), FULL);
     assert.equal(await r.text(), 'static');
   },
-  'missing configuration refuses rather than silently dropping': async () => {
+  'missing configuration refuses, and names what is absent': async () => {
     const r = await worker.fetch(post({ body: BODY }), { ASSETS });
     assert.equal(statusOf(r), 'unconfigured');
+    const missing = new URL(r.headers.get('location')).searchParams.get('missing').split(',');
+    assert.deepEqual(missing.sort(), ['app_id', 'feedback_repo', 'private_key', 'turnstile_secret']);
+  },
+  'one absent value is named on its own': async () => {
+    const { GITHUB_APP_ID, ...rest } = FULL;
+    const r = await worker.fetch(post({ body: BODY }), rest);
+    assert.equal(new URL(r.headers.get('location')).searchParams.get('missing'), 'app_id');
   },
   'too short to act on': async () => {
     stub({});
