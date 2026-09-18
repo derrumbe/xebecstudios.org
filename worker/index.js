@@ -135,8 +135,13 @@ function pkcs1ToPkcs8(der) {
 }
 
 function pemToKeyData(pem) {
-  const isPkcs1 = /BEGIN RSA PRIVATE KEY/.test(pem);
-  const body = pem.replace(/-----[^-]+-----/g, '').replace(/\s+/g, '');
+  // Be forgiving about how the key arrives. Pasting a PEM into a single-line field turns
+  // the newlines into a literal backslash-n, and some fields add quotes; neither is the
+  // reader's fault and both would otherwise fail deep inside a try/catch as a bare "error".
+  const text = String(pem).trim().replace(/^['"]|['"]$/g, '').replace(/\\n/g, '\n');
+  const isPkcs1 = /BEGIN RSA PRIVATE KEY/.test(text);
+  const body = text.replace(/-----[^-]+-----/g, '').replace(/\s+/g, '');
+  if (!body) throw new Error('empty private key');
   const der = Uint8Array.from(atob(body), (c) => c.charCodeAt(0));
   return isPkcs1 ? pkcs1ToPkcs8(der) : der;
 }

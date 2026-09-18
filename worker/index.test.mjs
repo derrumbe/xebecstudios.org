@@ -138,6 +138,23 @@ const tests = {
     const jwt = await __test.appJwt({ GITHUB_APP_ID: '1', GITHUB_APP_PRIVATE_KEY: PKCS8 });
     assert.equal(jwt.split('.').length, 3);
   },
+  'however the key was pasted, it parses to the same thing': async () => {
+    // A PEM pasted into a one-line field arrives with literal backslash-n, and some
+    // fields add quotes. Neither is the reader's fault, and both used to throw deep
+    // inside a catch that reported nothing more useful than "error".
+    const good = Buffer.from(__test.pemToKeyData(PKCS1));
+    for (const [name, form] of [
+      ['flattened', PKCS1.replace(/\n/g, '\\n')],
+      ['quoted', `"${PKCS1}"`],
+      ['quoted and flattened', `"${PKCS1.replace(/\n/g, '\\n')}"`],
+      ['padded with whitespace', `  ${PKCS1}  `],
+    ]) {
+      assert.ok(Buffer.from(__test.pemToKeyData(form)).equals(good), `${name} should parse the same`);
+    }
+  },
+  'an empty key says so rather than failing obscurely': async () => {
+    assert.throws(() => __test.pemToKeyData('   '), /empty private key/);
+  },
   'both key formats produce the same key': async () => {
     const a = __test.pemToKeyData(PKCS1);
     const b = __test.pemToKeyData(PKCS8);
