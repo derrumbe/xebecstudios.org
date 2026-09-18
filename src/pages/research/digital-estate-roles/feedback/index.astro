@@ -18,9 +18,11 @@ const manifest = JSON.parse(
   readFileSync('public/research/digital-estate-roles/data/manifest.json', 'utf8'),
 );
 
-// Turnstile's site key is public, but it is set per deploy; without it the form still
-// renders and the Worker refuses the post rather than pretending to have accepted it.
-const SITEKEY = import.meta.env.PUBLIC_TURNSTILE_SITEKEY || '';
+// A Turnstile site key is public by design — it is rendered into the HTML of this page,
+// so keeping it out of the repository would protect nothing. It lives here beside the form
+// that uses it; the environment variable stays supported so it can be changed without a
+// code change. The *secret* key is a Worker secret and is not here.
+const SITEKEY = import.meta.env.PUBLIC_TURNSTILE_SITEKEY || '0x4AAAAAAE7UQBvkDaWZmYB5';
 
 const jurisdictions = manifest.jurisdictions;
 ---

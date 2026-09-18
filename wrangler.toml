@@ -17,10 +17,15 @@ main = "worker/index.js"
 compatibility_date = "2026-01-01"
 
 [vars]
-# Where reader feedback is filed. The token that authorises it is a secret, not a var:
-#   wrangler secret put GITHUB_TOKEN       (fine-grained PAT, Issues: write, this repo only)
-#   wrangler secret put TURNSTILE_SECRET   (secret key of the Turnstile widget)
+# Where reader feedback is filed, and which GitHub App files it. Neither is a secret; the
+# App's private key is, and lives outside this file:
+#   wrangler secret put GITHUB_APP_PRIVATE_KEY   (the .pem the App gave you, pasted as-is)
+#   wrangler secret put TURNSTILE_SECRET         (secret key of the Turnstile widget)
+#
+# An App rather than a personal access token because a token expires, and it would fail
+# silently from our side: readers would keep writing and nothing would arrive.
 FEEDBACK_REPO = "derrumbe/digital-estate-roles"
+GITHUB_APP_ID = "4986003"
 
 [assets]
 directory = "./dist"

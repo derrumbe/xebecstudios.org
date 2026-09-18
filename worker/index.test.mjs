@@ -4,12 +4,19 @@
  * The endpoint takes text from strangers and turns it into an API call with a token, so the
  * paths that matter are the ones that refuse. GitHub and Turnstile are stubbed.
  */
-import worker from './index.js';
+import worker, { __test } from './index.js';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import { generateKeyPairSync } from 'node:crypto';
 
 const ASSETS = { fetch: async () => new Response('static', { status: 200 }) };
-const FULL = { ASSETS, GITHUB_TOKEN: 't', TURNSTILE_SECRET: 's', FEEDBACK_REPO: 'owner/repo' };
+// Generated per run rather than committed: a private key in the repository, even a
+// throwaway one, is the kind of thing secret scanners and future readers rightly distrust.
+const { privateKey } = generateKeyPairSync('rsa', { modulusLength: 2048 });
+const PKCS1 = privateKey.export({ type: 'pkcs1', format: 'pem' });
+const PKCS8 = privateKey.export({ type: 'pkcs8', format: 'pem' });
+const FULL = { ASSETS, GITHUB_APP_ID: '123456', GITHUB_APP_PRIVATE_KEY: PKCS1,
+               TURNSTILE_SECRET: 's', FEEDBACK_REPO: 'owner/repo' };
 const post = (fields) => {
   const fd = new FormData();
   for (const [k, v] of Object.entries(fields)) fd.append(k, v);
@@ -20,10 +27,18 @@ const BODY = 'In New South Wales an enduring guardian may also consent to a medi
 
 const real = globalThis.fetch;
 let calls = [];
-const stub = ({ turnstile = true, github = true }) => {
+const stub = ({ turnstile = true, github = true, install = true }) => {
+  __test.resetTokenCache();
   globalThis.fetch = async (url, init) => {
-    calls.push({ url: String(url), init });
-    if (String(url).includes('turnstile')) return new Response(JSON.stringify({ success: turnstile }));
+    const u = String(url);
+    calls.push({ url: u, init });
+    if (u.includes('turnstile')) return new Response(JSON.stringify({ success: turnstile }));
+    if (u.endsWith('/installation')) {
+      return install ? new Response(JSON.stringify({ id: 42 })) : new Response('{}', { status: 404 });
+    }
+    if (u.includes('/access_tokens')) {
+      return new Response(JSON.stringify({ token: 'ghs_installation', expires_at: new Date(Date.now() + 3.6e6).toISOString() }));
+    }
     if (github === 'no-label' && JSON.parse(init.body).labels) return new Response('{}', { status: 422 });
     return new Response('{}', { status: github ? 201 : 500 });
   };
@@ -90,10 +105,11 @@ const tests = {
       'cf-turnstile-response': 'x',
     }), FULL);
     assert.equal(statusOf(r), 'sent');
-    const gh = calls.find((c) => c.url.includes('api.github.com'));
+    const gh = calls.find((c) => c.url.endsWith('/issues'));
     assert.ok(gh, 'GitHub should have been called');
     assert.equal(gh.url, 'https://api.github.com/repos/owner/repo/issues');
-    assert.match(gh.init.headers.Authorization, /^Bearer /);
+    assert.equal(gh.init.headers.Authorization, 'Bearer ghs_installation',
+                 'the issue must be created with the installation token, not the app JWT');
     const payload = JSON.parse(gh.init.body);
     assert.match(payload.title, /au-nsw/);
     assert.match(payload.body, /New South Wales/);
@@ -104,9 +120,60 @@ const tests = {
     calls = []; stub({ github: 'no-label' });
     const r = await worker.fetch(post({ body: BODY, 'cf-turnstile-response': 'x' }), FULL);
     assert.equal(statusOf(r), 'sent');
-    const gh = calls.filter((c) => c.url.includes('api.github.com'));
+    const gh = calls.filter((c) => c.url.endsWith('/issues'));
     assert.equal(gh.length, 2, 'should retry without the label');
     assert.ok(!JSON.parse(gh[1].init.body).labels);
+  },
+  'the key GitHub actually gives you (PKCS#1) can sign': async () => {
+    const jwt = await __test.appJwt({ GITHUB_APP_ID: '123456', GITHUB_APP_PRIVATE_KEY: PKCS1 });
+    const [h, b, sig] = jwt.split('.');
+    assert.ok(sig && sig.length > 300, 'RS256 signature expected');
+    const claims = JSON.parse(Buffer.from(b, 'base64url').toString());
+    assert.equal(claims.iss, '123456');
+    assert.ok(claims.iat < Math.floor(Date.now() / 1000), 'iat must be backdated');
+    assert.ok(claims.exp - claims.iat <= 600, 'GitHub rejects a life over ten minutes');
+    assert.equal(JSON.parse(Buffer.from(h, 'base64url').toString()).alg, 'RS256');
+  },
+  'a PKCS#8 key works too, for anyone who converted theirs': async () => {
+    const jwt = await __test.appJwt({ GITHUB_APP_ID: '1', GITHUB_APP_PRIVATE_KEY: PKCS8 });
+    assert.equal(jwt.split('.').length, 3);
+  },
+  'however the key was pasted, it parses to the same thing': async () => {
+    // A PEM pasted into a one-line field arrives with literal backslash-n, and some
+    // fields add quotes. Neither is the reader's fault, and both used to throw deep
+    // inside a catch that reported nothing more useful than "error".
+    const good = Buffer.from(__test.pemToKeyData(PKCS1));
+    for (const [name, form] of [
+      ['flattened', PKCS1.replace(/\n/g, '\\n')],
+      ['quoted', `"${PKCS1}"`],
+      ['quoted and flattened', `"${PKCS1.replace(/\n/g, '\\n')}"`],
+      ['padded with whitespace', `  ${PKCS1}  `],
+    ]) {
+      assert.ok(Buffer.from(__test.pemToKeyData(form)).equals(good), `${name} should parse the same`);
+    }
+  },
+  'an empty key says so rather than failing obscurely': async () => {
+    assert.throws(() => __test.pemToKeyData('   '), /empty private key/);
+  },
+  'both key formats produce the same key': async () => {
+    const a = __test.pemToKeyData(PKCS1);
+    const b = __test.pemToKeyData(PKCS8);
+    assert.deepEqual(Buffer.from(a).toString('hex'), Buffer.from(b).toString('hex'),
+                     'the PKCS#1 wrap must reproduce what openssl produces');
+  },
+  'the installation token is reused rather than minted per issue': async () => {
+    calls = []; stub({});
+    for (let i = 0; i < 3; i++) {
+      await worker.fetch(post({ body: BODY, 'cf-turnstile-response': 'x' }), FULL);
+    }
+    assert.equal(calls.filter((c) => c.url.includes('/access_tokens')).length, 1);
+    assert.equal(calls.filter((c) => c.url.endsWith('/issues')).length, 3);
+  },
+  'an App not installed on the repo files nothing': async () => {
+    calls = []; stub({ install: false });
+    const r = await worker.fetch(post({ body: BODY, 'cf-turnstile-response': 'x' }), FULL);
+    assert.equal(statusOf(r), 'error');
+    assert.ok(!calls.some((c) => c.url.endsWith('/issues')));
   },
   'a GitHub failure is reported, not swallowed': async () => {
     stub({ github: false });
@@ -116,7 +183,7 @@ const tests = {
   'oversized input is truncated before it reaches the API': async () => {
     calls = []; stub({});
     await worker.fetch(post({ body: 'x'.repeat(50000), 'cf-turnstile-response': 'x' }), FULL);
-    const gh = calls.find((c) => c.url.includes('api.github.com'));
+    const gh = calls.find((c) => c.url.endsWith('/issues'));
     assert.ok(JSON.parse(gh.init.body).body.length < 5000);
   },
 };
