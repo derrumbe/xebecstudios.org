@@ -22,6 +22,10 @@
     administration: 'Estate administration',
     closed: 'Estate closed',
   };
+  // Column headings have only their own column's width. 'Estate administration' does not fit
+  // one on a narrower page, and shrinking it alone to fit left it a quarter smaller than its
+  // neighbours; the column is unambiguous without the noun, and tooltips keep the full name.
+  const PHASE_HEAD = { ...PHASE_LABEL, administration: 'Administration' };
   const GROUPS = [
     ['financial', 'Financial'],
     ['health', 'Health care'],
@@ -474,6 +478,18 @@
     t.textContent = s;
     return t;
   }
+
+  // Shrink a centred label that would otherwise run into its neighbour. The lanes are laid
+  // out to the width available, so their columns narrow on a narrower page while the text in
+  // them does not. Measuring needs the node to be in the document, so callers draw into an
+  // svg that is already attached.
+  function fitText(node, max) {
+    const w = node.getComputedTextLength();
+    if (!w || w <= max) return node;
+    const size = parseFloat(node.getAttribute('font-size'));
+    node.setAttribute('font-size', Math.max(10.5, size * (max / w)));
+    return node;
+  }
   const phaseIdx = (p) => { const i = PHASES.indexOf(p); return i < 0 ? 0 : i; };
 
   function rolesByGroup(m) {
@@ -501,19 +517,29 @@
     }
   }
 
+  // The lanes were drawn to a fixed 1200 and left to the viewBox to scale down to whatever
+  // width the container had. That scaled the type along with the geometry: in a 1056px column
+  // a 14px role name rendered at 12.3px, and on a phone nearer 10.5px. Drawing to the width
+  // actually available keeps every label at the size it is set in. Below the floor the
+  // container scrolls, as it always has — 900 is the floor the stylesheet used to set, now
+  // here, because this is where the width is decided.
+  const LANE_MIN = 900;
+  const laneWidth = () => Math.max(Math.round($('#lanes').clientWidth) || 1200, LANE_MIN);
+
   function renderLanes(m) {
     renderGroupChips(m);
     const host = $('#lanes');
     host.innerHTML = '';
-    const W = 1200, LABEL = 320, HEAD = 62, GH = 30;
+    const W = laneWidth(), LABEL = 320, HEAD = 62, GH = 30;
     const ROW = m.roles.some((r) => nameEn(r)) ? 48 : 38;
     const colW = (W - LABEL - 10) / PHASES.length;
     const colX = (i) => LABEL + i * colW;
     const groups = rolesByGroup(m).filter(([g]) => !state.hiddenGroups.has(g));
     const H = HEAD + groups.reduce((a, [, rs]) => a + GH + rs.length * ROW, 0) + 10;
 
-    const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, class: 'lanes-svg', role: 'img',
+    const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, width: W, class: 'lanes-svg', role: 'img',
       'aria-label': `Authority lifecycle lanes for ${m.name}: for each role, when it is assigned, when authority starts, and when it ends, across the principal's phases from capable to estate closed.` });
+    host.appendChild(svg);   // attached before it is drawn, so fitText can measure
     const defs = el('defs', {}, svg);
     const mk = el('marker', { id: 'ph-arrow', viewBox: '0 0 10 10', refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: 'auto-start-reverse' }, defs);
     el('path', { d: 'M0,0 L10,5 L0,10 z', fill: 'currentColor' }, mk);
@@ -521,7 +547,7 @@
     // phase columns
     PHASES.forEach((p, i) => {
       el('rect', { x: colX(i), y: 0, width: colW, height: H, fill: i % 2 ? 'var(--phase-b)' : 'var(--phase-a)' }, svg);
-      txt(svg, colX(i) + colW / 2, 23, PHASE_LABEL[p], { 'text-anchor': 'middle', 'font-size': 14.5, 'font-weight': 600, fill: 'currentColor' });
+      fitText(txt(svg, colX(i) + colW / 2, 23, PHASE_HEAD[p], { 'text-anchor': 'middle', 'font-size': 14.5, 'font-weight': 600, fill: 'currentColor' }), colW - 12);
       if (i < PHASES.length - 1) {
         el('line', { x1: colX(i) + colW - 26, y1: 38, x2: colX(i) + colW + 26, y2: 38, stroke: 'var(--ink-2)', 'stroke-width': 1.2, 'marker-end': 'url(#ph-arrow)', color: 'var(--ink-2)' }, svg);
       }
@@ -538,7 +564,6 @@
       y += GH;
       for (const r of rs) { drawLane(svg, m, r, y, { LABEL, ROW, colW, colX, W }); y += ROW; }
     }
-    host.appendChild(svg);
   }
 
   function drawLane(svg, m, r, y, g) {
@@ -1223,6 +1248,19 @@
 
   // ---------- boot ----------
   window.addEventListener('scroll', hideTip, { passive: true });
+  // The lanes are laid out to the width they are given, so a resize needs a redraw. Nothing
+  // else measures, and a redraw of the same width is a no-op, so only the lanes tab listens.
+  let laneW = 0, resizeTimer = 0;
+  window.addEventListener('resize', () => {
+    if (state.tab !== 'lanes') return;
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      const w = laneWidth();
+      if (w === laneW) return;
+      laneW = w;
+      renderLanes(state.merged[state.jur]);
+    }, 150);
+  });
   load().then(() => {
     readHash();
     renderChrome();

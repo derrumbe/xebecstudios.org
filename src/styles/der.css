@@ -86,7 +86,9 @@
 .der .scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
 .der svg { display: block; }
 .der svg text { font-family: inherit; }
-.der .lanes-svg { min-width: 900px; width: 100%; height: auto; color: var(--ink); }
+/* The width is set by app.js, which lays the lanes out to the space they have rather than
+   drawing to a fixed width and letting the viewBox scale the type down with it. */
+.der .lanes-svg { display: block; height: auto; color: var(--ink); }
 .der .lane-row:hover .lane-bg { fill: var(--surface-2); }
 .der .role-link { cursor: pointer; }
 .der .role-link:hover text, .der .role-link:focus text { text-decoration: underline; }
