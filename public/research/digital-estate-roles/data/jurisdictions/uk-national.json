@@ -1,0 +1,898 @@
+{
+ "jurisdiction": "uk-national",
+ "name": "United Kingdom (national layer)",
+ "country": "uk",
+ "legalSystem": "mixed",
+ "note": "UK-wide or Great Britain-wide roles (benefits appointees, veterans compensation, HMRC, health-record access to deceased patients) and national data-protection features. Succession, capacity and organ donation law is devolved: see uk-ew and the other sub-national files.",
+ "citations": [
+  {
+   "id": "sscp-1987-r33",
+   "cite": "Social Security (Claims and Payments) Regulations 1987, SI 1987/1968, reg 33",
+   "title": "Persons unable to act",
+   "url": "https://www.legislation.gov.uk/uksi/1987/1968/regulation/33",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "that person is unable for the time being to act"
+  },
+  {
+   "id": "sscp-1987-r33-2",
+   "cite": "Social Security (Claims and Payments) Regulations 1987, SI 1987/1968, reg 33(2)",
+   "title": "Persons unable to act: revocation, resignation, termination",
+   "url": "https://www.legislation.gov.uk/uksi/1987/1968/regulation/33",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "may resign his office after having given one month's notice in writing"
+  },
+  {
+   "id": "sscp-1987-r30",
+   "cite": "Social Security (Claims and Payments) Regulations 1987, SI 1987/1968, reg 30",
+   "title": "Payments on death",
+   "url": "https://www.legislation.gov.uk/uksi/1987/1968/regulation/30",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "On the death of a person who has made a claim for benefit, the Secretary of State or the Board may appoint such person as he or they may think fit to proceed with the claim"
+  },
+  {
+   "id": "ucpip-2013-r57",
+   "cite": "Universal Credit, Personal Independence Payment, Jobseeker's Allowance and Employment and Support Allowance (Claims and Payments) Regulations 2013, SI 2013/380, reg 57",
+   "title": "Persons unable to act",
+   "url": "https://www.legislation.gov.uk/uksi/2013/380/regulation/57",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "no attorney with a general power, or a power to claim or receive benefit, has been appointed by P1"
+  },
+  {
+   "id": "govuk-appointee",
+   "cite": "GOV.UK, Become an appointee for someone claiming benefits",
+   "title": "Become an appointee for someone claiming benefits",
+   "url": "https://www.gov.uk/become-appointee-for-someone-claiming-benefits",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "You're not the appointee until this happens."
+  },
+  {
+   "id": "dmg-ch8-appointees",
+   "cite": "DWP, Decision Makers' Guide Vol 2 Ch 08, paras 08250-08257 and 08350",
+   "title": "Payment of benefit: people unable to act; payments after death",
+   "url": "https://assets.publishing.service.gov.uk/media/66fd5bbbe84ae1fd8592ecf1/dmg-chapter-8-payment-of-benefit-and-deductions-from-benefit.pdf",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "An appointee takes the place of the claimant and assumes all the claimant's responsibilities"
+  },
+  {
+   "id": "afcs-2011-a71",
+   "cite": "Armed Forces and Reserve Forces (Compensation Scheme) Order 2011, SI 2011/517, art 71",
+   "title": "Persons who are mentally infirm",
+   "url": "https://www.legislation.gov.uk/uksi/2011/517/article/71",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "no person has legal authority to act on M's behalf"
+  },
+  {
+   "id": "spo-2006-a49",
+   "cite": "Naval, Military and Air Forces Etc. (Disablement and Death) Service Pensions Order 2006, SI 2006/606, art 49",
+   "title": "Administration of pensions etc.",
+   "url": "https://www.legislation.gov.uk/uksi/2006/606/article/49",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "may be administered by the Secretary of State"
+  },
+  {
+   "id": "tma-1970-s74",
+   "cite": "Taxes Management Act 1970 s 74",
+   "title": "Personal representatives",
+   "url": "https://www.legislation.gov.uk/ukpga/1970/9/section/74",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the executor or administrator of the person deceased shall be liable for the tax chargeable on such deceased person"
+  },
+  {
+   "id": "tma-1970-s40",
+   "cite": "Taxes Management Act 1970 s 40",
+   "title": "Assessment on personal representatives",
+   "url": "https://www.legislation.gov.uk/ukpga/1970/9/section/40",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall in no case extend more than 4 years after the end of the year of assessment in which the deceased died"
+  },
+  {
+   "id": "ihta-1984-s200",
+   "cite": "Inheritance Tax Act 1984 s 200",
+   "title": "Transfer on death: persons liable",
+   "url": "https://www.legislation.gov.uk/ukpga/1984/51/section/200",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ihta-1984-s216",
+   "cite": "Inheritance Tax Act 1984 s 216",
+   "title": "Delivery of accounts",
+   "url": "https://www.legislation.gov.uk/ukpga/1984/51/section/216",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "govuk-sa-deceased",
+   "cite": "GOV.UK, Self Assessment tax returns: Returns for someone who has died",
+   "title": "Returns for someone who has died",
+   "url": "https://www.gov.uk/self-assessment-tax-returns/returns-for-someone-who-has-died",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "A personal representative is legally responsible for dealing with the deceased's money, property and possessions"
+  },
+  {
+   "id": "hmrc-tsem7356",
+   "cite": "HMRC Trusts, Settlements and Estates Manual TSEM7356",
+   "title": "Deceased persons: what personal representatives do",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/trusts-settlements-and-estates-manual/tsem7356",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "They must settle the deceased's debts including any tax liability."
+  },
+  {
+   "id": "govuk-register-estate",
+   "cite": "GOV.UK, Register an estate as a personal representative",
+   "title": "Register an estate as a personal representative",
+   "url": "https://www.gov.uk/guidance/register-an-estate-as-a-personal-representative",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "ahra-1990-s3",
+   "cite": "Access to Health Records Act 1990 s 3(1)(f)",
+   "title": "Right of access to health records",
+   "url": "https://www.legislation.gov.uk/ukpga/1990/23/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "where the patient has died, the patient's personal representative and any person who may have a claim arising out of the patient's death"
+  },
+  {
+   "id": "ahra-1990-s4",
+   "cite": "Access to Health Records Act 1990 s 4(3)",
+   "title": "Cases where right of access may be wholly excluded",
+   "url": "https://www.legislation.gov.uk/ukpga/1990/23/section/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a note, made at the patient's request, that he did not wish access to be given on such an application"
+  },
+  {
+   "id": "ahra-1990-s5",
+   "cite": "Access to Health Records Act 1990 s 5(4)",
+   "title": "Cases where right of access may be partially excluded",
+   "url": "https://www.legislation.gov.uk/ukpga/1990/23/section/5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "information which is not relevant to any claim which may arise out of the patient's death"
+  },
+  {
+   "id": "ahra-1990-s12",
+   "cite": "Access to Health Records Act 1990 s 12(3)",
+   "title": "Short title, commencement, and extent",
+   "url": "https://www.legislation.gov.uk/ukpga/1990/23/section/12",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This Act does not extend to Northern Ireland."
+  },
+  {
+   "id": "ahr-ni-1993-a5",
+   "cite": "Access to Health Records (Northern Ireland) Order 1993, SI 1993/1250 (NI 4), art 5(1)(e)",
+   "title": "Right of access to health records",
+   "url": "https://www.legislation.gov.uk/nisi/1993/1250/article/5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "where the patient has died, the patient's personal representative and any person who may have a claim arising out of the patient's death"
+  },
+  {
+   "id": "dpa-2018-s3",
+   "cite": "Data Protection Act 2018 s 3(2)-(3)",
+   "title": "Terms relating to the processing of personal data",
+   "url": "https://www.legislation.gov.uk/ukpga/2018/12/section/3",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "any information relating to an identified or identifiable living individual"
+  },
+  {
+   "id": "ukgdpr-recital-27",
+   "cite": "UK GDPR (Regulation (EU) 2016/679 as retained), recital 27",
+   "title": "Recital 27: deceased persons",
+   "url": "https://www.legislation.gov.uk/eur/2016/679/contents",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This Regulation does not apply to the personal data of deceased persons."
+  },
+  {
+   "id": "ukgdpr-a4",
+   "cite": "UK GDPR art 4(1)",
+   "title": "Definitions: personal data",
+   "url": "https://www.legislation.gov.uk/eur/2016/679/article/4",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "pdaa-2025",
+   "cite": "Property (Digital Assets etc) Act 2025 ss 1-2",
+   "title": "Objects of personal property rights; extent",
+   "url": "https://www.legislation.gov.uk/ukpga/2025/29",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A thing (including a thing that is digital or electronic in nature) is not prevented from being the object of personal property rights"
+  },
+  {
+   "id": "lawcom-412",
+   "cite": "Law Commission, Digital Assets: Final Report (Law Com No 412, HC 1486, 2023), ch 1 n 2",
+   "title": "Digital assets: final report",
+   "url": "https://cdn.websitebuilder.service.justice.gov.uk/uploads/sites/54/2025/12/Final-digital-assets-report-FOR-WEBSITE-2.pdf",
+   "kind": "law-reform-report",
+   "retrieved": "2026-09-16",
+   "quote": "a separate project looking specifically at the rights of access on death and incapacity to such accounts"
+  }
+ ],
+ "roles": [
+  {
+   "id": "uk-dwp-appointee",
+   "canonical": "benefits-payee",
+   "group": "federal",
+   "name": "DWP appointee",
+   "localNames": [
+    "appointee",
+    "person appointed to act (reg 33 / reg 57)",
+    "corporate appointee"
+   ],
+   "summary": "The Department for Work and Pensions (DWP) may appoint a person over 18, or an organisation, to claim and receive social security benefits for a claimant who is 'unable for the time being to act'. DWP decides, on a written application. The appointment covers only benefits: it gives no wider power over the claimant's money.",
+   "lane": {
+    "assigned": {
+     "event": "Secretary of State (DWP) appoints on written application, after DWP checks that the claimant is unable to act and the applicant is suitable (form BF56, confirmed by BF57)",
+     "phase": "incapacitated",
+     "citations": [
+      "sscp-1987-r33",
+      "ucpip-2013-r57",
+      "govuk-appointee"
+     ]
+    },
+    "starts": {
+     "event": "On formal appointment (BF57 issued); not before",
+     "phase": "incapacitated",
+     "citations": [
+      "govuk-appointee",
+      "sscp-1987-r33"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Secretary of State revokes the appointment (e.g. appointee not acting properly, or claimant can manage own benefits)",
+      "phase": "incapacitated",
+      "citations": [
+       "sscp-1987-r33-2",
+       "ucpip-2013-r57",
+       "govuk-appointee"
+      ]
+     },
+     {
+      "event": "Appointee resigns with one month's written notice",
+      "phase": "incapacitated",
+      "citations": [
+       "sscp-1987-r33-2",
+       "ucpip-2013-r57"
+      ]
+     },
+     {
+      "event": "DWP is notified that a Court of Protection deputy (or Scottish guardian/judicial factor) with power over benefits exists; for UC, PIP, new-style JSA/ESA, also a registered attorney with a general or benefits power",
+      "phase": "incapacitated",
+      "citations": [
+       "sscp-1987-r33-2",
+       "ucpip-2013-r57"
+      ]
+     },
+     {
+      "event": "Claimant dies. The regulations do not expressly say so: reg 33/57 cover a living person 'unable to act', and after death a separate appointment under reg 30 is needed to proceed with a claim",
+      "phase": "deceased",
+      "citations": [
+       "sscp-1987-r33",
+       "sscp-1987-r30",
+       "dmg-ch8-appointees"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Precedence: under the 1987 Regulations (legacy benefits, State Pension, AA, DLA) DWP cannot appoint if a Court of Protection deputy or Scottish guardian/judicial factor has power over benefits, and an existing appointment ends when DWP learns of one. Reg 33 does not list attorneys. Reg 57 of the 2013 Regulations (UC, PIP, new-style JSA and ESA) also excludes appointment where an attorney with a general or benefits power exists.",
+     "citations": [
+      "sscp-1987-r33",
+      "sscp-1987-r33-2",
+      "ucpip-2013-r57",
+      "dmg-ch8-appointees"
+     ]
+    },
+    {
+     "text": "Extent: the 1987 and 2013 Regulations cover Great Britain. Northern Ireland benefits (Department for Communities) and devolved Scottish benefits (Social Security Scotland) have their own appointee schemes. DWP will accept those appointments as proof of authority.",
+     "citations": [
+      "govuk-appointee",
+      "sscp-1987-r33"
+     ]
+    },
+    {
+     "text": "After death: DWP may appoint anyone it thinks fit to proceed with a claim, and may pay arrears to personal representatives, legatees, next of kin or creditors. A written application is normally needed within 12 months of the death.",
+     "citations": [
+      "sscp-1987-r30",
+      "dmg-ch8-appointees"
+     ]
+    },
+    {
+     "text": "Only one appointee can act for a claimant, and the appointee takes on the claimant's duty to report changes.",
+     "citations": [
+      "govuk-appointee",
+      "dmg-ch8-appointees"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment"
+     },
+     {
+      "id": "designated",
+      "label": "Applied; awaiting decision"
+     },
+     {
+      "id": "active",
+      "label": "Appointed and acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-apply",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Written application to DWP; DWP visits claimant and interviews applicant",
+      "conditions": [
+       "Claimant is unable for the time being to act",
+       "Applicant is 18+ if an individual",
+       "No deputy (and, under reg 57, no attorney) with benefits power"
+      ],
+      "citations": [
+       "sscp-1987-r33",
+       "govuk-appointee"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-appoint",
+      "from": "designated",
+      "to": "active",
+      "event": "Secretary of State appoints (BF57 issued)",
+      "conditions": [],
+      "citations": [
+       "sscp-1987-r33",
+       "ucpip-2013-r57",
+       "govuk-appointee"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Secretary of State revokes",
+      "conditions": [],
+      "citations": [
+       "sscp-1987-r33-2",
+       "ucpip-2013-r57"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-resign",
+      "from": "active",
+      "to": "terminated",
+      "event": "Appointee resigns; effective after one month's written notice",
+      "conditions": [],
+      "citations": [
+       "sscp-1987-r33-2",
+       "ucpip-2013-r57"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-deputy",
+      "from": "active",
+      "to": "terminated",
+      "event": "DWP notified that a deputy (or, for reg 57 benefits, an attorney) with benefits power is in place",
+      "conditions": [],
+      "citations": [
+       "sscp-1987-r33-2",
+       "ucpip-2013-r57"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Claimant dies; any further action on the claim needs a reg 30 appointment or a personal representative",
+      "conditions": [
+       "No provision expressly ends the appointment on death; inferred from scope"
+      ],
+      "citations": [
+       "sscp-1987-r33",
+       "sscp-1987-r30",
+       "dmg-ch8-appointees"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "uk-veterans-appointee",
+   "canonical": "veterans-fiduciary",
+   "group": "federal",
+   "name": "Appointee for armed forces compensation / war pension",
+   "localNames": [
+    "person appointed to act for M (AFCS art 71)",
+    "administration of pension by the Secretary of State (SPO art 49)"
+   ],
+   "summary": "Armed forces compensation has its own appointment power, separate from DWP. Under the Armed Forces Compensation Scheme the Secretary of State (Defence) may appoint someone to act for a person who is incapable of managing their affairs 'by reason of mental infirmity', if no one else has legal authority. For older war pensions the Secretary of State can administer the pension directly.",
+   "lane": {
+    "assigned": {
+     "event": "Secretary of State appoints in writing a person (18+ if an individual). The Secretary of State must consider the person incapable of managing their affairs by reason of mental infirmity, and no one else may have legal authority to act",
+     "phase": "incapacitated",
+     "citations": [
+      "afcs-2011-a71"
+     ]
+    },
+    "starts": {
+     "event": "On written appointment",
+     "phase": "incapacitated",
+     "citations": [
+      "afcs-2011-a71"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Secretary of State revokes (and may appoint another)",
+      "phase": "incapacitated",
+      "citations": [
+       "afcs-2011-a71"
+      ]
+     },
+     {
+      "event": "Appointee resigns with one month's written notice",
+      "phase": "incapacitated",
+      "citations": [
+       "afcs-2011-a71"
+      ]
+     },
+     {
+      "event": "Death of the beneficiary (not stated expressly in art 71)",
+      "phase": "deceased",
+      "citations": [
+       "afcs-2011-a71"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Art 71 applies only where 'no person has legal authority to act on M's behalf', so an attorney or deputy takes precedence. The Secretary of State may require an undertaking on how the money will be used. The Order extends to the whole UK.",
+     "citations": [
+      "afcs-2011-a71"
+     ]
+    },
+    {
+     "text": "War Pensions (Service Pensions Order 2006): the Secretary of State may administer a pension where the beneficiary is, in the Secretary of State's opinion, incapable of managing their affairs by reason of mental infirmity, and apply it for their benefit. This is administration by the department, not an appointee.",
+     "citations": [
+      "spo-2006-a49"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment"
+     },
+     {
+      "id": "active",
+      "label": "Appointed and acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Secretary of State appoints in writing",
+      "conditions": [
+       "M incapable of managing own affairs by reason of mental infirmity",
+       "No person has legal authority to act for M"
+      ],
+      "citations": [
+       "afcs-2011-a71"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Secretary of State revokes",
+      "conditions": [],
+      "citations": [
+       "afcs-2011-a71"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-resign",
+      "from": "active",
+      "to": "terminated",
+      "event": "Appointee resigns on one month's written notice",
+      "conditions": [],
+      "citations": [
+       "afcs-2011-a71"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Beneficiary dies",
+      "conditions": [
+       "Not express in art 71"
+      ],
+      "citations": [
+       "afcs-2011-a71"
+      ],
+      "unverified": true,
+      "phase": "deceased"
+     }
+    ]
+   }
+  },
+  {
+   "id": "uk-hmrc-personal-representative",
+   "canonical": "tax-representative",
+   "group": "federal",
+   "name": "Personal representative dealing with HMRC for a deceased person",
+   "localNames": [
+    "personal representative",
+    "executor or administrator"
+   ],
+   "summary": "HMRC deals with the executor or administrator. By statute they are liable for income tax owed by the deceased, and for inheritance tax on the free estate, and they must file returns for both the deceased's final period and the estate's administration period. Tax law does not create a separate appointment: the role follows the person's status as personal representative under succession law.",
+   "derivedFrom": [
+    "personal-representative-executor",
+    "personal-representative-administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Person becomes executor (named in will) or administrator (grant of letters of administration) under the law of the relevant UK jurisdiction",
+     "phase": "deceased",
+     "citations": [
+      "tma-1970-s74",
+      "govuk-sa-deceased"
+     ]
+    },
+    "starts": {
+     "event": "From death (executor) or grant (administrator), as succession law provides; HMRC may issue a return for the deceased's pre-death income",
+     "phase": "administration",
+     "citations": [
+      "tma-1970-s74",
+      "govuk-sa-deceased",
+      "ihta-1984-s216"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate tax affairs settled after the administration period. HMRC cannot assess PRs for the deceased's pre-death income or gains more than 4 years after the end of the tax year of death",
+      "phase": "closed",
+      "citations": [
+       "tma-1970-s40",
+       "hmrc-tsem7356"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Income tax: the executor or administrator is liable for tax chargeable on the deceased and may pay it from the estate.",
+     "citations": [
+      "tma-1970-s74"
+     ]
+    },
+    {
+     "text": "Inheritance tax: personal representatives are liable for tax on property not in a settlement, and must deliver an account.",
+     "citations": [
+      "ihta-1984-s200",
+      "ihta-1984-s216"
+     ]
+    },
+    {
+     "text": "Estate income during administration is taxed on the PRs. An estate must register with HMRC only above thresholds: estate over £2.5 million, assets sold over £500,000 in a tax year, or income tax plus CGT over £10,000. Otherwise informal arrangements apply. From 6 April 2024, estates with income up to £500 pay no income tax on it.",
+     "citations": [
+      "hmrc-tsem7356",
+      "govuk-register-estate"
+     ]
+    },
+    {
+     "text": "Tax on a living person who lacks capacity: no current TMA provision appoints a tax representative (TMA 1970 s 72, on trustees and guardians of incapacitated persons, is repealed). HMRC relies on general authority such as an attorney or deputy. Not modelled here.",
+     "citations": [
+      "tma-1970-s74"
+     ],
+     "unverified": true
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No personal representative in place"
+     },
+     {
+      "id": "designated",
+      "label": "Executor named in will / person entitled to grant, not yet dealing with HMRC"
+     },
+     {
+      "id": "active",
+      "label": "Dealing with HMRC as personal representative"
+     },
+     {
+      "id": "terminated",
+      "label": "Tax affairs of deceased and estate concluded"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-pr",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Death of a testator naming an executor, or a grant of administration",
+      "conditions": [],
+      "citations": [
+       "tma-1970-s74"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-notify",
+      "from": "designated",
+      "to": "active",
+      "event": "HMRC notified of death (e.g. Tell Us Once); returns issued or estate registered",
+      "conditions": [],
+      "citations": [
+       "govuk-sa-deceased",
+       "govuk-register-estate"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-close",
+      "from": "active",
+      "to": "terminated",
+      "event": "Liabilities settled; assessment window for pre-death income is 4 years after the end of the tax year of death",
+      "conditions": [],
+      "citations": [
+       "tma-1970-s40",
+       "hmrc-tsem7356"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   }
+  },
+  {
+   "id": "uk-deceased-health-records-applicant",
+   "canonical": "health-records-representative",
+   "group": "federal",
+   "name": "Applicant for a deceased patient's health records",
+   "localNames": [
+    "patient's personal representative",
+    "person who may have a claim arising out of the patient's death"
+   ],
+   "summary": "Data protection law covers only living people, so a deceased patient's records are reached through separate statutes. In England, Wales and Scotland the Access to Health Records Act 1990 lets the personal representative, and anyone who may have a claim arising from the death, apply to the record holder. Northern Ireland has a parallel Order from 1993.",
+   "lane": {
+    "assigned": {
+     "event": "By statute on death: the patient's personal representative, or any person who may have a claim arising out of the death. No appointment is made",
+     "phase": "deceased",
+     "citations": [
+      "ahra-1990-s3",
+      "ahr-ni-1993-a5"
+     ]
+    },
+    "starts": {
+     "event": "On the patient's death, by application to the holder of the record",
+     "phase": "deceased",
+     "citations": [
+      "ahra-1990-s3",
+      "ahr-ni-1993-a5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "No statutory end date. The right lasts while the person remains personal representative or has a possible claim arising from the death",
+      "phase": "closed",
+      "citations": [
+       "ahra-1990-s3"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration",
+     "closed"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Extent: the 1990 Act extends to England, Wales and Scotland, not Northern Ireland. The Access to Health Records (Northern Ireland) Order 1993 art 5(1)(e) gives the same right in NI.",
+     "citations": [
+      "ahra-1990-s12",
+      "ahr-ni-1993-a5"
+     ]
+    },
+    {
+     "text": "Limits: no access if the record has a note, made at the patient's request, that they did not want access given on such an application. The holder must withhold anything not relevant to a claim arising from the death, and anything likely to cause serious harm or identifying third parties.",
+     "citations": [
+      "ahra-1990-s4",
+      "ahra-1990-s5"
+     ]
+    },
+    {
+     "text": "Access is free (1990 Act s 3(4)). The holder must respond within 21 days for records made in the last 40 days, otherwise 40 days. A medical examiner also has a right of access (s 3(1)(g)).",
+     "citations": [
+      "ahra-1990-s3"
+     ]
+    },
+    {
+     "text": "For living patients, the access provisions of the 1990 Act were repealed; access is under UK GDPR / DPA 2018. In Scotland, s 3(1)(ee) lets a person authorised under the Adults with Incapacity (Scotland) Act 2000 apply for an incapable living patient.",
+     "citations": [
+      "ahra-1990-s3",
+      "dpa-2018-s3"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Patient alive (1990 Act access route not available)"
+     },
+     {
+      "id": "designated",
+      "label": "Patient dead; person qualifies as PR or potential claimant"
+     },
+     {
+      "id": "active",
+      "label": "Application made to record holder"
+     },
+     {
+      "id": "suspended",
+      "label": "Access withheld in whole or part (patient's note; irrelevant, harmful or third-party information)"
+     },
+     {
+      "id": "terminated",
+      "label": "Access given or refused"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Patient dies",
+      "conditions": [],
+      "citations": [
+       "ahra-1990-s3",
+       "ahr-ni-1993-a5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-apply",
+      "from": "designated",
+      "to": "active",
+      "event": "Application to holder of the record",
+      "conditions": [
+       "Holder may ask for more information within 14 days to verify entitlement"
+      ],
+      "citations": [
+       "ahra-1990-s3"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-exclude",
+      "from": "active",
+      "to": "suspended",
+      "event": "Holder applies an exclusion",
+      "conditions": [],
+      "citations": [
+       "ahra-1990-s4",
+       "ahra-1990-s5"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-give",
+      "from": "active",
+      "to": "terminated",
+      "event": "Holder gives access within 21 or 40 days",
+      "conditions": [],
+      "citations": [
+       "ahra-1990-s3"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "deceasedPersonalDataProtected": {
+   "value": false,
+   "note": "UK data protection law protects only living individuals. DPA 2018 defines personal data as information about an identified or identifiable living individual, and UK GDPR recital 27 says the Regulation does not apply to deceased persons' data. Records of deceased patients are reached through the Access to Health Records Act 1990 (GB) and the 1993 NI Order instead. A common-law duty of confidence may survive death, but that is not verified here.",
+   "citations": [
+    "dpa-2018-s3",
+    "ukgdpr-recital-27",
+    "ukgdpr-a4",
+    "ahra-1990-s3",
+    "ahr-ni-1993-a5"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": "None. No UK statute gives personal representatives, attorneys or deputies a right of access to a person's online accounts or digital assets. The Property (Digital Assets etc) Act 2025 (E&W and NI) only confirms that digital things can be personal property, so they can form part of an estate. In 2023 the Law Commission (Law Com No 412) noted that access to accounts on death and incapacity was outside its report and had been suggested as a separate project.",
+   "citations": [
+    "pdaa-2025",
+    "lawcom-412"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No UK statute recognises platform tools such as legacy contacts or inactive account managers. Law reform context only: Law Com No 412.",
+   "citations": [
+    "lawcom-412"
+   ]
+  }
+ }
+}

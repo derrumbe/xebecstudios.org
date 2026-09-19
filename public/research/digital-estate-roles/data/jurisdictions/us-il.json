@@ -1,0 +1,2045 @@
+{
+ "jurisdiction": "us-il",
+ "name": "Illinois",
+ "extends": "us-model",
+ "uniformActsAdopted": {
+  "UPOAA": {
+   "adopted": false,
+   "note": "Illinois Power of Attorney Act, 755 ILCS 45 (state act; statutory short forms in Arts. III and IV)",
+   "citations": [
+    "il-poa-2-5",
+    "il-poa-3-3"
+   ],
+   "unverified": true
+  },
+  "UHCDA": {
+   "adopted": false,
+   "note": "Health care agencies under 755 ILCS 45 Art. IV; default surrogates under Health Care Surrogate Act, 755 ILCS 40",
+   "citations": [
+    "il-poa-4-10",
+    "il-hcsa-25"
+   ],
+   "unverified": true
+  },
+  "UGCOPAA": {
+   "adopted": false,
+   "note": "Probate Act of 1975, Art. XIa (adults with disabilities)",
+   "citations": [
+    "il-pa-11a-3"
+   ],
+   "unverified": true
+  },
+  "UPC": {
+   "adopted": false,
+   "note": "Probate Act of 1975, 755 ILCS 5 (state-specific)",
+   "citations": [
+    "il-pa-9-3"
+   ],
+   "unverified": true
+  },
+  "UTC": {
+   "adopted": "based-on",
+   "note": "Illinois Trust Code, 760 ILCS 3 (eff. 1-1-20), UTC section numbering with Illinois modifications",
+   "citations": [
+    "il-itc-101",
+    "il-itc-704"
+   ],
+   "unverified": true
+  },
+  "RUFADAA": {
+   "adopted": true,
+   "note": "Enacted by short title 'Revised Uniform Fiduciary Access to Digital Assets Act (2015)', 755 ILCS 70 (P.A. 99-775, eff. 8-12-16)",
+   "citations": [
+    "il-rufadaa-1"
+   ],
+   "unverified": false
+  },
+  "RUAGA": {
+   "adopted": "unverified",
+   "note": "Illinois Anatomical Gift Act, 755 ILCS 50 (Art. 5 renumbered; Revised UAGA-style structure with Illinois priority list)",
+   "citations": [
+    "il-aga-5-5"
+   ],
+   "unverified": true
+  }
+ },
+ "citations": [
+  {
+   "id": "il-poa-2-3",
+   "cite": "755 ILCS 45/2-3",
+   "title": "Definitions (incapacitated)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "has made a written record of this determination and has signed the written record within 90 days after the examination"
+  },
+  {
+   "id": "il-poa-2-4",
+   "cite": "755 ILCS 45/2-4",
+   "title": "Applicability (principal may specify beginning and termination)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-4.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The principal may specify in the agency the event or time when the agency will begin and terminate"
+  },
+  {
+   "id": "il-poa-2-5",
+   "cite": "755 ILCS 45/2-5",
+   "title": "Duration of agency - amendment and revocation",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the agency continues until the death of the principal, notwithstanding any lapse of time, the principal's disability or incapacity or appointment of a guardian"
+  },
+  {
+   "id": "il-poa-2-5-rev",
+   "cite": "755 ILCS 45/2-5",
+   "title": "Duration of agency - amendment and revocation (revocation)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "at any time and in any manner communicated to the agent or to any other person related to the subject matter of the agency"
+  },
+  {
+   "id": "il-poa-2-6",
+   "cite": "755 ILCS 45/2-6",
+   "title": "Effect of disability-divorce",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-6.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the spouse shall be deemed to have died at the time of the judgment for all purposes of the agency."
+  },
+  {
+   "id": "il-poa-2-8",
+   "cite": "755 ILCS 45/2-8",
+   "title": "Reliance on document purporting to establish an agency",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-8.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Any person who acts in good faith reliance on a copy of a document purporting to establish an agency will be fully protected and released"
+  },
+  {
+   "id": "il-poa-2-10",
+   "cite": "755 ILCS 45/2-10",
+   "title": "Agency-court relationship",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-10.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court may order a guardian of the principal's person or estate to exercise any powers of the principal under the agency, including the"
+  },
+  {
+   "id": "il-poa-2-10_3",
+   "cite": "755 ILCS 45/2-10.3",
+   "title": "Successor agents",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-10.3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A principal may designate one or more successor agents to act if an initial or predecessor agent resigns, dies, becomes incapacitated"
+  },
+  {
+   "id": "il-poa-2-10_5",
+   "cite": "755 ILCS 45/2-10.5",
+   "title": "Co-agents",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-10.5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Co-agents may not be named by a principal in a statutory short form power of attorney for property under Article III"
+  },
+  {
+   "id": "il-poa-3-3",
+   "cite": "755 ILCS 45/3-3",
+   "title": "Statutory short form power of attorney for property",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K3-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the authority granted in this power of attorney will become effective at the time this power is signed and will continue until your death"
+  },
+  {
+   "id": "il-poa-3-3-springing",
+   "cite": "755 ILCS 45/3-3",
+   "title": "Statutory short form power of attorney for property (paragraph 6, delayed effective date)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K3-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "such as a court determination of your disability or a written determination by your physician that you are incapacitated, when you want this power"
+  },
+  {
+   "id": "il-poa-3-3-exec",
+   "cite": "755 ILCS 45/3-3",
+   "title": "Statutory short form power of attorney for property (execution)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K3-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This power of attorney will not be effective unless it is signed by at least one witness and your signature is notarized"
+  },
+  {
+   "id": "il-poa-4-3",
+   "cite": "755 ILCS 45/4-3",
+   "title": "General principles (health care agency after death)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A health care agency may extend beyond the principal's death if necessary to permit anatomical gift, autopsy, disposition of remains, or access to medical records."
+  },
+  {
+   "id": "il-poa-4-4",
+   "cite": "755 ILCS 45/4-4",
+   "title": "Definitions (health care agent)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-4.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "\"Health care agent\" means an individual at least 18 years old designated by the principal to make health care decisions of any type"
+  },
+  {
+   "id": "il-poa-4-5",
+   "cite": "755 ILCS 45/4-5",
+   "title": "Limitations on health care agencies",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Neither the attending physician nor any other health care provider or health care professional may act as agent under a health care agency"
+  },
+  {
+   "id": "il-poa-4-5_1",
+   "cite": "755 ILCS 45/4-5.1",
+   "title": "Limitations on who may witness health care agencies",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-5.1.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Every health care agency shall bear the signature of a witness to the signing of the agency. No witness may be under 18 years"
+  },
+  {
+   "id": "il-poa-4-6",
+   "cite": "755 ILCS 45/4-6",
+   "title": "Revocation and amendment of health care agencies",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-6.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "every health care agency may be revoked by the principal at any time, without regard to the principal's mental or physical condition"
+  },
+  {
+   "id": "il-poa-4-6-a5",
+   "cite": "755 ILCS 45/4-6(a-5)",
+   "title": "Revocation and amendment of health care agencies (delayed revocation)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-6.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A principal may elect a 30-day delay of the revocation of the principal's health care agency."
+  },
+  {
+   "id": "il-poa-4-7",
+   "cite": "755 ILCS 45/4-7",
+   "title": "Duties of health care providers and others in relation to health care agencies",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-7.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall be deemed the act of the principal and shall control over the decision of other persons who might otherwise have priority"
+  },
+  {
+   "id": "il-poa-4-10",
+   "cite": "755 ILCS 45/4-10",
+   "title": "Statutory short form power of attorney for health care",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-10.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Make decisions for me only when I cannot make them for myself. The physician(s) taking care of me will determine when I lack this ability."
+  },
+  {
+   "id": "il-poa-4-10-imm",
+   "cite": "755 ILCS 45/4-10",
+   "title": "Statutory short form power of attorney for health care (immediate records access option)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-10.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Starting now, for the purpose of assisting me with my health care plans and decisions, my agent shall have complete access to my medical"
+  },
+  {
+   "id": "il-poa-4-10-d",
+   "cite": "755 ILCS 45/4-10(d)",
+   "title": "Statutory short form power of attorney for health care (physician determination)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-10.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A physician may determine that the principal is unable to make health care decisions for himself or herself only if the principal lacks decisional capacity"
+  },
+  {
+   "id": "il-poa-4-10-c5",
+   "cite": "755 ILCS 45/4-10(c)(5)-(6)",
+   "title": "Statutory short form power of attorney for health care (post-death powers)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-10.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The agent is authorized: to direct that an autopsy be made pursuant to Section 2 of the Autopsy Act"
+  },
+  {
+   "id": "il-poa-4-10-c6",
+   "cite": "755 ILCS 45/4-10(c)(6)",
+   "title": "Statutory short form power of attorney for health care (benefits after death)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-10.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "At any time during which there is no executor or administrator appointed for the principal's estate, the agent is authorized to continue to pursue"
+  },
+  {
+   "id": "il-hcsa-10",
+   "cite": "755 ILCS 40/10",
+   "title": "Definitions (decisional capacity; qualifying condition)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500400K10.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "certified in writing in the patient's medical record by the attending physician and by at least one other qualified health care practitioner"
+  },
+  {
+   "id": "il-hcsa-15",
+   "cite": "755 ILCS 40/15",
+   "title": "Applicability",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500400K15.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This Act does not apply to instances in which the patient has an operative and unrevoked living will"
+  },
+  {
+   "id": "il-hcsa-20",
+   "cite": "755 ILCS 40/20",
+   "title": "Private decision making process",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500400K20.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Decisions whether to forgo life-sustaining treatment on behalf of a patient without decisional capacity are lawful, without resort to the courts or legal process,"
+  },
+  {
+   "id": "il-hcsa-25",
+   "cite": "755 ILCS 40/25",
+   "title": "Surrogate decision making",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500400K25.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an attempt to contact that person by telephone must be made within 24 hours after a determination by the provider that the patient lacks"
+  },
+  {
+   "id": "il-hcsa-25-order",
+   "cite": "755 ILCS 40/25(a)",
+   "title": "Surrogate decision making (priority)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500400K25.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(1) the patient's guardian of the person; (2) the patient's spouse; (3) any adult son or daughter of the patient;"
+  },
+  {
+   "id": "il-hcsa-25-f",
+   "cite": "755 ILCS 40/25(f)",
+   "title": "Surrogate decision making (end of authority)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500400K25.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Any surrogate shall have the authority to make decisions for the patient until removed by the patient who no longer lacks decisional capacity, appointment"
+  },
+  {
+   "id": "il-hcsa-60",
+   "cite": "755 ILCS 40/60",
+   "title": "Health care surrogate; specific mental health services",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500400K60.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A surrogate decision maker, other than a court appointed guardian, may not consent to specific mental health services for an adult patient."
+  },
+  {
+   "id": "il-pa-11a-2",
+   "cite": "755 ILCS 5/11a-2",
+   "title": "\"Person with a disability\" defined",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-2.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "il-pa-11a-3",
+   "cite": "755 ILCS 5/11a-3",
+   "title": "Adjudication of disability; power to appoint guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court may adjudge a person to be a person with a disability, but only if it has been demonstrated by clear and convincing evidence"
+  },
+  {
+   "id": "il-pa-11a-3_1",
+   "cite": "755 ILCS 5/11a-3.1",
+   "title": "Appointment of standby guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-3.1.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The guardian of a person with a disability may designate in any writing, including a will, a person qualified to act under Section 11a-5"
+  },
+  {
+   "id": "il-pa-11a-3_2",
+   "cite": "755 ILCS 5/11a-3.2",
+   "title": "Short-term guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-3.2.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A short-term guardian appointed by the guardian shall have authority to act as guardian of the person with a disability for a cumulative total"
+  },
+  {
+   "id": "il-pa-11a-4",
+   "cite": "755 ILCS 5/11a-4",
+   "title": "Temporary guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-4.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The temporary guardianship shall expire within 60 days after the appointment or whenever a guardian is regularly appointed, whichever occurs first."
+  },
+  {
+   "id": "il-pa-11a-5",
+   "cite": "755 ILCS 5/11a-5",
+   "title": "Who may act as guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "il-pa-11a-6",
+   "cite": "755 ILCS 5/11a-6",
+   "title": "Designation of guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-6.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The selection of the guardian shall be in the discretion of the court whether or not a designation is made."
+  },
+  {
+   "id": "il-pa-11a-12",
+   "cite": "755 ILCS 5/11a-12",
+   "title": "Order of appointment (limited and plenary guardians)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-12.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court shall appoint a limited guardian for the respondent's person or estate or both."
+  },
+  {
+   "id": "il-pa-11a-15",
+   "cite": "755 ILCS 5/11a-15",
+   "title": "Successor guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the court shall appoint a successor guardian or terminate the adjudication of disability."
+  },
+  {
+   "id": "il-pa-11a-17",
+   "cite": "755 ILCS 5/11a-17",
+   "title": "Duties of personal guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-17.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the guardian has no power, duty, or liability with respect to any personal or health care matters covered by the agency."
+  },
+  {
+   "id": "il-pa-11a-18",
+   "cite": "755 ILCS 5/11a-18",
+   "title": "Duties of the estate guardian",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-18.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the guardian of the estate shall have the care, management and investment of the estate"
+  },
+  {
+   "id": "il-pa-11a-18_2",
+   "cite": "755 ILCS 5/11a-18.2",
+   "title": "Duties of standby guardian of a person with a disability",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-18.2.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the standby guardian of the person shall have the authority to act as guardian of the person without direction of court for a period"
+  },
+  {
+   "id": "il-pa-11a-20",
+   "cite": "755 ILCS 5/11a-20",
+   "title": "Termination of adjudication of disability - revocation of letters - modification",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-20.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "if the ward's capacity to perform the tasks necessary for the care of his person or the management of his estate has been demonstrated"
+  },
+  {
+   "id": "il-pa-24-12",
+   "cite": "755 ILCS 5/24-12",
+   "title": "Termination of office of a representative of a ward",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K24-12.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "when the representative dies or, subject to Section 24-19, when the ward dies."
+  },
+  {
+   "id": "il-pa-24-19",
+   "cite": "755 ILCS 5/24-19",
+   "title": "Administration of deceased ward's estate",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K24-19.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a representative of the estate of a deceased ward has the powers and duties of an administrator to collect."
+  },
+  {
+   "id": "il-pa-6-3",
+   "cite": "755 ILCS 5/6-3",
+   "title": "Duty of executor to present will for probate",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K6-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "he shall either institute a proceeding to have the will admitted to probate in the court of the proper county or declare his refusal"
+  },
+  {
+   "id": "il-pa-6-8",
+   "cite": "755 ILCS 5/6-8",
+   "title": "Issuance of letters testamentary",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K6-8.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "letters testamentary shall be issued to the executor named in the will if he qualifies and accepts the office, unless the issuance of letters"
+  },
+  {
+   "id": "il-pa-6-13",
+   "cite": "755 ILCS 5/6-13",
+   "title": "Who may act as executor",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K6-13.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is not currently incarcerated in State or federal prison"
+  },
+  {
+   "id": "il-pa-6-13-d",
+   "cite": "755 ILCS 5/6-13(d)",
+   "title": "Who may act as executor (nonresident bond)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K6-13.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The court may in its discretion require a nonresident executor to furnish a bond"
+  },
+  {
+   "id": "il-pa-9-1",
+   "cite": "755 ILCS 5/9-1",
+   "title": "Who may act as administrator",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K9-1.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A person who has attained the age of 18 years, is a resident of the United States"
+  },
+  {
+   "id": "il-pa-9-2",
+   "cite": "755 ILCS 5/9-2",
+   "title": "Issuance of letters of administration",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K9-2.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "letters of administration shall be issued in accordance with the preferences in Section 9-3 upon petition therefor"
+  },
+  {
+   "id": "il-pa-9-3",
+   "cite": "755 ILCS 5/9-3",
+   "title": "Persons entitled to preference in obtaining letters",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K9-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(a) The surviving spouse or any person nominated by the surviving spouse. (b) The legatees or any person nominated by them, with preference to"
+  },
+  {
+   "id": "il-pa-23-1",
+   "cite": "755 ILCS 5/23-1",
+   "title": "Resignation",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K23-1.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If the petitioner is permitted to resign the court shall revoke his letters."
+  },
+  {
+   "id": "il-pa-23-2",
+   "cite": "755 ILCS 5/23-2",
+   "title": "Removal",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K23-2.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "On petition of any interested person or on the court's own motion, the court may remove a representative if:"
+  },
+  {
+   "id": "il-pa-28-2",
+   "cite": "755 ILCS 5/28-2",
+   "title": "Order for independent administration",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K28-2.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Unless the will, if any, expressly forbids independent administration or supervised administration is required under subsection (b), the court shall grant independent administration"
+  },
+  {
+   "id": "il-pa-28-11",
+   "cite": "755 ILCS 5/28-11",
+   "title": "Closing the estate (independent administration)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K28-11.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An independent representative seeking discharge shall mail or deliver to all interested persons an accounting and shall file in the court a verified report"
+  },
+  {
+   "id": "il-pa-25-1",
+   "cite": "755 ILCS 5/25-1",
+   "title": "Payment or delivery of small estate of decedent upon affidavit",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K25-1.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "tangible and intangible personal property not exceeding $150,000; and (B) motor vehicles registered with the Secretary of State."
+  },
+  {
+   "id": "il-pa-25-1-a5",
+   "cite": "755 ILCS 5/25-1(a-5)(1)",
+   "title": "Small estate affidavit (no letters)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K25-1.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "no letters of office are outstanding on the decedent's estate and no petition for letters is contemplated or pending in this State or in"
+  },
+  {
+   "id": "il-pa-25-1-future",
+   "cite": "755 ILCS 5/25-1 (as amended by P.A. 104-624, eff. 1-1-27)",
+   "title": "Small estate affidavit (vehicles not excluded, pending amendment)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K25-1.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the following shall not be considered an excluded motor vehicle in determining the value of a decedent's personal estate: (i) motor vehicles used as"
+  },
+  {
+   "id": "il-pa-25-3",
+   "cite": "755 ILCS 5/25-3",
+   "title": "Recovery upon refusal to pay or deliver",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K25-3.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "it may be recovered in a civil action by or on behalf of the person entitled to receive it"
+  },
+  {
+   "id": "il-pa-104-0346",
+   "cite": "Public Act 104-0346 (SB 83), eff. 8-15-25",
+   "title": "Amends 755 ILCS 5/25-1 (small estate affidavit)",
+   "url": "https://www.ilga.gov/Documents/Legislation/PublicActs/104/PDF/104-0346.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "il-rufadaa-1",
+   "cite": "755 ILCS 70/1",
+   "title": "Short title",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K1.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This Act may be cited as the Revised Uniform Fiduciary Access to Digital Assets Act (2015)."
+  },
+  {
+   "id": "il-rufadaa-2",
+   "cite": "755 ILCS 70/2",
+   "title": "Definitions",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K2.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "means a person appointed by a court to manage the estate of a living individual. The term includes a standby or temporary guardian."
+  },
+  {
+   "id": "il-rufadaa-2-pr",
+   "cite": "755 ILCS 70/2",
+   "title": "Definitions (personal representative)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K2.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "means an executor, administrator, special administrator, or person that performs substantially the same function under law of this state other than this Act."
+  },
+  {
+   "id": "il-rufadaa-4",
+   "cite": "755 ILCS 70/4",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K4.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+  },
+  {
+   "id": "il-rufadaa-7",
+   "cite": "755 ILCS 70/7",
+   "title": "Disclosure of content of electronic communications of deceased user",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K7.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a certified copy of the letter of appointment of the representative or a court order;"
+  },
+  {
+   "id": "il-rufadaa-8",
+   "cite": "755 ILCS 70/8",
+   "title": "Disclosure of other digital assets of deceased user",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K8.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Unless the user prohibited disclosure of digital assets or the court directs otherwise, a custodian shall disclose to the personal representative"
+  },
+  {
+   "id": "il-rufadaa-9",
+   "cite": "755 ILCS 70/9",
+   "title": "Disclosure of content of electronic communications of principal",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K9.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "To the extent a power of attorney expressly grants an agent authority over the content of electronic communications sent or received by the principal"
+  },
+  {
+   "id": "il-rufadaa-14",
+   "cite": "755 ILCS 70/14",
+   "title": "Disclosure to guardian of person with a disability",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K14.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "After an opportunity for a hearing under Article XIa of the Probate Act of 1975, the court may direct the disclosure of the digital assets"
+  },
+  {
+   "id": "il-rufadaa-16",
+   "cite": "755 ILCS 70/16",
+   "title": "Custodian compliance and immunity",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K16.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "Not later than 60 days after receipt of the information required under Sections 7 through 15, a custodian shall comply"
+  },
+  {
+   "id": "il-dra-5",
+   "cite": "755 ILCS 65/5",
+   "title": "Right to control disposition; priority",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the following persons, in the priority listed, have the right to control the disposition, including cremation, of the decedent's remains"
+  },
+  {
+   "id": "il-dra-5-dd93",
+   "cite": "755 ILCS 65/5",
+   "title": "Right to control disposition; priority (military DD Form 93)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the person designated in such form to direct disposition of the decedent's remains shall have the right to control the disposition"
+  },
+  {
+   "id": "il-dra-10",
+   "cite": "755 ILCS 65/10",
+   "title": "Form (appointment of agent to control disposition of remains)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K10.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This appointment becomes effective upon my death."
+  },
+  {
+   "id": "il-dra-15",
+   "cite": "755 ILCS 65/15",
+   "title": "Requirements for written instrument",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K15.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The agent may sign at any time, but the agent's authority to act is not effective until the agent signs the instrument."
+  },
+  {
+   "id": "il-dra-15-rev",
+   "cite": "755 ILCS 65/15",
+   "title": "Requirements for written instrument (modification or revocation)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K15.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The written instrument may be modified or revoked only by a subsequent written instrument that complies with this Section."
+  },
+  {
+   "id": "il-dra-20",
+   "cite": "755 ILCS 65/20",
+   "title": "Duties of authorized agent",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K20.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "that person's right to control is relinquished and passed on to the next listed person or group of persons"
+  },
+  {
+   "id": "il-dra-30",
+   "cite": "755 ILCS 65/30",
+   "title": "Prohibition of cremation; written instructions",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K30.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "No person shall be allowed to authorize cremation when a decedent has left written instructions that he or she does not wish to be cremated."
+  },
+  {
+   "id": "il-dra-40",
+   "cite": "755 ILCS 65/40",
+   "title": "Directions by decedent",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K40.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a power of attorney that satisfies the provisions of Article IV-Powers of Attorney for Health Care of the Illinois Power of Attorney Act and"
+  },
+  {
+   "id": "il-dra-40-b",
+   "cite": "755 ILCS 65/40(b)",
+   "title": "Directions by decedent (will)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K40.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If the directions are in a will, they shall be carried out immediately without the necessity of probate."
+  },
+  {
+   "id": "il-dra-50",
+   "cite": "755 ILCS 65/50",
+   "title": "Disputes",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K50.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall be resolved by a court of competent jurisdiction within 30 days of the dispute being filed with the court."
+  },
+  {
+   "id": "il-cra-65",
+   "cite": "410 ILCS 18/65",
+   "title": "Crematory Regulation Act - pre-need cremation arrangements",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/041000180K65.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may authorize his or her own cremation and the final disposition of his or her cremated remains by executing, as the authorizing agent, a"
+  },
+  {
+   "id": "il-itc-101",
+   "cite": "760 ILCS 3/101",
+   "title": "Short title",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/076000030K101.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This Act may be cited as the Illinois Trust Code."
+  },
+  {
+   "id": "il-itc-701",
+   "cite": "760 ILCS 3/701",
+   "title": "Accepting or declining trusteeship",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/076000030K701.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A designated trustee who does not accept the trusteeship within 120 days after receiving notice of the designation is deemed to have declined the trusteeship."
+  },
+  {
+   "id": "il-itc-704",
+   "cite": "760 ILCS 3/704",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/076000030K704.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "by a person appointed by a majority of the beneficiaries who are distributees or permissible distributees of trust income;"
+  },
+  {
+   "id": "il-itc-704-a",
+   "cite": "760 ILCS 3/704(a)",
+   "title": "Vacancy in trusteeship (guardian appointed; incapacity)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/076000030K704.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "(6) a guardian is appointed for an individual serving as trustee; or (7) an individual serving as trustee becomes incapacitated."
+  },
+  {
+   "id": "il-itc-705",
+   "cite": "760 ILCS 3/705",
+   "title": "Resignation of trustee",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/076000030K705.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "upon notice to the settlor, if living, to the beneficiaries who are distributees or permissible distributees of trust income, and all co-trustees;"
+  },
+  {
+   "id": "il-itc-707",
+   "cite": "760 ILCS 3/707",
+   "title": "Delivery of property by former trustee",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/076000030K707.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a trustee who has resigned or been removed has the duties of a trustee and the powers necessary to protect the trust property."
+  },
+  {
+   "id": "il-aga-5-5",
+   "cite": "755 ILCS 50/5-5",
+   "title": "Persons who may execute an anatomical gift",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500500K5-5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift;"
+  },
+  {
+   "id": "il-aga-5-5-b",
+   "cite": "755 ILCS 50/5-5(b)",
+   "title": "Persons who may execute an anatomical gift (after death priority)",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500500K5-5.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may be made at the time of the decedent's death, or when death is imminent, by a member of the following classes of persons"
+  },
+  {
+   "id": "il-aga-5-25",
+   "cite": "755 ILCS 50/5-25",
+   "title": "Notification; authorization",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500500K5-25.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "reason to believe that an anatomical gift is contrary to the decedent's religious beliefs"
+  },
+  {
+   "id": "il-aga-5-45",
+   "cite": "755 ILCS 50/5-45",
+   "title": "Rights and duties at death",
+   "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500500K5-45.htm",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "After removal of the part, custody of the remainder of the body vests in the surviving spouse, next of kin, or other persons under"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent",
+    "attorney-in-fact",
+    "agent under statutory short form power of attorney for property"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs; statutory short form requires at least one witness and notarization of principal's signature",
+     "phase": "capable",
+     "citations": [
+      "il-poa-3-3-exec"
+     ]
+    },
+    "starts": {
+     "event": "Statutory form: effective when signed unless a later date or event is specified",
+     "phase": "capable",
+     "citations": [
+      "il-poa-3-3",
+      "il-poa-2-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "il-poa-2-5"
+      ]
+     },
+     {
+      "event": "Earlier termination date or event stated in the agency",
+      "phase": "capable",
+      "citations": [
+       "il-poa-2-5",
+       "il-poa-2-4"
+      ]
+     },
+     {
+      "event": "Amendment or revocation by principal with capacity, in any manner communicated to agent or a related person",
+      "phase": "capable",
+      "citations": [
+       "il-poa-2-5-rev"
+      ]
+     },
+     {
+      "event": "Judgment of dissolution or legal separation: agent-spouse deemed to have died at time of judgment",
+      "phase": "capable",
+      "citations": [
+       "il-poa-2-6"
+      ]
+     },
+     {
+      "event": "Court orders guardian to exercise principal's powers, including revocation",
+      "phase": "incapacitated",
+      "citations": [
+       "il-poa-2-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-sign",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Principal signs statutory short form with one witness and notarized signature",
+     "conditions": [
+      "Co-agents may not be named in the statutory short form",
+      "Successor agents may be named"
+     ],
+     "citations": [
+      "il-poa-3-3-exec",
+      "il-poa-2-10_5",
+      "il-poa-2-10_3"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-activate",
+     "from": "designated",
+     "to": "active",
+     "event": "Signing (default) or specified beginning date/event",
+     "conditions": [],
+     "citations": [
+      "il-poa-3-3",
+      "il-poa-2-4"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-guardian-appointed",
+     "from": "active",
+     "to": "active",
+     "event": "Guardian appointed for principal: agency continues",
+     "conditions": [
+      "Court may, on petition under §2-10, order guardian to exercise powers under the agency including revocation"
+     ],
+     "citations": [
+      "il-poa-2-5",
+      "il-poa-2-10"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-divorce-judgment",
+     "from": "active",
+     "to": "terminated",
+     "event": "Court enters judgment of dissolution or legal separation between principal and agent-spouse",
+     "conditions": [
+      "Spouse deemed to have died at time of judgment"
+     ],
+     "citations": [
+      "il-poa-2-6"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-terminate-death",
+     "from": "active",
+     "to": "terminated",
+     "event": "Principal dies",
+     "conditions": [],
+     "citations": [
+      "il-poa-2-5"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The Illinois Power of Attorney Act (755 ILCS 45) is not UPOAA. An agency lasts until death despite disability or appointment of a guardian (durable by default, as under UPOAA §104). Differences: the spouse-agent's authority ends on a judgment of dissolution or legal separation, not on filing as in UPOAA §110(b)(3); revocation may be in any manner communicated to the agent or a related person; the statutory short form needs one witness plus notary; guardians exercise agency powers only by court order under §2-10. Third parties who rely in good faith on a copy are protected and may demand an Agent's Certification and Acceptance of Authority (§2-8, amended by P.A. 104-609 eff. 1-1-27).",
+   "citations": [
+    "il-poa-2-5",
+    "il-poa-2-5-rev",
+    "il-poa-2-6",
+    "il-poa-2-8",
+    "il-poa-2-10",
+    "il-poa-3-3",
+    "il-poa-3-3-exec"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "lane": {
+    "ends": [
+     {
+      "event": "Termination date or event the principal specified in the agency (e.g., principal's incapacity)",
+      "phase": "incapacitated",
+      "citations": [
+       "il-poa-2-4",
+       "il-poa-2-5"
+      ]
+     },
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "il-poa-2-5"
+      ]
+     }
+    ]
+   },
+   "diff": "Illinois has no separate nondurable category. Every agency survives disability unless the instrument sets an earlier termination date or event (§§2-4(a), 2-5), so a nondurable power is just one that names incapacity as its end. This matches UPOAA §104's durable default.",
+   "citations": [
+    "il-poa-2-4",
+    "il-poa-2-5"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "lane": {
+    "assigned": {
+     "event": "Principal specifies a future beginning date or event (statutory short form paragraph 6)",
+     "phase": "capable",
+     "citations": [
+      "il-poa-2-4",
+      "il-poa-3-3-springing"
+     ]
+    },
+    "starts": {
+     "event": "Specified event occurs, e.g., court determination of disability or a physician's written incapacity determination delivered to agent",
+     "phase": "incapacitated",
+     "citations": [
+      "il-poa-3-3-springing",
+      "il-poa-2-3"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "t-activate",
+     "from": "designated",
+     "to": "active",
+     "event": "Principal adjudged under legal disability, or physician (licensed in all branches) examines principal, determines lack of decision-making capacity, signs written record within 90 days of exam, and record is delivered to agent",
+     "conditions": [
+      "Agent may rely conclusively on the written record"
+     ],
+     "citations": [
+      "il-poa-2-3"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Illinois allows springing powers (§2-4(a); short form paragraph 6). Under the default 'incapacitated' definition (§2-3(c-5)), either an adjudication or a single physician's signed written determination delivered to the agent triggers the power. UPOAA §109 also accepts a licensed psychologist and other persons the principal names.",
+   "citations": [
+    "il-poa-2-3",
+    "il-poa-2-4",
+    "il-poa-3-3-springing"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care agent",
+    "agent under power of attorney for health care"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs health care agency witnessed by one adult who is not a restricted person; agent is 18+ and not the treating provider",
+     "phase": "capable",
+     "citations": [
+      "il-poa-4-5_1",
+      "il-poa-4-4",
+      "il-poa-4-5"
+     ]
+    },
+    "starts": {
+     "event": "Statutory form default: when principal cannot make decisions as determined by treating physician(s) (lack of decisional capacity); optional immediate access to records and communication with providers",
+     "phase": "incapacitated",
+     "citations": [
+      "il-poa-4-10",
+      "il-poa-4-10-d",
+      "il-poa-4-10-imm"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation at any time regardless of mental or physical condition (unless 30-day delayed revocation elected)",
+      "phase": "capable",
+      "citations": [
+       "il-poa-4-6",
+       "il-poa-4-6-a5"
+      ]
+     },
+     {
+      "event": "Judgment of dissolution or legal separation with agent-spouse",
+      "phase": "capable",
+      "citations": [
+       "il-poa-2-6"
+      ]
+     },
+     {
+      "event": "After death: continues only as necessary for anatomical gift, autopsy, disposition of remains, access to medical records, and pending benefits applications while no executor or administrator",
+      "phase": "administration",
+      "citations": [
+       "il-poa-4-3",
+       "il-poa-4-10-c5",
+       "il-poa-4-10-c6"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-activate",
+     "from": "designated",
+     "to": "active",
+     "event": "Treating physician determines principal lacks decisional capacity",
+     "conditions": [
+      "If no box checked on statutory form, this default applies"
+     ],
+     "citations": [
+      "il-poa-4-10",
+      "il-poa-4-10-d"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-delayed-revocation",
+     "from": "active",
+     "to": "terminated",
+     "event": "Principal communicates intent to revoke; if 30-day delay was elected, revocation takes effect 30 days later",
+     "conditions": [],
+     "citations": [
+      "il-poa-4-6",
+      "il-poa-4-6-a5"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-post-death",
+     "from": "active",
+     "to": "active",
+     "event": "Principal dies: agent's decisions on anatomical gift, autopsy and disposition of remains control over persons with otherwise higher priority",
+     "conditions": [
+      "Unless limited in the agency"
+     ],
+     "citations": [
+      "il-poa-4-3",
+      "il-poa-4-7"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-guardian",
+     "from": "active",
+     "to": "active",
+     "event": "Guardian appointed: agent continues without court order",
+     "conditions": [
+      "Unless court has acted under §2-10"
+     ],
+     "citations": [
+      "il-pa-11a-17",
+      "il-poa-2-10"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Illinois uses Article IV of its Power of Attorney Act, not UHCDA. A health care agency may be revoked 'without regard to' the principal's mental or physical condition, with an optional 30-day delayed-revocation election. The agent's authority expressly outlasts death for anatomical gifts, autopsy, disposition of remains, record access and pending benefits claims, and those decisions override statutory priority lists. A dissolution judgment removes a spouse-agent. One qualified witness is required, and treating providers cannot serve as agent.",
+   "citations": [
+    "il-poa-4-3",
+    "il-poa-4-4",
+    "il-poa-4-5",
+    "il-poa-4-5_1",
+    "il-poa-4-6",
+    "il-poa-4-6-a5",
+    "il-poa-4-7",
+    "il-poa-4-10",
+    "il-poa-2-6"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate decision maker"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Patient lacks decisional capacity and no authorized, available health care agent; attending physician identifies surrogate in priority order; telephone contact attempt within 24 hours",
+     "phase": "incapacitated",
+     "citations": [
+      "il-hcsa-25",
+      "il-hcsa-25-order",
+      "il-hcsa-15"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removed by patient who regains decisional capacity",
+      "phase": "capable",
+      "citations": [
+       "il-hcsa-25-f"
+      ]
+     },
+     {
+      "event": "Appointment of a guardian of the person",
+      "phase": "incapacitated",
+      "citations": [
+       "il-hcsa-25-f"
+      ]
+     },
+     {
+      "event": "Patient's death",
+      "phase": "deceased",
+      "citations": [
+       "il-hcsa-25-f"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-activate",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Surrogate identified in order: guardian of the person; spouse; adult child; parent; adult sibling; adult grandchild; close friend (affidavit); guardian of the estate; juvenile-court temporary custodian",
+     "conditions": [
+      "Majority of available persons in same class controls on disagreement",
+      "Recorded in medical record"
+     ],
+     "citations": [
+      "il-hcsa-25",
+      "il-hcsa-25-order"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-forgo-lst",
+     "from": "active",
+     "to": "active",
+     "event": "Decision to forgo life-sustaining treatment",
+     "conditions": [
+      "Qualifying condition certified in writing by attending physician and at least one other qualified health care practitioner"
+     ],
+     "citations": [
+      "il-hcsa-20",
+      "il-hcsa-10"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-terminate-death",
+     "from": "active",
+     "to": "terminated",
+     "event": "Patient dies, regains capacity and removes surrogate, or guardian of person appointed",
+     "conditions": [],
+     "citations": [
+      "il-hcsa-25-f"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The Illinois Health Care Surrogate Act (755 ILCS 40) differs from UHCDA §5. Its fixed list includes adult grandchildren, a close friend by affidavit and the guardian of the estate; the provider must try to phone within 24 hours; forgoing life-sustaining treatment requires a certified 'qualifying condition'; surrogates other than guardians cannot consent to specific mental health services; and authority ends by statute on regained capacity, appointment of a guardian of the person, or death. No provision for an oral surrogate designation by the patient was found.",
+   "citations": [
+    "il-hcsa-25",
+    "il-hcsa-25-f",
+    "il-hcsa-20",
+    "il-hcsa-10",
+    "il-hcsa-60"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person",
+    "limited guardian",
+    "plenary guardian",
+    "temporary guardian",
+    "standby guardian",
+    "short-term guardian"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court adjudges person with a disability by clear and convincing evidence and appoints limited or plenary guardian of the person; a person's prior written designation is considered but court retains discretion",
+     "phase": "incapacitated",
+     "citations": [
+      "il-pa-11a-3",
+      "il-pa-11a-12",
+      "il-pa-11a-6"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court terminates adjudication or revokes letters on clear and convincing evidence of capacity",
+      "phase": "capable",
+      "citations": [
+       "il-pa-11a-20"
+      ]
+     },
+     {
+      "event": "Ward dies (office terminates, subject to §24-19)",
+      "phase": "deceased",
+      "citations": [
+       "il-pa-24-12"
+      ]
+     },
+     {
+      "event": "Guardian dies, is incapacitated, resigns or is removed: successor appointed or adjudication terminated",
+      "phase": "incapacitated",
+      "citations": [
+       "il-pa-11a-15"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "il-t-temporary",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Temporary guardian appointed on showing of necessity",
+     "conditions": [
+      "Expires within 60 days or when guardian regularly appointed; limited extensions (up to 120 days total pre-adjudication)"
+     ],
+     "citations": [
+      "il-pa-11a-4"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-standby-designation",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Existing guardian designates standby guardian in a witnessed writing; court appoints",
+     "conditions": [
+      "Designation by the guardian, not by the ward"
+     ],
+     "citations": [
+      "il-pa-11a-3_1"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-standby-activate",
+     "from": "designated",
+     "to": "active",
+     "event": "Standby guardian learns of guardian's death, consent, or inability to make day-to-day decisions",
+     "conditions": [
+      "May act without court direction up to 60 days; must petition for appointment within 60 days"
+     ],
+     "citations": [
+      "il-pa-11a-18_2"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-short-term",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Guardian appoints short-term guardian in writing without court approval",
+     "conditions": [
+      "Effective on execution unless later date/event stated",
+      "Cumulative 60 days per 12 months"
+     ],
+     "citations": [
+      "il-pa-11a-3_2"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-terminate-death",
+     "from": "active",
+     "to": "terminated",
+     "event": "Ward dies",
+     "conditions": [],
+     "citations": [
+      "il-pa-24-12"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Illinois Probate Act Article XIa ('person with a disability') differs from UGCOPAA. It adds temporary (60-day), standby and short-term guardians. Standby and short-term guardians are named by an existing guardian, not by the ward. Absent a court order, a guardian has no power over personal or health care matters covered by a surviving agency (§11a-17(c)). Pending: P.A. 104-465 (eff. 7-1-27) amends §§11a-3.1, 11a-12, 11a-14.1, 11a-17, including renaming the Office of State Guardian to a Division.",
+   "citations": [
+    "il-pa-11a-3",
+    "il-pa-11a-4",
+    "il-pa-11a-3_1",
+    "il-pa-11a-3_2",
+    "il-pa-11a-18_2",
+    "il-pa-11a-17",
+    "il-pa-11a-20",
+    "il-pa-24-12"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "guardian of the estate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court adjudges disability and finds by clear and convincing evidence person is unable to manage estate or financial affairs",
+     "phase": "incapacitated",
+     "citations": [
+      "il-pa-11a-3",
+      "il-pa-11a-18"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Ward dies: office terminates but representative has powers of an administrator to collect until letters issue; may petition for letters of administration after 30 days",
+      "phase": "administration",
+      "citations": [
+       "il-pa-24-12",
+       "il-pa-24-19"
+      ]
+     },
+     {
+      "event": "Adjudication terminated or letters revoked",
+      "phase": "capable",
+      "citations": [
+       "il-pa-11a-20"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "transitions": [
+    {
+     "id": "il-t-collect-after-death",
+     "from": "active",
+     "to": "active",
+     "event": "Ward dies: guardian of the estate acts as administrator to collect without order",
+     "conditions": [
+      "Until letters testamentary/of administration issue or court discharge"
+     ],
+     "citations": [
+      "il-pa-24-19"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-terminate-death",
+     "from": "active",
+     "to": "terminated",
+     "event": "Letters of office issued to estate representative or guardian discharged",
+     "conditions": [],
+     "citations": [
+      "il-pa-24-19"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "il-t-digital-access",
+     "from": "active",
+     "to": "active",
+     "event": "Court directs disclosure of ward's digital assets after opportunity for hearing",
+     "conditions": [],
+     "citations": [
+      "il-rufadaa-14"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "In Illinois the 'guardian of the estate' role outlasts the ward's death. Under §24-19 it holds collector-administrator powers until letters issue, and it ranks in the administrator preference list (§9-3(h)). The standby and temporary guardians count as guardians under RUFADAA (755 ILCS 70/2).",
+   "citations": [
+    "il-pa-24-12",
+    "il-pa-24-19",
+    "il-pa-9-3",
+    "il-rufadaa-2"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "independent executor"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Will admitted to probate; letters testamentary issued to named executor who qualifies and accepts",
+     "phase": "administration",
+     "citations": [
+      "il-pa-6-8"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Independent representative files verified closing report and is discharged",
+      "phase": "closed",
+      "citations": [
+       "il-pa-28-11"
+      ]
+     },
+     {
+      "event": "Resignation permitted and letters revoked",
+      "phase": "administration",
+      "citations": [
+       "il-pa-23-1"
+      ]
+     },
+     {
+      "event": "Removal by court",
+      "phase": "administration",
+      "citations": [
+       "il-pa-23-2"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "il-t-duty-to-present",
+     "from": "designated",
+     "to": "pending_letters",
+     "event": "Within 30 days after learning of nomination, named executor petitions to admit will or declares refusal",
+     "conditions": [
+      "Failure without good cause may forfeit right to act"
+     ],
+     "citations": [
+      "il-pa-6-3"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-activate",
+     "from": "pending_letters",
+     "to": "active",
+     "event": "Letters testamentary issued (independent administration unless will forbids or objection sustained)",
+     "conditions": [
+      "Qualified: 18+, US resident, not of unsound mind, not adjudged disabled, not incarcerated, no felony conviction unless will acknowledges it",
+      "Nonresident may be required to post bond"
+     ],
+     "citations": [
+      "il-pa-6-8",
+      "il-pa-6-13",
+      "il-pa-6-13-d",
+      "il-pa-28-2"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "Illinois uses 'executor' and 'administrator' with letters of office. Any US resident may serve, since state residency is not required, though a nonresident can be ordered to post bond. A named executor has a 30-day duty to act. Independent administration is the default. The qualifications were amended by P.A. 104-123 (eff. 1-1-26). A pre-letters relation-back rule like UPC §3-701 was not located in the sections reviewed.",
+   "citations": [
+    "il-pa-6-3",
+    "il-pa-6-8",
+    "il-pa-6-13",
+    "il-pa-28-2",
+    "il-pa-28-11"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "administrator with the will annexed",
+    "independent administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Letters of administration issued per statutory preference on petition",
+     "phase": "administration",
+     "citations": [
+      "il-pa-9-2",
+      "il-pa-9-3"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "t-activate",
+     "from": "pending_letters",
+     "to": "active",
+     "event": "Letters issued in preference order: spouse or nominee; legatees or nominee (children preferred); children; grandchildren; parents; siblings; nearest kindred; representative of deceased ward's estate; Public Administrator; creditor",
+     "conditions": [
+      "Qualified: 18+, US resident, not of unsound mind, not adjudged disabled, no felony",
+      "Each preferred class may nominate a qualified person"
+     ],
+     "citations": [
+      "il-pa-9-3",
+      "il-pa-9-1"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The Illinois §9-3 preference list is longer than UPC §3-203. Each class may nominate someone else, and it includes grandchildren, the representative of a deceased ward's estate, the Public Administrator and creditors. Co-administrators must be named on the letters (P.A. 104-123, eff. 1-1-26).",
+   "citations": [
+    "il-pa-9-1",
+    "il-pa-9-2",
+    "il-pa-9-3"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "lane": {
+    "assigned": {
+     "event": "Affiant executes statutory small estate affidavit: no letters outstanding or contemplated; personal estate (excluding registered motor vehicles) not over $150,000",
+     "phase": "deceased",
+     "citations": [
+      "il-pa-25-1",
+      "il-pa-25-1-a5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Holder pays or delivers per affidavit; refusal recoverable by civil action",
+      "phase": "closed",
+      "citations": [
+       "il-pa-25-1",
+       "il-pa-25-3"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-activate",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Affidavit furnished to holder of decedent's personal estate",
+     "conditions": [
+      "$150,000 limit (raised from $100,000) applies to deaths on or after the effective date of P.A. 104-346 (effective on becoming law; ILCS source note eff. 8-15-25)",
+      "From 1-1-27 (P.A. 104-624), motor homes, vehicles used as living quarters, trailers, commercial vehicles, implements of husbandry and buses are not excluded vehicles"
+     ],
+     "citations": [
+      "il-pa-25-1",
+      "il-pa-104-0346",
+      "il-pa-25-1-future"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The Illinois §25-1 small estate affidavit reaches personal property up to $150,000, with registered motor vehicles excluded from the cap. The earlier $100,000 limit was raised by P.A. 104-346 for deaths on or after its effective date (8-15-25 per the ILCS source note), and P.A. 104-624 (eff. 1-1-27) narrows the vehicle exclusion. Real estate is not covered. No waiting period appears in the portion of §25-1 reviewed; whether the full affidavit form contains one was not checked.",
+   "citations": [
+    "il-pa-25-1",
+    "il-pa-25-1-a5",
+    "il-pa-104-0346",
+    "il-pa-25-1-future",
+    "il-pa-25-3"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "lane": {
+    "starts": {
+     "event": "Vacancy (declination, resignation, removal, death, guardian appointed for trustee, or trustee incapacity) and successor accepts",
+     "phase": "incapacitated",
+     "citations": [
+      "il-itc-704-a",
+      "il-itc-701"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "t-vacancy",
+     "from": "designated",
+     "to": "active",
+     "event": "Vacancy filled: person designated under trust instrument; else person appointed by majority of current income beneficiaries; else court",
+     "conditions": [
+      "Charitable interest: beneficiary appointment effective 30 days after notice to Attorney General's Charitable Trust Bureau",
+      "Designee not accepting within 120 days after notice is deemed to decline"
+     ],
+     "citations": [
+      "il-itc-704",
+      "il-itc-701"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "t-resign",
+     "from": "active",
+     "to": "terminated",
+     "event": "Trustee resigns on notice to living settlor, current income beneficiaries, co-trustees, or with court approval",
+     "conditions": [
+      "Retains protective powers until property delivered"
+     ],
+     "citations": [
+      "il-itc-705",
+      "il-itc-707"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The Illinois Trust Code (760 ILCS 3) follows UTC numbering with changes. A vacancy also arises when a guardian is appointed or an individual trustee becomes incapacitated. The fallback appointment is by a majority of current income beneficiaries, not unanimous qualified beneficiaries as in UTC §704. Declination is deemed after 120 days, not 'a reasonable time'. Resignation needs notice but no 30-day period.",
+   "citations": [
+    "il-itc-101",
+    "il-itc-701",
+    "il-itc-704",
+    "il-itc-704-a",
+    "il-itc-705",
+    "il-itc-707"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "lane": {
+    "assigned": {
+     "event": "User directs custodian via online tool",
+     "phase": "capable",
+     "citations": [
+      "il-rufadaa-4"
+     ]
+    }
+   },
+   "diff": "755 ILCS 70/4 matches RUFADAA §4.",
+   "citations": [
+    "il-rufadaa-1",
+    "il-rufadaa-4"
+   ],
+   "differs": false
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "lane": {
+    "starts": {
+     "event": "Fiduciary provides request and credentials (letter of appointment or court order for representatives; court order for guardians); custodian complies within 60 days",
+     "phase": "administration",
+     "citations": [
+      "il-rufadaa-7",
+      "il-rufadaa-8",
+      "il-rufadaa-14",
+      "il-rufadaa-16"
+     ]
+    }
+   },
+   "transitions": [
+    {
+     "id": "il-t-guardian-order",
+     "from": "designated",
+     "to": "active",
+     "event": "Court directs disclosure to guardian after opportunity for hearing under Article XIa",
+     "conditions": [
+      "'Guardian' includes standby or temporary guardian"
+     ],
+     "citations": [
+      "il-rufadaa-14",
+      "il-rufadaa-2"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "755 ILCS 70 enacts RUFADAA (2015) by name. Its definitions of 'guardian' (including standby and temporary guardians) and 'personal representative' are adapted to Illinois law. Whether a small-estate affiant counts as 'a person that performs substantially the same function' was not verified.",
+   "citations": [
+    "il-rufadaa-1",
+    "il-rufadaa-2",
+    "il-rufadaa-2-pr",
+    "il-rufadaa-7",
+    "il-rufadaa-9",
+    "il-rufadaa-14",
+    "il-rufadaa-16"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "lane": {
+    "assigned": {
+     "event": "Health care agent (unless the POA prohibits) may make gift during donor's life; after death, first available class: health care POA agent; guardian of the person; spouse or civil union partner; adult child; parent; adult sibling; adult grandchild; grandparent; close friend; guardian of the estate; any other person obligated to dispose of body",
+     "phase": "deceased",
+     "citations": [
+      "il-aga-5-5",
+      "il-aga-5-5-b"
+     ]
+    },
+    "starts": {
+     "event": "At the time of death or when death is imminent",
+     "phase": "deceased",
+     "citations": [
+      "il-aga-5-5-b"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Part removed; custody of remainder vests in persons obligated to dispose of the body",
+      "phase": "deceased",
+      "citations": [
+       "il-aga-5-45"
+      ]
+     }
+    ]
+   },
+   "transitions": [
+    {
+     "id": "t-authorize-gift",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Hospital/OPO requests authorization in priority order",
+     "conditions": [
+      "No actual notice of decedent's contrary intent or same-class opposition",
+      "No reason to believe gift is contrary to decedent's religious beliefs"
+     ],
+     "citations": [
+      "il-aga-5-25"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "The Illinois Anatomical Gift Act (755 ILCS 50) differs from Revised UAGA §9. It puts the guardian of the person second, adds civil union partners, close friends and the guardian of the estate, and makes the hospital consider the decedent's religious beliefs. Under 755 ILCS 45/4-7(d) a health care agent's gift decision overrides other priorities.",
+   "citations": [
+    "il-aga-5-5",
+    "il-aga-5-5-b",
+    "il-aga-5-25",
+    "il-aga-5-45",
+    "il-poa-4-7"
+   ]
+  },
+  {
+   "role": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Person with right to control disposition of remains",
+   "localNames": [
+    "agent to control disposition of remains",
+    "authorizing agent"
+   ],
+   "summary": "The person who holds the right to control disposition of a decedent's remains, including cremation, and who is liable for reasonable disposition costs under the Illinois Disposition of Remains Act.",
+   "new": true,
+   "lane": {
+    "assigned": {
+     "event": "Decedent may appoint an agent in a notarized statutory-form instrument (or in a will, prepaid funeral contract, health care POA with disposition power, or cremation authorization form); otherwise priority: designated agent; executor acting on will instructions; spouse; adult child(ren) (majority); parents; next of kin (majority); religious/civic organization; public official for indigents; institution; any other person assuming responsibility",
+     "phase": "capable",
+     "citations": [
+      "il-dra-5",
+      "il-dra-10",
+      "il-dra-15",
+      "il-dra-40"
+     ]
+    },
+    "starts": {
+     "event": "Decedent's death (form: 'This appointment becomes effective upon my death'); agent's authority is not effective until agent signs acceptance",
+     "phase": "deceased",
+     "citations": [
+      "il-dra-10",
+      "il-dra-15"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Right relinquished if charged with first or second degree murder or voluntary manslaughter in connection with the death",
+      "phase": "deceased",
+      "citations": [
+       "il-dra-20"
+      ]
+     },
+     {
+      "event": "Disposition carried out (end point not stated in statute)",
+      "phase": "deceased",
+      "citations": [
+       "il-dra-5"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No written appointment; statutory priority applies at death"
+     },
+     {
+      "id": "designated",
+      "label": "Appointment signed by decedent and notarized; agent may sign acceptance any time"
+     },
+     {
+      "id": "active",
+      "label": "Controlling disposition"
+     },
+     {
+      "id": "terminated",
+      "label": "Disposition complete, right relinquished, or appointment revoked"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "il-t-appoint",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Decedent signs statutory-form appointment; signature notarized",
+      "conditions": [
+       "May also be in a will, prepaid funeral/burial contract, Article IV health care POA with disposition power, or pre-need cremation authorization"
+      ],
+      "citations": [
+       "il-dra-15",
+       "il-dra-10",
+       "il-dra-40",
+       "il-cra-65"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "il-t-revoke",
+      "from": "designated",
+      "to": "not_designated",
+      "event": "Decedent modifies or revokes by a subsequent compliant written instrument",
+      "conditions": [
+       "Funeral providers unaffected until actual notice received"
+      ],
+      "citations": [
+       "il-dra-15-rev",
+       "il-dra-10"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "il-t-death-activate",
+      "from": "designated",
+      "to": "active",
+      "event": "Decedent dies; agent has signed acceptance",
+      "conditions": [
+       "Military decedent with DD Form 93: designee controls notwithstanding other provisions"
+      ],
+      "citations": [
+       "il-dra-10",
+       "il-dra-15",
+       "il-dra-5-dd93"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "il-t-death-priority",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Decedent dies without designation: highest available priority class controls",
+      "conditions": [
+       "Will directions carried out immediately without probate",
+       "No one may authorize cremation against decedent's written instruction"
+      ],
+      "citations": [
+       "il-dra-5",
+       "il-dra-40-b",
+       "il-dra-30"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "il-t-disqualify",
+      "from": "active",
+      "to": "terminated",
+      "event": "Person charged with first or second degree murder or voluntary manslaughter in connection with death (known to funeral director/cemetery)",
+      "conditions": [
+       "Right passes to next listed person"
+      ],
+      "citations": [
+       "il-dra-20"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "il-t-dispute",
+      "from": "active",
+      "to": "suspended",
+      "event": "Dispute among persons in §5 filed with court",
+      "conditions": [
+       "Court to resolve within 30 days of filing"
+      ],
+      "citations": [
+       "il-dra-50"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "il-t-complete",
+      "from": "active",
+      "to": "terminated",
+      "event": "Final disposition carried out",
+      "conditions": [],
+      "citations": [
+       "il-dra-5"
+      ],
+      "unverified": true
+     }
+    ]
+   },
+   "diff": "No Uniform Act baseline. The Illinois Disposition of Remains Act (755 ILCS 65) lets a person name a disposition agent in advance on a notarized statutory form that takes effect at death, but only after the agent signs an acceptance. A health care agent under an Article IV POA with disposition power also qualifies, and 755 ILCS 45/4-7(d) makes that agent's decision controlling. A military DD Form 93 designee overrides all others. A person charged with murder or voluntary manslaughter in the death loses the right. Courts must resolve disputes within 30 days. The Crematory Regulation Act section cited (410 ILCS 18/65) is scheduled for repeal 1-1-29 and has a pending amendment (P.A. 104-501).",
+   "citations": [
+    "il-dra-5",
+    "il-dra-10",
+    "il-dra-15",
+    "il-dra-20",
+    "il-dra-30",
+    "il-dra-40",
+    "il-dra-50",
+    "il-poa-4-7",
+    "il-cra-65"
+   ],
+   "canonical": "disposition-of-remains-agent"
+  }
+ ]
+}

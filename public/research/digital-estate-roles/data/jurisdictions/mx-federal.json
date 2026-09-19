@@ -1,0 +1,595 @@
+{
+ "jurisdiction": "mx-federal",
+ "name": "Mexico (federal)",
+ "country": "mx",
+ "legalSystem": "civil law",
+ "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here.",
+ "citations": [
+  {
+   "id": "mx-ccf-23",
+   "cite": "Código Civil Federal, art. 23",
+   "title": "Restricciones a la personalidad jurídica",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "La minoría de edad, el estado de interdicción y demás incapacidades establecidas por la ley, son restricciones a la personalidad jurídica ... pero los incapaces pueden ejercitar sus derechos o contraer obligaciones por medio de sus representantes"
+  },
+  {
+   "id": "mx-ccf-1281",
+   "cite": "Código Civil Federal, art. 1281",
+   "title": "Concepto de herencia",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Herencia es la sucesión en todos los bienes del difunto y en todos sus derechos y obligaciones que no se extinguen por la muerte."
+  },
+  {
+   "id": "mx-ccf-1288",
+   "cite": "Código Civil Federal, art. 1288",
+   "title": "Adquisición de la masa hereditaria",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A la muerte del autor de la sucesión los herederos adquieren derecho a la masa hereditaria como a un patrimonio común, mientras que no se hace la división."
+  },
+  {
+   "id": "mx-ccf-1681",
+   "cite": "Código Civil Federal, art. 1681",
+   "title": "Nombramiento de albacea por el testador",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "El testador puede nombrar uno o más albaceas."
+  },
+  {
+   "id": "mx-ccf-1682",
+   "cite": "Código Civil Federal, art. 1682",
+   "title": "Elección de albacea por los herederos",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Cuando el testador no hubiere designado albacea o el nombrado no desempeñare el cargo, los herederos elegirán albacea por mayoría de votos."
+  },
+  {
+   "id": "mx-ccf-1684",
+   "cite": "Código Civil Federal, art. 1684",
+   "title": "Nombramiento judicial de albacea",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Si no hubiere mayoría, el albacea será nombrado por el juez, de entre los propuestos."
+  },
+  {
+   "id": "mx-ccf-1706",
+   "cite": "Código Civil Federal, art. 1706",
+   "title": "Obligaciones del albacea general",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Son obligaciones del albacea general: I. La presentación del testamento; II. El aseguramiento de los bienes de la herencia; III. La formación de inventarios"
+  },
+  {
+   "id": "mx-ccf-2595",
+   "cite": "Código Civil Federal, art. 2595",
+   "title": "Terminación del mandato",
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "El mandato termina: I. Por la revocación; II. Por la renuncia del mandatario; III. Por la muerte del mandante o del mandatario; IV. Por la interdicción"
+  }
+ ],
+ "roles": [
+  {
+   "id": "mx-mandatario",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Mandatario",
+   "localNames": [
+    "mandato",
+    "mandatario",
+    "poder"
+   ],
+   "summary": "An ordinary mandate. It ends on the death of either party and on a declaration of interdiction, so it does not carry authority into the grantor's incapacity.",
+   "lane": {
+    "assigned": {
+     "event": "Grantor confers a mandate",
+     "phase": "capable",
+     "citations": [
+      "mx-ccf-2595"
+     ]
+    },
+    "starts": {
+     "event": "On the grant",
+     "phase": "capable",
+     "citations": [
+      "mx-ccf-2595"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation; renunciation by the mandatary; death of either party; interdiction",
+      "phase": "deceased",
+      "citations": [
+       "mx-ccf-2595"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No mandate"
+     },
+     {
+      "id": "active",
+      "label": "Mandatary acts"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mx-t-m-grant",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Otorgamiento del mandato",
+      "citations": [
+       "mx-ccf-2595"
+      ]
+     },
+     {
+      "id": "mx-t-m-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Muerte del mandante o interdicción (art. 2595, III y IV)",
+      "citations": [
+       "mx-ccf-2595"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Mandatary",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "mandato": {
+     "en": "mandate",
+     "basis": "descriptive"
+    },
+    "mandatario": {
+     "en": "mandatary",
+     "basis": "descriptive"
+    },
+    "poder": {
+     "en": "power of attorney",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "mx-representante-incapaz",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Representante del incapaz",
+   "localNames": [
+    "tutor",
+    "representante legal",
+    "estado de interdicción"
+   ],
+   "summary": "Incapacity restricts legal personality but does not remove it: the person exercises rights and takes on obligations through their legal representative.",
+   "lane": {
+    "assigned": {
+     "event": "By the incapacity regime, through a legal representative",
+     "phase": "incapacitated",
+     "citations": [
+      "mx-ccf-23"
+     ]
+    },
+    "starts": {
+     "event": "When the incapacity applies",
+     "phase": "incapacitated",
+     "citations": [
+      "mx-ccf-23"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "mx-ccf-1288"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No representative"
+     },
+     {
+      "id": "active",
+      "label": "Representative acts"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mx-t-rep-start",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Incapacidad; el incapaz actúa por medio de sus representantes (art. 23)",
+      "citations": [
+       "mx-ccf-23"
+      ]
+     },
+     {
+      "id": "mx-t-rep-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Muerte",
+      "citations": [
+       "mx-ccf-1288"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Legal representative of a person lacking capacity",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "tutor": {
+     "en": "guardian",
+     "basis": "descriptive"
+    },
+    "representante legal": {
+     "en": "legal representative",
+     "basis": "descriptive"
+    },
+    "estado de interdicción": {
+     "en": "state of interdiction",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "mx-heredero",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Heredero",
+   "localNames": [
+    "heredero",
+    "masa hereditaria"
+   ],
+   "summary": "Inheritance is succession in all the deceased's property, rights and obligations that death does not extinguish. On death the heirs acquire a right to the hereditary mass as a common patrimony until it is divided.",
+   "lane": {
+    "assigned": {
+     "event": "By will or by law",
+     "phase": "capable",
+     "citations": [
+      "mx-ccf-1281"
+     ]
+    },
+    "starts": {
+     "event": "On death, as a right to the hereditary mass held in common",
+     "phase": "deceased",
+     "citations": [
+      "mx-ccf-1288"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Division of the hereditary mass",
+      "phase": "closed",
+      "citations": [
+       "mx-ccf-1288"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Before death"
+     },
+     {
+      "id": "active",
+      "label": "Right to the hereditary mass"
+     },
+     {
+      "id": "terminated",
+      "label": "Divided"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mx-t-her-vest",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Muerte; los herederos adquieren derecho a la masa hereditaria (art. 1288)",
+      "citations": [
+       "mx-ccf-1288"
+      ]
+     },
+     {
+      "id": "mx-t-her-close",
+      "from": "active",
+      "to": "terminated",
+      "event": "División de la masa hereditaria",
+      "citations": [
+       "mx-ccf-1288"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "heredero": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "masa hereditaria": {
+     "en": "hereditary estate held in common",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "mx-albacea-testamentario",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Albacea nombrado por el testador",
+   "localNames": [
+    "albacea",
+    "albaceazgo"
+   ],
+   "summary": "An executor named in the will, who presents the will, secures the estate's property, makes the inventory, administers and accounts.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names one or more albaceas",
+     "phase": "capable",
+     "citations": [
+      "mx-ccf-1681"
+     ]
+    },
+    "starts": {
+     "event": "On taking up the office after death",
+     "phase": "administration",
+     "citations": [
+      "mx-ccf-1706"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Accounts rendered and the office discharged",
+      "phase": "closed",
+      "citations": [
+       "mx-ccf-1706"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None named"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will"
+     },
+     {
+      "id": "active",
+      "label": "Acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mx-t-alb-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "El testador nombra albacea (art. 1681)",
+      "citations": [
+       "mx-ccf-1681"
+      ]
+     },
+     {
+      "id": "mx-t-alb-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Aceptación del cargo; obligaciones del albacea general (art. 1706)",
+      "citations": [
+       "mx-ccf-1706"
+      ]
+     },
+     {
+      "id": "mx-t-alb-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Accounts rendered and the office discharged",
+      "citations": [
+       "mx-ccf-1706"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor named by the testator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "albacea": {
+     "en": "executor",
+     "basis": "descriptive"
+    },
+    "albaceazgo": {
+     "en": "executorship",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "mx-albacea-electo",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Albacea electo por los herederos o nombrado por el juez",
+   "localNames": [
+    "albacea electo",
+    "albacea judicial"
+   ],
+   "summary": "Where the testator named no albacea, or the one named does not serve, the heirs elect one by majority; if there is no majority the judge appoints from those proposed. The same applies on intestacy.",
+   "lane": {
+    "assigned": {
+     "event": "Heirs elect by majority, or the judge appoints from those proposed",
+     "phase": "administration",
+     "citations": [
+      "mx-ccf-1682",
+      "mx-ccf-1684"
+     ]
+    },
+    "starts": {
+     "event": "On appointment",
+     "phase": "administration",
+     "citations": [
+      "mx-ccf-1682"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Accounts rendered and the office discharged",
+      "phase": "closed",
+      "citations": [
+       "mx-ccf-1706"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "mx-t-albe-elect",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Los herederos eligen albacea por mayoría (art. 1682)",
+      "citations": [
+       "mx-ccf-1682"
+      ]
+     },
+     {
+      "id": "mx-t-albe-judge",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Sin mayoría, el juez nombra al albacea (art. 1684)",
+      "citations": [
+       "mx-ccf-1684"
+      ]
+     },
+     {
+      "id": "mx-t-albe-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Rendición de cuentas del albaceazgo",
+      "citations": [
+       "mx-ccf-1706"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor elected by the heirs or appointed by the judge",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "albacea electo": {
+     "en": "elected executor",
+     "basis": "descriptive"
+    },
+    "albacea judicial": {
+     "en": "court-appointed executor",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A mandate ends on the death of either party and on interdiction, so it does not survive the grantor's incapacity.",
+   "citations": [
+    "mx-ccf-2595"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No dedicated digital-asset statute in the federal code; digital assets follow the herencia, which covers all rights and obligations that death does not extinguish.",
+   "citations": [
+    "mx-ccf-1281"
+   ]
+  },
+  "probateGrantName": {
+   "value": "albaceazgo",
+   "note": "There is no grant: the heirs take a right to the hereditary mass at death and an albacea administers, named by the testator, elected by the heirs, or appointed by the judge.",
+   "citations": [
+    "mx-ccf-1288",
+    "mx-ccf-1682"
+   ],
+   "valueEn": {
+    "en": "executorship",
+    "basis": "descriptive"
+   }
+  }
+ }
+}

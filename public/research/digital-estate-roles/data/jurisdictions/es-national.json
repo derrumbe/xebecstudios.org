@@ -1,0 +1,1168 @@
+{
+ "jurisdiction": "es-national",
+ "name": "Spain (state law)",
+ "country": "es",
+ "legalSystem": "civil law",
+ "note": "Spanish state law: Código Civil as amended by Ley 8/2021 (support measures and preventive powers), Ley 41/2002 (patient autonomy) and Ley 30/1979 (organ donation). Catalonia, Aragón, Navarre, the Basque Country, Galicia and the Balearics have their own civil law of succession, which is not covered here.",
+ "citations": [
+  {
+   "id": "es-cc-1732",
+   "cite": "Código Civil art. 1732",
+   "title": "Extinción del mandato",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "El mandato se acaba: 1.º Por su revocación ... 3.º Por muerte o por concurso del mandante o del mandatario."
+  },
+  {
+   "id": "es-cc-250",
+   "cite": "Código Civil art. 250",
+   "title": "Medidas de apoyo",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Las medidas de apoyo ... son, además de las de naturaleza voluntaria, la guarda de hecho, la curatela y el defensor judicial."
+  },
+  {
+   "id": "es-cc-255",
+   "cite": "Código Civil art. 255",
+   "title": "Medidas voluntarias de apoyo",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "podrá prever o acordar en escritura pública medidas de apoyo relativas a su persona o bienes"
+  },
+  {
+   "id": "es-cc-256",
+   "cite": "Código Civil art. 256",
+   "title": "Poder preventivo con cláusula de subsistencia",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "El poderdante podrá incluir una cláusula que estipule que el poder subsista si en el futuro precisa apoyo en el ejercicio de su capacidad."
+  },
+  {
+   "id": "es-cc-257",
+   "cite": "Código Civil art. 257",
+   "title": "Poder que solo surte efecto si se precisa apoyo",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "El poderdante podrá otorgar poder solo para el supuesto de que en el futuro precise apoyo en el ejercicio de su capacidad."
+  },
+  {
+   "id": "es-cc-258",
+   "cite": "Código Civil art. 258",
+   "title": "Vigencia y extinción de los poderes preventivos",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "el cese de la convivencia producirá su extinción automática"
+  },
+  {
+   "id": "es-cc-269",
+   "cite": "Código Civil art. 269",
+   "title": "Constitución judicial de la curatela",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "La autoridad judicial constituirá la curatela mediante resolución motivada cuando no exista otra medida de apoyo suficiente"
+  },
+  {
+   "id": "es-cc-657",
+   "cite": "Código Civil art. 657",
+   "title": "Apertura de la sucesión",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Los derechos a la sucesión de una persona se transmiten desde el momento de su muerte."
+  },
+  {
+   "id": "es-cc-661",
+   "cite": "Código Civil art. 661",
+   "title": "Sucesión de los herederos",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Los herederos suceden al difunto por el hecho solo de su muerte en todos sus derechos y obligaciones."
+  },
+  {
+   "id": "es-cc-892",
+   "cite": "Código Civil art. 892",
+   "title": "Nombramiento de albaceas",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "El testador podrá nombrar uno o más albaceas."
+  },
+  {
+   "id": "es-l30-5",
+   "cite": "Ley 30/1979 art. quinto",
+   "title": "Extracción de órganos de fallecidos",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-26445",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "podrá realizarse con fines terapéuticos o científicos, en el caso de que éstos no hubieran dejado constancia expresa de su oposición"
+  },
+  {
+   "id": "es-l41-11",
+   "cite": "Ley 41/2002 art. 11",
+   "title": "Instrucciones previas",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "manifiesta anticipadamente su voluntad ... sobre los cuidados y el tratamiento de su salud o, una vez llegado el fallecimiento, sobre el destino de su cuerpo"
+  },
+  {
+   "id": "es-l41-11-4",
+   "cite": "Ley 41/2002 art. 11.4",
+   "title": "Revocación de las instrucciones previas",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Las instrucciones previas podrán revocarse libremente en cualquier momento dejando constancia por escrito."
+  }
+ ],
+ "roles": [
+  {
+   "id": "es-poder-preventivo",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Apoderado con poder preventivo",
+   "localNames": [
+    "poder preventivo",
+    "cláusula de subsistencia"
+   ],
+   "summary": "A notarial power whose grantor has added a clause keeping it alive if they later need support. Without that clause a Spanish mandate ends when support measures are established.",
+   "lane": {
+    "assigned": {
+     "event": "Granted in escritura pública before a notary",
+     "phase": "capable",
+     "citations": [
+      "es-cc-255",
+      "es-cc-256"
+     ]
+    },
+    "starts": {
+     "event": "On grant; it continues into incapacity because of the subsistence clause",
+     "phase": "capable",
+     "citations": [
+      "es-cc-256"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation, or death of the grantor",
+      "phase": "deceased",
+      "citations": [
+       "es-cc-1732"
+      ]
+     },
+     {
+      "event": "Automatically where granted to a spouse or partner and cohabitation ceases",
+      "phase": "capable",
+      "citations": [
+       "es-cc-258"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power"
+     },
+     {
+      "id": "active",
+      "label": "Agent may act"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-pp-grant",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Otorgamiento en escritura pública (art. 255, 256)",
+      "citations": [
+       "es-cc-255",
+       "es-cc-256"
+      ]
+     },
+     {
+      "id": "es-t-pp-survive",
+      "from": "active",
+      "to": "active",
+      "event": "Grantor needs support; power subsists and other support measures do not displace it",
+      "citations": [
+       "es-cc-258"
+      ]
+     },
+     {
+      "id": "es-t-pp-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revocación o muerte del poderdante (art. 1732)",
+      "citations": [
+       "es-cc-1732"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Agent holding a preventive power of attorney",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "poder preventivo": {
+     "en": "preventive power of attorney",
+     "basis": "descriptive"
+    },
+    "cláusula de subsistencia": {
+     "en": "continuation clause",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "es-poder-solo-apoyo",
+   "canonical": "financial-poa-springing",
+   "group": "financial",
+   "name": "Apoderado con poder que solo surte efecto si se precisa apoyo",
+   "localNames": [
+    "poder preventivo ad cautelam"
+   ],
+   "summary": "A power granted to take effect only if the grantor later needs support. How that situation is proved is whatever the grantor specified, backed if necessary by a notarial act with expert evidence.",
+   "lane": {
+    "assigned": {
+     "event": "Granted before a notary for the future case of needing support",
+     "phase": "capable",
+     "citations": [
+      "es-cc-257"
+     ]
+    },
+    "starts": {
+     "event": "When the need for support arises, proved as the grantor provided",
+     "phase": "incapacitated",
+     "citations": [
+      "es-cc-257"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation or death of the grantor",
+      "phase": "deceased",
+      "citations": [
+       "es-cc-1732"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No power"
+     },
+     {
+      "id": "designated",
+      "label": "Granted, dormant"
+     },
+     {
+      "id": "active",
+      "label": "In effect"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-ps-grant",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Otorgamiento del poder (art. 257)",
+      "citations": [
+       "es-cc-257"
+      ]
+     },
+     {
+      "id": "es-t-ps-trigger",
+      "from": "designated",
+      "to": "active",
+      "event": "Acreditada la situación de necesidad de apoyo",
+      "citations": [
+       "es-cc-257"
+      ]
+     },
+     {
+      "id": "es-t-ps-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revocación o muerte",
+      "citations": [
+       "es-cc-1732"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Agent under a power that takes effect only if support is needed",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "poder preventivo ad cautelam": {
+     "en": "precautionary preventive power of attorney",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "es-mandatario",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Mandatario (mandato ordinario)",
+   "localNames": [
+    "mandato"
+   ],
+   "summary": "An ordinary mandate. It ends on the grantor's death and also when representative curatela is established for them.",
+   "lane": {
+    "assigned": {
+     "event": "Grant of mandate",
+     "phase": "capable",
+     "citations": [
+      "es-cc-1732"
+     ]
+    },
+    "starts": {
+     "event": "On grant",
+     "phase": "capable",
+     "citations": [
+      "es-cc-1732"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation, death or insolvency of either party, or establishment of representative curatela",
+      "phase": "deceased",
+      "citations": [
+       "es-cc-1732"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Mandatary acts"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-m-grant",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Otorgamiento del mandato",
+      "citations": [
+       "es-cc-1732"
+      ]
+     },
+     {
+      "id": "es-t-m-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Muerte del mandante o curatela representativa (art. 1732)",
+      "citations": [
+       "es-cc-1732"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Mandatary (ordinary mandate)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "mandato": {
+     "en": "mandate",
+     "basis": "official",
+     "citation": {
+      "id": "es-en-cc-1709",
+      "cite": "Spanish Civil Code 2016 (Ministerio de Justicia English translation, consolidated text to 6 October 2015), arts 1709-1710",
+      "title": "On mandates (unofficial translation published by the Ministry of Justice; law as of 6 Oct 2015)",
+      "url": "https://www.mjusticia.gob.es/es/AreaTematica/DocumentacionPublicaciones/Documents/Spanish_Civil_Code_(Codigo_Civil_Espanol).PDF",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Pursuant to the mandate contract one person undertakes to provide a service ... as deduced from the acts of the mandatary."
+     }
+    }
+   }
+  },
+  {
+   "id": "es-curador",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curador",
+   "localNames": [
+    "curatela",
+    "curatela representativa"
+   ],
+   "summary": "A court establishes curatela only where no other support measure suffices, and specifies the acts for which assistance is required. Representative curatela is exceptional.",
+   "lane": {
+    "assigned": {
+     "event": "Judicial authority constitutes curatela by reasoned decision",
+     "phase": "incapacitated",
+     "citations": [
+      "es-cc-269"
+     ]
+    },
+    "starts": {
+     "event": "On the judicial resolution",
+     "phase": "incapacitated",
+     "citations": [
+      "es-cc-269"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "es-cc-657"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No curatela"
+     },
+     {
+      "id": "active",
+      "label": "Curador acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-cur-set",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Resolución judicial constituyendo la curatela (art. 269)",
+      "conditions": [
+       "no existe otra medida de apoyo suficiente"
+      ],
+      "citations": [
+       "es-cc-269"
+      ]
+     },
+     {
+      "id": "es-t-cur-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Muerte de la persona",
+      "citations": [
+       "es-cc-657"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Curator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "curatela": {
+     "en": "curatorship",
+     "basis": "descriptive"
+    },
+    "curatela representativa": {
+     "en": "representative curatorship",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "es-guarda-de-hecho",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Guardador de hecho",
+   "localNames": [
+    "guarda de hecho"
+   ],
+   "summary": "An informal support measure recognised by the Code alongside curatela and the judicial defender, requiring no appointment.",
+   "lane": {
+    "assigned": {
+     "event": "By fact, without appointment",
+     "phase": "incapacitated",
+     "citations": [
+      "es-cc-250"
+     ]
+    },
+    "starts": {
+     "event": "When the person in fact provides support",
+     "phase": "incapacitated",
+     "citations": [
+      "es-cc-250"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death, or a sufficient formal support measure replaces it",
+      "phase": "deceased",
+      "citations": [
+       "es-cc-250"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Supporting in fact"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-gh-start",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Guarda de hecho como medida de apoyo (art. 250)",
+      "citations": [
+       "es-cc-250"
+      ]
+     },
+     {
+      "id": "es-t-gh-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Constitución de curatela u otra medida suficiente",
+      "citations": [
+       "es-cc-269"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "De facto guardian",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "guarda de hecho": {
+     "en": "de facto guardianship",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "es-instrucciones-previas",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Representante designado en instrucciones previas",
+   "localNames": [
+    "instrucciones previas",
+    "representante"
+   ],
+   "summary": "Through an advance instructions document a person states their treatment wishes and may name a representative; it also covers what happens to the body and organs after death.",
+   "lane": {
+    "assigned": {
+     "event": "Named in the instrucciones previas document",
+     "phase": "capable",
+     "citations": [
+      "es-l41-11"
+     ]
+    },
+    "starts": {
+     "event": "When the grantor can no longer express their wishes personally",
+     "phase": "incapacitated",
+     "citations": [
+      "es-l41-11"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Authority over the body and organs continues past death by the document’s own terms; the document itself may be revoked freely in writing at any time while the grantor can do so",
+      "phase": "deceased",
+      "citations": [
+       "es-l41-11",
+       "es-l41-11-4"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No document"
+     },
+     {
+      "id": "designated",
+      "label": "Document granted"
+     },
+     {
+      "id": "active",
+      "label": "Representative acts"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-ip-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Otorgamiento del documento de instrucciones previas",
+      "citations": [
+       "es-l41-11"
+      ]
+     },
+     {
+      "id": "es-t-ip-act",
+      "from": "designated",
+      "to": "active",
+      "event": "El otorgante no puede expresar personalmente su voluntad",
+      "citations": [
+       "es-l41-11"
+      ]
+     },
+     {
+      "id": "es-t-ip-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Revocación libre en cualquier momento, dejando constancia por escrito (art. 11.4)",
+      "citations": [
+       "es-l41-11-4"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Representative named in advance instructions",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "instrucciones previas": {
+     "en": "advance instructions",
+     "basis": "descriptive"
+    },
+    "representante": {
+     "en": "representative",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "es-heredero",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Heredero",
+   "localNames": [
+    "heredero",
+    "coheredero"
+   ],
+   "summary": "Rights to the succession transmit from the moment of death and the heirs succeed to all the deceased's rights and obligations by the mere fact of that death.",
+   "lane": {
+    "assigned": {
+     "event": "By will or by law",
+     "phase": "capable",
+     "citations": [
+      "es-cc-661"
+     ]
+    },
+    "starts": {
+     "event": "At the moment of death",
+     "phase": "deceased",
+     "citations": [
+      "es-cc-657",
+      "es-cc-661"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate partitioned",
+      "phase": "closed",
+      "citations": [
+       "es-cc-661"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Before death"
+     },
+     {
+      "id": "active",
+      "label": "Heir succeeds"
+     },
+     {
+      "id": "terminated",
+      "label": "Partitioned"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-her-vest",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Muerte: los derechos se transmiten (art. 657, 661)",
+      "citations": [
+       "es-cc-657",
+       "es-cc-661"
+      ]
+     },
+     {
+      "id": "es-t-her-close",
+      "from": "active",
+      "to": "terminated",
+      "event": "Partición de la herencia",
+      "citations": [
+       "es-cc-661"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir",
+    "basis": "official",
+    "citation": {
+     "id": "es-en-cc-660",
+     "cite": "Spanish Civil Code 2016 (Ministerio de Justicia English translation, consolidated text to 6 October 2015), art 660",
+     "title": "Heir and legatee (unofficial translation published by the Ministry of Justice; law as of 6 Oct 2015)",
+     "url": "https://www.mjusticia.gob.es/es/AreaTematica/DocumentacionPublicaciones/Documents/Spanish_Civil_Code_(Codigo_Civil_Espanol).PDF",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "A person who succeeds pursuant to universal title shall be called heir"
+    }
+   },
+   "localNamesEn": {
+    "heredero": {
+     "en": "heir",
+     "basis": "official",
+     "citation": {
+      "id": "es-en-cc-660",
+      "cite": "Spanish Civil Code 2016 (Ministerio de Justicia English translation, consolidated text to 6 October 2015), art 660",
+      "title": "Heir and legatee (unofficial translation published by the Ministry of Justice; law as of 6 Oct 2015)",
+      "url": "https://www.mjusticia.gob.es/es/AreaTematica/DocumentacionPublicaciones/Documents/Spanish_Civil_Code_(Codigo_Civil_Espanol).PDF",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "A person who succeeds pursuant to universal title shall be called heir"
+     }
+    },
+    "coheredero": {
+     "en": "co-heir",
+     "basis": "official",
+     "citation": {
+      "id": "es-en-cc-981",
+      "cite": "Spanish Civil Code 2016 (Ministerio de Justicia English translation, consolidated text to 6 October 2015), art 981",
+      "title": "Accretion among co-heirs (unofficial translation published by the Ministry of Justice; law as of 6 Oct 2015)",
+      "url": "https://www.mjusticia.gob.es/es/AreaTematica/DocumentacionPublicaciones/Documents/Spanish_Civil_Code_(Codigo_Civil_Espanol).PDF",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "the share of the heir who refuses the inheritance shall always accrue in favour of his co-heirs."
+     }
+    }
+   }
+  },
+  {
+   "id": "es-albacea",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Albacea",
+   "localNames": [
+    "albacea",
+    "testamentario"
+   ],
+   "summary": "An executor exists only if the testator named one; the heirs otherwise hold the estate directly.",
+   "lane": {
+    "assigned": {
+     "event": "Named by the testator",
+     "phase": "capable",
+     "citations": [
+      "es-cc-892"
+     ]
+    },
+    "starts": {
+     "event": "On death and acceptance of the office",
+     "phase": "deceased",
+     "citations": [
+      "es-cc-892"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Office discharged",
+      "phase": "closed",
+      "citations": [
+       "es-cc-892"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None named"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will"
+     },
+     {
+      "id": "active",
+      "label": "Acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-alb-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Nombramiento por el testador (art. 892)",
+      "citations": [
+       "es-cc-892"
+      ]
+     },
+     {
+      "id": "es-t-alb-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Aceptación del cargo tras el fallecimiento",
+      "citations": [
+       "es-cc-892"
+      ]
+     },
+     {
+      "id": "es-t-alb-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Office discharged",
+      "citations": [
+       "es-cc-892"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor",
+    "basis": "official",
+    "citation": {
+     "id": "es-en-cc-892",
+     "cite": "Spanish Civil Code 2016 (Ministerio de Justicia English translation, consolidated text to 6 October 2015), art 892",
+     "title": "On executors or administrators (unofficial translation published by the Ministry of Justice; law as of 6 Oct 2015)",
+     "url": "https://www.mjusticia.gob.es/es/AreaTematica/DocumentacionPublicaciones/Documents/Spanish_Civil_Code_(Codigo_Civil_Espanol).PDF",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "The testator may appoint one or more executors."
+    }
+   },
+   "localNamesEn": {
+    "albacea": {
+     "en": "executor",
+     "basis": "official",
+     "citation": {
+      "id": "es-en-cc-892",
+      "cite": "Spanish Civil Code 2016 (Ministerio de Justicia English translation, consolidated text to 6 October 2015), art 892",
+      "title": "On executors or administrators (unofficial translation published by the Ministry of Justice; law as of 6 Oct 2015)",
+      "url": "https://www.mjusticia.gob.es/es/AreaTematica/DocumentacionPublicaciones/Documents/Spanish_Civil_Code_(Codigo_Civil_Espanol).PDF",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The testator may appoint one or more executors."
+     }
+    },
+    "testamentario": {
+     "en": "testamentary executor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "es-donacion-organos",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Persona cuya oposición consta (donación de órganos)",
+   "localNames": [
+    "donante presunto"
+   ],
+   "summary": "Spain presumes donation: organs may be removed from the deceased unless they had expressly recorded their opposition.",
+   "lane": {
+    "assigned": {
+     "event": "By law; no appointment. The deceased's own recorded opposition governs",
+     "phase": "deceased",
+     "citations": [
+      "es-l30-5"
+     ]
+    },
+    "starts": {
+     "event": "After death is verified",
+     "phase": "deceased",
+     "citations": [
+      "es-l30-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removal carried out or barred by recorded opposition",
+      "phase": "deceased",
+      "citations": [
+       "es-l30-5"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Alive"
+     },
+     {
+      "id": "active",
+      "label": "Presumed donor"
+     },
+     {
+      "id": "terminated",
+      "label": "Resolved"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-org-presume",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Fallecimiento sin constancia expresa de oposición (art. quinto)",
+      "citations": [
+       "es-l30-5"
+      ]
+     },
+     {
+      "id": "es-t-org-block",
+      "from": "active",
+      "to": "terminated",
+      "event": "Constancia expresa de oposición",
+      "citations": [
+       "es-l30-5"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Person whose objection is on record (organ donation)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "donante presunto": {
+     "en": "presumed donor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "es-destino-cuerpo",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Persona que decide el destino del cuerpo",
+   "localNames": [
+    "instrucciones previas"
+   ],
+   "summary": "The advance instructions document may state what is to happen to the body and the organs once death has occurred.",
+   "lane": {
+    "assigned": {
+     "event": "By the grantor in the instrucciones previas document",
+     "phase": "capable",
+     "citations": [
+      "es-l41-11"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "es-l41-11"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Body disposed of",
+      "phase": "administration",
+      "citations": [
+       "es-l41-11"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Decision governs"
+     },
+     {
+      "id": "terminated",
+      "label": "Carried out"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "es-t-dc-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Fallecimiento; se aplica lo previsto sobre el destino del cuerpo",
+      "citations": [
+       "es-l41-11"
+      ]
+     },
+     {
+      "id": "es-t-dc-done",
+      "from": "active",
+      "to": "terminated",
+      "event": "Ejecutado el destino del cuerpo",
+      "citations": [
+       "es-l41-11"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Person who decides the disposition of the body",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "instrucciones previas": {
+     "en": "advance instructions",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "An ordinary mandate ends on death and when representative curatela is established; durability requires an express subsistence clause under art. 256.",
+   "citations": [
+    "es-cc-1732",
+    "es-cc-256"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "Art. 257 allows a power granted only for the future case of needing support, proved as the grantor provided.",
+   "citations": [
+    "es-cc-257"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": 1979,
+   "name": "Ley 30/1979",
+   "note": "Removal is permitted unless the deceased had expressly recorded their opposition.",
+   "citations": [
+    "es-l30-5"
+   ],
+   "nameEn": {
+    "en": "Law 30/1979",
+    "basis": "descriptive"
+   }
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No dedicated digital-asset statute in the Civil Code; digital assets follow the estate, since heirs succeed to all rights and obligations by the fact of death.",
+   "citations": [
+    "es-cc-661"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "Instrucciones previas take effect when the grantor can no longer express their wishes personally.",
+   "citations": [
+    "es-l41-11"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": true,
+   "note": "The same document governs the destination of the body and organs after death.",
+   "citations": [
+    "es-l41-11"
+   ]
+  }
+ }
+}

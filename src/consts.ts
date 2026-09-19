@@ -1,7 +1,6 @@
 export const SITE = {
   title: 'Xebec Studios',
   author: 'Mike Kiser',
-  where: 'Austin, Texas',
   url: 'https://xebecstudios.org',
   description:
     'Mike Kiser on identity: who you are, who gets to say so, and what it costs. Technology, history and philosophy.',

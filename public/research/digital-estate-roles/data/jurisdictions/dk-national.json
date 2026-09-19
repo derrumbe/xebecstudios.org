@@ -1,0 +1,878 @@
+{
+ "jurisdiction": "dk-national",
+ "name": "Denmark",
+ "country": "dk",
+ "legalSystem": "civil law",
+ "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
+ "citations": [
+  {
+   "id": "dk-arv-1",
+   "cite": "Arveloven (lov nr. 515 af 6. juni 2007) § 1",
+   "title": "Slægtninges arveret",
+   "url": "https://www.retsinformation.dk/eli/lta/2007/515",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "En arveladers nærmeste slægtsarvinger er dennes børn. Børnene arver lige."
+  },
+  {
+   "id": "dk-ff-1",
+   "cite": "Lov om fremtidsfuldmagter (lov nr. 618 af 8. juni 2016) § 1",
+   "title": "Oprettelse af fremtidsfuldmagt",
+   "url": "https://www.retsinformation.dk/eli/lta/2016/618",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Den, der er fyldt 18 år ... kan oprette en fremtidsfuldmagt til at træde i kraft, hvis den pågældende på et senere tidspunkt ... ikke længere har evne til at varetage sine forhold"
+  },
+  {
+   "id": "dk-ff-3",
+   "cite": "Lov om fremtidsfuldmagter § 3",
+   "title": "Gyldighedskrav",
+   "url": "https://www.retsinformation.dk/eli/lta/2016/618",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "En fremtidsfuldmagt skal for at være gyldig oprettes skriftligt i Fremtidsfuldmagtsregisteret ved anvendelse af den digitale løsning ... og vedkendes for en notar"
+  },
+  {
+   "id": "dk-ff-4",
+   "cite": "Lov om fremtidsfuldmagter § 4",
+   "title": "Fremtidsfuldmagtens ikraftsættelse",
+   "url": "https://www.retsinformation.dk/eli/lta/2016/618",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "En anmodning om at sætte en fremtidsfuldmagt i kraft indgives til Statsforvaltningen af fuldmagtsgiveren eller af fremtidsfuldmægtigene i forening."
+  },
+  {
+   "id": "dk-vae-5",
+   "cite": "Værgemålsloven (lov nr. 388 af 14. juni 1995) § 5",
+   "title": "Værgemål for voksne",
+   "url": "https://www.retsinformation.dk/eli/lta/1995/388",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Der kan iværksættes værgemål for den, der på grund af sindssygdom ... eller anden form for alvorligt svækket helbred er ude af stand til at varetage sine anliggender"
+  },
+  {
+   "id": "dk-sun-18",
+   "cite": "Sundhedsloven (lov nr. 546 af 24. juni 2005) § 18",
+   "title": "Patienter der varigt mangler evnen til at give informeret samtykke",
+   "url": "https://www.retsinformation.dk/eli/lta/2005/546",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "For en patient, der varigt mangler evnen til at give informeret samtykke, kan de nærmeste pårørende give informeret samtykke til behandling."
+  },
+  {
+   "id": "dk-sun-53",
+   "cite": "Sundhedsloven § 53",
+   "title": "Udtagelse af væv fra afdøde",
+   "url": "https://www.retsinformation.dk/eli/lta/2005/546",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Indgrebet må foretages, såfremt afdøde efter sit fyldte 18. år skriftligt har truffet bestemmelse herom."
+  },
+  {
+   "id": "dk-dsl-25",
+   "cite": "Dødsboskifteloven (lov nr. 383 af 22. maj 1996) § 25",
+   "title": "Privat skifte",
+   "url": "https://www.retsinformation.dk/eli/lta/1996/383",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Et bo udleveres til privat skifte, såfremt 1) alle arvinger anmoder derom, 2) boets aktiver ... må antages at være tilstrækkelige til at dække boets gæld"
+  },
+  {
+   "id": "dk-dsl-36",
+   "cite": "Dødsboskifteloven § 36",
+   "title": "Behandling ved bobestyrer",
+   "url": "https://www.retsinformation.dk/eli/lta/1996/383",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Skifteretten udleverer et bo til behandling ved bobestyrer, såfremt 1) en arving anmoder derom, 2) boet må antages at være insolvent ... 4) afdøde har bestemt dette i testamente"
+  }
+ ],
+ "roles": [
+  {
+   "id": "dk-fremtidsfuldmaegtig",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Fremtidsfuldmægtig",
+   "localNames": [
+    "fremtidsfuldmagt",
+    "fremtidsfuldmægtig"
+   ],
+   "summary": "A future power of attorney. Denmark gates it at both ends: it is only valid if created in the national register and acknowledged before a notary, and it has no effect until the authority puts it into force on request.",
+   "lane": {
+    "assigned": {
+     "event": "Person aged 18 and able to act sensibly creates a fremtidsfuldmagt",
+     "phase": "capable",
+     "citations": [
+      "dk-ff-1"
+     ]
+    },
+    "starts": {
+     "event": "Only when the authority puts it into force on a request by the grantor or the attorneys jointly",
+     "phase": "incapacitated",
+     "citations": [
+      "dk-ff-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the grantor; the estate passes to the arvinger",
+      "phase": "deceased",
+      "citations": [
+       "dk-arv-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "designated",
+      "label": "Registered and notarised"
+     },
+     {
+      "id": "active",
+      "label": "Put into force"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "dk-t-ff-create",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Oprettes i Fremtidsfuldmagtsregisteret og vedkendes for en notar (§ 3)",
+      "conditions": [
+       "fyldt 18 år",
+       "i stand til at handle fornuftsmæssigt"
+      ],
+      "citations": [
+       "dk-ff-1",
+       "dk-ff-3"
+      ]
+     },
+     {
+      "id": "dk-t-ff-force",
+      "from": "designated",
+      "to": "active",
+      "event": "Anmodning om ikraftsættelse imødekommes (§ 4)",
+      "citations": [
+       "dk-ff-4"
+      ]
+     },
+     {
+      "id": "dk-t-ff-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Fuldmagtsgiverens død",
+      "citations": [
+       "dk-arv-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Attorney under a future power of attorney",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "fremtidsfuldmagt": {
+     "en": "future power of attorney",
+     "basis": "descriptive"
+    },
+    "fremtidsfuldmægtig": {
+     "en": "attorney under a future power of attorney",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "dk-vaerge",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Værge",
+   "localNames": [
+    "værgemål",
+    "værge"
+   ],
+   "summary": "Guardianship may be established for an adult who, through mental illness including severe dementia, impaired development or other seriously weakened health, cannot manage their own affairs, and only where there is a need.",
+   "lane": {
+    "assigned": {
+     "event": "Værgemål established for an adult unable to manage their affairs",
+     "phase": "incapacitated",
+     "citations": [
+      "dk-vae-5"
+     ]
+    },
+    "starts": {
+     "event": "On the order",
+     "phase": "incapacitated",
+     "citations": [
+      "dk-vae-5"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "dk-arv-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Værge acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "dk-t-v-order",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Værgemål iværksættes (§ 5)",
+      "conditions": [
+       "hvis der er behov for det"
+      ],
+      "citations": [
+       "dk-vae-5"
+      ]
+     },
+     {
+      "id": "dk-t-v-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Dødsfald",
+      "citations": [
+       "dk-arv-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Guardian",
+    "basis": "official",
+    "citation": {
+     "id": "en-dk-familieretshuset-guardianship",
+     "cite": "Familieretshuset, Guardianship (English page)",
+     "title": "Guardianship – The Agency of Family Law",
+     "url": "https://familieretshuset.dk/familieretshuset/en/your-life-situation/guardianship/",
+     "kind": "agency-rule",
+     "retrieved": "2026-09-16",
+     "quote": "Persons to be placed under guardianship cannot choose their own guardian, but their wishes are taken into account."
+    }
+   },
+   "localNamesEn": {
+    "værgemål": {
+     "en": "guardianship",
+     "basis": "official",
+     "citation": {
+      "id": "en-dk-familieretshuset-guardianship",
+      "cite": "Familieretshuset, Guardianship (English page)",
+      "title": "Guardianship – The Agency of Family Law",
+      "url": "https://familieretshuset.dk/familieretshuset/en/your-life-situation/guardianship/",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "Persons to be placed under guardianship cannot choose their own guardian, but their wishes are taken into account."
+     }
+    },
+    "værge": {
+     "en": "guardian",
+     "basis": "official",
+     "citation": {
+      "id": "en-dk-familieretshuset-guardianship",
+      "cite": "Familieretshuset, Guardianship (English page)",
+      "title": "Guardianship – The Agency of Family Law",
+      "url": "https://familieretshuset.dk/familieretshuset/en/your-life-situation/guardianship/",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "Persons to be placed under guardianship cannot choose their own guardian, but their wishes are taken into account."
+     }
+    }
+   }
+  },
+  {
+   "id": "dk-naermeste-paaroerende",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Nærmeste pårørende",
+   "localNames": [
+    "nærmeste pårørende"
+   ],
+   "summary": "Where a patient permanently lacks the ability to give informed consent, the nearest relatives may consent to treatment; if a guardianship covers personal matters, the guardian consents instead.",
+   "lane": {
+    "assigned": {
+     "event": "By status as nearest relative, or by a guardianship covering personal matters",
+     "phase": "incapacitated",
+     "citations": [
+      "dk-sun-18"
+     ]
+    },
+    "starts": {
+     "event": "When the patient permanently lacks the ability to consent",
+     "phase": "incapacitated",
+     "citations": [
+      "dk-sun-18"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the patient",
+      "phase": "deceased",
+      "citations": [
+       "dk-arv-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Patient consents"
+     },
+     {
+      "id": "active",
+      "label": "Relatives consent"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "dk-t-np-start",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Patienten mangler varigt evnen til at samtykke (§ 18)",
+      "citations": [
+       "dk-sun-18"
+      ]
+     },
+     {
+      "id": "dk-t-np-vaerge",
+      "from": "active",
+      "to": "active",
+      "event": "Værgemål omfatter personlige forhold; værgen samtykker",
+      "citations": [
+       "dk-sun-18",
+       "dk-vae-5"
+      ]
+     },
+     {
+      "id": "dk-t-np-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Dødsfald",
+      "citations": [
+       "dk-arv-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Nearest relatives",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "nærmeste pårørende": {
+     "en": "nearest relatives",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "dk-arving",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Arving",
+   "localNames": [
+    "arving",
+    "livsarving"
+   ],
+   "summary": "The nearest heirs are the children, sharing equally. Where the heirs all ask and the estate can cover its debts, the estate is released to them for private administration.",
+   "lane": {
+    "assigned": {
+     "event": "By the statutory order of succession or by will",
+     "phase": "capable",
+     "citations": [
+      "dk-arv-1"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "dk-arv-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate released to a bobestyrer instead, or administration completed",
+      "phase": "administration",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Before death"
+     },
+     {
+      "id": "active",
+      "label": "Heir"
+     },
+     {
+      "id": "administering",
+      "label": "Privat skifte"
+     },
+     {
+      "id": "terminated",
+      "label": "Wound up or handed over"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "dk-t-arv-vest",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Dødsfald; slægtsarvinger efter arveloven § 1",
+      "citations": [
+       "dk-arv-1"
+      ]
+     },
+     {
+      "id": "dk-t-arv-privat",
+      "from": "active",
+      "to": "administering",
+      "event": "Boet udleveres til privat skifte (§ 25)",
+      "conditions": [
+       "alle arvinger anmoder derom",
+       "aktiver dækker gælden"
+      ],
+      "citations": [
+       "dk-dsl-25"
+      ]
+     },
+     {
+      "id": "dk-t-arv-hand",
+      "from": "administering",
+      "to": "terminated",
+      "event": "Boet udleveres i stedet til bobestyrer (§ 36)",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "arving": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "livsarving": {
+     "en": "lineal descendant heir",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "dk-bobestyrer",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Bobestyrer",
+   "localNames": [
+    "bobestyrer",
+    "skifteret"
+   ],
+   "summary": "The probate court releases the estate to an authorised administrator where an heir asks, the estate looks insolvent, the heirs cannot act, or the heirs are unknown.",
+   "lane": {
+    "assigned": {
+     "event": "Skifteretten releases the estate to a bobestyrer",
+     "phase": "administration",
+     "citations": [
+      "dk-dsl-36"
+     ]
+    },
+    "starts": {
+     "event": "On release of the estate",
+     "phase": "administration",
+     "citations": [
+      "dk-dsl-36"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed",
+      "phase": "closed",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "dk-t-bo-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Skifteretten udleverer boet til bobestyrer (§ 36)",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     },
+     {
+      "id": "dk-t-bo-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Bobehandlingen afsluttet",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Estate administrator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "bobestyrer": {
+     "en": "estate administrator",
+     "basis": "descriptive"
+    },
+    "skifteret": {
+     "en": "probate court",
+     "basis": "official",
+     "citation": {
+      "id": "en-dk-um-inheritance",
+      "cite": "Ministry of Foreign Affairs of Denmark, Inheritance (English page)",
+      "title": "Inheritance – Administration of estates abroad",
+      "url": "https://sydafrika.um.dk/en/travel-and-residence/other-consular-matters/inheritance",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "a Danish probate court has only jurisdiction to administer the estate of a deceased person provided the deceased was a resident in Denmark"
+     }
+    }
+   }
+  },
+  {
+   "id": "dk-testamentsbobestyrer",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Bobestyrer indsat ved testamente",
+   "localNames": [
+    "testamentsindsat bobestyrer"
+   ],
+   "summary": "Denmark's nearest equivalent to an executor: the deceased may direct in a will that the estate be administered by a bobestyrer, which is one of the grounds for release.",
+   "lane": {
+    "assigned": {
+     "event": "The deceased so directed by will",
+     "phase": "capable",
+     "citations": [
+      "dk-dsl-36"
+     ]
+    },
+    "starts": {
+     "event": "On the court releasing the estate on that ground",
+     "phase": "administration",
+     "citations": [
+      "dk-dsl-36"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed",
+      "phase": "closed",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "designated",
+      "label": "Directed by will"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "dk-t-tb-will",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Afdøde har bestemt dette i testamente (§ 36, nr. 4)",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     },
+     {
+      "id": "dk-t-tb-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Skifteretten udleverer boet til bobestyrer",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     },
+     {
+      "id": "dk-t-tb-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration completed",
+      "citations": [
+       "dk-dsl-36"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Estate administrator appointed by will",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "testamentsindsat bobestyrer": {
+     "en": "estate administrator appointed by will",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "dk-organdonation",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Afdødes egen bestemmelse om vævsudtagelse",
+   "localNames": [
+    "organdonation",
+    "donorregister"
+   ],
+   "summary": "Denmark requires the donor's own decision: tissue may be taken where the deceased, after turning 18, decided so in writing, and relatives cannot override a written decision.",
+   "lane": {
+    "assigned": {
+     "event": "The deceased's own written determination made after turning 18",
+     "phase": "capable",
+     "citations": [
+      "dk-sun-53"
+     ]
+    },
+    "starts": {
+     "event": "After death at a hospital or similar institution",
+     "phase": "deceased",
+     "citations": [
+      "dk-sun-53"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Procedure carried out or refused",
+      "phase": "deceased",
+      "citations": [
+       "dk-sun-53"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No decision"
+     },
+     {
+      "id": "designated",
+      "label": "Written decision"
+     },
+     {
+      "id": "active",
+      "label": "Removal permitted"
+     },
+     {
+      "id": "terminated",
+      "label": "Resolved"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "dk-t-org-decide",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Afdøde har efter sit fyldte 18. år skriftligt truffet bestemmelse (§ 53, stk. 2)",
+      "citations": [
+       "dk-sun-53"
+      ]
+     },
+     {
+      "id": "dk-t-org-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Dødsfald; pårørende kan ikke modsætte sig en skriftlig bestemmelse",
+      "citations": [
+       "dk-sun-53"
+      ]
+     },
+     {
+      "id": "dk-t-org-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Procedure carried out or refused",
+      "citations": [
+       "dk-sun-53"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "The deceased's own decision on tissue removal",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "organdonation": {
+     "en": "organ donation",
+     "basis": "descriptive"
+    },
+    "donorregister": {
+     "en": "donor register",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": true,
+   "note": "A fremtidsfuldmagt is created precisely to take effect if the grantor later cannot manage their affairs.",
+   "citations": [
+    "dk-ff-1"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "Valid only if created in the Fremtidsfuldmagtsregister and acknowledged before a notary, and it has no effect until the authority puts it into force on request.",
+   "citations": [
+    "dk-ff-3",
+    "dk-ff-4"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "The nearest relatives may consent once the patient permanently lacks the ability to give informed consent.",
+   "citations": [
+    "dk-sun-18"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Sundhedsloven § 53",
+   "note": "Removal rests on the deceased's own written decision made after turning 18; relatives cannot override a written decision.",
+   "citations": [
+    "dk-sun-53"
+   ],
+   "nameEn": {
+    "en": "Health Act section 53",
+    "basis": "descriptive"
+   }
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No dedicated digital-asset statute; digital assets sit in the bo, administered either privately by the arvinger or by a bobestyrer.",
+   "citations": [
+    "dk-arv-1",
+    "dk-dsl-25"
+   ]
+  },
+  "probateGrantName": {
+   "value": "udlevering af boet",
+   "note": "The skifteret releases the estate, either to the heirs for privat skifte or to a bobestyrer; there is no grant in the common-law sense.",
+   "citations": [
+    "dk-dsl-25",
+    "dk-dsl-36"
+   ],
+   "valueEn": {
+    "en": "release of the estate",
+    "basis": "descriptive"
+   }
+  }
+ }
+}

@@ -1,0 +1,558 @@
+{
+ "jurisdiction": "us-oh",
+ "name": "Ohio",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Power of Attorney Act",
+  "Revised Uniform Fiduciary Access to Digital Assets Act",
+  "Revised Uniform Anatomical Gift Act"
+ ],
+ "citations": [
+  {
+   "id": "oh-orc-1337-12",
+   "cite": "Ohio Rev. Code §1337.12",
+   "title": "Formality of execution",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.12",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "authorizes an attorney in fact ... to make health care decisions for the principal at any time that the attending physician of the principal determines that the principal has lost the capacity to make informed health care decisions"
+  },
+  {
+   "id": "oh-orc-1337-13",
+   "cite": "Ohio Rev. Code §1337.13",
+   "title": "Authority of attorney in fact under a durable power of attorney for health care",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.13",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "only if the attending physician of the principal determines that the principal has lost the capacity to make informed health care decisions for the principal"
+  },
+  {
+   "id": "oh-orc-1337-24",
+   "cite": "Ohio Rev. Code §1337.24",
+   "title": "Power of attorney is durable",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.24",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A power of attorney created under sections 1337.21 to 1337.64 of the Revised Code is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+  },
+  {
+   "id": "oh-orc-1337-28",
+   "cite": "Ohio Rev. Code §1337.28",
+   "title": "Nomination of guardian; relation of agent to court-appointed fiduciary",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.28",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "In a power of attorney, a principal may nominate a guardian of the principal's person, estate, or both"
+  },
+  {
+   "id": "oh-orc-1337-30",
+   "cite": "Ohio Rev. Code §1337.30",
+   "title": "Termination of power of attorney or agent's authority",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.30",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A power of attorney terminates when any of the following occurs: (1) The principal dies; (2) The principal becomes incapacitated, if the power of attorney is not durable"
+  },
+  {
+   "id": "oh-orc-2108-05",
+   "cite": "Ohio Rev. Code §2108.05",
+   "title": "Manner of making anatomical gift",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2108.05",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "A donor may make an anatomical gift by ... Authorizing a statement or symbol to be imprinted on the donor's driver's license or identification card"
+  },
+  {
+   "id": "oh-orc-2108-70",
+   "cite": "Ohio Rev. Code §2108.70",
+   "title": "Assignment of rights regarding disposition of remains",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2108.70",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "\"Representative\" means an adult or a group of adults, collectively, to whom a declarant has assigned the right of disposition."
+  },
+  {
+   "id": "oh-orc-2108-72",
+   "cite": "Ohio Rev. Code §2108.72",
+   "title": "Written declaration of assignment",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2108.72",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "a statement that the declarant, an adult being of sound mind, willfully and voluntarily appoints a representative to have the declarant's right of disposition for the declarant's body upon the declarant's death"
+  },
+  {
+   "id": "oh-orc-2111-02",
+   "cite": "Ohio Rev. Code §2111.02",
+   "title": "Appointment of guardian - limited, interim, emergency, or standby guardian - nomination",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2111.02",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "a probate court on its own motion or on application by any interested party shall appoint ... a guardian of the person, the estate, or both, of a minor or incompetent"
+  },
+  {
+   "id": "oh-orc-2113-03",
+   "cite": "Ohio Rev. Code §2113.03",
+   "title": "Court may order estate released from administration",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.03",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "an estate may be released from administration ... if ... (1) The value of the assets of the estate is thirty-five thousand dollars or less."
+  },
+  {
+   "id": "oh-orc-2113-05",
+   "cite": "Ohio Rev. Code §2113.05",
+   "title": "Letters testamentary shall issue",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.05",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "When a will is approved and allowed, the probate court shall issue letters testamentary to the executor named in the will"
+  },
+  {
+   "id": "oh-orc-2137-02",
+   "cite": "Ohio Rev. Code §2137.02",
+   "title": "Applicability",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2137.02",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "This chapter applies to ... An agent acting under a power of attorney ... A personal representative acting for a decedent ... A guardianship proceeding ... A trustee"
+  },
+  {
+   "id": "oh-orc-2137-03",
+   "cite": "Ohio Rev. Code §2137.03",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2137.03",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+  },
+  {
+   "id": "oh-orc-2137-04",
+   "cite": "Ohio Rev. Code §2137.04",
+   "title": "Terms-of-service agreement",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2137.04",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "This chapter does not give a fiduciary or designated recipient any new or expanded rights other than those held by the user"
+  },
+  {
+   "id": "oh-orc-1337-29",
+   "cite": "Ohio Rev. Code §1337.29",
+   "title": "When power of attorney effective",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.29",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A determination by a physician who has examined the principal or a licensed psychologist who has evaluated the principal that the principal is incapacitated"
+  },
+  {
+   "id": "oh-orc-2133-08",
+   "cite": "Ohio Rev. Code §2133.08",
+   "title": "Consenting to withholding or withdrawing life-sustaining treatment from patient",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2133.08",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "the patient is in a terminal condition or the patient currently is and for at least the immediately preceding twelve months has been in a permanently unconscious state"
+  },
+  {
+   "id": "oh-orc-2133-08-b",
+   "cite": "Ohio Rev. Code §2133.08",
+   "title": "Descending order of priority for consent",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2133.08",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "an equal division in a priority class of individuals under that division does not authorize the next class of individuals specified in that division to make the decision"
+  },
+  {
+   "id": "oh-orc-2113-06",
+   "cite": "Ohio Rev. Code §2113.06",
+   "title": "To whom letters of administration shall be granted",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.06",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Administration of the estate of an intestate shall be granted to persons mentioned in this division, in the following order: (1) To the surviving spouse of the deceased, if resident of the state; (2) To one of the next of kin of the deceased, resident of the state."
+  },
+  {
+   "id": "oh-orc-5807-04",
+   "cite": "Ohio Rev. Code §5807.04",
+   "title": "Vacancy defined - priority in filling - additional trustees",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-5807.04",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A vacancy in a trusteeship of a noncharitable trust that is required to be filled must be filled in the following order of priority: (1) By a person designated in the terms of the trust to act as successor trustee"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent",
+    "attorney in fact"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a power of attorney under the Ohio Uniform Power of Attorney Act",
+     "phase": "capable",
+     "citations": [
+      "oh-orc-1337-24"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal dies; revokes; the instrument's own terms; purpose accomplished; or no agent remains",
+      "phase": "deceased",
+      "citations": [
+       "oh-orc-1337-30"
+      ]
+     }
+    ]
+   },
+   "diff": "Durability is the default in Ohio and has to be opted out of: a power of attorney is durable unless it expressly says it terminates on the principal's incapacity.",
+   "citations": [
+    "oh-orc-1337-24",
+    "oh-orc-1337-30",
+    "oh-orc-1337-28"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney expressly terminated by incapacity"
+   ],
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal becomes incapacitated, where the instrument expressly says it terminates on incapacity",
+      "phase": "incapacitated",
+      "citations": [
+       "oh-orc-1337-30",
+       "oh-orc-1337-24"
+      ]
+     }
+    ]
+   },
+   "diff": "A non-durable power exists in Ohio only where the principal opted out of durability in the instrument.",
+   "citations": [
+    "oh-orc-1337-24",
+    "oh-orc-1337-30"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "differs": false,
+   "diff": "Consistent with the baseline. R.C. 1337.29 carries the uniform effectiveness rule: effective on execution unless the instrument sets a future date or event, the principal may name who determines the event occurred, and failing that a physician or licensed psychologist certifies incapacity while an attorney at law, a judge or an appropriate governmental official certifies that the principal is missing or detained. Ohio spells out that the physician must have examined and the psychologist evaluated the principal, which the uniform text leaves implicit, and lets whoever the principal authorises act as the principal's HIPAA personal representative.",
+   "citations": [
+    "oh-orc-1337-29"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "attorney in fact under a durable power of attorney for health care"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Adult of sound mind executes a durable power of attorney for health care",
+     "phase": "capable",
+     "citations": [
+      "oh-orc-1337-12"
+     ]
+    },
+    "starts": {
+     "event": "When the principal's attending physician determines the principal has lost the capacity to make informed health care decisions",
+     "phase": "incapacitated",
+     "citations": [
+      "oh-orc-1337-12",
+      "oh-orc-1337-13"
+     ]
+    }
+   },
+   "diff": "Authority turns on a determination by the principal's own attending physician, not on a general finding of incapacity.",
+   "citations": [
+    "oh-orc-1337-12",
+    "oh-orc-1337-13"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "individual consenting under the Modified Uniform Rights of the Terminally Ill Act"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Two physicians find a terminal condition or a permanently unconscious state lasting at least twelve months, the patient cannot make informed decisions, and there is no effective declaration or health-care power of attorney",
+     "phase": "incapacitated",
+     "citations": [
+      "oh-orc-2133-08"
+     ]
+    },
+    "ends": [
+     {
+      "event": "A priority class divides equally, which blocks the decision rather than passing it down",
+      "phase": "incapacitated",
+      "citations": [
+       "oh-orc-2133-08-b"
+      ]
+     }
+    ]
+   },
+   "diff": "Ohio has no general default surrogate. R.C. 2133.08 is a narrow end-of-life provision: it authorises consent only to withholding or withdrawing life-sustaining treatment, only where two physicians find the patient terminal or permanently unconscious for at least the preceding twelve months, and only where no effective declaration or health-care power of attorney exists. The model's surrogate, who makes health-care decisions generally, has no Ohio counterpart in statute. The order is guardian, spouse, a majority of available adult children, parents, a majority of available adult siblings, then the nearest available adult related by blood or adoption, and the written consent must be witnessed. An equal split within a class does not pass the decision to the next class — it stops it.",
+   "citations": [
+    "oh-orc-2133-08",
+    "oh-orc-2133-08-b"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Probate court appoints, on its own motion or on application by an interested party, if found necessary",
+     "phase": "incapacitated",
+     "citations": [
+      "oh-orc-2111-02"
+     ]
+    }
+   },
+   "diff": "Appointment is by the probate court and may be made on the court's own motion, not only on application.",
+   "citations": [
+    "oh-orc-2111-02",
+    "oh-orc-1337-28"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "guardian of the estate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Probate court appoints a guardian of the estate",
+     "phase": "incapacitated",
+     "citations": [
+      "oh-orc-2111-02"
+     ]
+    }
+   },
+   "diff": "Ohio calls the property fiduciary a guardian of the estate rather than a conservator; the same section covers person, estate, or both.",
+   "citations": [
+    "oh-orc-2111-02"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Probate court issues letters testamentary once the will is approved and allowed",
+     "phase": "administration",
+     "citations": [
+      "oh-orc-2113-05"
+     ]
+    }
+   },
+   "diff": "Letters testamentary issue only after the will is approved and allowed, and only if the named executor is suitable, competent, accepts, and gives bond where required.",
+   "citations": [
+    "oh-orc-2113-05"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "lane": {
+    "assigned": {
+     "event": "Probate court grants letters of administration to the surviving spouse or next of kin, each of whom must be a resident of Ohio",
+     "phase": "deceased",
+     "citations": [
+      "oh-orc-2113-06"
+     ]
+    }
+   },
+   "diff": "Ohio's intestate priority is far shorter than the model's and carries a residency bar: letters go to the surviving spouse if resident in the state, then to one of the next of kin resident in the state, so a non-resident spouse or child has no priority at all. Where nobody is entitled, the entitled are unsuitable, or they neglect to apply within a reasonable time, priority is lost and the court commits administration to any suitable Ohio resident — who may be a creditor of the estate — or to the attorney general where Medicaid estate recovery is in issue.",
+   "citations": [
+    "oh-orc-2113-06"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "applicant for release from administration"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Probate court orders the estate released from administration",
+     "phase": "administration",
+     "citations": [
+      "oh-orc-2113-03"
+     ]
+    }
+   },
+   "diff": "Ohio releases an estate from administration rather than using an affidavit: assets of $35,000 or less, or $100,000 or less where the surviving spouse is the sole devisee.",
+   "citations": [
+    "oh-orc-2113-03"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "differs": false,
+   "diff": "Consistent with the baseline. R.C. 5807.04 carries the Uniform Trust Code vacancy rule, with the same events, the same rule that a vacancy need not be filled while a cotrustee remains, and the same destination. Ohio breaks out as a separate tier a person appointed by someone the trust designates to appoint a successor, which the uniform text folds into the first priority; the resulting order is the same.",
+   "citations": [
+    "oh-orc-5807-04"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "User directs disclosure through the custodian's online tool",
+     "phase": "capable",
+     "citations": [
+      "oh-orc-2137-03"
+     ]
+    }
+   },
+   "diff": "Ohio enacted the Revised Uniform Fiduciary Access to Digital Assets Act as Revised Code Chapter 2137; an online-tool direction overrides a contrary direction in a will, trust or power of attorney.",
+   "citations": [
+    "oh-orc-2137-03",
+    "oh-orc-2137-02"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary under Chapter 2137"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Fiduciary acts for a user who resides or resided in Ohio",
+     "phase": "administration",
+     "citations": [
+      "oh-orc-2137-02"
+     ]
+    }
+   },
+   "diff": "The chapter gives a fiduciary no rights beyond those the user held, and access can be modified or eliminated by the user, by federal law, or by the terms-of-service agreement where the user gave no direction.",
+   "citations": [
+    "oh-orc-2137-02",
+    "oh-orc-2137-04"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "donor"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Donor makes the gift by driver's licence or identification card symbol, vehicle registration, or (from 1 August 2025) a hunting or fishing licence application",
+     "phase": "capable",
+     "citations": [
+      "oh-orc-2108-05"
+     ]
+    }
+   },
+   "diff": "Ohio adds a hunting or fishing licence application as a way of making an anatomical gift, effective 1 August 2025.",
+   "citations": [
+    "oh-orc-2108-05"
+   ]
+  },
+  {
+   "role": "oh-disposition-representative",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Representative assigned the right of disposition",
+   "localNames": [
+    "representative",
+    "successor representative",
+    "declarant"
+   ],
+   "summary": "An adult may assign the right to control disposition of their own body to a named representative, or a group acting collectively, by a written declaration.",
+   "lane": {
+    "assigned": {
+     "event": "Declarant executes a written declaration appointing a representative",
+     "phase": "capable",
+     "citations": [
+      "oh-orc-2108-70",
+      "oh-orc-2108-72"
+     ]
+    },
+    "starts": {
+     "event": "On the declarant's death",
+     "phase": "deceased",
+     "citations": [
+      "oh-orc-2108-70"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Disposition carried out",
+      "phase": "administration",
+      "citations": [
+       "oh-orc-2108-70"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No declaration"
+    },
+    {
+     "id": "designated",
+     "label": "Declaration executed"
+    },
+    {
+     "id": "active",
+     "label": "Representative decides"
+    },
+    {
+     "id": "terminated",
+     "label": "Disposition carried out"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "oh-t-dr-sign",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Written declaration assigning the right of disposition (§2108.70, §2108.72)",
+     "citations": [
+      "oh-orc-2108-70",
+      "oh-orc-2108-72"
+     ]
+    },
+    {
+     "id": "oh-t-dr-death",
+     "from": "designated",
+     "to": "active",
+     "event": "Death of the declarant; the representative's decisions are binding",
+     "citations": [
+      "oh-orc-2108-72"
+     ]
+    },
+    {
+     "id": "oh-t-dr-done",
+     "from": "active",
+     "to": "terminated",
+     "event": "Disposition carried out",
+     "citations": [
+      "oh-orc-2108-70"
+     ]
+    }
+   ],
+   "diff": "Ohio lets an adult assign the right of disposition of their own remains to a named representative by written declaration, and makes that representative's decisions binding. The uniform/model baseline has no equivalent role.",
+   "citations": [
+    "oh-orc-2108-70",
+    "oh-orc-2108-72"
+   ]
+  }
+ ]
+}

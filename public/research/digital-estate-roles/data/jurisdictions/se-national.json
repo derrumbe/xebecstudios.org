@@ -1,0 +1,954 @@
+{
+ "jurisdiction": "se-national",
+ "name": "Sweden",
+ "country": "se",
+ "legalSystem": "civil law",
+ "note": "Swedish national law: Lag (2017:310) om framtidsfullmakter, Ärvdabalk (1958:637), Föräldrabalk (1949:381) and Lag (1995:831) om transplantation m.m. Who may decide on disposal of the body is not covered: Begravningslag (1990:1144) was searched and no provision assigning that decision was located.",
+ "citations": [
+  {
+   "id": "se-ff-1",
+   "cite": "Lag (2017:310) om framtidsfullmakter 1 §",
+   "title": "Framtidsfullmakt",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2017310-om-framtidsfullmakter_sfs-2017-310/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "En framtidsfullmakt är en fullmakt som någon (fullmaktsgivaren) ger åt en fysisk person (fullmaktshavaren) att företräda fullmaktsgivaren"
+  },
+  {
+   "id": "se-ff-9",
+   "cite": "Lag (2017:310) om framtidsfullmakter 9 §",
+   "title": "Ikraftträdande",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2017310-om-framtidsfullmakter_sfs-2017-310/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Det är fullmaktshavaren som ska bedöma om framtidsfullmakten har trätt i kraft."
+  },
+  {
+   "id": "se-ff-26",
+   "cite": "Lag (2017:310) om framtidsfullmakter 26 §",
+   "title": "Överförmyndarens beslut",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2017310-om-framtidsfullmakter_sfs-2017-310/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Överförmyndaren får besluta att framtidsfullmakten helt eller delvis inte längre får brukas av fullmaktshavaren"
+  },
+  {
+   "id": "se-ff-27",
+   "cite": "Lag (2017:310) om framtidsfullmakter 27 §",
+   "title": "Verkan av godmanskap eller förvaltarskap",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2017310-om-framtidsfullmakter_sfs-2017-310/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "En framtidsfullmakt saknar verkan i den utsträckning godmanskap ... eller förvaltarskap anordnas för fullmaktsgivaren."
+  },
+  {
+   "id": "se-ab-18-1",
+   "cite": "Ärvdabalk (1958:637) 18 kap. 1 §",
+   "title": "Dödsbodelägarnas förvaltning",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/arvdabalk-1958637_sfs-1958-637/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "efterlevande make eller sambo, arvingar och universella testamentstagare (dödsbodelägare) gemensamt förvalta den dödes egendom under boets utredning"
+  },
+  {
+   "id": "se-ab-19-1",
+   "cite": "Ärvdabalk (1958:637) 19 kap. 1 §",
+   "title": "Boutredningsman och testamentsexekutor",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/arvdabalk-1958637_sfs-1958-637/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Då dödsbodelägare begär det, skall rätten förordna, att egendomen skall avträdas till förvaltning av boutredningsman"
+  },
+  {
+   "id": "se-fb-11-4",
+   "cite": "Föräldrabalk (1949:381) 11 kap. 4 §",
+   "title": "Godmanskap",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/foraldrabalk-1949381_sfs-1949-381/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Om någon på grund av sjukdom, psykisk störning, försvagat hälsotillstånd eller något liknande förhållande behöver hjälp ... ska ett godmanskap anordnas"
+  },
+  {
+   "id": "se-fb-11-7",
+   "cite": "Föräldrabalk (1949:381) 11 kap. 7 §",
+   "title": "Förvaltarskap",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/foraldrabalk-1949381_sfs-1949-381/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Om någon som befinner sig i en sådan situation som anges i 4 § är ur stånd att vårda sig eller sin egendom, får rätten besluta att anordna förvaltarskap"
+  },
+  {
+   "id": "se-tr-3",
+   "cite": "Lag (1995:831) om transplantation m.m. 3 §",
+   "title": "Samtycke till ingrepp",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1995831-om-transplantation-mm_sfs-1995-831/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "får biologiskt material tas, om inte den avlidne skriftligen har motsatt sig ett sådant ingrepp eller uttalat sig mot det"
+  },
+  {
+   "id": "se-tr-4",
+   "cite": "Lag (1995:831) om transplantation m.m. 4 §",
+   "title": "Underrättelse till närstående",
+   "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1995831-om-transplantation-mm_sfs-1995-831/",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "får sådant ingrepp som avses i 3 § inte genomföras innan någon av de närstående har underrättats om det tilltänkta ingreppet"
+  }
+ ],
+ "roles": [
+  {
+   "id": "se-framtidsfullmakt",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Fullmaktshavare enligt framtidsfullmakt",
+   "localNames": [
+    "framtidsfullmakt",
+    "fullmaktshavare"
+   ],
+   "summary": "A future power of attorney that comes into force when the grantor is permanently unable to look after their affairs. Unusually, it is the attorney who judges whether that point has been reached, unless the document sends the question to a court.",
+   "lane": {
+    "assigned": {
+     "event": "Grantor signs a framtidsfullmakt naming a natural person",
+     "phase": "capable",
+     "citations": [
+      "se-ff-1"
+     ]
+    },
+    "starts": {
+     "event": "When the grantor's situation matches 1 §; the attorney assesses this, unless the document requires a court",
+     "phase": "incapacitated",
+     "citations": [
+      "se-ff-9"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Loses effect so far as godmanskap or förvaltarskap is ordered",
+      "phase": "incapacitated",
+      "citations": [
+       "se-ff-27"
+      ]
+     },
+     {
+      "event": "Överförmyndaren bars its use for abuse or serious neglect",
+      "phase": "incapacitated",
+      "citations": [
+       "se-ff-26"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "designated",
+      "label": "Signed, dormant"
+     },
+     {
+      "id": "active",
+      "label": "In force"
+     },
+     {
+      "id": "suspended",
+      "label": "Barred by överförmyndaren"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "se-t-ff-sign",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Framtidsfullmakt upprättas (1 §)",
+      "citations": [
+       "se-ff-1"
+      ]
+     },
+     {
+      "id": "se-t-ff-force",
+      "from": "designated",
+      "to": "active",
+      "event": "Fullmaktshavaren bedömer att fullmakten trätt i kraft (9 §)",
+      "citations": [
+       "se-ff-9"
+      ]
+     },
+     {
+      "id": "se-t-ff-bar",
+      "from": "active",
+      "to": "suspended",
+      "event": "Överförmyndaren beslutar att fullmakten inte längre får brukas (26 §)",
+      "citations": [
+       "se-ff-26"
+      ]
+     },
+     {
+      "id": "se-t-ff-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Godmanskap eller förvaltarskap anordnas (27 §)",
+      "citations": [
+       "se-ff-27"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Holder of the continuing power of attorney",
+    "basis": "official",
+    "citation": {
+     "id": "se-en-gov-proxy",
+     "cite": "Government Offices of Sweden, Administrators, guardians ad litem and continuing powers of attorney (published 8 April 2025)",
+     "title": "Continuing power of attorney",
+     "url": "https://www.government.se/government-policy/family-law/administrators-guardians-ad-litem-and-continuing-powers-of-attorney/",
+     "kind": "agency-rule",
+     "retrieved": "2026-09-16",
+     "quote": "It is the holder of the continuing power of attorney (proxy) who determines when this occurs."
+    }
+   },
+   "localNamesEn": {
+    "framtidsfullmakt": {
+     "en": "Continuing power of attorney",
+     "basis": "official",
+     "citation": {
+      "id": "se-en-gov-cpa",
+      "cite": "Government Offices of Sweden, Administrators, guardians ad litem and continuing powers of attorney (published 8 April 2025)",
+      "title": "Continuing power of attorney",
+      "url": "https://www.government.se/government-policy/family-law/administrators-guardians-ad-litem-and-continuing-powers-of-attorney/",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "A continuing power of attorney (framtidsfullmakt) is an alternative to a guardian ad litem or administrator"
+     }
+    },
+    "fullmaktshavare": {
+     "en": "Proxy",
+     "basis": "official",
+     "citation": {
+      "id": "se-en-gov-proxy",
+      "cite": "Government Offices of Sweden, Administrators, guardians ad litem and continuing powers of attorney (published 8 April 2025)",
+      "title": "Continuing power of attorney",
+      "url": "https://www.government.se/government-policy/family-law/administrators-guardians-ad-litem-and-continuing-powers-of-attorney/",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "It is the holder of the continuing power of attorney (proxy) who determines when this occurs."
+     }
+    }
+   }
+  },
+  {
+   "id": "se-god-man",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "God man",
+   "localNames": [
+    "godmanskap",
+    "god man"
+   ],
+   "summary": "A court or the chief guardian orders godmanskap where illness or a weakened state means someone needs help with financial or personal matters, and generally only with their consent.",
+   "lane": {
+    "assigned": {
+     "event": "Godmanskap ordered where the person needs help and no lesser measure suffices",
+     "phase": "incapacitated",
+     "citations": [
+      "se-fb-11-4"
+     ]
+    },
+    "starts": {
+     "event": "On the order",
+     "phase": "incapacitated",
+     "citations": [
+      "se-fb-11-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "se-ab-18-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "God man acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "se-t-gm-order",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Godmanskap anordnas (11 kap. 4 § FB)",
+      "conditions": [
+       "den enskilde samtycker, om tillståndet inte hindrar det"
+      ],
+      "citations": [
+       "se-fb-11-4"
+      ]
+     },
+     {
+      "id": "se-t-gm-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Dödsfall",
+      "citations": [
+       "se-ab-18-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Guardian ad litem",
+    "basis": "official",
+    "citation": {
+     "id": "se-en-gov-admin",
+     "cite": "Government Offices of Sweden, Administrators, guardians ad litem and continuing powers of attorney (published 8 April 2025)",
+     "title": "Administrators",
+     "url": "https://www.government.se/government-policy/family-law/administrators-guardians-ad-litem-and-continuing-powers-of-attorney/",
+     "kind": "agency-rule",
+     "retrieved": "2026-09-16",
+     "quote": "An administrator may not be appointed if it would be sufficient to appoint a guardian ad litem (god man)"
+    }
+   },
+   "localNamesEn": {
+    "godmanskap": {
+     "en": "Guardian ad litem arrangement",
+     "basis": "descriptive"
+    },
+    "god man": {
+     "en": "Guardian ad litem",
+     "basis": "official",
+     "citation": {
+      "id": "se-en-gov-admin",
+      "cite": "Government Offices of Sweden, Administrators, guardians ad litem and continuing powers of attorney (published 8 April 2025)",
+      "title": "Administrators",
+      "url": "https://www.government.se/government-policy/family-law/administrators-guardians-ad-litem-and-continuing-powers-of-attorney/",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "An administrator may not be appointed if it would be sufficient to appoint a guardian ad litem (god man)"
+     }
+    }
+   }
+  },
+  {
+   "id": "se-forvaltare",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Förvaltare",
+   "localNames": [
+    "förvaltarskap",
+    "förvaltare"
+   ],
+   "summary": "The stronger measure, available only where the person is unable to care for themselves or their property and godmanskap is not enough.",
+   "lane": {
+    "assigned": {
+     "event": "Court orders förvaltarskap",
+     "phase": "incapacitated",
+     "citations": [
+      "se-fb-11-7"
+     ]
+    },
+    "starts": {
+     "event": "On the court's decision",
+     "phase": "incapacitated",
+     "citations": [
+      "se-fb-11-7"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "se-ab-18-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Förvaltare acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "se-t-fv-order",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Förvaltarskap anordnas (11 kap. 7 § FB)",
+      "conditions": [
+       "godmanskap är inte tillräckligt"
+      ],
+      "citations": [
+       "se-fb-11-7"
+      ]
+     },
+     {
+      "id": "se-t-fv-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Dödsfall",
+      "citations": [
+       "se-ab-18-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Administrator",
+    "basis": "official",
+    "citation": {
+     "id": "se-en-gov-forvaltare",
+     "cite": "Government Offices of Sweden, Administrators, guardians ad litem and continuing powers of attorney (published 8 April 2025)",
+     "title": "Administrators",
+     "url": "https://www.government.se/government-policy/family-law/administrators-guardians-ad-litem-and-continuing-powers-of-attorney/",
+     "kind": "agency-rule",
+     "retrieved": "2026-09-16",
+     "quote": "If a person cannot take care of themself, a court may appoint an administrator (förvaltare) for them."
+    }
+   },
+   "localNamesEn": {
+    "förvaltarskap": {
+     "en": "Administration",
+     "basis": "descriptive"
+    },
+    "förvaltare": {
+     "en": "Administrator",
+     "basis": "official",
+     "citation": {
+      "id": "se-en-gov-forvaltare",
+      "cite": "Government Offices of Sweden, Administrators, guardians ad litem and continuing powers of attorney (published 8 April 2025)",
+      "title": "Administrators",
+      "url": "https://www.government.se/government-policy/family-law/administrators-guardians-ad-litem-and-continuing-powers-of-attorney/",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "If a person cannot take care of themself, a court may appoint an administrator (förvaltare) for them."
+     }
+    }
+   }
+  },
+  {
+   "id": "se-dodsbodelagare",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Dödsbodelägare",
+   "localNames": [
+    "dödsbo",
+    "dödsbodelägare"
+   ],
+   "summary": "Unless separate estate administration is arranged, the surviving spouse or cohabitee, the heirs and universal legatees jointly administer the estate and represent it against third parties.",
+   "lane": {
+    "assigned": {
+     "event": "By status as surviving spouse or cohabitee, heir or universal legatee",
+     "phase": "deceased",
+     "citations": [
+      "se-ab-18-1"
+     ]
+    },
+    "starts": {
+     "event": "On death, where no separate administration is arranged",
+     "phase": "deceased",
+     "citations": [
+      "se-ab-18-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate handed to a boutredningsman, or the estate is wound up",
+      "phase": "administration",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Before death"
+     },
+     {
+      "id": "active",
+      "label": "Jointly administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Handed over or wound up"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "se-t-db-vest",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Dödsfall; delägarna förvaltar boet gemensamt (18 kap. 1 §)",
+      "citations": [
+       "se-ab-18-1"
+      ]
+     },
+     {
+      "id": "se-t-db-hand",
+      "from": "active",
+      "to": "terminated",
+      "event": "Egendomen avträds till boutredningsman (19 kap. 1 §)",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Party to an estate",
+    "basis": "official",
+    "citation": {
+     "id": "se-en-dom-dodsbodelagare",
+     "cite": "Domstolsverket, Svensk/engelsk ordlista – Swedish/English Glossary (March 2019), entry dödsbodelägare",
+     "title": "Swedish/English Glossary",
+     "url": "https://www.domstol.se/globalassets/filer/gemensamt-innehall/for-professionella-aktorer/svensk-engelsk_ordlista_2019.pdf",
+     "kind": "agency-rule",
+     "retrieved": "2026-09-16",
+     "quote": "dödsbodelägare — party to an estate"
+    }
+   },
+   "localNamesEn": {
+    "dödsbo": {
+     "en": "Estate",
+     "basis": "official",
+     "citation": {
+      "id": "se-en-dom-dodsbo",
+      "cite": "Domstolsverket, Svensk/engelsk ordlista – Swedish/English Glossary (March 2019), entry dödsbo",
+      "title": "Swedish/English Glossary",
+      "url": "https://www.domstol.se/globalassets/filer/gemensamt-innehall/for-professionella-aktorer/svensk-engelsk_ordlista_2019.pdf",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "dödsbo — estate"
+     }
+    },
+    "dödsbodelägare": {
+     "en": "Party to an estate",
+     "basis": "official",
+     "citation": {
+      "id": "se-en-dom-dodsbodelagare",
+      "cite": "Domstolsverket, Svensk/engelsk ordlista – Swedish/English Glossary (March 2019), entry dödsbodelägare",
+      "title": "Swedish/English Glossary",
+      "url": "https://www.domstol.se/globalassets/filer/gemensamt-innehall/for-professionella-aktorer/svensk-engelsk_ordlista_2019.pdf",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "dödsbodelägare — party to an estate"
+     }
+    }
+   }
+  },
+  {
+   "id": "se-boutredningsman",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Boutredningsman",
+   "localNames": [
+    "boutredningsman"
+   ],
+   "summary": "Appointed by the court on a party's request to take over administration of the estate from the joint owners.",
+   "lane": {
+    "assigned": {
+     "event": "Court appoints on request of a dödsbodelägare",
+     "phase": "administration",
+     "citations": [
+      "se-ab-19-1"
+     ]
+    },
+    "starts": {
+     "event": "On appointment",
+     "phase": "administration",
+     "citations": [
+      "se-ab-19-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed",
+      "phase": "closed",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "se-t-bu-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Rätten förordnar boutredningsman (19 kap. 1 §)",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     },
+     {
+      "id": "se-t-bu-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Boutredningen avslutad",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Estate administrator",
+    "basis": "official",
+    "citation": {
+     "id": "se-en-gov-boutredningsman",
+     "cite": "Government Offices of Sweden, Death and inheritance (published 8 April 2025)",
+     "title": "Estate of a deceased person",
+     "url": "https://www.government.se/government-policy/family-law/death-and-inheritance/",
+     "kind": "agency-rule",
+     "retrieved": "2026-09-16",
+     "quote": "If the part owners disagree, an estate administrator (boutredningsman) can administer the estate and deal with any administrative difficulties."
+    }
+   },
+   "localNamesEn": {
+    "boutredningsman": {
+     "en": "Estate administrator",
+     "basis": "official",
+     "citation": {
+      "id": "se-en-gov-boutredningsman",
+      "cite": "Government Offices of Sweden, Death and inheritance (published 8 April 2025)",
+      "title": "Estate of a deceased person",
+      "url": "https://www.government.se/government-policy/family-law/death-and-inheritance/",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "If the part owners disagree, an estate administrator (boutredningsman) can administer the estate and deal with any administrative difficulties."
+     }
+    }
+   }
+  },
+  {
+   "id": "se-testamentsexekutor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Testamentsexekutor",
+   "localNames": [
+    "testamentsexekutor"
+   ],
+   "summary": "Someone named in a will to administer the estate in place of the heirs and universal legatees; they may also ask the court for an administration order.",
+   "lane": {
+    "assigned": {
+     "event": "Named by will to take the heirs' place in administering the estate",
+     "phase": "capable",
+     "citations": [
+      "se-ab-19-1"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "se-ab-19-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed",
+      "phase": "closed",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "se-t-te-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Utsedd genom testamente (19 kap. 1 §)",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     },
+     {
+      "id": "se-t-te-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Dödsfall; exekutorn träder i delägarnas ställe",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     },
+     {
+      "id": "se-t-te-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration completed",
+      "citations": [
+       "se-ab-19-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor under the will",
+    "basis": "official",
+    "citation": {
+     "id": "se-en-dom-testamentsexekutor",
+     "cite": "Domstolsverket, Svensk/engelsk ordlista – Swedish/English Glossary (March 2019), entry testamentsexekutor",
+     "title": "Swedish/English Glossary",
+     "url": "https://www.domstol.se/globalassets/filer/gemensamt-innehall/for-professionella-aktorer/svensk-engelsk_ordlista_2019.pdf",
+     "kind": "agency-rule",
+     "retrieved": "2026-09-16",
+     "quote": "testamentsexekutor — executor under the will"
+    }
+   },
+   "localNamesEn": {
+    "testamentsexekutor": {
+     "en": "Executor under the will",
+     "basis": "official",
+     "citation": {
+      "id": "se-en-dom-testamentsexekutor",
+      "cite": "Domstolsverket, Svensk/engelsk ordlista – Swedish/English Glossary (March 2019), entry testamentsexekutor",
+      "title": "Swedish/English Glossary",
+      "url": "https://www.domstol.se/globalassets/filer/gemensamt-innehall/for-professionella-aktorer/svensk-engelsk_ordlista_2019.pdf",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "testamentsexekutor — executor under the will"
+     }
+    }
+   }
+  },
+  {
+   "id": "se-organdonation",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Närstående vid transplantation",
+   "localNames": [
+    "närstående",
+    "donation"
+   ],
+   "summary": "Sweden presumes consent: material may be taken unless the deceased objected in writing or otherwise expressed themselves against it. Relatives must be informed before the procedure.",
+   "lane": {
+    "assigned": {
+     "event": "By law; the deceased's own position governs, relatives are informed",
+     "phase": "deceased",
+     "citations": [
+      "se-tr-3",
+      "se-tr-4"
+     ]
+    },
+    "starts": {
+     "event": "After death",
+     "phase": "deceased",
+     "citations": [
+      "se-tr-3"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Procedure carried out or barred by the deceased's objection",
+      "phase": "deceased",
+      "citations": [
+       "se-tr-3"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Alive"
+     },
+     {
+      "id": "active",
+      "label": "Presumed donor"
+     },
+     {
+      "id": "terminated",
+      "label": "Resolved"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "se-t-org-presume",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Dödsfall utan skriftlig invändning (3 §)",
+      "citations": [
+       "se-tr-3"
+      ]
+     },
+     {
+      "id": "se-t-org-notify",
+      "from": "active",
+      "to": "active",
+      "event": "Närstående underrättas före ingreppet (4 §)",
+      "citations": [
+       "se-tr-4"
+      ]
+     },
+     {
+      "id": "se-t-org-block",
+      "from": "active",
+      "to": "terminated",
+      "event": "Den avlidne har motsatt sig ingreppet",
+      "citations": [
+       "se-tr-3"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Close relative in connection with transplantation",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "närstående": {
+     "en": "Close relative",
+     "basis": "descriptive"
+    },
+    "donation": {
+     "en": "Donation",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": true,
+   "note": "A framtidsfullmakt exists precisely to operate after the grantor loses capacity.",
+   "citations": [
+    "se-ff-1"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "other",
+   "note": "It comes into force when the grantor's situation matches 1 §, and the attorney is the one who assesses that, unless the document requires a court.",
+   "citations": [
+    "se-ff-9"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": null,
+   "name": "Lag (1995:831) om transplantation m.m.",
+   "note": "Material may be taken unless the deceased objected in writing or expressed themselves against it; relatives must first be informed.",
+   "citations": [
+    "se-tr-3",
+    "se-tr-4"
+   ],
+   "nameEn": {
+    "en": "Transplant Act (1995:831)",
+    "basis": "official",
+    "citation": {
+     "id": "se-en-ds-2001-7",
+     "cite": "Ds 2001:7 Swedish statutes in translation (Government Offices, Prime Minister's Office), entry 1995:831",
+     "title": "Swedish statutes in translation",
+     "url": "https://www.regeringen.se/contentassets/12ac809d8e78406c994acb5971d438ce/swedish-statutes-in-translation",
+     "kind": "agency-rule",
+     "retrieved": "2026-09-16",
+     "quote": "1995:831 Lag om transplantation m.m. Eng. Min. of Health & Social Affairs 1997 Transplant Act"
+    }
+   }
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No dedicated digital-asset statute; digital assets sit in the dödsbo administered jointly by the dödsbodelägare.",
+   "citations": [
+    "se-ab-18-1"
+   ]
+  }
+ }
+}

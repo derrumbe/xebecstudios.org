@@ -1,0 +1,2383 @@
+{
+ "jurisdiction": "au-qld",
+ "name": "Queensland",
+ "country": "au",
+ "legalSystem": "common law",
+ "note": "Queensland state law on enduring documents, statutory health attorneys, QCAT appointments, deceased estates, tissue donation and cremation, as in force on 2026-09-16 (reprints current as at 28 April 2026 for the main Acts). Commonwealth roles are in the au-commonwealth layer.",
+ "citations": [
+  {
+   "id": "qld-poa-5",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 5",
+   "title": "General overview",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "this Act introduces advance health directives and statutory health attorneys"
+  },
+  {
+   "id": "qld-poa-6a",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 6A",
+   "title": "Relationship with Guardianship and Administration Act 2000",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.6A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the Guardianship and Administration Act 2000 prevails"
+  },
+  {
+   "id": "qld-poa-7",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 7",
+   "title": "Application of ch 2 (general powers of attorney)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.7",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "This chapter does not apply to enduring powers of attorney."
+  },
+  {
+   "id": "qld-poa-15",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 15",
+   "title": "Relationship with other law (revocation of non-enduring powers)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.15",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "terminated by implication or operation of law"
+  },
+  {
+   "id": "qld-poa-17",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 17",
+   "title": "Written revocation (general power of attorney)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.17",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "it may be revoked by an instrument in the approved form executed in the same way as the power of attorney"
+  },
+  {
+   "id": "qld-poa-18",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 18",
+   "title": "Impaired capacity (general power of attorney)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.18",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If a principal becomes a person who has impaired capacity, the power of attorney is revoked."
+  },
+  {
+   "id": "qld-poa-29",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 29",
+   "title": "Meaning of eligible attorney",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.29",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is not, and has not been within the previous 3 years, a paid carer for the principal"
+  },
+  {
+   "id": "qld-poa-32",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 32",
+   "title": "Enduring powers of attorney",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.32",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney giving power for a matter is not revoked by the principal becoming a person with impaired capacity for the matter."
+  },
+  {
+   "id": "qld-poa-33",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 33(1)-(2)",
+   "title": "When attorney's power exercisable: financial matters",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.33",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the power becomes exercisable once the enduring power of attorney is made"
+  },
+  {
+   "id": "qld-poa-33-3",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 33(3)",
+   "title": "When attorney's power exercisable: earlier impaired capacity",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.33",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "power for the matter is exercisable during any or every period the principal has the impaired capacity"
+  },
+  {
+   "id": "qld-poa-33-4",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 33(4)",
+   "title": "When attorney's power exercisable: personal matters",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.33",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "exercisable during any or every period the principal has impaired capacity for the matter and not otherwise"
+  },
+  {
+   "id": "qld-poa-35",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 35",
+   "title": "Advance health directives",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.35",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "eligible attorneys to exercise power for a health matter for the principal in the event the directions prove inadequate"
+  },
+  {
+   "id": "qld-poa-36",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 36(1)(a)",
+   "title": "Operation of advance health directive",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.36",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "operates only while the principal has impaired capacity for the matter covered by the direction"
+  },
+  {
+   "id": "qld-poa-41",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 41",
+   "title": "Principal's capacity to make an enduring power of attorney",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.41",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the power the principal has given continues even if the principal becomes a person who has impaired capacity"
+  },
+  {
+   "id": "qld-poa-42",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 42",
+   "title": "Principal's capacity to make an advance health directive",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.42",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qld-poa-44",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 44",
+   "title": "Formal requirements (enduring documents)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.44",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring document is effective in relation to an attorney only if the attorney has accepted the appointment by signing the enduring document."
+  },
+  {
+   "id": "qld-poa-44-6",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 44(6)",
+   "title": "Formal requirements: doctor or nurse practitioner certificate for advance health directive",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.44",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An advance health directive must also include a certificate signed and dated by a doctor or nurse practitioner"
+  },
+  {
+   "id": "qld-poa-47-49",
+   "cite": "Powers of Attorney Act 1998 (Qld) ss 47-49",
+   "title": "Written revocation of enduring documents by principal",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.47",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "may revoke an enduring power of attorney in writing only if the principal has the capacity necessary to make an enduring power of attorney"
+  },
+  {
+   "id": "qld-poa-50",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 50",
+   "title": "Later enduring document",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.50",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "is revoked, to the extent of an inconsistency, by a later enduring document of the principal"
+  },
+  {
+   "id": "qld-poa-51",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 51",
+   "title": "Death (of principal)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.51",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "When a principal dies, the enduring document is revoked."
+  },
+  {
+   "id": "qld-poa-52",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 52",
+   "title": "Marriage",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.52",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the enduring document is revoked to the extent it gives power to someone other than the principal's husband or wife"
+  },
+  {
+   "id": "qld-poa-52a",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 52A",
+   "title": "Civil partnership",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.52A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the enduring document is revoked to the extent it gives power to someone other than the principal's civil partner"
+  },
+  {
+   "id": "qld-poa-53",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 53",
+   "title": "Divorce",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.53",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If a principal divorces after making an enduring document, the enduring document is revoked to the extent it gives power to the divorced spouse."
+  },
+  {
+   "id": "qld-poa-53a",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 53A",
+   "title": "Termination of civil partnership",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.53A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The enduring document is revoked to the extent it gives power to the principal's previous civil partner."
+  },
+  {
+   "id": "qld-poa-54-59",
+   "cite": "Powers of Attorney Act 1998 (Qld) ss 54-59",
+   "title": "Revocation by terms, resignation, attorney's impaired capacity, bankruptcy, death, paid carer",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.54",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the enduring document is revoked to the extent it gives power for a personal matter to the attorney"
+  },
+  {
+   "id": "qld-poa-60",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 60",
+   "title": "Registration of powers of attorney and instruments revoking powers",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.60",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An enduring power of attorney may be registered."
+  },
+  {
+   "id": "qld-poa-62",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 62",
+   "title": "Statutory health attorney",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.62",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A statutory health attorney's power for a health matter is exercisable during any or every period the adult has impaired capacity for the matter."
+  },
+  {
+   "id": "qld-poa-63",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 63",
+   "title": "Who is the statutory health attorney",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.63",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the first, in listed order, of the following people who is readily available and culturally appropriate to exercise power for the matter"
+  },
+  {
+   "id": "qld-poa-63-2",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 63(2)",
+   "title": "Public guardian as statutory health attorney of last resort",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.63",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the public guardian is the adult's statutory health attorney for the matter"
+  },
+  {
+   "id": "qld-poa-70",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 70",
+   "title": "Subject to guardian or administrator",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.70",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an attorney for the principal may exercise power only to the extent authorised by the tribunal"
+  },
+  {
+   "id": "qld-poa-72",
+   "cite": "Powers of Attorney Act 1998 (Qld) s 72",
+   "title": "Resignation of attorney",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.72",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An attorney may resign as attorney for a matter by signed notice given to the principal."
+  },
+  {
+   "id": "qld-poa-109a-116",
+   "cite": "Powers of Attorney Act 1998 (Qld) ss 109A, 116",
+   "title": "QCAT and Supreme Court: removal of attorney, change or revocation of document",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1998-022#sec.116",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "revoke all or part of a document mentioned in paragraph (c)"
+  },
+  {
+   "id": "qld-gaa-5",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 5",
+   "title": "Acknowledgements",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.5",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an adult with impaired capacity has a right to adequate and appropriate support for decision-making"
+  },
+  {
+   "id": "qld-gaa-11b",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 11B",
+   "title": "General principles",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.11B",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "An adult must be given the support and access to information necessary to enable the adult to make or participate in decisions"
+  },
+  {
+   "id": "qld-gaa-12",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 12",
+   "title": "Appointment (guardian or administrator)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.12",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "The tribunal may, by order, appoint a guardian for a personal matter, or an administrator for a financial matter, for an adult"
+  },
+  {
+   "id": "qld-gaa-12a",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 12A",
+   "title": "Appointment—missing person",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.12A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "for at least 90 days the adult has not contacted"
+  },
+  {
+   "id": "qld-gaa-14",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 14",
+   "title": "Appointment of 1 or more eligible guardians and administrators",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.14",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the tribunal may appoint the public guardian as guardian for a matter only if there is no other appropriate person available"
+  },
+  {
+   "id": "qld-gaa-26",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 26",
+   "title": "Automatic revocation",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.26",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the adult dies"
+  },
+  {
+   "id": "qld-gaa-26-2",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 26(2)(b)",
+   "title": "Automatic revocation: missing-person administrator",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.26",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the adult's death is registered under the Births, Deaths and Marriages Registration Act 2023"
+  },
+  {
+   "id": "qld-gaa-28",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 28",
+   "title": "Periodic review of appointment",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.28",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "at least every 5 years"
+  },
+  {
+   "id": "qld-gaa-31",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 31",
+   "title": "Appointment review process",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.31",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the tribunal must revoke its order making the appointment unless it is satisfied it would make an appointment if a new application"
+  },
+  {
+   "id": "qld-gaa-33",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 33",
+   "title": "Power of guardian or administrator",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.33",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "anything in relation to a financial matter that the adult could have done if the adult had capacity for the matter"
+  },
+  {
+   "id": "qld-gaa-42-43",
+   "cite": "Guardianship and Administration Act 2000 (Qld) ss 42-43",
+   "title": "Public guardian may exercise power on health-matter disagreement or decision contrary to principles",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.42",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the public guardian may exercise power for the health matter"
+  },
+  {
+   "id": "qld-gaa-44",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 44",
+   "title": "Right of guardian or administrator to information",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.44",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "has a right to all the information the adult would have been entitled to if the adult had capacity"
+  },
+  {
+   "id": "qld-gaa-66",
+   "cite": "Guardianship and Administration Act 2000 (Qld) s 66",
+   "title": "Adult with impaired capacity—order of priority in dealing with health matter",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.66",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "If subsections (2) to (4) do not apply, the matter may only be dealt with by the statutory health attorney."
+  },
+  {
+   "id": "qld-gaa-sch4-tribunal",
+   "cite": "Guardianship and Administration Act 2000 (Qld) sch 4 (def. tribunal)",
+   "title": "Dictionary: tribunal",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008#sec.sch.4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "tribunal means QCAT."
+  },
+  {
+   "id": "qld-gaa-lh-2019",
+   "cite": "Guardianship and Administration Act 2000 (Qld), Legislative history: Guardianship and Administration and Other Legislation Amendment Act 2019 No. 9",
+   "title": "Commencement of 2019 amendments",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-008/lh",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "date of assent 11 April 2019 pts 3, 5–6, 8, sch 1 comm 30 November 2020"
+  },
+  {
+   "id": "qld-sa-6",
+   "cite": "Succession Act 1981 (Qld) s 6",
+   "title": "Jurisdiction (grant and revoke probate or letters of administration)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.6",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "to grant and revoke probate of the will or letters of administration of the estate of any deceased person"
+  },
+  {
+   "id": "qld-sa-14",
+   "cite": "Succession Act 1981 (Qld) s 14",
+   "title": "Effect of marriage on a will",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.14",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "A will is revoked by the marriage of the testator."
+  },
+  {
+   "id": "qld-sa-15",
+   "cite": "Succession Act 1981 (Qld) s 15",
+   "title": "Effect of divorce or annulment on a will",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.15",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an appointment, made by the will, of the former spouse as an executor, trustee, advisory trustee or guardian"
+  },
+  {
+   "id": "qld-sa-15a",
+   "cite": "Succession Act 1981 (Qld) s 15A",
+   "title": "Effect of end of civil partnership on a will",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.15A",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an appointment, made by the will, of the former civil partner as an executor, trustee, advisory trustee or guardian"
+  },
+  {
+   "id": "qld-sa-15b",
+   "cite": "Succession Act 1981 (Qld) s 15B",
+   "title": "Effect of end of de facto relationship on a will",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.15B",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an appointment, made by the will, of the former de facto partner as an executor, trustee, advisory trustee or guardian"
+  },
+  {
+   "id": "qld-sa-45",
+   "cite": "Succession Act 1981 (Qld) s 45",
+   "title": "Devolution of property on death",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.45",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "devolve to and vest in his or her executor"
+  },
+  {
+   "id": "qld-sa-46",
+   "cite": "Succession Act 1981 (Qld) s 46",
+   "title": "Cesser of right of executor to prove",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.46",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the person's rights in respect of the executorship shall wholly cease"
+  },
+  {
+   "id": "qld-sa-52",
+   "cite": "Succession Act 1981 (Qld) s 52",
+   "title": "The duties of personal representatives",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.52",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qld-sa-54",
+   "cite": "Succession Act 1981 (Qld) s 54",
+   "title": "Protection of persons acting informally (executor de son tort)",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1981-069#sec.54",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "shall be charged as executor in the person's own wrong to the extent of the estate received"
+  },
+  {
+   "id": "qld-pta-29",
+   "cite": "Public Trustee Act 1978 (Qld) s 29",
+   "title": "Circumstances in which public trustee may apply for order to administer",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1978-073#sec.29",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "no person has applied for probate or letters of administration with the will annexed within a period of 3 months from the death"
+  },
+  {
+   "id": "qld-pta-30",
+   "cite": "Public Trustee Act 1978 (Qld) s 30",
+   "title": "Election to administer estates under $150,000 without grant of administration",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1978-073#sec.30",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "not to exceed $150,000, and there is no grant of administration in force in Queensland"
+  },
+  {
+   "id": "qld-pta-33",
+   "cite": "Public Trustee Act 1978 (Qld) s 33",
+   "title": "Consequences of election",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1978-073#sec.33",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "have the same effect as the making by the court of an order to administer"
+  },
+  {
+   "id": "qld-pta-35",
+   "cite": "Public Trustee Act 1978 (Qld) s 35",
+   "title": "Administration of small estates",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1978-073#sec.35",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "does not, apart from the value of any interest in land, exceed $75,000"
+  },
+  {
+   "id": "qld-taa-4-snok",
+   "cite": "Transplantation and Anatomy Act 1979 (Qld) s 4 (def. senior available next of kin)",
+   "title": "Interpretation: senior available next of kin",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1979-074#sec.4",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the first of the following persons who, in the following order of priority, is reasonably available"
+  },
+  {
+   "id": "qld-taa-22",
+   "cite": "Transplantation and Anatomy Act 1979 (Qld) s 22",
+   "title": "Authority to remove tissue where body of deceased in a hospital",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1979-074#sec.22",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the senior available next of kin of the deceased person has consented to the removal of tissue from the body of the deceased person"
+  },
+  {
+   "id": "qld-taa-22-5",
+   "cite": "Transplantation and Anatomy Act 1979 (Qld) s 22(5)",
+   "title": "Deceased's own written consent",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1979-074#sec.22",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "by signed writing consented to the removal after death of tissue from his or her body"
+  },
+  {
+   "id": "qld-taa-22-4",
+   "cite": "Transplantation and Anatomy Act 1979 (Qld) s 22(4)",
+   "title": "Objection by any one of equal-ranked next of kin",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1979-074#sec.22",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "an objection by any 1 of those persons has effect for the purposes of this section"
+  },
+  {
+   "id": "qld-taa-23",
+   "cite": "Transplantation and Anatomy Act 1979 (Qld) s 23",
+   "title": "Authority to remove tissue where body of deceased not in hospital",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1979-074#sec.23",
+   "kind": "statute",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "qld-taa-25b-c",
+   "cite": "Transplantation and Anatomy Act 1979 (Qld) ss 25A-25C (ins 2025 No. 29 s 88)",
+   "title": "Ante-mortem interventions",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1979-074#sec.25C",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "the senior available next of kin of the person gives written consent for the carrying out of the ante-mortem intervention"
+  },
+  {
+   "id": "qld-cra-6",
+   "cite": "Cremations Act 2003 (Qld) s 6",
+   "title": "Getting permission to cremate",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2003-014#sec.6",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a close relative of the deceased person, either personally or through an agent"
+  },
+  {
+   "id": "qld-cra-7",
+   "cite": "Cremations Act 2003 (Qld) s 7",
+   "title": "Deceased person's wish to be cremated",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2003-014#sec.7",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "allows a person to direct the person's personal representative to cremate the person's human remains"
+  },
+  {
+   "id": "qld-cra-8",
+   "cite": "Cremations Act 2003 (Qld) s 8",
+   "title": "Objections to cremation",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2003-014#sec.8",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a spouse, adult child or parent of the deceased person"
+  },
+  {
+   "id": "qld-cra-11",
+   "cite": "Cremations Act 2003 (Qld) s 11",
+   "title": "Dealing with ashes",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2003-014#sec.11",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "must not dispose of the ashes except in accordance with any reasonable written instructions of the applicant"
+  },
+  {
+   "id": "qld-cra-sch",
+   "cite": "Cremations Act 2003 (Qld) schedule (def. close relative)",
+   "title": "Dictionary: close relative",
+   "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2003-014#sec.sch",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "a brother or sister of the deceased person who is at least 18 years"
+  },
+  {
+   "id": "qsc-re-gray-2000",
+   "cite": "Re Gray [2000] QSC 390; [2001] 2 Qd R 35 (Chesterman J)",
+   "title": "Right to custody and possession of body for disposal",
+   "url": "https://www.queenslandjudgments.com.au/caselaw/qsc/2000/390",
+   "kind": "case-law",
+   "retrieved": "2026-09-16",
+   "quote": "his executors have a right to the custody and possession of his body (although they have no property in it) until it is properly buried"
+  }
+ ],
+ "roles": [
+  {
+   "id": "qld-epoa-financial",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney for financial matters under an enduring power of attorney",
+   "localNames": [
+    "attorney",
+    "enduring power of attorney",
+    "attorney for financial matters"
+   ],
+   "summary": "An adult with capacity may appoint attorneys for financial matters in the approved form. The principal may say when financial power starts, including on impaired capacity. If nothing is stated, it starts when the document is made. It survives impaired capacity. Death revokes it. Later marriage or civil partnership revokes it except for the new spouse or partner. Divorce or ending a civil partnership revokes it as to the former spouse or partner.",
+   "lane": {
+    "assigned": {
+     "event": "Adult principal with capacity signs approved form before an eligible witness; attorney accepts by signing",
+     "phase": "capable",
+     "citations": [
+      "qld-poa-32",
+      "qld-poa-41",
+      "qld-poa-44"
+     ]
+    },
+    "starts": {
+     "event": "Time, circumstance or occasion stated in the document; if none stated, once made; if the principal loses capacity before a stated later start, during impaired capacity",
+     "phase": "capable",
+     "citations": [
+      "qld-poa-33",
+      "qld-poa-33-3"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "qld-poa-51"
+      ]
+     },
+     {
+      "event": "Principal later marries or enters a civil partnership (revoked except as to new spouse or civil partner, unless contrary intention)",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-52",
+       "qld-poa-52a"
+      ]
+     },
+     {
+      "event": "Principal divorces or civil partnership is terminated (revoked as to former spouse or partner)",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-53",
+       "qld-poa-53a"
+      ]
+     },
+     {
+      "event": "Written revocation by principal with capacity, or a later inconsistent enduring document",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-47-49",
+       "qld-poa-50"
+      ]
+     },
+     {
+      "event": "Attorney resigns, dies, loses capacity or becomes bankrupt (as to that attorney)",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-poa-54-59",
+       "qld-poa-72"
+      ]
+     },
+     {
+      "event": "Supreme Court or QCAT removes attorney or revokes document",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-poa-109a-116"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Registration is optional (s 60). It matters for dealing with land, but it is not needed before the power can be used generally.",
+     "citations": [
+      "qld-poa-60"
+     ]
+    },
+    {
+     "text": "An individual attorney cannot have been a paid carer for the principal within the previous 3 years, and cannot be a health provider or a residential service provider for the principal.",
+     "citations": [
+      "qld-poa-29"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Document made and accepted; stated start not yet reached"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "QCAT has appointed an administrator; attorney may act only as authorised by the tribunal"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-make",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal signs approved form; attorney accepts",
+      "citations": [
+       "qld-poa-44",
+       "qld-poa-41"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-immediate",
+      "from": "not_designated",
+      "to": "active",
+      "event": "No start stated: exercisable once made",
+      "citations": [
+       "qld-poa-33"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-spring",
+      "from": "designated",
+      "to": "active",
+      "event": "Stated time/circumstance/occasion occurs (e.g. impaired capacity)",
+      "citations": [
+       "qld-poa-33"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-early",
+      "from": "designated",
+      "to": "active",
+      "event": "Principal has impaired capacity before stated start",
+      "citations": [
+       "qld-poa-33-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-admin",
+      "from": "active",
+      "to": "suspended",
+      "event": "QCAT appoints an administrator",
+      "citations": [
+       "qld-poa-70"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "qld-poa-51"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-marriage",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal marries or enters civil partnership (attorney not new spouse/partner)",
+      "conditions": [
+       "No contrary intention in document"
+      ],
+      "citations": [
+       "qld-poa-52",
+       "qld-poa-52a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-divorce",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal divorces attorney or civil partnership terminated",
+      "citations": [
+       "qld-poa-53",
+       "qld-poa-53a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Written revocation or later inconsistent enduring document",
+      "citations": [
+       "qld-poa-47-49",
+       "qld-poa-50"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-attorney",
+      "from": "active",
+      "to": "terminated",
+      "event": "Attorney resigns, dies, loses capacity or becomes bankrupt",
+      "citations": [
+       "qld-poa-54-59",
+       "qld-poa-72"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-court",
+      "from": "active",
+      "to": "terminated",
+      "event": "Court or QCAT revokes document or removes attorney",
+      "citations": [
+       "qld-poa-109a-116"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-epoa-personal-health",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Attorney for personal (including health) matters under an enduring power of attorney",
+   "localNames": [
+    "attorney for personal matters",
+    "attorney for health matters"
+   ],
+   "summary": "An enduring power of attorney may give power for personal matters, which include health matters. The principal cannot choose an earlier start: this power is exercisable only while the principal has impaired capacity for the matter. An advance health directive and any QCAT guardian rank ahead of the attorney for health matters.",
+   "lane": {
+    "assigned": {
+     "event": "Adult principal with capacity signs approved form; attorney accepts",
+     "phase": "capable",
+     "citations": [
+      "qld-poa-32",
+      "qld-poa-44"
+     ]
+    },
+    "starts": {
+     "event": "Only during any or every period the principal has impaired capacity for the matter",
+     "phase": "incapacitated",
+     "citations": [
+      "qld-poa-33-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal regains capacity (power not exercisable)",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-33-4"
+      ]
+     },
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "qld-poa-51"
+      ]
+     },
+     {
+      "event": "Marriage/civil partnership, divorce/termination, revocation, later document, attorney becomes paid carer or health provider, resignation, court/QCAT order",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-51",
+       "qld-poa-52",
+       "qld-poa-52a",
+       "qld-poa-53",
+       "qld-poa-53a",
+       "qld-poa-47-49",
+       "qld-poa-50",
+       "qld-poa-54-59",
+       "qld-poa-109a-116"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Document in force; principal has capacity so power not exercisable"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "suspended",
+      "label": "Displaced for a health matter by an advance health directive direction or QCAT guardian"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-make",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Principal signs approved form; attorney accepts",
+      "citations": [
+       "qld-poa-44"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incap",
+      "from": "designated",
+      "to": "active",
+      "event": "Principal has impaired capacity for the matter",
+      "citations": [
+       "qld-poa-33-4"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-regain",
+      "from": "active",
+      "to": "designated",
+      "event": "Principal regains capacity",
+      "citations": [
+       "qld-poa-33-4"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-priority",
+      "from": "active",
+      "to": "suspended",
+      "event": "Advance health directive direction applies or QCAT guardian appointed for the matter",
+      "citations": [
+       "qld-gaa-66",
+       "qld-poa-70"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "qld-poa-51"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-d",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "qld-poa-51"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Revocation event (relationship change, revocation, attorney event, court order)",
+      "citations": [
+       "qld-poa-51",
+       "qld-poa-52",
+       "qld-poa-52a",
+       "qld-poa-53",
+       "qld-poa-53a",
+       "qld-poa-47-49",
+       "qld-poa-54-59",
+       "qld-poa-109a-116"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-ahd-attorney",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Attorney appointed by an advance health directive (and the directive itself)",
+   "localNames": [
+    "advance health directive",
+    "attorney for a health matter"
+   ],
+   "summary": "In an advance health directive, an adult gives directions about future health care, which can include refusing life-sustaining measures. The adult may also appoint attorneys for health matters in case the directions prove inadequate. The document needs a doctor's or nurse practitioner's capacity certificate. Its directions and the attorney's power operate only while the principal has impaired capacity, and a direction takes priority over every other decision maker.",
+   "lane": {
+    "assigned": {
+     "event": "Adult with capacity makes written directive, witnessed, with doctor or nurse practitioner certificate; attorney signs acceptance",
+     "phase": "capable",
+     "citations": [
+      "qld-poa-35",
+      "qld-poa-42",
+      "qld-poa-44",
+      "qld-poa-44-6"
+     ]
+    },
+    "starts": {
+     "event": "Only while the principal has impaired capacity for the matter",
+     "phase": "incapacitated",
+     "citations": [
+      "qld-poa-36",
+      "qld-gaa-66"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of principal",
+      "phase": "deceased",
+      "citations": [
+       "qld-poa-51"
+      ]
+     },
+     {
+      "event": "Revocation in writing by principal with capacity, or later inconsistent enduring document",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-47-49",
+       "qld-poa-50"
+      ]
+     },
+     {
+      "event": "Marriage/civil partnership or divorce/termination (as to attorney appointments)",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-52",
+       "qld-poa-52a",
+       "qld-poa-53",
+       "qld-poa-53a"
+      ]
+     },
+     {
+      "event": "Court or QCAT revokes or changes",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-poa-109a-116"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "designated",
+      "label": "Directive made; principal has capacity"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-make",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Directive executed with medical certificate; attorney accepts",
+      "citations": [
+       "qld-poa-44",
+       "qld-poa-44-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-incap",
+      "from": "designated",
+      "to": "active",
+      "event": "Principal has impaired capacity for the health matter",
+      "citations": [
+       "qld-poa-36",
+       "qld-gaa-66"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-regain",
+      "from": "active",
+      "to": "designated",
+      "event": "Principal regains capacity",
+      "citations": [
+       "qld-poa-36"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "qld-poa-51"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Written revocation (with capacity for the matter) or later document",
+      "citations": [
+       "qld-poa-47-49",
+       "qld-poa-50"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-general-poa",
+   "canonical": "financial-poa-nondurable",
+   "group": "financial",
+   "name": "Attorney under a general power of attorney",
+   "localNames": [
+    "general power of attorney"
+   ],
+   "summary": "A general (non-enduring) power of attorney under Chapter 2. It is revoked by statute if the principal comes to have impaired capacity. Other revocation events, including the principal's death, are left to the general law.",
+   "lane": {
+    "assigned": {
+     "event": "Principal executes general power of attorney",
+     "phase": "capable",
+     "citations": [
+      "qld-poa-7"
+     ]
+    },
+    "starts": {
+     "event": "On execution, subject to its terms",
+     "phase": "capable",
+     "citations": [
+      "qld-poa-7"
+     ],
+     "unverified": true
+    },
+    "ends": [
+     {
+      "event": "Principal becomes a person with impaired capacity",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-poa-18"
+      ]
+     },
+     {
+      "event": "Written revocation by principal in approved form",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-17"
+      ]
+     },
+     {
+      "event": "Death of principal (general law, preserved by s 15)",
+      "phase": "deceased",
+      "citations": [
+       "qld-poa-15"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-make",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Principal executes general power",
+      "citations": [
+       "qld-poa-7"
+      ],
+      "unverified": true
+     },
+     {
+      "id": "t-incap",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal has impaired capacity",
+      "citations": [
+       "qld-poa-18"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Written revocation",
+      "citations": [
+       "qld-poa-17"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Principal dies",
+      "citations": [
+       "qld-poa-15"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-statutory-health-attorney",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Statutory health attorney",
+   "localNames": [
+    "statutory health attorney"
+   ],
+   "summary": "If there is no applicable advance health directive, guardian or enduring attorney for a health matter, the statutory health attorney decides. This is the first readily available and culturally appropriate adult in this order: a spouse in a close and continuing relationship, then an unpaid carer, then a close friend or relation. If no one qualifies, the Public Guardian decides. The power exists only while the adult has impaired capacity for the matter.",
+   "lane": {
+    "assigned": {
+     "event": "By operation of law (no appointment)",
+     "phase": "incapacitated",
+     "citations": [
+      "qld-poa-62",
+      "qld-poa-63"
+     ]
+    },
+    "starts": {
+     "event": "When the adult has impaired capacity for a health matter and no higher-priority decision maker applies",
+     "phase": "incapacitated",
+     "citations": [
+      "qld-poa-62",
+      "qld-gaa-66"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Adult regains capacity",
+      "phase": "capable",
+      "citations": [
+       "qld-poa-62"
+      ]
+     },
+     {
+      "event": "Higher-priority decision maker applies (advance health directive, guardian, enduring attorney)",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-gaa-66"
+      ]
+     },
+     {
+      "event": "Death of the adult (no express provision; power concerns health care of a living adult)",
+      "phase": "deceased",
+      "citations": [
+       "qld-poa-62"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "If nobody listed is readily available and culturally appropriate, the Public Guardian is the statutory health attorney.",
+     "citations": [
+      "qld-poa-63-2"
+     ]
+    },
+    {
+     "text": "The statutory health attorney role comes from the Powers of Attorney Act 1998 (ss 62-63). Its priority against other decision makers is set by the Guardianship and Administration Act 2000 s 66, which prevails if the two Acts are inconsistent.",
+     "citations": [
+      "qld-poa-5",
+      "qld-poa-6a",
+      "qld-gaa-66"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Adult has capacity, or a higher-priority decision maker applies"
+     },
+     {
+      "id": "active",
+      "label": "First readily available, culturally appropriate person in s 63 order acts"
+     },
+     {
+      "id": "suspended",
+      "label": "Disagreement unresolved; Public Guardian exercises power"
+     },
+     {
+      "id": "terminated",
+      "label": "Capacity regained or adult dies"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-arise",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Health matter arises for adult with impaired capacity; no AHD direction, guardian or enduring attorney",
+      "citations": [
+       "qld-poa-62",
+       "qld-poa-63",
+       "qld-gaa-66"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-disagree",
+      "from": "active",
+      "to": "suspended",
+      "event": "Disagreement not resolved by mediation, or decision contrary to principles",
+      "citations": [
+       "qld-gaa-42-43"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Capacity regained or adult dies",
+      "citations": [
+       "qld-poa-62"
+      ],
+      "unverified": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-qcat-guardian",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Guardian appointed by QCAT",
+   "localNames": [
+    "guardian",
+    "appointee"
+   ],
+   "summary": "QCAT may appoint a guardian for personal matters, including health matters, if the adult has impaired capacity for the matter, a decision is needed or there is unreasonable risk, and the adult's needs or interests would not otherwise be met. The appointment ends automatically when the adult dies, among other events. QCAT reviews it at least every 5 years.",
+   "lane": {
+    "assigned": {
+     "event": "QCAT order on application or own initiative",
+     "phase": "incapacitated",
+     "citations": [
+      "qld-gaa-12",
+      "qld-gaa-14",
+      "qld-gaa-sch4-tribunal"
+     ]
+    },
+    "starts": {
+     "event": "On the order, on its terms",
+     "phase": "incapacitated",
+     "citations": [
+      "qld-gaa-12",
+      "qld-gaa-33"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Adult dies",
+      "phase": "deceased",
+      "citations": [
+       "qld-gaa-26"
+      ]
+     },
+     {
+      "event": "Guardian dies, becomes paid carer/health provider/residential service provider, or marriage/civil partnership with the adult ends",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-gaa-26"
+      ]
+     },
+     {
+      "event": "QCAT revokes on review",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-gaa-28",
+       "qld-gaa-31"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "While a guardian or administrator is appointed, an enduring attorney may act only as QCAT authorises. For health matters, a guardian ranks below an advance health directive and above enduring attorneys and the statutory health attorney.",
+     "citations": [
+      "qld-poa-70",
+      "qld-gaa-66"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-order",
+      "from": "not_designated",
+      "to": "active",
+      "event": "QCAT appoints guardian",
+      "conditions": [
+       "Impaired capacity for the matter",
+       "Need for decision or unreasonable risk",
+       "Needs/interests otherwise unmet"
+      ],
+      "citations": [
+       "qld-gaa-12"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-review",
+      "from": "active",
+      "to": "active",
+      "event": "Periodic review (at least every 5 years) continues or changes appointment",
+      "citations": [
+       "qld-gaa-28",
+       "qld-gaa-31"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "QCAT revokes on review",
+      "citations": [
+       "qld-gaa-31"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult dies (automatic revocation)",
+      "citations": [
+       "qld-gaa-26"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-auto",
+      "from": "active",
+      "to": "terminated",
+      "event": "Other automatic revocation event",
+      "citations": [
+       "qld-gaa-26"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-qcat-administrator",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Administrator appointed by QCAT",
+   "localNames": [
+    "administrator",
+    "administrator for a missing person"
+   ],
+   "summary": "QCAT may appoint an administrator for financial matters on the same tests as a guardian. Since 30 November 2020 it may also appoint one for an adult who has been missing for at least 90 days. The appointment ends automatically on the adult's death, or on the administrator's bankruptcy. A missing-person appointment ends on a coroner's finding of death, a court declaration of death, or registration of the death.",
+   "lane": {
+    "assigned": {
+     "event": "QCAT order",
+     "phase": "incapacitated",
+     "citations": [
+      "qld-gaa-12",
+      "qld-gaa-12a",
+      "qld-gaa-14"
+     ]
+    },
+    "starts": {
+     "event": "On the order",
+     "phase": "incapacitated",
+     "citations": [
+      "qld-gaa-12",
+      "qld-gaa-33"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Adult dies",
+      "phase": "deceased",
+      "citations": [
+       "qld-gaa-26"
+      ]
+     },
+     {
+      "event": "Missing adult: coroner's finding, court declaration or death registration (earliest)",
+      "phase": "deceased",
+      "citations": [
+       "qld-gaa-26-2"
+      ]
+     },
+     {
+      "event": "Administrator becomes bankrupt, dies, or other automatic revocation event",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-gaa-26"
+      ]
+     },
+     {
+      "event": "QCAT revokes on review",
+      "phase": "incapacitated",
+      "citations": [
+       "qld-gaa-28",
+       "qld-gaa-31"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A guardian or administrator has a statutory right to information the adult would have been entitled to, overriding confidentiality restrictions.",
+     "citations": [
+      "qld-gaa-44"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No appointment exists"
+     },
+     {
+      "id": "active",
+      "label": "Authority exercisable"
+     },
+     {
+      "id": "terminated",
+      "label": "Authority ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-order",
+      "from": "not_designated",
+      "to": "active",
+      "event": "QCAT appoints administrator",
+      "citations": [
+       "qld-gaa-12",
+       "qld-gaa-12a"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-review",
+      "from": "active",
+      "to": "active",
+      "event": "Periodic review (at least every 5 years; not required for Public Trustee or trustee company)",
+      "citations": [
+       "qld-gaa-28",
+       "qld-gaa-31"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Adult dies",
+      "citations": [
+       "qld-gaa-26"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-missing-death",
+      "from": "active",
+      "to": "terminated",
+      "event": "Missing adult's death found, declared or registered",
+      "citations": [
+       "qld-gaa-26-2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "QCAT revokes, or other automatic revocation event",
+      "citations": [
+       "qld-gaa-26",
+       "qld-gaa-31"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor (grant of probate)",
+   "localNames": [
+    "executor",
+    "personal representative",
+    "grant of probate"
+   ],
+   "summary": "At death, the deceased's property vests by statute in the executor named in the will. If there is no executor able and willing to act, it vests in the Public Trustee. On a Supreme Court grant, it vests in the grantee. A divorce, annulment, end of a civil partnership or end of a de facto relationship revokes the former partner's appointment as executor unless the will shows a contrary intention. Marriage revokes the whole will, with exceptions.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names executor in will",
+     "phase": "capable",
+     "citations": [
+      "qld-sa-14",
+      "qld-sa-15"
+     ]
+    },
+    "starts": {
+     "event": "On death: property vests in the executor; Supreme Court grant of probate confirms",
+     "phase": "deceased",
+     "citations": [
+      "qld-sa-45",
+      "qld-sa-6"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Before death: divorce/annulment, end of civil partnership, or end of de facto relationship revokes appointment of former partner",
+      "phase": "capable",
+      "citations": [
+       "qld-sa-15",
+       "qld-sa-15a",
+       "qld-sa-15b"
+      ]
+     },
+     {
+      "event": "Before death: will revoked by marriage (subject to exceptions)",
+      "phase": "capable",
+      "citations": [
+       "qld-sa-14"
+      ]
+     },
+     {
+      "event": "Executor dies without taking probate, renounces, or fails to apply when cited",
+      "phase": "deceased",
+      "citations": [
+       "qld-sa-46"
+      ]
+     },
+     {
+      "event": "Court revokes grant",
+      "phase": "administration",
+      "citations": [
+       "qld-sa-6",
+       "qld-sa-45"
+      ]
+     },
+     {
+      "event": "Administration complete",
+      "phase": "closed",
+      "citations": [
+       "qld-sa-52"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Not named"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will; testator alive"
+     },
+     {
+      "id": "pending_grant",
+      "label": "Testator dead; property vested in executor; no grant yet"
+     },
+     {
+      "id": "active",
+      "label": "Probate granted"
+     },
+     {
+      "id": "terminated",
+      "label": "Appointment revoked, ceased, or grant revoked"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Will names executor",
+      "citations": [
+       "qld-sa-14"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-relationship",
+      "from": "designated",
+      "to": "terminated",
+      "event": "Divorce, annulment, civil partnership or de facto relationship ends (former partner as executor)",
+      "conditions": [
+       "No contrary intention in will"
+      ],
+      "citations": [
+       "qld-sa-15",
+       "qld-sa-15a",
+       "qld-sa-15b"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "pending_grant",
+      "event": "Testator dies: property vests in executor",
+      "citations": [
+       "qld-sa-45"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-grant",
+      "from": "pending_grant",
+      "to": "active",
+      "event": "Supreme Court grants probate",
+      "citations": [
+       "qld-sa-6",
+       "qld-sa-45"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-cesser",
+      "from": "pending_grant",
+      "to": "terminated",
+      "event": "Renunciation, death before probate, or failure after citation",
+      "citations": [
+       "qld-sa-46"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke-grant",
+      "from": "active",
+      "to": "terminated",
+      "event": "Grant revoked",
+      "citations": [
+       "qld-sa-6",
+       "qld-sa-45"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator (letters of administration) or Public Trustee administering under order or election",
+   "localNames": [
+    "administrator",
+    "letters of administration",
+    "order to administer",
+    "election to administer"
+   ],
+   "summary": "If there is no executor able and willing to act, property vests in the Public Trustee until the Supreme Court grants letters of administration. The Public Trustee may get an order to administer. For estates it estimates at $150,000 or less in Queensland, it may instead file an election, which has the same effect as an order.",
+   "lane": {
+    "assigned": {
+     "event": "Supreme Court grants letters of administration, or Public Trustee obtains order to administer or files election",
+     "phase": "administration",
+     "citations": [
+      "qld-sa-6",
+      "qld-pta-29",
+      "qld-pta-30",
+      "qld-pta-33"
+     ]
+    },
+    "starts": {
+     "event": "On the grant/order/election; administrator's title relates back to death",
+     "phase": "administration",
+     "citations": [
+      "qld-sa-45",
+      "qld-pta-33"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Grant revoked (property vests in Public Trustee in interval)",
+      "phase": "administration",
+      "citations": [
+       "qld-sa-45"
+      ]
+     },
+     {
+      "event": "Public Trustee election revoked (e.g. estate over $180,000 → proceed to order)",
+      "phase": "administration",
+      "citations": [
+       "qld-pta-33"
+      ]
+     },
+     {
+      "event": "Administration complete",
+      "phase": "closed",
+      "citations": [
+       "qld-sa-52"
+      ],
+      "unverified": true
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "For small estates, if assets excluding land do not exceed $75,000, the Public Trustee may apply them to claims or pay those entitled without filing an election.",
+     "citations": [
+      "qld-pta-35"
+     ]
+    },
+    {
+     "text": "A person who takes estate property without a grant may be charged as an executor in their own wrong. Queensland has no general statutory protection for private holders who pay small sums without a grant, unlike Victoria's s 31A.",
+     "citations": [
+      "qld-sa-54"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No grant"
+     },
+     {
+      "id": "interim_vesting",
+      "label": "Property vested in Public Trustee (no executor able and willing)"
+     },
+     {
+      "id": "active",
+      "label": "Grant, order to administer, or election in force"
+     },
+     {
+      "id": "terminated",
+      "label": "Revoked or complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "interim_vesting",
+      "event": "Death with no executor able and willing",
+      "citations": [
+       "qld-sa-45"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-grant",
+      "from": "interim_vesting",
+      "to": "active",
+      "event": "Letters of administration granted",
+      "citations": [
+       "qld-sa-6",
+       "qld-sa-45"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-election",
+      "from": "interim_vesting",
+      "to": "active",
+      "event": "Public Trustee files election (estate ≤ $150,000 in Qld)",
+      "citations": [
+       "qld-pta-30",
+       "qld-pta-33"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Grant or election revoked",
+      "citations": [
+       "qld-sa-45",
+       "qld-pta-33"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-senior-next-of-kin-tissue",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Senior available next of kin (tissue donation)",
+   "localNames": [
+    "senior available next of kin",
+    "designated officer"
+   ],
+   "summary": "Queensland uses opt-in consent. The deceased's own signed written consent, if not revoked, authorises removal. Otherwise a hospital designated officer may authorise removal if the senior available next of kin consents and reasonable inquiries show no objection by the deceased. The order is spouse, then adult child, then parent, then adult sibling. An objection by any one person of equal rank prevents removal. Since 2025 amendments, next of kin may also consent before death to ante-mortem interventions after a decision to withdraw life-sustaining measures.",
+   "lane": {
+    "assigned": {
+     "event": "By statutory definition (no appointment)",
+     "phase": "deceased",
+     "citations": [
+      "qld-taa-4-snok"
+     ]
+    },
+    "starts": {
+     "event": "After death (or before death to ante-mortem intervention once withdrawal of life-sustaining measures has been decided)",
+     "phase": "deceased",
+     "citations": [
+      "qld-taa-22",
+      "qld-taa-25b-c"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Decision made / tissue removed",
+      "phase": "closed",
+      "citations": [
+       "qld-taa-22"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "The deceased's own signed written consent, if not revoked, authorises removal by itself.",
+     "citations": [
+      "qld-taa-22-5"
+     ]
+    },
+    {
+     "text": "A parallel scheme applies when the body is not in a hospital (s 23).",
+     "citations": [
+      "qld-taa-23"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Person alive"
+     },
+     {
+      "id": "designated",
+      "label": "Life-sustaining measures to be withdrawn; next of kin may consent to ante-mortem intervention"
+     },
+     {
+      "id": "active",
+      "label": "After death: next of kin consent may be sought"
+     },
+     {
+      "id": "suspended",
+      "label": "Deceased objected, or an equal-ranked next of kin objects"
+     },
+     {
+      "id": "terminated",
+      "label": "Decision made"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-withdraw",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Lawful decision to withhold/withdraw life-sustaining measures for person lacking capacity",
+      "citations": [
+       "qld-taa-25b-c"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Death",
+      "citations": [
+       "qld-taa-22",
+       "qld-taa-4-snok"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death2",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death",
+      "citations": [
+       "qld-taa-22",
+       "qld-taa-4-snok"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-object",
+      "from": "active",
+      "to": "suspended",
+      "event": "Deceased objected, or an equal-ranked next of kin objects",
+      "citations": [
+       "qld-taa-22",
+       "qld-taa-22-4"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-decide",
+      "from": "active",
+      "to": "terminated",
+      "event": "Consent given in writing (or orally, recorded)",
+      "citations": [
+       "qld-taa-22"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "qld-disposition-of-remains",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Personal representative / close relative controlling disposal of remains",
+   "localNames": [
+    "personal representative",
+    "close relative",
+    "applicant for permission to cremate"
+   ],
+   "summary": "At common law the executor, or the person entitled to administration, has the right to custody of the body for burial. The Cremations Act 2003 lets a close relative or personal representative apply for permission to cremate. It qualifies the common-law right in three ways. The personal representative must carry out signed cremation instructions. Otherwise an objection by a spouse, adult child, parent or personal representative blocks cremation. The crematorium must follow the applicant's reasonable written instructions for the ashes.",
+   "lane": {
+    "assigned": {
+     "event": "Executor named in will; otherwise person entitled to administration (common law)",
+     "phase": "capable",
+     "citations": [
+      "qsc-re-gray-2000"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "qsc-re-gray-2000",
+      "qld-cra-6"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Body buried, or cremated and ashes disposed of per applicant's instructions (or buried by crematorium after 1 year without instructions)",
+      "phase": "deceased",
+      "citations": [
+       "qsc-re-gray-2000",
+       "qld-cra-11"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Close relatives who may apply are a spouse, adult child, parent or adult sibling, or for an Aboriginal person or Torres Strait Islander, a person appropriate under tradition or custom. If none of these and no personal representative applies, another adult may apply with a satisfactory explanation.",
+     "citations": [
+      "qld-cra-sch",
+      "qld-cra-6"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Person alive"
+     },
+     {
+      "id": "active",
+      "label": "Right to possession for disposal; application for permission to cremate"
+     },
+     {
+      "id": "suspended",
+      "label": "Cremation blocked by objection of spouse, adult child, parent or personal representative (no signed cremation instructions)"
+     },
+     {
+      "id": "terminated",
+      "label": "Disposal complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-death",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Death",
+      "citations": [
+       "qsc-re-gray-2000",
+       "qld-cra-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-instructions",
+      "from": "active",
+      "to": "active",
+      "event": "Deceased left signed cremation instructions: personal representative must apply and cremate accordingly",
+      "citations": [
+       "qld-cra-7"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-object",
+      "from": "active",
+      "to": "suspended",
+      "event": "Objection to cremation by spouse, adult child, parent or personal representative",
+      "citations": [
+       "qld-cra-8"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-dispose",
+      "from": "active",
+      "to": "terminated",
+      "event": "Burial or cremation and disposal of ashes",
+      "citations": [
+       "qld-cra-11",
+       "qsc-re-gray-2000"
+      ],
+      "unverified": false
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A general power of attorney is revoked if the principal comes to have impaired capacity. Only an enduring power of attorney in the approved form survives.",
+   "citations": [
+    "qld-poa-18",
+    "qld-poa-32",
+    "qld-poa-44"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "restricted",
+   "note": "For financial matters the principal may state any start time, circumstance or occasion; the default is on making. Personal and health matters are exercisable only during impaired capacity, and the principal cannot change that.",
+   "citations": [
+    "qld-poa-33",
+    "qld-poa-33-4"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "Registration is optional under s 60 and affects dealings with land. It is not a precondition to exercising power generally.",
+   "citations": [
+    "qld-poa-60",
+    "qld-poa-44"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "Enduring attorneys for personal and health matters, advance health directive directions and statutory health attorneys all operate only while the adult has impaired capacity for the matter. No certificate is required to activate them.",
+   "citations": [
+    "qld-poa-33-4",
+    "qld-poa-36",
+    "qld-poa-62"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": false,
+   "year": null,
+   "name": "None. There is no statutory supporter appointment. The Guardianship and Administration and Other Legislation Amendment Act 2019 (assented 11 April 2019; main parts commenced 30 November 2020) added general principles requiring support for decision-making, but not a supporter role.",
+   "citations": [
+    "qld-gaa-5",
+    "qld-gaa-11b",
+    "qld-gaa-lh-2019"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": "None found. The Succession Act 1981, Powers of Attorney Act 1998 and Guardianship and Administration Act 2000 (current reprints) contain no digital-asset or online-account access provisions.",
+   "citations": [
+    "qld-sa-45",
+    "qld-poa-32",
+    "qld-gaa-33"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "note": "No Queensland statute recognises platform online tools.",
+   "citations": [
+    "qld-sa-45"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Transplantation and Anatomy Act 1979 (Qld): deceased's signed consent or senior available next of kin consent absent objection",
+   "citations": [
+    "qld-taa-22",
+    "qld-taa-22-5",
+    "qld-taa-4-snok"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": false,
+   "threshold": null,
+   "currency": "AUD",
+   "waitingDays": null,
+   "note": "No general statutory procedure lets family members or holders collect or pay a small estate without a grant. Only the Public Trustee may act without a grant: by filing an election for estates up to $150,000 (s 30), or by applying assets directly for estates up to $75,000 excluding land (s 35). Holders' own informal practices are not law.",
+   "citations": [
+    "qld-pta-30",
+    "qld-pta-35",
+    "qld-sa-54"
+   ]
+  },
+  "probateGrantName": {
+   "value": "grant of probate",
+   "note": "Supreme Court of Queensland grants probate, or letters of administration where there is no executor.",
+   "citations": [
+    "qld-sa-6"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "Death revokes enduring documents, and QCAT appointments end automatically on death. After death, tissue donation goes to the senior available next of kin and disposal to the personal representative or close relatives.",
+   "citations": [
+    "qld-poa-51",
+    "qld-gaa-26",
+    "qld-taa-22",
+    "qld-cra-6"
+   ]
+  }
+ }
+}

@@ -4,7 +4,7 @@ date: 2022-06-03
 subject: Technology
 tags: [AI, Ethics]
 crossFiled: [Philosophy]
-description: "The same kind of algorithm that picks your next film decides who receives a kidney. A tour of the open source tools that make them explain themselves."
+description: "Algorithms now shape bail decisions and transplant lists. The open-source tools that make them explainable enough to argue with."
 legacySlug: "its-not-fair-detecting-algorithmic-bias-with-open-source-tools"
 # ~3 min
 ---

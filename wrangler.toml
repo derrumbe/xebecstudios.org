@@ -6,14 +6,41 @@
 # it and failed with "Missing entry-point to Worker script or to assets
 # directory" — after the Astro build had already succeeded.
 #
-# There is no `main` here on purpose: a script entry-point is only needed for
-# custom request handling, and this site is 33 prebuilt files.
+# There is now a `main`, where before there deliberately was not. The site is still
+# prebuilt files and they are still served straight from [assets]; the script exists for
+# one POST route — the Digital Estate Roles feedback form, which files a GitHub issue on
+# the reader's behalf so that nobody needs a GitHub account to report a gap. Every other
+# request is handed to env.ASSETS untouched.
 
-name = "xebecstudios"
+# The deployed Worker is xebecstudios-org, which is what Workers Builds creates and what
+# the dashboard shows. This said "xebecstudios" for a long time without anyone noticing,
+# because Workers Builds deploys by its own project name and never consulted it — but
+# `wrangler secret put` did, found no such Worker, and cheerfully created an empty one.
+# Secrets went there and the live Worker never saw them. Keep this matching the dashboard.
+name = "xebecstudios-org"
+main = "worker/index.js"
 compatibility_date = "2026-01-01"
+
+[vars]
+# Where reader feedback is filed, and which GitHub App files it. Neither is a secret; the
+# App's private key is, and lives outside this file:
+#   wrangler secret put GITHUB_APP_PRIVATE_KEY   (the .pem the App gave you, pasted as-is)
+#   wrangler secret put TURNSTILE_SECRET         (secret key of the Turnstile widget)
+#
+# An App rather than a personal access token because a token expires, and it would fail
+# silently from our side: readers would keep writing and nothing would arrive.
+FEEDBACK_REPO = "derrumbe/digital-estate-roles"
+GITHUB_APP_ID = "4986003"
 
 [assets]
 directory = "./dist"
+# Bound so the Worker can fall through to the built files for everything but the one route.
+binding = "ASSETS"
+# Assets are matched before the Worker runs, and the feedback form's own page is an asset —
+# so without this a POST to it was answered by the asset handler with 405 and the script
+# never saw it. Naming the path makes the Worker run first there, and only there; its GET
+# still falls through to the page.
+run_worker_first = ["/research/digital-estate-roles/feedback/"]
 # Pages served /404.html for unmatched paths by convention. Workers does
 # not: the 404 page is built either way, but without this it is never
 # reached and visitors get the default response instead.

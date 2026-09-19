@@ -1,0 +1,942 @@
+{
+ "jurisdiction": "fi-national",
+ "name": "Finland",
+ "country": "fi",
+ "legalSystem": "civil law",
+ "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues.",
+ "citations": [
+  {
+   "id": "fi-ev-vahvistus",
+   "cite": "Laki edunvalvontavaltuutuksesta 648/2007 24 §",
+   "title": "Valtuutuksen vahvistaminen",
+   "url": "https://www.finlex.fi/fi/laki/ajantasa/2007/20070648",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Holhousviranomaisen on valtuutetun hakemuksesta vahvistettava edunvalvontavaltuutus"
+  },
+  {
+   "id": "fi-ho-8",
+   "cite": "Laki holhoustoimesta 442/1999 8 §",
+   "title": "Edunvalvojan määrääminen täysi-ikäiselle",
+   "url": "https://www.finlex.fi/fi/laki/ajantasa/1999/19990442",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Tuomioistuin voi määrätä edunvalvojan täysi-ikäiselle, joka sairauden, henkisen toiminnan häiriintymisen, heikentyneen terveydentilan tai muun vastaavan syyn vuoksi on kykenemätön valvomaan etuaan"
+  },
+  {
+   "id": "fi-pk-18-1",
+   "cite": "Perintökaari 40/1965 18 luku 1 §",
+   "title": "Kuolinpesän osakkaat",
+   "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Kuolinpesän osakkaita ovat perilliset ja yleisjälkisäädöksen saajat sekä eloonjäänyt puoliso."
+  },
+  {
+   "id": "fi-pk-18-2",
+   "cite": "Perintökaari 40/1965 18 luku 2 §",
+   "title": "Pesän yhteishallinto",
+   "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Osakasten tulee, milloin ei ... ole järjestetty erityistä kuolinpesän hallintoa, pesän selvittämistä varten yhteisesti hallita pesän omaisuutta"
+  },
+  {
+   "id": "fi-pk-19-1",
+   "cite": "Perintökaari 40/1965 19 luku 1 §",
+   "title": "Pesänselvittäjä ja testamentin toimeenpanija",
+   "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Pesän osakkaan hakemuksesta oikeuden on päätettävä, että pesän omaisuus on luovutettava pesänselvittäjän hallintoon"
+  },
+  {
+   "id": "fi-po-6",
+   "cite": "Laki potilaan asemasta ja oikeuksista 785/1992 6 §",
+   "title": "Potilaan itsemääräämisoikeus",
+   "url": "https://www.finlex.fi/fi/laki/ajantasa/1992/19920785",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Jos laillinen edustaja, lähiomainen tai muu läheinen kieltää hoidon antamisen ... potilasta on mahdollisuuksien mukaan hoidettava yhteisymmärryksessä"
+  },
+  {
+   "id": "fi-ku-9",
+   "cite": "Laki ihmisen elimien, kudoksien ja solujen lääketieteellisestä käytöstä 101/2001 9 §",
+   "title": "Elimien irrottaminen kuolleelta",
+   "url": "https://www.finlex.fi/fi/laki/ajantasa/2001/20010101",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Kuolleen ihmisen elimiä, kudoksia ja soluja saadaan irrottaa, jos ei ole tiedossa tai jos ei ole syytä olettaa, että vainaja eläessään olisi vastustanut toimenpidettä."
+  }
+ ],
+ "roles": [
+  {
+   "id": "fi-edunvalvontavaltuutettu",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Edunvalvontavaltuutettu",
+   "localNames": [
+    "edunvalvontavaltuutus",
+    "valtuutettu"
+   ],
+   "summary": "A continuing power of attorney. It does not operate on signature: the guardianship authority must confirm it on the attorney's application, supported by a medical certificate.",
+   "lane": {
+    "assigned": {
+     "event": "Principal grants the authorisation in a written instrument",
+     "phase": "capable",
+     "citations": [
+      "fi-ev-vahvistus"
+     ]
+    },
+    "starts": {
+     "event": "When the guardianship authority confirms it on the attorney's application",
+     "phase": "incapacitated",
+     "citations": [
+      "fi-ev-vahvistus"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the principal opens the estate to the osakkaat",
+      "phase": "deceased",
+      "citations": [
+       "fi-pk-18-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "designated",
+      "label": "Granted, not confirmed"
+     },
+     {
+      "id": "active",
+      "label": "Confirmed and in force"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fi-t-ev-grant",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Edunvalvontavaltuutus laaditaan",
+      "citations": [
+       "fi-ev-vahvistus"
+      ]
+     },
+     {
+      "id": "fi-t-ev-confirm",
+      "from": "designated",
+      "to": "active",
+      "event": "Holhousviranomainen vahvistaa valtuutuksen (lääkärinlausunto vaaditaan)",
+      "conditions": [
+       "valtuutetun hakemus",
+       "lääkärinlausunto"
+      ],
+      "citations": [
+       "fi-ev-vahvistus"
+      ]
+     },
+     {
+      "id": "fi-t-ev-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Valtuuttajan kuolema",
+      "citations": [
+       "fi-pk-18-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Attorney under a continuing power of attorney",
+    "basis": "official",
+    "citation": {
+     "id": "fi-en-poa-2",
+     "cite": "Act on the Continuing Power of Attorney 648/2007 s 2 (amendments up to 1140/2019)",
+     "title": "Act on the Continuing Power of Attorney (unofficial translation published on Finlex)",
+     "url": "https://www.finlex.fi/en/legislation/translations/2007/eng/648",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "By a continuing power of attorney, the granter may authorise an attorney to represent the granter in matters concerning his or her property"
+    }
+   },
+   "localNamesEn": {
+    "edunvalvontavaltuutus": {
+     "en": "Continuing power of attorney",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-poa-1",
+      "cite": "Act on the Continuing Power of Attorney 648/2007 s 1 (amendments up to 1140/2019)",
+      "title": "Act on the Continuing Power of Attorney (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/2007/eng/648",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "enter into force in the event that the granter becomes incapable of managing his or her affairs ... (continuing power of attorney)."
+     }
+    },
+    "valtuutettu": {
+     "en": "Attorney",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-poa-2",
+      "cite": "Act on the Continuing Power of Attorney 648/2007 s 2 (amendments up to 1140/2019)",
+      "title": "Act on the Continuing Power of Attorney (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/2007/eng/648",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "By a continuing power of attorney, the granter may authorise an attorney to represent the granter in matters concerning his or her property"
+     }
+    }
+   }
+  },
+  {
+   "id": "fi-edunvalvoja",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Edunvalvoja",
+   "localNames": [
+    "edunvalvoja",
+    "holhoustoimi"
+   ],
+   "summary": "A court may appoint a guardian for an adult who cannot look after their interests and whose affairs are not being handled adequately in any other way.",
+   "lane": {
+    "assigned": {
+     "event": "Court appoints where the adult cannot safeguard their interests",
+     "phase": "incapacitated",
+     "citations": [
+      "fi-ho-8"
+     ]
+    },
+    "starts": {
+     "event": "On appointment",
+     "phase": "incapacitated",
+     "citations": [
+      "fi-ho-8"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "fi-pk-18-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Edunvalvoja acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fi-t-edv-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Tuomioistuin määrää edunvalvojan (8 §)",
+      "conditions": [
+       "asiat eivät tule hoidetuiksi muulla tavoin"
+      ],
+      "citations": [
+       "fi-ho-8"
+      ]
+     },
+     {
+      "id": "fi-t-edv-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Kuolema",
+      "citations": [
+       "fi-pk-18-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Guardian",
+    "basis": "official",
+    "citation": {
+     "id": "fi-en-gs-4",
+     "cite": "Guardianship Service Act 442/1999 s 4 (amendments up to 637/2022)",
+     "title": "Guardianship Service Act (unofficial translation published on Finlex)",
+     "url": "https://www.finlex.fi/en/legislation/translations/1999/eng/442",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "The guardian of an adult is the person who a court or the guardianship authority has appointed as the adult's guardian."
+    }
+   },
+   "localNamesEn": {
+    "edunvalvoja": {
+     "en": "Guardian",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-gs-4",
+      "cite": "Guardianship Service Act 442/1999 s 4 (amendments up to 637/2022)",
+      "title": "Guardianship Service Act (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1999/eng/442",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The guardian of an adult is the person who a court or the guardianship authority has appointed as the adult's guardian."
+     }
+    },
+    "holhoustoimi": {
+     "en": "Guardianship service",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-gs-1",
+      "cite": "Guardianship Service Act 442/1999 s 1 (amendments up to 637/2022)",
+      "title": "Guardianship Service Act (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1999/eng/442",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The objective of the guardianship service is to oversee the rights and interests of persons who cannot manage their economic and financial affairs themselves"
+     }
+    }
+   }
+  },
+  {
+   "id": "fi-kuolinpesan-osakas",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Kuolinpesän osakas",
+   "localNames": [
+    "kuolinpesä",
+    "osakas"
+   ],
+   "summary": "The heirs, universal legatees and surviving spouse are the parties to the estate and, absent special administration, must administer it jointly.",
+   "lane": {
+    "assigned": {
+     "event": "By status as heir, universal legatee or surviving spouse",
+     "phase": "deceased",
+     "citations": [
+      "fi-pk-18-1"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "fi-pk-18-1",
+      "fi-pk-18-2"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate handed to a pesänselvittäjä, or wound up",
+      "phase": "administration",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Before death"
+     },
+     {
+      "id": "active",
+      "label": "Joint administration"
+     },
+     {
+      "id": "terminated",
+      "label": "Handed over or wound up"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fi-t-os-vest",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Kuolema; osakkaat hallitsevat pesää yhteisesti (18 luku)",
+      "citations": [
+       "fi-pk-18-1",
+       "fi-pk-18-2"
+      ]
+     },
+     {
+      "id": "fi-t-os-hand",
+      "from": "active",
+      "to": "terminated",
+      "event": "Omaisuus luovutetaan pesänselvittäjän hallintoon",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Shareholder in the decedent's estate",
+    "basis": "official",
+    "citation": {
+     "id": "fi-en-pk-18-1",
+     "cite": "Code of Inheritance 40/1965 ch 18 s 1 (amendments up to 1228/2001)",
+     "title": "Code of Inheritance (unofficial translation published on Finlex)",
+     "url": "https://www.finlex.fi/en/legislation/translations/1965/eng/40",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "The heirs, the universal beneficiaries under a testament and the surviving spouse shall be shareholders in the decedent's estate."
+    }
+   },
+   "localNamesEn": {
+    "kuolinpesä": {
+     "en": "Decedent's estate",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-pk-18-title",
+      "cite": "Code of Inheritance 40/1965 ch 18 heading (amendments up to 1228/2001)",
+      "title": "Code of Inheritance (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1965/eng/40",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Chapter 18 — Administration of a decedent's estate"
+     }
+    },
+    "osakas": {
+     "en": "Shareholder",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-pk-18-1",
+      "cite": "Code of Inheritance 40/1965 ch 18 s 1 (amendments up to 1228/2001)",
+      "title": "Code of Inheritance (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1965/eng/40",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The heirs, the universal beneficiaries under a testament and the surviving spouse shall be shareholders in the decedent's estate."
+     }
+    }
+   }
+  },
+  {
+   "id": "fi-pesanselvittaja",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Pesänselvittäjä",
+   "localNames": [
+    "pesänselvittäjä"
+   ],
+   "summary": "On an estate party's application the court orders the estate handed to an administrator and appoints someone to run it.",
+   "lane": {
+    "assigned": {
+     "event": "Court appoints on application of a party to the estate",
+     "phase": "administration",
+     "citations": [
+      "fi-pk-19-1"
+     ]
+    },
+    "starts": {
+     "event": "On the court's decision",
+     "phase": "administration",
+     "citations": [
+      "fi-pk-19-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed",
+      "phase": "closed",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fi-t-ps-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Oikeus määrää pesänselvittäjän (19 luku 1 §)",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     },
+     {
+      "id": "fi-t-ps-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Pesänselvitys päättyy",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Estate administrator",
+    "basis": "official",
+    "citation": {
+     "id": "fi-en-pk-19-1",
+     "cite": "Code of Inheritance 40/1965 ch 19 s 1 (amendments up to 1228/2001)",
+     "title": "Code of Inheritance (unofficial translation published on Finlex)",
+     "url": "https://www.finlex.fi/en/legislation/translations/1965/eng/40",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "the court shall order that the property of the estate is to be surrendered to the administration of an estate administrator"
+    }
+   },
+   "localNamesEn": {
+    "pesänselvittäjä": {
+     "en": "Estate administrator",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-pk-19-1",
+      "cite": "Code of Inheritance 40/1965 ch 19 s 1 (amendments up to 1228/2001)",
+      "title": "Code of Inheritance (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1965/eng/40",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "the court shall order that the property of the estate is to be surrendered to the administration of an estate administrator"
+     }
+    }
+   }
+  },
+  {
+   "id": "fi-testamentin-toimeenpanija",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Testamentin toimeenpanija",
+   "localNames": [
+    "testamentin toimeenpanija"
+   ],
+   "summary": "Someone appointed by will to administer the estate in place of the heirs and universal legatees; they too may apply for the administration order.",
+   "lane": {
+    "assigned": {
+     "event": "Appointed by will to hold the estate in place of the heirs",
+     "phase": "capable",
+     "citations": [
+      "fi-pk-19-1"
+     ]
+    },
+    "starts": {
+     "event": "On death",
+     "phase": "deceased",
+     "citations": [
+      "fi-pk-19-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed",
+      "phase": "closed",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "designated",
+      "label": "Named in will"
+     },
+     {
+      "id": "active",
+      "label": "Administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Completed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fi-t-tt-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Määrätty testamentissa (19 luku 1 §)",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     },
+     {
+      "id": "fi-t-tt-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Kuolema; toimeenpanija hallitsee pesää",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     },
+     {
+      "id": "fi-t-tt-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Administration completed",
+      "citations": [
+       "fi-pk-19-1"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor of a testament",
+    "basis": "official",
+    "citation": {
+     "id": "fi-en-pk-19-title",
+     "cite": "Code of Inheritance 40/1965 ch 19 heading (amendments up to 1228/2001)",
+     "title": "Code of Inheritance (unofficial translation published on Finlex)",
+     "url": "https://www.finlex.fi/en/legislation/translations/1965/eng/40",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "Chapter 19 — Administrator of an estate and executor of a testament"
+    }
+   },
+   "localNamesEn": {
+    "testamentin toimeenpanija": {
+     "en": "Executor of a testament",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-pk-19-title",
+      "cite": "Code of Inheritance 40/1965 ch 19 heading (amendments up to 1228/2001)",
+      "title": "Code of Inheritance (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1965/eng/40",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "Chapter 19 — Administrator of an estate and executor of a testament"
+     }
+    }
+   }
+  },
+  {
+   "id": "fi-laillinen-edustaja",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Laillinen edustaja, lähiomainen tai muu läheinen",
+   "localNames": [
+    "laillinen edustaja",
+    "lähiomainen"
+   ],
+   "summary": "Where a patient cannot decide, the legal representative, a close relative or another person close to them is heard; if they refuse treatment the patient is to be treated by another acceptable means so far as possible.",
+   "lane": {
+    "assigned": {
+     "event": "By status as legal representative, close relative or other close person",
+     "phase": "incapacitated",
+     "citations": [
+      "fi-po-6"
+     ]
+    },
+    "starts": {
+     "event": "When the patient cannot decide on their own treatment",
+     "phase": "incapacitated",
+     "citations": [
+      "fi-po-6"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Patient regains capacity, or dies",
+      "phase": "deceased",
+      "citations": [
+       "fi-po-6"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Patient decides"
+     },
+     {
+      "id": "active",
+      "label": "Surrogate consulted"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fi-t-le-start",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Potilas ei kykene päättämään hoidostaan (6 §)",
+      "citations": [
+       "fi-po-6"
+      ]
+     },
+     {
+      "id": "fi-t-le-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Potilas toipuu tai kuolee",
+      "citations": [
+       "fi-po-6"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Legal representative, close relative or other person closely connected with the patient",
+    "basis": "official",
+    "citation": {
+     "id": "fi-en-po-6",
+     "cite": "Act on the Status and Rights of Patients 785/1992 s 6 (489/1999)",
+     "title": "Act on the Status and Rights of Patients (unofficial translation published on Finlex)",
+     "url": "https://www.finlex.fi/en/legislation/translations/1992/eng/785",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "If the patient's legal representatives, close relative, or other person closely connected with the patient forbid the care or treatment of the patient"
+    }
+   },
+   "localNamesEn": {
+    "laillinen edustaja": {
+     "en": "Legal representative",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-po-6",
+      "cite": "Act on the Status and Rights of Patients 785/1992 s 6 (489/1999)",
+      "title": "Act on the Status and Rights of Patients (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1992/eng/785",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "If the patient's legal representatives, close relative, or other person closely connected with the patient forbid the care or treatment of the patient"
+     }
+    },
+    "lähiomainen": {
+     "en": "Close relative",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-po-6",
+      "cite": "Act on the Status and Rights of Patients 785/1992 s 6 (489/1999)",
+      "title": "Act on the Status and Rights of Patients (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1992/eng/785",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "If the patient's legal representatives, close relative, or other person closely connected with the patient forbid the care or treatment of the patient"
+     }
+    }
+   }
+  },
+  {
+   "id": "fi-elinluovutus",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Vainajan tahto elinluovutuksessa",
+   "localNames": [
+    "elinluovutus",
+    "vainaja"
+   ],
+   "summary": "Finland presumes consent: organs may be removed unless it is known, or there is reason to assume, that the deceased would have opposed it. An express prohibition in life is binding.",
+   "lane": {
+    "assigned": {
+     "event": "By law; the deceased's own position in life governs",
+     "phase": "deceased",
+     "citations": [
+      "fi-ku-9"
+     ]
+    },
+    "starts": {
+     "event": "After death",
+     "phase": "deceased",
+     "citations": [
+      "fi-ku-9"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removal carried out, or barred by the deceased's prohibition",
+      "phase": "deceased",
+      "citations": [
+       "fi-ku-9"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Alive"
+     },
+     {
+      "id": "active",
+      "label": "Presumed donor"
+     },
+     {
+      "id": "terminated",
+      "label": "Resolved"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fi-t-el-presume",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Kuolema; ei tiedossa vastustusta (9 §)",
+      "citations": [
+       "fi-ku-9"
+      ]
+     },
+     {
+      "id": "fi-t-el-block",
+      "from": "active",
+      "to": "terminated",
+      "event": "Vainaja oli eläessään kieltänyt irrottamisen",
+      "citations": [
+       "fi-ku-9"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Wishes of the deceased in organ donation",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "elinluovutus": {
+     "en": "Organ donation",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-stm-2010",
+      "cite": "Ministry of Social Affairs and Health, Presumed consent to be followed for organ transplants (press release, 23 August 2010)",
+      "title": "Presumed consent to be followed for organ transplants",
+      "url": "https://stm.fi/en/-/presumed-consent-to-be-followed-for-organ-transplants",
+      "kind": "agency-rule",
+      "retrieved": "2026-09-16",
+      "quote": "This allows for the organ donation of a suitable deceased person to be used in the treatment of another individual"
+     }
+    },
+    "vainaja": {
+     "en": "Deceased person",
+     "basis": "official",
+     "citation": {
+      "id": "fi-en-ku-9a",
+      "cite": "Act on the Medical Use of Human Organs, Tissues and Cells 101/2001 s 9a (653/2010)",
+      "title": "Act on the Medical Use of Human Organs, Tissues and Cells (unofficial translation published on Finlex)",
+      "url": "https://www.finlex.fi/en/legislation/translations/2001/eng/101",
+      "kind": "statute",
+      "retrieved": "2026-09-16",
+      "quote": "The deceased person's near relative or other close person must be given an explanation of the removal of organs, tissues or cells"
+     }
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": true,
+   "note": "The edunvalvontavaltuutus is made for the grantor's future incapacity, but has no effect until confirmed.",
+   "citations": [
+    "fi-ev-vahvistus"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "The guardianship authority must confirm the authorisation on the attorney's application, with a medical certificate, before it can be used.",
+   "citations": [
+    "fi-ev-vahvistus"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "The representative or close relative is consulted once the patient cannot decide on their own treatment.",
+   "citations": [
+    "fi-po-6"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": null,
+   "name": "Laki 101/2001",
+   "note": "Removal is allowed unless it is known or there is reason to assume the deceased would have opposed it.",
+   "citations": [
+    "fi-ku-9"
+   ],
+   "nameEn": {
+    "en": "Act on the Medical Use of Human Organs, Tissues and Cells (101/2001)",
+    "basis": "official",
+    "citation": {
+     "id": "fi-en-ku-title",
+     "cite": "Act on the Medical Use of Human Organs, Tissues and Cells 101/2001 (amendments up to 277/2013)",
+     "title": "Act on the Medical Use of Human Organs, Tissues and Cells (unofficial translation published on Finlex)",
+     "url": "https://www.finlex.fi/en/legislation/translations/2001/eng/101",
+     "kind": "statute",
+     "retrieved": "2026-09-16",
+     "quote": "No. 101/2001 Act on the Medical Use of Human Organs, Tissues and Cells"
+    }
+   }
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No dedicated digital-asset statute; digital assets sit in the kuolinpesä administered jointly by the osakkaat.",
+   "citations": [
+    "fi-pk-18-2"
+   ]
+  }
+ }
+}

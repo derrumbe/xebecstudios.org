@@ -3,7 +3,7 @@ title: "Now With More Privacy! The Rise of Nutritional Labelling and Customer Ch
 date: 2021-04-08
 subject: Technology
 tags: [Privacy, Finance]
-description: "You are what you eat, and an application is what it collects. What privacy labelling asks of the institutions that must list their ingredients."
+description: "Apple put nutrition labels on apps. A bank printing its own would first have to know what data it holds, and who can reach it."
 legacySlug: "privacy-and-nutrional-labeling"
 # ~3 min
 ---

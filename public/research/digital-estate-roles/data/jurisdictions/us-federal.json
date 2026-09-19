@@ -1,0 +1,1604 @@
+{
+ "jurisdiction": "us-federal",
+ "name": "United States — Federal roles",
+ "citations": [
+  {
+   "id": "hipaa-164-502-f",
+   "cite": "45 CFR 164.502(f)",
+   "title": "Standard: Deceased individuals",
+   "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+  },
+  {
+   "id": "hipaa-164-502-g1",
+   "cite": "45 CFR 164.502(g)(1)",
+   "title": "Standard: Personal representatives",
+   "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(1)",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "a covered entity must, except as provided in paragraphs (g)(3) and (g)(5) of this section, treat a personal representative as the individual"
+  },
+  {
+   "id": "hipaa-164-502-g2",
+   "cite": "45 CFR 164.502(g)(2)",
+   "title": "Implementation specification: Adults and emancipated minors",
+   "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(2)",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "authority to act on behalf of an individual who is an adult or an emancipated minor in making decisions related to health care"
+  },
+  {
+   "id": "hipaa-164-502-g3",
+   "cite": "45 CFR 164.502(g)(3)",
+   "title": "Implementation specification: Unemancipated minors",
+   "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(3)",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "such person may not be a personal representative of an unemancipated minor, and the minor has the authority to act as an individual"
+  },
+  {
+   "id": "hipaa-164-502-g4",
+   "cite": "45 CFR 164.502(g)(4)",
+   "title": "Implementation specification: Deceased individuals",
+   "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+  },
+  {
+   "id": "hipaa-164-502-g5",
+   "cite": "45 CFR 164.502(g)(5)(i)",
+   "title": "Implementation specification: Abuse, neglect, endangerment situations",
+   "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(5)",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "a covered entity may elect not to treat a person as the personal representative"
+  },
+  {
+   "id": "hipaa-164-510-b5",
+   "cite": "45 CFR 164.510(b)(5)",
+   "title": "Uses and disclosures when the individual is deceased",
+   "url": "https://www.ecfr.gov/current/title-45/section-164.510#p-164.510(b)(5)",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "who were involved in the individual's care or payment for health care prior to the individual's death"
+  },
+  {
+   "id": "hipaa-160-103-phi",
+   "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+   "title": "Definitions: protected health information exclusions",
+   "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Regarding a person who has been deceased for more than 50 years."
+  },
+  {
+   "id": "hhs-ocr-personal-reps",
+   "cite": "HHS OCR, Personal Representatives (45 CFR 164.502(g)) guidance, last reviewed Jan. 5, 2024",
+   "title": "Personal Representatives",
+   "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/personal-representatives/index.html",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "the scope of the personal representative's authority to act for the individual under the Privacy Rule derives from his or her authority under applicable law"
+  },
+  {
+   "id": "hhs-ocr-decedents",
+   "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+   "title": "Health Information of Deceased Individuals",
+   "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+  },
+  {
+   "id": "usc-42-405-j",
+   "cite": "42 U.S.C. 405(j)(1)(A) (Social Security Act §205(j))",
+   "title": "Representative payees (Title II)",
+   "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section405&num=0&edition=prelim",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "certification of payment of such individual's benefit under this subchapter may be made, regardless of the legal competency or incompetency of the individual"
+  },
+  {
+   "id": "usc-42-1383-a2",
+   "cite": "42 U.S.C. 1383(a)(2)(A)(ii)-(iii) (Social Security Act §1631(a)(2))",
+   "title": "Representative payees (SSI)",
+   "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section1383&num=0&edition=prelim",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "such payments shall be made, regardless of the legal competency or incompetency of the individual or eligible spouse, to another individual, or an organization"
+  },
+  {
+   "id": "cfr-20-404-2001",
+   "cite": "20 CFR 404.2001",
+   "title": "Introduction (representative payment, Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2001",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "We may appoint a representative payee even if the beneficiary is a legally competent individual."
+  },
+  {
+   "id": "cfr-20-416-601",
+   "cite": "20 CFR 416.601",
+   "title": "Introduction (representative payment, SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.601",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Our policy is that every beneficiary has the right to manage his or her own benefits."
+  },
+  {
+   "id": "cfr-20-404-2010",
+   "cite": "20 CFR 404.2010",
+   "title": "When payment will be made to a representative payee (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2010",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Legally incompetent or mentally incapable of managing benefit payments; or"
+  },
+  {
+   "id": "cfr-20-416-610",
+   "cite": "20 CFR 416.610",
+   "title": "When payment will be made to a representative payee (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.610",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2011",
+   "cite": "20 CFR 404.2011",
+   "title": "What happens to your monthly benefits while we are finding a suitable representative payee for you? (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2011",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "We will pay current monthly benefits directly to you while finding a suitable representative payee unless"
+  },
+  {
+   "id": "cfr-20-416-611",
+   "cite": "20 CFR 416.611",
+   "title": "What happens to your monthly benefits while we are finding a suitable representative payee for you? (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.611",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2015",
+   "cite": "20 CFR 404.2015",
+   "title": "Information considered in determining whether to make representative payments (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2015",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "a certified copy of the court's determination will be the basis of our determination to make representative payment"
+  },
+  {
+   "id": "cfr-20-416-615",
+   "cite": "20 CFR 416.615",
+   "title": "Information considered in determining whether to make representative payment (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.615",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2018",
+   "cite": "20 CFR 404.2018",
+   "title": "Advance designation of representative payees",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2018",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "may designate in advance one or more individuals to possibly serve as a representative payee"
+  },
+  {
+   "id": "cfr-20-404-2021",
+   "cite": "20 CFR 404.2021",
+   "title": "What is our order of preference in selecting a representative payee for you? (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2021",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "We will consider an individual's advance designee(s) (see § 404.2018) before we consider other potential representative payees"
+  },
+  {
+   "id": "cfr-20-416-621",
+   "cite": "20 CFR 416.621",
+   "title": "What is our order of preference in selecting a representative payee for you? (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.621",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2025",
+   "cite": "20 CFR 404.2025",
+   "title": "What information must a representative payee report to us?",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2025",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "we may stop sending your benefit payment to him/her"
+  },
+  {
+   "id": "cfr-20-404-2030",
+   "cite": "20 CFR 404.2030",
+   "title": "How will we notify you when we decide you need a representative payee? (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2030",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "We provide this notice before we actually appoint the payee."
+  },
+  {
+   "id": "cfr-20-416-630",
+   "cite": "20 CFR 416.630",
+   "title": "How will we notify you when we decide you need a representative payee? (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.630",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2035",
+   "cite": "20 CFR 404.2035",
+   "title": "What are the responsibilities of your representative payee?",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2035",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2045",
+   "cite": "20 CFR 404.2045",
+   "title": "Conservation and investment of benefit payments (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2045",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "any remaining amount shall be conserved or invested on behalf of the beneficiary"
+  },
+  {
+   "id": "cfr-20-416-645",
+   "cite": "20 CFR 416.645",
+   "title": "Conservation and investment of benefit payments (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.645",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2050",
+   "cite": "20 CFR 404.2050",
+   "title": "When will we select a new representative payee for you? (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2050",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "We will terminate payment of benefits to your representative payee and find a new payee or pay you directly if the present payee"
+  },
+  {
+   "id": "cfr-20-416-650",
+   "cite": "20 CFR 416.650",
+   "title": "When will we select a new representative payee for you? (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.650",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2060",
+   "cite": "20 CFR 404.2060",
+   "title": "Transfer of accumulated benefit payments (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2060",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "shall transfer these funds and the interest earned from the invested funds to either a successor payee, to the beneficiary, or to us"
+  },
+  {
+   "id": "cfr-20-416-660",
+   "cite": "20 CFR 416.660",
+   "title": "Transfer of accumulated benefit payments (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.660",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-2065",
+   "cite": "20 CFR 404.2065",
+   "title": "How does your representative payee account for the use of benefits? (Title II)",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.2065",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-416-665",
+   "cite": "20 CFR 416.665",
+   "title": "How does your representative payee account for the use of benefits? (SSI)",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.665",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-20-404-311",
+   "cite": "20 CFR 404.311(b)",
+   "title": "When does my entitlement to old-age benefits begin and end?",
+   "url": "https://www.ecfr.gov/current/title-20/section-404.311",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "We will find your entitlement to old-age benefits ends with the month before the month you die."
+  },
+  {
+   "id": "cfr-20-416-1334",
+   "cite": "20 CFR 416.1334",
+   "title": "Termination due to death of recipient",
+   "url": "https://www.ecfr.gov/current/title-20/section-416.1334",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Payments are terminated effective with the month after the month of death."
+  },
+  {
+   "id": "poms-gn-00502-001",
+   "cite": "SSA POMS GN 00502.001",
+   "title": "Capability Determination and Representative Payee Payment Overview",
+   "url": "https://secure.ssa.gov/poms.nsf/lnx/0200502001",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Presume that a legally competent adult beneficiary is capable of managing, or directing someone else to manage, the benefits"
+  },
+  {
+   "id": "poms-gn-00502-055",
+   "cite": "SSA POMS GN 00502.055",
+   "title": "Reevaluating a Beneficiary's Capability",
+   "url": "https://secure.ssa.gov/poms.nsf/lnx/0200502055",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Before making direct payment to a beneficiary who currently has a payee, you must obtain evidence"
+  },
+  {
+   "id": "poms-gn-00502-139",
+   "cite": "SSA POMS GN 00502.139",
+   "title": "Additional Development/Considerations When Guardian Involved",
+   "url": "https://secure.ssa.gov/poms.nsf/lnx/0200502139",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Power of attorney is not recognized by the Treasury Department (TD) for the purposes of negotiating federal payments"
+  },
+  {
+   "id": "poms-gn-02410-010",
+   "cite": "SSA POMS GN 02410.010",
+   "title": "Power of Attorney",
+   "url": "https://secure.ssa.gov/poms.nsf/lnx/0202410010",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "TD regulations do not permit a general (including durable) POA to be used to negotiate Social Security or SSI checks."
+  },
+  {
+   "id": "poms-gn-00603-055",
+   "cite": "SSA POMS GN 00603.055",
+   "title": "Transfer of Conserved Funds",
+   "url": "https://secure.ssa.gov/poms.nsf/lnx/0200603055",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "When a payee, who has conserved funds for a beneficiary, stops serving as the payee, the payee generally must return those funds"
+  },
+  {
+   "id": "poms-gn-00603-100",
+   "cite": "SSA POMS GN 00603.100",
+   "title": "Entitlement Terminated - Notice to be Given About Conserved Benefits",
+   "url": "https://secure.ssa.gov/poms.nsf/lnx/0200603100",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "The benefits should be turned over to the legal representative of the beneficiary's estate for disposition under State law."
+  },
+  {
+   "id": "ssa-payee-faq",
+   "cite": "SSA, Frequently Asked Questions (FAQs) for Representative Payees",
+   "title": "What About \"Power of Attorney\"? / What changes or events do I need to report",
+   "url": "https://www.ssa.gov/payee/faqrep.htm",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "if you have power of attorney for someone who is incapable of managing his or her own benefits, you must still apply"
+  },
+  {
+   "id": "ssa-kc-conserved-funds",
+   "cite": "SSA Kansas City Region, Representative Payee Conserved Funds",
+   "title": "Disposing Conserved Funds When a Beneficiary Dies",
+   "url": "https://www.ssa.gov/kc/rp_cf.htm",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Any payment received for the month of death or later must be returned."
+  },
+  {
+   "id": "cfr-31-240-17",
+   "cite": "31 CFR 240.17",
+   "title": "Powers of attorney (negotiation of Treasury checks)",
+   "url": "https://www.ecfr.gov/current/title-31/section-240.17",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "durable special powers of attorney are effective only during the six-month period following a determination that the named payee is incompetent"
+  },
+  {
+   "id": "usc-38-5502",
+   "cite": "38 U.S.C. 5502",
+   "title": "Payments to and supervision of fiduciaries",
+   "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title38-section5502&num=0&edition=prelim",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "payment of benefits ... may be made directly to the beneficiary or to a relative or some other fiduciary"
+  },
+  {
+   "id": "cfr-38-3-353",
+   "cite": "38 CFR 3.353",
+   "title": "Determinations of incompetency and competency",
+   "url": "https://www.ecfr.gov/current/title-38/section-3.353",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Rating agencies have sole authority to make official determinations of competency and incompetency"
+  },
+  {
+   "id": "cfr-38-3-500-g",
+   "cite": "38 CFR 3.500(g)(1)",
+   "title": "Reductions and discontinuances: Death of payee",
+   "url": "https://www.ecfr.gov/current/title-38/section-3.500#p-3.500(g)",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Payee (includes apportionee). Last day of month before death."
+  },
+  {
+   "id": "cfr-38-13-10",
+   "cite": "38 CFR 13.10",
+   "title": "Purpose and applicability of other regulations",
+   "url": "https://www.ecfr.gov/current/title-38/section-13.10",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "cannot manage their VA benefits"
+  },
+  {
+   "id": "cfr-38-13-20",
+   "cite": "38 CFR 13.20",
+   "title": "Definitions (fiduciary; in the fiduciary program)",
+   "url": "https://www.ecfr.gov/current/title-38/section-13.20",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Fiduciary means an individual or entity appointed by VA to receive VA benefits on behalf of a beneficiary"
+  },
+  {
+   "id": "cfr-38-13-30",
+   "cite": "38 CFR 13.30",
+   "title": "Beneficiary rights",
+   "url": "https://www.ecfr.gov/current/title-38/section-13.30",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "Be removed from the fiduciary program and receive direct payment of benefits without VA supervision"
+  },
+  {
+   "id": "cfr-38-13-100",
+   "cite": "38 CFR 13.100",
+   "title": "Fiduciary appointments",
+   "url": "https://www.ecfr.gov/current/title-38/section-13.100",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "the Hub Manager will appoint a fiduciary for a beneficiary who"
+  },
+  {
+   "id": "cfr-38-13-140",
+   "cite": "38 CFR 13.140",
+   "title": "Responsibilities of fiduciaries",
+   "url": "https://www.ecfr.gov/current/title-38/section-13.140",
+   "kind": "regulation",
+   "retrieved": "2026-09-16"
+  },
+  {
+   "id": "cfr-38-13-500",
+   "cite": "38 CFR 13.500",
+   "title": "Removal of fiduciaries",
+   "url": "https://www.ecfr.gov/current/title-38/section-13.500",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "The Hub Manager may remove a fiduciary if the Hub Manager determines that fiduciary services are no longer required"
+  },
+  {
+   "id": "cfr-38-13-510",
+   "cite": "38 CFR 13.510",
+   "title": "Fiduciary withdrawals",
+   "url": "https://www.ecfr.gov/current/title-38/section-13.510",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "A fiduciary may not withdraw as fiduciary for a beneficiary until the fiduciary receives notice from the Hub Manager"
+  },
+  {
+   "id": "usc-26-6903",
+   "cite": "26 U.S.C. 6903",
+   "title": "Notice of fiduciary relationship",
+   "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section6903&num=0&edition=prelim",
+   "kind": "statute",
+   "retrieved": "2026-09-16",
+   "quote": "until notice is given that the fiduciary capacity has terminated"
+  },
+  {
+   "id": "cfr-26-301-6903-1",
+   "cite": "26 CFR 301.6903-1",
+   "title": "Notice of fiduciary relationship",
+   "url": "https://www.ecfr.gov/current/title-26/section-301.6903-1",
+   "kind": "regulation",
+   "retrieved": "2026-09-16",
+   "quote": "As soon as such notice is filed with the district director such fiduciary must ... assume the powers, rights, duties, and privileges of the taxpayer"
+  },
+  {
+   "id": "irs-i56",
+   "cite": "IRS, Instructions for Form 56 (Rev. 06/2026)",
+   "title": "Notice Concerning Fiduciary Relationship",
+   "url": "https://www.irs.gov/instructions/i56",
+   "kind": "agency-rule",
+   "retrieved": "2026-09-16",
+   "quote": "Generally, you must file Form 56 when you create (or terminate) a fiduciary relationship."
+  }
+ ],
+ "roles": [
+  {
+   "id": "hipaa-personal-representative",
+   "group": "federal",
+   "name": "HIPAA personal representative",
+   "localNames": [
+    "personal representative (HIPAA Privacy Rule)"
+   ],
+   "summary": "Federal privacy law does not appoint anyone. A health care provider or health plan must treat a person as the patient for HIPAA purposes, such as getting records or signing authorizations, when state or other law gives that person authority: authority over health-care decisions for a living adult, or authority over the decedent or the estate after death. The role is derived: it starts and ends when the underlying state-law role (health care agent, guardian, parent, executor/administrator) starts and ends. For decedents, protection lasts 50 years after death.",
+   "derivedFrom": [
+    "health-care-agent",
+    "guardian",
+    "executor",
+    "administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "A person gets authority under state or other applicable law (e.g., health care power of attorney, guardianship, parent of a minor, letters as executor/administrator). HIPAA itself does not assign anyone.",
+     "phase": "capable",
+     "citations": [
+      "hipaa-164-502-g2",
+      "hipaa-164-502-g4",
+      "hhs-ocr-personal-reps"
+     ]
+    },
+    "starts": {
+     "event": "At the same moment the underlying state-law authority takes effect: authority over health-care decisions (living individual) or authority to act for the decedent or the estate (after death)",
+     "phase": "incapacitated",
+     "citations": [
+      "hipaa-164-502-g1",
+      "hipaa-164-502-g2",
+      "hipaa-164-502-g4",
+      "hhs-ocr-personal-reps"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The underlying state-law authority ends (e.g., a health care agent's authority ends at death, or a guardianship is terminated). Status as a personal representative for a living individual lapses with it.",
+      "phase": "deceased",
+      "citations": [
+       "hipaa-164-502-g2",
+       "hhs-ocr-personal-reps"
+      ]
+     },
+     {
+      "event": "The authority of the executor, administrator, or other person to act for the decedent or the estate ends under state law",
+      "phase": "closed",
+      "citations": [
+       "hipaa-164-502-g4"
+      ]
+     },
+     {
+      "event": "50 years after death: the information is no longer protected health information, so a personal representative has no Privacy Rule rights over it",
+      "phase": "closed",
+      "citations": [
+       "hipaa-164-502-f",
+       "hipaa-160-103-phi",
+       "hhs-ocr-personal-reps"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated",
+     "deceased",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Scope follows the state-law authority. A broad health-care authority (e.g., guardian of an incompetent adult) makes the person the representative for all Privacy Rule purposes. A limited authority covers only PHI relevant to that decision. After death, the authority need not include health-care decision-making.",
+     "citations": [
+      "hipaa-164-502-g2",
+      "hipaa-164-502-g4",
+      "hhs-ocr-personal-reps"
+     ]
+    },
+    {
+     "text": "HHS lists examples for adults: a health care power of attorney, a court-appointed legal guardian, or a general or durable power of attorney that includes health-care decisions. After death: an executor or administrator, or next of kin or another family member if relevant law gives authority.",
+     "citations": [
+      "hhs-ocr-personal-reps"
+     ]
+    },
+    {
+     "text": "This is separate from the personal-representative role: after death a covered entity MAY disclose relevant PHI to family members or others who were involved in the individual's care or payment before death, unless that conflicts with a prior expressed preference it knows of. This is permission for the covered entity, not a right of the family member.",
+     "citations": [
+      "hipaa-164-510-b5",
+      "hhs-ocr-decedents"
+     ]
+    },
+    {
+     "text": "Unemancipated minors: a parent, guardian, or person acting in loco parentis is normally the personal representative. The exceptions are care the minor may consent to, care consented to by a court or another authorized person, and care the parent agreed to keep confidential.",
+     "citations": [
+      "hipaa-164-502-g3",
+      "hhs-ocr-personal-reps"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No state-law authority over the individual's health-care decisions or estate"
+     },
+     {
+      "id": "designated",
+      "label": "State-law instrument or appointment exists, but its authority is not yet in effect (e.g., a springing health care power of attorney). Not yet a HIPAA personal representative."
+     },
+     {
+      "id": "active",
+      "label": "Treated as the individual by covered entities, for PHI relevant to the representation"
+     },
+     {
+      "id": "suspended",
+      "label": "A particular covered entity has elected not to treat the person as personal representative (abuse/endangerment), or a minor-consent exception applies to specific PHI"
+     },
+     {
+      "id": "terminated",
+      "label": "Underlying authority ended, or the PHI is no longer protected (more than 50 years after death)"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-state-instrument",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "State-law authority is conferred but not yet effective (e.g., a health care power of attorney that takes effect only on incapacity)",
+      "conditions": [
+       "When the authority becomes effective is set by state law and the instrument, not by HIPAA"
+      ],
+      "citations": [
+       "hipaa-164-502-g2",
+       "hhs-ocr-personal-reps"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-activate-living",
+      "from": "designated",
+      "to": "active",
+      "event": "Underlying authority to make health-care decisions for the adult or emancipated minor takes effect",
+      "conditions": [
+       "Person has authority 'under applicable law' to act for the individual in health-care decisions",
+       "Limited to PHI relevant to the representation"
+      ],
+      "citations": [
+       "hipaa-164-502-g1",
+       "hipaa-164-502-g2",
+       "hhs-ocr-personal-reps"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-activate-immediate",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Authority effective immediately under state law (e.g., court-appointed guardian with health-care powers, or an immediately effective health care POA)",
+      "conditions": [],
+      "citations": [
+       "hipaa-164-502-g2",
+       "hhs-ocr-personal-reps"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-activate-parent",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Parent, guardian, or person in loco parentis with health-care decision authority for an unemancipated minor",
+      "conditions": [
+       "Subject to the minor-consent and confidentiality exceptions in (g)(3)(i)(A)-(C)"
+      ],
+      "citations": [
+       "hipaa-164-502-g3",
+       "hhs-ocr-personal-reps"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-minor-exception",
+      "from": "active",
+      "to": "suspended",
+      "event": "For a specific health-care service, the minor may consent (or a court or another person consents, or the parent agrees to confidentiality). The parent is not the personal representative for that PHI.",
+      "conditions": [
+       "State or other law that expressly allows or forbids parental access still controls"
+      ],
+      "citations": [
+       "hipaa-164-502-g3",
+       "hhs-ocr-personal-reps"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-abuse-exception",
+      "from": "active",
+      "to": "suspended",
+      "event": "Covered entity elects not to treat the person as personal representative",
+      "conditions": [
+       "Reasonable belief of domestic violence, abuse, or neglect by the person, or that treating them as representative could endanger the individual",
+       "AND professional judgment that doing so is not in the individual's best interest",
+       "Decided per covered entity; does not change the person's state-law authority"
+      ],
+      "citations": [
+       "hipaa-164-502-g5",
+       "hhs-ocr-personal-reps"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-living-authority-ends",
+      "from": "active",
+      "to": "terminated",
+      "event": "The underlying state-law health-care authority ends (e.g., revocation, termination of guardianship, or the agent's authority ending at the principal's death)",
+      "conditions": [
+       "This is an inference: the (g)(2) status exists only 'if under applicable law' the person has authority. HIPAA sets no separate end date.",
+       "Whether a health-care agency ends at death is a state-law question"
+      ],
+      "citations": [
+       "hipaa-164-502-g2",
+       "hhs-ocr-personal-reps"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-activate-decedent",
+      "from": "not_designated",
+      "to": "active",
+      "event": "After death, an executor, administrator, or other person has authority under applicable law to act for the decedent or the estate",
+      "conditions": [
+       "Authority need not include health-care decision-making",
+       "May be a different person from the pre-death personal representative",
+       "Limited to PHI relevant to the representation"
+      ],
+      "citations": [
+       "hipaa-164-502-g4",
+       "hhs-ocr-personal-reps",
+       "hhs-ocr-decedents"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-reactivate-as-estate-rep",
+      "from": "terminated",
+      "to": "active",
+      "event": "The same person who acted before death is later given authority over the decedent or estate (e.g., named executor who receives letters)",
+      "conditions": [
+       "New basis ((g)(4)) replaces the old one ((g)(2))"
+      ],
+      "citations": [
+       "hipaa-164-502-g4"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     },
+     {
+      "id": "t-estate-authority-ends",
+      "from": "active",
+      "to": "terminated",
+      "event": "Authority to act for the decedent or the estate ends under state law (e.g., the personal representative is discharged)",
+      "conditions": [
+       "This is an inference from the 'if under applicable law' wording of (g)(4). HIPAA does not itself set the end."
+      ],
+      "citations": [
+       "hipaa-164-502-g4"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     },
+     {
+      "id": "t-fifty-years",
+      "from": "active",
+      "to": "terminated",
+      "event": "50 years have passed since death",
+      "conditions": [
+       "Information about a person dead more than 50 years is excluded from PHI"
+      ],
+      "citations": [
+       "hipaa-164-502-f",
+       "hipaa-160-103-phi",
+       "hhs-ocr-personal-reps"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   },
+   "canonical": "health-records-representative"
+  },
+  {
+   "id": "ssa-representative-payee",
+   "group": "federal",
+   "name": "Social Security / SSI representative payee",
+   "localNames": [
+    "rep payee",
+    "payee"
+   ],
+   "summary": "A person or organization that the Social Security Administration (SSA) selects to receive Social Security (Title II) or SSI (Title XVI) benefits for a beneficiary. SSA appoints a payee after finding that the beneficiary cannot manage or direct the management of their benefit payments. In this role, 'incapacitated' means that SSA administrative finding. It is not a court adjudication, and SSA can appoint a payee even for a legally competent person. A payee is not an agent: a power of attorney, including a durable one, gives no authority to receive or negotiate these benefits. The appointment ends when SSA changes payees, when SSA finds the beneficiary capable, or when the beneficiary dies. The former payee must then return payments not due and hand over conserved funds.",
+   "lane": {
+    "assigned": {
+     "event": "SSA determines representative payment is in the beneficiary's interest, then selects a payee using its order of preference, with advance designees considered first",
+     "phase": "incapacitated",
+     "citations": [
+      "cfr-20-404-2001",
+      "cfr-20-404-2010",
+      "cfr-20-416-610",
+      "cfr-20-404-2021",
+      "cfr-20-416-621",
+      "usc-42-405-j",
+      "usc-42-1383-a2"
+     ]
+    },
+    "starts": {
+     "event": "SSA certifies payment to the payee after written advance notice. If the beneficiary protests or appeals within 10 days of a mailed notice, the action is delayed.",
+     "phase": "incapacitated",
+     "citations": [
+      "cfr-20-404-2030",
+      "cfr-20-416-630"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Beneficiary dies: Title II entitlement ends with the month before death, and SSI payments stop after the month of death. The payee must return payments not due. Conserved funds belong to the estate.",
+      "phase": "deceased",
+      "citations": [
+       "cfr-20-404-311",
+       "cfr-20-416-1334",
+       "ssa-kc-conserved-funds",
+       "poms-gn-00603-100"
+      ]
+     },
+     {
+      "event": "SSA makes a new capability determination that the beneficiary is capable, and pays the beneficiary directly",
+      "phase": "capable",
+      "citations": [
+       "poms-gn-00502-055",
+       "poms-gn-00603-055",
+       "cfr-20-404-2060",
+       "cfr-20-416-660"
+      ]
+     },
+     {
+      "event": "SSA stops paying this payee and selects a new payee (misuse, payee's death, unwillingness, inability, failure to account or cooperate)",
+      "phase": "incapacitated",
+      "citations": [
+       "cfr-20-404-2050",
+       "cfr-20-416-650",
+       "usc-42-405-j",
+       "usc-42-1383-a2"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A power of attorney does not substitute for payee appointment. Treasury rules do not permit a general (including durable) POA to be used to negotiate Social Security or SSI checks. A POA holder for someone who cannot manage benefits must still apply to be the payee.",
+     "citations": [
+      "ssa-payee-faq",
+      "poms-gn-02410-010",
+      "poms-gn-00502-139",
+      "cfr-31-240-17"
+     ]
+    },
+    {
+     "text": "Treasury's own rule is more nuanced than 'no POA ever': 31 CFR 240.17 allows specific POAs for an already-issued check, and special or durable special POAs for recurring benefit checks with required recitals. A durable special POA works for Treasury checks only in the six months after the payee is determined incompetent. SSA's POMS says to avoid sending payments to third-party POA holders and says special POAs are given mainly to foreign banks.",
+     "citations": [
+      "cfr-31-240-17",
+      "poms-gn-02410-010"
+     ]
+    },
+    {
+     "text": "A court finding of legal incompetency is evidence SSA uses (a certified copy is the basis for representative payment). A legally incompetent adult must receive benefits through a payee. SSA may still appoint a payee for a legally competent person based on medical and lay evidence.",
+     "citations": [
+      "cfr-20-404-2015",
+      "cfr-20-416-615",
+      "cfr-20-404-2001",
+      "poms-gn-00502-001"
+     ]
+    },
+    {
+     "text": "A legal guardian is first in the adult order of preference, but a guardian or conservator is not automatically the payee and must be selected by SSA.",
+     "citations": [
+      "cfr-20-404-2021",
+      "poms-gn-00502-139"
+     ]
+    },
+    {
+     "text": "While active, the payee must use benefits for the beneficiary, conserve or invest what is left in trust form, report events such as the beneficiary's death, and account to SSA, usually annually unless exempt.",
+     "citations": [
+      "cfr-20-404-2035",
+      "cfr-20-404-2045",
+      "cfr-20-416-645",
+      "cfr-20-404-2065",
+      "cfr-20-416-665",
+      "ssa-payee-faq"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Beneficiary is paid directly; no payee"
+     },
+     {
+      "id": "designated",
+      "label": "Named by the beneficiary as an advance designee (20 CFR 404.2018). This is only a preference and gives no authority over benefits."
+     },
+     {
+      "id": "pending_selection",
+      "label": "Role-specific: SSA has found representative payment needed and is selecting a payee. Benefits are paid directly unless substantial harm is found, in which case they may be delayed or suspended."
+     },
+     {
+      "id": "active",
+      "label": "Payee receives benefits for the beneficiary's use and benefit"
+     },
+     {
+      "id": "suspended",
+      "label": "SSA has stopped sending payments to this payee (e.g., for failing to provide requested information) pending resolution or a new payee"
+     },
+     {
+      "id": "winding_up",
+      "label": "Role-specific: payment to this payee has stopped. The former payee must return payments not due and return or transfer conserved funds as SSA directs, or deliver them to the estate if the beneficiary died."
+     },
+     {
+      "id": "terminated",
+      "label": "No remaining payee duties"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-advance-designation",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Adult or emancipated minor beneficiary or applicant designates possible payees in advance",
+      "conditions": [
+       "Not allowed if SSA already has information that the individual is legally incompetent or mentally or physically incapable of managing payments"
+      ],
+      "citations": [
+       "cfr-20-404-2018",
+       "cfr-20-404-2021"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-capability-finding",
+      "from": "not_designated",
+      "to": "pending_selection",
+      "event": "SSA determines the beneficiary cannot manage or direct the management of benefit payments, so representative payment is in their interest",
+      "conditions": [
+       "An SSA administrative finding, not a court adjudication",
+       "Based on a court incompetency order if any, medical evidence, and lay evidence",
+       "Adults are presumed capable absent evidence to the contrary",
+       "Children under 15 and adults judged legally incompetent must have a payee"
+      ],
+      "citations": [
+       "cfr-20-404-2001",
+       "cfr-20-416-601",
+       "cfr-20-404-2010",
+       "cfr-20-416-610",
+       "cfr-20-404-2015",
+       "cfr-20-416-615",
+       "poms-gn-00502-001"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-capability-finding-designee",
+      "from": "designated",
+      "to": "pending_selection",
+      "event": "SSA determines representative payment is needed for a beneficiary who has advance designees",
+      "conditions": [
+       "Advance designees are considered before other preferred categories"
+      ],
+      "citations": [
+       "cfr-20-404-2010",
+       "cfr-20-404-2018",
+       "cfr-20-404-2021"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-interim-payment",
+      "from": "pending_selection",
+      "to": "pending_selection",
+      "event": "While a payee is sought, SSA pays the beneficiary directly, or may delay or suspend payment for up to one month (longer in listed cases) if direct payment would cause substantial harm",
+      "conditions": [],
+      "citations": [
+       "cfr-20-404-2011",
+       "cfr-20-416-611"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-appoint",
+      "from": "pending_selection",
+      "to": "active",
+      "event": "SSA selects the payee using its order of preference, sends advance written notice, and certifies payment to the payee",
+      "conditions": [
+       "Beneficiary, legal guardian, or legal representative may appeal the need for a payee and the choice of payee",
+       "A protest or appeal within 10 days of a mailed notice delays the action",
+       "Holding a POA or joint account does not make someone the payee; they must apply"
+      ],
+      "citations": [
+       "cfr-20-404-2021",
+       "cfr-20-416-621",
+       "cfr-20-404-2030",
+       "cfr-20-416-630",
+       "usc-42-405-j",
+       "usc-42-1383-a2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-stop-for-nonreporting",
+      "from": "active",
+      "to": "suspended",
+      "event": "Payee fails to give requested information within a reasonable time; SSA may stop sending payments to the payee",
+      "conditions": [
+       "SSA considers direct payment to the beneficiary while it looks for a new payee"
+      ],
+      "citations": [
+       "cfr-20-404-2025"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-resume",
+      "from": "suspended",
+      "to": "active",
+      "event": "Payee shows a satisfactory reason and provides the requested information",
+      "conditions": [],
+      "citations": [
+       "cfr-20-404-2025"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-replace-payee",
+      "from": "active",
+      "to": "winding_up",
+      "event": "SSA finds the beneficiary's interest is not served, or the payee is unable or unwilling to serve (misuse, not using benefits properly, other duty failures, payee death, no longer wishes to serve, unable to manage, fails to cooperate), and terminates payment to this payee",
+      "conditions": [
+       "After misuse is found by SSA or a court, the statute requires prompt revocation"
+      ],
+      "citations": [
+       "cfr-20-404-2050",
+       "cfr-20-416-650",
+       "usc-42-405-j",
+       "usc-42-1383-a2"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-replace-from-suspended",
+      "from": "suspended",
+      "to": "winding_up",
+      "event": "SSA selects a new payee instead of resuming payments to this payee",
+      "conditions": [],
+      "citations": [
+       "cfr-20-404-2025",
+       "cfr-20-404-2050",
+       "cfr-20-416-650"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-found-capable",
+      "from": "active",
+      "to": "winding_up",
+      "event": "SSA makes a new capability determination, based on new evidence, that the beneficiary is now capable, and begins direct payment",
+      "conditions": [
+       "Requires a new, documented capability determination; SSA contacts the current payee first",
+       "If a court incompetency order was the basis, evidence that it is no longer in effect is relevant"
+      ],
+      "citations": [
+       "poms-gn-00502-055",
+       "poms-gn-00502-001",
+       "cfr-20-404-2001",
+       "cfr-20-416-601"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-beneficiary-dies",
+      "from": "active",
+      "to": "winding_up",
+      "event": "Beneficiary dies",
+      "conditions": [
+       "Payee must report the death to SSA",
+       "Title II: no payment is due for the month of death; payments for that month or later must be returned. 20 CFR 404.311(b) is the old-age example; other benefit types have parallel end rules.",
+       "SSI: payable for the month of death; payments for later months must be returned"
+      ],
+      "citations": [
+       "cfr-20-404-311",
+       "cfr-20-416-1334",
+       "ssa-kc-conserved-funds",
+       "ssa-payee-faq",
+       "poms-gn-00603-100"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-return-conserved-living",
+      "from": "winding_up",
+      "to": "terminated",
+      "event": "Former payee returns conserved funds and interest to SSA (or, with SSA approval, transfers them directly to the successor payee or capable beneficiary) and completes any required accounting",
+      "conditions": [
+       "SSA may, in exceptional cases, let a former payee keep managing conserved funds (POMS GN 00603.130, not retrieved)"
+      ],
+      "citations": [
+       "cfr-20-404-2060",
+       "cfr-20-416-660",
+       "poms-gn-00603-055"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-deliver-to-estate",
+      "from": "winding_up",
+      "to": "terminated",
+      "event": "After the beneficiary's death, the payee turns conserved funds (with interest) over to the legal representative of the beneficiary's estate, or asks the state probate court for instructions if there is none",
+      "conditions": [
+       "SSA does not decide who is entitled to estate funds",
+       "Payee reimbursement claims go to the estate's legal representative",
+       "Unnegotiated checks follow separate procedures (GN 02405.010 / GN 02405.100, not retrieved)"
+      ],
+      "citations": [
+       "poms-gn-00603-100",
+       "ssa-kc-conserved-funds"
+      ],
+      "unverified": false,
+      "phase": "administration"
+     }
+    ]
+   },
+   "canonical": "benefits-payee"
+  },
+  {
+   "id": "va-fiduciary",
+   "group": "federal",
+   "name": "VA fiduciary",
+   "localNames": [
+    "VA-appointed fiduciary",
+    "federal fiduciary"
+   ],
+   "summary": "An individual or entity that the Department of Veterans Affairs appoints to receive and manage a beneficiary's VA benefits. VA appoints one after a VA rating authority finds the beneficiary unable to manage VA benefits, after a court finds the beneficiary unable to manage financial affairs, or when the beneficiary is a minor. The VA incompetency rating is an administrative decision, with notice and a hearing right, and doubt is resolved in favor of competency. The role ends through removal by the VA Hub Manager: when VA rates the beneficiary competent, when the beneficiary dies, when a successor is appointed, or when the fiduciary is removed for cause or withdraws with VA's permission.",
+   "lane": {
+    "assigned": {
+     "event": "VA rating authority rates the beneficiary incompetent to handle VA funds, or a court with jurisdiction finds the beneficiary unable to manage financial affairs. The Hub Manager then investigates and appoints a fiduciary.",
+     "phase": "incapacitated",
+     "citations": [
+      "cfr-38-3-353",
+      "cfr-38-13-20",
+      "cfr-38-13-100",
+      "usc-38-5502"
+     ]
+    },
+    "starts": {
+     "event": "Hub Manager appoints the fiduciary; VA pays benefits to the fiduciary for the use and benefit of the beneficiary and dependents",
+     "phase": "incapacitated",
+     "citations": [
+      "cfr-38-13-100",
+      "cfr-38-13-20",
+      "usc-38-5502"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Beneficiary dies: this is a listed reason for removal, and VA benefits are discontinued as of the last day of the month before death",
+      "phase": "deceased",
+      "citations": [
+       "cfr-38-13-500",
+       "cfr-38-3-500-g"
+      ]
+     },
+     {
+      "event": "VA rating authority determines the beneficiary can manage VA benefits (or a court finds this, if the court order was the basis)",
+      "phase": "capable",
+      "citations": [
+       "cfr-38-13-500",
+       "cfr-38-13-30",
+       "cfr-38-3-353"
+      ]
+     },
+     {
+      "event": "Removal for fiduciary reasons (misuse, failure to account, bar under 13.130, loss of qualifications, etc.), or withdrawal after VA arranges a successor",
+      "phase": "incapacitated",
+      "citations": [
+       "cfr-38-13-500",
+       "cfr-38-13-510"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "notes": [
+    {
+     "text": "Fiduciary matters are not claims decisions, and 38 CFR part 3 does not apply to them unless part 13 says so. The competency rating itself, however, is made under 38 CFR 3.353.",
+     "citations": [
+      "cfr-38-13-10",
+      "cfr-38-3-353"
+     ]
+    },
+    {
+     "text": "Order of preference starts with the beneficiary's own stated preference, if the beneficiary has capacity to state one, then spouse and relatives. A court-appointed guardian or conservator is only 8th, and is presumed to show that the beneficiary cannot state a preference.",
+     "citations": [
+      "cfr-38-13-100"
+     ]
+    },
+    {
+     "text": "Funds withheld and held in the Treasury for an incompetent beneficiary go to the beneficiary if he or she recovers and is found competent. On death they go to the beneficiary's personal representative, except where the estate would escheat under the law of the last legal residence.",
+     "citations": [
+      "usc-38-5502"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Beneficiary manages own VA benefits"
+     },
+     {
+      "id": "proposed_rating",
+      "label": "Role-specific: VA proposes an incompetency rating; the beneficiary gets notice and a right to a hearing before the rating"
+     },
+     {
+      "id": "pending_appointment",
+      "label": "Role-specific: beneficiary is 'in the fiduciary program' (rated incompetent, court-determined, or a minor); Hub Manager investigating. Recurring monthly benefits are paid directly to an adult beneficiary; lump sums are withheld."
+     },
+     {
+      "id": "active",
+      "label": "VA-appointed fiduciary receives and manages VA benefits"
+     },
+     {
+      "id": "winding_up",
+      "label": "Role-specific: removal or withdrawal notified; fiduciary continues until told whom to transfer funds to, then files a final accounting"
+     },
+     {
+      "id": "terminated",
+      "label": "Fiduciary relationship ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-propose-incompetency",
+      "from": "not_designated",
+      "to": "proposed_rating",
+      "event": "VA proposes to rate the beneficiary incompetent",
+      "conditions": [
+       "Notice and hearing right under 3.353(e); not needed if a court has already declared incompetency or appointed a guardian based on a court finding",
+       "Needs a definite medical opinion unless the medical evidence is clear and convincing"
+      ],
+      "citations": [
+       "cfr-38-3-353"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-rated-incompetent",
+      "from": "proposed_rating",
+      "to": "pending_appointment",
+      "event": "Rating agency determines the beneficiary is mentally incompetent (lacks capacity to contract or manage own affairs, including disbursing funds without limitation)",
+      "conditions": [
+       "Reasonable doubt is resolved in favor of competency",
+       "Administrative VA finding; appealable"
+      ],
+      "citations": [
+       "cfr-38-3-353",
+       "cfr-38-13-20"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-court-determination",
+      "from": "not_designated",
+      "to": "pending_appointment",
+      "event": "A court with jurisdiction determines the beneficiary is unable to manage financial affairs",
+      "conditions": [],
+      "citations": [
+       "cfr-38-13-20",
+       "cfr-38-13-100"
+      ],
+      "unverified": false,
+      "phase": "incapacitated"
+     },
+     {
+      "id": "t-appoint",
+      "from": "pending_appointment",
+      "to": "active",
+      "event": "Hub Manager appoints the fiduciary after a field examination and an investigation (interview, credit report, criminal background check, bond determination), using the order of preference",
+      "conditions": [
+       "No fiduciary is appointed if the beneficiary qualifies for supervised direct payment (13.110)",
+       "Beneficiary gets written notice and may appeal the appointment to the Board of Veterans' Appeals"
+      ],
+      "citations": [
+       "cfr-38-13-100",
+       "usc-38-5502"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-rated-competent",
+      "from": "active",
+      "to": "winding_up",
+      "event": "VA rating authority determines the beneficiary can manage VA benefits (or a court so determines, where the court order was the basis); Hub Manager removes the fiduciary",
+      "conditions": [
+       "The beneficiary then has a right to direct payment without VA supervision"
+      ],
+      "citations": [
+       "cfr-38-13-500",
+       "cfr-38-13-30",
+       "cfr-38-3-353"
+      ],
+      "unverified": false,
+      "phase": "capable"
+     },
+     {
+      "id": "t-beneficiary-dies",
+      "from": "active",
+      "to": "winding_up",
+      "event": "Beneficiary dies",
+      "conditions": [
+       "13.500(a) is permissive ('may remove') and lists beneficiary death as a reason",
+       "Award to the payee is discontinued effective the last day of the month before death"
+      ],
+      "citations": [
+       "cfr-38-13-500",
+       "cfr-38-3-500-g"
+      ],
+      "unverified": false,
+      "phase": "deceased"
+     },
+     {
+      "id": "t-remove-for-cause",
+      "from": "active",
+      "to": "winding_up",
+      "event": "Hub Manager removes the fiduciary for fiduciary reasons (bar under 13.130, failure to perform 13.140 duties, failure to account, misuse, non-response within 30 days, bond failure, no longer qualified, unable or unwilling)",
+      "conditions": [],
+      "citations": [
+       "cfr-38-13-500",
+       "cfr-38-13-140",
+       "usc-38-5502"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-successor-requested",
+      "from": "active",
+      "to": "winding_up",
+      "event": "Beneficiary requests a successor fiduciary or supervised direct payment, and the Hub Manager removes the current fiduciary",
+      "conditions": [],
+      "citations": [
+       "cfr-38-13-500",
+       "cfr-38-13-30"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-withdraw",
+      "from": "active",
+      "to": "winding_up",
+      "event": "Fiduciary gives written notice of intent to withdraw, with reasons",
+      "conditions": [
+       "May not withdraw until the Hub Manager gives notice about transferring funds to a successor"
+      ],
+      "citations": [
+       "cfr-38-13-510"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-final-accounting",
+      "from": "winding_up",
+      "to": "terminated",
+      "event": "Fiduciary transfers funds as instructed and, within 30 days after transfer (or as the Hub Manager instructs), gives a final accounting",
+      "conditions": [
+       "The regulation text describes this for transfer to a successor fiduciary"
+      ],
+      "citations": [
+       "cfr-38-13-500",
+       "cfr-38-13-510"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-death-funds-to-estate",
+      "from": "winding_up",
+      "to": "terminated",
+      "event": "After the beneficiary's death, the former fiduciary delivers VA benefit funds under management to the beneficiary's estate or personal representative",
+      "conditions": [
+       "Only 5502(d) was verified, and it covers funds held in the Treasury (paid to the personal representative unless the estate would escheat). A part 13 rule on how a fiduciary disposes of funds it holds after death was not located."
+      ],
+      "citations": [
+       "usc-38-5502"
+      ],
+      "unverified": true,
+      "phase": "administration"
+     }
+    ]
+   },
+   "canonical": "veterans-fiduciary"
+  },
+  {
+   "id": "irs-fiduciary-notice",
+   "group": "federal",
+   "name": "Fiduciary of record with the IRS (Form 56 notice)",
+   "localNames": [
+    "Form 56 fiduciary",
+    "notice of fiduciary relationship"
+   ],
+   "summary": "Federal tax law does not create fiduciary authority. It recognizes a fiduciary (guardian, conservator, executor, administrator, trustee, or anyone else acting in a fiduciary capacity) once that person notifies the IRS, usually on Form 56. From then on, the fiduciary stands in the taxpayer's shoes for tax matters until notice is given that the fiduciary capacity has terminated. That IRS-facing status can therefore outlast the state-law appointment until termination is reported. An agent under a power of attorney is not a fiduciary for this purpose and uses Form 2848 instead.",
+   "derivedFrom": [
+    "guardian",
+    "conservator",
+    "executor",
+    "administrator",
+    "trustee"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Person begins acting for another in a fiduciary capacity under other law (e.g., court appointment as guardian or conservator, letters testamentary or of administration, or trusteeship)",
+     "phase": "incapacitated",
+     "citations": [
+      "cfr-26-301-6903-1",
+      "irs-i56"
+     ]
+    },
+    "starts": {
+     "event": "Notice of the fiduciary relationship is filed with the IRS (Form 56)",
+     "phase": "administration",
+     "citations": [
+      "usc-26-6903",
+      "cfr-26-301-6903-1",
+      "irs-i56"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Notice is given to the IRS that the fiduciary capacity has terminated (Form 56, Part II)",
+      "phase": "closed",
+      "citations": [
+       "usc-26-6903",
+       "cfr-26-301-6903-1",
+       "irs-i56"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased",
+     "administration"
+    ]
+   },
+   "notes": [
+    {
+     "text": "A fiduciary is treated as the taxpayer, with both the right and the duty to file returns and pay tax. An authorized representative under Form 2848 is only an agent, limited to the acts the taxpayer authorized.",
+     "citations": [
+      "irs-i56"
+     ]
+    },
+    {
+     "text": "Tax is still collected from the estate of the person represented, not ordinarily from the fiduciary's personal estate.",
+     "citations": [
+      "usc-26-6903",
+      "cfr-26-301-6903-1"
+     ]
+    },
+    {
+     "text": "If no notice is filed before a deficiency notice is mailed, mailing to the taxpayer's last known address is enough, even if the taxpayer is deceased or under a legal disability.",
+     "citations": [
+      "cfr-26-301-6903-1"
+     ]
+    }
+   ],
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No fiduciary capacity"
+     },
+     {
+      "id": "designated",
+      "label": "Acting in a fiduciary capacity under other law, but no notice filed with the IRS"
+     },
+     {
+      "id": "active",
+      "label": "Notice filed: fiduciary assumes the taxpayer's powers, rights, duties, and privileges for federal tax"
+     },
+     {
+      "id": "terminated",
+      "label": "Termination notice filed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "t-fiduciary-capacity-arises",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Person becomes a fiduciary under other law: guardian, trustee, executor, administrator, receiver, conservator, or anyone acting in a fiduciary capacity",
+      "conditions": [
+       "Definition via IRC 7701(a)(6), as quoted in 26 CFR 301.6903-1(d)",
+       "Includes a person charged with an intestate decedent's property when no administrator is appointed (Form 56 line 1d)"
+      ],
+      "citations": [
+       "cfr-26-301-6903-1",
+       "irs-i56"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-file-notice",
+      "from": "designated",
+      "to": "active",
+      "event": "Fiduciary files a signed notice (Form 56) with the IRS Service Center where the represented person's return is filed",
+      "conditions": [
+       "The regulation says every fiduciary 'shall give notice'",
+       "The fiduciary keeps evidence of authority (for notices filed on or after Apr. 24, 2002)"
+      ],
+      "citations": [
+       "usc-26-6903",
+       "cfr-26-301-6903-1",
+       "irs-i56"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "t-terminate-notice",
+      "from": "active",
+      "to": "terminated",
+      "event": "Fiduciary notifies the IRS that the fiduciary capacity has terminated (Form 56, Part II)",
+      "conditions": [
+       "Under 6903(a) the fiduciary's tax powers and duties continue 'until notice is given that the fiduciary capacity has terminated'",
+       "The detailed termination-notice text in the regulation appears in (b)(1), for notices filed before Apr. 24, 2002; (b)(2) is silent on termination, so current practice rests on the statute and the Form 56 instructions"
+      ],
+      "citations": [
+       "usc-26-6903",
+       "cfr-26-301-6903-1",
+       "irs-i56"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     },
+     {
+      "id": "t-state-authority-ends-no-notice",
+      "from": "active",
+      "to": "active",
+      "event": "State-law fiduciary authority ends (e.g., estate closed, guardian discharged, ward dies) but no termination notice is filed",
+      "conditions": [
+       "IRS-facing fiduciary status persists until termination notice is given"
+      ],
+      "citations": [
+       "usc-26-6903"
+      ],
+      "unverified": false,
+      "phase": "closed"
+     }
+    ]
+   },
+   "canonical": "tax-representative"
+  }
+ ]
+}

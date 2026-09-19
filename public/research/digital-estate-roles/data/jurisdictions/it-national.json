@@ -1,0 +1,1603 @@
+{
+ "jurisdiction": "it-national",
+ "name": "Italy",
+ "country": "it",
+ "legalSystem": "civil law",
+ "note": "Roles under the Codice civile, the 2017 law on informed consent and advance directives, the 1999 organ transplant law and the privacy code as adapted to the GDPR. Text from Normattiva, the official consolidated portal; each citation records the date its wording took effect.",
+ "citations": [
+  {
+   "id": "it-cc-404",
+   "cite": "Codice civile art. 404",
+   "title": "Amministrazione di sostegno",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art404",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "La persona che, per effetto di una infermità ovvero di una menomazione fisica o psichica, si trova nella impossibilità, anche parziale o temporanea, di provvedere ai propri interessi, può essere assis…"
+  },
+  {
+   "id": "it-cc-405",
+   "cite": "Codice civile art. 405",
+   "title": "Decreto di nomina dell'amministratore di sostegno. Durata dell'incarico e relativa pubblicità",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art405",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Il giudice tutelare provvede entro sessanta giorni dalla data di presentazione della richiesta alla nomina dell'amministratore di sostegno con decreto motivato immediatamente esecutivo, su ricorso di …"
+  },
+  {
+   "id": "it-cc-406",
+   "cite": "Codice civile art. 406",
+   "title": "Soggetti",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art406",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Il ricorso per l'istituzione dell'amministrazione di sostegno può essere proposto dallo stesso soggetto beneficiario, anche se minore, interdetto o inabilitato, ovvero da uno dei soggetti indicati nel…"
+  },
+  {
+   "id": "it-cc-408",
+   "cite": "Codice civile art. 408",
+   "title": "Scelta dell'amministratore di sostegno",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art408",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "La scelta dell'amministratore di sostegno avviene con esclusivo riguardo alla cura ed agli interessi della persona del beneficiario."
+  },
+  {
+   "id": "it-cc-409",
+   "cite": "Codice civile art. 409",
+   "title": "Effetti dell'amministrazione di sostegno",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art409",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Il beneficiario conserva la capacità di agire per tutti gli atti che non richiedono la rappresentanza esclusiva o l'assistenza necessaria dell'amministratore di sostegno."
+  },
+  {
+   "id": "it-cc-410",
+   "cite": "Codice civile art. 410",
+   "title": "Doveri dell'amministratore di sostegno",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art410",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Nello svolgimento dei suoi compiti l'amministratore di sostegno deve tener conto dei bisogni e delle aspirazioni del beneficiario."
+  },
+  {
+   "id": "it-cc-411",
+   "cite": "Codice civile art. 411",
+   "title": "Norme applicabili all'amministrazione di sostegno",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art411",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "30-6-2023",
+   "quote": "Si applicano all'amministratore di sostegno, in quanto compatibili, le disposizioni di cui agli articoli da 349 a 353 e da 374 a 388. PERIODO SOPPRESSO DAL D.LGS. 10 OTTOBRE 2022, N. 149 ."
+  },
+  {
+   "id": "it-cc-412",
+   "cite": "Codice civile art. 412",
+   "title": "Atti compiuti dal beneficiario o dall'amministratore di sostegno in violazione di norme di legge o delle disposizioni del giudice",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art412",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Gli atti compiuti dall'amministratore di sostegno in violazione di disposizioni di legge, od in eccesso rispetto all'oggetto dell'incarico o ai poteri conferitigli dal giudice, possono essere annullat…"
+  },
+  {
+   "id": "it-cc-413",
+   "cite": "Codice civile art. 413",
+   "title": "Revoca dell'amministrazione di sostegno",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art413",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Quando il beneficiario, l'amministratore di sostegno, il pubblico ministero o taluno dei soggetti di cui all'articolo 406, ritengono che si siano determinati i presupposti per la cessazione dell'ammin…"
+  },
+  {
+   "id": "it-cc-414",
+   "cite": "Codice civile art. 414",
+   "title": "Persone che possono essere interdette",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art414",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Il maggiore di età e il minore emancipato, i quali si trovano in condizioni di abituale infermità di mente che li rende incapaci di provvedere ai propri interessi, sono interdetti quando ciò è necessa…"
+  },
+  {
+   "id": "it-cc-415",
+   "cite": "Codice civile art. 415",
+   "title": "Persone che possono essere inabilitate",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art415",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Il maggiore di età infermo di mente, lo stato del quale non è talmente grave da far luogo all'interdizione, può essere inabilitato."
+  },
+  {
+   "id": "it-cc-424",
+   "cite": "Codice civile art. 424",
+   "title": "Tutela dell'interdetto e curatela dell'inabilitato",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art424",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-3-2004",
+   "quote": "Le disposizioni sulla tutela dei minori e quelle sulla curatela dei minori emancipati si applicano rispettivamente alla tutela degli interdetti e alla curatela degli inabilitati."
+  },
+  {
+   "id": "it-cc-456",
+   "cite": "Codice civile art. 456",
+   "title": "Apertura della successione",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art456",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "La successione si apre al momento della morte, nel luogo dell'ultimo domicilio del defunto."
+  },
+  {
+   "id": "it-cc-457",
+   "cite": "Codice civile art. 457",
+   "title": "Delazione dell'eredità",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art457",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "L'eredità si devolve per legge o per testamento. Non si fa luogo alla successione legittima se non quando manca, in tutto o in parte, quella testamentaria."
+  },
+  {
+   "id": "it-cc-459",
+   "cite": "Codice civile art. 459",
+   "title": "Acquisto dell'eredità",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art459",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "L'eredità si acquista con l'accettazione. L'effetto dell'accettazione risale al momento nel quale si è aperta la successione."
+  },
+  {
+   "id": "it-cc-470",
+   "cite": "Codice civile art. 470",
+   "title": "Accettazione pura e semplice e accettazione col beneficio d'inventario",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art470",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "L'eredità può essere accettata puramente e semplicemente o col beneficio d'inventario. L'accettazione col beneficio d'inventario può farsi nonostante qualunque divieto del testatore."
+  },
+  {
+   "id": "it-cc-528",
+   "cite": "Codice civile art. 528",
+   "title": "Nomina del curatore",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art528",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "4-7-1998",
+   "quote": "Quando il chiamato non ha accettato l'eredità e non è nel possesso di beni ereditari, il tribunale del circondario in cui si è aperta la successione, su istanza delle persone interessate o anche d'uff…"
+  },
+  {
+   "id": "it-cc-529",
+   "cite": "Codice civile art. 529",
+   "title": "Obblighi del curatore",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art529",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "4-7-1998",
+   "quote": "Il curatore è tenuto a procedere all'inventario dell'eredità, a esercitarne e promuoverne le ragioni, a rispondere alle istanze proposte contro la medesima, ad amministrarla, a depositare presso le ca…"
+  },
+  {
+   "id": "it-cc-530",
+   "cite": "Codice civile art. 530",
+   "title": "Pagamento dei debiti ereditari",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art530",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "4-7-1998",
+   "quote": "Il curatore può provvedere al pagamento dei debiti ereditari e dei legati, previa autorizzazione del tribunale."
+  },
+  {
+   "id": "it-cc-532",
+   "cite": "Codice civile art. 532",
+   "title": "Cessazione della curatela per accettazione dell'eredità",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art532",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "Il curatore cessa dalle sue funzioni quando l'eredità è stata accettata."
+  },
+  {
+   "id": "it-cc-700",
+   "cite": "Codice civile art. 700",
+   "title": "Facoltà di nomina e di sostituzione",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art700",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "Il testatore può nominare uno o più esecutori testamentari e, per il caso che alcuni o tutti non vogliano o non possano accettare, altro o altri in loro sostituzione."
+  },
+  {
+   "id": "it-cc-703",
+   "cite": "Codice civile art. 703",
+   "title": "Funzioni dell'esecutore testamentario",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art703",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "L'esecutore testamentario deve curare che siano esattamente eseguite le disposizioni di ultima volontà del defunto."
+  },
+  {
+   "id": "it-cc-704",
+   "cite": "Codice civile art. 704",
+   "title": "Rappresentanza processuale",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art704",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "Durante la gestione dell'esecutore testamentario, le azioni relative all'eredità devono essere proposte anche nei confronti dell'esecutore."
+  },
+  {
+   "id": "it-cc-709",
+   "cite": "Codice civile art. 709",
+   "title": "Conto della gestione",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art709",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "L'esecutore testamentario deve rendere il conto della sua gestione al termine della stessa, e anche spirato l'anno della morte del testatore, se la gestione si prolunga oltre l'anno."
+  },
+  {
+   "id": "it-cc-710",
+   "cite": "Codice civile art. 710",
+   "title": "Esonero dell'esecutore testamentario",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art710",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "Su istanza di ogni interessato, l'autorità giudiziaria può esonerare l'esecutore testamentario dal suo ufficio per gravi irregolarità nell'adempimento dei suoi obblighi, per inidoneità all'ufficio o p…"
+  },
+  {
+   "id": "it-cc-712",
+   "cite": "Codice civile art. 712",
+   "title": "Spese",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art712",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-4-1942",
+   "quote": "Le spese fatte dall'esecutore testamentario per l'esercizio del suo ufficio sono a carico dell'eredità."
+  },
+  {
+   "id": "it-l219-4",
+   "cite": "L. 219/2017 art. 4",
+   "title": "",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-12-22;219~art4",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "31-1-2018",
+   "quote": ""
+  },
+  {
+   "id": "it-l91-4",
+   "cite": "L. 91/1999 art. 4",
+   "title": "Dichiarazione di volontà in ordine alla donazione",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art4",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "16-4-1999",
+   "quote": "1. Entro i termini, nelle forme e nei modi stabiliti dalla presente legge e dal decreto del Ministro della sanità di cui all'articolo 5, comma 1, i cittadini sono tenuti a dichiarare la propria libera…"
+  },
+  {
+   "id": "it-l91-23",
+   "cite": "L. 91/1999 art. 23",
+   "title": "Disposizioni transitorie",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art23",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "16-4-1999",
+   "quote": "1. Fino alla data di cui all'articolo 28, comma 2, è consentito procedere al prelievo di organi e di tessuti da soggetto di cui sia stata accertata la morte ai sensi della legge 29 dicembre 1993, n."
+  },
+  {
+   "id": "it-l91-28",
+   "cite": "L. 91/1999 art. 28",
+   "title": "Entrata in vigore",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art28",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "16-4-1999",
+   "quote": "1. La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta Ufficiale. 2."
+  },
+  {
+   "id": "it-d196-2-terdecies",
+   "cite": "D.lgs. 196/2003 art. 2-terdecies",
+   "title": "Diritti riguardanti le persone decedute",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "inForce": "19-9-2018",
+   "quote": "1. I diritti di cui agli articoli da 15 a 22 del Regolamento riferiti ai dati personali concernenti persone decedute possono essere esercitati da chi ha un interesse proprio, o agisce a tutela dell'in…"
+  }
+ ],
+ "roles": [
+  {
+   "id": "it-ads-designato",
+   "canonical": "financial-poa-springing",
+   "group": "financial",
+   "name": "Support administrator designated in advance (amministratore di sostegno designato)",
+   "localNames": [
+    "amministratore di sostegno designato",
+    "atto pubblico",
+    "scrittura privata autenticata"
+   ],
+   "summary": "Italy’s forward-looking arrangement. A person may name, by public act or authenticated private writing, the support administrator to be appointed should they later become incapable. The designation does not itself confer authority — the giudice tutelare still appoints — but it binds the choice, and can be set aside only by reasoned decree for grave reasons.",
+   "lane": {
+    "assigned": {
+     "event": "The person designates their own support administrator in advance of possible future incapacity, by public act or authenticated private writing",
+     "phase": "capable",
+     "citations": [
+      "it-cc-408"
+     ]
+    },
+    "starts": {
+     "event": "The giudice tutelare appoints by decree within sixty days of the application, stating the duration and the acts the administrator may perform in the beneficiary’s name or with the beneficiary",
+     "phase": "incapacitated",
+     "citations": [
+      "it-cc-405"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The judge designates a different administrator by reasoned decree, for grave reasons",
+      "phase": "incapacitated",
+      "citations": [
+       "it-cc-408"
+      ]
+     },
+     {
+      "event": "The support administration is revoked",
+      "phase": "capable",
+      "citations": [
+       "it-cc-413"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No designation"
+     },
+     {
+      "id": "designated",
+      "label": "Designated in advance"
+     },
+     {
+      "id": "active",
+      "label": "Appointed and acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-ad-designate",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Designazione con atto pubblico o scrittura privata autenticata (art. 408)",
+      "citations": [
+       "it-cc-408"
+      ]
+     },
+     {
+      "id": "it-t-ad-appoint",
+      "from": "designated",
+      "to": "active",
+      "event": "Decreto di nomina del giudice tutelare (art. 405)",
+      "citations": [
+       "it-cc-405"
+      ]
+     },
+     {
+      "id": "it-t-ad-override",
+      "from": "designated",
+      "to": "terminated",
+      "event": "In presenza di gravi motivi il giudice designa con decreto motivato un amministratore diverso (art. 408)",
+      "citations": [
+       "it-cc-408"
+      ]
+     },
+     {
+      "id": "it-t-ad-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revoca dell’amministrazione di sostegno (art. 413)",
+      "citations": [
+       "it-cc-413"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Support administrator designated in advance",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "amministratore di sostegno designato": {
+     "en": "support administrator designated in advance",
+     "basis": "descriptive"
+    },
+    "atto pubblico": {
+     "en": "public act",
+     "basis": "descriptive"
+    },
+    "scrittura privata autenticata": {
+     "en": "authenticated private writing",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-amministratore-di-sostegno",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Support administrator (amministratore di sostegno)",
+   "localNames": [
+    "amministratore di sostegno",
+    "beneficiario",
+    "giudice tutelare"
+   ],
+   "summary": "The measure that made Italy’s 2004 reform notable. It is calibrated rather than all-or-nothing: the beneficiary keeps capacity for every act the decree does not reserve to exclusive representation or assistance, and may always perform acts of daily life. The decree fixes the administrator’s object and duration, and the administrator must have regard to the beneficiary’s needs and aspirations and keep them informed.",
+   "lane": {
+    "assigned": {
+     "event": "A person who, through infirmity or physical or mental impairment, cannot see to their own interests — even partly or temporarily — may be assisted; the application may be brought by the person themselves, among others",
+     "phase": "incapacitated",
+     "citations": [
+      "it-cc-404",
+      "it-cc-406"
+     ]
+    },
+    "starts": {
+     "event": "The giudice tutelare appoints by decree within sixty days, stating its duration and the acts the administrator may do in the beneficiary’s name or together with them",
+     "phase": "incapacitated",
+     "citations": [
+      "it-cc-405"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The measure is revoked on application by the beneficiary, the administrator, the public prosecutor or others entitled, when the conditions for it have ceased",
+      "phase": "capable",
+      "citations": [
+       "it-cc-413"
+      ]
+     },
+     {
+      "event": "Acts done in breach of law or beyond the object or powers conferred may be annulled on application",
+      "phase": "incapacitated",
+      "citations": [
+       "it-cc-412"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "applied",
+      "label": "Application made"
+     },
+     {
+      "id": "active",
+      "label": "Administrator acting under the decree"
+     },
+     {
+      "id": "terminated",
+      "label": "Revoked"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-as-apply",
+      "from": "none",
+      "to": "applied",
+      "event": "Ricorso per l’istituzione dell’amministrazione di sostegno (artt. 404, 406)",
+      "citations": [
+       "it-cc-404",
+       "it-cc-406"
+      ]
+     },
+     {
+      "id": "it-t-as-decree",
+      "from": "applied",
+      "to": "active",
+      "event": "Decreto di nomina entro sessanta giorni, con durata e oggetto dell’incarico (art. 405)",
+      "citations": [
+       "it-cc-405"
+      ]
+     },
+     {
+      "id": "it-t-as-scope",
+      "from": "active",
+      "to": "active",
+      "event": "Il beneficiario conserva la capacità di agire per gli atti non riservati (art. 409); doveri dell’amministratore (art. 410); norme applicabili (art. 411)",
+      "citations": [
+       "it-cc-409",
+       "it-cc-410",
+       "it-cc-411"
+      ]
+     },
+     {
+      "id": "it-t-as-annul",
+      "from": "active",
+      "to": "active",
+      "event": "Annullamento degli atti compiuti in violazione di legge o in eccesso di potere (art. 412)",
+      "citations": [
+       "it-cc-412"
+      ]
+     },
+     {
+      "id": "it-t-as-revoke",
+      "from": "active",
+      "to": "terminated",
+      "event": "Revoca dell’amministrazione di sostegno (art. 413)",
+      "citations": [
+       "it-cc-413"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Support administrator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "amministratore di sostegno": {
+     "en": "support administrator",
+     "basis": "descriptive"
+    },
+    "beneficiario": {
+     "en": "beneficiary",
+     "basis": "descriptive"
+    },
+    "giudice tutelare": {
+     "en": "guardianship judge",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-tutore",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Guardian of an interdicted person (tutore dell’interdetto)",
+   "localNames": [
+    "tutore",
+    "interdizione",
+    "interdetto"
+   ],
+   "summary": "The heaviest measure, for an adult in a condition of habitual infirmity of mind that makes them incapable of seeing to their own interests, where interdiction is necessary to ensure adequate protection. The rules on guardianship of minors apply to the guardian of the interdicted person.",
+   "lane": {
+    "assigned": {
+     "event": "An adult or emancipated minor in a condition of habitual infirmity of mind making them incapable of attending to their own interests is interdicted, where that is necessary for adequate protection",
+     "phase": "incapacitated",
+     "citations": [
+      "it-cc-414"
+     ]
+    },
+    "starts": {
+     "event": "The provisions on guardianship of minors apply to the guardianship of the interdicted person",
+     "phase": "incapacitated",
+     "citations": [
+      "it-cc-424"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The measure is revoked and, where the conditions are met, replaced by support administration",
+      "phase": "capable",
+      "citations": [
+       "it-cc-413",
+       "it-cc-411"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No interdiction"
+     },
+     {
+      "id": "active",
+      "label": "Guardian acting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-tu-open",
+      "from": "none",
+      "to": "active",
+      "event": "Interdizione del maggiore di età in condizioni di abituale infermità di mente (art. 414)",
+      "citations": [
+       "it-cc-414"
+      ]
+     },
+     {
+      "id": "it-t-tu-rules",
+      "from": "active",
+      "to": "active",
+      "event": "Si applicano le disposizioni sulla tutela dei minori (art. 424)",
+      "citations": [
+       "it-cc-424"
+      ]
+     },
+     {
+      "id": "it-t-tu-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Cessazione della misura; revoca (artt. 411, 413)",
+      "citations": [
+       "it-cc-411",
+       "it-cc-413"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Guardian of an interdicted person",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "tutore": {
+     "en": "guardian",
+     "basis": "descriptive"
+    },
+    "interdizione": {
+     "en": "interdiction",
+     "basis": "descriptive"
+    },
+    "interdetto": {
+     "en": "interdicted person",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-curatore-inabilitato",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curator of a person declared incapable (curatore dell’inabilitato)",
+   "localNames": [
+    "curatore",
+    "inabilitazione",
+    "inabilitato"
+   ],
+   "summary": "The middle measure, for an adult of unsound mind whose state is not grave enough for interdiction. The rules on curatorship of emancipated minors apply, so the person acts but needs the curator’s assistance for acts beyond ordinary administration.",
+   "lane": {
+    "assigned": {
+     "event": "An adult of unsound mind whose condition is not grave enough for interdiction may be declared incapable",
+     "phase": "incapacitated",
+     "citations": [
+      "it-cc-415"
+     ]
+    },
+    "starts": {
+     "event": "The provisions on curatorship of emancipated minors apply to the curatorship of the person declared incapable",
+     "phase": "incapacitated",
+     "citations": [
+      "it-cc-424"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The measure is revoked, or replaced by support administration where its conditions are met",
+      "phase": "capable",
+      "citations": [
+       "it-cc-411",
+       "it-cc-413"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Curator assisting"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-cu-open",
+      "from": "none",
+      "to": "active",
+      "event": "Inabilitazione del maggiore di età infermo di mente (art. 415)",
+      "citations": [
+       "it-cc-415"
+      ]
+     },
+     {
+      "id": "it-t-cu-rules",
+      "from": "active",
+      "to": "active",
+      "event": "Si applicano le disposizioni sulla curatela dei minori emancipati (art. 424)",
+      "citations": [
+       "it-cc-424"
+      ]
+     },
+     {
+      "id": "it-t-cu-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Cessazione della misura; revoca (artt. 411, 413)",
+      "citations": [
+       "it-cc-411",
+       "it-cc-413"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Curator of a person declared incapable",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "curatore": {
+     "en": "curator",
+     "basis": "descriptive"
+    },
+    "inabilitazione": {
+     "en": "declaration of incapacity",
+     "basis": "descriptive"
+    },
+    "inabilitato": {
+     "en": "person declared incapable",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-fiduciario",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Health-care representative under advance directives (fiduciario)",
+   "localNames": [
+    "fiduciario",
+    "disposizioni anticipate di trattamento",
+    "DAT"
+   ],
+   "summary": "Under the 2017 law on informed consent and advance directives, an adult may record their wishes about treatment and name a person of trust — the fiduciario — to stand in their place and represent them with the doctor and the health service. If there is no fiduciary, or they decline, die or become incapable, the directives keep their effect and the giudice tutelare may appoint a support administrator if needed.",
+   "lane": {
+    "assigned": {
+     "event": "An adult capable of understanding and willing, anticipating possible future incapacity and after receiving adequate medical information, makes advance directives and names a person of trust to represent them",
+     "phase": "capable",
+     "citations": [
+      "it-l219-4"
+     ]
+    },
+    "starts": {
+     "event": "The fiduciary stands in the person’s place with the doctor and the health service; acceptance is by signing the directives or by a later act annexed to them",
+     "phase": "incapacitated",
+     "citations": [
+      "it-l219-4"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The directives contain no fiduciary, or the fiduciary renounces, dies or becomes incapable — the directives keep their effect and, if needed, the giudice tutelare appoints a support administrator",
+      "phase": "incapacitated",
+      "citations": [
+       "it-l219-4",
+       "it-cc-404"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No advance directives"
+     },
+     {
+      "id": "designated",
+      "label": "Fiduciary named and accepted"
+     },
+     {
+      "id": "active",
+      "label": "Fiduciary represents the person"
+     },
+     {
+      "id": "terminated",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-fi-make",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "DAT con indicazione del fiduciario; accettazione con la sottoscrizione o con atto successivo (L. 219/2017 art. 4)",
+      "citations": [
+       "it-l219-4"
+      ]
+     },
+     {
+      "id": "it-t-fi-start",
+      "from": "designated",
+      "to": "active",
+      "event": "Il fiduciario fa le veci della persona e la rappresenta nelle relazioni con il medico e con le strutture sanitarie (art. 4)",
+      "citations": [
+       "it-l219-4"
+      ]
+     },
+     {
+      "id": "it-t-fi-gone",
+      "from": "active",
+      "to": "terminated",
+      "event": "Rinuncia, morte o sopravvenuta incapacità del fiduciario: le DAT mantengono efficacia; il giudice tutelare può nominare un amministratore di sostegno (art. 4, comma 4)",
+      "citations": [
+       "it-l219-4",
+       "it-cc-404"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Health-care representative under advance directives",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "fiduciario": {
+     "en": "person of trust",
+     "basis": "descriptive"
+    },
+    "disposizioni anticipate di trattamento": {
+     "en": "advance treatment directives",
+     "basis": "descriptive"
+    },
+    "DAT": {
+     "en": "advance treatment directives",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-erede",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Heir (erede)",
+   "localNames": [
+    "erede",
+    "accettazione",
+    "beneficio d’inventario"
+   ],
+   "summary": "Succession opens at the moment of death, at the deceased’s last domicile. The estate is devolved by law or by will, but it is acquired by acceptance — and acceptance, once made, relates back to the moment succession opened. Acceptance may be pure and simple or with the benefit of inventory, which keeps the heir’s own property separate from the estate’s debts.",
+   "lane": {
+    "assigned": {
+     "event": "Succession opens at the moment of death, at the place of the deceased’s last domicile, and is devolved by law or by will",
+     "phase": "deceased",
+     "citations": [
+      "it-cc-456",
+      "it-cc-457"
+     ]
+    },
+    "starts": {
+     "event": "The estate is acquired by acceptance, whose effect relates back to the moment succession opened; acceptance may be pure and simple or with the benefit of inventory",
+     "phase": "deceased",
+     "citations": [
+      "it-cc-459",
+      "it-cc-470"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Where the person called has not accepted and is not in possession of estate assets, the court appoints a curator of the vacant estate",
+      "phase": "administration",
+      "citations": [
+       "it-cc-528"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Deceased living"
+     },
+     {
+      "id": "called",
+      "label": "Succession open, heir called"
+     },
+     {
+      "id": "accepted",
+      "label": "Estate accepted"
+     },
+     {
+      "id": "vacant",
+      "label": "Vacant estate under a curator"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-er-open",
+      "from": "none",
+      "to": "called",
+      "event": "La successione si apre al momento della morte (art. 456); delazione per legge o per testamento (art. 457)",
+      "citations": [
+       "it-cc-456",
+       "it-cc-457"
+      ]
+     },
+     {
+      "id": "it-t-er-accept",
+      "from": "called",
+      "to": "accepted",
+      "event": "L’eredità si acquista con l’accettazione, con effetto retroattivo all’apertura (art. 459); pura e semplice o col beneficio d’inventario (art. 470)",
+      "citations": [
+       "it-cc-459",
+       "it-cc-470"
+      ]
+     },
+     {
+      "id": "it-t-er-vacant",
+      "from": "called",
+      "to": "vacant",
+      "event": "Il chiamato non ha accettato e non è nel possesso di beni ereditari: nomina del curatore (art. 528)",
+      "citations": [
+       "it-cc-528"
+      ]
+     },
+     {
+      "id": "it-t-er-from-vacant",
+      "from": "vacant",
+      "to": "accepted",
+      "event": "Il curatore cessa dalle sue funzioni quando l’eredità è stata accettata (art. 532)",
+      "citations": [
+       "it-cc-532"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "erede": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "accettazione": {
+     "en": "acceptance of the estate",
+     "basis": "descriptive"
+    },
+    "beneficio d’inventario": {
+     "en": "benefit of inventory",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-esecutore-testamentario",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor of a will (esecutore testamentario)",
+   "localNames": [
+    "esecutore testamentario"
+   ],
+   "summary": "The testator may name one or more executors, and substitutes for any who will not or cannot accept. The executor must see that the last wishes are exactly carried out, is joined in actions concerning the estate during their management, must account at the end of it, and may be removed by the court for grave irregularity. Expenses of the office fall on the estate.",
+   "lane": {
+    "assigned": {
+     "event": "The testator names one or more executors in the will, and may name substitutes for any who will not or cannot accept",
+     "phase": "capable",
+     "citations": [
+      "it-cc-700"
+     ]
+    },
+    "starts": {
+     "event": "The executor takes up the office and must see that the deceased’s last wishes are exactly carried out; actions concerning the estate are brought against the executor as well during the management",
+     "phase": "administration",
+     "citations": [
+      "it-cc-703",
+      "it-cc-704"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The executor accounts for the management at its end, and in any event once a year has passed since the testator’s death",
+      "phase": "administration",
+      "citations": [
+       "it-cc-709"
+      ]
+     },
+     {
+      "event": "The court removes the executor from office for grave irregularity, on the application of any interested party",
+      "phase": "administration",
+      "citations": [
+       "it-cc-710"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "No executor named"
+     },
+     {
+      "id": "designated",
+      "label": "Named in the will"
+     },
+     {
+      "id": "active",
+      "label": "Executor managing"
+     },
+     {
+      "id": "terminated",
+      "label": "Office ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-es-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Il testatore nomina uno o più esecutori testamentari e, se del caso, sostituti (art. 700)",
+      "citations": [
+       "it-cc-700"
+      ]
+     },
+     {
+      "id": "it-t-es-start",
+      "from": "designated",
+      "to": "active",
+      "event": "L’esecutore cura che siano esattamente eseguite le disposizioni di ultima volontà (art. 703)",
+      "citations": [
+       "it-cc-703"
+      ]
+     },
+     {
+      "id": "it-t-es-litigate",
+      "from": "active",
+      "to": "active",
+      "event": "Le azioni relative all’eredità sono proposte anche nei confronti dell’esecutore (art. 704); le spese sono a carico dell’eredità (art. 712)",
+      "citations": [
+       "it-cc-704",
+       "it-cc-712"
+      ]
+     },
+     {
+      "id": "it-t-es-account",
+      "from": "active",
+      "to": "terminated",
+      "event": "Conto della gestione al termine della stessa (art. 709)",
+      "citations": [
+       "it-cc-709"
+      ]
+     },
+     {
+      "id": "it-t-es-remove",
+      "from": "active",
+      "to": "terminated",
+      "event": "Esonero dall’ufficio per gravi irregolarità (art. 710)",
+      "citations": [
+       "it-cc-710"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor of a will",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "esecutore testamentario": {
+     "en": "executor of the will",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-curatore-eredita-giacente",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Curator of a vacant estate (curatore dell’eredità giacente)",
+   "localNames": [
+    "curatore dell’eredità giacente",
+    "eredità giacente"
+   ],
+   "summary": "Where the person called to the estate has not accepted and does not hold estate assets, the court appoints a curator, on application or of its own motion. The curator inventories the estate, pursues and answers claims, and may pay the estate’s debts and legacies with the court’s authorisation. The office ends the moment the estate is accepted.",
+   "lane": {
+    "assigned": {
+     "event": "The person called has not accepted and is not in possession of estate assets; the court of the district where succession opened appoints a curator, on application by interested persons or of its own motion",
+     "phase": "administration",
+     "citations": [
+      "it-cc-528"
+     ]
+    },
+    "starts": {
+     "event": "The curator inventories the estate, exercises and pursues its claims, answers claims brought against it, and administers it",
+     "phase": "administration",
+     "citations": [
+      "it-cc-529"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The curator ceases to act the moment the estate is accepted",
+      "phase": "administration",
+      "citations": [
+       "it-cc-532"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No curatorship"
+     },
+     {
+      "id": "active",
+      "label": "Curator administering"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate accepted"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-cg-appoint",
+      "from": "none",
+      "to": "active",
+      "event": "Nomina del curatore dell’eredità giacente (art. 528)",
+      "citations": [
+       "it-cc-528"
+      ]
+     },
+     {
+      "id": "it-t-cg-duties",
+      "from": "active",
+      "to": "active",
+      "event": "Inventario, esercizio delle ragioni ereditarie, risposta alle istanze (art. 529); pagamento dei debiti previa autorizzazione del tribunale (art. 530)",
+      "citations": [
+       "it-cc-529",
+       "it-cc-530"
+      ]
+     },
+     {
+      "id": "it-t-cg-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Cessazione della curatela per accettazione dell’eredità (art. 532)",
+      "citations": [
+       "it-cc-532"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Curator of a vacant estate",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "curatore dell’eredità giacente": {
+     "en": "curator of the vacant estate",
+     "basis": "descriptive"
+    },
+    "eredità giacente": {
+     "en": "vacant estate",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-donazione-organi",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Organ donation decision (dichiarazione di volontà; opposizione dei familiari)",
+   "localNames": [
+    "dichiarazione di volontà",
+    "opposizione scritta",
+    "silenzio-assenso"
+   ],
+   "summary": "Italy legislated presumed consent and then deferred it. Article 4 makes a failure to declare count as assent, but article 28(2) makes article 4 effective only from the activation of the transplant information system under article 7. Until that date article 23 governs: removal is permitted unless the person explicitly refused, and the non-separated spouse, the cohabiting partner, failing them adult children, failing them parents or the legal representative may lodge written opposition during the death-observation period.",
+   "lane": {
+    "assigned": {
+     "event": "Under the transitional rule, removal is permitted from a person whose death has been ascertained unless they explicitly refused assent",
+     "phase": "deceased",
+     "citations": [
+      "it-l91-23"
+     ]
+    },
+    "starts": {
+     "event": "The non-separated spouse, the cohabiting partner, failing them adult children, failing them parents or the legal representative may lodge written opposition within the death-observation period",
+     "phase": "deceased",
+     "citations": [
+      "it-l91-23"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Opposition is not admitted where the person’s own documents or deposited declarations show a contrary wish",
+      "phase": "deceased",
+      "citations": [
+       "it-l91-23"
+      ]
+     },
+     {
+      "event": "Article 4’s regime, under which a failure to declare counts as assent, takes effect only from the activation of the transplant information system",
+      "phase": "deceased",
+      "citations": [
+       "it-l91-4",
+       "it-l91-28"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Nothing declared"
+     },
+     {
+      "id": "refused",
+      "label": "Assent explicitly refused"
+     },
+     {
+      "id": "family_window",
+      "label": "Family may oppose during the observation period"
+     },
+     {
+      "id": "removal",
+      "label": "Removal permitted"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-do-refuse",
+      "from": "none",
+      "to": "refused",
+      "event": "Il soggetto ha esplicitamente negato il proprio assenso (art. 23, comma 1)",
+      "citations": [
+       "it-l91-23"
+      ]
+     },
+     {
+      "id": "it-t-do-window",
+      "from": "none",
+      "to": "family_window",
+      "event": "Accertamento della morte: coniuge non separato, convivente, figli maggiorenni, genitori o rappresentante legale possono presentare opposizione scritta (art. 23, comma 2)",
+      "citations": [
+       "it-l91-23"
+      ]
+     },
+     {
+      "id": "it-t-do-proceed",
+      "from": "family_window",
+      "to": "removal",
+      "event": "Assenza di opposizione nel periodo di osservazione (art. 23)",
+      "citations": [
+       "it-l91-23"
+      ]
+     },
+     {
+      "id": "it-t-do-bar",
+      "from": "family_window",
+      "to": "refused",
+      "event": "Opposizione presentata (art. 23, comma 2)",
+      "citations": [
+       "it-l91-23"
+      ]
+     },
+     {
+      "id": "it-t-do-deferred",
+      "from": "none",
+      "to": "none",
+      "event": "Le disposizioni dell’articolo 4 acquistano efficacia dall’attivazione del sistema informativo dei trapianti (art. 28, comma 2)",
+      "citations": [
+       "it-l91-4",
+       "it-l91-28"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Organ donation decision",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "dichiarazione di volontà": {
+     "en": "declaration of intent",
+     "basis": "descriptive"
+    },
+    "opposizione scritta": {
+     "en": "written opposition",
+     "basis": "descriptive"
+    },
+    "silenzio-assenso": {
+     "en": "silence treated as assent",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "it-diritti-persone-decedute",
+   "canonical": "digital-assets-fiduciary",
+   "group": "digital",
+   "name": "Person exercising a deceased person’s data rights (diritti riguardanti le persone decedute)",
+   "localNames": [
+    "mandatario",
+    "ragioni familiari meritevoli di protezione",
+    "divieto"
+   ],
+   "summary": "Italy’s answer to the digital estate, and among the most explicit anywhere. The GDPR rights of access through to objection may be exercised over a deceased person’s data by someone with an interest of their own, by their mandatary acting to protect them, or for family reasons deserving protection. But the person may forbid it — and the prohibition binds only as against directly offered information society services, must be unequivocal, specific, free and informed, may cover only some of the rights, is revocable at any time, and can never prejudice third parties’ property rights arising from the death or the defence of one’s interests in court.",
+   "lane": {
+    "assigned": {
+     "event": "The person dies, leaving personal data held by controllers",
+     "phase": "deceased",
+     "citations": [
+      "it-d196-2-terdecies"
+     ]
+    },
+    "starts": {
+     "event": "Someone with an interest of their own, a mandatary acting to protect the data subject, or a person acting for family reasons deserving protection exercises the rights in GDPR arts 15 to 22",
+     "phase": "deceased",
+     "citations": [
+      "it-d196-2-terdecies"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The person expressly forbade it in writing to the controller, limited to the direct offer of information society services",
+      "phase": "deceased",
+      "citations": [
+       "it-d196-2-terdecies"
+      ]
+     },
+     {
+      "event": "The prohibition is revoked or modified, which the person may do at any time",
+      "phase": "deceased",
+      "citations": [
+       "it-d196-2-terdecies"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Person living"
+     },
+     {
+      "id": "prohibited",
+      "label": "Exercise forbidden by the person"
+     },
+     {
+      "id": "exercisable",
+      "label": "Rights exercisable by those entitled"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "it-t-dd-prohibit",
+      "from": "none",
+      "to": "prohibited",
+      "event": "Divieto espresso con dichiarazione scritta al titolare, limitatamente ai servizi della società dell’informazione (comma 2)",
+      "citations": [
+       "it-d196-2-terdecies"
+      ]
+     },
+     {
+      "id": "it-t-dd-exercise",
+      "from": "none",
+      "to": "exercisable",
+      "event": "Esercizio dei diritti da chi ha un interesse proprio, dal mandatario o per ragioni familiari meritevoli di protezione (comma 1)",
+      "citations": [
+       "it-d196-2-terdecies"
+      ]
+     },
+     {
+      "id": "it-t-dd-revoke",
+      "from": "prohibited",
+      "to": "exercisable",
+      "event": "Revoca o modifica del divieto, in ogni momento (comma 4)",
+      "citations": [
+       "it-d196-2-terdecies"
+      ]
+     },
+     {
+      "id": "it-t-dd-limits",
+      "from": "prohibited",
+      "to": "exercisable",
+      "event": "Il divieto non può pregiudicare i diritti patrimoniali dei terzi derivanti dalla morte né la difesa in giudizio dei propri interessi (comma 5)",
+      "citations": [
+       "it-d196-2-terdecies"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Person exercising a deceased person’s data rights",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "mandatario": {
+     "en": "mandatary",
+     "basis": "descriptive"
+    },
+    "ragioni familiari meritevoli di protezione": {
+     "en": "family reasons deserving protection",
+     "basis": "descriptive"
+    },
+    "divieto": {
+     "en": "prohibition",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "There is no general durable power of attorney. What survives incapacity is the advance designation of a support administrator, and even that does not confer authority by itself — the giudice tutelare still appoints, by a decree that fixes the object and duration of the office.",
+   "citations": [
+    "it-cc-408",
+    "it-cc-405"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "Article 408 is inherently springing: the designation is made in anticipation of the person’s own possible future incapacity, and takes effect through the appointment decree.",
+   "citations": [
+    "it-cc-408"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "Not registration in a register, but a formality and a judicial step: the designation must be by public act or authenticated private writing, and authority arises only on the giudice tutelare’s decree of appointment.",
+   "citations": [
+    "it-cc-408",
+    "it-cc-405"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "The fiduciary stands in the person’s place with the doctor and the health service once the person can no longer decide; the directives are made in anticipation of future incapacity to self-determine.",
+   "citations": [
+    "it-l219-4"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "note": "Support administration is calibrated rather than status-based: the beneficiary keeps capacity for every act the decree does not reserve to exclusive representation or assistance, and the administrator must have regard to their needs and aspirations.",
+   "citations": [
+    "it-cc-409",
+    "it-cc-410"
+   ],
+   "year": 2004,
+   "name": "Legge 9 gennaio 2004, n. 6 (amministrazione di sostegno, artt. 404-413 c.c.)"
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "note": "No fiduciary is given statutory access to digital assets as such. What exists is a data-protection right: the deceased’s GDPR rights may be exercised by someone with their own interest, by the deceased’s mandatary, or for family reasons deserving protection.",
+   "citations": [
+    "it-d196-2-terdecies"
+   ],
+   "year": null,
+   "name": null
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": true,
+   "note": "Uniquely explicit. The person may forbid the exercise of those rights by written declaration to the controller, and the prohibition binds precisely as against the direct offer of information society services — it must be unequivocal, specific, free and informed, may cover only some rights, and is revocable at any time.",
+   "citations": [
+    "it-d196-2-terdecies"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "note": "Enacted as opt-out and not in force as such. Article 4 treats a failure to declare as assent, but article 28(2) defers article 4 to the activation of the transplant information system under article 7. Until that date article 23 governs: removal unless the person explicitly refused, with written family opposition possible during the death-observation period.",
+   "citations": [
+    "it-l91-4",
+    "it-l91-28",
+    "it-l91-23"
+   ],
+   "optOutSinceYear": null,
+   "name": "Legge 1 aprile 1999, n. 91, art. 4 (efficacia differita ai sensi dell’art. 28, comma 2)"
+  },
+  "smallEstateWithoutGrant": {
+   "value": null,
+   "note": "The question does not arise in this form: there is no grant to obtain or dispense with. The estate is acquired by acceptance, whose effect relates back to the opening of the succession, and the heir chooses between pure acceptance and acceptance with the benefit of inventory.",
+   "citations": [
+    "it-cc-459",
+    "it-cc-470"
+   ],
+   "threshold": null,
+   "currency": "EUR",
+   "waitingDays": null
+  },
+  "probateGrantName": {
+   "value": null,
+   "note": "No grant of representation exists. Where nobody has accepted and no one called holds estate assets, the court appoints a curator of the vacant estate, whose office ends the moment the estate is accepted.",
+   "citations": [
+    "it-cc-528",
+    "it-cc-532"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": "partial",
+   "note": "The deceased’s data are not protected in their own right, but the GDPR rights over them may be exercised by those the article names, subject to any prohibition the person laid down, and the prohibition can never prejudice third parties’ property rights arising from the death.",
+   "citations": [
+    "it-d196-2-terdecies"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "The fiduciary’s role is to represent the person with the doctor and the health service while they cannot decide for themselves. Authority after death lies elsewhere: with the family for organ removal, and with those entitled under the privacy code for the deceased’s data.",
+   "citations": [
+    "it-l219-4",
+    "it-l91-23",
+    "it-d196-2-terdecies"
+   ]
+  }
+ }
+}

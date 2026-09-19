@@ -3,7 +3,7 @@ title: "Call Me Mark Jannell: The Future of Bring Your Own Identity"
 date: 2022-04-15
 subject: Technology
 tags: [Identity, Privacy]
-description: "Eighteen months answering to a name that was not mine, and what it teaches about trust and ease of use when users bring their own identity."
+description: "An assumed name that stuck for eighteen months, and what it cost when the truth came out. On bringing your own identity."
 legacySlug: "call-me-mark-jannell"
 # ~5 min
 ---

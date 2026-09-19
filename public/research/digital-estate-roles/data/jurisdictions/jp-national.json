@@ -1,0 +1,835 @@
+{
+ "jurisdiction": "jp-national",
+ "name": "Japan",
+ "country": "jp",
+ "legalSystem": "civil law",
+ "note": "Civil Code (民法) and the Act on Voluntary Guardianship Contracts (任意後見契約に関する法律), quoted from the Japanese original published by e-Gov. The official English translation stops short of the inheritance book, so the Japanese text is the source here and English role names are descriptive glosses. Japan runs three statutory tiers by degree of impairment — 後見, 保佐, 補助 — which the Code keeps mutually exclusive, alongside a voluntary guardianship contract that only takes effect when the Family Court appoints a supervisor. There is no grant of representation: inheritance commences on death. Health-care proxies, organ donation and disposal of remains sit outside these two statutes and are not recorded.",
+ "citations": [
+  {
+   "id": "jp-cc-7",
+   "cite": "民法（明治二十九年法律第八十九号）第7条",
+   "title": "後見開始の審判",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "精神上の障害により事理を弁識する能力を欠く常況にある者については、家庭裁判所は、本人、配偶者、四親等内の親族、未成年後見人、未成年後見監督人、保佐人、保佐監督人、補助人、補助監督人又は検察官の請求により、後見開始の審判をすることができる。"
+  },
+  {
+   "id": "jp-cc-10",
+   "cite": "民法（明治二十九年法律第八十九号）第10条",
+   "title": "後見開始の審判の取消し",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "第七条に規定する原因が消滅したときは、家庭裁判所は、本人、配偶者、四親等内の親族、後見人（未成年後見人及び成年後見人をいう。以下同じ。）、後見監督人（未成年後見監督人及び成年後見監督人をいう。以下同じ。）又は検察官の請求により、後見開始の審判を取り消さなければならない。"
+  },
+  {
+   "id": "jp-cc-11",
+   "cite": "民法（明治二十九年法律第八十九号）第11条",
+   "title": "保佐開始の審判",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "精神上の障害により事理を弁識する能力が著しく不十分である者については、家庭裁判所は、本人、配偶者、四親等内の親族、後見人、後見監督人、補助人、補助監督人又は検察官の請求により、保佐開始の審判をすることができる。ただし、第七条に規定する原因がある者については、この限りでない。"
+  },
+  {
+   "id": "jp-cc-15",
+   "cite": "民法（明治二十九年法律第八十九号）第15条",
+   "title": "補助開始の審判",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "精神上の障害により事理を弁識する能力が不十分である者については、家庭裁判所は、本人、配偶者、四親等内の親族、後見人、後見監督人、保佐人、保佐監督人又は検察官の請求により、補助開始の審判をすることができる。ただし、第七条又は第十一条本文に規定する原因がある者については、この限りでない。２本人以外の者の…"
+  },
+  {
+   "id": "jp-cc-843",
+   "cite": "民法（明治二十九年法律第八十九号）第843条",
+   "title": "成年後見人の選任",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "家庭裁判所は、後見開始の審判をするときは、職権で、成年後見人を選任する。２成年後見人が欠けたときは、家庭裁判所は、成年被後見人若しくはその親族その他の利害関係人の請求により又は職権で、成年後見人を選任する。３成年後見人が選任されている場合においても、家庭裁判所は、必要があると認めるときは、前項に規定…"
+  },
+  {
+   "id": "jp-cc-858",
+   "cite": "民法（明治二十九年法律第八十九号）第858条",
+   "title": "成年被後見人の意思の尊重及び身上の配慮",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "成年後見人は、成年被後見人の生活、療養看護及び財産の管理に関する事務を行うに当たっては、成年被後見人の意思を尊重し、かつ、その心身の状態及び生活の状況に配慮しなければならない。"
+  },
+  {
+   "id": "jp-cc-859",
+   "cite": "民法（明治二十九年法律第八十九号）第859条",
+   "title": "財産の管理及び代表",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "後見人は、被後見人の財産を管理し、かつ、その財産に関する法律行為について被後見人を代表する。２第八百二十四条ただし書の規定は、前項の場合について準用する。"
+  },
+  {
+   "id": "jp-cc-882",
+   "cite": "民法（明治二十九年法律第八十九号）第882条",
+   "title": "相続開始の原因",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "相続は、死亡によって開始する。"
+  },
+  {
+   "id": "jp-cc-896",
+   "cite": "民法（明治二十九年法律第八十九号）第896条",
+   "title": "相続の一般的効力",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "相続人は、相続開始の時から、被相続人の財産に属した一切の権利義務を承継する。ただし、被相続人の一身に専属したものは、この限りでない。"
+  },
+  {
+   "id": "jp-cc-915",
+   "cite": "民法（明治二十九年法律第八十九号）第915条",
+   "title": "相続の承認又は放棄をすべき期間",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "相続人は、自己のために相続の開始があったことを知った時から三箇月以内に、相続について、単純若しくは限定の承認又は放棄をしなければならない。ただし、この期間は、利害関係人又は検察官の請求によって、家庭裁判所において伸長することができる。２相続人は、相続の承認又は放棄をする前に、相続財産の調査をすること…"
+  },
+  {
+   "id": "jp-cc-1006",
+   "cite": "民法（明治二十九年法律第八十九号）第1006条",
+   "title": "遺言執行者の指定",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "遺言者は、遺言で、一人又は数人の遺言執行者を指定し、又はその指定を第三者に委託することができる。２遺言執行者の指定の委託を受けた者は、遅滞なく、その指定をして、これを相続人に通知しなければならない。３遺言執行者の指定の委託を受けた者がその委託を辞そうとするときは、遅滞なくその旨を相続人に通知しなけれ…"
+  },
+  {
+   "id": "jp-cc-1012",
+   "cite": "民法（明治二十九年法律第八十九号）第1012条",
+   "title": "遺言執行者の権利義務",
+   "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "遺言執行者は、遺言の内容を実現するため、相続財産の管理その他遺言の執行に必要な一切の行為をする権利義務を有する。２遺言執行者がある場合には、遺贈の履行は、遺言執行者のみが行うことができる。３第六百四十四条、第六百四十五条から第六百四十七条まで及び第六百五十条の規定は、遺言執行者について準用する。"
+  },
+  {
+   "id": "jp-vg-2",
+   "cite": "任意後見契約に関する法律（平成十一年法律第百五十号）第2条",
+   "title": "定義",
+   "url": "https://laws.e-gov.go.jp/law/411AC0000000150",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "この法律において、次の各号に掲げる用語の意義は、当該各号の定めるところによる。一任意後見契約委任者が、受任者に対し、精神上の障害により事理を弁識する能力が不十分な状況における自己の生活、療養看護及び財産の管理に関する事務の全部又は一部を委託し、その委託に係る事務について代理権を付与する委任契約であっ…"
+  },
+  {
+   "id": "jp-vg-3",
+   "cite": "任意後見契約に関する法律（平成十一年法律第百五十号）第3条",
+   "title": "任意後見契約の方式",
+   "url": "https://laws.e-gov.go.jp/law/411AC0000000150",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "任意後見契約は、法務省令で定める様式の公正証書によってしなければならない。"
+  },
+  {
+   "id": "jp-vg-4",
+   "cite": "任意後見契約に関する法律（平成十一年法律第百五十号）第4条",
+   "title": "任意後見監督人の選任",
+   "url": "https://laws.e-gov.go.jp/law/411AC0000000150",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "任意後見契約が登記されている場合において、精神上の障害により本人の事理を弁識する能力が不十分な状況にあるときは、家庭裁判所は、本人、配偶者、四親等内の親族又は任意後見受任者の請求により、任意後見監督人を選任する。ただし、次に掲げる場合は、この限りでない。一本人が未成年者であるとき。二本人が成年被後見…"
+  },
+  {
+   "id": "jp-vg-10",
+   "cite": "任意後見契約に関する法律（平成十一年法律第百五十号）第10条",
+   "title": "後見、保佐及び補助との関係",
+   "url": "https://laws.e-gov.go.jp/law/411AC0000000150",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "任意後見契約が登記されている場合には、家庭裁判所は、本人の利益のため特に必要があると認めるときに限り、後見開始の審判等をすることができる。２前項の場合における後見開始の審判等の請求は、任意後見受任者、任意後見人又は任意後見監督人もすることができる。３第四条第一項の規定により任意後見監督人が選任された…"
+  }
+ ],
+ "roles": [
+  {
+   "id": "jp-adult-guardian",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Adult guardian (成年後見人)",
+   "localNames": [
+    "成年後見人",
+    "後見開始の審判"
+   ],
+   "summary": "The heaviest of Japan’s three tiers, for a person constantly lacking the capacity to appreciate their situation. The guardian manages property and represents the ward in juristic acts — but must respect the ward’s wishes and have regard to their mental and physical state and their circumstances of life.",
+   "lane": {
+    "assigned": {
+     "event": "Family Court adjudicates the commencement of guardianship on application by the person, spouse, a relative within the fourth degree, an existing guardian or supervisor, or a public prosecutor",
+     "phase": "incapacitated",
+     "citations": [
+      "jp-cc-7"
+     ]
+    },
+    "starts": {
+     "event": "The Family Court appoints an adult guardian of its own motion when it adjudicates commencement; the guardian manages property and represents the ward in juristic acts concerning it",
+     "phase": "incapacitated",
+     "citations": [
+      "jp-cc-843",
+      "jp-cc-859"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The cause has ceased and the Family Court rescinds the adjudication of commencement",
+      "phase": "capable",
+      "citations": [
+       "jp-cc-10"
+      ]
+     },
+     {
+      "event": "Death of the ward, which commences the inheritance",
+      "phase": "deceased",
+      "citations": [
+       "jp-cc-882"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No guardianship"
+     },
+     {
+      "id": "adjudged",
+      "label": "Commencement adjudged"
+     },
+     {
+      "id": "active",
+      "label": "Guardian manages property and represents the ward"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "jp-t-ag-open",
+      "from": "none",
+      "to": "adjudged",
+      "event": "後見開始の審判（第七条）",
+      "citations": [
+       "jp-cc-7"
+      ]
+     },
+     {
+      "id": "jp-t-ag-appoint",
+      "from": "adjudged",
+      "to": "active",
+      "event": "家庭裁判所が職権で成年後見人を選任（第八百四十三条、第八百五十九条）",
+      "citations": [
+       "jp-cc-843",
+       "jp-cc-859"
+      ]
+     },
+     {
+      "id": "jp-t-ag-respect",
+      "from": "active",
+      "to": "active",
+      "event": "成年被後見人の意思の尊重及び身上の配慮（第八百五十八条）",
+      "citations": [
+       "jp-cc-858"
+      ]
+     },
+     {
+      "id": "jp-t-ag-revoke",
+      "from": "active",
+      "to": "ended",
+      "event": "原因の消滅により後見開始の審判を取り消す（第十条）",
+      "citations": [
+       "jp-cc-10"
+      ]
+     },
+     {
+      "id": "jp-t-ag-death",
+      "from": "active",
+      "to": "ended",
+      "event": "本人の死亡により相続が開始（第八百八十二条）",
+      "citations": [
+       "jp-cc-882"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Adult guardian",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "成年後見人": {
+     "en": "adult guardian",
+     "basis": "descriptive"
+    },
+    "後見開始の審判": {
+     "en": "adjudication commencing guardianship",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "jp-hosanin",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curator (保佐人)",
+   "localNames": [
+    "保佐人",
+    "保佐開始の審判"
+   ],
+   "summary": "The middle tier, for a person whose capacity to appreciate their situation is markedly insufficient. It is expressly unavailable where the heavier ground for guardianship applies, so the tiers do not overlap.",
+   "lane": {
+    "assigned": {
+     "event": "Family Court adjudicates the commencement of curatorship where capacity is markedly insufficient, except where the ground for guardianship applies",
+     "phase": "incapacitated",
+     "citations": [
+      "jp-cc-11"
+     ]
+    },
+    "starts": {
+     "event": "On the adjudication of commencement of curatorship",
+     "phase": "incapacitated",
+     "citations": [
+      "jp-cc-11"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person, which commences the inheritance",
+      "phase": "deceased",
+      "citations": [
+       "jp-cc-882"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No curatorship"
+     },
+     {
+      "id": "active",
+      "label": "Curatorship commenced"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "jp-t-hs-open",
+      "from": "none",
+      "to": "active",
+      "event": "保佐開始の審判。ただし第七条の原因がある者を除く（第十一条）",
+      "citations": [
+       "jp-cc-11"
+      ]
+     },
+     {
+      "id": "jp-t-hs-death",
+      "from": "active",
+      "to": "ended",
+      "event": "本人の死亡により相続が開始（第八百八十二条）",
+      "citations": [
+       "jp-cc-882"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Curator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "保佐人": {
+     "en": "curator",
+     "basis": "descriptive"
+    },
+    "保佐開始の審判": {
+     "en": "adjudication commencing curatorship",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "jp-hojonin",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Assistant (補助人)",
+   "localNames": [
+    "補助人",
+    "補助開始の審判"
+   ],
+   "summary": "The lightest tier, for a person whose capacity is insufficient without being markedly so. Its distinguishing feature is consent: where anyone other than the person applies, the adjudication cannot be made without that person’s own agreement.",
+   "lane": {
+    "assigned": {
+     "event": "Family Court adjudicates the commencement of assistance where capacity is insufficient, except where the grounds for guardianship or curatorship apply",
+     "phase": "incapacitated",
+     "citations": [
+      "jp-cc-15"
+     ]
+    },
+    "starts": {
+     "event": "On the adjudication; where the application is made by anyone other than the person, their own consent is required",
+     "phase": "incapacitated",
+     "citations": [
+      "jp-cc-15"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person, which commences the inheritance",
+      "phase": "deceased",
+      "citations": [
+       "jp-cc-882"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No assistance"
+     },
+     {
+      "id": "active",
+      "label": "Assistance commenced"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "jp-t-hj-open",
+      "from": "none",
+      "to": "active",
+      "event": "補助開始の審判。本人以外の者の請求によるときは本人の同意を要する（第十五条）",
+      "citations": [
+       "jp-cc-15"
+      ]
+     },
+     {
+      "id": "jp-t-hj-death",
+      "from": "active",
+      "to": "ended",
+      "event": "本人の死亡により相続が開始（第八百八十二条）",
+      "citations": [
+       "jp-cc-882"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Assistant",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "補助人": {
+     "en": "assistant",
+     "basis": "descriptive"
+    },
+    "補助開始の審判": {
+     "en": "adjudication commencing assistance",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "jp-voluntary-guardian",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Voluntary guardian (任意後見人)",
+   "localNames": [
+    "任意後見契約",
+    "任意後見人",
+    "任意後見監督人"
+   ],
+   "summary": "Japan’s advance instrument, and it is deliberately hard to bring into force. The contract must be made as a notarial deed in the prescribed form, be registered, and by its own required terms takes effect only from the moment the Family Court appoints a supervisor — which it does once the person’s capacity has become insufficient.",
+   "lane": {
+    "assigned": {
+     "event": "Principal makes a voluntary guardianship contract delegating care and property affairs and conferring authority to represent, by notarial deed in the form prescribed by Ministry of Justice ordinance",
+     "phase": "capable",
+     "citations": [
+      "jp-vg-2",
+      "jp-vg-3"
+     ]
+    },
+    "starts": {
+     "event": "Only when the Family Court appoints a supervisor of voluntary guardianship, the contract being registered and the person’s capacity insufficient through mental disability",
+     "phase": "incapacitated",
+     "citations": [
+      "jp-vg-4",
+      "jp-vg-2"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The contract terminates if, after a supervisor has been appointed, the person receives an adjudication commencing statutory guardianship, curatorship or assistance",
+      "phase": "incapacitated",
+      "citations": [
+       "jp-vg-10"
+      ]
+     },
+     {
+      "event": "Death of the principal, which commences the inheritance",
+      "phase": "deceased",
+      "citations": [
+       "jp-cc-882"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No contract"
+     },
+     {
+      "id": "registered",
+      "label": "Notarial deed registered, not yet effective"
+     },
+     {
+      "id": "active",
+      "label": "Supervisor appointed; contract in force"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "jp-t-vg-make",
+      "from": "none",
+      "to": "registered",
+      "event": "公正証書によって任意後見契約を締結（第三条、第二条第一号）",
+      "citations": [
+       "jp-vg-3",
+       "jp-vg-2"
+      ]
+     },
+     {
+      "id": "jp-t-vg-force",
+      "from": "registered",
+      "to": "active",
+      "event": "家庭裁判所が任意後見監督人を選任し、その時から契約の効力が生ずる（第四条第一項、第二条第一号）",
+      "citations": [
+       "jp-vg-4",
+       "jp-vg-2"
+      ]
+     },
+     {
+      "id": "jp-t-vg-displaced",
+      "from": "active",
+      "to": "ended",
+      "event": "後見開始の審判等を受けたときは任意後見契約は終了（第十条第三項）",
+      "citations": [
+       "jp-vg-10"
+      ]
+     },
+     {
+      "id": "jp-t-vg-death",
+      "from": "active",
+      "to": "ended",
+      "event": "本人の死亡により相続が開始（第八百八十二条）",
+      "citations": [
+       "jp-cc-882"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Voluntary guardian",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "任意後見契約": {
+     "en": "voluntary guardianship contract",
+     "basis": "descriptive"
+    },
+    "任意後見人": {
+     "en": "voluntary guardian",
+     "basis": "descriptive"
+    },
+    "任意後見監督人": {
+     "en": "supervisor of voluntary guardianship",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "jp-heir",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Heir (相続人)",
+   "localNames": [
+    "相続人",
+    "相続"
+   ],
+   "summary": "No grant: inheritance commences by death and the heir succeeds from that moment to every right and duty that belonged to the decedent’s property, except what was purely personal to them. The heir has three months from learning of the commencement to accept simply, accept with limitation, or renounce.",
+   "lane": {
+    "assigned": {
+     "event": "Inheritance commences by death",
+     "phase": "deceased",
+     "citations": [
+      "jp-cc-882"
+     ]
+    },
+    "starts": {
+     "event": "From the time inheritance commences the heir succeeds to all rights and duties attaching to the decedent’s property, except those personal to the decedent",
+     "phase": "deceased",
+     "citations": [
+      "jp-cc-896"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Simple or qualified acceptance, or renunciation, within three months of learning of the commencement; the Family Court may extend that period",
+      "phase": "administration",
+      "citations": [
+       "jp-cc-915"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Decedent alive"
+     },
+     {
+      "id": "vested",
+      "label": "Rights and duties vested on death"
+     },
+     {
+      "id": "accepted",
+      "label": "Accepted, simply or with limitation"
+     },
+     {
+      "id": "renounced",
+      "label": "Renounced"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "jp-t-he-death",
+      "from": "none",
+      "to": "vested",
+      "event": "相続は死亡によって開始し、一切の権利義務を承継（第八百八十二条、第八百九十六条）",
+      "citations": [
+       "jp-cc-882",
+       "jp-cc-896"
+      ]
+     },
+     {
+      "id": "jp-t-he-accept",
+      "from": "vested",
+      "to": "accepted",
+      "event": "三箇月以内に単純若しくは限定の承認（第九百十五条）",
+      "citations": [
+       "jp-cc-915"
+      ]
+     },
+     {
+      "id": "jp-t-he-renounce",
+      "from": "vested",
+      "to": "renounced",
+      "event": "三箇月以内に放棄。期間は家庭裁判所が伸長できる（第九百十五条）",
+      "citations": [
+       "jp-cc-915"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "相続人": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "相続": {
+     "en": "inheritance",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "jp-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor of a will (遺言執行者)",
+   "localNames": [
+    "遺言執行者"
+   ],
+   "summary": "Designated by the testator in the will, or by a third party the testator entrusts with the choice. The executor holds the right and duty to do everything necessary to realise the will — and where there is an executor, only the executor may perform a bequest.",
+   "lane": {
+    "assigned": {
+     "event": "Testator designates one or more executors in the will, or entrusts the designation to a third party who must then designate and notify the heirs without delay",
+     "phase": "capable",
+     "citations": [
+      "jp-cc-1006"
+     ]
+    },
+    "starts": {
+     "event": "On the commencement of inheritance; the executor manages the estate and does everything necessary to realise the will",
+     "phase": "deceased",
+     "citations": [
+      "jp-cc-1012",
+      "jp-cc-882"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The content of the will is realised",
+      "phase": "administration",
+      "citations": [
+       "jp-cc-1012"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No executor"
+     },
+     {
+      "id": "designated",
+      "label": "Designated in the will"
+     },
+     {
+      "id": "active",
+      "label": "Realising the content of the will"
+     },
+     {
+      "id": "ended",
+      "label": "Will executed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "jp-t-ex-name",
+      "from": "none",
+      "to": "designated",
+      "event": "遺言者が遺言執行者を指定し、又は指定を第三者に委託（第千六条）",
+      "citations": [
+       "jp-cc-1006"
+      ]
+     },
+     {
+      "id": "jp-t-ex-act",
+      "from": "designated",
+      "to": "active",
+      "event": "相続開始。遺言執行者は遺言の執行に必要な一切の行為をする権利義務を有する（第八百八十二条、第千十二条）",
+      "citations": [
+       "jp-cc-882",
+       "jp-cc-1012"
+      ]
+     },
+     {
+      "id": "jp-t-ex-end",
+      "from": "active",
+      "to": "ended",
+      "event": "遺言の内容が実現されたとき（第千十二条）",
+      "citations": [
+       "jp-cc-1012"
+      ]
+     }
+    ]
+   },
+   "nameEn": {
+    "en": "Executor of a will",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "遺言執行者": {
+     "en": "executor of a will",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "A durable arrangement requires a voluntary guardianship contract, which must be a notarial deed and takes effect only on the Family Court appointing a supervisor.",
+   "citations": [
+    "jp-vg-3",
+    "jp-vg-4"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "The voluntary guardianship contract is inherently springing: by the definition it must provide that it takes effect from the appointment of a supervisor, which follows the person’s capacity becoming insufficient.",
+   "citations": [
+    "jp-vg-2",
+    "jp-vg-4"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "The contract must be registered before the Family Court will appoint a supervisor, and without that appointment it has no effect.",
+   "citations": [
+    "jp-vg-4",
+    "jp-vg-2"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "year": null,
+   "name": "補助 (assistance), Civil Code art 15 — an adjudication on another’s application requires the person’s own consent",
+   "citations": [
+    "jp-cc-15"
+   ]
+  },
+  "probateGrantName": {
+   "value": "none",
+   "note": "No grant of representation. Inheritance commences by death and the heir succeeds to all rights and duties of the decedent’s property from that moment.",
+   "citations": [
+    "jp-cc-882",
+    "jp-cc-896"
+   ]
+  }
+ }
+}

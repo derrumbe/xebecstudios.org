@@ -4,7 +4,7 @@ date: 2020-11-11
 subject: Philosophy
 tags: [AI, Ethics, Privacy]
 crossFiled: [Technology]
-description: "The ACM asked the industry to stop and think. Ethics lags technology, legislation lags further still, and the debt compounds."
+description: "The ACM called for a moratorium and three vendors stepped back. Shipping before it works is a debt, and someone else settles it."
 legacySlug: "the-technical-debt-of-facial-recognition"
 # ~5 min
 ---

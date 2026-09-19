@@ -1,0 +1,974 @@
+{
+ "jurisdiction": "za-national",
+ "name": "South Africa",
+ "country": "za",
+ "legalSystem": "mixed",
+ "note": "South African estate administration, curatorship and health decision-making: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953 from the Department of Justice, with the National Health Act 61 of 2003 and Mental Health Care Act 17 of 2002 from the Government Printer. There is no enduring power of attorney: a power of attorney is common law and lapses on the grantor’s incapacity, so the written health mandate under National Health Act s 7 is the only advance appointment recorded here. Two statutory routes run in parallel for property — curatorship under the Administration of Estates Act and an administrator under the Mental Health Care Act. The Mental Health Care Act citations carry no quote because the Government Printer’s scan has a damaged text layer; the sections were read but are not reproduced verbatim.",
+ "citations": [
+  {
+   "id": "za-aea-14",
+   "cite": "Administration of Estates Act 66 of 1965, s 14",
+   "title": "Letters of executorship to executors testamentary",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "The Master shall, subject to subsection (2) and sections 16 and 22, on the written application of any person who has been nominated as executor by any deceased person by a will"
+  },
+  {
+   "id": "za-aea-18",
+   "cite": "Administration of Estates Act 66 of 1965, s 18",
+   "title": "Proceedings on failure of nomination of executors or on death, incapacity or refusal to act",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "if any person has died without having by will nominated any person to be his executor; or if the whereabouts of any person so nominated to be sole executor ... are unknown"
+  },
+  {
+   "id": "za-aea-18-3",
+   "cite": "Administration of Estates Act 66 of 1965, s 18(3)",
+   "title": "Master may dispense with the appointment of an executor",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "value of any estate does not exceed the amount determined by the Minister by notice in the Gazette, the Master may dispense with the appointment of an executor and give directions as to the manner in which any such estate shall be liquidated and distributed"
+  },
+  {
+   "id": "za-aea-54",
+   "cite": "Administration of Estates Act 66 of 1965, s 54",
+   "title": "Removal from office of executor",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) An executor may at any time be removed from his office- (a) by the Court- (i) ...... [Sub-para. (i) deleted by s. 16 (a) of Act 86 of 1983 (wef 6 July 1983).] (ii) if he has at any time been a party to an agreement or arrangement whereby he has undertaken that he will, in his capacity as executor, grant or endeavour to…"
+  },
+  {
+   "id": "za-aea-71",
+   "cite": "Administration of Estates Act 66 of 1965, s 71",
+   "title": "Certain persons not to administer property as tutor or curator without letters of tutorship or curatorship",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) No person who has been nominated, appointed or assumed as provided in section seventy-two shall take care of or administer any property belonging to the minor or other person concerned, or carry on any business or undertaking of the minor or other person, unless he is authorized to do so under letters of tutorship or…"
+  },
+  {
+   "id": "za-aea-72",
+   "cite": "Administration of Estates Act 66 of 1965, s 72",
+   "title": "Letters of tutorship and curatorship to tutors and curators nominate and endorsement in case of assumed tutors",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "and curators (1) The Master shall, subject to the provisions of subsection (3) and to any applicable provision of section 5 of the Matrimonial Affairs Act, 1953 (Act 37 of 1953), or any order of court made under any such provision or any provision of the Divorce Act, 1979, on the written application of any person- (a) who has…"
+  },
+  {
+   "id": "za-aea-73",
+   "cite": "Administration of Estates Act 66 of 1965, s 73",
+   "title": "Proceedings on failure of nomination of tutors or curators, or on death, incapacity or refusal to act, etc",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) The Master may, subject to the provisions of subsections (2), (3) and (4)- (a) if it comes to his knowledge- (i) that any minor is the owner of any property in the Republic which is not under the care of any guardian, tutor or curator; or (ii) that any absentee is the owner of any property in the Republic, and he is…"
+  },
+  {
+   "id": "za-aea-76",
+   "cite": "Administration of Estates Act 66 of 1965, s 76",
+   "title": "Authority conferred by letters of tutorship and curatorship",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "(1) The Master may- (a) by any letters of tutorship granted by him, authorize the tutor to administer the property of the minor, and may by such letters also authorize the tutor to carry on, subject to any law which may be applicable, any business or undertaking of the minor; and (b) by any letters of curatorship granted by…"
+  },
+  {
+   "id": "za-aea-85",
+   "cite": "Administration of Estates Act 66 of 1965, s 85",
+   "title": "Application of certain sections to tutors and curators",
+   "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "Sections 24, 26, 28 and 36, subsection (2) of section 42, sections 46 and 48, subsection (2) of section 49 and sections 52, 53, 54 and 56 shall mutatis mutandis apply with reference to tutors and curators: Provided that any reference in any of the said sections to a will shall, for the purposes of its application under this…"
+  },
+  {
+   "id": "za-isa-1",
+   "cite": "Intestate Succession Act 81 of 1987, s 1",
+   "title": "Intestate succession",
+   "url": "https://www.justice.gov.za/legislation/acts/1987-81.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "is survived by a spouse, but not by a descendant, such spouse shall inherit the intestate estate; is survived by a descendant, but not by a spouse, such descendant shall inherit"
+  },
+  {
+   "id": "za-mhca-59",
+   "cite": "Mental Health Care Act 17 of 2002, s 59",
+   "title": "Appointment of administrator for care and administration of property",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a17-02.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17"
+  },
+  {
+   "id": "za-mhca-60",
+   "cite": "Mental Health Care Act 17 of 2002, s 60",
+   "title": "Application to Master of High Court for appointment of administrator",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a17-02.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17"
+  },
+  {
+   "id": "za-mhca-64",
+   "cite": "Mental Health Care Act 17 of 2002, s 64",
+   "title": "Termination of administrator",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a17-02.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17"
+  },
+  {
+   "id": "za-nha-62-1",
+   "cite": "National Health Act 61 of 2003, s 62(1)",
+   "title": "Donation of human bodies and tissue of deceased persons",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "in a document signed by him or her and at least two competent witnesses; or in an oral statement made in the presence of at least two competent witnesses, donate his or her body or any specified tissue thereof to be used after his or her death"
+  },
+  {
+   "id": "za-nha-62-2",
+   "cite": "National Health Act 61 of 2003, s 62(2)",
+   "title": "Donation by family where the deceased made none",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "the spouse, partner, major child, parent, guardian, major brother or major sister of that person, in the specific order mentioned, may, after that person’s death, donate the body or any specific tissue of that person"
+  },
+  {
+   "id": "za-nha-62-donee",
+   "cite": "National Health Act 61 of 2003, s 62(1)(b)-(c)",
+   "title": "Donation must nominate a donee",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "must nominate an institution or a person contemplated in section 63 as donee"
+  },
+  {
+   "id": "za-nha-7",
+   "cite": "National Health Act 61 of 2003, s 7",
+   "title": "Consent of user",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "a health service may not be provided to a user without the user’s informed consent"
+  },
+  {
+   "id": "za-nha-7-mandate",
+   "cite": "National Health Act 61 of 2003, s 7(1)(a)",
+   "title": "Consent of user — mandated or authorised person",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "the user is unable to give informed consent and such consent is given by a person- (i) mandated by the user in writing to grant consent on his or her behalf; or (ii) authorised to give such consent in terms of any law or court order"
+  },
+  {
+   "id": "za-nha-7-order",
+   "cite": "National Health Act 61 of 2003, s 7(1)(b)",
+   "title": "Consent of user — statutory order where nobody is mandated",
+   "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "the user is unable to give informed consent and no person is mandated or authorised to give such consent"
+  },
+  {
+   "id": "za-wills-2",
+   "cite": "Wills Act 7 of 1953, s 2",
+   "title": "Formalities required in the execution of a will",
+   "url": "https://www.justice.gov.za/legislation/acts/1953-07.pdf",
+   "kind": "statute",
+   "retrieved": "2026-09-17",
+   "quote": "no will executed on or after the first day of January, 1954, shall be valid unless the will is signed at the end thereof by the testator"
+  }
+ ],
+ "roles": [
+  {
+   "id": "za-curator-property",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curator (letters of curatorship)",
+   "localNames": [
+    "curator",
+    "letters of curatorship",
+    "curator bonis"
+   ],
+   "summary": "South Africa’s statutory substitute decision maker for property. Nobody may administer another’s property as curator without letters of curatorship from the Master, and the letters themselves fix the authority — a single act, care of the property, full administration, or carrying on a business.",
+   "lane": {
+    "assigned": {
+     "event": "Curator nominated by will or written instrument, or the Master appoints one where there is no nomination, where an absentee owns property, or where a court could appoint",
+     "phase": "incapacitated",
+     "citations": [
+      "za-aea-72",
+      "za-aea-73"
+     ]
+    },
+    "starts": {
+     "event": "On letters of curatorship being granted by the Master; without them no one may take care of or administer the property",
+     "phase": "incapacitated",
+     "citations": [
+      "za-aea-71",
+      "za-aea-76"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removal from office, the removal provisions for executors applying to curators",
+      "phase": "incapacitated",
+      "citations": [
+       "za-aea-85",
+       "za-aea-54"
+      ]
+     },
+     {
+      "event": "Death of the person, when the estate passes to the executor",
+      "phase": "deceased",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No curator"
+     },
+     {
+      "id": "nominated",
+      "label": "Nominated, no letters yet"
+     },
+     {
+      "id": "active",
+      "label": "Letters granted; authority as the letters specify"
+     },
+     {
+      "id": "ended",
+      "label": "Curatorship ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-cur-nominate",
+      "from": "none",
+      "to": "nominated",
+      "event": "Curator nominated by will or written instrument (s 72)",
+      "citations": [
+       "za-aea-72"
+      ]
+     },
+     {
+      "id": "za-t-cur-master",
+      "from": "none",
+      "to": "active",
+      "event": "Master appoints where there is no nomination, or for an absentee’s property (s 73)",
+      "citations": [
+       "za-aea-73"
+      ]
+     },
+     {
+      "id": "za-t-cur-letters",
+      "from": "nominated",
+      "to": "active",
+      "event": "Letters of curatorship granted; the letters fix whether the curator may perform a particular act, take care of, administer, or carry on a business (ss 71, 76)",
+      "citations": [
+       "za-aea-71",
+       "za-aea-76"
+      ]
+     },
+     {
+      "id": "za-t-cur-remove",
+      "from": "active",
+      "to": "ended",
+      "event": "Removal from office, s 54 applying to curators through s 85",
+      "citations": [
+       "za-aea-85",
+       "za-aea-54"
+      ]
+     },
+     {
+      "id": "za-t-cur-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the person; the estate passes to the executor (s 14)",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-executor-testamentary",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor testamentary",
+   "localNames": [
+    "executor testamentary",
+    "letters of executorship"
+   ],
+   "summary": "An executor nominated by will. Authority comes from the Master of the High Court issuing letters of executorship on written application, not from the will alone.",
+   "lane": {
+    "assigned": {
+     "event": "Nominated as executor by a will that has been registered and accepted in the office of the Master",
+     "phase": "capable",
+     "citations": [
+      "za-aea-14",
+      "za-wills-2"
+     ]
+    },
+    "starts": {
+     "event": "Master issues letters of executorship on written application",
+     "phase": "administration",
+     "citations": [
+      "za-aea-14"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate liquidated and distributed",
+      "phase": "closed",
+      "citations": [
+       "za-aea-18"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None nominated"
+     },
+     {
+      "id": "designated",
+      "label": "Nominated by will"
+     },
+     {
+      "id": "active",
+      "label": "Letters issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate wound up"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-et-name",
+      "from": "not_designated",
+      "to": "designated",
+      "event": "Nomination by a valid will (Wills Act s 2)",
+      "citations": [
+       "za-wills-2"
+      ]
+     },
+     {
+      "id": "za-t-et-letters",
+      "from": "designated",
+      "to": "active",
+      "event": "Master issues letters of executorship (s 14)",
+      "conditions": [
+       "written application",
+       "will registered and accepted by the Master"
+      ],
+      "citations": [
+       "za-aea-14"
+      ]
+     },
+     {
+      "id": "za-t-et-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate liquidated and distributed",
+      "citations": [
+       "za-aea-18"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-executor-dative",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Executor dative",
+   "localNames": [
+    "executor dative",
+    "letters of executorship"
+   ],
+   "summary": "Where nobody was nominated by will, or the nominee cannot be found or will not act, the Master appoints. On intestacy the estate then devolves under the Intestate Succession Act.",
+   "lane": {
+    "assigned": {
+     "event": "Master acts where there is no nomination, or the nominee's whereabouts are unknown, or they have died, are incapacitated or refuse to act",
+     "phase": "administration",
+     "citations": [
+      "za-aea-18"
+     ]
+    },
+    "starts": {
+     "event": "Master issues letters of executorship",
+     "phase": "administration",
+     "citations": [
+      "za-aea-18"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate liquidated and distributed to those entitled",
+      "phase": "closed",
+      "citations": [
+       "za-isa-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "None"
+     },
+     {
+      "id": "active",
+      "label": "Letters issued"
+     },
+     {
+      "id": "terminated",
+      "label": "Estate wound up"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-ed-appoint",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Master appoints on failure of nomination (s 18(1))",
+      "citations": [
+       "za-aea-18"
+      ]
+     },
+     {
+      "id": "za-t-ed-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Distribution, on intestacy under the Intestate Succession Act s 1",
+      "citations": [
+       "za-isa-1"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-small-estate",
+   "canonical": "small-estate-affiant",
+   "group": "estate",
+   "name": "Estate dealt with without an executor",
+   "localNames": [
+    "section 18(3) estate",
+    "Master's directions"
+   ],
+   "summary": "Where the estate is below the amount the Minister sets by notice in the Gazette, the Master may dispense with an executor altogether and direct how the estate is to be liquidated and distributed.",
+   "lane": {
+    "assigned": {
+     "event": "Master decides the estate falls under the Gazetted amount",
+     "phase": "administration",
+     "citations": [
+      "za-aea-18-3"
+     ]
+    },
+    "starts": {
+     "event": "Master gives directions in place of appointing an executor",
+     "phase": "administration",
+     "citations": [
+      "za-aea-18-3"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate liquidated and distributed as directed",
+      "phase": "closed",
+      "citations": [
+       "za-aea-18-3"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration",
+     "closed"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "not_designated",
+      "label": "Ordinary administration"
+     },
+     {
+      "id": "active",
+      "label": "Master's directions"
+     },
+     {
+      "id": "terminated",
+      "label": "Distributed"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-se-dispense",
+      "from": "not_designated",
+      "to": "active",
+      "event": "Master dispenses with an executor (s 18(3))",
+      "conditions": [
+       "estate does not exceed the amount determined by the Minister by notice in the Gazette"
+      ],
+      "citations": [
+       "za-aea-18-3"
+      ]
+     },
+     {
+      "id": "za-t-se-end",
+      "from": "active",
+      "to": "terminated",
+      "event": "Estate liquidated and distributed as directed",
+      "citations": [
+       "za-aea-18-3"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-health-mandate",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Person mandated in writing to consent",
+   "localNames": [
+    "mandated in writing"
+   ],
+   "summary": "South Africa has no enduring power of attorney, but the National Health Act lets a user mandate someone in writing to give informed consent to health services on their behalf once the user cannot give it themselves.",
+   "lane": {
+    "assigned": {
+     "event": "User mandates a person in writing to grant consent on his or her behalf",
+     "phase": "capable",
+     "citations": [
+      "za-nha-7-mandate"
+     ]
+    },
+    "starts": {
+     "event": "When the user is unable to give informed consent",
+     "phase": "incapacitated",
+     "citations": [
+      "za-nha-7-mandate",
+      "za-nha-7"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the user",
+      "phase": "deceased",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No mandate"
+     },
+     {
+      "id": "mandated",
+      "label": "Mandated in writing"
+     },
+     {
+      "id": "active",
+      "label": "Consenting for the user"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-hm-make",
+      "from": "none",
+      "to": "mandated",
+      "event": "User mandates a person in writing to grant consent (s 7(1)(a)(i))",
+      "citations": [
+       "za-nha-7-mandate"
+      ]
+     },
+     {
+      "id": "za-t-hm-act",
+      "from": "mandated",
+      "to": "active",
+      "event": "User becomes unable to give informed consent (s 7(1))",
+      "citations": [
+       "za-nha-7",
+       "za-nha-7-mandate"
+      ]
+     },
+     {
+      "id": "za-t-hm-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the user; the estate passes to the executor (Administration of Estates Act s 14)",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-default-consent",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Statutory consent order (spouse, partner, parent, grandparent, adult child, sibling)",
+   "localNames": [
+    "spouse or partner",
+    "in the specific order as listed"
+   ],
+   "summary": "Where the user cannot consent and nobody has been mandated or authorised, the Act names who consents, in a fixed order: spouse or partner, then a parent, grandparent, adult child, brother or sister.",
+   "lane": {
+    "assigned": {
+     "event": "No person mandated in writing or authorised by law or court order, and the user cannot give informed consent",
+     "phase": "incapacitated",
+     "citations": [
+      "za-nha-7-order"
+     ]
+    },
+    "starts": {
+     "event": "Consent is given by the spouse or partner, or failing them a parent, grandparent, adult child, brother or sister, in the specific order listed",
+     "phase": "incapacitated",
+     "citations": [
+      "za-nha-7-order",
+      "za-nha-7"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the user",
+      "phase": "deceased",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "User can consent"
+     },
+     {
+      "id": "active",
+      "label": "Statutory order applies"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-dc-act",
+      "from": "none",
+      "to": "active",
+      "event": "User unable to consent and nobody mandated or authorised, so the statutory order applies (s 7(1)(b))",
+      "citations": [
+       "za-nha-7-order",
+       "za-nha-7"
+      ]
+     },
+     {
+      "id": "za-t-dc-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the user (Administration of Estates Act s 14)",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-body-donation",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Donor of body or tissue, or the family in the statutory order",
+   "localNames": [
+    "donation of human bodies and tissue"
+   ],
+   "summary": "A person competent to make a will may donate their body or specified tissue by will, by a document signed before two competent witnesses, or by an oral statement before two. The donation must name a donee or it is null and void. Absent a donation or a contrary direction, the family may donate in a fixed order.",
+   "lane": {
+    "assigned": {
+     "event": "Person competent to make a will donates the body or specified tissue by will, signed document before two witnesses, or oral statement before two witnesses",
+     "phase": "capable",
+     "citations": [
+      "za-nha-62-1"
+     ]
+    },
+    "starts": {
+     "event": "After the person’s death; the donation must have nominated a donee or it is null and void",
+     "phase": "deceased",
+     "citations": [
+      "za-nha-62-donee",
+      "za-nha-62-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Donation acted on, or the family donate in the statutory order where the deceased made none",
+      "phase": "deceased",
+      "citations": [
+       "za-nha-62-2"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No donation"
+     },
+     {
+      "id": "donated",
+      "label": "Donation made, donee nominated"
+     },
+     {
+      "id": "void",
+      "label": "Donation null and void, no donee nominated"
+     },
+     {
+      "id": "family",
+      "label": "Family may donate in the statutory order"
+     },
+     {
+      "id": "ended",
+      "label": "Decided"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-bd-make",
+      "from": "none",
+      "to": "donated",
+      "event": "Donation by will, signed document before two witnesses, or oral statement before two (s 62(1)(a))",
+      "citations": [
+       "za-nha-62-1"
+      ]
+     },
+     {
+      "id": "za-t-bd-void",
+      "from": "none",
+      "to": "void",
+      "event": "Donation made but no donee nominated, so it is null and void (s 62(1)(b)-(c))",
+      "citations": [
+       "za-nha-62-donee"
+      ]
+     },
+     {
+      "id": "za-t-bd-none",
+      "from": "none",
+      "to": "family",
+      "event": "No donation and no contrary direction given while alive (s 62(2))",
+      "citations": [
+       "za-nha-62-2"
+      ]
+     },
+     {
+      "id": "za-t-bd-act",
+      "from": "donated",
+      "to": "ended",
+      "event": "Death; the nominated donee may act on the donation (s 62(1))",
+      "citations": [
+       "za-nha-62-1"
+      ]
+     },
+     {
+      "id": "za-t-bd-family",
+      "from": "family",
+      "to": "ended",
+      "event": "Spouse, partner, major child, parent, guardian, major brother or major sister donate, in the specific order (s 62(2))",
+      "citations": [
+       "za-nha-62-2"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "za-mhca-administrator",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Administrator of property (Mental Health Care Act)",
+   "localNames": [
+    "administrator"
+   ],
+   "summary": "The modern route for property, running alongside curatorship under the Administration of Estates Act. A Master of a High Court appoints an administrator to care for and administer the property of a mentally ill person or a person with severe or profound intellectual disability.",
+   "lane": {
+    "assigned": {
+     "event": "Any person over 18 applies in writing, under oath or solemn affirmation, to a Master of a High Court, or a High Court orders an appointment after an appeal or enquiry",
+     "phase": "incapacitated",
+     "citations": [
+      "za-mhca-60",
+      "za-mhca-59"
+     ]
+    },
+    "starts": {
+     "event": "The Master appoints an administrator to care for and administer the property",
+     "phase": "incapacitated",
+     "citations": [
+      "za-mhca-59"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Term of office terminated on application by the person concerned, the administrator, or whoever applied for the appointment",
+      "phase": "incapacitated",
+      "citations": [
+       "za-mhca-64"
+      ]
+     },
+     {
+      "event": "Death of the person, when the estate passes to the executor",
+      "phase": "deceased",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No administrator"
+     },
+     {
+      "id": "applied",
+      "label": "Application to the Master, or High Court order"
+     },
+     {
+      "id": "active",
+      "label": "Administering the property"
+     },
+     {
+      "id": "ended",
+      "label": "Term terminated"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "za-t-ma-apply",
+      "from": "none",
+      "to": "applied",
+      "event": "Application in writing under oath to a Master of a High Court, or a High Court order after appeal or enquiry (ss 59, 60)",
+      "citations": [
+       "za-mhca-60",
+       "za-mhca-59"
+      ]
+     },
+     {
+      "id": "za-t-ma-appoint",
+      "from": "applied",
+      "to": "active",
+      "event": "Master appoints an administrator to care for and administer the property (s 59)",
+      "citations": [
+       "za-mhca-59"
+      ]
+     },
+     {
+      "id": "za-t-ma-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Term of office terminated on application by the person, the administrator, or the original applicant (s 64)",
+      "citations": [
+       "za-mhca-64"
+      ]
+     },
+     {
+      "id": "za-t-ma-death",
+      "from": "active",
+      "to": "ended",
+      "event": "Death of the person (Administration of Estates Act s 14)",
+      "citations": [
+       "za-aea-14"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "features": {
+  "probateGrantName": {
+   "value": "letters of executorship",
+   "note": "Issued by the Master of the High Court rather than a court, both where an executor is nominated by will and where the Master appoints.",
+   "citations": [
+    "za-aea-14",
+    "za-aea-18"
+   ]
+  },
+  "smallEstateWithoutGrant": {
+   "value": true,
+   "threshold": null,
+   "currency": "ZAR",
+   "waitingDays": null,
+   "note": "The Master may dispense with an executor where the estate does not exceed an amount the Minister sets by notice in the Gazette. The Act itself does not state a figure, and the current notice was not retrieved, so no amount is recorded here.",
+   "citations": [
+    "za-aea-18-3"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "The mandate operates when the user is unable to give informed consent; there is no registration or court step.",
+   "citations": [
+    "za-nha-7",
+    "za-nha-7-mandate"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "note": "A donation must be made by will, by signed document before two competent witnesses, or orally before two, and must nominate a donee or it is null and void. Absent a donation, the family may donate in the order the Act sets.",
+   "citations": [
+    "za-nha-62-1",
+    "za-nha-62-donee",
+    "za-nha-62-2"
+   ]
+  }
+ }
+}

@@ -2,7 +2,6 @@
 import Base from '../layouts/Base.astro';
 import Margin from '../components/Margin.astro';
 import { getCollection } from 'astro:content';
-import { SITE } from '../consts';
 
 const essays = await getCollection('essays', ({ data }) => !data.draft);
 const talks = await getCollection('speaking');
@@ -41,14 +40,16 @@ const earliest = essays.length
       <div class="grid">
         <Margin
           label="The name"
-          notes={[{ note: 'Replace every plank and it is either the same ship or a very good copy. Two thousand years of argument, still unresolved.', tone: 'aside' }]}
+          notes={[{ note: 'Plutarch asked it of a thirty-oared galley. The xebec is only a ship the question happens to fit.', tone: 'aside' }]}
         />
         <div class="body">
           <p>
-            A xebec is a three-masted ship of the Mediterranean, fast and lateen-rigged and rebuilt
-            constantly. It is also the vessel philosophers keep dismantling to ask whether a thing
-            that has had all its parts replaced is still itself — which is the question this site is
-            about, put in wood rather than in data.
+            A xebec is a three-masted ship of the Mediterranean, fast and lateen-rigged and
+            rebuilt constantly — a working hull kept at sea by replacing it a piece at a time.
+            The Athenians kept Theseus' galley the same way, plank for plank, until the
+            philosophers wanted to know whether the thing in the harbour was still his ship.
+            Same question: how much of a thing can be swapped out before it stops being that
+            thing. Which is what this site is about, put in wood rather than in data.
           </p>
         </div>
       </div>
@@ -154,7 +155,6 @@ const earliest = essays.length
             redirects here path for path — so a link made years ago still lands where it was aimed.
           </p>
           <p>
-            Written and kept by {SITE.author} in {SITE.where}.
             <a href="/about/#contact">Corrections are welcome.</a>
           </p>
         </div>
