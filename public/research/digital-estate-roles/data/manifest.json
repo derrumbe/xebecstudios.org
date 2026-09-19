@@ -428,6 +428,19 @@
      "label": "US — Illinois"
     },
     {
+     "id": "us-la",
+     "name": "Louisiana",
+     "short": "LA",
+     "code": "LA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-la.json"
+     ],
+     "country": "us",
+     "note": "Louisiana is a civil-law jurisdiction. Roles come from the Civil Code and Code of Civil Procedure, with the Revised Statutes for trusts, anatomical gifts, life-sustaining procedures and disposition of remains. Names do not map onto the common-law model: mandate and mandatary rather than power of attorney and agent, interdiction and curator rather than guardianship and conservatorship, and succession rather than probate.",
+     "label": "US — Louisiana"
+    },
+    {
      "id": "us-mi",
      "name": "Michigan",
      "short": "MI",
@@ -893,6 +906,19 @@
    ],
    "country": "us",
    "label": "US — Illinois"
+  },
+  {
+   "id": "us-la",
+   "name": "Louisiana",
+   "short": "LA",
+   "code": "LA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-la.json"
+   ],
+   "country": "us",
+   "note": "Louisiana is a civil-law jurisdiction. Roles come from the Civil Code and Code of Civil Procedure, with the Revised Statutes for trusts, anatomical gifts, life-sustaining procedures and disposition of remains. Names do not map onto the common-law model: mandate and mandatary rather than power of attorney and agent, interdiction and curator rather than guardianship and conservatorship, and succession rather than probate.",
+   "label": "US — Louisiana"
   },
   {
    "id": "us-mi",
