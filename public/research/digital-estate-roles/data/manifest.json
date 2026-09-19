@@ -428,6 +428,18 @@
      "label": "US — Illinois"
     },
     {
+     "id": "us-mi",
+     "name": "Michigan",
+     "short": "MI",
+     "code": "MI",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-mi.json"
+     ],
+     "country": "us",
+     "label": "US — Michigan"
+    },
+    {
      "id": "us-ny",
      "name": "New York",
      "short": "NY",
@@ -462,6 +474,18 @@
      ],
      "country": "us",
      "label": "US — Ohio"
+    },
+    {
+     "id": "us-pa",
+     "name": "Pennsylvania",
+     "short": "PA",
+     "code": "PA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-pa.json"
+     ],
+     "country": "us",
+     "label": "US — Pennsylvania"
     },
     {
      "id": "us-tx",
@@ -859,6 +883,18 @@
    "label": "US — Illinois"
   },
   {
+   "id": "us-mi",
+   "name": "Michigan",
+   "short": "MI",
+   "code": "MI",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-mi.json"
+   ],
+   "country": "us",
+   "label": "US — Michigan"
+  },
+  {
    "id": "us-ny",
    "name": "New York",
    "short": "NY",
@@ -893,6 +929,18 @@
    ],
    "country": "us",
    "label": "US — Ohio"
+  },
+  {
+   "id": "us-pa",
+   "name": "Pennsylvania",
+   "short": "PA",
+   "code": "PA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-pa.json"
+   ],
+   "country": "us",
+   "label": "US — Pennsylvania"
   },
   {
    "id": "us-tx",

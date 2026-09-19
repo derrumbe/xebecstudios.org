@@ -1,0 +1,430 @@
+{
+ "jurisdiction": "us-pa",
+ "name": "Pennsylvania",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Trust Code",
+  "Revised Uniform Fiduciary Access to Digital Assets Act"
+ ],
+ "citations": [
+  {
+   "id": "pa-pacs-305",
+   "cite": "20 Pa.C.S. §305",
+   "title": "Right to dispose of a decedent's remains",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=3&sctn=5&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Absent an allegation of enduring estrangement, incompetence, contrary intent or waiver and agreement which is proven by clear and convincing evidence, a surviving spouse shall have the sole authority in all matters pertaining to the disposition of the remains of the decedent"
+  },
+  {
+   "id": "pa-pacs-3101",
+   "cite": "20 Pa.C.S. §3101",
+   "title": "Payments to family and funeral directors",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=31&sctn=1&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "may pay wages, salary or any employee benefits due the deceased in an amount not exceeding $10,000 to the spouse, any child, the father or mother, or any sister or brother (preference being given in the order named)"
+  },
+  {
+   "id": "pa-pacs-3102",
+   "cite": "20 Pa.C.S. §3102",
+   "title": "Settlement of small estates on petition",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=31&sctn=2&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "of a gross value not exceeding $50,000, the orphans' court division of the county wherein the decedent was domiciled at the time of his death, upon petition of any party in interest, in its discretion ... may direct distribution of the property"
+  },
+  {
+   "id": "pa-pacs-3155",
+   "cite": "20 Pa.C.S. §3155",
+   "title": "Persons entitled",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=31&sctn=55&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Letters testamentary shall be granted by the register to the executor designated in the will, whether or not he has declined a trust under the will"
+  },
+  {
+   "id": "pa-pacs-3904",
+   "cite": "20 Pa.C.S. §3904",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=39&sctn=4&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney or other record"
+  },
+  {
+   "id": "pa-pacs-3915",
+   "cite": "20 Pa.C.S. §3915",
+   "title": "Fiduciary duty and authority",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=39&sctn=15&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including: (1) the duty of care; (2) the duty of loyalty; and (3) the duty of confidentiality"
+  },
+  {
+   "id": "pa-pacs-5454",
+   "cite": "20 Pa.C.S. §5454",
+   "title": "When health care power of attorney operative",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=54&sctn=54&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "a health care power of attorney becomes operative when: (1) a copy is provided to the attending physician; and (2) the attending physician determines that the principal is incompetent"
+  },
+  {
+   "id": "pa-pacs-5461",
+   "cite": "20 Pa.C.S. §5461",
+   "title": "Decisions by health care representative",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=54&sctn=61&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "In the absence of a designation or if no designee is reasonably available, any member of the following classes, in descending order of priority, who is reasonably available may act as health care representative: (i) The spouse, unless an action for divorce is pending, and the adult children of the principal who are not the children of the spouse"
+  },
+  {
+   "id": "pa-pacs-5511",
+   "cite": "20 Pa.C.S. §5511",
+   "title": "Petition and hearing; independent evaluation",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=55&sctn=11&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The court, upon petition and hearing and upon the presentation of clear and convincing evidence, may find a person domiciled in the Commonwealth to be incapacitated and appoint a guardian or guardians of his person or estate"
+  },
+  {
+   "id": "pa-pacs-5521",
+   "cite": "20 Pa.C.S. §5521",
+   "title": "Provisions concerning powers, duties and liabilities",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=55&sctn=21&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "It shall be the duty of the guardian of the person to assert the rights and best interests of the incapacitated person. Expressed wishes and preferences of the incapacitated person shall be respected to the greatest possible extent."
+  },
+  {
+   "id": "pa-pacs-5601-1",
+   "cite": "20 Pa.C.S. §5601.1",
+   "title": "Powers of attorney presumed durable",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=56&sctn=1&subsctn=1",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Unless specifically provided otherwise in the power of attorney, all powers of attorney shall be durable as provided in section 5604"
+  },
+  {
+   "id": "pa-pacs-5604",
+   "cite": "20 Pa.C.S. §5604",
+   "title": "Durable powers of attorney",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=56&sctn=4&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A principal may provide in the power of attorney that the power shall become effective at a specified future time or upon the occurrence of a specified contingency, including the disability or incapacity of the principal"
+  },
+  {
+   "id": "pa-pacs-7764",
+   "cite": "20 Pa.C.S. §7764",
+   "title": "Vacancy in trusteeship; appointment of successor - UTC 704",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=77&sctn=64&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A vacancy in a trusteeship of a noncharitable trust that is required to be filled shall be filled in the following order of priority: (1) by a person designated in or pursuant to the terms of the trust to act as successor trustee"
+  },
+  {
+   "id": "pa-pacs-8611",
+   "cite": "20 Pa.C.S. §8611",
+   "title": "Persons who may execute anatomical gift",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=86&sctn=11&subsctn=0",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Any agent acting under a power of attorney, health care power of attorney or other document which expressly authorizes the agent to make anatomical gifts may effectuate a gift"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent under a durable power of attorney"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a written power of attorney; durability is the default and must be opted out of",
+     "phase": "capable",
+     "citations": [
+      "pa-pacs-5601-1",
+      "pa-pacs-5604"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Guardianship court determines, in its order, whether and to what extent the durable power remains in effect",
+      "phase": "incapacitated",
+      "citations": [
+       "pa-pacs-5604"
+      ]
+     }
+    ]
+   },
+   "diff": "Pennsylvania never enacted the Uniform Power of Attorney Act; Chapter 56 is its own, dating to 1982. It reaches the same default as the uniform act by a different route — §5601.1 presumes every power of attorney durable unless the instrument says otherwise — but adds two rules with no model counterpart. A principal may nominate the guardian of their estate or person in the power of attorney, and the court must appoint that nominee except for good cause or disqualification. And where a guardian is appointed, it is the court, in its guardianship order, that determines whether and how far the power of attorney survives, rather than the agent continuing until a conservator acts to limit them.",
+   "citations": [
+    "pa-pacs-5601-1",
+    "pa-pacs-5604"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "differs": false,
+   "diff": "Consistent with the baseline in effect. A Pennsylvania power of attorney is non-durable only where the principal specifically provides otherwise, and it then lapses on incapacity as the model describes. The default runs the same way as the uniform act, though it is reached through §5601.1's presumption of durability rather than the uniform act's own text.",
+   "citations": [
+    "pa-pacs-5601-1"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "lane": {
+    "starts": {
+     "event": "The future time or contingency stated in the instrument occurs; the statute names no one to certify it and supplies no default certifier",
+     "phase": "incapacitated",
+     "citations": [
+      "pa-pacs-5604"
+     ]
+    }
+   },
+   "diff": "Pennsylvania allows a springing power — §5604(a) lets the principal provide that it becomes effective at a specified future time or on a specified contingency, including incapacity — but stops there. It supplies no default machinery for deciding that the contingency has happened: no authorised determiner, and none of the uniform act's fallbacks of a physician or licensed psychologist for impairment, or an attorney, judge or governmental official for a principal who is missing or detained. Where the instrument itself names nobody, the statute leaves the question open, which is the sharpest divergence from the model for this role.",
+   "citations": [
+    "pa-pacs-5604"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care agent"
+   ],
+   "lane": {
+    "starts": {
+     "event": "A copy of the health care power of attorney is given to the attending physician and that physician determines the principal is incompetent",
+     "phase": "incapacitated",
+     "citations": [
+      "pa-pacs-5454"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Becomes inoperative during any time the attending physician determines the principal is competent",
+      "phase": "capable",
+      "citations": [
+       "pa-pacs-5454"
+      ]
+     }
+    ]
+   },
+   "diff": "Authority turns on two things rather than one: a copy of the instrument must actually reach the attending physician, and that physician must determine the principal is incompetent. Delivery is part of the trigger, so an undelivered health care power of attorney does not operate however clear its terms. The authority is also explicitly reversible — §5454(b) makes the instrument inoperative during any period the attending physician determines the principal is competent — so the role toggles with capacity rather than running from a single onset.",
+   "citations": [
+    "pa-pacs-5454"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "health care representative"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Designated by signed writing or by personally informing the attending physician, or by operation of the statutory classes",
+     "phase": "capable",
+     "citations": [
+      "pa-pacs-5461"
+     ]
+    },
+    "starts": {
+     "event": "Attending physician determines the individual is incompetent, there is no health care power of attorney or agent reasonably available, and no guardian of the person for health care decisions has been appointed",
+     "phase": "incapacitated",
+     "citations": [
+      "pa-pacs-5461"
+     ]
+    },
+    "ends": [
+     {
+      "event": "An individual of higher priority who is willing to act assumes the authority, displacing the person already acting",
+      "phase": "incapacitated",
+      "citations": [
+       "pa-pacs-5461"
+      ]
+     }
+    ]
+   },
+   "diff": "Pennsylvania's health care representative is gated more tightly than the model's default surrogate: it is unavailable unless there is no health care power of attorney or the agent is not reasonably available, and no guardian of the person has been appointed to make health care decisions. The first class is unusual — the spouse and the adult children of the principal who are not the children of that spouse sit together in one class, so a stepchild's parent does not decide alone. Two more features have no model counterpart: a higher-priority individual willing to act may assume the authority even after someone else has already begun exercising it, and the principal may reorder the classes, or disqualify named individuals from acting, by signed writing.",
+   "citations": [
+    "pa-pacs-5461"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Court finds incapacity on clear and convincing evidence after petition, personal service at least 20 days before the hearing, and notice in large type and simple language",
+     "phase": "incapacitated",
+     "citations": [
+      "pa-pacs-5511"
+     ]
+    }
+   },
+   "diff": "Pennsylvania did not enact the uniform guardianship and protective arrangements act. The standard is clear and convincing evidence, as in the model, but Chapter 55 wraps the appointment in procedural requirements the model does not state: written notice to the alleged incapacitated person in large type and simple language, explaining the seriousness of the proceeding and the rights that can be lost; personal service with the petition explained in terms the individual is most likely to understand; and service no less than 20 days before the hearing. The court may also dismiss a petition it finds was not brought to aid or benefit the person.",
+   "citations": [
+    "pa-pacs-5511",
+    "pa-pacs-5521"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "guardian of the estate"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Same petition and clear-and-convincing finding as for the person; the court appoints a guardian of the estate",
+     "phase": "incapacitated",
+     "citations": [
+      "pa-pacs-5511"
+     ]
+    }
+   },
+   "diff": "Pennsylvania has no conservator. The property fiduciary is a guardian of the estate, appointed in the same proceeding and on the same clear-and-convincing finding as a guardian of the person, and §5521(b) takes its powers, duties and liabilities from those of a fiduciary under the rest of the code rather than stating a separate scheme.",
+   "citations": [
+    "pa-pacs-5511",
+    "pa-pacs-5521"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor"
+   ],
+   "lane": {
+    "starts": {
+     "event": "The register of wills grants letters testamentary to the executor designated in the will",
+     "phase": "deceased",
+     "citations": [
+      "pa-pacs-3155"
+     ]
+    }
+   },
+   "diff": "Letters are granted by the register of wills, a county officer, not by a court, and Pennsylvania is not a Uniform Probate Code state: there is no informal/formal split and no 120-hour waiting rule. §3155(a) directs the register to grant letters testamentary to the executor designated in the will whether or not that person has declined a trust under the will, which keeps the office of executor separate from any trusteeship the will also creates.",
+   "citations": [
+    "pa-pacs-3155"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Register grants letters of administration in statutory order, except for good cause",
+     "phase": "deceased",
+     "citations": [
+      "pa-pacs-3155"
+     ]
+    }
+   },
+   "diff": "The order differs from the model's and is administered by the register of wills. Residuary beneficiaries under the will come first, ahead of the surviving spouse; then those entitled under the intestate law, among whom the register chooses in their own discretion, preferring larger shares; then the principal creditors of the decedent, who rank as a class rather than only after a waiting period; then other fit persons. A person who renounces may have their own nominee preferred over the next class. The list also reaches two institutional appointees the model does not contemplate: a guardianship support agency that served the decedent, and a redevelopment authority.",
+   "citations": [
+    "pa-pacs-3155"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "petitioner for settlement of a small estate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Any party in interest petitions the orphans' court division where gross personal property does not exceed $50,000",
+     "phase": "deceased",
+     "citations": [
+      "pa-pacs-3102"
+     ]
+    },
+    "starts": {
+     "event": "Court directs distribution, in its discretion, whether or not letters have issued or a will has been probated",
+     "phase": "administration",
+     "citations": [
+      "pa-pacs-3102"
+     ]
+    }
+   },
+   "diff": "Pennsylvania does not use a small-estate affidavit. Collection runs through a petition to the orphans' court division, which may direct distribution in its discretion where the gross estate, excluding real estate and anything already paid under §3101, does not exceed $50,000 — and it may do so whether or not letters have issued or a will has been probated. Separately, §3101 lets an employer, without any letters, pay up to $10,000 of wages, salary or employee benefits to the spouse, a child, a parent or a sibling in that order of preference.",
+   "citations": [
+    "pa-pacs-3102",
+    "pa-pacs-3101"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "differs": false,
+   "diff": "Consistent with the baseline. §7764 is captioned as UTC 704 and carries it: the same vacancy events, no need to fill a vacancy while a cotrustee remains and the terms do not require it, and the same order for a noncharitable trust — the person designated in or under the trust, then unanimous written agreement of the qualified beneficiaries, then the court. Pennsylvania states the incapacity limb in its own terms, as a court determination under §5511, rather than as the appointment of a guardian or conservator.",
+   "citations": [
+    "pa-pacs-7764"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "differs": false,
+   "diff": "Consistent with the baseline. Pennsylvania enacted RUFADAA late, as Chapter 39 by Act 72 of 2020, effective 19 January 2021, and §3904 carries the user-direction provision without substantive change: an online-tool direction the user may modify or delete at all times overrides a contrary direction in a will, trust, power of attorney or other record, and any such direction overrides a terms-of-service provision the user did not assent to separately.",
+   "citations": [
+    "pa-pacs-3904"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "differs": false,
+   "diff": "Consistent with the baseline. §3915 carries RUFADAA's fiduciary provision unchanged: care, loyalty and confidentiality apply to digital assets as to tangible property; authority is bounded by the terms of service, other law including copyright, and the scope of the fiduciary's duties; it may not be used to impersonate the user; and a fiduciary acting within their duties is an authorised user for computer-crime purposes.",
+   "citations": [
+    "pa-pacs-3915"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "lane": {
+    "starts": {
+     "event": "Only where the power of attorney, health care power of attorney or other document expressly authorises the agent to make anatomical gifts",
+     "phase": "capable",
+     "citations": [
+      "pa-pacs-8611"
+     ]
+    }
+   },
+   "diff": "Pennsylvania never adopted the 2006 revised uniform anatomical gift act, and §8611 inverts the model's default for agents. The uniform text lets an agent make a gift unless the instrument prohibits it; Pennsylvania lets the agent act only under a document which 'expressly authorizes the agent to make anatomical gifts', so silence defeats the agent. Two further limits have no model counterpart: a minor of 16 or older may make a gift with parental or guardian consent noted on the donor card or licence application, and a gift of the whole body is invalid unless made in writing at least 15 days before death or consented to by the legal next of kin.",
+   "citations": [
+    "pa-pacs-8611"
+   ]
+  },
+  {
+   "role": "pa-disposition-authority",
+   "name": "Person with the right to dispose of a decedent's remains",
+   "group": "remains",
+   "canonical": "disposition-of-remains-agent",
+   "stateSpecific": true,
+   "lane": {
+    "assigned": {
+     "event": "Surviving spouse by operation of §305, subject to the decedent's will and any waiver and agreement",
+     "phase": "deceased",
+     "citations": [
+      "pa-pacs-305"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Authority defeated by enduring estrangement, incompetence, contrary intent, or waiver and agreement, proven by clear and convincing evidence",
+      "phase": "deceased",
+      "citations": [
+       "pa-pacs-305"
+      ]
+     }
+    ]
+   },
+   "diff": "Pennsylvania gives the surviving spouse sole authority over disposition of the remains, but uniquely qualifies it: the authority falls away on an allegation of enduring estrangement, incompetence, contrary intent, or waiver and agreement, proven by clear and convincing evidence. For a member of the armed forces a DD Form 93 executed later in time overrides even a valid will.",
+   "citations": [
+    "pa-pacs-305"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,360 @@
+{
+ "jurisdiction": "us-mi",
+ "name": "Michigan",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Power of Attorney Act (modified)",
+  "Uniform Probate Code",
+  "Uniform Trust Code",
+  "Revised Uniform Fiduciary Access to Digital Assets Act",
+  "Revised Uniform Anatomical Gift Act"
+ ],
+ "citations": [
+  {
+   "id": "mi-mcl-333-10104",
+   "cite": "Mich. Comp. Laws §333.10104",
+   "title": "Anatomical gift of donor's body or body part; persons making gift",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-10104",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift"
+  },
+  {
+   "id": "mi-mcl-556-204",
+   "cite": "Mich. Comp. Laws §556.204",
+   "title": "Limited presumption of durability",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-556-204",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A power of attorney created on or after the effective date of this act that is executed in accordance with section 105(2) or (3) is durable unless it expressly provides that it is terminated by the incapacity of the principal. A power of attorney ... that is not executed in accordance with section 105(2) or (3) is not durable."
+  },
+  {
+   "id": "mi-mcl-556-205",
+   "cite": "Mich. Comp. Laws §556.205",
+   "title": "Execution of power of attorney; requirements",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-556-205",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "To be durable, a power of attorney signed under subsection (1)(a) must meet 1 of the following requirements: (a) Be acknowledged by the principal before a notary public ... (b) Be signed in the presence of 2 witnesses, both of whom also sign the power"
+  },
+  {
+   "id": "mi-mcl-556-209",
+   "cite": "Mich. Comp. Laws §556.209",
+   "title": "Effective date of power of attorney",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-556-209",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "the power becomes effective on a determination in a record by either of the following: (a) A physician or licensed psychologist ... (b) An attorney at law, a judge, or an appropriate governmental official"
+  },
+  {
+   "id": "mi-mcl-700-1004",
+   "cite": "Mich. Comp. Laws §700.1004",
+   "title": "Disclosure of user's digital assets; use of online tool to direct digital custodian",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-1004",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+  },
+  {
+   "id": "mi-mcl-700-1015",
+   "cite": "Mich. Comp. Laws §700.1015",
+   "title": "Duties and authority of fiduciary",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-1015",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The legal duties imposed on a fiduciary charged with managing tangible personal property apply to the management of digital assets, including all of the following: (a) The duty of care. (b) The duty of loyalty. (c) The duty of confidentiality."
+  },
+  {
+   "id": "mi-mcl-700-3203",
+   "cite": "Mich. Comp. Laws §700.3203",
+   "title": "Priority among persons seeking appointment as a general personal representative",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3203",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "(f) After 42 days after the decedent's death, the nominee of a creditor if the court finds the nominee suitable. (g) After 63 days after the decedent's death, or if the court determines exigent circumstances exist, the state or county public administrator"
+  },
+  {
+   "id": "mi-mcl-700-3206",
+   "cite": "Mich. Comp. Laws §700.3206",
+   "title": "Right and power to make decisions about funeral arrangements; funeral representative designation; priority",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3206",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "an individual 18 years of age or older who is of sound mind at the time a funeral representative designation is made may designate in writing another individual who is 18 years of age or older and who is of sound mind to have the rights and powers under subsection (1)"
+  },
+  {
+   "id": "mi-mcl-700-3983",
+   "cite": "Mich. Comp. Laws §700.3983",
+   "title": "Collection of personal property by sworn statement",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3983",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The estate does not include real property and the value of the entire estate, wherever located, net of liens and encumbrances, does not exceed $50,000.00, adjusted as provided in section 1210"
+  },
+  {
+   "id": "mi-mcl-700-5306",
+   "cite": "Mich. Comp. Laws §700.5306",
+   "title": "Court appointment of guardian of incapacitated person; findings",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5306",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The court may appoint a guardian if the court finds by clear and convincing evidence both that the individual for whom a guardian is sought is an incapacitated individual and that the appointment is necessary ... with each finding supported separately on the record"
+  },
+  {
+   "id": "mi-mcl-700-5401",
+   "cite": "Mich. Comp. Laws §700.5401",
+   "title": "Protective proceedings",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5401",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The individual is unable to manage property and business affairs effectively for reasons such as mental illness, mental deficiency, physical illness or disability, chronic use of drugs, chronic intoxication, confinement, detention by a foreign power, or disappearance"
+  },
+  {
+   "id": "mi-mcl-700-5506",
+   "cite": "Mich. Comp. Laws §700.5506",
+   "title": "Designation of patient advocate",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5506",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "An individual 18 years of age or older who is of sound mind at the time a patient advocate designation is made may designate in writing another individual who is 18 years of age or older to exercise powers concerning care, custody, and medical or mental health treatment decisions"
+  },
+  {
+   "id": "mi-mcl-700-5508",
+   "cite": "Mich. Comp. Laws §700.5508",
+   "title": "Determination of advocate's authority to act",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5508",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The patient's attending physician and another physician or licensed psychologist shall determine upon examination of the patient whether the patient is unable to participate in medical treatment decisions, shall put the determination in writing, shall make the determination part of the patient's medical record, and shall review the determination not less than annually"
+  },
+  {
+   "id": "mi-mcl-700-7704",
+   "cite": "Mich. Comp. Laws §700.7704",
+   "title": "Vacancy in trusteeship; manner of filling; priority",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-7704",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A vacancy in a trusteeship occurs if 1 or more of the following occur: (a) A person designated as trustee rejects the trusteeship ... (f) A guardian or conservator is appointed for an individual serving as trustee"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent under a durable power of attorney"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a power of attorney that is either acknowledged before a notary or signed before two witnesses who also sign",
+     "phase": "capable",
+     "citations": [
+      "mi-mcl-556-204",
+      "mi-mcl-556-205"
+     ]
+    }
+   },
+   "diff": "Michigan repealed its old durable power provisions at MCL 700.5501 to 700.5505 and enacted the Uniform Power of Attorney Act as 2023 PA 187, effective 1 July 2024, codified outside the estates code at MCL 556.201 to 556.505. It did not take the uniform act's durability rule unchanged. §104 is captioned a limited presumption of durability: a power is durable only if it was executed with the formalities in §105 — acknowledged before a notary, or signed before two witnesses who also sign, neither of whom may be an agent nominated in the power — and a power not executed that way is not durable at all, however clearly it says otherwise. Under the uniform text durability turns only on what the instrument says, not on how it was witnessed.",
+   "citations": [
+    "mi-mcl-556-204",
+    "mi-mcl-556-205"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal's incapacity, which also ends any power that failed the durability formalities",
+      "phase": "incapacitated",
+      "citations": [
+       "mi-mcl-556-204"
+      ]
+     }
+    ]
+   },
+   "diff": "A Michigan power of attorney is non-durable in two ways, not one. It is non-durable where the principal expressly says it terminates on incapacity, as the model describes, and also where it simply was not acknowledged or witnessed as §105 requires. The second route has no model counterpart: a defect of execution, rather than any choice by the principal, is enough to make the authority lapse on incapacity.",
+   "citations": [
+    "mi-mcl-556-204",
+    "mi-mcl-556-205"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "differs": false,
+   "diff": "Consistent with the baseline. MCL 556.209 carries uniform §109 without substantive change: effective on execution unless the instrument sets a future date, event or contingency; the principal may authorise one or more persons to determine in a record that it occurred; and failing that a physician or licensed psychologist certifies incapacity, while an attorney at law, a judge or an appropriate governmental official certifies that the principal is missing or detained. Whoever the principal authorises may act as the principal's HIPAA personal representative so far as needed to make the determination.",
+   "citations": [
+    "mi-mcl-556-209"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "patient advocate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Designation in writing by an individual 18 or older of sound mind; the patient advocate must accept before acting",
+     "phase": "capable",
+     "citations": [
+      "mi-mcl-700-5506"
+     ]
+    },
+    "starts": {
+     "event": "The attending physician and a second physician or licensed psychologist determine on examination that the patient cannot participate in treatment decisions, in writing and in the medical record",
+     "phase": "incapacitated",
+     "citations": [
+      "mi-mcl-700-5508"
+     ]
+    }
+   },
+   "diff": "Michigan calls the role a patient advocate and gates it more tightly than the model's health-care agent. Two clinicians are needed, not one — the attending physician and another physician or licensed psychologist, each on examination — and the determination must be written into the medical record and reviewed at least annually, so the authority does not simply persist once switched on. Where the patient's religious beliefs forbid an examination and the designation says so, the designation itself must state how the determination is to be made. The designation may also carry express authority to make an anatomical gift, and to resolve a conflict between the advance directive and the steps needed to keep a gift medically suitable.",
+   "citations": [
+    "mi-mcl-700-5506",
+    "mi-mcl-700-5508"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "unverified": true,
+   "diff": "Michigan appears to have no default health-care surrogate of the kind the model describes. Authority to decide for an incapacitated patient runs either through a patient advocate the individual designated in advance, or through a guardian appointed by the probate court; no statute in the estates code was found placing family members in a priority order for consent where neither exists. This is a negative finding and is not itself citable, so it is marked unverified and drawn dashed: the sections cited are the two routes that do exist, not authority for the absence of a third.",
+   "citations": [
+    "mi-mcl-700-5506",
+    "mi-mcl-700-5306"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "lane": {
+    "starts": {
+     "event": "Court finds by clear and convincing evidence both that the individual is incapacitated and that appointment is necessary, each supported separately on the record",
+     "phase": "incapacitated",
+     "citations": [
+      "mi-mcl-700-5306"
+     ]
+    }
+   },
+   "diff": "Michigan's estates code is built on the Uniform Probate Code rather than the uniform guardianship and protective arrangements act the model follows. The standard is clear and convincing evidence, but §5306 requires two findings — incapacity, and that a guardian is necessary as a means of providing continuing care and supervision — each supported separately on the record, and the court must grant only those powers and only for the period the demonstrated need requires. The guardian cannot change the individual's residence except under §5306b, and the guardianship must be designed to encourage maximum self-reliance and independence.",
+   "citations": [
+    "mi-mcl-700-5306"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "lane": {
+    "starts": {
+     "event": "Court appoints a conservator on finding the individual cannot manage property and affairs effectively and that protection is necessary",
+     "phase": "incapacitated",
+     "citations": [
+      "mi-mcl-700-5401"
+     ]
+    }
+   },
+   "diff": "Michigan states the grounds in the older Uniform Probate Code terms rather than the model's. §5401 asks whether the individual is unable to manage property and business affairs effectively 'for reasons such as mental illness, mental deficiency, physical illness or disability, chronic use of drugs, chronic intoxication, confinement, detention by a foreign power, or disappearance' — a list of causes. The model instead asks whether the person can receive and evaluate information or make and communicate decisions even with supportive services, technological assistance and supported decision making, which is a functional test that Michigan's text does not carry.",
+   "citations": [
+    "mi-mcl-700-5401"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "differs": false,
+   "diff": "Consistent with the baseline. Michigan follows the Uniform Probate Code here: for formal and informal proceedings alike, first priority goes to the person with priority under a probated will, including a person nominated by a power conferred in the will, then the surviving spouse if a devisee, then other devisees. The Michigan-specific waiting periods in the same section bear on who may be appointed where no one with priority comes forward, which is the administrator's case rather than the executor's.",
+   "citations": [
+    "mi-mcl-700-3203"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "lane": {
+    "assigned": {
+     "event": "Statutory priority; a creditor's nominee only after 42 days, and the public administrator only after 63 days or on a finding of exigent circumstances",
+     "phase": "deceased",
+     "citations": [
+      "mi-mcl-700-3203"
+     ]
+    }
+   },
+   "diff": "The order tracks the Uniform Probate Code but the clock and the tail of the list do not. A creditor's nominee becomes eligible 42 days after death rather than the 45 the uniform act uses, and the court must still find the nominee suitable. After 63 days, or earlier if the court finds exigent circumstances, the state or county public administrator may be appointed — a class the model does not carry — on grounds that include no interested person having applied, the decedent apparently leaving no known heirs, or there being no spouse, heir or will beneficiary who is a United States resident.",
+   "citations": [
+    "mi-mcl-700-3203"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "successor collecting by sworn statement"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Successor presents the death certificate and a sworn statement, no earlier than 28 days after death",
+     "phase": "deceased",
+     "citations": [
+      "mi-mcl-700-3983"
+     ]
+    }
+   },
+   "diff": "Michigan sets a 28-day wait rather than the model's 30 days, and bars the route entirely where the estate includes any real property. The ceiling is $50,000 as enacted, but the statute ties it to the inflation adjustment in §1210, so the operative figure in any given year is the adjusted one rather than the number on the page. The sworn statement must also say that no application or petition for appointment of a personal representative is pending.",
+   "citations": [
+    "mi-mcl-700-3983"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "differs": false,
+   "diff": "Consistent with the baseline. MCL 700.7704 carries the Uniform Trust Code vacancy rule, including the appointment of a guardian or conservator for an individual trustee as a vacancy event. Michigan adds wording for trusts using a separate trustees provision, spelling out that the relation between separate trustees is not itself a cotrusteeship and when such a vacancy must be filled; the ordinary single-trustee case runs as the model describes.",
+   "citations": [
+    "mi-mcl-700-7704"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "differs": false,
+   "diff": "Consistent with the baseline. Michigan enacted RUFADAA as a standalone statute, the Fiduciary Access to Digital Assets Act, 2016 PA 59, at MCL 700.1001 to 700.1018 rather than inside the estates code. §1004 carries the user-direction provision unchanged: an online-tool direction the user may modify or delete at all times overrides a contrary direction in a will, trust, power of attorney or other record.",
+   "citations": [
+    "mi-mcl-700-1004"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "differs": false,
+   "diff": "Consistent with the baseline. §1015 carries RUFADAA's fiduciary provision: care, loyalty and confidentiality apply to digital assets as to tangible personal property; authority is bounded by the terms-of-service agreement, other law including copyright, and the scope of the fiduciary's duties; and it may not be used to impersonate the user.",
+   "citations": [
+    "mi-mcl-700-1015"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "differs": false,
+   "diff": "Consistent with the baseline. Michigan took the revised uniform anatomical gift act into the public health code, and §10104(b) keeps the uniform default: the donor's agent may make a gift unless the power of attorney for health care or other record prohibits it, so silence leaves the agent able to act. Michigan fills in its own minor donor rule, allowing a donor of at least 16 who holds a driver licence or identification card. Separately, a patient advocate designation may carry express anatomical gift authority under §5506.",
+   "citations": [
+    "mi-mcl-333-10104"
+   ]
+  },
+  {
+   "role": "mi-funeral-representative",
+   "name": "Funeral representative",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "stateSpecific": true,
+   "lane": {
+    "assigned": {
+     "event": "Designated in writing by an individual 18 or older of sound mind, ahead of the statutory family priority",
+     "phase": "capable",
+     "citations": [
+      "mi-mcl-700-3206"
+     ]
+    },
+    "starts": {
+     "event": "Death of the decedent; the designee is presumed to hold the right and power over funeral arrangements and disposition",
+     "phase": "deceased",
+     "citations": [
+      "mi-mcl-700-3206"
+     ]
+    }
+   },
+   "diff": "Michigan lets a person appoint a funeral representative in advance, who outranks the statutory family order rather than merely sitting within it, and whose authority is stated as a presumption of the right and power to decide funeral arrangements, handling, disposition and disinterment, including cremation and immediate possession of cremated remains. The handling or disposition must be carried out under the supervision of someone licensed to practise mortuary science in Michigan, and a person criminally charged with intentionally killing the decedent is dealt with separately in the same section.",
+   "citations": [
+    "mi-mcl-700-3206"
+   ]
+  }
+ ]
+}
