@@ -1,7 +1,7 @@
 ---
 title: "Call Me Mark Jannell: The Future of Bring Your Own Identity"
 date: 2022-04-15
-subject: Technology  # TODO re-file: Technology | History | Philosophy
+subject: Technology
 description: "TODO write a one-line description"
 legacySlug: "call-me-mark-jannell"
 # ~5 min

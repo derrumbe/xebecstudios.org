@@ -1,7 +1,7 @@
 ---
 title: "Admiral Nelson, Identity, and the Internet of Things"
 date: 2017-10-09
-subject: Technology  # TODO re-file: Technology | History | Philosophy
+subject: Technology
 description: "On October 21, 1805, the world changed. At the Battle of Trafalgar, British Admiral Horatio Nelson introduced a new strategy for naval warfare, one which points the way to an identity strategy for the Identity of Things."
 legacySlug: "admiral-nelson-identity-and-the-internet-of-things"
 # ghost tags were: Identity, History

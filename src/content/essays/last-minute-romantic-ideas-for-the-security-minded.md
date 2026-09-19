@@ -1,7 +1,7 @@
 ---
 title: "Last Minute Romantic Ideas for the Security-Minded"
 date: 2019-02-14
-subject: Technology  # TODO re-file: Technology | History | Philosophy
+subject: Technology
 description: "A quick list of ideas for the romantically-minded procrastinator."
 legacySlug: "last-minute-romantic-ideas-for-the-security-minded"
 # ghost tags were: Satire

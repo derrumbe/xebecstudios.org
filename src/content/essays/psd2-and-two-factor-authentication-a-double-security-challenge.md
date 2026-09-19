@@ -1,7 +1,7 @@
 ---
 title: "PSD2 and Two-factor Authentication: A Double Security Challenge"
 date: 2019-08-07
-subject: Technology  # TODO re-file: Technology | History | Philosophy
+subject: Technology
 description: "Open banking provides an opportunity for innovation and a challenge for consumer privacy."
 legacySlug: "psd2-and-two-factor-authentication-a-double-security-challenge"
 # ghost tags were: Finance, Identity

@@ -1,7 +1,7 @@
 ---
 title: "A Cher-based Lament for Lost Data"
 date: 2019-04-01
-subject: Technology  # TODO re-file: Technology | History | Philosophy
+subject: Technology
 description: "Great suffering produces great art."
 legacySlug: "a-cher-based-lament-for-improper"
 # ghost tags were: Satire

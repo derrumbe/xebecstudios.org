@@ -1,7 +1,7 @@
 ---
 title: "Trust in Numbers: An Ethical (and Practical) Standard for Identity-Driven Algorithms"
 date: 2019-11-22
-subject: Technology  # TODO re-file: Technology | History | Philosophy
+subject: Philosophy
 description: "The story of Tarra Simmons asks 'Does the past predict the future?' and prompts a proposal for an identity-centric approach to ethics."
 legacySlug: "trust-in-numbers"
 # ghost tags were: Identity, Ethics

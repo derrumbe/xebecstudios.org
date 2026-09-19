@@ -1,7 +1,7 @@
 ---
 title: "The Technical Debt of Facial Recognition"
 date: 2020-11-11
-subject: Technology  # TODO re-file: Technology | History | Philosophy
+subject: Philosophy
 description: "TODO write a one-line description"
 legacySlug: "the-technical-debt-of-facial-recognition"
 # ~5 min
