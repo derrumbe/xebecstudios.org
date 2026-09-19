@@ -2,6 +2,7 @@
 title: "Living Like the 3%: A Secure User Experience on Financial Applications"
 date: 2019-05-08
 subject: Technology
+tags: [Finance, Security]
 description: "Only 3% of financial apps deliver a secure experience for their users. What's the real cost?"
 legacySlug: "living-like-the-3-user-experience-on-financial-apps"
 # ghost tags were: Finance, Security

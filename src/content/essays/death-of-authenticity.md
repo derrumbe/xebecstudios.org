@@ -2,6 +2,7 @@
 title: The Death of Authenticity
 date: 2025-09-20
 subject: Philosophy
+tags: [AI, Ethics]
 description: Authenticity is being undermined, and not just by technology.
 legacySlug: death-of-authenticity
 talk: "recovering-bolero-and-the-death-of-authenticity"

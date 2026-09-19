@@ -2,6 +2,7 @@
 title: "It’s Not Fair! Detecting Algorithmic Bias with Open Source Tools"
 date: 2022-06-03
 subject: Technology
+tags: [AI, Ethics]
 description: "TODO write a one-line description"
 legacySlug: "its-not-fair-detecting-algorithmic-bias-with-open-source-tools"
 # ~3 min

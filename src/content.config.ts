@@ -10,6 +10,29 @@ export const SUBJECTS = ['Technology', 'History', 'Philosophy'] as const;
 const subject = z.enum(SUBJECTS);
 
 /**
+ * The second axis. Subjects answer "what kind of thinking is this"; tags answer
+ * "what is it about", which is the question the Ghost tags were really
+ * answering. Deliberately a closed list and deliberately disjoint from
+ * SUBJECTS: a free-text tag field drifts into Security/security/InfoSec within
+ * a year, and a tag sharing a name with a subject would make /subjects/history
+ * ambiguous the day anyone builds tag pages.
+ *
+ * Tags display on the essay and nowhere else — they are not a second filter
+ * row. Three subjects is the navigation; this is provenance.
+ */
+export const TAGS = [
+  'Identity',
+  'Security',
+  'Privacy',
+  'Ethics',
+  'Finance',
+  'AI',
+  'Satire',
+  'Sport',
+] as const;
+const tag = z.enum(TAGS);
+
+/**
  * Optional, and tolerant of an empty key.
  *
  * Clearing a value in Obsidian's Properties panel leaves the key behind with
@@ -27,6 +50,11 @@ const essays = defineCollection({
     date: z.coerce.date(),
     updated: opt(z.coerce.date()),
     subject,
+    // nullish, not .default([]): clearing the list in Obsidian's Properties
+    // panel leaves `tags:` with nothing after it, and a bare default still
+    // rejects the null that YAML reads there. Absent, null and empty all
+    // normalise to [], so the layout never has to guard.
+    tags: z.array(tag).nullish().transform((v) => v ?? []),
     // Shown on the index and in meta tags. Keep it to one or two sentences.
     description: z.string(),
     draft: z.boolean().default(false),

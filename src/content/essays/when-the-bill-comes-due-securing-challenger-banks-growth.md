@@ -2,6 +2,7 @@
 title: "When the Bill Comes Due: Securing Challenger Banks’ Growth"
 date: 2020-01-29
 subject: Technology
+tags: [Finance, Security]
 description: "The ongoing surge in financial innovation can only be sustained by a continued demonstration that new technology is safe — and that it can be trusted with valuable assets."
 legacySlug: "when-the-bill-comes-due-securing-challenger-banks-growth"
 # ghost tags were: Finance, Security

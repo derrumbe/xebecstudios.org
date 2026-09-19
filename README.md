@@ -28,6 +28,27 @@ a frontmatter field fails the build rather than silently rendering wrong.
 that list. Add a fourth and everything picks it up — but four is about the
 ceiling before the filter row stops being scannable.
 
+**Tags are the other axis.** An essay has exactly one subject — what kind of
+thinking it is — and any number of tags saying what it is about: `Identity`,
+`Security`, `Privacy`, `Ethics`, `Finance`, `AI`, `Satire`, `Sport`. Also a
+closed list in `src/content.config.ts`, and deliberately sharing no names with
+the subjects, so nothing is ambiguous about which axis `History` belongs to.
+
+```yaml
+subject: Technology
+tags: [Identity, Privacy]
+```
+
+Tags display in the essay's margin apparatus and nowhere else. They are not a
+second filter row and they do not link anywhere: three subjects is the
+navigation, and this is provenance — most of these essays reach for history or
+ethics on the way to a point about identity, and one bin cannot say so.
+
+Nearly every essay is Technology-plus-something, which is why the subject is
+the *destination* of the argument rather than its starting material. Trafalgar,
+Spartacus and Bernoulli's smallpox model are all hooks; the piece lands on
+identity governance each time, and is filed there.
+
 Essays live at the site root (`/death-of-authenticity/`), not under `/essays/`.
 That is deliberate: it is exactly where Ghost served them, so old inbound links
 survive the move untouched.
@@ -154,6 +175,11 @@ input only, and the script writes its slug list to `dist-redirects/` instead.
 It does *not* pick subjects. Everything lands as `Technology` with a `TODO
 re-file` comment. Search for that string and go through them by hand — there
 are about thirty, and the taxonomy is the one thing worth your own eyes.
+
+Nor does it write `tags`. Ghost's own tags are preserved as a `# ghost tags
+were:` comment in the frontmatter, which is a starting point and not an answer:
+Ghost's vocabulary was larger and included `History`, which is a subject here.
+Promote them by hand.
 
 Ghost *pages* (About, Contact, Speaking, Projects, Media) are skipped by
 `migrate`. They were hand-maintained lists, and here they become two different

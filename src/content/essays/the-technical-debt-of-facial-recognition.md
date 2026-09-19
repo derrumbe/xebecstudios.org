@@ -2,6 +2,7 @@
 title: "The Technical Debt of Facial Recognition"
 date: 2020-11-11
 subject: Philosophy
+tags: [AI, Ethics, Privacy]
 description: "TODO write a one-line description"
 legacySlug: "the-technical-debt-of-facial-recognition"
 # ~5 min

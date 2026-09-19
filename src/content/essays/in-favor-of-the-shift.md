@@ -2,6 +2,7 @@
 title: "In Favor of the Shift"
 date: 2020-05-20
 subject: Technology
+tags: [Identity, Sport]
 description: "The shift is good for both baseball and identity."
 legacySlug: "in-favor-of-the-shift"
 # ghost tags were: Identity, Sport

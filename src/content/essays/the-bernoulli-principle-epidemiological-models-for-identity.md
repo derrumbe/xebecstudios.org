@@ -2,6 +2,7 @@
 title: "The Bernoulli Principle: Epidemiological Models for Identity"
 date: 2019-07-10
 subject: Technology
+tags: [Identity]
 description: "How the eradication of Smallpox shows a way forward for identity models."
 legacySlug: "the-bernoulli-principle-epidemiological-models-for-identity"
 # ghost tags were: Identity, History

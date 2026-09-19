@@ -2,6 +2,7 @@
 title: "Now With More Privacy! The Rise of Nutritional Labelling and Customer Choice"
 date: 2021-04-08
 subject: Technology
+tags: [Privacy, Finance]
 description: "TODO write a one-line description"
 legacySlug: "privacy-and-nutrional-labeling"
 # ~3 min

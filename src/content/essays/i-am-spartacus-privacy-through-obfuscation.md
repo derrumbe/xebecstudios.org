@@ -2,6 +2,7 @@
 title: "I Am Spartacus: Privacy through Obfuscation and the Right to be Forgotten"
 date: 2018-11-06
 subject: Technology
+tags: [Identity, Privacy]
 description: "The Third Servile War was over. The slave army had been defeated, and their Roman captors offered the survivors a pardon—on one condition: they must identify their leader, Spartacus."
 legacySlug: "i-am-spartacus-privacy-through-obfuscation"
 # ghost tags were: Identity, Privacy, History

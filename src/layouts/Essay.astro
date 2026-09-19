@@ -16,13 +16,23 @@ const talk = d.talk ? await getEntry('speaking', d.talk) : undefined;
 const headerNote = [d.subject, `${minutes} minutes`, d.series ? `Part of ${d.series}` : null]
   .filter(Boolean)
   .join('. ') + '.';
+
+// Tags are the second axis — what the piece is about, where the subject above
+// is what kind of thinking it is. They ride in the apparatus as an aside (the
+// green rule: a remark about the passage, not a claim within it) rather than
+// as a chip row, because a chip row would read as navigation and these lead
+// nowhere. Absent tags simply drop the note.
+const tagNote = d.tags.length ? `Tagged ${d.tags.join(', ')}.` : null;
 ---
 <Base title={d.title} description={d.description} type="article">
   <div class="wrap">
     <article>
       <div class="art-open">
         <div class="grid">
-          <Margin label={fmtDate(d.date, true)} notes={[{ note: headerNote }]}>
+          <Margin
+            label={fmtDate(d.date, true)}
+            notes={[{ note: headerNote }, ...(tagNote ? [{ note: tagNote, tone: 'aside' as const }] : [])]}
+          >
             <CompassRose size={92} bearings={9} class="art-rose" />
           </Margin>
           <div>

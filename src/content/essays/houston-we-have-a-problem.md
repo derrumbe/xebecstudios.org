@@ -2,6 +2,7 @@
 title: "Houston, We Have a Problem"
 date: 2018-06-06
 subject: Technology
+tags: [Identity, Security]
 description: "Space debris is a growing problem. So is personal data in the cloud."
 legacySlug: "houston-we-have-a-problem"
 # ghost tags were: Identity

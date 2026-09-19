@@ -2,6 +2,7 @@
 title: ""
 date: {{date:YYYY-MM-DD}}
 subject: Technology
+tags: []
 description: ""
 draft: true
 ---
@@ -25,6 +26,8 @@ Optional frontmatter:
   seriesIndex: 3
   updated: 2026-01-15
 
-Subjects: Technology | History | Philosophy
+Subjects: Technology | History | Philosophy  (exactly one)
+Tags:     Identity | Security | Privacy | Ethics | Finance | AI | Satire | Sport
+          (any number, or none — they show in the margin, they do not link)
 Remove `draft: true` to publish. Drafts build locally but never ship.
 -->

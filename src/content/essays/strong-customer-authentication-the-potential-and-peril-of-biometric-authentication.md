@@ -2,6 +2,7 @@
 title: "Strong Customer Authentication: The Potential and Peril of Biometric Authentication"
 date: 2019-10-02
 subject: Technology
+tags: [Security, Finance, Identity, Ethics]
 description: "A trip though customs prompts an exploration of strong authentication, its potential and its perils."
 legacySlug: "strong-customer-authentication-the-potential-and-peril-of-biometric-authentication"
 # ghost tags were: Security, Finance, Identity, Ethics
