@@ -682,6 +682,14 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
+    "oh-orc-2113-06": {
+     "id": "oh-orc-2113-06",
+     "cite": "Ohio Rev. Code §2113.06",
+     "title": "To whom letters of administration shall be granted",
+     "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.06",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
     "tx-est-304-001": {
      "id": "tx-est-304-001",
      "cite": "Tex. Est. Code §304.001",
@@ -2361,13 +2369,13 @@
      "group": "estate",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
-       "event": "Priority arises at death by relationship (spouse, heirs) or by nomination from a person with priority",
+       "event": "Probate court grants letters of administration to the surviving spouse or next of kin, each of whom must be a resident of Ohio",
        "phase": "deceased",
        "citations": [
-        "upc-3-203"
+        "oh-orc-2113-06"
        ]
       },
       "starts": {
@@ -2410,7 +2418,7 @@
       ]
      },
      "citations": [
-      "upc-3-203",
+      "oh-orc-2113-06",
       "upc-3-307",
       "upc-3-601",
       "upc-3-103",
@@ -6051,6 +6059,14 @@
      "kind": "statute",
      "retrieved": "2026-09-16"
     },
+    "wa-rcw-11-130-360": {
+     "id": "wa-rcw-11-130-360",
+     "cite": "Wash. Rev. Code §11.130.360",
+     "title": "Basis for appointment of conservator",
+     "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.130.360",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
     "nsw-ga-25e-25g": {
      "id": "nsw-ga-25e-25g",
      "cite": "Guardianship Act 1987 (NSW) ss 25E–25G",
@@ -8172,12 +8188,10 @@
        ]
       },
       "starts": {
-       "event": "Court order, then acceptance and any bond filed and letters of office issued",
+       "event": "Court order on clear and convincing evidence for an adult, then letters of office",
        "phase": "incapacitated",
        "citations": [
-        "ugcopaa-401",
-        "ugcopaa-411",
-        "ugcopaa-108"
+        "wa-rcw-11-130-360"
        ]
       },
       "ends": [
@@ -8210,9 +8224,7 @@
      "citations": [
       "ugcopaa-410",
       "upoaa-108",
-      "ugcopaa-401",
-      "ugcopaa-411",
-      "ugcopaa-108",
+      "wa-rcw-11-130-360",
       "ugcopaa-431",
       "ugcopaa-431k",
       "ugcopaa-427",
@@ -8892,6 +8904,30 @@
      "kind": "statute",
      "retrieved": "2026-09-16"
     },
+    "nc-gs-90-21-13": {
+     "id": "nc-gs-90-21-13",
+     "cite": "N.C. Gen. Stat. §90-21.13",
+     "title": "Informed consent to health care treatment or procedure",
+     "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-21.13.html",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
+    "oh-orc-2133-08": {
+     "id": "oh-orc-2133-08",
+     "cite": "Ohio Rev. Code §2133.08",
+     "title": "Consenting to withholding or withdrawing life-sustaining treatment from patient",
+     "url": "https://codes.ohio.gov/ohio-revised-code/section-2133.08",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
+    "oh-orc-2133-08-b": {
+     "id": "oh-orc-2133-08-b",
+     "cite": "Ohio Rev. Code §2133.08",
+     "title": "Descending order of priority for consent",
+     "url": "https://codes.ohio.gov/ohio-revised-code/section-2133.08",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
     "tx-hsc-313-004": {
      "id": "tx-hsc-313-004",
      "cite": "Tex. Health & Safety Code §313.004",
@@ -8907,6 +8943,22 @@
      "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.313.htm#313.003",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "wa-rcw-7-70-065": {
+     "id": "wa-rcw-7-70-065",
+     "cite": "Wash. Rev. Code §7.70.065",
+     "title": "Informed consent — Persons authorized to provide for patients who do not have capacity — Priority — Unaccompanied homeless minors",
+     "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=7.70.065",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
+    "wa-rcw-7-70-065-1b": {
+     "id": "wa-rcw-7-70-065-1b",
+     "cite": "Wash. Rev. Code §7.70.065",
+     "title": "Informed consent — Priority — Refusal by higher class and unanimity within a class",
+     "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=7.70.065",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
     },
     "nsw-ga-33a": {
      "id": "nsw-ga-33a",
@@ -9840,32 +9892,27 @@
      "roleId": "default-surrogate",
      "roleName": "Default health-care surrogate",
      "localNames": [
-      "surrogate",
-      "default surrogate",
-      "health-care surrogate"
+      "person authorized to consent to medical treatment"
      ],
      "nameEn": null,
      "summary": "A person who can make health-care decisions for an individual who lacks capacity and has no available agent or guardian. The law picks this person from a priority list, or the individual can name them without signing a power of attorney.",
      "group": "health",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
-       "event": "Individual identifies a surrogate other than in a POA (2023 §12(b)(1); 1993: by personally informing supervising provider), or by operation of the priority list",
+       "event": "By operation of the statutory order; no act by the patient is required",
        "phase": "capable",
        "citations": [
-        "uhcda23-12",
-        "uhcda93-5"
+        "nc-gs-90-21-13"
        ]
       },
       "starts": {
-       "event": "Individual found to lack capacity and no agent/authorized guardian appointed or reasonably available; highest-priority reasonably available, non-disqualified person assumes authority",
+       "event": "Patient is comatose or otherwise lacks capacity to make or communicate health care decisions",
        "phase": "incapacitated",
        "citations": [
-        "uhcda23-12",
-        "uhcda23-18",
-        "uhcda93-5"
+        "nc-gs-90-21-13"
        ]
       },
       "ends": [
@@ -9895,9 +9942,9 @@
       ]
      },
      "citations": [
-      "uhcda23-12",
-      "uhcda93-5",
+      "nc-gs-90-21-13",
       "uhcda23-18",
+      "uhcda23-12",
       "uhcda23-14"
      ]
     },
@@ -9910,16 +9957,14 @@
      "roleId": "default-surrogate",
      "roleName": "Default health-care surrogate",
      "localNames": [
-      "surrogate",
-      "default surrogate",
-      "health-care surrogate"
+      "individual consenting under the Modified Uniform Rights of the Terminally Ill Act"
      ],
      "nameEn": null,
      "summary": "A person who can make health-care decisions for an individual who lacks capacity and has no available agent or guardian. The law picks this person from a priority list, or the individual can name them without signing a power of attorney.",
      "group": "health",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
        "event": "Individual identifies a surrogate other than in a POA (2023 §12(b)(1); 1993: by personally informing supervising provider), or by operation of the priority list",
@@ -9930,36 +9975,18 @@
        ]
       },
       "starts": {
-       "event": "Individual found to lack capacity and no agent/authorized guardian appointed or reasonably available; highest-priority reasonably available, non-disqualified person assumes authority",
+       "event": "Two physicians find a terminal condition or a permanently unconscious state lasting at least twelve months, the patient cannot make informed decisions, and there is no effective declaration or health-care power of attorney",
        "phase": "incapacitated",
        "citations": [
-        "uhcda23-12",
-        "uhcda23-18",
-        "uhcda93-5"
+        "oh-orc-2133-08"
        ]
       },
       "ends": [
        {
-        "event": "Capacity regained, or agent/guardian becomes available",
-        "phase": "capable",
-        "citations": [
-         "uhcda23-18",
-         "uhcda23-12"
-        ]
-       },
-       {
-        "event": "Disqualification or bypass by responsible health-care professional",
+        "event": "A priority class divides equally, which blocks the decision rather than passing it down",
         "phase": "incapacitated",
         "citations": [
-         "uhcda23-14",
-         "uhcda23-12"
-        ]
-       },
-       {
-        "event": "Death of individual (not expressly addressed)",
-        "phase": "deceased",
-        "citations": [
-         "uhcda23-12"
+         "oh-orc-2133-08-b"
         ]
        }
       ]
@@ -9967,8 +9994,8 @@
      "citations": [
       "uhcda23-12",
       "uhcda93-5",
-      "uhcda23-18",
-      "uhcda23-14"
+      "oh-orc-2133-08",
+      "oh-orc-2133-08-b"
      ]
     },
     {
@@ -10048,65 +10075,42 @@
      "roleId": "default-surrogate",
      "roleName": "Default health-care surrogate",
      "localNames": [
-      "surrogate",
-      "default surrogate",
-      "health-care surrogate"
+      "person authorized to provide informed consent"
      ],
      "nameEn": null,
      "summary": "A person who can make health-care decisions for an individual who lacks capacity and has no available agent or guardian. The law picks this person from a priority list, or the individual can name them without signing a power of attorney.",
      "group": "health",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
-       "event": "Individual identifies a surrogate other than in a POA (2023 §12(b)(1); 1993: by personally informing supervising provider), or by operation of the priority list",
+       "event": "By operation of the statutory priority list; no act by the patient is required",
        "phase": "capable",
        "citations": [
-        "uhcda23-12",
-        "uhcda93-5"
+        "wa-rcw-7-70-065"
        ]
       },
       "starts": {
-       "event": "Individual found to lack capacity and no agent/authorized guardian appointed or reasonably available; highest-priority reasonably available, non-disqualified person assumes authority",
+       "event": "Patient found to lack capacity to make the particular health care decision, and the provider makes reasonable efforts to locate a competent person in each higher class before descending",
        "phase": "incapacitated",
        "citations": [
-        "uhcda23-12",
-        "uhcda23-18",
-        "uhcda93-5"
+        "wa-rcw-7-70-065"
        ]
       },
       "ends": [
        {
-        "event": "Capacity regained, or agent/guardian becomes available",
-        "phase": "capable",
-        "citations": [
-         "uhcda23-18",
-         "uhcda23-12"
-        ]
-       },
-       {
-        "event": "Disqualification or bypass by responsible health-care professional",
+        "event": "A person of higher priority refuses authorization, or two or more available members of the same class are not unanimous",
         "phase": "incapacitated",
         "citations": [
-         "uhcda23-14",
-         "uhcda23-12"
-        ]
-       },
-       {
-        "event": "Death of individual (not expressly addressed)",
-        "phase": "deceased",
-        "citations": [
-         "uhcda23-12"
+         "wa-rcw-7-70-065-1b"
         ]
        }
       ]
      },
      "citations": [
-      "uhcda23-12",
-      "uhcda93-5",
-      "uhcda23-18",
-      "uhcda23-14"
+      "wa-rcw-7-70-065",
+      "wa-rcw-7-70-065-1b"
      ]
     },
     {
@@ -13163,6 +13167,14 @@
      "kind": "statute",
      "retrieved": "2026-09-16"
     },
+    "nc-gs-130a-412-6": {
+     "id": "nc-gs-130a-412-6",
+     "cite": "N.C. Gen. Stat. §130A-412.6",
+     "title": "Who may make an anatomical gift before donor's death",
+     "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-412.6.html",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
     "oh-orc-2108-05": {
      "id": "oh-orc-2108-05",
      "cite": "Ohio Rev. Code §2108.05",
@@ -14538,7 +14550,7 @@
      "group": "remains",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
        "event": "Principal appoints health-care agent or signs record expressly authorizing anatomical gift",
@@ -14548,11 +14560,10 @@
        ]
       },
       "starts": {
-       "event": "During donor's life: agent may make gift by donor card/record/registry (unless prohibited)",
+       "event": "During the donor's life, only to the extent the power of attorney for health care or other record authorises the agent to make the gift",
        "phase": "capable",
        "citations": [
-        "ruaga-4",
-        "ruaga-5"
+        "nc-gs-130a-412-6"
        ]
       },
       "ends": [
@@ -14577,8 +14588,7 @@
      },
      "citations": [
       "ruaga-2",
-      "ruaga-4",
-      "ruaga-5",
+      "nc-gs-130a-412-6",
       "ruaga-9",
       "ruaga-9c",
       "ruaga-10c",
@@ -19528,6 +19538,22 @@
      "kind": "statute",
      "retrieved": "2026-09-16"
     },
+    "wa-rcw-11-28-010": {
+     "id": "wa-rcw-11-28-010",
+     "cite": "Wash. Rev. Code §11.28.010",
+     "title": "Letters to executors — Refusal to serve — Disqualification",
+     "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.28.010",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
+    "wa-rcw-11-68-011": {
+     "id": "wa-rcw-11-68-011",
+     "cite": "Wash. Rev. Code §11.68.011",
+     "title": "Settlement without court intervention — Petition — Conditions — Exceptions",
+     "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.68.011",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
     "nsw-sa-13": {
      "id": "nsw-sa-13",
      "cite": "Succession Act 2006 (NSW) s 13",
@@ -21516,15 +21542,14 @@
      "roleId": "personal-representative-executor",
      "roleName": "Personal representative named in will (executor)",
      "localNames": [
-      "executor",
-      "personal representative"
+      "personal representative with nonintervention powers"
      ],
      "nameEn": null,
      "summary": "The person a will nominates to administer the decedent's estate. Being named gives no general power until a court or Registrar appoints them, they qualify, and letters issue. Once appointed, their powers relate back to earlier acts that benefited the estate.",
      "group": "estate",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
        "event": "Testator executes will nominating executor",
@@ -21534,14 +21559,11 @@
        ]
       },
       "starts": {
-       "event": "Appointment (informal: ≥120 hours after death, will probated), qualification (bond/acceptance), issuance of letters; powers relate back",
-       "phase": "administration",
+       "event": "Order admitting the will and appointing the personal representative, then letters testamentary; on petition the court also grants nonintervention powers where the estate is solvent",
+       "phase": "deceased",
        "citations": [
-        "upc-3-307",
-        "upc-3-308",
-        "upc-3-601",
-        "upc-3-103",
-        "upc-3-701"
+        "wa-rcw-11-28-010",
+        "wa-rcw-11-68-011"
        ]
       },
       "ends": [
@@ -21576,11 +21598,8 @@
      },
      "citations": [
       "upc-3-203",
-      "upc-3-307",
-      "upc-3-308",
-      "upc-3-601",
-      "upc-3-103",
-      "upc-3-701",
+      "wa-rcw-11-28-010",
+      "wa-rcw-11-68-011",
       "upc-3-1001",
       "upc-3-1002",
       "upc-3-610",
@@ -31305,7 +31324,7 @@
      "group": "digital",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": true,
+     "differsFromModel": false,
      "lane": {
       "assigned": {
        "event": "User names designated recipient via a custodian's online tool",
@@ -31368,7 +31387,7 @@
      "group": "digital",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": true,
+     "differsFromModel": false,
      "lane": {
       "assigned": {
        "event": "User directs custodian through an online tool to disclose (or not) digital assets to a designated recipient",
@@ -31431,7 +31450,7 @@
      "group": "digital",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": true,
+     "differsFromModel": false,
      "lane": {
       "assigned": {
        "event": "User directs custodian via online tool",
@@ -31490,7 +31509,7 @@
      "group": "digital",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": true,
+     "differsFromModel": false,
      "lane": {
       "assigned": {
        "event": "User directs custodian via online tool",
@@ -32905,7 +32924,7 @@
      "group": "financial",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": true,
+     "differsFromModel": false,
      "lane": {
       "assigned": {
        "event": "Principal signs POA expressly stating it terminates on incapacity",
@@ -35202,6 +35221,14 @@
      "kind": "statute",
      "retrieved": "2026-09-16"
     },
+    "nc-gs-32c-1-109": {
+     "id": "nc-gs-32c-1-109",
+     "cite": "N.C. Gen. Stat. §32C-1-109",
+     "title": "When power of attorney effective",
+     "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-109.html",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
+    },
     "tx-est-751-00201": {
      "id": "tx-est-751-00201",
      "cite": "Tex. Est. Code §751.00201",
@@ -35225,6 +35252,14 @@
      "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.752.htm#752.051",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "wa-rcw-11-125-090": {
+     "id": "wa-rcw-11-125-090",
+     "cite": "Wash. Rev. Code §11.125.090",
+     "title": "Power of attorney — When effective — Principal's personal representative for health care",
+     "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.090",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
     }
    },
    "jurisdictions": [
@@ -35841,7 +35876,7 @@
      "group": "financial",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
        "event": "Principal signs POA stating it becomes effective on a future date/event (e.g., incapacity)",
@@ -35852,11 +35887,10 @@
        ]
       },
       "starts": {
-       "event": "Written determination that the event/incapacity occurred, by the person the POA authorizes or, by default, a physician [or licensed psychologist] (impairment) or an attorney, judge, or appropriate governmental official (missing/detained/unable to return)",
+       "event": "Written determination that the event or incapacity occurred, by a person the POA authorises; failing that, by two individuals who are a physician, a licensed psychologist, or both, after a personal examination of the principal",
        "phase": "incapacitated",
        "citations": [
-        "upoaa-109",
-        "upoaa-109c"
+        "nc-gs-32c-1-109"
        ]
       },
       "ends": [
@@ -35888,7 +35922,7 @@
      "citations": [
       "upoaa-105",
       "upoaa-109",
-      "upoaa-109c",
+      "nc-gs-32c-1-109",
       "upoaa-110a",
       "upoaa-110d",
       "upoaa-110b",
@@ -36048,15 +36082,14 @@
      "roleId": "financial-poa-springing",
      "roleName": "Agent under springing (contingent) financial power of attorney",
      "localNames": [
-      "attorney-in-fact",
-      "agent under contingent power of attorney"
+      "agent under a power of attorney effective on a future event"
      ],
      "nameEn": null,
      "summary": "A power of attorney that the principal writes to take effect at a future date or on a future event, most often the principal's incapacity. The POA can name who decides that the event has happened. If it names no one, a physician (or licensed psychologist) can certify impairment, or a lawyer, judge or government official can certify that the principal is missing or detained.",
      "group": "financial",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
        "event": "Principal signs POA stating it becomes effective on a future date/event (e.g., incapacity)",
@@ -36067,11 +36100,10 @@
        ]
       },
       "starts": {
-       "event": "Written determination that the event/incapacity occurred, by the person the POA authorizes or, by default, a physician [or licensed psychologist] (impairment) or an attorney, judge, or appropriate governmental official (missing/detained/unable to return)",
+       "event": "Written determination that the future date, event or incapacity has occurred, by a person the POA authorises; failing that, by a physician or licensed psychologist unrelated to the principal or agent by blood or marriage who has personally examined the principal, or by a judge or appropriate governmental official where the principal is missing or detained",
        "phase": "incapacitated",
        "citations": [
-        "upoaa-109",
-        "upoaa-109c"
+        "wa-rcw-11-125-090"
        ]
       },
       "ends": [
@@ -36103,7 +36135,7 @@
      "citations": [
       "upoaa-105",
       "upoaa-109",
-      "upoaa-109c",
+      "wa-rcw-11-125-090",
       "upoaa-110a",
       "upoaa-110d",
       "upoaa-110b",
@@ -36326,6 +36358,14 @@
      "url": "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.113.htm#113.083",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "wa-rcw-11-98-039": {
+     "id": "wa-rcw-11-98-039",
+     "cite": "Wash. Rev. Code §11.98.039",
+     "title": "Nonjudicial change of trustee — Judicial appointment or change of trustee — Liability and duties of successor fiduciary",
+     "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.98.039",
+     "kind": "statute",
+     "retrieved": "2026-09-19"
     }
    },
    "jurisdictions": [
@@ -36955,7 +36995,7 @@
      "group": "trust",
      "stateSpecific": false,
      "baselineOf": false,
-     "differsFromModel": false,
+     "differsFromModel": true,
      "lane": {
       "assigned": {
        "event": "Settlor names successor trustee in the trust terms",
@@ -36966,12 +37006,10 @@
        ]
       },
       "starts": {
-       "event": "Vacancy occurs per trust terms (e.g., incapacity as defined by the trust) or by default on death, resignation, removal, or appointment of guardian/conservator for an individual trustee; successor accepts",
+       "event": "Vacancy plus notice to each permissible distributee; the named successor is entitled to act except for good cause or disqualification, and is deemed to accept as of the discharge of the predecessor",
        "phase": "incapacitated",
        "citations": [
-        "utc-105",
-        "utc-704",
-        "utc-701"
+        "wa-rcw-11-98-039"
        ]
       },
       "ends": [
@@ -37004,7 +37042,7 @@
      "citations": [
       "utc-704",
       "utc-105",
-      "utc-701",
+      "wa-rcw-11-98-039",
       "utc-817",
       "utc-705",
       "utc-706",
