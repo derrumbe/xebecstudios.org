@@ -78,6 +78,51 @@
    "kind": "statute",
    "retrieved": "2026-09-17",
    "quote": "An individual at least 18 years of age may authorize the type, place, and method of disposition of the individual's own dead body"
+  },
+  {
+   "id": "nc-gs-32c-1-109",
+   "cite": "N.C. Gen. Stat. §32C-1-109",
+   "title": "When power of attorney effective",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-109.html",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "After a personal examination of the principal, by two individuals who are either a physician, a licensed psychologist, or both, that the principal is incapacitated"
+  },
+  {
+   "id": "nc-gs-90-21-13",
+   "cite": "N.C. Gen. Stat. §90-21.13",
+   "title": "Informed consent to health care treatment or procedure",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-21.13.html",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The following persons, in the order indicated, are authorized to consent to medical treatment on behalf of a patient who is comatose or otherwise lacks capacity to make or communicate health care decisions"
+  },
+  {
+   "id": "nc-gs-36c-7-704",
+   "cite": "N.C. Gen. Stat. §36C-7-704",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_36C/GS_36C-7-704.html",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A vacancy in a trusteeship of a noncharitable trust that is required to be filled must be filled in the following order of priority: (1) By a person designated in the terms of the trust"
+  },
+  {
+   "id": "nc-gs-36f-15",
+   "cite": "N.C. Gen. Stat. §36F-15",
+   "title": "Fiduciary duty and authority",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_36F/GS_36F-15.html",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including all of the following: (1) The duty of care. (2) The duty of loyalty. (3) The duty of confidentiality."
+  },
+  {
+   "id": "nc-gs-130a-412-6",
+   "cite": "N.C. Gen. Stat. §130A-412.6",
+   "title": "Who may make an anatomical gift before donor's death",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-412.6.html",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "An agent of the donor to the extent authorized under a power of attorney for health care or other record"
   }
  ],
  "patches": [
@@ -135,6 +180,22 @@
    ]
   },
   {
+   "role": "financial-poa-springing",
+   "lane": {
+    "starts": {
+     "event": "Written determination that the event or incapacity occurred, by a person the POA authorises; failing that, by two individuals who are a physician, a licensed psychologist, or both, after a personal examination of the principal",
+     "phase": "incapacitated",
+     "citations": [
+      "nc-gs-32c-1-109"
+     ]
+    }
+   },
+   "diff": "North Carolina doubles the uniform act's medical certification. Where the instrument names nobody to decide that the principal is incapacitated, the determination takes two individuals — a physician, a licensed psychologist, or one of each — and each must have personally examined the principal, against a single certifier under the uniform text. The missing-or-detained route is unchanged and still open to an attorney-at-law, a judge or an appropriate governmental official.",
+   "citations": [
+    "nc-gs-32c-1-109"
+   ]
+  },
+  {
    "role": "health-care-agent",
    "localNames": [
     "health care agent",
@@ -152,6 +213,32 @@
    "diff": "The determination must be in writing, and for mental health treatment it may be made by an eligible psychologist rather than a physician.",
    "citations": [
     "nc-gs-32a-20"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "person authorized to consent to medical treatment"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "By operation of the statutory order; no act by the patient is required",
+     "phase": "capable",
+     "citations": [
+      "nc-gs-90-21-13"
+     ]
+    },
+    "starts": {
+     "event": "Patient is comatose or otherwise lacks capacity to make or communicate health care decisions",
+     "phase": "incapacitated",
+     "citations": [
+      "nc-gs-90-21-13"
+     ]
+    }
+   },
+   "diff": "North Carolina never enacted the Uniform Health-Care Decisions Act; consent for a patient who is comatose or lacks capacity runs through the order in G.S. 90-21.13(c). The guardian is listed first, but a health care agent under a valid health care power of attorney keeps the authority the instrument grants unless the clerk has suspended it, so the guardian does not simply displace the agent as first place would suggest. Two features have no model counterpart: parents and children sit in a single class decided by a majority of those reasonably available, rather than children ranking above parents, and the list ends not with a close friend but with any individual who has an established relationship with the patient, is acting in good faith, and can reliably convey the patient's wishes.",
+   "citations": [
+    "nc-gs-90-21-13"
    ]
   },
   {
@@ -252,6 +339,14 @@
    ]
   },
   {
+   "role": "successor-trustee",
+   "differs": false,
+   "diff": "Consistent with the baseline. North Carolina enacted the Uniform Trust Code vacancy rule as G.S. 36C-7-704: the same six vacancy events, no need to fill a vacancy while a cotrustee remains, and the same order for a noncharitable trust — the person designated in or appointed under the trust, then unanimous agreement of the qualified beneficiaries, then the court. North Carolina adds priorities for split-interest charitable trusts, which fall outside this role.",
+   "citations": [
+    "nc-gs-36c-7-704"
+   ]
+  },
+  {
    "role": "rufadaa-designated-recipient",
    "localNames": [
     "designated recipient"
@@ -268,6 +363,30 @@
    "diff": "North Carolina enacted RUFADAA as Chapter 36F; an online-tool direction overrides a contrary direction in a will, trust or power of attorney.",
    "citations": [
     "nc-gs-36f-4"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "differs": false,
+   "diff": "Consistent with the baseline. G.S. 36F-15 carries RUFADAA's fiduciary provision unchanged: care, loyalty and confidentiality apply to digital assets as to tangible property; authority is bounded by the terms of service, other law including copyright, and the scope of the fiduciary's duties; it may not be used to impersonate the user; and the fiduciary is an authorised user for computer-crime purposes, with North Carolina naming its own computer trespass statute in the slot the uniform act leaves open.",
+   "citations": [
+    "nc-gs-36f-15"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "lane": {
+    "starts": {
+     "event": "During the donor's life, only to the extent the power of attorney for health care or other record authorises the agent to make the gift",
+     "phase": "capable",
+     "citations": [
+      "nc-gs-130a-412-6"
+     ]
+    }
+   },
+   "diff": "North Carolina reverses the uniform act's default. Under the uniform text an agent may make an anatomical gift unless the power of attorney or other record prohibits it; G.S. 130A-412.6(2) instead lets the agent act only 'to the extent authorized under a power of attorney for health care or other record', so silence defeats the agent here rather than empowering them. North Carolina also sets its own minor donor age at 16.",
+   "citations": [
+    "nc-gs-130a-412-6"
    ]
   },
   {

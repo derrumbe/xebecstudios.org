@@ -133,6 +133,51 @@
    "kind": "statute",
    "retrieved": "2026-09-17",
    "quote": "This chapter does not give a fiduciary or designated recipient any new or expanded rights other than those held by the user"
+  },
+  {
+   "id": "oh-orc-1337-29",
+   "cite": "Ohio Rev. Code §1337.29",
+   "title": "When power of attorney effective",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.29",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A determination by a physician who has examined the principal or a licensed psychologist who has evaluated the principal that the principal is incapacitated"
+  },
+  {
+   "id": "oh-orc-2133-08",
+   "cite": "Ohio Rev. Code §2133.08",
+   "title": "Consenting to withholding or withdrawing life-sustaining treatment from patient",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2133.08",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "the patient is in a terminal condition or the patient currently is and for at least the immediately preceding twelve months has been in a permanently unconscious state"
+  },
+  {
+   "id": "oh-orc-2133-08-b",
+   "cite": "Ohio Rev. Code §2133.08",
+   "title": "Descending order of priority for consent",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2133.08",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "an equal division in a priority class of individuals under that division does not authorize the next class of individuals specified in that division to make the decision"
+  },
+  {
+   "id": "oh-orc-2113-06",
+   "cite": "Ohio Rev. Code §2113.06",
+   "title": "To whom letters of administration shall be granted",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.06",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Administration of the estate of an intestate shall be granted to persons mentioned in this division, in the following order: (1) To the surviving spouse of the deceased, if resident of the state; (2) To one of the next of kin of the deceased, resident of the state."
+  },
+  {
+   "id": "oh-orc-5807-04",
+   "cite": "Ohio Rev. Code §5807.04",
+   "title": "Vacancy defined - priority in filling - additional trustees",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-5807.04",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A vacancy in a trusteeship of a noncharitable trust that is required to be filled must be filled in the following order of priority: (1) By a person designated in the terms of the trust to act as successor trustee"
   }
  ],
  "patches": [
@@ -191,6 +236,14 @@
    ]
   },
   {
+   "role": "financial-poa-springing",
+   "differs": false,
+   "diff": "Consistent with the baseline. R.C. 1337.29 carries the uniform effectiveness rule: effective on execution unless the instrument sets a future date or event, the principal may name who determines the event occurred, and failing that a physician or licensed psychologist certifies incapacity while an attorney at law, a judge or an appropriate governmental official certifies that the principal is missing or detained. Ohio spells out that the physician must have examined and the psychologist evaluated the principal, which the uniform text leaves implicit, and lets whoever the principal authorises act as the principal's HIPAA personal representative.",
+   "citations": [
+    "oh-orc-1337-29"
+   ]
+  },
+  {
    "role": "health-care-agent",
    "localNames": [
     "attorney in fact under a durable power of attorney for health care"
@@ -216,6 +269,35 @@
    "citations": [
     "oh-orc-1337-12",
     "oh-orc-1337-13"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "individual consenting under the Modified Uniform Rights of the Terminally Ill Act"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Two physicians find a terminal condition or a permanently unconscious state lasting at least twelve months, the patient cannot make informed decisions, and there is no effective declaration or health-care power of attorney",
+     "phase": "incapacitated",
+     "citations": [
+      "oh-orc-2133-08"
+     ]
+    },
+    "ends": [
+     {
+      "event": "A priority class divides equally, which blocks the decision rather than passing it down",
+      "phase": "incapacitated",
+      "citations": [
+       "oh-orc-2133-08-b"
+      ]
+     }
+    ]
+   },
+   "diff": "Ohio has no general default surrogate. R.C. 2133.08 is a narrow end-of-life provision: it authorises consent only to withholding or withdrawing life-sustaining treatment, only where two physicians find the patient terminal or permanently unconscious for at least the preceding twelve months, and only where no effective declaration or health-care power of attorney exists. The model's surrogate, who makes health-care decisions generally, has no Ohio counterpart in statute. The order is guardian, spouse, a majority of available adult children, parents, a majority of available adult siblings, then the nearest available adult related by blood or adoption, and the written consent must be witnessed. An equal split within a class does not pass the decision to the next class — it stops it.",
+   "citations": [
+    "oh-orc-2133-08",
+    "oh-orc-2133-08-b"
    ]
   },
   {
@@ -277,6 +359,22 @@
    ]
   },
   {
+   "role": "personal-representative-administrator",
+   "lane": {
+    "assigned": {
+     "event": "Probate court grants letters of administration to the surviving spouse or next of kin, each of whom must be a resident of Ohio",
+     "phase": "deceased",
+     "citations": [
+      "oh-orc-2113-06"
+     ]
+    }
+   },
+   "diff": "Ohio's intestate priority is far shorter than the model's and carries a residency bar: letters go to the surviving spouse if resident in the state, then to one of the next of kin resident in the state, so a non-resident spouse or child has no priority at all. Where nobody is entitled, the entitled are unsuitable, or they neglect to apply within a reasonable time, priority is lost and the court commits administration to any suitable Ohio resident — who may be a creditor of the estate — or to the attorney general where Medicaid estate recovery is in issue.",
+   "citations": [
+    "oh-orc-2113-06"
+   ]
+  },
+  {
    "role": "small-estate-affiant",
    "localNames": [
     "applicant for release from administration"
@@ -293,6 +391,14 @@
    "diff": "Ohio releases an estate from administration rather than using an affidavit: assets of $35,000 or less, or $100,000 or less where the surviving spouse is the sole devisee.",
    "citations": [
     "oh-orc-2113-03"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "differs": false,
+   "diff": "Consistent with the baseline. R.C. 5807.04 carries the Uniform Trust Code vacancy rule, with the same events, the same rule that a vacancy need not be filled while a cotrustee remains, and the same destination. Ohio breaks out as a separate tier a person appointed by someone the trust designates to appoint a successor, which the uniform text folds into the first priority; the resulting order is the same.",
+   "citations": [
+    "oh-orc-5807-04"
    ]
   },
   {
