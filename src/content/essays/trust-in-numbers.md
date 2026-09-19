@@ -3,6 +3,7 @@ title: "Trust in Numbers: An Ethical (and Practical) Standard for Identity-Drive
 date: 2019-11-22
 subject: Philosophy
 tags: [Identity, Ethics, AI]
+crossFiled: [Technology]
 description: "The story of Tarra Simmons asks 'Does the past predict the future?' and prompts a proposal for an identity-centric approach to ethics."
 legacySlug: "trust-in-numbers"
 # ghost tags were: Identity, Ethics

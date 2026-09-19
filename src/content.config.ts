@@ -55,6 +55,20 @@ const essays = defineCollection({
     // rejects the null that YAML reads there. Absent, null and empty all
     // normalise to [], so the layout never has to guard.
     tags: z.array(tag).nullish().transform((v) => v ?? []),
+    /**
+     * Secondary subjects. `subject` is where the argument lands and drives the
+     * navigation; this is for the essay whose other reading is substantial
+     * enough that someone browsing that subject would want it — Trafalgar in
+     * the Nelson piece, the 1950s in the baseball one. It shows on the essay
+     * and adds a subordinate group to those subjects' pages; it never changes
+     * the primary filing.
+     *
+     * Not a licence to cross-file everything. Almost every essay here touches
+     * two subjects glancingly; this is for the ones where the second reading
+     * carries real weight, and it stops meaning anything if it goes on all
+     * twenty.
+     */
+    crossFiled: z.array(subject).nullish().transform((v) => v ?? []),
     // Shown on the index and in meta tags. Keep it to one or two sentences.
     description: z.string(),
     draft: z.boolean().default(false),
@@ -69,7 +83,28 @@ const essays = defineCollection({
     seriesIndex: opt(z.number().int()),
     // Set by the migration script so old Ghost URLs keep resolving.
     legacySlug: opt(z.string()),
-  }),
+  })
+    /**
+     * Caught at build time rather than rendering as "Philosophy. Also filed
+     * under Philosophy." — which is the shape the mistake takes, and it reads
+     * as a bug in the site rather than a typo in the file.
+     */
+    .superRefine((d, ctx) => {
+      if (d.crossFiled.includes(d.subject)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['crossFiled'],
+          message: `crossFiled repeats the primary subject (${d.subject}). List only the other subjects.`,
+        });
+      }
+      if (new Set(d.crossFiled).size !== d.crossFiled.length) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['crossFiled'],
+          message: 'crossFiled lists the same subject twice.',
+        });
+      }
+    }),
 });
 
 const speaking = defineCollection({

@@ -3,6 +3,7 @@ title: "The Color of 2020"
 date: 2020-05-28
 subject: History
 tags: [Security, Ethics]
+crossFiled: [Technology, Philosophy]
 description: "In the beginning, blue did not exist. In short order, it came to be associated with health, power, and affluence. Will the same soon be said of working from home?"
 legacySlug: "the-color-of-2020"
 # ghost tags were: History, Security, Ethics

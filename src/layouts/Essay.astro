@@ -11,9 +11,21 @@ const d = entry.data;
 const minutes = readingMinutes(body ?? '');
 const talk = d.talk ? await getEntry('speaking', d.talk) : undefined;
 
+// "Also filed under History" rides in the same sentence family as the subject
+// itself, because it is a statement about filing. Listed with "and" rather
+// than commas: there are at most two of them, and the apparatus is prose.
+const alsoFiled = d.crossFiled.length
+  ? `Also filed under ${new Intl.ListFormat('en').format(d.crossFiled)}`
+  : null;
+
 // The margin always has something in it. Header apparatus first, then any
 // glosses without a paragraph anchor.
-const headerNote = [d.subject, `${minutes} minutes`, d.series ? `Part of ${d.series}` : null]
+const headerNote = [
+  d.subject,
+  `${minutes} minutes`,
+  d.series ? `Part of ${d.series}` : null,
+  alsoFiled,
+]
   .filter(Boolean)
   .join('. ') + '.';
 

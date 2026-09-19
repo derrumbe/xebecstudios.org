@@ -25,6 +25,9 @@ Optional frontmatter:
   series: "Provenance"
   seriesIndex: 3
   updated: 2026-01-15
+  crossFiled: [History]   → "Also filed under History", and a listing at the
+                            foot of /subjects/history/. Only when the second
+                            reading genuinely carries weight.
 
 Subjects: Technology | History | Philosophy  (exactly one)
 Tags:     Identity | Security | Privacy | Ethics | Finance | AI | Satire | Sport

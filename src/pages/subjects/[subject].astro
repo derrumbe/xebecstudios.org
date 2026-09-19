@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Margin from '../../components/Margin.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import { SUBJECTS } from '../../content.config';
 import { fmtDate } from '../../consts';
 
@@ -9,14 +9,31 @@ export async function getStaticPaths() {
   return SUBJECTS.map((s) => ({ params: { subject: s.toLowerCase() }, props: { subject: s } }));
 }
 const { subject } = Astro.props;
-const essays = (await getCollection('essays', ({ data }) => !data.draft && data.subject === subject))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+type Essay = CollectionEntry<'essays'>;
+const byNewest = (a: Essay, b: Essay) => b.data.date.valueOf() - a.data.date.valueOf();
+const published = await getCollection('essays', ({ data }) => !data.draft);
+
+const essays = published.filter((e) => e.data.subject === subject).sort(byNewest);
+
+// Essays that land elsewhere but carry real weight in this subject. Kept in a
+// separate group below rather than merged into the list above: the filter row
+// promises "essays filed under History", and quietly folding in four pieces
+// filed under Technology would make the count above a lie.
+const alsoHere = published.filter((e) => e.data.crossFiled.includes(subject)).sort(byNewest);
+
+const count = [
+  `${essays.length} ${essays.length === 1 ? 'piece' : 'pieces'}`,
+  alsoHere.length ? `${alsoHere.length} more cross-filed` : null,
+]
+  .filter(Boolean)
+  .join(', ') + '.';
 ---
 <Base title={subject} description={`Essays filed under ${subject}.`}>
   <div class="wrap">
     <section class="band">
       <div class="grid" style="margin-bottom:18px">
-        <Margin label={subject} notes={[{ note: `${essays.length} pieces.`, tone: 'aside' }]} />
+        <Margin label={subject} notes={[{ note: count, tone: 'aside' }]} />
         <div>
           <nav class="filters" aria-label="Filter essays by subject">
             <a href="/essays/">Everything</a>
@@ -32,6 +49,28 @@ const essays = (await getCollection('essays', ({ data }) => !data.draft && data.
           <span><h3>{e.data.title}</h3><p>{e.data.description}</p></span>
         </a>
       ))}
+
+      {alsoHere.length > 0 && (
+        <div class="grid cross-head">
+          <Margin
+            label="Also filed here"
+            notes={[{ note: `Filed elsewhere, but substantially ${subject.toLowerCase()}.`, tone: 'aside' }]}
+          />
+          <div />
+        </div>
+      )}
+      {alsoHere.map((e) => (
+        <a class="item" href={`/${e.id}/`}>
+          <span class="apparatus">{fmtDate(e.data.date)}<span class="subject">{e.data.subject}</span></span>
+          <span><h3>{e.data.title}</h3><p>{e.data.description}</p></span>
+        </a>
+      ))}
     </section>
   </div>
 </Base>
+
+<style>
+  /* Enough air that the second group reads as a new movement rather than a
+     gap in the first. The border on the .item below it supplies the rule. */
+  .cross-head{margin:46px 0 18px}
+</style>

@@ -41,13 +41,29 @@ tags: [Identity, Privacy]
 
 Tags display in the essay's margin apparatus and nowhere else. They are not a
 second filter row and they do not link anywhere: three subjects is the
-navigation, and this is provenance — most of these essays reach for history or
-ethics on the way to a point about identity, and one bin cannot say so.
+navigation, and this is provenance.
 
-Nearly every essay is Technology-plus-something, which is why the subject is
-the *destination* of the argument rather than its starting material. Trafalgar,
-Spartacus and Bernoulli's smallpox model are all hooks; the piece lands on
-identity governance each time, and is filed there.
+**`crossFiled` is for the second subject that earns one.** The subject is the
+*destination* of the argument, not its starting material — Trafalgar, Spartacus
+and Bernoulli's smallpox model are all hooks, and each of those essays lands on
+identity governance, so each is filed under Technology. But the history in them
+is real, and a reader browsing History wants them.
+
+```yaml
+subject: Technology
+crossFiled: [History]
+```
+
+That prints "Also filed under History" in the essay's apparatus and adds the
+piece to a separate **Also filed here** group at the foot of `/subjects/history/`.
+It never touches the primary filing: the main list and the count on that page
+are still only the essays whose `subject` it is.
+
+Listing the primary subject again, or the same subject twice, fails the build.
+
+Use it sparingly. Almost every essay here glances off a second subject — that
+is the house style — and cross-filing all of them would say nothing. Nine of
+twenty carry it.
 
 Essays live at the site root (`/death-of-authenticity/`), not under `/essays/`.
 That is deliberate: it is exactly where Ghost served them, so old inbound links
