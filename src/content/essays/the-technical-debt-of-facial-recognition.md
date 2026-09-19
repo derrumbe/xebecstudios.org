@@ -4,7 +4,7 @@ date: 2020-11-11
 subject: Philosophy
 tags: [AI, Ethics, Privacy]
 crossFiled: [Technology]
-description: "TODO write a one-line description"
+description: "The ACM asked the industry to stop and think. Ethics lags technology, legislation lags further still, and the debt compounds."
 legacySlug: "the-technical-debt-of-facial-recognition"
 # ~5 min
 ---

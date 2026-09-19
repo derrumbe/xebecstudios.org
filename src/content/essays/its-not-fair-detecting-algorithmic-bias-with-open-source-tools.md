@@ -4,7 +4,7 @@ date: 2022-06-03
 subject: Technology
 tags: [AI, Ethics]
 crossFiled: [Philosophy]
-description: "TODO write a one-line description"
+description: "The same kind of algorithm that picks your next film decides who receives a kidney. A tour of the open source tools that make them explain themselves."
 legacySlug: "its-not-fair-detecting-algorithmic-bias-with-open-source-tools"
 # ~3 min
 ---

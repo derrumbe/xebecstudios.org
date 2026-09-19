@@ -3,7 +3,7 @@ title: "Now With More Privacy! The Rise of Nutritional Labelling and Customer Ch
 date: 2021-04-08
 subject: Technology
 tags: [Privacy, Finance]
-description: "TODO write a one-line description"
+description: "You are what you eat, and an application is what it collects. What privacy labelling asks of the institutions that must list their ingredients."
 legacySlug: "privacy-and-nutrional-labeling"
 # ~3 min
 ---

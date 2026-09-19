@@ -3,7 +3,7 @@ title: "Shared Signals, and Thanks for All the Fish"
 date: 2024-12-13
 subject: Technology
 tags: [Identity, Security]
-description: "TODO write a one-line description"
+description: "Fifteen species of dolphin fish cooperatively with humans, signalling when to cast the net. Identity security is learning to do the same."
 legacySlug: "shared-signals-and-thanks-for-all-the-fish"
 # ~4 min
 ---
