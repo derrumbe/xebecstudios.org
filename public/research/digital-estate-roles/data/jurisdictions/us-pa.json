@@ -3,6 +3,7 @@
  "name": "Pennsylvania",
  "extends": "us-model",
  "uniformActsAdopted": [
+  "Uniform Power of Attorney Act (in part, 2014)",
   "Uniform Trust Code",
   "Revised Uniform Fiduciary Access to Digital Assets Act"
  ],
@@ -107,6 +108,15 @@
    "quote": "Unless specifically provided otherwise in the power of attorney, all powers of attorney shall be durable as provided in section 5604"
   },
   {
+   "id": "pa-pacs-5601-3",
+   "cite": "20 Pa.C.S. §5601.3",
+   "title": "Agent's duties",
+   "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=56&sctn=1&subsctn=3",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Notwithstanding any provision in the power of attorney, an agent that has accepted appointment shall: (1) Act in accordance with the principal's reasonable expectations to the extent actually known by the agent and, otherwise, in the principal's best interest. (2) Act in good faith. (3) Act only within the scope of authority granted in the power of attorney."
+  },
+  {
    "id": "pa-pacs-5604",
    "cite": "20 Pa.C.S. §5604",
    "title": "Durable powers of attorney",
@@ -159,9 +169,10 @@
      }
     ]
    },
-   "diff": "Pennsylvania never enacted the Uniform Power of Attorney Act; Chapter 56 is its own, dating to 1982. It reaches the same default as the uniform act by a different route — §5601.1 presumes every power of attorney durable unless the instrument says otherwise — but adds two rules with no model counterpart. A principal may nominate the guardian of their estate or person in the power of attorney, and the court must appoint that nominee except for good cause or disqualification. And where a guardian is appointed, it is the court, in its guardianship order, that determines whether and how far the power of attorney survives, rather than the agent continuing until a conservator acts to limit them.",
+   "diff": "Pennsylvania did not replace Chapter 56, which dates to 1982, with the Uniform Power of Attorney Act; it grafted parts of that act onto it. Act 95 of 2014 brought in the agent's duties at §5601.3 and the acceptance and refusal rules at §5608.1, which track the uniform text, while the chapter's own architecture survived. Durability is one of the places it did: §5601.1 presumes every power of attorney durable unless the instrument says otherwise, reaching the uniform act's default by Pennsylvania's own route. Two rules have no model counterpart. A principal may nominate the guardian of their estate or person in the power of attorney, and the court must appoint that nominee except for good cause or disqualification. And where a guardian is appointed, it is the court, in its guardianship order, that determines whether and how far the power of attorney survives, rather than the agent continuing until a conservator acts to limit them.",
    "citations": [
     "pa-pacs-5601-1",
+    "pa-pacs-5601-3",
     "pa-pacs-5604"
    ]
   },
@@ -184,7 +195,7 @@
      ]
     }
    },
-   "diff": "Pennsylvania allows a springing power — §5604(a) lets the principal provide that it becomes effective at a specified future time or on a specified contingency, including incapacity — but stops there. It supplies no default machinery for deciding that the contingency has happened: no authorised determiner, and none of the uniform act's fallbacks of a physician or licensed psychologist for impairment, or an attorney, judge or governmental official for a principal who is missing or detained. Where the instrument itself names nobody, the statute leaves the question open, which is the sharpest divergence from the model for this role.",
+   "diff": "Pennsylvania allows a springing power — §5604(a) lets the principal provide that it becomes effective at a specified future time or on a specified contingency, including incapacity — but stops there. Act 95 of 2014 took substantial parts of the uniform act into Chapter 56, and §109's machinery for springing powers was not among them. The chapter supplies no default way to decide the contingency has happened: no authorised determiner, and none of the uniform act's fallbacks of a physician or licensed psychologist for impairment, or an attorney, judge or governmental official for a principal who is missing or detained. Where the instrument itself names nobody, the statute leaves the question open, which is the sharpest divergence from the model for this role.",
    "citations": [
     "pa-pacs-5604"
    ]
