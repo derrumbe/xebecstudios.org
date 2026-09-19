@@ -440,6 +440,18 @@
      "label": "US — Michigan"
     },
     {
+     "id": "us-nj",
+     "name": "New Jersey",
+     "short": "NJ",
+     "code": "NJ",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-nj.json"
+     ],
+     "country": "us",
+     "label": "US — New Jersey"
+    },
+    {
      "id": "us-ny",
      "name": "New York",
      "short": "NY",
@@ -893,6 +905,18 @@
    ],
    "country": "us",
    "label": "US — Michigan"
+  },
+  {
+   "id": "us-nj",
+   "name": "New Jersey",
+   "short": "NJ",
+   "code": "NJ",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-nj.json"
+   ],
+   "country": "us",
+   "label": "US — New Jersey"
   },
   {
    "id": "us-ny",
