@@ -441,6 +441,19 @@
      "label": "US — Louisiana"
     },
     {
+     "id": "us-ma",
+     "name": "Massachusetts",
+     "short": "MA",
+     "code": "MA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ma.json"
+     ],
+     "country": "us",
+     "note": "No state-specific disposition-of-remains role: no Massachusetts statute setting a right-of-disposition priority was found, so none is asserted.",
+     "label": "US — Massachusetts"
+    },
+    {
      "id": "us-mi",
      "name": "Michigan",
      "short": "MI",
@@ -919,6 +932,19 @@
    "country": "us",
    "note": "Louisiana is a civil-law jurisdiction. Roles come from the Civil Code and Code of Civil Procedure, with the Revised Statutes for trusts, anatomical gifts, life-sustaining procedures and disposition of remains. Names do not map onto the common-law model: mandate and mandatary rather than power of attorney and agent, interdiction and curator rather than guardianship and conservatorship, and succession rather than probate.",
    "label": "US — Louisiana"
+  },
+  {
+   "id": "us-ma",
+   "name": "Massachusetts",
+   "short": "MA",
+   "code": "MA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ma.json"
+   ],
+   "country": "us",
+   "note": "No state-specific disposition-of-remains role: no Massachusetts statute setting a right-of-disposition priority was found, so none is asserted.",
+   "label": "US — Massachusetts"
   },
   {
    "id": "us-mi",
