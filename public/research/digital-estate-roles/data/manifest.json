@@ -168,6 +168,28 @@
      "country": "dk",
      "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
      "label": "Denmark"
+    },
+    {
+     "id": "ie-national",
+     "name": "Ireland",
+     "short": "IE",
+     "files": [
+      "jurisdictions/ie-national.json"
+     ],
+     "country": "dk",
+     "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
+     "label": "Denmark — Ireland"
+    },
+    {
+     "id": "nl-national",
+     "name": "Netherlands",
+     "short": "NL",
+     "files": [
+      "jurisdictions/nl-national.json"
+     ],
+     "country": "dk",
+     "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
+     "label": "Denmark — Netherlands"
     }
    ]
   },
@@ -746,6 +768,28 @@
    "country": "dk",
    "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
    "label": "Denmark"
+  },
+  {
+   "id": "ie-national",
+   "name": "Ireland",
+   "short": "IE",
+   "files": [
+    "jurisdictions/ie-national.json"
+   ],
+   "country": "dk",
+   "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
+   "label": "Denmark — Ireland"
+  },
+  {
+   "id": "nl-national",
+   "name": "Netherlands",
+   "short": "NL",
+   "files": [
+    "jurisdictions/nl-national.json"
+   ],
+   "country": "dk",
+   "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
+   "label": "Denmark — Netherlands"
   },
   {
    "id": "fi-national",

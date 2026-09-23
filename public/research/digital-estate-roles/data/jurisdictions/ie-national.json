@@ -1,0 +1,1282 @@
+{
+ "jurisdiction": "ie-national",
+ "name": "Ireland",
+ "country": "ie",
+ "legalSystem": "common law",
+ "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
+ "citations": [
+  {
+   "id": "ie-admca-10",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 10",
+   "title": "Decision-making assistance agreement",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "a person who has attained the age of 18 years and who considers that his or her capacity is in question or may shortly be in question may appoint another person who has also attained that age to assist the first-mentioned person in making one or more than one decision on the first-mentioned person's personal welfare or property and affairs, or both"
+  },
+  {
+   "id": "ie-admca-17",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 17",
+   "title": "Co-decision-making agreement",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "a person who has attained the age of 18 years and who considers that his or her capacity is in question or may shortly be in question may appoint a suitable person who has also attained that age to jointly make with the first-mentioned person one or more than one decision on the first-mentioned person's personal welfare or property and affairs, or both"
+  },
+  {
+   "id": "ie-admca-38",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 38",
+   "title": "Power of court to make orders and appoint decision-making representative",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "This section applies where— (a) the court has made a declaration which falls within paragraph (a) of section 37(1), but— (i) there is no suitable person to act as co-decision-maker for the relevant person, or (ii) where there is a suitable person to act as co-decision-maker for the relevant person, a co-decision-making agreement in respect of the relevant person is not registered"
+  },
+  {
+   "id": "ie-admca-54",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 54",
+   "title": "Review of capacity of wards who are adults",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "An application for a declaration under section 55(1) in respect of a ward who has attained the age of 18 years by the date of commencement of this Part may be made to the wardship court at any time— (a) by the ward, (b) by the committee of the ward, or (c) with the consent of the wardship court"
+  },
+  {
+   "id": "ie-admca-55",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 55",
+   "title": "Declarations following review and discharge from wardship",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "The wardship court, on an application being made to it under section 54(1), or pursuant to section 54(2) or (3), shall— (a) declare that the ward does not lack capacity, or (b) make one or more than one of the following declarations"
+  },
+  {
+   "id": "ie-admca-59",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 59",
+   "title": "Enduring power of attorney — general",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "a person who has attained the age of 18 years (in this Act referred to as “donor”) may appoint another person who has also attained that age (in this Act referred to as “attorney”) on whom he or she confers either or both of the following: (a) general authority to act on the donor's behalf in relation to all or a specified part of the donor's personal welfare or property and affairs, or both; ... An enduring power of attorney shall not enter into force until— (a) the instrument creating the enduring power of attorney has been registered under section 69, (b) the donor lacks capacity in relation to one or more of the relevant decisions"
+  },
+  {
+   "id": "ie-admca-69",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 69",
+   "title": "Registration of an instrument creating an enduring power of attorney",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "On receipt of an application under section 68, the Director shall review the application and any objections received under section 71 and shall carry out such reasonable enquiries as he or she considers necessary in order to establish whether the following criteria are met"
+  },
+  {
+   "id": "ie-admca-87",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 87",
+   "title": "Designated healthcare representative",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "a directive-maker may designate, in his or her advance healthcare directive, a named individual to exercise the relevant powers. If the designated individual agrees to exercise the relevant powers, he or she shall sign the advance healthcare directive to confirm his or her willingness to do so"
+  },
+  {
+   "id": "ie-admca-88",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 88",
+   "title": "Functions and scope of authority of designated healthcare representatives",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "A designated healthcare representative has, by virtue of this paragraph, the power to ensure that the terms of the advance healthcare directive are complied with. A directive-maker may, in his or her advance healthcare directive, confer on his or her designated healthcare representative one or both of the following powers: (i) the power to advise and interpret what the directive-maker's will and preferences are"
+  },
+  {
+   "id": "ie-admca-62-repeal",
+   "cite": "Assisted Decision-Making (Capacity) Act 2015, s 62 (repealed)",
+   "title": "Scope of authority — personal welfare decisions (repealed)",
+   "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Repealed (26.04.2023) by Assisted Decision-Making (Capacity) (Amendment) Act 2022 (46/2022), s. 3(c), S.I. No. 194 of 2023."
+  },
+  {
+   "id": "ie-si-192-2023",
+   "cite": "S.I. No. 192/2023",
+   "title": "Assisted Decision-Making (Capacity) Act 2015 (Commencement) Order 2023",
+   "url": "https://www.irishstatutebook.ie/eli/2023/si/192/made/en/html",
+   "kind": "statutory-instrument",
+   "retrieved": "2026-09-23",
+   "quote": "The 26th day of April 2023 is appointed as the day on which the following provisions, insofar as they do not relate to an advance healthcare directive or a designated healthcare representative or both, of the Assisted Decision-Making (Capacity) Act 2015 (No. 64 of 2015) shall come into operation"
+  },
+  {
+   "id": "ie-si-193-2023",
+   "cite": "S.I. No. 193/2023",
+   "title": "Assisted Decision-Making (Capacity) Act 2015 (Commencement) (No. 2) Order 2023",
+   "url": "https://www.irishstatutebook.ie/eli/2023/si/193/made/en/html",
+   "kind": "statutory-instrument",
+   "retrieved": "2026-09-23",
+   "quote": "The 26th day of April 2023 is appointed as the day on which Part 8 of the Principal Act, insofar as it is not already in operation, shall come into operation, other than section 93."
+  },
+  {
+   "id": "ie-succession-10",
+   "cite": "Succession Act 1965, s 10",
+   "title": "Devolution of real and personal estate",
+   "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "The real and personal estate of a deceased person shall on his death, notwithstanding any testamentary disposition, devolve on and become vested in his personal representatives. ... The personal representatives shall be the representatives of the deceased in regard to his real and personal estate and shall hold the estate as trustees for the persons by law entitled thereto."
+  },
+  {
+   "id": "ie-succession-13",
+   "cite": "Succession Act 1965, s 13",
+   "title": "Vesting of estate between death and grant of administration",
+   "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Where a person dies intestate, or dies testate but leaving no executor surviving him, his real and personal estate, until administration is granted in respect thereof, shall vest in the President of the High Court who, for this purpose, shall be a corporation sole."
+  },
+  {
+   "id": "ie-succession-27",
+   "cite": "Succession Act 1965, s 27",
+   "title": "Grants of administration",
+   "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "The High Court shall have power to grant administration (with or without will annexed) of the estate of a deceased person, and a grant may be limited in any way the Court thinks fit. ... Subject to subsection (4), the person or persons to whom administration is to be granted shall be determined in accordance with rules of the High Court."
+  },
+  {
+   "id": "ie-ht-18",
+   "cite": "Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024, s 18",
+   "title": "Deemed consent for donation of relevant organs",
+   "url": "https://www.irishstatutebook.ie/eli/2024/act/5/section/18/enacted/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "a person shall be deemed to consent to the donation, after his or her death, of his or her relevant organs (in this Act referred to as “deemed consent”) where he or she has not registered his or her objection to such organ donation on the Register in accordance with section 33. Subsection (1) shall not apply— (a) to a person who has not been ordinarily resident in the State for a period of at least 12 months immediately before the date of his or her death ... (c) to a person in respect of whom a designated family member cannot be identified or confirmed, or (d) to a child."
+  },
+  {
+   "id": "ie-ht-19",
+   "cite": "Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024, s 19",
+   "title": "Consent for organ donation given by designated family member",
+   "url": "https://www.irishstatutebook.ie/eli/2024/act/5/section/19/enacted/en/html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "This section applies to the donation of any organ from a deceased person where deemed consent does not apply in accordance with section 18. A registered medical practitioner shall not remove any organ from a deceased person for the purpose of transplantation without appropriate consent."
+  },
+  {
+   "id": "ie-ht-si-250-2025",
+   "cite": "S.I. No. 250/2025",
+   "title": "Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024 (Commencement) Order 2025",
+   "url": "https://www.irishstatutebook.ie/eli/2025/si/250/made/en/html",
+   "kind": "statutory-instrument",
+   "retrieved": "2026-09-23",
+   "quote": "The 17th day of June 2025 is appointed as the day on which the following provisions of the Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024 (No. 5 of 2024) shall come into operation: (a) sections 1 to 36"
+  }
+ ],
+ "roles": [
+  {
+   "id": "ie-decision-making-assistant",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Decision-making assistant",
+   "localNames": [
+    "decision-making assistant",
+    "decision-making assistance agreement"
+   ],
+   "summary": "The lightest tier of the 2015 Act. The person keeps the decision; the assistant helps them gather information and express a choice. No registration and no court involvement.",
+   "lane": {
+    "assigned": {
+     "event": "Person whose capacity is or may shortly be in question appoints an assistant in a decision-making assistance agreement",
+     "phase": "capable",
+     "citations": [
+      "ie-admca-10"
+     ]
+    },
+    "starts": {
+     "event": "On the agreement taking effect; the appointer retains the decision throughout",
+     "phase": "capable",
+     "citations": [
+      "ie-admca-10"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Agreement revoked, assistant becomes ineligible or is disqualified",
+      "phase": "capable",
+      "citations": [
+       "ie-admca-10"
+      ]
+     },
+     {
+      "event": "Death of the appointer",
+      "phase": "deceased",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No agreement"
+     },
+     {
+      "id": "active",
+      "label": "Assisting"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-dma-make",
+      "from": "none",
+      "to": "active",
+      "event": "Decision-making assistance agreement made (s 10)",
+      "citations": [
+       "ie-admca-10"
+      ]
+     },
+     {
+      "id": "ie-t-dma-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Revoked, ineligibility or death",
+      "citations": [
+       "ie-admca-10"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-admca-10",
+    "ie-si-192-2023"
+   ]
+  },
+  {
+   "id": "ie-co-decision-maker",
+   "canonical": "supported-decision-maker",
+   "group": "court",
+   "name": "Co-decision-maker",
+   "localNames": [
+    "co-decision-maker",
+    "co-decision-making agreement"
+   ],
+   "summary": "The middle tier. Decisions are made jointly with the appointer, and unlike the assistant tier the agreement must be registered with the Decision Support Service before it has effect.",
+   "lane": {
+    "assigned": {
+     "event": "Person whose capacity is or may shortly be in question appoints a suitable person to make decisions jointly with them",
+     "phase": "capable",
+     "citations": [
+      "ie-admca-17"
+     ]
+    },
+    "starts": {
+     "event": "On registration of the co-decision-making agreement with the Director of the Decision Support Service",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-17"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Agreement revoked or removed from the Register",
+      "phase": "incapacitated",
+      "citations": [
+       "ie-admca-17"
+      ]
+     },
+     {
+      "event": "Death of the appointer",
+      "phase": "deceased",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No agreement"
+     },
+     {
+      "id": "made",
+      "label": "Agreement made"
+     },
+     {
+      "id": "registered",
+      "label": "Registered"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-cdm-make",
+      "from": "none",
+      "to": "made",
+      "event": "Co-decision-making agreement made (s 17)",
+      "citations": [
+       "ie-admca-17"
+      ]
+     },
+     {
+      "id": "ie-t-cdm-reg",
+      "from": "made",
+      "to": "registered",
+      "event": "Registered with the Director of the Decision Support Service",
+      "citations": [
+       "ie-admca-17"
+      ]
+     },
+     {
+      "id": "ie-t-cdm-end",
+      "from": "registered",
+      "to": "ended",
+      "event": "Revoked or removed from the Register",
+      "citations": [
+       "ie-admca-17"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-admca-17",
+    "ie-si-192-2023"
+   ]
+  },
+  {
+   "id": "ie-dmr-welfare",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Decision-making representative (personal welfare)",
+   "localNames": [
+    "decision-making representative"
+   ],
+   "summary": "The court's last resort for personal welfare, available only where no co-decision-maker is suitable or registered. Ireland has no guardianship: the court appoints a representative for specified decisions.",
+   "lane": {
+    "assigned": {
+     "event": "Court declares the person lacks capacity and no suitable or registered co-decision-maker exists",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-38"
+     ]
+    },
+    "starts": {
+     "event": "Court order appointing a decision-making representative for specified personal welfare decisions",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-38"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court varies or discharges the order, or the representative is disqualified",
+      "phase": "incapacitated",
+      "citations": [
+       "ie-admca-38"
+      ]
+     },
+     {
+      "event": "Death of the relevant person",
+      "phase": "deceased",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No appointment"
+     },
+     {
+      "id": "appointed",
+      "label": "Appointed by court"
+     },
+     {
+      "id": "ended",
+      "label": "Discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-dmrw-appoint",
+      "from": "none",
+      "to": "appointed",
+      "event": "Court order under s 38",
+      "citations": [
+       "ie-admca-38"
+      ]
+     },
+     {
+      "id": "ie-t-dmrw-end",
+      "from": "appointed",
+      "to": "ended",
+      "event": "Order varied or discharged, or death",
+      "citations": [
+       "ie-admca-38"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-admca-38",
+    "ie-si-192-2023"
+   ]
+  },
+  {
+   "id": "ie-dmr-property",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Decision-making representative (property and affairs)",
+   "localNames": [
+    "decision-making representative"
+   ],
+   "summary": "The same court-appointed office as for personal welfare, where the order covers property and affairs instead of or as well as welfare.",
+   "lane": {
+    "assigned": {
+     "event": "Court declares the person lacks capacity and no suitable or registered co-decision-maker exists",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-38"
+     ]
+    },
+    "starts": {
+     "event": "Court order appointing a decision-making representative for specified property and affairs decisions",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-38"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court varies or discharges the order",
+      "phase": "incapacitated",
+      "citations": [
+       "ie-admca-38"
+      ]
+     },
+     {
+      "event": "Death of the relevant person; the estate vests in the personal representatives",
+      "phase": "deceased",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No appointment"
+     },
+     {
+      "id": "appointed",
+      "label": "Appointed by court"
+     },
+     {
+      "id": "ended",
+      "label": "Discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-dmrp-appoint",
+      "from": "none",
+      "to": "appointed",
+      "event": "Court order under s 38",
+      "citations": [
+       "ie-admca-38"
+      ]
+     },
+     {
+      "id": "ie-t-dmrp-end",
+      "from": "appointed",
+      "to": "ended",
+      "event": "Order varied or discharged, or death",
+      "citations": [
+       "ie-admca-38"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-admca-38",
+    "ie-si-192-2023"
+   ]
+  },
+  {
+   "id": "ie-epa-property",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Attorney under an enduring power (property and affairs)",
+   "localNames": [
+    "enduring power of attorney",
+    "attorney"
+   ],
+   "summary": "Ireland's enduring power is dormant until two things both happen: the instrument is registered with the Decision Support Service and the donor actually lacks capacity. It confers no authority while the donor is capable.",
+   "lane": {
+    "assigned": {
+     "event": "Donor aged 18+ executes an instrument conferring general or specified authority over property and affairs",
+     "phase": "capable",
+     "citations": [
+      "ie-admca-59"
+     ]
+    },
+    "starts": {
+     "event": "Only once the instrument is registered under s 69 AND the donor lacks capacity for the relevant decisions — both conditions, not either",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-59",
+      "ie-admca-69"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation, disclaimer by the attorney, or removal from the Register",
+      "phase": "incapacitated",
+      "citations": [
+       "ie-admca-59"
+      ]
+     },
+     {
+      "event": "Death of the donor; the estate vests in the personal representatives",
+      "phase": "deceased",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No EPA"
+     },
+     {
+      "id": "executed",
+      "label": "Executed"
+     },
+     {
+      "id": "registered",
+      "label": "Registered"
+     },
+     {
+      "id": "active",
+      "label": "In force"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-epap-exec",
+      "from": "none",
+      "to": "executed",
+      "event": "Instrument executed (s 59)",
+      "citations": [
+       "ie-admca-59"
+      ]
+     },
+     {
+      "id": "ie-t-epap-reg",
+      "from": "executed",
+      "to": "registered",
+      "event": "Registered by the Director (s 69)",
+      "citations": [
+       "ie-admca-69"
+      ]
+     },
+     {
+      "id": "ie-t-epap-force",
+      "from": "registered",
+      "to": "active",
+      "event": "Donor lacks capacity for the relevant decisions (s 59(4))",
+      "citations": [
+       "ie-admca-59"
+      ]
+     },
+     {
+      "id": "ie-t-epap-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Revocation, disclaimer, removal from Register, or death",
+      "citations": [
+       "ie-admca-59"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-admca-59",
+    "ie-admca-69"
+   ]
+  },
+  {
+   "id": "ie-epa-welfare",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Attorney under an enduring power (personal welfare)",
+   "localNames": [
+    "enduring power of attorney",
+    "attorney"
+   ],
+   "summary": "The same instrument may cover personal welfare. The 2022 Act repealed the separate welfare-scope section and folded that authority into s 59 itself.",
+   "lane": {
+    "assigned": {
+     "event": "Donor confers authority over all or part of personal welfare in the enduring power",
+     "phase": "capable",
+     "citations": [
+      "ie-admca-59"
+     ]
+    },
+    "starts": {
+     "event": "Registration under s 69 and the donor's lack of capacity, on the same cumulative test as the property side",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-59",
+      "ie-admca-69"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revocation, disclaimer or removal from the Register",
+      "phase": "incapacitated",
+      "citations": [
+       "ie-admca-59"
+      ]
+     },
+     {
+      "event": "Death of the donor",
+      "phase": "deceased",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No EPA"
+     },
+     {
+      "id": "registered",
+      "label": "Registered"
+     },
+     {
+      "id": "active",
+      "label": "In force"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-epaw-reg",
+      "from": "none",
+      "to": "registered",
+      "event": "Executed and registered (ss 59, 69)",
+      "citations": [
+       "ie-admca-59",
+       "ie-admca-69"
+      ]
+     },
+     {
+      "id": "ie-t-epaw-force",
+      "from": "registered",
+      "to": "active",
+      "event": "Donor lacks capacity (s 59(4))",
+      "citations": [
+       "ie-admca-59"
+      ]
+     },
+     {
+      "id": "ie-t-epaw-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Revocation, disclaimer or death",
+      "citations": [
+       "ie-admca-59"
+      ]
+     }
+    ]
+   },
+   "diff": "The separate personal-welfare scope provision, s 62, was repealed on 26 April 2023 rather than left uncommenced; the authority now sits in s 59(1) itself.",
+   "citations": [
+    "ie-admca-59",
+    "ie-admca-62-repeal"
+   ]
+  },
+  {
+   "id": "ie-designated-healthcare-representative",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Designated healthcare representative",
+   "localNames": [
+    "designated healthcare representative",
+    "advance healthcare directive"
+   ],
+   "summary": "Named inside an advance healthcare directive rather than in a separate instrument, and must sign it to accept. Its core power is to ensure the directive is complied with; interpretive and consent powers are optional add-ons.",
+   "lane": {
+    "assigned": {
+     "event": "Directive-maker designates a named individual in an advance healthcare directive, who signs to confirm willingness",
+     "phase": "capable",
+     "citations": [
+      "ie-admca-87"
+     ]
+    },
+    "starts": {
+     "event": "When the directive applies, on the directive-maker's loss of capacity",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-88"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Directive revoked, or the representative declines or is disqualified",
+      "phase": "incapacitated",
+      "citations": [
+       "ie-admca-87"
+      ]
+     },
+     {
+      "event": "Death of the directive-maker",
+      "phase": "deceased",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No directive"
+     },
+     {
+      "id": "designated",
+      "label": "Designated and signed"
+     },
+     {
+      "id": "active",
+      "label": "Directive applies"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-dhr-sign",
+      "from": "none",
+      "to": "designated",
+      "event": "Designated in the directive and signs to accept (s 87)",
+      "citations": [
+       "ie-admca-87"
+      ]
+     },
+     {
+      "id": "ie-t-dhr-apply",
+      "from": "designated",
+      "to": "active",
+      "event": "Directive-maker loses capacity and the directive applies",
+      "citations": [
+       "ie-admca-88"
+      ]
+     },
+     {
+      "id": "ie-t-dhr-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Revocation or death",
+      "citations": [
+       "ie-admca-87"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-admca-87",
+    "ie-admca-88",
+    "ie-si-193-2023"
+   ]
+  },
+  {
+   "id": "ie-ward",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Committee of a ward (being wound down)",
+   "localNames": [
+    "ward of court",
+    "committee of the ward"
+   ],
+   "summary": "Wardship is abolished prospectively. Every adult ward must be reviewed by the wardship court and discharged into the 2015 Act's tiers, so this role only shrinks.",
+   "lane": {
+    "assigned": {
+     "event": "Person was taken into wardship under the pre-2023 jurisdiction",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-54"
+     ]
+    },
+    "starts": {
+     "event": "Committee appointed by the wardship court under the former jurisdiction",
+     "phase": "incapacitated",
+     "citations": [
+      "ie-admca-54"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Wardship court reviews the ward's capacity and declares either that the ward does not lack capacity or that a 2015 Act arrangement applies, discharging the ward from wardship",
+      "phase": "incapacitated",
+      "citations": [
+       "ie-admca-55"
+      ]
+     },
+     {
+      "event": "Death of the ward",
+      "phase": "deceased",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "ward",
+      "label": "In wardship"
+     },
+     {
+      "id": "reviewed",
+      "label": "Under review"
+     },
+     {
+      "id": "discharged",
+      "label": "Discharged"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-ward-review",
+      "from": "ward",
+      "to": "reviewed",
+      "event": "Application for review under s 54",
+      "citations": [
+       "ie-admca-54"
+      ]
+     },
+     {
+      "id": "ie-t-ward-discharge",
+      "from": "reviewed",
+      "to": "discharged",
+      "event": "Declaration under s 55 and discharge from wardship",
+      "citations": [
+       "ie-admca-55"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-admca-54",
+    "ie-admca-55"
+   ]
+  },
+  {
+   "id": "ie-executor",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executor",
+   "localNames": [
+    "executor",
+    "grant of probate"
+   ],
+   "summary": "The estate vests in the personal representatives at the moment of death, before any grant, and they hold it as trustees for those entitled.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names an executor in a will",
+     "phase": "capable",
+     "citations": [
+      "ie-succession-10"
+     ]
+    },
+    "starts": {
+     "event": "On death the estate devolves on and vests in the personal representatives, notwithstanding any testamentary disposition; the grant of probate proves the title",
+     "phase": "deceased",
+     "citations": [
+      "ie-succession-10"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed and the estate distributed to those entitled",
+      "phase": "closed",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "named",
+      "label": "Named in will"
+     },
+     {
+      "id": "vested",
+      "label": "Estate vested on death"
+     },
+     {
+      "id": "proved",
+      "label": "Probate granted"
+     },
+     {
+      "id": "closed",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-ex-death",
+      "from": "named",
+      "to": "vested",
+      "event": "Death; estate vests in the personal representatives (s 10)",
+      "citations": [
+       "ie-succession-10"
+      ]
+     },
+     {
+      "id": "ie-t-ex-probate",
+      "from": "vested",
+      "to": "proved",
+      "event": "Grant of probate issues",
+      "citations": [
+       "ie-succession-27"
+      ]
+     },
+     {
+      "id": "ie-t-ex-close",
+      "from": "proved",
+      "to": "closed",
+      "event": "Estate distributed",
+      "citations": [
+       "ie-succession-10"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-succession-10",
+    "ie-succession-27"
+   ]
+  },
+  {
+   "id": "ie-administrator",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Administrator",
+   "localNames": [
+    "administrator",
+    "grant of administration",
+    "letters of administration"
+   ],
+   "summary": "Where there is no executor, nobody holds the estate in the interval after death: it vests in the President of the High Court as a corporation sole until administration is granted.",
+   "lane": {
+    "assigned": {
+     "event": "Person dies intestate, or testate leaving no surviving executor",
+     "phase": "deceased",
+     "citations": [
+      "ie-succession-13"
+     ]
+    },
+    "starts": {
+     "event": "High Court grants administration, with or without will annexed; until then the estate is vested in the President of the High Court as a corporation sole",
+     "phase": "administration",
+     "citations": [
+      "ie-succession-27",
+      "ie-succession-13"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed, or the grant revoked, cancelled or recalled by the High Court",
+      "phase": "closed",
+      "citations": [
+       "ie-succession-27"
+      ]
+     }
+    ],
+    "activePhases": [
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No executor"
+     },
+     {
+      "id": "president",
+      "label": "Vested in President of the High Court"
+     },
+     {
+      "id": "granted",
+      "label": "Administration granted"
+     },
+     {
+      "id": "closed",
+      "label": "Administration complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-ad-death",
+      "from": "none",
+      "to": "president",
+      "event": "Death intestate or with no surviving executor; estate vests in the President of the High Court (s 13)",
+      "citations": [
+       "ie-succession-13"
+      ]
+     },
+     {
+      "id": "ie-t-ad-grant",
+      "from": "president",
+      "to": "granted",
+      "event": "High Court grants administration (s 27)",
+      "citations": [
+       "ie-succession-27"
+      ]
+     },
+     {
+      "id": "ie-t-ad-close",
+      "from": "granted",
+      "to": "closed",
+      "event": "Estate distributed, or grant revoked",
+      "citations": [
+       "ie-succession-27"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-succession-13",
+    "ie-succession-27"
+   ]
+  },
+  {
+   "id": "ie-designated-family-member",
+   "canonical": "anatomical-gift-agent",
+   "group": "health",
+   "name": "Designated family member (organ donation)",
+   "localNames": [
+    "designated family member",
+    "deemed consent",
+    "Relevant Organ Donation Opt-Out Register"
+   ],
+   "summary": "Ireland moved to soft opt-out on 17 June 2025. Consent is deemed unless an objection is on the Register, but the family member is not bypassed: if none can be identified or confirmed, deemed consent does not apply at all.",
+   "lane": {
+    "assigned": {
+     "event": "Status arises by relationship at death; the person themselves may instead register an objection on the Opt-Out Register",
+     "phase": "capable",
+     "citations": [
+      "ie-ht-18"
+     ]
+    },
+    "starts": {
+     "event": "On death, where deemed consent does not apply — including where the deceased was not ordinarily resident for 12 months, lacked capacity to understand the deemed-consent scheme, is a child, or where no designated family member can be identified",
+     "phase": "deceased",
+     "citations": [
+      "ie-ht-18",
+      "ie-ht-19"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Consent given or withheld, and removal for transplantation carried out or not",
+      "phase": "deceased",
+      "citations": [
+       "ie-ht-19"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No objection registered"
+     },
+     {
+      "id": "deemed",
+      "label": "Deemed consent applies"
+     },
+     {
+      "id": "family",
+      "label": "Family consent required"
+     },
+     {
+      "id": "resolved",
+      "label": "Consent resolved"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ie-t-dfm-deem",
+      "from": "none",
+      "to": "deemed",
+      "event": "Death with no objection on the Register and deemed consent applicable (s 18)",
+      "citations": [
+       "ie-ht-18"
+      ]
+     },
+     {
+      "id": "ie-t-dfm-except",
+      "from": "none",
+      "to": "family",
+      "event": "Deemed consent excluded by s 18(2); appropriate consent sought from the designated family member",
+      "citations": [
+       "ie-ht-18",
+       "ie-ht-19"
+      ]
+     },
+     {
+      "id": "ie-t-dfm-done",
+      "from": "family",
+      "to": "resolved",
+      "event": "Designated family member gives or withholds consent (s 19)",
+      "citations": [
+       "ie-ht-19"
+      ]
+     },
+     {
+      "id": "ie-t-dfm-done2",
+      "from": "deemed",
+      "to": "resolved",
+      "event": "Donation proceeds on deemed consent",
+      "citations": [
+       "ie-ht-18"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "ie-ht-18",
+    "ie-ht-19",
+    "ie-ht-si-250-2025"
+   ]
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "An ordinary agency does not survive incapacity; enduring authority exists only through the separate enduring power of attorney in Part 7 of the 2015 Act.",
+   "citations": [
+    "ie-admca-59"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "The Irish enduring power is inherently springing: s 59(4) provides that it shall not enter into force until both registration under s 69 and the donor's loss of capacity.",
+   "citations": [
+    "ie-admca-59"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "Registration with the Director of the Decision Support Service under s 69 is one of the two cumulative conditions in s 59(4); a co-decision-making agreement likewise has effect only on registration.",
+   "citations": [
+    "ie-admca-59",
+    "ie-admca-69",
+    "ie-admca-17"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "A designated healthcare representative acts when the advance healthcare directive applies, on the directive-maker's loss of capacity; an enduring power covering personal welfare is subject to the same s 59(4) test.",
+   "citations": [
+    "ie-admca-88",
+    "ie-admca-59"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": true,
+   "year": 2015,
+   "name": "Assisted Decision-Making (Capacity) Act 2015",
+   "citations": [
+    "ie-admca-10",
+    "ie-admca-17",
+    "ie-si-192-2023"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": 2025,
+   "name": "Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024",
+   "citations": [
+    "ie-ht-18",
+    "ie-ht-si-250-2025"
+   ]
+  },
+  "probateGrantName": {
+   "value": "grant of probate",
+   "note": "Administration where there is no executor is granted by the High Court under s 27; the estate vests in the personal representatives at death under s 10 regardless of the grant.",
+   "citations": [
+    "ie-succession-10",
+    "ie-succession-27"
+   ]
+  }
+ }
+}
