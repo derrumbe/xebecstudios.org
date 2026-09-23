@@ -441,6 +441,19 @@
      "label": "US — Louisiana"
     },
     {
+     "id": "us-me",
+     "name": "Maine",
+     "short": "ME",
+     "code": "ME",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-me.json"
+     ],
+     "country": "us",
+     "note": "Maine is the closest state in this set to the uniform baseline: it enacted the Uniform Guardianship, Conservatorship and Other Protective Arrangements Act, the act the us-model baseline follows, and is one of only four states to have done so. Probate law was recodified from Title 18-A to Title 18-C effective 2019, so section numbers in older references are stale.",
+     "label": "US — Maine"
+    },
+    {
      "id": "us-ma",
      "name": "Massachusetts",
      "short": "MA",
@@ -932,6 +945,19 @@
    "country": "us",
    "note": "Louisiana is a civil-law jurisdiction. Roles come from the Civil Code and Code of Civil Procedure, with the Revised Statutes for trusts, anatomical gifts, life-sustaining procedures and disposition of remains. Names do not map onto the common-law model: mandate and mandatary rather than power of attorney and agent, interdiction and curator rather than guardianship and conservatorship, and succession rather than probate.",
    "label": "US — Louisiana"
+  },
+  {
+   "id": "us-me",
+   "name": "Maine",
+   "short": "ME",
+   "code": "ME",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-me.json"
+   ],
+   "country": "us",
+   "note": "Maine is the closest state in this set to the uniform baseline: it enacted the Uniform Guardianship, Conservatorship and Other Protective Arrangements Act, the act the us-model baseline follows, and is one of only four states to have done so. Probate law was recodified from Title 18-A to Title 18-C effective 2019, so section numbers in older references are stale.",
+   "label": "US — Maine"
   },
   {
    "id": "us-ma",
