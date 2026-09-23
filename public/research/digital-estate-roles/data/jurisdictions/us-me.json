@@ -1,0 +1,544 @@
+{
+ "jurisdiction": "us-me",
+ "name": "Maine",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Probate Code",
+  "Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act (2018)",
+  "Uniform Power of Attorney Act (2009)",
+  "Uniform Health-Care Decisions Act (1993)",
+  "Uniform Trust Code",
+  "Revised Uniform Fiduciary Access to Digital Assets Act",
+  "Revised Uniform Anatomical Gift Act"
+ ],
+ "note": "Maine is the closest state in this set to the uniform baseline: it enacted the Uniform Guardianship, Conservatorship and Other Protective Arrangements Act, the act the us-model baseline follows, and is one of only four states to have done so. Probate law was recodified from Title 18-A to Title 18-C effective 2019, so section numbers in older references are stale.",
+ "citations": [
+  {
+   "id": "me-18c-1-108",
+   "cite": "Me. Rev. Stat. tit. 18-C, §1-108",
+   "title": "Cost-of-living adjustment of certain dollar amounts",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec1-108.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "The dollar amounts stated in sections 2‑102, 2‑402, 2‑403, 2‑405 and 3‑1201 apply to the estate of a decedent who died in or after 2017, but for the estate of a decedent who died after 2018, these dollar amounts must be increased or decreased if the Consumer Price Index for the calendar year immediately preceding the year of death exceeds or is less than the reference base index."
+  },
+  {
+   "id": "me-18c-3-203",
+   "cite": "Me. Rev. Stat. tit. 18-C, §3-203",
+   "title": "Priority among persons seeking appointment as personal representative",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-203.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "A. The person with priority as determined by a probated will including a person nominated by a power conferred in a will; ... G. Forty-five days after the death of the decedent, any creditor; and H. Six months after the death of the decedent if no testacy proceeding have been held or no personal representative has been appointed, the State Tax Assessor upon application by the State Tax Assessor."
+  },
+  {
+   "id": "me-18c-3-307",
+   "cite": "Me. Rev. Stat. tit. 18-C, §3-307",
+   "title": "Informal appointment proceedings; delay in order; duty of register; effect of appointment",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-307.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Upon receipt of an application for informal appointment of a personal representative, other than a special administrator as provided in section 3‑614, if at least 120 hours have elapsed since the decedent's death, the register, after making the findings required by section 3‑308, shall appoint the applicant subject to qualification and acceptance."
+  },
+  {
+   "id": "me-18c-3-1201",
+   "cite": "Me. Rev. Stat. tit. 18-C, §3-1201",
+   "title": "Collection of personal property by affidavit",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-1201.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Thirty days after the death of a decedent, any person indebted to the decedent or having possession of personal property ... shall make payment ... upon being presented an affidavit made by or on behalf of the successor stating that: A. The value of the entire estate, wherever located, less liens and encumbrances, does not exceed $40,000, adjusted for inflation pursuant to section 1‑108"
+  },
+  {
+   "id": "me-18c-5-108",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-108",
+   "title": "Letters of office",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-108.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "On a guardian's filing of an acceptance of appointment, the court shall issue appropriate letters of office. ... On a conservator's filing of an acceptance of appointment and filing of any required bond or compliance with any other asset-protection arrangement required by the court, the court shall issue appropriate letters of office."
+  },
+  {
+   "id": "me-18c-5-301",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-301",
+   "title": "Basis for appointment of guardian for adult",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-301.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Appoint a guardian for a respondent who is an adult if it finds by clear and convincing evidence that the respondent lacks the ability to meet essential requirements for physical health, safety or self-care because: (1) The respondent is unable to receive and evaluate information or make or communicate decisions, even with appropriate supportive services, technological assistance or supported decision making that provides adequate protection for the respondent"
+  },
+  {
+   "id": "me-18c-5-306",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-306",
+   "title": "Professional evaluation",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-306.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "In every adult guardianship matter, the respondent must be examined by a medical practitioner who is acceptable to the court and who is qualified to evaluate the respondent's alleged cognitive and functional abilities. The individual conducting the evaluation shall file a report in a record with the court at least 10 days before any hearing on the petition. ... As used in this subsection, \"medical practitioner\" means a licensed physician, a licensed physician associate, a certified psychiatric clinical nurse specialist, a certified nurse practitioner or a licensed clinical psychologist."
+  },
+  {
+   "id": "me-18c-5-309",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-309",
+   "title": "Who may be guardian of adult; priorities",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-309.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "A. A guardian, other than a temporary or emergency guardian, currently acting for the respondent in another jurisdiction; B. A person nominated as guardian by the respondent, including the respondent's most recent nomination made in a power of attorney; C. An agent appointed by the respondent under a power of attorney for health care or an advance health care directive; D. A spouse or domestic partner of the respondent"
+  },
+  {
+   "id": "me-18c-5-407",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-407",
+   "title": "Professional evaluation",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-407.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "The respondent must be examined by a licensed physician or psychologist who is acceptable to the court, who is qualified to evaluate the respondent's alleged cognitive and functional abilities and limitations and who will not be advantaged or disadvantaged by a decision to grant the petition and does not otherwise have a conflict of interest. The individual conducting the evaluation shall file a report in a record with the court at least 10 days before any hearing on the petition."
+  },
+  {
+   "id": "me-18c-5-803",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-803",
+   "title": "Advance health care directives",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-803.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "The power must be in writing and signed by the principal and 2 witnesses. Notwithstanding any law validating electronic or digital signatures, signatures of the principal and witnesses must be made in person and not by electronic means. ... Unless related to the principal by blood, marriage or adoption, an agent may not be an owner, operator or employee of a residential long-term health care institution at which the principal is receiving care. ... Unless otherwise specified in a power of attorney for health care, the authority of an agent becomes effective only upon a determination that the principal lacks capacity and ceases to be effective upon a determination that the principal has recovered capacity."
+  },
+  {
+   "id": "me-18c-5-806",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-806",
+   "title": "Decisions by surrogate",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-806.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "A surrogate may make a decision to withhold or withdraw life-sustaining treatment for a patient who is an adult or emancipated minor if the patient has been determined by the primary physician to lack capacity, no agent or guardian has been appointed or the agent or guardian is not reasonably available and the patient is in a terminal condition or a persistent vegetative state as determined by the primary physician. ... A. The spouse, unless legally separated; B. An adult who shares an emotional, physical and financial relationship with the patient similar to that of a spouse; C. An adult child"
+  },
+  {
+   "id": "me-18c-5-904",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-904",
+   "title": "Power of attorney is durable",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-904.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "A power of attorney created under this Part is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+  },
+  {
+   "id": "me-18c-5-905",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-905",
+   "title": "Execution of power of attorney; notices",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-905.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "A signature on a power of attorney is presumed to be genuine if the principal acknowledges the signature before a notary public or other individual authorized by law to take acknowledgments. A power of attorney under this Part is not valid unless it is acknowledged before a notary public or other individual authorized by law to take acknowledgments. ... A durable power of attorney under this Part is not valid unless it contains the following notices substantially in the following form"
+  },
+  {
+   "id": "me-18c-5-909",
+   "cite": "Me. Rev. Stat. tit. 18-C, §5-909",
+   "title": "When power of attorney effective",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-909.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "If a power of attorney becomes effective upon the principal's incapacity and the principal has not authorized a person to determine whether the principal is incapacitated, or the person authorized is unable or unwilling to make the determination, the power of attorney becomes effective upon a determination in a writing or other record by: A. A physician that the principal is incapacitated within the meaning of section 5‑902, subsection 5, paragraph A; or B. An attorney, a judge or an appropriate governmental official that the principal is incapacitated within the meaning of section 5‑902, subsection 5, paragraph B."
+  },
+  {
+   "id": "me-18c-10-104",
+   "cite": "Me. Rev. Stat. tit. 18-C, §10-104",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec10-104.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user's digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney or other record."
+  },
+  {
+   "id": "me-18c-10-116",
+   "cite": "Me. Rev. Stat. tit. 18-C, §10-116",
+   "title": "Custodian compliance and immunity",
+   "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec10-116.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Not later than 60 days after receipt of the information required under sections 10‑107 to 10‑115, a custodian shall comply with a request under this Act from a fiduciary or designated recipient to disclose digital assets or terminate an account."
+  },
+  {
+   "id": "me-18b-704",
+   "cite": "Me. Rev. Stat. tit. 18-B, §704",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "https://legislature.maine.gov/statutes/18-B/title18-Bsec704.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "A vacancy in a trusteeship of a noncharitable trust that is required to be filled must be filled in the following order of priority: A. By a person designated in the terms of the trust to act as successor trustee; B. By a person appointed by unanimous agreement of the qualified beneficiaries"
+  },
+  {
+   "id": "me-22-2944",
+   "cite": "Me. Rev. Stat. tit. 22, §2944",
+   "title": "Who may make anatomical gift before donor's death",
+   "url": "https://legislature.maine.gov/statutes/22/title22sec2944.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift"
+  },
+  {
+   "id": "me-22-2843-a",
+   "cite": "Me. Rev. Stat. tit. 22, §2843-A",
+   "title": "Custody of remains of deceased persons",
+   "url": "https://legislature.maine.gov/statutes/22/title22sec2843-A.html",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "If the subject has designated another person to have custody and control in a written and signed document, custody and control belong to that designated person; ... If a person who has the right of custody and control under this subsection does not exercise the rights and responsibilities of custody and control within 4 days after the death of the subject, custody and control belong to a person from the next lower level of priority ... A person who has been charged with murder ... or manslaughter ... forfeits the right of custody and control provided under this subsection"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent under a durable power of attorney"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs the power of attorney and acknowledges it before a notary public; a durable power is invalid unless it also carries the statutory Notice to the Principal and Notice to the Agent",
+     "phase": "capable",
+     "citations": [
+      "me-18c-5-905",
+      "me-18c-5-904"
+     ]
+    }
+   },
+   "diff": "Maine enacted the Uniform Power of Attorney Act and keeps the uniform default: §5-904 is uniform §104 verbatim, so a power is durable unless it expressly provides that incapacity terminates it. Durability is opted out of, not into, which puts Maine with the uniform-act states rather than with Washington, New Jersey and Massachusetts. Where Maine departs is execution. Uniform §105 makes acknowledgment before a notary only a presumption of genuineness; §5-905(1) keeps that presumption and then adds that a power of attorney under this Part \"is not valid unless it is acknowledged before a notary public\", making notarisation a condition of validity. §5-905(2) goes further for durable powers, which are invalid unless they contain two long statutory notices — one to the principal, one to the agent — substantially in the form the section sets out. Maine is therefore uniform on when durability arises and stricter than the model on how the instrument must be made.",
+   "citations": [
+    "me-18c-5-904",
+    "me-18c-5-905"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "agent under a power of attorney that terminates on incapacity"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a power of attorney expressly providing that it is terminated by the principal's incapacity, and acknowledges it before a notary public",
+     "phase": "capable",
+     "citations": [
+      "me-18c-5-904",
+      "me-18c-5-905"
+     ]
+    }
+   },
+   "diff": "Because §5-904 makes durability the default, a non-durable power in Maine exists only where the instrument expressly says incapacity terminates it — the silent instrument is durable. The §5-905(1) notarisation requirement applies to every power of attorney under Part 9, so a non-durable power is equally invalid without acknowledgment; the §5-905(2) statutory notices, by their terms, are required only of durable powers.",
+   "citations": [
+    "me-18c-5-904",
+    "me-18c-5-905"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "differs": false,
+   "diff": "Consistent with the baseline. §5-909 carries uniform §109, including the fallback the model records: where the principal named nobody to determine that the contingency occurred, or the named person will not or cannot act, the power becomes effective on a written determination by a physician that the principal is incapacitated under §5-902(5)(A), or by an attorney, judge or appropriate governmental official under §5-902(5)(B). Maine therefore does not share the gap found in Pennsylvania, New Jersey and Massachusetts, each of which creates a springing power but names no default certifier.",
+   "citations": [
+    "me-18c-5-909"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under a power of attorney for health care",
+    "advance health care directive"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a written power of attorney for health care before 2 witnesses, in person — electronic signature is barred",
+     "phase": "capable",
+     "citations": [
+      "me-18c-5-803"
+     ]
+    },
+    "starts": {
+     "event": "Determination that the principal lacks capacity, by the primary physician or a court unless the directive specifies otherwise; authority ceases on a determination that capacity has returned",
+     "phase": "incapacitated",
+     "citations": [
+      "me-18c-5-803"
+     ]
+    }
+   },
+   "diff": "Maine's Part 8 is the 1993 Uniform Health-Care Decisions Act, but §5-803(2) adds formalities the uniform text does not have. The power must be signed by the principal and 2 witnesses, and — uniquely among the states in this set — the statute expressly forecloses electronic execution: \"Notwithstanding any law validating electronic or digital signatures, signatures of the principal and witnesses must be made in person and not by electronic means.\" That matters directly to the digital-estate question, because it is the one role here that a jurisdiction has deliberately kept off-line. §5-803(2) also disqualifies an owner, operator or employee of a residential long-term health care institution at which the principal is receiving care, unless related to the principal by blood, marriage or adoption. Capacity is determined by the primary physician or a court, or, for a directive authorising mental health treatment, by a person qualified to examine under Title 34-B §3863. §5-803-A supplies a narrow exception for remote signing inside health care facilities.",
+   "citations": [
+    "me-18c-5-803"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Primary physician determines the patient lacks capacity and no agent or guardian exists or is reasonably available; the highest-priority reasonably available family member assumes authority",
+     "phase": "incapacitated",
+     "citations": [
+      "me-18c-5-806"
+     ]
+    }
+   },
+   "diff": "Maine's surrogate list in §5-806(2) runs to nine ranked classes, well beyond the uniform act's, and places at rank 2 — immediately after a spouse who is not legally separated — \"an adult who shares an emotional, physical and financial relationship with the patient similar to that of a spouse\", before adult children. Two substantive limits have no uniform counterpart: a surrogate may withhold or withdraw life-sustaining treatment only where the patient is in a terminal condition or a persistent vegetative state as determined by the primary physician, and a surrogate \"may not deny surgery, procedures or other interventions that are lifesaving and medically necessary\". Where a class is evenly divided and the provider is told, that class and every lower class are disqualified.",
+   "citations": [
+    "me-18c-5-806"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "lane": {
+    "starts": {
+     "event": "Court order of appointment, then filing of acceptance and issuance of letters of office; a professional evaluation is required in every adult guardianship and the report must be filed at least 10 days before the hearing",
+     "phase": "incapacitated",
+     "citations": [
+      "me-18c-5-306",
+      "me-18c-5-108"
+     ]
+    }
+   },
+   "diff": "Maine enacted the Uniform Guardianship, Conservatorship and Other Protective Arrangements Act in 2018, the act this baseline follows, and Article 5 tracks it closely — §5-301 carries the clear-and-convincing standard and the less-restrictive-alternative and supported-decision-making findings, and §5-108 the acceptance-then-letters sequence. The evaluation is where it parts company. Uniform §306 leaves a professional evaluation to the court's discretion; §5-306 requires one \"in every adult guardianship matter\", sets a 10-day pre-hearing filing deadline, and defines \"medical practitioner\" broadly to include a licensed physician, physician associate, certified psychiatric clinical nurse specialist, certified nurse practitioner or licensed clinical psychologist. The respondent may decline to participate, leaving the petitioner to seek an examination under Rule 35. §5-309 also adds a domestic partner alongside the spouse in the appointment priorities, and §5-301 lets the court weigh the vetting and reported effectiveness of an existing supported decision-making arrangement.",
+   "citations": [
+    "me-18c-5-301",
+    "me-18c-5-306",
+    "me-18c-5-309",
+    "me-18c-5-108"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "lane": {
+    "starts": {
+     "event": "Court order, then acceptance and any required bond or asset-protection arrangement, and issuance of letters of office; a professional evaluation is required and the report must be filed at least 10 days before the hearing",
+     "phase": "incapacitated",
+     "citations": [
+      "me-18c-5-407",
+      "me-18c-5-108"
+     ]
+    }
+   },
+   "diff": "As with guardianship, Maine makes the professional evaluation mandatory where uniform §407 leaves it discretionary, with the same 10-day filing deadline. The qualifying examiner is narrower than on the guardianship side: §5-407 requires a licensed physician or psychologist, where §5-306 also accepts a physician associate, psychiatric clinical nurse specialist or nurse practitioner — so the same person may be qualified to support a guardianship but not a conservatorship. §5-407 adds an independence requirement absent from §5-306: the examiner must be someone who \"will not be advantaged or disadvantaged by a decision to grant the petition and does not otherwise have a conflict of interest\".",
+   "citations": [
+    "me-18c-5-407",
+    "me-18c-5-108"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "differs": false,
+   "diff": "Consistent with the baseline. Maine is a Uniform Probate Code state: §3-203(1)(A) gives first priority, in formal and informal proceedings alike, to the person with priority under a probated will including a person nominated by a power conferred in the will, and §3-307 carries the uniform 120-hour wait before informal appointment, with the status and powers of the office fully established by that appointment.",
+   "citations": [
+    "me-18c-3-203",
+    "me-18c-3-307"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "lane": {
+    "assigned": {
+     "event": "Priority arises at death by relationship or nomination; after 45 days any creditor, and after 6 months the State Tax Assessor, may apply",
+     "phase": "deceased",
+     "citations": [
+      "me-18c-3-203"
+     ]
+    }
+   },
+   "diff": "Maine follows the uniform priority ladder down to creditors at 45 days, then adds a class no other state file in this set carries: six months after death, where no testacy proceeding has been held and no personal representative has been appointed, the State Tax Assessor may be appointed on the Assessor's own application. The estate of someone who leaves no one willing to administer it therefore ends up with the revenue authority rather than a public administrator, which is the route Massachusetts takes. §3-203(4) is also wider than the uniform text: alongside conservators and guardians, an agent under a power of attorney that expressly grants the authority may nominate a personal representative, object to another's appointment, or take part in determining the preference of a majority in interest.",
+   "citations": [
+    "me-18c-3-203"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "lane": {
+    "starts": {
+     "event": "30 days after death, presents an affidavit that the entire estate wherever located, less liens and encumbrances, does not exceed $40,000 as adjusted for inflation, and that no personal representative application is pending or granted",
+     "phase": "deceased",
+     "citations": [
+      "me-18c-3-1201",
+      "me-18c-1-108"
+     ]
+    }
+   },
+   "diff": "The 30-day wait and the conditions are uniform, but the ceiling is not fixed. §3-1201(1)(A) sets $40,000 \"adjusted for inflation pursuant to section 1‑108\", and §1-108 indexes it to the Consumer Price Index for All Urban Consumers against a 2017 reference base, by the calendar year preceding the year of death, rounded down to the next multiple of $100 for an increase and up for a decrease. Maine is the only state in this set whose small-estate threshold moves on its own; every other file records a figure fixed until the legislature changes it. Because the operative number depends on the year of death, §3-1201(3) requires each county probate court to publish the current adjusted value annually on its website. The $40,000 base itself is recent, raised by PL 2025, c. 76.",
+   "citations": [
+    "me-18c-3-1201",
+    "me-18c-1-108"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "differs": false,
+   "diff": "Consistent with the baseline. Maine enacted the Uniform Trust Code as Title 18-B, and §704 carries uniform §704: the same six vacancy events, no need to fill a vacancy while a cotrustee remains in office, and the same order of priority for filling one — a successor designated in the terms of the trust, then a person appointed by unanimous agreement of the qualified beneficiaries, then the court.",
+   "citations": [
+    "me-18b-704"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "differs": false,
+   "diff": "Consistent with the baseline. Maine enacted RUFADAA in 2018 as Article 10 of the Probate Code, and §10-104 is uniform §4 verbatim: an online-tool direction that the user may modify or delete at all times overrides a contrary direction in a will, trust, power of attorney or other record, and a direction under either route overrides a contrary term of service that the user did not have to accept affirmatively and distinctly. Maine is not among the states that left fiduciary access unlegislated.",
+   "citations": [
+    "me-18c-10-104"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "differs": false,
+   "diff": "Consistent with the baseline. Article 10 runs the full uniform sequence — §§10-107 to 10-110 for a deceased user's and a principal's content and other digital assets, §§10-111 to 10-113 for trusts, §10-114 for a conservator and §10-115 for fiduciary duty and authority — and §10-116 takes the uniform bracketed period at 60 days, with an application to the court if the custodian does not comply.",
+   "citations": [
+    "me-18c-10-104",
+    "me-18c-10-116"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "differs": false,
+   "diff": "Consistent with the baseline. Maine enacted the Revised Uniform Anatomical Gift Act as Title 22, chapter 710-B, and §2944(2) keeps the uniform unless-prohibited default: an agent of the donor may make an anatomical gift during the donor's life unless the power of attorney for health care or other record prohibits it. Maine therefore sits with Louisiana, Michigan, New Jersey, Washington and Massachusetts, not with Pennsylvania and North Carolina, which invert the rule to require express authority. The superseded Uniform Anatomical Gift Act remains on the books as chapter 710, repealed.",
+   "citations": [
+    "me-22-2944"
+   ]
+  },
+  {
+   "role": "me-custody-of-remains",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "name": "Person with custody and control of remains",
+   "localNames": [
+    "custody and control",
+    "written and signed document designating a person"
+   ],
+   "summary": "A person may name who will have custody and control of their remains in a written, signed document; absent that, a ranked next-of-kin list applies, and the right lapses if it is not exercised within 4 days of death.",
+   "lane": {
+    "assigned": {
+     "event": "Subject designates a person in a written and signed document",
+     "phase": "capable",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    },
+    "starts": {
+     "event": "On death, custody and control vest in the designated person, or in the next of kin if none was designated or the designee refuses",
+     "phase": "deceased",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Final disposition carried out",
+      "phase": "administration",
+      "citations": [
+       "me-22-2843-a"
+      ]
+     },
+     {
+      "event": "Right not exercised within 4 days of death, so it passes to the next lower level of priority",
+      "phase": "deceased",
+      "citations": [
+       "me-22-2843-a"
+      ]
+     },
+     {
+      "event": "Holder charged with murder or manslaughter forfeits the right, regaining it in the same priority if the charges are dismissed or the person is acquitted before final disposition",
+      "phase": "deceased",
+      "citations": [
+       "me-22-2843-a"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No written designation"
+    },
+    {
+     "id": "designated",
+     "label": "Designation signed"
+    },
+    {
+     "id": "active",
+     "label": "Custody and control"
+    },
+    {
+     "id": "lapsed",
+     "label": "Passed to next priority"
+    },
+    {
+     "id": "terminated",
+     "label": "Disposition carried out"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "me-t-cr-sign",
+     "from": "not_designated",
+     "to": "designated",
+     "event": "Subject signs a written document designating a person (22 §2843-A(2)(A))",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    },
+    {
+     "id": "me-t-cr-death",
+     "from": "designated",
+     "to": "active",
+     "event": "Death; custody and control vest in the designated person",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    },
+    {
+     "id": "me-t-cr-kin",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Death with no designation, or the designee refuses; custody and control belong to the next of kin in the §2843-A(1)(D) order",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    },
+    {
+     "id": "me-t-cr-lapse",
+     "from": "active",
+     "to": "lapsed",
+     "event": "Rights and responsibilities not exercised within 4 days after death",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    },
+    {
+     "id": "me-t-cr-forfeit",
+     "from": "active",
+     "to": "lapsed",
+     "event": "Holder charged with murder or manslaughter forfeits the right",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    },
+    {
+     "id": "me-t-cr-restore",
+     "from": "lapsed",
+     "to": "active",
+     "event": "Charges dismissed or acquittal before final disposition restores the right in the same priority",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    },
+    {
+     "id": "me-t-cr-done",
+     "from": "active",
+     "to": "terminated",
+     "event": "Final disposition carried out",
+     "citations": [
+      "me-22-2843-a"
+     ]
+    }
+   ],
+   "diff": "Maine sets a right of custody and control of remains in Title 22 §2843-A, which the uniform/model baseline has no equivalent for. A written, signed designation by the subject takes first place, ahead of a twelve-rank next-of-kin list that places a registered or long-term domestic partner immediately after the spouse and ends, for a veteran with no known living spouse or adult relative, with the Adjutant General. Three features have no counterpart elsewhere in this set: an estranged spouse or domestic partner — living separately and in a relationship \"characterized by hostility or indifference\" — loses custody and control to the next of kin behind them; the right lapses to the next level of priority if it is not exercised within 4 days of death, and remains are treated as abandoned after 15 days; and a person charged with murder or manslaughter forfeits the right, but regains it in the same position if the charges are dismissed or they are acquitted before final disposition takes place.",
+   "citations": [
+    "me-22-2843-a"
+   ]
+  }
+ ]
+}
