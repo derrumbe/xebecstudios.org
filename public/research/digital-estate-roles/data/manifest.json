@@ -168,39 +168,6 @@
      "country": "dk",
      "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
      "label": "Denmark"
-    },
-    {
-     "id": "fr-national",
-     "name": "France",
-     "short": "FR",
-     "files": [
-      "jurisdictions/fr-national.json"
-     ],
-     "country": "dk",
-     "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice.",
-     "label": "Denmark — France"
-    },
-    {
-     "id": "ie-national",
-     "name": "Ireland",
-     "short": "IE",
-     "files": [
-      "jurisdictions/ie-national.json"
-     ],
-     "country": "dk",
-     "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
-     "label": "Denmark — Ireland"
-    },
-    {
-     "id": "nl-national",
-     "name": "Netherlands",
-     "short": "NL",
-     "files": [
-      "jurisdictions/nl-national.json"
-     ],
-     "country": "dk",
-     "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
-     "label": "Denmark — Netherlands"
     }
    ]
   },
@@ -224,6 +191,25 @@
    ]
   },
   {
+   "id": "fr",
+   "name": "France",
+   "region": "Europe",
+   "iso": "FR",
+   "jurisdictions": [
+    {
+     "id": "fr-national",
+     "name": "France",
+     "short": "FR",
+     "files": [
+      "jurisdictions/fr-national.json"
+     ],
+     "country": "fr",
+     "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice.",
+     "label": "France"
+    }
+   ]
+  },
+  {
    "id": "de",
    "name": "Germany",
    "region": "Europe",
@@ -243,6 +229,25 @@
    ]
   },
   {
+   "id": "ie",
+   "name": "Ireland",
+   "region": "Europe",
+   "iso": "IE",
+   "jurisdictions": [
+    {
+     "id": "ie-national",
+     "name": "Ireland",
+     "short": "IE",
+     "files": [
+      "jurisdictions/ie-national.json"
+     ],
+     "country": "ie",
+     "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
+     "label": "Ireland"
+    }
+   ]
+  },
+  {
    "id": "it",
    "name": "Italy",
    "region": "Europe",
@@ -258,6 +263,25 @@
      "country": "it",
      "note": "Roles under the Codice civile, the 2017 law on informed consent and advance directives, the 1999 organ transplant law and the privacy code as adapted to the GDPR. Text from Normattiva, the official consolidated portal; each citation records the date its wording took effect.",
      "label": "Italy"
+    }
+   ]
+  },
+  {
+   "id": "nl",
+   "name": "Netherlands",
+   "region": "Europe",
+   "iso": "NL",
+   "jurisdictions": [
+    {
+     "id": "nl-national",
+     "name": "Netherlands",
+     "short": "NL",
+     "files": [
+      "jurisdictions/nl-national.json"
+     ],
+     "country": "nl",
+     "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
+     "label": "Netherlands"
     }
    ]
   },
@@ -781,39 +805,6 @@
    "label": "Denmark"
   },
   {
-   "id": "fr-national",
-   "name": "France",
-   "short": "FR",
-   "files": [
-    "jurisdictions/fr-national.json"
-   ],
-   "country": "dk",
-   "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice.",
-   "label": "Denmark — France"
-  },
-  {
-   "id": "ie-national",
-   "name": "Ireland",
-   "short": "IE",
-   "files": [
-    "jurisdictions/ie-national.json"
-   ],
-   "country": "dk",
-   "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
-   "label": "Denmark — Ireland"
-  },
-  {
-   "id": "nl-national",
-   "name": "Netherlands",
-   "short": "NL",
-   "files": [
-    "jurisdictions/nl-national.json"
-   ],
-   "country": "dk",
-   "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
-   "label": "Denmark — Netherlands"
-  },
-  {
    "id": "fi-national",
    "name": "Finland",
    "short": "FI",
@@ -823,6 +814,17 @@
    "country": "fi",
    "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues.",
    "label": "Finland"
+  },
+  {
+   "id": "fr-national",
+   "name": "France",
+   "short": "FR",
+   "files": [
+    "jurisdictions/fr-national.json"
+   ],
+   "country": "fr",
+   "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice.",
+   "label": "France"
   },
   {
    "id": "de-federal",
@@ -836,6 +838,17 @@
    "label": "Germany — federal law"
   },
   {
+   "id": "ie-national",
+   "name": "Ireland",
+   "short": "IE",
+   "files": [
+    "jurisdictions/ie-national.json"
+   ],
+   "country": "ie",
+   "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
+   "label": "Ireland"
+  },
+  {
    "id": "it-national",
    "name": "Italy",
    "short": "IT",
@@ -845,6 +858,17 @@
    "country": "it",
    "note": "Roles under the Codice civile, the 2017 law on informed consent and advance directives, the 1999 organ transplant law and the privacy code as adapted to the GDPR. Text from Normattiva, the official consolidated portal; each citation records the date its wording took effect.",
    "label": "Italy"
+  },
+  {
+   "id": "nl-national",
+   "name": "Netherlands",
+   "short": "NL",
+   "files": [
+    "jurisdictions/nl-national.json"
+   ],
+   "country": "nl",
+   "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
+   "label": "Netherlands"
   },
   {
    "id": "es-national",

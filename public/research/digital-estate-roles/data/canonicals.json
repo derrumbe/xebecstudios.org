@@ -5,7 +5,7 @@
    "label": "Administrator",
    "definition": "The personal representative the law or a court supplies where the deceased named nobody, or nobody named can act.",
    "jurisdictionCount": 40,
-   "countryCount": 19,
+   "countryCount": 20,
    "citations": {
     "mu-cur-4": {
      "id": "mu-cur-4",
@@ -127,22 +127,6 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
-    "ie-succession-13": {
-     "id": "ie-succession-13",
-     "cite": "Succession Act 1965, s 13",
-     "title": "Vesting of estate between death and grant of administration",
-     "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "ie-succession-27": {
-     "id": "ie-succession-27",
-     "cite": "Succession Act 1965, s 27",
-     "title": "Grants of administration",
-     "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
     "fi-pk-19-1": {
      "id": "fi-pk-19-1",
      "cite": "Perintökaari 40/1965 19 luku 1 §",
@@ -158,6 +142,22 @@
      "url": "https://www.gesetze-im-internet.de/bgb/__1960.html",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "ie-succession-13": {
+     "id": "ie-succession-13",
+     "cite": "Succession Act 1965, s 13",
+     "title": "Vesting of estate between death and grant of administration",
+     "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
+    },
+    "ie-succession-27": {
+     "id": "ie-succession-27",
+     "cite": "Succession Act 1965, s 27",
+     "title": "Grants of administration",
+     "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "it-cc-528": {
      "id": "it-cc-528",
@@ -1339,56 +1339,6 @@
      ]
     },
     {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-administrator",
-     "roleName": "Administrator",
-     "localNames": [
-      "administrator",
-      "grant of administration",
-      "letters of administration"
-     ],
-     "nameEn": null,
-     "summary": "Where there is no executor, nobody holds the estate in the interval after death: it vests in the President of the High Court as a corporation sole until administration is granted.",
-     "group": "estate",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Person dies intestate, or testate leaving no surviving executor",
-       "phase": "deceased",
-       "citations": [
-        "ie-succession-13"
-       ]
-      },
-      "starts": {
-       "event": "High Court grants administration, with or without will annexed; until then the estate is vested in the President of the High Court as a corporation sole",
-       "phase": "administration",
-       "citations": [
-        "ie-succession-27",
-        "ie-succession-13"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Administration completed, or the grant revoked, cancelled or recalled by the High Court",
-        "phase": "closed",
-        "citations": [
-         "ie-succession-27"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-succession-13",
-      "ie-succession-27"
-     ]
-    },
-    {
      "jurisdiction": "fi-national",
      "jurisdictionName": "Finland",
      "label": "Finland",
@@ -1503,6 +1453,56 @@
      },
      "citations": [
       "de-bgb-1960"
+     ]
+    },
+    {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-administrator",
+     "roleName": "Administrator",
+     "localNames": [
+      "administrator",
+      "grant of administration",
+      "letters of administration"
+     ],
+     "nameEn": null,
+     "summary": "Where there is no executor, nobody holds the estate in the interval after death: it vests in the President of the High Court as a corporation sole until administration is granted.",
+     "group": "estate",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person dies intestate, or testate leaving no surviving executor",
+       "phase": "deceased",
+       "citations": [
+        "ie-succession-13"
+       ]
+      },
+      "starts": {
+       "event": "High Court grants administration, with or without will annexed; until then the estate is vested in the President of the High Court as a corporation sole",
+       "phase": "administration",
+       "citations": [
+        "ie-succession-27",
+        "ie-succession-13"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Administration completed, or the grant revoked, cancelled or recalled by the High Court",
+        "phase": "closed",
+        "citations": [
+         "ie-succession-27"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-succession-13",
+      "ie-succession-27"
      ]
     },
     {
@@ -6241,7 +6241,7 @@
    "label": "Conservator of the estate",
    "definition": "A financial manager appointed by a court or tribunal to manage property the person can no longer manage.",
    "jurisdictionCount": 47,
-   "countryCount": 18,
+   "countryCount": 21,
    "citations": {
     "mu-cc-488": {
      "id": "mu-cc-488",
@@ -6507,6 +6507,22 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
+    "fi-ho-8": {
+     "id": "fi-ho-8",
+     "cite": "Laki holhoustoimesta 442/1999 8 §",
+     "title": "Edunvalvojan määrääminen täysi-ikäiselle",
+     "url": "https://www.finlex.fi/fi/laki/ajantasa/1999/19990442",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "fi-pk-18-1": {
+     "id": "fi-pk-18-1",
+     "cite": "Perintökaari 40/1965 18 luku 1 §",
+     "title": "Kuolinpesän osakkaat",
+     "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
     "fr-cc-425": {
      "id": "fr-cc-425",
      "cite": "Code civil, art. 425",
@@ -6531,62 +6547,6 @@
      "kind": "statute",
      "retrieved": "2026-09-24"
     },
-    "ie-admca-38": {
-     "id": "ie-admca-38",
-     "cite": "Assisted Decision-Making (Capacity) Act 2015, s 38",
-     "title": "Power of court to make orders and appoint decision-making representative",
-     "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "ie-succession-10": {
-     "id": "ie-succession-10",
-     "cite": "Succession Act 1965, s 10",
-     "title": "Devolution of real and personal estate",
-     "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "nl-bw1-378": {
-     "id": "nl-bw1-378",
-     "cite": "Burgerlijk Wetboek Boek 1, art. 1:378",
-     "title": "Ondercuratelestelling",
-     "url": "https://wetten.overheid.nl/BWBR0002656",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "nl-bw4-182": {
-     "id": "nl-bw4-182",
-     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
-     "title": "Saisine",
-     "url": "https://wetten.overheid.nl/BWBR0002761",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "nl-bw1-431": {
-     "id": "nl-bw1-431",
-     "cite": "Burgerlijk Wetboek Boek 1, art. 1:431",
-     "title": "Onderbewindstelling ter bescherming van meerderjarigen",
-     "url": "https://wetten.overheid.nl/BWBR0002656",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "fi-ho-8": {
-     "id": "fi-ho-8",
-     "cite": "Laki holhoustoimesta 442/1999 8 §",
-     "title": "Edunvalvojan määrääminen täysi-ikäiselle",
-     "url": "https://www.finlex.fi/fi/laki/ajantasa/1999/19990442",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "fi-pk-18-1": {
-     "id": "fi-pk-18-1",
-     "cite": "Perintökaari 40/1965 18 luku 1 §",
-     "title": "Kuolinpesän osakkaat",
-     "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
     "de-bgb-1814": {
      "id": "de-bgb-1814",
      "cite": "BGB § 1814",
@@ -6602,6 +6562,22 @@
      "url": "https://www.gesetze-im-internet.de/bgb/__1922.html",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "ie-admca-38": {
+     "id": "ie-admca-38",
+     "cite": "Assisted Decision-Making (Capacity) Act 2015, s 38",
+     "title": "Power of court to make orders and appoint decision-making representative",
+     "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
+    },
+    "ie-succession-10": {
+     "id": "ie-succession-10",
+     "cite": "Succession Act 1965, s 10",
+     "title": "Devolution of real and personal estate",
+     "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "it-cc-415": {
      "id": "it-cc-415",
@@ -6638,6 +6614,30 @@
      "kind": "statute",
      "retrieved": "2026-09-17",
      "inForce": "19-3-2004"
+    },
+    "nl-bw1-378": {
+     "id": "nl-bw1-378",
+     "cite": "Burgerlijk Wetboek Boek 1, art. 1:378",
+     "title": "Ondercuratelestelling",
+     "url": "https://wetten.overheid.nl/BWBR0002656",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
+    },
+    "nl-bw4-182": {
+     "id": "nl-bw4-182",
+     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
+     "title": "Saisine",
+     "url": "https://wetten.overheid.nl/BWBR0002761",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
+    },
+    "nl-bw1-431": {
+     "id": "nl-bw1-431",
+     "cite": "Burgerlijk Wetboek Boek 1, art. 1:431",
+     "title": "Onderbewindstelling ter bescherming van meerderjarigen",
+     "url": "https://wetten.overheid.nl/BWBR0002656",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "es-cc-269": {
      "id": "es-cc-269",
@@ -8006,297 +8006,6 @@
      ]
     },
     {
-     "jurisdiction": "fr-national",
-     "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "fr-curateur",
-     "roleName": "Curateur",
-     "localNames": [
-      "curatelle",
-      "curateur"
-     ],
-     "nameEn": {
-      "en": "Curator (assistance measure)",
-      "basis": "descriptive"
-     },
-     "summary": "Assistance rather than representation, for someone not incapable of acting but needing continuous help with important civil acts. Expressly subsidiary: curatelle is pronounced only if sauvegarde de justice would not suffice.",
-     "group": "court",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Application to the juge des tutelles for a person whose faculties are medically established as impaired",
-       "phase": "incapacitated",
-       "citations": [
-        "fr-cc-425"
-       ]
-      },
-      "starts": {
-       "event": "Court places the person under curatelle, having found that sauvegarde de justice cannot give sufficient protection",
-       "phase": "incapacitated",
-       "citations": [
-        "fr-cc-440"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Measure lifted or replaced by tutelle",
-        "phase": "incapacitated",
-        "citations": [
-         "fr-cc-440"
-        ]
-       },
-       {
-        "event": "Death; the heirs are seised of right",
-        "phase": "deceased",
-        "citations": [
-         "fr-cc-724"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "fr-cc-425",
-      "fr-cc-440",
-      "fr-cc-724"
-     ]
-    },
-    {
-     "jurisdiction": "fr-national",
-     "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "fr-tuteur",
-     "roleName": "Tuteur",
-     "localNames": [
-      "tutelle",
-      "tuteur"
-     ],
-     "nameEn": {
-      "en": "Tutor (representation measure)",
-      "basis": "descriptive"
-     },
-     "summary": "Continuous representation in civil acts, and the last rung of the ladder: tutelle is pronounced only where neither sauvegarde de justice nor curatelle would give sufficient protection.",
-     "group": "court",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Application to the juge des tutelles where the person must be represented continuously in civil acts",
-       "phase": "incapacitated",
-       "citations": [
-        "fr-cc-440"
-       ]
-      },
-      "starts": {
-       "event": "Court places the person under tutelle, having found neither sauvegarde de justice nor curatelle sufficient",
-       "phase": "incapacitated",
-       "citations": [
-        "fr-cc-440",
-        "fr-cc-425"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Measure lifted or lightened to curatelle",
-        "phase": "incapacitated",
-        "citations": [
-         "fr-cc-440"
-        ]
-       },
-       {
-        "event": "Death; the heirs are seised of right",
-        "phase": "deceased",
-        "citations": [
-         "fr-cc-724"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "fr-cc-440",
-      "fr-cc-425",
-      "fr-cc-724"
-     ]
-    },
-    {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-dmr-property",
-     "roleName": "Decision-making representative (property and affairs)",
-     "localNames": [
-      "decision-making representative"
-     ],
-     "nameEn": null,
-     "summary": "The same court-appointed office as for personal welfare, where the order covers property and affairs instead of or as well as welfare.",
-     "group": "court",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Court declares the person lacks capacity and no suitable or registered co-decision-maker exists",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-38"
-       ]
-      },
-      "starts": {
-       "event": "Court order appointing a decision-making representative for specified property and affairs decisions",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-38"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Court varies or discharges the order",
-        "phase": "incapacitated",
-        "citations": [
-         "ie-admca-38"
-        ]
-       },
-       {
-        "event": "Death of the relevant person; the estate vests in the personal representatives",
-        "phase": "deceased",
-        "citations": [
-         "ie-succession-10"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-admca-38",
-      "ie-succession-10"
-     ]
-    },
-    {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-curator",
-     "roleName": "Curator",
-     "localNames": [
-      "curatele",
-      "ondercuratelestelling",
-      "curator"
-     ],
-     "nameEn": {
-      "en": "Curator (full protective measure)",
-      "basis": "descriptive"
-     },
-     "summary": "The heaviest of the three court measures, reaching both person and property, and expressly subsidiary: the kantonrechter may not impose it where a more appropriate and less far-reaching measure would do.",
-     "group": "court",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Interested party applies to the kantonrechter for ondercuratelestelling",
-       "phase": "incapacitated",
-       "citations": [
-        "nl-bw1-378"
-       ]
-      },
-      "starts": {
-       "event": "Kantonrechter places the adult under curatele, on finding they cannot properly look after their interests or endanger their own or others' safety, and that no more appropriate, less far-reaching measure suffices",
-       "phase": "incapacitated",
-       "citations": [
-        "nl-bw1-378"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Curatele lifted by the kantonrechter",
-        "phase": "capable",
-        "citations": [
-         "nl-bw1-378"
-        ]
-       },
-       {
-        "event": "Death; the heirs succeed of right",
-        "phase": "deceased",
-        "citations": [
-         "nl-bw4-182"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-bw1-378",
-      "nl-bw4-182"
-     ]
-    },
-    {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-bewindvoerder",
-     "roleName": "Bewindvoerder",
-     "localNames": [
-      "beschermingsbewind",
-      "onderbewindstelling",
-      "bewindvoerder"
-     ],
-     "nameEn": {
-      "en": "Property administrator",
-      "basis": "descriptive"
-     },
-     "summary": "Property only, and it can be placed over particular goods rather than the whole estate, for a fixed or open-ended period. The person keeps every non-property decision.",
-     "group": "court",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Application to the kantonrechter for bewind over one or more of the adult's goods",
-       "phase": "incapacitated",
-       "citations": [
-        "nl-bw1-431"
-       ]
-      },
-      "starts": {
-       "event": "Kantonrechter institutes bewind over specified goods, for a fixed or indefinite term, where the adult cannot fully look after their property interests",
-       "phase": "incapacitated",
-       "citations": [
-        "nl-bw1-431"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Bewind terminated by the kantonrechter or on expiry of its term",
-        "phase": "capable",
-        "citations": [
-         "nl-bw1-431"
-        ]
-       },
-       {
-        "event": "Death; the estate passes to the heirs of right",
-        "phase": "deceased",
-        "citations": [
-         "nl-bw4-182"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-bw1-431",
-      "nl-bw4-182"
-     ]
-    },
-    {
      "jurisdiction": "fi-national",
      "jurisdictionName": "Finland",
      "label": "Finland",
@@ -8357,6 +8066,125 @@
      ]
     },
     {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "France",
+     "country": "France",
+     "region": "Europe",
+     "roleId": "fr-curateur",
+     "roleName": "Curateur",
+     "localNames": [
+      "curatelle",
+      "curateur"
+     ],
+     "nameEn": {
+      "en": "Curator (assistance measure)",
+      "basis": "descriptive"
+     },
+     "summary": "Assistance rather than representation, for someone not incapable of acting but needing continuous help with important civil acts. Expressly subsidiary: curatelle is pronounced only if sauvegarde de justice would not suffice.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Application to the juge des tutelles for a person whose faculties are medically established as impaired",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-425"
+       ]
+      },
+      "starts": {
+       "event": "Court places the person under curatelle, having found that sauvegarde de justice cannot give sufficient protection",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-440"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Measure lifted or replaced by tutelle",
+        "phase": "incapacitated",
+        "citations": [
+         "fr-cc-440"
+        ]
+       },
+       {
+        "event": "Death; the heirs are seised of right",
+        "phase": "deceased",
+        "citations": [
+         "fr-cc-724"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-425",
+      "fr-cc-440",
+      "fr-cc-724"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "France",
+     "country": "France",
+     "region": "Europe",
+     "roleId": "fr-tuteur",
+     "roleName": "Tuteur",
+     "localNames": [
+      "tutelle",
+      "tuteur"
+     ],
+     "nameEn": {
+      "en": "Tutor (representation measure)",
+      "basis": "descriptive"
+     },
+     "summary": "Continuous representation in civil acts, and the last rung of the ladder: tutelle is pronounced only where neither sauvegarde de justice nor curatelle would give sufficient protection.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Application to the juge des tutelles where the person must be represented continuously in civil acts",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-440"
+       ]
+      },
+      "starts": {
+       "event": "Court places the person under tutelle, having found neither sauvegarde de justice nor curatelle sufficient",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-440",
+        "fr-cc-425"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Measure lifted or lightened to curatelle",
+        "phase": "incapacitated",
+        "citations": [
+         "fr-cc-440"
+        ]
+       },
+       {
+        "event": "Death; the heirs are seised of right",
+        "phase": "deceased",
+        "citations": [
+         "fr-cc-724"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-440",
+      "fr-cc-425",
+      "fr-cc-724"
+     ]
+    },
+    {
      "jurisdiction": "de-federal",
      "jurisdictionName": "Germany — federal law",
      "label": "Germany — federal law",
@@ -8404,6 +8232,60 @@
      "citations": [
       "de-bgb-1814",
       "de-bgb-1922"
+     ]
+    },
+    {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-dmr-property",
+     "roleName": "Decision-making representative (property and affairs)",
+     "localNames": [
+      "decision-making representative"
+     ],
+     "nameEn": null,
+     "summary": "The same court-appointed office as for personal welfare, where the order covers property and affairs instead of or as well as welfare.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Court declares the person lacks capacity and no suitable or registered co-decision-maker exists",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-38"
+       ]
+      },
+      "starts": {
+       "event": "Court order appointing a decision-making representative for specified property and affairs decisions",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-38"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Court varies or discharges the order",
+        "phase": "incapacitated",
+        "citations": [
+         "ie-admca-38"
+        ]
+       },
+       {
+        "event": "Death of the relevant person; the estate vests in the personal representatives",
+        "phase": "deceased",
+        "citations": [
+         "ie-succession-10"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-admca-38",
+      "ie-succession-10"
      ]
     },
     {
@@ -8459,6 +8341,124 @@
       "it-cc-424",
       "it-cc-411",
       "it-cc-413"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-curator",
+     "roleName": "Curator",
+     "localNames": [
+      "curatele",
+      "ondercuratelestelling",
+      "curator"
+     ],
+     "nameEn": {
+      "en": "Curator (full protective measure)",
+      "basis": "descriptive"
+     },
+     "summary": "The heaviest of the three court measures, reaching both person and property, and expressly subsidiary: the kantonrechter may not impose it where a more appropriate and less far-reaching measure would do.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Interested party applies to the kantonrechter for ondercuratelestelling",
+       "phase": "incapacitated",
+       "citations": [
+        "nl-bw1-378"
+       ]
+      },
+      "starts": {
+       "event": "Kantonrechter places the adult under curatele, on finding they cannot properly look after their interests or endanger their own or others' safety, and that no more appropriate, less far-reaching measure suffices",
+       "phase": "incapacitated",
+       "citations": [
+        "nl-bw1-378"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Curatele lifted by the kantonrechter",
+        "phase": "capable",
+        "citations": [
+         "nl-bw1-378"
+        ]
+       },
+       {
+        "event": "Death; the heirs succeed of right",
+        "phase": "deceased",
+        "citations": [
+         "nl-bw4-182"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-bw1-378",
+      "nl-bw4-182"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-bewindvoerder",
+     "roleName": "Bewindvoerder",
+     "localNames": [
+      "beschermingsbewind",
+      "onderbewindstelling",
+      "bewindvoerder"
+     ],
+     "nameEn": {
+      "en": "Property administrator",
+      "basis": "descriptive"
+     },
+     "summary": "Property only, and it can be placed over particular goods rather than the whole estate, for a fixed or open-ended period. The person keeps every non-property decision.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Application to the kantonrechter for bewind over one or more of the adult's goods",
+       "phase": "incapacitated",
+       "citations": [
+        "nl-bw1-431"
+       ]
+      },
+      "starts": {
+       "event": "Kantonrechter institutes bewind over specified goods, for a fixed or indefinite term, where the adult cannot fully look after their property interests",
+       "phase": "incapacitated",
+       "citations": [
+        "nl-bw1-431"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Bewind terminated by the kantonrechter or on expiry of its term",
+        "phase": "capable",
+        "citations": [
+         "nl-bw1-431"
+        ]
+       },
+       {
+        "event": "Death; the estate passes to the heirs of right",
+        "phase": "deceased",
+        "citations": [
+         "nl-bw4-182"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-bw1-431",
+      "nl-bw4-182"
      ]
     },
     {
@@ -10546,7 +10546,7 @@
    "label": "Default surrogate",
    "definition": "The decision maker the law supplies from a statutory hierarchy when nobody has been appointed.",
    "jurisdictionCount": 28,
-   "countryCount": 9,
+   "countryCount": 10,
    "citations": {
     "za-nha-7-order": {
      "id": "za-nha-7-order",
@@ -10636,22 +10636,6 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
-    "nl-bw7-465": {
-     "id": "nl-bw7-465",
-     "cite": "Burgerlijk Wetboek Boek 7, art. 7:465",
-     "title": "Vertegenwoordiging van de patiënt (WGBO)",
-     "url": "https://wetten.overheid.nl/BWBR0005290",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "nl-bw4-182": {
-     "id": "nl-bw4-182",
-     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
-     "title": "Saisine",
-     "url": "https://wetten.overheid.nl/BWBR0002761",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
     "fi-po-6": {
      "id": "fi-po-6",
      "cite": "Laki potilaan asemasta ja oikeuksista 785/1992 6 §",
@@ -10667,6 +10651,22 @@
      "url": "https://www.gesetze-im-internet.de/bgb/__1358.html",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "nl-bw7-465": {
+     "id": "nl-bw7-465",
+     "cite": "Burgerlijk Wetboek Boek 7, art. 7:465",
+     "title": "Vertegenwoordiging van de patiënt (WGBO)",
+     "url": "https://wetten.overheid.nl/BWBR0005290",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
+    },
+    "nl-bw4-182": {
+     "id": "nl-bw4-182",
+     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
+     "title": "Saisine",
+     "url": "https://wetten.overheid.nl/BWBR0002761",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "mca-s5": {
      "id": "mca-s5",
@@ -11227,64 +11227,6 @@
      ]
     },
     {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-nabestaande-wgbo",
-     "roleName": "Vertegenwoordiger van rechtswege (WGBO)",
-     "localNames": [
-      "echtgenoot, geregistreerde partner of andere levensgezel",
-      "ouder, kind, broer, zus, grootouder of kleinkind"
-     ],
-     "nameEn": {
-      "en": "Representative by operation of law",
-      "basis": "descriptive"
-     },
-     "summary": "Where nobody has been appointed, art. 7:465(3) supplies the representative itself, and lets each candidate decline: the spouse or life companion first, then a parent, child, sibling, grandparent or grandchild.",
-     "group": "health",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Status arises by relationship; no appointment or document is needed",
-       "phase": "capable",
-       "citations": [
-        "nl-bw7-465"
-       ]
-      },
-      "starts": {
-       "event": "Patient judged incapable, with no curator, mentor or written authorisee available or willing to act",
-       "phase": "incapacitated",
-       "citations": [
-        "nl-bw7-465"
-       ]
-      },
-      "ends": [
-       {
-        "event": "A higher-ranking representative acts, the person declines, or capacity returns",
-        "phase": "incapacitated",
-        "citations": [
-         "nl-bw7-465"
-        ]
-       },
-       {
-        "event": "Death of the patient",
-        "phase": "deceased",
-        "citations": [
-         "nl-bw4-182"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-bw7-465",
-      "nl-bw4-182"
-     ]
-    },
-    {
      "jurisdiction": "fi-national",
      "jurisdictionName": "Finland",
      "label": "Finland",
@@ -11405,6 +11347,64 @@
      },
      "citations": [
       "de-bgb-1358"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-nabestaande-wgbo",
+     "roleName": "Vertegenwoordiger van rechtswege (WGBO)",
+     "localNames": [
+      "echtgenoot, geregistreerde partner of andere levensgezel",
+      "ouder, kind, broer, zus, grootouder of kleinkind"
+     ],
+     "nameEn": {
+      "en": "Representative by operation of law",
+      "basis": "descriptive"
+     },
+     "summary": "Where nobody has been appointed, art. 7:465(3) supplies the representative itself, and lets each candidate decline: the spouse or life companion first, then a parent, child, sibling, grandparent or grandchild.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Status arises by relationship; no appointment or document is needed",
+       "phase": "capable",
+       "citations": [
+        "nl-bw7-465"
+       ]
+      },
+      "starts": {
+       "event": "Patient judged incapable, with no curator, mentor or written authorisee available or willing to act",
+       "phase": "incapacitated",
+       "citations": [
+        "nl-bw7-465"
+       ]
+      },
+      "ends": [
+       {
+        "event": "A higher-ranking representative acts, the person declines, or capacity returns",
+        "phase": "incapacitated",
+        "citations": [
+         "nl-bw7-465"
+        ]
+       },
+       {
+        "event": "Death of the patient",
+        "phase": "deceased",
+        "citations": [
+         "nl-bw4-182"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-bw7-465",
+      "nl-bw4-182"
      ]
     },
     {
@@ -13118,8 +13118,8 @@
     {
      "jurisdiction": "fr-national",
      "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
+     "label": "France",
+     "country": "France",
      "region": "Europe",
      "roleId": "fr-heritier-donnees",
      "roleName": "Héritier exerçant les droits sur les données",
@@ -15931,7 +15931,7 @@
    "label": "Donation decision maker",
    "definition": "The person who may authorise or refuse donation of organs, tissue or the body, including under deemed-consent regimes.",
    "jurisdictionCount": 41,
-   "countryCount": 16,
+   "countryCount": 19,
    "citations": {
     "za-nha-62-1": {
      "id": "za-nha-62-1",
@@ -16021,6 +16021,14 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
+    "fi-ku-9": {
+     "id": "fi-ku-9",
+     "cite": "Laki ihmisen elimien, kudoksien ja solujen lääketieteellisestä käytöstä 101/2001 9 §",
+     "title": "Elimien irrottaminen kuolleelta",
+     "url": "https://www.finlex.fi/fi/laki/ajantasa/2001/20010101",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
     "fr-csp-l1232-1": {
      "id": "fr-csp-l1232-1",
      "cite": "Code de la santé publique, art. L1232-1",
@@ -16028,6 +16036,22 @@
      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031931933",
      "kind": "statute",
      "retrieved": "2026-09-24"
+    },
+    "de-tpg-4": {
+     "id": "de-tpg-4",
+     "cite": "TPG § 4",
+     "title": "Entnahme mit Zustimmung anderer Personen",
+     "url": "https://www.gesetze-im-internet.de/tpg/__4.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "de-tpg-3": {
+     "id": "de-tpg-3",
+     "cite": "TPG § 3",
+     "title": "Entnahme mit Einwilligung des Spenders",
+     "url": "https://www.gesetze-im-internet.de/tpg/__3.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
     },
     "ie-ht-18": {
      "id": "ie-ht-18",
@@ -16044,6 +16068,33 @@
      "url": "https://www.irishstatutebook.ie/eli/2024/act/5/section/19/enacted/en/html",
      "kind": "statute",
      "retrieved": "2026-09-23"
+    },
+    "it-l91-23": {
+     "id": "it-l91-23",
+     "cite": "L. 91/1999 art. 23",
+     "title": "Disposizioni transitorie",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art23",
+     "kind": "statute",
+     "retrieved": "2026-09-17",
+     "inForce": "16-4-1999"
+    },
+    "it-l91-4": {
+     "id": "it-l91-4",
+     "cite": "L. 91/1999 art. 4",
+     "title": "Dichiarazione di volontà in ordine alla donazione",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art4",
+     "kind": "statute",
+     "retrieved": "2026-09-17",
+     "inForce": "16-4-1999"
+    },
+    "it-l91-28": {
+     "id": "it-l91-28",
+     "cite": "L. 91/1999 art. 28",
+     "title": "Entrata in vigore",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art28",
+     "kind": "statute",
+     "retrieved": "2026-09-17",
+     "inForce": "16-4-1999"
     },
     "nl-wod-9": {
      "id": "nl-wod-9",
@@ -16076,57 +16127,6 @@
      "url": "https://wetten.overheid.nl/BWBR0008066",
      "kind": "statute",
      "retrieved": "2026-09-23"
-    },
-    "fi-ku-9": {
-     "id": "fi-ku-9",
-     "cite": "Laki ihmisen elimien, kudoksien ja solujen lääketieteellisestä käytöstä 101/2001 9 §",
-     "title": "Elimien irrottaminen kuolleelta",
-     "url": "https://www.finlex.fi/fi/laki/ajantasa/2001/20010101",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-tpg-4": {
-     "id": "de-tpg-4",
-     "cite": "TPG § 4",
-     "title": "Entnahme mit Zustimmung anderer Personen",
-     "url": "https://www.gesetze-im-internet.de/tpg/__4.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-tpg-3": {
-     "id": "de-tpg-3",
-     "cite": "TPG § 3",
-     "title": "Entnahme mit Einwilligung des Spenders",
-     "url": "https://www.gesetze-im-internet.de/tpg/__3.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "it-l91-23": {
-     "id": "it-l91-23",
-     "cite": "L. 91/1999 art. 23",
-     "title": "Disposizioni transitorie",
-     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art23",
-     "kind": "statute",
-     "retrieved": "2026-09-17",
-     "inForce": "16-4-1999"
-    },
-    "it-l91-4": {
-     "id": "it-l91-4",
-     "cite": "L. 91/1999 art. 4",
-     "title": "Dichiarazione di volontà in ordine alla donazione",
-     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art4",
-     "kind": "statute",
-     "retrieved": "2026-09-17",
-     "inForce": "16-4-1999"
-    },
-    "it-l91-28": {
-     "id": "it-l91-28",
-     "cite": "L. 91/1999 art. 28",
-     "title": "Entrata in vigore",
-     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-04-01;91~art28",
-     "kind": "statute",
-     "retrieved": "2026-09-17",
-     "inForce": "16-4-1999"
     },
     "es-l30-5": {
      "id": "es-l30-5",
@@ -16867,163 +16867,6 @@
      ]
     },
     {
-     "jurisdiction": "fr-national",
-     "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "fr-refus-prelevement",
-     "roleName": "Proches et registre national des refus",
-     "localNames": [
-      "consentement présumé",
-      "registre national automatisé",
-      "proches du défunt"
-     ],
-     "nameEn": {
-      "en": "Relatives and the national refusal register",
-      "basis": "descriptive"
-     },
-     "summary": "Presumed consent. Removal may be carried out on any adult who did not make their refusal known in life, principally by entry on the national register; the refusal is revocable at any time, and the doctor informs the relatives of the nature and purpose beforehand.",
-     "group": "health",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Person may record a refusal in life, principally by entry on the national automated register; the refusal is revocable at any time",
-       "phase": "capable",
-       "citations": [
-        "fr-csp-l1232-1"
-       ]
-      },
-      "starts": {
-       "event": "On death duly established: removal may proceed unless a refusal was made known, and the doctor first informs the relatives of its nature and purpose",
-       "phase": "deceased",
-       "citations": [
-        "fr-csp-l1232-1"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Removal carried out or abandoned; the Agence de la biomédecine is notified beforehand",
-        "phase": "deceased",
-        "citations": [
-         "fr-csp-l1232-1"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "fr-csp-l1232-1"
-     ]
-    },
-    {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-designated-family-member",
-     "roleName": "Designated family member (organ donation)",
-     "localNames": [
-      "designated family member",
-      "deemed consent",
-      "Relevant Organ Donation Opt-Out Register"
-     ],
-     "nameEn": null,
-     "summary": "Ireland moved to soft opt-out on 17 June 2025. Consent is deemed unless an objection is on the Register, but the family member is not bypassed: if none can be identified or confirmed, deemed consent does not apply at all.",
-     "group": "health",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Status arises by relationship at death; the person themselves may instead register an objection on the Opt-Out Register",
-       "phase": "capable",
-       "citations": [
-        "ie-ht-18"
-       ]
-      },
-      "starts": {
-       "event": "On death, where deemed consent does not apply — including where the deceased was not ordinarily resident for 12 months, lacked capacity to understand the deemed-consent scheme, is a child, or where no designated family member can be identified",
-       "phase": "deceased",
-       "citations": [
-        "ie-ht-18",
-        "ie-ht-19"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Consent given or withheld, and removal for transplantation carried out or not",
-        "phase": "deceased",
-        "citations": [
-         "ie-ht-19"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-ht-18",
-      "ie-ht-19"
-     ]
-    },
-    {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-nabestaande-donatie",
-     "roleName": "Nabestaande (orgaandonatie)",
-     "localNames": [
-      "nabestaanden",
-      "donorregister",
-      "geen bezwaar"
-     ],
-     "nameEn": {
-      "en": "Surviving relative (organ donation)",
-      "basis": "descriptive"
-     },
-     "summary": "The Netherlands runs an active-registration opt-out: an adult who answers nothing is entered in the donorregister as having no objection six weeks after a reminder. The family decides only where the person expressly left the decision to them.",
-     "group": "health",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Person records consent or objection, or leaves the decision to their relatives; silence is registered as 'geen bezwaar' six weeks after a reminder",
-       "phase": "capable",
-       "citations": [
-        "nl-wod-9",
-        "nl-wod-10"
-       ]
-      },
-      "starts": {
-       "event": "On death, where the register records that the decision was left to the relatives: the spouse, registered partner or other life companion, failing whom the immediately reachable adult blood relatives",
-       "phase": "deceased",
-       "citations": [
-        "nl-wod-11",
-        "nl-wod-20"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Consent given or refused after the donorregister has been consulted",
-        "phase": "deceased",
-        "citations": [
-         "nl-wod-20"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-wod-9",
-      "nl-wod-10",
-      "nl-wod-11",
-      "nl-wod-20"
-     ]
-    },
-    {
      "jurisdiction": "fi-national",
      "jurisdictionName": "Finland",
      "label": "Finland",
@@ -17071,6 +16914,57 @@
      },
      "citations": [
       "fi-ku-9"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "France",
+     "country": "France",
+     "region": "Europe",
+     "roleId": "fr-refus-prelevement",
+     "roleName": "Proches et registre national des refus",
+     "localNames": [
+      "consentement présumé",
+      "registre national automatisé",
+      "proches du défunt"
+     ],
+     "nameEn": {
+      "en": "Relatives and the national refusal register",
+      "basis": "descriptive"
+     },
+     "summary": "Presumed consent. Removal may be carried out on any adult who did not make their refusal known in life, principally by entry on the national register; the refusal is revocable at any time, and the doctor informs the relatives of the nature and purpose beforehand.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person may record a refusal in life, principally by entry on the national automated register; the refusal is revocable at any time",
+       "phase": "capable",
+       "citations": [
+        "fr-csp-l1232-1"
+       ]
+      },
+      "starts": {
+       "event": "On death duly established: removal may proceed unless a refusal was made known, and the doctor first informs the relatives of its nature and purpose",
+       "phase": "deceased",
+       "citations": [
+        "fr-csp-l1232-1"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Removal carried out or abandoned; the Agence de la biomédecine is notified beforehand",
+        "phase": "deceased",
+        "citations": [
+         "fr-csp-l1232-1"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-csp-l1232-1"
      ]
     },
     {
@@ -17123,6 +17017,56 @@
      "citations": [
       "de-tpg-4",
       "de-tpg-3"
+     ]
+    },
+    {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-designated-family-member",
+     "roleName": "Designated family member (organ donation)",
+     "localNames": [
+      "designated family member",
+      "deemed consent",
+      "Relevant Organ Donation Opt-Out Register"
+     ],
+     "nameEn": null,
+     "summary": "Ireland moved to soft opt-out on 17 June 2025. Consent is deemed unless an objection is on the Register, but the family member is not bypassed: if none can be identified or confirmed, deemed consent does not apply at all.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Status arises by relationship at death; the person themselves may instead register an objection on the Opt-Out Register",
+       "phase": "capable",
+       "citations": [
+        "ie-ht-18"
+       ]
+      },
+      "starts": {
+       "event": "On death, where deemed consent does not apply — including where the deceased was not ordinarily resident for 12 months, lacked capacity to understand the deemed-consent scheme, is a child, or where no designated family member can be identified",
+       "phase": "deceased",
+       "citations": [
+        "ie-ht-18",
+        "ie-ht-19"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Consent given or withheld, and removal for transplantation carried out or not",
+        "phase": "deceased",
+        "citations": [
+         "ie-ht-19"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-ht-18",
+      "ie-ht-19"
      ]
     },
     {
@@ -17184,6 +17128,62 @@
       "it-l91-23",
       "it-l91-4",
       "it-l91-28"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-nabestaande-donatie",
+     "roleName": "Nabestaande (orgaandonatie)",
+     "localNames": [
+      "nabestaanden",
+      "donorregister",
+      "geen bezwaar"
+     ],
+     "nameEn": {
+      "en": "Surviving relative (organ donation)",
+      "basis": "descriptive"
+     },
+     "summary": "The Netherlands runs an active-registration opt-out: an adult who answers nothing is entered in the donorregister as having no objection six weeks after a reminder. The family decides only where the person expressly left the decision to them.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person records consent or objection, or leaves the decision to their relatives; silence is registered as 'geen bezwaar' six weeks after a reminder",
+       "phase": "capable",
+       "citations": [
+        "nl-wod-9",
+        "nl-wod-10"
+       ]
+      },
+      "starts": {
+       "event": "On death, where the register records that the decision was left to the relatives: the spouse, registered partner or other life companion, failing whom the immediately reachable adult blood relatives",
+       "phase": "deceased",
+       "citations": [
+        "nl-wod-11",
+        "nl-wod-20"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Consent given or refused after the donorregister has been consulted",
+        "phase": "deceased",
+        "citations": [
+         "nl-wod-20"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-wod-9",
+      "nl-wod-10",
+      "nl-wod-11",
+      "nl-wod-20"
      ]
     },
     {
@@ -18917,7 +18917,7 @@
    "label": "Durable financial power of attorney",
    "definition": "An agent appointed by the person while capable, whose authority over property and money survives the person losing capacity.",
    "jurisdictionCount": 38,
-   "countryCount": 14,
+   "countryCount": 17,
    "citations": {
     "cn-cc-33": {
      "id": "cn-cc-33",
@@ -19095,6 +19095,22 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
+    "fi-ev-vahvistus": {
+     "id": "fi-ev-vahvistus",
+     "cite": "Laki edunvalvontavaltuutuksesta 648/2007 24 §",
+     "title": "Valtuutuksen vahvistaminen",
+     "url": "https://www.finlex.fi/fi/laki/ajantasa/2007/20070648",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "fi-pk-18-1": {
+     "id": "fi-pk-18-1",
+     "cite": "Perintökaari 40/1965 18 luku 1 §",
+     "title": "Kuolinpesän osakkaat",
+     "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
     "fr-cc-477": {
      "id": "fr-cc-477",
      "cite": "Code civil, art. 477",
@@ -19135,6 +19151,30 @@
      "kind": "statute",
      "retrieved": "2026-09-24"
     },
+    "de-bgb-167": {
+     "id": "de-bgb-167",
+     "cite": "BGB § 167",
+     "title": "Erteilung der Vollmacht",
+     "url": "https://www.gesetze-im-internet.de/bgb/__167.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "de-bgb-168": {
+     "id": "de-bgb-168",
+     "cite": "BGB § 168",
+     "title": "Erlöschen der Vollmacht",
+     "url": "https://www.gesetze-im-internet.de/bgb/__168.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "de-bgb-672": {
+     "id": "de-bgb-672",
+     "cite": "BGB § 672",
+     "title": "Tod oder Geschäftsunfähigkeit des Auftraggebers",
+     "url": "https://www.gesetze-im-internet.de/bgb/__672.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
     "ie-admca-59": {
      "id": "ie-admca-59",
      "cite": "Assisted Decision-Making (Capacity) Act 2015, s 59",
@@ -19174,46 +19214,6 @@
      "url": "https://wetten.overheid.nl/BWBR0005291",
      "kind": "statute",
      "retrieved": "2026-09-23"
-    },
-    "fi-ev-vahvistus": {
-     "id": "fi-ev-vahvistus",
-     "cite": "Laki edunvalvontavaltuutuksesta 648/2007 24 §",
-     "title": "Valtuutuksen vahvistaminen",
-     "url": "https://www.finlex.fi/fi/laki/ajantasa/2007/20070648",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "fi-pk-18-1": {
-     "id": "fi-pk-18-1",
-     "cite": "Perintökaari 40/1965 18 luku 1 §",
-     "title": "Kuolinpesän osakkaat",
-     "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-bgb-167": {
-     "id": "de-bgb-167",
-     "cite": "BGB § 167",
-     "title": "Erteilung der Vollmacht",
-     "url": "https://www.gesetze-im-internet.de/bgb/__167.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-bgb-168": {
-     "id": "de-bgb-168",
-     "cite": "BGB § 168",
-     "title": "Erlöschen der Vollmacht",
-     "url": "https://www.gesetze-im-internet.de/bgb/__168.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-bgb-672": {
-     "id": "de-bgb-672",
-     "cite": "BGB § 672",
-     "title": "Tod oder Geschäftsunfähigkeit des Auftraggebers",
-     "url": "https://www.gesetze-im-internet.de/bgb/__672.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
     },
     "es-cc-255": {
      "id": "es-cc-255",
@@ -20872,186 +20872,6 @@
      ]
     },
     {
-     "jurisdiction": "fr-national",
-     "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "fr-mandataire-protection-future",
-     "roleName": "Mandataire de protection future",
-     "localNames": [
-      "mandat de protection future",
-      "mandataire"
-     ],
-     "nameEn": {
-      "en": "Attorney under a future protection mandate",
-      "basis": "descriptive"
-     },
-     "summary": "France's advance mandate is dormant until a court registry activates it. The mandataire must file the mandate and a medical certificate from a court-listed doctor at the tribunal judiciaire, and the clerk stamps it and dates its taking effect.",
-     "group": "financial",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Any adult or emancipated minor not under tutelle or habilitation familiale mandates one or more people to represent them should they become unable to see to their own interests; a person under curatelle needs the curateur's assistance",
-       "phase": "capable",
-       "citations": [
-        "fr-cc-477"
-       ]
-      },
-      "starts": {
-       "event": "When it is established that the mandant can no longer see to their own interests: the mandataire produces the mandate and a certificate from a doctor on the art. 431 list to the registry of the tribunal judiciaire, and the greffier visas the mandate and dates its taking effect",
-       "phase": "incapacitated",
-       "citations": [
-        "fr-cc-481",
-        "fr-cc-425"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Death of the mandant; the heirs are seised of right",
-        "phase": "deceased",
-        "citations": [
-         "fr-cc-724"
-        ]
-       },
-       {
-        "event": "Revocation, or a judicial protection measure replacing the mandate",
-        "phase": "incapacitated",
-        "citations": [
-         "fr-cc-477",
-         "fr-cc-440"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "fr-cc-477",
-      "fr-cc-481",
-      "fr-cc-425",
-      "fr-cc-724",
-      "fr-cc-440"
-     ]
-    },
-    {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-epa-property",
-     "roleName": "Attorney under an enduring power (property and affairs)",
-     "localNames": [
-      "enduring power of attorney",
-      "attorney"
-     ],
-     "nameEn": null,
-     "summary": "Ireland's enduring power is dormant until two things both happen: the instrument is registered with the Decision Support Service and the donor actually lacks capacity. It confers no authority while the donor is capable.",
-     "group": "financial",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Donor aged 18+ executes an instrument conferring general or specified authority over property and affairs",
-       "phase": "capable",
-       "citations": [
-        "ie-admca-59"
-       ]
-      },
-      "starts": {
-       "event": "Only once the instrument is registered under s 69 AND the donor lacks capacity for the relevant decisions — both conditions, not either",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-59",
-        "ie-admca-69"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Revocation, disclaimer by the attorney, or removal from the Register",
-        "phase": "incapacitated",
-        "citations": [
-         "ie-admca-59"
-        ]
-       },
-       {
-        "event": "Death of the donor; the estate vests in the personal representatives",
-        "phase": "deceased",
-        "citations": [
-         "ie-succession-10"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-admca-59",
-      "ie-admca-69",
-      "ie-succession-10"
-     ]
-    },
-    {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-gevolmachtigde",
-     "roleName": "Gevolmachtigde",
-     "localNames": [
-      "volmacht",
-      "gevolmachtigde",
-      "levenstestament"
-     ],
-     "nameEn": {
-      "en": "Attorney under a mandate",
-      "basis": "descriptive"
-     },
-     "summary": "A Dutch mandate is durable by omission. Article 3:72 lists what ends a volmacht — death, curatele, bankruptcy, revocation — and the principal's incapacity is not on the list, so a general mandate simply carries on. That is what makes the levenstestament work without any special enduring instrument.",
-     "group": "financial",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Principal grants a volmacht, the authority to perform juridical acts in the principal's name; in practice recorded in a notarial levenstestament",
-       "phase": "capable",
-       "citations": [
-        "nl-bw3-60"
-       ]
-      },
-      "starts": {
-       "event": "On grant, unless the deed provides otherwise; no registration and no capacity finding are required",
-       "phase": "capable",
-       "citations": [
-        "nl-bw3-60",
-        "nl-bw3-72"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Death of the principal",
-        "phase": "deceased",
-        "citations": [
-         "nl-bw3-72"
-        ]
-       },
-       {
-        "event": "Principal placed under curatele, or bankruptcy, or revocation by the principal — but not the onset of incapacity by itself",
-        "phase": "incapacitated",
-        "citations": [
-         "nl-bw3-72"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-bw3-60",
-      "nl-bw3-72"
-     ]
-    },
-    {
      "jurisdiction": "fi-national",
      "jurisdictionName": "Finland",
      "label": "Finland",
@@ -21109,6 +20929,69 @@
      "citations": [
       "fi-ev-vahvistus",
       "fi-pk-18-1"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "France",
+     "country": "France",
+     "region": "Europe",
+     "roleId": "fr-mandataire-protection-future",
+     "roleName": "Mandataire de protection future",
+     "localNames": [
+      "mandat de protection future",
+      "mandataire"
+     ],
+     "nameEn": {
+      "en": "Attorney under a future protection mandate",
+      "basis": "descriptive"
+     },
+     "summary": "France's advance mandate is dormant until a court registry activates it. The mandataire must file the mandate and a medical certificate from a court-listed doctor at the tribunal judiciaire, and the clerk stamps it and dates its taking effect.",
+     "group": "financial",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Any adult or emancipated minor not under tutelle or habilitation familiale mandates one or more people to represent them should they become unable to see to their own interests; a person under curatelle needs the curateur's assistance",
+       "phase": "capable",
+       "citations": [
+        "fr-cc-477"
+       ]
+      },
+      "starts": {
+       "event": "When it is established that the mandant can no longer see to their own interests: the mandataire produces the mandate and a certificate from a doctor on the art. 431 list to the registry of the tribunal judiciaire, and the greffier visas the mandate and dates its taking effect",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-481",
+        "fr-cc-425"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of the mandant; the heirs are seised of right",
+        "phase": "deceased",
+        "citations": [
+         "fr-cc-724"
+        ]
+       },
+       {
+        "event": "Revocation, or a judicial protection measure replacing the mandate",
+        "phase": "incapacitated",
+        "citations": [
+         "fr-cc-477",
+         "fr-cc-440"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-477",
+      "fr-cc-481",
+      "fr-cc-425",
+      "fr-cc-724",
+      "fr-cc-440"
      ]
     },
     {
@@ -21171,6 +21054,123 @@
       "de-bgb-167",
       "de-bgb-168",
       "de-bgb-672"
+     ]
+    },
+    {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-epa-property",
+     "roleName": "Attorney under an enduring power (property and affairs)",
+     "localNames": [
+      "enduring power of attorney",
+      "attorney"
+     ],
+     "nameEn": null,
+     "summary": "Ireland's enduring power is dormant until two things both happen: the instrument is registered with the Decision Support Service and the donor actually lacks capacity. It confers no authority while the donor is capable.",
+     "group": "financial",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Donor aged 18+ executes an instrument conferring general or specified authority over property and affairs",
+       "phase": "capable",
+       "citations": [
+        "ie-admca-59"
+       ]
+      },
+      "starts": {
+       "event": "Only once the instrument is registered under s 69 AND the donor lacks capacity for the relevant decisions — both conditions, not either",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-59",
+        "ie-admca-69"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Revocation, disclaimer by the attorney, or removal from the Register",
+        "phase": "incapacitated",
+        "citations": [
+         "ie-admca-59"
+        ]
+       },
+       {
+        "event": "Death of the donor; the estate vests in the personal representatives",
+        "phase": "deceased",
+        "citations": [
+         "ie-succession-10"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-admca-59",
+      "ie-admca-69",
+      "ie-succession-10"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-gevolmachtigde",
+     "roleName": "Gevolmachtigde",
+     "localNames": [
+      "volmacht",
+      "gevolmachtigde",
+      "levenstestament"
+     ],
+     "nameEn": {
+      "en": "Attorney under a mandate",
+      "basis": "descriptive"
+     },
+     "summary": "A Dutch mandate is durable by omission. Article 3:72 lists what ends a volmacht — death, curatele, bankruptcy, revocation — and the principal's incapacity is not on the list, so a general mandate simply carries on. That is what makes the levenstestament work without any special enduring instrument.",
+     "group": "financial",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Principal grants a volmacht, the authority to perform juridical acts in the principal's name; in practice recorded in a notarial levenstestament",
+       "phase": "capable",
+       "citations": [
+        "nl-bw3-60"
+       ]
+      },
+      "starts": {
+       "event": "On grant, unless the deed provides otherwise; no registration and no capacity finding are required",
+       "phase": "capable",
+       "citations": [
+        "nl-bw3-60",
+        "nl-bw3-72"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of the principal",
+        "phase": "deceased",
+        "citations": [
+         "nl-bw3-72"
+        ]
+       },
+       {
+        "event": "Principal placed under curatele, or bankruptcy, or revocation by the principal — but not the onset of incapacity by itself",
+        "phase": "incapacitated",
+        "citations": [
+         "nl-bw3-72"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-bw3-60",
+      "nl-bw3-72"
      ]
     },
     {
@@ -23227,7 +23227,7 @@
    "label": "Executor",
    "definition": "The personal representative the deceased themselves named, usually in a will.",
    "jurisdictionCount": 44,
-   "countryCount": 21,
+   "countryCount": 24,
    "citations": {
     "mu-cc-1030": {
      "id": "mu-cc-1030",
@@ -23437,38 +23437,6 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
-    "fr-cc-1025": {
-     "id": "fr-cc-1025",
-     "cite": "Code civil, art. 1025",
-     "title": "Exécuteur testamentaire",
-     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006434756",
-     "kind": "statute",
-     "retrieved": "2026-09-24"
-    },
-    "ie-succession-10": {
-     "id": "ie-succession-10",
-     "cite": "Succession Act 1965, s 10",
-     "title": "Devolution of real and personal estate",
-     "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "nl-bw4-142": {
-     "id": "nl-bw4-142",
-     "cite": "Burgerlijk Wetboek Boek 4, art. 4:142",
-     "title": "Benoeming van een executeur",
-     "url": "https://wetten.overheid.nl/BWBR0002761",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "nl-bw4-182": {
-     "id": "nl-bw4-182",
-     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
-     "title": "Saisine",
-     "url": "https://wetten.overheid.nl/BWBR0002761",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
     "fi-pk-19-1": {
      "id": "fi-pk-19-1",
      "cite": "Perintökaari 40/1965 19 luku 1 §",
@@ -23476,6 +23444,14 @@
      "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-cc-1025": {
+     "id": "fr-cc-1025",
+     "cite": "Code civil, art. 1025",
+     "title": "Exécuteur testamentaire",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006434756",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "de-bgb-2197": {
      "id": "de-bgb-2197",
@@ -23492,6 +23468,14 @@
      "url": "https://www.gesetze-im-internet.de/bgb/__2205.html",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "ie-succession-10": {
+     "id": "ie-succession-10",
+     "cite": "Succession Act 1965, s 10",
+     "title": "Devolution of real and personal estate",
+     "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "it-cc-700": {
      "id": "it-cc-700",
@@ -23537,6 +23521,22 @@
      "kind": "statute",
      "retrieved": "2026-09-17",
      "inForce": "19-4-1942"
+    },
+    "nl-bw4-142": {
+     "id": "nl-bw4-142",
+     "cite": "Burgerlijk Wetboek Boek 4, art. 4:142",
+     "title": "Benoeming van een executeur",
+     "url": "https://wetten.overheid.nl/BWBR0002761",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
+    },
+    "nl-bw4-182": {
+     "id": "nl-bw4-182",
+     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
+     "title": "Saisine",
+     "url": "https://wetten.overheid.nl/BWBR0002761",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "es-cc-892": {
      "id": "es-cc-892",
@@ -24890,154 +24890,6 @@
      ]
     },
     {
-     "jurisdiction": "fr-national",
-     "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "fr-executeur-testamentaire",
-     "roleName": "Exécuteur testamentaire",
-     "localNames": [
-      "exécuteur testamentaire"
-     ],
-     "nameEn": {
-      "en": "Executor of the will",
-      "basis": "descriptive"
-     },
-     "summary": "Named by will to see to the execution of the testator's wishes, layered on top of the heirs' automatic seisin. Once accepted the office is binding, and its powers die with the holder.",
-     "group": "estate",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Testator names one or more executors having full civil capacity",
-       "phase": "capable",
-       "citations": [
-        "fr-cc-1025"
-       ]
-      },
-      "starts": {
-       "event": "On death and acceptance of the mission, which the executor is then bound to carry out",
-       "phase": "deceased",
-       "citations": [
-        "fr-cc-1025"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Mission completed; the powers are not transmissible on death of the executor",
-        "phase": "closed",
-        "citations": [
-         "fr-cc-1025"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "fr-cc-1025"
-     ]
-    },
-    {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-executor",
-     "roleName": "Executor",
-     "localNames": [
-      "executor",
-      "grant of probate"
-     ],
-     "nameEn": null,
-     "summary": "The estate vests in the personal representatives at the moment of death, before any grant, and they hold it as trustees for those entitled.",
-     "group": "estate",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Testator names an executor in a will",
-       "phase": "capable",
-       "citations": [
-        "ie-succession-10"
-       ]
-      },
-      "starts": {
-       "event": "On death the estate devolves on and vests in the personal representatives, notwithstanding any testamentary disposition; the grant of probate proves the title",
-       "phase": "deceased",
-       "citations": [
-        "ie-succession-10"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Administration completed and the estate distributed to those entitled",
-        "phase": "closed",
-        "citations": [
-         "ie-succession-10"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-succession-10"
-     ]
-    },
-    {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-executeur",
-     "roleName": "Executeur",
-     "localNames": [
-      "executeur",
-      "uiterste wilsbeschikking"
-     ],
-     "nameEn": {
-      "en": "Executor",
-      "basis": "descriptive"
-     },
-     "summary": "Appointed only by will, and layered on top of the heirs' automatic succession rather than replacing it. Where there are several, each may act alone unless the testator said otherwise.",
-     "group": "estate",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Testator appoints one or more executeurs by testamentary disposition",
-       "phase": "capable",
-       "citations": [
-        "nl-bw4-142"
-       ]
-      },
-      "starts": {
-       "event": "On death and acceptance of the office; the heirs have already succeeded of right",
-       "phase": "deceased",
-       "citations": [
-        "nl-bw4-142",
-        "nl-bw4-182"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Administration completed, or the kantonrechter appoints a replacement where a named executeur is lacking",
-        "phase": "closed",
-        "citations": [
-         "nl-bw4-142"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-bw4-142",
-      "nl-bw4-182"
-     ]
-    },
-    {
      "jurisdiction": "fi-national",
      "jurisdictionName": "Finland",
      "label": "Finland",
@@ -25093,6 +24945,55 @@
      },
      "citations": [
       "fi-pk-19-1"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "France",
+     "country": "France",
+     "region": "Europe",
+     "roleId": "fr-executeur-testamentaire",
+     "roleName": "Exécuteur testamentaire",
+     "localNames": [
+      "exécuteur testamentaire"
+     ],
+     "nameEn": {
+      "en": "Executor of the will",
+      "basis": "descriptive"
+     },
+     "summary": "Named by will to see to the execution of the testator's wishes, layered on top of the heirs' automatic seisin. Once accepted the office is binding, and its powers die with the holder.",
+     "group": "estate",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Testator names one or more executors having full civil capacity",
+       "phase": "capable",
+       "citations": [
+        "fr-cc-1025"
+       ]
+      },
+      "starts": {
+       "event": "On death and acceptance of the mission, which the executor is then bound to carry out",
+       "phase": "deceased",
+       "citations": [
+        "fr-cc-1025"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Mission completed; the powers are not transmissible on death of the executor",
+        "phase": "closed",
+        "citations": [
+         "fr-cc-1025"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-1025"
      ]
     },
     {
@@ -25157,6 +25058,53 @@
      ]
     },
     {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-executor",
+     "roleName": "Executor",
+     "localNames": [
+      "executor",
+      "grant of probate"
+     ],
+     "nameEn": null,
+     "summary": "The estate vests in the personal representatives at the moment of death, before any grant, and they hold it as trustees for those entitled.",
+     "group": "estate",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Testator names an executor in a will",
+       "phase": "capable",
+       "citations": [
+        "ie-succession-10"
+       ]
+      },
+      "starts": {
+       "event": "On death the estate devolves on and vests in the personal representatives, notwithstanding any testamentary disposition; the grant of probate proves the title",
+       "phase": "deceased",
+       "citations": [
+        "ie-succession-10"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Administration completed and the estate distributed to those entitled",
+        "phase": "closed",
+        "citations": [
+         "ie-succession-10"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-succession-10"
+     ]
+    },
+    {
      "jurisdiction": "it-national",
      "jurisdictionName": "Italy",
      "label": "Italy",
@@ -25215,6 +25163,58 @@
       "it-cc-704",
       "it-cc-709",
       "it-cc-710"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-executeur",
+     "roleName": "Executeur",
+     "localNames": [
+      "executeur",
+      "uiterste wilsbeschikking"
+     ],
+     "nameEn": {
+      "en": "Executor",
+      "basis": "descriptive"
+     },
+     "summary": "Appointed only by will, and layered on top of the heirs' automatic succession rather than replacing it. Where there are several, each may act alone unless the testator said otherwise.",
+     "group": "estate",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Testator appoints one or more executeurs by testamentary disposition",
+       "phase": "capable",
+       "citations": [
+        "nl-bw4-142"
+       ]
+      },
+      "starts": {
+       "event": "On death and acceptance of the office; the heirs have already succeeded of right",
+       "phase": "deceased",
+       "citations": [
+        "nl-bw4-142",
+        "nl-bw4-182"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Administration completed, or the kantonrechter appoints a replacement where a named executeur is lacking",
+        "phase": "closed",
+        "citations": [
+         "nl-bw4-142"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-bw4-142",
+      "nl-bw4-182"
      ]
     },
     {
@@ -27253,7 +27253,7 @@
    "label": "Guardian of the person",
    "definition": "A personal decision maker appointed by a court or tribunal, rather than by the person.",
    "jurisdictionCount": 38,
-   "countryCount": 15,
+   "countryCount": 17,
    "citations": {
     "rw-pf-139": {
      "id": "rw-pf-139",
@@ -27471,6 +27471,30 @@
      "kind": "statute",
      "retrieved": "2026-09-24"
     },
+    "de-bgb-1814": {
+     "id": "de-bgb-1814",
+     "cite": "BGB § 1814",
+     "title": "Voraussetzungen",
+     "url": "https://www.gesetze-im-internet.de/bgb/__1814.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "de-bgb-1821": {
+     "id": "de-bgb-1821",
+     "cite": "BGB § 1821",
+     "title": "Pflichten des Betreuers; Wünsche des Betreuten",
+     "url": "https://www.gesetze-im-internet.de/bgb/__1821.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "de-bgb-1922": {
+     "id": "de-bgb-1922",
+     "cite": "BGB § 1922",
+     "title": "Gesamtrechtsnachfolge",
+     "url": "https://www.gesetze-im-internet.de/bgb/__1922.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
     "ie-admca-38": {
      "id": "ie-admca-38",
      "cite": "Assisted Decision-Making (Capacity) Act 2015, s 38",
@@ -27502,46 +27526,6 @@
      "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
      "kind": "statute",
      "retrieved": "2026-09-23"
-    },
-    "nl-bw1-450": {
-     "id": "nl-bw1-450",
-     "cite": "Burgerlijk Wetboek Boek 1, art. 1:450",
-     "title": "Mentorschap ten behoeve van meerderjarigen",
-     "url": "https://wetten.overheid.nl/BWBR0002656",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "nl-bw4-182": {
-     "id": "nl-bw4-182",
-     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
-     "title": "Saisine",
-     "url": "https://wetten.overheid.nl/BWBR0002761",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "de-bgb-1814": {
-     "id": "de-bgb-1814",
-     "cite": "BGB § 1814",
-     "title": "Voraussetzungen",
-     "url": "https://www.gesetze-im-internet.de/bgb/__1814.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-bgb-1821": {
-     "id": "de-bgb-1821",
-     "cite": "BGB § 1821",
-     "title": "Pflichten des Betreuers; Wünsche des Betreuten",
-     "url": "https://www.gesetze-im-internet.de/bgb/__1821.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-bgb-1922": {
-     "id": "de-bgb-1922",
-     "cite": "BGB § 1922",
-     "title": "Gesamtrechtsnachfolge",
-     "url": "https://www.gesetze-im-internet.de/bgb/__1922.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
     },
     "it-cc-414": {
      "id": "it-cc-414",
@@ -27578,6 +27562,22 @@
      "kind": "statute",
      "retrieved": "2026-09-17",
      "inForce": "30-6-2023"
+    },
+    "nl-bw1-450": {
+     "id": "nl-bw1-450",
+     "cite": "Burgerlijk Wetboek Boek 1, art. 1:450",
+     "title": "Mentorschap ten behoeve van meerderjarigen",
+     "url": "https://wetten.overheid.nl/BWBR0002656",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
+    },
+    "nl-bw4-182": {
+     "id": "nl-bw4-182",
+     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
+     "title": "Saisine",
+     "url": "https://wetten.overheid.nl/BWBR0002761",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "se-fb-11-4": {
      "id": "se-fb-11-4",
@@ -28717,8 +28717,8 @@
     {
      "jurisdiction": "fr-national",
      "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
+     "label": "France",
+     "country": "France",
      "region": "Europe",
      "roleId": "fr-personne-habilitee",
      "roleName": "Personne habilitée (habilitation familiale)",
@@ -28770,174 +28770,6 @@
      "citations": [
       "fr-cc-494-1",
       "fr-cc-724"
-     ]
-    },
-    {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-dmr-welfare",
-     "roleName": "Decision-making representative (personal welfare)",
-     "localNames": [
-      "decision-making representative"
-     ],
-     "nameEn": null,
-     "summary": "The court's last resort for personal welfare, available only where no co-decision-maker is suitable or registered. Ireland has no guardianship: the court appoints a representative for specified decisions.",
-     "group": "court",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Court declares the person lacks capacity and no suitable or registered co-decision-maker exists",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-38"
-       ]
-      },
-      "starts": {
-       "event": "Court order appointing a decision-making representative for specified personal welfare decisions",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-38"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Court varies or discharges the order, or the representative is disqualified",
-        "phase": "incapacitated",
-        "citations": [
-         "ie-admca-38"
-        ]
-       },
-       {
-        "event": "Death of the relevant person",
-        "phase": "deceased",
-        "citations": [
-         "ie-succession-10"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-admca-38",
-      "ie-succession-10"
-     ]
-    },
-    {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-ward",
-     "roleName": "Committee of a ward (being wound down)",
-     "localNames": [
-      "ward of court",
-      "committee of the ward"
-     ],
-     "nameEn": null,
-     "summary": "Wardship is abolished prospectively. Every adult ward must be reviewed by the wardship court and discharged into the 2015 Act's tiers, so this role only shrinks.",
-     "group": "court",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Person was taken into wardship under the pre-2023 jurisdiction",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-54"
-       ]
-      },
-      "starts": {
-       "event": "Committee appointed by the wardship court under the former jurisdiction",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-54"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Wardship court reviews the ward's capacity and declares either that the ward does not lack capacity or that a 2015 Act arrangement applies, discharging the ward from wardship",
-        "phase": "incapacitated",
-        "citations": [
-         "ie-admca-55"
-        ]
-       },
-       {
-        "event": "Death of the ward",
-        "phase": "deceased",
-        "citations": [
-         "ie-succession-10"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-admca-54",
-      "ie-admca-55",
-      "ie-succession-10"
-     ]
-    },
-    {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-mentor",
-     "roleName": "Mentor",
-     "localNames": [
-      "mentorschap",
-      "mentor"
-     ],
-     "nameEn": {
-      "en": "Mentor (personal, non-property decisions)",
-      "basis": "descriptive"
-     },
-     "summary": "The mirror image of bewind: mentorschap covers interests of a non-property nature only, so care and treatment decisions sit here while money sits with the bewindvoerder.",
-     "group": "court",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Application to the kantonrechter for mentorschap",
-       "phase": "incapacitated",
-       "citations": [
-        "nl-bw1-450"
-       ]
-      },
-      "starts": {
-       "event": "Kantonrechter institutes mentorschap where the adult cannot properly look after interests of a non-property nature",
-       "phase": "incapacitated",
-       "citations": [
-        "nl-bw1-450"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Mentorschap terminated by the kantonrechter",
-        "phase": "capable",
-        "citations": [
-         "nl-bw1-450"
-        ]
-       },
-       {
-        "event": "Death of the person",
-        "phase": "deceased",
-        "citations": [
-         "nl-bw4-182"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-bw1-450",
-      "nl-bw4-182"
      ]
     },
     {
@@ -28994,6 +28826,116 @@
      ]
     },
     {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-dmr-welfare",
+     "roleName": "Decision-making representative (personal welfare)",
+     "localNames": [
+      "decision-making representative"
+     ],
+     "nameEn": null,
+     "summary": "The court's last resort for personal welfare, available only where no co-decision-maker is suitable or registered. Ireland has no guardianship: the court appoints a representative for specified decisions.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Court declares the person lacks capacity and no suitable or registered co-decision-maker exists",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-38"
+       ]
+      },
+      "starts": {
+       "event": "Court order appointing a decision-making representative for specified personal welfare decisions",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-38"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Court varies or discharges the order, or the representative is disqualified",
+        "phase": "incapacitated",
+        "citations": [
+         "ie-admca-38"
+        ]
+       },
+       {
+        "event": "Death of the relevant person",
+        "phase": "deceased",
+        "citations": [
+         "ie-succession-10"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-admca-38",
+      "ie-succession-10"
+     ]
+    },
+    {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-ward",
+     "roleName": "Committee of a ward (being wound down)",
+     "localNames": [
+      "ward of court",
+      "committee of the ward"
+     ],
+     "nameEn": null,
+     "summary": "Wardship is abolished prospectively. Every adult ward must be reviewed by the wardship court and discharged into the 2015 Act's tiers, so this role only shrinks.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person was taken into wardship under the pre-2023 jurisdiction",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-54"
+       ]
+      },
+      "starts": {
+       "event": "Committee appointed by the wardship court under the former jurisdiction",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-54"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Wardship court reviews the ward's capacity and declares either that the ward does not lack capacity or that a 2015 Act arrangement applies, discharging the ward from wardship",
+        "phase": "incapacitated",
+        "citations": [
+         "ie-admca-55"
+        ]
+       },
+       {
+        "event": "Death of the ward",
+        "phase": "deceased",
+        "citations": [
+         "ie-succession-10"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-admca-54",
+      "ie-admca-55",
+      "ie-succession-10"
+     ]
+    },
+    {
      "jurisdiction": "it-national",
      "jurisdictionName": "Italy",
      "label": "Italy",
@@ -29046,6 +28988,64 @@
       "it-cc-424",
       "it-cc-413",
       "it-cc-411"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-mentor",
+     "roleName": "Mentor",
+     "localNames": [
+      "mentorschap",
+      "mentor"
+     ],
+     "nameEn": {
+      "en": "Mentor (personal, non-property decisions)",
+      "basis": "descriptive"
+     },
+     "summary": "The mirror image of bewind: mentorschap covers interests of a non-property nature only, so care and treatment decisions sit here while money sits with the bewindvoerder.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Application to the kantonrechter for mentorschap",
+       "phase": "incapacitated",
+       "citations": [
+        "nl-bw1-450"
+       ]
+      },
+      "starts": {
+       "event": "Kantonrechter institutes mentorschap where the adult cannot properly look after interests of a non-property nature",
+       "phase": "incapacitated",
+       "citations": [
+        "nl-bw1-450"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Mentorschap terminated by the kantonrechter",
+        "phase": "capable",
+        "citations": [
+         "nl-bw1-450"
+        ]
+       },
+       {
+        "event": "Death of the person",
+        "phase": "deceased",
+        "citations": [
+         "nl-bw4-182"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-bw1-450",
+      "nl-bw4-182"
      ]
     },
     {
@@ -30834,7 +30834,7 @@
    "label": "Health-care agent",
    "definition": "A person named in advance to make health and personal welfare decisions once the person can no longer make them.",
    "jurisdictionCount": 36,
-   "countryCount": 12,
+   "countryCount": 14,
    "citations": {
     "za-nha-7-mandate": {
      "id": "za-nha-7-mandate",
@@ -30924,6 +30924,30 @@
      "kind": "statute",
      "retrieved": "2026-09-24"
     },
+    "de-bgb-1820": {
+     "id": "de-bgb-1820",
+     "cite": "BGB § 1820",
+     "title": "Vorsorgevollmacht und Kontrollbetreuung",
+     "url": "https://www.gesetze-im-internet.de/bgb/__1820.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "de-bgb-1827": {
+     "id": "de-bgb-1827",
+     "cite": "BGB § 1827",
+     "title": "Patientenverfügung; Behandlungswünsche oder mutmaßlicher Wille des Betreuten",
+     "url": "https://www.gesetze-im-internet.de/bgb/__1827.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
+    "de-bgb-168": {
+     "id": "de-bgb-168",
+     "cite": "BGB § 168",
+     "title": "Erlöschen der Vollmacht",
+     "url": "https://www.gesetze-im-internet.de/bgb/__168.html",
+     "kind": "statute",
+     "retrieved": "2026-09-17"
+    },
     "ie-admca-59": {
      "id": "ie-admca-59",
      "cite": "Assisted Decision-Making (Capacity) Act 2015, s 59",
@@ -30964,46 +30988,6 @@
      "kind": "statute",
      "retrieved": "2026-09-23"
     },
-    "nl-bw7-465": {
-     "id": "nl-bw7-465",
-     "cite": "Burgerlijk Wetboek Boek 7, art. 7:465",
-     "title": "Vertegenwoordiging van de patiënt (WGBO)",
-     "url": "https://wetten.overheid.nl/BWBR0005290",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "nl-bw1-450": {
-     "id": "nl-bw1-450",
-     "cite": "Burgerlijk Wetboek Boek 1, art. 1:450",
-     "title": "Mentorschap ten behoeve van meerderjarigen",
-     "url": "https://wetten.overheid.nl/BWBR0002656",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
-    "de-bgb-1820": {
-     "id": "de-bgb-1820",
-     "cite": "BGB § 1820",
-     "title": "Vorsorgevollmacht und Kontrollbetreuung",
-     "url": "https://www.gesetze-im-internet.de/bgb/__1820.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-bgb-1827": {
-     "id": "de-bgb-1827",
-     "cite": "BGB § 1827",
-     "title": "Patientenverfügung; Behandlungswünsche oder mutmaßlicher Wille des Betreuten",
-     "url": "https://www.gesetze-im-internet.de/bgb/__1827.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
-    "de-bgb-168": {
-     "id": "de-bgb-168",
-     "cite": "BGB § 168",
-     "title": "Erlöschen der Vollmacht",
-     "url": "https://www.gesetze-im-internet.de/bgb/__168.html",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
     "it-l219-4": {
      "id": "it-l219-4",
      "cite": "L. 219/2017 art. 4",
@@ -31021,6 +31005,22 @@
      "kind": "statute",
      "retrieved": "2026-09-17",
      "inForce": "19-3-2004"
+    },
+    "nl-bw7-465": {
+     "id": "nl-bw7-465",
+     "cite": "Burgerlijk Wetboek Boek 7, art. 7:465",
+     "title": "Vertegenwoordiging van de patiënt (WGBO)",
+     "url": "https://wetten.overheid.nl/BWBR0005290",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
+    },
+    "nl-bw1-450": {
+     "id": "nl-bw1-450",
+     "cite": "Burgerlijk Wetboek Boek 1, art. 1:450",
+     "title": "Mentorschap ten behoeve van meerderjarigen",
+     "url": "https://wetten.overheid.nl/BWBR0002656",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "es-l41-11": {
      "id": "es-l41-11",
@@ -32463,8 +32463,8 @@
     {
      "jurisdiction": "fr-national",
      "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
+     "label": "France",
+     "country": "France",
      "region": "Europe",
      "roleId": "fr-personne-de-confiance",
      "roleName": "Personne de confiance",
@@ -32515,177 +32515,6 @@
      "citations": [
       "fr-csp-l1111-6",
       "fr-cc-724"
-     ]
-    },
-    {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-epa-welfare",
-     "roleName": "Attorney under an enduring power (personal welfare)",
-     "localNames": [
-      "enduring power of attorney",
-      "attorney"
-     ],
-     "nameEn": null,
-     "summary": "The same instrument may cover personal welfare. The 2022 Act repealed the separate welfare-scope section and folded that authority into s 59 itself.",
-     "group": "health",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Donor confers authority over all or part of personal welfare in the enduring power",
-       "phase": "capable",
-       "citations": [
-        "ie-admca-59"
-       ]
-      },
-      "starts": {
-       "event": "Registration under s 69 and the donor's lack of capacity, on the same cumulative test as the property side",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-59",
-        "ie-admca-69"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Revocation, disclaimer or removal from the Register",
-        "phase": "incapacitated",
-        "citations": [
-         "ie-admca-59"
-        ]
-       },
-       {
-        "event": "Death of the donor",
-        "phase": "deceased",
-        "citations": [
-         "ie-succession-10"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-admca-59",
-      "ie-admca-69",
-      "ie-succession-10"
-     ]
-    },
-    {
-     "jurisdiction": "ie-national",
-     "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "ie-designated-healthcare-representative",
-     "roleName": "Designated healthcare representative",
-     "localNames": [
-      "designated healthcare representative",
-      "advance healthcare directive"
-     ],
-     "nameEn": null,
-     "summary": "Named inside an advance healthcare directive rather than in a separate instrument, and must sign it to accept. Its core power is to ensure the directive is complied with; interpretive and consent powers are optional add-ons.",
-     "group": "health",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Directive-maker designates a named individual in an advance healthcare directive, who signs to confirm willingness",
-       "phase": "capable",
-       "citations": [
-        "ie-admca-87"
-       ]
-      },
-      "starts": {
-       "event": "When the directive applies, on the directive-maker's loss of capacity",
-       "phase": "incapacitated",
-       "citations": [
-        "ie-admca-88"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Directive revoked, or the representative declines or is disqualified",
-        "phase": "incapacitated",
-        "citations": [
-         "ie-admca-87"
-        ]
-       },
-       {
-        "event": "Death of the directive-maker",
-        "phase": "deceased",
-        "citations": [
-         "ie-succession-10"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "ie-admca-87",
-      "ie-admca-88",
-      "ie-succession-10"
-     ]
-    },
-    {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-schriftelijk-gemachtigde",
-     "roleName": "Schriftelijk gemachtigde (WGBO)",
-     "localNames": [
-      "schriftelijk gemachtigde"
-     ],
-     "nameEn": {
-      "en": "Representative authorised in writing",
-      "basis": "descriptive"
-     },
-     "summary": "A person authorised in writing to stand in the patient's place for treatment decisions. It ranks below a curator or mentor but above the family, and needs only a written authorisation, not a notarial deed.",
-     "group": "health",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Patient authorises a person in writing to act in their place",
-       "phase": "capable",
-       "citations": [
-        "nl-bw7-465"
-       ]
-      },
-      "starts": {
-       "event": "When the care provider judges the adult patient incapable of a reasonable appraisal of their interests, and no curatele or mentorschap is in place",
-       "phase": "incapacitated",
-       "citations": [
-        "nl-bw7-465"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Curatele or mentorschap instituted, which displaces the written authorisation",
-        "phase": "incapacitated",
-        "citations": [
-         "nl-bw7-465",
-         "nl-bw1-450"
-        ]
-       },
-       {
-        "event": "Patient regains capacity, or dies",
-        "phase": "deceased",
-        "citations": [
-         "nl-bw7-465"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-bw7-465",
-      "nl-bw1-450"
      ]
     },
     {
@@ -32741,6 +32570,119 @@
      ]
     },
     {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-epa-welfare",
+     "roleName": "Attorney under an enduring power (personal welfare)",
+     "localNames": [
+      "enduring power of attorney",
+      "attorney"
+     ],
+     "nameEn": null,
+     "summary": "The same instrument may cover personal welfare. The 2022 Act repealed the separate welfare-scope section and folded that authority into s 59 itself.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Donor confers authority over all or part of personal welfare in the enduring power",
+       "phase": "capable",
+       "citations": [
+        "ie-admca-59"
+       ]
+      },
+      "starts": {
+       "event": "Registration under s 69 and the donor's lack of capacity, on the same cumulative test as the property side",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-59",
+        "ie-admca-69"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Revocation, disclaimer or removal from the Register",
+        "phase": "incapacitated",
+        "citations": [
+         "ie-admca-59"
+        ]
+       },
+       {
+        "event": "Death of the donor",
+        "phase": "deceased",
+        "citations": [
+         "ie-succession-10"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-admca-59",
+      "ie-admca-69",
+      "ie-succession-10"
+     ]
+    },
+    {
+     "jurisdiction": "ie-national",
+     "jurisdictionName": "Ireland",
+     "label": "Ireland",
+     "country": "Ireland",
+     "region": "Europe",
+     "roleId": "ie-designated-healthcare-representative",
+     "roleName": "Designated healthcare representative",
+     "localNames": [
+      "designated healthcare representative",
+      "advance healthcare directive"
+     ],
+     "nameEn": null,
+     "summary": "Named inside an advance healthcare directive rather than in a separate instrument, and must sign it to accept. Its core power is to ensure the directive is complied with; interpretive and consent powers are optional add-ons.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Directive-maker designates a named individual in an advance healthcare directive, who signs to confirm willingness",
+       "phase": "capable",
+       "citations": [
+        "ie-admca-87"
+       ]
+      },
+      "starts": {
+       "event": "When the directive applies, on the directive-maker's loss of capacity",
+       "phase": "incapacitated",
+       "citations": [
+        "ie-admca-88"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Directive revoked, or the representative declines or is disqualified",
+        "phase": "incapacitated",
+        "citations": [
+         "ie-admca-87"
+        ]
+       },
+       {
+        "event": "Death of the directive-maker",
+        "phase": "deceased",
+        "citations": [
+         "ie-succession-10"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ie-admca-87",
+      "ie-admca-88",
+      "ie-succession-10"
+     ]
+    },
+    {
      "jurisdiction": "it-national",
      "jurisdictionName": "Italy",
      "label": "Italy",
@@ -32791,6 +32733,64 @@
      "citations": [
       "it-l219-4",
       "it-cc-404"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-schriftelijk-gemachtigde",
+     "roleName": "Schriftelijk gemachtigde (WGBO)",
+     "localNames": [
+      "schriftelijk gemachtigde"
+     ],
+     "nameEn": {
+      "en": "Representative authorised in writing",
+      "basis": "descriptive"
+     },
+     "summary": "A person authorised in writing to stand in the patient's place for treatment decisions. It ranks below a curator or mentor but above the family, and needs only a written authorisation, not a notarial deed.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Patient authorises a person in writing to act in their place",
+       "phase": "capable",
+       "citations": [
+        "nl-bw7-465"
+       ]
+      },
+      "starts": {
+       "event": "When the care provider judges the adult patient incapable of a reasonable appraisal of their interests, and no curatele or mentorschap is in place",
+       "phase": "incapacitated",
+       "citations": [
+        "nl-bw7-465"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Curatele or mentorschap instituted, which displaces the written authorisation",
+        "phase": "incapacitated",
+        "citations": [
+         "nl-bw7-465",
+         "nl-bw1-450"
+        ]
+       },
+       {
+        "event": "Patient regains capacity, or dies",
+        "phase": "deceased",
+        "citations": [
+         "nl-bw7-465"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-bw7-465",
+      "nl-bw1-450"
      ]
     },
     {
@@ -37343,7 +37343,7 @@
    "label": "Heir by universal succession",
    "definition": "An heir who takes the estate as a whole at the moment of death, without any grant and without a default executor.",
    "jurisdictionCount": 16,
-   "countryCount": 14,
+   "countryCount": 16,
    "citations": {
     "mu-cc-724": {
      "id": "mu-cc-724",
@@ -37489,22 +37489,6 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
-    "fr-cc-724": {
-     "id": "fr-cc-724",
-     "cite": "Code civil, art. 724",
-     "title": "Saisine des héritiers",
-     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
-     "kind": "statute",
-     "retrieved": "2026-09-24"
-    },
-    "nl-bw4-182": {
-     "id": "nl-bw4-182",
-     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
-     "title": "Saisine",
-     "url": "https://wetten.overheid.nl/BWBR0002761",
-     "kind": "statute",
-     "retrieved": "2026-09-23"
-    },
     "fi-pk-18-1": {
      "id": "fi-pk-18-1",
      "cite": "Perintökaari 40/1965 18 luku 1 §",
@@ -37528,6 +37512,14 @@
      "url": "https://www.finlex.fi/fi/laki/ajantasa/1965/19650040",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-cc-724": {
+     "id": "fr-cc-724",
+     "cite": "Code civil, art. 724",
+     "title": "Saisine des héritiers",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "de-bgb-1922": {
      "id": "de-bgb-1922",
@@ -37581,6 +37573,14 @@
      "kind": "statute",
      "retrieved": "2026-09-17",
      "inForce": "4-7-1998"
+    },
+    "nl-bw4-182": {
+     "id": "nl-bw4-182",
+     "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
+     "title": "Saisine",
+     "url": "https://wetten.overheid.nl/BWBR0002761",
+     "kind": "statute",
+     "retrieved": "2026-09-23"
     },
     "es-cc-661": {
      "id": "es-cc-661",
@@ -38005,108 +38005,6 @@
      ]
     },
     {
-     "jurisdiction": "fr-national",
-     "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "fr-heritier",
-     "roleName": "Héritier",
-     "localNames": [
-      "héritier",
-      "saisine",
-      "saisis de plein droit"
-     ],
-     "nameEn": {
-      "en": "Heir",
-      "basis": "descriptive"
-     },
-     "summary": "Succession is universal and automatic: heirs designated by law are seised of right of the deceased's goods, rights and actions. Failing heirs and universal legatees, the estate goes to the State, which must apply to be sent into possession.",
-     "group": "estate",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Heirship by law, or universal legatee or donee under the will",
-       "phase": "capable",
-       "citations": [
-        "fr-cc-724"
-       ]
-      },
-      "starts": {
-       "event": "At death, of right — no grant and no court step",
-       "phase": "deceased",
-       "citations": [
-        "fr-cc-724"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Succession settled and divided",
-        "phase": "closed",
-        "citations": [
-         "fr-cc-724"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "fr-cc-724"
-     ]
-    },
-    {
-     "jurisdiction": "nl-national",
-     "jurisdictionName": "Netherlands",
-     "label": "Denmark — Netherlands",
-     "country": "Denmark",
-     "region": "Europe",
-     "roleId": "nl-erfgenaam",
-     "roleName": "Erfgenaam",
-     "localNames": [
-      "erfgenaam",
-      "saisine",
-      "van rechtswege"
-     ],
-     "nameEn": {
-      "en": "Heir",
-      "basis": "descriptive"
-     },
-     "summary": "Dutch succession is universal and automatic. At the moment of death the heirs step into the deceased's transmissible rights, possession and holdership of right, and become debtors of the debts that survive the death. There is no grant.",
-     "group": "estate",
-     "stateSpecific": false,
-     "baselineOf": true,
-     "differsFromModel": false,
-     "lane": {
-      "assigned": {
-       "event": "Heirship by will or by intestacy",
-       "phase": "capable",
-       "citations": [
-        "nl-bw4-182"
-       ]
-      },
-      "starts": {
-       "event": "At death, of right — no grant, no appointment and no court step",
-       "phase": "deceased",
-       "citations": [
-        "nl-bw4-182"
-       ]
-      },
-      "ends": [
-       {
-        "event": "Estate divided among those entitled",
-        "phase": "closed",
-        "citations": [
-         "nl-bw4-182"
-        ]
-       }
-      ]
-     },
-     "citations": [
-      "nl-bw4-182"
-     ]
-    },
-    {
      "jurisdiction": "fi-national",
      "jurisdictionName": "Finland",
      "label": "Finland",
@@ -38166,6 +38064,57 @@
       "fi-pk-18-1",
       "fi-pk-18-2",
       "fi-pk-19-1"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "France",
+     "country": "France",
+     "region": "Europe",
+     "roleId": "fr-heritier",
+     "roleName": "Héritier",
+     "localNames": [
+      "héritier",
+      "saisine",
+      "saisis de plein droit"
+     ],
+     "nameEn": {
+      "en": "Heir",
+      "basis": "descriptive"
+     },
+     "summary": "Succession is universal and automatic: heirs designated by law are seised of right of the deceased's goods, rights and actions. Failing heirs and universal legatees, the estate goes to the State, which must apply to be sent into possession.",
+     "group": "estate",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Heirship by law, or universal legatee or donee under the will",
+       "phase": "capable",
+       "citations": [
+        "fr-cc-724"
+       ]
+      },
+      "starts": {
+       "event": "At death, of right — no grant and no court step",
+       "phase": "deceased",
+       "citations": [
+        "fr-cc-724"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Succession settled and divided",
+        "phase": "closed",
+        "citations": [
+         "fr-cc-724"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-724"
      ]
     },
     {
@@ -38274,6 +38223,57 @@
       "it-cc-459",
       "it-cc-470",
       "it-cc-528"
+     ]
+    },
+    {
+     "jurisdiction": "nl-national",
+     "jurisdictionName": "Netherlands",
+     "label": "Netherlands",
+     "country": "Netherlands",
+     "region": "Europe",
+     "roleId": "nl-erfgenaam",
+     "roleName": "Erfgenaam",
+     "localNames": [
+      "erfgenaam",
+      "saisine",
+      "van rechtswege"
+     ],
+     "nameEn": {
+      "en": "Heir",
+      "basis": "descriptive"
+     },
+     "summary": "Dutch succession is universal and automatic. At the moment of death the heirs step into the deceased's transmissible rights, possession and holdership of right, and become debtors of the debts that survive the death. There is no grant.",
+     "group": "estate",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Heirship by will or by intestacy",
+       "phase": "capable",
+       "citations": [
+        "nl-bw4-182"
+       ]
+      },
+      "starts": {
+       "event": "At death, of right — no grant, no appointment and no court step",
+       "phase": "deceased",
+       "citations": [
+        "nl-bw4-182"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Estate divided among those entitled",
+        "phase": "closed",
+        "citations": [
+         "nl-bw4-182"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "nl-bw4-182"
      ]
     },
     {
@@ -38691,8 +38691,8 @@
     {
      "jurisdiction": "fr-national",
      "jurisdictionName": "France",
-     "label": "Denmark — France",
-     "country": "Denmark",
+     "label": "France",
+     "country": "France",
      "region": "Europe",
      "roleId": "fr-executeur-directives-numeriques",
      "roleName": "Personne chargée de l'exécution des directives",
@@ -47170,8 +47170,8 @@
     {
      "jurisdiction": "ie-national",
      "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
+     "label": "Ireland",
+     "country": "Ireland",
      "region": "Europe",
      "roleId": "ie-decision-making-assistant",
      "roleName": "Decision-making assistant",
@@ -47225,8 +47225,8 @@
     {
      "jurisdiction": "ie-national",
      "jurisdictionName": "Ireland",
-     "label": "Denmark — Ireland",
-     "country": "Denmark",
+     "label": "Ireland",
+     "country": "Ireland",
      "region": "Europe",
      "roleId": "ie-co-decision-maker",
      "roleName": "Co-decision-maker",
