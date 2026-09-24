@@ -170,6 +170,17 @@
      "label": "Denmark"
     },
     {
+     "id": "fr-national",
+     "name": "France",
+     "short": "FR",
+     "files": [
+      "jurisdictions/fr-national.json"
+     ],
+     "country": "dk",
+     "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice.",
+     "label": "Denmark — France"
+    },
+    {
      "id": "ie-national",
      "name": "Ireland",
      "short": "IE",
@@ -768,6 +779,17 @@
    "country": "dk",
    "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
    "label": "Denmark"
+  },
+  {
+   "id": "fr-national",
+   "name": "France",
+   "short": "FR",
+   "files": [
+    "jurisdictions/fr-national.json"
+   ],
+   "country": "dk",
+   "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice.",
+   "label": "Denmark — France"
   },
   {
    "id": "ie-national",
