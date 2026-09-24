@@ -7327,6 +7327,269 @@
    }
   ]
  },
+ "ie-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "An ordinary agency does not survive incapacity; enduring authority exists only through the separate enduring power of attorney in Part 7 of the 2015 Act.",
+    "citations": [
+     "ie-admca-59"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "The Irish enduring power is inherently springing: s 59(4) provides that it shall not enter into force until both registration under s 69 and the donor's loss of capacity.",
+    "citations": [
+     "ie-admca-59"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": true,
+    "note": "Registration with the Director of the Decision Support Service under s 69 is one of the two cumulative conditions in s 59(4); a co-decision-making agreement likewise has effect only on registration.",
+    "citations": [
+     "ie-admca-59",
+     "ie-admca-69",
+     "ie-admca-17"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity",
+    "note": "A designated healthcare representative acts when the advance healthcare directive applies, on the directive-maker's loss of capacity; an enduring power covering personal welfare is subject to the same s 59(4) test.",
+    "citations": [
+     "ie-admca-88",
+     "ie-admca-59"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": 2015,
+    "name": "Assisted Decision-Making (Capacity) Act 2015",
+    "citations": [
+     "ie-admca-10",
+     "ie-admca-17",
+     "ie-si-192-2023"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-out",
+    "optOutSinceYear": 2025,
+    "name": "Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024",
+    "citations": [
+     "ie-ht-18",
+     "ie-ht-si-250-2025"
+    ]
+   },
+   "probateGrantName": {
+    "value": "grant of probate",
+    "note": "Administration where there is no executor is granted by the High Court under s 27; the estate vests in the personal representatives at death under s 10 regardless of the grant.",
+    "citations": [
+     "ie-succession-10",
+     "ie-succession-27"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "ie-admca-59",
+    "cite": "Assisted Decision-Making (Capacity) Act 2015, s 59",
+    "title": "Enduring power of attorney — general",
+    "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "a person who has attained the age of 18 years (in this Act referred to as “donor”) may appoint another person who has also attained that age (in this Act referred to as “attorney”) on whom he or she confers either or both of the following: (a) general authority to act on the donor's behalf in relation to all or a specified part of the donor's personal welfare or property and affairs, or both; ... An enduring power of attorney shall not enter into force until— (a) the instrument creating the enduring power of attorney has been registered under section 69, (b) the donor lacks capacity in relation to one or more of the relevant decisions"
+   },
+   {
+    "id": "ie-admca-69",
+    "cite": "Assisted Decision-Making (Capacity) Act 2015, s 69",
+    "title": "Registration of an instrument creating an enduring power of attorney",
+    "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "On receipt of an application under section 68, the Director shall review the application and any objections received under section 71 and shall carry out such reasonable enquiries as he or she considers necessary in order to establish whether the following criteria are met"
+   },
+   {
+    "id": "ie-admca-17",
+    "cite": "Assisted Decision-Making (Capacity) Act 2015, s 17",
+    "title": "Co-decision-making agreement",
+    "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "a person who has attained the age of 18 years and who considers that his or her capacity is in question or may shortly be in question may appoint a suitable person who has also attained that age to jointly make with the first-mentioned person one or more than one decision on the first-mentioned person's personal welfare or property and affairs, or both"
+   },
+   {
+    "id": "ie-admca-88",
+    "cite": "Assisted Decision-Making (Capacity) Act 2015, s 88",
+    "title": "Functions and scope of authority of designated healthcare representatives",
+    "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "A designated healthcare representative has, by virtue of this paragraph, the power to ensure that the terms of the advance healthcare directive are complied with. A directive-maker may, in his or her advance healthcare directive, confer on his or her designated healthcare representative one or both of the following powers: (i) the power to advise and interpret what the directive-maker's will and preferences are"
+   },
+   {
+    "id": "ie-admca-10",
+    "cite": "Assisted Decision-Making (Capacity) Act 2015, s 10",
+    "title": "Decision-making assistance agreement",
+    "url": "https://revisedacts.lawreform.ie/eli/2015/act/64/revised/en/html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "a person who has attained the age of 18 years and who considers that his or her capacity is in question or may shortly be in question may appoint another person who has also attained that age to assist the first-mentioned person in making one or more than one decision on the first-mentioned person's personal welfare or property and affairs, or both"
+   },
+   {
+    "id": "ie-si-192-2023",
+    "cite": "S.I. No. 192/2023",
+    "title": "Assisted Decision-Making (Capacity) Act 2015 (Commencement) Order 2023",
+    "url": "https://www.irishstatutebook.ie/eli/2023/si/192/made/en/html",
+    "kind": "statutory-instrument",
+    "retrieved": "2026-09-23",
+    "quote": "The 26th day of April 2023 is appointed as the day on which the following provisions, insofar as they do not relate to an advance healthcare directive or a designated healthcare representative or both, of the Assisted Decision-Making (Capacity) Act 2015 (No. 64 of 2015) shall come into operation"
+   },
+   {
+    "id": "ie-ht-18",
+    "cite": "Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024, s 18",
+    "title": "Deemed consent for donation of relevant organs",
+    "url": "https://www.irishstatutebook.ie/eli/2024/act/5/section/18/enacted/en/html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "a person shall be deemed to consent to the donation, after his or her death, of his or her relevant organs (in this Act referred to as “deemed consent”) where he or she has not registered his or her objection to such organ donation on the Register in accordance with section 33. Subsection (1) shall not apply— (a) to a person who has not been ordinarily resident in the State for a period of at least 12 months immediately before the date of his or her death ... (c) to a person in respect of whom a designated family member cannot be identified or confirmed, or (d) to a child."
+   },
+   {
+    "id": "ie-ht-si-250-2025",
+    "cite": "S.I. No. 250/2025",
+    "title": "Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024 (Commencement) Order 2025",
+    "url": "https://www.irishstatutebook.ie/eli/2025/si/250/made/en/html",
+    "kind": "statutory-instrument",
+    "retrieved": "2026-09-23",
+    "quote": "The 17th day of June 2025 is appointed as the day on which the following provisions of the Human Tissue (Transplantation, Post-Mortem, Anatomical Examination and Public Display) Act 2024 (No. 5 of 2024) shall come into operation: (a) sections 1 to 36"
+   },
+   {
+    "id": "ie-succession-10",
+    "cite": "Succession Act 1965, s 10",
+    "title": "Devolution of real and personal estate",
+    "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "The real and personal estate of a deceased person shall on his death, notwithstanding any testamentary disposition, devolve on and become vested in his personal representatives. ... The personal representatives shall be the representatives of the deceased in regard to his real and personal estate and shall hold the estate as trustees for the persons by law entitled thereto."
+   },
+   {
+    "id": "ie-succession-27",
+    "cite": "Succession Act 1965, s 27",
+    "title": "Grants of administration",
+    "url": "https://revisedacts.lawreform.ie/eli/1965/act/27/revised/en/html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "The High Court shall have power to grant administration (with or without will annexed) of the estate of a deceased person, and a grant may be limited in any way the Court thinks fit. ... Subject to subsection (4), the person or persons to whom administration is to be granted shall be determined in accordance with rules of the High Court."
+   }
+  ]
+ },
+ "nl-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "Durable by omission rather than by design: art. 3:72 lists death, ondercuratelestelling, bankruptcy and revocation as the events that end a volmacht, and the principal's loss of capacity is not among them. No special enduring instrument is needed, which is why the notarial levenstestament is built on an ordinary volmacht.",
+    "citations": [
+     "nl-bw3-72"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "Title 3.3 makes a volmacht effective on grant and imposes no registration or court step before use; contrast the court measures in Book 1, which exist only by order of the kantonrechter.",
+    "citations": [
+     "nl-bw3-60",
+     "nl-bw3-72"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "Art. 7:465(3) turns on whether the patient 'niet in staat kan worden geacht tot een redelijke waardering van zijn belangen ter zake', a judgement made by the care provider rather than by a court.",
+    "citations": [
+     "nl-bw7-465"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-out",
+    "optOutSinceYear": null,
+    "name": "Wet op de orgaandonatie (actieve donorregistratie)",
+    "note": "An adult who files no declaration is entered in the donorregister as having no objection six weeks after a reminder, and the register must be consulted before removal. The commencement year of the active-registration scheme was not read from a primary source and is therefore not asserted here.",
+    "citations": [
+     "nl-wod-10",
+     "nl-wod-20"
+    ]
+   },
+   "probateGrantName": {
+    "value": "none",
+    "note": "There is no grant. Under art. 4:182 the heirs succeed of right at the moment of death, and an executeur, if any, is appointed by will rather than by a court.",
+    "citations": [
+     "nl-bw4-182",
+     "nl-bw4-142"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "nl-bw3-72",
+    "cite": "Burgerlijk Wetboek Boek 3, art. 3:72",
+    "title": "Einde van de volmacht",
+    "url": "https://wetten.overheid.nl/BWBR0005291",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Een volmacht eindigt: a. door de dood, de ondercuratelestelling, het faillissement van de volmachtgever of het ten aanzien van hem van toepassing verklaren van de schuldsaneringsregeling natuurlijke personen; b. door de dood, de ondercuratelestelling, het faillissement van de gevolmachtigde ... tenzij anders is bepaald; c. door herroeping door de volmachtgever"
+   },
+   {
+    "id": "nl-bw3-60",
+    "cite": "Burgerlijk Wetboek Boek 3, art. 3:60",
+    "title": "Volmacht",
+    "url": "https://wetten.overheid.nl/BWBR0005291",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Volmacht is de bevoegdheid die een volmachtgever verleent aan een ander, de gevolmachtigde, om in zijn naam rechtshandelingen te verrichten."
+   },
+   {
+    "id": "nl-bw7-465",
+    "cite": "Burgerlijk Wetboek Boek 7, art. 7:465",
+    "title": "Vertegenwoordiging van de patiënt (WGBO)",
+    "url": "https://wetten.overheid.nl/BWBR0005290",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Indien een meerderjarige patiënt die niet in staat kan worden geacht tot een redelijke waardering van zijn belangen ter zake, niet onder curatele staat of ten behoeve van hem niet het mentorschap is ingesteld, worden de verplichtingen ... nagekomen jegens de persoon die daartoe door de patiënt schriftelijk is gemachtigd in zijn plaats op te treden. Ontbreekt zodanige persoon, of treedt deze niet op, dan worden de verplichtingen nagekomen jegens de echtgenoot, de geregistreerde partner of andere levensgezel van de patiënt, tenzij deze persoon dat niet wenst, dan wel, indien ook zodanige persoon ontbreekt, jegens een ouder, kind, broer, zus, grootouder of kleinkind"
+   },
+   {
+    "id": "nl-wod-10",
+    "cite": "Wet op de orgaandonatie, art. 10",
+    "title": "Donorformulier en registratie in het donorregister",
+    "url": "https://wetten.overheid.nl/BWBR0008066",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Bij de toezending van het donorformulier wordt uitdrukkelijk vermeld dat een meerderjarige persoon door of namens wie geen wilsverklaring of wilsbeschikking als bedoeld in artikel 9 is afgelegd en verstrekt, zes weken na het verzenden van een herinnering als bedoeld in artikel 10a, eerste lid, in het donorregister wordt geregistreerd als een persoon die geen bezwaar heeft tegen het na zijn overlijden verkrijgen van zijn organen of weefsels."
+   },
+   {
+    "id": "nl-wod-20",
+    "cite": "Wet op de orgaandonatie, art. 20",
+    "title": "Raadpleging van het donorregister",
+    "url": "https://wetten.overheid.nl/BWBR0008066",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Wanneer een gerede kans bestaat dat een persoon binnen afzienbare tijd zal overlijden, maar in ieder geval zo spoedig mogelijk na het vaststellen van de dood, gaat de daartoe in het protocol, bedoeld in artikel 23, aangewezen functionaris na wat ten aanzien van de betrokkene is geregistreerd in het donorregister"
+   },
+   {
+    "id": "nl-bw4-182",
+    "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
+    "title": "Saisine",
+    "url": "https://wetten.overheid.nl/BWBR0002761",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Met het overlijden van de erflater volgen zijn erfgenamen van rechtswege op in zijn voor overgang vatbare rechten en in zijn bezit en houderschap. ... Zij worden van rechtswege schuldenaar van de schulden van de erflater die niet met zijn dood tenietgaan."
+   },
+   {
+    "id": "nl-bw4-142",
+    "cite": "Burgerlijk Wetboek Boek 4, art. 4:142",
+    "title": "Benoeming van een executeur",
+    "url": "https://wetten.overheid.nl/BWBR0002761",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Een erflater kan bij uiterste wilsbeschikking een of meer executeurs benoemen. Hij kan aan een executeur de bevoegdheid toekennen een of meer andere executeurs aan zich toe te voegen of in zijn plaats te stellen"
+   }
+  ]
+ },
  "kr-national": {
   "features": {
    "poaDurableByDefault": {
