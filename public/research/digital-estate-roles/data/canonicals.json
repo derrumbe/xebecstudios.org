@@ -6240,7 +6240,7 @@
    "id": "conservator-estate",
    "label": "Conservator of the estate",
    "definition": "A financial manager appointed by a court or tribunal to manage property the person can no longer manage.",
-   "jurisdictionCount": 45,
+   "jurisdictionCount": 47,
    "countryCount": 18,
    "citations": {
     "mu-cc-488": {
@@ -6506,6 +6506,30 @@
      "url": "https://www.retsinformation.dk/eli/lta/2007/515",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-cc-425": {
+     "id": "fr-cc-425",
+     "cite": "Code civil, art. 425",
+     "title": "Personnes protégées par la loi",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006427435",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-440": {
+     "id": "fr-cc-440",
+     "cite": "Code civil, art. 440",
+     "title": "Curatelle et tutelle",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006427481",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-724": {
+     "id": "fr-cc-724",
+     "cite": "Code civil, art. 724",
+     "title": "Saisine des héritiers",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "ie-admca-38": {
      "id": "ie-admca-38",
@@ -7979,6 +8003,125 @@
      "citations": [
       "dk-vae-5",
       "dk-arv-1"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-curateur",
+     "roleName": "Curateur",
+     "localNames": [
+      "curatelle",
+      "curateur"
+     ],
+     "nameEn": {
+      "en": "Curator (assistance measure)",
+      "basis": "descriptive"
+     },
+     "summary": "Assistance rather than representation, for someone not incapable of acting but needing continuous help with important civil acts. Expressly subsidiary: curatelle is pronounced only if sauvegarde de justice would not suffice.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Application to the juge des tutelles for a person whose faculties are medically established as impaired",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-425"
+       ]
+      },
+      "starts": {
+       "event": "Court places the person under curatelle, having found that sauvegarde de justice cannot give sufficient protection",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-440"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Measure lifted or replaced by tutelle",
+        "phase": "incapacitated",
+        "citations": [
+         "fr-cc-440"
+        ]
+       },
+       {
+        "event": "Death; the heirs are seised of right",
+        "phase": "deceased",
+        "citations": [
+         "fr-cc-724"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-425",
+      "fr-cc-440",
+      "fr-cc-724"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-tuteur",
+     "roleName": "Tuteur",
+     "localNames": [
+      "tutelle",
+      "tuteur"
+     ],
+     "nameEn": {
+      "en": "Tutor (representation measure)",
+      "basis": "descriptive"
+     },
+     "summary": "Continuous representation in civil acts, and the last rung of the ladder: tutelle is pronounced only where neither sauvegarde de justice nor curatelle would give sufficient protection.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Application to the juge des tutelles where the person must be represented continuously in civil acts",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-440"
+       ]
+      },
+      "starts": {
+       "event": "Court places the person under tutelle, having found neither sauvegarde de justice nor curatelle sufficient",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-440",
+        "fr-cc-425"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Measure lifted or lightened to curatelle",
+        "phase": "incapacitated",
+        "citations": [
+         "fr-cc-440"
+        ]
+       },
+       {
+        "event": "Death; the heirs are seised of right",
+        "phase": "deceased",
+        "citations": [
+         "fr-cc-724"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-440",
+      "fr-cc-425",
+      "fr-cc-724"
      ]
     },
     {
@@ -12658,8 +12801,8 @@
    "id": "digital-assets-fiduciary",
    "label": "Digital-assets fiduciary",
    "definition": "A person given access to, or authority over, the deceased or incapacitated person's digital assets and accounts.",
-   "jurisdictionCount": 17,
-   "countryCount": 3,
+   "jurisdictionCount": 18,
+   "countryCount": 4,
    "citations": {
     "cn-pipl-49": {
      "id": "cn-pipl-49",
@@ -12676,6 +12819,22 @@
      "url": "https://flk.npc.gov.cn/detail?bbbs=ff808081729d1efe01729d50b5c500bf",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-loi7817-85": {
+     "id": "fr-loi7817-85",
+     "cite": "Loi n° 78-17 du 6 janvier 1978, art. 85",
+     "title": "Directives relatives au sort des données à caractère personnel après le décès",
+     "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039280582",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-724": {
+     "id": "fr-cc-724",
+     "cite": "Code civil, art. 724",
+     "title": "Saisine des héritiers",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "it-d196-2-terdecies": {
      "id": "it-d196-2-terdecies",
@@ -12954,6 +13113,66 @@
      "citations": [
       "cn-pipl-49",
       "cn-cc-127"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-heritier-donnees",
+     "roleName": "Héritier exerçant les droits sur les données",
+     "localNames": [
+      "héritiers",
+      "biens numériques",
+      "souvenirs de famille"
+     ],
+     "nameEn": {
+      "en": "Heir exercising data-protection rights",
+      "basis": "descriptive"
+     },
+     "summary": "Absent directives, heirs may exercise the data-protection rights themselves, but only so far as settling the succession and having the death taken into account require — including receiving digital goods or data resembling family mementos, and closing the deceased's accounts.",
+     "group": "digital",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Heirship, where the deceased left no directives or the directives do not provide otherwise",
+       "phase": "deceased",
+       "citations": [
+        "fr-loi7817-85",
+        "fr-cc-724"
+       ]
+      },
+      "starts": {
+       "event": "On death, to the extent necessary to organise and settle the succession — accessing processing to identify information useful to liquidation and partition, and receiving digital goods or data resembling family mementos — and to have the death taken into account",
+       "phase": "deceased",
+       "citations": [
+        "fr-loi7817-85"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Accounts closed, processing objected to or updated; the controller must show, free of charge, that it complied",
+        "phase": "closed",
+        "citations": [
+         "fr-loi7817-85"
+        ]
+       },
+       {
+        "event": "Disagreement between heirs, referred to the tribunal judiciaire",
+        "phase": "deceased",
+        "citations": [
+         "fr-loi7817-85"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-loi7817-85",
+      "fr-cc-724"
      ]
     },
     {
@@ -15711,7 +15930,7 @@
    "id": "anatomical-gift-agent",
    "label": "Donation decision maker",
    "definition": "The person who may authorise or refuse donation of organs, tissue or the body, including under deemed-consent regimes.",
-   "jurisdictionCount": 40,
+   "jurisdictionCount": 41,
    "countryCount": 16,
    "citations": {
     "za-nha-62-1": {
@@ -15801,6 +16020,14 @@
      "url": "https://www.retsinformation.dk/eli/lta/2005/546",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-csp-l1232-1": {
+     "id": "fr-csp-l1232-1",
+     "cite": "Code de la santé publique, art. L1232-1",
+     "title": "Prélèvement d'organes : consentement présumé",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031931933",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "ie-ht-18": {
      "id": "ie-ht-18",
@@ -16637,6 +16864,57 @@
      },
      "citations": [
       "dk-sun-53"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-refus-prelevement",
+     "roleName": "Proches et registre national des refus",
+     "localNames": [
+      "consentement présumé",
+      "registre national automatisé",
+      "proches du défunt"
+     ],
+     "nameEn": {
+      "en": "Relatives and the national refusal register",
+      "basis": "descriptive"
+     },
+     "summary": "Presumed consent. Removal may be carried out on any adult who did not make their refusal known in life, principally by entry on the national register; the refusal is revocable at any time, and the doctor informs the relatives of the nature and purpose beforehand.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person may record a refusal in life, principally by entry on the national automated register; the refusal is revocable at any time",
+       "phase": "capable",
+       "citations": [
+        "fr-csp-l1232-1"
+       ]
+      },
+      "starts": {
+       "event": "On death duly established: removal may proceed unless a refusal was made known, and the doctor first informs the relatives of its nature and purpose",
+       "phase": "deceased",
+       "citations": [
+        "fr-csp-l1232-1"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Removal carried out or abandoned; the Agence de la biomédecine is notified beforehand",
+        "phase": "deceased",
+        "citations": [
+         "fr-csp-l1232-1"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-csp-l1232-1"
      ]
     },
     {
@@ -18638,7 +18916,7 @@
    "id": "financial-poa-durable",
    "label": "Durable financial power of attorney",
    "definition": "An agent appointed by the person while capable, whose authority over property and money survives the person losing capacity.",
-   "jurisdictionCount": 37,
+   "jurisdictionCount": 38,
    "countryCount": 14,
    "citations": {
     "cn-cc-33": {
@@ -18816,6 +19094,46 @@
      "url": "https://www.retsinformation.dk/eli/lta/2007/515",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-cc-477": {
+     "id": "fr-cc-477",
+     "cite": "Code civil, art. 477",
+     "title": "Mandat de protection future",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031345528",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-481": {
+     "id": "fr-cc-481",
+     "cite": "Code civil, art. 481",
+     "title": "Prise d'effet du mandat de protection future",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039367163",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-425": {
+     "id": "fr-cc-425",
+     "cite": "Code civil, art. 425",
+     "title": "Personnes protégées par la loi",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006427435",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-724": {
+     "id": "fr-cc-724",
+     "cite": "Code civil, art. 724",
+     "title": "Saisine des héritiers",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-440": {
+     "id": "fr-cc-440",
+     "cite": "Code civil, art. 440",
+     "title": "Curatelle et tutelle",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006427481",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "ie-admca-59": {
      "id": "ie-admca-59",
@@ -20551,6 +20869,69 @@
       "dk-ff-1",
       "dk-ff-4",
       "dk-arv-1"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-mandataire-protection-future",
+     "roleName": "Mandataire de protection future",
+     "localNames": [
+      "mandat de protection future",
+      "mandataire"
+     ],
+     "nameEn": {
+      "en": "Attorney under a future protection mandate",
+      "basis": "descriptive"
+     },
+     "summary": "France's advance mandate is dormant until a court registry activates it. The mandataire must file the mandate and a medical certificate from a court-listed doctor at the tribunal judiciaire, and the clerk stamps it and dates its taking effect.",
+     "group": "financial",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Any adult or emancipated minor not under tutelle or habilitation familiale mandates one or more people to represent them should they become unable to see to their own interests; a person under curatelle needs the curateur's assistance",
+       "phase": "capable",
+       "citations": [
+        "fr-cc-477"
+       ]
+      },
+      "starts": {
+       "event": "When it is established that the mandant can no longer see to their own interests: the mandataire produces the mandate and a certificate from a doctor on the art. 431 list to the registry of the tribunal judiciaire, and the greffier visas the mandate and dates its taking effect",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-481",
+        "fr-cc-425"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of the mandant; the heirs are seised of right",
+        "phase": "deceased",
+        "citations": [
+         "fr-cc-724"
+        ]
+       },
+       {
+        "event": "Revocation, or a judicial protection measure replacing the mandate",
+        "phase": "incapacitated",
+        "citations": [
+         "fr-cc-477",
+         "fr-cc-440"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-477",
+      "fr-cc-481",
+      "fr-cc-425",
+      "fr-cc-724",
+      "fr-cc-440"
      ]
     },
     {
@@ -22845,7 +23226,7 @@
    "id": "personal-representative-executor",
    "label": "Executor",
    "definition": "The personal representative the deceased themselves named, usually in a will.",
-   "jurisdictionCount": 43,
+   "jurisdictionCount": 44,
    "countryCount": 21,
    "citations": {
     "mu-cc-1030": {
@@ -23055,6 +23436,14 @@
      "url": "https://www.retsinformation.dk/eli/lta/1996/383",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-cc-1025": {
+     "id": "fr-cc-1025",
+     "cite": "Code civil, art. 1025",
+     "title": "Exécuteur testamentaire",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006434756",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "ie-succession-10": {
      "id": "ie-succession-10",
@@ -24498,6 +24887,55 @@
      },
      "citations": [
       "dk-dsl-36"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-executeur-testamentaire",
+     "roleName": "Exécuteur testamentaire",
+     "localNames": [
+      "exécuteur testamentaire"
+     ],
+     "nameEn": {
+      "en": "Executor of the will",
+      "basis": "descriptive"
+     },
+     "summary": "Named by will to see to the execution of the testator's wishes, layered on top of the heirs' automatic seisin. Once accepted the office is binding, and its powers die with the holder.",
+     "group": "estate",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Testator names one or more executors having full civil capacity",
+       "phase": "capable",
+       "citations": [
+        "fr-cc-1025"
+       ]
+      },
+      "starts": {
+       "event": "On death and acceptance of the mission, which the executor is then bound to carry out",
+       "phase": "deceased",
+       "citations": [
+        "fr-cc-1025"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Mission completed; the powers are not transmissible on death of the executor",
+        "phase": "closed",
+        "citations": [
+         "fr-cc-1025"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-1025"
      ]
     },
     {
@@ -26814,7 +27252,7 @@
    "id": "guardian-person",
    "label": "Guardian of the person",
    "definition": "A personal decision maker appointed by a court or tribunal, rather than by the person.",
-   "jurisdictionCount": 37,
+   "jurisdictionCount": 38,
    "countryCount": 15,
    "citations": {
     "rw-pf-139": {
@@ -27016,6 +27454,22 @@
      "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=29453&lang=ENG",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-cc-494-1": {
+     "id": "fr-cc-494-1",
+     "cite": "Code civil, art. 494-1",
+     "title": "Habilitation familiale",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038311073",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-724": {
+     "id": "fr-cc-724",
+     "cite": "Code civil, art. 724",
+     "title": "Saisine des héritiers",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "ie-admca-38": {
      "id": "ie-admca-38",
@@ -28258,6 +28712,64 @@
       "kr-civil-11",
       "kr-civil-997",
       "kr-civil-1005"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-personne-habilitee",
+     "roleName": "Personne habilitée (habilitation familiale)",
+     "localNames": [
+      "habilitation familiale",
+      "personne habilitée"
+     ],
+     "nameEn": {
+      "en": "Family-empowered representative",
+      "basis": "descriptive"
+     },
+     "summary": "A lighter family route added in 2016: the court empowers a relative once, and the measure then runs without the continuing judicial supervision that tutelle and curatelle carry.",
+     "group": "court",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Family member applies where the person cannot see to their own interests because of a medically established impairment",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-494-1"
+       ]
+      },
+      "starts": {
+       "event": "Court grants the habilitation to represent or assist the person, for specified acts or generally",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-cc-494-1"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Habilitation revoked or expires",
+        "phase": "incapacitated",
+        "citations": [
+         "fr-cc-494-1"
+        ]
+       },
+       {
+        "event": "Death of the person",
+        "phase": "deceased",
+        "citations": [
+         "fr-cc-724"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-494-1",
+      "fr-cc-724"
      ]
     },
     {
@@ -30321,7 +30833,7 @@
    "id": "health-care-agent",
    "label": "Health-care agent",
    "definition": "A person named in advance to make health and personal welfare decisions once the person can no longer make them.",
-   "jurisdictionCount": 35,
+   "jurisdictionCount": 36,
    "countryCount": 12,
    "citations": {
     "za-nha-7-mandate": {
@@ -30395,6 +30907,22 @@
      "url": "https://sso.agc.gov.sg/Act/PAA1934",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-csp-l1111-6": {
+     "id": "fr-csp-l1111-6",
+     "cite": "Code de la santé publique, art. L1111-6",
+     "title": "Personne de confiance",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054137811",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
+    "fr-cc-724": {
+     "id": "fr-cc-724",
+     "cite": "Code civil, art. 724",
+     "title": "Saisine des héritiers",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "ie-admca-59": {
      "id": "ie-admca-59",
@@ -31930,6 +32458,63 @@
       "sg-mca-12",
       "sg-mca-15",
       "sg-paa-8"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-personne-de-confiance",
+     "roleName": "Personne de confiance",
+     "localNames": [
+      "personne de confiance"
+     ],
+     "nameEn": {
+      "en": "Trusted person for health decisions",
+      "basis": "descriptive"
+     },
+     "summary": "Designated in writing and co-signed by the designee, consulted when the patient can no longer express their will. Its distinguishing feature is evidential: the personne de confiance reports the patient's wishes and that testimony prevails over any other.",
+     "group": "health",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Adult designates a relative, a close person or their doctor in writing; the designation is co-signed by the designee and valid without time limit",
+       "phase": "capable",
+       "citations": [
+        "fr-csp-l1111-6"
+       ]
+      },
+      "starts": {
+       "event": "When the patient is no longer able to express their will and receive the information needed for that purpose",
+       "phase": "incapacitated",
+       "citations": [
+        "fr-csp-l1111-6"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Revised or revoked at any time, by either the patient or the personne de confiance",
+        "phase": "capable",
+        "citations": [
+         "fr-csp-l1111-6"
+        ]
+       },
+       {
+        "event": "Death of the patient",
+        "phase": "deceased",
+        "citations": [
+         "fr-cc-724"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-csp-l1111-6",
+      "fr-cc-724"
      ]
     },
     {
@@ -36757,7 +37342,7 @@
    "id": "universal-successor-heir",
    "label": "Heir by universal succession",
    "definition": "An heir who takes the estate as a whole at the moment of death, without any grant and without a default executor.",
-   "jurisdictionCount": 15,
+   "jurisdictionCount": 16,
    "countryCount": 14,
    "citations": {
     "mu-cc-724": {
@@ -36903,6 +37488,14 @@
      "url": "https://www.retsinformation.dk/eli/lta/1996/383",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "fr-cc-724": {
+     "id": "fr-cc-724",
+     "cite": "Code civil, art. 724",
+     "title": "Saisine des héritiers",
+     "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
     },
     "nl-bw4-182": {
      "id": "nl-bw4-182",
@@ -37409,6 +38002,57 @@
      "citations": [
       "dk-arv-1",
       "dk-dsl-36"
+     ]
+    },
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-heritier",
+     "roleName": "Héritier",
+     "localNames": [
+      "héritier",
+      "saisine",
+      "saisis de plein droit"
+     ],
+     "nameEn": {
+      "en": "Heir",
+      "basis": "descriptive"
+     },
+     "summary": "Succession is universal and automatic: heirs designated by law are seised of right of the deceased's goods, rights and actions. Failing heirs and universal legatees, the estate goes to the State, which must apply to be sent into possession.",
+     "group": "estate",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Heirship by law, or universal legatee or donee under the will",
+       "phase": "capable",
+       "citations": [
+        "fr-cc-724"
+       ]
+      },
+      "starts": {
+       "event": "At death, of right — no grant and no court step",
+       "phase": "deceased",
+       "citations": [
+        "fr-cc-724"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Succession settled and divided",
+        "phase": "closed",
+        "citations": [
+         "fr-cc-724"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-cc-724"
      ]
     },
     {
@@ -37919,9 +38563,17 @@
    "id": "online-tool-designee",
    "label": "Online-tool designee",
    "definition": "A person designated through a platform's own tool, where the law gives that designation priority.",
-   "jurisdictionCount": 15,
-   "countryCount": 1,
+   "jurisdictionCount": 16,
+   "countryCount": 2,
    "citations": {
+    "fr-loi7817-85": {
+     "id": "fr-loi7817-85",
+     "cite": "Loi n° 78-17 du 6 janvier 1978, art. 85",
+     "title": "Directives relatives au sort des données à caractère personnel après le décès",
+     "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039280582",
+     "kind": "statute",
+     "retrieved": "2026-09-24"
+    },
     "rufadaa-4": {
      "id": "rufadaa-4",
      "cite": "RUFADAA §4 (2015)",
@@ -38036,6 +38688,65 @@
     }
    },
    "jurisdictions": [
+    {
+     "jurisdiction": "fr-national",
+     "jurisdictionName": "France",
+     "label": "Denmark — France",
+     "country": "Denmark",
+     "region": "Europe",
+     "roleId": "fr-executeur-directives-numeriques",
+     "roleName": "Personne chargée de l'exécution des directives",
+     "localNames": [
+      "directives générales",
+      "directives particulières",
+      "personne chargée de leur exécution",
+      "tiers de confiance numérique"
+     ],
+     "nameEn": {
+      "en": "Person charged with executing post-mortem data directives",
+      "basis": "descriptive"
+     },
+     "summary": "France lets a person say in advance what happens to their personal data after death, and name someone to carry that out. General directives may be lodged with a CNIL-certified digital trusted third party; particular ones go to the controller and need specific consent that cannot come from accepting terms of service.",
+     "group": "digital",
+     "stateSpecific": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person defines general or particular directives on the conservation, erasure and communication of their personal data after death, and may designate a person charged with executing them",
+       "phase": "capable",
+       "citations": [
+        "fr-loi7817-85"
+       ]
+      },
+      "starts": {
+       "event": "On death the designated person may read the directives and require the controllers concerned to implement them; failing a designation, or if the designee has died, the heirs have that standing",
+       "phase": "deceased",
+       "citations": [
+        "fr-loi7817-85"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Directives modified or revoked by the person at any time",
+        "phase": "capable",
+        "citations": [
+         "fr-loi7817-85"
+        ]
+       },
+       {
+        "event": "Directives implemented by the controllers",
+        "phase": "deceased",
+        "citations": [
+         "fr-loi7817-85"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "fr-loi7817-85"
+     ]
+    },
     {
      "jurisdiction": "us-model",
      "jurisdictionName": "US — uniform/model law + federal",

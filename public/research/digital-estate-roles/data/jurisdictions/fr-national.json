@@ -1,0 +1,1287 @@
+{
+ "jurisdiction": "fr-national",
+ "name": "France",
+ "country": "fr",
+ "legalSystem": "civil law",
+ "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice.",
+ "citations": [
+  {
+   "id": "fr-cc-425",
+   "cite": "Code civil, art. 425",
+   "title": "Personnes protégées par la loi",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006427435",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "Toute personne dans l'impossibilité de pourvoir seule à ses intérêts en raison d'une altération, médicalement constatée, soit de ses facultés mentales, soit de ses facultés corporelles de nature à empêcher l'expression de sa volonté peut bénéficier d'une mesure de protection juridique prévue au présent chapitre. S'il n'en est disposé autrement, la mesure est destinée à la protection tant de la personne que des intérêts patrimoniaux de celle-ci. Elle peut toutefois être limitée expressément à l'une de ces deux missions."
+  },
+  {
+   "id": "fr-cc-440",
+   "cite": "Code civil, art. 440",
+   "title": "Curatelle et tutelle",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006427481",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "La personne qui, sans être hors d'état d'agir elle-même, a besoin, pour l'une des causes prévues à l'article 425 , d'être assistée ou contrôlée d'une manière continue dans les actes importants de la vie civile peut être placée en curatelle. La curatelle n'est prononcée que s'il est établi que la sauvegarde de justice ne peut assurer une protection suffisante. La personne qui, pour l'une des causes prévues à l'article 425, doit être représentée d'une manière continue dans les actes de la vie civile, peut être placée en tutelle. La tutelle n'est prononcée que s'il est établi que ni la sauvegarde de justice, ni la c"
+  },
+  {
+   "id": "fr-cc-477",
+   "cite": "Code civil, art. 477",
+   "title": "Mandat de protection future",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031345528",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "Toute personne majeure ou mineure émancipée ne faisant pas l'objet d'une mesure de tutelle ou d'une habilitation familiale peut charger une ou plusieurs personnes, par un même mandat, de la représenter pour le cas où, pour l'une des causes prévues à l'article 425 , elle ne pourrait plus pourvoir seule à ses intérêts. La personne en curatelle ne peut conclure un mandat de protection future qu'avec l'assistance de son curateur. Les parents ou le dernier vivant des père et mère, ne faisant pas l'objet d'une mesure de curatelle ou de tutelle ou d'une habilitation familiale, qui exercent l'autorité parentale sur leur"
+  },
+  {
+   "id": "fr-cc-481",
+   "cite": "Code civil, art. 481",
+   "title": "Prise d'effet du mandat de protection future",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039367163",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "Le mandat prend effet lorsqu'il est établi que le mandant ne peut plus pourvoir seul à ses intérêts. Celui-ci en reçoit notification dans les conditions prévues par le code de procédure civile. A cette fin, le mandataire produit au greffe du tribunal judiciaire le mandat et un certificat médical émanant d'un médecin choisi sur la liste mentionnée à l'article 431 établissant que le mandant se trouve dans l'une des situations prévues à l'article 425 . Le greffier vise le mandat et date sa prise d'effet, puis le restitue au mandataire."
+  },
+  {
+   "id": "fr-cc-494-1",
+   "cite": "Code civil, art. 494-1",
+   "title": "Habilitation familiale",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038311073",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "Lorsqu'une personne est dans l'impossibilité de pourvoir seule à ses intérêts en raison d'une altération, médicalement constatée soit de ses facultés mentales, soit de ses facultés corporelles de nature à empêcher l'expression de sa volonté, le juge des tutelles peut habiliter une ou plusieurs personnes choisies parmi ses ascendants ou descendants, frères et sœurs ou, à moins que la communauté de vie ait cessé entre eux, le conjoint, le partenaire auquel elle est liée par un pacte civil de solidarité ou le concubin à la représenter, à l'assister dans les conditions prévues à l'article 467 ou à passer un ou des ac"
+  },
+  {
+   "id": "fr-cc-724",
+   "cite": "Code civil, art. 724",
+   "title": "Saisine des héritiers",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006430730",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "Les héritiers désignés par la loi sont saisis de plein droit des biens, droits et actions du défunt. Les légataires et donataires universels sont saisis dans les conditions prévues au titre II du présent livre. A leur défaut, la succession est acquise à l'Etat, qui doit se faire envoyer en possession."
+  },
+  {
+   "id": "fr-cc-1025",
+   "cite": "Code civil, art. 1025",
+   "title": "Exécuteur testamentaire",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006434756",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "Le testateur peut nommer un ou plusieurs exécuteurs testamentaires jouissant de la pleine capacité civile pour veiller ou procéder à l'exécution de ses volontés. L'exécuteur testamentaire qui a accepté sa mission est tenu de l'accomplir. Les pouvoirs de l'exécuteur testamentaire ne sont pas transmissibles à cause de mort."
+  },
+  {
+   "id": "fr-csp-l1111-6",
+   "cite": "Code de la santé publique, art. L1111-6",
+   "title": "Personne de confiance",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054137811",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "I. - Toute personne majeure peut désigner une personne de confiance qui peut être un parent, un proche ou le médecin traitant et qui sera consultée au cas où elle-même serait hors d'état d'exprimer sa volonté et de recevoir l'information nécessaire à cette fin. La personne de confiance rend compte de la volonté de la personne. Son témoignage prévaut sur tout autre témoignage. Si la personne majeure le souhaite, la personne de confiance l'accompagne dans ses démarches, assiste aux entretiens médicaux afin de l'aider dans ses décisions et l'aide à la connaissance et à la compréhension de ses droits si elle rencontr"
+  },
+  {
+   "id": "fr-csp-l1111-11",
+   "cite": "Code de la santé publique, art. L1111-11",
+   "title": "Directives anticipées",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054137791",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "Toute personne majeure peut rédiger des directives anticipées pour le cas où elle serait un jour hors d'état d'exprimer sa volonté. Ces directives anticipées expriment la volonté de la personne relative à sa fin de vie en ce qui concerne les conditions de la poursuite, de la limitation, de l'arrêt ou du refus de traitement ou d'acte médicaux. A tout moment et par tout moyen, elles sont révisables et révocables. Elles peuvent être rédigées conformément à un modèle dont le contenu est fixé par décret en Conseil d'Etat pris après avis de la Haute Autorité de santé. Ce modèle prévoit la situation de la personne selon"
+  },
+  {
+   "id": "fr-csp-l1232-1",
+   "cite": "Code de la santé publique, art. L1232-1",
+   "title": "Prélèvement d'organes : consentement présumé",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031931933",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "Le prélèvement d'organes sur une personne dont la mort a été dûment constatée ne peut être effectué qu'à des fins thérapeutiques ou scientifiques. Le médecin informe les proches du défunt, préalablement au prélèvement envisagé, de sa nature et de sa finalité, conformément aux bonnes pratiques arrêtées par le ministre chargé de la santé sur proposition de l'Agence de la biomédecine. Ce prélèvement peut être pratiqué sur une personne majeure dès lors qu'elle n'a pas fait connaître, de son vivant, son refus d'un tel prélèvement, principalement par l'inscription sur un registre national automatisé prévu à cet effet."
+  },
+  {
+   "id": "fr-loi7817-85",
+   "cite": "Loi n° 78-17 du 6 janvier 1978, art. 85",
+   "title": "Directives relatives au sort des données à caractère personnel après le décès",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039280582",
+   "kind": "statute",
+   "retrieved": "2026-09-24",
+   "quote": "I.-Toute personne peut définir des directives relatives à la conservation, à l'effacement et à la communication de ses données à caractère personnel après son décès. Ces directives sont générales ou particulières. Les directives générales concernent l'ensemble des données à caractère personnel se rapportant à la personne concernée et peuvent être enregistrées auprès d'un tiers de confiance numérique certifié par la Commission nationale de l'informatique et des libertés. Les références des directives générales et le tiers de confiance auprès duquel elles sont enregistrées sont inscrites dans un registre unique dont les modalités et l'accès sont fixés par décret en Conseil d'Etat, pris après avis motivé et publié de la Commission nationale de l'informatique et des libertés. Les directives particulières concernent les traitements de données à caractère personnel mentionnées par ces directiv"
+  }
+ ],
+ "roles": [
+  {
+   "id": "fr-mandataire-protection-future",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Mandataire de protection future",
+   "localNames": [
+    "mandat de protection future",
+    "mandataire"
+   ],
+   "summary": "France's advance mandate is dormant until a court registry activates it. The mandataire must file the mandate and a medical certificate from a court-listed doctor at the tribunal judiciaire, and the clerk stamps it and dates its taking effect.",
+   "lane": {
+    "assigned": {
+     "event": "Any adult or emancipated minor not under tutelle or habilitation familiale mandates one or more people to represent them should they become unable to see to their own interests; a person under curatelle needs the curateur's assistance",
+     "phase": "capable",
+     "citations": [
+      "fr-cc-477"
+     ]
+    },
+    "starts": {
+     "event": "When it is established that the mandant can no longer see to their own interests: the mandataire produces the mandate and a certificate from a doctor on the art. 431 list to the registry of the tribunal judiciaire, and the greffier visas the mandate and dates its taking effect",
+     "phase": "incapacitated",
+     "citations": [
+      "fr-cc-481",
+      "fr-cc-425"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the mandant; the heirs are seised of right",
+      "phase": "deceased",
+      "citations": [
+       "fr-cc-724"
+      ]
+     },
+     {
+      "event": "Revocation, or a judicial protection measure replacing the mandate",
+      "phase": "incapacitated",
+      "citations": [
+       "fr-cc-477",
+       "fr-cc-440"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No mandate"
+     },
+     {
+      "id": "signed",
+      "label": "Mandate signed"
+     },
+     {
+      "id": "active",
+      "label": "Visa'd by the greffier"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-mpf-sign",
+      "from": "none",
+      "to": "signed",
+      "event": "Mandat de protection future concluded (art. 477)",
+      "citations": [
+       "fr-cc-477"
+      ]
+     },
+     {
+      "id": "fr-t-mpf-visa",
+      "from": "signed",
+      "to": "active",
+      "event": "Mandate and medical certificate filed at the tribunal judiciaire; greffier visas and dates it (art. 481)",
+      "citations": [
+       "fr-cc-481"
+      ]
+     },
+     {
+      "id": "fr-t-mpf-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Revocation, judicial measure, or death",
+      "citations": [
+       "fr-cc-477",
+       "fr-cc-724"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-cc-477",
+    "fr-cc-481",
+    "fr-cc-425"
+   ],
+   "nameEn": {
+    "en": "Attorney under a future protection mandate",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "mandat de protection future": {
+     "en": "future protection mandate",
+     "basis": "descriptive"
+    },
+    "mandataire": {
+     "en": "attorney, mandatary",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-curateur",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curateur",
+   "localNames": [
+    "curatelle",
+    "curateur"
+   ],
+   "summary": "Assistance rather than representation, for someone not incapable of acting but needing continuous help with important civil acts. Expressly subsidiary: curatelle is pronounced only if sauvegarde de justice would not suffice.",
+   "lane": {
+    "assigned": {
+     "event": "Application to the juge des tutelles for a person whose faculties are medically established as impaired",
+     "phase": "incapacitated",
+     "citations": [
+      "fr-cc-425"
+     ]
+    },
+    "starts": {
+     "event": "Court places the person under curatelle, having found that sauvegarde de justice cannot give sufficient protection",
+     "phase": "incapacitated",
+     "citations": [
+      "fr-cc-440"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Measure lifted or replaced by tutelle",
+      "phase": "incapacitated",
+      "citations": [
+       "fr-cc-440"
+      ]
+     },
+     {
+      "event": "Death; the heirs are seised of right",
+      "phase": "deceased",
+      "citations": [
+       "fr-cc-724"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Under curatelle"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-cur-order",
+      "from": "none",
+      "to": "active",
+      "event": "Court pronounces curatelle (art. 440)",
+      "citations": [
+       "fr-cc-440"
+      ]
+     },
+     {
+      "id": "fr-t-cur-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Measure lifted, replaced, or death",
+      "citations": [
+       "fr-cc-440",
+       "fr-cc-724"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-cc-425",
+    "fr-cc-440"
+   ],
+   "nameEn": {
+    "en": "Curator (assistance measure)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "curatelle": {
+     "en": "curatorship",
+     "basis": "descriptive"
+    },
+    "curateur": {
+     "en": "curator",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-tuteur",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Tuteur",
+   "localNames": [
+    "tutelle",
+    "tuteur"
+   ],
+   "summary": "Continuous representation in civil acts, and the last rung of the ladder: tutelle is pronounced only where neither sauvegarde de justice nor curatelle would give sufficient protection.",
+   "lane": {
+    "assigned": {
+     "event": "Application to the juge des tutelles where the person must be represented continuously in civil acts",
+     "phase": "incapacitated",
+     "citations": [
+      "fr-cc-440"
+     ]
+    },
+    "starts": {
+     "event": "Court places the person under tutelle, having found neither sauvegarde de justice nor curatelle sufficient",
+     "phase": "incapacitated",
+     "citations": [
+      "fr-cc-440",
+      "fr-cc-425"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Measure lifted or lightened to curatelle",
+      "phase": "incapacitated",
+      "citations": [
+       "fr-cc-440"
+      ]
+     },
+     {
+      "event": "Death; the heirs are seised of right",
+      "phase": "deceased",
+      "citations": [
+       "fr-cc-724"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Under tutelle"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-tut-order",
+      "from": "none",
+      "to": "active",
+      "event": "Court pronounces tutelle (art. 440)",
+      "citations": [
+       "fr-cc-440"
+      ]
+     },
+     {
+      "id": "fr-t-tut-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Measure lifted, lightened, or death",
+      "citations": [
+       "fr-cc-440",
+       "fr-cc-724"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-cc-425",
+    "fr-cc-440"
+   ],
+   "nameEn": {
+    "en": "Tutor (representation measure)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "tutelle": {
+     "en": "tutorship",
+     "basis": "descriptive"
+    },
+    "tuteur": {
+     "en": "tutor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-personne-habilitee",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Personne habilitée (habilitation familiale)",
+   "localNames": [
+    "habilitation familiale",
+    "personne habilitée"
+   ],
+   "summary": "A lighter family route added in 2016: the court empowers a relative once, and the measure then runs without the continuing judicial supervision that tutelle and curatelle carry.",
+   "lane": {
+    "assigned": {
+     "event": "Family member applies where the person cannot see to their own interests because of a medically established impairment",
+     "phase": "incapacitated",
+     "citations": [
+      "fr-cc-494-1"
+     ]
+    },
+    "starts": {
+     "event": "Court grants the habilitation to represent or assist the person, for specified acts or generally",
+     "phase": "incapacitated",
+     "citations": [
+      "fr-cc-494-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Habilitation revoked or expires",
+      "phase": "incapacitated",
+      "citations": [
+       "fr-cc-494-1"
+      ]
+     },
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "fr-cc-724"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Habilitation granted"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-hf-order",
+      "from": "none",
+      "to": "active",
+      "event": "Court grants habilitation familiale (art. 494-1)",
+      "citations": [
+       "fr-cc-494-1"
+      ]
+     },
+     {
+      "id": "fr-t-hf-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Revoked, expired, or death",
+      "citations": [
+       "fr-cc-494-1",
+       "fr-cc-724"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-cc-494-1"
+   ],
+   "nameEn": {
+    "en": "Family-empowered representative",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "habilitation familiale": {
+     "en": "family empowerment",
+     "basis": "descriptive"
+    },
+    "personne habilitée": {
+     "en": "empowered person",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-personne-de-confiance",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Personne de confiance",
+   "localNames": [
+    "personne de confiance"
+   ],
+   "summary": "Designated in writing and co-signed by the designee, consulted when the patient can no longer express their will. Its distinguishing feature is evidential: the personne de confiance reports the patient's wishes and that testimony prevails over any other.",
+   "lane": {
+    "assigned": {
+     "event": "Adult designates a relative, a close person or their doctor in writing; the designation is co-signed by the designee and valid without time limit",
+     "phase": "capable",
+     "citations": [
+      "fr-csp-l1111-6"
+     ]
+    },
+    "starts": {
+     "event": "When the patient is no longer able to express their will and receive the information needed for that purpose",
+     "phase": "incapacitated",
+     "citations": [
+      "fr-csp-l1111-6"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revised or revoked at any time, by either the patient or the personne de confiance",
+      "phase": "capable",
+      "citations": [
+       "fr-csp-l1111-6"
+      ]
+     },
+     {
+      "event": "Death of the patient",
+      "phase": "deceased",
+      "citations": [
+       "fr-cc-724"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "None designated"
+     },
+     {
+      "id": "designated",
+      "label": "Designated and co-signed"
+     },
+     {
+      "id": "active",
+      "label": "Consulted for the patient"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-pdc-desig",
+      "from": "none",
+      "to": "designated",
+      "event": "Written designation co-signed by the designee (art. L1111-6)",
+      "citations": [
+       "fr-csp-l1111-6"
+      ]
+     },
+     {
+      "id": "fr-t-pdc-act",
+      "from": "designated",
+      "to": "active",
+      "event": "Patient no longer able to express their will",
+      "citations": [
+       "fr-csp-l1111-6"
+      ]
+     },
+     {
+      "id": "fr-t-pdc-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Revocation, recovery, or death",
+      "citations": [
+       "fr-csp-l1111-6"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-csp-l1111-6",
+    "fr-csp-l1111-11"
+   ],
+   "nameEn": {
+    "en": "Trusted person for health decisions",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "personne de confiance": {
+     "en": "trusted person",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-heritier",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Héritier",
+   "localNames": [
+    "héritier",
+    "saisine",
+    "saisis de plein droit"
+   ],
+   "summary": "Succession is universal and automatic: heirs designated by law are seised of right of the deceased's goods, rights and actions. Failing heirs and universal legatees, the estate goes to the State, which must apply to be sent into possession.",
+   "lane": {
+    "assigned": {
+     "event": "Heirship by law, or universal legatee or donee under the will",
+     "phase": "capable",
+     "citations": [
+      "fr-cc-724"
+     ]
+    },
+    "starts": {
+     "event": "At death, of right — no grant and no court step",
+     "phase": "deceased",
+     "citations": [
+      "fr-cc-724"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Succession settled and divided",
+      "phase": "closed",
+      "citations": [
+       "fr-cc-724"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "prospective",
+      "label": "Prospective heir"
+     },
+     {
+      "id": "seised",
+      "label": "Seised of right"
+     },
+     {
+      "id": "settled",
+      "label": "Succession settled"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-her-death",
+      "from": "prospective",
+      "to": "seised",
+      "event": "Death; heirs saisis de plein droit (art. 724)",
+      "citations": [
+       "fr-cc-724"
+      ]
+     },
+     {
+      "id": "fr-t-her-settle",
+      "from": "seised",
+      "to": "settled",
+      "event": "Succession settled and divided",
+      "citations": [
+       "fr-cc-724"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-cc-724"
+   ],
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "héritier": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "saisine": {
+     "en": "seisin",
+     "basis": "descriptive"
+    },
+    "saisis de plein droit": {
+     "en": "seised by operation of law",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-executeur-testamentaire",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Exécuteur testamentaire",
+   "localNames": [
+    "exécuteur testamentaire"
+   ],
+   "summary": "Named by will to see to the execution of the testator's wishes, layered on top of the heirs' automatic seisin. Once accepted the office is binding, and its powers die with the holder.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names one or more executors having full civil capacity",
+     "phase": "capable",
+     "citations": [
+      "fr-cc-1025"
+     ]
+    },
+    "starts": {
+     "event": "On death and acceptance of the mission, which the executor is then bound to carry out",
+     "phase": "deceased",
+     "citations": [
+      "fr-cc-1025"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Mission completed; the powers are not transmissible on death of the executor",
+      "phase": "closed",
+      "citations": [
+       "fr-cc-1025"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "named",
+      "label": "Named in will"
+     },
+     {
+      "id": "accepted",
+      "label": "Mission accepted"
+     },
+     {
+      "id": "ended",
+      "label": "Mission ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-ex-accept",
+      "from": "named",
+      "to": "accepted",
+      "event": "Death and acceptance of the mission (art. 1025)",
+      "citations": [
+       "fr-cc-1025"
+      ]
+     },
+     {
+      "id": "fr-t-ex-end",
+      "from": "accepted",
+      "to": "ended",
+      "event": "Mission completed, or death of the executor",
+      "citations": [
+       "fr-cc-1025"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-cc-1025",
+    "fr-cc-724"
+   ],
+   "nameEn": {
+    "en": "Executor of the will",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "exécuteur testamentaire": {
+     "en": "testamentary executor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-refus-prelevement",
+   "canonical": "anatomical-gift-agent",
+   "group": "health",
+   "name": "Proches et registre national des refus",
+   "localNames": [
+    "consentement présumé",
+    "registre national automatisé",
+    "proches du défunt"
+   ],
+   "summary": "Presumed consent. Removal may be carried out on any adult who did not make their refusal known in life, principally by entry on the national register; the refusal is revocable at any time, and the doctor informs the relatives of the nature and purpose beforehand.",
+   "lane": {
+    "assigned": {
+     "event": "Person may record a refusal in life, principally by entry on the national automated register; the refusal is revocable at any time",
+     "phase": "capable",
+     "citations": [
+      "fr-csp-l1232-1"
+     ]
+    },
+    "starts": {
+     "event": "On death duly established: removal may proceed unless a refusal was made known, and the doctor first informs the relatives of its nature and purpose",
+     "phase": "deceased",
+     "citations": [
+      "fr-csp-l1232-1"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Removal carried out or abandoned; the Agence de la biomédecine is notified beforehand",
+      "phase": "deceased",
+      "citations": [
+       "fr-csp-l1232-1"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "no_refusal",
+      "label": "No refusal recorded"
+     },
+     {
+      "id": "refused",
+      "label": "Refusal registered"
+     },
+     {
+      "id": "informed",
+      "label": "Relatives informed"
+     },
+     {
+      "id": "resolved",
+      "label": "Resolved"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-od-refuse",
+      "from": "no_refusal",
+      "to": "refused",
+      "event": "Refusal recorded on the national register (art. L1232-1)",
+      "citations": [
+       "fr-csp-l1232-1"
+      ]
+     },
+     {
+      "id": "fr-t-od-inform",
+      "from": "no_refusal",
+      "to": "informed",
+      "event": "Death; doctor informs the relatives of the nature and purpose of the intended removal",
+      "citations": [
+       "fr-csp-l1232-1"
+      ]
+     },
+     {
+      "id": "fr-t-od-done",
+      "from": "informed",
+      "to": "resolved",
+      "event": "Removal carried out or abandoned",
+      "citations": [
+       "fr-csp-l1232-1"
+      ]
+     },
+     {
+      "id": "fr-t-od-barred",
+      "from": "refused",
+      "to": "resolved",
+      "event": "Registered refusal bars removal",
+      "citations": [
+       "fr-csp-l1232-1"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-csp-l1232-1"
+   ],
+   "nameEn": {
+    "en": "Relatives and the national refusal register",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "consentement présumé": {
+     "en": "presumed consent",
+     "basis": "descriptive"
+    },
+    "registre national automatisé": {
+     "en": "national automated register",
+     "basis": "descriptive"
+    },
+    "proches du défunt": {
+     "en": "the deceased's close relatives",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-executeur-directives-numeriques",
+   "canonical": "online-tool-designee",
+   "group": "digital",
+   "name": "Personne chargée de l'exécution des directives",
+   "localNames": [
+    "directives générales",
+    "directives particulières",
+    "personne chargée de leur exécution",
+    "tiers de confiance numérique"
+   ],
+   "summary": "France lets a person say in advance what happens to their personal data after death, and name someone to carry that out. General directives may be lodged with a CNIL-certified digital trusted third party; particular ones go to the controller and need specific consent that cannot come from accepting terms of service.",
+   "lane": {
+    "assigned": {
+     "event": "Person defines general or particular directives on the conservation, erasure and communication of their personal data after death, and may designate a person charged with executing them",
+     "phase": "capable",
+     "citations": [
+      "fr-loi7817-85"
+     ]
+    },
+    "starts": {
+     "event": "On death the designated person may read the directives and require the controllers concerned to implement them; failing a designation, or if the designee has died, the heirs have that standing",
+     "phase": "deceased",
+     "citations": [
+      "fr-loi7817-85"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Directives modified or revoked by the person at any time",
+      "phase": "capable",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "event": "Directives implemented by the controllers",
+      "phase": "deceased",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No directives"
+     },
+     {
+      "id": "defined",
+      "label": "Directives defined"
+     },
+     {
+      "id": "designated",
+      "label": "Executor designated"
+     },
+     {
+      "id": "active",
+      "label": "Implementation demanded"
+     },
+     {
+      "id": "done",
+      "label": "Implemented"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-dir-define",
+      "from": "none",
+      "to": "defined",
+      "event": "General or particular directives defined (art. 85 I)",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "id": "fr-t-dir-designate",
+      "from": "defined",
+      "to": "designated",
+      "event": "Directives designate a person charged with their execution",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "id": "fr-t-dir-death",
+      "from": "designated",
+      "to": "active",
+      "event": "Death; the designated person may read the directives and demand implementation",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "id": "fr-t-dir-heirs",
+      "from": "defined",
+      "to": "active",
+      "event": "No designation, or the designee has died: the heirs may demand implementation",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "id": "fr-t-dir-done",
+      "from": "active",
+      "to": "done",
+      "event": "Controllers implement the directives",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-loi7817-85"
+   ],
+   "nameEn": {
+    "en": "Person charged with executing post-mortem data directives",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "directives générales": {
+     "en": "general directives",
+     "basis": "descriptive"
+    },
+    "directives particulières": {
+     "en": "particular directives",
+     "basis": "descriptive"
+    },
+    "personne chargée de leur exécution": {
+     "en": "person charged with their execution",
+     "basis": "descriptive"
+    },
+    "tiers de confiance numérique": {
+     "en": "certified digital trusted third party",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "fr-heritier-donnees",
+   "canonical": "digital-assets-fiduciary",
+   "group": "digital",
+   "name": "Héritier exerçant les droits sur les données",
+   "localNames": [
+    "héritiers",
+    "biens numériques",
+    "souvenirs de famille"
+   ],
+   "summary": "Absent directives, heirs may exercise the data-protection rights themselves, but only so far as settling the succession and having the death taken into account require — including receiving digital goods or data resembling family mementos, and closing the deceased's accounts.",
+   "lane": {
+    "assigned": {
+     "event": "Heirship, where the deceased left no directives or the directives do not provide otherwise",
+     "phase": "deceased",
+     "citations": [
+      "fr-loi7817-85",
+      "fr-cc-724"
+     ]
+    },
+    "starts": {
+     "event": "On death, to the extent necessary to organise and settle the succession — accessing processing to identify information useful to liquidation and partition, and receiving digital goods or data resembling family mementos — and to have the death taken into account",
+     "phase": "deceased",
+     "citations": [
+      "fr-loi7817-85"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Accounts closed, processing objected to or updated; the controller must show, free of charge, that it complied",
+      "phase": "closed",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "event": "Disagreement between heirs, referred to the tribunal judiciaire",
+      "phase": "deceased",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No directives left"
+     },
+     {
+      "id": "active",
+      "label": "Heirs exercising rights"
+     },
+     {
+      "id": "disputed",
+      "label": "Before the tribunal judiciaire"
+     },
+     {
+      "id": "done",
+      "label": "Complied with"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "fr-t-hd-death",
+      "from": "none",
+      "to": "active",
+      "event": "Death with no directives; heirs exercise chapter II rights (art. 85 II)",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "id": "fr-t-hd-dispute",
+      "from": "active",
+      "to": "disputed",
+      "event": "Disagreement between heirs referred to the tribunal judiciaire",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "id": "fr-t-hd-done",
+      "from": "active",
+      "to": "done",
+      "event": "Controller complies and justifies it free of charge",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     },
+     {
+      "id": "fr-t-hd-resolved",
+      "from": "disputed",
+      "to": "done",
+      "event": "Court resolves the disagreement",
+      "citations": [
+       "fr-loi7817-85"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "fr-loi7817-85",
+    "fr-cc-724"
+   ],
+   "nameEn": {
+    "en": "Heir exercising data-protection rights",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "héritiers": {
+     "en": "heirs",
+     "basis": "descriptive"
+    },
+    "biens numériques": {
+     "en": "digital goods",
+     "basis": "descriptive"
+    },
+    "souvenirs de famille": {
+     "en": "family mementos",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": false,
+   "note": "Enduring authority comes only from the dedicated mandat de protection future; art. 477 creates it as a distinct instrument for the case where the mandant can no longer see to their own interests.",
+   "citations": [
+    "fr-cc-477"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "The mandat de protection future is inherently springing: art. 481 provides that it takes effect when it is established that the mandant can no longer see to their own interests.",
+   "citations": [
+    "fr-cc-481"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": true,
+   "note": "Not a register but a court-registry visa: art. 481 requires the mandataire to produce the mandate and a certificate from a doctor on the art. 431 list to the registry of the tribunal judiciaire, and the greffier visas the mandate and dates its taking effect.",
+   "citations": [
+    "fr-cc-481"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity",
+   "note": "The personne de confiance is consulted where the patient is no longer able to express their will; the designation itself is made in writing and co-signed, with no court step.",
+   "citations": [
+    "fr-csp-l1111-6"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": null,
+   "name": "Code de la santé publique, art. L1232-1 (consentement présumé)",
+   "note": "Removal may be carried out on an adult who did not make a refusal known in life, principally by entry on a national automated register. The year presumed consent was introduced was not read from a primary source and is not asserted here.",
+   "citations": [
+    "fr-csp-l1232-1"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": true,
+   "year": null,
+   "name": "Loi n° 78-17 du 6 janvier 1978, art. 85",
+   "note": "Art. 85 in its current numbering has been in force since 1 January 2020; the same provision appears in the text under the earlier numbering art. 40-1. The year of first enactment was not verified from a primary source and is not asserted.",
+   "citations": [
+    "fr-loi7817-85"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": true,
+   "note": "Stronger than recognition: art. 85 III obliges every provider of an online public communication service to inform users of the fate of their data on death and to let them choose whether to communicate it to a third party they designate. Art. 85 I additionally deems unwritten any terms-of-service clause limiting these prerogatives, and requires that particular directives rest on specific consent which cannot follow from mere acceptance of the general terms of use.",
+   "citations": [
+    "fr-loi7817-85"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": "partial",
+   "note": "Data-protection rights do not simply lapse at death: art. 85 II lets the heirs exercise them so far as settling the succession and having the death taken into account require, and art. 85 I lets the person direct in advance how they are to be exercised.",
+   "citations": [
+    "fr-loi7817-85"
+   ]
+  },
+  "probateGrantName": {
+   "value": "none",
+   "note": "There is no grant. Under art. 724 the heirs designated by law are seised of right of the deceased's goods, rights and actions; an exécuteur testamentaire, if any, is named by will.",
+   "citations": [
+    "fr-cc-724",
+    "fr-cc-1025"
+   ]
+  }
+ }
+}
