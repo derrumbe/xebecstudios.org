@@ -1242,6 +1242,7 @@
   // emphasis, code and links. It is not a general Markdown implementation, and anything it does not know it
   // escapes and shows as text rather than guessing.
   let findingsText = null;
+  let findingsCanon = null;
 
   function mdInline(s) {
     let t = esc(s);
@@ -1317,6 +1318,121 @@
     return out.join('\n');
   }
 
+  // The headline band. Every figure is computed from canonicals.json and the manifest,
+  // never written into the prose, because the counts move as jurisdictions are added and
+  // a hardcoded headline is a headline that goes quietly wrong. The chart is an emphasis
+  // form, not a categorical one: the story is that the roles are near-universal and the
+  // digital ones are not, so the digital roles take the accent and everything else takes
+  // the de-emphasis gray. One hue plus gray, both already in the token set.
+  const DIGITAL_ROLES = ['online-tool-designee', 'digital-assets-fiduciary'];
+
+  function statTile(value, label) {
+    return `<div class="stat-tile"><div class="sv">${esc(value)}</div><div class="sl">${esc(label)}</div></div>`;
+  }
+
+  function findingsBand(roles, manifest) {
+    const ranked = [...roles].sort((a, b) => b.countryCount - a.countryCount || b.jurisdictionCount - a.jurisdictionCount);
+    if (!ranked.length) return '';
+    const countries = (manifest.countries || []).length;
+    const jurisdictions = (manifest.jurisdictions || []).length;
+    const rows = roles.reduce((n, r) => n + r.jurisdictionCount, 0);
+    const top = ranked[0];
+    // The contrast is deliberately the online-tool designee, not whatever role happens to
+    // rank last. Successor trustee also sits at two countries, but only because the schema
+    // records it "if materially relevant" — its rarity is an artifact of what we chose to
+    // write down, not a finding, and hanging "the gap is digital" on it would be false.
+    const bottom = roles.find((r) => r.id === 'online-tool-designee') || ranked[ranked.length - 1];
+    const max = top.countryCount || 1;
+
+    // Hero: the gap is the page's finding, so it leads as a contrast, not a single number.
+    const hero = `<div class="hero-pair">
+      <div class="hero-side">
+        <div class="hero-n">${top.countryCount}<span class="hero-of"> / ${countries}</span></div>
+        <div class="hero-l">countries recognise <b>${esc(top.label.toLowerCase())}</b> — the most universal role in the data</div>
+      </div>
+      <div class="hero-vs">but</div>
+      <div class="hero-side">
+        <div class="hero-n accent">${bottom.countryCount}<span class="hero-of"> / ${countries}</span></div>
+        <div class="hero-l">recognise <b>${esc(bottom.label.toLowerCase())}</b>. The gap is not conceptual, it is digital.</div>
+      </div>
+    </div>`;
+
+    const tiles = `<div class="kpi-row">
+      ${statTile(countries, 'countries')}
+      ${statTile(jurisdictions, 'jurisdictions')}
+      ${statTile(roles.length, 'canonical roles')}
+      ${statTile(rows.toLocaleString('en'), 'role/jurisdiction rows')}
+    </div>`;
+
+    // Ranked bars. Direct labels at the tip carry the values, so the chart needs no axis
+    // and no gridlines; the same numbers are in the table inside section 1.
+    const bars = ranked.map((r) => {
+      const on = DIGITAL_ROLES.includes(r.id);
+      const pct = Math.max(1.5, (r.countryCount / max) * 100);
+      return `<div class="bar-row${on ? ' on' : ''}">
+        <div class="bar-k">${esc(r.label)}</div>
+        <div class="bar-t"><div class="bar" style="width:${pct.toFixed(1)}%"${on ? '' : ''} title="${esc(r.label)}: ${r.countryCount} of ${countries} countries, ${r.jurisdictionCount} jurisdictions"></div></div>
+        <div class="bar-v">${r.countryCount}</div>
+      </div>`;
+    }).join('');
+
+    return `<div class="infographic">
+      ${hero}
+      ${tiles}
+      <figure class="bar-fig">
+        <figcaption>Countries recognising each role, of ${countries}. The two digital roles are highlighted.</figcaption>
+        <div class="bars">${bars}</div>
+      </figure>
+    </div>`;
+  }
+
+  // Split the rendered prose into sections at each h2, so each finding leads with its
+  // heading and first paragraph and holds the rest behind a disclosure. The headings stay
+  // real h2 elements rather than moving inside <summary>, so the document outline and the
+  // reading order survive.
+  function findingsSections(html) {
+    const src = document.createElement('div');
+    src.innerHTML = html;
+    const out = document.createElement('div');
+    let lede = document.createElement('div');
+    lede.className = 'findings-lede';
+    let cur = null, body = null, teased = false;
+    const flush = () => { if (cur) { out.appendChild(cur); cur = null; body = null; } };
+    while (src.firstChild) {
+      const node = src.firstChild;
+      if (node.nodeType === 1 && node.tagName === 'H2') {
+        flush();
+        if (lede) { out.appendChild(lede); lede = null; }
+        cur = document.createElement('section');
+        cur.className = 'finding';
+        cur.appendChild(node);
+        const det = document.createElement('details');
+        det.className = 'f-more';
+        const sum = document.createElement('summary');
+        sum.innerHTML = '<span class="f-open">Read more</span><span class="f-close">Show less</span>';
+        det.appendChild(sum);
+        body = document.createElement('div');
+        body.className = 'f-body';
+        det.appendChild(body);
+        cur.appendChild(det);
+        teased = false;
+        continue;
+      }
+      if (!cur) { (lede || out).appendChild(node); continue; }
+      // the first paragraph of a section stays visible as the teaser
+      if (!teased && node.nodeType === 1 && node.tagName === 'P') {
+        teased = true;
+        node.classList.add('f-teaser');
+        cur.insertBefore(node, cur.lastChild);
+        continue;
+      }
+      body.appendChild(node);
+    }
+    if (lede) out.appendChild(lede);
+    flush();
+    return out;
+  }
+
   async function renderFindings() {
     const host = $('#findings');
     if (findingsText === null) {
@@ -1332,7 +1448,35 @@
       }
     }
     if (!findingsText) { host.innerHTML = '<p class="muted">No findings available.</p>'; return; }
-    host.innerHTML = mdToHtml(findingsText);
+    // canonicals.json is the build's own cross-jurisdiction tally; the viewer does not
+    // otherwise need it, so it is fetched here and only once. If it cannot be read the
+    // prose still renders — the band is an addition to the page, not a precondition.
+    if (findingsCanon === null) {
+      try { findingsCanon = (await getJSON('canonicals.json')).roles || []; }
+      catch (e) { findingsCanon = []; }
+    }
+    host.textContent = '';
+    const band = findingsCanon.length ? findingsBand(findingsCanon, state.manifest) : '';
+    const sectioned = findingsSections(mdToHtml(findingsText));
+    const lede = sectioned.querySelector('.findings-lede');
+    if (band && lede) lede.insertAdjacentHTML('afterend', band);
+    else if (band) sectioned.insertAdjacentHTML('afterbegin', band);
+    while (sectioned.firstChild) host.appendChild(sectioned.firstChild);
+    const all = [...host.querySelectorAll('details.f-more')];
+    if (all.length) {
+      const bar = document.createElement('div');
+      bar.className = 'f-allbar';
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip';
+      const sync = () => { btn.textContent = all.every((d) => d.open) ? 'Collapse all' : 'Expand all'; };
+      btn.onclick = () => { const open = !all.every((d) => d.open); all.forEach((d) => { d.open = open; }); sync(); };
+      all.forEach((d) => d.addEventListener('toggle', sync));
+      sync();
+      bar.appendChild(btn);
+      const first = host.querySelector('section.finding');
+      if (first) host.insertBefore(bar, first);
+    }
   }
 
   // ---------- sources ----------

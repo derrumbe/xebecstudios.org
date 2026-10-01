@@ -280,8 +280,13 @@
    type, looser leading, and a measure set on the children rather than the container, so
    the prose stays near 70 characters while a table may use more width when its columns
    need it. Colour comes only from the tokens mapped at the top of this file. */
-.der .prose { font-size: 17px; line-height: 1.7; }
-.der .prose > * { max-width: 56ch; }
+/* The measure rides the text-bearing elements at any depth, not the container and not
+   just its direct children, because each finding now nests its body inside a <details>.
+   Tables and the headline band get their own wider cap. */
+.der .prose { font-size: 17px; line-height: 1.7; --measure: 56ch; --wide: 82ch; }
+.der .prose p, .der .prose ul, .der .prose ol, .der .prose h1, .der .prose h2,
+.der .prose h3, .der .prose blockquote, .der .prose hr,
+.der .prose figcaption { max-width: var(--measure); }
 .der .prose h1, .der .prose h2, .der .prose h3 { line-height: 1.25; text-wrap: pretty; }
 .der .prose h1 { font-size: 1.75rem; margin: .2rem 0 .7rem; }
 .der .prose h2 { font-size: 1.3rem; margin: 2.1rem 0 .6rem; padding-top: 1rem; border-top: 1px solid var(--line); }
@@ -300,9 +305,68 @@
 .der .prose blockquote p { margin: .4rem 0; color: var(--ink-2); }
 /* Tables inside the prose are read, not scanned as data: full-size text, no sticky
    headings, and free to run wider than the reading measure when a row needs it. */
-.der .prose > table { margin: 1.1rem 0 1.5rem; width: 100%; max-width: 82ch; }
+.der .prose table { margin: 1.1rem 0 1.5rem; width: 100%; max-width: var(--wide); }
 .der .findings-table { font-size: 15.5px; }
 .der .findings-table th { position: static; background: var(--surface-2); }
 .der .findings-table th, .der .findings-table td { padding: 9px 12px; line-height: 1.5; }
 .der .findings-table td:first-child { font-weight: 500; }
 .der .findings-table code { white-space: nowrap; }
+
+/* ---------- findings: the headline band ----------
+   Figures computed in app.js from canonicals.json, so they cannot go stale. The bar chart
+   is an emphasis form, not a categorical one: the two digital roles carry the accent and
+   every other role the de-emphasis gray. One hue plus gray, both already mapped at the top
+   of this file — no fourth colour is introduced. */
+.der .infographic { max-width: var(--wide); margin: 1.4rem 0 2rem; }
+
+.der .hero-pair { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem 1.4rem; align-items: start;
+  padding: 1.2rem 0 1.4rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.der .hero-n { font-size: 3.2rem; line-height: 1; font-weight: 650; letter-spacing: -0.02em; color: var(--dormant); }
+.der .hero-n.accent { color: var(--accent); }
+.der .hero-of { font-size: 1.4rem; font-weight: 500; color: var(--ink-2); letter-spacing: 0; }
+.der .hero-l { margin-top: .5rem; font-size: .95rem; line-height: 1.5; color: var(--ink-2); max-width: 34ch; }
+.der .hero-l b { color: var(--ink); font-weight: 600; }
+.der .hero-vs { align-self: center; font-size: .82rem; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--ink-2); padding-top: 1rem; }
+
+.der .kpi-row { display: flex; flex-wrap: wrap; gap: 1.6rem 2.4rem; padding: 1.1rem 0 1.3rem;
+  border-bottom: 1px solid var(--line); }
+.der .stat-tile .sv { font-size: 1.7rem; font-weight: 650; line-height: 1.1; }
+.der .stat-tile .sl { font-size: .8rem; color: var(--ink-2); margin-top: .15rem; }
+
+.der .bar-fig { margin: 1.4rem 0 0; }
+.der .bar-fig figcaption { margin: 0 0 .7rem; padding: 0; font-size: .85rem; color: var(--ink-2); }
+/* 2px of surface between neighbours is what separates them — never a stroke on the mark. */
+.der .bars { display: flex; flex-direction: column; gap: 2px; }
+.der .bar-row { display: grid; grid-template-columns: minmax(9rem, 15rem) 1fr 2.2rem; gap: .7rem; align-items: center; }
+.der .bar-k { font-size: .82rem; color: var(--ink-2); text-align: right; line-height: 1.25; }
+.der .bar-t { min-width: 0; }
+/* <= 24px thick, 4px rounded data-end, square at the baseline. */
+.der .bar { height: 14px; border-radius: 0 4px 4px 0; background: var(--dormant); opacity: .55; }
+.der .bar-row.on .bar { background: var(--accent); opacity: 1; }
+.der .bar-v { font-size: .82rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.der .bar-row.on .bar-k, .der .bar-row.on .bar-v { color: var(--ink); font-weight: 600; }
+
+/* ---------- findings: read-more sections ---------- */
+.der .f-allbar { margin: .6rem 0 1.4rem; }
+.der .finding { margin: 0 0 .4rem; }
+.der .f-teaser { margin-top: .5rem; }
+.der .f-more { margin: .2rem 0 1.6rem; }
+.der .f-more > summary { display: inline-flex; align-items: center; gap: .35rem; cursor: pointer;
+  font-size: .9rem; color: var(--accent); padding: .15rem 0; list-style: none; width: max-content; }
+.der .f-more > summary::-webkit-details-marker { display: none; }
+.der .f-more > summary::after { content: ""; width: .42em; height: .42em; border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor; transform: rotate(45deg) translate(-1px, -1px); transition: transform .15s; }
+.der .f-more[open] > summary::after { transform: rotate(-135deg) translate(-1px, -1px); }
+.der .f-more > summary:hover { text-decoration: underline; }
+.der .f-more > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+.der .f-more .f-close { display: none; }
+.der .f-more[open] .f-open { display: none; }
+.der .f-more[open] .f-close { display: inline; }
+.der .f-body { padding-top: .2rem; }
+.der .f-body > :first-child { margin-top: .4rem; }
+@media (max-width: 640px) {
+  .der .hero-pair { grid-template-columns: 1fr; }
+  .der .hero-vs { padding-top: 0; }
+  .der .bar-row { grid-template-columns: minmax(7rem, 11rem) 1fr 2rem; }
+}
