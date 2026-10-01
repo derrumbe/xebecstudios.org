@@ -320,12 +320,13 @@
     document.querySelectorAll('.tab').forEach((s) => { s.hidden = s.id !== 'tab-' + state.tab; });
     const j = state.manifest.jurisdictions.find((x) => x.id === state.jur);
     $('#jur-note').textContent = m.note || j.note || '';
-    $('#jur-note').hidden = state.tab === 'map';
+    $('#jur-note').hidden = state.tab === 'map' || state.tab === 'findings';
     if (state.tab === 'map') renderMap();
     if (state.tab === 'lanes') renderLanes(m);
     if (state.tab === 'role') renderRole(m);
     if (state.tab === 'compare') renderCompare();
     if (state.tab === 'trends') renderTrends();
+    if (state.tab === 'findings') renderFindings();
     if (state.tab === 'sources') renderSources(m);
     writeHash();
   }
@@ -1231,6 +1232,107 @@
     const codes = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'];
     const i = names.findIndex((n) => n.toLowerCase() === s.toLowerCase());
     return i >= 0 ? codes[i] : (map[s.toLowerCase()] || s);
+  }
+
+  // ---------- findings ----------
+  // Cross-jurisdiction prose, authored as docs/findings.md and copied into data/ by the
+  // build so this tab and GitHub read the same file. The renderer below is deliberately
+  // small: it handles only the constructs findings.md actually uses — ATX headings,
+  // paragraphs, pipe tables, ordered and unordered lists, blockquotes, and inline
+  // emphasis, code and links. It is not a general Markdown implementation, and anything it does not know it
+  // escapes and shows as text rather than guessing.
+  let findingsText = null;
+
+  function mdInline(s) {
+    let t = esc(s);
+    t = t.replace(/`([^`]+)`/g, (_, c) => `<code>${c}</code>`);
+    t = t.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, label, href) =>
+      /^(https?:|#|\.|\/)/.test(href) ? `<a href="${href}" rel="noopener">${label}</a>` : label);
+    t = t.replace(/&lt;(https?:\/\/[^\s&]+)&gt;/g, (_, href) => `<a href="${href}" rel="noopener">${href}</a>`);
+    t = t.replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+    t = t.replace(/(^|[\s(])\*([^*\n]+)\*/g, '$1<em>$2</em>');
+    t = t.replace(/(^|[\s(])_([^_\n]+)_/g, '$1<em>$2</em>');
+    return t;
+  }
+
+  // A pipe-table row, minus its outer pipes. Splits on | only.
+  const mdCells = (line) => line.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map((c) => c.trim());
+  const isTableRule = (line) => /^\s*\|?[\s:|-]+\|[\s:|-]*$/.test(line) && line.includes('-');
+
+  function mdToHtml(src) {
+    const lines = String(src).replace(/\r\n?/g, '\n').split('\n');
+    const out = [];
+    let para = [];
+    const flushPara = () => { if (para.length) { out.push(`<p>${mdInline(para.join(' '))}</p>`); para = []; } };
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      if (!line.trim()) { flushPara(); continue; }
+      const h = /^(#{1,4})\s+(.*)$/.exec(line);
+      if (h) { flushPara(); const n = h[1].length; out.push(`<h${n}>${mdInline(h[2])}</h${n}>`); continue; }
+      if (/^\s*(---|\*\*\*)\s*$/.test(line)) { flushPara(); out.push('<hr>'); continue; }
+      // blockquote: consecutive '>' lines, joined into one paragraph
+      if (/^\s*>/.test(line)) {
+        flushPara();
+        const q = [];
+        for (; i < lines.length && /^\s*>/.test(lines[i]); i++) q.push(lines[i].replace(/^\s*>\s?/, ''));
+        i--;
+        out.push(`<blockquote><p>${mdInline(q.join(' ').trim())}</p></blockquote>`);
+        continue;
+      }
+      // table: a header row whose next line is the delimiter
+      if (line.includes('|') && i + 1 < lines.length && isTableRule(lines[i + 1])) {
+        flushPara();
+        const head = mdCells(line);
+        const rows = [];
+        i += 2;
+        for (; i < lines.length && lines[i].includes('|'); i++) rows.push(mdCells(lines[i]));
+        i--;
+        out.push('<table class="findings-table"><thead><tr>'
+          + head.map((c) => `<th>${mdInline(c)}</th>`).join('')
+          + '</tr></thead><tbody>'
+          + rows.map((r) => '<tr>' + head.map((_, k) => `<td>${mdInline(r[k] ?? '')}</td>`).join('') + '</tr>').join('')
+          + '</tbody></table>');
+        continue;
+      }
+      // list: consecutive items, each possibly wrapped onto following indented lines
+      const li = /^\s*([-*]|\d+\.)\s+(.*)$/.exec(line);
+      if (li) {
+        flushPara();
+        const ordered = /\d/.test(li[1]);
+        const items = [];
+        for (; i < lines.length; i++) {
+          const m2 = /^\s*([-*]|\d+\.)\s+(.*)$/.exec(lines[i]);
+          if (m2) { items.push(m2[2]); continue; }
+          if (/^\s+\S/.test(lines[i]) && items.length) { items[items.length - 1] += ' ' + lines[i].trim(); continue; }
+          break;
+        }
+        i--;
+        const tag = ordered ? 'ol' : 'ul';
+        out.push(`<${tag}>` + items.map((t) => `<li>${mdInline(t)}</li>`).join('') + `</${tag}>`);
+        continue;
+      }
+      para.push(line.trim());
+    }
+    flushPara();
+    return out.join('\n');
+  }
+
+  async function renderFindings() {
+    const host = $('#findings');
+    if (findingsText === null) {
+      host.innerHTML = '<p class="muted">Loading…</p>';
+      try {
+        const r = await fetch(DATA_BASE + 'findings.md', { cache: 'no-cache' });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        findingsText = await r.text();
+      } catch (e) {
+        findingsText = '';
+        host.innerHTML = `<p class="muted">Findings could not be loaded (${esc(e.message)}).</p>`;
+        return;
+      }
+    }
+    if (!findingsText) { host.innerHTML = '<p class="muted">No findings available.</p>'; return; }
+    host.innerHTML = mdToHtml(findingsText);
   }
 
   // ---------- sources ----------

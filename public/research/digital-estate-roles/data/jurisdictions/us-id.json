@@ -1,0 +1,472 @@
+{
+ "jurisdiction": "us-id",
+ "name": "Idaho",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Probate Code",
+  "Uniform Power of Attorney Act (2006)",
+  "Revised Uniform Fiduciary Access to Digital Assets Act",
+  "Revised Uniform Anatomical Gift Act",
+  "Uniform Recognition of Substitute Decision-Making Documents Act",
+  "Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act (2018) — enacted 2026, effective 1 January 2027"
+ ],
+ "note": "Idaho is the first jurisdiction in this set with a live/pending split: title 15 chapter 5 carries two regimes in parallel, the existing protective-proceedings law \"[EFFECTIVE UNTIL JANUARY 1, 2027]\" and the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act \"[EFFECTIVE JANUARY 1, 2027]\", enacted by S 1240 (2026, ch. 79). The guardian and conservator rows record the law in force and carry the pending replacement explicitly. Two other things are worth knowing before reading the patches. adoption.json records no Uniform Probate Code enactment for Idaho, but §15-1-101 says \"This act shall be known and may be cited as the uniform probate code\", added 1971 ch. 111 — the ULC bill tracker that adoption.json is built from does not reach back to 1971, so it is a false negative here, the opposite of the Pennsylvania UPOAA case. And Idaho enacted no Uniform Health-Care Decisions Act and no Uniform Trust Code: health care runs on the homegrown advance care planning document of title 39 chapter 45, and trusts on the Uniform Probate Code’s article VII in title 15 chapter 7, which is why those two rows differ most from the baseline.",
+ "citations": [
+  {
+   "id": "id-15-1-101",
+   "cite": "Idaho Code § 15-1-101",
+   "title": "Short title",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH1/SECT15-1-101/",
+   "quote": "This act shall be known and may be cited as the uniform probate code.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-ch5",
+   "cite": "Idaho Code tit. 15, ch. 5 (chapter headings)",
+   "title": "Protection of persons under disability and their property / Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH5/",
+   "quote": "CHAPTER 5 PROTECTION OF PERSONS UNDER DISABILITY AND THEIR PROPERTY [EFFECTIVE UNTIL JANUARY 1, 2027] UNIFORM GUARDIANSHIP, CONSERVATORSHIP, AND OTHER PROTECTIVE ARRANGEMENTS ACT [EFFECTIVE JANUARY 1, 2027]",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-12-104",
+   "cite": "Idaho Code § 15-12-104",
+   "title": "Power of attorney is durable",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH12/SECT15-12-104/",
+   "quote": "A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-12-109",
+   "cite": "Idaho Code § 15-12-109",
+   "title": "When power of attorney effective",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH12/SECT15-12-109/",
+   "quote": "(3) If a power of attorney is to become effective upon the principal’s incapacity and the principal has not authorized a person to determine whether the principal is incapacitated, or the person authorized is unable or unwilling to make the determination, the power of attorney becomes effective upon a determination in a writing or other record by: (a) A physician or licensed psychologist that the principal is incapacitated within the meaning of section 15-12-102 (5)(a), Idaho Code; or (b) A licensed attorney at law, judge or appropriate governmental official that the principal is incapacitated",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-15-103",
+   "cite": "Idaho Code § 15-15-103",
+   "title": "Validity of substitute decision-making document",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH15/SECT15-15-103/",
+   "quote": "(1) A substitute decision-making document for property executed outside this state is valid in this state if, when the document was executed, the execution complied with the law of the jurisdiction indicated in the document or, if no jurisdiction is indicated, the law of the jurisdiction in which the document was executed.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-15-106",
+   "cite": "Idaho Code § 15-15-106",
+   "title": "Obligation to accept substitute decision-making document",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH15/SECT15-15-106/",
+   "quote": "a person that is asked to accept a substitute decision-making document shall accept within a reasonable time a document that purportedly meets the validity requirements of section 15-15-103 , Idaho Code. The person may not require an additional or different form of document for authority granted in the document presented.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-39-4510",
+   "cite": "Idaho Code § 39-4510",
+   "title": "Advance care planning document",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH45/SECT39-4510/",
+   "quote": "(1) Any competent person aged eighteen (18) years or older may execute an advance care planning document (ACPD). Such document must contain the mandatory elements set forth in this section. Any provisions of an ACPD that are left blank by a person executing the document shall be deemed intentional and shall not invalidate the document. … To be considered a valid ACPD, a document must include: (a) The person’s name, date of birth, telephone number, and mailing address; (b) The signature of the person for whom the ACPD is created or the authorized agent of such person; and (c) The date on which the document was signed. (2) An ACPD may but is not required to include the following: … (b) Nomination of one (1) or more persons to act as a health care agent; … (k) Notarization.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-39-4504",
+   "cite": "Idaho Code § 39-4504 [effective until January 1, 2027]",
+   "title": "Persons who may give consent to care for others",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH45/SECT39-4504/",
+   "quote": "(1) Consent for the furnishing of health care services to any person who is not then capable of giving such consent … may be given or refused in the order of priority set forth hereafter … (a) The court-appointed guardian of such person; (b) The person named in another person’s advance care planning document as the health care agent of such person pursuant to section 39-4510 , Idaho Code … if the conditions in such advance care planning document for authorizing the agent to act have been satisfied; (c) If married, the spouse of such person; (d) An adult child of such person; (e) A parent of such person; (f) The person named in a delegation of parental authority executed pursuant to section 15-5-104 , Idaho Code; (g) Any relative of such person; (h) Any other competent individual representing himself or herself to be responsible for the health care of such person",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-39-4504-2027",
+   "cite": "Idaho Code § 39-4504 [effective January 1, 2027]",
+   "title": "Persons who may give consent to care for others (as amended by 2026, ch. 79)",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH45/SECT39-4504/",
+   "quote": "(f) The person named in a delegation of parental authority executed pursuant to section 15-5-128 , Idaho Code; … History: [… am. 2026, ch. 79, sec. 26, p. 416.]",
+   "kind": "statute",
+   "retrieved": "2026-10-01",
+   "pending": true
+  },
+  {
+   "id": "id-15-5-303",
+   "cite": "Idaho Code § 15-5-303 [effective until January 1, 2027]",
+   "title": "Procedure for court appointment of a guardian of an incapacitated person",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH5/SECT15-5-303/",
+   "quote": "(a) The incapacitated person or any person interested in his welfare may petition for a finding of incapacity and appointment of a guardian or co-guardians, limited or general. It is desirable to make available the least restrictive form of guardianship to assist persons who are only partially incapable of caring for their own needs.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-5-303-2027",
+   "cite": "Idaho Code § 15-5-303 [effective January 1, 2027]",
+   "title": "Notice of hearing for appointment of guardian for adult",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH5/SECT15-5-303/",
+   "quote": "NOTICE OF HEARING FOR APPOINTMENT OF GUARDIAN FOR ADULT. [effective January 1, 2027] (1) Upon filing of a petition under section 15-5-302 , Idaho Code, for appointment of a guardian for an adult, and after compliance with any required training and background check, the court shall set a date, time, and place for hearing the petition.",
+   "kind": "statute",
+   "retrieved": "2026-10-01",
+   "pending": true
+  },
+  {
+   "id": "id-15-5-401",
+   "cite": "Idaho Code § 15-5-401 [effective until January 1, 2027]",
+   "title": "Protective proceedings",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH5/SECT15-5-401/",
+   "quote": "Upon petition and after notice and hearing in accordance with the provisions of this part, the court may appoint a conservator or make other protective order for cause as follows:",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-5-401-2027",
+   "cite": "Idaho Code § 15-5-401 [effective January 1, 2027]",
+   "title": "Basis for appointment of conservator",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH5/SECT15-5-401/",
+   "quote": "The court may not establish a full conservatorship if a limited conservatorship, protective arrangement instead of conservatorship, or other less restrictive alternative would meet the needs of the respondent. History: [15-5-401, added 1971, ch. 111, sec. 1, p. 233; … repealed and added 2026, ch. 79, sec. 6, p. 364.]",
+   "kind": "statute",
+   "retrieved": "2026-10-01",
+   "pending": true
+  },
+  {
+   "id": "id-15-3-203",
+   "cite": "Idaho Code § 15-3-203",
+   "title": "Priority among persons seeking appointment as personal representative",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH3/SECT15-3-203/",
+   "quote": "(a) … (1) the person with priority as determined by a probated will including a person nominated by a power conferred in a will; (2) the surviving spouse of the decedent who is a devisee of the decedent; (3) other devisees of the decedent; (4) the surviving spouse of the decedent; (5) other heirs of the decedent; (6) forty-five (45) days after the death of the decedent, any creditor; (7) if a petition for appointment of a personal representative has been filed and sixty (60) days have elapsed during which no consent to act has been filed by any proper person, the public administrator shall act as personal representative unless and until a proper person consents to act.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-3-307",
+   "cite": "Idaho Code § 15-3-307",
+   "title": "Informal appointment proceedings — Delay in order — Duty of registrar — Effect of appointment",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH3/SECT15-3-307/",
+   "quote": "(a) Upon receipt of an application for informal appointment of a personal representative other than a special administrator … if at least one hundred twenty (120) hours have elapsed since the decedent’s death, the registrar, after making the findings required by section 15-3-308 of this chapter, shall appoint the applicant subject to qualification and acceptance",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-3-1201",
+   "cite": "Idaho Code § 15-3-1201",
+   "title": "Collection of personal property by affidavit",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH3/SECT15-3-1201/",
+   "quote": "(a) Thirty (30) days after the death of a decedent, any person indebted to the decedent or having possession of tangible personal property … shall make payment of the indebtedness or deliver the tangible personal property … to a person or entity claiming to be the successor of the decedent upon being presented an affidavit made by or on behalf of the successor stating that: (1) The fair market value of the entire estate of the decedent which is subject to probate, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars ($100,000); (2) Thirty (30) days have elapsed since the death of the decedent",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-3-1205",
+   "cite": "Idaho Code § 15-3-1205",
+   "title": "Summary administration of estates in which a surviving spouse is the sole beneficiary",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH3/SECT15-3-1205/",
+   "quote": "(a) Upon the testate or intestate death of a person leaving a surviving spouse as the sole devisee or beneficiary, the surviving spouse … may file a verified petition setting out marriage and the death of a person leaving a surviving spouse as the sole devisee or heir. … (b) If it shall appear at such hearing that the decedent and the person claimed to be the surviving spouse were duly married and that the surviving spouse is the sole heir or devisee, a decree shall be made to that effect. This decree shall thereafter have the same effect as a formal decree approving or determining distribution.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-7-101",
+   "cite": "Idaho Code § 15-7-101",
+   "title": "Duty to register trusts",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH7/SECT15-7-101/",
+   "quote": "The trustee of a trust having its principal place of administration in this state shall register the trust in the court of this state at the principal place of administration.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-7-308",
+   "cite": "Idaho Code § 15-7-308",
+   "title": "Removal of trustee",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH7/SECT15-7-308/",
+   "quote": "(1) A trustee may be removed in accordance with the terms of the trust or by the court on its own initiative or on petition of a trustor, cotrustee or beneficiary. (2) The court may remove a trustee or order other appropriate relief: (a) If the trustee has committed a material breach of trust; (b) If the trustee is unfit or unable to administer the trust",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-7-403",
+   "cite": "Idaho Code § 15-7-403",
+   "title": "Appointment of trustee and letters of trusteeship",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH7/SECT15-7-403/",
+   "quote": "Upon application to the court in which the trust is registered in the state of Idaho, and notice to all interested parties, the court may appoint the trustee as such (or as successor trustee, if applicable). Upon filing of an acceptance of the duties of the office of trustee by the trustee, containing the oath of the trustee to the effect that the trustee will perform the duties of his office according to the law, letters of trusteeship shall be issued, evidencing the authority of the trustee. Such letters may be recorded in the office of the county recorder in any county in which property held by the trust is located",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-14-104",
+   "cite": "Idaho Code § 15-14-104",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH14/SECT15-14-104/",
+   "quote": "(1) A user may use an online tool to direct the custodian to disclose to the designated recipient or not to disclose some or all of the user’s digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney or other record.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-14-116",
+   "cite": "Idaho Code § 15-14-116",
+   "title": "Custodian compliance and immunity",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH14/SECT15-14-116/",
+   "quote": "(1) Not later than sixty (60) days after receipt of the information required under sections 15-14-107 through 15-14-115 , Idaho Code, a custodian shall comply with a request under this chapter from a fiduciary or designated recipient to disclose digital assets or to terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance.",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-39-3404",
+   "cite": "Idaho Code § 39-3404",
+   "title": "Who may make anatomical gift before donor’s death",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH34/SECT39-3404/",
+   "quote": "(2) An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift;",
+   "kind": "statute",
+   "retrieved": "2026-10-01"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent under a durable power of attorney",
+    "attorney in fact"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. Idaho enacted the Uniform Power of Attorney Act in 2008 (SB 1335) and §15-12-104 is uniform §104 in one sentence: a power created under the chapter \"is durable unless it expressly provides that it is terminated by the incapacity of the principal\". Durability is opted out of, not into, which puts Idaho with the uniform-act states rather than with Washington, New Jersey and Massachusetts. Idaho adds a recognition regime the model has no counterpart for: chapter 15 of title 15 is the Uniform Recognition of Substitute Decision-Making Documents Act, under which a power executed in another state is valid here if it complied with the law of the place of execution (§15-15-103), and §15-15-106 obliges any person asked to accept such a document to accept it within a reasonable time and forbids them from requiring \"an additional or different form of document for authority granted in the document presented\". That duty runs against private parties, not only officials, and is subject to the §15-15-106(2) exceptions.",
+   "citations": [
+    "id-15-12-104",
+    "id-15-15-103",
+    "id-15-15-106"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney that expressly terminates on incapacity"
+   ],
+   "differs": false,
+   "diff": "Because §15-12-104 makes durability the default, a non-durable power exists in Idaho only where the instrument expressly says the principal’s incapacity terminates it — the silent instrument is durable.",
+   "citations": [
+    "id-15-12-104"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "power of attorney effective upon a future event or contingency"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. §15-12-109 carries uniform §109, including the fallback the model records: where the principal authorised nobody to determine that the incapacity occurred, or the person authorised is unable or unwilling, the power becomes effective on a written determination by \"a physician or licensed psychologist\" that the principal is incapacitated, or by a licensed attorney, judge or appropriate governmental official that the principal is incapacitated for the §15-12-102(5)(b) reasons. Idaho enacts the bracketed \"licensed psychologist\" option, so it does not share the gap found in Pennsylvania, New Jersey and Massachusetts, each of which creates a springing power but names no default certifier.",
+   "citations": [
+    "id-15-12-109"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care agent",
+    "advance care planning document (ACPD)"
+   ],
+   "summary": "A person nominated as health care agent in an advance care planning document. Idaho has no Uniform Health-Care Decisions Act; since 2023 a single statutory instrument, the ACPD, carries whatever advance directions and agent nomination the person chooses, and the instrument itself sets the conditions on which the agent may act.",
+   "lane": {
+    "assigned": {
+     "event": "Person aged 18 or older executes an advance care planning document nominating a health care agent; the document is valid if it carries the person’s name, date of birth, telephone number and mailing address, a signature and a date, and blanks are deemed intentional",
+     "phase": "capable",
+     "citations": [
+      "id-39-4510"
+     ]
+    },
+    "starts": {
+     "event": "The conditions the ACPD itself sets for authorising the agent to act are satisfied; the agent then stands second in the §39-4504 consent order, below a court-appointed guardian",
+     "phase": "incapacitated",
+     "citations": [
+      "id-39-4504",
+      "id-39-4510"
+     ]
+    }
+   },
+   "diff": "Idaho departs from the model on both the instrument and the trigger. It never enacted the Uniform Health-Care Decisions Act; in 2023 (ch. 307) it replaced its living will and durable power of attorney for health care with one instrument, the advance care planning document. Three features have no model counterpart. First, validity is close to formless: the only mandatory elements are the person’s name, date of birth, telephone number and mailing address, a signature and a date, and §39-4510(1) provides that provisions \"left blank by a person executing the document shall be deemed intentional and shall not invalidate the document\". Second, nominating a health care agent is expressly optional — §39-4510(2)(b) lists it among the things an ACPD \"may but is not required to include\", alongside notarisation at (2)(k) — so there is no field a reader can rely on finding, and no witnessing or notarisation requirement at all. Third, and unlike the model, the statute sets no incapacity trigger for the agent: §39-4504(1)(b) gives authority to the ACPD agent \"if the conditions in such advance care planning document for authorizing the agent to act have been satisfied\", so the instrument defines its own commencement. The agent is also placed inside the default-surrogate ladder rather than displacing it, and sits below a court-appointed guardian.",
+   "citations": [
+    "id-39-4510",
+    "id-39-4504"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate decision-maker",
+    "persons who may give consent to care for others"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Person is not capable of giving consent; authority passes down the §39-4504(1) order, provided the surrogate has sufficient comprehension under §39-4503 and does not act contrary to the person’s ACPD or previously expressed wishes",
+     "phase": "incapacitated",
+     "citations": [
+      "id-39-4504",
+      "id-39-4510"
+     ]
+    }
+   },
+   "diff": "Idaho’s consent order is the broadest in this set and is not the uniform act’s. §39-4504(1) runs: court-appointed guardian; ACPD health care agent; spouse; adult child; parent; person named in a delegation of parental authority; \"(g) Any relative of such person\"; \"(h) Any other competent individual representing himself or herself to be responsible for the health care of such person\"; and, in a medical emergency where the person cannot communicate, the attending health care provider in his or her discretion. Classes (g) and (h) have no model counterpart: (g) is an unranked catch-all for any relative, and (h) lets a person self-identify as responsible, so the ladder has no floor at which it runs out. Two limits apply throughout rather than per class — the surrogate must have sufficient comprehension to consent to their own care under §39-4503, and may not consent or refuse contrary to the person’s ACPD or wishes expressed while capable. Idaho is also unusual in folding the appointed health care agent into the statutory ladder at (b) instead of treating the instrument as displacing it. The 2026 enactment of the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act (2026, ch. 79) amends §39-4504 with effect from 1 January 2027, but the change is a conforming cross-reference only: the delegation of parental authority in class (f) moves from §15-5-104 to §15-5-128. The order of priority and its classes are unchanged.",
+   "citations": [
+    "id-39-4504",
+    "id-39-4504-2027",
+    "id-39-4510"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of an incapacitated person"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Any person interested in the alleged incapacitated person’s welfare, or that person, petitions for a finding of incapacity and appointment of a guardian, limited or general",
+     "phase": "incapacitated",
+     "citations": [
+      "id-15-5-303"
+     ]
+    }
+   },
+   "diff": "Idaho is at this moment a pre-UGCOPAA state, and the model baseline follows UGCOPAA. Current §15-5-303 is the older Uniform Guardianship and Protective Proceedings Act procedure: a petition for a finding of incapacity and appointment of a guardian \"limited or general\", with the least-restrictive principle expressed as what \"is desirable to make available\" rather than as a limit on the court’s power, a court-appointed visitor, and an ongoing duty on the guardian to notify the court of any proposed change in the ward’s permanent address. The model’s UGCOPAA features — the bar on a full guardianship where a less restrictive alternative would meet the respondent’s needs, and protective arrangements instead of guardianship — are not yet in force here. Enacted but not commenced. Idaho enacted UGCOPAA in 2026 (S 1240, 2026 ch. 79) with effect from 1 January 2027, and chapter 5 of title 15 currently carries both regimes in parallel: the chapter is headed \"PROTECTION OF PERSONS UNDER DISABILITY AND THEIR PROPERTY [EFFECTIVE UNTIL JANUARY 1, 2027]\" and \"UNIFORM GUARDIANSHIP, CONSERVATORSHIP, AND OTHER PROTECTIVE ARRANGEMENTS ACT [EFFECTIVE JANUARY 1, 2027]\". From that date §15-5-303 ceases to be the appointment procedure and becomes a notice-of-hearing provision, with appointment moving to §15-5-302 and the surrounding UGCOPAA sections, and adds a requirement that the petitioner comply with any required training and background check before the court sets a hearing. This row records the law in force; it will need rewriting on 1 January 2027.",
+   "citations": [
+    "id-15-5-303",
+    "id-15-5-303-2027",
+    "id-15-ch5"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "protective order"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Petition for appointment of a conservator or other protective order; court appoints after notice and hearing on one of the §15-5-401 grounds",
+     "phase": "incapacitated",
+     "citations": [
+      "id-15-5-401"
+     ]
+    }
+   },
+   "diff": "As with the guardian row, Idaho has not yet reached the model’s UGCOPAA baseline. Current §15-5-401 is headed \"Protective proceedings\" and lets the court \"appoint a conservator or make other protective order for cause\", on grounds framed around a minor’s property needing management and, for an adult, an inability to manage property and affairs. The model’s least-restrictive-alternative constraint is absent from the section in force. Enacted but not commenced. §15-5-401 was \"repealed and added\" by 2026, ch. 79, sec. 6 with effect from 1 January 2027, when it becomes \"Basis for appointment of conservator\" and carries the UGCOPAA constraint the model records: \"The court may not establish a full conservatorship if a limited conservatorship, protective arrangement instead of conservatorship, or other less restrictive alternative would meet the needs of the respondent.\" This row records the law in force.",
+   "citations": [
+    "id-15-5-401",
+    "id-15-5-401-2027",
+    "id-15-ch5"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "personal representative"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. Title 15 is the Uniform Probate Code — §15-1-101 says so in terms — enacted in 1971 (ch. 111). §15-3-203(a)(1) gives first priority to the person with priority under a probated will, including a person nominated by a power conferred in a will, and §15-3-307(a) carries the uniform 120-hour wait before the registrar may make an informal appointment, extended to 30 days where the decedent was a nonresident unless the domiciliary personal representative is the applicant.",
+   "citations": [
+    "id-15-1-101",
+    "id-15-3-203",
+    "id-15-3-307"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "personal representative",
+    "public administrator"
+   ],
+   "diff": "The uniform ladder, with one class added at the bottom that the model does not have. §15-3-203(a)(2)–(6) is uniform §3-203, down to \"forty-five (45) days after the death of the decedent, any creditor\". Idaho then adds (a)(7): where a petition has been filed and 60 days have elapsed with no proper person consenting to act, \"the public administrator shall act as personal representative unless and until a proper person consents to act\". The verb is mandatory, not permissive, so unlike the model Idaho has a named public officer who ends up holding the estate by default rather than a priority list that simply runs out. Compare Maine, which routes the equivalent class to the State Tax Assessor.",
+   "citations": [
+    "id-15-3-203",
+    "id-15-3-307"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "successor of the decedent",
+    "affidavit",
+    "summary administration"
+   ],
+   "lane": {
+    "starts": {
+     "event": "30 days after death, the successor presents an affidavit stating that the probate estate, wherever located, less liens and encumbrances, does not exceed $100,000 and that no personal representative has been appointed or applied for",
+     "phase": "deceased",
+     "citations": [
+      "id-15-3-1201"
+     ]
+    }
+   },
+   "diff": "Same mechanism as the model, at four times the threshold: §15-3-1201(a)(1) sets the ceiling at $100,000, against $25,000 in the uniform text. That puts Idaho level with Washington and Ohio and in the upper middle of this set, which runs from $20,000 in North Carolina and New Jersey to California’s CPI-indexed $208,850 and Louisiana’s $200,000 — a tenfold spread for one mechanism. The waiting period is 30 days, as in the model. The figure is a flat amount with no cost-of-living adjustment, unlike Maine, where §1-108 indexes it. Idaho also offers a second route the model has no counterpart for: under §15-3-1205, where a surviving spouse is the sole devisee or heir, a verified petition and hearing produce a decree that \"shall thereafter have the same effect as a formal decree approving or determining distribution\", with no personal representative appointed and no amount limit at all — so in Idaho the size of the estate is irrelevant where the spouse takes everything.",
+   "citations": [
+    "id-15-3-1201",
+    "id-15-3-1205"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee",
+    "letters of trusteeship"
+   ],
+   "summary": "A trustee or successor trustee of an Idaho-registered trust. Idaho did not enact the Uniform Trust Code: title 15 chapter 7 is the Uniform Probate Code’s article VII, so registration is a statutory duty and a trustee’s authority can be evidenced by court-issued letters of trusteeship rather than by a certification of trust.",
+   "lane": {
+    "assigned": {
+     "event": "Settlor names the successor in the trust terms",
+     "phase": "capable",
+     "citations": [
+      "id-15-7-403"
+     ]
+    },
+    "starts": {
+     "event": "Successor takes office under the trust terms; on application to the court where the trust is registered, and on filing an acceptance of the duties of the office containing the trustee’s oath, the court issues letters of trusteeship evidencing the trustee’s authority, which may be recorded with the county recorder in any county where trust property lies",
+     "phase": "incapacitated",
+     "citations": [
+      "id-15-7-403",
+      "id-15-7-101"
+     ]
+    }
+   },
+   "diff": "This is the role where Idaho is furthest from the model, because the model is built on the Uniform Trust Code and Idaho never enacted it. Title 15 chapter 7 is the Uniform Probate Code’s article VII, \"Trust administration\", with homegrown parts added for trust protectors, purpose trusts and dry trusts. Three consequences. There is no UTC §704 default vacancy rule and no §701 acceptance provision, so when a successor takes office is governed by the trust terms and by chapter 7, not by a statutory list of vacancy events. Registration is a duty, not an option: §15-7-101 says the trustee of a trust administered principally in Idaho \"shall register the trust in the court of this state at the principal place of administration\", a UPC provision most UTC states dropped. And §15-7-403 gives Idaho something no UTC state has — a court-issued credential. On application to the registering court and notice to interested parties, and on the trustee filing an acceptance containing an oath, \"letters of trusteeship shall be issued, evidencing the authority of the trustee\", recordable with the county recorder so that from the time of filing \"notice is imparted to all persons of the contents of such letters of trusteeship\". Where a UTC-state successor trustee proves authority with a certification of trust signed by the trustee, an Idaho trustee can hold a court document of the same character as letters testamentary. Removal grounds are in §15-7-308 and are close to UTC §706 in substance, adding removal where investment performance has been \"persistently and substantially below those of comparable trusts\".",
+   "citations": [
+    "id-15-7-101",
+    "id-15-7-403",
+    "id-15-7-308"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. Idaho enacted RUFADAA in 2016 (SB 1303) and §15-14-104 is uniform §4, including the priority rule: where the online tool lets the user modify or delete the direction at all times, the online-tool direction overrides a contrary direction in a will, trust, power of attorney or other record.",
+   "citations": [
+    "id-15-14-104"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. §15-14-116 carries uniform §16, including the 60-day compliance window, the court order directing compliance, and the requirement that such an order contain a finding that compliance does not violate 18 U.S.C. 2702.",
+   "citations": [
+    "id-15-14-116"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "agent of the donor"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. Idaho enacted the Revised Uniform Anatomical Gift Act in 2007 (SB 1017), and §39-3404(2) is uniform §9: an agent of the donor may make an anatomical gift during the donor’s life \"unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift\". Note that in Idaho the agent’s authority to make a gift comes from the ACPD, whose health-care-agent nomination is itself optional.",
+   "citations": [
+    "id-39-3404",
+    "id-39-4510"
+   ]
+  }
+ ]
+}
