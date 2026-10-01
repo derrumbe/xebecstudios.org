@@ -1,10 +1,8 @@
 # Findings across the set
 
 What the data says when you read it sideways — across jurisdictions rather than down one.
-Every count here is computed from `research/*.json` as built on **2026-10-01**: 24 countries,
-45 jurisdictions, 616 role/jurisdiction rows. The numbers move as jurisdictions are added, so
-regenerate them (`python3 scripts/build.py --write --out /tmp/fx`) rather than trusting this
-page's arithmetic after the set grows.
+The viewer recomputes its headline figures from the data every time it draws this page; the
+counts written into the sections here were current on **2026-10-01**.
 
 Not legal advice, and not a survey: this is what the sourced data supports, nothing wider.
 

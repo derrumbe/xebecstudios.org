@@ -334,18 +334,24 @@
 .der .stat-tile .sv { font-size: 1.7rem; font-weight: 650; line-height: 1.1; }
 .der .stat-tile .sl { font-size: .8rem; color: var(--ink-2); margin-top: .15rem; }
 
-.der .bar-fig { margin: 1.4rem 0 0; }
-.der .bar-fig figcaption { margin: 0 0 .7rem; padding: 0; font-size: .85rem; color: var(--ink-2); }
-/* 2px of surface between neighbours is what separates them — never a stroke on the mark. */
+.der .bar-fig { margin: 1.6rem 0 0; }
+.der .bar-fig figcaption { margin: 0 0 .9rem; padding: 0; font-size: .9rem; color: var(--ink-2); }
+/* 2px of surface between neighbours is what separates them — never a stroke on the mark.
+   The row is taller than the bar, so the extra height is air around the mark rather than a
+   fatter mark: the band's leftover is what makes a long ranked list scannable. */
 .der .bars { display: flex; flex-direction: column; gap: 2px; }
-.der .bar-row { display: grid; grid-template-columns: minmax(9rem, 15rem) 1fr 2.2rem; gap: .7rem; align-items: center; }
-.der .bar-k { font-size: .82rem; color: var(--ink-2); text-align: right; line-height: 1.25; }
+.der .bar-row { display: grid; grid-template-columns: minmax(11rem, 20rem) 1fr 2.4rem; gap: .9rem;
+  align-items: center; min-height: 30px; }
+.der .bar-k { font-size: .95rem; color: var(--ink-2); text-align: right; line-height: 1.3; }
 .der .bar-t { min-width: 0; }
 /* <= 24px thick, 4px rounded data-end, square at the baseline. */
-.der .bar { height: 14px; border-radius: 0 4px 4px 0; background: var(--dormant); opacity: .55; }
+.der .bar { height: 22px; border-radius: 0 4px 4px 0; background: var(--dormant); opacity: .55; }
 .der .bar-row.on .bar { background: var(--accent); opacity: 1; }
-.der .bar-v { font-size: .82rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.der .bar-v { font-size: .95rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
 .der .bar-row.on .bar-k, .der .bar-row.on .bar-v { color: var(--ink); font-weight: 600; }
+/* A hairline every other row, so the eye can cross a long chart from name to value without
+   losing its place. Recessive — the surface a step off, never a gridline over the mark. */
+.der .bar-row:nth-child(even) { background: var(--phase-a); }
 
 /* ---------- findings: read-more sections ---------- */
 .der .f-allbar { margin: .6rem 0 1.4rem; }
@@ -368,5 +374,11 @@
 @media (max-width: 640px) {
   .der .hero-pair { grid-template-columns: 1fr; }
   .der .hero-vs { padding-top: 0; }
-  .der .bar-row { grid-template-columns: minmax(7rem, 11rem) 1fr 2rem; }
+  /* No phone fits "Ordinary financial power of attorney" beside its bar, and squeezing it
+     there wraps the label and makes the rows ragged. Give the name its own line instead. */
+  .der .bar-row { grid-template-columns: 1fr 2.4rem; grid-template-areas: "k k" "t v";
+    row-gap: .2rem; min-height: 0; padding: .4rem .3rem; align-items: center; }
+  .der .bar-k { grid-area: k; text-align: left; }
+  .der .bar-t { grid-area: t; }
+  .der .bar-v { grid-area: v; text-align: right; }
 }
