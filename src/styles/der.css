@@ -288,8 +288,12 @@
 .der .prose h3, .der .prose blockquote, .der .prose hr,
 .der .prose figcaption { max-width: var(--measure); }
 .der .prose h1, .der .prose h2, .der .prose h3 { line-height: 1.25; text-wrap: pretty; }
-.der .prose h1 { font-size: 1.75rem; margin: .2rem 0 .7rem; }
-.der .prose h2 { font-size: 1.3rem; margin: 2.1rem 0 .6rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+/* Section headings carry the page's structure, so they are sized, not weighted. These are
+   set in Instrument Serif, which the site loads as ital@0;1 — no weight axis, only 400 — so
+   a font-weight here would synthesise a fake bold and look worse than nothing. Size and air
+   do the work; the face supplies what weight it has. */
+.der .prose h1 { font-size: 2.15rem; margin: .2rem 0 .8rem; }
+.der .prose h2 { font-size: 1.7rem; margin: 2.6rem 0 .7rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
 .der .prose h1 + h2, .der .prose h2:first-child { border-top: 0; padding-top: 0; margin-top: .8rem; }
 .der .prose h3 { font-size: 1.1rem; margin: 1.4rem 0 .45rem; }
 .der .prose p { margin: .85rem 0; }
