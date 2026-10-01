@@ -273,3 +273,27 @@
 }
 .der .fb-callout p { margin: 0; }
 .der .fb-callout p + p { margin-top: .35rem; font-size: .9rem; color: var(--ink-2); }
+
+/* Findings: cross-jurisdiction prose rendered from the findings.md the build ships
+   in data/. A reading column, narrower than the data tabs, because the content is
+   sentences rather than rows. Colour comes only from the tokens mapped above. */
+.der .prose { max-width: 46rem; }
+.der .prose h1 { font-size: 1.5rem; margin: .2rem 0 .6rem; }
+.der .prose h2 { font-size: 1.12rem; margin: 1.9rem 0 .5rem; padding-top: .9rem; border-top: 1px solid var(--line); }
+.der .prose h1 + h2, .der .prose h2:first-child { border-top: 0; padding-top: 0; margin-top: .8rem; }
+.der .prose h3 { font-size: 1rem; margin: 1.2rem 0 .4rem; }
+.der .prose p { margin: .7rem 0; line-height: 1.62; }
+.der .prose ul, .der .prose ol { margin: .7rem 0 .7rem 1.3rem; padding: 0; }
+.der .prose li { margin: .42rem 0; line-height: 1.58; }
+.der .prose code { background: var(--surface-2); border: 1px solid var(--line); border-radius: 4px;
+  padding: 0 .28em; font-size: .9em; }
+.der .prose hr { border: 0; border-top: 1px solid var(--line); margin: 1.6rem 0; }
+.der .prose > table { margin: 1rem 0 1.3rem; }
+.der .prose blockquote { margin: .9rem 0; padding: .1rem 0 .1rem 1rem; border-left: 3px solid var(--line); }
+.der .prose blockquote p { margin: .35rem 0; color: var(--ink-2); }
+/* The findings tables are read inside flowing prose, not scrolled as data, so their
+   headings do not stick and the body may wrap wider than the reading column. */
+.der .findings-table { width: 100%; }
+.der .findings-table th { position: static; }
+.der .findings-table td:first-child { font-weight: 500; }
+.der .findings-table td, .der .findings-table th { font-size: 13px; line-height: 1.45; }

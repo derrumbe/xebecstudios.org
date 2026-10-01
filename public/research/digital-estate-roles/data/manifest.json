@@ -473,6 +473,19 @@
      "label": "US — Florida"
     },
     {
+     "id": "us-id",
+     "name": "Idaho",
+     "short": "ID",
+     "code": "ID",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-id.json"
+     ],
+     "country": "us",
+     "note": "Idaho is the first jurisdiction in this set with a live/pending split: title 15 chapter 5 carries two regimes in parallel, the existing protective-proceedings law \"[EFFECTIVE UNTIL JANUARY 1, 2027]\" and the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act \"[EFFECTIVE JANUARY 1, 2027]\", enacted by S 1240 (2026, ch. 79). The guardian and conservator rows record the law in force and carry the pending replacement explicitly. Two other things are worth knowing before reading the patches. adoption.json records no Uniform Probate Code enactment for Idaho, but §15-1-101 says \"This act shall be known and may be cited as the uniform probate code\", added 1971 ch. 111 — the ULC bill tracker that adoption.json is built from does not reach back to 1971, so it is a false negative here, the opposite of the Pennsylvania UPOAA case. And Idaho enacted no Uniform Health-Care Decisions Act and no Uniform Trust Code: health care runs on the homegrown advance care planning document of title 39 chapter 45, and trusts on the Uniform Probate Code’s article VII in title 15 chapter 7, which is why those two rows differ most from the baseline.",
+     "label": "US — Idaho"
+    },
+    {
      "id": "us-il",
      "name": "Illinois",
      "short": "IL",
@@ -1010,6 +1023,19 @@
    ],
    "country": "us",
    "label": "US — Florida"
+  },
+  {
+   "id": "us-id",
+   "name": "Idaho",
+   "short": "ID",
+   "code": "ID",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-id.json"
+   ],
+   "country": "us",
+   "note": "Idaho is the first jurisdiction in this set with a live/pending split: title 15 chapter 5 carries two regimes in parallel, the existing protective-proceedings law \"[EFFECTIVE UNTIL JANUARY 1, 2027]\" and the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act \"[EFFECTIVE JANUARY 1, 2027]\", enacted by S 1240 (2026, ch. 79). The guardian and conservator rows record the law in force and carry the pending replacement explicitly. Two other things are worth knowing before reading the patches. adoption.json records no Uniform Probate Code enactment for Idaho, but §15-1-101 says \"This act shall be known and may be cited as the uniform probate code\", added 1971 ch. 111 — the ULC bill tracker that adoption.json is built from does not reach back to 1971, so it is a false negative here, the opposite of the Pennsylvania UPOAA case. And Idaho enacted no Uniform Health-Care Decisions Act and no Uniform Trust Code: health care runs on the homegrown advance care planning document of title 39 chapter 45, and trusts on the Uniform Probate Code’s article VII in title 15 chapter 7, which is why those two rows differ most from the baseline.",
+   "label": "US — Idaho"
   },
   {
    "id": "us-il",
