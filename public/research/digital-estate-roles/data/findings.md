@@ -61,6 +61,15 @@ III requires every provider of an online public communication service to inform 
 happens to their data on death and let them choose whether to pass it to a designated third
 party.
 
+A second duty sits earlier in the lifecycle: art. 48 obliges a controller, when it collects
+someone's data, to inform them of the right to define post-mortem directives at all. So France
+compels both the telling and the offering.
+
+Neither duty is merely declaratory. Art. 16 brings breaches of "la présente loi" within the
+CNIL's sanction competence, and art. 20 IV reaches an injunction carrying an *astreinte* of up
+to 100 000 € per day of delay and an administrative fine of up to 10 million € or 2 % of total
+worldwide annual turnover, whichever is higher. §13 is about where those teeth land.
+
 That is the largest standards opportunity in the data: a legal mandate to provide exactly the
 mechanism a protocol would specify, with no technical form specified anywhere in the statute.
 Anything that interoperates is competing with bespoke per-platform implementations, not with
@@ -305,12 +314,31 @@ and a 2020 arrêté routing rights within one sector. On that evidence the gener
 channel has a statutory container and no machinery — recorded as unverified, since failing to
 find a decree is weaker than reading one.
 
+The mandate is not short of teeth, which is what makes the gap interesting. France built no
+bespoke penalty for art. 85 and needed none: art. 16 gives the CNIL's *formation restreinte*
+competence over failures to meet obligations arising from the GDPR "**et de la présente loi**",
+and art. 85 is in *la présente loi*. That inheritance matters more than it sounds, because
+post-mortem data falls outside the GDPR's material scope — the hook had to be national. From
+there art. 20 IV supplies an injunction to comply with an *astreinte* of up to 100 000 € per day,
+temporary or definitive limitation of the processing, and a fine of up to 10 million € or 2 % of
+total worldwide annual turnover, whichever is higher; the familiar 20 million € / 4 % ceilings are
+reserved by that same article to the cases in GDPR art. 83(5) and (6). Art. 21 allows provisional
+interruption of the processing for up to three months, and Code pénal art. 226-22-2 punishes
+obstructing the CNIL with a year and 15 000 €. Whether any of it has ever been used on art. 85 III
+is a separate question, not established here.
+
+Read against the table above, every one of those instruments attaches to the duty to **offer** the
+choice. None attaches to honouring the designation, and none to making it provable. A provider
+that informs its users and renders a checkbox has complied, while the person they designated still
+arrives at the controller with nothing art. 124 recognises.
+
 The inversion is the finding. The claimant the law most wants to empower, because the deceased
 named them, is the one with no way to prove it; the fallback claimant, who merely has to be
 related, has a centuries-old notarial instrument waiting. **An obligation to offer a choice and
 an ability to act on that choice are different problems, and only the first has been legislated.**
-That is the gap a credential closes, and it is why §3's mandate has not by itself produced
-anything interoperable.
+That is the gap a credential closes. It is also why §3's mandate has not by itself produced
+anything interoperable: not for want of enforcement, but because the enforcement bites somewhere
+else.
 
 ## What this suggests for a standard
 
@@ -335,9 +363,12 @@ anything interoperable.
    that assumes a court artefact excludes a third of the set.
 5. **France is the forcing function, and shows what a mandate alone does not fix.** It is the
    only jurisdiction that requires platforms to offer the mechanism, and it voids terms of
-   service that cut across the user's choice. It still prescribes no way for the person the
-   user designated to prove that later, while prescribing one for the heir — so the obligation
-   exists and the evidence layer does not.
+   service that cut across the user's choice. The duty is backed by the CNIL's ordinary sanction
+   powers — up to 10 million € or 2 % of worldwide turnover, and an astreinte of 100 000 € a day.
+   It still prescribes no way for the person the user designated to prove that later, while
+   prescribing one for the heir — so the obligation exists, is enforceable, and the evidence layer
+   does not exist. A mandate with that much behind it produced no credential, which says the
+   missing piece is not pressure on platforms.
 
 ## Terms used here
 
