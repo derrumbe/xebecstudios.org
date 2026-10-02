@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 45 | **24** |
-| `conservator-estate` | 48 | 21 |
-| `personal-representative-administrator` | 41 | 20 |
-| `anatomical-gift-agent` | 42 | 19 |
-| `financial-poa-durable` | 39 | 17 |
-| `guardian-person` | 39 | 17 |
-| `health-care-agent` | 37 | 14 |
+| `personal-representative-executor` | 46 | **24** |
+| `conservator-estate` | 49 | 21 |
+| `personal-representative-administrator` | 42 | 20 |
+| `anatomical-gift-agent` | 43 | 19 |
+| `financial-poa-durable` | 40 | 17 |
+| `guardian-person` | 40 | 17 |
+| `health-care-agent` | 38 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 19 | **4** |
-| `online-tool-designee` | 17 | **2** |
+| `digital-assets-fiduciary` | 20 | **4** |
+| `online-tool-designee` | 18 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -35,7 +35,7 @@ settled nearly everywhere. It is the means of proving it to a platform.
 ## 2. Three regimes, worldwide, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 15 of 35 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 16 of 36 jurisdictions that record
 it, and all fifteen are France plus the RUFADAA states and the US model layer; the US states
 that have not enacted RUFADAA, Massachusetts and Louisiana, record it false). Italy
 arrives at a nearby place by a different route. The three shapes are not variations — they
@@ -77,7 +77,7 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 24** jurisdictions and **true in 15** — Denmark, Finland,
+`poaDurableByDefault` is **false in 24** jurisdictions and **true in 16** — Denmark, Finland,
 Germany, the Netherlands and Sweden, plus the US model layer and the states that took the
 Uniform Power of Attorney Act: Idaho, Illinois, Maine, Michigan, New York, North Carolina,
 Ohio and Pennsylvania, and Louisiana by an entirely different route. The majority still
@@ -103,7 +103,7 @@ cumulative gates where England and Wales next door needs none for property.
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 and false in 23. The split does not follow legal
+`poaRegistrationBeforeUse` is true in 10 and false in 24. The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
 the Canadian provinces, the Netherlands and Northern Ireland do not.
@@ -117,7 +117,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 28** jurisdictions and **opt-out in 10**. The opt-out set
+`organDonationModel` is **opt-in in 29** jurisdictions and **opt-out in 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
 
@@ -135,10 +135,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 35 | 5 |
-| `benefits-payee` | 29 | 5 |
-| `tax-representative` | 29 | 5 |
-| `veterans-fiduciary` | 22 | 3 |
+| `health-records-representative` | 36 | 5 |
+| `benefits-payee` | 30 | 5 |
+| `tax-representative` | 30 | 5 |
+| `veterans-fiduciary` | 23 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -150,9 +150,21 @@ vests in the heirs at death with no grant and no appointment.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 16 and false in 8. Notably the **US model layer is
-false while six US states are true** — California, Florida, Illinois, New York, Texas and
-Washington — so the uniform acts have not absorbed it, but states have. Ireland's 2015 Act is built on it as the first of three graded tiers; Victoria, British
+`supportedDecisionMakingStatute` is true in 17 and false in 8. Notably the **US model layer is
+false while seven US states are true** — California, Florida, Illinois, New York, Texas, Utah and
+Washington — so the uniform acts have not absorbed it, but states have.
+
+Utah's, enacted in 2025, is the strongest in the set on both of the questions that decide whether
+such a statute does anything. A decision made with a supporter's assistance "shall, for the
+purposes of any provision of law, be recognized as the decision or request of the principal and
+may be enforced on the same basis as a decision or request of the principal without support", and
+a court "may not consider an individual's execution of a supported decision-making agreement as
+evidence of the individual's incapacity" — the two failure modes of a supported-decision regime,
+closed expressly. Utah is also the only jurisdiction here that connects the arrangement to
+anything else: §75A-9-111(2)(g) puts an adult who has routinely assisted the individual with
+supported decision making in the preceding six months into the default health-care surrogate
+priority list, so the informal supporter is promoted into a statutory role rather than left in a
+parallel track. Ireland's 2015 Act is built on it as the first of three graded tiers; Victoria, British
 Columbia, Québec, Italy, Japan, South Korea, India, Brazil and Argentina all have a form.
 
 It is the one place where the canonical vocabulary is still moving, which is a reason to treat
@@ -170,14 +182,17 @@ affidavit, after a short wait. The mechanism is uniform. The threshold is not:
 | Maine (CPI-indexed) | $40,000 |
 | Michigan, New York, Pennsylvania | $50,000 |
 | Florida, Texas | $75,000 |
-| **Idaho**, Ohio, Washington | $100,000 |
+| **Idaho**, Ohio, **Utah**, Washington | $100,000 |
 | Louisiana | $125,000–$200,000 |
 | Illinois | $100,000–$150,000 |
 | California (CPI-indexed) | $208,850 |
 
 The same affidavit, presented to the same kind of custodian, is effective over a range that
 spans an order of magnitude — and two states index the figure to inflation while the rest
-legislate a flat amount that silently erodes.
+legislate a flat amount that silently erodes. Utah shows that the choice is deliberate rather than
+an oversight: §75-1-110 indexes five figures in its probate code to the CPI — the spouse's
+intestate share, the elective share, the homestead allowance, exempt property and the family
+allowance — and the small-estate ceiling is not one of them.
 
 For a protocol the lesson is narrow and useful: **do not encode the threshold.** Whether a
 small-estate claim is good is a question for the law of the decedent's domicile at the date of
@@ -339,6 +354,48 @@ an ability to act on that choice are different problems, and only the first has 
 That is the gap a credential closes. It is also why §3's mandate has not by itself produced
 anything interoperable: not for want of enforcement, but because the enforcement bites somewhere
 else.
+
+## 14. One jurisdiction prescribes how a surrogate proves standing
+
+Section 13 is about a right granted without a way to evidence it. Utah is the other side of that
+coin, and arrived in the set by accident: its 2025 Uniform Health Care Decisions Act prescribes,
+for the claimant whose authority comes from a statutory list rather than from a document, exactly
+what they must produce.
+
+> A responsible health care professional may require an individual who assumes authority to act as
+> a default surrogate to provide a declaration in a record **under penalty of perjury** stating
+> facts and circumstances reasonably sufficient to establish the authority. The Department of
+> Health and Human Services **shall create a uniform form** to be used in accordance with
+> Subsection (3)(a).
+
+Two things make that worth recording. A default surrogate normally has the weakest evidentiary
+position of any role in this data — their authority comes from being someone's spouse or child,
+which no instrument states and no court confirms — and Utah is the only jurisdiction here that
+gives them a prescribed artefact. And the form is specified to exist: a named agency must publish
+it, so the thing a custodian is asked to accept is the same thing every time.
+
+It is not a credential, and the difference is the point. The declaration is **self-asserted**: it
+is the claimant's own statement, backed by a perjury sanction rather than by anyone having checked
+it. Set against section 13, the set now holds three points on one scale:
+
+| | What the claimant produces | Who stands behind it |
+|---|---|---|
+| French designated person | nothing prescribed | — |
+| Utah default surrogate | declaration on a state form | the claimant, under penalty of perjury |
+| French heir | *acte de notoriété* or *livret de famille* | a notary, or the civil register |
+
+The gap a credential fills sits between the second row and the third: verifiable by the recipient
+like a notarial act, but issued as cheaply as a declaration. Nothing in the data occupies that
+position today.
+
+One further Utah detail cuts against how credentials are usually built. Under §75A-9-117 the power
+of an agent or surrogate **commences** when the individual is found to lack capacity, **ceases** if
+capacity is later found or the individual objects to the finding, and **resumes** if the finding is
+confirmed. Authority here is not a window with a start and an end; it oscillates with a clinical
+determination that can be revisited. A credential carrying a validity period cannot express that,
+and one asserting "holder is the surrogate" is making a claim that may be false by the afternoon.
+Whatever a standard does about health care has to treat the authority as a question to be asked at
+the moment of use, not a fact to be cached.
 
 ## What this suggests for a standard
 

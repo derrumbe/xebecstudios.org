@@ -1,0 +1,450 @@
+{
+ "jurisdiction": "us-ut",
+ "name": "Utah",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Probate Code",
+  "Uniform Power of Attorney Act (2006)",
+  "Uniform Health Care Decisions Act",
+  "Revised Uniform Fiduciary Access to Digital Assets Act",
+  "Revised Uniform Anatomical Gift Act",
+  "Uniform Trust Code",
+  "Uniform Directed Trust Act",
+  "Uniform Powers of Appointment Act",
+  "Uniform Fiduciary Income and Principal Act",
+  "Uniform Transfers to Minors Act"
+ ],
+ "note": "Utah recodified in three steps, and the section numbers in any older reference are stale. Title 75 remains the Utah Uniform Probate Code (estates, guardianship and conservatorship, and since 2025 a supported decision-making part). Effective 1 September 2024, Laws 2024 ch. 364 created title 75A, “Fiduciaries”, and moved the Uniform Power of Attorney Act into 75A-2 and the digital-assets act into 75A-6; the Advance Health Care Directive Act was renumbered out of 75-2a on the same date. Title 75B, “Trusts”, took the Uniform Trust Code, and old title 75 chapter 7 was repealed outright on 7 May 2025. The anatomical gift act moved again in the 2023 health-code recodification and is now title 26B chapter 8 part 3. On top of that Utah enacted a new Uniform Health Care Decisions Act in 2025 (Laws 2025 ch. 439, title 75A chapter 9), whose transitional section keys the chapter to 1 January 2026; it is the only jurisdiction in this set on a Uniform Health Care Decisions Act of that generation rather than the 1993 act or home-grown law. Existence of a section was confirmed from the legislature's XML for each title rather than from a page load: le.utah.gov renders statutes client-side and answers 200 with a URL-derived <title> for sections that do not exist.",
+ "citations": [
+  {
+   "id": "ut-75a-2-104",
+   "cite": "Utah Code § 75A-2-104",
+   "title": "Power of attorney is durable",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter2/75A-2-S104.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal.",
+   "note": "Renumbered and amended by Laws 2024 ch. 364, which moved the Uniform Power of Attorney Act out of title 75 into the new title 75A."
+  },
+  {
+   "id": "ut-75a-2-105",
+   "cite": "Utah Code § 75A-2-105",
+   "title": "Execution of power of attorney — acknowledgment required",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter2/75A-2-S105.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A principal may sign a power of attorney, or direct another individual in the principal's conscious presence to sign the principal's name on the power of attorney, if: the power of attorney is signed before a notary public or other individual authorized by the law to take acknowledgments; and the principal has sufficient mental capacity at the time that the power of attorney is executed … If the principal resides or is about to reside in a hospital, assisted living, skilled nursing, or similar facility, at the time of execution of the power of attorney, the principal may not name any agent that is the owner, operator, health care provider, or employee of the … facility unless: the agent is the spouse, legal guardian, or next of kin of the principal; or the agent's authority is strictly limited to the purpose of assisting the principal to establish eligibility for Medicaid. A violation of this Subsection (2) is a violation of Section 76-5-111.4.",
+   "note": "Amended by Laws 2025 ch. 338."
+  },
+  {
+   "id": "ut-75a-2-109",
+   "cite": "Utah Code § 75A-2-109",
+   "title": "When power of attorney is effective",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter2/75A-2-S109.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency. … If a power of attorney becomes effective upon the principal's incapacity and the principal has not authorized a person to determine whether the principal is incapacitated … the power of attorney becomes effective upon a determination in a writing or other record by: a physician that the principal is incapacitated within the meaning of Subsection 75A-2-102(14)(a); or an attorney at law, a judge, or an appropriate governmental official that the principal is incapacitated within the meaning of Subsection 75A-2-102(14)(b). A person authorized by the principal … to determine that the principal is incapacitated may act as the principal's personal representative pursuant to the Health Insurance Portability and Accountability Act … to obtain access to the principal's health care information."
+  },
+  {
+   "id": "ut-75a-2-110",
+   "cite": "Utah Code § 75A-2-110",
+   "title": "Termination of power of attorney or agent's authority",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter2/75A-2-S110.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A power of attorney terminates when: the principal dies; the principal becomes incapacitated, if the power of attorney is not durable; the principal revokes the power of attorney; the power of attorney provides that it terminates; the purpose of the power of attorney is accomplished; or the principal revokes the agent's authority or the agent dies, becomes incapacitated, or resigns, and the power of attorney does not provide for another agent to act. An agent's authority terminates when: the principal revokes the authority; the agent dies, becomes incapacitated, or resigns; an action is filed for the dissolution or annulment of the agent's marriage to the principal or their legal separation, unless the power of attorney otherwise provides; or the power of attorney terminates."
+  },
+  {
+   "id": "ut-75a-9-107",
+   "cite": "Utah Code § 75A-9-107",
+   "title": "Power of attorney for health care — one witness, who may attend by audio",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter9/75A-9-S107.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "An individual may create a power of attorney for health care to appoint an agent to make health care decisions for the individual. … A health care decision made by an agent is effective without judicial approval. A power of attorney for health care must be in a record, signed by the individual creating the power, and signed by an adult witness who: reasonably believes the act of the individual to create the power of attorney is voluntary and knowing; is not: the agent appointed by the individual; the agent's spouse or cohabitant; or … the owner, operator, employee, or contractor of the nursing home or assisted living facility … A witness under Subsection (4) is considered present if the witness and the individual are: physically present in the same location; using electronic means that allow for real time audio and visual transmission …; or able to speak to and hear each other in real time through audio connection if: the identity of the individual is personally known to the witness; or the witness is able to authenticate the identity of the individual …",
+   "note": "Enacted by Laws 2025 ch. 439."
+  },
+  {
+   "id": "ut-75a-9-111",
+   "cite": "Utah Code § 75A-9-111",
+   "title": "Default surrogate — priority classes and proof of authority",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter9/75A-9-S111.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A default surrogate may make a health care decision for an individual who lacks capacity to make health care decisions and for whom an agent, or guardian authorized to make health care decisions, has not been appointed or is not reasonably available. Unless the individual has an advance health care directive that indicates otherwise, a member of the following classes, in descending order of priority, who is reasonably available and not disqualified under Section 75A-9-113, may act as a default surrogate: an adult the individual has identified, other than in a power of attorney for health care …; the individual's spouse unless …; the individual's adult child or parent; the individual's cohabitant; the individual's adult sibling; the individual's adult grandchild or grandparent; an adult not listed in Subsections (2)(a) through (f) who has assisted the individual with supported decision making routinely during the preceding six months; the individual's adult stepchild … whom the individual actively parented …; an adult not listed in Subsections (2)(a) through (h) who has exhibited special care and concern for the individual and is familiar with the individual's personal values; or a physician designated in accordance with Subsection (6). A responsible health care professional may require an individual who assumes authority to act as a default surrogate to provide a declaration in a record under penalty of perjury stating facts and circumstances reasonably sufficient to establish the authority. The Department of Health and Human Services shall create a uniform form to be used in accordance with Subsection (3)(a).",
+   "note": "Enacted by Laws 2025 ch. 439."
+  },
+  {
+   "id": "ut-75a-9-114",
+   "cite": "Utah Code § 75A-9-114",
+   "title": "Revocation of agent, surrogate designation or instruction",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter9/75A-9-S114.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "An individual may revoke the appointment of an agent, the designation of a default surrogate, or a health care instruction in whole or in part, unless: a court finds the individual lacks capacity to do so; or the individual is found under Subsection 75A-9-103(2) to lack capacity … Revocation under Subsection (1) may be by any act of the individual that clearly indicates that the individual intends to revoke the appointment, designation, or instruction, including an oral statement to a health care professional. … Unless otherwise provided in an individual's advance health care directive appointing an agent, the appointment of a spouse of an individual as agent for the individual is revoked if: a petition for annulment, divorce, dissolution of marriage, legal separation, or termination has been filed and not dismissed or withdrawn …",
+   "note": "Enacted by Laws 2025 ch. 439."
+  },
+  {
+   "id": "ut-75a-9-129",
+   "cite": "Utah Code § 75A-9-129",
+   "title": "Transitional provision — the chapter keys to 1 January 2026",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter9/75A-9-S129.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "This chapter applies to an advance health care directive created before, on, or after January 1, 2026.",
+   "note": "Enacted by Laws 2025 ch. 439. The chapter is keyed to 1 January 2026; every section in it carries the same 2025 enactment history."
+  },
+  {
+   "id": "ut-75a-6-104",
+   "cite": "Utah Code § 75A-6-104",
+   "title": "User direction for disclosure of digital assets — online tool overrides",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter6/75A-6-S104.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A user may use an online tool to direct the custodian to disclose or not to disclose to a designated recipient some or all of the user's digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record. If a user has not used an online tool … the user may allow or prohibit in a will, trust, power of attorney, or other record disclosure to a fiduciary … A user's direction under Subsection (1) or (2) overrides a contrary provision in a terms of service agreement that does not require the user to act affirmatively and distinctly from the user's assent to the terms of service.",
+   "note": "Renumbered and amended by Laws 2024 ch. 364."
+  },
+  {
+   "id": "ut-75-3-103",
+   "cite": "Utah Code § 75-3-103",
+   "title": "Necessity of appointment — administration commences with letters",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter3/75-3-S103.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Except as otherwise provided in Title 75, Chapter 4, Foreign Personal Representatives - Ancillary Administration, to acquire the powers and undertake the duties and liabilities of a personal representative of a decedent, a person must be appointed by order of the court or registrar, qualify and be issued letters. Administration of an estate is commenced by the issuance of letters."
+  },
+  {
+   "id": "ut-75-3-601",
+   "cite": "Utah Code § 75-3-601",
+   "title": "Qualification before letters issue",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter3/75-3-S601.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Prior to receiving letters, a personal representative shall qualify by filing with the appointing court any required bond and a statement of acceptance of the duties of the office."
+  },
+  {
+   "id": "ut-75-3-701",
+   "cite": "Utah Code § 75-3-701",
+   "title": "Time of accrual of duties and powers — and pre-appointment authority over the body",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter3/75-3-S701.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "The duties and powers of a personal representative commence upon his appointment. The powers of a personal representative relate back in time to give acts by the person appointed which are beneficial to the estate occurring prior to appointment the same effect as those occurring thereafter. Prior to appointment, a person named executor in a will may carry out written instructions of the decedent relating to his body, funeral, and burial arrangements."
+  },
+  {
+   "id": "ut-75-3-1201",
+   "cite": "Utah Code § 75-3-1201",
+   "title": "Collection of personal property by affidavit — $100,000",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter3/75-3-S1201.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Thirty days after the death of a decedent, any person indebted to the decedent or having possession of tangible personal property … shall pay the indebtedness or deliver the tangible personal property … upon being presented with an affidavit made by or on behalf of the successor stating that: the value of the entire estate subject to administration, wherever located, less liens and encumbrances, does not exceed $100,000; 30 days have elapsed since the death of the decedent; no application or petition for the appointment of a personal representative is pending or has been granted in any jurisdiction; and the claiming successor is entitled to payment or delivery of the property. … The Motor Vehicle Division … shall transfer title of not more than four boats, motor vehicles, trailers, or semitrailers … except that in lieu of that language in Subsection (1)(a), the affidavit shall state that the value of the entire estate … other than those motor vehicles, trailers, or semitrailers … does not exceed $100,000.",
+   "note": "Amended by Laws 2025 ch. 123."
+  },
+  {
+   "id": "ut-75-1-110",
+   "cite": "Utah Code § 75-1-110",
+   "title": "Cost of living adjustment — which amounts are indexed",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter1/75-1-S110.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "The dollar amounts stated in Subsection 75-2-202(2) and Sections 75-2-102, 75-2-402, 75-2-403, and 75-2-405 apply to the estate of a decedent who died in or after 2010, but for the estate of a decedent who died after 2011, these dollar amounts shall be increased or decreased if the CPI for the calendar year immediately preceding the year of death exceeds or is less than the reference base index.",
+   "note": "The indexed list is the spouse's intestate share, the elective share, the homestead allowance, exempt property and the family allowance. Section 75-3-1201 is not among them, so the small-estate affidavit ceiling is a flat figure."
+  },
+  {
+   "id": "ut-75-5-301",
+   "cite": "Utah Code § 75-5-301",
+   "title": "Appointment of guardian for an incapacitated person",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter5/75-5-S301.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "The parent of an incapacitated person may by will, or by written instrument as provided in Section 75-5-202.5, appoint a guardian of the incapacitated person. A testamentary appointment by a parent becomes effective when, after having given seven days' prior written notice … the guardian files acceptance of appointment in the court in which the will is informally or formally probated … The spouse of a married incapacitated person may by will or written instrument appoint a guardian … An effective appointment by a spouse has priority over an appointment by a parent unless it is terminated by the denial of probate in formal proceedings. This state shall recognize a testamentary appointment effected by filing acceptance under a will probated at the testator's domicile in another state."
+  },
+  {
+   "id": "ut-75-5-401",
+   "cite": "Utah Code § 75-5-401",
+   "title": "Protective proceedings — appointment of a conservator",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter5/75-5-S401.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Upon petition and after notice and hearing in accordance with the provisions of this part, the court may appoint a conservator or make other protective order for cause as follows: Appointment of a conservator or other protective order may be made in relation to the estate and affairs of a minor if the court determines that a minor owns money or property that requires management or protection …"
+  },
+  {
+   "id": "ut-75-5-421",
+   "cite": "Utah Code § 75-5-421",
+   "title": "Recording of conservator's letters",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter5/75-5-S421.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Letters of conservatorship are evidence of transfer of all assets of a protected person to the conservator.",
+   "note": "Quoted from the opening of the section; the remainder provides for recording in the county where the protected person owns real property."
+  },
+  {
+   "id": "ut-75-5-704",
+   "cite": "Utah Code § 75-5-704",
+   "title": "Supported decision-making agreement",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter5/75-5-S704.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A supported decision-making agreement under this part is an agreement between a principal and a supporter.",
+   "note": "Enacted by Laws 2025 ch. 533. Quoted from the opening of the section."
+  },
+  {
+   "id": "ut-75-5-708",
+   "cite": "Utah Code § 75-5-708",
+   "title": "Impact of a supported decision-making agreement",
+   "url": "https://le.utah.gov/xcode/Title75/Chapter5/75-5-S708.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A decision or request made or communicated by a principal with the assistance of a supporter in accordance with the terms of a supported decision-making agreement and this part shall, for the purposes of any provision of law, be recognized as the decision or request of the principal and may be enforced on the same basis as a decision or request of the principal without support. The availability of a supported decision-making agreement does not limit the informal use of supported decision making, or preclude judicial consideration of informal supported decision-making arrangements as a less restrictive alternative to a guardianship or conservatorship. Execution of a supported decision-making agreement may not be a condition of participating in any activity, service, or program. A court may not consider an individual's execution of a supported decision-making agreement as evidence of the individual's incapacity. The existence of a supported decision-making agreement does not preclude the principal from acting independently of the supported decision-making agreement.",
+   "note": "Enacted by Laws 2025 ch. 533."
+  },
+  {
+   "id": "ut-75b-2-701",
+   "cite": "Utah Code § 75B-2-701",
+   "title": "Accepting or declining trusteeship",
+   "url": "https://le.utah.gov/xcode/Title75B/Chapter2/75B-2-S701.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Except as otherwise provided in Subsection (3), a person designated as trustee accepts the trusteeship: by substantially complying with a method of acceptance provided in the terms of the trust; or if the terms of the trust do not provide a method or the method provided in the terms is not expressly made exclusive, by accepting delivery of the trust property, exercising powers or performing duties as trustee, or otherwise indicating acceptance of the trusteeship. A person designated as trustee who has not yet accepted the trusteeship may reject the trusteeship. A designated trustee who does not accept the trusteeship within a reasonable time after knowing of the designation is considered to have rejected the trusteeship.",
+   "note": "Renumbered and amended by Laws 2025 ch. 310, which moved the Uniform Trust Code into the new title 75B."
+  },
+  {
+   "id": "ut-75b-2-1013",
+   "cite": "Utah Code § 75B-2-1013",
+   "title": "Certification of trust",
+   "url": "https://le.utah.gov/xcode/Title75B/Chapter2/75B-2-S1013.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Instead of furnishing a copy of the trust instrument to a person other than a beneficiary, the trustee may furnish to the person a certification of trust containing the following information: that the trust exists and the date the trust instrument was executed; the identity of the settlor; the identity and address of the currently acting trustee; the powers of the trustee in the pending transaction; the revocability or irrevocability of the trust and the identity of any person holding a power to revoke the trust; the authority of cotrustees …; and the name in which title to trust property may be taken.",
+   "note": "Renumbered and amended by Laws 2025 ch. 310."
+  },
+  {
+   "id": "ut-26b-8-303",
+   "cite": "Utah Code § 26B-8-303",
+   "title": "Who may make an anatomical gift before the donor's death",
+   "url": "https://le.utah.gov/xcode/Title26B/Chapter8/26B-8-S303.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Subject to Section 26B-8-307, an anatomical gift of a donor's body or part may be made during the life of the donor for the purpose of transplantation, therapy, research, or education in the manner provided in Section 26B-8-304 by: the donor, if the donor is an adult or if the donor is a minor and is [emancipated or of the age to apply for a driver licence] …",
+   "note": "Renumbered and amended by Laws 2023 ch. 306, the recodification of the health code into title 26B."
+  },
+  {
+   "id": "ut-26b-8-308",
+   "cite": "Utah Code § 26B-8-308",
+   "title": "Who may make an anatomical gift of a decedent's body or part",
+   "url": "https://le.utah.gov/xcode/Title26B/Chapter8/26B-8-S308.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Subject to Subsections (2) and (3) and unless barred by Section 26B-8-306 or 26B-8-307, an anatomical gift of a decedent's body or part for purpose of transplantation, therapy, research, or education may be made by any member of the following classes of persons who is reasonably available, in the order of priority listed: an agent of the decedent at the time of death who could have made an anatomical gift under Subsection 26B-8-303(2) immediately before the decedent's death; the spouse of the decedent; adult children of the decedent; parents of the decedent; adult siblings of the decedent; adult grandchildren of the decedent; grandparents of the decedent …",
+   "note": "Renumbered and amended by Laws 2023 ch. 306."
+  },
+  {
+   "id": "ut-26b-8-319",
+   "cite": "Utah Code § 26B-8-319",
+   "title": "Donor registry",
+   "url": "https://le.utah.gov/xcode/Title26B/Chapter8/26B-8-S319.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "The Department of Public Safety may establish or contract for the establishment of a donor registry. The Driver License Division of the Department of Public Safety shall cooperate with a person that administers any donor registry that this state establishes, contracts for, or recognizes for the purpose of transferring to the donor registry all relevant information regarding a donor's making, amendment to, or revocation of an anatomical gift.",
+   "note": "Renumbered and amended by Laws 2023 ch. 306."
+  },
+  {
+   "id": "ut-75a-9-117",
+   "cite": "Utah Code § 75A-9-117",
+   "title": "Powers of agent and default surrogate — when they commence, cease and resume",
+   "url": "https://le.utah.gov/xcode/Title75A/Chapter9/75A-9-S117.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Except as provided in Subsection (3), the power of an agent or default surrogate commences when the individual is found under Subsection 75A-9-103(2) or by a court to lack capacity to make a health care decision. The power ceases if the individual later is found to have capacity to make a health care decision, or the individual objects under Subsection 75A-9-104(3) to the finding of lack of capacity … The power resumes if: the power ceased because the individual objected …; and the finding of lack of capacity is confirmed … or a court finds that the individual lacks capacity …",
+   "note": "Enacted by Laws 2025 ch. 439."
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "agent under a durable power of attorney",
+    "attorney-in-fact"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline on durability. §75A-2-104 is uniform §104 in one sentence — a power created under the chapter “is durable unless it expressly provides that it is terminated by the incapacity of the principal” — so durability is opted out of, not into. Two Utah departures sit at execution rather than in the lane. §75A-2-105 makes acknowledgment before a notary public or other officer authorised to take acknowledgments a condition of signing, where the uniform act only presumes a signature genuine if it is acknowledged; and the same section forbids naming the owner, operator, health care provider or employee of a hospital, assisted living, skilled nursing or similar facility the principal lives in or is about to live in, unless that person is the principal's spouse, legal guardian or next of kin, or the authority is strictly limited to establishing Medicaid eligibility. A violation is a criminal offence under §76-5-111.4, which is a sharper sanction than any other state in this set attaches to the choice of agent. The act now sits in title 75A rather than title 75, renumbered by Laws 2024 ch. 364.",
+   "citations": [
+    "ut-75a-2-104",
+    "ut-75a-2-105",
+    "ut-75a-2-110"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "nondurable power of attorney"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. A non-durable power is the exception Utah requires express words for: under §75A-2-104 the instrument must say it terminates on the principal's incapacity, and §75A-2-110(1)(b) then ends it at that point. §75A-2-110(5) protects an agent or third party who acts in good faith without actual knowledge of the incapacity.",
+   "citations": [
+    "ut-75a-2-104",
+    "ut-75a-2-110"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney",
+    "contingent power of attorney"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline, with the uniform two-track determination spelled out. §75A-2-109 makes a power effective when executed unless the principal defers it to a future date, event or contingency. Where it springs on incapacity and the principal named nobody to decide, or that person will not act, the trigger is a written determination by a physician for incapacity in the clinical sense, or by an attorney at law, a judge or an appropriate governmental official for the alternative limb of the definition — so a lawyer or judge, not only a clinician, can start the authority. Utah then adds something the uniform act does not: the person authorised to make that determination may act as the principal's HIPAA personal representative to obtain the health information the determination depends on, which closes the circularity of needing medical records to establish the incapacity that unlocks the power.",
+   "citations": [
+    "ut-75a-2-109"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under a power of attorney for health care",
+    "advance health care directive"
+   ],
+   "summary": "An agent appointed in a power of attorney for health care under Utah's 2025 Uniform Health Care Decisions Act. One adult witness, who may attend by video or even by audio alone if the individual's identity can be authenticated; no notarisation. The agent's decisions need no court approval.",
+   "diff": "Utah replaced its Advance Health Care Directive Act with a new Uniform Health Care Decisions Act in 2025 (Laws 2025 ch. 439, §§75A-9-101 to 129), whose transitional section applies the chapter to a directive created before, on or after 1 January 2026. Appointment is by a power of attorney for health care under §75A-9-107: a record signed by the individual and by one adult witness who reasonably believes the act is voluntary and knowing, and who is not the agent, the agent's spouse or cohabitant, or staff of the facility the individual is in. No notarisation is required. The witness need not be in the room: presence is satisfied by real-time audio and video, or by audio alone where the witness personally knows the individual or can authenticate their identity from their answers — the most permissive witnessing rule in this set, and a deliberate accommodation of remote execution. A decision by the agent is effective without judicial approval. Revocation under §75A-9-114 may be by any act clearly indicating the intent, including an oral statement to a health care professional, and a spouse's appointment is revoked automatically once a divorce, annulment, separation or termination petition is filed and not withdrawn.",
+   "citations": [
+    "ut-75a-9-107",
+    "ut-75a-9-114",
+    "ut-75a-9-129",
+    "ut-75a-9-117"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "default surrogate"
+   ],
+   "summary": "The person who may make health care decisions where no agent or authorised guardian is available, taken in statutory order of priority. Utah's list runs to ten classes, includes a supported decision-making supporter of the previous six months, and may be evidenced by a declaration under penalty of perjury on a state form.",
+   "diff": "Utah's ladder is the longest in this set and the only one that reaches a supported decision-making supporter. Under §75A-9-111 a default surrogate may decide for an individual who lacks capacity and for whom no agent or health-care-authorised guardian has been appointed or is reasonably available. The classes, in order, are an adult the individual identified outside a power of attorney for health care; the spouse, subject to divorce, separation and a year's wilful desertion cutting them out; an adult child or parent; the cohabitant; an adult sibling; an adult grandchild or grandparent; an adult who has routinely assisted the individual with supported decision making in the preceding six months; an actively parented adult stepchild; an adult who has shown special care and concern and knows the individual's values; and finally a designated physician. Two things follow. Utah is the only jurisdiction here where the informal supporter of a supported decision-making arrangement is promoted into the surrogate hierarchy by statute, which ties §75-5-704 to the health-care chapter rather than leaving them as parallel regimes. And Utah prescribes how a surrogate proves standing: a responsible health care professional may require a declaration in a record under penalty of perjury setting out facts sufficient to establish the authority, on a uniform form the Department of Health and Human Services must create. Most jurisdictions in this set leave a default surrogate's standing to be asserted and accepted informally.",
+   "citations": [
+    "ut-75a-9-111",
+    "ut-75a-9-114",
+    "ut-75-5-708",
+    "ut-75a-9-117"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of an incapacitated person"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline: appointment is by the court on petition, after notice and hearing, under title 75 chapter 5 part 3. Utah has not enacted the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act, so the structure is Uniform Probate Code article V rather than the 2017 act. §75-5-301 also keeps the older nomination route the model does not carry: a parent, or the spouse of a married incapacitated person, may appoint a guardian by will or by written instrument, and the appointment takes effect when the nominee files an acceptance with the court after seven days' written notice to the incapacitated person and to whoever cares for or lives with them — a spouse's appointment outranking a parent's. Utah recognises such an appointment made under a will probated at the testator's domicile in another state.",
+   "citations": [
+    "ut-75-5-301"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "letters of conservatorship"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. §75-5-401 is the Uniform Probate Code protective-proceeding structure: the court may appoint a conservator or make another protective order on petition after notice and hearing. The detail worth recording is evidentiary rather than procedural — §75-5-421 makes letters of conservatorship evidence of the transfer of all the protected person's assets to the conservator, and provides for recording them where the protected person owns real property. Utah is therefore a second jurisdiction in this set, alongside Idaho's letters of trusteeship, where a fiduciary's authority is carried by a recordable court-issued instrument rather than by the fiduciary's own certification.",
+   "citations": [
+    "ut-75-5-401",
+    "ut-75-5-421"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "personal representative",
+    "letters"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline, and the grant is called letters. §75-3-103 is explicit that to acquire the powers of a personal representative a person must be appointed by order of the court or registrar, qualify, and be issued letters, and that administration is commenced by the issuance of letters. Qualification under §75-3-601 is filing any required bond and a statement accepting the duties of the office, so the sequence is appointment, qualification, letters. §75-3-701 commences duties and powers on appointment and relates them back to validate beneficial acts done before it. One authority exists before any of that: a person named executor in a will may carry out the decedent's written instructions about their body, funeral and burial prior to appointment — a narrow pre-grant power over the disposition of remains that the model layer does not carry.",
+   "citations": [
+    "ut-75-3-103",
+    "ut-75-3-601",
+    "ut-75-3-701"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "personal representative",
+    "letters"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline, and on the same footing as the executor: §75-3-103 requires appointment, qualification and the issuance of letters whether or not there is a will, and administration commences with the letters. The pre-appointment authority over body, funeral and burial arrangements in §75-3-701 is confined to a person named executor in a will, so it does not reach an administrator in intestacy.",
+   "citations": [
+    "ut-75-3-103",
+    "ut-75-3-601",
+    "ut-75-3-701"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "affidavit of successor",
+    "collection of personal property by affidavit"
+   ],
+   "diff": "Utah's ceiling is $100,000 of the entire estate subject to administration wherever located, less liens and encumbrances, available 30 days after death where no personal representative has been appointed or applied for anywhere (§75-3-1201). That is level with Idaho, Ohio and Washington and ten times North Carolina's and New Jersey's. Two Utah particulars. The figure is flat, not indexed: §75-1-110 indexes the spouse's intestate share, the elective share, the homestead allowance, exempt property and the family allowance to the CPI, and §75-3-1201 is not in that list, so Utah sits with the fixed-threshold states rather than with California and Maine. And the cap is applied twice over for vehicles: the Motor Vehicle Division will transfer up to four vehicles, boats, trailers or semitrailers on an affidavit that the rest of the estate, excluding those vehicles, is under $100,000 — so the vehicles do not count against the ceiling they are transferred under. Water company shares transferred under other law are excluded from the part altogether.",
+   "citations": [
+    "ut-75-3-1201",
+    "ut-75-1-110"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee",
+    "certification of trust"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline, in a new home. The Uniform Trust Code moved to title 75B chapter 2 and old title 75 chapter 7 was repealed on 7 May 2025, so a citation to 75-7-xxx is now to a repealed chapter. §75B-2-701 is uniform §701: acceptance is by substantially complying with any method the trust sets, or otherwise by accepting delivery of trust property, exercising powers, performing duties or otherwise indicating acceptance, and a designated trustee who does not accept within a reasonable time of learning of the designation is treated as having rejected. Authority is evidenced by the trustee's own certification of trust under §75B-2-1013 rather than by any court instrument.",
+   "citations": [
+    "ut-75b-2-701",
+    "ut-75b-2-1013"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. §75A-6-104 is uniform §4: an online tool direction overrides a contrary direction in a will, trust, power of attorney or other record, provided the tool lets the user modify or delete the direction at all times, and any such direction overrides a terms-of-service provision that does not require the user to act affirmatively and distinctly from assenting to the terms. The act was renumbered into title 75A chapter 6 by Laws 2024 ch. 364.",
+   "citations": [
+    "ut-75a-6-104"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "conservator",
+    "agent",
+    "trustee"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. The disclosure provisions sit at §§75A-6-106 to 114 in the same order as the uniform act, with the user's direction under §75A-6-104 controlling where one was given. Renumbered into title 75A chapter 6 by Laws 2024 ch. 364.",
+   "citations": [
+    "ut-75a-6-104"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "agent",
+    "donor",
+    "document of gift"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline, after two renumberings. The Revised Uniform Anatomical Gift Act is now title 26B chapter 8 part 3, moved there by the 2023 health-code recodification (Laws 2023 ch. 306), so any citation to title 26 chapter 28 is stale. §26B-8-303 lets the donor, or an agent of the donor, make a gift during life, and §26B-8-308 puts an agent who could have made the gift immediately before death first in the order of priority after death, ahead of the spouse. §26B-8-319 authorises the Department of Public Safety to establish or contract for a donor registry, with the Driver License Division passing on each making, amendment or revocation — so Utah's register is opt-in and driver-licence fed, consistent with the rest of the US layer.",
+   "citations": [
+    "ut-26b-8-303",
+    "ut-26b-8-308",
+    "ut-26b-8-319"
+   ]
+  }
+ ]
+}
