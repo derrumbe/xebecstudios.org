@@ -1,0 +1,495 @@
+{
+ "jurisdiction": "us-de",
+ "name": "Delaware",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Health-Care Decisions Act (2023)",
+  "Durable Personal Powers of Attorney Act (Uniform Power of Attorney Act structure, 2010)",
+  "Uniform Anatomical Gift Act (pre-2006)",
+  "Uniform Adult Guardianship and Protective Proceedings Jurisdiction Act",
+  "Uniform TOD Security Registration Act",
+  "Delaware Uniform Transfers to Minors Act"
+ ],
+ "note": "Delaware is the most uniform-act-resistant state in this set on property and succession, and the earliest adopter of the newest uniform act on health care. It has no Uniform Probate Code, no Uniform Trust Code (title 12 chapter 35 is Delaware's own body of trust law), no Uniform Guardianship act beyond the jurisdictional one, and no Revised Uniform Fiduciary Access to Digital Assets Act — yet title 16 chapter 25 is the Uniform Health-Care Decisions Act (2023), in force since 84 Del. Laws c. 467 (2024).\n\nThe digital-assets chapter is the reason to read this file. Delaware legislated in 2014, before RUFADAA existed, and never replaced its act: title 12 chapter 50 is the Fiduciary Access to Digital Assets and Digital Accounts Act, seven sections against the uniform act's eighteen, with no online tool and no designated recipient. Its default is the inverse of RUFADAA's — the fiduciary controls everything unless a governing instrument or court order says otherwise — and § 5004 goes further than any other provision in this set by voiding an end-user licence limitation as against the strong public policy of the State and making a choice-of-law clause unenforceable where it would import a law that enforces one.\n\nTwo power-of-attorney chapters coexist, but unlike Oklahoma's they divide by purpose rather than by vintage: § 49A-103 sends business and commercial powers, powers coupled with an interest, health-care powers and entity proxies to chapter 49, keeping chapter 49A for personal powers. Chapter 49A borrows the uniform act's numbering and reverses its central rule, § 49A-104 making a power durable only if it says so.\n\nSourcing note: delcode.delaware.gov is server-rendered and serves a whole chapter per page, so each citation points at the chapter or subchapter page that carries the section quoted; every URL here was checked to contain its section. Larger chapters are split into subchapters and the chapter page is then a few hundred characters of navigation, which is the tell.",
+ "citations": [
+  {
+   "id": "de-12-5001",
+   "cite": "12 Del. C. § 5001",
+   "title": "Short title — Fiduciary Access to Digital Assets and Digital Accounts Act",
+   "url": "https://delcode.delaware.gov/title12/c050/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "This chapter may be cited as the “Fiduciary Access to Digital Assets and Digital Accounts Act.”",
+   "note": "79 Del. Laws, c. 416 (2014). Delaware legislated before the uniform act existed and never replaced its own: the chapter runs to seven sections, §§ 5001 to 5007, against RUFADAA's eighteen, and contains no online tool and no designated recipient."
+  },
+  {
+   "id": "de-12-5004",
+   "cite": "12 Del. C. § 5004",
+   "title": "Control of digital assets by a fiduciary — EULA limits void, choice of law unenforceable",
+   "url": "https://delcode.delaware.gov/title12/c050/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) Except as otherwise provided by a governing instrument or court order, a fiduciary may exercise control over any and all rights in digital assets and digital accounts of an account holder, to the extent permitted under applicable state or federal law, including copyright law, or regulations or any end user license agreement. (b) If a provision in an end user license agreement limits a fiduciary's access to or control over a digital asset or digital account of an account holder, the provision is void as against the strong public policy of this State, unless the account holder has agreed to the provision by an affirmative act separate from the account holder's assent to other provisions of the end user license agreement. (c) A choice-of-law provision in an end user license agreement is unenforceable against a fiduciary action under this chapter to the extent the provision designates law that enforces or would enforce a limitation on a fiduciary's access to or control over a digital asset or digital account."
+  },
+  {
+   "id": "de-12-5005",
+   "cite": "12 Del. C. § 5005",
+   "title": "Recovery of digital assets from a custodian — deemed consent and authorised user",
+   "url": "https://delcode.delaware.gov/title12/c050/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) A fiduciary with authority over digital assets or digital accounts of an account holder under this chapter shall have the same access as the account holder, and is deemed to: (1) Have the lawful consent of the account holder; and (2) Be an authorized agent or user under all applicable state and federal law and regulations and any end user license agreement. (b) Upon receipt of a valid written request … a custodian shall provide the fiduciary the applicable access, transfer, copy, or destruction of the digital asset or digital account, unless it would be technologically impracticable …"
+  },
+  {
+   "id": "de-12-49a-101",
+   "cite": "12 Del. C. § 49A-101",
+   "title": "Short title — Durable Personal Powers of Attorney Act",
+   "url": "https://delcode.delaware.gov/title12/c049a/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "This chapter may be cited as the “Durable Personal Powers of Attorney Act.”",
+   "note": "77 Del. Laws, c. 467 (2010). The chapter takes the Uniform Power of Attorney Act's section numbering (101 short title, 102 definitions, 104 durability, 109 effectiveness, 110 termination) without taking its durability default."
+  },
+  {
+   "id": "de-12-49a-103",
+   "cite": "12 Del. C. § 49A-103",
+   "title": "Applicability — which powers fall to chapter 49 instead",
+   "url": "https://delcode.delaware.gov/title12/c049a/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) This chapter shall not apply to any of the following powers of attorney which, if durable, shall be governed by Chapter 49 of this title … (1) A power of attorney given primarily for a business or commercial purpose; (2) A power of attorney to the extent it is coupled with an interest in the subject of the power; (3) A power of attorney given to or for the benefit of a creditor …; (4) A power of attorney to make health-care decisions; (5) A proxy or other delegation to exercise voting rights or management rights with respect to a corporation, partnership …; (6) A power of attorney created on a form prescribed by a government or governmental subdivision, agency …"
+  },
+  {
+   "id": "de-12-49a-104",
+   "cite": "12 Del. C. § 49A-104",
+   "title": "Power of attorney is durable — only if it says so",
+   "url": "https://delcode.delaware.gov/title12/c049a/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A power of attorney is durable if it contains the words: “This power of attorney shall not be affected by the subsequent incapacity of the principal,” or “This power of attorney shall become effective upon the incapacity of the principal,” or similar words showing the intent of the principal that the authority conferred shall be exercisable notwithstanding the principal's subsequent incapacity.",
+   "note": "The inverse of uniform § 104, which makes a power durable unless it expressly provides otherwise."
+  },
+  {
+   "id": "de-12-49a-105",
+   "cite": "12 Del. C. § 49A-105",
+   "title": "Execution — notarial officer and a disinterested adult witness",
+   "url": "https://delcode.delaware.gov/title12/c049a/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) A personal power of attorney must be: (1) In writing; (2) Signed by the principal or by another person subscribing the principal's name in the principal's presence and at the principal's express direction; (3) Dated; (4) Signed in the presence of a notarial officer; and (5) Signed in the presence of 1 adult witness who is neither: a. Related to the principal by blood, marriage, or adoption; nor b. Entitled to any portion of the estate of the principal under the principal's then existing will or codicil or amendment thereto or trust instrument. (b) A personal power of attorney may be accompanied by a notice in the following form, signed by the principal … In the absence of a signed notice, upon a challenge to the authority of an agent to act under the personal power of attorney, the agent shall have the burden of demonstrating that the personal power of attorney is valid."
+  },
+  {
+   "id": "de-12-49a-109",
+   "cite": "12 Del. C. § 49A-109",
+   "title": "When a personal power of attorney becomes effective",
+   "url": "https://delcode.delaware.gov/title12/c049a/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) A personal power of attorney is effective when executed unless the principal provides in the personal power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency. … (c) If a personal power of attorney becomes effective upon the principal's incapacity and the principal has not authorized a person or persons to determine whether the principal is incapacitated, or the person or persons authorized is or are unable or unwilling to make the determination, the personal power of attorney becomes effective upon a determination in a writing or other record by a physician or by the Court of Chancery or other court of competent jurisdiction."
+  },
+  {
+   "id": "de-12-49a-110",
+   "cite": "12 Del. C. § 49A-110",
+   "title": "Termination of a personal power of attorney or the agent's authority",
+   "url": "https://delcode.delaware.gov/title12/c049a/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) A personal power of attorney terminates when: (1) The principal dies; (2) The principal revokes the personal power of attorney; (3) A terminating event set forth in the personal power of attorney occurs; (4) The purpose of the personal power of attorney is accomplished; (5) The principal revokes the agent's authority or the agent dies, becomes incapacitated, or resigns, and the personal power of attorney does not provide for another agent to act; or (6) The personal power of attorney is revoked by order of the Court of Chancery … (b) An agent's authority terminates when: (1) The principal revokes the authority; (2) The agent dies, becomes incapacitated, or resigns; (3) An action is filed for the dissolution or annulment of the agent's marriage to the principal, unless the personal power of attorney otherwise provides; or (4) The personal power of attorney terminates.",
+   "note": "Incapacity of the principal is not in the list, because a power that is not durable under § 49A-104 never became exercisable past it in the first place."
+  },
+  {
+   "id": "de-12-1501",
+   "cite": "12 Del. C. § 1501",
+   "title": "Necessity for letters testamentary or of administration",
+   "url": "https://delcode.delaware.gov/title12/c015/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Necessity for letters testamentary or of administration.",
+   "note": "Quoted from the section heading. Delaware names the grant for the capacity in which it is held, as Oklahoma does: letters testamentary under § 1502, letters of administration under § 1504."
+  },
+  {
+   "id": "de-12-1502",
+   "cite": "12 Del. C. § 1502",
+   "title": "Grant of letters testamentary",
+   "url": "https://delcode.delaware.gov/title12/c015/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Grant of letters testamentary.",
+   "note": "Quoted from the section heading; the grant is made by the Register of Wills, not a court of general jurisdiction."
+  },
+  {
+   "id": "de-12-1504",
+   "cite": "12 Del. C. § 1504",
+   "title": "Grant of letters of administration",
+   "url": "https://delcode.delaware.gov/title12/c015/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Grant of letters of administration.",
+   "note": "Quoted from the section heading."
+  },
+  {
+   "id": "de-12-2306",
+   "cite": "12 Del. C. § 2306",
+   "title": "Distribution without letters where assets do not exceed $50,000",
+   "url": "https://delcode.delaware.gov/title12/c023/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) The spouse of a decedent or any person who is a grandparent of the decedent, a lineal descendant of a grandparent of the decedent, the personal representative of any of the foregoing who may be deceased, or the guardian or trustee of any of the foregoing who may be incapacitated, or the trustee of a trust created by the decedent, a funeral director licensed in this State, or the named executor or executors in the decedent's will … shall be entitled to the personal estate of the decedent for the purpose of making distribution … without awaiting the appointment of a personal representative or probate of a will upon executing an affidavit attesting … (1) No petition for the appointment of a personal representative is pending or has been granted. (2) Thirty days have elapsed since the death of the decedent. (3) The value of the personal estate of the decedent other than property described in § 1901(b) and (c) of this title and other than jointly owned property, does not exceed $50,000. (4) All known debts of the decedent are paid or provided for. (5) The surviving spouse's allowance, pursuant to § 2308 of this title, has been paid, provided for, waived or has expired …"
+  },
+  {
+   "id": "de-12-2307",
+   "cite": "12 Del. C. § 2307",
+   "title": "Effect of distribution without letters — and compelling a holder who refuses",
+   "url": "https://delcode.delaware.gov/title12/c023/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) The person making payment, delivery, transfer or issuance pursuant to the affidavit described in § 2306 of this title shall be released to the same extent as if made to the personal representative of the decedent … (b) If the person to whom an affidavit is delivered pursuant to § 2306 of this title refuses to pay, deliver, transfer or issue the property, it may be recovered or compelled in an action brought in the Court of Chancery for such purposes by or on behalf of the distributees entitled thereto, upon proof of the facts required to be stated in the affidavit."
+  },
+  {
+   "id": "de-16-2501",
+   "cite": "16 Del. C. § 2501",
+   "title": "Short title — Uniform Health-Care Decisions Act (2023)",
+   "url": "https://delcode.delaware.gov/title16/c025/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "This chapter may be cited as the “Uniform Health-Care Decisions Act (2023).”",
+   "note": "84 Del. Laws, c. 467 (2024), in force. Delaware is the earliest of the three jurisdictions in this set on the 2023 revision of the act."
+  },
+  {
+   "id": "de-16-2508",
+   "cite": "16 Del. C. § 2508",
+   "title": "Power of attorney for health care — disqualification and witnessing",
+   "url": "https://delcode.delaware.gov/title16/c025/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(b) An individual is disqualified from acting as agent … if any of the following apply: (1) A court finds that the potential agent poses a danger to the individual's well-being … (2) The potential agent is an owner, operator, employee, or contractor of a nursing home or long-term care facility in which the individual resides … (3) The individual has a pending protection from abuse petition against the potential agent. (4) The individual has a protection from abuse order against the potential agent. (5) The potential agent is the subject of a civil or criminal order prohibiting or limiting contact with the individual. (c) A health-care decision made by an agent is effective without judicial approval. (d) A power of attorney for health care must be in a record, signed by the individual creating the power, and signed by an adult witness who … (e) A witness … is considered present if the witness and the individual are any of the following: (1) Physically present in the same location. (2) Using electronic means that allow for real time audio and visual transmission … (3) Able to speak to and hear each other in real time through audio connection if the identity of the individual is personally known to the witness or the witness is able to authenticate the identity of the individual by receiving accurate answers from the individual …"
+  },
+  {
+   "id": "de-16-2512",
+   "cite": "16 Del. C. § 2512",
+   "title": "Default surrogate — nine classes, and a declaration under penalty of perjury",
+   "url": "https://delcode.delaware.gov/title16/c025/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(b) … a member of any of the following classes, in descending order of priority … (1) An adult the individual has identified, other than in a power of attorney for health care … (2) The individual's spouse or domestic partner, unless … (3) The individual's adult child or parent. (4) The individual's cohabitant. (5) The individual's adult sibling. (6) The individual's adult grandchild or grandparent. (7) An adult not listed in paragraphs (b)(1) through (b)(6) of this section who has assisted the individual with supported decision making routinely during the preceding 6 months. (8) The individual's adult stepchild … whom the individual actively parented … (9) An adult not listed in paragraphs (b)(1) through (b)(8) of this section who has exhibited special care and concern for the individual and is familiar with the individual's personal values. (c) A responsible health-care professional may require an individual who assumes authority to act as a default surrogate to provide a declaration in a record under penalty of perjury stating facts and circumstances reasonably sufficient to establish the authority. … (e) A health-care decision made by a default surrogate is effective without judicial approval.",
+   "note": "The list stops at nine classes: unlike Utah's otherwise identical provision there is no designated physician of last resort, and unlike Utah § 75A-9-111(3) no agency is required to publish a form for the declaration."
+  },
+  {
+   "id": "de-16-2518",
+   "cite": "16 Del. C. § 2518",
+   "title": "Powers of agent and default surrogate — commence, cease, resume",
+   "url": "https://delcode.delaware.gov/title16/c025/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) Except as provided in subsection (c) of this section, the power of an agent or default surrogate commences when the individual is found under § 2504(b) of this title or by a court to lack capacity to make a health-care decision. The power ceases if the individual later is found to have capacity to make a health-care decision, or the individual objects under § 2505(c) of this title to the finding of lack of capacity … The power resumes if both of the following: (1) The power ceased because the individual objected … (2) The finding of lack of capacity is confirmed … or a court finds that the individual lacks capacity …"
+  },
+  {
+   "id": "de-16-2711",
+   "cite": "16 Del. C. § 2711",
+   "title": "Persons who may execute an anatomical gift",
+   "url": "https://delcode.delaware.gov/title16/c027/sc02/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) Any individual of sound mind and 18 years of age or more or an agent of such an individual … may give all or any part of the individual's body for any purposes specified in § 2712 of this title, the gift to take effect upon the donor's death. … (c) Any of the following persons, who are reasonably available, in order of priority stated, when persons in prior classes are not available at the time of death and in the absence of known objections by the decedent or by a member of the same or a prior class, may give all or any part of the decedent's body … (1) An agent of the decedent; (2) The spouse of the decedent (unless a petition for divorce has been filed); (3) An adult child of the decedent; (4) A parent of the decedent; (5) …"
+  },
+  {
+   "id": "de-16-2718",
+   "cite": "16 Del. C. § 2718",
+   "title": "Short title — Uniform Anatomical Gift Act",
+   "url": "https://delcode.delaware.gov/title16/c027/sc02/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "This subchapter may be cited as the “Uniform Anatomical Gift Act.”",
+   "note": "Not the Revised act of 2006: the subchapter carries the older structure (§ 2711 persons who may execute, § 2713 manner, § 2715 amendment or revocation, § 2716 rights and duties at death) and has no section establishing a donor registry, no refusal provision in the Revised act's sense and no preclusive-effect section. A donor registry is referred to in the definition of a document of gift and in § 2721, but chapter 27 does not establish one."
+  },
+  {
+   "id": "de-12-3901",
+   "cite": "12 Del. C. § 3901",
+   "title": "Appointment of guardians for persons with disabilities",
+   "url": "https://delcode.delaware.gov/title12/c039/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) The Court of Chancery shall have the power to appoint guardians for the person or property, or both, of any person with a disability pursuant to this chapter and Chapter 39A of this title. “Person with a disability” means any person who: (1) By reason of being under the age of 18 is legally unable to manage their own property or make decisions concerning the care of their own person; or (2) By reason of mental or physical incapacity is unable properly to manage or care for their own person or property, or both …"
+  },
+  {
+   "id": "de-12-3903",
+   "cite": "12 Del. C. § 3903",
+   "title": "Separate guardian of the person and property",
+   "url": "https://delcode.delaware.gov/title12/c039/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "The Court of Chancery may appoint 2 or more persons as guardians of the person with a disability, 1 or more to have the care of the person of the person with a disability and the other or others to have possession and management of the property … or the Court may appoint 1 person guardian with all the rights and powers and subject to all the duties respecting both the person and property …",
+   "note": "The statutory division between guardian of the person and guardian of the property is Delaware's own, which is why this data's two roles map onto it directly."
+  },
+  {
+   "id": "de-12-3923",
+   "cite": "12 Del. C. § 3923",
+   "title": "Powers of the guardian of the property",
+   "url": "https://delcode.delaware.gov/title12/c039/sc02/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) The Court may limit the power of the guardian of the property as conferred on the guardian herein, or may confer any additional power which the Court itself could exercise under § 3901 of this title. (b) The Court may, at the time of the appointment of the guardian of the property, or later, transfer custodial control over all the estate of the person with a disability to such guardian or the Court may transfer only certain specified assets … for protection."
+  },
+  {
+   "id": "de-12-3509",
+   "cite": "12 Del. C. § 3509",
+   "title": "Vesting of title to trust property in a successor trustee",
+   "url": "https://delcode.delaware.gov/title12/c035/sc01/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Whenever the sole or surviving trustee dies or is removed or a trustee renounces a trust or a trust is created and no person is appointed by name or description to execute the same and whenever in such or any case a trustee shall be appointed by the Court of Chancery, then upon the giving by said trustee of the security required to be given by the trustee, all the trust property, estate and effects, of every kind whatsoever and wheresoever situate and being, shall forthwith and without any act or deed pass to and be vested in such new or surviving trustee …"
+  },
+  {
+   "id": "de-12-3544",
+   "cite": "12 Del. C. § 3544",
+   "title": "Successor trustee — no duty to examine a predecessor's accounts",
+   "url": "https://delcode.delaware.gov/title12/c035/sc03/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "Unless provided otherwise by the terms of the governing instrument or by order of court, in the absence of actual knowledge of a breach of trust, or information concerning a possible breach of trust that would cause a reasonable person to inquire, a successor trustee appointed in accordance with the terms of the governing instrument, by the court, or by nonjudicial settlement agreement, is under no duty to examine the accounts and records of a predecessor trustee, is under no duty to inquire into or confirm the validity of a governing instrument or actions by a predecessor trustee …"
+  },
+  {
+   "id": "de-16-9401a",
+   "cite": "16 Del. C. § 9401A",
+   "title": "Supported Decision-Making Act — short title",
+   "url": "https://delcode.delaware.gov/title16/c094a/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "This chapter may be cited as the “Supported Decision-Making Act.”"
+  },
+  {
+   "id": "de-16-9404a",
+   "cite": "16 Del. C. § 9404A",
+   "title": "Presumption of capability",
+   "url": "https://delcode.delaware.gov/title16/c094a/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) All adults are presumed to be capable of managing their affairs and to have capacity unless otherwise determined by the Court of Chancery. (b) The manner in which an adult communicates with others is not grounds for deciding that the adult is incapable of managing the adult's affairs. (c) Execution of a supported decision-making agreement may not be used as evidence of incapacity and does not preclude the ability of the adult who has entered into such an agreement to act independently of the agreement."
+  },
+  {
+   "id": "de-16-9405a",
+   "cite": "16 Del. C. § 9405A",
+   "title": "Supported decision-making agreements — contents, revocation, judicial abrogation",
+   "url": "https://delcode.delaware.gov/title16/c094a/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(b) A supported decision-making agreement must include all of the following: (1) Designation of at least 1 supporter. (2) The types of decisions for which the supporter is authorized to assist. (3) The types of decisions, if any, for which the supporter may not assist. … (g) A supported decision-making agreement may authorize a supporter to assist the principal to decide whether to give or refuse consent to care within the meaning of Chapter 25 of this title. (h) A principal or a supporter may revoke a supported decision-making agreement at any time in writing and with notice to the other parties to the agreement."
+  },
+  {
+   "id": "de-16-9407a",
+   "cite": "16 Del. C. § 9407A",
+   "title": "Recognition of supporters",
+   "url": "https://delcode.delaware.gov/title16/c094a/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A decision or request made or communicated with the assistance of a supporter in conformity with this chapter shall be recognized for the purposes of any provision of law as the decision or request of the principal and may be enforced by the principal or supporter in law or equity on the same basis as a decision or request of the principal."
+  },
+  {
+   "id": "de-16-9408a",
+   "cite": "16 Del. C. § 9408A",
+   "title": "Limitation of liability for a person relying on, or declining, a supported decision-making agreement",
+   "url": "https://delcode.delaware.gov/title16/c094a/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "A person who in good faith acts in reliance on an authorization in a supported decision-making agreement, or who in good faith declines to honor an authorization in a supported decision-making agreement, is not subject to civil or criminal liability or to discipline for unprofessional conduct for any of the following: (1) Complying with an authorization in a supported decision-making agreement based on an assumption that the underlying supported decision-making agreement was valid when made and has not been revoked or abrogated under § 9405A of this title. (2) Declining to comply with an authorization in a supported decision-making agreement based on actual knowledge that the agreement is invalid or has been revoked or abrogated under § 9405A of this title. (3) Declining to comply with an authorization related to health care in a supported decision-making agreement because the action proposed to be taken under the agreement is contrary to the conscience or good faith medical judgment of the person or to a written policy of a health-care institution that is based on reasons of conscience."
+  },
+  {
+   "id": "de-16-9410a",
+   "cite": "16 Del. C. § 9410A",
+   "title": "Forms; regulatory authority",
+   "url": "https://delcode.delaware.gov/title16/c094a/index.html",
+   "kind": "statute",
+   "retrieved": "2026-10-02",
+   "quote": "(a) The Department of Health and Social Services shall develop the forms necessary to implement this chapter."
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "durable personal power of attorney",
+    "agent",
+    "attorney-in-fact"
+   ],
+   "diff": "Delaware takes the uniform act's architecture and reverses its central rule. Chapter 49A borrows the Uniform Power of Attorney Act's numbering — § 101 short title, § 102 definitions, § 104 durability, § 109 effectiveness, § 110 termination — but § 49A-104 makes a power durable **only if** it contains words such as “This power of attorney shall not be affected by the subsequent incapacity of the principal”. Durability is opted into, which puts Delaware with Washington, New Jersey and Massachusetts rather than with the uniform-act states, and makes it the clearest case in this set that adopting an act's structure says nothing about adopting its defaults.\n\nExecution is the strictest here: § 49A-105 requires writing, signature, a date, a notarial officer **and** one adult witness who is neither related to the principal by blood, marriage or adoption nor a beneficiary under the principal's existing will or trust. Utah requires a notary; Delaware requires a notary and a disinterested witness. And § 49A-105(b) attaches an evidentiary consequence to a formality: the power may carry a statutory notice, and where no signed notice is present the agent bears the burden of demonstrating the power's validity if the authority is challenged.",
+   "citations": [
+    "de-12-49a-104",
+    "de-12-49a-105",
+    "de-12-49a-101",
+    "de-12-49a-103",
+    "de-12-49a-110"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "personal power of attorney"
+   ],
+   "differs": false,
+   "diff": "The default case in Delaware rather than the exception. A personal power of attorney that omits the § 49A-104 words is simply not durable, and § 49A-110's list of terminating events does not mention the principal's incapacity — it does not need to, because a non-durable power never remained exercisable past it. Note also § 49A-103: a power given primarily for a business or commercial purpose is outside chapter 49A altogether and falls to chapter 49, so Delaware's two power-of-attorney chapters divide by purpose, not by vintage.",
+   "citations": [
+    "de-12-49a-104",
+    "de-12-49a-110",
+    "de-12-49a-103"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline, with the narrowest determiner list in this set. § 49A-109 makes a power effective on execution unless deferred, and where it springs on incapacity with nobody named to decide, the determination is by **a physician or by the Court of Chancery** or other court of competent jurisdiction. Utah adds an attorney, a judge or a governmental official; Oklahoma adds a licensed psychologist as well. Delaware admits a clinician or a court and nobody else. Note too that § 49A-104's second limb — “This power of attorney shall become effective upon the incapacity of the principal” — is one of the forms of words that makes a power durable, so in Delaware a springing power is durable by the same sentence that makes it springing.",
+   "citations": [
+    "de-12-49a-109",
+    "de-12-49a-104"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under a power of attorney for health care",
+    "advance health-care directive"
+   ],
+   "summary": "An agent appointed under Delaware's Uniform Health-Care Decisions Act (2023). One adult witness who may attend by video or audio alone; no notarisation. An agent is disqualified by a protection-from-abuse petition or order, or any no-contact order. The authority commences on a finding of incapacity and ceases if capacity returns.",
+   "diff": "Delaware is the earliest of the three jurisdictions here on the Uniform Health-Care Decisions Act (2023) — in force under 84 Del. Laws c. 467 (2024), where Utah's commenced on 1 January 2026 and Oklahoma's waits until 1 July 2027. The three enacted the same act in consecutive years, and the section order is identical, which makes the divergences legible.\n\nAppointment is by a power of attorney for health care under § 2508: a record signed by the individual and by one adult witness, no notarisation, and presence satisfied by real-time audio and video or by **audio alone** where the witness knows the individual or can authenticate their identity from their answers — the same accommodation Utah makes. Where Delaware goes further is screening the agent: alongside a court finding of danger and the facility-staff bar, § 2508(b) disqualifies anyone who is the subject of a **pending protection-from-abuse petition**, a protection-from-abuse order, or any civil or criminal order limiting contact with the individual. That is the most protective agent-disqualification rule in this data. § 2518 then makes the authority expressly reversible, commencing on a finding of incapacity, ceasing if capacity returns or the individual objects, and resuming if the finding is confirmed.",
+   "citations": [
+    "de-16-2501",
+    "de-16-2508",
+    "de-16-2518"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "default surrogate"
+   ],
+   "summary": "The person who may decide where no agent or authorised guardian is available, taken in statutory order. Nine classes, including a supported decision-making supporter, with no physician of last resort. A professional may require a declaration under penalty of perjury, but no form is prescribed.",
+   "diff": "Delaware's ladder is Utah's, one class shorter and one artefact weaker, which is the comparison worth recording. § 2512(b) runs through nine classes — an adult the individual identified outside a power of attorney, the spouse **or domestic partner**, an adult child or parent, the cohabitant, an adult sibling, an adult grandchild or grandparent, an adult who has routinely assisted with supported decision making in the preceding six months, an actively parented adult stepchild, and an adult who has shown special care and concern — and then stops. Utah's otherwise identical provision has a tenth class, a designated physician of last resort; Delaware has no backstop, so where no class is filled there is simply no surrogate.\n\nOn proof of standing the two states enacted the same sentence to different effect. § 2512(c), like Utah § 75A-9-111(3), lets a responsible health-care professional require a declaration in a record under penalty of perjury establishing the authority. Utah then requires its Department of Health and Human Services to publish a uniform form for it. Delaware requires no form and names no agency, so the artefact a Delaware custodian is asked to accept is whatever the claimant writes. Same uniform section, and only one of the two made the thing standard.\n\nThe supported decision-making class is not a loose reference: Delaware has its own Supported Decision-Making Act at 16 Del. C. ch. 94A, and § 9407A makes a decision made or communicated with a supporter's assistance the principal's own decision \"for the purposes of any provision of law\", enforceable on the same basis. § 9404A(c) bars treating the agreement as evidence of incapacity, § 9408A immunises a person who in good faith honours one — and, unusually, one who in good faith declines — and § 9410A requires the Department of Health and Social Services to develop the forms. So the supporter who reaches § 2512(b)'s seventh class arrives with a statutory agreement behind them, on a prescribed form, while the declaration § 2512(c) asks of them has none.",
+   "citations": [
+    "de-16-2512",
+    "de-16-2518",
+    "de-16-9407a",
+    "de-16-9404a",
+    "de-16-9408a",
+    "de-16-9410a"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person",
+    "guardian for a person with a disability"
+   ],
+   "differs": false,
+   "diff": "Delaware has its own guardianship law rather than any version of the uniform act: title 12 chapter 39 appoints a guardian for a person with a disability, and § 3903 provides expressly for separate guardians of the person and of the property, so the division this data draws between the two roles is Delaware's own statutory division. Appointment is by the Court of Chancery. Delaware has enacted the Uniform Adult Guardianship and Protective Proceedings Jurisdiction Act as chapter 39A, which governs which state may act rather than on what finding.",
+   "citations": [
+    "de-12-3901",
+    "de-12-3903"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "guardian of the property"
+   ],
+   "differs": false,
+   "diff": "The property fiduciary in Delaware is a guardian of the property under title 12 chapter 39, not a separately named conservator — § 3903 allows the two offices to be held separately and § 3923 sets out the powers of the guardian of the property. Chapter 41 keeps a distinct conservator of property for persons reported missing, which is a different office from the one this role records.",
+   "citations": [
+    "de-12-3903",
+    "de-12-3923"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "letters testamentary"
+   ],
+   "diff": "Delaware names the grant for the capacity in which it is held, as Oklahoma does: § 1501 makes letters testamentary or of administration necessary, and § 1502 grants letters testamentary to an executor. The grant is issued by the **Register of Wills**, an elected county officer, rather than by a court of general jurisdiction — Delaware and Pennsylvania are the two states in this set where the office that issues the grant is not a judge.",
+   "citations": [
+    "de-12-1501",
+    "de-12-1502"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "letters of administration"
+   ],
+   "diff": "The intestate counterpart takes letters of administration under § 1504, with § 1505 setting who is entitled to them. Same Register of Wills, differently named instrument — so as in Oklahoma a credential asserting “holder is the personal representative” is sound as an assertion while the artefact it would be matched against is named by how the appointment arose.",
+   "citations": [
+    "de-12-1504",
+    "de-12-1501"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "affidavit under § 2306",
+    "distribution without letters"
+   ],
+   "diff": "Delaware's ceiling is **$50,000** of personal estate, excluding jointly owned property and the property described in § 1901(b) and (c), available thirty days after death where no personal representative has been appointed or applied for. It joins Michigan, New York, Oklahoma and Pennsylvania in that band. Two Delaware particulars. The affidavit requires more than value and timing: the affiant must also attest that known debts are paid or provided for **and** that the surviving spouse's § 2308 allowance has been paid, provided for, waived or has lapsed. And the class entitled to use the route is enumerated by relationship rather than left to whoever claims to be the successor — the spouse, a grandparent or a lineal descendant of a grandparent, their personal representative or guardian, the trustee of a trust the decedent created, the named executor if qualified, and, unusually, **a funeral director licensed in this State**.\n\n§ 2307 then does something only Idaho otherwise does: it makes the route enforceable. A holder who refuses a compliant affidavit can be compelled in an action in the Court of Chancery, on proof of the facts the affidavit had to state.",
+   "citations": [
+    "de-12-2306",
+    "de-12-2307"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "differs": false,
+   "diff": "Delaware has no Uniform Trust Code. Title 12 chapter 35 is its own body of trust law — the chapter carrying, among much else, the Qualified Dispositions in Trust Act — with § 3509 vesting title to trust property in a successor trustee and § 3544 addressing succession. There is no uniform certification of trust in the § 1013 sense; a trustee's authority rests on the instrument and on the chapter's own machinery. This row records the role rather than the full Delaware trust regime, which is larger than this data's scope.",
+   "citations": [
+    "de-12-3509",
+    "de-12-3544"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "absent": true,
+   "localNames": [
+    "no equivalent in Delaware law"
+   ],
+   "summary": "Not a role in Delaware. The state's 2014 digital-assets act has no online tool and no designated recipient, so there is no platform-level designation for a custodian to honour; a direction has to come through a will, trust or power of attorney.",
+   "diff": "**This role does not exist in Delaware.** Chapter 50 contains no online tool and no designated recipient: the words appear nowhere in the act. Delaware legislated fiduciary access in 2014, before RUFADAA existed, and never replaced its act with the uniform one, so the mechanism the rest of the US layer turns on — a platform-provided tool whose direction overrides the will — has no Delaware counterpart. Delaware is the only US jurisdiction in this set where that is true, and the only route to directing a custodian is through a governing instrument under § 5004(a).",
+   "citations": [
+    "de-12-5001",
+    "de-12-5004"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "guardian",
+    "agent",
+    "trustee"
+   ],
+   "summary": "A fiduciary — personal representative, guardian, agent under a durable personal power of attorney, or trustee — with authority over the account holder's digital assets. The default is full control unless the governing instrument says otherwise, the fiduciary is deemed to have the account holder's consent, and a licence term or choice-of-law clause that would limit access is unenforceable.",
+   "diff": "Delaware's is a fourth shape for fiduciary access, and the most fiduciary-favourable in the data. § 5004(a) lets a fiduciary “exercise control over any and all rights in digital assets and digital accounts” except as a governing instrument or court order provides otherwise — so the default is full control and it is the user who opts out, the inverse of RUFADAA, where the default is limited and the user opts in. § 5005(a) deems the fiduciary to have the account holder's lawful consent and to be an authorised agent or user under every applicable law and under the end-user licence agreement, which is the provision that addresses the computer-misuse problem head-on rather than by implication.\n\nTwo provisions have no counterpart anywhere else in this set. § 5004(b) makes an end-user licence term that limits fiduciary access **void as against the strong public policy of this State**, unless the account holder agreed to it by an affirmative act separate from assenting to the rest of the agreement — the same separate-act idea RUFADAA and French art. 85 I use, but applied to any limitation rather than only to a contrary direction. And § 5004(c) makes a **choice-of-law clause unenforceable** against a fiduciary to the extent it designates law that would enforce such a limitation. Delaware is the only jurisdiction here that legislated against custodians relocating the question to a friendlier forum.",
+   "citations": [
+    "de-12-5001",
+    "de-12-5004",
+    "de-12-5005"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "agent",
+    "donor",
+    "document of gift"
+   ],
+   "diff": "Delaware is the only US jurisdiction in this set **not** on the Revised Uniform Anatomical Gift Act. § 2718 names the subchapter the “Uniform Anatomical Gift Act”, and the structure is the older one: § 2711 persons who may execute, § 2713 manner, § 2715 amendment or revocation, § 2716 rights and duties at death. There is no section establishing a donor registry, no refusal provision in the Revised act's sense and no preclusive-effect section; a registry is referred to in the definition of a document of gift and in § 2721, but the chapter does not create one. The priority list in § 2711(c) still puts an agent of the decedent first, ahead of the spouse, so the role this data records exists on the same footing — it is the surrounding machinery that is a generation older. Donation remains opt-in.",
+   "citations": [
+    "de-16-2711",
+    "de-16-2718"
+   ]
+  }
+ ]
+}
