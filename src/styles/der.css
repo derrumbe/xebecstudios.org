@@ -411,3 +411,19 @@
   box-shadow: 0 6px 20px rgb(0 0 0 / 14%);
 }
 @media (max-width: 640px) { .der .term-panel { max-width: 100%; font-size: .92rem; } }
+
+/* ---------- findings: one small drawing per finding ----------
+   The SVG is sized by its viewBox and scaled here, so it stays legible on a phone without
+   a second set of dimensions to keep in step. Text inside the drawing inherits the page
+   foreground through currentColor; the only other colours are --accent for the subject and
+   --dormant for its context, both already mapped at the top of this file. */
+.der .finding-fig { margin: 1rem 0 .4rem; max-width: var(--measure); }
+.der .fig-svg { display: block; width: 100%; max-width: 30rem; height: auto; overflow: visible; }
+.der .fig-svg + .fig-svg { margin-top: .5rem; }
+.der .fig-svg text { fill: currentColor; font-family: inherit; }
+.der .fig-svg .fig-t { font-size: 11.5px; fill: var(--ink-2); }
+.der .fig-svg .fig-l { font-size: 12px; }
+/* A label sitting on the filled bar takes the surface colour so it clears its ground. */
+.der .fig-svg .fig-on { fill: var(--surface); }
+.der .fig-cap { margin: .15rem 0 0; font-size: .85rem; color: var(--ink-2); max-width: var(--measure); }
+@media (max-width: 640px) { .der .fig-svg .fig-l { font-size: 13px; } .der .fig-svg .fig-t { font-size: 12.5px; } }
