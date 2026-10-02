@@ -1484,6 +1484,277 @@
    }
   ]
  },
+ "us-ok": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "Oklahoma enacted the Uniform Power of Attorney Act in 2021 and codified it in title 58 at § 3001. § 58-3004 is uniform § 104: durable unless the instrument expressly says incapacity terminates it. The 1998 Uniform Statutory Form Power of Attorney Act survives at §§ 15-1001 et seq. with the opposite default (§ 15-1004 requires durability language), but § 58-3003 applies the 2021 act to all powers of attorney except four carve-outs, so the opt-out default is the one that governs.",
+    "citations": [
+     "ok-58-3004",
+     "ok-58-3003",
+     "ok-15-1004"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "§ 58-3009 carries uniform § 109. Where the power springs on incapacity and nobody was named to decide, the determination may be made by a physician **or licensed psychologist**, or by an attorney at law, a judge or an appropriate governmental official depending on which limb of the definition applies — the psychologist is Oklahoma's widening of the uniform text.",
+    "citations": [
+     "ok-58-3009"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "Nothing is filed or registered before an agent may act; § 58-3019 works from an acknowledged instrument presented to a third party.",
+    "citations": [
+     "ok-58-3004",
+     "ok-58-3009"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "other",
+    "note": "Two conditions, not one. § 63-3101.5 makes an advance directive operative only when it has been communicated to the attending physician **and** the declarant can no longer make decisions about life-sustaining treatment, so incapacity alone does not start the authority — the instrument has to have reached the clinician. The Uniform Health Care Decisions Act of 2026 replaces this from 1 July 2027.",
+    "citations": [
+     "ok-63-3101-5",
+     "ok-63-3111-1",
+     "ok-hb1687-2026"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": 2024,
+    "name": "Revised Uniform Fiduciary Access to Digital Assets Act, Okla. Stat. tit. 58, §§ 3101 et seq.",
+    "note": "Revised Uniform Fiduciary Access to Digital Assets Act, enacted 2024 and codified in title 58 at §§ 3101 to 3118 — in the probate title, next to the power of attorney act.",
+    "citations": [
+     "ok-58-3101",
+     "ok-58-3104"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§ 58-3104 is uniform § 4: an online tool direction overrides a contrary direction in a will, trust, power of attorney or other record, where the tool lets the user modify or delete it at all times.",
+    "citations": [
+     "ok-58-3104"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act at §§ 63-2200.1A et seq. A gift is made by the donor or their agent; § 63-2200.20A establishes the Life Share Donor Registry in the State Department of Health. Nothing is presumed from silence.",
+    "citations": [
+     "ok-63-2200-9a",
+     "ok-63-2200-20a"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "§ 58-393 lets a successor collect personal property on an affidavit **ten days** after death — the shortest wait in this set — where Oklahoma property, less liens and encumbrances, does not exceed $50,000, no personal representative has been appointed or applied for anywhere, and debts and taxes are paid, provided for or time-barred. Summary administration under § 58-245 reaches $200,000, and is also available regardless of value where the decedent has been dead more than five years or resided elsewhere.",
+    "citations": [
+     "ok-58-393",
+     "ok-58-245"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "Oklahoma names the grant for the capacity in which it is held: letters testamentary for an executor (§ 58-110), letters of administration for an administrator (§ 58-121), and letters of administration with the will annexed for the intermediate case. It is not a Uniform Probate Code state, so there is no generic “letters” and no registrar.",
+    "citations": [
+     "ok-58-110",
+     "ok-58-121"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "ok-58-3004",
+    "cite": "Okla. Stat. tit. 58, § 58-3004",
+    "title": "Power of attorney is durable",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A power of attorney created under this act is durable unless it expressly provides that it is terminated by the incapacity of the principal.",
+    "note": "Added by Laws 2021, c. 332, § 4, eff. 1 November 2021."
+   },
+   {
+    "id": "ok-58-3003",
+    "cite": "Okla. Stat. tit. 58, § 58-3003",
+    "title": "Applicability — the act governs all powers of attorney bar four",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "This act applies to all powers of attorney except: 1. A power to the extent it is coupled with an interest in the subject of the power …; 2. A power to make health care decisions; 3. A proxy or other delegation to exercise voting rights or management rights with respect to an entity; and 4. A power created on a form prescribed by a government or governmental subdivision, agency or instrumentality for a governmental purpose.",
+    "note": "Added by Laws 2021, c. 332, § 3, eff. 1 November 2021."
+   },
+   {
+    "id": "ok-15-1004",
+    "cite": "Okla. Stat. tit. 15, § 15-1004",
+    "title": "Durability under the 1998 short-form act is opt-in",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os15.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A power of attorney legally sufficient under this act is durable to the extent that durable powers are permitted by other laws of this state and the power of attorney contains language, such as \"This power of attorney will continue to be effective if I become disabled, incapacitated, or incompetent\", showing the intent of the principal that the power granted may be exercised notwithstanding later disability, incapacity, or incompetency.",
+    "note": "Added by Laws 1998, c. 420, § 4. The opposite default from § 58-3004; § 58-3003 is what settles which governs."
+   },
+   {
+    "id": "ok-58-3009",
+    "cite": "Okla. Stat. tit. 58, § 58-3009",
+    "title": "When power of attorney effective — physician or licensed psychologist",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A. A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency. … C. If a power of attorney becomes effective upon the principal's incapacity and the principal has not authorized a person to determine whether the principal is incapacitated, or the person authorized is unable or unwilling to make the determination, the power of attorney becomes effective upon a determination in a writing or other record by: 1. A physician or licensed psychologist that the principal is incapacitated within the meaning of subparagraph a of paragraph 5 of Section 2 of this act; or 2. An attorney at law, a judge or an appropriate governmental official … D. A person authorized by the principal … to determine that the principal is incapacitated may act as the principal's personal representative pursuant to the Health Insurance Portability and Accountability Act … to obtain access to the principal's health care information …"
+   },
+   {
+    "id": "ok-63-3101-5",
+    "cite": "Okla. Stat. tit. 63, § 63-3101.5",
+    "title": "Advance directive — when it becomes operative",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A. An advance directive becomes operative when: 1. It is communicated to the attending physician; and 2. The declarant is no longer able to make decisions regarding administration of life-sustaining treatment. … B. In the event more than one valid advance directive has been executed and not revoked, the last advance directive so executed shall be construed to be the last wishes of the declarant …",
+    "note": "Added by Laws 1992, c. 114. Both conditions must be met, so communication alone does not start the authority."
+   },
+   {
+    "id": "ok-63-3111-1",
+    "cite": "Okla. Stat. tit. 63, § 63-3111.1",
+    "title": "Short title — Oklahoma Health Care Agent Act",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "This act shall be known and may be cited as the \"Oklahoma Health Care Agent Act\".",
+    "note": "Added by Laws 2022, c. 136, § 1, emergency effective 29 April 2022. Repealed by HB 1687 (2026) with effect from 1 July 2027."
+   },
+   {
+    "id": "ok-hb1687-2026",
+    "cite": "Enrolled House Bill No. 1687, 2026 (Uniform Health Care Decisions Act of 2026)",
+    "title": "Oklahoma's replacement health-care decisions regime, effective 1 July 2027",
+    "url": "https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/HB/HB1687%20ENR.PDF",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "An Act relating to advance health care directives; creating the Uniform Health Care Decisions Act of 2026; providing short title; defining terms; establishing requirements to show capacity; … authorizing creation of power of attorney for health care; … authorizing default surrogate who is a member of certain classes; … This act shall become effective July 1, 2027.",
+    "note": "Enacted and not yet in force. The act is to be codified in title 63 from § 3100 and repeals the Oklahoma Health Care Agent Act. The consolidated title 63 PDF is a 31 December 2025 snapshot and does not carry it, so the enrolled bill is the source.",
+    "pending": true
+   },
+   {
+    "id": "ok-58-3101",
+    "cite": "Okla. Stat. tit. 58, § 58-3101",
+    "title": "Short title — Revised Uniform Fiduciary Access to Digital Assets Act",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "Short title — Revised Uniform Fiduciary Access to Digital Assets Act.",
+    "note": "The act sits at §§ 58-3101 to 58-3118, enacted 2024 (HB 3778). Quoted from the section heading; the operative rules are in the sections that follow."
+   },
+   {
+    "id": "ok-58-3104",
+    "cite": "Okla. Stat. tit. 58, § 58-3104",
+    "title": "Online tool for disclosure of digital assets",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A. A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user's digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record. B. If a user has not used an online tool … the user may allow or prohibit in a will, trust, power of attorney, or other record, disclosure to a fiduciary of some or all of the user's digital assets …"
+   },
+   {
+    "id": "ok-63-2200-9a",
+    "cite": "Okla. Stat. tit. 63, § 63-2200.9A",
+    "title": "Persons authorized to make an anatomical gift of a decedent's body or part",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A. … an anatomical gift of a decedent's body or part for purpose of transplantation, therapy, research, or education may be made by any member of the following classes of persons who is reasonably available, in the order of priority listed: 1. An agent of the decedent at the time of death who could have made an anatomical gift … immediately before the decedent's death; 2. The spouse of the decedent; 3. Adult children of the decedent; 4. Parents of the decedent; 5. Adult siblings of the decedent; 6. Adult grandchildren of the decedent; 7. Grandparents of the decedent; 8. An adult who exhibited special care and concern for the decedent …"
+   },
+   {
+    "id": "ok-63-2200-20a",
+    "cite": "Okla. Stat. tit. 63, § 63-2200.20A",
+    "title": "Life Share Donor Registry",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os63.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A. 1. There is hereby established within the State Department of Health, an organ, eye and tissue donor registry for the State of Oklahoma to be known as the “Life Share Donor Registry”. The Department is authorized to contract with the designated organ procurement organization who shall act on behalf of the Department by carrying out the functions of the Department in the administration of the registry …"
+   },
+   {
+    "id": "ok-58-393",
+    "cite": "Okla. Stat. tit. 58, § 58-393",
+    "title": "Payment or delivery of property to successor by affidavit — $50,000 after ten days",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A. At any time ten (10) or more days after the date of death of a decedent, any person indebted to the decedent or having possession of tangible personal property … shall make payment … or shall deliver the tangible personal property … to a person claiming to be the successor of the decedent upon being presented an affidavit made by or on behalf of the successor stating that: 1. The fair market value of property located in this state owned by the decedent and subject to disposition by will or intestate succession at the time of the decedent's death, less liens and encumbrances, does not exceed Fifty Thousand Dollars ($50,000.00); 2. No application or petition for the appointment of a personal representative is pending or has been granted in any jurisdiction; 3. Each claiming successor is entitled to payment or delivery of the property …; and 4. All taxes and debts of the estate have been paid or otherwise provided for or are barred by limitations."
+   },
+   {
+    "id": "ok-58-245",
+    "cite": "Okla. Stat. tit. 58, § 58-245",
+    "title": "Summary administration — $200,000, or five years, or non-residence",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A. A petition for summary administration may be filed by any person interested in an estate that meets one of the following conditions: 1. The value of the estate is less than or equal to Two Hundred Thousand Dollars ($200,000.00); 2. The decedent has been deceased for more than five (5) years; or 3. The decedent resided in another jurisdiction at the time of death."
+   },
+   {
+    "id": "ok-58-110",
+    "cite": "Okla. Stat. tit. 58, § 58-110",
+    "title": "Form of letters testamentary",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "Letters testamentary must be substantially in the following form: State of Oklahoma, County of ______. The last will of A B, deceased, having been proved and recorded in the county court of the county of ______, C D, who is named therein, is hereby appointed executor. … the ______ day of ______ A. D., 19__.",
+    "note": "R.L. 1910, § 6242; Laws 1953, p. 234, § 10. The prescribed form still carries a two-digit year beginning 19."
+   },
+   {
+    "id": "ok-58-121",
+    "cite": "Okla. Stat. tit. 58, § 58-121",
+    "title": "Form of letters of administration",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "Letters of administration must be signed by the judge, under the seal of the court, and substantially in the following form: State of Oklahoma, County of ______ C D is hereby appointed administrator of the estate of A B, deceased. Witness G H, judge of the county court of the county of ______, with the seal thereof affixed, the ______ day of ______ A. D., 19__.",
+    "note": "R.L. 1910, § 6244."
+   }
+  ]
+ },
  "us-ut": {
   "features": {
    "deceasedPersonalDataProtected": {

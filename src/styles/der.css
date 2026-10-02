@@ -219,7 +219,11 @@
 .der-static .jur-card { border-top: 1px solid var(--line); padding: .9rem 0; }
 .der-static .jur-card h3 { margin: 0 0 .2rem; font-size: 1.02rem; }
 .der-static .jur-card .tag { margin-left: .5em; padding: 0 .4em; border: 1px solid var(--line); border-radius: 6px; font-size: .72rem; font-weight: 400; color: var(--ink-2); text-transform: none; letter-spacing: 0; }
-.der-static .local { margin: 0 0 .3rem; color: var(--ink-2); }
+
+/* An unverified row has to read as unverified on the static page too: the viewer badges it
+   from the patch, and canonicals now carries the flag, so the only thing left was saying so
+   here. Dashed border rather than a new colour, matching how the lifecycle draws them. */
+.der-static .jur-card .tag.unv { border-style: dashed; font-style: italic; }.der-static .local { margin: 0 0 .3rem; color: var(--ink-2); }
 .der-static .summary { margin: .3rem 0 .6rem; }
 .der-static .lane { display: grid; grid-template-columns: max-content 1fr; gap: .2rem .9rem; margin: .4rem 0 .5rem; }
 .der-static .lane dt { color: var(--ink-2); font-size: .82rem; letter-spacing: .05em; text-transform: uppercase; padding-top: .15rem; }

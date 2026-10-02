@@ -597,6 +597,19 @@
      "label": "US — Ohio"
     },
     {
+     "id": "us-ok",
+     "name": "Oklahoma",
+     "short": "OK",
+     "code": "OK",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ok.json"
+     ],
+     "country": "us",
+     "note": "Oklahoma is **not** a Uniform Probate Code state: title 58 is its own Probate Procedure code, descended from the 1910 Revised Laws, and the grant is named for the appointee's capacity — letters testamentary for an executor (§ 58-110), letters of administration for an administrator (§ 58-121), each with a statutory form whose date line still reads “A. D., 19__”. The uniform acts Oklahoma has adopted were layered on top and in unexpected places: the Uniform Power of Attorney Act went into title 58 at § 3001 rather than title 15 with the older power-of-attorney law, and the digital-assets act into the same title at § 3101. Two power-of-attorney regimes now coexist with opposite durability defaults, which § 58-3003 resolves by applying the 2021 act to all powers of attorney bar four carve-outs.\n\nHealth care is the live question. The Oklahoma Health Care Agent Act (§ 63-3111.1, 2022) and the Advance Directive Act govern today, backed by a State Department of Health registry that stores directives and gives named agents access to them (§ 63-3102.1). Enrolled HB 1687 (2026) creates a Uniform Health Care Decisions Act of 2026, repeals the Health Care Agent Act and introduces a default surrogate — and provides that “this act shall become effective July 1, 2027”. It is therefore enacted and not in force, and this file records the law as it stands with the replacement marked pending.\n\nSourcing note: Oklahoma publishes its consolidated statutes only as whole-title PDFs at oklegislature.gov/OK_Statutes/CompleteTitles/, which is what every statute citation here points to and what was read. Those files are a 31 December 2025 snapshot, so nothing enacted in the 2026 session appears in them; the 2026 act is cited to its enrolled bill instead. OSCN, which publishes section-by-section pages, sits behind a Cloudflare Turnstile and was not used.",
+     "label": "US — Oklahoma"
+    },
+    {
      "id": "us-pa",
      "name": "Pennsylvania",
      "short": "PA",
@@ -1160,6 +1173,19 @@
    ],
    "country": "us",
    "label": "US — Ohio"
+  },
+  {
+   "id": "us-ok",
+   "name": "Oklahoma",
+   "short": "OK",
+   "code": "OK",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ok.json"
+   ],
+   "country": "us",
+   "note": "Oklahoma is **not** a Uniform Probate Code state: title 58 is its own Probate Procedure code, descended from the 1910 Revised Laws, and the grant is named for the appointee's capacity — letters testamentary for an executor (§ 58-110), letters of administration for an administrator (§ 58-121), each with a statutory form whose date line still reads “A. D., 19__”. The uniform acts Oklahoma has adopted were layered on top and in unexpected places: the Uniform Power of Attorney Act went into title 58 at § 3001 rather than title 15 with the older power-of-attorney law, and the digital-assets act into the same title at § 3101. Two power-of-attorney regimes now coexist with opposite durability defaults, which § 58-3003 resolves by applying the 2021 act to all powers of attorney bar four carve-outs.\n\nHealth care is the live question. The Oklahoma Health Care Agent Act (§ 63-3111.1, 2022) and the Advance Directive Act govern today, backed by a State Department of Health registry that stores directives and gives named agents access to them (§ 63-3102.1). Enrolled HB 1687 (2026) creates a Uniform Health Care Decisions Act of 2026, repeals the Health Care Agent Act and introduces a default surrogate — and provides that “this act shall become effective July 1, 2027”. It is therefore enacted and not in force, and this file records the law as it stands with the replacement marked pending.\n\nSourcing note: Oklahoma publishes its consolidated statutes only as whole-title PDFs at oklegislature.gov/OK_Statutes/CompleteTitles/, which is what every statute citation here points to and what was read. Those files are a 31 December 2025 snapshot, so nothing enacted in the 2026 session appears in them; the 2026 act is cited to its enrolled bill instead. OSCN, which publishes section-by-section pages, sits behind a Cloudflare Turnstile and was not used.",
+   "label": "US — Oklahoma"
   },
   {
    "id": "us-pa",
