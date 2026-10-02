@@ -9281,9 +9281,14 @@
    },
    "onlineToolsRecognisedInLaw": {
     "value": true,
-    "note": "Stronger than recognition: art. 85 III obliges every provider of an online public communication service to inform users of the fate of their data on death and to let them choose whether to communicate it to a third party they designate. Art. 85 I additionally deems unwritten any terms-of-service clause limiting these prerogatives, and requires that particular directives rest on specific consent which cannot follow from mere acceptance of the general terms of use.",
+    "note": "Stronger than recognition: art. 85 III obliges every provider of an online public communication service to inform users of the fate of their data on death and to let them choose whether to communicate it to a third party they designate — note the “ou non”, which makes it a choice about disclosure rather than a nomination of a successor. Art. 48 adds an earlier duty, at collection: the controller must inform the person of the right to define post-mortem directives under art. 85. Art. 85 I additionally deems unwritten any terms-of-service clause limiting these prerogatives, and requires that particular directives rest on specific consent which cannot follow from mere acceptance of the general terms of use. Enforcement is the ordinary data-protection machinery rather than anything purpose-built: art. 16 gives the CNIL's formation restreinte competence over breaches of the GDPR “et de la présente loi”, which is how art. 85 and art. 48 inherit it, and art. 20 IV supplies an injunction to comply with an astreinte of up to 100 000 € per day of delay and an administrative fine of up to 10 million € or 2 % of total worldwide annual turnover, whichever is higher; the 20 million € / 4 % ceilings are reserved by that article to the cases in GDPR art. 83(5) and (6). Art. 21 allows provisional interruption of the processing for up to three months, and Code pénal art. 226-22-2 punishes obstructing the CNIL with one year and 15 000 €. What every one of these instruments attaches to is the duty to offer the choice; none attaches to honouring a designation or to making it provable, which is the gap art. 124 leaves open. Whether the CNIL has ever sanctioned a breach of art. 85 III was not established from a primary source and is not asserted here.",
     "citations": [
-     "fr-loi7817-85"
+     "fr-loi7817-85",
+     "fr-loi7817-48",
+     "fr-loi7817-16",
+     "fr-loi7817-20",
+     "fr-loi7817-21",
+     "fr-cp-226-22-2"
     ]
    },
    "deceasedPersonalDataProtected": {
@@ -9347,6 +9352,51 @@
     "kind": "statute",
     "retrieved": "2026-09-24",
     "quote": "I.-Toute personne peut définir des directives relatives à la conservation, à l'effacement et à la communication de ses données à caractère personnel après son décès. … Les directives générales … peuvent être enregistrées auprès d'un tiers de confiance numérique certifié par la Commission nationale de l'informatique et des libertés. Les références des directives générales et le tiers de confiance auprès duquel elles sont enregistrées sont inscrites dans un registre unique dont les modalités et l'accès sont fixés par décret en Conseil d'Etat … Les directives particulières … sont enregistrées auprès des responsables de traitement concernés. Elles font l'objet du consentement spécifique de la personne concernée et ne peuvent résulter de la seule approbation par celle-ci des conditions générales d'utilisation. … Les directives mentionnées au premier alinéa du présent I peuvent désigner une personne chargée de leur exécution. Celle-ci a alors qualité, lorsque la personne est décédée, pour prendre connaissance des directives et demander leur mise en œuvre aux responsables de traitement concernés. A défaut de désignation ou, sauf directive contraire, en cas de décès de la personne désignée, ses héritiers ont qualité pour prendre connaissance des directives au décès de leur auteur et demander leur mise en œuvre aux responsables de traitement concernés. Toute clause contractuelle des conditions générales d'utilisation d'un traitement portant sur des données à caractère personnel limitant les prérogatives reconnues à la personne en vertu du présent article est réputée non écrite. II.-En l'absence de directives ou de mention contraire dans ces directives, les héritiers de la personne concernée peuvent exercer, après son décès, les droits mentionnés au chapitre II du présent titre II dans la mesure nécessaire : 1° A l'organisation et au règlement de la succession du défunt … 2° A la prise en compte, par les responsables de traitement, de son décès … III.-Tout prestataire d'un service de communication au public en ligne informe l'utilisateur du sort des données qui le concernent à son décès et lui permet de choisir de communiquer ou non ses données à un tiers qu'il désigne."
+   },
+   {
+    "id": "fr-loi7817-48",
+    "cite": "Loi n° 78-17 du 6 janvier 1978, art. 48",
+    "title": "Duty to inform the person, at collection, of the right to define post-mortem directives",
+    "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043887431",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "La personne auprès de laquelle sont recueillies des données à caractère personnel la concernant est également informée, sauf si elle l'a été au préalable, par le responsable du traitement ou son représentant du droit de définir des directives relatives au sort de ses données à caractère personnel après sa mort, dans les conditions prévues à l'article 85."
+   },
+   {
+    "id": "fr-loi7817-16",
+    "cite": "Loi n° 78-17 du 6 janvier 1978, art. 16",
+    "title": "Competence of the formation restreinte over breaches of the law itself",
+    "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000049571930",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "La formation restreinte prend les mesures et prononce les sanctions à l'encontre des responsables de traitements ou des sous-traitants qui ne respectent pas les obligations découlant du règlement (UE) 2016/679 du 27 avril 2016 et de la présente loi dans les conditions prévues à la section 3 du présent chapitre."
+   },
+   {
+    "id": "fr-loi7817-20",
+    "cite": "Loi n° 78-17 du 6 janvier 1978, art. 20",
+    "title": "Corrective measures and sanctions: injunction with penalty payment, and administrative fine",
+    "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000049578536",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "IV. - Lorsque le responsable de traitement ou son sous-traitant ne respecte pas les obligations résultant du règlement (UE) 2016/679 du 27 avril 2016 ou de la présente loi, le président de la Commission nationale de l'informatique et des libertés peut également … saisir la formation restreinte de la commission en vue du prononcé, après procédure contradictoire, de l'une ou de plusieurs des mesures suivantes : … 2° Une injonction de mettre en conformité le traitement avec les obligations résultant du règlement (UE) 2016/679 du 27 avril 2016 ou de la présente loi ou de satisfaire aux demandes présentées par la personne concernée en vue d'exercer ses droits, qui peut être assortie, sauf dans des cas où le traitement est mis en œuvre par l'Etat, d'une astreinte dont le montant ne peut excéder 100 000 € par jour de retard … 7° A l'exception des cas où le traitement est mis en œuvre par l'Etat, une amende administrative ne pouvant excéder 10 millions d'euros ou, s'agissant d'une entreprise, 2 % du chiffre d'affaires annuel mondial total de l'exercice précédent, le montant le plus élevé étant retenu. Dans les hypothèses mentionnées aux 5 et 6 de l'article 83 du règlement (UE) 2016/679 du 27 avril 2016, ces plafonds sont portés, respectivement, à 20 millions d'euros et 4 % dudit chiffre d'affaires."
+   },
+   {
+    "id": "fr-loi7817-21",
+    "cite": "Loi n° 78-17 du 6 janvier 1978, art. 21",
+    "title": "Urgent measures: provisional interruption of the processing",
+    "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054138897",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "I. - Lorsque le non-respect des dispositions du règlement (UE) 2016/679 du 27 avril 2016 ou de la présente loi entraîne une violation des droits et libertés mentionnés à l'article 1er de la présente loi et que le président de la commission considère qu'il est urgent d'intervenir, il saisit la formation restreinte, qui peut … adopter l'une des mesures suivantes : 1° L'interruption provisoire de la mise en œuvre du traitement … pour une durée maximale de trois mois …"
+   },
+   {
+    "id": "fr-cp-226-22-2",
+    "cite": "Code pénal, art. 226-22-2",
+    "title": "Criminal offence of obstructing the CNIL",
+    "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037825487",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "Est puni d'un an d'emprisonnement et de 15 000 € d'amende le fait d'entraver l'action de la Commission nationale de l'informatique et des libertés : 1° Soit en s'opposant à l'exercice des missions confiées à ses membres ou aux agents habilités en application du dernier alinéa de l'article 10 de la loi n° 78-17 du 6 janvier 1978 précitée lorsque la visite a été autorisée par le juge …"
    },
    {
     "id": "fr-cc-724",
