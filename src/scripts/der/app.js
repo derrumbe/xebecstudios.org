@@ -1409,23 +1409,88 @@
     return out;
   }
 
+  // A `title` tooltip is a mouse-only affordance: touch devices never show one, so on a
+  // phone every one of these terms was unexplained — and the role ids are not in the
+  // glossary at all, since their definitions come from canonicals.json. The definition is
+  // therefore shown in a panel this code owns, opened by tap, click, Enter or Space, and
+  // on hover as well where the device actually has a pointer.
   function annotateTerms(root, canon, glossary) {
     const byId = new Map((canon || []).map((r) => [r.id, r]));
-    let n = 0;
+    const terms = [];
     for (const el of root.querySelectorAll('code')) {
       const key = el.textContent.trim();
       const role = byId.get(key);
       const def = role ? role.definition : glossary[key];
       if (!def) continue;
+      const full = role ? `${role.label} — ${def}` : def;
       el.classList.add('term');
-      el.setAttribute('title', role ? `${role.label} — ${def}` : def);
-      // reachable without a pointer, and announced rather than silently decorative
+      el.dataset.def = full;
+      // Reachable without a pointer, announced rather than silently decorative, and a
+      // button rather than a note because it now does something when you activate it.
       el.setAttribute('tabindex', '0');
-      el.setAttribute('role', 'note');
-      el.setAttribute('aria-label', `${key}: ${role ? role.label + ' — ' + def : def}`);
-      n++;
+      el.setAttribute('role', 'button');
+      el.setAttribute('aria-expanded', 'false');
+      el.setAttribute('aria-label', `${key}: ${full}`);
+      terms.push(el);
     }
-    return n;
+    if (terms.length) attachTermPanel(root, terms);
+    return terms.length;
+  }
+
+  // One panel, reused. It is positioned against the findings container rather than the
+  // viewport so it scrolls with the text, and clamped to that container's width so a long
+  // definition cannot push a phone into horizontal scrolling.
+  function attachTermPanel(root, terms) {
+    const panel = document.createElement('div');
+    panel.className = 'term-panel';
+    panel.id = 'term-panel';
+    panel.setAttribute('role', 'tooltip');
+    panel.hidden = true;
+    root.appendChild(panel);
+    if (getComputedStyle(root).position === 'static') root.style.position = 'relative';
+    let open = null;
+
+    const close = () => {
+      if (!open) return;
+      open.setAttribute('aria-expanded', 'false');
+      open = null;
+      panel.hidden = true;
+    };
+    const show = (el) => {
+      if (open === el) return close();
+      close();
+      panel.textContent = el.dataset.def;
+      panel.hidden = false;
+      const base = root.getBoundingClientRect();
+      const r = el.getBoundingClientRect();
+      // measure after it is laid out at full width, then clamp within the container
+      const w = Math.min(panel.offsetWidth, base.width);
+      let left = r.left - base.left + (r.width / 2) - (w / 2);
+      left = Math.max(0, Math.min(left, base.width - w));
+      panel.style.left = `${Math.round(left)}px`;
+      panel.style.top = `${Math.round(r.bottom - base.top + 8)}px`;
+      el.setAttribute('aria-expanded', 'true');
+      open = el;
+    };
+
+    for (const el of terms) {
+      el.addEventListener('click', (e) => { e.stopPropagation(); show(el); });
+      el.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(el); }
+        else if (e.key === 'Escape') close();
+      });
+      // Hover is a convenience on top of the click, never the only way in. The listeners
+      // attach everywhere and filter on the pointer that actually arrived, rather than
+      // asking matchMedia('(hover: hover)') first: that query answers false in more places
+      // than you would expect — headless Chromium among them — and gating on it would mean
+      // hover silently not working for someone who does have a mouse. The pointerType test
+      // already keeps a touch from triggering it, so the gate only added a failure mode.
+      el.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') show(el); });
+      el.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse' && open === el) close(); });
+    }
+    document.addEventListener('click', close);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+    window.addEventListener('resize', close);
   }
 
   // Split the rendered prose into sections at each h2, so each finding leads with its

@@ -387,8 +387,27 @@
   .der .bar-v { grid-area: v; text-align: right; }
 }
 
-/* A term the page can explain: feature keys and canonical role ids carry their definition
-   on hover and on focus. The affordance is a dotted underline rather than a colour, so it
-   reads as "there is more here" without competing with links. */
-.der .prose code.term { border-bottom: 1px dotted var(--ink-2); cursor: help; }
+/* A term the page can explain: feature keys and canonical role ids open their definition
+   on tap, click, Enter or Space, and on hover where a mouse is used. The affordance is a
+   dotted underline rather than a colour, so it reads as "there is more here" without
+   competing with links. */
+.der .prose code.term { border-bottom: 1px dotted var(--ink-2); cursor: pointer; }
 .der .prose code.term:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.der .prose code.term[aria-expanded="true"] { background: var(--accent); color: var(--paper); }
+/* Touch has no hover, so the tap target has to be a real one: 24px minimum without
+   disturbing the line box the term sits in. */
+@media (hover: none) {
+  .der .prose code.term { padding: .25em .35em; }
+}
+
+/* The definition panel. Positioned against the findings container so it scrolls with the
+   text, and clamped to that container so a long definition cannot start a sideways scroll
+   on a phone. Sized for reading, not for a tooltip. */
+.der .term-panel {
+  position: absolute; z-index: 20; max-width: min(34rem, 100%);
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px;
+  padding: .7rem .85rem; font-size: .95rem; line-height: 1.5;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 14%);
+}
+@media (max-width: 640px) { .der .term-panel { max-width: 100%; font-size: .92rem; } }
