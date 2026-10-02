@@ -3,7 +3,7 @@
  "name": "France",
  "country": "fr",
  "legalSystem": "civil law",
- "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice.",
+ "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice. The 2019 implementing decree is the asymmetry worth noting: art. 124 prescribes how an heir proves standing — identity plus an acte de notoriété or livret de famille — and prescribes nothing for the person the deceased designated. No decree establishing the registre unique of general directives, or the CNIL certification of tiers de confiance numérique that art. 85 I provides for, was found; that absence is recorded as unverified rather than asserted.",
  "citations": [
   {
    "id": "fr-cc-425",
@@ -102,7 +102,25 @@
    "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039280582",
    "kind": "statute",
    "retrieved": "2026-09-24",
-   "quote": "I.-Toute personne peut définir des directives relatives à la conservation, à l'effacement et à la communication de ses données à caractère personnel après son décès. Ces directives sont générales ou particulières. Les directives générales concernent l'ensemble des données à caractère personnel se rapportant à la personne concernée et peuvent être enregistrées auprès d'un tiers de confiance numérique certifié par la Commission nationale de l'informatique et des libertés. Les références des directives générales et le tiers de confiance auprès duquel elles sont enregistrées sont inscrites dans un registre unique dont les modalités et l'accès sont fixés par décret en Conseil d'Etat, pris après avis motivé et publié de la Commission nationale de l'informatique et des libertés. Les directives particulières concernent les traitements de données à caractère personnel mentionnées par ces directiv"
+   "quote": "I.-Toute personne peut définir des directives relatives à la conservation, à l'effacement et à la communication de ses données à caractère personnel après son décès. … Les directives générales … peuvent être enregistrées auprès d'un tiers de confiance numérique certifié par la Commission nationale de l'informatique et des libertés. Les références des directives générales et le tiers de confiance auprès duquel elles sont enregistrées sont inscrites dans un registre unique dont les modalités et l'accès sont fixés par décret en Conseil d'Etat … Les directives particulières … sont enregistrées auprès des responsables de traitement concernés. Elles font l'objet du consentement spécifique de la personne concernée et ne peuvent résulter de la seule approbation par celle-ci des conditions générales d'utilisation. … Les directives mentionnées au premier alinéa du présent I peuvent désigner une personne chargée de leur exécution. Celle-ci a alors qualité, lorsque la personne est décédée, pour prendre connaissance des directives et demander leur mise en œuvre aux responsables de traitement concernés. A défaut de désignation ou, sauf directive contraire, en cas de décès de la personne désignée, ses héritiers ont qualité pour prendre connaissance des directives au décès de leur auteur et demander leur mise en œuvre aux responsables de traitement concernés. Toute clause contractuelle des conditions générales d'utilisation d'un traitement portant sur des données à caractère personnel limitant les prérogatives reconnues à la personne en vertu du présent article est réputée non écrite. II.-En l'absence de directives ou de mention contraire dans ces directives, les héritiers de la personne concernée peuvent exercer, après son décès, les droits mentionnés au chapitre II du présent titre II dans la mesure nécessaire : 1° A l'organisation et au règlement de la succession du défunt … 2° A la prise en compte, par les responsables de traitement, de son décès … III.-Tout prestataire d'un service de communication au public en ligne informe l'utilisateur du sort des données qui le concernent à son décès et lui permet de choisir de communiquer ou non ses données à un tiers qu'il désigne."
+  },
+  {
+   "id": "fr-decret2019536-123",
+   "cite": "Décret n° 2019-536 du 29 mai 2019, art. 123",
+   "title": "Champ du chapitre relatif aux droits sur les données des personnes décédées",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000038567956",
+   "kind": "regulation",
+   "retrieved": "2026-10-02",
+   "quote": "Le présent chapitre s'applique aux traitements relevant du chapitre V du titre II de la loi du 6 janvier 1978 susvisée. Pour la mise en œuvre des droits mentionnés au I et au II de l'article 85 de la loi du 6 janvier 1978 susvisée , les droits mentionnés au titre II du présent décret s'appliquent sous réserve des dispositions particulières du présent chapitre."
+  },
+  {
+   "id": "fr-decret2019536-124",
+   "cite": "Décret n° 2019-536 du 29 mai 2019, art. 124",
+   "title": "Preuve de la qualité d'héritier",
+   "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000038567958",
+   "kind": "regulation",
+   "retrieved": "2026-10-02",
+   "quote": "Outre la justification de son identité, l'héritier d'une personne décédée qui souhaite exercer les droits mentionnés au I et au II de l'article 85 de la loi du 6 janvier 1978 susvisée doit, lors de sa demande, apporter la preuve de sa qualité d'héritier par la production d'un acte de notoriété ou d'un livret de famille."
   }
  ],
  "roles": [
@@ -951,7 +969,7 @@
     "personne chargée de leur exécution",
     "tiers de confiance numérique"
    ],
-   "summary": "France lets a person say in advance what happens to their personal data after death, and name someone to carry that out. General directives may be lodged with a CNIL-certified digital trusted third party; particular ones go to the controller and need specific consent that cannot come from accepting terms of service.",
+   "summary": "France lets a person say in advance what happens to their personal data after death, and name someone to carry that out. General directives may be lodged with a CNIL-certified digital trusted third party; particular ones go to the controller and need specific consent that cannot come from accepting terms of service. Art. 85 gives the designated person standing but prescribes no way of proving it: the implementing decree sets a proof rule for heirs only, so in practice the designation has to be evidenced by whatever holds the directives — the controller itself for directives particulières.",
    "lane": {
     "assigned": {
      "event": "Person defines general or particular directives on the conservation, erasure and communication of their personal data after death, and may designate a person charged with executing them",
@@ -961,10 +979,11 @@
      ]
     },
     "starts": {
-     "event": "On death the designated person may read the directives and require the controllers concerned to implement them; failing a designation, or if the designee has died, the heirs have that standing",
+     "event": "On death the designated person may read the directives and require the controllers concerned to implement them — standing the article confers without prescribing how it is proved; failing a designation, or if the designee has died, the heirs have that standing",
      "phase": "deceased",
      "citations": [
-      "fr-loi7817-85"
+      "fr-loi7817-85",
+      "fr-decret2019536-124"
      ]
     },
     "ends": [
@@ -980,6 +999,15 @@
       "phase": "deceased",
       "citations": [
        "fr-loi7817-85"
+      ]
+     },
+     {
+      "event": "Controller declines for want of proof that the claimant is the designated person — no evidentiary route is prescribed for the designee, unlike the heir",
+      "phase": "deceased",
+      "unverified": true,
+      "citations": [
+       "fr-loi7817-85",
+       "fr-decret2019536-124"
       ]
      }
     ],
@@ -1008,6 +1036,10 @@
      {
       "id": "done",
       "label": "Implemented"
+     },
+     {
+      "id": "unproven",
+      "label": "Designation not evidenced"
      }
     ],
     "transitions": [
@@ -1055,6 +1087,17 @@
       "citations": [
        "fr-loi7817-85"
       ]
+     },
+     {
+      "id": "fr-t-dir-unproven",
+      "from": "designated",
+      "to": "unproven",
+      "event": "Death, where the directives are not held by the controller and the designee has no prescribed means of proving the designation (décret 2019-536 art. 124 provides one for heirs only)",
+      "unverified": true,
+      "citations": [
+       "fr-decret2019536-124",
+       "fr-loi7817-85"
+      ]
      }
     ]
    },
@@ -1094,7 +1137,7 @@
     "biens numériques",
     "souvenirs de famille"
    ],
-   "summary": "Absent directives, heirs may exercise the data-protection rights themselves, but only so far as settling the succession and having the death taken into account require — including receiving digital goods or data resembling family mementos, and closing the deceased's accounts.",
+   "summary": "Absent directives, heirs may exercise the data-protection rights themselves, but only so far as settling the succession and having the death taken into account require — including receiving digital goods or data resembling family mementos, and closing the deceased's accounts. The heir's standing has a prescribed evidentiary route that the designated person's lacks: décret 2019-536 art. 124 requires proof of identity and of heirship by an acte de notoriété or a livret de famille.",
    "lane": {
     "assigned": {
      "event": "Heirship, where the deceased left no directives or the directives do not provide otherwise",
@@ -1105,10 +1148,12 @@
      ]
     },
     "starts": {
-     "event": "On death, to the extent necessary to organise and settle the succession — accessing processing to identify information useful to liquidation and partition, and receiving digital goods or data resembling family mementos — and to have the death taken into account",
+     "event": "On death, to the extent necessary to organise and settle the succession — accessing processing to identify information useful to liquidation and partition, and receiving digital goods or data resembling family mementos — and to have the death taken into account, on proof of identity and of the claimant's status as heir by an acte de notoriété or a livret de famille",
      "phase": "deceased",
      "citations": [
-      "fr-loi7817-85"
+      "fr-loi7817-85",
+      "fr-decret2019536-124",
+      "fr-decret2019536-123"
      ]
     },
     "ends": [
@@ -1159,6 +1204,15 @@
       "event": "Death with no directives; heirs exercise chapter II rights (art. 85 II)",
       "citations": [
        "fr-loi7817-85"
+      ]
+     },
+     {
+      "id": "fr-t-hd-proof",
+      "from": "active",
+      "to": "active",
+      "event": "Request to the controller accompanied by proof of identity and an acte de notoriété or livret de famille (décret 2019-536 art. 124)",
+      "citations": [
+       "fr-decret2019536-124"
       ]
      },
      {

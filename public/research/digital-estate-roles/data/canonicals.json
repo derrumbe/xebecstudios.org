@@ -13177,6 +13177,22 @@
      "kind": "statute",
      "retrieved": "2026-09-24"
     },
+    "fr-decret2019536-124": {
+     "id": "fr-decret2019536-124",
+     "cite": "Décret n° 2019-536 du 29 mai 2019, art. 124",
+     "title": "Preuve de la qualité d'héritier",
+     "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000038567958",
+     "kind": "regulation",
+     "retrieved": "2026-10-02"
+    },
+    "fr-decret2019536-123": {
+     "id": "fr-decret2019536-123",
+     "cite": "Décret n° 2019-536 du 29 mai 2019, art. 123",
+     "title": "Champ du chapitre relatif aux droits sur les données des personnes décédées",
+     "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000038567956",
+     "kind": "regulation",
+     "retrieved": "2026-10-02"
+    },
     "it-d196-2-terdecies": {
      "id": "it-d196-2-terdecies",
      "cite": "D.lgs. 196/2003 art. 2-terdecies",
@@ -13473,7 +13489,7 @@
       "en": "Heir exercising data-protection rights",
       "basis": "descriptive"
      },
-     "summary": "Absent directives, heirs may exercise the data-protection rights themselves, but only so far as settling the succession and having the death taken into account require — including receiving digital goods or data resembling family mementos, and closing the deceased's accounts.",
+     "summary": "Absent directives, heirs may exercise the data-protection rights themselves, but only so far as settling the succession and having the death taken into account require — including receiving digital goods or data resembling family mementos, and closing the deceased's accounts. The heir's standing has a prescribed evidentiary route that the designated person's lacks: décret 2019-536 art. 124 requires proof of identity and of heirship by an acte de notoriété or a livret de famille.",
      "group": "digital",
      "stateSpecific": false,
      "baselineOf": true,
@@ -13488,10 +13504,12 @@
        ]
       },
       "starts": {
-       "event": "On death, to the extent necessary to organise and settle the succession — accessing processing to identify information useful to liquidation and partition, and receiving digital goods or data resembling family mementos — and to have the death taken into account",
+       "event": "On death, to the extent necessary to organise and settle the succession — accessing processing to identify information useful to liquidation and partition, and receiving digital goods or data resembling family mementos — and to have the death taken into account, on proof of identity and of the claimant's status as heir by an acte de notoriété or a livret de famille",
        "phase": "deceased",
        "citations": [
-        "fr-loi7817-85"
+        "fr-loi7817-85",
+        "fr-decret2019536-124",
+        "fr-decret2019536-123"
        ]
       },
       "ends": [
@@ -13513,7 +13531,9 @@
      },
      "citations": [
       "fr-loi7817-85",
-      "fr-cc-724"
+      "fr-cc-724",
+      "fr-decret2019536-124",
+      "fr-decret2019536-123"
      ]
     },
     {
@@ -39453,6 +39473,14 @@
      "kind": "statute",
      "retrieved": "2026-09-24"
     },
+    "fr-decret2019536-124": {
+     "id": "fr-decret2019536-124",
+     "cite": "Décret n° 2019-536 du 29 mai 2019, art. 124",
+     "title": "Preuve de la qualité d'héritier",
+     "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000038567958",
+     "kind": "regulation",
+     "retrieved": "2026-10-02"
+    },
     "rufadaa-4": {
      "id": "rufadaa-4",
      "cite": "RUFADAA §4 (2015)",
@@ -39585,7 +39613,7 @@
       "en": "Person charged with executing post-mortem data directives",
       "basis": "descriptive"
      },
-     "summary": "France lets a person say in advance what happens to their personal data after death, and name someone to carry that out. General directives may be lodged with a CNIL-certified digital trusted third party; particular ones go to the controller and need specific consent that cannot come from accepting terms of service.",
+     "summary": "France lets a person say in advance what happens to their personal data after death, and name someone to carry that out. General directives may be lodged with a CNIL-certified digital trusted third party; particular ones go to the controller and need specific consent that cannot come from accepting terms of service. Art. 85 gives the designated person standing but prescribes no way of proving it: the implementing decree sets a proof rule for heirs only, so in practice the designation has to be evidenced by whatever holds the directives — the controller itself for directives particulières.",
      "group": "digital",
      "stateSpecific": false,
      "baselineOf": true,
@@ -39599,10 +39627,11 @@
        ]
       },
       "starts": {
-       "event": "On death the designated person may read the directives and require the controllers concerned to implement them; failing a designation, or if the designee has died, the heirs have that standing",
+       "event": "On death the designated person may read the directives and require the controllers concerned to implement them — standing the article confers without prescribing how it is proved; failing a designation, or if the designee has died, the heirs have that standing",
        "phase": "deceased",
        "citations": [
-        "fr-loi7817-85"
+        "fr-loi7817-85",
+        "fr-decret2019536-124"
        ]
       },
       "ends": [
@@ -39619,11 +39648,21 @@
         "citations": [
          "fr-loi7817-85"
         ]
+       },
+       {
+        "event": "Controller declines for want of proof that the claimant is the designated person — no evidentiary route is prescribed for the designee, unlike the heir",
+        "phase": "deceased",
+        "unverified": true,
+        "citations": [
+         "fr-loi7817-85",
+         "fr-decret2019536-124"
+        ]
        }
       ]
      },
      "citations": [
-      "fr-loi7817-85"
+      "fr-loi7817-85",
+      "fr-decret2019536-124"
      ]
     },
     {

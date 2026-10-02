@@ -1243,6 +1243,89 @@
      "hhs-ocr-decedents",
      "hipaa-164-502-g4"
     ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "Idaho enacted the Uniform Power of Attorney Act in 2008 (SB 1335). §15-12-104 is uniform §104: a power created under the chapter is durable unless it expressly provides that it is terminated by the principal's incapacity, so durability is opted out of rather than into.",
+    "citations": [
+     "id-15-12-104"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "§15-12-109 carries uniform §109. Where the principal authorised nobody to determine that the incapacity occurred, or the person authorised is unable or unwilling, the power becomes effective on a written determination by a physician or licensed psychologist, or by a licensed attorney, judge or appropriate governmental official on the §15-12-102(5)(b) grounds.",
+    "citations": [
+     "id-15-12-109"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "§15-12-105 requires only the principal's signature, with acknowledgment before a notary raising a presumption that the signature is genuine rather than being a condition of validity. Nothing is filed with a court or registry before the agent may act. Any county recording of a power used for real-property conveyances was not researched.",
+    "citations": [
+     "id-15-12-105"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "other",
+    "note": "Idaho never enacted the Uniform Health-Care Decisions Act and sets no statutory trigger. §39-4504(1)(b) gives the agent named in an advance care planning document authority \"if the conditions in such advance care planning document for authorizing the agent to act have been satisfied\", so the instrument defines its own commencement and there is no clinician finding to default to.",
+    "citations": [
+     "id-39-4504",
+     "id-39-4510"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "The advance care planning document chapter confers no post-death powers. The only post-death authority is the Revised Uniform Anatomical Gift Act's: §39-3404(2) lets an agent of the donor make an anatomical gift unless the power of attorney for health care or other record prohibits it.",
+    "citations": [
+     "id-39-3404",
+     "id-39-4510"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": 2016,
+    "name": "Revised Uniform Fiduciary Access to Digital Assets Act, Idaho Code tit. 15 ch. 14",
+    "note": "Enacted 2016 (SB 1303). §15-14-116 gives the custodian 60 days to comply with a fiduciary's or designated recipient's request and lets the applicant apply to court for an order directing compliance, which must find that compliance does not violate 18 U.S.C. 2702.",
+    "citations": [
+     "id-15-14-104",
+     "id-15-14-116"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§15-14-104(1) is uniform §4: where the online tool lets the user modify or delete the direction at all times, an online-tool direction overrides a contrary direction in a will, trust, power of attorney or other record.",
+    "citations": [
+     "id-15-14-104"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "Revised Uniform Anatomical Gift Act, Idaho Code tit. 39 ch. 34",
+    "note": "Enacted 2007 (SB 1017). A gift is made by the donor or, during the donor's life, by one of the persons §39-3404 lists; nothing is deemed from silence.",
+    "citations": [
+     "id-39-3404"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 100000,
+    "currency": "USD",
+    "waitingDays": 30,
+    "note": "§15-3-1201(a) lets a successor collect personal property on an affidavit 30 days after death where the probate estate, wherever located, less liens and encumbrances, does not exceed $100,000 — four times the uniform $25,000, level with Ohio and Washington. The figure is flat, with no cost-of-living adjustment. Idaho also has a second route with no ceiling: under §15-3-1205 a surviving spouse who is sole devisee or heir obtains a decree with the effect of a formal decree of distribution, with no personal representative appointed.",
+    "citations": [
+     "id-15-3-1201",
+     "id-15-3-1205"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters",
+    "note": "Title 15 is the Uniform Probate Code. §15-3-103 says a person must be appointed by order of the court or registrar, qualify and \"be issued letters\", and that administration is commenced by their issuance; §15-3-601 sets qualification before letters issue. These sections speak of letters without distinguishing testamentary from administration.",
+    "citations": [
+     "id-15-3-103",
+     "id-15-3-601",
+     "id-15-1-101"
+    ]
    }
   },
   "citations": [
@@ -1281,6 +1364,123 @@
     "kind": "regulation",
     "retrieved": "2026-09-16",
     "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "id-15-12-104",
+    "cite": "Idaho Code § 15-12-104",
+    "title": "Power of attorney is durable",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH12/SECT15-12-104/",
+    "quote": "A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal.",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-15-12-109",
+    "cite": "Idaho Code § 15-12-109",
+    "title": "When power of attorney effective",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH12/SECT15-12-109/",
+    "quote": "(3) If a power of attorney is to become effective upon the principal’s incapacity and the principal has not authorized a person to determine whether the principal is incapacitated, or the person authorized is unable or unwilling to make the determination, the power of attorney becomes effective upon a determination in a writing or other record by: (a) A physician or licensed psychologist that the principal is incapacitated within the meaning of section 15-12-102 (5)(a), Idaho Code; or (b) A licensed attorney at law, judge or appropriate governmental official that the principal is incapacitated",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-15-12-105",
+    "cite": "Idaho Code § 15-12-105",
+    "title": "Execution of power of attorney",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH12/SECT15-12-105/",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "A power of attorney must be signed by the principal or in the principal’s conscious presence by another individual directed by the principal to sign the principal’s name on the power of attorney … The signature is presumed to be genuine if the principal acknowledges the signature before a notary public or other individual authorized to take acknowledgments"
+   },
+   {
+    "id": "id-39-4504",
+    "cite": "Idaho Code § 39-4504 [effective until January 1, 2027]",
+    "title": "Persons who may give consent to care for others",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH45/SECT39-4504/",
+    "quote": "(1) Consent for the furnishing of health care services to any person who is not then capable of giving such consent … may be given or refused in the order of priority set forth hereafter … (a) The court-appointed guardian of such person; (b) The person named in another person’s advance care planning document as the health care agent of such person pursuant to section 39-4510 , Idaho Code … if the conditions in such advance care planning document for authorizing the agent to act have been satisfied; (c) If married, the spouse of such person; (d) An adult child of such person; (e) A parent of such person; (f) The person named in a delegation of parental authority executed pursuant to section 15-5-104 , Idaho Code; (g) Any relative of such person; (h) Any other competent individual representing himself or herself to be responsible for the health care of such person",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-39-4510",
+    "cite": "Idaho Code § 39-4510",
+    "title": "Advance care planning document",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH45/SECT39-4510/",
+    "quote": "(1) Any competent person aged eighteen (18) years or older may execute an advance care planning document (ACPD). Such document must contain the mandatory elements set forth in this section. Any provisions of an ACPD that are left blank by a person executing the document shall be deemed intentional and shall not invalidate the document. … To be considered a valid ACPD, a document must include: (a) The person’s name, date of birth, telephone number, and mailing address; (b) The signature of the person for whom the ACPD is created or the authorized agent of such person; and (c) The date on which the document was signed. (2) An ACPD may but is not required to include the following: … (b) Nomination of one (1) or more persons to act as a health care agent; … (k) Notarization.",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-39-3404",
+    "cite": "Idaho Code § 39-3404",
+    "title": "Who may make anatomical gift before donor’s death",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/T39CH34/SECT39-3404/",
+    "quote": "(2) An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift;",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-15-14-104",
+    "cite": "Idaho Code § 15-14-104",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH14/SECT15-14-104/",
+    "quote": "(1) A user may use an online tool to direct the custodian to disclose to the designated recipient or not to disclose some or all of the user’s digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney or other record.",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-15-14-116",
+    "cite": "Idaho Code § 15-14-116",
+    "title": "Custodian compliance and immunity",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH14/SECT15-14-116/",
+    "quote": "(1) Not later than sixty (60) days after receipt of the information required under sections 15-14-107 through 15-14-115 , Idaho Code, a custodian shall comply with a request under this chapter from a fiduciary or designated recipient to disclose digital assets or to terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance.",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-15-3-1201",
+    "cite": "Idaho Code § 15-3-1201",
+    "title": "Collection of personal property by affidavit",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH3/SECT15-3-1201/",
+    "quote": "(a) Thirty (30) days after the death of a decedent, any person indebted to the decedent or having possession of tangible personal property … shall make payment of the indebtedness or deliver the tangible personal property … to a person or entity claiming to be the successor of the decedent upon being presented an affidavit made by or on behalf of the successor stating that: (1) The fair market value of the entire estate of the decedent which is subject to probate, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars ($100,000); (2) Thirty (30) days have elapsed since the death of the decedent",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-15-3-1205",
+    "cite": "Idaho Code § 15-3-1205",
+    "title": "Summary administration of estates in which a surviving spouse is the sole beneficiary",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH3/SECT15-3-1205/",
+    "quote": "(a) Upon the testate or intestate death of a person leaving a surviving spouse as the sole devisee or beneficiary, the surviving spouse … may file a verified petition setting out marriage and the death of a person leaving a surviving spouse as the sole devisee or heir. … (b) If it shall appear at such hearing that the decedent and the person claimed to be the surviving spouse were duly married and that the surviving spouse is the sole heir or devisee, a decree shall be made to that effect. This decree shall thereafter have the same effect as a formal decree approving or determining distribution.",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "id": "id-15-3-103",
+    "cite": "Idaho Code § 15-3-103",
+    "title": "Necessity of appointment for administration",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH3/SECT15-3-103/",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "to acquire the powers and undertake the duties and liabilities of a personal representative of a decedent, a person must be appointed by order of the court or registrar, qualify and be issued letters. Administration of an estate is commenced by the issuance of letters."
+   },
+   {
+    "id": "id-15-3-601",
+    "cite": "Idaho Code § 15-3-601",
+    "title": "Qualification",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH3/SECT15-3-601/",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "Prior to receiving letters, a personal representative shall qualify by filing with the appointing court any required bond and a statement of acceptance of the duties of the office."
+   },
+   {
+    "id": "id-15-1-101",
+    "cite": "Idaho Code § 15-1-101",
+    "title": "Short title",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH1/SECT15-1-101/",
+    "quote": "This act shall be known and may be cited as the uniform probate code.",
+    "kind": "statute",
+    "retrieved": "2026-10-01"
    }
   ]
  },
@@ -1713,6 +1913,90 @@
      "hhs-ocr-decedents",
      "hipaa-164-502-g4"
     ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "Louisiana is a civil-law jurisdiction with no power of attorney in the model's sense; the instrument is a mandate, which article 2989 makes a contract between principal and mandatary rather than a unilateral grant. Durability runs the opposite way from every common-law state here: article 3026 keeps the mandate and the mandatary's authority alive through the principal's incapacity \"in the absence of contrary agreement\", so there are no durability words to include and no presumption to rebut. What ends it is structural — article 3024 terminates the mandate on the death of either party and on interdiction of the mandatary.",
+    "citations": [
+     "la-cc-3026",
+     "la-cc-3024",
+     "la-cc-2989"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "no",
+    "note": "No Louisiana analogue was found. The mandate articles contain no provision for authority beginning on a future event or on the principal's incapacity, and nothing corresponding to the uniform act's certifier machinery; the structure makes one largely unnecessary, since a mandate takes effect as a contract and article 3026 carries it through incapacity rather than starting it there. A mandate could presumably be made subject to a suspensive condition under the general law of obligations, but that is an inference. The citations are the articles that do exist, not authority for the absence.",
+    "citations": [
+     "la-cc-2989",
+     "la-cc-3026"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "A mandate is formed as a contract between the principal and the mandatary under article 2989; nothing is filed with a court or registry before the mandatary may act. Authentic-act form and conveyance-records requirements for particular transactions were not researched.",
+    "citations": [
+     "la-cc-2989"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "other",
+    "note": "Louisiana has no health-care agent statute of the model's kind and so no statutory trigger. Two routes exist and neither matches: a mandate may cover health care, and R.S. 40:1151.4 provides a declaration procedure for a qualified patient. Where authority comes from a mandate it begins as the contract provides, not on a clinician's finding.",
+    "citations": [
+     "la-rs-40-1151-4",
+     "la-cc-2989"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "R.S. 17:2352 keeps the uniform anatomical gift default: an agent of the donor may make a gift unless the power of attorney for health care or other record prohibits it. The right of disposing of remains is separate, at R.S. 8:655.",
+    "citations": [
+     "la-rs-17-2352",
+     "la-rs-8-655"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": false,
+    "year": null,
+    "name": null,
+    "note": "Louisiana has not enacted RUFADAA. The only digital-asset provisions found are in the unclaimed property chapter at R.S. 9:160.5, which govern abandoned property rather than fiduciary access, so no statute addresses a fiduciary's access to a user's digital assets as such.",
+    "citations": [
+     "la-rs-9-160-5"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": false,
+    "note": "With no RUFADAA enactment there is no designated recipient and no online-tool direction that overrides a will, trust or mandate.",
+    "citations": [
+     "la-rs-9-160-5"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "La. Rev. Stat. 17:2351 et seq. (Revised Uniform Anatomical Gift Act)",
+    "note": "A gift is made by the donor or by one of the persons R.S. 17:2352 lists during the donor's life; nothing is deemed from silence.",
+    "citations": [
+     "la-rs-17-2352"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 200000,
+    "currency": "USD",
+    "waitingDays": null,
+    "note": "Louisiana's small succession threshold is the highest of the US jurisdictions covered here: $200,000 of gross value for a decedent domiciled in the state under C.C.P. art. 3421, and $125,000 for an ancillary succession of someone domiciled elsewhere.",
+    "citations": [
+     "la-ccp-3421"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters testamentary (on confirmation)",
+    "note": "Louisiana confirms an executor rather than appointing one: after the testament is probated, the person named in it petitions the court for confirmation and for letters under C.C.P. art. 3081. Article 3098 sets priority where there is no confirmed executor.",
+    "citations": [
+     "la-ccp-3081",
+     "la-ccp-3098",
+     "la-ccp-3097"
+    ]
    }
   },
   "citations": [
@@ -1751,6 +2035,105 @@
     "kind": "regulation",
     "retrieved": "2026-09-16",
     "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "la-cc-3026",
+    "cite": "La. Civ. Code art. 3026",
+    "title": "Incapacity of the principal",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=110068",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "In the absence of contrary agreement, neither the contract nor the authority of the mandatary is terminated by the principal's incapacity, disability, or other condition"
+   },
+   {
+    "id": "la-cc-3024",
+    "cite": "La. Civ. Code art. 3024",
+    "title": "Termination of the mandate and of the mandatary's authority",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=110066",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "both the mandate and the authority of the mandatary terminate upon the: (1) Death of the principal or of the mandatary. (2) Interdiction of the mandatary. (3) Qualification of the curator after the interdiction of the principal."
+   },
+   {
+    "id": "la-cc-2989",
+    "cite": "La. Civ. Code art. 2989",
+    "title": "Mandate defined",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=110025",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "A mandate is a contract by which a person, the principal, confers authority on another person, the mandatary, to transact one or more affairs for the principal."
+   },
+   {
+    "id": "la-rs-40-1151-4",
+    "cite": "La. Rev. Stat. §40:1151.4",
+    "title": "Procedure for making a declaration for a qualified patient who has not previously made a declaration",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=964673",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "any of the following individuals in the following order of priority, if there is no individual in a prior class who is reasonably available, willing, and competent to act, may make a declaration on the qualified patient's behalf: (a) The judicially appointed tutor or curator of the patient"
+   },
+   {
+    "id": "la-rs-17-2352",
+    "cite": "La. Rev. Stat. §17:2352",
+    "title": "Applicability; persons who may make an anatomical gift prior to the death of the donor",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=80331",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "An agent of the donor, unless the power of attorney for health care or other record prohibits it."
+   },
+   {
+    "id": "la-rs-8-655",
+    "cite": "La. Rev. Stat. §8:655",
+    "title": "Right of disposing of remains; military personnel; limitation of liability",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=106436",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "unless other specific directions have been given or the designation of a specific person to control disposition has been made by the decedent in the form of a notarial testament or a written and notarized declaration, the following persons, in the priority listed, have the right to control and authorize the interment"
+   },
+   {
+    "id": "la-rs-9-160-5",
+    "cite": "La. Rev. Stat. §9:160.5",
+    "title": "General provisions applying to digital assets",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=1483518",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The delivery of a digital asset or its liquidated value to the administrator's designated custodian constitutes payment or delivery for purposes of this Chapter."
+   },
+   {
+    "id": "la-ccp-3421",
+    "cite": "La. Code Civ. Proc. art. 3421",
+    "title": "Small successions defined",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=111765",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The succession of a person who died domiciled in Louisiana and who died leaving property with a gross value of two hundred thousand dollars or less valued as of the date of death. ... (3) The succession of a person whose date of death occurred at least twenty years prior to the execution of a small succession affidavit and who died leaving property in Louisiana of any value."
+   },
+   {
+    "id": "la-ccp-3081",
+    "cite": "La. Code Civ. Proc. art. 3081",
+    "title": "Petition for confirmation",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=111601",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "After the probate of the testament ... the person named as executor therein may petition the court for confirmation, and for the issuance of letters testamentary."
+   },
+   {
+    "id": "la-ccp-3098",
+    "cite": "La. Code Civ. Proc. art. 3098",
+    "title": "Priority of appointment",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=111611",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "preference in the appointment shall be given by the court in the following order to: (1) The best qualified among the surviving spouse, competent heirs or legatees ... (3) The best qualified of the creditors of the deceased"
+   },
+   {
+    "id": "la-ccp-3097",
+    "cite": "La. Code Civ. Proc. art. 3097",
+    "title": "Disqualifications",
+    "url": "https://www.legis.la.gov/legis/Law.aspx?d=111610",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "No person may be confirmed as testamentary executor, or appointed dative testamentary executor, provisional administrator, or administrator who is: (1) Under eighteen years of age; (2) Interdicted, or who, on contradictory hearing, is proved to be mentally incompetent; (3) A convicted felon"
    }
   ]
  },
@@ -1765,6 +2148,85 @@
      "hhs-ocr-decedents",
      "hipaa-164-502-g4"
     ]
+   },
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "Massachusetts enacted the Uniform Probate Code but not the Uniform Power of Attorney Act. Its durable power provision is the older UPC form carried into 190B Article V, under which durability is opted into: the writing must contain words showing the principal intends the authority to survive incapacity. Silence leaves an ordinary agency that ends at incapacity.",
+    "citations": [
+     "ma-mgl-190b-5-501"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "A springing power is created through the same magic-words route — \"This power of attorney shall become effective upon the disability or incapacity of the principal\" — but, as in Pennsylvania and New Jersey, the statute supplies no default certifier, so if the instrument names nobody to determine that the contingency occurred there is no statutory fallback.",
+    "citations": [
+     "ma-mgl-190b-5-501"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "§5-501 requires only a writing with the durability words; nothing is filed with a court or registry before the attorney in fact may act. Registry of deeds recording for real-property transactions was not researched.",
+    "citations": [
+     "ma-mgl-190b-5-501"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "The health care proxy is its own chapter rather than part of the probate code, and the trigger is more demanding than the model's. One physician suffices, but under ch. 201D §6 the determination must be written and must state the attending physician's opinion on the cause and nature of the incapacity and its extent and probable duration, and it is entered in the patient's record.",
+    "citations": [
+     "ma-mgl-201d-6",
+     "ma-mgl-201d-5"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "The proxy chapter confers no post-death authority. The only post-death power is the anatomical gift: ch. 113A §4 keeps the uniform default that an agent may make a gift unless the power of attorney for health care or other record prohibits it. No Massachusetts statute setting a right-of-disposition priority for remains was found, so none is asserted.",
+    "citations": [
+     "ma-mgl-113a-4"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": false,
+    "year": null,
+    "name": null,
+    "note": "Massachusetts has not enacted RUFADAA, and no Massachusetts statute was found giving a fiduciary access to a user's digital assets or applying the duties of care, loyalty and confidentiality to them. A personal representative takes only the general transactional powers in §3-715, which are not addressed to digital assets or to custodians.",
+    "citations": [
+     "ma-mgl-190b-3-715"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": false,
+    "note": "With no RUFADAA enactment there is no designated recipient and no online-tool direction that overrides a contrary direction in a will, trust or power of attorney. Whatever a custodian's tool does here, it does as a matter of contract rather than of statute.",
+    "citations": [
+     "ma-mgl-190b-3-715"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "Mass. Gen. Laws ch. 113A (Revised Uniform Anatomical Gift Act)",
+    "note": "Chapter 113A carries the revised uniform anatomical gift act — note that chapter 113 itself is a six-section remnant. A gift is made by the donor or by one of the persons §4 lists; nothing is deemed from silence.",
+    "citations": [
+     "ma-mgl-113a-4"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 25000,
+    "currency": "USD",
+    "waitingDays": 30,
+    "note": "§3-1201 sets the lowest ceiling in this set, $25,000, but excludes a motor vehicle from it, so the vehicle passes without counting against the limit. The estate must consist entirely of personal property, which bars the route wherever any real property is involved.",
+    "citations": [
+     "ma-mgl-190b-3-1201"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters",
+    "note": "§3-103 carries the Uniform Probate Code rule that a person must be appointed to acquire the powers of a personal representative; the code speaks of letters rather than distinguishing testamentary from administration in that section.",
+    "citations": [
+     "ma-mgl-190b-3-103",
+     "ma-mgl-190b-3-203"
+    ]
    }
   },
   "citations": [
@@ -1803,6 +2265,78 @@
     "kind": "regulation",
     "retrieved": "2026-09-16",
     "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "ma-mgl-190b-5-501",
+    "cite": "Mass. Gen. Laws ch. 190B, §5-501",
+    "title": "Definition (durable power of attorney)",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section5-501",
+    "kind": "statute",
+    "retrieved": "2026-09-21",
+    "quote": "A durable power of attorney is a power of attorney by which a principal designates another his attorney in fact in writing and the writing contains the words ''This power of attorney shall not be affected by subsequent disability or incapacity of the principal, or lapse of time,'' or ''This power of attorney shall become effective upon the disability or incapacity of the principal,'' or similar words"
+   },
+   {
+    "id": "ma-mgl-201d-6",
+    "cite": "Mass. Gen. Laws ch. 201D, §6",
+    "title": "Incapacity of patient; regained capacity",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter201D/Section6",
+    "kind": "statute",
+    "retrieved": "2026-09-21",
+    "quote": "Such determination shall be made by the attending physician according to accepted standards of medical judgment. The determination shall be in writing and shall contain the attending physician's opinion regarding the cause and nature of the principal's incapacity as well as its extent and probable duration. This written determination shall be entered into the principal's permanent medical record."
+   },
+   {
+    "id": "ma-mgl-201d-5",
+    "cite": "Mass. Gen. Laws ch. 201D, §5",
+    "title": "Authority of agent",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter201D/Section5",
+    "kind": "statute",
+    "retrieved": "2026-09-21",
+    "quote": "An agent shall have the authority to make any and all health care decisions on the principal's behalf that the principal could make, including decisions about life-sustaining treatment, subject, however, to any express limitations in the health care proxy."
+   },
+   {
+    "id": "ma-mgl-113a-4",
+    "cite": "Mass. Gen. Laws ch. 113A, §4",
+    "title": "Who may make anatomical gift before donor's death",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter113A/Section4",
+    "kind": "statute",
+    "retrieved": "2026-09-21",
+    "quote": "an agent of the donor including, but not limited to, a health care agent appointed under a health care proxy pursuant to chapter 201D, unless the power of attorney for health care or other record prohibits the agent from making"
+   },
+   {
+    "id": "ma-mgl-190b-3-715",
+    "cite": "Mass. Gen. Laws ch. 190B, §3-715",
+    "title": "Transactions authorized for personal representatives; exceptions",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-715",
+    "kind": "statute",
+    "retrieved": "2026-09-21",
+    "quote": "a personal representative other than a special personal representative, acting reasonably for the benefit of the interested persons, may properly: (1) retain assets owned by the decedent pending distribution or liquidation"
+   },
+   {
+    "id": "ma-mgl-190b-3-1201",
+    "cite": "Mass. Gen. Laws ch. 190B, §3-1201",
+    "title": "Collection of personal property by affidavit",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-1201",
+    "kind": "statute",
+    "retrieved": "2026-09-21",
+    "quote": "If a person domiciled in the commonwealth dies leaving an estate consisting entirely of personal property the total value of which may include a motor vehicle of which the decedent was the owner, and other personal property not exceeding $25,000 in value ... may, after the expiration of 30 days from the death of the decedent"
+   },
+   {
+    "id": "ma-mgl-190b-3-103",
+    "cite": "Mass. Gen. Laws ch. 190B, § 3-103",
+    "title": "Necessity of appointment for administration",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-103",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "Except as otherwise provided in article IV, to acquire the powers and undertake the duties and liabilities of a personal representative of a decedent, a person shall be appointed"
+   },
+   {
+    "id": "ma-mgl-190b-3-203",
+    "cite": "Mass. Gen. Laws ch. 190B, §3-203",
+    "title": "Priority among persons seeking appointment as personal representative",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-203",
+    "kind": "statute",
+    "retrieved": "2026-09-21",
+    "quote": "(1) the person with priority as determined by a probated will including a person nominated by a power conferred in a will; (2) the surviving spouse of the decedent who is a devisee of the decedent; (3) other devisees of the decedent; (4) the surviving spouse of the decedent; (5) other heirs of the decedent; (6) if there is no known spouse or next of kin, a public administrator appointed pursuant to chapter 194"
    }
   ]
  },
@@ -1817,57 +2351,87 @@
      "hhs-ocr-decedents",
      "hipaa-164-502-g4"
     ]
-   }
-  },
-  "citations": [
-   {
-    "id": "hipaa-164-502-f",
-    "cite": "45 CFR 164.502(f)",
-    "title": "Standard: Deceased individuals",
-    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
-    "kind": "regulation",
-    "retrieved": "2026-09-16",
-    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
    },
-   {
-    "id": "hipaa-160-103-phi",
-    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
-    "title": "Definitions: protected health information exclusions",
-    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
-    "kind": "regulation",
-    "retrieved": "2026-09-16",
-    "quote": "Regarding a person who has been deceased for more than 50 years."
-   },
-   {
-    "id": "hhs-ocr-decedents",
-    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
-    "title": "Health Information of Deceased Individuals",
-    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
-    "kind": "agency-rule",
-    "retrieved": "2026-09-16",
-    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
-   },
-   {
-    "id": "hipaa-164-502-g4",
-    "cite": "45 CFR 164.502(g)(4)",
-    "title": "Implementation specification: Deceased individuals",
-    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
-    "kind": "regulation",
-    "retrieved": "2026-09-16",
-    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
-   }
-  ]
- },
- "us-mi": {
-  "features": {
-   "deceasedPersonalDataProtected": {
-    "value": "partial",
-    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "Maine enacted the Uniform Power of Attorney Act. §5-904 is uniform §104 verbatim: a power is durable unless it expressly provides that it is terminated by the principal's incapacity.",
     "citations": [
-     "hipaa-164-502-f",
-     "hipaa-160-103-phi",
-     "hhs-ocr-decedents",
-     "hipaa-164-502-g4"
+     "me-18c-5-904"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "§5-909 carries uniform §109, including the default certifier: where the principal named nobody, or the named person will not or cannot act, the power becomes effective on a written determination by a physician that the principal is incapacitated, or by an attorney, judge or appropriate governmental official on the §5-902(5)(B) grounds.",
+    "citations": [
+     "me-18c-5-909"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "Nothing is filed before use, but execution is stricter than the uniform act: §5-905(1) makes a power of attorney invalid unless acknowledged before a notary public, which uniform §105 treats only as a presumption of genuineness, and §5-905(2) voids a durable power that does not carry the two statutory notices.",
+    "citations": [
+     "me-18c-5-905",
+     "me-18c-5-904"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "Maine's Part 8 is the 1993 Uniform Health-Care Decisions Act. §5-803(3) makes the agent's authority effective, unless the power provides otherwise, only on a determination that the principal lacks capacity; §5-803(4) requires that determination to be made by the primary physician or by a court of competent jurisdiction.",
+    "citations": [
+     "me-18c-5-803"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "The advance health care directive Part confers no post-death powers. Post-death authority comes from the Revised Uniform Anatomical Gift Act: §2944(2) lets an agent make an anatomical gift unless the power of attorney for health care or other record prohibits it. Custody and control of the remains is a separate right under 22 §2843-A, exercised by the person the subject designated in a signed writing.",
+    "citations": [
+     "me-22-2944",
+     "me-22-2843-a"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": 2018,
+    "name": "Revised Uniform Fiduciary Access to Digital Assets Act, Me. Rev. Stat. tit. 18-C art. 10",
+    "note": "Enacted 2018 as Article 10 of the recodified Probate Code. §10-116 carries the uniform 60-day compliance window and the court order directing compliance.",
+    "citations": [
+     "me-18c-10-104",
+     "me-18c-10-116"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§10-104 is uniform §4 verbatim: an online-tool direction the user may modify or delete at all times overrides a contrary direction in a will, trust, power of attorney or other record.",
+    "citations": [
+     "me-18c-10-104"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "Revised Uniform Anatomical Gift Act, Me. Rev. Stat. tit. 22 ch. 710-B",
+    "note": "Chapter 710-B; the repealed original chapter 710 remains in the contents marked (REPEALED) beside it. A gift is made by the donor or by one of the persons §2944 lists during the donor's life; nothing is deemed from silence.",
+    "citations": [
+     "me-22-2944"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 40000,
+    "currency": "USD",
+    "waitingDays": 30,
+    "note": "§3-1201(1)(A) sets $40,000 \"adjusted for inflation pursuant to section 1‑108\", and §1-108 indexes the figure to the Consumer Price Index for All Urban Consumers against a 2017 reference base, by the calendar year preceding the year of death. The threshold recorded here is the statutory figure before indexation.",
+    "citations": [
+     "me-18c-3-1201",
+     "me-18c-1-108"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters",
+    "note": "§3-103 says a person must be appointed by order of the court or registers, qualify and \"be issued letters\", and that administration is commenced by their issuance; §3-601 sets qualification before letters issue.",
+    "citations": [
+     "me-18c-3-103",
+     "me-18c-3-601"
     ]
    }
   },
@@ -1907,6 +2471,347 @@
     "kind": "regulation",
     "retrieved": "2026-09-16",
     "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "me-18c-5-904",
+    "cite": "Me. Rev. Stat. tit. 18-C, §5-904",
+    "title": "Power of attorney is durable",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-904.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "A power of attorney created under this Part is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+   },
+   {
+    "id": "me-18c-5-909",
+    "cite": "Me. Rev. Stat. tit. 18-C, §5-909",
+    "title": "When power of attorney effective",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-909.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "If a power of attorney becomes effective upon the principal's incapacity and the principal has not authorized a person to determine whether the principal is incapacitated, or the person authorized is unable or unwilling to make the determination, the power of attorney becomes effective upon a determination in a writing or other record by: A. A physician that the principal is incapacitated within the meaning of section 5‑902, subsection 5, paragraph A; or B. An attorney, a judge or an appropriate governmental official that the principal is incapacitated within the meaning of section 5‑902, subsection 5, paragraph B."
+   },
+   {
+    "id": "me-18c-5-905",
+    "cite": "Me. Rev. Stat. tit. 18-C, §5-905",
+    "title": "Execution of power of attorney; notices",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-905.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "A signature on a power of attorney is presumed to be genuine if the principal acknowledges the signature before a notary public or other individual authorized by law to take acknowledgments. A power of attorney under this Part is not valid unless it is acknowledged before a notary public or other individual authorized by law to take acknowledgments. ... A durable power of attorney under this Part is not valid unless it contains the following notices substantially in the following form"
+   },
+   {
+    "id": "me-18c-5-803",
+    "cite": "Me. Rev. Stat. tit. 18-C, §5-803",
+    "title": "Advance health care directives",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec5-803.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "The power must be in writing and signed by the principal and 2 witnesses. Notwithstanding any law validating electronic or digital signatures, signatures of the principal and witnesses must be made in person and not by electronic means. ... Unless related to the principal by blood, marriage or adoption, an agent may not be an owner, operator or employee of a residential long-term health care institution at which the principal is receiving care. ... Unless otherwise specified in a power of attorney for health care, the authority of an agent becomes effective only upon a determination that the principal lacks capacity and ceases to be effective upon a determination that the principal has recovered capacity."
+   },
+   {
+    "id": "me-22-2944",
+    "cite": "Me. Rev. Stat. tit. 22, §2944",
+    "title": "Who may make anatomical gift before donor's death",
+    "url": "https://legislature.maine.gov/statutes/22/title22sec2944.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift"
+   },
+   {
+    "id": "me-22-2843-a",
+    "cite": "Me. Rev. Stat. tit. 22, §2843-A",
+    "title": "Custody of remains of deceased persons",
+    "url": "https://legislature.maine.gov/statutes/22/title22sec2843-A.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "If the subject has designated another person to have custody and control in a written and signed document, custody and control belong to that designated person; ... If a person who has the right of custody and control under this subsection does not exercise the rights and responsibilities of custody and control within 4 days after the death of the subject, custody and control belong to a person from the next lower level of priority ... A person who has been charged with murder ... or manslaughter ... forfeits the right of custody and control provided under this subsection"
+   },
+   {
+    "id": "me-18c-10-104",
+    "cite": "Me. Rev. Stat. tit. 18-C, §10-104",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec10-104.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user's digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney or other record."
+   },
+   {
+    "id": "me-18c-10-116",
+    "cite": "Me. Rev. Stat. tit. 18-C, §10-116",
+    "title": "Custodian compliance and immunity",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec10-116.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Not later than 60 days after receipt of the information required under sections 10‑107 to 10‑115, a custodian shall comply with a request under this Act from a fiduciary or designated recipient to disclose digital assets or terminate an account."
+   },
+   {
+    "id": "me-18c-3-1201",
+    "cite": "Me. Rev. Stat. tit. 18-C, §3-1201",
+    "title": "Collection of personal property by affidavit",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-1201.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "Thirty days after the death of a decedent, any person indebted to the decedent or having possession of personal property ... shall make payment ... upon being presented an affidavit made by or on behalf of the successor stating that: A. The value of the entire estate, wherever located, less liens and encumbrances, does not exceed $40,000, adjusted for inflation pursuant to section 1‑108"
+   },
+   {
+    "id": "me-18c-1-108",
+    "cite": "Me. Rev. Stat. tit. 18-C, §1-108",
+    "title": "Cost-of-living adjustment of certain dollar amounts",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec1-108.html",
+    "kind": "statute",
+    "retrieved": "2026-09-23",
+    "quote": "The dollar amounts stated in sections 2‑102, 2‑402, 2‑403, 2‑405 and 3‑1201 apply to the estate of a decedent who died in or after 2017, but for the estate of a decedent who died after 2018, these dollar amounts must be increased or decreased if the Consumer Price Index for the calendar year immediately preceding the year of death exceeds or is less than the reference base index."
+   },
+   {
+    "id": "me-18c-3-103",
+    "cite": "Me. Rev. Stat. tit. 18-C, §3-103",
+    "title": "Necessity of appointment for administration",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-103.html",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "to acquire the powers and undertake the duties and liabilities of a personal representative of a decedent, a person must be appointed by order of the court or registers, qualify and be issued letters. Administration of an estate is commenced by the issuance of letters."
+   },
+   {
+    "id": "me-18c-3-601",
+    "cite": "Me. Rev. Stat. tit. 18-C, §3-601",
+    "title": "Qualification",
+    "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-601.html",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "Prior to receiving letters, a personal representative must qualify by filing with the appointing court any required bond and a statement of acceptance of the duties of the office."
+   }
+  ]
+ },
+ "us-mi": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "Michigan repealed its old durable power provisions at MCL 700.5501 to 700.5505 and enacted the Uniform Power of Attorney Act as 2023 PA 187, effective 1 July 2024, codified outside the estates code at MCL 556.201 to 556.505. A properly executed power is durable without saying so, but the presumption is a limited one: MCL 556.204 makes a power durable only if executed with the §205 formalities — acknowledged before a notary, or signed before two witnesses who also sign, neither of whom may be an agent nominated in the power. A power not executed that way is not durable at all, however clearly it says otherwise, which the uniform text does not provide.",
+    "citations": [
+     "mi-mcl-556-204",
+     "mi-mcl-556-205"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "MCL 556.209 carries uniform §109 without substantive change: effective on execution unless the instrument sets a future date, event or contingency, with the principal able to authorise one or more persons to determine that it occurred.",
+    "citations": [
+     "mi-mcl-556-209"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "MCL 556.205 sets the execution requirements — notarial acknowledgment or two witnesses — and nothing is filed with a court or registry before the agent may act. Those formalities carry more weight here than elsewhere because MCL 556.204 makes durability itself depend on them.",
+    "citations": [
+     "mi-mcl-556-205",
+     "mi-mcl-556-204"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "Michigan calls the role a patient advocate and gates it more tightly than the model's health-care agent: two clinicians are needed, not one — the attending physician and another physician or licensed psychologist, each on examination.",
+    "citations": [
+     "mi-mcl-700-5508",
+     "mi-mcl-700-5506"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "The patient advocate provisions confer no general post-death authority. MCL 333.10104(b) keeps the uniform anatomical gift default: the donor's agent may make a gift unless the power of attorney for health care or other record prohibits it.",
+    "citations": [
+     "mi-mcl-333-10104"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": 2016,
+    "name": "Fiduciary Access to Digital Assets Act, 2016 PA 59, MCL 700.1001 to 700.1018",
+    "note": "Michigan enacted RUFADAA as a standalone statute rather than inside the estates code. MCL 700.1015 carries the uniform fiduciary provision: care, loyalty and confidentiality apply to digital assets as to tangible personal property, bounded by the terms-of-service agreement and other law.",
+    "citations": [
+     "mi-mcl-700-1004",
+     "mi-mcl-700-1015"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "MCL 700.1004 carries the uniform user-direction provision, including the rule that an online-tool direction the user may modify or delete at all times overrides a contrary direction in a will, trust or power of attorney.",
+    "citations": [
+     "mi-mcl-700-1004"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "Revised Uniform Anatomical Gift Act, MCL 333.10101 et seq.",
+    "note": "Michigan took the revised uniform anatomical gift act into the public health code. A gift is made by the donor or by one of the persons §10104 lists; nothing is deemed from silence.",
+    "citations": [
+     "mi-mcl-333-10104"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 50000,
+    "currency": "USD",
+    "waitingDays": 28,
+    "note": "MCL 700.3983 sets a 28-day wait rather than the model's 30 and bars the route entirely where the estate includes any real property. The $50,000 ceiling is the figure as enacted; the statute ties it to the inflation adjustment in §1210, so the operative figure for a given year is higher.",
+    "citations": [
+     "mi-mcl-700-3983"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters",
+    "note": "MCL 700.3103 requires appointment by the register or by court order, qualification, and the issuance of letters, which commences administration. The section speaks of letters without distinguishing testamentary from administration.",
+    "citations": [
+     "mi-mcl-700-3103",
+     "mi-mcl-700-3203"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "mi-mcl-556-204",
+    "cite": "Mich. Comp. Laws §556.204",
+    "title": "Limited presumption of durability",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-556-204",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "A power of attorney created on or after the effective date of this act that is executed in accordance with section 105(2) or (3) is durable unless it expressly provides that it is terminated by the incapacity of the principal. A power of attorney ... that is not executed in accordance with section 105(2) or (3) is not durable."
+   },
+   {
+    "id": "mi-mcl-556-205",
+    "cite": "Mich. Comp. Laws §556.205",
+    "title": "Execution of power of attorney; requirements",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-556-205",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "To be durable, a power of attorney signed under subsection (1)(a) must meet 1 of the following requirements: (a) Be acknowledged by the principal before a notary public ... (b) Be signed in the presence of 2 witnesses, both of whom also sign the power"
+   },
+   {
+    "id": "mi-mcl-556-209",
+    "cite": "Mich. Comp. Laws §556.209",
+    "title": "Effective date of power of attorney",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-556-209",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "the power becomes effective on a determination in a record by either of the following: (a) A physician or licensed psychologist ... (b) An attorney at law, a judge, or an appropriate governmental official"
+   },
+   {
+    "id": "mi-mcl-700-5508",
+    "cite": "Mich. Comp. Laws §700.5508",
+    "title": "Determination of advocate's authority to act",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5508",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The patient's attending physician and another physician or licensed psychologist shall determine upon examination of the patient whether the patient is unable to participate in medical treatment decisions, shall put the determination in writing, shall make the determination part of the patient's medical record, and shall review the determination not less than annually"
+   },
+   {
+    "id": "mi-mcl-700-5506",
+    "cite": "Mich. Comp. Laws §700.5506",
+    "title": "Designation of patient advocate",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5506",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "An individual 18 years of age or older who is of sound mind at the time a patient advocate designation is made may designate in writing another individual who is 18 years of age or older to exercise powers concerning care, custody, and medical or mental health treatment decisions"
+   },
+   {
+    "id": "mi-mcl-333-10104",
+    "cite": "Mich. Comp. Laws §333.10104",
+    "title": "Anatomical gift of donor's body or body part; persons making gift",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-10104",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift"
+   },
+   {
+    "id": "mi-mcl-700-1004",
+    "cite": "Mich. Comp. Laws §700.1004",
+    "title": "Disclosure of user's digital assets; use of online tool to direct digital custodian",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-1004",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+   },
+   {
+    "id": "mi-mcl-700-1015",
+    "cite": "Mich. Comp. Laws §700.1015",
+    "title": "Duties and authority of fiduciary",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-1015",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The legal duties imposed on a fiduciary charged with managing tangible personal property apply to the management of digital assets, including all of the following: (a) The duty of care. (b) The duty of loyalty. (c) The duty of confidentiality."
+   },
+   {
+    "id": "mi-mcl-700-3983",
+    "cite": "Mich. Comp. Laws §700.3983",
+    "title": "Collection of personal property by sworn statement",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3983",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The estate does not include real property and the value of the entire estate, wherever located, net of liens and encumbrances, does not exceed $50,000.00, adjusted as provided in section 1210"
+   },
+   {
+    "id": "mi-mcl-700-3103",
+    "cite": "Mich. Comp. Laws § 700.3103",
+    "title": "Necessity of appointment for administration",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3103",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "Except as otherwise provided in article IV, to acquire the powers and undertake the duties and liabilities of a decedent's personal representative, a person must be appointed by the register or by court order, must qualify, and must be issued letters. The issuance of letters commences an estate's administration."
+   },
+   {
+    "id": "mi-mcl-700-3203",
+    "cite": "Mich. Comp. Laws §700.3203",
+    "title": "Priority among persons seeking appointment as a general personal representative",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3203",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "(f) After 42 days after the decedent's death, the nominee of a creditor if the court finds the nominee suitable. (g) After 63 days after the decedent's death, or if the court determines exigent circumstances exist, the state or county public administrator"
    }
   ]
  },
@@ -2251,6 +3156,81 @@
      "hhs-ocr-decedents",
      "hipaa-164-502-g4"
     ]
+   },
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "New Jersey never enacted the Uniform Power of Attorney Act. Its Revised Durable Power of Attorney Act runs the default the other way: durability is opted into, not out of, so the instrument must carry words showing the principal intends the authority to survive disability.",
+    "citations": [
+     "nj-rs-46-2B-8-2"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "A springing power is permitted through the magic-words route — \"this power of attorney shall become effective upon the disability or incapacity of the principal\" — but the act supplies no machinery for determining that the contingency occurred, so an instrument naming nobody has no statutory fallback.",
+    "citations": [
+     "nj-rs-46-2B-8-2"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "Authority turns on two conditions rather than one: the advance directive must actually be transmitted to the attending physician or the health care institution, and the patient must then be found to lack capacity. Delivery is part of the trigger, not merely good practice.",
+    "citations": [
+     "nj-rs-26-2H-59",
+     "nj-rs-26-2H-58"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "The advance directive statute confers no general post-death authority. An anatomical gift may be made by the donor's agent under 26:6-80 unless the advance directive or other record prohibits it, and control of the funeral and disposition of remains is a separate priority list at 45:27-22.",
+    "citations": [
+     "nj-rs-26-6-80",
+     "nj-rs-45-27-22"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": null,
+    "name": "Revised Uniform Fiduciary Access to Digital Assets Act, N.J. Stat. 3B:14-61.1 et seq.",
+    "note": "3B:14-61.15 carries the uniform fiduciary and designated-recipient duty and authority provision.",
+    "citations": [
+     "nj-rs-3B-14-61-4",
+     "nj-rs-3B-14-61-15"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "3B:14-61.4 carries RUFADAA's user-direction provision without substantive change: an online-tool direction the user may modify or delete at all times overrides a contrary direction in a will, trust or power of attorney.",
+    "citations": [
+     "nj-rs-3B-14-61-4"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "N.J. Stat. 26:6-77 et seq. (Revised Uniform Anatomical Gift Act)",
+    "note": "A gift is made by the donor or by one of the persons 26:6-80 lists during the donor's life; nothing is deemed from silence.",
+    "citations": [
+     "nj-rs-26-6-80"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 50000,
+    "currency": "USD",
+    "waitingDays": null,
+    "note": "New Jersey splits the route in two rather than setting one ceiling. Where a surviving spouse, civil union partner or domestic partner exists and the estate does not exceed $50,000, that person may take without administration under 3B:10-3; where there is no such survivor, 3B:10-4 lets the heirs do so at a lower figure. The threshold recorded here is the spousal one.",
+    "citations": [
+     "nj-rs-3B-10-3",
+     "nj-rs-3B-10-4"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "Letters testamentary are granted by the county surrogate, an elected county officer, as well as by the Superior Court, so the ordinary route runs through the surrogate rather than a court. 3B:10-2 governs to whom letters of administration are granted.",
+    "citations": [
+     "nj-rs-3B-3-17",
+     "nj-rs-3B-10-2"
+    ]
    }
   },
   "citations": [
@@ -2289,6 +3269,105 @@
     "kind": "regulation",
     "retrieved": "2026-09-16",
     "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "nj-rs-46-2B-8-2",
+    "cite": "N.J. Stat. §46:2B-8.2",
+    "title": "Powers of attorney; durable powers of attorney; disability defined",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Powers%20of%20attorney%3B%20durable%20powers%20of%20attorney%3B%20disability%20defined%22&xhitlist_vq=%22Powers%20of%20attorney%3B%20durable%20powers%20of%20attorney%3B%20disability%20defined%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "A durable power of attorney is a power of attorney which contains the words \"this power of attorney shall not be affected by subsequent disability or incapacity of the principal, or lapse of time,\" or \"this power of attorney shall become effective upon the disability or incapacity of the principal,\" or similar words"
+   },
+   {
+    "id": "nj-rs-26-2H-59",
+    "cite": "N.J. Stat. §26:2H-59",
+    "title": "Conditions under which advance directive becomes operative",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Conditions%20under%20which%20advance%20directive%20becomes%20operative%22&xhitlist_vq=%22Conditions%20under%20which%20advance%20directive%20becomes%20operative%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "An advance directive becomes operative when (1) it is transmitted to the attending physician or to the health care institution, and (2) it is determined pursuant to section 8 of this act that the patient lacks capacity to make a particular health care decision"
+   },
+   {
+    "id": "nj-rs-26-2H-58",
+    "cite": "N.J. Stat. §26:2H-58",
+    "title": "Designation of health care representative; limitations",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Designation%20of%20health%20care%20representative%3B%20limitations%22&xhitlist_vq=%22Designation%20of%20health%20care%20representative%3B%20limitations%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "A declarant may execute a proxy directive ... designating an adult with mental capacity to act as the declarant's health care representative"
+   },
+   {
+    "id": "nj-rs-26-6-80",
+    "cite": "N.J. Stat. §26:6-80",
+    "title": "Anatomical gift by living donor",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Anatomical%20gift%20by%20living%20donor%22&xhitlist_vq=%22Anatomical%20gift%20by%20living%20donor%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "an agent of the donor, unless the advance directive for health care or other record prohibits the agent from making an anatomical gift"
+   },
+   {
+    "id": "nj-rs-45-27-22",
+    "cite": "N.J. Stat. §45:27-22",
+    "title": "Control of funeral, disposition of remains; priority classes",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Control%20of%20funeral%2C%20disposition%20of%20remains%3B%20priority%20classes%22&xhitlist_vq=%22Control%20of%20funeral%2C%20disposition%20of%20remains%3B%20priority%20classes%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "If a decedent, in a will as defined in N.J.S.3B:1-2, appoints a person to control the funeral and disposition of the human remains, the funeral and disposition shall be in accordance with the instructions of the person so appointed. A person so appointed shall not have to be executor of the will."
+   },
+   {
+    "id": "nj-rs-3B-14-61-4",
+    "cite": "N.J. Stat. §3B:14-61.4",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22User%20direction%20for%20disclosure%20of%20digital%20assets%22&xhitlist_vq=%22User%20direction%20for%20disclosure%20of%20digital%20assets%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+   },
+   {
+    "id": "nj-rs-3B-14-61-15",
+    "cite": "N.J. Stat. §3B:14-61.15",
+    "title": "Fiduciary and designated recipient duty and authority",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Fiduciary%20and%20designated%20recipient%20duty%20and%20authority%22&xhitlist_vq=%22Fiduciary%20and%20designated%20recipient%20duty%20and%20authority%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including: (1) the duty of care; (2) the duty of loyalty; and (3) the duty of confidentiality"
+   },
+   {
+    "id": "nj-rs-3B-10-3",
+    "cite": "N.J. Stat. §3B:10-3",
+    "title": "When spouse, partner in a civil union, or domestic partner entitled to assets without administration",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22When%20spouse%2C%20partner%20in%20a%20civil%20union%2C%20or%20domestic%20partner%20entitled%20to%20assets%20without%20administration%22&xhitlist_vq=%22When%20spouse%2C%20partner%20in%20a%20civil%20union%2C%20or%20domestic%20partner%20entitled%20to%20assets%20without%20administration%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "Where the total value of the real and personal assets of the estate of an intestate will not exceed $50,000, the surviving spouse, partner in a civil union, or domestic partner upon the execution of an affidavit before the Surrogate ... shall be entitled absolutely to all the real and personal assets"
+   },
+   {
+    "id": "nj-rs-3B-10-4",
+    "cite": "N.J. Stat. §3B:10-4",
+    "title": "When heirs entitled to assets without administration",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22When%20heirs%20entitled%20to%20assets%20without%20administration%22&xhitlist_vq=%22When%20heirs%20entitled%20to%20assets%20without%20administration%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "Where the total value of the real and personal assets of the estate of an intestate will not exceed $20,000 and the intestate leaves no surviving spouse, partner in a civil union, or domestic partner, and one of his heirs shall have obtained the consent in writing of the remaining heirs"
+   },
+   {
+    "id": "nj-rs-3B-3-17",
+    "cite": "N.J. Stat. §3B:3-17",
+    "title": "Probate of will and grant of letters",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Probate%20of%20will%20and%20grant%20of%20letters%22&xhitlist_vq=%22Probate%20of%20will%20and%20grant%20of%20letters%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The surrogates of the several counties or the Superior Court may take depositions to wills, admit the same to probate, and grant thereon letters testamentary or letters of administration with the will annexed"
+   },
+   {
+    "id": "nj-rs-3B-10-2",
+    "cite": "N.J. Stat. §3B:10-2",
+    "title": "To whom letters of administration granted",
+    "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22To%20whom%20letters%20of%20administration%20granted%22&xhitlist_vq=%22To%20whom%20letters%20of%20administration%20granted%22",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "administration of the intestate's estate shall be granted to the surviving spouse or domestic partner of the intestate, if he or she will accept the administration ... If the intestate leaves no heirs justly entitled to the administration of his estate, or if his heirs shall not claim the administration within 40 days after the death of the intestate, the Superior Court or surrogate's court may grant letters of administration to any fit person applying therefor"
    }
   ]
  },
@@ -2303,6 +3382,87 @@
      "hhs-ocr-decedents",
      "hipaa-164-502-g4"
     ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "G.S. 32C-1-104 follows the Uniform Power of Attorney Act: durability is the default under Chapter 32C and must be opted out of expressly.",
+    "citations": [
+     "nc-gs-32c-1-104",
+     "nc-gs-32c-1-110"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "G.S. 32C-1-109 allows a springing power but doubles the uniform act's medical certification: where the instrument names nobody to decide that the principal is incapacitated, the determination takes two individuals — a physician, a licensed psychologist, or one of each — and each must have personally examined the principal, against a single certifier under the uniform text.",
+    "citations": [
+     "nc-gs-32c-1-109"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "G.S. 32C-1-106 makes a power valid on execution complying with G.S. 32C-1-105; nothing is filed with a registry before the agent may act. Chapter 32C replaced the former Chapter 32A regime from 1 January 2018, and recording with the register of deeds for real-property transactions was not researched.",
+    "citations": [
+     "nc-gs-32c-1-106",
+     "nc-gs-32c-1-104"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "G.S. 32A-20 makes the health care power effective on a determination that the principal lacks sufficient understanding or capacity to make or communicate health care decisions. The determination must be in writing, and for mental health treatment it may be made by an eligible psychologist rather than a physician.",
+    "citations": [
+     "nc-gs-32a-20"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "North Carolina reverses the uniform anatomical gift default: G.S. 130A-412.6(2) lets the agent act only to the extent authorized under a power of attorney for health care or other record, so silence defeats the agent rather than enabling them. Disposition of the body is governed separately by G.S. 130A-420.",
+    "citations": [
+     "nc-gs-130a-412-6",
+     "nc-gs-130a-420"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": null,
+    "name": "Revised Uniform Fiduciary Access to Digital Assets Act, N.C. Gen. Stat. ch. 36F",
+    "note": "Enacted as Chapter 36F; G.S. 36F-15 sets the fiduciary's duty and authority over digital assets.",
+    "citations": [
+     "nc-gs-36f-4",
+     "nc-gs-36f-15"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "G.S. 36F-4 is uniform §4: an online-tool direction overrides a contrary direction in a will, trust or power of attorney.",
+    "citations": [
+     "nc-gs-36f-4"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "N.C. Gen. Stat. ch. 130A art. 16 pt. 3A (anatomical gifts)",
+    "note": "A gift is made by the donor or by one of the persons G.S. 130A-412.6 lists during the donor's life; nothing is deemed from silence.",
+    "citations": [
+     "nc-gs-130a-412-6"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 20000,
+    "currency": "USD",
+    "waitingDays": 30,
+    "note": "G.S. 28A-25-1 limits collection by affidavit to intestate estates, caps it at $20,000 of personal property net of liens, and bars its use until 30 days after death. The intestacy limit is the narrowing the uniform act does not have.",
+    "citations": [
+     "nc-gs-28a-25-1"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "G.S. 28A-6-1 governs the application for and grant of letters, in testacy and intestacy alike. The application is itself a sworn affidavit, recorded and filed by the clerk of superior court.",
+    "citations": [
+     "nc-gs-28a-6-1"
+    ]
    }
   },
   "citations": [
@@ -2341,6 +3501,105 @@
     "kind": "regulation",
     "retrieved": "2026-09-16",
     "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "nc-gs-32c-1-104",
+    "cite": "N.C. Gen. Stat. §32C-1-104",
+    "title": "Power of attorney; durability",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-104.html",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A power of attorney created pursuant to this Chapter is durable unless the instrument expressly provides that it is terminated by the incapacity of the principal."
+   },
+   {
+    "id": "nc-gs-32c-1-110",
+    "cite": "N.C. Gen. Stat. §32C-1-110",
+    "title": "Termination of power of attorney",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-110.html",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A power of attorney terminates when any of the following occur: (1) The principal dies. (2) If the power of attorney is not durable, the principal becomes incapacitated."
+   },
+   {
+    "id": "nc-gs-32c-1-109",
+    "cite": "N.C. Gen. Stat. §32C-1-109",
+    "title": "When power of attorney effective",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-109.html",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "After a personal examination of the principal, by two individuals who are either a physician, a licensed psychologist, or both, that the principal is incapacitated"
+   },
+   {
+    "id": "nc-gs-32c-1-106",
+    "cite": "N.C. Gen. Stat. § 32C-1-106",
+    "title": "Validity of power of attorney",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32C/GS_32C-1-106.html",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "(a) A power of attorney executed in this State on or after January 1, 2018, is valid if its execution complies with G.S. 32C-1-105."
+   },
+   {
+    "id": "nc-gs-32a-20",
+    "cite": "N.C. Gen. Stat. §32A-20",
+    "title": "Effectiveness and duration; revocation",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_32A/GS_32A-20.html",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A health care power of attorney shall become effective when and if the physician or physicians ... determine in writing that the principal lacks sufficient understanding or capacity"
+   },
+   {
+    "id": "nc-gs-130a-412-6",
+    "cite": "N.C. Gen. Stat. §130A-412.6",
+    "title": "Who may make an anatomical gift before donor's death",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-412.6.html",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "An agent of the donor to the extent authorized under a power of attorney for health care or other record"
+   },
+   {
+    "id": "nc-gs-130a-420",
+    "cite": "N.C. Gen. Stat. §130A-420",
+    "title": "Authority to dispose of body or body parts",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_130A/GS_130A-420.html",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "An individual at least 18 years of age may authorize the type, place, and method of disposition of the individual's own dead body"
+   },
+   {
+    "id": "nc-gs-36f-4",
+    "cite": "N.C. Gen. Stat. §36F-4",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_36F/GS_36F-4.html",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+   },
+   {
+    "id": "nc-gs-36f-15",
+    "cite": "N.C. Gen. Stat. §36F-15",
+    "title": "Fiduciary duty and authority",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_36F/GS_36F-15.html",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including all of the following: (1) The duty of care. (2) The duty of loyalty. (3) The duty of confidentiality."
+   },
+   {
+    "id": "nc-gs-28a-25-1",
+    "cite": "N.C. Gen. Stat. §28A-25-1",
+    "title": "Collection of property by affidavit when decedent dies intestate",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_28A/GS_28A-25-1.html",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "When a decedent dies intestate leaving personal property, less liens and encumbrances thereon, not exceeding twenty thousand dollars ($20,000) in value, at any time after 30 days from the date of death"
+   },
+   {
+    "id": "nc-gs-28a-6-1",
+    "cite": "N.C. Gen. Stat. §28A-6-1",
+    "title": "Application for letters; grant of letters",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_28A/GS_28A-6-1.html",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "The application for letters of administration or letters testamentary shall be in the form of an affidavit sworn to before an officer authorized to administer oaths"
    }
   ]
  },
@@ -2355,57 +3614,90 @@
      "hhs-ocr-decedents",
      "hipaa-164-502-g4"
     ]
-   }
-  },
-  "citations": [
-   {
-    "id": "hipaa-164-502-f",
-    "cite": "45 CFR 164.502(f)",
-    "title": "Standard: Deceased individuals",
-    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
-    "kind": "regulation",
-    "retrieved": "2026-09-16",
-    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
    },
-   {
-    "id": "hipaa-160-103-phi",
-    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
-    "title": "Definitions: protected health information exclusions",
-    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
-    "kind": "regulation",
-    "retrieved": "2026-09-16",
-    "quote": "Regarding a person who has been deceased for more than 50 years."
-   },
-   {
-    "id": "hhs-ocr-decedents",
-    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
-    "title": "Health Information of Deceased Individuals",
-    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
-    "kind": "agency-rule",
-    "retrieved": "2026-09-16",
-    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
-   },
-   {
-    "id": "hipaa-164-502-g4",
-    "cite": "45 CFR 164.502(g)(4)",
-    "title": "Implementation specification: Deceased individuals",
-    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
-    "kind": "regulation",
-    "retrieved": "2026-09-16",
-    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
-   }
-  ]
- },
- "us-pa": {
-  "features": {
-   "deceasedPersonalDataProtected": {
-    "value": "partial",
-    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "R.C. 1337.24 follows the Uniform Power of Attorney Act: a power is durable unless it expressly provides that it is terminated by the principal's incapacity, so durability is opted out of rather than into.",
     "citations": [
-     "hipaa-164-502-f",
-     "hipaa-160-103-phi",
-     "hhs-ocr-decedents",
-     "hipaa-164-502-g4"
+     "oh-orc-1337-24",
+     "oh-orc-1337-30"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "R.C. 1337.29 carries the uniform effectiveness rule: effective on execution unless the instrument sets a future date or event; the principal may name who determines the event occurred, and failing that a physician or licensed psychologist certifies incapacity while an attorney at law, a judge or an appropriate governmental official certifies the other grounds.",
+    "citations": [
+     "oh-orc-1337-29"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "R.C. 1337.12 sets the formality of execution; nothing is filed with a court or registry before the attorney in fact may act. County recording of a power used for real-property conveyances was not researched.",
+    "citations": [
+     "oh-orc-1337-12"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "R.C. 1337.13(A)(1) makes the attorney in fact's health care authority conditional on the principal's own attending physician determining that the principal has lost the capacity to make informed health care decisions — the treating clinician, not a general finding of incapacity.",
+    "citations": [
+     "oh-orc-1337-13",
+     "oh-orc-1337-12"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "The health care power confers no general post-death authority. An anatomical gift may be made under R.C. 2108.05, and the right to direct disposition of remains is a separate instrument altogether: R.C. 2108.70 lets a person assign that right by a written declaration under R.C. 2108.72.",
+    "citations": [
+     "oh-orc-2108-05",
+     "oh-orc-2108-70",
+     "oh-orc-2108-72"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": null,
+    "name": "Revised Uniform Fiduciary Access to Digital Assets Act, Ohio Rev. Code ch. 2137",
+    "note": "Enacted as Revised Code Chapter 2137. R.C. 2137.02 sets its applicability and R.C. 2137.04 governs the effect of a terms-of-service agreement.",
+    "citations": [
+     "oh-orc-2137-02",
+     "oh-orc-2137-03",
+     "oh-orc-2137-04"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "R.C. 2137.03 is uniform §4: an online-tool direction overrides a contrary direction in a will, trust or power of attorney.",
+    "citations": [
+     "oh-orc-2137-03",
+     "oh-orc-2137-04"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "Ohio Rev. Code ch. 2108 (anatomical gifts)",
+    "note": "A gift is made in one of the ways R.C. 2108.05 lists; nothing is deemed from silence. Ohio adds a hunting or fishing licence application as a method of making a gift, effective 1 August 2025.",
+    "citations": [
+     "oh-orc-2108-05"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 35000,
+    "currency": "USD",
+    "waitingDays": null,
+    "note": "Ohio releases an estate from administration by court order rather than on a presented affidavit, which is a different mechanism from the uniform small-estate affidavit. R.C. 2113.03 allows it where assets are $35,000 or less, or $100,000 or less where the surviving spouse is the sole devisee or heir. The threshold recorded here is the general figure.",
+    "citations": [
+     "oh-orc-2113-03"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "R.C. 2113.05 provides that letters testamentary issue to the executor named in a will once it is approved and allowed; R.C. 2113.06 governs to whom letters of administration are granted in intestacy.",
+    "citations": [
+     "oh-orc-2113-05",
+     "oh-orc-2113-06"
     ]
    }
   },
@@ -2445,6 +3737,367 @@
     "kind": "regulation",
     "retrieved": "2026-09-16",
     "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "oh-orc-1337-24",
+    "cite": "Ohio Rev. Code §1337.24",
+    "title": "Power of attorney is durable",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.24",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A power of attorney created under sections 1337.21 to 1337.64 of the Revised Code is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+   },
+   {
+    "id": "oh-orc-1337-30",
+    "cite": "Ohio Rev. Code §1337.30",
+    "title": "Termination of power of attorney or agent's authority",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.30",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A power of attorney terminates when any of the following occurs: (1) The principal dies; (2) The principal becomes incapacitated, if the power of attorney is not durable"
+   },
+   {
+    "id": "oh-orc-1337-29",
+    "cite": "Ohio Rev. Code §1337.29",
+    "title": "When power of attorney effective",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.29",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "A determination by a physician who has examined the principal or a licensed psychologist who has evaluated the principal that the principal is incapacitated"
+   },
+   {
+    "id": "oh-orc-1337-12",
+    "cite": "Ohio Rev. Code §1337.12",
+    "title": "Formality of execution",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.12",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "authorizes an attorney in fact ... to make health care decisions for the principal at any time that the attending physician of the principal determines that the principal has lost the capacity to make informed health care decisions"
+   },
+   {
+    "id": "oh-orc-1337-13",
+    "cite": "Ohio Rev. Code §1337.13",
+    "title": "Authority of attorney in fact under a durable power of attorney for health care",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-1337.13",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "only if the attending physician of the principal determines that the principal has lost the capacity to make informed health care decisions for the principal"
+   },
+   {
+    "id": "oh-orc-2108-05",
+    "cite": "Ohio Rev. Code §2108.05",
+    "title": "Manner of making anatomical gift",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2108.05",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A donor may make an anatomical gift by ... Authorizing a statement or symbol to be imprinted on the donor's driver's license or identification card"
+   },
+   {
+    "id": "oh-orc-2108-70",
+    "cite": "Ohio Rev. Code §2108.70",
+    "title": "Assignment of rights regarding disposition of remains",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2108.70",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "\"Representative\" means an adult or a group of adults, collectively, to whom a declarant has assigned the right of disposition."
+   },
+   {
+    "id": "oh-orc-2108-72",
+    "cite": "Ohio Rev. Code §2108.72",
+    "title": "Written declaration of assignment",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2108.72",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "a statement that the declarant, an adult being of sound mind, willfully and voluntarily appoints a representative to have the declarant's right of disposition for the declarant's body upon the declarant's death"
+   },
+   {
+    "id": "oh-orc-2137-02",
+    "cite": "Ohio Rev. Code §2137.02",
+    "title": "Applicability",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2137.02",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "This chapter applies to ... An agent acting under a power of attorney ... A personal representative acting for a decedent ... A guardianship proceeding ... A trustee"
+   },
+   {
+    "id": "oh-orc-2137-03",
+    "cite": "Ohio Rev. Code §2137.03",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2137.03",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+   },
+   {
+    "id": "oh-orc-2137-04",
+    "cite": "Ohio Rev. Code §2137.04",
+    "title": "Terms-of-service agreement",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2137.04",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "This chapter does not give a fiduciary or designated recipient any new or expanded rights other than those held by the user"
+   },
+   {
+    "id": "oh-orc-2113-03",
+    "cite": "Ohio Rev. Code §2113.03",
+    "title": "Court may order estate released from administration",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.03",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "an estate may be released from administration ... if ... (1) The value of the assets of the estate is thirty-five thousand dollars or less."
+   },
+   {
+    "id": "oh-orc-2113-05",
+    "cite": "Ohio Rev. Code §2113.05",
+    "title": "Letters testamentary shall issue",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.05",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "When a will is approved and allowed, the probate court shall issue letters testamentary to the executor named in the will"
+   },
+   {
+    "id": "oh-orc-2113-06",
+    "cite": "Ohio Rev. Code §2113.06",
+    "title": "To whom letters of administration shall be granted",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.06",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "Administration of the estate of an intestate shall be granted to persons mentioned in this division, in the following order: (1) To the surviving spouse of the deceased, if resident of the state; (2) To one of the next of kin of the deceased, resident of the state."
+   }
+  ]
+ },
+ "us-pa": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "Pennsylvania did not replace Chapter 56, which dates to 1982, with the Uniform Power of Attorney Act; it grafted parts of that act onto it. §5601.1 is captioned \"powers of attorney presumed durable\", so a power survives the principal's incapacity without saying so, while §5601.3 brought in the uniform agent's duties.",
+    "citations": [
+     "pa-pacs-5601-1",
+     "pa-pacs-5601-3"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "§5604(a) lets the principal provide that the power becomes effective at a specified future time or on a specified contingency, including incapacity — and stops there. Like Massachusetts and New Jersey, Pennsylvania supplies no default certifier, so an instrument that names nobody to determine the contingency has no statutory fallback.",
+    "citations": [
+     "pa-pacs-5604"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "§5454 makes authority turn on two things rather than one: a copy of the instrument must actually reach the attending physician, and that physician must determine the principal is incompetent. Delivery is part of the trigger.",
+    "citations": [
+     "pa-pacs-5454",
+     "pa-pacs-5461"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "Pennsylvania never adopted the 2006 revised uniform anatomical gift act, and §8611 inverts the model's default for agents: where the uniform text lets an agent make a gift unless the instrument prohibits it, Pennsylvania requires authorisation. The right to dispose of remains is separate, at 20 Pa.C.S. §305.",
+    "citations": [
+     "pa-pacs-8611",
+     "pa-pacs-305"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": 2020,
+    "name": "Revised Uniform Fiduciary Access to Digital Assets Act, 20 Pa.C.S. ch. 39",
+    "note": "Enacted late, as Chapter 39 by Act 72 of 2020, effective 19 January 2021. §3915 carries the uniform fiduciary duty and authority provision.",
+    "citations": [
+     "pa-pacs-3904",
+     "pa-pacs-3915"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§3904 carries the user-direction provision without substantive change: an online-tool direction the user may modify or delete at all times overrides a contrary direction in a will, trust or power of attorney.",
+    "citations": [
+     "pa-pacs-3904"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "20 Pa.C.S. ch. 86 (anatomical gifts)",
+    "note": "A gift is made by one of the persons §8611 lists; nothing is deemed from silence. Pennsylvania never adopted the 2006 revised uniform act, so its agent provision is narrower than the model's.",
+    "citations": [
+     "pa-pacs-8611"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 50000,
+    "currency": "USD",
+    "waitingDays": null,
+    "note": "Pennsylvania does not use a small-estate affidavit. Collection runs through a petition to the orphans' court division, which may direct distribution in its discretion where the gross estate, excluding real estate and anything already paid under §3101, does not exceed $50,000 — and it may do so whether or not letters have issued or a will has been probated. Separately §3101 lets an employer pay up to $10,000 of wages, salary or employee benefits without any letters.",
+    "citations": [
+     "pa-pacs-3102",
+     "pa-pacs-3101"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "Letters are granted by the register of wills, a county officer, not by a court, and Pennsylvania is not a Uniform Probate Code state: there is no informal/formal split and no 120-hour rule. §3155 sets who is entitled to each kind.",
+    "citations": [
+     "pa-pacs-3155"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "pa-pacs-5601-1",
+    "cite": "20 Pa.C.S. §5601.1",
+    "title": "Powers of attorney presumed durable",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=56&sctn=1&subsctn=1",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "Unless specifically provided otherwise in the power of attorney, all powers of attorney shall be durable as provided in section 5604"
+   },
+   {
+    "id": "pa-pacs-5601-3",
+    "cite": "20 Pa.C.S. §5601.3",
+    "title": "Agent's duties",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=56&sctn=1&subsctn=3",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "Notwithstanding any provision in the power of attorney, an agent that has accepted appointment shall: (1) Act in accordance with the principal's reasonable expectations to the extent actually known by the agent and, otherwise, in the principal's best interest. (2) Act in good faith. (3) Act only within the scope of authority granted in the power of attorney."
+   },
+   {
+    "id": "pa-pacs-5604",
+    "cite": "20 Pa.C.S. §5604",
+    "title": "Durable powers of attorney",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=56&sctn=4&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "A principal may provide in the power of attorney that the power shall become effective at a specified future time or upon the occurrence of a specified contingency, including the disability or incapacity of the principal"
+   },
+   {
+    "id": "pa-pacs-5454",
+    "cite": "20 Pa.C.S. §5454",
+    "title": "When health care power of attorney operative",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=54&sctn=54&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "a health care power of attorney becomes operative when: (1) a copy is provided to the attending physician; and (2) the attending physician determines that the principal is incompetent"
+   },
+   {
+    "id": "pa-pacs-5461",
+    "cite": "20 Pa.C.S. §5461",
+    "title": "Decisions by health care representative",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=54&sctn=61&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "In the absence of a designation or if no designee is reasonably available, any member of the following classes, in descending order of priority, who is reasonably available may act as health care representative: (i) The spouse, unless an action for divorce is pending, and the adult children of the principal who are not the children of the spouse"
+   },
+   {
+    "id": "pa-pacs-8611",
+    "cite": "20 Pa.C.S. §8611",
+    "title": "Persons who may execute anatomical gift",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=86&sctn=11&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "Any agent acting under a power of attorney, health care power of attorney or other document which expressly authorizes the agent to make anatomical gifts may effectuate a gift"
+   },
+   {
+    "id": "pa-pacs-305",
+    "cite": "20 Pa.C.S. §305",
+    "title": "Right to dispose of a decedent's remains",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=3&sctn=5&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "Absent an allegation of enduring estrangement, incompetence, contrary intent or waiver and agreement which is proven by clear and convincing evidence, a surviving spouse shall have the sole authority in all matters pertaining to the disposition of the remains of the decedent"
+   },
+   {
+    "id": "pa-pacs-3904",
+    "cite": "20 Pa.C.S. §3904",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=39&sctn=4&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney or other record"
+   },
+   {
+    "id": "pa-pacs-3915",
+    "cite": "20 Pa.C.S. §3915",
+    "title": "Fiduciary duty and authority",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=39&sctn=15&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including: (1) the duty of care; (2) the duty of loyalty; and (3) the duty of confidentiality"
+   },
+   {
+    "id": "pa-pacs-3102",
+    "cite": "20 Pa.C.S. §3102",
+    "title": "Settlement of small estates on petition",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=31&sctn=2&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "of a gross value not exceeding $50,000, the orphans' court division of the county wherein the decedent was domiciled at the time of his death, upon petition of any party in interest, in its discretion ... may direct distribution of the property"
+   },
+   {
+    "id": "pa-pacs-3101",
+    "cite": "20 Pa.C.S. §3101",
+    "title": "Payments to family and funeral directors",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=31&sctn=1&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "may pay wages, salary or any employee benefits due the deceased in an amount not exceeding $10,000 to the spouse, any child, the father or mother, or any sister or brother (preference being given in the order named)"
+   },
+   {
+    "id": "pa-pacs-3155",
+    "cite": "20 Pa.C.S. §3155",
+    "title": "Persons entitled",
+    "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=20&div=00.&chpt=31&sctn=55&subsctn=0",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "Letters testamentary shall be granted by the register to the executor designated in the will, whether or not he has declined a trust under the will"
    }
   ]
  },
@@ -2812,6 +4465,97 @@
      "hhs-ocr-decedents",
      "hipaa-164-502-g4"
     ]
+   },
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "Washington did not take the uniform act's default. Under RCW 11.125.040 the agent's authority terminates on the principal's incapacity unless the instrument provides that it survives disability, so durability is opted into here rather than out of — the opposite of the uniform rule.",
+    "citations": [
+     "wa-rcw-11-125-040"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "RCW 11.125.090 allows a springing power but narrows the uniform fallback certifiers: the physician or licensed psychologist must be unrelated to the principal or the agent by blood or marriage and must have personally examined the principal, neither of which the uniform text requires.",
+    "citations": [
+     "wa-rcw-11-125-090"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "RCW 11.125.050 requires the power to be signed and dated by the principal and either acknowledged before a notary or attested by two competent witnesses who are not the principal's care providers. Nothing is filed with a court or registry before the agent may act.",
+    "citations": [
+     "wa-rcw-11-125-050"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "other",
+    "note": "Washington sets no statutory clinician-finding trigger for a health care agent. Because RCW 11.125.040 makes authority end at incapacity unless the instrument says otherwise, when a health care agent may act follows the instrument's own terms; where the instrument is springing, the RCW 11.125.090 certifiers apply. RCW 11.125.400 adds that a general grant of health-care authority also makes the agent the principal's HIPAA personal representative by statute.",
+    "citations": [
+     "wa-rcw-11-125-400",
+     "wa-rcw-11-125-040",
+     "wa-rcw-11-125-090"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "RCW 68.64.030 lets the donor's agent make an anatomical gift during the donor's life unless the power of attorney for health care or other record prohibits it. Control of the disposition of remains is a separate right under RCW 68.50.160.",
+    "citations": [
+     "wa-rcw-68-64-030",
+     "wa-rcw-68-50-160"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": null,
+    "name": "Supported decision-making agreements, Wash. Rev. Code ch. 11.130 (RCW 11.130.700 et seq.)",
+    "note": "RCW 11.130.715 lets an adult with a disability voluntarily enter a supported decision-making agreement under which a supporter assists in understanding options, responsibilities and consequences — expressly without making the decisions on the adult's behalf, which is what separates it from the substitute decision making the rest of this set records.",
+    "citations": [
+     "wa-rcw-11-130-715"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "year": null,
+    "name": "Revised Uniform Fiduciary Access to Digital Assets Act, Wash. Rev. Code ch. 11.120",
+    "note": "Enacted as Chapter 11.120; RCW 11.120.030 sets its applicability.",
+    "citations": [
+     "wa-rcw-11-120-030",
+     "wa-rcw-11-120-040"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "RCW 11.120.040 is uniform §4 without substantive change: an online-tool direction the user may modify or delete at all times overrides a contrary direction in a will, trust, power of attorney or other record.",
+    "citations": [
+     "wa-rcw-11-120-040"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "Wash. Rev. Code ch. 68.64 (Uniform Anatomical Gift Act)",
+    "note": "A gift is made by the donor or by one of the persons RCW 68.64.030 lists during the donor's life; nothing is deemed from silence.",
+    "citations": [
+     "wa-rcw-68-64-030"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": 100000,
+    "currency": "USD",
+    "waitingDays": 40,
+    "note": "RCW 11.62.010 sets $100,000 of probate assets net of liens, excluding the surviving spouse's or domestic partner's community property interest, and a 40-day wait rather than the uniform 30.",
+    "citations": [
+     "wa-rcw-11-62-010"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "Washington is not a Uniform Probate Code state. RCW 11.28.010 issues letters testamentary on the order admitting the will and appointing the personal representative; RCW 11.28.120 governs who is entitled to letters of administration, naming a state registered domestic partner alongside the surviving spouse.",
+    "citations": [
+     "wa-rcw-11-28-010",
+     "wa-rcw-11-28-120"
+    ]
    }
   },
   "citations": [
@@ -2850,6 +4594,114 @@
     "kind": "regulation",
     "retrieved": "2026-09-16",
     "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "wa-rcw-11-125-040",
+    "cite": "Wash. Rev. Code §11.125.040",
+    "title": "Power of attorney — Termination",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.040",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "terminates upon the incapacity of the principal unless the writing contains the words \"This power of attorney shall not be affected by disability of the principal\" ... or similar words"
+   },
+   {
+    "id": "wa-rcw-11-125-090",
+    "cite": "Wash. Rev. Code §11.125.090",
+    "title": "Power of attorney — When effective — Principal's personal representative for health care",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.090",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "A physician or licensed psychologist, unrelated to the principal or agent by blood or marriage, who has personally examined the principal"
+   },
+   {
+    "id": "wa-rcw-11-125-050",
+    "cite": "Wash. Rev. Code § 11.125.050",
+    "title": "Power of attorney — Requirements",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.050",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "(1) A power of attorney must be signed and dated by the principal, and the signature must be either acknowledged before a notary public or other individual authorized by law to take acknowledgments, or attested by two or more competent witnesses who are neither home care providers for the principal nor care providers at an adult family home or long-term care facility in which the principal resides"
+   },
+   {
+    "id": "wa-rcw-11-125-400",
+    "cite": "Wash. Rev. Code §11.125.400",
+    "title": "Agent authority — Health care",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.400",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "The agent shall be authorized to act as the principal's personal representative pursuant to the health insurance portability and accountability act"
+   },
+   {
+    "id": "wa-rcw-68-64-030",
+    "cite": "Wash. Rev. Code §68.64.030",
+    "title": "Persons authorized to make an anatomical gift — During life of donor",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=68.64.030",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift"
+   },
+   {
+    "id": "wa-rcw-68-50-160",
+    "cite": "Wash. Rev. Code §68.50.160",
+    "title": "Right to control disposition of remains",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=68.50.160",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "A person has the right to control the disposition of his or her own remains without the predeath or postdeath consent of another person."
+   },
+   {
+    "id": "wa-rcw-11-130-715",
+    "cite": "Wash. Rev. Code § 11.130.715",
+    "title": "Supported decision-making agreement — Scope",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.130.715",
+    "kind": "statute",
+    "retrieved": "2026-10-02",
+    "quote": "An adult with a disability may voluntarily, without undue influence or coercion, enter into a supported decision-making agreement with a supporter under which the adult with a disability authorizes the supporter to … provide supported decision making, including assistance in understanding the options, responsibilities, and consequences of the adult's life decisions, without making those decisions on"
+   },
+   {
+    "id": "wa-rcw-11-120-030",
+    "cite": "Wash. Rev. Code §11.120.030",
+    "title": "Applicability",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.120.030",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "This chapter applies to: (a) A fiduciary acting under a will or power of attorney executed before, on, or after June 9, 2016"
+   },
+   {
+    "id": "wa-rcw-11-120-040",
+    "cite": "Wash. Rev. Code §11.120.040",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.120.040",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+   },
+   {
+    "id": "wa-rcw-11-62-010",
+    "cite": "Wash. Rev. Code §11.62.010",
+    "title": "Disposition of personal property, debts by affidavit",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.62.010",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "less liens and encumbrances, does not exceed one hundred thousand dollars; ... That forty days have elapsed since the death of the decedent"
+   },
+   {
+    "id": "wa-rcw-11-28-010",
+    "cite": "Wash. Rev. Code §11.28.010",
+    "title": "Letters to executors — Refusal to serve — Disqualification",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.28.010",
+    "kind": "statute",
+    "retrieved": "2026-09-19",
+    "quote": "After the entry of an order admitting a will to probate and appointing a personal representative, or personal representatives, letters testamentary shall be granted to the persons therein appointed executors"
+   },
+   {
+    "id": "wa-rcw-11-28-120",
+    "cite": "Wash. Rev. Code §11.28.120",
+    "title": "Persons entitled to letters",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.28.120",
+    "kind": "statute",
+    "retrieved": "2026-09-17",
+    "quote": "Administration of an estate ... shall be granted to some one or more of the persons hereinafter mentioned ... (a) The surviving spouse or state registered domestic partner"
    }
   ]
  },
@@ -7494,7 +9346,7 @@
     "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039280582",
     "kind": "statute",
     "retrieved": "2026-09-24",
-    "quote": "I.-Toute personne peut définir des directives relatives à la conservation, à l'effacement et à la communication de ses données à caractère personnel après son décès. Ces directives sont générales ou particulières. Les directives générales concernent l'ensemble des données à caractère personnel se rapportant à la personne concernée et peuvent être enregistrées auprès d'un tiers de confiance numérique certifié par la Commission nationale de l'informatique et des libertés. Les références des directives générales et le tiers de confiance auprès duquel elles sont enregistrées sont inscrites dans un registre unique dont les modalités et l'accès sont fixés par décret en Conseil d'Etat, pris après avis motivé et publié de la Commission nationale de l'informatique et des libertés. Les directives particulières concernent les traitements de données à caractère personnel mentionnées par ces directiv"
+    "quote": "I.-Toute personne peut définir des directives relatives à la conservation, à l'effacement et à la communication de ses données à caractère personnel après son décès. … Les directives générales … peuvent être enregistrées auprès d'un tiers de confiance numérique certifié par la Commission nationale de l'informatique et des libertés. Les références des directives générales et le tiers de confiance auprès duquel elles sont enregistrées sont inscrites dans un registre unique dont les modalités et l'accès sont fixés par décret en Conseil d'Etat … Les directives particulières … sont enregistrées auprès des responsables de traitement concernés. Elles font l'objet du consentement spécifique de la personne concernée et ne peuvent résulter de la seule approbation par celle-ci des conditions générales d'utilisation. … Les directives mentionnées au premier alinéa du présent I peuvent désigner une personne chargée de leur exécution. Celle-ci a alors qualité, lorsque la personne est décédée, pour prendre connaissance des directives et demander leur mise en œuvre aux responsables de traitement concernés. A défaut de désignation ou, sauf directive contraire, en cas de décès de la personne désignée, ses héritiers ont qualité pour prendre connaissance des directives au décès de leur auteur et demander leur mise en œuvre aux responsables de traitement concernés. Toute clause contractuelle des conditions générales d'utilisation d'un traitement portant sur des données à caractère personnel limitant les prérogatives reconnues à la personne en vertu du présent article est réputée non écrite. II.-En l'absence de directives ou de mention contraire dans ces directives, les héritiers de la personne concernée peuvent exercer, après son décès, les droits mentionnés au chapitre II du présent titre II dans la mesure nécessaire : 1° A l'organisation et au règlement de la succession du défunt … 2° A la prise en compte, par les responsables de traitement, de son décès … III.-Tout prestataire d'un service de communication au public en ligne informe l'utilisateur du sort des données qui le concernent à son décès et lui permet de choisir de communiquer ou non ses données à un tiers qu'il désigne."
    },
    {
     "id": "fr-cc-724",

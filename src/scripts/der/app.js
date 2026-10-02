@@ -1655,6 +1655,25 @@
       + '</svg>';
   }
 
+  // Section 13 — the same destination, one route evidenced and one not. The dashed arrow is
+  // the claim: standing without a prescribed way to prove it.
+  function figProof() {
+    const a = ARROW('ar-proof', 'var(--accent)') + ARROW('ar-noproof', 'var(--dormant)');
+    return svgOpen(126, 'An heir proves standing with an acte de notoriete or livret de famille; the person the deceased designated has no prescribed proof')
+      + a
+      + `<text x="0" y="12" class="fig-t">heir \u2014 art. 85 II</text>`
+      + box(0, 20, 150, 28, 'heir', false)
+      + `<line x1="152" y1="34" x2="${FIG_W - 126}" y2="34" stroke="var(--accent)" stroke-width="2" marker-end="url(#ar-proof)"/>`
+      + `<text x="${(152 + FIG_W - 126) / 2}" y="28" text-anchor="middle" class="fig-l">acte de notori\u00e9t\u00e9</text>`
+      + box(FIG_W - 120, 20, 120, 28, 'controller', true)
+      + `<text x="0" y="86" class="fig-t">designated person \u2014 art. 85 I</text>`
+      + box(0, 94, 150, 28, 'designee', false)
+      + `<line x1="152" y1="108" x2="${FIG_W - 126}" y2="108" stroke="var(--dormant)" stroke-width="2" stroke-dasharray="5 4" opacity=".75" marker-end="url(#ar-noproof)"/>`
+      + `<text x="${(152 + FIG_W - 126) / 2}" y="102" text-anchor="middle" class="fig-l">no prescribed proof</text>`
+      + box(FIG_W - 120, 94, 120, 28, 'controller', true)
+      + '</svg>';
+  }
+
   // Section 12 — one statute book, two regimes, a date between them.
   function figInForce() {
     const x = Math.round(FIG_W * 0.62), y = 44;
@@ -1736,6 +1755,7 @@
       case 10: return figWrap(figFormless(), 'What an Idaho ACPD must carry, against what it may.');
       case 11: return figWrap(figBothSides(), 'A mandate on each side of the same exchange.');
       case 12: return figWrap(figInForce(), 'One chapter, two regimes, a date between them.');
+      case 13: return figWrap(figProof(), 'Who can prove their standing to a French controller, and who cannot.');
       default: return '';
     }
   }
