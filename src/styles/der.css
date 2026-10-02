@@ -412,6 +412,24 @@
 }
 @media (max-width: 640px) { .der .term-panel { max-width: 100%; font-size: .92rem; } }
 
+/* The country breakdown behind each bar. Narrower than a definition, because it is a list of
+   short names rather than prose, and scrollable rather than tall: the executor row carries 24
+   countries and would otherwise run off a phone. No new colour — the count reuses --ink-2. */
+.der .term-panel.wide { max-width: min(22rem, 100%); }
+.der .cp-h { font-weight: 600; line-height: 1.3; }
+.der .cp-sub { margin-top: .15rem; font-size: .85rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.der .cp-l { margin: .55rem 0 0; padding: 0; list-style: none; max-height: 15rem; overflow-y: auto; }
+.der .cp-l li { display: flex; justify-content: space-between; gap: .75rem;
+  padding: .2rem 0; font-size: .92rem; border-top: 1px solid var(--line); }
+.der .cp-l li:first-child { border-top: 0; }
+.der .cp-n { color: var(--ink-2); font-size: .85rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* The bars are activatable now, so they have to look and focus like it. */
+.der .bar-row[role="button"] { cursor: pointer; border-radius: 4px; }
+.der .bar-row[role="button"]:hover .bar { opacity: 1; }
+.der .bar-row[role="button"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+
 /* ---------- findings: one small drawing per finding ----------
    The SVG is sized by its viewBox and scaled here, so it stays legible on a phone without
    a second set of dimensions to keep in step. Text inside the drawing inherits the page

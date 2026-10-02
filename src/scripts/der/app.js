@@ -1331,6 +1331,22 @@
     return `<div class="stat-tile"><div class="sv">${esc(value)}</div><div class="sl">${esc(label)}</div></div>`;
   }
 
+  // Which countries hold a role, and how many jurisdictions each contributes. The counts come
+  // from the role's own jurisdiction list, whose entries already carry a country display name,
+  // so there is no join against the manifest to keep in step. A country contributing one
+  // jurisdiction shows no count — the number would be noise on 20 of the 24.
+  function countryPanel(role, countries) {
+    const by = new Map();
+    for (const j of role.jurisdictions || []) by.set(j.country, (by.get(j.country) || 0) + 1);
+    const list = [...by.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    const items = list.map(([name, n]) =>
+      `<li>${esc(name)}${n > 1 ? `<span class="cp-n">${n} jurisdictions</span>` : ''}</li>`).join('');
+    return `<div class="cp"><div class="cp-h">${esc(role.label)}</div>`
+      + `<div class="cp-sub">${role.countryCount} of ${countries} countries · `
+      + `${role.jurisdictionCount} jurisdiction${role.jurisdictionCount === 1 ? '' : 's'}</div>`
+      + `<ul class="cp-l">${items}</ul></div>`;
+  }
+
   function findingsBand(roles, manifest) {
     const ranked = [...roles].sort((a, b) => b.countryCount - a.countryCount || b.jurisdictionCount - a.jurisdictionCount);
     if (!ranked.length) return '';
@@ -1367,12 +1383,20 @@
 
     // Ranked bars. Direct labels at the tip carry the values, so the chart needs no axis
     // and no gridlines; the same numbers are in the table inside section 1.
+    //
+    // Each bar opens the same panel the glossary terms use, listing which countries hold the
+    // role. A bar height of 2 says "two countries" and nothing about which, and for the two
+    // digital roles that is the whole question — online-tool-designee reaches 17 jurisdictions
+    // and 2 countries, because 16 of the 17 are US states. The breakdown makes a bar that
+    // looks like thin coverage legible as concentrated coverage, which is a different claim.
     const bars = ranked.map((r) => {
       const on = DIGITAL_ROLES.includes(r.id);
       const pct = Math.max(1.5, (r.countryCount / max) * 100);
-      return `<div class="bar-row${on ? ' on' : ''}">
+      const label = `${r.label}: ${r.countryCount} of ${countries} countries, ${r.jurisdictionCount} jurisdictions`;
+      return `<div class="bar-row${on ? ' on' : ''}" data-panel-html="${esc(countryPanel(r, countries))}"
+        tabindex="0" role="button" aria-expanded="false" aria-label="${esc(label)}. Show the countries.">
         <div class="bar-k">${esc(r.label)}</div>
-        <div class="bar-t"><div class="bar" style="width:${pct.toFixed(1)}%"${on ? '' : ''} title="${esc(r.label)}: ${r.countryCount} of ${countries} countries, ${r.jurisdictionCount} jurisdictions"></div></div>
+        <div class="bar-t"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div>
         <div class="bar-v">${r.countryCount}</div>
       </div>`;
     }).join('');
@@ -1381,7 +1405,7 @@
       ${hero}
       ${tiles}
       <figure class="bar-fig">
-        <figcaption>Countries recognising each role, of ${countries}. The two digital roles are highlighted.</figcaption>
+        <figcaption>Countries recognising each role, of ${countries}. The two digital roles are highlighted. Select a row for the countries.</figcaption>
         <div class="bars">${bars}</div>
       </figure>
     </div>`;
@@ -1434,6 +1458,10 @@
       el.setAttribute('aria-label', `${key}: ${full}`);
       terms.push(el);
     }
+    // The ranked bars use the same panel: one element, one set of handlers, one thing that
+    // closes on Escape. Attaching a second panel would duplicate the id and leave two
+    // tooltips that do not know about each other.
+    for (const el of root.querySelectorAll('.bar-row[data-panel-html]')) terms.push(el);
     if (terms.length) attachTermPanel(root, terms);
     return terms.length;
   }
@@ -1460,7 +1488,11 @@
     const show = (el) => {
       if (open === el) return close();
       close();
-      panel.textContent = el.dataset.def;
+      // Glossary terms carry plain text; the bars carry markup this file generated, with every
+      // value already through esc(). Nothing from the data reaches innerHTML unescaped.
+      if (el.dataset.panelHtml) panel.innerHTML = el.dataset.panelHtml;
+      else panel.textContent = el.dataset.def;
+      panel.classList.toggle('wide', !!el.dataset.panelHtml);
       panel.hidden = false;
       const base = root.getBoundingClientRect();
       const r = el.getBoundingClientRect();
