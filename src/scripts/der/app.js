@@ -1411,7 +1411,10 @@
       const bar = `<div class="bar" style="width:${pct.toFixed(1)}%"></div>`;
       // The bar is the same destination as the name, so it is taken out of the tab order
       // rather than offered as a second stop that goes nowhere new.
-      return `<div class="bar-row${on ? ' on' : ''}">
+      // The row shows the countries on hover, so a mouse reader gets them without committing
+      // to a click. It is hover-only: the click belongs to the link inside it, and the count
+      // button below is the route for touch and for the keyboard.
+      return `<div class="bar-row${on ? ' on' : ''}" data-panel-html="${esc(countryPanel(r, countries))}" data-panel-hover="1">
         <div class="bar-k">${href ? `<a class="bar-a" href="${href}">${esc(r.label)}</a>` : esc(r.label)}</div>
         <div class="bar-t">${href ? `<a class="bar-hit" href="${href}" tabindex="-1" aria-hidden="true">${bar}</a>` : bar}</div>
         <button type="button" class="bar-v" data-panel-html="${esc(countryPanel(r, countries))}"
@@ -1499,7 +1502,7 @@
 
     const close = () => {
       if (!open) return;
-      open.setAttribute('aria-expanded', 'false');
+      if (open.hasAttribute('aria-expanded')) open.setAttribute('aria-expanded', 'false');
       open = null;
       panel.hidden = true;
     };
@@ -1520,16 +1523,21 @@
       left = Math.max(0, Math.min(left, base.width - w));
       panel.style.left = `${Math.round(left)}px`;
       panel.style.top = `${Math.round(r.bottom - base.top + 8)}px`;
-      el.setAttribute('aria-expanded', 'true');
+      if (el.hasAttribute('aria-expanded')) el.setAttribute('aria-expanded', 'true');
       open = el;
     };
 
     for (const el of terms) {
-      el.addEventListener('click', (e) => { e.stopPropagation(); show(el); });
-      el.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(el); }
-        else if (e.key === 'Escape') close();
-      });
+      // A hover-only trigger carries no click and no key handling: something else on it owns
+      // the click (the bar is a link), and the same content is reachable another way for
+      // anyone not using a mouse — so this adds a shortcut without taking one away.
+      if (!el.dataset.panelHover) {
+        el.addEventListener('click', (e) => { e.stopPropagation(); show(el); });
+        el.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(el); }
+          else if (e.key === 'Escape') close();
+        });
+      }
       // Hover is a convenience on top of the click, never the only way in. The listeners
       // attach everywhere and filter on the pointer that actually arrived, rather than
       // asking matchMedia('(hover: hover)') first: that query answers false in more places
@@ -1738,6 +1746,30 @@
       + '</svg>';
   }
 
+  // Section 14 — how strongly a claimant's standing is evidenced, as one axis. The claim is that
+  // these are three points on a single scale and not three unrelated rules, so position carries it
+  // and the marks differ only in emphasis: dormant where nothing is prescribed, accent where
+  // something is.
+  function figStanding() {
+    const y = 58, x0 = 24, x1 = FIG_W - 24;
+    const at = (f) => x0 + (x1 - x0) * f;
+    const tick = (f, label, sub, strong) => {
+      const x = at(f);
+      const col = strong ? 'var(--accent)' : 'var(--dormant)';
+      return `<circle cx="${x}" cy="${y}" r="${strong ? 7 : 6}" fill="${col}" ${strong ? '' : 'opacity=".5"'}/>`
+        + `<text x="${x}" y="${y - 16}" text-anchor="middle" class="fig-l">${esc(label)}</text>`
+        + `<text x="${x}" y="${y + 26}" text-anchor="middle" class="fig-t">${esc(sub)}</text>`;
+    };
+    return svgOpen(96, 'Three points on one scale: nothing prescribed for the French designee, a sworn declaration on a state form for a Utah surrogate, and a notarial act for a French heir')
+      + `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="currentColor" stroke-width="1.5" opacity=".35"/>`
+      + `<text x="${x0}" y="${y + 44}" class="fig-t">nothing to show</text>`
+      + `<text x="${x1}" y="${y + 44}" text-anchor="end" class="fig-t">attested by a third party</text>`
+      + tick(0, 'designee', 'France, art. 85 I', false)
+      + tick(0.52, 'surrogate', 'Utah, \u00a775A-9-111(3)', true)
+      + tick(1, 'heir', 'France, art. 124', true)
+      + '</svg>';
+  }
+
   // Which drawing belongs to which finding. Keyed on the section number the heading opens
   // with, so renumbering the prose moves the figures with it; a section with no entry simply
   // gets none, which is the right answer for the closing argument.
@@ -1806,6 +1838,7 @@
       case 11: return figWrap(figBothSides(), 'A mandate on each side of the same exchange.');
       case 12: return figWrap(figInForce(), 'One chapter, two regimes, a date between them.');
       case 13: return figWrap(figProof(), 'Who can prove their standing to a French controller, and who cannot.');
+      case 14: return figWrap(figStanding(), 'How strongly each claimant\u2019s standing is evidenced, on one scale.');
       default: return '';
     }
   }
