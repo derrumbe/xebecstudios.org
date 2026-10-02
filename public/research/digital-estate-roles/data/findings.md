@@ -288,3 +288,41 @@ Two design points follow, and they are not specific to Idaho:
    that assumes a court artefact excludes a third of the set.
 5. **France is the forcing function.** It is the only jurisdiction that requires platforms to
    offer the mechanism, and it voids terms of service that cut across the user's choice.
+
+## Terms used here
+
+Two kinds of name appear in these sections, and neither explains itself.
+
+**Feature keys** are written in camelCase (`poaDurableByDefault`). They are the cross-jurisdiction
+facts the data records for each jurisdiction, each one carrying its own citation, and they are what
+the counts in sections 2 and 4 to 8 are counting.
+
+- **`poaDurableByDefault`** — whether a power of attorney keeps working after the person who gave
+  it loses capacity *without the document having to say so*. `true` means the law makes a power
+  durable unless the document opts out; `false` means durability has to be opted into, by express
+  words or by signing a different kind of instrument.
+- **`poaRegistrationBeforeUse`** — whether the power has to be registered or filed with a court,
+  registry or public authority before the attorney may act on it. `true` means an authority has to
+  do something before the document works.
+- **`digitalAssetsFiduciaryStatute`** — whether a statute gives a fiduciary access to the person's
+  *digital* assets as such. `false` does not mean nobody can ever reach the account; it means no
+  statute addresses digital assets specifically, so whoever wants access is arguing from general
+  law and the platform's terms.
+- **`supportedDecisionMakingStatute`** — whether there is a statute for **supported** decision
+  making, where the person keeps legal capacity and a supporter helps them decide. That is a
+  different thing from the substitute decision making the rest of this page is about, where
+  somebody decides *instead of* the person.
+- **`organDonationModel`** — whether donation is `opt-in`, so that donation needs a consent
+  recorded by the person or given for them, or `opt-out`, so that consent is deemed unless the
+  person recorded an objection.
+
+**Canonical role ids** are written in kebab-case (`personal-representative-executor`). Each one
+names the same role across every country in the set, so that an executor in Ireland and a
+liquidator in Québec line up in one row even though no two legal systems use the same word. They
+are a vocabulary for comparison, not terms of art from any one legal system, and the local
+statutory name is always recorded alongside. In the viewer, hovering any of these names shows its
+definition; the full list lives in `research/SCHEMA-INTL.md`.
+
+One number to read carefully: **jurisdictions** and **countries** are counted separately
+throughout, because a federal country contributes several jurisdictions and one legal idea.
+Section 7 is about what happens when those two counts are confused.

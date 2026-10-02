@@ -1386,6 +1386,48 @@
     </div>`;
   }
 
+  // The page names things in two vocabularies a reader has no reason to know: camelCase
+  // feature keys and kebab-case canonical role ids. Both are explained in place rather than
+  // only in a glossary at the end — role ids from canonicals.json, which already carries a
+  // definition for every one of them, and feature keys from the "Terms used here" section of
+  // findings.md, so the prose stays the single source and a new key documented there starts
+  // working here with no code change.
+  function glossaryFromProse(md) {
+    const out = {};
+    const start = md.indexOf('## Terms used here');
+    if (start < 0) return out;
+    const body = md.slice(start);
+    // Split on the bullets rather than lookahead-matching to their end: a definition wraps
+    // over several lines, and in a multiline regex `$` matches each line break, which
+    // silently truncated every entry to its first line.
+    for (const chunk of body.split(/\n(?=- \*\*`)/).slice(1)) {
+      const m = /^- \*\*`([^`]+)`\*\* — ([\s\S]*?)(?=\n\n|$)/.exec(chunk);
+      if (!m) continue;
+      // strip the markdown emphasis and backticks; a title attribute is plain text
+      out[m[1]] = m[2].replace(/[*`]/g, '').replace(/\s+/g, ' ').trim();
+    }
+    return out;
+  }
+
+  function annotateTerms(root, canon, glossary) {
+    const byId = new Map((canon || []).map((r) => [r.id, r]));
+    let n = 0;
+    for (const el of root.querySelectorAll('code')) {
+      const key = el.textContent.trim();
+      const role = byId.get(key);
+      const def = role ? role.definition : glossary[key];
+      if (!def) continue;
+      el.classList.add('term');
+      el.setAttribute('title', role ? `${role.label} — ${def}` : def);
+      // reachable without a pointer, and announced rather than silently decorative
+      el.setAttribute('tabindex', '0');
+      el.setAttribute('role', 'note');
+      el.setAttribute('aria-label', `${key}: ${role ? role.label + ' — ' + def : def}`);
+      n++;
+    }
+    return n;
+  }
+
   // Split the rendered prose into sections at each h2, so each finding leads with its
   // heading and first paragraph and holds the rest behind a disclosure. The headings stay
   // real h2 elements rather than moving inside <summary>, so the document outline and the
@@ -1462,6 +1504,7 @@
     if (band && lede) lede.insertAdjacentHTML('afterend', band);
     else if (band) sectioned.insertAdjacentHTML('afterbegin', band);
     while (sectioned.firstChild) host.appendChild(sectioned.firstChild);
+    annotateTerms(host, findingsCanon, glossaryFromProse(findingsText));
     const all = [...host.querySelectorAll('details.f-more')];
     if (all.length) {
       const bar = document.createElement('div');
