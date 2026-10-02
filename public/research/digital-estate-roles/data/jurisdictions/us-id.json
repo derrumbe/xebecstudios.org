@@ -62,9 +62,9 @@
    "cite": "Idaho Code § 15-15-106",
    "title": "Obligation to accept substitute decision-making document",
    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH15/SECT15-15-106/",
-   "quote": "a person that is asked to accept a substitute decision-making document shall accept within a reasonable time a document that purportedly meets the validity requirements of section 15-15-103 , Idaho Code. The person may not require an additional or different form of document for authority granted in the document presented.",
+   "quote": "(1) … a person that is asked to accept a substitute decision-making document shall accept within a reasonable time a document that purportedly meets the validity requirements of section 15-15-103 , Idaho Code. The person may not require an additional or different form of document for authority granted in the document presented. … (3) A person that in violation of the provisions of this section refuses to accept a substitute decision-making document is subject to: (a) A court order mandating acceptance of the document; and (b) Liability for reasonable attorney's fees and costs incurred in an action or proceeding that mandates acceptance of the document.",
    "kind": "statute",
-   "retrieved": "2026-10-01"
+   "retrieved": "2026-10-02"
   },
   {
    "id": "id-39-4510",
@@ -221,6 +221,15 @@
    "quote": "(2) An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift;",
    "kind": "statute",
    "retrieved": "2026-10-01"
+  },
+  {
+   "id": "id-15-15-105",
+   "cite": "Idaho Code § 15-15-105",
+   "title": "Reliance upon substitute decision-making document",
+   "url": "https://legislature.idaho.gov/statutesrules/idstat/Title15/T15CH15/SECT15-15-105/",
+   "quote": "(1) … a person that in good faith accepts a substitute decision-making document without actual knowledge that the document is void, invalid or terminated, or that the authority of the purported decision maker is void, invalid or terminated, may assume without inquiry that the document is genuine, valid and still in effect and that the decision maker's authority is genuine, valid and still in effect. (2) A person that is asked to accept a substitute decision-making document may request and without further investigation rely upon: (a) The decision maker's assertion of a fact concerning the individual for whom a decision will be made, the decision maker or the document; (b) A translation of the document …; and (c) An opinion of counsel regarding any matter of law concerning the document if the person provides in a record the reason for the request.",
+   "kind": "statute",
+   "retrieved": "2026-10-02"
   }
  ],
  "patches": [
@@ -231,11 +240,12 @@
     "attorney in fact"
    ],
    "differs": false,
-   "diff": "Consistent with the baseline. Idaho enacted the Uniform Power of Attorney Act in 2008 (SB 1335) and §15-12-104 is uniform §104 in one sentence: a power created under the chapter \"is durable unless it expressly provides that it is terminated by the incapacity of the principal\". Durability is opted out of, not into, which puts Idaho with the uniform-act states rather than with Washington, New Jersey and Massachusetts. Idaho adds a recognition regime the model has no counterpart for: chapter 15 of title 15 is the Uniform Recognition of Substitute Decision-Making Documents Act, under which a power executed in another state is valid here if it complied with the law of the place of execution (§15-15-103), and §15-15-106 obliges any person asked to accept such a document to accept it within a reasonable time and forbids them from requiring \"an additional or different form of document for authority granted in the document presented\". That duty runs against private parties, not only officials, and is subject to the §15-15-106(2) exceptions.",
+   "diff": "Consistent with the baseline. Idaho enacted the Uniform Power of Attorney Act in 2008 (SB 1335) and §15-12-104 is uniform §104 in one sentence: a power created under the chapter \"is durable unless it expressly provides that it is terminated by the incapacity of the principal\". Durability is opted out of, not into, which puts Idaho with the uniform-act states rather than with Washington, New Jersey and Massachusetts. Idaho adds a recognition regime the model has no counterpart for: chapter 15 of title 15 is the Uniform Recognition of Substitute Decision-Making Documents Act, under which a power executed in another state is valid here if it complied with the law of the place of execution (§15-15-103), and §15-15-106 obliges any person asked to accept such a document to accept it within a reasonable time and forbids them from requiring \"an additional or different form of document for authority granted in the document presented\". That duty runs against private parties, not only officials, and is subject to the §15-15-106(2) exceptions.\n\nThe acceptance regime has three parts, and only the first is usually noticed. § 15-15-106(1) is the duty; § 15-15-106(3) is the remedy, and it is the sharpest in this data — a refusing person is subject to a court order mandating acceptance **and** liability for reasonable attorney's fees and costs, so the cost of refusing falls on the refuser rather than on the holder. § 15-15-105 is the safe harbour that makes the duty bearable: a person accepting in good faith without actual knowledge of invalidity or termination may assume without inquiry that the document and the authority are genuine, valid and in effect, and may rely without further investigation on the decision maker's assertion of fact, on a translation, and on an opinion of counsel. § 15-15-106(2) then lists the refusals that remain lawful, including a refused request under § 15-15-105(2) and an adult-protective-services report.",
    "citations": [
     "id-15-12-104",
     "id-15-15-103",
-    "id-15-15-106"
+    "id-15-15-106",
+    "id-15-15-105"
    ]
   },
   {

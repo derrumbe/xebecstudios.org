@@ -148,6 +148,14 @@
       if (d.uniformActsAdopted) m.adopted = d.uniformActsAdopted;
       addCitations(m.citations, d.citations, d.name || f);
       for (const p of d.patches || []) {
+        // A role the baseline has and this jurisdiction does not — see the matching note in
+        // build.py's merged_roles. Dropping it keeps the cross-jurisdiction counts honest; the
+        // patch's diff is the explanation and lives in the research file, not on screen.
+        if (p.absent) {
+          const at = m.roles.findIndex((x) => x.id === p.role);
+          if (at >= 0) m.roles.splice(at, 1);
+          continue;
+        }
         let r = m.roles.find((x) => x.id === p.role);
         if (!r) {
           r = normalizeRole({ id: p.role, canonical: p.canonical || p.role, group: p.group || guessGroup(p.role), name: p.name || titleize(p.role), stateSpecific: true });
@@ -1747,27 +1755,62 @@
   }
 
   // Section 14 — how strongly a claimant's standing is evidenced, as one axis. The claim is that
-  // these are three points on a single scale and not three unrelated rules, so position carries it
-  // and the marks differ only in emphasis: dormant where nothing is prescribed, accent where
-  // something is.
+  // these are points on a single scale and not unrelated rules, so position carries it and the
+  // marks differ only in emphasis: dormant where no artefact is prescribed (France's designee has
+  // none at all; Delaware requires a declaration but prescribes no form for it), accent where one
+  // is. Delaware and Utah enacted the same sentence, which is why they sit close together and on
+  // opposite sides of the line.
   function figStanding() {
-    const y = 58, x0 = 24, x1 = FIG_W - 24;
+    const y = 66, x0 = 30, x1 = FIG_W - 30;
     const at = (f) => x0 + (x1 - x0) * f;
-    const tick = (f, label, sub, strong) => {
+    // Five points would collide if every label sat on the same side of the axis, so they
+    // alternate above and below. Position is the encoding; the side carries no meaning.
+    const tick = (f, label, sub, strong, below) => {
       const x = at(f);
       const col = strong ? 'var(--accent)' : 'var(--dormant)';
+      const ly = below ? y + 22 : y - 24, sy = below ? y + 35 : y - 11;
       return `<circle cx="${x}" cy="${y}" r="${strong ? 7 : 6}" fill="${col}" ${strong ? '' : 'opacity=".5"'}/>`
-        + `<text x="${x}" y="${y - 16}" text-anchor="middle" class="fig-l">${esc(label)}</text>`
-        + `<text x="${x}" y="${y + 26}" text-anchor="middle" class="fig-t">${esc(sub)}</text>`;
+        + `<text x="${x}" y="${ly}" text-anchor="middle" class="fig-l">${esc(label)}</text>`
+        + `<text x="${x}" y="${sy}" text-anchor="middle" class="fig-t">${esc(sub)}</text>`;
     };
-    return svgOpen(96, 'Three points on one scale: nothing prescribed for the French designee, a sworn declaration on a state form for a Utah surrogate, and a notarial act for a French heir')
+    return svgOpen(124, 'Five points on one scale, from nothing prescribed for the French designee, through a declaration with no prescribed form in Delaware and one on a state form in Utah, to a notarial act for a French heir and a state register in Oklahoma')
       + `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="currentColor" stroke-width="1.5" opacity=".35"/>`
-      + `<text x="${x0}" y="${y + 44}" class="fig-t">nothing to show</text>`
-      + `<text x="${x1}" y="${y + 44}" text-anchor="end" class="fig-t">attested by a third party</text>`
-      + tick(0, 'designee', 'France, art. 85 I', false)
-      + tick(0.52, 'surrogate', 'Utah, \u00a775A-9-111(3)', true)
-      + tick(1, 'heir', 'France, art. 124', true)
+      + `<text x="${x0}" y="${y + 54}" class="fig-t">nothing to show</text>`
+      + `<text x="${x1}" y="${y + 54}" text-anchor="end" class="fig-t">attested by a third party</text>`
+      + tick(0, 'designee', 'France, art. 85 I', false, false)
+      + tick(0.3, 'surrogate', 'Del., §2512(c)', false, true)
+      + tick(0.52, 'surrogate', 'Utah, §75A-9-111(3)', true, false)
+      + tick(0.78, 'heir', 'France, art. 124', true, true)
+      + tick(1, 'agent', 'Okla., §63-3102.1', true, false)
       + '</svg>';
+  }
+
+  // Section 15 — a presence matrix. The finding is which cells are EMPTY, so a missing part has to
+  // be drawn rather than left out: every cell is there, filled or hollow. One hue plus gray.
+  function figAccept() {
+    const rows = [
+      ['Idaho §§105–107', [1, 1, 1]],
+      ['RUFADAA §16', [1, 1, 1]],
+      ['Del. §§2306–7', [0, 1, 1]],
+      ['supported dec.-making', [0, 0, 1]],
+    ];
+    const cols = ['duty', 'remedy', 'safe harbour'];
+    const lw = 150, cw = 100, cwd = 72, ch = 20, gap = 10, top = 32;
+    let out = cols.map((c, i) =>
+      `<text x="${lw + i * cw + cw / 2}" y="20" text-anchor="middle" class="fig-t">${esc(c)}</text>`).join('');
+    rows.forEach(([label, cells], r) => {
+      const y = top + r * (ch + gap);
+      out += `<text x="0" y="${y + ch / 2 + 4}" class="fig-l">${esc(label)}</text>`;
+      cells.forEach((on, i) => {
+        const x = lw + i * cw + (cw - cwd) / 2;
+        out += on
+          ? `<rect x="${x}" y="${y}" width="${cwd}" height="${ch}" rx="3" fill="var(--accent)"/>`
+          : `<rect x="${x}" y="${y}" width="${cwd}" height="${ch}" rx="3" fill="none" stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 3" opacity=".7"/>`;
+      });
+    });
+    return svgOpen(top + rows.length * (ch + gap) + 4,
+      'Which of duty, remedy and safe harbour each of the four acceptance regimes carries: Idaho and RUFADAA all three, Delaware the remedy and the safe harbour, the supported decision-making statutes the safe harbour alone')
+      + out + '</svg>';
   }
 
   // Which drawing belongs to which finding. Keyed on the section number the heading opens
@@ -1839,6 +1882,7 @@
       case 12: return figWrap(figInForce(), 'One chapter, two regimes, a date between them.');
       case 13: return figWrap(figProof(), 'Who can prove their standing to a French controller, and who cannot.');
       case 14: return figWrap(figStanding(), 'How strongly each claimant\u2019s standing is evidenced, on one scale.');
+      case 15: return figWrap(figAccept(), 'Every regime carries the safe harbour. Only two carry the duty.');
       default: return '';
     }
   }

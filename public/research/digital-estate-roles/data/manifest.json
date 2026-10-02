@@ -461,6 +461,19 @@
      "label": "US — California"
     },
     {
+     "id": "us-de",
+     "name": "Delaware",
+     "short": "DE",
+     "code": "DE",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-de.json"
+     ],
+     "country": "us",
+     "note": "Delaware is the most uniform-act-resistant state in this set on property and succession, and the earliest adopter of the newest uniform act on health care. It has no Uniform Probate Code, no Uniform Trust Code (title 12 chapter 35 is Delaware's own body of trust law), no Uniform Guardianship act beyond the jurisdictional one, and no Revised Uniform Fiduciary Access to Digital Assets Act — yet title 16 chapter 25 is the Uniform Health-Care Decisions Act (2023), in force since 84 Del. Laws c. 467 (2024).\n\nThe digital-assets chapter is the reason to read this file. Delaware legislated in 2014, before RUFADAA existed, and never replaced its act: title 12 chapter 50 is the Fiduciary Access to Digital Assets and Digital Accounts Act, seven sections against the uniform act's eighteen, with no online tool and no designated recipient. Its default is the inverse of RUFADAA's — the fiduciary controls everything unless a governing instrument or court order says otherwise — and § 5004 goes further than any other provision in this set by voiding an end-user licence limitation as against the strong public policy of the State and making a choice-of-law clause unenforceable where it would import a law that enforces one.\n\nTwo power-of-attorney chapters coexist, but unlike Oklahoma's they divide by purpose rather than by vintage: § 49A-103 sends business and commercial powers, powers coupled with an interest, health-care powers and entity proxies to chapter 49, keeping chapter 49A for personal powers. Chapter 49A borrows the uniform act's numbering and reverses its central rule, § 49A-104 making a power durable only if it says so.\n\nSourcing note: delcode.delaware.gov is server-rendered and serves a whole chapter per page, so each citation points at the chapter or subchapter page that carries the section quoted; every URL here was checked to contain its section. Larger chapters are split into subchapters and the chapter page is then a few hundred characters of navigation, which is the tell.",
+     "label": "US — Delaware"
+    },
+    {
      "id": "us-fl",
      "name": "Florida",
      "short": "FL",
@@ -1037,6 +1050,19 @@
    ],
    "country": "us",
    "label": "US — California"
+  },
+  {
+   "id": "us-de",
+   "name": "Delaware",
+   "short": "DE",
+   "code": "DE",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-de.json"
+   ],
+   "country": "us",
+   "note": "Delaware is the most uniform-act-resistant state in this set on property and succession, and the earliest adopter of the newest uniform act on health care. It has no Uniform Probate Code, no Uniform Trust Code (title 12 chapter 35 is Delaware's own body of trust law), no Uniform Guardianship act beyond the jurisdictional one, and no Revised Uniform Fiduciary Access to Digital Assets Act — yet title 16 chapter 25 is the Uniform Health-Care Decisions Act (2023), in force since 84 Del. Laws c. 467 (2024).\n\nThe digital-assets chapter is the reason to read this file. Delaware legislated in 2014, before RUFADAA existed, and never replaced its act: title 12 chapter 50 is the Fiduciary Access to Digital Assets and Digital Accounts Act, seven sections against the uniform act's eighteen, with no online tool and no designated recipient. Its default is the inverse of RUFADAA's — the fiduciary controls everything unless a governing instrument or court order says otherwise — and § 5004 goes further than any other provision in this set by voiding an end-user licence limitation as against the strong public policy of the State and making a choice-of-law clause unenforceable where it would import a law that enforces one.\n\nTwo power-of-attorney chapters coexist, but unlike Oklahoma's they divide by purpose rather than by vintage: § 49A-103 sends business and commercial powers, powers coupled with an interest, health-care powers and entity proxies to chapter 49, keeping chapter 49A for personal powers. Chapter 49A borrows the uniform act's numbering and reverses its central rule, § 49A-104 making a power durable only if it says so.\n\nSourcing note: delcode.delaware.gov is server-rendered and serves a whole chapter per page, so each citation points at the chapter or subchapter page that carries the section quoted; every URL here was checked to contain its section. Larger chapters are split into subchapters and the chapter page is then a few hundred characters of navigation, which is the tell.",
+   "label": "US — Delaware"
   },
   {
    "id": "us-fl",
