@@ -1243,6 +1243,7 @@
   // escapes and shows as text rather than guessing.
   let findingsText = null;
   let findingsCanon = null;
+  let findingsFeatures = null;
 
   function mdInline(s) {
     let t = esc(s);
@@ -1493,11 +1494,257 @@
     window.addEventListener('resize', close);
   }
 
+  // ---------- findings figures ----------
+  // One small drawing per finding. Each is hand-authored inline SVG: no library, no runtime,
+  // sized by viewBox and scaled by CSS. Colour is var(--accent) for the thing the section is
+  // about and var(--dormant) for its context, with text in currentColor, so the same markup
+  // reads in both themes and introduces no colour the token set does not already have.
+  //
+  // The counts are computed from features.json and canonicals.json rather than written here,
+  // for the same reason the headline band is: a figure with a number drawn into it is a
+  // number that goes quietly wrong when the set grows.
+  const FIG_W = 460;
+
+  const svgOpen = (h, label) =>
+    `<svg viewBox="0 0 ${FIG_W} ${h}" role="img" aria-label="${esc(label)}" class="fig-svg">`;
+  const figWrap = (svg, caption) =>
+    `<figure class="finding-fig">${svg}</figure>` +
+    (caption ? `<p class="fig-cap">${esc(caption)}</p>` : '');
+
+  // A grid of cells, `on` of them filled. The honest form for "x of n jurisdictions":
+  // it shows the proportion and keeps the countable units countable.
+  function figDots(on, total, label, perRow = 15) {
+    const s = 11, gap = 5, rows = Math.ceil(total / perRow);
+    const h = rows * (s + gap) - gap + 26;
+    let cells = '';
+    for (let i = 0; i < total; i++) {
+      const x = (i % perRow) * (s + gap);
+      const y = Math.floor(i / perRow) * (s + gap) + 22;
+      const fill = i < on ? 'var(--accent)' : 'var(--dormant)';
+      const op = i < on ? '1' : '.4';
+      cells += `<rect x="${x}" y="${y}" width="${s}" height="${s}" rx="2" fill="${fill}" opacity="${op}"/>`;
+    }
+    return svgOpen(h, label)
+      + `<text x="0" y="12" class="fig-t">${esc(`${on} of ${total}`)}</text>`
+      + cells + '</svg>';
+  }
+
+  // Two quantities sharing one bar. For a split that is genuinely part-to-whole.
+  function figSplit(a, b, aLabel, bLabel, label) {
+    const w = FIG_W, barY = 24, hgt = 22, tot = a + b || 1;
+    const aw = Math.round((a / tot) * w) - 1;
+    return svgOpen(66, label)
+      + `<text x="0" y="12" class="fig-t">${esc(aLabel)} ${a}</text>`
+      + `<text x="${w}" y="12" text-anchor="end" class="fig-t">${esc(bLabel)} ${b}</text>`
+      + `<rect x="0" y="${barY}" width="${aw}" height="${hgt}" rx="3" fill="var(--dormant)" opacity=".45"/>`
+      + `<rect x="${aw + 2}" y="${barY}" width="${w - aw - 2}" height="${hgt}" rx="3" fill="var(--accent)"/>`
+      + '</svg>';
+  }
+
+  // Paired bars: the same roles counted two ways, which is the whole point of section 7.
+  function figPairs(rows, label) {
+    const labelW = 150, barW = FIG_W - labelW - 34, rowH = 30;
+    const max = Math.max(...rows.map((r) => Math.max(r.a, r.b)), 1);
+    let out = svgOpen(rows.length * rowH + 20, label)
+      + `<text x="${labelW}" y="10" class="fig-t">jurisdictions</text>`
+      + `<text x="${FIG_W}" y="10" text-anchor="end" class="fig-t">countries</text>`;
+    rows.forEach((r, i) => {
+      const y = 20 + i * rowH;
+      out += `<text x="${labelW - 8}" y="${y + 15}" text-anchor="end" class="fig-l">${esc(r.k)}</text>`
+        + `<rect x="${labelW}" y="${y + 2}" width="${Math.max(2, (r.a / max) * barW)}" height="9" rx="2" fill="var(--dormant)" opacity=".45"/>`
+        + `<rect x="${labelW}" y="${y + 14}" width="${Math.max(2, (r.b / max) * barW)}" height="9" rx="2" fill="var(--accent)"/>`
+        + `<text x="${FIG_W}" y="${y + 20}" text-anchor="end" class="fig-l">${r.b}</text>`;
+    });
+    return out + '</svg>';
+  }
+
+  // A value range on a log scale, because the point of section 9 is the order of magnitude.
+  function figRange(points, label) {
+    const w = FIG_W - 10, y = 40;
+    const vals = points.map((p) => p.v);
+    const lo = Math.log10(Math.min(...vals)), hi = Math.log10(Math.max(...vals));
+    const at = (v) => 5 + ((Math.log10(v) - lo) / (hi - lo || 1)) * w;
+    let out = svgOpen(76, label)
+      + `<line x1="5" y1="${y}" x2="${w + 5}" y2="${y}" stroke="var(--line)" stroke-width="2"/>`;
+    for (const p of points) {
+      const x = at(p.v), on = p.on;
+      out += `<circle cx="${x.toFixed(1)}" cy="${y}" r="${on ? 7 : 5}" fill="${on ? 'var(--accent)' : 'var(--dormant)'}" opacity="${on ? 1 : .5}"/>`;
+      if (p.t) out += `<text x="${x.toFixed(1)}" y="${p.below ? y + 24 : y - 14}" text-anchor="middle" class="fig-l">${esc(p.t)}</text>`;
+    }
+    return out + '</svg>';
+  }
+
+  // Arrow marker, defined once per drawing that needs one (ids are fragment-internal).
+  const ARROW = (id, color) =>
+    `<defs><marker id="${id}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">`
+    + `<path d="M0,0 L10,5 L0,10 z" fill="${color}"/></marker></defs>`;
+  const box = (x, y, w, h, t, strong) =>
+    `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="4" fill="none" stroke="${strong ? 'var(--accent)' : 'var(--dormant)'}" stroke-width="${strong ? 2 : 1.5}" opacity="${strong ? 1 : .6}"/>`
+    + `<text x="${x + w / 2}" y="${y + h / 2 + 4}" text-anchor="middle" class="fig-l">${esc(t)}</text>`;
+
+  // Section 2 — the three regimes disagree about what happens when the person said nothing.
+  // One axis, three markers: the disagreement is the position, so position is the encoding.
+  function figDefaults() {
+    const y = 46, x0 = 70, x1 = FIG_W - 20;
+    const at = (f) => x0 + f * (x1 - x0);
+    const pt = (f, t, up) =>
+      `<circle cx="${at(f)}" cy="${y}" r="6" fill="var(--accent)"/>`
+      + `<text x="${at(f)}" y="${up ? y - 12 : y + 20}" text-anchor="middle" class="fig-l">${esc(t)}</text>`;
+    return svgOpen(78, 'Where each regime lands when the person left no direction: the US at no access to content, France and Italy at access')
+      + `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="var(--line)" stroke-width="2"/>`
+      + `<text x="${x0}" y="14" class="fig-t">no access</text>`
+      + `<text x="${x1}" y="14" text-anchor="end" class="fig-t">access</text>`
+      + `<text x="0" y="${y + 4}" class="fig-l">silence →</text>`
+      + pt(0.04, 'US', true) + pt(0.88, 'France', true) + pt(0.96, 'Italy', false)
+      + '</svg>';
+  }
+
+  // Section 3 — the difference is the obligation, so draw the two arrows, not two boxes.
+  function figCompel() {
+    const a = ARROW('ar-compel', 'var(--accent)') + ARROW('ar-may', 'var(--dormant)');
+    return svgOpen(112, 'France obliges every online service to offer the choice; elsewhere a custodian may offer one')
+      + a
+      + box(0, 14, 150, 30, 'online service', true)
+      + box(FIG_W - 150, 14, 150, 30, 'user', true)
+      + `<line x1="152" y1="29" x2="${FIG_W - 156}" y2="29" stroke="var(--accent)" stroke-width="2" marker-end="url(#ar-compel)"/>`
+      + `<text x="${FIG_W / 2}" y="22" text-anchor="middle" class="fig-l">must offer the choice</text>`
+      + box(0, 68, 150, 30, 'custodian', false)
+      + box(FIG_W - 150, 68, 150, 30, 'user', false)
+      + `<line x1="152" y1="83" x2="${FIG_W - 156}" y2="83" stroke="var(--dormant)" stroke-width="2" stroke-dasharray="5 4" opacity=".7" marker-end="url(#ar-may)"/>`
+      + `<text x="${FIG_W / 2}" y="76" text-anchor="middle" class="fig-l">may offer one</text>`
+      + `<text x="0" y="60" class="fig-t">France</text>`
+      + `<text x="0" y="112" class="fig-t">everywhere else</text>`
+      + '</svg>';
+  }
+
+  // Section 10 — what a valid instrument must carry, against what it may.
+  function figFormless() {
+    const need = ['name', 'date of birth', 'phone', 'address', 'signature', 'date'];
+    const opt = ['health care agent', 'notarisation', 'witnesses', 'instructions'];
+    const rowH = 22;
+    let out = svgOpen(Math.max(need.length, opt.length) * rowH + 30,
+      'Six elements an Idaho advance care planning document must carry, against four it may');
+    out += `<text x="0" y="12" class="fig-t">must carry</text>`
+      + `<text x="${FIG_W / 2 + 10}" y="12" class="fig-t">may carry</text>`;
+    need.forEach((t, i) => {
+      const y = 22 + i * rowH;
+      out += `<rect x="0" y="${y}" width="10" height="10" rx="2" fill="var(--accent)"/>`
+        + `<text x="18" y="${y + 9}" class="fig-l">${esc(t)}</text>`;
+    });
+    opt.forEach((t, i) => {
+      const y = 22 + i * rowH, x = FIG_W / 2 + 10;
+      out += `<rect x="${x}" y="${y}" width="10" height="10" rx="2" fill="none" stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 2"/>`
+        + `<text x="${x + 18}" y="${y + 9}" class="fig-l" opacity=".75">${esc(t)}</text>`;
+    });
+    return out + '</svg>';
+  }
+
+  // Section 11 — a mandate on each side of the same exchange.
+  function figBothSides() {
+    const a = ARROW('ar-fr', 'var(--accent)') + ARROW('ar-id', 'var(--accent)');
+    return svgOpen(118, 'France compels the online service toward the user; Idaho compels the party asked to accept a document')
+      + a
+      + `<text x="0" y="12" class="fig-t">France · art. 85 III</text>`
+      + box(0, 20, 170, 28, 'online service', true)
+      + `<line x1="172" y1="34" x2="${FIG_W - 146}" y2="34" stroke="var(--accent)" stroke-width="2" marker-end="url(#ar-fr)"/>`
+      + box(FIG_W - 140, 20, 140, 28, 'user', false)
+      + `<text x="0" y="78" class="fig-t">Idaho · §15-15-106</text>`
+      + box(0, 86, 170, 28, 'document holder', false)
+      + `<line x1="172" y1="100" x2="${FIG_W - 146}" y2="100" stroke="var(--accent)" stroke-width="2" marker-end="url(#ar-id)"/>`
+      + box(FIG_W - 140, 86, 140, 28, 'relying party', true)
+      + '</svg>';
+  }
+
+  // Section 12 — one statute book, two regimes, a date between them.
+  function figInForce() {
+    const x = Math.round(FIG_W * 0.62), y = 44;
+    return svgOpen(96, 'Idaho chapter 5 carries the law in force and its enacted replacement, which takes effect on 1 January 2027')
+      + `<rect x="0" y="${y - 14}" width="${x - 2}" height="28" rx="3" fill="var(--accent)"/>`
+      + `<rect x="${x + 2}" y="${y - 14}" width="${FIG_W - x - 2}" height="28" rx="3" fill="var(--dormant)" opacity=".35"/>`
+      + `<text x="10" y="${y + 5}" class="fig-l fig-on">in force</text>`
+      + `<text x="${x + 12}" y="${y + 5}" class="fig-l">enacted, not yet in force</text>`
+      + `<line x1="${x}" y1="${y - 24}" x2="${x}" y2="${y + 24}" stroke="currentColor" stroke-width="2"/>`
+      + `<text x="${x}" y="${y + 40}" text-anchor="middle" class="fig-t">1 January 2027</text>`
+      + `<text x="0" y="14" class="fig-t">Idaho title 15, chapter 5</text>`
+      + '</svg>';
+  }
+
+  // Which drawing belongs to which finding. Keyed on the section number the heading opens
+  // with, so renumbering the prose moves the figures with it; a section with no entry simply
+  // gets none, which is the right answer for the closing argument.
+  function findingFigure(n, ctx) {
+    const { feat, canon, countries } = ctx;
+    const count = (key, pred) => {
+      let on = 0, total = 0;
+      for (const j of Object.keys(feat)) {
+        const v = ((feat[j] || {}).features || {})[key];
+        if (!v || v.value === null || v.value === undefined) continue;
+        total++; if (pred(v.value)) on++;
+      }
+      return { on, total };
+    };
+    const role = (id) => (canon || []).find((r) => r.id === id);
+
+    switch (n) {
+      case 1: {
+        const top = role('personal-representative-executor'), bot = role('online-tool-designee');
+        if (!top || !bot) return '';
+        return figWrap(
+          figDots(top.countryCount, countries, `${top.countryCount} of ${countries} countries recognise an executor`, countries)
+          + figDots(bot.countryCount, countries, `${bot.countryCount} of ${countries} countries recognise an online-tool designee`, countries),
+          'Countries recognising an executor, then an online-tool designee.');
+      }
+      case 2: return figWrap(figDefaults(), 'Where each regime lands when the person left no direction.');
+      case 3: return figWrap(figCompel(), 'France obliges the service; elsewhere the custodian chooses.');
+      case 4: {
+        const c = count('poaDurableByDefault', (v) => v === true);
+        return figWrap(figDots(c.on, c.total, `${c.on} of ${c.total} jurisdictions make a power of attorney durable by default`),
+          'Jurisdictions where a power of attorney is durable without saying so.');
+      }
+      case 5: {
+        const c = count('poaRegistrationBeforeUse', (v) => v === true);
+        return figWrap(figDots(c.on, c.total, `${c.on} of ${c.total} jurisdictions require registration before the power may be used`),
+          'Jurisdictions where an authority must act before the document works.');
+      }
+      case 6: {
+        const i = count('organDonationModel', (v) => v === 'opt-in');
+        return figWrap(figSplit(i.on, i.total - i.on, 'opt-in', 'opt-out',
+          `${i.on} jurisdictions opt-in, ${i.total - i.on} opt-out`),
+          'Donation model across the jurisdictions that record one.');
+      }
+      case 7: {
+        const ids = ['health-records-representative', 'benefits-payee', 'tax-representative', 'veterans-fiduciary'];
+        const rows = ids.map(role).filter(Boolean)
+          .map((r) => ({ k: r.label, a: r.jurisdictionCount, b: r.countryCount }));
+        if (!rows.length) return '';
+        return figWrap(figPairs(rows, 'Four roles with a high jurisdiction count and a low country count'),
+          'The same four roles, counted by jurisdiction and by country.');
+      }
+      case 8: {
+        const c = count('supportedDecisionMakingStatute', (v) => v === true);
+        return figWrap(figDots(c.on, c.total, `${c.on} of ${c.total} jurisdictions have a supported decision-making statute`),
+          'Jurisdictions with a statute for supported decision making.');
+      }
+      case 9: return figWrap(figRange([
+        { v: 20000, t: '$20k', on: false },
+        { v: 25000, t: 'model $25k', on: false, below: true },
+        { v: 100000, t: 'Idaho $100k', on: true },
+        { v: 150000, on: false },
+        { v: 208850, t: '$208,850', on: false, below: true },
+      ], 'US small-estate ceilings from $20,000 to $208,850 on a log scale'),
+        'US small-estate ceilings, log scale. One mechanism, an order of magnitude apart.');
+      case 10: return figWrap(figFormless(), 'What an Idaho ACPD must carry, against what it may.');
+      case 11: return figWrap(figBothSides(), 'A mandate on each side of the same exchange.');
+      case 12: return figWrap(figInForce(), 'One chapter, two regimes, a date between them.');
+      default: return '';
+    }
+  }
+
   // Split the rendered prose into sections at each h2, so each finding leads with its
   // heading and first paragraph and holds the rest behind a disclosure. The headings stay
   // real h2 elements rather than moving inside <summary>, so the document outline and the
   // reading order survive.
-  function findingsSections(html) {
+  function findingsSections(html, figureFor) {
     const src = document.createElement('div');
     src.innerHTML = html;
     const out = document.createElement('div');
@@ -1513,6 +1760,9 @@
         cur = document.createElement('section');
         cur.className = 'finding';
         cur.appendChild(node);
+        // the section number the heading opens with is what keys its drawing
+        const numMatch = /^\s*(\d+)\./.exec(node.textContent || '');
+        cur.dataset.fig = numMatch ? numMatch[1] : '';
         const det = document.createElement('details');
         det.className = 'f-more';
         const sum = document.createElement('summary');
@@ -1537,6 +1787,16 @@
     }
     if (lede) out.appendChild(lede);
     flush();
+    // place each drawing after the teaser: heading, then the sentence, then the picture
+    if (figureFor) {
+      for (const sec of out.querySelectorAll('section.finding')) {
+        const n = parseInt(sec.dataset.fig, 10);
+        const markup = n ? figureFor(n) : '';
+        if (!markup) continue;
+        const anchor = sec.querySelector('p.f-teaser') || sec.querySelector('h2');
+        anchor.insertAdjacentHTML('afterend', markup);
+      }
+    }
     return out;
   }
 
@@ -1564,7 +1824,16 @@
     }
     host.textContent = '';
     const band = findingsCanon.length ? findingsBand(findingsCanon, state.manifest) : '';
-    const sectioned = findingsSections(mdToHtml(findingsText));
+    if (findingsFeatures === null) {
+      try { findingsFeatures = await getJSON('features.json'); }
+      catch (e) { findingsFeatures = {}; }
+    }
+    const figCtx = {
+      feat: findingsFeatures,
+      canon: findingsCanon,
+      countries: (state.manifest.countries || []).length,
+    };
+    const sectioned = findingsSections(mdToHtml(findingsText), (n) => findingFigure(n, figCtx));
     const lede = sectioned.querySelector('.findings-lede');
     if (band && lede) lede.insertAdjacentHTML('afterend', band);
     else if (band) sectioned.insertAdjacentHTML('afterbegin', band);
