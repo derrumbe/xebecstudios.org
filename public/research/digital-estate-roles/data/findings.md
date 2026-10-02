@@ -35,8 +35,8 @@ settled nearly everywhere. It is the means of proving it to a platform.
 ## 2. Three regimes, worldwide, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 17 of 37 jurisdictions that record
-it, and all fifteen are France plus the RUFADAA states and the US model layer; the US states
+assets as such (`digitalAssetsFiduciaryStatute`: true in 17 of the 37 jurisdictions that record
+it, and all seventeen are France plus the RUFADAA states and the US model layer; the two US states
 that have not enacted RUFADAA, Massachusetts and Louisiana, record it false). Italy
 arrives at a nearby place by a different route. The three shapes are not variations — they
 disagree about the default:
@@ -77,11 +77,11 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 24** jurisdictions and **true in 17** — Denmark, Finland,
-Germany, the Netherlands and Sweden, plus the US model layer and the states that took the
-Uniform Power of Attorney Act: Idaho, Illinois, Maine, Michigan, New York, North Carolina,
-Ohio and Pennsylvania, and Louisiana by an entirely different route. The majority still
-require a dedicated instrument or express words.
+`poaDurableByDefault` is **false in 24** of the 41 jurisdictions that record it and **true in 17**
+— Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
+that took the Uniform Power of Attorney Act: Idaho, Illinois, Maine, Michigan, New York, North
+Carolina, Ohio, Oklahoma, Pennsylvania and Utah, and Louisiana by an entirely different route. The
+majority still require a dedicated instrument or express words.
 
 Those fifteen get there three different ways, which matters for anyone modelling the lifecycle:
 
@@ -113,7 +113,8 @@ gets it backwards.
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 and false in 25. The split does not follow legal
+`poaRegistrationBeforeUse` is true in 10 of the 35 jurisdictions that record it and false in 25.
+The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
 the Canadian provinces, the Netherlands and Northern Ireland do not.
@@ -127,7 +128,8 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 30** jurisdictions and **opt-out in 10**. The opt-out set
+`organDonationModel` is **opt-in in 30** of the 40 jurisdictions that record it and **opt-out in
+10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
 
@@ -160,7 +162,9 @@ vests in the heirs at death with no grant and no appointment.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 17 and false in 8. Notably the **US model layer is
+`supportedDecisionMakingStatute` is true in 17 of the 25 jurisdictions that record it and false in
+8 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
+rather than a third of the set. Notably the **US model layer is
 false while seven US states are true** — California, Florida, Illinois, New York, Texas, Utah and
 Washington — so the uniform acts have not absorbed it, but states have.
 
@@ -475,6 +479,14 @@ Two kinds of name appear in these sections, and neither explains itself.
 **Feature keys** are written in camelCase (`poaDurableByDefault`). They are the cross-jurisdiction
 facts the data records for each jurisdiction, each one carrying its own citation, and they are what
 the counts in sections 2 and 4 to 8 are counting.
+
+**Every one of those counts is out of the jurisdictions that record that key, not out of all 47.**
+Coverage is ragged and deliberately so: a key is only filled in where the answer could be traced to
+a primary source, which runs from 41 jurisdictions for `poaDurableByDefault` down to 25 for
+`supportedDecisionMakingStatute`. **A missing value means the question has not been sourced, not
+that the answer is no.** That is why each count now carries its denominator, and why two sections
+describing differently-sized subsets is a property of the sourcing rather than an inconsistency in
+the data.
 
 - **`poaDurableByDefault`** — whether a power of attorney keeps working after the person who gave
   it loses capacity *without the document having to say so*. `true` means the law makes a power
