@@ -2,7 +2,7 @@
 
 What the data says when you read it sideways — across jurisdictions rather than down one.
 The viewer recomputes its headline figures from the data every time it draws this page; the
-counts written into the sections here were current on **2026-10-01**.
+counts written into the sections here were current on **2026-10-02**.
 
 Not legal advice, and not a survey: this is what the sourced data supports, nothing wider.
 
@@ -35,8 +35,9 @@ settled nearly everywhere. It is the means of proving it to a platform.
 ## 2. Three regimes, worldwide, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 7 of 25 jurisdictions that record
-it, and those seven are France plus the RUFADAA states and the US model layer). Italy
+assets as such (`digitalAssetsFiduciaryStatute`: true in 15 of 35 jurisdictions that record
+it, and all fifteen are France plus the RUFADAA states and the US model layer; the US states
+that have not enacted RUFADAA, Massachusetts and Louisiana, record it false). Italy
 arrives at a nearby place by a different route. The three shapes are not variations — they
 disagree about the default:
 
@@ -65,19 +66,27 @@ mechanism a protocol would specify, with no technical form specified anywhere in
 Anything that interoperates is competing with bespoke per-platform implementations, not with
 an incumbent standard.
 
-## 4. Durability by default is a minority rule, and two routes reach it
+## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 21** jurisdictions and **true in 8** — Denmark, Finland,
-Germany, the Netherlands, Sweden, Illinois, New York and the US model layer. The majority
+`poaDurableByDefault` is **false in 24** jurisdictions and **true in 15** — Denmark, Finland,
+Germany, the Netherlands and Sweden, plus the US model layer and the states that took the
+Uniform Power of Attorney Act: Idaho, Illinois, Maine, Michigan, New York, North Carolina,
+Ohio and Pennsylvania, and Louisiana by an entirely different route. The majority still
 require a dedicated instrument or express words.
 
-Two of those eight get there differently, which matters for anyone modelling the lifecycle:
+Those fifteen get there three different ways, which matters for anyone modelling the lifecycle:
 
 - **By design** — the UPOAA states, where §104 says a power is durable unless it expressly
-  provides otherwise.
+  provides otherwise. Michigan qualifies it: §556.204 is captioned a *limited* presumption, and
+  a power not executed with the §205 formalities is not durable at all, however clearly it says
+  so.
 - **By omission** — the Netherlands, where BW art. 3:72 lists what ends a *volmacht* (death,
   *ondercuratelestelling*, bankruptcy, revocation) and incapacity is simply not on the list.
   Nothing declares durability; it follows from the absence of a terminating event.
+- **By contract** — Louisiana, where the instrument is not a power of attorney at all but a
+  *mandat*, a contract under C.C. art. 2989. Art. 3026 keeps it alive through the principal's
+  incapacity "in the absence of contrary agreement", so durability is the term you contract out
+  of rather than words you put in.
 
 Ireland is the sharp contrast: an ordinary agency dies with capacity, and an enduring power
 **does not enter into force until** both registration and incapacity (2015 Act s 59(4)) — two
@@ -85,7 +94,7 @@ cumulative gates where England and Wales next door needs none for property.
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 and false in 15. The split does not follow legal
+`poaRegistrationBeforeUse` is true in 10 and false in 23. The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
 the Canadian provinces, the Netherlands and Northern Ireland do not.
@@ -99,7 +108,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 18** jurisdictions and **opt-out in 10**. The opt-out set
+`organDonationModel` is **opt-in in 28** jurisdictions and **opt-out in 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
 
@@ -132,9 +141,9 @@ vests in the heirs at death with no grant and no appointment.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 15 and false in 8. Notably the **US model layer is
-false while five US states are true** — the uniform acts have not absorbed it, but states
-have. Ireland's 2015 Act is built on it as the first of three graded tiers; Victoria, British
+`supportedDecisionMakingStatute` is true in 16 and false in 8. Notably the **US model layer is
+false while six US states are true** — California, Florida, Illinois, New York, Texas and
+Washington — so the uniform acts have not absorbed it, but states have. Ireland's 2015 Act is built on it as the first of three graded tiers; Victoria, British
 Columbia, Québec, Italy, Japan, South Korea, India, Brazil and Argentina all have a form.
 
 It is the one place where the canonical vocabulary is still moving, which is a reason to treat
@@ -265,6 +274,44 @@ Two design points follow, and they are not specific to Idaho:
   commencement 15 months out. Anything built from a snapshot of "what the statute book says"
   without reading the commencement provisions will be wrong in both directions.
 
+## 13. An obligation to offer the choice is not an evidence layer
+
+France compels the platform (§3) and Idaho compels the relying party (§11), but neither says
+how the person who turns up after the death proves they are who they claim. France is the case
+where that gap can be read precisely, because the implementing decree answers the question for
+one claimant and not the other.
+
+Décret n° 2019-536 art. 124 tells an heir exactly what to bring:
+
+> Outre la justification de son identité, l'héritier … doit, lors de sa demande, apporter la
+> preuve de sa qualité d'héritier par la production d'un **acte de notoriété** ou d'un **livret
+> de famille**.
+
+For the *personne chargée de l'exécution des directives* — the person the deceased actually
+chose — the decree says nothing. Art. 85 confers the standing and stops there.
+
+| | Standing from | Proof of standing |
+|---|---|---|
+| **Heir** | art. 85 II, failing directives | prescribed: identity + acte de notoriété or livret de famille |
+| **Designated person** | art. 85 I, by the deceased's own choice | none prescribed |
+
+What is left for the designee depends on where the directives sit. *Directives particulières*
+are registered with the controller, so the platform already holds the designation and can match
+it — this is the case that works, and it is effectively France's online tool. *Directives
+générales* were meant to sit with a CNIL-certified *tiers de confiance numérique*, referenced in
+a *registre unique* whose arrangements art. 85 I leaves to a décret en Conseil d'État. No such
+décret was found: the texts linked to art. 85 are the 2019 decree, which covers only the heir,
+and a 2020 arrêté routing rights within one sector. On that evidence the general-directives
+channel has a statutory container and no machinery — recorded as unverified, since failing to
+find a decree is weaker than reading one.
+
+The inversion is the finding. The claimant the law most wants to empower, because the deceased
+named them, is the one with no way to prove it; the fallback claimant, who merely has to be
+related, has a centuries-old notarial instrument waiting. **An obligation to offer a choice and
+an ability to act on that choice are different problems, and only the first has been legislated.**
+That is the gap a credential closes, and it is why §3's mandate has not by itself produced
+anything interoperable.
+
 ## What this suggests for a standard
 
 1. **Bind to the roles that already exist.** Executor and administrator are present in 20–24
@@ -286,8 +333,11 @@ Two design points follow, and they are not specific to Idaho:
 4. **The civil-law systems need no grant at all.** In 16 countries the heirs hold the estate
    from the moment of death by operation of law. There is no document to present. Any design
    that assumes a court artefact excludes a third of the set.
-5. **France is the forcing function.** It is the only jurisdiction that requires platforms to
-   offer the mechanism, and it voids terms of service that cut across the user's choice.
+5. **France is the forcing function, and shows what a mandate alone does not fix.** It is the
+   only jurisdiction that requires platforms to offer the mechanism, and it voids terms of
+   service that cut across the user's choice. It still prescribes no way for the person the
+   user designated to prove that later, while prescribing one for the heir — so the obligation
+   exists and the evidence layer does not.
 
 ## Terms used here
 
