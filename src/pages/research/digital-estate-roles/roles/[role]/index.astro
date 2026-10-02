@@ -78,6 +78,7 @@ const others = roles.filter((r: any) => r.id !== role.id);
                 <h3>
                   <a href={viewer(j)}>{j.label}</a>
                   {j.differsFromModel && <span class="tag">differs from the US model</span>}
+                  {j.unverified && <span class="tag unv">unverified</span>}
                 </h3>
                 <p class="local">
                   {j.roleName}

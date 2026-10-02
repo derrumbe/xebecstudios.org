@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 46 | **24** |
-| `conservator-estate` | 49 | 21 |
-| `personal-representative-administrator` | 42 | 20 |
-| `anatomical-gift-agent` | 43 | 19 |
-| `financial-poa-durable` | 40 | 17 |
-| `guardian-person` | 40 | 17 |
-| `health-care-agent` | 38 | 14 |
+| `personal-representative-executor` | 47 | **24** |
+| `conservator-estate` | 50 | 21 |
+| `personal-representative-administrator` | 43 | 20 |
+| `anatomical-gift-agent` | 44 | 19 |
+| `financial-poa-durable` | 41 | 17 |
+| `guardian-person` | 41 | 17 |
+| `health-care-agent` | 39 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 20 | **4** |
-| `online-tool-designee` | 18 | **2** |
+| `digital-assets-fiduciary` | 21 | **4** |
+| `online-tool-designee` | 19 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -35,7 +35,7 @@ settled nearly everywhere. It is the means of proving it to a platform.
 ## 2. Three regimes, worldwide, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 16 of 36 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 17 of 37 jurisdictions that record
 it, and all fifteen are France plus the RUFADAA states and the US model layer; the US states
 that have not enacted RUFADAA, Massachusetts and Louisiana, record it false). Italy
 arrives at a nearby place by a different route. The three shapes are not variations — they
@@ -77,7 +77,7 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 24** jurisdictions and **true in 16** — Denmark, Finland,
+`poaDurableByDefault` is **false in 24** jurisdictions and **true in 17** — Denmark, Finland,
 Germany, the Netherlands and Sweden, plus the US model layer and the states that took the
 Uniform Power of Attorney Act: Idaho, Illinois, Maine, Michigan, New York, North Carolina,
 Ohio and Pennsylvania, and Louisiana by an entirely different route. The majority still
@@ -101,9 +101,19 @@ Ireland is the sharp contrast: an ordinary agency dies with capacity, and an end
 **does not enter into force until** both registration and incapacity (2015 Act s 59(4)) — two
 cumulative gates where England and Wales next door needs none for property.
 
+Oklahoma shows how little the default settles on its own. It has **two live power-of-attorney
+acts with opposite presumptions**: the Uniform Power of Attorney Act of 2021, codified in the
+probate title at §58-3004, is durable unless the instrument says otherwise, while the Uniform
+Statutory Form Power of Attorney Act of 1998 survives at §15-1004 and makes a power durable only
+if it carries language saying so. What resolves it is neither default but an applicability
+section — §58-3003 applies the 2021 act to all powers of attorney bar four carve-outs, so the
+1998 act now supplies a form read under the newer act's rules. Anyone reading Oklahoma's
+durability rule off §15-1004, which is still in the statute book and still says the opposite,
+gets it backwards.
+
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 and false in 24. The split does not follow legal
+`poaRegistrationBeforeUse` is true in 10 and false in 25. The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
 the Canadian provinces, the Netherlands and Northern Ireland do not.
@@ -117,7 +127,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 29** jurisdictions and **opt-out in 10**. The opt-out set
+`organDonationModel` is **opt-in in 30** jurisdictions and **opt-out in 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
 
@@ -135,10 +145,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 36 | 5 |
-| `benefits-payee` | 30 | 5 |
-| `tax-representative` | 30 | 5 |
-| `veterans-fiduciary` | 23 | 3 |
+| `health-records-representative` | 37 | 5 |
+| `benefits-payee` | 31 | 5 |
+| `tax-representative` | 31 | 5 |
+| `veterans-fiduciary` | 24 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -180,7 +190,7 @@ affidavit, after a short wait. The mechanism is uniform. The threshold is not:
 | Uniform Probate Code §3-1201 (the model) | $25,000 |
 | North Carolina, New Jersey | $20,000 |
 | Maine (CPI-indexed) | $40,000 |
-| Michigan, New York, Pennsylvania | $50,000 |
+| Michigan, New York, **Oklahoma**, Pennsylvania | $50,000 |
 | Florida, Texas | $75,000 |
 | **Idaho**, Ohio, **Utah**, Washington | $100,000 |
 | Louisiana | $125,000–$200,000 |
@@ -199,10 +209,18 @@ small-estate claim is good is a question for the law of the decedent's domicile 
 death, not a number a credential or a custodian can carry. What a credential can usefully
 assert is the affiant's sworn statement and the state whose law they swore it under.
 
-Idaho adds a second route with no ceiling at all: under §15-3-1205, where a surviving spouse
-is the sole devisee or heir, a petition and hearing produce a decree with the same effect as a
-formal decree of distribution, with no personal representative and no amount limit. Size of
-estate is simply irrelevant where the spouse takes everything.
+The waiting period varies too, and less visibly: every state here makes a successor wait thirty
+days except **Oklahoma, where §58-393 opens the affidavit route after ten**. A protocol that
+assumes a month between death and the first claim is wrong in one jurisdiction out of sixteen.
+
+Two states add a route with no ceiling at all, and reach it by different tests. Idaho asks **who
+inherits**: under §15-3-1205, where a surviving spouse is the sole devisee or heir, a petition and
+hearing produce a decree with the same effect as a formal decree of distribution, with no personal
+representative and no amount limit. Oklahoma asks **when the death was and where the decedent
+lived**: summary administration under §58-245 is available where the estate is $200,000 or less,
+*or* where the decedent has been dead more than five years, *or* where they resided in another
+jurisdiction. Size of estate is simply irrelevant in either case — which means a credential that
+carried a value band would misread both.
 
 ## 10. An instrument can be nearly formless
 
@@ -276,7 +294,21 @@ authority has terminated, and in the other listed cases.
 
 ## 12. Law in force is not law enacted
 
-Idaho is the first jurisdiction in this set where the data has to carry two answers at once.
+Three jurisdictions in this set now carry two answers at once, at three different distances, which
+is what turns this from a curiosity into something a standard has to handle:
+
+| | Replacement regime | Commences |
+|---|---|---|
+| **Utah** | Uniform Health Care Decisions Act (2025 ch. 439) | 1 January 2026 — already in force |
+| **Idaho** | Uniform Guardianship, Conservatorship and Other Protective Arrangements Act (S 1240, 2026 ch. 79) | 1 January 2027 |
+| **Oklahoma** | Uniform Health Care Decisions Act of 2026 (enrolled HB 1687) | 1 July 2027 |
+
+Oklahoma's is the starkest, because the act does not merely amend a regime — it repeals the
+Oklahoma Health Care Agent Act and introduces a default surrogate where the state currently has
+none. So for the next nine months Oklahoma is the only US jurisdiction here with no ranked
+surrogate at all, and the fix is already law.
+
+Idaho is where the pattern is easiest to read, because the statute book prints it.
 Title 15 chapter 5 is currently published under two headings — "PROTECTION OF PERSONS UNDER
 DISABILITY AND THEIR PROPERTY [EFFECTIVE UNTIL JANUARY 1, 2027]" and "UNIFORM GUARDIANSHIP,
 CONSERVATORSHIP, AND OTHER PROTECTIVE ARRANGEMENTS ACT [EFFECTIVE JANUARY 1, 2027]". Idaho
@@ -376,17 +408,26 @@ it, so the thing a custodian is asked to accept is the same thing every time.
 
 It is not a credential, and the difference is the point. The declaration is **self-asserted**: it
 is the claimant's own statement, backed by a perjury sanction rather than by anyone having checked
-it. Set against section 13, the set now holds three points on one scale:
+it. Oklahoma supplies the missing end of the scale. Under §63-3102.1 the State Department of Health
+must maintain a web-accessible **advance directives registry**, storing directives filed by or with
+the authorisation of the person who executed them, and designed to give access to that person, to
+**those named as agents in the directive**, and to close relatives. A named agent does not have to
+produce anything: the relying party can consult a state register that already names them.
+
+Set against section 13, the set holds four points on one scale:
 
 | | What the claimant produces | Who stands behind it |
 |---|---|---|
 | French designated person | nothing prescribed | — |
 | Utah default surrogate | declaration on a state form | the claimant, under penalty of perjury |
 | French heir | *acte de notoriété* or *livret de famille* | a notary, or the civil register |
+| **Oklahoma health-care agent** | **nothing — the register is consulted** | **a state department, on its own record** |
 
-The gap a credential fills sits between the second row and the third: verifiable by the recipient
-like a notarial act, but issued as cheaply as a declaration. Nothing in the data occupies that
-position today.
+That last row is the shape a credential system would take, reached by a 1990s statute and a
+website rather than by a protocol: an authoritative party holds the instrument, and the relying
+party checks the source instead of inspecting a document the claimant carries. Its limits are
+equally instructive — it is one state, one kind of instrument, opt-in filing, and no use outside
+Oklahoma. The gap a credential fills is everything that register does, made portable.
 
 One further Utah detail cuts against how credentials are usually built. Under §75A-9-117 the power
 of an agent or surrogate **commences** when the individual is found to lack capacity, **ceases** if
