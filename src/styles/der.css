@@ -424,11 +424,20 @@
 .der .cp-l li:first-child { border-top: 0; }
 .der .cp-n { color: var(--ink-2); font-size: .85rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
-/* The bars are activatable now, so they have to look and focus like it. */
-.der .bar-row[role="button"] { cursor: pointer; border-radius: 4px; }
-.der .bar-row[role="button"]:hover .bar { opacity: 1; }
-.der .bar-row[role="button"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
+/* Two targets per row: the name and the bar go to the role, the count opens the countries. */
+.der .bar-a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 2px; }
+.der .bar-a:hover { text-decoration-color: currentColor; }
+.der .bar-hit { display: block; }
+.der .bar-hit:hover .bar { opacity: 1; }
+.der .bar-row:hover .bar { opacity: 1; }
+/* The count is a button now, so it is stripped back to looking like the number it was. */
+.der button.bar-v { appearance: none; background: none; border: 0; padding: 0 .1rem; margin: 0;
+  font: inherit; font-size: .95rem; color: var(--ink-2); font-variant-numeric: tabular-nums;
+  text-align: right; cursor: pointer; border-radius: 3px; }
+.der button.bar-v:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
+.der .bar-row.on button.bar-v { color: var(--ink); font-weight: 600; }
+.der .bar-a:focus-visible,
+.der button.bar-v:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* ---------- findings: one small drawing per finding ----------
    The SVG is sized by its viewBox and scaled here, so it stays legible on a phone without
@@ -445,3 +454,28 @@
 .der .fig-svg .fig-on { fill: var(--surface); }
 .der .fig-cap { margin: .15rem 0 0; font-size: .85rem; color: var(--ink-2); max-width: var(--measure); }
 @media (max-width: 640px) { .der .fig-svg .fig-l { font-size: 13px; } .der .fig-svg .fig-t { font-size: 12.5px; } }
+
+/* Linkable findings. The anchor is quiet until the heading is hovered or it is focused, so it
+   does not compete with the heading it belongs to, but it is always in the tab order and always
+   announced — a link nobody can reach is not a link. */
+.der .finding h2 .f-anchor {
+  margin-left: .4rem; font-size: .62em; font-weight: 400; color: var(--ink-2);
+  text-decoration: none; opacity: 0; transition: opacity .12s ease; vertical-align: .12em;
+}
+.der .finding h2:hover .f-anchor,
+.der .finding h2 .f-anchor:focus-visible { opacity: 1; }
+.der .finding h2 .f-anchor:hover { color: var(--accent); }
+.der .finding h2 .f-anchor:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* On a touch screen there is no hover to reveal it, so it simply stays visible. */
+@media (hover: none) { .der .finding h2 .f-anchor { opacity: .55; } }
+.der .finding h2:focus-visible { outline: none; }
+/* A brief marker so arriving on a deep link shows which section was asked for. */
+.der .finding.f-target { animation: f-flash 1.6s ease-out; border-radius: 6px; }
+@keyframes f-flash {
+  from { background: color-mix(in oklab, var(--accent) 14%, transparent); }
+  to { background: transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .der .finding.f-target { animation: none; }
+  .der .finding h2 .f-anchor { transition: none; }
+}

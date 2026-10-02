@@ -42,6 +42,10 @@
   const $ = (s, r = document) => r.querySelector(s);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const clone = (o) => JSON.parse(JSON.stringify(o));
+  // For addressing a heading that carries no number. Kept to ASCII letters, digits and
+  // hyphens so the result survives being written into a URL by hand and copied out of one.
+  const slugify = (s) => String(s ?? '').toLowerCase().normalize('NFKD')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 48);
   const trunc = (s, n) => { s = String(s ?? ''); return s.length > n ? s.slice(0, n - 1) + '…' : s; };
   // English glosses for local-language names (merged from research/translations by the build).
   const nameEn = (r) => (r.nameEn && r.nameEn.en) || '';
@@ -254,6 +258,10 @@
     state.jur = state.chosen ? j : 'us-model';
     state.tab = p.get('tab') || 'map';
     state.role = p.get('role') || null;
+    // Which finding to open and scroll to. A section is addressed by the number it is
+    // numbered with in the prose, because that is how the prose cites itself ("§13"), so a
+    // link and a cross-reference say the same thing.
+    state.finding = p.get('f') || null;
   }
   // Set by anything the reader did on purpose, so it earns a history entry; an
   // implicit render (boot, or the re-render that back/forward itself triggers)
@@ -267,6 +275,7 @@
       const p = new URLSearchParams();
       p.set('j', state.jur); p.set('tab', state.tab);
       if (state.role) p.set('role', state.role);
+      if (state.tab === 'findings' && state.finding) p.set('f', state.finding);
       h = '#' + p.toString();
     }
     if (location.hash === h) return;
@@ -1389,15 +1398,24 @@
     // digital roles that is the whole question — online-tool-designee reaches 17 jurisdictions
     // and 2 countries, because 16 of the 17 are US states. The breakdown makes a bar that
     // looks like thin coverage legible as concentrated coverage, which is a different claim.
+    // Two targets per row, because the row answers two different questions. The name and the
+    // bar open the role; the count opens the countries behind it. One element doing both would
+    // have to guess, and nesting a link inside a button is not a thing a screen reader can
+    // describe. The role link only appears where ROLES_BASE is set, following the same rule as
+    // the per-jurisdiction "see this role everywhere" link: irisar has no per-role pages, and a
+    // link drawn there would 404.
     const bars = ranked.map((r) => {
       const on = DIGITAL_ROLES.includes(r.id);
       const pct = Math.max(1.5, (r.countryCount / max) * 100);
-      const label = `${r.label}: ${r.countryCount} of ${countries} countries, ${r.jurisdictionCount} jurisdictions`;
-      return `<div class="bar-row${on ? ' on' : ''}" data-panel-html="${esc(countryPanel(r, countries))}"
-        tabindex="0" role="button" aria-expanded="false" aria-label="${esc(label)}. Show the countries.">
-        <div class="bar-k">${esc(r.label)}</div>
-        <div class="bar-t"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div>
-        <div class="bar-v">${r.countryCount}</div>
+      const href = ROLES_BASE ? esc(ROLES_BASE + r.id + '/') : '';
+      const bar = `<div class="bar" style="width:${pct.toFixed(1)}%"></div>`;
+      // The bar is the same destination as the name, so it is taken out of the tab order
+      // rather than offered as a second stop that goes nowhere new.
+      return `<div class="bar-row${on ? ' on' : ''}">
+        <div class="bar-k">${href ? `<a class="bar-a" href="${href}">${esc(r.label)}</a>` : esc(r.label)}</div>
+        <div class="bar-t">${href ? `<a class="bar-hit" href="${href}" tabindex="-1" aria-hidden="true">${bar}</a>` : bar}</div>
+        <button type="button" class="bar-v" data-panel-html="${esc(countryPanel(r, countries))}"
+          aria-expanded="false" aria-label="${esc(r.label)}: ${r.countryCount} of ${countries} countries. Show which.">${r.countryCount}</button>
       </div>`;
     }).join('');
 
@@ -1405,7 +1423,7 @@
       ${hero}
       ${tiles}
       <figure class="bar-fig">
-        <figcaption>Countries recognising each role, of ${countries}. The two digital roles are highlighted. Select a row for the countries.</figcaption>
+        <figcaption>Countries recognising each role, of ${countries}. The two digital roles are highlighted.${ROLES_BASE ? ' Select a role to open it;' : ' Select'} the count for the countries.</figcaption>
         <div class="bars">${bars}</div>
       </figure>
     </div>`;
@@ -1461,7 +1479,7 @@
     // The ranked bars use the same panel: one element, one set of handlers, one thing that
     // closes on Escape. Attaching a second panel would duplicate the id and leave two
     // tooltips that do not know about each other.
-    for (const el of root.querySelectorAll('.bar-row[data-panel-html]')) terms.push(el);
+    for (const el of root.querySelectorAll('[data-panel-html]')) terms.push(el);
     if (terms.length) attachTermPanel(root, terms);
     return terms.length;
   }
@@ -1815,6 +1833,20 @@
         // the section number the heading opens with is what keys its drawing
         const numMatch = /^\s*(\d+)\./.exec(node.textContent || '');
         cur.dataset.fig = numMatch ? numMatch[1] : '';
+        // ...and also addresses it. Numbered sections are keyed by their number, which is what
+        // the prose's own "§13" references mean; the few unnumbered ones fall back to a slug of
+        // the heading, so every section on the page can be linked to and not just most of them.
+        const key = numMatch ? numMatch[1] : slugify(node.textContent || '');
+        if (key) {
+          cur.id = 'finding-' + key;
+          cur.dataset.f = key;
+          const a = document.createElement('a');
+          a.className = 'f-anchor';
+          a.href = '#tab=findings&f=' + encodeURIComponent(key);
+          a.textContent = '#';
+          a.setAttribute('aria-label', `Link to this finding: ${(node.textContent || '').trim()}`);
+          node.appendChild(a);
+        }
         const det = document.createElement('details');
         det.className = 'f-more';
         const sum = document.createElement('summary');
@@ -1906,6 +1938,44 @@
       const first = host.querySelector('section.finding');
       if (first) host.insertBefore(bar, first);
     }
+
+    // An anchor click keeps whatever jurisdiction the reader had chosen, which following the
+    // href would drop: the href is the short citable form, deliberately, so that what gets
+    // copied and pasted into a document is "#tab=findings&f=13" and not a route carrying
+    // somebody's incidental state.
+    for (const a of host.querySelectorAll('a.f-anchor')) {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const sec = a.closest('section.finding');
+        if (!sec) return;
+        state.finding = sec.dataset.f;
+        pushNext = true;
+        writeHash();
+        revealFinding(host, state.finding);
+      });
+    }
+    if (state.finding) revealFinding(host, state.finding);
+  }
+
+  // Open a finding and bring it into view, whether the reader clicked an anchor or arrived on
+  // a pasted link. The section is behind a disclosure, so scrolling to a closed one would land
+  // on a heading and a "Read more" button with the substance still hidden — the open comes
+  // first. Focus moves to the heading so a keyboard reader lands where the eye does.
+  function revealFinding(host, key) {
+    const sec = host.querySelector(`section.finding[data-f="${CSS.escape(String(key))}"]`);
+    if (!sec) return false;
+    const det = sec.querySelector('details.f-more');
+    if (det) det.open = true;
+    const h = sec.querySelector('h2');
+    if (h) {
+      if (!h.hasAttribute('tabindex')) h.setAttribute('tabindex', '-1');
+      h.focus({ preventScroll: true });
+    }
+    const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    sec.scrollIntoView({ block: 'start', behavior: calm ? 'auto' : 'smooth' });
+    sec.classList.add('f-target');
+    setTimeout(() => sec.classList.remove('f-target'), 1600);
+    return true;
   }
 
   // ---------- sources ----------
