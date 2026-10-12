@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 48 | **24** |
-| `conservator-estate` | 51 | 21 |
-| `personal-representative-administrator` | 44 | 20 |
-| `anatomical-gift-agent` | 45 | 19 |
-| `financial-poa-durable` | 42 | 17 |
-| `guardian-person` | 42 | 17 |
-| `health-care-agent` | 40 | 14 |
+| `personal-representative-executor` | 50 | **24** |
+| `conservator-estate` | 53 | 21 |
+| `personal-representative-administrator` | 46 | 20 |
+| `anatomical-gift-agent` | 47 | 19 |
+| `financial-poa-durable` | 44 | 17 |
+| `guardian-person` | 44 | 17 |
+| `health-care-agent` | 42 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 22 | **4** |
-| `online-tool-designee` | 19 | **2** |
+| `digital-assets-fiduciary` | 24 | **4** |
+| `online-tool-designee` | 21 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -35,14 +35,17 @@ settled nearly everywhere. It is the means of proving it to a platform.
 Nor is the United States monolithic about it. **Delaware is the only US jurisdiction in this set
 with no online-tool designee at all** — its 2014 digital-assets act predates the uniform one and
 contains no such mechanism — while Massachusetts and Louisiana have no fiduciary-access statute to
-hang one on. Three of the eighteen US states here have nothing a platform-side designation could
-bind to, and they get there three different ways: one legislated early, two have not legislated.
-A design that treats "the US" as a single RUFADAA jurisdiction is wrong in all three.
+hang one on. Three of the twenty US states here have nothing a platform-side designation could
+bind to, and they get there three different ways: one legislated early and kept its own act, two
+have not legislated. A design that treats "the US" as a single RUFADAA jurisdiction is wrong in all
+three — and Virginia shows the fork was real rather than inevitable, because it legislated early
+too, in the same window as Delaware, and then **repealed its own act** in favour of the uniform
+one.
 
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 18 of the 38 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 20 of the 40 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -61,6 +64,13 @@ revocable at any time; RUFADAA's is a disclosure direction that beats a terms-of
 clause only where the user acted affirmatively and distinctly. **Allow and forbid both have to
 be first-class, addressed to the controller, and revocable.** A design that models only
 consent silently mis-implements Italy and under-implements France.
+
+Virginia is the control that makes Delaware's position a choice rather than an accident. Both
+states legislated on digital assets before RUFADAA existed — Virginia's Privacy Expectation
+Afterlife and Choices Act of 2015 is still printed, repealed, as article 3 of its chapter 1, next
+to the uniform act at article 3.1 — and only one of them changed course. Virginia repealed and
+adopted; Delaware kept its own. The two are adjacent states with the same starting point and
+opposite defaults, which is as close to a controlled comparison as this data gets.
 
 Delaware is the fourth shape and the one that breaks the assumption hardest, because it has no
 designation step to model. Delaware legislated in 2014, before RUFADAA existed, and never
@@ -96,16 +106,20 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 25** of the 42 jurisdictions that record it and **true in 17**
+`poaDurableByDefault` is **false in 25** of the 44 jurisdictions that record it and **true in 19**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
 that took the Uniform Power of Attorney Act: Idaho, Illinois, Maine, Michigan, New York, North
-Carolina, Ohio, Oklahoma, Pennsylvania and Utah, and Louisiana by an entirely different route. The
-majority still require a dedicated instrument or express words.
+Carolina, Ohio, Oklahoma, Pennsylvania, Utah and **Virginia**, with **Maryland** reaching the same
+default through an act of its own and Louisiana by an entirely different route. The majority still
+require a dedicated instrument or express words.
 
-Those seventeen get there three different ways, which matters for anyone modelling the lifecycle:
+Those nineteen get there three different ways, which matters for anyone modelling the lifecycle:
 
 - **By design** — the UPOAA states, where §104 says a power is durable unless it expressly
-  provides otherwise. Michigan qualifies it: §556.204 is captioned a *limited* presumption, and
+  provides otherwise. Maryland is the reminder that the design is not the uniform act's property:
+  title 17 is its own twenty-section act, keeps the older vocabulary of "attorney in fact", and
+  still lands on the uniform rule at §17-105(c) — durable "unless otherwise provided by its terms",
+  expressly applied to **all** powers of attorney. Michigan qualifies it: §556.204 is captioned a *limited* presumption, and
   a power not executed with the §205 formalities is not durable at all, however clearly it says
   so.
 - **By omission** — the Netherlands, where BW art. 3:72 lists what ends a *volmacht* (death,
@@ -130,7 +144,10 @@ Massachusetts in the opt-in majority while reading, section for section, like a 
 **Shared structure is not a shared rule.** Nothing in the citation form distinguishes §49A-104 from
 §104 of the act it is modelled on; only the text does. A mapping built by matching section numbers
 across jurisdictions — the obvious shortcut when normalising this kind of data — inverts Delaware's
-default and reports it as durable.
+default and reports it as durable. Virginia is the proof: §64.2-1602 is the same section of the same
+act in the neighbouring state, with the uniform words intact, and the two sections answer the same
+question oppositely. One of them is numbered 104 and one 1602, which is the only difference a
+machine would see.
 
 Oklahoma shows how little the default settles on its own. It has **two live power-of-attorney
 acts with opposite presumptions**: the Uniform Power of Attorney Act of 2021, codified in the
@@ -144,7 +161,7 @@ gets it backwards.
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 36 jurisdictions that record it and false in 26.
+`poaRegistrationBeforeUse` is true in 10 of the 38 jurisdictions that record it and false in 28.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -159,7 +176,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 31** of the 41 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 33** of the 43 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -178,10 +195,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 38 | 5 |
-| `benefits-payee` | 32 | 5 |
-| `tax-representative` | 32 | 5 |
-| `veterans-fiduciary` | 25 | 3 |
+| `health-records-representative` | 40 | 5 |
+| `benefits-payee` | 34 | 5 |
+| `tax-representative` | 34 | 5 |
+| `veterans-fiduciary` | 27 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -193,11 +210,32 @@ vests in the heirs at death with no grant and no appointment.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 18 of the 26 jurisdictions that record it and false in
+`supportedDecisionMakingStatute` is true in 20 of the 28 jurisdictions that record it and false in
 8 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
-false while eight US states are true** — California, Delaware, Florida, Illinois, New York, Texas,
-Utah and Washington — so the uniform acts have not absorbed it, but states have.
+false while ten US states are true** — California, Delaware, Florida, Illinois, **Maryland**, New
+York, Texas, Utah, **Virginia** and Washington — so the uniform acts have not absorbed it, but
+states have.
+
+The two new ones are also the reason to stop reading this feature as a measure of anything but
+presence. Set the four states whose statutes this file has actually read against the two questions
+above, and they answer them differently enough that one `true` covers four different regimes:
+
+| | Decision recognised as the adult's own | Execution not evidence of incapacity | Third party protected |
+|---|---|---|---|
+| **Utah** §§75-5-708, 709 | yes | yes | presumptions of validity, plus immunity |
+| **Delaware** §§9404A, 9407A, 9408A | yes | yes | immunity for honouring **and** for declining |
+| **Maryland** tit. 18 | **no such provision** | yes (§18-103(d)) | immunity both ways (§18-109) |
+| **Virginia** §37.2-314.3 | **no** | **no** | **none** |
+
+Virginia is the floor, and worth stating plainly because the feature key flatters it: §37.2-314.3
+defines a supported decision-making agreement and a supporter, and then directs the Department to
+run an **education and training programme** about them. It gives the agreement no legal effect,
+offers a relying party nothing, does not bar a court from treating the agreement as evidence of
+incapacity, and reaches only adults with an intellectual or developmental disability. Maryland sits
+in between: it protects the adult and the third party but never says what a supported decision *is*
+for the purposes of other law, so the instrument that Utah and Delaware make operative is in
+Maryland only shielded.
 
 Utah's, enacted in 2025, is the strongest in the set on both of the questions that decide whether
 such a statute does anything. A decision made with a supporter's assistance "shall, for the
@@ -236,24 +274,43 @@ one statute book, the newer idea got the better plumbing.
 It is the one place where the canonical vocabulary is still moving, which is a reason to treat
 `supported-decision-maker` as provisional rather than settled.
 
-## 9. One mechanism, a tenfold spread in the number that triggers it
+## 9. Not one mechanism, and a tenfold spread in the number that triggers it
 
-Every US state in the set lets a successor collect a small estate without a grant, on an
-affidavit, after a short wait. The mechanism is uniform. The threshold is not:
+This section used to open by saying that every US state lets a successor collect a small estate
+without a grant, on an affidavit, after a short wait — one uniform mechanism with a wildly
+variable threshold. The threshold half is right. The uniform half was never true, and the data
+said so before the prose did: `smallEstateWithoutGrant` has been **false for New York** all
+along, because SCPA article 13 voluntary administration is filed *with the Surrogate's Court*
+and the affiant acts under a court-issued short certificate. Maryland now makes two, and more
+plainly: its small estate is an **administration**, in which the register of wills directs the
+petitioner to serve as personal representative and issues letters (§§5-602, 5-603). Virginia
+then adds a third shape at the other extreme, a tier with **no document at all**.
+
+So there are at least four mechanisms wearing one name:
+
+| | What the successor does |
+|---|---|
+| Most of the US layer | presents a sworn affidavit to whoever holds the asset; no court involved |
+| **Virginia** under $35,000 | **nothing** — the holder may simply pay a successor (§64.2-602) |
+| **New York**, **Maryland** | files with the court or register and acts under a grant it issues |
+| **Idaho**, **Oklahoma** | petitions for a decree or summary administration with no ceiling at all |
+
+The threshold varies across all of them:
 
 | | Ceiling |
 |---|---|
 | Uniform Probate Code §3-1201 (the model) | $25,000 |
 | North Carolina, New Jersey | $20,000 |
 | Maine (CPI-indexed) | $40,000 |
-| **Delaware**, Michigan, New York, Oklahoma, Pennsylvania | $50,000 |
-| Florida, Texas | $75,000 |
+| **Delaware**, **Maryland**, Michigan, New York, Oklahoma, Pennsylvania | $50,000 |
+| **Maryland**, where the surviving spouse is the sole legatee or heir | $100,000 |
+| Florida, Texas, **Virginia** | $75,000 |
 | **Idaho**, Ohio, **Utah**, Washington | $100,000 |
 | Louisiana | $125,000–$200,000 |
 | Illinois | $100,000–$150,000 |
 | California (CPI-indexed) | $208,850 |
 
-The same affidavit, presented to the same kind of custodian, is effective over a range that
+The same claim, presented to the same kind of custodian, is effective over a range that
 spans an order of magnitude — and two states index the figure to inflation while the rest
 legislate a flat amount that silently erodes. Utah shows that the choice is deliberate rather than
 an oversight: §75-1-110 indexes five figures in its probate code to the CPI — the spouse's
@@ -263,11 +320,20 @@ allowance — and the small-estate ceiling is not one of them.
 For a protocol the lesson is narrow and useful: **do not encode the threshold.** Whether a
 small-estate claim is good is a question for the law of the decedent's domicile at the date of
 death, not a number a credential or a custodian can carry. What a credential can usefully
-assert is the affiant's sworn statement and the state whose law they swore it under.
+assert is the affiant's sworn statement and the state whose law they swore it under — and it
+cannot assume there is an affidavit to carry, because in Maryland and New York the route runs
+through an office that issues its own artefact, and in Virginia's lowest tier there is no artefact
+at all.
 
-The waiting period varies too, and less visibly: every state here makes a successor wait thirty
-days except **Oklahoma, where §58-393 opens the affidavit route after ten**. A protocol that
-assumes a month between death and the first claim is wrong in one jurisdiction out of seventeen.
+The waiting period varies too, and less visibly. Thirty days is the common figure, but it is a
+custom rather than a rule: **Oklahoma opens the affidavit route after ten** days (§58-393),
+**Virginia makes the successors wait sixty** (§64.2-601), and **New York imposes no wait at all**,
+because voluntary administration has no waiting period. Virginia then puts a shorter clock inside
+the longer one: the licensed funeral service establishment may claim after **thirty** days
+(§64.2-604), ahead of the successors it is paid out of. So the first lawful claim on the same estate
+can fall anywhere from the day of death to two months after it, and in one state two different
+claimants have two different start dates. A protocol that assumes a month is wrong in three
+jurisdictions out of twenty, in both directions.
 
 What the affiant must swear to varies as much as the ceiling, and that is the part a credential
 would actually have to carry. The model asks for value, timing and the absence of a personal
@@ -279,6 +345,14 @@ personal representative or guardian, the trustee of a trust the decedent created
 if qualified, and — found nowhere else in this data — **a funeral director licensed in this State**.
 Delaware has decided in advance who may ask, where most of these statutes describe a successor and
 leave identification to the custodian.
+
+Maryland raises the ceiling on the same test rather than removing it: §5-601(c) doubles $50,000 to
+**$100,000 where the surviving spouse is the sole legatee or heir**, so the question "how much" is
+answered partly by "who". And Virginia's affidavit is the only one in this set that is a prescribed
+statewide artefact: §64.2-601 requires it to be **on a form prepared by the Office of the Executive
+Secretary of the Supreme Court of Virginia**, and it names a single **designated successor** to
+receive payment who then owes the others a statutory fiduciary duty. Everywhere else the affidavit's
+contents are specified and its shape is not.
 
 Two states add a route with no ceiling at all, and reach it by different tests. Idaho asks **who
 inherits**: under §15-3-1205, where a surviving spouse is the sole devisee or heir, a petition and
@@ -311,10 +385,34 @@ Two consequences for anyone designing around these documents:
   treats a missing agent as an error will reject conforming documents.
 - **Notarisation cannot be the trust signal.** In Maine its absence voids the instrument; in
   Idaho its presence is an optional extra. Any rule of the form "accept if notarised" is
-  simultaneously too strict and too weak across one set of eighteen US states.
+  simultaneously too strict and too weak across one set of twenty US states.
 
-Delaware shows that the range is not even stable inside one jurisdiction, which is the harder
-version of the same problem. A Delaware financial power of attorney is the strictest instrument in
+Maryland holds both ends of the range at once, and by a wider margin than Delaware does. Its
+financial power of attorney is the most formal instrument in this data: §17-110 wants writing, a
+signature, acknowledgement before a notary **and** attestation by **two** adult witnesses — and if
+it is executed remotely, the principal and every witness must be in the presence of one another
+**and of a supervising attorney**, who must then produce a "certified power of attorney", a paper
+version of every page with a signed certification of what they observed. Maryland is the only
+jurisdiction here that makes a lawyer's participation a condition of validity.
+
+The same statute book then lets a person appoint a health care agent **by speaking**. Under
+§5-602(d) an oral advance directive made in front of the attending physician, physician assistant or
+nurse practitioner and one witness has the same effect as a written one, provided its substance is
+written into the medical record and signed by the clinician and the witness. And under §5-602(c)(3)
+the State-designated health information exchange may accept an **unwitnessed video record** as a
+valid advance directive — including to appoint an agent — if it is dated and stored by an electronic
+advance directives service recognised by the Maryland Health Care Commission.
+
+Set those three beside each other: a notary, two witnesses and a supervising attorney for the
+property instrument; a sentence spoken to a nurse practitioner for the health one; a dated video
+file with no witness at all, held by a state-designated intermediary. **Formality does not track the
+jurisdiction, and it does not track the gravity of the decision either** — the instrument that can
+refuse life-sustaining treatment is the one with no witness requirement. The video provision is also
+the only place in this data where a statute contemplates the authority-conferring instrument living
+with a designated third party rather than in the claimant's hands, which is the shape §14 and §15
+argue is missing everywhere else.
+
+Delaware shows the same instability inside one jurisdiction, less starkly. A Delaware financial power of attorney is the strictest instrument in
 this set: §49A-105 wants writing, signature, a date, a notarial officer **and** one adult witness
 who is neither related to the principal nor a beneficiary under their existing will or trust, and
 §49A-105(b) adds an evidentiary penalty for omitting the statutory notice — without a signed notice
@@ -354,8 +452,17 @@ complied with the law of the place of execution. §15-15-106(1) then does the wo
 
 And it has teeth, which §15 takes up: §15-15-106(3) makes a person who refuses in violation of the
 section subject to a court order mandating acceptance **and** liable for the reasonable attorney's
-fees and costs of getting it. That is the only fee-shifting provision in this data, and it is what
-turns the duty from a statement of policy into a thing a holder can be made to do.
+fees and costs of getting it. That is what turns the duty from a statement of policy into a thing a
+holder can be made to do.
+
+This section used to add that Idaho's was the only fee-shifting provision in the data. That was
+wrong, and adding Virginia and Maryland is what caught it: the fee shift is the **Uniform Power of
+Attorney Act's** own remedy at §120, so it travels with that act. Virginia's §64.2-1618(C) and
+Maryland's §17-104(b) both give a court order mandating acceptance plus liability for reasonable
+attorney's fees and costs, in nearly the uniform words — though not for the same instruments, which
+§15 takes up. What is distinctive about Idaho is not the remedy but its **reach**: §120 protects a
+power of attorney, while Idaho's duty covers any substitute decision-making document, health-care
+and personal-care ones included.
 
 Three things make this the closest analogue in the data to what an interoperability standard
 is for. The duty runs against **any person** asked to accept, not only officials or registries.
@@ -440,6 +547,26 @@ the trio above is a case where two of the three are identical across jurisdictio
 decides the answer. A standard that models "the applicable rule" as a section reference, or caches
 one, is relying on the one component these three jurisdictions do not share.
 
+Virginia adds a fourth case that is worse than all three, because there is no date to record at
+all. §§64.2-2000 and 64.2-2009 — the definitions and the **order of appointment** for guardianship
+and conservatorship, which is precisely where this data says the authority begins — are each printed
+**twice** in the Code, one version marked "(Contingent expiration date; see Acts 2026, cc. 992 and
+1081, cl. 3)" and the other "(Contingent effective date; …)". The switch is tied to an enactment
+clause, not to a calendar date, and the Code does not reproduce the condition. So for these two
+sections the question this whole section is about — *what did the law say as at a given moment* —
+cannot be answered from the statute book at any date, past or future.
+
+The substantive difference between Virginia's two versions is small: the live one cross-references
+§64.2-2009.2 on capacity to vote, the pending one folds that into the chapter. The mechanism is the
+finding, not the amendment. A jurisdiction can put its statute book into a state where "as at" has
+no answer, and a reader who assumes commencement is always a date will not even see it.
+
+| | How the switchover is expressed |
+|---|---|
+| **Utah** | a date, already passed |
+| **Idaho**, **Oklahoma** | a date, in the future |
+| **Virginia** | **a condition in an act the Code does not quote** |
+
 Two design points follow, and they are not specific to Idaho:
 
 - **Authority assertions need a time, not just a date of issue.** "X is conservator of Y" is
@@ -449,6 +576,9 @@ Two design points follow, and they are not specific to Idaho:
   consent commenced on 17 June 2025, years after enactment; Idaho's UGCOPAA is enacted with a
   commencement 15 months out. Anything built from a snapshot of "what the statute book says"
   without reading the commencement provisions will be wrong in both directions.
+- **Commencement is not always a date.** Virginia's is a condition, and the condition lives in the
+  act rather than in the code. A schema with an `effectiveFrom` date has nowhere to put that, and a
+  pipeline that requires one will either drop the pending version or invent a date for it.
 
 ## 13. An obligation to offer the choice is not an evidence layer
 
@@ -544,21 +674,48 @@ the authorisation of the person who executed them, and designed to give access t
 **those named as agents in the directive**, and to close relatives. A named agent does not have to
 produce anything: the relying party can consult a state register that already names them.
 
-Set against section 13, the set holds five points on one scale:
+Set against section 13, the set holds seven points on one scale, and the two Maryland and Virginia
+rows are the ones that break the self-asserted-to-attested line it used to describe:
 
 | | What the claimant produces | Who stands behind it |
 |---|---|---|
 | French designated person | nothing prescribed | — |
-| **Delaware default surrogate** | **declaration, no form prescribed** | **the claimant, under penalty of perjury** |
+| **Virginia** last-resort surrogate | **nothing** | **a hospital committee, or two independent physicians, who must document the basis** |
+| Delaware default surrogate | declaration, no form prescribed | the claimant, under penalty of perjury |
 | Utah default surrogate | declaration on a state form | the claimant, under penalty of perjury |
+| **Maryland** friend or other relative | **affidavit of specific facts showing regular contact** | **the claimant — and the physician must file it in the medical record** |
 | French heir | *acte de notoriété* or *livret de famille* | a notary, or the civil register |
-| **Oklahoma health-care agent** | **nothing — the register is consulted** | **a state department, on its own record** |
+| **Oklahoma, Virginia** health-care agent | **nothing — a register is consulted** | **a state department, on its own record** |
 
-That last row is the shape a credential system would take, reached by a 1990s statute and a
-website rather than by a protocol: an authoritative party holds the instrument, and the relying
-party checks the source instead of inspecting a document the claimant carries. Its limits are
-equally instructive — it is one state, one kind of instrument, opt-in filing, and no use outside
-Oklahoma. The gap a credential fills is everything that register does, made portable.
+Virginia's row is the odd one because it produces nothing and is *not* the weakest. §54.1-2986's
+last class — an adult who has exhibited special care and concern — hands the question to the
+institution: a quorum of the facility's patient care consulting committee, or two physicians who are
+not treating the patient, not employed by the facility and not in the attending physician's practice,
+**shall determine** whether the person qualifies and **shall document the information relied upon**.
+Standing is established by somebody else's recorded finding, which is the only instance in this data
+of proof by third-party determination rather than by instrument, oath or register.
+
+Maryland sits between the two kinds. The claimant swears — an affidavit of "specific facts and
+circumstances demonstrating that the person has maintained regular contact with the patient
+sufficient to be familiar with the patient's activities, health, and personal beliefs" — but
+§5-605(5) then makes the attending physician **put the affidavit in the medical record**. The
+assertion is the claimant's; the custody of the evidence is the relying party's. That is closer to
+how a credential presentation is actually audited than anything else here.
+
+The register rows are no longer singular either, and the second one is broader. Virginia's Advance
+Health Care Planning Registry (§54.1-2994) takes a health care power of attorney, an advance
+directive, **an anatomical gift declaration** and any other document supporting advance health care
+planning, including do-not-resuscitate and portable medical order forms — one register spanning
+health care and organ donation, which no other jurisdiction here does. Filing is by the person who
+executed the document or their representative, the contents are confidential and FOIA-exempt, and
+access is set by Board of Health regulation.
+
+And §54.1-2996 states the limit that both registers share and that anyone building an evidence layer
+has to design around: **failure to register does not affect the document's validity**, and nor does
+failure to register a revocation. The register is therefore never authoritative on absence. A
+relying party that finds nothing in it has learned nothing — which is the same hole as §15's
+actual-knowledge problem, seen from the other side. The gap a credential fills is everything these
+registers do, made portable *and* made negative-answerable.
 
 One further Utah detail cuts against how credentials are usually built. Under §75A-9-117 the power
 of an agent or surrogate **commences** when the individual is found to lack capacity, **ceases** if
@@ -580,12 +737,34 @@ same subset.
 | | Duty to accept | Remedy for refusal | Safe harbour for accepting |
 |---|---|---|---|
 | **Idaho**, URSDDA §§15-15-105 to 107 | any person, any substitute decision-making document | court order **plus** reasonable attorney's fees and costs | assume validity without inquiry absent actual knowledge; rely on asserted facts, a translation, counsel's opinion |
+| **UPOAA §§119–120** (the model; **Virginia** took Alternative A, **Maryland** Alternative B) | any person, within **seven business days** of presentation — of *any* acknowledged power of attorney under A, only of the **statutory form** under B | court order **plus** reasonable attorney's fees and costs | rely on the power as genuine absent actual knowledge; rely without investigation on the agent's certification, a translation, counsel's opinion |
 | **RUFADAA §16** (the model and the 15 RUFADAA states here) | a custodian, within 60 days of a complying request | court order directing compliance | immune for an act or omission in good faith in compliance |
 | **Delaware**, 12 Del. C. §§2306–2307 | — | recovery or compulsion in the Court of Chancery | released as if paid to the personal representative; no duty to inquire into the truth of the affidavit |
 | **Supported decision-making** (Del. §9408A, Utah §75-5-709) | — | — | immunity, and in Utah presumptions that the signatures and the authority are genuine |
 
+Two of those rows are the same drafting travelling under different names. Idaho's acceptance regime
+**is** the uniform power-of-attorney one, lifted out of §§119–120 and pointed at every substitute
+decision-making document rather than only at powers of attorney. So the duty is not as rare as it
+first looks: the seven-business-day clock, the five further days after a certification arrives, the
+court order and the fee shift are all uniform text, enacted wherever the UPOAA was.
+
+What varies is **which instruments the duty reaches**, and the uniform act is itself the reason,
+because it ships a choice. The legislative note to §120 says Alternatives A and B are identical
+"except that Alternative B applies only to acknowledged statutory form powers of attorney while
+Alternative A applies to all acknowledged powers of attorney". Virginia enacted A: §64.2-1618 owes
+the duty on any acknowledged power of attorney. Maryland enacted B: §17-104 owes it only where the
+instrument is the statutory form, so a Maryland power drafted any other way is owed nothing at all.
+Adjacent states, the same uniform section, and a holder's obligation that turns on which branch the
+legislature picked twenty years ago.
+
+That is a sharper version of §4's point. **"Has this jurisdiction adopted §120?" has no useful
+answer**, because both states did and they owe different duties; and Idaho widened the instrument
+class a third time without changing the remedy at all. Three points on one axis — the statutory
+form, any acknowledged power of attorney, any substitute decision-making document — from one piece
+of drafting.
+
 Read down the last column rather than the first. The duty is the component a standards body cannot
-supply and the one that is rarest; the safe harbour is in **all four**, and it is the component that
+supply, and where it exists it is usually narrow; the safe harbour is in **all four**, and it is the component that
 actually moves a relying party, because it converts "I might be sued for getting this wrong" into "I
 am protected if I act in good faith on what I was shown". Delaware's small-estate route is the proof
 of concept: a custodian pays out on a stranger's sworn affidavit, for a $50,000 estate, with no court
@@ -598,7 +777,12 @@ authority is void, invalid, terminated or revoked: Idaho §15-15-105(1) in those
 §16(f) through "good faith", Delaware §9408A(1) and (2) expressly both ways, Utah §75-5-709 in its
 two presumptions. Not one of them says how a custodian would come to know. The drafters put the
 burden where it belongs — on knowledge, not on inquiry — and left blank the channel by which
-knowledge would arrive. **That blank is the gap, and it is an evidence problem rather than an
+knowledge would arrive. Maryland shows how wide that gap can be opened by one asymmetry: a
+supported decision-making agreement must be written, dated and signed (§18-107), but §18-108 lets
+the adult revoke it **"orally, in writing, or otherwise by expressing the adult's specific intent to
+revoke"**. The instrument is formal, the revocation is formless, and the third party's immunity
+under §18-109 turns on an assumption that it has not been revoked. Nothing requires anyone to tell
+them. **That blank is the gap, and it is an evidence problem rather than an
 authority problem**: the hard part is not asserting that someone holds a role, it is telling a
 relying party that they have stopped holding it.
 
@@ -611,6 +795,47 @@ request where it is aware of lawful access to the account after the request. A d
 refusal as an error, or a protocol that has no way to express "declined, in good faith, on these
 grounds", is out of step with all three. **Refusal is a legitimate outcome with reasons attached**,
 and the reasons are the interesting payload.
+
+## 16. The finding that starts the authority has a shelf life, and the data knew before this page did
+
+Every other section here treats authority as a span: something begins it, something ends it, and the
+interesting questions are what and when. Three jurisdictions say that is not enough, because the
+**finding** the authority rests on expires and has to be made again. Two of them have been in this
+data since they were added, modelled correctly, and never written up; Virginia is what made them
+visible.
+
+| | What must be redone | How often |
+|---|---|---|
+| **Maryland**, Health-Gen. §5-606 | certification of incapacity by two clinicians, one of whom examined the patient | within **2 hours** before certifying |
+| **Virginia**, §54.1-2983.2 | certification by the attending physician **and** a statutory capacity reviewer, both on personal examination | **no less frequently than every 180 days** while the need continues |
+| **Virginia**, §64.2-2009(A1) | court review of a guardianship or conservatorship order | within **1 year**, then at least every **3 years** |
+| **Victoria**, Guardianship and Administration Act | VCAT reassessment of the order | within **12 months**, then at least every **3 years** |
+| **Queensland**, Guardianship and Administration Act | QCAT review of the appointment | at least every **5 years** |
+
+Two of those are health care and three are guardianship, and the difference in scale is not a
+rounding error: the shortest is **two hours** and the longest **five years**, four orders of
+magnitude apart for the same underlying question of whether the authority still rests on anything.
+
+The modelling consequence is specific. In the state machines these appear as **self-loops** —
+`active → active`, the authority continuing because it was re-established — and Victoria and
+Queensland already carry them that way (`t-reassess`, `t-review`). Virginia adds a third, and the
+first in the US layer. Any lifecycle that offers only *start*, *suspend* and *end* has nowhere to
+put a transition whose whole content is "checked again, still true".
+
+For a standard the point is sharper than it looks, because it is not about credential expiry.
+A credential's validity period is set by whoever issues it. These intervals are set by the law of
+the forum and attach to the **underlying finding**, not to any document: a Virginia guardianship
+order is not stale because a certificate aged out but because the court has not looked at it within
+three years, and a Maryland certification of incapacity is worthless at the two-hour mark however
+fresh the paperwork is. So an assertion of authority needs two times, not one — when the law was
+as it was (§12), and when the finding underneath it was last made — and a relying party that caches
+either has cached something the issuing jurisdiction expected to go off.
+
+It also gives §14's last row a harder limit. A register answers "is there a document?"; none of
+these jurisdictions requires it to answer "was the finding behind that document refreshed on time?"
+Utah's oscillating surrogate authority (§75A-9-117) is the same problem without an interval at all:
+the authority can lapse and resume with a clinical opinion, and nothing anywhere records the moment
+it did.
 
 ## What this suggests for a standard
 
@@ -631,9 +856,12 @@ and the reasons are the interesting payload.
    governing instrument, the inverse of RUFADAA, so silence resolves the opposite way one state
    over. The default has to be a property of the jurisdiction in the data, not an assumption in
    the code.
-3. **Expect the authority to be gated.** In 10 jurisdictions a power does not exist, or does
-   not operate, until a registry or court acts — and in Ireland and France the gate is
-   explicitly two-part. Issuance time and effectiveness time are not the same event.
+3. **Expect the authority to be gated, and to be re-gated.** In 10 jurisdictions a power does not
+   exist, or does not operate, until a registry or court acts — and in Ireland and France the gate
+   is explicitly two-part. Issuance time and effectiveness time are not the same event. Nor is
+   effectiveness permanent: in Maryland, Virginia, Victoria and Queensland the finding underneath
+   the authority has a statutory shelf life, from two hours to five years (§16), so an assertion
+   needs the date of the finding as well as the date of the document.
 4. **The civil-law systems need no grant at all.** In 16 countries the heirs hold the estate
    from the moment of death by operation of law. There is no document to present. Any design
    that assumes a court artefact excludes a third of the set.

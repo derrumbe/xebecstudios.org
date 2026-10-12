@@ -537,6 +537,19 @@
      "label": "US — Maine"
     },
     {
+     "id": "us-md",
+     "name": "Maryland",
+     "short": "MD",
+     "code": "MD",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-md.json"
+     ],
+     "country": "us",
+     "note": "Maryland is on the uniform acts for trusts, digital assets and anatomical gifts and on none of them for powers of attorney, probate or guardianship, and it is the state where the formality of an instrument depends entirely on which instrument it is. A financial power of attorney needs a notary, two witnesses and, if executed remotely, a supervising attorney who certifies what they saw; a health care agent can be appointed by a dated video file with no witnesses, or by speaking in front of a clinician. Two more Maryland particulars matter to this data: the small estate is a simplified administration with letters issued by the register of wills, not a collection by affidavit as in every other US jurisdiction here, and the certification that starts a health care agent's authority requires an examination within the previous two hours.",
+     "label": "US — Maryland"
+    },
+    {
      "id": "us-ma",
      "name": "Massachusetts",
      "short": "MA",
@@ -658,6 +671,19 @@
      "country": "us",
      "note": "Utah recodified in three steps, and the section numbers in any older reference are stale. Title 75 remains the Utah Uniform Probate Code (estates, guardianship and conservatorship, and since 2025 a supported decision-making part). Effective 1 September 2024, Laws 2024 ch. 364 created title 75A, “Fiduciaries”, and moved the Uniform Power of Attorney Act into 75A-2 and the digital-assets act into 75A-6; the Advance Health Care Directive Act was renumbered out of 75-2a on the same date. Title 75B, “Trusts”, took the Uniform Trust Code, and old title 75 chapter 7 was repealed outright on 7 May 2025. The anatomical gift act moved again in the 2023 health-code recodification and is now title 26B chapter 8 part 3. On top of that Utah enacted a new Uniform Health Care Decisions Act in 2025 (Laws 2025 ch. 439, title 75A chapter 9), whose transitional section keys the chapter to 1 January 2026; it is the only jurisdiction in this set on a Uniform Health Care Decisions Act of that generation rather than the 1993 act or home-grown law. Existence of a section was confirmed from the legislature's XML for each title rather than from a page load: le.utah.gov renders statutes client-side and answers 200 with a URL-derived <title> for sections that do not exist.",
      "label": "US — Utah"
+    },
+    {
+     "id": "us-va",
+     "name": "Virginia",
+     "short": "VA",
+     "code": "VA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-va.json"
+     ],
+     "country": "us",
+     "note": "Virginia is the uniform-act neighbour of a non-uniform state, and the contrast is the point of adding it. It took the Uniform Power of Attorney Act with its numbering and its durability default intact where Delaware took the numbering and inverted the default; it repealed its own early digital-assets act and adopted RUFADAA where Delaware kept its own; and it is on the Uniform Trust Code and the Revised Uniform Anatomical Gift Act where Delaware is on neither. Where Virginia is unusual it is unusual about time: a seven-business-day deadline to accept a power of attorney, a finding of incapacity that must be re-certified every 180 days, guardianship review hearings within a year and then every three years, a 60-day wait for the small-estate affidavit, and two sections of the guardianship chapter printed in two versions whose switchover is contingent rather than dated.",
+     "label": "US — Virginia"
     },
     {
      "id": "us-wa",
@@ -1128,6 +1154,19 @@
    "label": "US — Maine"
   },
   {
+   "id": "us-md",
+   "name": "Maryland",
+   "short": "MD",
+   "code": "MD",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-md.json"
+   ],
+   "country": "us",
+   "note": "Maryland is on the uniform acts for trusts, digital assets and anatomical gifts and on none of them for powers of attorney, probate or guardianship, and it is the state where the formality of an instrument depends entirely on which instrument it is. A financial power of attorney needs a notary, two witnesses and, if executed remotely, a supervising attorney who certifies what they saw; a health care agent can be appointed by a dated video file with no witnesses, or by speaking in front of a clinician. Two more Maryland particulars matter to this data: the small estate is a simplified administration with letters issued by the register of wills, not a collection by affidavit as in every other US jurisdiction here, and the certification that starts a health care agent's authority requires an examination within the previous two hours.",
+   "label": "US — Maryland"
+  },
+  {
    "id": "us-ma",
    "name": "Massachusetts",
    "short": "MA",
@@ -1249,6 +1288,19 @@
    "country": "us",
    "note": "Utah recodified in three steps, and the section numbers in any older reference are stale. Title 75 remains the Utah Uniform Probate Code (estates, guardianship and conservatorship, and since 2025 a supported decision-making part). Effective 1 September 2024, Laws 2024 ch. 364 created title 75A, “Fiduciaries”, and moved the Uniform Power of Attorney Act into 75A-2 and the digital-assets act into 75A-6; the Advance Health Care Directive Act was renumbered out of 75-2a on the same date. Title 75B, “Trusts”, took the Uniform Trust Code, and old title 75 chapter 7 was repealed outright on 7 May 2025. The anatomical gift act moved again in the 2023 health-code recodification and is now title 26B chapter 8 part 3. On top of that Utah enacted a new Uniform Health Care Decisions Act in 2025 (Laws 2025 ch. 439, title 75A chapter 9), whose transitional section keys the chapter to 1 January 2026; it is the only jurisdiction in this set on a Uniform Health Care Decisions Act of that generation rather than the 1993 act or home-grown law. Existence of a section was confirmed from the legislature's XML for each title rather than from a page load: le.utah.gov renders statutes client-side and answers 200 with a URL-derived <title> for sections that do not exist.",
    "label": "US — Utah"
+  },
+  {
+   "id": "us-va",
+   "name": "Virginia",
+   "short": "VA",
+   "code": "VA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-va.json"
+   ],
+   "country": "us",
+   "note": "Virginia is the uniform-act neighbour of a non-uniform state, and the contrast is the point of adding it. It took the Uniform Power of Attorney Act with its numbering and its durability default intact where Delaware took the numbering and inverted the default; it repealed its own early digital-assets act and adopted RUFADAA where Delaware kept its own; and it is on the Uniform Trust Code and the Revised Uniform Anatomical Gift Act where Delaware is on neither. Where Virginia is unusual it is unusual about time: a seven-business-day deadline to accept a power of attorney, a finding of incapacity that must be re-certified every 180 days, guardianship review hearings within a year and then every three years, a 60-day wait for the small-estate affidavit, and two sections of the guardianship chapter printed in two versions whose switchover is contingent rather than dated.",
+   "label": "US — Virginia"
   },
   {
    "id": "us-wa",

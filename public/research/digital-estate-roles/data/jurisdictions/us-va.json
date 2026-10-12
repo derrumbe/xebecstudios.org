@@ -1,0 +1,478 @@
+{
+ "jurisdiction": "us-va",
+ "name": "Virginia",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Power of Attorney Act (2010)",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2017)",
+  "Uniform Trust Code (2005)",
+  "Revised Uniform Anatomical Gift Act (2007)",
+  "Uniform Adult Guardianship and Protective Proceedings Jurisdiction Act"
+ ],
+ "note": "Virginia is the uniform-act neighbour of a non-uniform state, and the contrast is the point of adding it. It took the Uniform Power of Attorney Act with its numbering and its durability default intact where Delaware took the numbering and inverted the default; it repealed its own early digital-assets act and adopted RUFADAA where Delaware kept its own; and it is on the Uniform Trust Code and the Revised Uniform Anatomical Gift Act where Delaware is on neither. Where Virginia is unusual it is unusual about time: a seven-business-day deadline to accept a power of attorney, a finding of incapacity that must be re-certified every 180 days, guardianship review hearings within a year and then every three years, a 60-day wait for the small-estate affidavit, and two sections of the guardianship chapter printed in two versions whose switchover is contingent rather than dated.",
+ "citations": [
+  {
+   "id": "va-64-2-1602",
+   "cite": "Va. Code § 64.2-1602",
+   "title": "Power of attorney is durable",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-1602/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+  },
+  {
+   "id": "va-64-2-1603",
+   "cite": "Va. Code § 64.2-1603",
+   "title": "Execution of power of attorney",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-1603/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-1607",
+   "cite": "Va. Code § 64.2-1607",
+   "title": "When power of attorney effective",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-1607/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A. A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency. B. If a power of attorney becomes effective upon the occurrence of a future event or contingency, the principal, in the power of attorney, may authorize one or more persons to determine in a writing or other record that the event or contingency has occurred."
+  },
+  {
+   "id": "va-64-2-1608",
+   "cite": "Va. Code § 64.2-1608",
+   "title": "Termination of power of attorney or agent's authority",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-1608/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-1617",
+   "cite": "Va. Code § 64.2-1617",
+   "title": "Acceptance of and reliance upon acknowledged power of attorney",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-1617/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "B. A person that in good faith accepts an acknowledged power of attorney that has been signed in accordance with § 64.2-1603 without actual knowledge that the power of attorney is void, invalid, or terminated … may rely upon the power of attorney as if the power of attorney were genuine, valid, and still in effect … C. A person that is asked to accept an acknowledged power of attorney may request, and rely upon, without further investigation, any or all of the following: 1. An agent's certification under oath of any factual matter concerning the principal, agent, or power of attorney; 2. An English translation …; and 3. An opinion of the counsel for the principal or the agent …"
+  },
+  {
+   "id": "va-64-2-1618",
+   "cite": "Va. Code § 64.2-1618",
+   "title": "Liability for refusal to accept acknowledged power of attorney",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-1618/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A. … 1. A person shall either accept an acknowledged power of attorney or request a certification, a translation, or an opinion of counsel under subsection C of § 64.2-1617 no later than seven business days after presentation of the power of attorney for acceptance; 2. If a person requests a certification, a translation, or an opinion of counsel … the person shall accept the power of attorney no later than five business days after receipt … C. A person that refuses in violation of this section to accept an acknowledged power of attorney is subject to: 1. A court order mandating acceptance of the power of attorney; and 2. Liability for reasonable attorney fees and costs incurred in any action or proceeding that confirms the validity of the power of attorney or mandates acceptance of the power of attorney."
+  },
+  {
+   "id": "va-64-2-116",
+   "cite": "Va. Code § 64.2-116",
+   "title": "Uniform Fiduciary Access to Digital Assets Act; definitions",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-116/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-118",
+   "cite": "Va. Code § 64.2-118",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-118/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A. A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user's digital assets … If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+  },
+  {
+   "id": "va-64-2-130",
+   "cite": "Va. Code § 64.2-130",
+   "title": "Custodian compliance and immunity",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-130/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A. Not later than 60 days after receipt of the information required under §§ 64.2-121 through 64.2-129, a custodian shall comply with a request under this article … If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance. … F. A custodian and its officer, employees, and agents are immune from liability for an act or omission done in good faith in compliance with this article."
+  },
+  {
+   "id": "va-64-2-109",
+   "cite": "Va. Code § 64.2-109",
+   "title": "Privacy Expectation Afterlife and Choices Act [Repealed]",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-109/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-54-1-2981",
+   "cite": "Va. Code § 54.1-2981",
+   "title": "Health Care Decisions Act; short title",
+   "url": "https://law.lis.virginia.gov/vacode/54.1-2981/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-54-1-2983",
+   "cite": "Va. Code § 54.1-2983",
+   "title": "Procedure for making advance directive; notice to physician",
+   "url": "https://law.lis.virginia.gov/vacode/54.1-2983/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-54-1-2983-2",
+   "cite": "Va. Code § 54.1-2983.2",
+   "title": "Capacity; required determinations",
+   "url": "https://law.lis.virginia.gov/vacode/54.1-2983.2/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "B. … and no less frequently than every 180 days while the need for health care continues, the attending physician shall certify in writing upon personal examination of the patient that the patient is incapable of making an informed decision regarding health care and shall obtain written certification from a capacity reviewer that, based upon a personal examination of the patient, the patient is incapable of making an informed decision."
+  },
+  {
+   "id": "va-54-1-2986",
+   "cite": "Va. Code § 54.1-2986",
+   "title": "Procedure in absence of an advance directive; persons who may authorize health care",
+   "url": "https://law.lis.virginia.gov/vacode/54.1-2986/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A. … the attending physician may … provide, continue, withhold or withdraw health care upon the authorization of any of the following persons, in the specified order of priority … 1. A guardian for the patient … 2. The patient's spouse … 3. An adult child … 4. A parent … 5. An adult brother or sister … 6. Any other relative of the patient in the descending order of blood relationship; or 7. … any adult … who (i) has exhibited special care and concern for the patient and (ii) is familiar with the patient's religious beliefs and basic values … A quorum of a patient care consulting committee … or … two physicians … shall determine whether a person meets these criteria and shall document the information relied upon in making such determination."
+  },
+  {
+   "id": "va-54-1-2986-1",
+   "cite": "Va. Code § 54.1-2986.1",
+   "title": "Duties and authority of agent or person identified in § 54.1-2986",
+   "url": "https://law.lis.virginia.gov/vacode/54.1-2986.1/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-54-1-2994",
+   "cite": "Va. Code § 54.1-2994",
+   "title": "Advance Health Care Planning Registry established",
+   "url": "https://law.lis.virginia.gov/vacode/54.1-2994/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "The Department of Health shall make available a secure online central registry for advance health care planning."
+  },
+  {
+   "id": "va-54-1-2995",
+   "cite": "Va. Code § 54.1-2995",
+   "title": "Filing of documents with the registry; regulations; fees",
+   "url": "https://law.lis.virginia.gov/vacode/54.1-2995/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A. A person may submit any of the following documents and the revocations of these documents to the Department of Health for filing in the Advance Health Care Planning Registry … 1. A health care power of attorney. 2. An advance directive … 3. A declaration of an anatomical gift … 4. Any other document that supports advance health care planning, including Durable Do Not Resuscitate Order or portable medical order forms."
+  },
+  {
+   "id": "va-54-1-2996",
+   "cite": "Va. Code § 54.1-2996",
+   "title": "Validity of unregistered documents",
+   "url": "https://law.lis.virginia.gov/vacode/54.1-2996/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "Failure to register a document with the registry maintained by the Department of Health pursuant to this article shall not affect the document's validity."
+  },
+  {
+   "id": "va-64-2-2000",
+   "cite": "Va. Code § 64.2-2000",
+   "title": "Guardianship and conservatorship; definitions (two contingent versions)",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-2000/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-2009",
+   "cite": "Va. Code § 64.2-2009",
+   "title": "Court order of appointment; limited guardianships and conservatorships (two contingent versions)",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-2009/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A1. Beginning July 1, 2023, the court shall set a schedule in the order of appointment for periodic review hearings, to be held no later than one year after the initial appointment and no later than every three years thereafter, unless the court orders that such hearings are to be waived because they are unnecessary or impracticable or that such hearings shall be held on such other schedule as the court shall determine."
+  },
+  {
+   "id": "va-64-2-2009-2",
+   "cite": "Va. Code § 64.2-2009.2",
+   "title": "Finding of lack of capacity to understand act of voting",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-2009.2/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-500",
+   "cite": "Va. Code § 64.2-500",
+   "title": "Grant of administration with the will annexed",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-500/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-502",
+   "cite": "Va. Code § 64.2-502",
+   "title": "Grant of administration of intestate estate",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-502/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-600",
+   "cite": "Va. Code § 64.2-600",
+   "title": "Virginia Small Estate Act; definitions",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-600/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "\"Small asset\" means any indebtedness owed to or any asset belonging or presently distributable to the decedent, other than real property, having a value, on the date of the decedent's death, of no more than $75,000."
+  },
+  {
+   "id": "va-64-2-601",
+   "cite": "Va. Code § 64.2-601",
+   "title": "Payment or delivery of small asset by affidavit",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-601/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A. Any person having possession of a small asset shall pay or deliver the small asset to the designated successor of the decedent upon being presented an affidavit made by all of the known successors stating: 1. That the value of the decedent's entire personal probate estate as of the date of the decedent's death, wherever located, does not exceed $75,000; 2. That at least 60 days have elapsed since the decedent's death … The affidavit shall be on a form prepared by the Office of the Executive Secretary of the Supreme Court of Virginia"
+  },
+  {
+   "id": "va-64-2-602",
+   "cite": "Va. Code § 64.2-602",
+   "title": "Payment or delivery of small asset valued at $35,000 or less without affidavit",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-602/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "A. Notwithstanding the provisions of § 64.2-601, any person having possession of a small asset valued at $35,000 or less may pay or deliver the small asset to any successor provided that: 1. At least 60 days have elapsed since the decedent's death; and 2. No application for the appointment of a personal representative is pending or has been granted in any jurisdiction."
+  },
+  {
+   "id": "va-64-2-604",
+   "cite": "Va. Code § 64.2-604",
+   "title": "Payment or delivery of small asset; funeral expenses and disposition",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-604/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-804",
+   "cite": "Va. Code § 64.2-804",
+   "title": "Certification of trust",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-804/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-64-2-700",
+   "cite": "Va. Code § 64.2-700",
+   "title": "Uniform Trust Code; short title",
+   "url": "https://law.lis.virginia.gov/vacode/64.2-700/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-32-1-291-1",
+   "cite": "Va. Code § 32.1-291.1",
+   "title": "Revised Uniform Anatomical Gift Act; short title",
+   "url": "https://law.lis.virginia.gov/vacode/32.1-291.1/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "This Act consists of §§ 32.1-291.1 through 32.1-291.25 and may be cited as the Revised Uniform Anatomical Gift Act."
+  },
+  {
+   "id": "va-32-1-291-4",
+   "cite": "Va. Code § 32.1-291.4",
+   "title": "Who may make anatomical gift before donor's death",
+   "url": "https://law.lis.virginia.gov/vacode/32.1-291.4/",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "va-37-2-314-3",
+   "cite": "Va. Code § 37.2-314.3",
+   "title": "Powers and duties of the Department related to supported decision-making agreements; report",
+   "url": "https://law.lis.virginia.gov/vacode/37.2-314.3/",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "B. The Department shall develop and implement a program to educate individuals with intellectual and developmental disabilities, their families, and others regarding the availability of supported decision-making agreements, the process by which an individual … may enter into a supported decision-making agreement with a supporter, and the rights and responsibilities of principals and supporters …"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "power of attorney",
+    "agent",
+    "attorney-in-fact"
+   ],
+   "diff": "Virginia took the Uniform Power of Attorney Act whole, numbering and all: chapter 16 runs §§ 64.2-1600 to 64.2-1642 against the uniform §§ 101 to 403, and § 64.2-1602 keeps the uniform default — \"durable unless it expressly provides that it is terminated by the incapacity of the principal\". Set beside Delaware next door, which borrows the same numbering and reverses that exact section, the pair is the clearest demonstration in this data that recognising an act is not recognising its rule.\n\nWhere Virginia goes beyond the uniform text is the acceptance regime, and it is the strongest in this data. § 64.2-1617 gives the relying party the uniform presumption — good-faith acceptance without actual knowledge of invalidity, plus reliance without further investigation on the agent's certification under oath, an English translation, or an opinion of counsel. § 64.2-1618 then puts that on a **clock**: accept or request one of those three within **seven business days** of presentation, and accept within **five business days** of receiving what was requested. A refusal in violation of the section draws a court order mandating acceptance **and** liability for reasonable attorney fees and costs. Six refusals stay lawful, including a good-faith belief that the power is invalid and a report to adult protective services.",
+   "citations": [
+    "va-64-2-1602",
+    "va-64-2-1603",
+    "va-64-2-1617",
+    "va-64-2-1618",
+    "va-64-2-1608"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney terminated by incapacity"
+   ],
+   "differs": false,
+   "diff": "The exception rather than the rule in Virginia, and it has to be written in: a power is non-durable only where it expressly provides that incapacity terminates it (§ 64.2-1602). § 64.2-1608 then lists what ends a power or an agent's authority. Nothing here departs from the uniform act.",
+   "citations": [
+    "va-64-2-1602",
+    "va-64-2-1608"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. § 64.2-1607 makes a power effective on execution unless the principal defers it to a future date, event or contingency, lets the principal name one or more persons to determine in a record that the contingency has occurred, and supplies a fallback where a power springs on incapacity and nobody was named or the named person will not act.",
+   "citations": [
+    "va-64-2-1607"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under an advance directive",
+    "health care power of attorney"
+   ],
+   "diff": "An agent appointed under the Health Care Decisions Act (§ 54.1-2981 et seq.). Two things make Virginia distinctive, and both are about time rather than about who may act.\n\nFirst, the finding of incapacity takes **two clinicians and will not keep**. § 54.1-2983.2 requires the attending physician to certify incapacity on personal examination and to obtain a written certification from a second clinician, a statutory \"capacity reviewer\", also on personal examination — and then to repeat that **no less frequently than every 180 days while the need for health care continues**. No other jurisdiction in this set puts a renewal interval on the determination that starts an agent's authority; the closest is Utah, where the authority oscillates with the clinical finding but no interval is fixed. The second certification is excused where the patient is unconscious.\n\nSecond, Virginia runs an **Advance Health Care Planning Registry** (§ 54.1-2994): a secure online central registry at the Department of Health which accepts a health care power of attorney, an advance directive, an anatomical gift declaration and \"any other document that supports advance health care planning\", including do-not-resuscitate and portable medical order forms (§ 54.1-2995). Filing is by the person who executed the document or their legal representative or designee, the contents are confidential and exempt from the Freedom of Information Act, and who may read it is set by Board of Health regulation. § 54.1-2996 is the provision that matters for anyone designing an evidence layer: failure to register **does not affect validity**, and nor does failure to register a revocation. The register is a convenience, not the source of truth.\n\n§ 54.1-2986.1 gives the agent decision-making priority over everyone in the default list and bars the agent from refusing to honour the declarant's wishes on anatomical gifts.",
+   "citations": [
+    "va-54-1-2981",
+    "va-54-1-2983",
+    "va-54-1-2983-2",
+    "va-54-1-2986-1",
+    "va-54-1-2994",
+    "va-54-1-2995",
+    "va-54-1-2996"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "person who may authorize health care",
+    "default surrogate"
+   ],
+   "diff": "Virginia's ladder under § 54.1-2986 is guardian, spouse (unless a divorce action is pending), adult child, parent, adult sibling, then **any other relative in the descending order of blood relationship**, and finally any adult who has exhibited special care and concern for the patient and is familiar with their religious beliefs and basic values.\n\nThe last class is where Virginia differs from every other jurisdiction here, and it is a different answer to the proof-of-standing question. Utah asks the claimant for a declaration under penalty of perjury on a state form; Delaware asks for a declaration and prescribes no form; Maryland asks for an affidavit of regular contact which the physician files in the medical record. Virginia asks the claimant for **nothing** and instead requires the institution to decide: a quorum of the facility's patient care consulting committee, or where there is none, two physicians who are not involved in the patient's care, not employed by the facility and not in the attending physician's practice, **shall determine whether the person meets the criteria and shall document the information relied upon**. Standing here is established by a third party's recorded determination rather than by anything the claimant signs.\n\nTwo further Virginia rules. Where members of the same class disagree, the attending physician may act on the authorization of a majority of the reasonably available members of that class. And the last class may not consent to withholding or withdrawing a life-prolonging procedure.",
+   "citations": [
+    "va-54-1-2986",
+    "va-54-1-2986-1",
+    "va-54-1-2983-2"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian",
+    "limited guardian",
+    "temporary guardian"
+   ],
+   "diff": "Appointment is by the circuit court under chapter 20, and the order itself is the instrument: § 64.2-2009 requires it to state the nature and extent of the incapacity, define the powers so as to leave the person able to care for themselves so far as they can, and say whether the appointment is limited in time.\n\nVirginia then does something only Victoria and Queensland otherwise do in this data: it puts the appointment on a **review clock**. Since 1 July 2023, § 64.2-2009(A1) requires the court to set a schedule of **periodic review hearings** in the order of appointment — no later than one year after the initial appointment and no later than every three years after that — unless it waives them as unnecessary or impracticable or sets another schedule. Guardianship in the rest of the US layer runs until it is terminated; in Virginia it is re-examined by default.\n\nNote also that §§ 64.2-2000 and 64.2-2009 are each **printed twice** in the Code, one version marked \"(Contingent expiration date; see Acts 2026, cc. 992 and 1081, cl. 3)\" and the other \"(Contingent effective date; ...)\". The switch between them is tied to an enactment clause rather than to a date, and the Code does not state the condition. The substantive difference between the two is narrow — the current version cross-references § 64.2-2009.2 on capacity to vote, the pending one folds that into the chapter — but the mechanism matters: this is the one jurisdiction here where \"what does the law say as at a given date\" cannot be answered from the statute book at all.",
+   "citations": [
+    "va-64-2-2009",
+    "va-64-2-2000",
+    "va-64-2-2009-2"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "limited conservator",
+    "temporary conservator"
+   ],
+   "diff": "The property fiduciary is a conservator appointed under the same chapter and in the same order (§§ 64.2-2000, 64.2-2009), so the review-hearing clock and the two contingent versions apply to it as well. § 64.2-2000 defines a conservator to include a public conservator programme designated by the Department for Aging and Rehabilitative Services and a tax-exempt charitable organisation that does not provide direct services to the person — so the office need not be held by an individual.",
+   "citations": [
+    "va-64-2-2000",
+    "va-64-2-2009"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "qualification before the clerk"
+   ],
+   "diff": "Virginia's grant does not come from a judge. §§ 64.2-500 and 64.2-502 give the power to \"the court or the clerk\" of the circuit court, and qualification before the clerk is the ordinary route: the person takes the required oath and gives bond, and the clerk must be satisfied they are suitable and competent. With Maryland's register, Delaware's Register of Wills and Pennsylvania's, that makes four jurisdictions in this set where the office issuing the grant is not a court of general jurisdiction.\n\n§ 64.2-500 covers administration with the will annexed where no executor qualifies, with a 30-day window before the right passes to those who would take on intestacy, and bars a spouse or parent barred for desertion or abandonment from serving if a beneficiary objects.",
+   "citations": [
+    "va-64-2-500",
+    "va-64-2-502"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "letters of administration"
+   ],
+   "diff": "The intestate counterpart under § 64.2-502, and the timing is unusually graduated. For the first 30 days after death the clerk may grant administration only to a sole distributee or to a distributee holding written waivers from all other competent distributees; after 30 days, to the first distributee who applies, unless more than one gave notice of intent to qualify, in which case all must be heard; after 45 days, to a nonprofit charitable organisation that had been serving as the decedent's guardian or conservator, on a certified diligent search. The clerk, not a judge, decides.",
+   "citations": [
+    "va-64-2-502",
+    "va-64-2-500"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "designated successor",
+    "affidavit under § 64.2-601"
+   ],
+   "diff": "Virginia's Small Estate Act (§§ 64.2-600 to 64.2-605, rewritten by 2025 c. 148) is three routes, not one, and two of them break assumptions this data otherwise relies on.\n\nThe ordinary route is an affidavit **by all of the known successors** for a \"small asset\" of no more than **$75,000**, swearing that the whole personal probate estate is within that figure, that **at least 60 days** have passed, and that no personal representative has been appointed or applied for. Two details are unusual: the affidavit must be **on a form prepared by the Office of the Executive Secretary of the Supreme Court of Virginia**, so the artefact is standard statewide; and it names a single **designated successor** to receive payment, who takes a statutory **fiduciary duty** to safeguard and pay over to the others.\n\nThe second route is the one with no artefact at all. Under § 64.2-602 a holder of a small asset valued at **$35,000 or less** may simply pay or deliver it to any successor after 60 days, with **no affidavit**. Nowhere else in this set does the mechanism dispense with the document.\n\nThe third is for the funeral: § 64.2-604 lets the **licensed funeral service establishment** itself present an affidavit after **30 days** and be paid up to the amount given priority by § 64.2-528. Delaware reaches the same need by putting a funeral director in the class entitled to use its affidavit; Virginia gives the establishment its own claim on a shorter clock.\n\nThe 60-day wait is also the longest in this set, where the common figure is thirty days and Oklahoma opens at ten.",
+   "citations": [
+    "va-64-2-600",
+    "va-64-2-601",
+    "va-64-2-602",
+    "va-64-2-604"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "differs": false,
+   "diff": "Virginia enacted the Uniform Trust Code in 2005 and it sits in title 64.2 chapter 7 (§§ 64.2-700 to 64.2-808). § 64.2-804 carries the uniform certification of trust, so a successor trustee evidences authority by a certification they sign themselves rather than by any court-issued artefact.",
+   "citations": [
+    "va-64-2-700",
+    "va-64-2-804"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "diff": "Virginia is the mirror image of Delaware on this role. Both legislated digital assets early — Virginia's Privacy Expectation Afterlife and Choices Act of 2015 sat at § 64.2-109 — but Virginia **repealed its own act** and took the uniform one in 2017, where Delaware kept its 2014 act and never adopted RUFADAA. The repealed article is still printed in the chapter as article 3, next to the Uniform Fiduciary Access to Digital Assets Act at article 3.1.\n\nThe consequence is that the online tool exists here and does not in Delaware. § 64.2-118 is the uniform provision: a direction given through an online tool overrides a contrary direction in a will, trust, power of attorney or other record, provided the tool lets the user modify or delete the direction at all times, and a user's direction either way beats a terms-of-service clause that did not require the user to act affirmatively and distinctly from assenting to the terms.",
+   "citations": [
+    "va-64-2-118",
+    "va-64-2-109",
+    "va-64-2-116"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "conservator",
+    "agent",
+    "trustee"
+   ],
+   "diff": "The uniform act as enacted, with the catalogue-and-content split and the four fiduciary types across §§ 64.2-121 to 64.2-128. § 64.2-130 carries the uniform custodian provisions in full: compliance within **60 days** of receiving what §§ 64.2-121 to 64.2-129 require, a court order directing compliance where the custodian does not, a finding that compliance does not violate 18 U.S.C. § 2702, the custodian's option to notify the user or to refuse where it knows of lawful access after the request, and **immunity for an act or omission done in good faith in compliance** with the article.",
+   "citations": [
+    "va-64-2-130",
+    "va-64-2-116",
+    "va-64-2-118"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "donor",
+    "agent",
+    "document of gift"
+   ],
+   "diff": "Virginia is on the Revised Uniform Anatomical Gift Act, enacted in 2007 and self-titled at § 32.1-291.1 as §§ 32.1-291.1 through 32.1-291.25. § 32.1-291.4 lets the gift be made by the donor, by an agent under a health care power of attorney unless that record prohibits it, by a parent of an unemancipated minor, or by the donor's guardian — and notably by a minor who is at least **15 years and six months** old, the age at which Virginia allows a driver's licence application. The advance directive registry under § 54.1-2995 accepts an anatomical gift declaration alongside health care documents, which is the only place in this data where one register holds both.",
+   "citations": [
+    "va-32-1-291-1",
+    "va-32-1-291-4",
+    "va-54-1-2995"
+   ]
+  }
+ ]
+}

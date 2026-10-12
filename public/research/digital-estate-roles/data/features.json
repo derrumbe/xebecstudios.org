@@ -1819,6 +1819,580 @@
    }
   ]
  },
+ "us-md": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "§ 17-105(c): a written power of attorney \"is a durable power of attorney unless otherwise provided by its terms\", and § 17-105(b) applies that to all powers of attorney. Maryland reaches the uniform default through its own non-uniform act of twenty sections.",
+    "citations": [
+     "md-et-17-105"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "Nothing in title 17 conditions an agent's authority on registration or recording; the formalities are execution formalities (§ 17-110) and the only filing in the title is none.",
+    "citations": [
+     "md-et-17-110",
+     "md-et-17-105"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "§ 5-602(e): effective when the attending physician and a second physician certify incapacity in writing. § 5-606 adds the tightest freshness rule in this data — the attending physician and a second physician or nurse practitioner must certify on personal examination, one of them having examined the patient within 2 hours before certifying. The second certification is excused where the patient is unconscious.",
+    "citations": [
+     "md-hg-5-602",
+     "md-hg-5-606"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Maryland Fiduciary Access to Digital Assets Act, Est. & Trusts §§ 15-601 to 15-620 (2016), self-titled at § 15-620. § 15-602 carves out an employer's digital asset used by an employee in the ordinary course of business.",
+    "citations": [
+     "md-et-15-620",
+     "md-et-15-602"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§ 15-603(a): an online-tool direction overrides a contrary direction in a will, trust, power of attorney or other record where the tool lets the user modify or delete it at any time.",
+    "citations": [
+     "md-et-15-603"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Maryland Revised Uniform Anatomical Gift Act, Est. & Trusts §§ 4-501 to 4-522, self-titled at § 4-522: a gift is made by the donor or an authorised person, so consent is express.",
+    "citations": [
+     "md-et-4-522",
+     "md-et-4-504"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": false,
+    "note": "The exception in the US layer. Maryland's small estate is a simplified administration, not a collection by affidavit: § 5-602 requires a petition for administration and § 5-603 has the register direct the petitioner to serve as personal representative and issue letters of administration. The ceiling is $50,000, or $100,000 where the surviving spouse is the sole legatee or heir (§ 5-601).",
+    "citations": [
+     "md-et-5-601",
+     "md-et-5-602",
+     "md-et-5-603"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters of administration",
+    "note": "One name for both offices: a personal representative takes letters of administration whether or not there is a will, granted by the register of wills in administrative probate under § 5-301, which may be conducted without prior notice.",
+    "citations": [
+     "md-et-5-301",
+     "md-et-5-104"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": 2022,
+    "name": "Supported decision making, Md. Code, Est. & Trusts tit. 18",
+    "note": "Est. & Trusts title 18 (§§ 18-101 to 18-109). § 18-103(d) bars using execution of an agreement as evidence of incapacity and preserves the adult's ability to act independently; § 18-107 requires the agreement to be written, dated, to describe each supporter's assistance and how conflicts of interest are mitigated, and to be court-approved where the adult has a guardian of the person; § 18-109 immunises a third party both for good-faith compliance and for declining. Unlike Utah § 75-5-708 and Delaware § 9407A, title 18 contains no provision recognising a supported decision as the adult's own decision for the purposes of any provision of law. § 18-108 lets the adult revoke orally.",
+    "citations": [
+     "md-et-18-103",
+     "md-et-18-107",
+     "md-et-18-108",
+     "md-et-18-109",
+     "md-et-18-101"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "md-et-17-105",
+    "cite": "Md. Code, Est. & Trusts § 17-105",
+    "title": "Durable power of attorney; durable unless the terms provide otherwise",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=17-105&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(b) This section applies to all powers of attorney. (c) When a principal designates another as an attorney in fact or agent by a power of attorney in writing, it is a durable power of attorney unless otherwise provided by its terms."
+   },
+   {
+    "id": "md-et-17-110",
+    "cite": "Md. Code, Est. & Trusts § 17-110",
+    "title": "Execution of a power of attorney; witnesses, notary and remote execution",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=17-110&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(a) … a power of attorney executed on or after October 1, 2010, shall be: (1) In writing; (2) Signed by the principal …; (3) Acknowledged by the principal in the physical or electronic presence of a notary public; and (4) Attested and signed by two or more adult witnesses … (c) … an electronic power of attorney or a remotely witnessed power of attorney … (1) … the principal and all witnesses shall be in the physical presence or electronic presence of one another and a supervising attorney, who may be one of the witnesses … (5) The supervising attorney shall create a certified power of attorney …"
+   },
+   {
+    "id": "md-hg-5-602",
+    "cite": "Md. Code, Health-Gen. § 5-602",
+    "title": "Making an advance directive; written, electronic, video and oral forms",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=5-602&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(c)(1)(i) … a written or electronic advance directive shall be dated, signed by or at the express direction of the declarant, and subscribed by two witnesses in the physical presence or electronic presence of the declarant. … (3) The State–designated health information exchange may accept as valid an unwitnessed electronic advance directive in the form of a video record or file to state the declarant’s wishes regarding health care for the declarant or to appoint an agent if the video record or file: (i) Is dated; and (ii) Is stored in an electronic file by an electronic advance directives service recognized by the Maryland Health Care Commission. (d)(1) Any competent individual may make an oral advance directive … or to appoint an agent … (2) An oral advance directive shall have the same effect as a written or electronic advance directive if made in the presence of the attending physician, physician assistant, or nurse practitioner and one witness and if the substance of the oral advance directive is documented as part of the individual’s medical record."
+   },
+   {
+    "id": "md-hg-5-606",
+    "cite": "Md. Code, Health-Gen. § 5-606",
+    "title": "Certification of incapacity; two clinicians and the two-hour examination",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=5-606&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(a)(1) Prior to providing, withholding, or withdrawing treatment for which authorization has been obtained or will be sought under this subtitle, the attending physician and a second physician or a nurse practitioner, one of whom shall have examined the patient within 2 hours before making the certification, shall certify in writing that the patient is incapable of making an informed decision regarding the treatment. The certification shall be based on a personal examination of the patient."
+   },
+   {
+    "id": "md-et-15-620",
+    "cite": "Md. Code, Est. & Trusts § 15-620",
+    "title": "Maryland Fiduciary Access to Digital Assets Act; short title",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=15-620&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "This subtitle may be cited as the Maryland Fiduciary Access to Digital Assets Act."
+   },
+   {
+    "id": "md-et-15-602",
+    "cite": "Md. Code, Est. & Trusts § 15-602",
+    "title": "Subtitle inapplicable to an employer's digital asset",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=15-602&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "md-et-15-603",
+    "cite": "Md. Code, Est. & Trusts § 15-603",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=15-603&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(a)(1) A user may use an online tool to direct a custodian to disclose to a designated recipient or not disclose some or all of the user’s digital assets … (2) If the online tool allows the user to modify or delete a direction at any time, a direction under paragraph (1) of this subsection overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+   },
+   {
+    "id": "md-et-4-522",
+    "cite": "Md. Code, Est. & Trusts § 4-522",
+    "title": "Maryland Revised Uniform Anatomical Gift Act; short title",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=4-522&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "This subtitle may be cited as the Maryland Revised Uniform Anatomical Gift Act."
+   },
+   {
+    "id": "md-et-4-504",
+    "cite": "Md. Code, Est. & Trusts § 4-504",
+    "title": "Amendment or revocation of an anatomical gift",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=4-504&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "md-et-5-601",
+    "cite": "Md. Code, Est. & Trusts § 5-601",
+    "title": "Small estate; value limits",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-601&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(a) If the property of the decedent subject to administration in Maryland is established to have a value of $50,000 or less as of the date of the death of the decedent, the estate may be administered in accordance with the provisions of §§ 5–602 through 5–607 of this subtitle. … (c) If the surviving spouse is the sole legatee or heir of the decedent … the property … is established to have a value of $100,000 or less …"
+   },
+   {
+    "id": "md-et-5-602",
+    "cite": "Md. Code, Est. & Trusts § 5-602",
+    "title": "Petition for administration of a small estate",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-602&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "md-et-5-603",
+    "cite": "Md. Code, Est. & Trusts § 5-603",
+    "title": "Register's direction; appointment and letters in a small estate",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-603&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(a) If the register finds that the petition and additional information filed in the proceeding is accurate, the register shall: (1) Direct that the petitioner serve as personal representative of the small estate and issue additional letters of administration as needed; (2) Direct the immediate payment of the allowable funeral expenses … and the family allowances …"
+   },
+   {
+    "id": "md-et-5-301",
+    "cite": "Md. Code, Est. & Trusts § 5-301",
+    "title": "Administrative probate before the register",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-301&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(a) Administrative probate is a proceeding instituted by the filing of a petition for probate by an interested person before the register for the probate of a will or a determination of the intestacy of the decedent, and for the appointment of a personal representative. (b) … the proceeding may be conducted without prior notice, and is final, to the extent provided in § 5–304 of this subtitle, subject to the right of an interested person …"
+   },
+   {
+    "id": "md-et-5-104",
+    "cite": "Md. Code, Est. & Trusts § 5-104",
+    "title": "Priority for the grant of letters",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-104&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "md-et-18-103",
+    "cite": "Md. Code, Est. & Trusts § 18-103",
+    "title": "Use of supported decision making; execution not evidence of incapacity",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-103&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(b) All adults are presumed capable of making a supported decision–making agreement. (c) The manner in which an adult communicates with others is not grounds for determining that the adult is incapable of making, changing, or revoking a supported decision–making agreement. (d) Execution of a supported decision–making agreement by an adult may not: (1) Be used as evidence of incapacity; or (2) Preclude the ability of the adult to: (i) Act independently of a supported decision–making agreement; or (ii) Access the adult’s personal information without a supporter."
+   },
+   {
+    "id": "md-et-18-107",
+    "cite": "Md. Code, Est. & Trusts § 18-107",
+    "title": "Form and contents of a supported decision-making agreement",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-107&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "md-et-18-108",
+    "cite": "Md. Code, Est. & Trusts § 18-108",
+    "title": "Revocation of a supported decision-making agreement",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-108&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "An adult utilizing a supported decision–making agreement may: (1) Revoke the supported decision–making agreement at any time orally, in writing, or otherwise by expressing the adult’s specific intent to revoke the agreement; and (2) Receive any support needed from an individual of the adult’s choosing to revoke the agreement."
+   },
+   {
+    "id": "md-et-18-109",
+    "cite": "Md. Code, Est. & Trusts § 18-109",
+    "title": "Third party reliance; limitation of liability",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-109&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "(a) A third party is not subject to civil or criminal liability or discipline for unprofessional conduct for: (1) If the third party acted in good faith reliance on a decision made by an adult utilizing a supported decision–making agreement, complying with an adult’s decision in accordance with a supported decision–making agreement or otherwise complying with a supported decision–making agreement based on a good faith assumption that the supported decision–making agreement was valid when made and not revoked or abrogated; or (2) Declining to honor a decision made by an adult utilizing a supported decision–making agreement or failing to comply with a supported decision–making agreement …"
+   },
+   {
+    "id": "md-et-18-101",
+    "cite": "Md. Code, Est. & Trusts § 18-101",
+    "title": "Supported decision making; definitions",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-101&enactments=false",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   }
+  ]
+ },
+ "us-va": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "§ 64.2-1602, the uniform § 104 unchanged: \"A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal.\" Virginia took the Uniform Power of Attorney Act in 2010 with its numbering intact.",
+    "citations": [
+     "va-64-2-1602"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "No registration gate. § 64.2-1607 makes a power effective on execution unless deferred by its terms, and the acceptance regime at §§ 64.2-1617 and 64.2-1618 runs on presentation rather than on any filing.",
+    "citations": [
+     "va-64-2-1607",
+     "va-64-2-1618"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "§ 54.1-2983.2: the attending physician certifies incapacity on personal examination and must obtain written certification from a second clinician, a statutory \"capacity reviewer\", also on personal examination — and must repeat both no less frequently than every 180 days while the need for health care continues. No other jurisdiction here puts a renewal interval on the finding that starts the authority.",
+    "citations": [
+     "va-54-1-2983-2",
+     "va-54-1-2986-1"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Uniform Fiduciary Access to Digital Assets Act, §§ 64.2-116 to 64.2-132 (2017). Virginia repealed its own earlier Privacy Expectation Afterlife and Choices Act, which is still printed as the repealed article 3 at § 64.2-109, next to the uniform act at article 3.1.",
+    "citations": [
+     "va-64-2-116",
+     "va-64-2-109",
+     "va-64-2-130"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§ 64.2-118(A): an online-tool direction overrides a contrary direction in a will, trust, power of attorney or other record where the tool allows the user to modify or delete it at all times.",
+    "citations": [
+     "va-64-2-118"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act, §§ 32.1-291.1 to 32.1-291.25 (2007). § 32.1-291.4 allows a gift by the donor, by an agent unless the health care power of attorney prohibits it, by a parent of an unemancipated minor, by a guardian, or by a minor of at least 15 years and six months.",
+    "citations": [
+     "va-32-1-291-1",
+     "va-32-1-291-4"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "Virginia Small Estate Act, §§ 64.2-600 to 64.2-605 (as rewritten in 2025). An affidavit by all known successors reaches a \"small asset\" of up to $75,000 after 60 days, on a form prepared by the Office of the Executive Secretary of the Supreme Court of Virginia; § 64.2-602 dispenses with the affidavit entirely at $35,000 or less; § 64.2-604 lets a licensed funeral service establishment claim after 30 days.",
+    "citations": [
+     "va-64-2-600",
+     "va-64-2-601",
+     "va-64-2-602"
+    ]
+   },
+   "probateGrantName": {
+    "value": "qualification before the clerk; letters of administration",
+    "note": "§§ 64.2-500 and 64.2-502 give the grant to \"the court or the clerk\" of the circuit court, and qualification before the clerk on oath and bond is the ordinary route.",
+    "citations": [
+     "va-64-2-500",
+     "va-64-2-502"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "year": 2022,
+    "name": "Supported decision-making agreements, Va. Code § 37.2-314.3",
+    "note": "The thinnest supported decision-making statute in this set, and the one that shows the feature key cannot be read as a measure of effect. § 37.2-314.3 defines a supported decision-making agreement and a supporter, and directs the Department of Behavioral Health and Developmental Services to run an education and training programme about them. It confers no legal effect on a supported decision, provides no third-party immunity, and does not bar treating an agreement as evidence of incapacity; it is also limited to adults with an intellectual or developmental disability. The guardianship chapter's definitions cross-refer to it (§ 64.2-2000).",
+    "citations": [
+     "va-37-2-314-3",
+     "va-64-2-2000"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "va-64-2-1602",
+    "cite": "Va. Code § 64.2-1602",
+    "title": "Power of attorney is durable",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-1602/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+   },
+   {
+    "id": "va-64-2-1607",
+    "cite": "Va. Code § 64.2-1607",
+    "title": "When power of attorney effective",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-1607/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "A. A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency. B. If a power of attorney becomes effective upon the occurrence of a future event or contingency, the principal, in the power of attorney, may authorize one or more persons to determine in a writing or other record that the event or contingency has occurred."
+   },
+   {
+    "id": "va-64-2-1618",
+    "cite": "Va. Code § 64.2-1618",
+    "title": "Liability for refusal to accept acknowledged power of attorney",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-1618/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "A. … 1. A person shall either accept an acknowledged power of attorney or request a certification, a translation, or an opinion of counsel under subsection C of § 64.2-1617 no later than seven business days after presentation of the power of attorney for acceptance; 2. If a person requests a certification, a translation, or an opinion of counsel … the person shall accept the power of attorney no later than five business days after receipt … C. A person that refuses in violation of this section to accept an acknowledged power of attorney is subject to: 1. A court order mandating acceptance of the power of attorney; and 2. Liability for reasonable attorney fees and costs incurred in any action or proceeding that confirms the validity of the power of attorney or mandates acceptance of the power of attorney."
+   },
+   {
+    "id": "va-54-1-2983-2",
+    "cite": "Va. Code § 54.1-2983.2",
+    "title": "Capacity; required determinations",
+    "url": "https://law.lis.virginia.gov/vacode/54.1-2983.2/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "B. … and no less frequently than every 180 days while the need for health care continues, the attending physician shall certify in writing upon personal examination of the patient that the patient is incapable of making an informed decision regarding health care and shall obtain written certification from a capacity reviewer that, based upon a personal examination of the patient, the patient is incapable of making an informed decision."
+   },
+   {
+    "id": "va-54-1-2986-1",
+    "cite": "Va. Code § 54.1-2986.1",
+    "title": "Duties and authority of agent or person identified in § 54.1-2986",
+    "url": "https://law.lis.virginia.gov/vacode/54.1-2986.1/",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "va-64-2-116",
+    "cite": "Va. Code § 64.2-116",
+    "title": "Uniform Fiduciary Access to Digital Assets Act; definitions",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-116/",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "va-64-2-109",
+    "cite": "Va. Code § 64.2-109",
+    "title": "Privacy Expectation Afterlife and Choices Act [Repealed]",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-109/",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "va-64-2-130",
+    "cite": "Va. Code § 64.2-130",
+    "title": "Custodian compliance and immunity",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-130/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "A. Not later than 60 days after receipt of the information required under §§ 64.2-121 through 64.2-129, a custodian shall comply with a request under this article … If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance. … F. A custodian and its officer, employees, and agents are immune from liability for an act or omission done in good faith in compliance with this article."
+   },
+   {
+    "id": "va-64-2-118",
+    "cite": "Va. Code § 64.2-118",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-118/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "A. A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user's digital assets … If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+   },
+   {
+    "id": "va-32-1-291-1",
+    "cite": "Va. Code § 32.1-291.1",
+    "title": "Revised Uniform Anatomical Gift Act; short title",
+    "url": "https://law.lis.virginia.gov/vacode/32.1-291.1/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "This Act consists of §§ 32.1-291.1 through 32.1-291.25 and may be cited as the Revised Uniform Anatomical Gift Act."
+   },
+   {
+    "id": "va-32-1-291-4",
+    "cite": "Va. Code § 32.1-291.4",
+    "title": "Who may make anatomical gift before donor's death",
+    "url": "https://law.lis.virginia.gov/vacode/32.1-291.4/",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "va-64-2-600",
+    "cite": "Va. Code § 64.2-600",
+    "title": "Virginia Small Estate Act; definitions",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-600/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "\"Small asset\" means any indebtedness owed to or any asset belonging or presently distributable to the decedent, other than real property, having a value, on the date of the decedent's death, of no more than $75,000."
+   },
+   {
+    "id": "va-64-2-601",
+    "cite": "Va. Code § 64.2-601",
+    "title": "Payment or delivery of small asset by affidavit",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-601/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "A. Any person having possession of a small asset shall pay or deliver the small asset to the designated successor of the decedent upon being presented an affidavit made by all of the known successors stating: 1. That the value of the decedent's entire personal probate estate as of the date of the decedent's death, wherever located, does not exceed $75,000; 2. That at least 60 days have elapsed since the decedent's death … The affidavit shall be on a form prepared by the Office of the Executive Secretary of the Supreme Court of Virginia"
+   },
+   {
+    "id": "va-64-2-602",
+    "cite": "Va. Code § 64.2-602",
+    "title": "Payment or delivery of small asset valued at $35,000 or less without affidavit",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-602/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "A. Notwithstanding the provisions of § 64.2-601, any person having possession of a small asset valued at $35,000 or less may pay or deliver the small asset to any successor provided that: 1. At least 60 days have elapsed since the decedent's death; and 2. No application for the appointment of a personal representative is pending or has been granted in any jurisdiction."
+   },
+   {
+    "id": "va-64-2-500",
+    "cite": "Va. Code § 64.2-500",
+    "title": "Grant of administration with the will annexed",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-500/",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "va-64-2-502",
+    "cite": "Va. Code § 64.2-502",
+    "title": "Grant of administration of intestate estate",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-502/",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   },
+   {
+    "id": "va-37-2-314-3",
+    "cite": "Va. Code § 37.2-314.3",
+    "title": "Powers and duties of the Department related to supported decision-making agreements; report",
+    "url": "https://law.lis.virginia.gov/vacode/37.2-314.3/",
+    "kind": "statute",
+    "retrieved": "2026-10-12",
+    "quote": "B. The Department shall develop and implement a program to educate individuals with intellectual and developmental disabilities, their families, and others regarding the availability of supported decision-making agreements, the process by which an individual … may enter into a supported decision-making agreement with a supporter, and the rights and responsibilities of principals and supporters …"
+   },
+   {
+    "id": "va-64-2-2000",
+    "cite": "Va. Code § 64.2-2000",
+    "title": "Guardianship and conservatorship; definitions (two contingent versions)",
+    "url": "https://law.lis.virginia.gov/vacode/64.2-2000/",
+    "kind": "statute",
+    "retrieved": "2026-10-12"
+   }
+  ]
+ },
  "us-ok": {
   "features": {
    "deceasedPersonalDataProtected": {
