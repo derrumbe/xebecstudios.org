@@ -1785,6 +1785,30 @@
       + '</svg>';
   }
 
+  // Section 16 — how long the finding underneath the authority stays good. A log axis, because the
+  // spread is four orders of magnitude and that spread IS the finding: Maryland sits alone at the
+  // left and the guardianship reviews bunch at the right. Labels alternate sides to stay legible.
+  function figFreshness() {
+    const y = 66, x0 = 34, x1 = FIG_W - 34, HOURS_MAX = 87600; // ten years
+    const at = (h) => x0 + (x1 - x0) * (Math.log10(h) / Math.log10(HOURS_MAX));
+    const tick = (h, label, sub, below) => {
+      const x = at(h);
+      const ly = below ? y + 22 : y - 24, sy = below ? y + 35 : y - 11;
+      return `<circle cx="${x}" cy="${y}" r="6" fill="var(--accent)"/>`
+        + `<text x="${x}" y="${ly}" text-anchor="middle" class="fig-l">${esc(label)}</text>`
+        + `<text x="${x}" y="${sy}" text-anchor="middle" class="fig-t">${esc(sub)}</text>`;
+    };
+    return svgOpen(124, 'The interval before the finding must be made again, on a logarithmic scale: two hours in Maryland, 180 days in Virginia for health care, one year then three for a Virginia guardianship, three years in Victoria and five in Queensland')
+      + `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="currentColor" stroke-width="1.5" opacity=".35"/>`
+      + `<text x="${x0}" y="${y + 54}" class="fig-t">2 hours</text>`
+      + `<text x="${x1}" y="${y + 54}" text-anchor="end" class="fig-t">10 years</text>`
+      + tick(2, 'Md.', '§5-606', false)
+      + tick(4320, 'Va.', '180 days', true)
+      + tick(8760, 'Va.', '1 year', false)
+      + tick(26280, 'Vic.', '3 years', true)
+      + tick(43800, 'Qld', '5 years', false)
+      + '</svg>';
+  }
   // Section 15 — a presence matrix. The finding is which cells are EMPTY, so a missing part has to
   // be drawn rather than left out: every cell is there, filled or hollow. One hue plus gray.
   function figAccept() {
@@ -1883,6 +1907,7 @@
       case 13: return figWrap(figProof(), 'Who can prove their standing to a French controller, and who cannot.');
       case 14: return figWrap(figStanding(), 'How strongly each claimant\u2019s standing is evidenced, on one scale.');
       case 15: return figWrap(figAccept(), 'Every regime carries the safe harbour. Only two carry the duty.');
+      case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
       default: return '';
     }
   }
