@@ -1837,6 +1837,32 @@
       + out + '</svg>';
   }
 
+  // Section 17 — what a later court appointment does to an authority the principal granted.
+  // Two outcomes, not a presence/absence, so both are drawn solid: --accent for an authority
+  // that survives and --dormant for one that ends. One hue plus gray, as elsewhere. The fourth
+  // row is Kentucky's other lane, which is the whole point of the section and has to sit in the
+  // same picture as its own contradiction.
+  function figTermination() {
+    const rows = [
+      ['Va. \u2014 property, \u00a764.2-1606', 1, 'continues'],
+      ['Ky. \u2014 property, \u00a7457.100', 0, 'terminates'],
+      ['W.Va. \u2014 property, \u00a739B-1-108', 0, 'terminates'],
+      ['Ky. \u2014 the person, \u00a7311.6231', 1, 'continues'],
+    ];
+    const lw = 196, pw = 128, ph = 20, gap = 11, top = 30;
+    let out = `<text x="${lw}" y="18" class="fig-t">after a court appoints a fiduciary</text>`;
+    rows.forEach(([label, on, word], r) => {
+      const y = top + r * (ph + gap);
+      out += `<text x="0" y="${y + ph / 2 + 4}" class="fig-l">${esc(label)}</text>`
+        + `<rect x="${lw}" y="${y}" width="${pw}" height="${ph}" rx="3" `
+        + `fill="${on ? 'var(--accent)' : 'var(--dormant)'}" opacity="${on ? 1 : .55}"/>`
+        + `<text x="${lw + pw + 10}" y="${y + ph / 2 + 4}" class="fig-t">${esc(word)}</text>`;
+    });
+    return svgOpen(top + rows.length * (ph + gap) + 4,
+      'What a later court appointment does to the authority the principal granted: in Virginia the power of attorney continues, in Kentucky and West Virginia it terminates, while in Kentucky a health-care surrogate under an advance directive continues')
+      + out + '</svg>';
+  }
+
   // Which drawing belongs to which finding. Keyed on the section number the heading opens
   // with, so renumbering the prose moves the figures with it; a section with no entry simply
   // gets none, which is the right answer for the closing argument.
@@ -1908,6 +1934,7 @@
       case 14: return figWrap(figStanding(), 'How strongly each claimant\u2019s standing is evidenced, on one scale.');
       case 15: return figWrap(figAccept(), 'Every regime carries the safe harbour. Only two carry the duty.');
       case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
+      case 17: return figWrap(figTermination(), 'One event, three answers \u2014 and two of them inside Kentucky.');
       default: return '';
     }
   }
