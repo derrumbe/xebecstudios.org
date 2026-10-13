@@ -511,6 +511,19 @@
      "label": "US — Illinois"
     },
     {
+     "id": "us-ky",
+     "name": "Kentucky",
+     "short": "KY",
+     "code": "KY",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ky.json"
+     ],
+     "country": "us",
+     "note": "Kentucky was added with West Virginia to read four contiguous states against one uniform act. It is the uniform one on execution — a signature suffices and notarisation buys a presumption — and on the acceptance remedy, where it took Section 120 Alternative A and kept the automatic liability for attorney's fees. It deviates in two places that matter to this reference. A court appointment of a conservator or guardian **terminates** the power of attorney by default (§457.100(1)(c)), the reverse of the uniform act's bracketed rule and of Virginia's enactment of it. And Kentucky has **no monetary threshold at all** for dispensing with administration: §395.470 lets the beneficiaries agree an estate of any size out of administration on unanimous written consent, no debts, taxes provided for and a six-week advertisement at the courthouse door. Its guardianship procedure is also the only one here that is a jury trial by default, with the burden of proof on the Commonwealth. One drafting note for anyone citing it: the ULC bill tracker dates the Uniform Power of Attorney Act enactment to 2020, while §457.010's own history says 2018 Ky. Acts ch. 185, effective 14 July 2018.",
+     "label": "US — Kentucky"
+    },
+    {
      "id": "us-la",
      "name": "Louisiana",
      "short": "LA",
@@ -696,6 +709,19 @@
      ],
      "country": "us",
      "label": "US — Washington"
+    },
+    {
+     "id": "us-wv",
+     "name": "West Virginia",
+     "short": "WV",
+     "code": "WV",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-wv.json"
+     ],
+     "country": "us",
+     "note": "West Virginia was added with Kentucky to test what happens when four contiguous states — Virginia, West Virginia, Maryland and Kentucky — are read against one uniform act, and it turned out to be the most consistently non-standard of them. It is the only one of the four that makes acknowledgement a condition of a power of attorney's validity rather than a presumption of genuineness; the only one that softened Uniform Power of Attorney Act §120's automatic liability for attorney's fees into a judicial discretion; and, with Kentucky, one of two that reversed §108(b)'s bracketed rule so that appointing a conservator terminates the agency by default. Separately, article 44-3A makes the office that supervises estate administration a **county** choice rather than a state one, which is sub-state variation of a kind nothing else in this data records.",
+     "label": "US — West Virginia"
     }
    ]
   },
@@ -1128,6 +1154,19 @@
    "label": "US — Illinois"
   },
   {
+   "id": "us-ky",
+   "name": "Kentucky",
+   "short": "KY",
+   "code": "KY",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ky.json"
+   ],
+   "country": "us",
+   "note": "Kentucky was added with West Virginia to read four contiguous states against one uniform act. It is the uniform one on execution — a signature suffices and notarisation buys a presumption — and on the acceptance remedy, where it took Section 120 Alternative A and kept the automatic liability for attorney's fees. It deviates in two places that matter to this reference. A court appointment of a conservator or guardian **terminates** the power of attorney by default (§457.100(1)(c)), the reverse of the uniform act's bracketed rule and of Virginia's enactment of it. And Kentucky has **no monetary threshold at all** for dispensing with administration: §395.470 lets the beneficiaries agree an estate of any size out of administration on unanimous written consent, no debts, taxes provided for and a six-week advertisement at the courthouse door. Its guardianship procedure is also the only one here that is a jury trial by default, with the burden of proof on the Commonwealth. One drafting note for anyone citing it: the ULC bill tracker dates the Uniform Power of Attorney Act enactment to 2020, while §457.010's own history says 2018 Ky. Acts ch. 185, effective 14 July 2018.",
+   "label": "US — Kentucky"
+  },
+  {
    "id": "us-la",
    "name": "Louisiana",
    "short": "LA",
@@ -1313,6 +1352,19 @@
    ],
    "country": "us",
    "label": "US — Washington"
+  },
+  {
+   "id": "us-wv",
+   "name": "West Virginia",
+   "short": "WV",
+   "code": "WV",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-wv.json"
+   ],
+   "country": "us",
+   "note": "West Virginia was added with Kentucky to test what happens when four contiguous states — Virginia, West Virginia, Maryland and Kentucky — are read against one uniform act, and it turned out to be the most consistently non-standard of them. It is the only one of the four that makes acknowledgement a condition of a power of attorney's validity rather than a presumption of genuineness; the only one that softened Uniform Power of Attorney Act §120's automatic liability for attorney's fees into a judicial discretion; and, with Kentucky, one of two that reversed §108(b)'s bracketed rule so that appointing a conservator terminates the agency by default. Separately, article 44-3A makes the office that supervises estate administration a **county** choice rather than a state one, which is sub-state variation of a kind nothing else in this data records.",
+   "label": "US — West Virginia"
   },
   {
    "id": "au-nsw",

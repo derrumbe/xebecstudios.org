@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 50 | **24** |
-| `conservator-estate` | 53 | 21 |
-| `personal-representative-administrator` | 46 | 20 |
-| `anatomical-gift-agent` | 47 | 19 |
-| `financial-poa-durable` | 44 | 17 |
-| `guardian-person` | 44 | 17 |
-| `health-care-agent` | 42 | 14 |
+| `personal-representative-executor` | 52 | **24** |
+| `conservator-estate` | 55 | 21 |
+| `personal-representative-administrator` | 48 | 20 |
+| `anatomical-gift-agent` | 49 | 19 |
+| `financial-poa-durable` | 46 | 17 |
+| `guardian-person` | 46 | 17 |
+| `health-care-agent` | 44 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 24 | **4** |
-| `online-tool-designee` | 21 | **2** |
+| `digital-assets-fiduciary` | 26 | **4** |
+| `online-tool-designee` | 23 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 20 of the 40 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 22 of the 42 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,14 +106,14 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 25** of the 44 jurisdictions that record it and **true in 19**
+`poaDurableByDefault` is **false in 25** of the 46 jurisdictions that record it and **true in 21**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
-that took the Uniform Power of Attorney Act: Idaho, Illinois, Maine, Michigan, New York, North
-Carolina, Ohio, Oklahoma, Pennsylvania, Utah and **Virginia**, with **Maryland** reaching the same
-default through an act of its own and Louisiana by an entirely different route. The majority still
-require a dedicated instrument or express words.
+that took the Uniform Power of Attorney Act: Idaho, Illinois, **Kentucky**, Maine, Michigan, New
+York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and **West Virginia**, with
+**Maryland** reaching the same default through an act of its own and Louisiana by an entirely
+different route. The majority still require a dedicated instrument or express words.
 
-Those nineteen get there three different ways, which matters for anyone modelling the lifecycle:
+Those twenty-one get there three different ways, which matters for anyone modelling the lifecycle:
 
 - **By design** — the UPOAA states, where §104 says a power is durable unless it expressly
   provides otherwise. Maryland is the reminder that the design is not the uniform act's property:
@@ -161,7 +161,7 @@ gets it backwards.
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 38 jurisdictions that record it and false in 28.
+`poaRegistrationBeforeUse` is true in 10 of the 40 jurisdictions that record it and false in 30.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -176,7 +176,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 33** of the 43 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 35** of the 45 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -195,10 +195,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 40 | 5 |
-| `benefits-payee` | 34 | 5 |
-| `tax-representative` | 34 | 5 |
-| `veterans-fiduciary` | 27 | 3 |
+| `health-records-representative` | 42 | 5 |
+| `benefits-payee` | 36 | 5 |
+| `tax-representative` | 36 | 5 |
+| `veterans-fiduciary` | 29 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -207,6 +207,22 @@ one would over-generalise from three countries.
 The inverse is `universal-successor-heir`: **16 jurisdictions across 16 countries**, exactly
 one per country. It is a clean marker of civil-law universal succession, where the estate
 vests in the heirs at death with no grant and no appointment.
+
+West Virginia extends the warning a level further down, below the unit this data can model at all.
+Article 44-3A establishes an optional **fiduciary supervisor** system for estate administration, and
+§44-3A-1 leaves its adoption to **each county commission**: the commission must hold an advertised
+public hearing — which ten percent of the county's voters can compel by petition — weigh five listed
+factors including "the relative cost and convenience to the public and to the estates", and then
+enter an order adopting or rejecting the article. Where a county has adopted it, the fiduciary
+supervisor publishes a monthly notice of estate accounts and runs a sixty-day claims window under
+§44-3A-4; where it has not, the article 44-2 route before the county commission applies instead.
+
+So *which office supervises a West Virginia estate, and on what timetable*, is not a question about
+West Virginia. The jurisdiction column already over-promises against the country column; here the
+jurisdiction is itself the wrong unit, and a file keyed to a state cannot say which of two regimes a
+given estate falls under. This reference records the choice and its mechanics rather than pretending
+to a single state-wide answer — but it is a reminder that "jurisdiction" is a modelling assumption,
+not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
@@ -274,7 +290,7 @@ one statute book, the newer idea got the better plumbing.
 It is the one place where the canonical vocabulary is still moving, which is a reason to treat
 `supported-decision-maker` as provisional rather than settled.
 
-## 9. Not one mechanism, and a tenfold spread in the number that triggers it
+## 9. Not one mechanism, and a hundredfold spread in the number that triggers it
 
 This section used to open by saying that every US state lets a successor collect a small estate
 without a grant, on an affidavit, after a short wait — one uniform mechanism with a wildly
@@ -284,9 +300,10 @@ along, because SCPA article 13 voluntary administration is filed *with the Surro
 and the affiant acts under a court-issued short certificate. Maryland now makes two, and more
 plainly: its small estate is an **administration**, in which the register of wills directs the
 petitioner to serve as personal representative and issues letters (§§5-602, 5-603). Virginia
-then adds a third shape at the other extreme, a tier with **no document at all**.
+then adds a third shape at the other extreme, a tier with **no document at all**. Kentucky goes
+furthest of all: no ceiling anywhere in its scheme, and no affidavit either.
 
-So there are at least four mechanisms wearing one name:
+So there are at least five mechanisms wearing one name:
 
 | | What the successor does |
 |---|---|
@@ -294,6 +311,35 @@ So there are at least four mechanisms wearing one name:
 | **Virginia** under $35,000 | **nothing** — the holder may simply pay a successor (§64.2-602) |
 | **New York**, **Maryland** | files with the court or register and acts under a grant it issues |
 | **Idaho**, **Oklahoma** | petitions for a decree or summary administration with no ceiling at all |
+| **Kentucky** | asks the court to dispense with administration altogether, on no ceiling at all |
+
+**Kentucky has no monetary threshold at all**, and is the only US jurisdiction here that does not.
+It has no small-estate affidavit either. Instead the District Court may dispense with administration
+on one of three grounds, each relational or conditional rather than numeric:
+
+- §395.455(1) — where the spousal and children's exemption, alone or together with preferred claims
+  paid, **equals or exceeds the distributable assets**. That is a *relative* test, so it scales with
+  the estate rather than capping it: the exemption is $30,000 of personal property under
+  §391.030(1)(c), but an estate well above $30,000 qualifies when enough of it is owed to preferred
+  creditors.
+- §395.455(2) — where the court is satisfied that no distributable estate will pass through the
+  personal representative's hands, it may order that **no letters of administration issue**.
+- §395.470 — administration may be dispensed with **by written agreement, for an estate of any
+  size**, if there are no debts, all beneficiaries agree in writing under penalty of perjury, the
+  inheritance and estate taxes are provided for, and the beneficiaries have advertised for creditors
+  — "posted at the courthouse door for six (6) weeks" and published — before applying.
+
+That third route is the interesting one, because it answers the same question as a dollar threshold
+with an entirely different instrument. Every other jurisdiction in this table uses an **amount** as
+the proxy for "small enough that the protections of administration are not worth their cost".
+Kentucky substitutes **unanimity, publicity and time**: everyone entitled must agree, the creditors
+must have had six weeks' notice nailed to the courthouse door, and the court must be satisfied. A
+protocol that models the small-estate route as "value below X" cannot express Kentucky at all, which
+is the sharpest available argument for the rule this section ends on.
+
+Kentucky therefore has no row in the table below, and `scripts/check-findings.py` expects none: its
+`threshold` and `waitingDays` are null because the statutes state no amount and no uniform wait, not
+because nobody looked.
 
 The threshold varies across all of them. Every amount and wait in this table is now checked against
 the `smallEstateWithoutGrant` feature data by `scripts/check-findings.py`, which fails if the two
@@ -303,6 +349,7 @@ period the data does not record:
 | | Ceiling | Wait | Second ceiling, and when it applies |
 |---|---|---|---|
 | Florida | $2,000 | — (6 months) | — |
+| West Virginia | $5,000 | 120 days | — |
 | North Carolina | $20,000 | 30 days | — |
 | Massachusetts | $25,000 | 30 days | — |
 | Uniform Probate Code §3-1201 (the model) | $25,000 | 30 days | — |
@@ -335,8 +382,10 @@ is only the case where there is **no** spouse. Louisiana and Illinois were given
 conflated two different conditions with a figure changing over time.
 
 The same claim, presented to the same kind of custodian, is effective over a range that
-spans an order of magnitude — and two states index the figure to inflation while the rest
-legislate a flat amount that silently erodes. Utah shows that the choice is deliberate rather than
+spans two orders of magnitude — $5,000 in West Virginia against $208,850 in California, a factor
+of forty-two, and $2,000 against $208,850 if Florida's sole-name-account route is counted as the
+same thing — and two states index the figure to inflation while the rest legislate a flat amount
+that silently erodes. Utah shows that the choice is deliberate rather than
 an oversight: §75-1-110 indexes five figures in its probate code to the CPI — the spouse's
 intestate share, the elective share, the homestead allowance, exempt property and the family
 allowance — and the small-estate ceiling is not one of them.
@@ -435,6 +484,25 @@ refuse life-sustaining treatment is the one with no witness requirement. The vid
 the only place in this data where a statute contemplates the authority-conferring instrument living
 with a designated third party rather than in the claimant's hands, which is the shape §14 and §15
 argue is missing everywhere else.
+
+West Virginia adds a variant that is not on the same axis at all: it notarises **the wrong
+signature**, or rather a different one. For a financial power of attorney, §39B-1-105 requires the
+*principal* to acknowledge before a notary, and makes that a condition of validity — the uniform
+§105 asks only for a signature and treats acknowledgement as buying a presumption of genuineness,
+which its official comment states outright ("notarization of the principal's signature is not
+required to create a valid power of attorney"). For a medical power of attorney two chapters away,
+§16-30-4(a) requires two witnesses and then notarises **the witnesses' signatures and attestations**,
+not the principal's. One state, two instruments, and the notary is authenticating a different person
+in each. A rule of the form "check that the notarial certificate covers the grantor" is correct for
+one of these documents and wrong for the other, within one state's code.
+
+Kentucky then marks the formless pole for the financial instrument, and it does so by being
+*uniform* rather than unusual. §457.050 requires a signature and nothing else; notarisation earns
+the presumption and is not a condition of validity. So among four contiguous states — Kentucky,
+Virginia, West Virginia, Maryland — the answer to "what makes a power of attorney valid?" runs from a
+bare signature to a lawyer in the room, with the uniform act's own text at the permissive end. §15
+sets that spread out in full, because it turns out to correlate with how much those states oblige a
+third party to accept.
 
 Delaware shows the same instability inside one jurisdiction, less starkly. A Delaware financial power of attorney is the strictest instrument in
 this set: §49A-105 wants writing, signature, a date, a notarial officer **and** one adult witness
@@ -698,13 +766,14 @@ the authorisation of the person who executed them, and designed to give access t
 **those named as agents in the directive**, and to close relatives. A named agent does not have to
 produce anything: the relying party can consult a state register that already names them.
 
-Set against section 13, the set holds seven points on one scale, and the two Maryland and Virginia
-rows are the ones that break the self-asserted-to-attested line it used to describe:
+Set against section 13, the set holds eight points on one scale, and the Maryland, Virginia and West
+Virginia rows are the ones that break the self-asserted-to-attested line it used to describe:
 
 | | What the claimant produces | Who stands behind it |
 |---|---|---|
 | French designated person | nothing prescribed | — |
 | **Virginia** last-resort surrogate | **nothing** | **a hospital committee, or two independent physicians, who must document the basis** |
+| **West Virginia** health-care surrogate | **nothing — and does not volunteer either** | **the attending physician or nurse practitioner, who selects the surrogate in writing** |
 | Delaware default surrogate | declaration, no form prescribed | the claimant, under penalty of perjury |
 | Utah default surrogate | declaration on a state form | the claimant, under penalty of perjury |
 | **Maryland** friend or other relative | **affidavit of specific facts showing regular contact** | **the claimant — and the physician must file it in the medical record** |
@@ -718,6 +787,34 @@ not treating the patient, not employed by the facility and not in the attending 
 **shall determine** whether the person qualifies and **shall document the information relied upon**.
 Standing is established by somebody else's recorded finding, which is the only instance in this data
 of proof by third-party determination rather than by instrument, oath or register.
+
+West Virginia goes a step past Virginia's committee and inverts the whole frame. In every other row
+of that table somebody comes forward and the question is how they prove they qualify. Under
+§16-30-8(a), when a person becomes incapacitated "the attending physician or the advanced nurse
+practitioner … **shall select, in writing, a surrogate**" — after a reasonable inquiry for a medical
+power of attorney representative or guardian, then down a list of seven classes ending in "close
+friends" and then entities the Department of Health designates by rule. Within a class the clinician
+picks whoever "reasonably appears to be best qualified" against five listed criteria, and may prefer
+someone *lower* in the order on those criteria. So the West Virginia surrogate does not establish
+their standing at all: a clinician confers it, and the artefact is that clinician's written
+selection. For a relying party outside the health system — a bank, a custodian, a platform — this is
+the hardest row in the table to verify, because the document that creates the authority is a note in
+someone else's file.
+
+Read the right-hand column on its own and it turns into a second scale, about **who the law trusts to
+decide that an adult has lost capacity**. Its two ends are both in states added here. West Virginia
+§16-30-7 asks for one clinician — the attending physician, another physician, a qualified
+psychologist, a physician's assistant or an advanced practice registered nurse — who has personally
+examined the person and records the basis contemporaneously in the medical record. Kentucky, for a
+guardianship, asks for a **jury**: §387.570(7) makes the hearing a jury trial unless the respondent,
+their counsel and the attorney for the Commonwealth all agree to a bench trial, no interested person
+objects, and the evaluation report is unanimous; §387.570(5) puts the burden "on the Commonwealth to
+prove the disability … by clear and convincing evidence", whoever brought the petition; and
+§387.580(1) gives the capacity findings themselves to "the court, or the jury if one is impaneled".
+The same underlying question — can this adult manage their affairs — is answered in one state by a
+single clinician's chart note and in another by twelve jurors holding the state to a heightened
+standard of proof. Any model that carries "determined to lack capacity" as a boolean is flattening a
+range that runs from a nurse practitioner's examination to a verdict.
 
 Maryland sits between the two kinds. The claimant swears — an affidavit of "specific facts and
 circumstances demonstrating that the person has maintained regular contact with the patient
@@ -761,7 +858,7 @@ same subset.
 | | Duty to accept | Remedy for refusal | Safe harbour for accepting |
 |---|---|---|---|
 | **Idaho**, URSDDA §§15-15-105 to 107 | any person, any substitute decision-making document | court order **plus** reasonable attorney's fees and costs | assume validity without inquiry absent actual knowledge; rely on asserted facts, a translation, counsel's opinion |
-| **UPOAA §§119–120** (the model; **Virginia** took Alternative A, **Maryland** Alternative B) | any person, within **seven business days** of presentation — of *any* acknowledged power of attorney under A, only of the **statutory form** under B | court order **plus** reasonable attorney's fees and costs | rely on the power as genuine absent actual knowledge; rely without investigation on the agent's certification, a translation, counsel's opinion |
+| **UPOAA §§119–120** (the model; **Virginia** and **Kentucky** took Alternative A, **Maryland** and **West Virginia** Alternative B) | any person, within **seven business days** of presentation — of *any* acknowledged power of attorney under A, only of the **statutory form** under B | court order **plus** reasonable attorney's fees and costs — except in **West Virginia**, where the court "may at its discretion award" them | rely on the power as genuine absent actual knowledge; rely without investigation on the agent's certification, a translation, counsel's opinion |
 | **RUFADAA §16** (the model and the 15 RUFADAA states here) | a custodian, within 60 days of a complying request | court order directing compliance | immune for an act or omission in good faith in compliance |
 | **Delaware**, 12 Del. C. §§2306–2307 | — | recovery or compulsion in the Court of Chancery | released as if paid to the personal representative; no duty to inquire into the truth of the affidavit |
 | **Supported decision-making** (Del. §9408A, Utah §75-5-709) | — | — | immunity, and in Utah presumptions that the signatures and the authority are genuine |
@@ -781,9 +878,36 @@ instrument is the statutory form, so a Maryland power drafted any other way is o
 Adjacent states, the same uniform section, and a holder's obligation that turns on which branch the
 legislature picked twenty years ago.
 
+Adding Kentucky and West Virginia makes that a natural experiment rather than an anecdote, because
+the four states are **mutual neighbours** and they split evenly:
+
+| | §105 execution | §120 alternative | Remedy for refusal |
+|---|---|---|---|
+| **Kentucky** §§457.050, 457.200 | signature; notary buys a presumption | **A** — any acknowledged power | automatic liability for fees |
+| **Virginia** §§64.2-1603, 64.2-1618 | signature; notary buys a presumption | **A** — any acknowledged power | automatic liability for fees |
+| **Maryland** §§17-110, 17-104 | notary **and two witnesses**; a supervising attorney to witness remotely | **B** — statutory form only | automatic liability for fees |
+| **West Virginia** §§39B-1-105, 39B-1-120 | notary **required for validity** | **B** — statutory form only | court **may** award fees, at its discretion |
+
+Two things fall out of that table. First, the two states that demand **more** at execution are the
+two that owe **less** at acceptance: Maryland and West Virginia make the instrument harder to create
+and then confine the duty to accept to one official form, while Kentucky and Virginia let a bare
+signed power exist and owe a duty on any of them. With four states it is a pattern, not a law — but
+it is the opposite of what a drafter might expect, since a more formal instrument is the easier one
+for a stranger to rely on.
+
+Second, **West Virginia varied something the ULC did not offer as a choice.** The alternatives
+differ only in scope; the remedy is identical in both, and in the model and in the three other
+states a refusing party "is subject to" a court order *and* liability for fees. West Virginia
+rewrote that into a court which "may at its discretion award" them. So the fee shift — the only
+provision in this data that puts a price on an unjustified refusal — survives as an entitlement in
+three of these four states and as a judicial discretion in the fourth. For a relying party deciding
+whether refusing is cheap, that is the whole question, and it is invisible from the fact of
+enactment.
+
 That is a sharper version of §4's point. **"Has this jurisdiction adopted §120?" has no useful
-answer**, because both states did and they owe different duties; and Idaho widened the instrument
-class a third time without changing the remedy at all. Three points on one axis — the statutory
+answer**, because all four states did and they owe different duties on different instruments with
+different consequences; and Idaho widened the instrument class a third time without changing the
+remedy at all. Three points on one axis — the statutory
 form, any acknowledged power of attorney, any substitute decision-making document — from one piece
 of drafting.
 
@@ -861,6 +985,75 @@ Utah's oscillating surrogate authority (§75A-9-117) is the same problem without
 the authority can lapse and resume with a clinical opinion, and nothing anywhere records the moment
 it did.
 
+## 17. The same event ends the authority in one state, preserves it in another, and in Kentucky does both at once
+
+Every other section here asks what starts an authority. This one asks what ends it, and it is the
+clearest case in the data of a termination rule that cannot be read off the instrument, the role, or
+even the chapter the role lives in.
+
+Uniform Power of Attorney Act §108(b) deals with what happens when a court later appoints a
+conservator over the same property the agent is managing. It does two things: it makes the agent
+"accountable to the fiduciary as well as to the principal", and then it offers, **in brackets**, a
+sentence settling the agency's fate — "The power of attorney is not terminated and the agent's
+authority continues unless limited, suspended, or terminated by the court." The brackets matter.
+The official comment records that even this much was a change of direction: §108(b) "is a departure
+from the Uniform Durable Power of Attorney Act which gave a court-appointed fiduciary the same power
+to revoke or amend a power of attorney as the principal would have if not incapacitated".
+
+Three neighbouring states enacted that section and answered the bracketed question three different
+ways, two of them by writing its inverse:
+
+| | Where the rule lives | What a court appointment does to the agency |
+|---|---|---|
+| **Virginia** | §64.2-1606(B), the §108 slot | **nothing** — "not terminated and the agent's authority continues unless limited, suspended, or terminated by the court" |
+| **West Virginia** | §39B-1-108(b), the §108 slot | **ends it** — "unless otherwise ordered by the court making the appointment, the power of attorney and the agent's authority thereunder terminates upon the appointment" |
+| **Kentucky** | §457.100(1)(c), the **termination** section | **ends it** — the power terminates on the appointment "unless the court specifically provides that the power of attorney shall remain in effect" |
+
+West Virginia and Kentucky reach the identical rule and file it in different places, and that is not
+a filing curiosity. A reader asking "when does a West Virginia power of attorney end?" goes to
+§39B-1-110, the section called *Termination of power of attorney or agent's authority*, and finds the
+uniform six triggers — death, incapacity if not durable, revocation, its own terms, purpose
+accomplished, agent gone. The appointment of a conservator is not among them. It is a seventh
+trigger, sitting two sections earlier under a heading about nominating a guardian. Kentucky, having
+made the same choice, put it in the termination list where someone would look. The rule is equally
+findable in one state and effectively hidden in the other.
+
+Then Kentucky does something neither of the others does: it answers the question **differently for
+the person than for the property**.
+
+- Over property, §457.100(1)(c) ends the agency when the court appoints a conservator or guardian of
+  the estate.
+- Over the person, §311.6231 does the opposite, and emphatically: where a court appoints "a fiduciary
+  charged with the care and protection of the grantor's person" after an advance directive was made,
+  "the fiduciary shall be bound by the terms of the grantor's advance directive", and if the
+  directive designated a surrogate, "the surrogate may continue to act".
+
+One event — a court appointing a fiduciary — and the person the principal chose keeps deciding about
+their body and loses the ability to decide about their money. Whatever one thinks of that as policy,
+it is a single jurisdiction holding two opposite rules about the same trigger, distinguished only by
+the lane. Nothing in the role name, the instrument, or the fact of a court order tells you which
+applies.
+
+Virginia supplies a second warning from the other direction, about vocabulary rather than placement.
+§64.2-1602 keys durability to the principal's "incapacity", and §64.2-1600 defines that term.
+§64.2-1608(A)(2), amended by 2022 cc. 397 and 654, instead terminates a non-durable power when the
+principal "becomes a **vulnerable adult**" — a phrase that appears nowhere in §64.2-1600, which is
+the chapter's only definitions section. The section that creates the default and the section that
+executes it no longer use the same word, and only one of the two words is defined where a reader of
+the chapter would find it. Virginia also added two termination triggers the uniform act
+does not have: a widened set of family-law filings, and §64.2-1608(B)(4), under which the agent's
+authority ends when the agent "is convicted of financial exploitation of the principal under
+§18.2-178.2" — authority extinguished by a criminal judgment in another title entirely.
+
+For anyone building an evidence layer the consequence is concrete, and it compounds the gap §15
+ends on. A relying party's safe harbour runs until it has **actual knowledge** that the authority has
+terminated. These are exactly the terminations nobody will tell it about: a guardianship order
+entered in a different proceeding, a criminal conviction in a different court, a statutory trigger
+located in a different chapter from the one the instrument was drafted under. The instrument in the
+custodian's hand is unchanged and still looks valid. **A credential that asserts an authority must be
+revocable by events its issuer never sees**, which is an argument for short lifetimes and a status
+channel rather than for richer assertions at issue time.
+
 ## What this suggests for a standard
 
 1. **Bind to the roles that already exist.** Executor and administrator are present in 20–24
@@ -897,6 +1090,18 @@ it did.
    prescribing one for the heir — so the obligation exists, is enforceable, and the evidence layer
    does not exist. A mandate with that much behind it produced no credential, which says the
    missing piece is not pressure on platforms.
+6. **Expect the authority to end somewhere nobody is looking.** Every safe harbour in §15 runs
+   until the relying party has *actual knowledge* that the authority is gone, and §17 shows where
+   that knowledge would have to come from: a guardianship order in a separate proceeding, which
+   terminates the agency by default in Kentucky and West Virginia and does not in Virginia; a
+   criminal conviction for financial exploitation in another title of the Code, which ends a
+   Virginia agent's authority by operation of law; a statutory trigger filed two sections away from
+   the one headed "Termination". The instrument in the custodian's hand is unchanged in all three
+   cases and still looks valid. That argues for short credential lifetimes and a status channel
+   rather than for richer assertions at issue time — and it means the same event has to be
+   expressible as ending one authority while leaving another intact, because in Kentucky a court
+   appointment ends the agent's power over the property and expressly preserves the surrogate's
+   over the person.
 
 ## Terms used here
 

@@ -1,0 +1,431 @@
+{
+ "jurisdiction": "us-wv",
+ "name": "West Virginia",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Power of Attorney Act (2006), with the Section 108(b) and Section 120 alternatives varied",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2015), enacted as the \"Uniform\" act",
+  "Uniform Trust Code (2000)",
+  "Revised Uniform Anatomical Gift Act (2006)"
+ ],
+ "note": "West Virginia was added with Kentucky to test what happens when four contiguous states — Virginia, West Virginia, Maryland and Kentucky — are read against one uniform act, and it turned out to be the most consistently non-standard of them. It is the only one of the four that makes acknowledgement a condition of a power of attorney's validity rather than a presumption of genuineness; the only one that softened Uniform Power of Attorney Act §120's automatic liability for attorney's fees into a judicial discretion; and, with Kentucky, one of two that reversed §108(b)'s bracketed rule so that appointing a conservator terminates the agency by default. Separately, article 44-3A makes the office that supervises estate administration a **county** choice rather than a state one, which is sub-state variation of a kind nothing else in this data records.",
+ "citations": [
+  {
+   "id": "wv-39b-1-104",
+   "cite": "W. Va. Code § 39B-1-104",
+   "title": "Power of attorney is durable",
+   "url": "https://code.wvlegislature.gov/39B-1-104/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "A power of attorney created under this act is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+  },
+  {
+   "id": "wv-39b-1-105",
+   "cite": "W. Va. Code § 39B-1-105",
+   "title": "Execution of power of attorney",
+   "url": "https://code.wvlegislature.gov/39B-1-105/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "A power of attorney must be signed by the principal or in the principal’s conscious presence by another individual directed by the principal to sign the principal’s name on the power of attorney and must be acknowledged by the principal before a notary public or other individual authorized by law to take acknowledgments."
+  },
+  {
+   "id": "wv-39b-1-108",
+   "cite": "W. Va. Code § 39B-1-108",
+   "title": "Nomination of conservator or guardian; relation of agent to court-appointed fiduciary",
+   "url": "https://code.wvlegislature.gov/39B-1-108/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(b) If, after a principal executes a power of attorney, a court appoints a conservator of the principal’s estate or other fiduciary charged with the management of some or all of the principal’s property, the agent is accountable to the fiduciary as well as to the principal. Unless otherwise ordered by the court making the appointment, the power of attorney and the agent’s authority thereunder terminates upon the appointment."
+  },
+  {
+   "id": "wv-39b-1-109",
+   "cite": "W. Va. Code § 39B-1-109",
+   "title": "When power of attorney effective",
+   "url": "https://code.wvlegislature.gov/39B-1-109/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency. (b) If a power of attorney becomes effective upon the occurrence of a future event or contingency, the principal, in the power of attorney, may authorize one or more persons to determine in a writing or other record that the event or contingency has occurred. (c) If a power of attorney becomes effective upon the principal’s incapacity and the principal has not authorized a person to determine whether the principal is incapacitated … the power of attorney becomes effective upon a determination in a writing or other record by: (1) A physician or licensed psychologist …; or (2) An attorney at law, a judge or an appropriate governmental official …"
+  },
+  {
+   "id": "wv-39b-1-110",
+   "cite": "W. Va. Code § 39B-1-110",
+   "title": "Termination of power of attorney or agent’s authority",
+   "url": "https://code.wvlegislature.gov/39B-1-110/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) A power of attorney terminates when: (1) The principal dies; (2) The principal becomes incapacitated, if the power of attorney is not durable; (3) The principal revokes the power of attorney; (4) The power of attorney provides that it terminates; (5) The purpose of the power of attorney is accomplished; or (6) The principal revokes the agent’s authority or the agent dies, becomes incapacitated, or resigns, and the power of attorney does not provide for another agent to act under the power of attorney."
+  },
+  {
+   "id": "wv-39b-1-119",
+   "cite": "W. Va. Code § 39B-1-119",
+   "title": "Acceptance of and reliance upon acknowledged power of attorney",
+   "url": "https://code.wvlegislature.gov/39B-1-119/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(b) A person who in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely upon the presumption under the provisions of section one hundred five of this article that the signature is genuine. (c) A person who in good faith accepts an acknowledged power of attorney without actual knowledge that the power of attorney is void, invalid or terminated … may rely upon the power of attorney as if the power of attorney were genuine, valid and still in effect …"
+  },
+  {
+   "id": "wv-39b-1-120",
+   "cite": "W. Va. Code § 39B-1-120",
+   "title": "Liability for refusal to accept acknowledged statutory form power of attorney",
+   "url": "https://code.wvlegislature.gov/39B-1-120/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) In this section, \"statutory form power of attorney\" means a power of attorney substantially in the form provided in this act or that meets the requirements for a military power of attorney pursuant to 10 U. S. C. §1044b. (b) … (1) A person shall either accept an acknowledged statutory form power of attorney or request a certification, a translation or an opinion of counsel … no later than seven business days after presentation …; (2) … no later than five business days after receipt … (d) A person who refuses in violation of this section to accept an acknowledged statutory form power of attorney is subject to a court order mandating acceptance of the power of attorney. The court may at its discretion award to the principal or the principal’s agent reasonable attorney’s fees and costs incurred in any action or proceeding that confirms the validity of the power of attorney or mandates acceptance of the power of attorney."
+  },
+  {
+   "id": "wv-16-30-3",
+   "cite": "W. Va. Code § 16-30-3",
+   "title": "Definitions",
+   "url": "https://code.wvlegislature.gov/16-30-3/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "“Actual knowledge” means the possession of information of the person’s wishes communicated to the health care provider orally or in writing by the person, the person’s medical power of attorney representative, the person’s health care surrogate, or other individuals resulting in the health care provider’s personal cognizance of these wishes. Constructive notice and other forms of imputed knowledge are not actual knowledge."
+  },
+  {
+   "id": "wv-16-30-4",
+   "cite": "W. Va. Code § 16-30-4",
+   "title": "Executing a living will, medical power of attorney, or combined medical power of attorney and living will",
+   "url": "https://code.wvlegislature.gov/16-30-4/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) … A living will, medical power of attorney, or combined medical power of attorney and living will made pursuant to this article shall be: (1) In writing; (2) executed by the principal or by another person in the principal’s presence at the principal’s express direction if the principal is physically unable to do so; (3) dated; (4) signed in the presence of two or more witnesses eat least 18 years of age; and (5) signed and attested by such witnesses whose signatures and attestations shall be acknowledged before a notary public. (b) In addition, a witness may not be: … (2) Related to the principal by blood or marriage; (3) Entitled to any portion of the estate of the principal … (4) Directly financially responsible for the principal’s medical care; (5) The attending physician; or (6) The principal’s medical power of attorney representative …"
+  },
+  {
+   "id": "wv-16-30-7",
+   "cite": "W. Va. Code § 16-30-7",
+   "title": "Determination of incapacity",
+   "url": "https://code.wvlegislature.gov/16-30-7/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) For the purposes of this article, a person may not be presumed to be incapacitated merely by reason of advanced age or disability. … A determination that a person is incapacitated shall be made by the attending physician, a physician, a qualified psychologist, a physician’s assistant, or an advanced practice registered nurse who has personally examined the person. (b) The determination of incapacity shall be recorded contemporaneously in the person’s medical record … The recording shall state the basis for the determination of incapacity, including the cause, nature, and expected duration of the person’s incapacity, if these are known. (c) If the person is conscious, the attending physician, psychologist, physician’s assistant, or advanced practice registered nurse shall inform the person that he or she has been determined to be incapacitated and that a medical power of attorney representative or surrogate decision-maker may be making decisions …"
+  },
+  {
+   "id": "wv-16-30-8",
+   "cite": "W. Va. Code § 16-30-8",
+   "title": "Selection of a surrogate",
+   "url": "https://code.wvlegislature.gov/16-30-8/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) When a person is or becomes incapacitated, the attending physician or the advanced nurse practitioner with the assistance of other health care providers as necessary, shall select, in writing, a surrogate. … In selecting a surrogate, the attending physician or advanced nurse practitioner must make a reasonable inquiry as to the existence and availability of a surrogate from the following persons: (1) The person’s spouse; (2) The person’s adult children; (3) The person’s parents; (4) The person’s adult siblings; (5) The person’s adult grandchildren; (6) The person’s close friends; (7) Any other person or entity … which the Department of Health may from time to time designate in rules …"
+  },
+  {
+   "id": "wv-44a-1-1",
+   "cite": "W. Va. Code § 44A-1-1",
+   "title": "Short title and legislative findings",
+   "url": "https://code.wvlegislature.gov/44A-1-1/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "This chapter is known and may be cited as the “West Virginia Guardianship and Conservatorship Act”."
+  },
+  {
+   "id": "wv-44a-1-3",
+   "cite": "W. Va. Code § 44A-1-3",
+   "title": "Advance directives",
+   "url": "https://code.wvlegislature.gov/44A-1-3/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "The existence of a living will, medical power of attorney, durable power of attorney or other advance directive, duly executed by a person alleged to be a “protected person” … or the prior appointment of a surrogate decisionmaker for the protected person may eliminate, limit or supersede the need for the assistance or protection of a guardian or conservator, and any person so appointed is to be the first preferred nominee for guardian or conservator …"
+  },
+  {
+   "id": "wv-44a-2-8",
+   "cite": "W. Va. Code § 44A-2-8",
+   "title": "Nomination of guardian or conservator of alleged or adjudicated protected person; preferences",
+   "url": "https://code.wvlegislature.gov/44A-2-8/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) Any person who has sufficient capacity to form a preference may at any time nominate any individual or entity to serve as his or her guardian or conservator. … The designation of a representative under a valid medical power of attorney, a living will or of a surrogate decision-maker shall constitute competent evidence of the nomination of a guardian, and the designation of an attorney under a valid durable power of attorney shall constitute competent evidence of the nomination of a conservator. … (c) The court shall appoint the one so nominated if the nominee is otherwise eligible to act and would serve in the best interests of the alleged or adjudicated protected person."
+  },
+  {
+   "id": "wv-44-1-1",
+   "cite": "W. Va. Code § 44-1-1",
+   "title": "Executor has no powers before qualifying",
+   "url": "https://code.wvlegislature.gov/44-1-1/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "A person appointed to be the executor of a will shall not have the powers of executor until he or she qualifies by taking an oath and giving bond, unless not required to post bond by §44-1-8 of this code, which shall then be admitted to the records of the clerk of the county in which the will, or an authenticated copy thereof, is admitted to record, except that he or she may provide for the burial of the testator, pay reasonable funeral expenses, and preserve the estate from waste."
+  },
+  {
+   "id": "wv-44-1-13",
+   "cite": "W. Va. Code § 44-1-13",
+   "title": "Affidavit showing heirs, distributees, devisees and legatees of decedent",
+   "url": "https://code.wvlegislature.gov/44-1-13/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "At the time of the qualification of an executor or administrator, the court or clerk before whom he qualifies shall require such executor or administrator to file his own affidavit, or the affidavit of some credible person, showing the names and, as far as possible, the addresses of the persons who would take any part of the estate … The personal representative shall not receive any compensation for his services until such names and addresses be furnished by affidavit as aforesaid …"
+  },
+  {
+   "id": "wv-44-1-28",
+   "cite": "W. Va. Code § 44-1-28",
+   "title": "Payment of small sums due employees to distributees of decedents upon whose estates there have been no qualifications",
+   "url": "https://code.wvlegislature.gov/44-1-28/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) When the State of West Virginia, any of its political subdivisions, the United States, or any employer owes wages, salary, pension payments, or money allowed for burial expenses to a decedent … upon whose estate there has been no qualification, and the amount owed does not exceed $5,000, … after 120 days from the death of the decedent, may pay the amount owed to the decedent’s surviving spouse, if any; and if no spouse survived the decedent, then to the distributees … as established by an affidavit to that effect. … (c) When any person holds an asset or property on behalf of or owed to a decedent … and the value of that asset or property … does not exceed $5,000, including a bank account … or an item of tangible personal property including a motor vehicle, after 120 days from the death of the decedent, that person may pay the amount owed to or transfer the asset or property to the decedent’s surviving spouse … (d) Payment in accordance with this section is in full discharge and acquittance …"
+  },
+  {
+   "id": "wv-44-3a-1",
+   "cite": "W. Va. Code § 44-3A-1",
+   "title": "Election to make article applicable",
+   "url": "https://code.wvlegislature.gov/44-3A-1/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) Any county commission which has not heretofore elected to proceed under provisions of this article may do so in accord with this section. (b) Prior to the adoption of the optional procedure provided for under this article, the county commission shall fix a time for public hearing on the issue of adoption of the fiduciary supervisor system … Whenever ten percent or more of the voters of the county participating in the next preceding general election shall so petition the county commission in writing, the commission shall within sixty days of the filing of such petition conduct the public hearing … (d) Within sixty days of the public hearing, the commission shall enter an order either adopting or rejecting the provisions of this article."
+  },
+  {
+   "id": "wv-44-3a-4",
+   "cite": "W. Va. Code § 44-3A-4",
+   "title": "Notice of claim; settlement in certain cases",
+   "url": "https://code.wvlegislature.gov/44-3A-4/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) The fiduciary supervisor shall at least once a month as a Class II legal advertisement … cause to be published in a newspaper of general circulation within the county wherein letters of administration have been granted, a notice … (b) All such claims are to be filed with the appropriate fiduciary at the address shown in such notice within sixty days of the date of the first publication of such notice or with the fiduciary supervisor within sixty days of such date."
+  },
+  {
+   "id": "wv-44d-1-101",
+   "cite": "W. Va. Code § 44D-1-101",
+   "title": "Short title",
+   "url": "https://code.wvlegislature.gov/44D-1-101/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "This chapter may be cited as the West Virginia Uniform Trust Code."
+  },
+  {
+   "id": "wv-44d-10-1013",
+   "cite": "W. Va. Code § 44D-10-1013",
+   "title": "Certification of trust",
+   "url": "https://code.wvlegislature.gov/44D-10-1013/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) Instead of furnishing a copy of the trust instrument to a person other than a beneficiary, the trustee may furnish to the person a certification of trust containing the following information: (1) That the trust exists and the date the trust instrument was executed; (2) The identity of the grantor; (3) The identity and address of the currently acting trustee; (4) The powers of the trustee; (5) The revocability or irrevocability of the trust … (b) A certification of trust may be signed or otherwise authenticated by any trustee."
+  },
+  {
+   "id": "wv-44-5b-1",
+   "cite": "W. Va. Code § 44-5B-1",
+   "title": "Short title",
+   "url": "https://code.wvlegislature.gov/44-5B-1/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "This article may be cited as the West Virginia Uniform Fiduciary Access to Digital Assets Act."
+  },
+  {
+   "id": "wv-44-5b-4",
+   "cite": "W. Va. Code § 44-5B-4",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://code.wvlegislature.gov/44-5B-4/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) A user may use an online tool to direct the custodian to disclose or not to disclose to a designated recipient some or all of the user’s digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record. (b) If a user has not used an online tool to give direction … or if the custodian has not provided an online tool, the user may allow or prohibit in a will, trust, power of attorney, or other record, disclosure to a fiduciary …"
+  },
+  {
+   "id": "wv-44-5b-16",
+   "cite": "W. Va. Code § 44-5B-16",
+   "title": "Custodian compliance and immunity",
+   "url": "https://code.wvlegislature.gov/44-5B-16/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) Not later than 60 days after receipt of the information required under §44-5B-7 through §44-5B-15 of this code, a custodian shall comply with a request under this article from a fiduciary or designated recipient to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance."
+  },
+  {
+   "id": "wv-16-19-4",
+   "cite": "W. Va. Code § 16-19-4",
+   "title": "Who may make anatomical gift before donor’s death",
+   "url": "https://code.wvlegislature.gov/16-19-4/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Subject to section eight of this article, an anatomical gift may be made during the life of the donor … by: (1) The donor, if the donor is an adult; (2) The donor, if the donor is a minor and is emancipated or sixteen (16) years of age or older; (3) An agent of the donor, unless the medical power of attorney or other record prohibits the agent from making an anatomical gift; (4) A parent of the donor, if the donor is an unemancipated minor; or (5) The donor’s guardian."
+  },
+  {
+   "id": "wv-16-19-5",
+   "cite": "W. Va. Code § 16-19-5",
+   "title": "Manner of making anatomical gift before donor’s death",
+   "url": "https://code.wvlegislature.gov/16-19-5/",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(a) A donor may make an anatomical gift: (1) By authorizing a statement or symbol to be imprinted on his or her driver’s license, identification card, voter registration card, or hunting or fishing license indicating that he or she has made an anatomical gift; (2) In a will; (3) During a terminal illness or injury, by any form of communication addressed to at least two adults, at least one of whom is a disinterested witness; or (4) As provided in subsection (b) of this section. … (d) An anatomical gift made by will takes effect upon the donor’s death regardless of whether the will is probated."
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "power of attorney",
+    "agent"
+   ],
+   "diff": "West Virginia enacted the Uniform Power of Attorney Act as chapter 39B in 2012, and §39B-1-104 keeps the uniform default verbatim — durable unless the instrument expressly says incapacity ends it. Two deviations matter more than the adoption.\n\n**Execution is stricter than the model.** Uniform §105 requires only a signature and makes acknowledgement optional, according an acknowledged signature a presumption of genuineness; the official comment says in terms that \"notarization of the principal's signature is not required to create a valid power of attorney\". §39B-1-105 drops the presumption sentence and writes the notary into the validity requirement: the power \"must be signed … **and must be acknowledged** by the principal before a notary public\". An unacknowledged West Virginia power of attorney is not a defective power of attorney, it is not one at all.\n\n**A court appointment ends the agency.** Uniform §108(b) makes the agent accountable to a later-appointed conservator and then offers, in brackets, the sentence \"The power of attorney is not terminated and the agent's authority continues unless limited, suspended, or terminated by the court.\" West Virginia took the accountability and replaced the bracketed sentence with its inverse: \"Unless otherwise ordered by the court making the appointment, the power of attorney and the agent's authority thereunder **terminates** upon the appointment.\" So the appointment of a conservator is a silent termination event that §39B-1-110, the section named \"Termination\", does not list — its six triggers are the uniform six.\n\nAcceptance follows §120 Alternative B: the seven-business-day clock and the five-day follow-up run only for a **statutory form** power of attorney, and West Virginia alone among the four states read here softened the remedy, replacing the model's automatic \"liability for reasonable attorney's fees\" with a court that \"may at its discretion award\" them.",
+   "citations": [
+    "wv-39b-1-104",
+    "wv-39b-1-105",
+    "wv-39b-1-108",
+    "wv-39b-1-110",
+    "wv-39b-1-119",
+    "wv-39b-1-120"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney terminated by incapacity"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. A power of attorney that expressly provides for termination on incapacity is non-durable, and §39B-1-110(a)(2) ends it when the principal becomes incapacitated; §39B-1-110(e) protects an agent or third party who acts in good faith without actual knowledge of the incapacity.",
+   "citations": [
+    "wv-39b-1-104",
+    "wv-39b-1-110"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. §39B-1-109 is the uniform text: effective on execution unless deferred to a future date, event or contingency, with the principal able to name who determines in a record that the contingency occurred, and a two-track fallback where nobody was named — a physician or licensed psychologist for incapacity in the clinical sense, an attorney, judge or appropriate governmental official for the principal being missing, detained or abroad.",
+   "citations": [
+    "wv-39b-1-109"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "medical power of attorney representative",
+    "combined medical power of attorney and living will"
+   ],
+   "diff": "West Virginia's health-care instrument is a single article 16-30 covering a living will, a medical power of attorney, or a combined document, and the agent is a \"medical power of attorney representative\".\n\nThe execution formality is unusual in **where it puts the notary**. §16-30-4(a) requires writing, dating, signature, and signing in the presence of **two or more witnesses**, and then — (a)(5) — the *witnesses'* \"signatures and attestations shall be acknowledged before a notary public\". It is the attestation that is notarised, not the principal's signature, which is the reverse of the arrangement in the financial power of attorney next door in §39B-1-105. Witness disqualifications are broad: nobody related to the principal by blood or marriage, nobody entitled under the will, nobody financially responsible for the principal's care, not the attending physician, and not the representative being appointed. The representative may not be a treating health care provider, a facility operator serving the principal, or an unrelated employee of either.\n\nThe instrument also reaches into the guardianship lane: §44A-1-3 says an advance directive \"may eliminate, limit or supersede the need\" for a guardian or conservator, and §44A-2-8(a) makes the designation of a medical power of attorney representative \"competent evidence of the nomination of a guardian\".\n\nThe authority switches on under §16-30-7: a determination of incapacity by the attending physician, another physician, a qualified psychologist, a physician's assistant or an advanced practice registered nurse **who has personally examined the person**, recorded contemporaneously in the medical record with \"the cause, nature, and expected duration\" of the incapacity. Advanced age or disability is no presumption of incapacity, nor is a diagnosis of mental illness or intellectual disability. And §16-30-7(c) requires that a conscious person **be told** they have been found incapacitated and that a representative or surrogate may now be deciding for them — a notice to the principal that the authority has begun, which is a different thing from the notices this data usually records, all of which run to the relying party.",
+   "citations": [
+    "wv-16-30-3",
+    "wv-16-30-4",
+    "wv-44a-1-3",
+    "wv-44a-2-8",
+    "wv-16-30-7"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "health care surrogate",
+    "surrogate selected by the attending physician"
+   ],
+   "diff": "West Virginia does not let a surrogate emerge from a statutory ranking by operation of law. §16-30-8(a) makes the **attending physician or advanced nurse practitioner select the surrogate, in writing**, after a reasonable inquiry into whether a medical power of attorney representative or court-appointed guardian exists and is willing.\n\nThe priority list is seven classes — spouse, adult children, parents, adult siblings, adult grandchildren, **close friends**, and then any person or entity the Department of Health designates by rule, expressly including public agencies, public guardians and public and private corporations. Within a class the clinician picks whoever \"reasonably appears to be best qualified\" against five listed criteria: better able to decide per the person's known wishes or best interests, regular contact before and during the illness, demonstrated care and concern, availability to visit, and availability for face-to-face contact with providers. A lower-ranked person may be preferred over a higher one on those criteria.\n\nSo the artefact that proves a West Virginia surrogate's standing is a clinician's written selection, not a statutory position — a fourth model alongside a court order, a registered instrument and a self-proving affidavit.\n\nThe same §16-30-7 determination is the trigger here, so the surrogate's authority depends on two clinical acts in sequence: the finding of incapacity, and then the written selection.",
+   "citations": [
+    "wv-16-30-8",
+    "wv-16-30-3",
+    "wv-16-30-7"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian",
+    "protected person"
+   ],
+   "diff": "Chapter 44A is the West Virginia Guardianship and Conservatorship Act, and it is drafted to defer to what the person arranged. §44A-1-3 makes an existing living will, medical power of attorney, durable power of attorney, other advance directive or prior surrogate appointment capable of eliminating, limiting or superseding the need for a guardian, and makes whoever was appointed \"the first preferred nominee\". §44A-2-8 lets anyone with capacity to form a preference nominate a guardian in writing, by oral request to the court, or by any other competent evidence, and §44A-2-8(c) binds the court: it \"shall appoint the one so nominated\" if the nominee is eligible and would serve the protected person's best interests.",
+   "citations": [
+    "wv-44a-1-1",
+    "wv-44a-1-3",
+    "wv-44a-2-8"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "limited conservator"
+   ],
+   "diff": "Same chapter 44A nomination machinery as the guardian, with the designation of an attorney-in-fact under a valid durable power of attorney counting as \"competent evidence of the nomination of a **conservator**\" specifically.\n\nThe consequence of the appointment is what distinguishes West Virginia. Under §39B-1-108(b) the appointment of a conservator — or of any other fiduciary charged with managing some or all of the principal's property — **terminates the power of attorney and the agent's authority** unless the appointing court orders otherwise. The person's own appointee is the preferred nominee for the conservatorship, and if someone else gets it the agency ends by default rather than continuing under the conservator's supervision.",
+   "citations": [
+    "wv-44a-2-8",
+    "wv-39b-1-108"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "qualification before the county clerk"
+   ],
+   "diff": "§44-1-1 is an unusually explicit statement of the gap this reference exists to document: a named executor \"shall not have the powers of executor until he or she qualifies by taking an oath and giving bond\", and in the meantime may do exactly three things — provide for the testator's burial, pay reasonable funeral expenses, and preserve the estate from waste.\n\n§44-1-13 adds a disclosure condition enforced through the executor's own pocket: at qualification the clerk requires an affidavit naming the heirs, distributees, devisees and legatees and their addresses so far as possible, recorded in the fiduciary record as prima facie evidence, and \"the personal representative shall not receive any compensation for his services until such names and addresses be furnished\" unless diligent inquiry failed.\n\nWhich office then supervises the administration depends on the county. Article 44-3A establishes an optional **fiduciary supervisor** system that each county commission adopts or rejects for itself under §44-3A-1, after a published public hearing that ten percent of the county's voters can compel by petition. Where it is in force the fiduciary supervisor publishes a monthly notice of estate accounts and runs a sixty-day claims window under §44-3A-4; where it is not, the county commission route in article 44-2 applies.",
+   "citations": [
+    "wv-44-1-1",
+    "wv-44-1-13",
+    "wv-44-3a-1",
+    "wv-44-3a-4"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "letters of administration"
+   ],
+   "diff": "The same qualification rule and heirs affidavit apply in intestacy — §44-1-1's oath and bond and §44-1-13's affidavit are written to \"an executor or administrator\" — and the same county-by-county question arises about whether a fiduciary supervisor supervises the administration.",
+   "citations": [
+    "wv-44-1-1",
+    "wv-44-1-13",
+    "wv-44-3a-1"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "surviving spouse or distributee taking by affidavit"
+   ],
+   "diff": "West Virginia's no-grant route is narrow and slow. §44-1-28 lets a holder pay or transfer to the surviving spouse, or failing a spouse to the distributees, where the estate has had **no qualification**, the asset does not exceed **$5,000**, and **120 days** have passed since the death — on an affidavit, with the payer discharged as fully as if it had dealt with a personal representative and under no duty to inquire into the affidavit's truth.\n\nThe section is built as three parallel grants rather than one: (a) wages, salary, pension payments and burial money owed by an employer or government; (b) property held by the State Treasurer as unclaimed property, which has no waiting period and its own route for a closed estate; and (c) a long enumerated list of ordinary assets — bank, savings and credit union accounts, certificates of deposit, brokerage accounts, stock, mutual funds, securities, bonds, notes, debts owed to the decedent, life insurance payable to the estate, refunds and tax overpayments, choses in action, and tangible personal property including a motor vehicle — with \"person\" defined to include a bank, a credit union and the Division of Motor Vehicles.\n\nAt $5,000 it is the second-lowest ceiling in this data, above only Florida's $2,000, and the 120-day wait is the longest — double Virginia's sixty days, which was the previous high.",
+   "citations": [
+    "wv-44-1-28"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. Chapter 44D is the West Virginia Uniform Trust Code, and §44D-10-1013 is the uniform certification of trust — eight items, signable by any trustee, furnished instead of the trust instrument to anyone other than a beneficiary.",
+   "citations": [
+    "wv-44d-1-101",
+    "wv-44d-10-1013"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "diff": "§44-5B-4(a) is the uniform online-tool rule: a direction given through a custodian's online tool overrides a contrary direction in a will, trust, power of attorney or other record, provided the tool lets the user modify or delete the direction at all times.\n\nOne thing to note about the chapter's name rather than its content. §44-5B-1 calls it \"the West Virginia **Uniform** Fiduciary Access to Digital Assets Act\", dropping the \"Revised\", while the text is the revised 2015 act — §44-5B-4's online-tool priority and §44-5B-16's sixty-day compliance duty are RUFADAA sections, not the superseded 2014 act's. The short title is the usual way to identify a regime and here it under-reports. Delaware supplies the opposite failure in the same lane: its chapter 49A mirrors the Uniform Power of Attorney Act's numbering down to §104 while inverting that section's rule, and its chapter 50 is a non-uniform 2014 digital-assets act rather than RUFADAA. Neither a short title nor an architecture identifies a regime on its own.",
+   "citations": [
+    "wv-44-5b-1",
+    "wv-44-5b-4"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "conservator",
+    "agent",
+    "trustee"
+   ],
+   "diff": "The fiduciary route is the uniform one, with the request mechanics in §§44-5B-7 to 44-5B-15 by class of fiduciary and asset. §44-5B-16(a) gives the custodian **60 days** from receipt of the required information to disclose or terminate the account, and on failure the fiduciary or designated recipient \"may apply to the court for an order directing compliance\" — an order that must contain a finding that compliance does not violate 18 U.S.C. §2702.",
+   "citations": [
+    "wv-44-5b-1",
+    "wv-44-5b-4",
+    "wv-44-5b-16"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "donor",
+    "agent under a medical power of attorney",
+    "document of gift"
+   ],
+   "diff": "West Virginia is on the Revised Uniform Anatomical Gift Act (2008), and §16-19-4 includes the agent under a medical power of attorney among those who may make a gift during the donor's life, unless the instrument prohibits it.\n\n§16-19-5(a) carries the widest list of documents of gift in this data: a statement or symbol on a driver's license, an identification card, a **voter registration card**, or a **hunting or fishing license**; a will; or, during a terminal illness or injury, any form of communication addressed to at least two adults, one of them a disinterested witness. Revocation or expiry of the licence or card does not invalidate the gift, and a gift by will takes effect on death whether or not the will is ever probated.",
+   "citations": [
+    "wv-16-19-4",
+    "wv-16-19-5"
+   ]
+  }
+ ]
+}
