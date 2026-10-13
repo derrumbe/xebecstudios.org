@@ -1559,7 +1559,10 @@
     "citations": [
      "de-12-2306",
      "de-12-2307"
-    ]
+    ],
+    "threshold": 50000,
+    "currency": "USD",
+    "waitingDays": 30
    },
    "probateGrantName": {
     "value": "letters testamentary / letters of administration",
@@ -1884,7 +1887,13 @@
      "md-et-5-601",
      "md-et-5-602",
      "md-et-5-603"
-    ]
+    ],
+    "threshold": 50000,
+    "currency": "USD",
+    "thresholdAlt": {
+     "amount": 100000,
+     "condition": "the surviving spouse is the sole legatee or heir"
+    }
    },
    "probateGrantName": {
     "value": "letters of administration",
@@ -2178,7 +2187,10 @@
      "va-64-2-600",
      "va-64-2-601",
      "va-64-2-602"
-    ]
+    ],
+    "threshold": 75000,
+    "currency": "USD",
+    "waitingDays": 60
    },
    "probateGrantName": {
     "value": "qualification before the clerk; letters of administration",
@@ -2469,7 +2481,10 @@
     "citations": [
      "ok-58-393",
      "ok-58-245"
-    ]
+    ],
+    "threshold": 50000,
+    "currency": "USD",
+    "waitingDays": 10
    },
    "probateGrantName": {
     "value": "letters testamentary / letters of administration",
@@ -2730,11 +2745,14 @@
    },
    "smallEstateWithoutGrant": {
     "value": true,
-    "note": "§75-3-1201 lets a successor collect personal property on an affidavit 30 days after death where the whole estate subject to administration, less liens and encumbrances, does not exceed $100,000 and no personal representative has been appointed or applied for. The figure is flat: §75-1-110 indexes the spouse's intestate share, elective share, homestead allowance, exempt property and family allowance to the CPI, and §75-3-1201 is not in that list.",
+    "note": "§75-3-1201 lets a successor collect personal property on an affidavit 30 days after death where the whole estate subject to administration, less liens and encumbrances, does not exceed $100,000 and no personal representative has been appointed or applied for. The figure is flat: §75-1-110 indexes the spouse's intestate share, elective share, homestead allowance, exempt property and family allowance to the CPI, and §75-3-1201 is not in that list. The figure and the 30-day wait are quoted from §75-3-1201 in the overlay (retrieved 2 October 2026); le.utah.gov could not be re-fetched on 12 October 2026 because it serves an incomplete certificate chain and the issuing intermediate’s host is denied by the egress policy.",
     "citations": [
      "ut-75-3-1201",
      "ut-75-1-110"
-    ]
+    ],
+    "threshold": 100000,
+    "currency": "USD",
+    "waitingDays": 30
    },
    "probateGrantName": {
     "value": "letters",
@@ -3012,7 +3030,7 @@
     "value": true,
     "threshold": 150000,
     "currency": "USD",
-    "waitingDays": null,
+    "waitingDays": 0,
     "note": "Affidavit for personal property up to $150,000, excluding registered motor vehicles (P.A. 104-346; P.A. 104-624 eff. Jan. 1, 2027 narrows the vehicle exclusion), usable when no letters of office are outstanding or contemplated. No waiting period appears in the text of §25-1 (full section searched on 2026-09-16). Real estate not covered.",
     "citations": [
      "il-pa-25-1",
@@ -3422,10 +3440,14 @@
     "threshold": 200000,
     "currency": "USD",
     "waitingDays": null,
-    "note": "Louisiana's small succession threshold is the highest of the US jurisdictions covered here: $200,000 of gross value for a decedent domiciled in the state under C.C.P. art. 3421, and $125,000 for an ancillary succession of someone domiciled elsewhere.",
+    "note": "Louisiana's small succession threshold is the highest of the US jurisdictions covered here, and art. 3421 defines three cases rather than one: $200,000 of gross value for a decedent domiciled in the state, $125,000 for an ancillary succession of someone domiciled elsewhere, and — with no ceiling at all — the succession of a person whose death occurred at least twenty years before the small succession affidavit is executed. The threshold recorded here is the first.",
     "citations": [
      "la-ccp-3421"
-    ]
+    ],
+    "thresholdAlt": {
+     "amount": 125000,
+     "condition": "ancillary succession of a person who died domiciled outside Louisiana"
+    }
    },
    "probateGrantName": {
     "value": "letters testamentary (on confirmation)",
@@ -4660,7 +4682,11 @@
     "citations": [
      "nj-rs-3B-10-3",
      "nj-rs-3B-10-4"
-    ]
+    ],
+    "thresholdAlt": {
+     "amount": 20000,
+     "condition": "no surviving spouse, civil union partner or domestic partner, so the heirs take under 3B:10-4"
+    }
    },
    "probateGrantName": {
     "value": "letters testamentary / letters of administration",
@@ -5128,7 +5154,11 @@
     "note": "Ohio releases an estate from administration by court order rather than on a presented affidavit, which is a different mechanism from the uniform small-estate affidavit. R.C. 2113.03 allows it where assets are $35,000 or less, or $100,000 or less where the surviving spouse is the sole devisee or heir. The threshold recorded here is the general figure.",
     "citations": [
      "oh-orc-2113-03"
-    ]
+    ],
+    "thresholdAlt": {
+     "amount": 100000,
+     "condition": "the surviving spouse is the sole devisee under the will or takes the whole estate on intestacy"
+    }
    },
    "probateGrantName": {
     "value": "letters testamentary / letters of administration",
