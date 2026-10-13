@@ -1817,6 +1817,7 @@
       ['RUFADAA §16', [1, 1, 1]],
       ['Del. §§2306–7', [0, 1, 1]],
       ['supported dec.-making', [0, 0, 1]],
+      ['Mo. §404.719', [0, 0, 1]],
     ];
     const cols = ['duty', 'remedy', 'safe harbour'];
     const lw = 150, cw = 100, cwd = 72, ch = 20, gap = 10, top = 32;
@@ -1833,7 +1834,7 @@
       });
     });
     return svgOpen(top + rows.length * (ch + gap) + 4,
-      'Which of duty, remedy and safe harbour each of the four acceptance regimes carries: Idaho and RUFADAA all three, Delaware the remedy and the safe harbour, the supported decision-making statutes the safe harbour alone')
+      'Which of duty, remedy and safe harbour each of the five acceptance regimes carries: Idaho and RUFADAA all three, Delaware the remedy and the safe harbour, the supported decision-making statutes and Missouri the safe harbour alone')
       + out + '</svg>';
   }
 
@@ -1860,6 +1861,37 @@
     });
     return svgOpen(top + rows.length * (ph + gap) + 4,
       'What a later court appointment does to the authority the principal granted: in Virginia the power of attorney continues, in Kentucky and West Virginia it terminates, while in Kentucky a health-care surrogate under an advance directive continues')
+      + out + '</svg>';
+  }
+
+  // Section 18 — the two ways a statute can make an unverified claim usable. Each row is a thing a
+  // claimant presents; the left cell is whether the law moves the liability (a duty, a remedy, an
+  // oath, an immunity), the right whether Missouri lets the relying party demand security instead.
+  // A presence matrix again, so an empty cell has to be drawn rather than omitted: --accent filled
+  // for present, a dashed --dormant outline for absent. One hue plus gray.
+  function figSecurity() {
+    const rows = [
+      ['power of attorney', 1, 1],
+      ['certification of trust', 0, 1],
+      ['small-estate claim', 1, 1],
+      ['creditor, no letters', 0, 1],
+    ];
+    const cols = ['elsewhere: duty or oath', 'Missouri: security'];
+    const lw = 160, cw = 142, cwd = 112, ch = 20, gap = 11, top = 34;
+    let out = cols.map((c, i) =>
+      `<text x="${lw + i * cw + cw / 2}" y="20" text-anchor="middle" class="fig-t">${esc(c)}</text>`).join('');
+    rows.forEach(([label, a, b], r) => {
+      const y = top + r * (ch + gap);
+      out += `<text x="0" y="${y + ch / 2 + 4}" class="fig-l">${esc(label)}</text>`;
+      [a, b].forEach((on, i) => {
+        const x = lw + i * cw + (cw - cwd) / 2;
+        out += on
+          ? `<rect x="${x}" y="${y}" width="${cwd}" height="${ch}" rx="3" fill="var(--accent)"/>`
+          : `<rect x="${x}" y="${y}" width="${cwd}" height="${ch}" rx="3" fill="none" stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 3" opacity=".7"/>`;
+      });
+    });
+    return svgOpen(top + rows.length * (ch + gap) + 4,
+      'For each thing a claimant presents, whether some jurisdiction in this set moves the liability by law and whether Missouri lets the relying party demand security instead: a power of attorney and a small-estate claim have both, while a certification of trust and a creditor seeking refusal of letters have only the Missouri security route')
       + out + '</svg>';
   }
 
@@ -1935,6 +1967,7 @@
       case 15: return figWrap(figAccept(), 'Every regime carries the safe harbour. Only two carry the duty.');
       case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
       case 17: return figWrap(figTermination(), 'One event, three answers \u2014 and two of them inside Kentucky.');
+      case 18: return figWrap(figSecurity(), 'Where the law moves liability, and where Missouri asks for collateral instead.');
       default: return '';
     }
   }

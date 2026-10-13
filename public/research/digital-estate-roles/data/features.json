@@ -2942,6 +2942,302 @@
    }
   ]
  },
+ "us-mo": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "Emphatically not, and by the strictest test here. §404.705(1) makes a written power durable only if all three of: it is denominated a \"Durable Power of Attorney\"; it recites, in substance, one of two sentences the statute prints in capitals; and it is subscribed, dated and acknowledged in the manner prescribed for conveyances of real estate. §404.810 carries the same requirements into the health-care power of attorney. Missouri took no uniform power-of-attorney act — §404.700 is its own 1989 \"Durable Power of Attorney Law of Missouri\".",
+    "citations": [
+     "mo-404-705",
+     "mo-404-700",
+     "mo-404-810"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "No registration gate: §404.705(3) says a durable power \"does not have to be recorded to be valid and binding\", except as recording is required for real-estate transactions. Recording appears instead on the way *out* — §404.717(1)(3) lets a written notice of modification or termination be filed for record with the recorder of deeds in the principal's county, which is the only public revocation register in this data.",
+    "citations": [
+     "mo-404-705",
+     "mo-404-717"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "§404.825: the agent's powers \"shall commence upon a certification by two licensed physicians based upon an examination of the patient\" that the patient is incapacitated and will remain so for the period over which decisions are required, one of whom may be the attending physician — though the section's last sentence says certification by at least one physician is required. The powers cease on certification that the patient is no longer incapacitated, and the determination \"shall be periodically reviewed by the attending physician\" with no interval stated. A declaration under ch. 459 instead becomes operative only once the condition is determined terminal and the declarant unable to decide (§459.025).",
+    "citations": [
+     "mo-404-825",
+     "mo-459-025"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Missouri Fiduciary Access to Digital Assets Act, §§472.400 to 472.490 (2018 H.B. 1250) — substantively the revised 2015 act, though §472.400's short title drops the \"Revised\", as West Virginia's does. Filed inside chapter 472, the probate code's general provisions, rather than in a chapter of its own. §472.465 gives a conservator access only after an opportunity for a hearing.",
+    "citations": [
+     "mo-472-400",
+     "mo-472-470",
+     "mo-472-475"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§472.415(1): an online-tool direction overrides a contrary direction in a will, trust, power of attorney or other record where the tool allows the user to modify or delete the direction at all times.",
+    "citations": [
+     "mo-472-415"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act, §§194.210 to 194.304 (2008 S.B. 1139). §194.292 treats a document of gift as valid if executed under Missouri law, the law of the place of execution, or the law of the donor's domicile, residence or nationality, and lets a person presume validity absent knowledge of invalid execution or revocation. Separately, §194.119 ranks the holders of the right of sepulcher, putting an attorney in fact specifically granted that right first and a service member's Department of Defense Form 93 designee second, ahead of the spouse.",
+    "citations": [
+     "mo-194-292",
+     "mo-194-290",
+     "mo-194-119"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "§473.097 reaches **$40,000** after **30 days** and the distributees take \"without awaiting the granting of letters\", so no grant issues — but the route runs through the probate division rather than across a counter: it requires a bond for not less than the value of the personal property, approved by the judge or clerk and conditioned on paying the decedent's debts, unless the court dispenses with it; a fee under §483.580; and, where required, the publication cost of notice to creditors. §473.090 is a separate discretionary route — refusal of letters — available where the estate does not exceed the exempt property plus the spouse's or unmarried minor children's statutory allowance (no stated amount), or, on a creditor's application where there is no surviving spouse or unmarried minor child, where the personal estate is no more than $15,000, again on bond.",
+    "citations": [
+     "mo-473-097",
+     "mo-473-090",
+     "mo-473-091"
+    ],
+    "threshold": 40000,
+    "currency": "USD",
+    "waitingDays": 30,
+    "thresholdAlt": {
+     "amount": 15000,
+     "condition": "on a creditor’s application for refusal of letters under §473.090, where there is no surviving spouse or unmarried minor child, on bond"
+    }
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "§473.023: \"The probate division of the circuit court, or the clerk thereof, subject to modification or revocation by the court, shall grant letters testamentary and of administration.\" Bond is the default (§473.157), with exits in §473.160 and revocation of letters under §473.200 for failure to give one. Guardianship and conservatorship have their own letters under §475.030.",
+    "citations": [
+     "mo-473-023",
+     "mo-473-157",
+     "mo-473-160"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "mo-404-705",
+    "cite": "Mo. Rev. Stat. § 404.705",
+    "title": "Durable power of attorney, procedure to create, requirements, effect",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.705",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. The authority granted by a principal to an attorney in fact in a written power of attorney is not terminated in the event the principal becomes wholly or partially disabled or incapacitated … if: (1) The power of attorney is denominated a \"Durable Power of Attorney\"; (2) The power of attorney includes a provision that states in substance one of the following: (a) \"THIS IS A DURABLE POWER OF ATTORNEY AND THE AUTHORITY OF MY ATTORNEY IN FACT SHALL NOT TERMINATE IF I BECOME DISABLED OR INCAPACITATED OR IN THE EVENT OF LATER UNCERTAINTY AS TO WHETHER I AM DEAD OR ALIVE\"; or (b) \"THIS IS A DURABLE POWER OF ATTORNEY AND THE AUTHORITY OF MY ATTORNEY IN FACT, WHEN EFFECTIVE, SHALL NOT TERMINATE OR BE VOID OR VOIDABLE IF I AM OR BECOME DISABLED OR INCAPACITATED …\"; and (3) The power of attorney is subscribed by the principal, and dated and acknowledged in the manner prescribed by law for conveyances of real estate. … 4. A person who is appointed an attorney in fact under a durable power of attorney has no duty to exercise the authority conferred in the power of attorney … unless the attorney in fact has agreed expressly in writing to act for the principal in such circumstances."
+   },
+   {
+    "id": "mo-404-700",
+    "cite": "Mo. Rev. Stat. § 404.700",
+    "title": "Law, how cited",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.700",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "Sections 404.700 to 404.735 may be cited as the \"Durable Power of Attorney Law of Missouri\"."
+   },
+   {
+    "id": "mo-404-810",
+    "cite": "Mo. Rev. Stat. § 404.810",
+    "title": "Applicability of general law",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.810",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "Section 404.710, section 404.714, section 404.705, subsections 1 and 2 of section 404.707, section 404.717, subsection 1 and 2 of section 404.723, section 404.727, and section 404.731 shall apply to powers granted under sections 404.800 to 404.865. No other provisions of sections 404.700 to 404.735 shall apply to the durable power of attorney for health care act unless specifically incorporated by reference therein."
+   },
+   {
+    "id": "mo-404-717",
+    "cite": "Mo. Rev. Stat. § 404.717",
+    "title": "Modification and termination of power of attorney — liability between principal and attorney in fact",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.717",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. … the authority granted in a power of attorney shall be modified or terminated as follows: (1) On the date shown in the power of attorney …; (2) When the principal, orally or in writing, or the principal’s legal representative with approval of the court in writing informs the attorney in fact or successor that the power of attorney is modified or terminated …; (3) When a written notice of modification or termination of the power of attorney is filed by the principal or the principal’s legal representative for record in the office of the recorder of deeds in the city or county of the principal’s residence …; (4) On the death of the principal …; (5) When the attorney in fact under a durable power of attorney is not qualified to act for the principal; (6) On the filing of any action for divorce or dissolution of the marriage of the principal and the principal’s attorney in fact …"
+   },
+   {
+    "id": "mo-404-825",
+    "cite": "Mo. Rev. Stat. § 404.825",
+    "title": "Examination of patient required, content",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.825",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "Unless the patient expressly authorizes otherwise in the power of attorney, the powers and duties of the attorney in fact to make health care decisions shall commence upon a certification by two licensed physicians based upon an examination of the patient that the patient is incapacitated and will continue to be incapacitated for the period of time during which treatment decisions will be required and the powers and duties shall cease upon certification that the patient is no longer incapacitated. One of the certifying physicians may be the patient’s attending physician. … The determination of incapacity shall be periodically reviewed by the attending physician. The certification shall be incorporated into the medical records and shall set forth the facts upon which the determination of incapacity is based and the expected duration of the incapacity. Other provisions of this section to the contrary notwithstanding, certification of incapacity by at least one physician is required."
+   },
+   {
+    "id": "mo-459-025",
+    "cite": "Mo. Rev. Stat. § 459.025",
+    "title": "Declaration operative, when",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=459.025",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "The directions of a declarant able to make treatment decisions shall at all times supersede the declaration. The declaration shall be given operative effect only if the declarant’s condition is determined to be terminal and the declarant is not able to make treatment decisions. Such determinations shall be recorded in the declarant’s medical record. … The declaration to withdraw or withhold treatment by a patient diagnosed as pregnant by the attending physician shall have no effect during the course of the declarant’s pregnancy."
+   },
+   {
+    "id": "mo-472-400",
+    "cite": "Mo. Rev. Stat. § 472.400",
+    "title": "Citation of law",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=472.400",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "Sections 472.400 to 472.490 shall be known and may be cited as the \"Missouri Fiduciary Access to Digital Assets Act\"."
+   },
+   {
+    "id": "mo-472-470",
+    "cite": "Mo. Rev. Stat. § 472.470",
+    "title": "Fiduciary, legal duties — authority over user’s digital assets",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=472.470",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including: (1) The duty of care; (2) The duty of loyalty; and (3) The duty of confidentiality. 2. A fiduciary’s or designated recipient’s authority with respect to a digital asset of a user: … (4) May not be used to impersonate the user."
+   },
+   {
+    "id": "mo-472-475",
+    "cite": "Mo. Rev. Stat. § 472.475",
+    "title": "Time period to comply with disclosure requests — denial of request — court order",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=472.475",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. Not later than sixty days after receipt of the information required under sections 472.430 to 472.470, a custodian shall comply with a request … to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance."
+   },
+   {
+    "id": "mo-472-415",
+    "cite": "Mo. Rev. Stat. § 472.415",
+    "title": "Disclosure of digital assets, use of online tool to direct custodian",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=472.415",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user’s digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+   },
+   {
+    "id": "mo-194-292",
+    "cite": "Mo. Rev. Stat. § 194.292",
+    "title": "Requirements for valid execution of a document of gift — presumption of validity, when",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.292",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. A document of gift is valid if executed in accordance with: (1) Sections 194.210 to 194.294; (2) The laws of the state or country where it was executed; or (3) The laws of the state or country where the person making the anatomical gift was domiciled … 3. A person may presume that a document of gift or amendment of an anatomical gift is valid unless that person knows that it was not validly executed or was revoked."
+   },
+   {
+    "id": "mo-194-290",
+    "cite": "Mo. Rev. Stat. § 194.290",
+    "title": "Declarations and advance health care directives — gift in conflict with, donor or physician to resolve",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.290",
+    "kind": "statute",
+    "retrieved": "2026-10-13"
+   },
+   {
+    "id": "mo-194-119",
+    "cite": "Mo. Rev. Stat. § 194.119",
+    "title": "Right of sepulcher, the right to choose and control final disposition of a dead human body",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.119",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "2. … the term \"next-of-kin\" means the following persons in the priority listed if such person is eighteen years of age or older, is mentally competent, and is willing to assume responsibility for the costs of disposition: (1) An attorney in fact designated in a durable power of attorney wherein the deceased specifically granted the right of sepulcher over his or her body to such attorney in fact; (2) For a decedent who was on active duty in the United States military at the time of death, the person designated by such decedent in the written instrument known as the United States Department of Defense Form 93, Record of Emergency Data, in accordance with 10 U.S.C. Section 1482; (3) The surviving spouse …; (4) Any surviving child of the deceased …"
+   },
+   {
+    "id": "mo-473-097",
+    "cite": "Mo. Rev. Stat. § 473.097",
+    "title": "Small estate — distribution of assets without letters, when — affidavit — procedure — fee",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.097",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. Distributees of an estate … have a defeasible right to the personal property, and are entitled to the real property of such estate … without awaiting the granting of letters testamentary or of administration, if all of the following conditions are met: (1) The value of the entire estate, less liens, debt, and encumbrances, does not exceed forty thousand dollars; (2) Thirty days have elapsed since the death of the decedent and no application for letters or for administration or for refusal of letters under section 473.090 is pending or has been granted …; (3) A bond, in an amount not less than the value of the personal property, approved by the judge or clerk of the probate division is filed by the person making the required affidavit conditioned upon the payment of the debts of the decedent … except that, the court may dispense with the filing of a bond if it finds that the same is not necessary; (4) A fee … and when required, the publication cost of the notice to creditors are paid …"
+   },
+   {
+    "id": "mo-473-090",
+    "cite": "Mo. Rev. Stat. § 473.090",
+    "title": "Refusal of letters",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.090",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. … the probate division of the circuit court, in its discretion, may at any time refuse to grant letters in the following cases: (1) When the estate of the decedent is not greater in amount than is allowed by law as exempt property and the allowance to the surviving spouse or unmarried minor children under section 474.260; (2) When the personal estate of the decedent does not exceed fifteen thousand dollars and there is no widower, widow or unmarried minor children, any creditor of the decedent … may apply for refusal of letters by giving bond in the sum of not less than the value of the estate … The court may dispense with the filing of a bond if the court finds the bond is not necessary. 2. … the court may order that no letters of administration shall be issued on the estate …"
+   },
+   {
+    "id": "mo-473-091",
+    "cite": "Mo. Rev. Stat. § 473.091",
+    "title": "Clerk’s duties as to certain forms — not practice of law",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.091",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "Upon request to the judge of the probate division of the circuit court, clerks of the court may under his supervision assist in filling out all forms necessary for obtaining an order of refusal of letters of administration pursuant to section 473.090, and the performance of the duties required by this section shall not constitute the practice of law as defined in section 484.010."
+   },
+   {
+    "id": "mo-473-023",
+    "cite": "Mo. Rev. Stat. § 473.023",
+    "title": "Court or clerk to grant letters",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.023",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "The probate division of the circuit court, or the clerk thereof, subject to modification or revocation by the court, shall grant letters testamentary and of administration."
+   },
+   {
+    "id": "mo-473-157",
+    "cite": "Mo. Rev. Stat. § 473.157",
+    "title": "Bond of personal representative — conditions of bond",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.157",
+    "kind": "statute",
+    "retrieved": "2026-10-13"
+   },
+   {
+    "id": "mo-473-160",
+    "cite": "Mo. Rev. Stat. § 473.160",
+    "title": "Bond not required, when",
+    "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.160",
+    "kind": "statute",
+    "retrieved": "2026-10-13",
+    "quote": "1. When, by the terms of the will, the testator expresses a wish that no bond be required of the personal representative, no bond shall be required unless the court, in its discretion, finds it proper to require it … 4. No bond shall be required if the court, upon good cause shown, finds that a bond is not required for the protection of interested parties."
+   }
+  ]
+ },
  "us-ok": {
   "features": {
    "deceasedPersonalDataProtected": {

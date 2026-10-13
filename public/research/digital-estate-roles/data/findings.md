@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 52 | **24** |
-| `conservator-estate` | 55 | 21 |
-| `personal-representative-administrator` | 48 | 20 |
-| `anatomical-gift-agent` | 49 | 19 |
-| `financial-poa-durable` | 46 | 17 |
-| `guardian-person` | 46 | 17 |
-| `health-care-agent` | 44 | 14 |
+| `personal-representative-executor` | 53 | **24** |
+| `conservator-estate` | 56 | 21 |
+| `personal-representative-administrator` | 49 | 20 |
+| `anatomical-gift-agent` | 50 | 19 |
+| `financial-poa-durable` | 47 | 17 |
+| `guardian-person` | 47 | 17 |
+| `health-care-agent` | 45 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 26 | **4** |
-| `online-tool-designee` | 23 | **2** |
+| `digital-assets-fiduciary` | 27 | **4** |
+| `online-tool-designee` | 24 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 22 of the 42 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 23 of the 43 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,7 +106,7 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 25** of the 46 jurisdictions that record it and **true in 21**
+`poaDurableByDefault` is **false in 26** of the 47 jurisdictions that record it and **true in 21**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
 that took the Uniform Power of Attorney Act: Idaho, Illinois, **Kentucky**, Maine, Michigan, New
 York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and **West Virginia**, with
@@ -159,9 +159,25 @@ section — §58-3003 applies the 2021 act to all powers of attorney bar four ca
 durability rule off §15-1004, which is still in the statute book and still says the opposite,
 gets it backwards.
 
+Missouri marks the far end of the opt-in majority, and it is further out than anything else here.
+Delaware's §49A-104 wants one sentence; Washington and New Jersey want words to similar effect.
+§404.705(1) wants **three cumulative things**: the instrument must be *denominated* a "Durable Power
+of Attorney"; it must contain, in substance, one of **two sentences the statute prints in capitals**;
+and it must be subscribed, dated and "acknowledged in the manner prescribed by law for conveyances of
+real estate". A Missouri power of attorney that is notarised and says plainly that it survives
+incapacity, but is headed "General Power of Attorney", has failed the first condition. §404.810 then
+carries all three into the health-care power of attorney, so the same magic words gate the authority
+to refuse treatment.
+
+Put the two poles beside each other and the spread on this single question is the widest in the file:
+in twenty-one jurisdictions a power is durable because the legislature says so unless the document
+objects, and in Missouri it is durable only if the document is titled correctly, recites prescribed
+capitals and is acknowledged to the standard required for transferring land. Both are described in
+the same four words — "durable power of attorney".
+
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 40 jurisdictions that record it and false in 30.
+`poaRegistrationBeforeUse` is true in 10 of the 41 jurisdictions that record it and false in 31.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -176,7 +192,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 35** of the 45 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 36** of the 46 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -195,10 +211,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 42 | 5 |
-| `benefits-payee` | 36 | 5 |
-| `tax-representative` | 36 | 5 |
-| `veterans-fiduciary` | 29 | 3 |
+| `health-records-representative` | 43 | 5 |
+| `benefits-payee` | 37 | 5 |
+| `tax-representative` | 37 | 5 |
+| `veterans-fiduciary` | 30 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -303,7 +319,7 @@ petitioner to serve as personal representative and issues letters (§§5-602, 5-
 then adds a third shape at the other extreme, a tier with **no document at all**. Kentucky goes
 furthest of all: no ceiling anywhere in its scheme, and no affidavit either.
 
-So there are at least five mechanisms wearing one name:
+So there are at least six mechanisms wearing one name:
 
 | | What the successor does |
 |---|---|
@@ -312,6 +328,7 @@ So there are at least five mechanisms wearing one name:
 | **New York**, **Maryland** | files with the court or register and acts under a grant it issues |
 | **Idaho**, **Oklahoma** | petitions for a decree or summary administration with no ceiling at all |
 | **Kentucky** | asks the court to dispense with administration altogether, on no ceiling at all |
+| **Missouri** | swears an affidavit **and posts a bond** approved by the probate division, and pays a fee |
 
 **Kentucky has no monetary threshold at all**, and is the only US jurisdiction here that does not.
 It has no small-estate affidavit either. Instead the District Court may dispense with administration
@@ -341,6 +358,20 @@ Kentucky therefore has no row in the table below, and `scripts/check-findings.py
 `threshold` and `waitingDays` are null because the statutes state no amount and no uniform wait, not
 because nobody looked.
 
+Missouri is the opposite kind of outlier, and it shows that the ceiling is not the only thing worth
+recording about these routes. Its §473.097 looks ordinary in the table — $40,000, thirty days, an
+affidavit — but the affidavit is only the first of four conditions, and the other three run through
+the probate division: a **bond** for not less than the value of the personal property, approved by
+the judge or clerk and conditioned on paying the decedent's debts and complying with future orders
+of the court, unless the court dispenses with it; a **fee** under §483.580; and, where required, the
+**publication cost of notice to creditors**. Missouri's second route, refusal of letters under
+§473.090, requires a bond too.
+
+So a Missouri successor at $39,000 posts security and pays a filing fee, where a Texas successor at
+$74,000 signs a form and hands it to a bank. Two states, nearly the same number, and a completely
+different transaction. The number is the part a protocol is most tempted to encode and the least
+informative thing in the row.
+
 The threshold varies across all of them. Every amount and wait in this table is now checked against
 the `smallEstateWithoutGrant` feature data by `scripts/check-findings.py`, which fails if the two
 drift apart, if a jurisdiction with a recorded ceiling has no row, or if a row claims a waiting
@@ -355,6 +386,7 @@ period the data does not record:
 | Uniform Probate Code §3-1201 (the model) | $25,000 | 30 days | — |
 | Ohio | $35,000 | — | $100,000 where the surviving spouse takes the whole estate |
 | Maine | $40,000 | 30 days | CPI-indexed |
+| Missouri | $40,000 | 30 days | $15,000 where a creditor applies and there is no surviving spouse or unmarried minor child |
 | Delaware | $50,000 | 30 days | — |
 | Maryland | $50,000 | — | $100,000 where the surviving spouse is the sole legatee or heir |
 | Michigan | $50,000 | 28 days | — |
@@ -495,6 +527,23 @@ required to create a valid power of attorney"). For a medical power of attorney 
 not the principal's. One state, two instruments, and the notary is authenticating a different person
 in each. A rule of the form "check that the notarial certificate covers the grantor" is correct for
 one of these documents and wrong for the other, within one state's code.
+
+Missouri holds both poles inside a single instrument, which is sharper than holding them in two.
+A Missouri health-care power of attorney is the most formal document in this file: §404.810 pulls in
+§404.705, so it must be titled "Durable Power of Attorney", recite one of two capitalised statutory
+sentences, and be acknowledged to the standard required for conveying real estate. §404.850(1) then
+provides that it "may be revoked at any time and **in any manner by which the patient is able to
+communicate** the intent to revoke", effective on communication to the agent or to the attending
+physician. The same piece of paper needs a notary and magic words to exist and a murmur to disappear,
+and the only trace is §404.850(2)'s duty on the provider to note the revocation in the medical
+record. The financial version is the same shape: §404.717(1)(2) lets the principal terminate
+**orally**.
+
+Missouri's living will adds a quieter variant of the same point. §459.015(1)(4) requires two
+witnesses **only "if not wholly in the declarant's handwriting"** — so a declaration written out
+longhand and signed needs no witness at all, while the same words typed need two. Formality attaches
+to the medium rather than to the decision, which is the oldest rule in the book about wills turning
+up in the newest part of this data.
 
 Kentucky then marks the formless pole for the financial instrument, and it does so by being
 *uniform* rather than unusual. §457.050 requires a signature and nothing else; notarisation earns
@@ -778,7 +827,7 @@ Virginia rows are the ones that break the self-asserted-to-attested line it used
 | Utah default surrogate | declaration on a state form | the claimant, under penalty of perjury |
 | **Maryland** friend or other relative | **affidavit of specific facts showing regular contact** | **the claimant — and the physician must file it in the medical record** |
 | French heir | *acte de notoriété* or *livret de famille* | a notary, or the civil register |
-| **Oklahoma, Virginia** health-care agent | **nothing — a register is consulted** | **a state department, on its own record** |
+| **Oklahoma, Virginia, Missouri** health-care agent | **nothing — a register is consulted** | **a state department, on its own record (in Missouri, a third party under contract to it)** |
 
 Virginia's row is the odd one because it produces nothing and is *not* the weakest. §54.1-2986's
 last class — an adult who has exhibited special care and concern — hands the question to the
@@ -800,6 +849,36 @@ their standing at all: a clinician confers it, and the artefact is that clinicia
 selection. For a relying party outside the health system — a bank, a custodian, a platform — this is
 the hardest row in the table to verify, because the document that creates the authority is a note in
 someone else's file.
+
+Missouri is the limiting case of this whole table, because it is the one jurisdiction where the
+claimant in several of these rows **does not exist**. It has no default health-care surrogate: no
+statutory list of relatives, no last-resort class, nothing. The catchlines of chapters 404, 459, 475,
+191 and 194 contain no "surrogate"; the revisor's full-text search, checked against a positive
+control, finds the word only in chapter 162, where it means a surrogate *parent* in special
+education. §191.240 mentions "a person authorized to make health care decisions for the patient" in
+passing without creating one. What Missouri offers instead is three routes that all require an
+instrument or a judge — a durable power of attorney for health care under §§404.800 to 404.872, a
+declaration under §§459.010 to 459.055, or a guardianship, after which §475.120(3) gives the guardian
+the ward's "health" and the duty to "provide required consents". Every other US jurisdiction here
+lets a spouse or an adult child decide by operation of law; Missouri sends the same decision to the
+probate division. The role is dropped from its row rather than recorded as empty, which is why
+`default-surrogate` does not move when Missouri is added.
+
+Missouri also supplies the two ends of a smaller question this table raises but does not ask: **who
+is expected to help the claimant produce the artefact?** Maryland requires a **supervising attorney**
+to be present, physically or electronically, before a remotely witnessed power of attorney is valid —
+the only place in this data where a lawyer's participation is a condition of a valid instrument.
+Missouri's §473.091 goes the other way and says so expressly: the clerks of the probate division
+"may … assist in filling out all forms necessary" for an order refusing letters, and doing so "shall
+not constitute the practice of law". One state makes a professional a precondition; the other
+deputises a counter clerk and immunises them for it.
+
+One artefact in Missouri comes from outside the state's law altogether. §194.119, which ranks the
+holders of the right of sepulcher, puts an attorney in fact specifically granted that right first and
+then, for a decedent on active military duty, **the person named on United States Department of
+Defense Form 93** — ahead of the surviving spouse. A federal personnel record decides a state-law
+priority, which is the only instance here of a document issued by another sovereign controlling who
+holds one of these roles.
 
 Read the right-hand column on its own and it turns into a second scale, about **who the law trusts to
 decide that an adult has lost capacity**. Its two ends are both in states added here. West Virginia
@@ -847,13 +926,13 @@ and one asserting "holder is the surrogate" is making a claim that may be false 
 Whatever a standard does about health care has to treat the authority as a question to be asked at
 the moment of use, not a fact to be cached.
 
-## 15. Acceptance is already solved in statute, four times over, with the same three parts
+## 15. Acceptance is already solved in statute, five times over, with the same three parts
 
 The question an evidence layer exists to answer is not "who may act" — §1 says that is settled
-nearly everywhere — but "why would the party holding the asset say yes?" Four regimes in this data
+nearly everywhere — but "why would the party holding the asset say yes?" Five regimes in this data
 answer it, and they are built from the same three components: a **duty** to accept, a **remedy** if
 the holder refuses, and a **safe harbour** for the holder that accepts. No two of them carry the
-same subset.
+same subset, and the fifth answers the question with a fourth component the others do not have.
 
 | | Duty to accept | Remedy for refusal | Safe harbour for accepting |
 |---|---|---|---|
@@ -862,6 +941,7 @@ same subset.
 | **RUFADAA §16** (the model and the 15 RUFADAA states here) | a custodian, within 60 days of a complying request | court order directing compliance | immune for an act or omission in good faith in compliance |
 | **Delaware**, 12 Del. C. §§2306–2307 | — | recovery or compulsion in the Court of Chancery | released as if paid to the personal representative; no duty to inquire into the truth of the affidavit |
 | **Supported decision-making** (Del. §9408A, Utah §75-5-709) | — | — | immunity, and in Utah presumptions that the signatures and the authority are genuine |
+| **Missouri**, §§404.719, 456.10-1013 | — | — | eleven items a good-faith third person need not inquire into, absent actual knowledge — **plus a right to demand security**: indemnity against forgery by bond, or a certification of trust acknowledged or guaranteed |
 
 Two of those rows are the same drafting travelling under different names. Idaho's acceptance regime
 **is** the uniform power-of-attorney one, lifted out of §§119–120 and pointed at every substitute
@@ -912,7 +992,7 @@ form, any acknowledged power of attorney, any substitute decision-making documen
 of drafting.
 
 Read down the last column rather than the first. The duty is the component a standards body cannot
-supply, and where it exists it is usually narrow; the safe harbour is in **all four**, and it is the component that
+supply, and where it exists it is usually narrow; the safe harbour is in **all five**, and it is the component that
 actually moves a relying party, because it converts "I might be sued for getting this wrong" into "I
 am protected if I act in good faith on what I was shown". Delaware's small-estate route is the proof
 of concept: a custodian pays out on a stranger's sworn affidavit, for a $50,000 estate, with no court
@@ -933,6 +1013,23 @@ under §18-109 turns on an assumption that it has not been revoked. Nothing requ
 them. **That blank is the gap, and it is an evidence problem rather than an
 authority problem**: the hard part is not asserting that someone holds a role, it is telling a
 relying party that they have stopped holding it.
+
+**Missouri is the one jurisdiction here that writes anything into that blank**, and it does so three
+times, which is worth more attention than its size suggests. §404.717(1)(3) lets a written notice of
+modification or termination of a power of attorney be **filed for record with the recorder of deeds**
+in the principal's county — a public register of revocations, searchable by anyone, for an instrument
+that needs no registration to be valid in the first place. §404.850(2) obliges the attending
+physician or provider, on learning of a health-care revocation, to put it in the medical record.
+And §459.250 has the Department of Health and Senior Services contract a third party to run an
+online **Advance Health Care Directives Registry** which stores directives *and their revocations*,
+with "any licensed health care provider or licensed attorney" as an intake point.
+
+None of the three is a notification: nobody has to tell a particular custodian anything, and
+§404.719(1)(9) still relieves the third person of any duty to find out. They are **places where the
+revocation can be put**, which is the half of the problem a standard could actually build on — a
+status endpoint is useless without a duty to consult it, and a duty to consult is unenforceable
+without somewhere to look. Missouri has built the second half and left the first, which is the
+mirror image of Idaho, where §15-15-105's duty to accept runs against no register at all.
 
 One asymmetry is worth copying rather than correcting. These statutes protect **refusal** as
 carefully as acceptance. Idaho §15-15-106(2) enumerates five lawful refusals — including that the
@@ -1001,13 +1098,15 @@ from the Uniform Durable Power of Attorney Act which gave a court-appointed fidu
 to revoke or amend a power of attorney as the principal would have if not incapacitated".
 
 Three neighbouring states enacted that section and answered the bracketed question three different
-ways, two of them by writing its inverse:
+ways, two of them by writing its inverse. Missouri, which took no uniform power-of-attorney act at
+all, supplies a fourth answer that is neither:
 
 | | Where the rule lives | What a court appointment does to the agency |
 |---|---|---|
 | **Virginia** | §64.2-1606(B), the §108 slot | **nothing** — "not terminated and the agent's authority continues unless limited, suspended, or terminated by the court" |
 | **West Virginia** | §39B-1-108(b), the §108 slot | **ends it** — "unless otherwise ordered by the court making the appointment, the power of attorney and the agent's authority thereunder terminates upon the appointment" |
 | **Kentucky** | §457.100(1)(c), the **termination** section | **ends it** — the power terminates on the appointment "unless the court specifically provides that the power of attorney shall remain in effect" |
+| **Missouri** | §404.731(3), in the jurisdiction section | **neither** — "the court **may specify in an order** the powers, duties and responsibilities" of the legal representative and the attorney in fact "and the manner in which they shall **coordinate** the exercise of their respective powers" |
 
 West Virginia and Kentucky reach the identical rule and file it in different places, and that is not
 a filing curiosity. A reader asking "when does a West Virginia power of attorney end?" goes to
@@ -1017,6 +1116,19 @@ accomplished, agent gone. The appointment of a conservator is not among them. It
 trigger, sitting two sections earlier under a heading about nominating a guardian. Kentucky, having
 made the same choice, put it in the termination list where someone would look. The rule is equally
 findable in one state and effectively hidden in the other.
+
+Missouri declines the binary. Under §404.731(3) the probate division, having appointed a guardian or
+conservator for a principal who holds a durable power of attorney, may after notice and hearing
+specify by order what each of the two office-holders may do **and how they are to coordinate**. The
+agency neither lapses nor continues of its own force; a judge divides the work. §404.727(5) is the
+menu that order is drawn from, and it is wider than any other court's powers here: direct the agent
+to act or to refrain, modify the authority, **suspend** a power that is not durable, terminate a
+durable one, remove the agent, or **confirm** the authority of an agent or successor.
+
+That last item is worth isolating. Everywhere else in this data a relying party's problem is that
+nobody will tell it whether an authority is still good. Missouri lets an interested person ask a
+court to say so, on the record, in advance — a judicial confirmation of an agent's standing. It is
+the nearest thing in the set to an authority that can be *queried* rather than merely presented.
 
 Then Kentucky does something neither of the others does: it answers the question **differently for
 the person than for the property**.
@@ -1053,6 +1165,66 @@ located in a different chapter from the one the instrument was drafted under. Th
 custodian's hand is unchanged and still looks valid. **A credential that asserts an authority must be
 revocable by events its issuer never sees**, which is an argument for short lifetimes and a status
 channel rather than for richer assertions at issue time.
+
+## 18. Missouri answers the same question with money instead of law
+
+Section 15 sorts the acceptance regimes by three components — a duty to accept, a remedy for
+refusing, a safe harbour for accepting — and every one of them works by **reallocating legal risk**.
+Idaho and the uniform power-of-attorney states put the risk on the refuser through a court order and
+a fee shift. RUFADAA puts it on the custodian through a compliance deadline. Delaware and Utah put
+it on the claimant through a perjury sanction. All of it is law moving liability between parties.
+
+Missouri does something that is not on that axis at all, and it does it four times in four different
+chapters. It lets the relying party demand **security**.
+
+- **A power of attorney.** §404.719(4): a third person asked to deal with an attorney in fact may
+  require specimens of the agent's signature, any other information reasonably necessary, and an
+  indemnity "against forgery of the power of attorney, **by bond or otherwise**". The bond is excused
+  only where the power is durable *and* the principal or the agent has been a Missouri resident for
+  at least two years *and* an indemnity agreement satisfactory to the third person has been
+  delivered.
+- **A certification of trust.** §456.10-1013(2): "A third party **may require that the certification
+  of trust be acknowledged or guaranteed**." Missouri also requires it to be "signed by **all** the
+  trustees", where uniform §1013(b) provides that it "may be signed or otherwise authenticated by
+  **any** trustee" — the wording West Virginia and Kentucky both kept.
+- **A small-estate claim.** §473.097(1)(3): the affiant files a **bond** for not less than the value
+  of the personal property, approved by the judge or clerk of the probate division and conditioned
+  on paying the decedent's debts and complying with the court's future orders, unless the court
+  dispenses with it.
+- **A creditor's claim where no letters issue.** §473.090(1)(2): the creditor applying for refusal
+  of letters gives **bond** in not less than the value of the estate, on the same kind of condition.
+
+Behind these sits a general bond apparatus for personal representatives — some two dozen sections,
+§§473.157 to 473.217, with §473.200 revoking letters outright for failure to give one, and §473.160
+listing the ways out.
+
+The difference between the two designs is worth stating plainly, because it is the difference
+between what a standard can do and what an ecosystem can do. **A duty, a remedy and a safe harbour
+are all attempts to make an unverified assertion safe to rely on.** Security does not try: it
+concedes that the assertion may be false and asks the claimant to cover the loss if it is. One is an
+evidence mechanism, the other is an insurance mechanism, and they fail in opposite directions. The
+evidence mechanism fails when nobody can tell the custodian the truth in time — the gap §15 and §17
+end on. The insurance mechanism fails when the claimant cannot afford the premium, which is why
+Missouri's $39,000 estate is a more expensive transaction than Texas's $74,000 one, and why §473.091
+has the probate clerk fill out the forms for free and declares that doing so "shall not constitute
+the practice of law".
+
+Two details in §404.719(4) repay attention. The first is what the residency exemption is really
+measuring. A bond is excused where the principal or agent has been a Missouri resident for two
+years — not because residents forge fewer powers of attorney, but because a resident is reachable by
+a Missouri court. **The implicit collateral is jurisdictional reach**, which is exactly what a
+cross-border digital-estate claim lacks, and it suggests that the harder a claimant is to sue, the
+more security a relying party will want. Any scheme that lets a designated recipient in one country
+claim an account held in another is, on this reading, the maximum-security case.
+
+The second is the sentence at the end, which is the only place in this data where a statute addresses
+the notification problem from the custodian's side: the third person "may **prescribe the place and
+manner** in which the third person will be given any notice respecting the principal's power of
+attorney and the time in which the third person has to comply with any notice." The relying party
+designs its own channel and sets its own clock, and the statute makes that stipulation binding. It
+is not a standard, and it does not scale — every bank would specify something different, which is
+the problem a profile exists to solve. But it is a legislature recognising that someone has to
+nominate the channel, and deciding it should be the party that has to act on what arrives.
 
 ## What this suggests for a standard
 
@@ -1101,7 +1273,20 @@ channel rather than for richer assertions at issue time.
    rather than for richer assertions at issue time — and it means the same event has to be
    expressible as ending one authority while leaving another intact, because in Kentucky a court
    appointment ends the agent's power over the property and expressly preserves the surrogate's
-   over the person.
+   over the person. Missouri is the one jurisdiction that has built anywhere to *put* a revocation —
+   the recorder of deeds under §404.717(1)(3), the medical record under §404.850(2), the contracted
+   registry under §459.250 — and it still imposes no duty on anyone to look. A place to publish and
+   a duty to consult are separable, and a standard needs both.
+7. **Expect some jurisdictions to answer with collateral rather than evidence.** Missouri lets the
+   relying party demand security instead of trusting the assertion: indemnity against forgery of a
+   power of attorney by bond (§404.719(4)), a certification of trust acknowledged or guaranteed and
+   signed by every trustee (§456.10-1013(2)), a bond from the small-estate affiant (§473.097) and
+   from a creditor seeking refusal of letters (§473.090). §18 argues that this is an insurance
+   mechanism rather than an evidence one, and that the bond exemption's two-year residency test is
+   really measuring whether the claimant is reachable by a local court. A cross-border digital-estate
+   claimant is the least reachable party there is, so a profile should expect to carry
+   indemnity, guarantee or insurance terms alongside the assertion, and should not assume that
+   better evidence removes the demand for security.
 
 ## Terms used here
 

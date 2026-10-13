@@ -1,0 +1,577 @@
+{
+ "jurisdiction": "us-mo",
+ "name": "Missouri",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Trust Code (2000), enacted 2004, with Section 1013(b) varied",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2015), enacted 2018 as the \"Missouri Fiduciary Access to Digital Assets Act\"",
+  "Revised Uniform Anatomical Gift Act (2006), enacted 2008"
+ ],
+ "note": "Missouri took neither the Uniform Power of Attorney Act nor the Uniform Probate Code nor any uniform health-care decisions act, and the result is the most distinctive state in this set. Two things run through it. First, **it answers the relying party's problem with security rather than with duty**: no statute obliges anyone to accept a Missouri power of attorney and none shifts fees on refusal, but §404.719(4) lets the third person demand indemnity against forgery by bond, §456.10-1013(2) lets it require a certification of trust to be acknowledged or guaranteed and signed by every trustee, and the small-estate and refusal-of-letters routes at §§473.097 and 473.090 both require the claimant to post a bond. Second, **formality is loaded onto creation and almost absent from revocation**: §404.705 makes a durable power valid only if it is titled as one, recites one of two capitalised statutory sentences and is acknowledged as if it conveyed land, while §404.850 lets the health-care version be revoked \"in any manner by which the patient is able to communicate\" and §404.717 lets the financial version be terminated orally. Missouri is also the only US jurisdiction here with **no default health-care surrogate** at all.",
+ "citations": [
+  {
+   "id": "mo-404-700",
+   "cite": "Mo. Rev. Stat. § 404.700",
+   "title": "Law, how cited",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.700",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Sections 404.700 to 404.735 may be cited as the \"Durable Power of Attorney Law of Missouri\"."
+  },
+  {
+   "id": "mo-404-705",
+   "cite": "Mo. Rev. Stat. § 404.705",
+   "title": "Durable power of attorney, procedure to create, requirements, effect",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.705",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. The authority granted by a principal to an attorney in fact in a written power of attorney is not terminated in the event the principal becomes wholly or partially disabled or incapacitated … if: (1) The power of attorney is denominated a \"Durable Power of Attorney\"; (2) The power of attorney includes a provision that states in substance one of the following: (a) \"THIS IS A DURABLE POWER OF ATTORNEY AND THE AUTHORITY OF MY ATTORNEY IN FACT SHALL NOT TERMINATE IF I BECOME DISABLED OR INCAPACITATED OR IN THE EVENT OF LATER UNCERTAINTY AS TO WHETHER I AM DEAD OR ALIVE\"; or (b) \"THIS IS A DURABLE POWER OF ATTORNEY AND THE AUTHORITY OF MY ATTORNEY IN FACT, WHEN EFFECTIVE, SHALL NOT TERMINATE OR BE VOID OR VOIDABLE IF I AM OR BECOME DISABLED OR INCAPACITATED …\"; and (3) The power of attorney is subscribed by the principal, and dated and acknowledged in the manner prescribed by law for conveyances of real estate. … 4. A person who is appointed an attorney in fact under a durable power of attorney has no duty to exercise the authority conferred in the power of attorney … unless the attorney in fact has agreed expressly in writing to act for the principal in such circumstances."
+  },
+  {
+   "id": "mo-404-710",
+   "cite": "Mo. Rev. Stat. § 404.710",
+   "title": "Power of attorney with general powers",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.710",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-404-714",
+   "cite": "Mo. Rev. Stat. § 404.714",
+   "title": "Duties of attorney in fact",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.714",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. An attorney in fact who elects to act under a power of attorney is under a duty to act in the interest of the principal … has a fiduciary obligation to exercise the powers conferred in the best interests of the principal, and to avoid self-dealing and conflicts of interest, as in the case of a trustee … and in the absence of explicit authorization, the attorney in fact shall exercise a high degree of care in maintaining, without modification, any estate plan which the principal may have in place …"
+  },
+  {
+   "id": "mo-404-717",
+   "cite": "Mo. Rev. Stat. § 404.717",
+   "title": "Modification and termination of power of attorney — liability between principal and attorney in fact",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.717",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. … the authority granted in a power of attorney shall be modified or terminated as follows: (1) On the date shown in the power of attorney …; (2) When the principal, orally or in writing, or the principal’s legal representative with approval of the court in writing informs the attorney in fact or successor that the power of attorney is modified or terminated …; (3) When a written notice of modification or termination of the power of attorney is filed by the principal or the principal’s legal representative for record in the office of the recorder of deeds in the city or county of the principal’s residence …; (4) On the death of the principal …; (5) When the attorney in fact under a durable power of attorney is not qualified to act for the principal; (6) On the filing of any action for divorce or dissolution of the marriage of the principal and the principal’s attorney in fact …"
+  },
+  {
+   "id": "mo-404-719",
+   "cite": "Mo. Rev. Stat. § 404.719",
+   "title": "Exemption of third persons from liability",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.719",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. A third person, who is acting in good faith, without liability to the principal or the principal’s successors in interest, may rely and act on any power of attorney executed by the principal … and, in the absence of actual knowledge … is not responsible for determining and has no duty to inquire as to any of the following: … (6) Whether the principal is disabled or incapacitated or has been adjudicated disabled or incapacitated; … (8) Whether the authority granted in a power of attorney has been modified …; (9) Whether the authority of the attorney in fact has been terminated … 4. A third person, when being requested to engage in transactions with a principal through the principal’s attorney in fact … may require the attorney in fact to indemnify the third person against forgery of the power of attorney, by bond or otherwise; provided, however, that if the power of attorney is durable … and if either the principal or the attorney in fact … has been a resident of this state for at least two years, and if the attorney in fact has executed … an indemnity agreement reasonably satisfactory in form to such third person, no such bond shall be required; and may prescribe the place and manner in which the third person will be given any notice respecting the principal’s power of attorney and the time in which the third person has to comply with any notice."
+  },
+  {
+   "id": "mo-404-727",
+   "cite": "Mo. Rev. Stat. § 404.727",
+   "title": "Accounting, determination of disability, modification and termination, limitation or removal of attorney in fact",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.727",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "4. The principal, the principal’s attorney in fact, an adult member of the principal’s family or any person interested in the welfare of the principal may petition the probate division of the circuit court … to determine and declare whether a principal, who has executed a power of attorney, is a disabled or incapacitated person. 5. If the principal is a disabled or incapacitated person … for good cause shown the court, may: (1) Order the attorney in fact to exercise or refrain from exercising authority …; (2) Modify the authority of an attorney in fact …; (3) Declare suspended a power of attorney that is not durable; (4) Terminate a durable power of attorney; (5) Remove the attorney in fact …; (6) Confirm the authority of an attorney in fact or a successor attorney in fact to act under a durable power of attorney …"
+  },
+  {
+   "id": "mo-404-731",
+   "cite": "Mo. Rev. Stat. § 404.731",
+   "title": "Jurisdiction of probate division of circuit court — guardian or conservator ad litem appointed, when",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.731",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "3. If the probate division of the circuit court appoints a guardian or conservator for a principal who has appointed an attorney in fact under a durable power of attorney, after notice and hearing, the court may specify in an order the powers, duties and responsibilities of the principal’s legal representative and any attorney in fact appointed under a durable power of attorney and the manner in which they shall coordinate the exercise of their respective powers and duties for and on behalf of the principal."
+  },
+  {
+   "id": "mo-404-800",
+   "cite": "Mo. Rev. Stat. § 404.800",
+   "title": "Short title",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.800",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Sections 404.800 to 404.872 shall be known and may be cited as the \"Durable Power of Attorney for Health Care Act\"."
+  },
+  {
+   "id": "mo-404-810",
+   "cite": "Mo. Rev. Stat. § 404.810",
+   "title": "Applicability of general law",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.810",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Section 404.710, section 404.714, section 404.705, subsections 1 and 2 of section 404.707, section 404.717, subsection 1 and 2 of section 404.723, section 404.727, and section 404.731 shall apply to powers granted under sections 404.800 to 404.865. No other provisions of sections 404.700 to 404.735 shall apply to the durable power of attorney for health care act unless specifically incorporated by reference therein."
+  },
+  {
+   "id": "mo-404-820",
+   "cite": "Mo. Rev. Stat. § 404.820",
+   "title": "Withdrawing or withholding treatment, specific authority required — restrictions",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.820",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. If a patient wishes to confer on an attorney in fact the authority to direct a health care provider to withhold or withdraw artificially supplied nutrition and hydration, the patient shall specifically grant such authority in the power of attorney. … 2. Notwithstanding any other provision … no attorney in fact may, with the intent of causing the death of the patient, authorize the withdrawal of nutrition or hydration which the patient may ingest through natural means."
+  },
+  {
+   "id": "mo-404-825",
+   "cite": "Mo. Rev. Stat. § 404.825",
+   "title": "Examination of patient required, content",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.825",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Unless the patient expressly authorizes otherwise in the power of attorney, the powers and duties of the attorney in fact to make health care decisions shall commence upon a certification by two licensed physicians based upon an examination of the patient that the patient is incapacitated and will continue to be incapacitated for the period of time during which treatment decisions will be required and the powers and duties shall cease upon certification that the patient is no longer incapacitated. One of the certifying physicians may be the patient’s attending physician. … The determination of incapacity shall be periodically reviewed by the attending physician. The certification shall be incorporated into the medical records and shall set forth the facts upon which the determination of incapacity is based and the expected duration of the incapacity. Other provisions of this section to the contrary notwithstanding, certification of incapacity by at least one physician is required."
+  },
+  {
+   "id": "mo-404-850",
+   "cite": "Mo. Rev. Stat. § 404.850",
+   "title": "Revocation, procedure, effect",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.850",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. A power of attorney for health care may be revoked at any time and in any manner by which the patient is able to communicate the intent to revoke. Revocation shall be effective upon communication of such revocation by the patient to the attorney in fact or to the attending physician or health care provider. 2. Upon learning of the revocation of a power of attorney for health care, the attending physician or other health care provider shall cause the revocation to be made a part of the patient’s medical records."
+  },
+  {
+   "id": "mo-404-855",
+   "cite": "Mo. Rev. Stat. § 404.855",
+   "title": "Liability, immunity from, when",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=404.855",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-459-015",
+   "cite": "Mo. Rev. Stat. § 459.015",
+   "title": "Declaration, who may execute requirements of declaration — form — witnesses required, when",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=459.015",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. Any competent person may execute a declaration directing the withholding or withdrawal of death-prolonging procedures. The declaration … shall be: (1) In writing; (2) Signed by the person making the declaration, or by another person in the declarant’s presence and by the declarant’s expressed direction; (3) Dated; and (4) If not wholly in the declarant’s handwriting, signed in the presence of two or more witnesses at least eighteen years of age … 2. It shall be the responsibility of the declarant to provide for notification to his attending physician of the existence of the declaration."
+  },
+  {
+   "id": "mo-459-025",
+   "cite": "Mo. Rev. Stat. § 459.025",
+   "title": "Declaration operative, when",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=459.025",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "The directions of a declarant able to make treatment decisions shall at all times supersede the declaration. The declaration shall be given operative effect only if the declarant’s condition is determined to be terminal and the declarant is not able to make treatment decisions. Such determinations shall be recorded in the declarant’s medical record. … The declaration to withdraw or withhold treatment by a patient diagnosed as pregnant by the attending physician shall have no effect during the course of the declarant’s pregnancy."
+  },
+  {
+   "id": "mo-459-250",
+   "cite": "Mo. Rev. Stat. § 459.250",
+   "title": "Registry established — submission of documents by adult declarant — third-party to operate registry",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=459.250",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "2. The department shall issue a request for proposal and contract with a third party for the establishment of a secure online central registry for individuals to be known as the \"Advance Health Care Directives Registry\" to store advance health care directives and to give authorized health care providers access to such directives. 3. An adult declarant may submit an advance health care directive or declaration and the revocations of such documents to the registry … (6) \"Intake point\", any licensed health care provider or licensed attorney."
+  },
+  {
+   "id": "mo-475-010",
+   "cite": "Mo. Rev. Stat. § 475.010",
+   "title": "Definitions",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=475.010",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-475-030",
+   "cite": "Mo. Rev. Stat. § 475.030",
+   "title": "Letters of guardianship and conservatorship issued, when",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=475.030",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. Letters of guardianship of the person may be granted for any person adjudged incapacitated. Letters of conservatorship of the estate may be granted for any person adjudged to be disabled."
+  },
+  {
+   "id": "mo-475-075",
+   "cite": "Mo. Rev. Stat. § 475.075",
+   "title": "Hearing on capacity or disability — notice — service",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=475.075",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-475-078",
+   "cite": "Mo. Rev. Stat. § 475.078",
+   "title": "Effect of adjudication",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=475.078",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. An adjudication of partial incapacity or partial disability does not operate to impose upon the ward or protectee any legal disability provided by law except to the extent specified in the order of adjudication … 3. A person who has been adjudicated incapacitated or disabled or both shall be presumed to be incompetent … A person who has been adjudicated partially incapacitated or partially disabled or both shall be presumed to be competent."
+  },
+  {
+   "id": "mo-475-079",
+   "cite": "Mo. Rev. Stat. § 475.079",
+   "title": "Order appointing guardian or conservator",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=475.079",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-475-120",
+   "cite": "Mo. Rev. Stat. § 475.120",
+   "title": "General powers and duties of guardian of the person",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=475.120",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "3. Except as otherwise limited by the court, a guardian shall make decisions regarding the adult ward’s support, care, education, health, and welfare. … The general powers and duties of a guardian of an incapacitated person shall include … (2) Assure that the ward receives medical care and other services that are needed; … (4) Provide required consents on behalf of the ward …"
+  },
+  {
+   "id": "mo-473-023",
+   "cite": "Mo. Rev. Stat. § 473.023",
+   "title": "Court or clerk to grant letters",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.023",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "The probate division of the circuit court, or the clerk thereof, subject to modification or revocation by the court, shall grant letters testamentary and of administration."
+  },
+  {
+   "id": "mo-473-090",
+   "cite": "Mo. Rev. Stat. § 473.090",
+   "title": "Refusal of letters",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.090",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. … the probate division of the circuit court, in its discretion, may at any time refuse to grant letters in the following cases: (1) When the estate of the decedent is not greater in amount than is allowed by law as exempt property and the allowance to the surviving spouse or unmarried minor children under section 474.260; (2) When the personal estate of the decedent does not exceed fifteen thousand dollars and there is no widower, widow or unmarried minor children, any creditor of the decedent … may apply for refusal of letters by giving bond in the sum of not less than the value of the estate … The court may dispense with the filing of a bond if the court finds the bond is not necessary. 2. … the court may order that no letters of administration shall be issued on the estate …"
+  },
+  {
+   "id": "mo-473-091",
+   "cite": "Mo. Rev. Stat. § 473.091",
+   "title": "Clerk’s duties as to certain forms — not practice of law",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.091",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Upon request to the judge of the probate division of the circuit court, clerks of the court may under his supervision assist in filling out all forms necessary for obtaining an order of refusal of letters of administration pursuant to section 473.090, and the performance of the duties required by this section shall not constitute the practice of law as defined in section 484.010."
+  },
+  {
+   "id": "mo-473-097",
+   "cite": "Mo. Rev. Stat. § 473.097",
+   "title": "Small estate — distribution of assets without letters, when — affidavit — procedure — fee",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.097",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. Distributees of an estate … have a defeasible right to the personal property, and are entitled to the real property of such estate … without awaiting the granting of letters testamentary or of administration, if all of the following conditions are met: (1) The value of the entire estate, less liens, debt, and encumbrances, does not exceed forty thousand dollars; (2) Thirty days have elapsed since the death of the decedent and no application for letters or for administration or for refusal of letters under section 473.090 is pending or has been granted …; (3) A bond, in an amount not less than the value of the personal property, approved by the judge or clerk of the probate division is filed by the person making the required affidavit conditioned upon the payment of the debts of the decedent … except that, the court may dispense with the filing of a bond if it finds that the same is not necessary; (4) A fee … and when required, the publication cost of the notice to creditors are paid …"
+  },
+  {
+   "id": "mo-473-157",
+   "cite": "Mo. Rev. Stat. § 473.157",
+   "title": "Bond of personal representative — conditions of bond",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.157",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-473-160",
+   "cite": "Mo. Rev. Stat. § 473.160",
+   "title": "Bond not required, when",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.160",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. When, by the terms of the will, the testator expresses a wish that no bond be required of the personal representative, no bond shall be required unless the court, in its discretion, finds it proper to require it … 4. No bond shall be required if the court, upon good cause shown, finds that a bond is not required for the protection of interested parties."
+  },
+  {
+   "id": "mo-456-1-101",
+   "cite": "Mo. Rev. Stat. § 456.1-101",
+   "title": "Short title",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=456.1-101",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Sections 456.1-101 to 456.11-1106 shall be known and may be cited as the \"Missouri Uniform Trust Code\"."
+  },
+  {
+   "id": "mo-456-10-1013",
+   "cite": "Mo. Rev. Stat. § 456.10-1013",
+   "title": "Certification of trust",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=456.10-1013",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. Instead of furnishing a copy of the trust instrument to a person other than a beneficiary, the trustee may furnish to the person a certification of trust containing the following information … 2. A certification of trust must be signed by all the trustees. A third party may require that the certification of trust be acknowledged or guaranteed. … 5. A recipient of a certification of trust may require the trustee to furnish copies of those excerpts from the original trust instrument and later amendments which designate the trustee and confer upon the trustee the power to act in the pending transaction."
+  },
+  {
+   "id": "mo-472-400",
+   "cite": "Mo. Rev. Stat. § 472.400",
+   "title": "Citation of law",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=472.400",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Sections 472.400 to 472.490 shall be known and may be cited as the \"Missouri Fiduciary Access to Digital Assets Act\"."
+  },
+  {
+   "id": "mo-472-415",
+   "cite": "Mo. Rev. Stat. § 472.415",
+   "title": "Disclosure of digital assets, use of online tool to direct custodian",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=472.415",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user’s digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+  },
+  {
+   "id": "mo-472-470",
+   "cite": "Mo. Rev. Stat. § 472.470",
+   "title": "Fiduciary, legal duties — authority over user’s digital assets",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=472.470",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including: (1) The duty of care; (2) The duty of loyalty; and (3) The duty of confidentiality. 2. A fiduciary’s or designated recipient’s authority with respect to a digital asset of a user: … (4) May not be used to impersonate the user."
+  },
+  {
+   "id": "mo-472-475",
+   "cite": "Mo. Rev. Stat. § 472.475",
+   "title": "Time period to comply with disclosure requests — denial of request — court order",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=472.475",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. Not later than sixty days after receipt of the information required under sections 472.430 to 472.470, a custodian shall comply with a request … to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance."
+  },
+  {
+   "id": "mo-194-210",
+   "cite": "Mo. Rev. Stat. § 194.210",
+   "title": "Definitions",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.210",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-194-250",
+   "cite": "Mo. Rev. Stat. § 194.250",
+   "title": "Document of gift, procedure",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.250",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-194-290",
+   "cite": "Mo. Rev. Stat. § 194.290",
+   "title": "Declarations and advance health care directives — gift in conflict with, donor or physician to resolve",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.290",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "mo-194-292",
+   "cite": "Mo. Rev. Stat. § 194.292",
+   "title": "Requirements for valid execution of a document of gift — presumption of validity, when",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.292",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "1. A document of gift is valid if executed in accordance with: (1) Sections 194.210 to 194.294; (2) The laws of the state or country where it was executed; or (3) The laws of the state or country where the person making the anatomical gift was domiciled … 3. A person may presume that a document of gift or amendment of an anatomical gift is valid unless that person knows that it was not validly executed or was revoked."
+  },
+  {
+   "id": "mo-194-119",
+   "cite": "Mo. Rev. Stat. § 194.119",
+   "title": "Right of sepulcher, the right to choose and control final disposition of a dead human body",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.119",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "2. … the term \"next-of-kin\" means the following persons in the priority listed if such person is eighteen years of age or older, is mentally competent, and is willing to assume responsibility for the costs of disposition: (1) An attorney in fact designated in a durable power of attorney wherein the deceased specifically granted the right of sepulcher over his or her body to such attorney in fact; (2) For a decedent who was on active duty in the United States military at the time of death, the person designated by such decedent in the written instrument known as the United States Department of Defense Form 93, Record of Emergency Data, in accordance with 10 U.S.C. Section 1482; (3) The surviving spouse …; (4) Any surviving child of the deceased …"
+  },
+  {
+   "id": "utc-1013",
+   "cite": "UTC §1013(b) (2000, as amended)",
+   "title": "Certification of trust",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-10-13",
+   "quote": "A certification of trust may be signed or otherwise authenticated by any trustee."
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "durable power of attorney",
+    "attorney in fact"
+   ],
+   "diff": "Missouri is a non-uniform state — §404.700 names its own \"Durable Power of Attorney Law of Missouri\" (1989) — and it sets **the most demanding durability test in this data**. Under §404.705(1) a written power survives the principal's incapacity only if three things are all true: the instrument is **denominated** a \"Durable Power of Attorney\"; it contains, in substance, **one of two sentences the statute prints in capitals**; and it is subscribed, dated and **acknowledged in the manner prescribed by law for conveyances of real estate**. Miss any one and incapacity ends the agency. Where the uniform act makes durability the default and Louisiana reaches it as a contract term you opt out of, Missouri makes it an opt-in with prescribed words and a notary.\n\n§404.705(4) then separates appointment from obligation more sharply than anything else here: the named attorney in fact \"has no duty to exercise the authority conferred\" — disability, absence or captivity notwithstanding — \"unless the attorney in fact has agreed expressly in writing to act\". Acting once does not oblige them to act again. Holding the role and owing anything under it are different events.\n\nTermination (§404.717) runs to six triggers, two of them unusual. The principal may modify or terminate **orally** (§404.717(1)(2)); and a written notice of termination may be **filed for record with the recorder of deeds** in the principal's county (§404.717(1)(3)), which is the only instance in this data of a statute providing a *public register* for the revocation of a private mandate.\n\nThe third-person provision is immunity without obligation. §404.719(1) lists eleven things a good-faith third person has no duty to inquire into — among them whether the principal is incapacitated, whether the authority has been modified, and whether it has been terminated — but nothing in chapter 404 obliges anyone to accept a Missouri power of attorney, and no fee shifts on refusal. What §404.719(4) gives the relying party instead is the right to demand **security**: specimens of the agent's signature, any other information reasonably necessary, and an indemnity \"against forgery of the power of attorney, **by bond or otherwise**\" — waived only where the power is durable and the principal or agent has been a Missouri resident for at least two years and an indemnity agreement is delivered. It may also \"prescribe the place and manner in which the third person will be given any notice respecting the principal's power of attorney and the time in which the third person has to comply\".",
+   "citations": [
+    "mo-404-700",
+    "mo-404-705",
+    "mo-404-710",
+    "mo-404-714",
+    "mo-404-717",
+    "mo-404-719",
+    "mo-404-727",
+    "mo-404-731"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney",
+    "nondurable power of attorney"
+   ],
+   "diff": "The ordinary case in Missouri rather than the exception, because §404.705's three conditions are what a power must satisfy to be durable; a written power of attorney that does not meet them is governed by §404.730 and ends on the principal's incapacity. §404.727(5)(3) gives the court a distinct remedy for this class: on petition it may \"**declare suspended** a power of attorney that is not durable\" — suspension rather than termination, which no other jurisdiction here provides.",
+   "citations": [
+    "mo-404-705",
+    "mo-404-717",
+    "mo-404-727"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "diff": "Missouri contemplates a deferred power rather than legislating for it in detail. The second of §404.705's two prescribed sentences is drafted for one — \"THE AUTHORITY OF MY ATTORNEY IN FACT, **WHEN EFFECTIVE**, SHALL NOT TERMINATE OR BE VOID OR VOIDABLE IF I AM OR BECOME DISABLED OR INCAPACITATED\" — and §404.719(1)(5) protects a third person who cannot tell \"whether any future event, condition or contingency making effective or terminating the authority conferred in a power of attorney has occurred\". There is no counterpart to the uniform act's machinery for naming who certifies that the contingency occurred; what Missouri supplies instead is the judicial route in §404.727(4), under which the principal, the attorney in fact, an adult family member or any person interested in the principal's welfare may petition the probate division to \"determine and declare\" whether the principal is disabled or incapacitated.",
+   "citations": [
+    "mo-404-705",
+    "mo-404-719",
+    "mo-404-727"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "attorney in fact for health care",
+    "durable power of attorney for health care"
+   ],
+   "diff": "A separate act — the Durable Power of Attorney for Health Care Act, §§404.800 to 404.872 (1991) — but **not a separate set of formalities**: §404.810 incorporates §404.705 by reference, so a Missouri health-care power of attorney must also be denominated durable, carry one of the two prescribed capitalised sentences, and be acknowledged in the manner required for conveying real estate. It is the most formal health-care instrument in this data.\n\nIt is also the one with the **least formal revocation**. §404.850(1): the power \"may be revoked at any time and **in any manner by which the patient is able to communicate** the intent to revoke\", effective on communication to the agent *or* to the attending physician or provider. A notarised instrument with statutory magic words is undone by a sentence spoken to a nurse; the only recording duty is §404.850(2)'s, that the provider put the revocation in the medical record.\n\nAuthority commences on a clinical finding, and Missouri wants two of them: §404.825 has the agent's powers begin \"upon a certification by **two licensed physicians** based upon an examination of the patient\" that the patient is incapacitated and will remain so for the period over which decisions are needed, one of whom may be the attending physician — while the section's closing sentence provides, confusingly, that \"certification of incapacity by at least one physician is required\". The powers \"shall cease upon certification that the patient is no longer incapacitated\", and the determination \"shall be periodically reviewed by the attending physician\" with **no interval stated**.\n\nTwo substantive limits: §404.820(1) requires a specific grant before an agent may direct the withholding of artificially supplied nutrition and hydration, and §404.820(2) forbids any agent from authorising withdrawal of nutrition the patient can take by natural means with intent to cause death. §404.810 also withholds §404.719 from this act, so the broad third-person safe harbour for financial powers does not reach health care; §404.855 supplies a narrower immunity instead.",
+   "citations": [
+    "mo-404-800",
+    "mo-404-810",
+    "mo-404-705",
+    "mo-404-820",
+    "mo-404-825",
+    "mo-404-850",
+    "mo-404-855"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "(no statutory surrogate)"
+   ],
+   "absent": true,
+   "summary": "Missouri has no statutory default health-care surrogate; authority comes from a durable power of attorney for health care, a declaration, or a court-appointed guardian.",
+   "diff": "**Missouri has no default health-care surrogate, and is the only US jurisdiction in this set without one.** There is no statutory list of relatives who may decide for an incapacitated adult who left no instrument. The baseline role is therefore dropped rather than recorded as empty.\n\nHow this was established, since it is a negative: the catchlines of chapters 404, 459, 475, 191 and 194 contain no \"surrogate\", and the revisor's full-text search — verified against a positive control — returns \"surrogate\" only in chapter 162, where it means a surrogate *parent* in special education. \"Nearest relative\" appears only in the workers' compensation and veterans' guardianship provisions. §191.240, on examinations of unconscious patients, refers in passing to \"a person authorized to make health care decisions for the patient\" without creating one anywhere.\n\nWhat Missouri has instead are three routes that all require an instrument or a court. The person may appoint an attorney in fact under §§404.800 to 404.872; they may sign a declaration under §§459.010 to 459.055; or, failing both, somebody must be appointed **guardian**, whereupon §475.120(3) gives the guardian authority over the ward's \"health\" and the duty to \"provide required consents on behalf of the ward\". Where every other US jurisdiction in this set lets a spouse or adult child decide by operation of law, Missouri routes the same decision through a probate adjudication.",
+   "citations": [
+    "mo-475-120",
+    "mo-404-800",
+    "mo-459-015"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian",
+    "limited guardian",
+    "ward"
+   ],
+   "diff": "Chapter 475 keeps the older vocabulary — a **guardian** of the person for one adjudged *incapacitated*, a **conservator** of the estate for one adjudged *disabled* — and §475.030(1) issues letters on that adjudication.\n\n§475.078 is the part worth recording, because it inverts the usual presumption by degree. An adjudication of **full** incapacity \"does operate to impose upon the ward or protectee all legal disabilities provided by law\" except as the order specifies, and the person \"shall be presumed to be incompetent\". An adjudication of **partial** incapacity imposes no legal disability except as the order specifies, and that person \"shall be presumed to be **competent**\". So in Missouri the same proceeding produces opposite default presumptions depending on which finding is made, and the court may then hold a person \"incompetent for some purposes and competent for other purposes\". §475.078(4) separately requires an express order if the ward is to keep the right to vote.\n\n§475.120(3) gives the guardian decisions over \"support, care, education, health, and welfare\", bounded by a least-restrictive-means instruction and a duty to encourage the ward to participate and to \"develop or regain the capacity to manage the adult ward's personal affairs\".",
+   "citations": [
+    "mo-475-010",
+    "mo-475-030",
+    "mo-475-075",
+    "mo-475-078",
+    "mo-475-079",
+    "mo-475-120"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "limited conservator",
+    "protectee"
+   ],
+   "diff": "Appointed for a person adjudged **disabled** rather than incapacitated (§475.030(1)), with the same §475.078 split between full and partial adjudications.\n\nWhat happens to an existing power of attorney is Missouri's distinctive answer, and it is neither of the two this data had before. §404.731(3): where the probate division appoints a guardian or conservator for a principal who has a durable power of attorney, \"after notice and hearing, the court **may specify in an order** the powers, duties and responsibilities of the principal's legal representative and any attorney in fact … and **the manner in which they shall coordinate** the exercise of their respective powers and duties\". The agency neither survives by default nor terminates by default: the court allocates between the two office-holders. §404.727(5) supplies the menu it chooses from, which runs from ordering the agent to act or refrain, through modifying, suspending or terminating the power and removing the agent, to **confirming** the authority of an agent or successor.",
+   "citations": [
+    "mo-475-030",
+    "mo-475-078",
+    "mo-404-731",
+    "mo-404-727"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "letters testamentary"
+   ],
+   "diff": "§473.023 gives the grant to \"the probate division of the circuit court, **or the clerk thereof**, subject to modification or revocation by the court\" — letters testamentary and of administration alike.\n\nBond is the organising idea of Missouri administration, and chapter 473 devotes some two dozen sections to it (§§473.157 to 473.217). The default is that a personal representative gives bond on the conditions in §473.157; §473.160 then supplies the exits — the testator's expressed wish in the will, assets deposited with a depositary in exchange for a reduced bond, a qualifying corporate fiduciary, or the court finding on good cause that no bond is needed for the protection of interested parties — and §473.200 revokes letters for failure to give one.",
+   "citations": [
+    "mo-473-023",
+    "mo-473-157",
+    "mo-473-160"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "letters of administration"
+   ],
+   "diff": "The same §473.023 grant by the court or its clerk, and the same bond apparatus. The route not taken matters as much: §473.090 lets the probate division, in its discretion, **refuse to grant letters** at all — either where the estate is no greater than the exempt property and the surviving spouse's or unmarried minor children's statutory allowance under §474.260, or, where the personal estate is no more than **$15,000** and there is no surviving spouse or unmarried minor child, on the application of a creditor who gives bond. The court then \"may order that no letters of administration shall be issued\".",
+   "citations": [
+    "mo-473-023",
+    "mo-473-090",
+    "mo-473-157"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "distributee",
+    "affidavit under §473.097"
+   ],
+   "diff": "§473.097 reaches **$40,000** — the value of the entire estate less liens, debts and encumbrances — after **30 days**, on an affidavit, and the distributees take \"without awaiting the granting of letters\". No letters issue, so the no-grant test is satisfied; but this is not the bare affidavit-to-a-custodian that most of the US layer uses. Three further conditions run through the probate division: a **bond** in an amount not less than the value of the personal property, approved by the judge or clerk and conditioned on paying the decedent's debts, funeral expenses and future orders of the court, unless the court dispenses with it; a **fee** under §483.580; and, where required, the **publication cost of notice to creditors**. Nothing may be pending or granted under §473.090.\n\nSo the Missouri successor posts security and pays a filing fee where a Florida or Texas successor swears an affidavit at the counter. §473.091 softens the procedural burden from the other end, and is the opposite pole from Maryland's supervising-attorney rule: the clerks of the probate division \"may … assist in filling out all forms necessary\" for a refusal of letters, and doing so \"shall not constitute the practice of law\".",
+   "citations": [
+    "mo-473-097",
+    "mo-473-090",
+    "mo-473-091"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee",
+    "certification of trust"
+   ],
+   "diff": "Chapter 456 is the Missouri Uniform Trust Code (2004, effective 1 January 2005), and §456.10-1013 is the uniform certification of trust in its eight-item form — with two deviations, both tightening it in the relying party's favour.\n\nUniform §1013(b) provides that \"a certification of trust **may be signed or otherwise authenticated by any trustee**\". Missouri's §456.10-1013(2) instead requires that it \"must be signed by **all** the trustees\", and adds a sentence the uniform act does not have: \"A third party **may require that the certification of trust be acknowledged or guaranteed**.\" §456.10-1013(5) further lets the recipient demand excerpts from the trust instrument designating the trustee and conferring the power to act.\n\nSet beside its fellow Uniform Trust Code states here — West Virginia's §44D-10-1013 and Kentucky's §386B.10-120 both keep \"any trustee\" — Missouri asks a successor trustee to produce more, and lets the counterparty ask for more again.",
+   "citations": [
+    "mo-456-1-101",
+    "mo-456-10-1013",
+    "utc-1013"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "diff": "§472.415(1) is the uniform online-tool rule, conditional as always on the tool letting the user modify or delete the direction at all times.\n\nThe name is the thing to note, and it is the same trap West Virginia sets: §472.400 calls the act the \"Missouri **Fiduciary Access to Digital Assets Act**\", dropping the \"Revised\", while the text enacted by 2018 H.B. 1250 is the revised 2015 act — §472.415's online-tool priority and §472.475's sixty-day duty are RUFADAA sections. Missouri also files it somewhere unexpected: not in a digital-assets chapter of its own but inside **chapter 472, the probate code's general provisions**, at §§472.400 to 472.490.",
+   "citations": [
+    "mo-472-400",
+    "mo-472-415"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "conservator",
+    "agent",
+    "trustee"
+   ],
+   "diff": "The uniform fiduciary route, with the per-class request mechanics at §§472.430 to 472.465 — including §472.465, which gives a **conservator** access only after an opportunity for a hearing. §472.470 carries the duties of care, loyalty and confidentiality across to digital assets and forbids using the authority \"to impersonate the user\"; §472.475(1) gives the custodian **60 days** from receipt of the required information, failing which the fiduciary or designated recipient applies for an order directing compliance that must find compliance consistent with 18 U.S.C. §2702.",
+   "citations": [
+    "mo-472-400",
+    "mo-472-470",
+    "mo-472-475"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "donor",
+    "attorney in fact",
+    "document of gift",
+    "right of sepulcher"
+   ],
+   "diff": "Missouri is on the Revised Uniform Anatomical Gift Act (2008 S.B. 1139), §§194.210 to 194.304, and §194.290 handles the conflict case the uniform act flags — where a donor's declaration or advance health-care directive pulls against the gift, the donor or the physician resolves it.\n\n§194.292 is the interesting one for anyone relying on a document of gift across borders: it is valid if executed under Missouri law, **or** under the law of the place of execution, **or** under the law of the donor's domicile, residence or nationality — and \"a person **may presume** that a document of gift … is valid unless that person knows that it was not validly executed or was revoked\". A relying party is told to presume validity under whichever of three legal systems might apply.\n\nMissouri also has the clearest statement in this data of the role next door to the anatomical gift. §194.119, amended effective 28 August 2026, defines the **right of sepulcher** — the right to choose and control final disposition of the body — and ranks its holders: first an attorney in fact to whom the deceased *specifically* granted that right in a durable power of attorney; **second, for a decedent on active military duty, the person named on United States Department of Defense Form 93**; then the spouse, then surviving children. A federal personnel record outranks the surviving spouse, which is the only instance here of a federal form controlling a state-law priority.",
+   "citations": [
+    "mo-194-210",
+    "mo-194-250",
+    "mo-194-290",
+    "mo-194-292",
+    "mo-194-119"
+   ]
+  }
+ ]
+}
