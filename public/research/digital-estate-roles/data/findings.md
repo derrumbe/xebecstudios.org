@@ -295,20 +295,44 @@ So there are at least four mechanisms wearing one name:
 | **New York**, **Maryland** | files with the court or register and acts under a grant it issues |
 | **Idaho**, **Oklahoma** | petitions for a decree or summary administration with no ceiling at all |
 
-The threshold varies across all of them:
+The threshold varies across all of them. Every amount and wait in this table is now checked against
+the `smallEstateWithoutGrant` feature data by `scripts/check-findings.py`, which fails if the two
+drift apart, if a jurisdiction with a recorded ceiling has no row, or if a row claims a waiting
+period the data does not record:
 
-| | Ceiling |
-|---|---|
-| Uniform Probate Code §3-1201 (the model) | $25,000 |
-| North Carolina, New Jersey | $20,000 |
-| Maine (CPI-indexed) | $40,000 |
-| **Delaware**, **Maryland**, Michigan, New York, Oklahoma, Pennsylvania | $50,000 |
-| **Maryland**, where the surviving spouse is the sole legatee or heir | $100,000 |
-| Florida, Texas, **Virginia** | $75,000 |
-| **Idaho**, Ohio, **Utah**, Washington | $100,000 |
-| Louisiana | $125,000–$200,000 |
-| Illinois | $100,000–$150,000 |
-| California (CPI-indexed) | $208,850 |
+| | Ceiling | Wait | Second ceiling, and when it applies |
+|---|---|---|---|
+| Florida | $2,000 | — (6 months) | — |
+| North Carolina | $20,000 | 30 days | — |
+| Massachusetts | $25,000 | 30 days | — |
+| Uniform Probate Code §3-1201 (the model) | $25,000 | 30 days | — |
+| Ohio | $35,000 | — | $100,000 where the surviving spouse takes the whole estate |
+| Maine | $40,000 | 30 days | CPI-indexed |
+| Delaware | $50,000 | 30 days | — |
+| Maryland | $50,000 | — | $100,000 where the surviving spouse is the sole legatee or heir |
+| Michigan | $50,000 | 28 days | — |
+| New Jersey | $50,000 | — | $20,000 where there is no spouse, civil union partner or domestic partner |
+| New York | $50,000 | none | — |
+| Oklahoma | $50,000 | 10 days | — |
+| Pennsylvania | $50,000 | — | — |
+| Texas | $75,000 | 30 days | — |
+| Virginia | $75,000 | 60 days | $35,000, below which no affidavit is needed at all |
+| Idaho | $100,000 | 30 days | no ceiling where a surviving spouse is the sole devisee or heir |
+| Utah | $100,000 | 30 days | — |
+| Washington | $100,000 | 40 days | — |
+| Illinois | $150,000 | none | — |
+| Louisiana | $200,000 | — | $125,000 for an ancillary succession; no ceiling if the death was 20+ years ago |
+| California | $208,850 | 40 days | CPI-indexed |
+
+Four of those rows were wrong until this table was rebuilt from the data, and the errors all ran
+the same way — a single figure standing in for a conditional pair, or for a different mechanism
+entirely. Florida was listed at $75,000, which was the **summary administration** ceiling, a court
+route, and which ch. 2026-57 raised to $150,000 in July 2026 in any case; the only Florida figure
+that belongs in a table about collection without a grant is the **$2,000** a family member can draw
+from sole-name accounts under §735.303. Ohio was listed at $100,000, which is only the
+sole-surviving-spouse case; its general ceiling is $35,000. New Jersey was listed at $20,000, which
+is only the case where there is **no** spouse. Louisiana and Illinois were given as ranges that
+conflated two different conditions with a figure changing over time.
 
 The same claim, presented to the same kind of custodian, is effective over a range that
 spans an order of magnitude — and two states index the figure to inflation while the rest
