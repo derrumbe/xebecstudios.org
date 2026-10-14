@@ -487,6 +487,20 @@
      "shortLabel": "California"
     },
     {
+     "id": "us-co",
+     "name": "Colorado",
+     "short": "CO",
+     "code": "CO",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-co.json"
+     ],
+     "country": "us",
+     "note": "Colorado Revised Statutes 2026, title 15 (Probate, Trusts, and Fiduciaries), read from the Office of Legislative Legal Services' own host at olls.info on 14 October 2026. One title is one file there, so every citation's URL is the title and the pinpoint is in the citation text, as with Oklahoma and Delaware.\n\nColorado is a Uniform Probate Code state, so the roles not patched below — the personal representative, the administrator, the guardian of the person, the RUFADAA fiduciary and the anatomical gift agent — take the us-model baseline. Those sections were not individually re-read for this entry and no claim specific to Colorado is made about them; the article 19 part 2 anatomical gift act is noted as relocated in 2017 on the authority of its own source line and nothing further.\n\nTwo things in this jurisdiction are without parallel in the rest of the reference. The durability of a power of attorney is selected by the instrument's creation date, with the superseded magic-words test at §15-14-501 still operative for anything signed before 2010 (§15-14-704(2)). And the small-estate ceiling is not a figure but a formula — twice a CPI-adjusted exempt-property amount keyed to the year of death — so the threshold is recorded as null with the formula in the note rather than as a number this reference has not read from an official source.\n\nColorado also has a supported decision-making statute (article 14 part 8, §§15-14-801 et seq.) and designated beneficiary agreements (article 22), the latter conferring proxy and surrogate rights that §§15-18.5-103 and 15-18.5-104 both defer to.",
+     "label": "US — Colorado",
+     "shortLabel": "Colorado"
+    },
+    {
      "id": "us-de",
      "name": "Delaware",
      "short": "DE",
@@ -1236,6 +1250,20 @@
    "country": "us",
    "label": "US — California",
    "shortLabel": "California"
+  },
+  {
+   "id": "us-co",
+   "name": "Colorado",
+   "short": "CO",
+   "code": "CO",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-co.json"
+   ],
+   "country": "us",
+   "note": "Colorado Revised Statutes 2026, title 15 (Probate, Trusts, and Fiduciaries), read from the Office of Legislative Legal Services' own host at olls.info on 14 October 2026. One title is one file there, so every citation's URL is the title and the pinpoint is in the citation text, as with Oklahoma and Delaware.\n\nColorado is a Uniform Probate Code state, so the roles not patched below — the personal representative, the administrator, the guardian of the person, the RUFADAA fiduciary and the anatomical gift agent — take the us-model baseline. Those sections were not individually re-read for this entry and no claim specific to Colorado is made about them; the article 19 part 2 anatomical gift act is noted as relocated in 2017 on the authority of its own source line and nothing further.\n\nTwo things in this jurisdiction are without parallel in the rest of the reference. The durability of a power of attorney is selected by the instrument's creation date, with the superseded magic-words test at §15-14-501 still operative for anything signed before 2010 (§15-14-704(2)). And the small-estate ceiling is not a figure but a formula — twice a CPI-adjusted exempt-property amount keyed to the year of death — so the threshold is recorded as null with the formula in the note rather than as a number this reference has not read from an official source.\n\nColorado also has a supported decision-making statute (article 14 part 8, §§15-14-801 et seq.) and designated beneficiary agreements (article 22), the latter conferring proxy and surrogate rights that §§15-18.5-103 and 15-18.5-104 both defer to.",
+   "label": "US — Colorado",
+   "shortLabel": "Colorado"
   },
   {
    "id": "us-de",

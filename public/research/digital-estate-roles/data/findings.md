@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 56 | **24** |
-| `conservator-estate` | 59 | 21 |
-| `personal-representative-administrator` | 52 | 20 |
-| `anatomical-gift-agent` | 53 | 19 |
-| `financial-poa-durable` | 50 | 17 |
-| `guardian-person` | 50 | 17 |
-| `health-care-agent` | 48 | 14 |
+| `personal-representative-executor` | 57 | **24** |
+| `conservator-estate` | 60 | 21 |
+| `personal-representative-administrator` | 53 | 20 |
+| `anatomical-gift-agent` | 54 | 19 |
+| `financial-poa-durable` | 51 | 17 |
+| `guardian-person` | 51 | 17 |
+| `health-care-agent` | 49 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 30 | **4** |
-| `online-tool-designee` | 27 | **2** |
+| `digital-assets-fiduciary` | 31 | **4** |
+| `online-tool-designee` | 28 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 26 of the 46 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 27 of the 47 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,7 +106,7 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 27** of the 50 jurisdictions that record it and **true in 23**
+`poaDurableByDefault` is **false in 27** of the 51 jurisdictions that record it and **true in 24**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
 that took the Uniform Power of Attorney Act: Idaho, Illinois, **Iowa**, Kentucky, Maine, Michigan,
 **Nebraska**, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and West Virginia, with
@@ -199,7 +199,7 @@ the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 44 jurisdictions that record it and false in 34.
+`poaRegistrationBeforeUse` is true in 10 of the 45 jurisdictions that record it and false in 35.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -214,7 +214,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 39** of the 49 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 40** of the 50 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -233,10 +233,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 46 | 5 |
-| `benefits-payee` | 40 | 5 |
-| `tax-representative` | 40 | 5 |
-| `veterans-fiduciary` | 33 | 3 |
+| `health-records-representative` | 47 | 5 |
+| `benefits-payee` | 41 | 5 |
+| `tax-representative` | 41 | 5 |
+| `veterans-fiduciary` | 34 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -264,12 +264,19 @@ not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 20 of the 30 jurisdictions that record it and false in
+`supportedDecisionMakingStatute` is true in 21 of the 31 jurisdictions that record it and false in
 10 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
-false while ten US states are true** — California, Delaware, Florida, Illinois, **Maryland**, New
-York, Texas, Utah, **Virginia** and Washington — so the uniform acts have not absorbed it, but
-states have.
+false while eleven US states are true** — California, **Colorado**, Delaware, Florida, Illinois,
+Maryland, New York, Texas, Utah, Virginia and Washington — so the uniform acts have not absorbed it,
+but states have.
+
+Colorado's is article 14 part 8 of its probate title, and its legislative declaration is the
+clearest statement of the idea's purpose in the data: guardianship “constitutes one of the most
+restrictive options available to adults with disabilities” and “should be employed only when
+a less restrictive alternative would fail to meet the needs of the adult”, with adults with
+disabilities “presumed competent”. The agreement is filed in the same title as the
+guardianship it is meant to avert.
 
 The two new ones are also the reason to stop reading this feature as a measure of anything but
 presence. Set the four states whose statutes this file has actually read against the two questions
@@ -1535,11 +1542,14 @@ ways, two of them by writing its inverse. Missouri, which took no uniform power-
 all, supplies a fourth answer that is neither; Nebraska, which took the act whole, supplies a fifth
 by keeping the rule the act was written to abolish; Kansas arrives at Nebraska's rule without ever
 having enacted the act at all — and Iowa, which did enact it, gives a sixth answer that is none of
-the above:
+the above. Colorado is the one state here that adds no new answer: it took the bracketed sentence as
+written, which puts it with Virginia and makes the point that where the uniform text is adopted
+verbatim it does produce agreement.
 
 | | Where the rule lives | What a court appointment does to the agency |
 |---|---|---|
 | **Virginia** | §64.2-1606(B), the §108 slot | **nothing** — "not terminated and the agent's authority continues unless limited, suspended, or terminated by the court" |
+| **Colorado** | §15-14-708(2), the §108 slot | **nothing** — the identical bracketed sentence, with the agent "accountable to the fiduciary as well as to the principal" |
 | **West Virginia** | §39B-1-108(b), the §108 slot | **ends it** — "unless otherwise ordered by the court making the appointment, the power of attorney and the agent's authority thereunder terminates upon the appointment" |
 | **Kentucky** | §457.100(1)(c), the **termination** section | **ends it** — the power terminates on the appointment "unless the court specifically provides that the power of attorney shall remain in effect" |
 | **Missouri** | §404.731(3), in the jurisdiction section | **neither** — "the court **may specify in an order** the powers, duties and responsibilities" of the legal representative and the attorney in fact "and the manner in which they shall **coordinate** the exercise of their respective powers" |
@@ -1570,10 +1580,11 @@ the uniform numbering, and restored the 1979 position in the one place the draft
 
 That produces the widest outcome in the table, because it is not a rule about the agency at all — it
 is a **transfer of the principal's own revocation power to a stranger the court appoints**. In
-Virginia the agent continues; in West Virginia and Kentucky the agency ends by operation of law; in
-Missouri a judge allocates. In Nebraska the conservator simply decides, and may do so without any
-further court involvement. Five jurisdictions, one uniform section, and the only thing they agree on
-is that something happens.
+Virginia and Colorado the agent continues; in West Virginia and Kentucky the agency ends by
+operation of law; in Missouri a judge allocates. In Nebraska and Kansas the conservator simply
+decides, and may do so without any further court involvement. In Iowa the power goes dormant and
+revives. **Eight jurisdictions, one uniform section, five distinct rules**, and the only thing they
+agree on is that something happens.
 
 For anyone modelling this, the lesson is narrower than "jurisdictions differ". **The event is the
 same and observable — a court appoints a fiduciary — but what it does to an existing authority is
@@ -1794,6 +1805,82 @@ Three consequences for anything built on top of this, and they are not specific 
   *revoked* has nowhere to put "lapsed because unused", and nowhere to put the devolution that
   follows it. The alternate designee's authority begins at the moment the first one's ends, and the
   only evidence of that moment is the absence of an act.
+
+## 20. Colorado has two durability tests, and which one applies depends on when the instrument was signed
+
+Every other section here compares jurisdictions. This one is about a jurisdiction that differs from
+**itself**, on a line drawn through a single date, and it is the cleanest case in the data of a rule
+that cannot be applied until you know how old the paper is.
+
+Colorado enacted the Uniform Power of Attorney Act in 2009, effective 1 January 2010, and
+§15-14-704 gives the uniform default in subsection (1): a power “created on and after January 1,
+2010, is durable unless it expressly provides that it is terminated by the incapacity of the
+principal.” The official comment, which Colorado prints in the statute text, says plainly that
+this “is the reverse of the approach under the Uniform Durable Power of Attorney Act”.
+
+Subsection (2) is the part with no parallel elsewhere in this reference:
+
+> A power of attorney existing on December 31, 2009, is durable only if on that day the power of
+> attorney is durable under section 15-14-501 or 15-14-745 (2).
+
+So the state keeps **two live tests** and selects between them by the instrument's creation date.
+For anything signed before 2010, the operative question is not the default at all but the old
+magic-words rule at §15-14-501 — the writing must contain “This power of attorney shall not be
+affected by disability of the principal.” or “This power of attorney shall become effective
+upon the disability of the principal.” or “similar words showing the intent of the
+principal”.
+
+**§15-14-501 is therefore load-bearing, not a vestige**, and that distinction matters because the
+same title is littered with sections that *are* vestiges and say so. Article 14 carries four
+power-of-attorney parts. Part 6's declaration at §15-14-601 is “(Repealed)”, with an
+editor's note sending the reader to §15-14-500.3. The Uniform Statutory Form Power of Attorney Act
+at article 1 part 13 is “(Repealed)” outright. Part 7 is the current act. Part 5 is the
+superseded one and is still the law for a seventeen-year cohort of instruments. Four parts, two
+live, and nothing in the part headings distinguishes them.
+
+### Why this is more than a transitional curiosity
+
+Transitional provisions are ordinary; §15-14-745 is one, and most enacting states have something
+like it. What is unusual is the **shape of the result**. A relying party holding a Colorado power
+of attorney cannot ask “is this durable?” and get an answer from one section. It has to ask,
+in order: when was this signed, and therefore which test applies, and only then, does it pass.
+
+That is the same structure as §12's enacted-but-not-commenced problem and §16's shelf lives, seen
+from the other side. §12 is about law that has a future start date; §16 is about findings that go
+stale. This is about law that has a **past** cut-off, where the older rule never stops applying to
+the instruments it was written for. All three defeat the same assumption — that the law governing an
+authority can be looked up once, as it stands today.
+
+For anyone modelling this, the lesson is narrow and concrete: **an assertion about an authority
+needs the date of the instrument, not only the date of the assertion.** Two documents presented on
+the same morning, identical on their face, can be governed by different tests because one was
+signed in 2008. A system that stores “Colorado: durable by default” has recorded something
+that is true of most Colorado powers and false of the rest, with no field in which the difference
+could be noticed.
+
+Colorado supplies two further things worth recording, neither of which needs a section of its own.
+
+**It states no small-estate figure.** §15-12-1201(1)(a) sets the affidavit ceiling at property that
+“does not exceed twice the amount set forth in section 15-11-403, as adjusted by section
+15-10-112”. Following that through: §15-11-403(1)(a) fixes an exempt-property base of
+“twenty-six thousand dollars” as a pre-2012 figure, and §15-10-112 makes it CPI-adjusted
+against a **2010 reference base**, keyed to the calendar year immediately preceding the **year of
+death**, rounded down to the next multiple of $1,000. Doubled, that is the ceiling. Every other US
+jurisdiction in §9's table prints a number; Colorado prints a formula whose answer depends on when
+the decedent died and on a federal index, and which appears nowhere in the statute book. This
+reference records the formula and leaves the amount null rather than publishing a figure it has not
+read from an official source — which is why Colorado has no row in §9.
+
+**And its default health-care decision-maker cannot be derived.** Every other surrogate in this data
+is the output of a statutory priority list, so a relying party can compute it. Colorado's proxy
+decision-maker under §15-18.5-103 is the output of a negotiation: “interested persons” — a
+spouse, either parent, any adult child, sibling or grandchild, **or any close friend** — “shall
+make reasonable efforts to reach a consensus as to who among them shall make medical treatment
+decisions”, and the only guidance is qualitative. There is no tie-break; if anyone disagrees with
+the selection *or with a decision*, the route is guardianship, which only those same interested
+persons may start. Where nobody can be found or nobody is willing, the attending physician may
+designate **another willing physician** as proxy. So Colorado can be told who its surrogate is, and
+can never be asked to work it out.
 
 ## What this suggests for a standard
 

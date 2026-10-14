@@ -1,0 +1,309 @@
+{
+ "jurisdiction": "us-co",
+ "name": "Colorado",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Probate Code, enacted 1973 (articles 10 to 15 of title 15)",
+  "Uniform Power of Attorney Act (2006), enacted 2009 (HB 09-1198), effective 1 January 2010, as article 14 part 7",
+  "Uniform Trust Code (2000), enacted 2018, as article 5",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2015), enacted 2017, as article 1 part 15",
+  "Revised Uniform Anatomical Gift Act (2006), relocated into article 19 part 2 in 2017 (SB 17-223)",
+  "Uniform Adult Guardianship and Protective Proceedings Jurisdiction Act, as article 14.5"
+ ],
+ "note": "Colorado Revised Statutes 2026, title 15 (Probate, Trusts, and Fiduciaries), read from the Office of Legislative Legal Services' own host at olls.info on 14 October 2026. One title is one file there, so every citation's URL is the title and the pinpoint is in the citation text, as with Oklahoma and Delaware.\n\nColorado is a Uniform Probate Code state, so the roles not patched below — the personal representative, the administrator, the guardian of the person, the RUFADAA fiduciary and the anatomical gift agent — take the us-model baseline. Those sections were not individually re-read for this entry and no claim specific to Colorado is made about them; the article 19 part 2 anatomical gift act is noted as relocated in 2017 on the authority of its own source line and nothing further.\n\nTwo things in this jurisdiction are without parallel in the rest of the reference. The durability of a power of attorney is selected by the instrument's creation date, with the superseded magic-words test at §15-14-501 still operative for anything signed before 2010 (§15-14-704(2)). And the small-estate ceiling is not a figure but a formula — twice a CPI-adjusted exempt-property amount keyed to the year of death — so the threshold is recorded as null with the formula in the note rather than as a number this reference has not read from an official source.\n\nColorado also has a supported decision-making statute (article 14 part 8, §§15-14-801 et seq.) and designated beneficiary agreements (article 22), the latter conferring proxy and surrogate rights that §§15-18.5-103 and 15-18.5-104 both defer to.",
+ "citations": [
+  {
+   "id": "co-15-14-704",
+   "cite": "C.R.S. § 15-14-704",
+   "title": "Power of attorney is durable",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) A power of attorney created on and after January 1, 2010, is durable unless it expressly provides that it is terminated by the incapacity of the principal. (2) A power of attorney existing on December 31, 2009, is durable only if on that day the power of attorney is durable under section 15-14-501 or 15-14-745 (2)."
+  },
+  {
+   "id": "co-15-14-704-comment",
+   "cite": "C.R.S. § 15-14-704, official comment",
+   "title": "Official comment to the durability default",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "comment",
+   "retrieved": "2026-10-14",
+   "quote": "Section 15-14-704 establishes that a power of attorney created under the Act is durable unless it expressly states otherwise. This default rule is the reverse of the approach under the Uniform Durable Power of Attorney Act and based on the assumption that most principals prefer durability as a hedge against the need for guardianship."
+  },
+  {
+   "id": "co-15-14-501",
+   "cite": "C.R.S. § 15-14-501",
+   "title": "When power of attorney not affected by disability",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "Whenever a principal designates another his attorney-in-fact or agent by a power of attorney in writing and the writing contains the words “This power of attorney shall not be affected by disability of the principal.” or “This power of attorney shall become effective upon the disability of the principal.” or similar words showing the intent of the principal that the authority conferred shall be exercisable notwithstanding his disability, the authority of the attorney-in-fact or agent is exercisable by him as provided in the power on behalf of the principal notwithstanding later disability or incapacity of the principal at law or later uncertainty as to whether the principal is dead or alive. … The authority of the agent with regard to medical treatment decisions on behalf of a principal is set forth in sections 15-14-503 to 15-14-509."
+  },
+  {
+   "id": "co-15-14-745",
+   "cite": "C.R.S. § 15-14-745",
+   "title": "Effect on existing powers of attorney",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) Except as otherwise provided in this part 7, on January 1, 2010: (a) This part 7 applies to a power of attorney created before, on, or after January 1, 2010; (b) This part 7 applies to a judicial proceeding concerning a power of attorney commenced on or after January 1, 2010 …"
+  },
+  {
+   "id": "co-15-14-705",
+   "cite": "C.R.S. § 15-14-705",
+   "title": "Execution of power of attorney",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "A power of attorney must be signed by the principal or in the principal's conscious presence by another individual directed by the principal to sign the principal's name on the power of attorney. A signature on a power of attorney is presumed to be genuine if the principal acknowledges the signature before a notary public or other individual authorized by law to take acknowledgments."
+  },
+  {
+   "id": "co-15-14-705-comment",
+   "cite": "C.R.S. § 15-14-705, official comment",
+   "title": "Official comment on notarization",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "comment",
+   "retrieved": "2026-10-14",
+   "quote": "While notarization of the principal's signature is not required to create a valid power of attorney, this section strongly encourages the practice by according acknowledged signatures a statutory presumption of genuineness."
+  },
+  {
+   "id": "co-15-14-708",
+   "cite": "C.R.S. § 15-14-708",
+   "title": "Nomination of conservator or guardian - relation of agent to court-appointed fiduciary",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(2) If, after a principal executes a power of attorney, a court appoints a conservator of the principal's estate or other fiduciary charged with the management of some or all of the principal's property, the agent is accountable to the fiduciary as well as to the principal. The power of attorney is not terminated and the agent's authority continues unless limited, suspended, or terminated by the court."
+  },
+  {
+   "id": "co-15-14-708-comment",
+   "cite": "C.R.S. § 15-14-708, official comment",
+   "title": "Official comment on the departure from the UDPAA",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "comment",
+   "retrieved": "2026-10-14",
+   "quote": "Section 15-14-708(2) is a departure from the Uniform Durable Power of Attorney Act which gave a court-appointed fiduciary the same power to revoke or amend a power of attorney as the [principal]."
+  },
+  {
+   "id": "co-15-14-720",
+   "cite": "C.R.S. § 15-14-720",
+   "title": "Liability for refusal to accept acknowledged power of attorney",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) … (a) A person shall either accept an acknowledged power of attorney or request a certification, a translation, or an opinion of counsel under section 15-14-719 (4) no later than seven business days after presentation of the power of attorney for acceptance. (b) If a person requests a certification, a translation, or an opinion of counsel under section 15-14-719 (4), the person shall accept the power of attorney no later than five business days after receipt of the certification, translation, or opinion of counsel. (c) A person may not require an additional or different form of power of attorney for authority granted in the power of attorney presented."
+  },
+  {
+   "id": "co-15-14-601",
+   "cite": "C.R.S. § 15-14-601",
+   "title": "Legislative declaration (Repealed)",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(Repealed) Source: L. 94: Entire part added, p. 1068, § 1, effective January 1, 1995. L. 2009: Entire section repealed, (HB 09-1198), ch. 106, p. 427, § 19, effective January 1, 2010. Editor's note: The provisions of this section were relocated to § 15-14-500.3."
+  },
+  {
+   "id": "co-15-1-1321",
+   "cite": "C.R.S. § 15-1-1321",
+   "title": "Uniform Statutory Form Power of Attorney Act (Repealed)",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(Repealed)"
+  },
+  {
+   "id": "co-15-14-506",
+   "cite": "C.R.S. § 15-14-506",
+   "title": "Medical durable power of attorney",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) The authority of an agent to act on behalf of the principal in consenting to or refusing medical treatment, including artificial nourishment and hydration, may be set forth in a medical durable power of attorney. A medical durable power of attorney may include any directive, condition, or limitation of an agent's authority. (2) The agent shall act in accordance with the terms, directives, conditions, or limitations stated in the medical durable power of attorney, and in conformance with the principal's wishes that are known to the agent. If the medical durable power of attorney contains no directives … the agent shall act in accordance with the best interests of the principal as determined by the agent."
+  },
+  {
+   "id": "co-15-18-5-103",
+   "cite": "C.R.S. § 15-18.5-103",
+   "title": "Proxy decision-makers for medical treatment authorized - definitions",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) A health-care provider or health-care facility may rely, in good faith, upon the medical treatment decision of a proxy decision-maker selected in accordance with subsection (4) of this section if an adult patient's attending physician determines that such patient lacks the decisional capacity … and no guardian with medical decision-making authority, agent appointed in a medical durable power of attorney, person with the right to act as a proxy decision-maker in a designated beneficiary agreement made pursuant to article 22 of this title, or other known person has the legal authority to provide such consent or refusal on the patient's behalf. (1.5)(a) “Interested person” means a patient's spouse, either parent of the patient, any adult child, sibling, or grandchild of the patient, or any close friend of the patient. (2) The determination that an adult patient lacks decisional capacity … may be made by a court or the attending physician … The determination may also be made by an advanced practice registered nurse who has collaborated about the patient with a licensed physician either in person, by telephone, or electronically. (4)(a) Interested persons who are informed of the patient's lack of decisional capacity shall make reasonable efforts to reach a consensus as to who among them shall make medical treatment decisions on behalf of the patient. The person selected to act as the patient's proxy decision-maker should be the person who has a close relationship with the patient and who is most likely to be currently informed of the patient's wishes … If any of the interested persons disagrees with the selection or the decision of the proxy decision-maker or, if, after reasonable efforts, the interested persons are unable to reach a consensus as to who should act as the proxy decision-maker, then any of the interested persons may seek guardianship of the patient … Only said interested persons may initiate such proceedings with regard to the patient. (4)(c)(I) An attending physician may designate another willing physician to make health-care treatment decisions as a patient's proxy decision-maker if: (A) After making reasonable efforts, the attending physician or his or her designee cannot locate any interested persons, or no interested person is willing and able to serve as proxy decision-maker; (B) The attending physician has obtained an independent determination of the patient's lack of decisional capacity by another physician; by an advanced practice registered nurse who has collaborated about the patient with a licensed physician …; or by a court …"
+  },
+  {
+   "id": "co-15-18-5-104",
+   "cite": "C.R.S. § 15-18.5-104",
+   "title": "Surrogate decision-makers for health-care benefits",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) A proxy decision-maker for medical treatment selected in accordance with section 15-18.5-103 or a person with the right to act as a surrogate decision-maker in a designated beneficiary agreement made pursuant to article 22 of this title shall have authority to make health-care benefit decisions on behalf of an adult patient and may be known additionally as a surrogate decision-maker for health-care benefits."
+  },
+  {
+   "id": "co-15-12-1201",
+   "cite": "C.R.S. § 15-12-1201",
+   "title": "Collection of personal property by affidavit",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) At any time ten or more days after the date of death of a decedent, any person indebted to the decedent or having possession of any personal property … shall pay or deliver such property to a person claiming to be a successor of the decedent … upon being presented an affidavit made by or on behalf of the successor stating: (a) The fair market value of property owned by the decedent and subject to disposition by will or intestate succession at the time of his or her death, wherever that property is located, less liens and encumbrances, does not exceed twice the amount set forth in section 15-11-403, as adjusted by section 15-10-112; (b) At least ten days have elapsed since the death of the decedent; (c) No application or petition for the appointment of a personal representative is pending or has been granted in any jurisdiction; and (d) Each person is entitled to payment or delivery of the property as set forth in such affidavit."
+  },
+  {
+   "id": "co-15-11-403",
+   "cite": "C.R.S. § 15-11-403",
+   "title": "Exempt property",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1)(a) Prior to January 1, 2012, the decedent's surviving spouse is entitled to exempt property from the estate in the form of cash in the amount of or other property of the estate in the value of twenty-six thousand dollars in excess of any security interests therein."
+  },
+  {
+   "id": "co-15-10-112",
+   "cite": "C.R.S. § 15-10-112",
+   "title": "Cost of living adjustment of certain dollar amounts",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1)(a) “CPI” means the consumer price index (annual average) for all urban consumers (CPI-U): United States city average -- all items, reported by the bureau of labor statistics … (b) “Reference base index” means the CPI for the calendar year 2010. (2) The dollar amounts stated in sections 15-11-102, 15-11-202 (2), 15-11-403, and 15-11-405 apply to the estate of a decedent who died during or after 2010, but for the estate of a decedent who died after 2011, these dollar amounts must be increased or decreased if the CPI for the calendar year immediately preceding the year of death exceeds or is less than the reference base index. … If the amount of the increase or decrease produced by the computation is not a multiple of one thousand dollars, then the amount of the increase or decrease is rounded down if it is an increase, or rounded up if it is a decrease, to the next multiple of one thousand dollars."
+  },
+  {
+   "id": "co-15-5-1013",
+   "cite": "C.R.S. § 15-5-1013",
+   "title": "Certification of trust",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) Instead of furnishing a copy of the trust instrument to a person other than a beneficiary, the trustee may furnish to the person a certification of trust containing the following information: (a) That the trust exists and the date the trust instrument was executed; (b) The identity of the settlor; (c) The identity and address of the currently acting trustee; (d) The powers of the trustee in the pending transaction; (e) The revocability or irrevocability of the trust and the identity of any person holding a power to revoke the trust; (f) The authority of cotrustees to sign or otherwise authenticate and whether all or less than all are required in order to exercise powers of the trustee; and (g) The name in which title to trust property may be taken."
+  },
+  {
+   "id": "co-15-1-1504",
+   "cite": "C.R.S. § 15-1-1504",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) A user may use an on-line tool to direct the custodian to disclose to a designated recipient or to not disclose some or all of the user's digital assets, including the content of electronic communications. If the on-line tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an on-line tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record. (2) If a user has not used an on-line tool to give direction under subsection (1) of this section or if the custodian has not provided an on-line tool, the user may allow or prohibit in a will, trust, power of attorney …"
+  },
+  {
+   "id": "co-15-14-801",
+   "cite": "C.R.S. § 15-14-801",
+   "title": "Supported decision-making agreements for adults with a disability - legislative declaration",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) The general assembly finds and declares that: (a) Guardianship constitutes one of the most restrictive options available to adults with disabilities and their families; (b) Guardianship should be employed only when a less restrictive alternative would fail to meet the needs of the adult with a disability; (c) Adults with disabilities are presumed competent and have the capacity to facilitate the exercise of decisions regarding their day-to-day health, safety, welfare, or financial affairs, unless otherwise determined through legal …"
+  },
+  {
+   "id": "co-15-19-106",
+   "cite": "C.R.S. § 15-19-106",
+   "title": "Right of final disposition",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) Subject to section 15-19-105 (2), the right to control disposition of the last remains or ceremonial arrangements of a decedent vests in and devolves upon the following persons, at the time of the decedent's death, in the following order: (a) The decedent if acting through a declaration pursuant to section 15-19-104 …; (b)(I) Either the appointed personal representative or special administrator of the decedent's estate if such person has been appointed; or (II) The nominee for appointment as personal representative under the decedent's [will] …"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "power of attorney",
+    "agent",
+    "durable power of attorney (pre-2010)"
+   ],
+   "diff": "Colorado enacted the Uniform Power of Attorney Act as **part 7 of article 14** in 2009, effective 1 January 2010, and §15-14-704 gives the uniform default: a power “created on and after January 1, 2010, is durable unless it expressly provides that it is terminated by the incapacity of the principal.” The official comment, which Colorado reproduces in the statute text, says so in terms — the rule “is the reverse of the approach under the Uniform Durable Power of Attorney Act”.\n\n**What makes Colorado different is subsection (2), and it is the only provision of its kind in this data.** A power “existing on December 31, 2009, is durable only if on that day the power of attorney is durable under section 15-14-501 or 15-14-745 (2).” So the durability test is selected by **the date the instrument was created**, and the superseded test is still the operative one for anything signed before 2010.\n\n§15-14-501 is accordingly **live, not a vestige**. It carries the old magic-words rule: the writing must contain “This power of attorney shall not be affected by disability of the principal.” or “This power of attorney shall become effective upon the disability of the principal.” or “similar words showing the intent of the principal”. A relying party presented with a Colorado power therefore cannot apply one rule: it has to read the execution date first, and for a pre-2010 instrument fall back to reading the words. In 2026 that cohort is seventeen years deep and still extant.\n\nThe other two power-of-attorney parts in the same neighbourhood are dead and say so — part 6's declaration at §15-14-601 is “(Repealed)” with its provisions relocated to §15-14-500.3, and the Uniform Statutory Form Power of Attorney Act at article 1 part 13 (§15-1-1321) is “(Repealed)”. Four parts, two live.\n\n**Formalities** follow the uniform act and not Iowa: §15-14-705 requires only the principal's signature, and acknowledgement before a notary buys a **presumption of genuineness** rather than validity — the official comment states that “notarization of the principal's signature is not required to create a valid power of attorney”.\n\n**Refusal** is Alternative A: §15-14-720 gives any person seven business days from presentation to accept or to request a certification, translation or opinion of counsel, then five business days from receipt of it, and — the prohibited ground — “A person may not require an additional or different form of power of attorney for authority granted in the power of attorney presented.”",
+   "citations": [
+    "co-15-14-704",
+    "co-15-14-704-comment",
+    "co-15-14-501",
+    "co-15-14-745",
+    "co-15-14-705",
+    "co-15-14-705-comment",
+    "co-15-14-720",
+    "co-15-14-601",
+    "co-15-1-1321"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "power of attorney effective upon disability"
+   ],
+   "diff": "Colorado's springing power sits on the same date split as the durable one. Post-2010 it is a matter of the instrument's own terms under part 7. For an instrument existing on 31 December 2009, §15-14-501's **second** magic sentence is the route — “This power of attorney shall become effective upon the disability of the principal.” — and §15-14-704(2) makes that the operative test for the whole pre-2010 cohort.\n\nSo the same section supplies both the durable and the springing form, distinguished only by which of its two printed sentences the drafter used.",
+   "citations": [
+    "co-15-14-501",
+    "co-15-14-704"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under a medical durable power of attorney",
+    "MDPOA agent"
+   ],
+   "diff": "Colorado keeps the health-care agent in **article 14 part 5**, the same part as the superseded financial act, rather than in a health statute: §15-14-501 routes medical authority out to “sections 15-14-503 to 15-14-509”, and §15-14-506 is the medical durable power of attorney itself.\n\nThe decision standard is ordered and explicit. The agent “shall act in accordance with the terms, directives, conditions, or limitations stated in the medical durable power of attorney, and in conformance with the principal's wishes that are known to the agent”; only where the instrument is silent **and** the wishes are not otherwise known does the agent act “in accordance with the best interests of the principal as determined by the agent”. The instrument may carry “any directive, condition, or limitation of an agent's authority”, so the bounds are on the face of the document rather than in the statute.",
+   "citations": [
+    "co-15-14-506",
+    "co-15-14-501"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "proxy decision-maker",
+    "surrogate decision-maker for health-care benefits"
+   ],
+   "diff": "Colorado has a default decision-maker, and **it is the only one in this data that cannot be computed from a table of relationships.** §15-18.5-103 does not rank anyone. “Interested persons” — a spouse, either parent, any adult child, sibling or grandchild, **or any close friend** — “shall make reasonable efforts to reach a consensus as to who among them shall make medical treatment decisions”, and the only guidance on whom they should pick is qualitative: the person “who has a close relationship with the patient and who is most likely to be currently informed of the patient's wishes”.\n\nThere is no tie-break. If any interested person disagrees with the selection *or with a decision*, or if consensus fails, the route is guardianship — and “only said interested persons may initiate such proceedings”. Everywhere else in this reference the surrogate is the output of a statutory priority list, so a relying party can derive it; in Colorado the surrogate is the output of a negotiation, and a relying party can only be **told** who it is.\n\nTwo further peculiarities. The predicate finding may be made by “a court or the attending physician”, and also by “an advanced practice registered nurse who has collaborated about the patient with a licensed physician either in person, by telephone, or electronically” — a determiner no other jurisdiction here names, with the collaboration expressly permitted by telephone. And where no interested person can be found or none is willing, §15-18.5-103(4)(c) lets **the attending physician designate another willing physician** as proxy, on an independent determination of incapacity by a second physician, an APRN or a court.\n\nThe proxy is also subordinate by design: it is available only where no guardian with medical authority, no MDPOA agent, no proxy under a **designated beneficiary agreement** (article 22) and no “other known person” has authority. §15-18.5-104 then layers a second office on top — the proxy, or a designated beneficiary agreement's surrogate, “shall have authority to make health-care benefit decisions” and “may be known additionally as a surrogate decision-maker for health-care benefits”, splitting treatment decisions from benefit decisions into two named authorities.",
+   "citations": [
+    "co-15-18-5-103",
+    "co-15-18-5-104",
+    "co-15-14-506"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator"
+   ],
+   "diff": "Colorado took the Uniform Power of Attorney Act's **bracketed** sentence as written, which puts it with Virginia and against its neighbours. §15-14-708(2): on the appointment of a conservator “the agent is accountable to the fiduciary as well as to the principal. The power of attorney is not terminated and the agent's authority continues unless limited, suspended, or terminated by the court.”\n\nSo the appointment creates an accountability relationship and changes nothing about the agency unless the court acts. The official comment printed with the section records that this “is a departure from the Uniform Durable Power of Attorney Act which gave a court-appointed fiduciary the same power to revoke or amend a power of attorney as the” principal would have had — the rule Nebraska and Kansas still apply.",
+   "citations": [
+    "co-15-14-708",
+    "co-15-14-708-comment"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "successor",
+    "affidavit under §15-12-1201"
+   ],
+   "diff": "**Colorado states no figure.** §15-12-1201(1)(a) sets the ceiling at property that “does not exceed **twice the amount set forth in section 15-11-403, as adjusted by section 15-10-112**” — and that is the whole of it. Every other US jurisdiction in this reference prints a dollar amount; Colorado prints a formula over two other sections.\n\nFollowing it through: §15-11-403(1)(a) fixes the exempt-property base at “twenty-six thousand dollars” as a pre-2012 figure, and §15-10-112 makes that amount CPI-adjusted — CPI-U, annual average, US city average, all items, against a **2010 reference base**, for a decedent dying after 2011, “increased or decreased if the CPI for the calendar year immediately preceding the year of death” differs from it, rounded down to the next multiple of $1,000 on an increase. Doubled, that is the affidavit ceiling.\n\nThe operative number therefore depends on **the year of death** and on a federal index, and appears nowhere in the statute book. This reference records the formula and leaves the amount null rather than publishing a figure it has not read from an official source: computing it here would be deriving a threshold, which rule 1 forbids.\n\nThe rest is ordinary UPC. The wait is **ten days** (“At any time ten or more days after the date of death”, repeated as a sworn element in (1)(b)), no personal-representative application may be pending or granted, and the affidavit reaches funds on deposit, safe-deposit contents, tangible property and instruments of indebtedness. Where the debt is secured by real property, §15-12-1201(3.5) adds a recording step — the affidavit and a death certificate or verification of death must be filed with the county clerk and recorder.",
+   "citations": [
+    "co-15-12-1201",
+    "co-15-11-403",
+    "co-15-10-112"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "trustee",
+    "certification of trust"
+   ],
+   "diff": "Colorado enacted the Uniform Trust Code as article 5, and §15-5-1013 is a certification of trust close to the uniform §1013: existence and execution date, the settlor, the currently acting trustee and address, “the powers of the trustee in the pending transaction”, revocability with the identity of anyone holding a power to revoke, cotrustee signing authority and whether all or fewer than all must act, and the name in which title may be taken.\n\nIt is an option rather than a duty — the trustee “may furnish” it “[i]nstead of furnishing a copy of the trust instrument” — which is the ordinary shape, and not Iowa's, where a counterparty demanding the instrument pays damages.",
+   "citations": [
+    "co-15-5-1013"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient",
+    "on-line tool direction"
+   ],
+   "diff": "Colorado enacted RUFADAA in 2017 as **part 15 of article 1** — §§15-1-1501 to 15-1-1518, inside the general fiduciary article rather than in a chapter of its own. §15-1-1504 is the uniform online-tool provision, with the usual bargain: the direction overrides “a contrary direction by the user in a will, trust, power of attorney, or other record” **only** “[i]f the on-line tool allows the user to modify or delete a direction at all times”.\n\nColorado's wording is “at all times” where the uniform text and most enacting states read “at any time”. Nothing in the section turns on the difference, and it is recorded here because the condition is what the precedence is bought with.",
+   "citations": [
+    "co-15-1-1504"
+   ]
+  }
+ ]
+}

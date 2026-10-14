@@ -1964,6 +1964,41 @@
       + out + '</svg>';
   }
 
+  // §20. Colorado keeps two durability tests and selects between them by the instrument's
+  // creation date, so the same question has two answers and the paper's age picks one.
+  function figDateSplit() {
+    const lw = 128, axw = FIG_W - lw - 14, top = 24, bh = 20, gap = 30;
+    // A notional span of execution years; the only real point on it is 1 Jan 2010.
+    const Y0 = 2000, Y1 = 2026, cut = 2010;
+    const x = (y) => lw + ((y - Y0) / (Y1 - Y0)) * axw;
+    const rows = [
+      ['\u00a715-14-501', 'magic words', Y0, cut, 0],
+      ['\u00a715-14-704(1)', 'durable by default', cut, Y1, 1],
+    ];
+    let out = '';
+    rows.forEach(([sec, label, a, b, on], r) => {
+      const y = top + r * (bh + gap);
+      out += `<text x="0" y="${y + bh / 2 + 4}" class="fig-l">${esc(sec)}</text>`;
+      out += on
+        ? `<rect x="${x(a)}" y="${y}" width="${x(b) - x(a)}" height="${bh}" rx="3" fill="var(--accent)"/>`
+        : `<rect x="${x(a)}" y="${y}" width="${x(b) - x(a)}" height="${bh}" rx="3" fill="none" `
+          + `stroke="var(--assigned)" stroke-width="1.5"/>`;
+      out += `<text x="${(x(a) + x(b)) / 2}" y="${y + bh / 2 + 4}" text-anchor="middle" `
+        + `class="fig-t">${esc(label)}</text>`;
+    });
+    const yEnd = top + rows.length * (bh + gap) - gap + 6;
+    out += `<line x1="${x(cut)}" y1="${top - 8}" x2="${x(cut)}" y2="${yEnd}" `
+      + `stroke="var(--end)" stroke-width="1.5"/>`
+      + `<text x="${x(cut)}" y="${top - 12}" text-anchor="middle" class="fig-t">1 Jan 2010</text>`;
+    out += `<text x="0" y="${yEnd + 16}" class="fig-l">signed</text>`;
+    [2000, 2010, 2026].forEach((y) => {
+      out += `<text x="${x(y)}" y="${yEnd + 16}" text-anchor="middle" class="fig-l">${y}</text>`;
+    });
+    return svgOpen(yEnd + 24,
+      'Colorado runs two durability tests at once. A power of attorney signed on or after 1 January 2010 is durable by default under section 15-14-704(1); one existing on 31 December 2009 is durable only if it satisfied the magic-words test at section 15-14-501 on that day, and that section is still in force for the older cohort. Which test applies is fixed by the date the instrument was signed, not by the date it is presented')
+      + out + '</svg>';
+  }
+
   // Which drawing belongs to which finding. Keyed on the section number the heading opens
   // with, so renumbering the prose moves the figures with it; a section with no entry simply
   // gets none, which is the right answer for the closing argument.
@@ -2035,8 +2070,9 @@
       case 14: return figWrap(figStanding(), 'How strongly each claimant\u2019s standing is evidenced, on one scale.');
       case 15: return figWrap(figAccept(), 'Every regime carries the safe harbour. Only two carry the duty.');
       case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
-      case 17: return figWrap(figTermination(), 'One event, three answers \u2014 and two of them inside Kentucky.');
+      case 17: return figWrap(figTermination(), 'One event, five rules across eight jurisdictions \u2014 and the uniform text, where taken verbatim, is the only thing two of them agree on.');
       case 18: return figWrap(figSecurity(), 'Where the law moves liability, and where Missouri asks for collateral instead.');
+      case 20: return figWrap(figDateSplit(), 'Two live tests, selected by the instrument\u2019s date \u2014 so the same question has two answers in one state.');
       case 19: return figWrap(figShotClock(), 'Iowa \u00a7144C.8(2): the earlier of two deadlines binds, so a late notification shortens the window instead of moving it.');
       default: return '';
     }

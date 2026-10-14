@@ -1,6 +1,6 @@
 ---
 title: 'Standards landscape, against what the law requires'
-description: 'Where the current identity and authorization standards stand against what 56 jurisdictions of verified law actually require — ten conformance tests, each traceable to a statute.'
+description: 'Where the current identity and authorization standards stand against what 57 jurisdictions of verified law actually require — ten conformance tests, each traceable to a statute.'
 section: 'digital-estate-standards'
 order: 2
 standing: 'Survey and argument. Specification status verified 14 October 2026 and will date.'
@@ -24,7 +24,7 @@ auditable logs, cross-jurisdiction revocation, multi-party delegation, condition
 only on verified death or incapacity, trust frameworks for death-certificate validation, and
 **cross-industry conformance testing**.
 
-This page does not restate any of that. It does one thing the paper could not: **it turns 56
+This page does not restate any of that. It does one thing the paper could not: **it turns 57
 jurisdictions of verified law into conformance test cases**, so a proposal can be checked against
 what legislatures actually did rather than against a model of delegation. That is the asset this
 repository has and the specs do not.
