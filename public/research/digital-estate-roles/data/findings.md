@@ -2,7 +2,7 @@
 
 What the data says when you read it sideways — across jurisdictions rather than down one.
 The viewer recomputes its headline figures from the data every time it draws this page; the
-counts written into the sections here were current on **2026-10-02**.
+counts written into the sections here were current on **2026-10-14**.
 
 Not legal advice, and not a survey: this is what the sourced data supports, nothing wider.
 
@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 54 | **24** |
-| `conservator-estate` | 57 | 21 |
-| `personal-representative-administrator` | 50 | 20 |
-| `anatomical-gift-agent` | 51 | 19 |
-| `financial-poa-durable` | 48 | 17 |
-| `guardian-person` | 48 | 17 |
-| `health-care-agent` | 46 | 14 |
+| `personal-representative-executor` | 55 | **24** |
+| `conservator-estate` | 58 | 21 |
+| `personal-representative-administrator` | 51 | 20 |
+| `anatomical-gift-agent` | 52 | 19 |
+| `financial-poa-durable` | 49 | 17 |
+| `guardian-person` | 49 | 17 |
+| `health-care-agent` | 47 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 28 | **4** |
-| `online-tool-designee` | 25 | **2** |
+| `digital-assets-fiduciary` | 29 | **4** |
+| `online-tool-designee` | 26 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 24 of the 44 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 25 of the 45 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,7 +106,7 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 26** of the 48 jurisdictions that record it and **true in 22**
+`poaDurableByDefault` is **false in 27** of the 49 jurisdictions that record it and **true in 22**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
 that took the Uniform Power of Attorney Act: Idaho, Illinois, Kentucky, Maine, Michigan, **Nebraska**,
 New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and West Virginia, with
@@ -169,15 +169,37 @@ incapacity, but is headed "General Power of Attorney", has failed the first cond
 carries all three into the health-care power of attorney, so the same magic words gate the authority
 to refuse treatment.
 
+**Kansas sits at that same far end, and how it got there is the finding.** §58-652(a) asks for the
+same three cumulative things — denominated a "durable power of attorney", containing in substance one
+of two sentences the statute prints out, and signed, dated and acknowledged under the revised uniform
+law on notarial acts. Kansas prints its two sentences in lower case where Missouri capitalises them,
+and that is nearly the whole difference.
+
+The two states are neighbours, and **they share no act at all**: Kansas never enacted the Uniform
+Power of Attorney Act and neither did Missouri, so neither rule descends from the other or from a
+common model. Set that against this section's usual warning. Delaware and Virginia share an act's
+architecture down to the section number and answer the durability question *oppositely*; Kansas and
+Missouri share nothing and answer it *identically, down to the sentence*. **Neither the presence nor
+the absence of a common uniform act predicts the rule** — which means a reader cannot shortcut this
+question from an enactment table in either direction.
+
+Kansas then adds an accommodation the other magic-words state lacks, and it is the kind of detail a
+protocol will meet in practice: where the principal is "physically unable to sign … but otherwise
+competent and conscious", an adult designee may sign the principal's name, in the principal's
+presence, at the principal's specific direction expressed **in the presence of a notary public**. The
+instrument is then acknowledged to the same effect as if the principal had signed it. The most formal
+durability rule in the file has a route for a signatory who cannot hold a pen.
+
 Put the two poles beside each other and the spread on this single question is the widest in the file:
 in twenty-one jurisdictions a power is durable because the legislature says so unless the document
-objects, and in Missouri it is durable only if the document is titled correctly, recites prescribed
-capitals and is acknowledged to the standard required for transferring land. Both are described in
+objects, and in Missouri and Kansas it is durable only if the document is titled correctly, recites the
+prescribed sentences and is acknowledged — in Missouri to the standard required for transferring
+land, in Kansas before a notary. Both are described in
 the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 42 jurisdictions that record it and false in 32.
+`poaRegistrationBeforeUse` is true in 10 of the 43 jurisdictions that record it and false in 33.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -192,7 +214,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 37** of the 47 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 38** of the 48 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -211,10 +233,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 44 | 5 |
-| `benefits-payee` | 38 | 5 |
-| `tax-representative` | 38 | 5 |
-| `veterans-fiduciary` | 31 | 3 |
+| `health-records-representative` | 45 | 5 |
+| `benefits-payee` | 39 | 5 |
+| `tax-representative` | 39 | 5 |
+| `veterans-fiduciary` | 32 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -242,8 +264,8 @@ not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 20 of the 28 jurisdictions that record it and false in
-8 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
+`supportedDecisionMakingStatute` is true in 20 of the 29 jurisdictions that record it and false in
+9 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
 false while ten US states are true** — California, Delaware, Florida, Illinois, **Maryland**, New
 York, Texas, Utah, **Virginia** and Washington — so the uniform acts have not absorbed it, but
@@ -419,6 +441,7 @@ period the data does not record:
 | New York | $50,000 | none | — |
 | Oklahoma | $50,000 | 10 days | — |
 | Pennsylvania | $50,000 | — | — |
+| Kansas | $75,000 | none | $75,000 again where the district court refuses letters on a bond in not less than the value of the estate (§59-2287) |
 | Texas | $75,000 | 30 days | — |
 | Virginia | $75,000 | 60 days | $35,000, below which no affidavit is needed at all |
 | Idaho | $100,000 | 30 days | no ceiling where a surviving spouse is the sole devisee or heir |
@@ -458,13 +481,17 @@ at all.
 
 The waiting period varies too, and less visibly. Thirty days is the common figure, but it is a
 custom rather than a rule: **Oklahoma opens the affidavit route after ten** days (§58-393),
-**Virginia makes the successors wait sixty** (§64.2-601), and **New York imposes no wait at all**,
-because voluntary administration has no waiting period. Virginia then puts a shorter clock inside
+**Michigan after twenty-eight**, **California and Washington after forty**, **Virginia makes the
+successors wait sixty** (§64.2-601), **West Virginia a hundred and twenty** (§44-1-28) — and **three
+states impose no wait at all**: New York, because voluntary administration has no waiting period,
+Illinois, and **Kansas, whose §59-1507b states none**, so the successor may present the affidavit the
+day after the death. Virginia then puts a shorter clock inside
 the longer one: the licensed funeral service establishment may claim after **thirty** days
 (§64.2-604), ahead of the successors it is paid out of. So the first lawful claim on the same estate
 can fall anywhere from the day of death to two months after it, and in one state two different
-claimants have two different start dates. A protocol that assumes a month is wrong in three
-jurisdictions out of twenty, in both directions.
+claimants have two different start dates. Of the nineteen jurisdictions here that record a wait at
+all, only ten set it at thirty days, so **a protocol that assumes a month is wrong in nine of them,
+in both directions** — and wrong by a factor of a hundred and twenty between the two extremes.
 
 What the affiant must swear to varies as much as the ceiling, and that is the part a credential
 would actually have to carry. The model asks for value, timing and the absence of a personal
@@ -479,11 +506,34 @@ leave identification to the custodian.
 
 Maryland raises the ceiling on the same test rather than removing it: §5-601(c) doubles $50,000 to
 **$100,000 where the surviving spouse is the sole legatee or heir**, so the question "how much" is
-answered partly by "who". And Virginia's affidavit is the only one in this set that is a prescribed
-statewide artefact: §64.2-601 requires it to be **on a form prepared by the Office of the Executive
-Secretary of the Supreme Court of Virginia**, and it names a single **designated successor** to
-receive payment who then owes the others a statutory fiduciary duty. Everywhere else the affidavit's
-contents are specified and its shape is not.
+answered partly by "who".
+
+Two states now fix the **shape** of the affidavit rather than only its contents, and how they differ
+is the more useful half. Virginia's §64.2-601 *requires* the affidavit to be **on a form prepared by
+the Office of the Executive Secretary of the Supreme Court of Virginia**, and it names a single
+**designated successor** to receive payment who then owes the others a statutory fiduciary duty.
+Kansas's §59-1507b instead makes the official form a **safe harbour**: the affidavit "shall be deemed
+sufficient if in substantial compliance with the form set forth by the **judicial council**". So
+Virginia's custodian can reject anything that is not the form, while Kansas's is told that the form is
+enough and left to argue about anything else. One mandates the artefact; the other blesses it.
+Everywhere else the affidavit's contents are specified and its shape is not.
+
+Kansas's discharge clause is the strongest in this table, and it is the part a custodian actually
+cares about. §59-1507b(b) deems the transfer "to be a transfer to the personal representative of the
+decedent" and makes the successor's receipt "a full discharge and release … **to the same extent as
+if the transfer had been made to an executor or administrator**". The holder is not merely immunised
+for relying on a stranger's affidavit; it is placed in the position it would have occupied had it
+dealt with a grant holder. That is §15's safe-harbour component written as a deeming provision rather
+than as an immunity, and it is why the ceiling matters less here than the row suggests.
+
+Kansas's second route then parallels Missouri's closely enough to be worth noting between two
+neighbouring non-uniform states. §59-2287 lets the district court **refuse letters altogether**:
+under (a)(1) where the estate is no greater than the exempt property and the §59-403 spousal and
+children's allowance — a relational test like Kentucky's — and under (a)(2) where the estate does not
+exceed $75,000 and an interested person petitions **on bond** in not less than the value of the
+estate. Missouri's §473.090 is the same device at $15,000, also on bond. Two states that took no
+uniform probate code both built a bonded, court-ordered alternative to the affidavit, and both set it
+beside a route that needs neither bond nor court.
 
 Two states add a route with no ceiling at all, and reach it by different tests. Idaho asks **who
 inherits**: under §15-3-1205, where a surviving spouse is the sole devisee or heir, a petition and
@@ -688,14 +738,32 @@ about.
 
 ## 12. Law in force is not law enacted
 
-Three jurisdictions in this set now carry two answers at once, at three different distances, which
-is what turns this from a curiosity into something a standard has to handle:
+Four jurisdictions in this set carry two answers at once, or recently did, at four different
+distances — which is what turns this from a curiosity into something a standard has to handle:
 
 | | Replacement regime | Commences |
 |---|---|---|
 | **Utah** | Uniform Health Care Decisions Act (2025 ch. 439) | 1 January 2026 — already in force |
 | **Idaho** | Uniform Guardianship, Conservatorship and Other Protective Arrangements Act (S 1240, 2026 ch. 79) | 1 January 2027 |
 | **Oklahoma** | Uniform Health Care Decisions Act of 2026 (enrolled HB 1687) | 1 July 2027 |
+| **Kansas** | Uniform Guardianship, Conservatorship and Other Protective Arrangements Act (L. 2025 ch. 40) | 1 January 2026 — already in force, and the old act repealed |
+
+**Kansas and Idaho are the same act on opposite sides of the same transition**, which is the cleanest
+illustration in this file of why a date is not optional. Both enacted UGCOPAA. Idaho's commences on
+1 January 2027 and its statute book currently prints *both* regimes at once. Kansas's commenced on
+**1 January 2026**: §59-30,101 cites §§59-30,101 to 59-30,212 as the Kansas uniform guardianship,
+conservatorship and other protective arrangements act, and the revisor's note records that it
+"replaces K.S.A. 59-3050 et seq.". So "has this state adopted UGCOPAA?" is true of both, and the
+answer to "who may be appointed guardian, on what finding, with what powers" is the new act's in one
+and the old act's in the other, for another fifteen months.
+
+Kansas also shows what the *completed* transition looks like from the outside, and it is less helpful
+than it sounds. §59-3050 — the citation section of the repealed act, and the number every reference
+written before 2026 points at — is still a live page on the revisor's site, still answers normally,
+and now contains nothing but its own history: "Repealed, L. 2025, ch. 40, § 167; January 1, 2026."
+The old address resolves, returns a document, and the document is a tombstone. A pipeline that checks
+whether a cited section still exists would find that it does. **Existence is not currency**, and the
+three states above are the reason the data records a commencement date rather than an enactment one.
 
 Oklahoma's is the starkest, because the act does not merely amend a regime — it repeals the
 Oklahoma Health Care Agent Act and introduces a default surrogate where the state currently has
@@ -744,7 +812,7 @@ no answer, and a reader who assumes commencement is always a date will not even 
 
 | | How the switchover is expressed |
 |---|---|
-| **Utah** | a date, already passed |
+| **Utah**, **Kansas** | a date, already passed |
 | **Idaho**, **Oklahoma** | a date, in the future |
 | **Virginia** | **a condition in an act the Code does not quote** |
 
@@ -890,8 +958,9 @@ selection. For a relying party outside the health system — a bank, a custodian
 the hardest row in the table to verify, because the document that creates the authority is a note in
 someone else's file.
 
-Missouri is the limiting case of this whole table, because it is the one jurisdiction where the
-claimant in several of these rows **does not exist**. It has no default health-care surrogate: no
+Missouri and Kansas are the limiting case of this whole table, because they are the two
+jurisdictions where the claimant in several of these rows **does not exist**. Neither has a default
+health-care surrogate. Taking Missouri first: no
 statutory list of relatives, no last-resort class, nothing. The catchlines of chapters 404, 459, 475,
 191 and 194 contain no "surrogate"; the revisor's full-text search, checked against a positive
 control, finds the word only in chapter 162, where it means a surrogate *parent* in special
@@ -903,6 +972,24 @@ the ward's "health" and the duty to "provide required consents". Every other US 
 lets a spouse or an adult child decide by operation of law; Missouri sends the same decision to the
 probate division. The role is dropped from its row rather than recorded as empty, which is why
 `default-surrogate` does not move when Missouri is added.
+
+**Kansas is the second, and it was established the same way with a weaker instrument.** The
+catchlines of chapters 58, 58a, 59, 65 and 39 — 5,117 sections, covering the power of attorney act,
+the trust code, the probate code and guardianship, the public health code and social welfare —
+contain no surrogate, no next of kin and no nearest relative provision conferring health-care
+authority. Kansas's routes all need an instrument or a judge too: a durable power of attorney for
+health care decisions under §§58-625 to 58-632, a declaration under §65-28,103, a guardian whose
+duties §59-30,153 sets, or — new in the 2025 act — a **protective arrangement instead of
+guardianship** under §59-30,197, which lets a court make a single targeted order without appointing
+anyone at all.
+
+The method matters as much as the answer. Missouri's negative rests on a full-text search run
+against a positive control; Kansas's rests on reading catchlines, because the revisor's site has no
+search at all. So the Kansas claim is scoped to those five chapters and stated as such in the data,
+and the West Virginia lesson applies — a search that cannot be trusted and a true absence look
+identical, and only one of them can be reported as a finding. **Two of twenty-five US jurisdictions
+here have nobody who can decide for an incapacitated adult by operation of law**, which is a large
+enough exception to the "a spouse can always decide" assumption that a protocol should not hold it.
 
 Nebraska shows that the artefact can simply be missing, and that a legislature can remove it without
 removing the rule it supports. Its trust-code catchlines print the uniform section number in
@@ -936,6 +1023,39 @@ then, for a decedent on active military duty, **the person named on United State
 Defense Form 93** — ahead of the surviving spouse. A federal personnel record decides a state-law
 priority, which is the only instance here of a document issued by another sovereign controlling who
 holds one of these roles.
+
+Kansas adds a point to the left-hand column that no other row has, and it is about the *appointed*
+roles rather than the self-asserting ones. Under §59-30,108 a Kansas guardian's **letters of office**
+do not issue until the appointee files an acceptance, an oath, a personal information sheet that
+"shall not be disclosed to the public" — and "**evidence of completion of a basic instructional
+program concerning the duties and responsibilities of a guardian**". A conservator files the same
+plus any bond. Nowhere else in this data does the artefact that evidences an authority wait on the
+holder having been *taught the job*, which is a competence condition rather than an eligibility one.
+
+And §59-30,108(c) puts the scope on the artefact itself: "Limitations on the powers of a guardian or
+conservator or on the property subject to conservatorship **must be stated on the letters of
+office**", and where co-guardians are appointed the letters must say whether they may act
+independently, must act jointly, or on what terms. Every other appointed role in this reference asks
+a relying party to take the artefact as proof of the role and then go and read the order behind it to
+learn the limits. Kansas puts the limits on the face of the thing being presented.
+
+And the act closes that loop, which is what makes it more than a drafting preference. §59-30,185
+protects a person who "assists or deals with a conservator in good faith and for value" as though the
+conservator "properly exercised any power in question", and says that knowing one is dealing with a
+conservator "does not require the person to inquire into the existence of authority … or the
+propriety of the conservator's exercise of authority" — and then: "**but restrictions on authority
+stated in letters of office, or otherwise provided by law, are effective as to the person**". The
+protection extends even to "a procedural irregularity or jurisdictional defect in the proceeding
+leading to the issuance of letters of office".
+
+Read the two sections together and Kansas has legislated, for paper in 2025, the thing a scoped
+credential is for: **the artefact must state its own limits, the relying party need not look behind
+it, and reliance is protected inside those limits and not outside them.** The defect that would
+normally destroy the authority — a flaw in the appointment itself — is absorbed, while the one thing
+printed on the document is binding. That is a cleaner statement of the trust model than anything else
+in this file, and it is the opposite of how the power-of-attorney regimes in §15 work, where the
+relying party is protected against everything short of actual knowledge and the instrument's scope is
+whatever the drafter wrote in prose.
 
 Read the right-hand column on its own and it turns into a second scale, about **who the law trusts to
 decide that an adult has lost capacity**. Its two ends are both in states added here. West Virginia
@@ -983,13 +1103,15 @@ and one asserting "holder is the surrogate" is making a claim that may be false 
 Whatever a standard does about health care has to treat the authority as a question to be asked at
 the moment of use, not a fact to be cached.
 
-## 15. Acceptance is already solved in statute, six times over, and one state goes further
+## 15. Acceptance is already solved in statute, seven times over, and three states go further
 
 The question an evidence layer exists to answer is not "who may act" — §1 says that is settled
-nearly everywhere — but "why would the party holding the asset say yes?" Six regimes in this data
+nearly everywhere — but "why would the party holding the asset say yes?" Seven regimes in this data
 answer it, and they are built from the same three components: a **duty** to accept, a **remedy** if
 the holder refuses, and a **safe harbour** for the holder that accepts. No two of them carry the
-same subset, and the fifth answers the question with a fourth component the others do not have.
+same subset, and three of them add a component the others do not have at all — Missouri a right to
+demand security, Nebraska a list of grounds a refusal may *not* rest on, and Kansas an obligation on
+the refuser to **report the refusal to the authority that issued the appointment**.
 
 | | Duty to accept | Remedy for refusal | Safe harbour for accepting |
 |---|---|---|---|
@@ -1000,6 +1122,7 @@ same subset, and the fifth answers the question with a fourth component the othe
 | **Supported decision-making** (Del. §9408A, Utah §75-5-709) | — | — | immunity, and in Utah presumptions that the signatures and the authority are genuine |
 | **Missouri**, §§404.719, 456.10-1013 | — | — | eleven items a good-faith third person need not inquire into, absent actual knowledge — **plus a right to demand security**: indemnity against forgery by bond, or a certification of trust acknowledged or guaranteed |
 | **Nebraska**, §§30-4019–4020 | any person, within **seven business days** of presentation, of *any* acknowledged power of attorney — **plus grounds it may not refuse on** | court order, fees, **and liability as if it had refused the principal in person** | the uniform reliance protections of §30-4019 |
+| **Kansas**, §§59-30,123, 59-30,185 | any person, of a **guardian's or conservator's letters of office** — the only duty here owed on a *court appointment* rather than on an instrument the principal signed | a petition to **compel** acceptance, **and a report back to the appointing court within 10 days** of any refusal, handled as a grievance under §59-30,127 | good faith and for value, protected "as though the conservator properly exercised any power in question", no duty to inquire — **but restrictions stated in the letters of office bind the relying party** |
 
 Two of those rows are the same drafting travelling under different names. Idaho's acceptance regime
 **is** the uniform power-of-attorney one, lifted out of §§119–120 and pointed at every substitute
@@ -1075,8 +1198,64 @@ contingency where "neither a certification nor evidence of the occurrence of the
 is presented" (§30-4020(2)(h)). That is a statutory evidence requirement attached to a condition
 precedent, and the only one in this file.
 
+**Kansas does the one thing nothing else in this file does: it makes the refusal travel.** Its 2025
+act obliges a person to "recognize the authority of a guardian or conservator to act on behalf of an
+individual subject to guardianship or conservatorship" unless one of three things is true — actual
+knowledge or reasonable belief that the letters are invalid or that the fiduciary is exceeding or
+improperly exercising the court's grant; actual knowledge that the individual is being abused,
+neglected, exploited or abandoned **by that guardian or conservator**; or that the person has made,
+or knows someone has made, an abuse report under §39-1402 or §39-1431. Then §59-30,123(b):
+
+> A person that refuses to accept the authority of a guardian or conservator **must, within 10 days
+> of the refusal, report the refusal and the reason for refusal to the court**. Upon receiving the
+> report, the clerk of the district court shall forward the report to the presiding judge who shall
+> consider whether further action is appropriate.
+
+A refusal is "treated in the same manner as a grievance under K.S.A. 59-30,127", so the court that
+granted the authority can act on it without anyone petitioning.
+
+Kansas is the only row in that table carrying all three components **and** a fourth, and the fourth
+is not a fee shift: §59-30,123 puts no price on refusing at all. What it imposes instead is *work*,
+due whether or not anybody complains. Everywhere else the consequence of an unjustified refusal is a
+liability contingent on someone going to court; in Kansas the refuser must write to the court
+itself, within ten days, saying what it did and why.
+
+Three further things follow, and the third is the one for a standard.
+
+First, **this is the only acceptance duty in the data that runs on a court appointment rather than on
+a document the principal signed.** Every other row above is about an instrument someone executed — a
+power of attorney, a supported decision-making agreement, a small-estate affidavit, a certification
+of trust, a digital-asset request. Kansas owes the duty on **letters of office**, the artefact
+§59-30,108 requires to carry its own limitations on its face. So the two halves fit: a relying party
+is told what the authority is by the document, and told it must honour it by §59-30,123.
+
+Second, **its lawful refusals are about evidence of wrongdoing rather than evidence of authority.**
+
+Idaho's §15-15-106(2) already includes a refusal grounded in a report to adult protective services;
+Kansas makes that one of only three grounds, and the other two are invalid letters and knowledge of
+abuse by the fiduciary. There is no "we would like a different form" and no "the document is too
+old" — the answers Nebraska had to prohibit expressly, Kansas never admitted.
+
+Third, and this is the finding: **every other statute in this section leaves the channel blank in one
+direction, and Kansas is the only one that writes into the other.** The gap this section ends on is
+that a safe harbour runs until the relying party has *actual knowledge*, and nothing tells it
+anything — information has nowhere to flow *to* the custodian. Missouri's three registers are places
+to put a revocation so that it could flow that way. Kansas legislates the **return path**: when a
+custodian says no, the court that issued the authority finds out, with reasons, on a ten-day clock,
+and can act on its own motion. That is a refusal-reporting endpoint, and it is the component a
+protocol designer would otherwise have to invent — §15's own closing point is that "refusal is a
+legitimate outcome with reasons attached", and Kansas is the one jurisdiction that requires the
+reasons to be *sent somewhere*. It is also the only provision here that makes refusing a credential
+cost the refuser *work* rather than money: the fee shift elsewhere is a liability contingent on
+litigation, while the report is due whether or not anyone complains.
+
+What it is not is a notification to the guardian, or a register anyone can query, or a duty to
+consult anything. The flow is one-way and the court is the only recipient. But it is the first
+instance in this file of a legislature treating a refusal as an **event worth routing** rather than
+as a private decision by the party holding the asset.
+
 Read down the last column rather than the first. The duty is the component a standards body cannot
-supply, and where it exists it is usually narrow; the safe harbour is in **all six**, and it is the component that
+supply, and where it exists it is usually narrow; the safe harbour is in **all seven**, and it is the component that
 actually moves a relying party, because it converts "I might be sued for getting this wrong" into "I
 am protected if I act in good faith on what I was shown". Delaware's small-estate route is the proof
 of concept: a custodian pays out on a stranger's sworn affidavit, for a $50,000 estate, with no court
@@ -1183,8 +1362,9 @@ to revoke or amend a power of attorney as the principal would have if not incapa
 
 Three neighbouring states enacted that section and answered the bracketed question three different
 ways, two of them by writing its inverse. Missouri, which took no uniform power-of-attorney act at
-all, supplies a fourth answer that is neither — and Nebraska, which took the act whole, supplies a
-fifth by keeping the rule the act was written to abolish:
+all, supplies a fourth answer that is neither; Nebraska, which took the act whole, supplies a fifth
+by keeping the rule the act was written to abolish — and Kansas arrives at Nebraska's rule without
+ever having enacted the act at all:
 
 | | Where the rule lives | What a court appointment does to the agency |
 |---|---|---|
@@ -1193,6 +1373,7 @@ fifth by keeping the rule the act was written to abolish:
 | **Kentucky** | §457.100(1)(c), the **termination** section | **ends it** — the power terminates on the appointment "unless the court specifically provides that the power of attorney shall remain in effect" |
 | **Missouri** | §404.731(3), in the jurisdiction section | **neither** — "the court **may specify in an order** the powers, duties and responsibilities" of the legal representative and the attorney in fact "and the manner in which they shall **coordinate** the exercise of their respective powers" |
 | **Nebraska** | §30-4008(2), the §108 slot | **hands the decision to the conservator** — the fiduciary "shall have the same power to revoke or amend the power of attorney that the principal would have had if he or she were not disabled or incapacitated" |
+| **Kansas** | §58-656(c), in its own act's duties section | **hands the decision to the conservator** — the fiduciary "has the same power to revoke or amend the durable power of attorney that the principal would have had" |
 
 West Virginia and Kentucky reach the identical rule and file it in different places, and that is not
 a filing curiosity. A reader asking "when does a West Virginia power of attorney end?" goes to
@@ -1349,7 +1530,12 @@ nominate the channel, and deciding it should be the party that has to act on wha
    a court-issued credential — §15-7-403 letters of trusteeship, recordable with the county
    recorder — where every Uniform Trust Code state expects a certification of trust signed by
    the trustee themselves. Bind to the assertion ("holder is trustee of T"), not to the artefact
-   that evidences it.
+   that evidences it. The one place the artefact earns its keep is where a legislature has made it
+   carry its own scope: Kansas requires every limitation on a guardian's or conservator's powers to
+   be stated **on the letters of office** (§59-30,108(c)) and then makes those stated restrictions
+   binding on a relying party who is otherwise protected without inquiry (§59-30,185). That is a
+   scoped credential written for paper, and it is the closest thing in the set to a model worth
+   copying.
 2. **Carry direction, not just identity.** Allow, forbid, and silence are three different
    states with different defaults in the US, France and Italy respectively. The prohibition
    case is not an edge case; it is Italy's entire model. And "the US" is not one default either:
@@ -1388,7 +1574,13 @@ nominate the channel, and deciding it should be the party that has to act on wha
    over the person. Missouri is the one jurisdiction that has built anywhere to *put* a revocation —
    the recorder of deeds under §404.717(1)(3), the medical record under §404.850(2), the contracted
    registry under §459.250 — and it still imposes no duty on anyone to look. A place to publish and
-   a duty to consult are separable, and a standard needs both.
+   a duty to consult are separable, and a standard needs both. **Kansas is the only jurisdiction that
+   builds the channel in the other direction**: under §59-30,123(b) a person who refuses a guardian's
+   letters of office must report the refusal and its reason to the appointing court within ten days,
+   where it is handled as a grievance. So a protocol needs three things, not one — somewhere to
+   publish a change of status, a duty to consult it, and a path for the relying party's own "no" to
+   get back to whoever issued the authority. Exactly one of the three is legislated anywhere in this
+   set, and it is the one nobody designs.
 7. **Expect some jurisdictions to answer with collateral rather than evidence.** Missouri lets the
    relying party demand security instead of trusting the assertion: indemnity against forgery of a
    power of attorney by bond (§404.719(4)), a certification of trust acknowledged or guaranteed and

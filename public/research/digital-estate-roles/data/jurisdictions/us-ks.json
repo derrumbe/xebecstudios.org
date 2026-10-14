@@ -1,0 +1,574 @@
+{
+ "jurisdiction": "us-ks",
+ "name": "Kansas",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act, enacted 2025, in force 1 January 2026",
+  "Uniform Trust Code (2000), enacted 2002, with Section 1013 varied",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2015), enacted 2017",
+  "Revised Uniform Anatomical Gift Act (2006), enacted 2007"
+ ],
+ "note": "Kansas took no uniform power of attorney act and no uniform probate code, but it did something no other state in this set has yet done: it **replaced its whole guardianship law with the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act, and that replacement is already in force** — L. 2025, ch. 40, effective 1 January 2026, with §59-3050 now carrying nothing but its repeal note. Idaho is the other UGCOPAA state here and its enactment does not commence until 2027, so the two sit on opposite sides of the same transition. The new act brings two provisions new to this reference: §59-30,123 obliges a third party to recognise a guardian's authority and then requires anyone who refuses to **report the refusal, with reasons, to the court within 10 days**; and §59-30,108 withholds letters of office until the appointee files evidence of completing an instructional programme, and requires every limitation on their powers to be stated on the letters themselves. Elsewhere Kansas is close to Missouri next door — a near-identical magic-words durability test at §58-652, a bonded refusal-of-letters route at §59-2287 — and, like Missouri, it has no default health-care surrogate at all.",
+ "citations": [
+  {
+   "id": "ks-58-650",
+   "cite": "K.S.A. § 58-650",
+   "title": "Citation of act",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0050.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "K.S.A. 58-650 through 58-665 … may be cited as the Kansas power of attorney act."
+  },
+  {
+   "id": "ks-58-652",
+   "cite": "K.S.A. § 58-652",
+   "title": "Effectiveness of power of attorney; recording; revocation",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0052.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) The authority granted by a principal to an attorney in fact in a written power of attorney is not terminated in the event the principal becomes wholly or partially disabled … if: (1) The power of attorney is denominated a \"durable power of attorney\"; (2) the power of attorney includes a provision that states in substance one of the following: (A) \"This is a durable power of attorney and the authority of my attorney in fact shall not terminate if I become disabled or in the event of later uncertainty as to whether I am dead or alive\"; or (B) \"this is a durable power of attorney and the authority of my attorney in fact, when effective, shall not terminate or be void or voidable if I am or become disabled …\"; and (3) the power of attorney is signed by the principal, and dated and acknowledged in the manner prescribed by the revised uniform law on notarial acts. If the principal is physically unable to sign … the power of attorney may be signed by an adult designee of the principal in the presence of the principal and at the specific direction of the principal expressed in the presence of a notary public."
+  },
+  {
+   "id": "ks-58-654",
+   "cite": "K.S.A. § 58-654",
+   "title": "General powers",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0054.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-656",
+   "cite": "K.S.A. § 58-656",
+   "title": "Duties of attorney in fact; relation of attorney in fact to court-appointed fiduciary",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0056.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(c) If, following execution of a durable power of attorney, a court of the principal’s domicile appoints a conservator, guardian of the estate or other fiduciary charged with the management of all of the principal’s property … the attorney in fact is accountable to the fiduciary as well as to the principal. The fiduciary has the same power to revoke or amend the durable power of attorney that the principal would have had if the principal were not an adult with an impairment in need of a guardian or conservator or both as defined by K.S.A. 59-30,102. (d) A principal may nominate by a power of attorney, a guardian or conservator, or both, for consideration by the court. If a petition to appoint a guardian or conservator, or both, is filed, the court shall make the appointment in accordance with the principal’s most recent nomination in the power of attorney, so long as the individual nominated is a fit and proper person."
+  },
+  {
+   "id": "ks-58-657",
+   "cite": "K.S.A. § 58-657",
+   "title": "Modification, termination or suspension of power of attorney",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0057.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-658",
+   "cite": "K.S.A. § 58-658",
+   "title": "Exemption of third persons from liability",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0058.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) A third person, who is acting in good faith, without liability to the principal or the principal’s successors in interest, may rely and act on any power of attorney executed by the principal and acknowledged in the manner prescribed by K.S.A. 53-501 et seq. … A signature on a power of attorney is presumed to be genuine if acknowledged in the manner prescribed by K.S.A. 53-501 et seq. … and, in the absence of actual knowledge, as defined in subsection (d), is not responsible for determining and has no duty to inquire as to any of the following …"
+  },
+  {
+   "id": "ks-58-659",
+   "cite": "K.S.A. § 58-659",
+   "title": "Termination of power of attorney; liability between principal and third person",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0059.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-662",
+   "cite": "K.S.A. § 58-662",
+   "title": "Accounting; determination of disability; modification, termination",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0062.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-625",
+   "cite": "K.S.A. § 58-625",
+   "title": "Meaning of durable power of attorney for healthcare decisions",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0025.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-626",
+   "cite": "K.S.A. § 58-626",
+   "title": "Acts of agent during disability or incapacity of principal",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0026.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-627",
+   "cite": "K.S.A. § 58-627",
+   "title": "Power of court-appointed guardian; principal authorized to nominate",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0027.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-629",
+   "cite": "K.S.A. § 58-629",
+   "title": "Authority of agent; limitations on agent’s power",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0029.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-632",
+   "cite": "K.S.A. § 58-632",
+   "title": "Form of durable power of attorney",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0032.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-65-28101",
+   "cite": "K.S.A. § 65-28,101",
+   "title": "Withholding or withdrawal of life-sustaining procedures; legislative finding",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_028_0101.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-65-28103",
+   "cite": "K.S.A. § 65-28,103",
+   "title": "Declaration authorizing; effect during pregnancy; form of declaration",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_028_0103.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) Any adult person may execute a declaration directing the withholding or withdrawal of life-sustaining procedures in a terminal condition. The declaration … shall be: (1) In writing; (2) signed by the person making the declaration, or by another person in the declarant’s presence and by the declarant’s expressed direction; (3) dated; and (4)(A) signed in the presence of two or more witnesses at least 18 years of age neither of whom shall be the person who signed the declaration on behalf of … the person making the declaration, related to the declarant by blood or marriage, entitled to any portion of the estate of the declarant …"
+  },
+  {
+   "id": "ks-65-28104",
+   "cite": "K.S.A. § 65-28,104",
+   "title": "Revocation of declaration",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_028_0104.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-65-28105",
+   "cite": "K.S.A. § 65-28,105",
+   "title": "Written certification and confirmation of declarant’s terminal condition",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_028_0105.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-59-30101",
+   "cite": "K.S.A. § 59-30,101",
+   "title": "Citation of act",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0101.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "K.S.A. 59-30,101 through 59-30,212, and amendments thereto, may be cited as the Kansas uniform guardianship, conservatorship and other protective arrangements act. History: L. 2025, ch. 40, § 24; January 1, 2026. Revisor’s Note: K.S.A. 59-30,101 et seq. replaces K.S.A. 59-3050 et. seq., the act for obtaining a guardian or conservator …"
+  },
+  {
+   "id": "ks-59-30102",
+   "cite": "K.S.A. § 59-30,102",
+   "title": "Definitions",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0102.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-59-30108",
+   "cite": "K.S.A. § 59-30,108",
+   "title": "Letters of office; instructional program concerning duties and responsibilities",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0108.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) The court shall issue letters of office to a guardian on filing by the guardian of: (1) An acceptance of appointment; (2) an oath or affirmation as required by K.S.A. 59-1702 …; (3) evidence of completion of a basic instructional program concerning the duties and responsibilities of a guardian; and (4) a personal information sheet containing any personal identifying information about the guardian required by the court. Such information shall not be disclosed to the public. (b) The court shall issue letters of office to a conservator on filing … (3) any required bond or compliance with any other asset-protection arrangement required by the court; (4) evidence of completion of a basic instructional program … (c) Limitations on the powers of a guardian or conservator or on the property subject to conservatorship must be stated on the letters of office. If the court appoints co-guardians or co-conservators, the letters of office must specify whether such co-guardians or co-conservators may act independently, whether they must act jointly, or under what circumstances …"
+  },
+  {
+   "id": "ks-59-30123",
+   "cite": "K.S.A. § 59-30,123",
+   "title": "Third-party acceptance of authority of guardian or conservator",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0123.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) A person must recognize the authority of a guardian or conservator to act on behalf of an individual subject to guardianship or conservatorship unless: (1) The person has actual knowledge or a reasonable belief that the letters of office of the guardian or conservator are invalid or the conservator or guardian is exceeding or improperly exercising authority granted by the court; (2) the person has actual knowledge that the individual subject to guardianship or conservatorship is subject to physical or financial abuse, neglect, exploitation or abandonment by the guardian or conservator …; or (3) the person makes, or has actual knowledge that another person has made, a report under K.S.A. 39-1402 or 39-1431 … (b) A person that refuses to accept the authority of a guardian or conservator must, within 10 days of the refusal, report the refusal and the reason for refusal to the court. Upon receiving the report, the clerk of the district court shall forward the report to the presiding judge who shall consider whether further action is appropriate. A report of a refusal under this section shall be treated in the same manner as a grievance under K.S.A. 59-30,127 (c) A guardian or conservator may petition the court to require a third party to accept a decision made by the guardian or conservator on behalf of the individual subject to guardianship or conservatorship. History: L. 2025, ch. 40, § 46; January 1, 2026."
+  },
+  {
+   "id": "ks-59-30141",
+   "cite": "K.S.A. § 59-30,141",
+   "title": "Basis for appointment of guardian for adult",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0141.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-59-30153",
+   "cite": "K.S.A. § 59-30,153",
+   "title": "Duties of guardian for adult",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0153.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-59-30160",
+   "cite": "K.S.A. § 59-30,160",
+   "title": "Basis for appointment of conservator for minor or adult",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0160.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-59-30197",
+   "cite": "K.S.A. § 59-30,197",
+   "title": "Basis for protective arrangement instead of guardianship for adult",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0197.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-59-3050",
+   "cite": "K.S.A. § 59-3050",
+   "title": "Repealed",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0050.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "History: L. 2002, ch. 114, § 1; Repealed, L. 2025, ch. 40, § 167; January 1, 2026. Source or Prior Law: 59-3001."
+  },
+  {
+   "id": "ks-59-1507b",
+   "cite": "K.S.A. § 59-1507b",
+   "title": "Transfer of certain personal property to successor; discharge and release; affidavit",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_015_0007b.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) When a resident of the state dies, whether testate or intestate, if the total assets of the estate of the decedent subject to probate do not exceed $75,000 in value, any personal property of whatever nature transferable to the decedent’s estate by any entity or person shall be transferred to a person claiming to be a successor of the decedent, or in a manner as directed by the successor, without having been granted letters of administration or letters testamentary, upon such successor furnishing the entity or person with an affidavit showing entitlement thereto. (b) Transfer of such personal property to the successor … shall be deemed to be a transfer to the personal representative of the decedent, and the receipt of the successor … shall constitute a full discharge and release … The affidavit required herein shall be deemed sufficient if in substantial compliance with the form set forth by the judicial council."
+  },
+  {
+   "id": "ks-59-1507a",
+   "cite": "K.S.A. § 59-1507a",
+   "title": "Payment of certain benefits to certain relatives",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_015_0007a.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-59-2287",
+   "cite": "K.S.A. § 59-2287",
+   "title": "Refusal to grant letters of administration; order; notice; termination of administration",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_022_0087.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) The district court, in its discretion, may refuse to grant letters in the following cases: (1) When the value of real or personal property owned by the decedent is not greater in amount than is allowed by law as exempt property and the allowance to the surviving spouse or minor children under K.S.A. 59-403 … (2) When the real and personal estate of the decedent does not exceed $75,000 and the estate is not subject to allowances pursuant to K.S.A. 59-403 … any heir, devisee, legatee, creditor or other interested person may petition for refusal of letters by giving bond in the sum of not less than the value of the estate. Such bond shall be approved by the district court …"
+  },
+  {
+   "id": "ks-59-701",
+   "cite": "K.S.A. § 59-701",
+   "title": "Letters testamentary",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_007_0001.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-59-706",
+   "cite": "K.S.A. § 59-706",
+   "title": "Letters of administration and letters testamentary granted",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_007_0006.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58a-101",
+   "cite": "K.S.A. § 58a-101",
+   "title": "Citation of act",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58a/058a_001_0001.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "This act may be cited as the Kansas uniform trust code."
+  },
+  {
+   "id": "ks-58a-1013",
+   "cite": "K.S.A. § 58a-1013",
+   "title": "Certification of trust",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58a/058a_010_0013.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) Instead of furnishing a copy of the trust instrument to a person other than a qualified beneficiary, the trustee may furnish to the person an acknowledged certification of trust containing the following information: (1) That the trust exists and the date the trust instrument was executed; (2) the identity of the settlor; (3) the identity and address of the currently acting trustee; (4) the powers of the trustee; (5) the revocability or irrevocability of the trust and the identity of any person holding a power to revoke the trust; (6) the authority of cotrustees to sign or otherwise authenticate and whether all or less than all are required in order to exercise powers of the trustee; and (7) the manner of taking title to trust property. (b) A certification of trust may be signed or otherwise authenticated by any trustee."
+  },
+  {
+   "id": "ks-58-4801",
+   "cite": "K.S.A. § 58-4801",
+   "title": "Citation of act",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_048_0001.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-4804",
+   "cite": "K.S.A. § 58-4804",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_048_0004.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) A user may use an online tool to direct the custodian to disclose or not to disclose some or all of the user’s digital assets, including the content of electronic communications …"
+  },
+  {
+   "id": "ks-58-4815",
+   "cite": "K.S.A. § 58-4815",
+   "title": "Fiduciary duty and authority",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_048_0015.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-58-4816",
+   "cite": "K.S.A. § 58-4816",
+   "title": "Custodian compliance and immunity",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_048_0016.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-65-3220",
+   "cite": "K.S.A. § 65-3220",
+   "title": "Short title",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_032_0020.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-65-3223",
+   "cite": "K.S.A. § 65-3223",
+   "title": "Who may make anatomical gift before donor’s death",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_032_0023.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-65-3228",
+   "cite": "K.S.A. § 65-3228",
+   "title": "Who may make anatomical gift of decedent’s body or part",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_032_0028.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ks-65-3240",
+   "cite": "K.S.A. § 65-3240",
+   "title": "Effect of anatomical gift on advance health-care directive",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_032_0040.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "utc-1013-ks",
+   "cite": "UTC §1013(a) (2000, as amended)",
+   "title": "Certification of trust",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-10-14",
+   "quote": "(a) Instead of furnishing a copy of the trust instrument to a person other than a beneficiary, the trustee may furnish to the person a certification of trust containing the following information … (7) the trust’s taxpayer identification number; and (8) the manner of taking title to trust property."
+  },
+  {
+   "id": "ks-59-30185",
+   "cite": "K.S.A. § 59-30,185",
+   "title": "Protection of person dealing with conservator",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0185.html",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) A person that assists or deals with a conservator in good faith and for value in any transaction, other than a transaction requiring a court order under K.S.A. 59-30,179 … is protected as though the conservator properly exercised any power in question. Knowledge alone by a person that the person is dealing with a conservator does not require the person to inquire into the existence of authority of the conservator or the propriety of the conservator’s exercise of authority, but restrictions on authority stated in letters of office, or otherwise provided by law, are effective as to the person. … (b) Protection under subsection (a) extends to a procedural irregularity or jurisdictional defect in the proceeding leading to the issuance of letters of office … History: L. 2025, ch. 40, § 108; January 1, 2026."
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "durable power of attorney",
+    "attorney in fact"
+   ],
+   "diff": "Kansas has its own act — the Kansas power of attorney act, §§58-650 to 58-665 — and §58-652(a) sets a magic-words durability test that is **almost word for word Missouri's**. Three cumulative conditions: the instrument must be denominated a \"durable power of attorney\"; it must contain, in substance, one of two sentences the statute prints out; and it must be signed, dated and acknowledged under the revised uniform law on notarial acts. Missouri's §404.705 prints its two sentences in capitals and Kansas prints them in lower case, but the structure and most of the wording are the same.\n\nThat shared drafting between neighbours is worth noting against §4's usual warning. Delaware and Virginia share an act's architecture and answer the durability question oppositely; Kansas and Missouri share no act at all and answer it identically, down to the sentence. **Neither the presence nor the absence of a common act predicts the rule.**\n\nKansas adds a careful accommodation the other magic-words state lacks: where the principal is \"physically unable to sign … but otherwise competent and conscious\", an adult designee may sign the principal's name in the principal's presence, at the principal's specific direction expressed **in the presence of a notary public**, and the document is then acknowledged to the same effect as if physically signed.\n\n§58-658 then gives the relying party a presumption the durability test does not: \"A signature on a power of attorney is presumed to be genuine if acknowledged\", followed by a list of matters a good-faith third person has no duty to inquire into, absent actual knowledge as defined in §58-658(d). There is no duty to accept and no remedy for refusing.",
+   "citations": [
+    "ks-58-650",
+    "ks-58-652",
+    "ks-58-654",
+    "ks-58-656",
+    "ks-58-657",
+    "ks-58-658",
+    "ks-58-659",
+    "ks-58-662"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney"
+   ],
+   "diff": "The ordinary case, since §58-652(a)'s three conditions are what a written power must satisfy to survive disability; one that does not meet them ends there. §58-657 covers modification, termination and suspension, and §58-662 gives the court the route to determine disability and to modify or terminate.",
+   "citations": [
+    "ks-58-652",
+    "ks-58-657",
+    "ks-58-662"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "diff": "Contemplated rather than legislated in detail, as in Missouri: the second of §58-652(a)(2)'s prescribed sentences is written for a power whose authority is not yet effective (\"the authority of my attorney in fact, **when effective**, shall not terminate\"). §58-662 supplies the judicial route to a determination of disability.",
+   "citations": [
+    "ks-58-652",
+    "ks-58-662"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent",
+    "durable power of attorney for health care decisions"
+   ],
+   "diff": "A durable power of attorney for health care decisions sits inside the same chapter at §§58-625 to 58-632, with §58-632 supplying a statutory form. §58-629 limits the agent's authority and lists persons who may not serve.\n\n§58-627 is the part that matters to this reference, because it ranks the appointee against a later court appointment in the opposite direction from the financial power: it addresses the power of a **court-appointed guardian** over the health-care agent, and lets the principal nominate a guardian. Read with §58-656(d), under which the court \"shall make the appointment in accordance with the principal's most recent nomination … so long as the individual nominated is a fit and proper person\", Kansas gives the principal a binding say over who the court appoints — while giving that appointee, under §58-656(c), the power to revoke the principal's own power of attorney.",
+   "citations": [
+    "ks-58-625",
+    "ks-58-626",
+    "ks-58-627",
+    "ks-58-629",
+    "ks-58-632"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "(no statutory surrogate)"
+   ],
+   "absent": true,
+   "summary": "Kansas has no statutory default health-care surrogate; authority comes from a durable power of attorney for health care, a declaration, a court-appointed guardian, or a protective arrangement ordered instead of guardianship.",
+   "diff": "**Kansas has no default health-care surrogate**, which makes it the second US jurisdiction in this set without one, alongside Missouri. There is no statutory list of relatives who may decide for an incapacitated adult who left no instrument, so the baseline role is dropped rather than recorded as empty.\n\nHow this was established: the catchlines of chapters 58, 58a, 59, 65 and 39 — 5,117 sections between them, covering the power of attorney act, the trust code, the probate code and guardianship, the public health code and social welfare — contain no \"surrogate\", \"next of kin\" or \"nearest relative\" provision conferring health-care authority. The durable power of attorney for health care article (§§58-625 to 58-632) and the natural death act (§§65-28,101 to 65-28,109) both run on an instrument the person signed. The Kansas revisor's site offers no full-text search, so this is scoped to those five chapters rather than to the whole statute book. The same scan found no supported decision-making statute either, which is why that feature is recorded false for Kansas rather than left unrecorded.\n\nThe routes Kansas does provide all require an instrument or a court: a durable power of attorney for health care under §58-625, a declaration under §65-28,103, a guardian appointed under the 2025 act with duties under §59-30,153, or — new in that act — a **protective arrangement instead of guardianship** under §59-30,197, which lets a court make a single targeted order without appointing anyone at all.",
+   "citations": [
+    "ks-58-625",
+    "ks-65-28103",
+    "ks-59-30153",
+    "ks-59-30197"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian",
+    "letters of office",
+    "individual subject to guardianship"
+   ],
+   "diff": "**Kansas replaced its guardianship law outright, and the replacement is already in force.** §59-30,101 cites §§59-30,101 to 59-30,212 as the \"Kansas uniform guardianship, conservatorship and other protective arrangements act\", enacted by L. 2025, ch. 40 and effective **1 January 2026**; the revisor's note records that it \"replaces K.S.A. 59-3050 et seq.\", and §59-3050 itself now carries only \"Repealed, L. 2025, ch. 40, § 167; January 1, 2026\".\n\nTwo provisions are new to this reference.\n\n**§59-30,108 makes training a precondition of authority.** Letters of office issue to a guardian only on filing an acceptance, an oath, a personal information sheet that \"shall not be disclosed to the public\" — and \"**evidence of completion of a basic instructional program concerning the duties and responsibilities of a guardian**\". A conservator must file the same plus any required bond. Nowhere else in this data does the artefact of appointment wait on the appointee being taught the job.\n\n**The letters carry their own limits.** §59-30,108(c): \"Limitations on the powers of a guardian or conservator or on the property subject to conservatorship **must be stated on the letters of office**\", and where co-guardians are appointed the letters must specify whether they may act independently, must act jointly, or on what terms. The scope of the authority travels on the face of the document rather than living only in the order behind it — which is what every other role in this reference asks a relying party to go and look up.\n\n§59-30,141 sets the basis for appointing a guardian for an adult, §59-30,153 the duties, and §59-30,197 allows a protective arrangement instead of a guardianship.\n\n§59-30,123 then obliges a third party to recognise the authority, lets the guardian **petition the court to compel** acceptance, and requires a refuser to report the refusal and its reason to the court within 10 days, treated as a grievance under §59-30,127. §59-30,185 supplies the matching protection for the party that accepts, and scopes it to the letters: good-faith reliance is protected \"as though the conservator properly exercised any power in question\", with no duty to inquire — \"but restrictions on authority stated in letters of office … are effective as to the person\".",
+   "citations": [
+    "ks-59-30101",
+    "ks-59-3050",
+    "ks-59-30102",
+    "ks-59-30108",
+    "ks-59-30141",
+    "ks-59-30153",
+    "ks-59-30197",
+    "ks-59-30185"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "individual subject to conservatorship"
+   ],
+   "diff": "Appointed under the same 2025 act, with the basis in §59-30,160 and letters of office under §59-30,108(b), which additionally require any bond or other asset-protection arrangement the court orders.\n\nWhat the appointment does to an existing power of attorney is the Nebraska rule, reached by a different route. §58-656(c): the fiduciary \"has the same power to revoke or amend the durable power of attorney that the principal would have had\". Nebraska kept that rule **against** the Uniform Power of Attorney Act it adopted; Kansas has it because it never adopted that act, so the pre-2006 position was never disturbed. Same sentence, same effect, opposite relationship to the uniform law — and nothing in the text distinguishes them.\n\n§59-30,185 protects a person dealing with a conservator in good faith and for value even against \"a procedural irregularity or jurisdictional defect in the proceeding leading to the issuance of letters of office\", while making the restrictions printed on those letters binding on that person. The flaw in the appointment is absorbed; the limit on the face of the document is not.",
+   "citations": [
+    "ks-59-30160",
+    "ks-59-30108",
+    "ks-58-656",
+    "ks-59-30185"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "letters testamentary"
+   ],
+   "diff": "§59-701 and §59-706 govern letters testamentary and letters of administration. The route *not* taken is §59-2287, under which the district court \"in its discretion, may refuse to grant letters\" — either where the estate is no greater than the exempt property and the allowance to the surviving spouse or minor children under §59-403, or where the real and personal estate does not exceed **$75,000** and an interested person petitions **on bond** in not less than the value of the estate, approved by the court.",
+   "citations": [
+    "ks-59-701",
+    "ks-59-706",
+    "ks-59-2287"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "letters of administration"
+   ],
+   "diff": "The same §§59-701 and 59-706 machinery, and the same §59-2287 discretion to refuse letters altogether — a bonded, court-ordered route that parallels Missouri's §473.090 closely enough to be worth noting between two neighbouring non-uniform states.",
+   "citations": [
+    "ks-59-706",
+    "ks-59-2287"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "successor",
+    "affidavit under §59-1507b"
+   ],
+   "diff": "§59-1507b reaches **$75,000** of the estate subject to probate, with **no waiting period at all** — the affidavit may be furnished as soon as the successor has one — and the transfer happens \"without having been granted letters of administration or letters testamentary\".\n\nTwo features stand out. The transfer \"shall be deemed to be a transfer to the personal representative of the decedent\", and the successor's receipt \"shall constitute a full discharge and release … to the same extent as if the transfer had been made to an executor or administrator\" — so the custodian is put in the position it would have been in had it dealt with a grant holder, which is the strongest discharge wording in this data. And **the form is prescribed by a state body**: the affidavit \"shall be deemed sufficient if in substantial compliance with the form set forth by the judicial council\", which makes Kansas the second state here whose small-estate affidavit has a shape fixed by a state body rather than by the claimant. It is not the same device as Virginia’s, though: Virginia’s §64.2-601 **requires** the Office of the Executive Secretary’s form, while Kansas’s judicial council form is a **safe harbour** — substantial compliance is “deemed sufficient”, which leaves a non-conforming affidavit arguable rather than void.\n\n§59-2287 is the separate, court-ordered route at the same $75,000 ceiling, requiring a bond; §59-1507a covers payment of certain benefits to relatives.",
+   "citations": [
+    "ks-59-1507b",
+    "ks-59-1507a",
+    "ks-59-2287"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee",
+    "acknowledged certification of trust"
+   ],
+   "diff": "Kansas enacted the Uniform Trust Code in 2002 (§58a-101), and §58a-1013 is the certification of trust with two deviations that pull in opposite directions.\n\nIt is **stricter on form**: the trustee may furnish \"an **acknowledged** certification of trust\", so notarisation is built into the definition rather than being something a counterparty may demand — which is what Missouri's §456.10-1013(2) leaves to the third party's option. Kansas keeps the uniform rule that it \"may be signed or otherwise authenticated by **any** trustee\", where Missouri requires all of them.\n\nIt is **narrower on content**: the uniform list has eight items and Kansas's has seven, dropping \"the trust's taxpayer identification number\". It also limits the alternative to furnishing the instrument to a person other than a **qualified** beneficiary, where the uniform text says \"a beneficiary\".",
+   "citations": [
+    "ks-58a-101",
+    "ks-58a-1013",
+    "utc-1013-ks"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline: §58-4804(a) is the uniform online-tool rule, in the act cited at §58-4801 and codified at §§58-4801 to 58-4819 (2017 SB 63).",
+   "citations": [
+    "ks-58-4801",
+    "ks-58-4804"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "conservator",
+    "agent",
+    "trustee"
+   ],
+   "diff": "The uniform route, with §58-4815 carrying the fiduciary's duties across to digital assets and §58-4816 the custodian compliance and immunity provision. §58-4814 deals specifically with disclosure to a guardian or conservator, which now means one appointed under the 2025 act.",
+   "citations": [
+    "ks-58-4801",
+    "ks-58-4815",
+    "ks-58-4816"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "donor",
+    "agent",
+    "document of gift"
+   ],
+   "diff": "Revised Uniform Anatomical Gift Act, §§65-3220 et seq. (2007). §65-3223 lists who may make a gift during the donor's life, including an agent; §65-3228 ranks those who may make one after death; and §65-3240 addresses the effect of a gift on an advance health-care directive — the same express conflict rule Nebraska has at §71-4843, and a question most of this set leaves to whoever is holding the paper.",
+   "citations": [
+    "ks-65-3220",
+    "ks-65-3223",
+    "ks-65-3228",
+    "ks-65-3240"
+   ]
+  }
+ ]
+}
