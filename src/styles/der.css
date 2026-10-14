@@ -219,7 +219,11 @@
 .der-static .jur-card { border-top: 1px solid var(--line); padding: .9rem 0; }
 .der-static .jur-card h3 { margin: 0 0 .2rem; font-size: 1.02rem; }
 .der-static .jur-card .tag { margin-left: .5em; padding: 0 .4em; border: 1px solid var(--line); border-radius: 6px; font-size: .72rem; font-weight: 400; color: var(--ink-2); text-transform: none; letter-spacing: 0; }
-.der-static .local { margin: 0 0 .3rem; color: var(--ink-2); }
+
+/* An unverified row has to read as unverified on the static page too: the viewer badges it
+   from the patch, and canonicals now carries the flag, so the only thing left was saying so
+   here. Dashed border rather than a new colour, matching how the lifecycle draws them. */
+.der-static .jur-card .tag.unv { border-style: dashed; font-style: italic; }.der-static .local { margin: 0 0 .3rem; color: var(--ink-2); }
 .der-static .summary { margin: .3rem 0 .6rem; }
 .der-static .lane { display: grid; grid-template-columns: max-content 1fr; gap: .2rem .9rem; margin: .4rem 0 .5rem; }
 .der-static .lane dt { color: var(--ink-2); font-size: .82rem; letter-spacing: .05em; text-transform: uppercase; padding-top: .15rem; }
@@ -273,3 +277,209 @@
 }
 .der .fb-callout p { margin: 0; }
 .der .fb-callout p + p { margin-top: .35rem; font-size: .9rem; color: var(--ink-2); }
+
+/* Findings: cross-jurisdiction prose rendered from the findings.md the build ships in
+   data/. The rest of the viewer is an instrument — 16px body, 14.5px tables, dense on
+   purpose — but this tab is read as sentences, so it gets its own reading scale: larger
+   type, looser leading, and a measure set on the children rather than the container, so
+   the prose stays near 70 characters while a table may use more width when its columns
+   need it. Colour comes only from the tokens mapped at the top of this file. */
+/* The measure rides the text-bearing elements at any depth, not the container and not
+   just its direct children, because each finding now nests its body inside a <details>.
+   Tables and the headline band get their own wider cap. */
+.der .prose { font-size: 17px; line-height: 1.7; --measure: 56ch; --wide: 82ch; }
+.der .prose p, .der .prose ul, .der .prose ol, .der .prose h1, .der .prose h2,
+.der .prose h3, .der .prose blockquote, .der .prose hr,
+.der .prose figcaption { max-width: var(--measure); }
+.der .prose h1, .der .prose h2, .der .prose h3 { line-height: 1.25; text-wrap: pretty; }
+/* Section headings carry the page's structure, so they are sized, not weighted. These are
+   set in Instrument Serif, which the site loads as ital@0;1 — no weight axis, only 400 — so
+   a font-weight here would synthesise a fake bold and look worse than nothing. Size and air
+   do the work; the face supplies what weight it has. */
+.der .prose h1 { font-size: 2.15rem; margin: .2rem 0 .8rem; }
+.der .prose h2 { font-size: 1.7rem; margin: 2.6rem 0 .7rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+.der .prose h1 + h2, .der .prose h2:first-child { border-top: 0; padding-top: 0; margin-top: .8rem; }
+.der .prose h3 { font-size: 1.1rem; margin: 1.4rem 0 .45rem; }
+.der .prose p { margin: .85rem 0; }
+.der .prose ul, .der .prose ol { margin: .85rem 0 .85rem 1.4rem; padding: 0; }
+.der .prose li { margin: .5rem 0; }
+.der .prose li p { margin: .4rem 0; }
+.der .prose code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .88em; background: var(--surface-2); border-radius: 4px; padding: .05em .3em;
+  overflow-wrap: break-word; }
+.der .prose b, .der .prose strong { font-weight: 650; }
+.der .prose hr { border: 0; border-top: 1px solid var(--line); margin: 1.8rem 0; }
+.der .prose blockquote { margin: 1.1rem 0; padding: .1rem 0 .1rem 1.1rem; border-left: 3px solid var(--line); }
+.der .prose blockquote p { margin: .4rem 0; color: var(--ink-2); }
+/* Tables inside the prose are read, not scanned as data: full-size text, no sticky
+   headings, and free to run wider than the reading measure when a row needs it. */
+.der .prose table { margin: 1.1rem 0 1.5rem; width: 100%; max-width: var(--wide); }
+.der .findings-table { font-size: 15.5px; }
+.der .findings-table th { position: static; background: var(--surface-2); }
+.der .findings-table th, .der .findings-table td { padding: 9px 12px; line-height: 1.5; }
+.der .findings-table td:first-child { font-weight: 500; }
+.der .findings-table code { white-space: nowrap; }
+
+/* ---------- findings: the headline band ----------
+   Figures computed in app.js from canonicals.json, so they cannot go stale. The bar chart
+   is an emphasis form, not a categorical one: the two digital roles carry the accent and
+   every other role the de-emphasis gray. One hue plus gray, both already mapped at the top
+   of this file — no fourth colour is introduced. */
+.der .infographic { max-width: var(--wide); margin: 1.4rem 0 2rem; }
+
+.der .hero-pair { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem 1.4rem; align-items: start;
+  padding: 1.2rem 0 1.4rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.der .hero-n { font-size: 3.2rem; line-height: 1; font-weight: 650; letter-spacing: -0.02em; color: var(--dormant); }
+.der .hero-n.accent { color: var(--accent); }
+.der .hero-of { font-size: 1.4rem; font-weight: 500; color: var(--ink-2); letter-spacing: 0; }
+.der .hero-l { margin-top: .5rem; font-size: .95rem; line-height: 1.5; color: var(--ink-2); max-width: 34ch; }
+.der .hero-l b { color: var(--ink); font-weight: 600; }
+.der .hero-vs { align-self: center; font-size: .82rem; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--ink-2); padding-top: 1rem; }
+
+.der .kpi-row { display: flex; flex-wrap: wrap; gap: 1.6rem 2.4rem; padding: 1.1rem 0 1.3rem;
+  border-bottom: 1px solid var(--line); }
+.der .stat-tile .sv { font-size: 1.7rem; font-weight: 650; line-height: 1.1; }
+.der .stat-tile .sl { font-size: .8rem; color: var(--ink-2); margin-top: .15rem; }
+
+.der .bar-fig { margin: 1.6rem 0 0; }
+.der .bar-fig figcaption { margin: 0 0 .9rem; padding: 0; font-size: .9rem; color: var(--ink-2); }
+/* 2px of surface between neighbours is what separates them — never a stroke on the mark.
+   The row is taller than the bar, so the extra height is air around the mark rather than a
+   fatter mark: the band's leftover is what makes a long ranked list scannable. */
+.der .bars { display: flex; flex-direction: column; gap: 2px; }
+.der .bar-row { display: grid; grid-template-columns: minmax(11rem, 20rem) 1fr 2.4rem; gap: .9rem;
+  align-items: center; min-height: 30px; }
+.der .bar-k { font-size: .95rem; color: var(--ink-2); text-align: right; line-height: 1.3; }
+.der .bar-t { min-width: 0; }
+/* <= 24px thick, 4px rounded data-end, square at the baseline. */
+.der .bar { height: 22px; border-radius: 0 4px 4px 0; background: var(--dormant); opacity: .55; }
+.der .bar-row.on .bar { background: var(--accent); opacity: 1; }
+.der .bar-v { font-size: .95rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.der .bar-row.on .bar-k, .der .bar-row.on .bar-v { color: var(--ink); font-weight: 600; }
+/* A hairline every other row, so the eye can cross a long chart from name to value without
+   losing its place. Recessive — the surface a step off, never a gridline over the mark. */
+.der .bar-row:nth-child(even) { background: var(--phase-a); }
+
+/* ---------- findings: read-more sections ---------- */
+.der .f-allbar { margin: .6rem 0 1.4rem; }
+.der .finding { margin: 0 0 .4rem; }
+.der .f-teaser { margin-top: .5rem; }
+.der .f-more { margin: .2rem 0 1.6rem; }
+.der .f-more > summary { display: inline-flex; align-items: center; gap: .35rem; cursor: pointer;
+  font-size: .9rem; color: var(--accent); padding: .15rem 0; list-style: none; width: max-content; }
+.der .f-more > summary::-webkit-details-marker { display: none; }
+.der .f-more > summary::after { content: ""; width: .42em; height: .42em; border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor; transform: rotate(45deg) translate(-1px, -1px); transition: transform .15s; }
+.der .f-more[open] > summary::after { transform: rotate(-135deg) translate(-1px, -1px); }
+.der .f-more > summary:hover { text-decoration: underline; }
+.der .f-more > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+.der .f-more .f-close { display: none; }
+.der .f-more[open] .f-open { display: none; }
+.der .f-more[open] .f-close { display: inline; }
+.der .f-body { padding-top: .2rem; }
+.der .f-body > :first-child { margin-top: .4rem; }
+@media (max-width: 640px) {
+  .der .hero-pair { grid-template-columns: 1fr; }
+  .der .hero-vs { padding-top: 0; }
+  /* No phone fits "Ordinary financial power of attorney" beside its bar, and squeezing it
+     there wraps the label and makes the rows ragged. Give the name its own line instead. */
+  .der .bar-row { grid-template-columns: 1fr 2.4rem; grid-template-areas: "k k" "t v";
+    row-gap: .2rem; min-height: 0; padding: .4rem .3rem; align-items: center; }
+  .der .bar-k { grid-area: k; text-align: left; }
+  .der .bar-t { grid-area: t; }
+  .der .bar-v { grid-area: v; text-align: right; }
+}
+
+/* A term the page can explain: feature keys and canonical role ids open their definition
+   on tap, click, Enter or Space, and on hover where a mouse is used. The affordance is a
+   dotted underline rather than a colour, so it reads as "there is more here" without
+   competing with links. */
+.der .prose code.term { border-bottom: 1px dotted var(--ink-2); cursor: pointer; }
+.der .prose code.term:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.der .prose code.term[aria-expanded="true"] { background: var(--accent); color: var(--paper); }
+/* Touch has no hover, so the tap target has to be a real one: 24px minimum without
+   disturbing the line box the term sits in. */
+@media (hover: none) {
+  .der .prose code.term { padding: .25em .35em; }
+}
+
+/* The definition panel. Positioned against the findings container so it scrolls with the
+   text, and clamped to that container so a long definition cannot start a sideways scroll
+   on a phone. Sized for reading, not for a tooltip. */
+.der .term-panel {
+  position: absolute; z-index: 20; max-width: min(34rem, 100%);
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px;
+  padding: .7rem .85rem; font-size: .95rem; line-height: 1.5;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 14%);
+}
+@media (max-width: 640px) { .der .term-panel { max-width: 100%; font-size: .92rem; } }
+
+/* The country breakdown behind each bar. Narrower than a definition, because it is a list of
+   short names rather than prose, and scrollable rather than tall: the executor row carries 24
+   countries and would otherwise run off a phone. No new colour — the count reuses --ink-2. */
+.der .term-panel.wide { max-width: min(22rem, 100%); }
+.der .cp-h { font-weight: 600; line-height: 1.3; }
+.der .cp-sub { margin-top: .15rem; font-size: .85rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.der .cp-l { margin: .55rem 0 0; padding: 0; list-style: none; max-height: 15rem; overflow-y: auto; }
+.der .cp-l li { display: flex; justify-content: space-between; gap: .75rem;
+  padding: .2rem 0; font-size: .92rem; border-top: 1px solid var(--line); }
+.der .cp-l li:first-child { border-top: 0; }
+.der .cp-n { color: var(--ink-2); font-size: .85rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* Two targets per row: the name and the bar go to the role, the count opens the countries. */
+.der .bar-a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 2px; }
+.der .bar-a:hover { text-decoration-color: currentColor; }
+.der .bar-hit { display: block; }
+.der .bar-hit:hover .bar { opacity: 1; }
+.der .bar-row:hover .bar { opacity: 1; }
+/* The count is a button now, so it is stripped back to looking like the number it was. */
+.der button.bar-v { appearance: none; background: none; border: 0; padding: 0 .1rem; margin: 0;
+  font: inherit; font-size: .95rem; color: var(--ink-2); font-variant-numeric: tabular-nums;
+  text-align: right; cursor: pointer; border-radius: 3px; }
+.der button.bar-v:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
+.der .bar-row.on button.bar-v { color: var(--ink); font-weight: 600; }
+.der .bar-a:focus-visible,
+.der button.bar-v:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- findings: one small drawing per finding ----------
+   The SVG is sized by its viewBox and scaled here, so it stays legible on a phone without
+   a second set of dimensions to keep in step. Text inside the drawing inherits the page
+   foreground through currentColor; the only other colours are --accent for the subject and
+   --dormant for its context, both already mapped at the top of this file. */
+.der .finding-fig { margin: 1rem 0 .4rem; max-width: var(--measure); }
+.der .fig-svg { display: block; width: 100%; max-width: 30rem; height: auto; overflow: visible; }
+.der .fig-svg + .fig-svg { margin-top: .5rem; }
+.der .fig-svg text { fill: currentColor; font-family: inherit; }
+.der .fig-svg .fig-t { font-size: 11.5px; fill: var(--ink-2); }
+.der .fig-svg .fig-l { font-size: 12px; }
+/* A label sitting on the filled bar takes the surface colour so it clears its ground. */
+.der .fig-svg .fig-on { fill: var(--surface); }
+.der .fig-cap { margin: .15rem 0 0; font-size: .85rem; color: var(--ink-2); max-width: var(--measure); }
+@media (max-width: 640px) { .der .fig-svg .fig-l { font-size: 13px; } .der .fig-svg .fig-t { font-size: 12.5px; } }
+
+/* Linkable findings. The anchor is quiet until the heading is hovered or it is focused, so it
+   does not compete with the heading it belongs to, but it is always in the tab order and always
+   announced — a link nobody can reach is not a link. */
+.der .finding h2 .f-anchor {
+  margin-left: .4rem; font-size: .62em; font-weight: 400; color: var(--ink-2);
+  text-decoration: none; opacity: 0; transition: opacity .12s ease; vertical-align: .12em;
+}
+.der .finding h2:hover .f-anchor,
+.der .finding h2 .f-anchor:focus-visible { opacity: 1; }
+.der .finding h2 .f-anchor:hover { color: var(--accent); }
+.der .finding h2 .f-anchor:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* On a touch screen there is no hover to reveal it, so it simply stays visible. */
+@media (hover: none) { .der .finding h2 .f-anchor { opacity: .55; } }
+.der .finding h2:focus-visible { outline: none; }
+/* A brief marker so arriving on a deep link shows which section was asked for. */
+.der .finding.f-target { animation: f-flash 1.6s ease-out; border-radius: 6px; }
+@keyframes f-flash {
+  from { background: color-mix(in oklab, var(--accent) 14%, transparent); }
+  to { background: transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .der .finding.f-target { animation: none; }
+  .der .finding h2 .f-anchor { transition: none; }
+}

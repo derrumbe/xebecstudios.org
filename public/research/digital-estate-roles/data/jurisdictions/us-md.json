@@ -1,0 +1,451 @@
+{
+ "jurisdiction": "us-md",
+ "name": "Maryland",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Maryland Trust Act (Uniform Trust Code, 2014)",
+  "Maryland Fiduciary Access to Digital Assets Act (RUFADAA, 2016)",
+  "Maryland Revised Uniform Anatomical Gift Act (2011)",
+  "Uniform Adult Guardianship and Protective Proceedings Jurisdiction Act"
+ ],
+ "note": "Maryland is on the uniform acts for trusts, digital assets and anatomical gifts and on none of them for powers of attorney, probate or guardianship, and it is the state where the formality of an instrument depends entirely on which instrument it is. A financial power of attorney needs a notary, two witnesses and, if executed remotely, a supervising attorney who certifies what they saw; a health care agent can be appointed by a dated video file with no witnesses, or by speaking in front of a clinician. Two more Maryland particulars matter to this data: the small estate is a simplified administration with letters issued by the register of wills, not a collection by affidavit as in every other US jurisdiction here, and the certification that starts a health care agent's authority requires an examination within the previous two hours.",
+ "citations": [
+  {
+   "id": "md-et-17-101",
+   "cite": "Md. Code, Est. & Trusts § 17-101",
+   "title": "Maryland Power of Attorney Act; definitions, including incapacity",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=17-101&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-17-104",
+   "cite": "Md. Code, Est. & Trusts § 17-104",
+   "title": "Acceptance of a statutory form power of attorney; liability for refusal",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=17-104&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(a) A person may not require an additional or different form of power of attorney for any authority granted in a statutory form power of attorney. (b) A person that refuses in violation of this section to accept an acknowledged statutory form power of attorney is subject to: (1) A court order mandating acceptance of the power of attorney; and (2) Liability for reasonable attorney’s fees and costs incurred in an action or proceeding that confirms the validity of the power of attorney or mandates acceptance of the power of attorney."
+  },
+  {
+   "id": "md-et-17-105",
+   "cite": "Md. Code, Est. & Trusts § 17-105",
+   "title": "Durable power of attorney; durable unless the terms provide otherwise",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=17-105&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(b) This section applies to all powers of attorney. (c) When a principal designates another as an attorney in fact or agent by a power of attorney in writing, it is a durable power of attorney unless otherwise provided by its terms."
+  },
+  {
+   "id": "md-et-17-106",
+   "cite": "Md. Code, Est. & Trusts § 17-106",
+   "title": "Effect of death, disability or incompetence; acts without actual knowledge",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=17-106&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-17-110",
+   "cite": "Md. Code, Est. & Trusts § 17-110",
+   "title": "Execution of a power of attorney; witnesses, notary and remote execution",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=17-110&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(a) … a power of attorney executed on or after October 1, 2010, shall be: (1) In writing; (2) Signed by the principal …; (3) Acknowledged by the principal in the physical or electronic presence of a notary public; and (4) Attested and signed by two or more adult witnesses … (c) … an electronic power of attorney or a remotely witnessed power of attorney … (1) … the principal and all witnesses shall be in the physical presence or electronic presence of one another and a supervising attorney, who may be one of the witnesses … (5) The supervising attorney shall create a certified power of attorney …"
+  },
+  {
+   "id": "md-hg-5-601",
+   "cite": "Md. Code, Health-Gen. § 5-601",
+   "title": "Health Care Decisions Act; definitions, including advance directive",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=5-601&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-hg-5-602",
+   "cite": "Md. Code, Health-Gen. § 5-602",
+   "title": "Making an advance directive; written, electronic, video and oral forms",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=5-602&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(c)(1)(i) … a written or electronic advance directive shall be dated, signed by or at the express direction of the declarant, and subscribed by two witnesses in the physical presence or electronic presence of the declarant. … (3) The State–designated health information exchange may accept as valid an unwitnessed electronic advance directive in the form of a video record or file to state the declarant’s wishes regarding health care for the declarant or to appoint an agent if the video record or file: (i) Is dated; and (ii) Is stored in an electronic file by an electronic advance directives service recognized by the Maryland Health Care Commission. (d)(1) Any competent individual may make an oral advance directive … or to appoint an agent … (2) An oral advance directive shall have the same effect as a written or electronic advance directive if made in the presence of the attending physician, physician assistant, or nurse practitioner and one witness and if the substance of the oral advance directive is documented as part of the individual’s medical record."
+  },
+  {
+   "id": "md-hg-5-605",
+   "cite": "Md. Code, Health-Gen. § 5-605",
+   "title": "Surrogate decision making; order of priority and the friend's affidavit",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=5-605&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(2) … the following individuals or groups, in the specified order of priority, may make decisions about health care … (i) A guardian for the patient, if one has been appointed; (ii) The patient’s spouse or domestic partner; (iii) An adult child of the patient; (iv) A parent of the patient; (v) An adult brother or sister of the patient; or (vi) A friend or other relative of the patient who meets the requirements of paragraph (3) … (3) A friend or other relative may make decisions … if the person: (i) Is a competent individual; and (ii) Presents an affidavit to the attending physician stating: 1. That the person is a relative or close friend of the patient; and 2. Specific facts and circumstances demonstrating that the person has maintained regular contact with the patient sufficient to be familiar with the patient’s activities, health, and personal beliefs. … (5) The attending physician shall include the affidavit … in the patient’s medical record."
+  },
+  {
+   "id": "md-hg-5-606",
+   "cite": "Md. Code, Health-Gen. § 5-606",
+   "title": "Certification of incapacity; two clinicians and the two-hour examination",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ghg&section=5-606&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(a)(1) Prior to providing, withholding, or withdrawing treatment for which authorization has been obtained or will be sought under this subtitle, the attending physician and a second physician or a nurse practitioner, one of whom shall have examined the patient within 2 hours before making the certification, shall certify in writing that the patient is incapable of making an informed decision regarding the treatment. The certification shall be based on a personal examination of the patient."
+  },
+  {
+   "id": "md-et-13-201",
+   "cite": "Md. Code, Est. & Trusts § 13-201",
+   "title": "Appointment of a guardian of the property",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=13-201&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-13-705",
+   "cite": "Md. Code, Est. & Trusts § 13-705",
+   "title": "Appointment of a guardian of the person",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=13-705&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(b) A guardian of the person shall be appointed if the court determines from clear and convincing evidence that: (1) A person lacks sufficient understanding or capacity to make or communicate responsible personal decisions …; and (2) No less restrictive form of intervention is available that is consistent with the person’s welfare and safety."
+  },
+  {
+   "id": "md-et-5-104",
+   "cite": "Md. Code, Est. & Trusts § 5-104",
+   "title": "Priority for the grant of letters",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-104&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-5-301",
+   "cite": "Md. Code, Est. & Trusts § 5-301",
+   "title": "Administrative probate before the register",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-301&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(a) Administrative probate is a proceeding instituted by the filing of a petition for probate by an interested person before the register for the probate of a will or a determination of the intestacy of the decedent, and for the appointment of a personal representative. (b) … the proceeding may be conducted without prior notice, and is final, to the extent provided in § 5–304 of this subtitle, subject to the right of an interested person …"
+  },
+  {
+   "id": "md-et-5-402",
+   "cite": "Md. Code, Est. & Trusts § 5-402",
+   "title": "Judicial probate",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-402&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-5-601",
+   "cite": "Md. Code, Est. & Trusts § 5-601",
+   "title": "Small estate; value limits",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-601&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(a) If the property of the decedent subject to administration in Maryland is established to have a value of $50,000 or less as of the date of the death of the decedent, the estate may be administered in accordance with the provisions of §§ 5–602 through 5–607 of this subtitle. … (c) If the surviving spouse is the sole legatee or heir of the decedent … the property … is established to have a value of $100,000 or less …"
+  },
+  {
+   "id": "md-et-5-602",
+   "cite": "Md. Code, Est. & Trusts § 5-602",
+   "title": "Petition for administration of a small estate",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-602&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-5-603",
+   "cite": "Md. Code, Est. & Trusts § 5-603",
+   "title": "Register's direction; appointment and letters in a small estate",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-603&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(a) If the register finds that the petition and additional information filed in the proceeding is accurate, the register shall: (1) Direct that the petitioner serve as personal representative of the small estate and issue additional letters of administration as needed; (2) Direct the immediate payment of the allowable funeral expenses … and the family allowances …"
+  },
+  {
+   "id": "md-et-14-5-101",
+   "cite": "Md. Code, Est. & Trusts § 14.5-101",
+   "title": "Maryland Trust Act; short title",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=14.5-101&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "This title may be cited as the Maryland Trust Act."
+  },
+  {
+   "id": "md-et-14-5-910",
+   "cite": "Md. Code, Est. & Trusts § 14.5-910",
+   "title": "Certification of trust",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=14.5-910&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-15-603",
+   "cite": "Md. Code, Est. & Trusts § 15-603",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=15-603&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(a)(1) A user may use an online tool to direct a custodian to disclose to a designated recipient or not disclose some or all of the user’s digital assets … (2) If the online tool allows the user to modify or delete a direction at any time, a direction under paragraph (1) of this subsection overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+  },
+  {
+   "id": "md-et-15-602",
+   "cite": "Md. Code, Est. & Trusts § 15-602",
+   "title": "Subtitle inapplicable to an employer's digital asset",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=15-602&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-15-620",
+   "cite": "Md. Code, Est. & Trusts § 15-620",
+   "title": "Maryland Fiduciary Access to Digital Assets Act; short title",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=15-620&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "This subtitle may be cited as the Maryland Fiduciary Access to Digital Assets Act."
+  },
+  {
+   "id": "md-et-4-504",
+   "cite": "Md. Code, Est. & Trusts § 4-504",
+   "title": "Amendment or revocation of an anatomical gift",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=4-504&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-4-522",
+   "cite": "Md. Code, Est. & Trusts § 4-522",
+   "title": "Maryland Revised Uniform Anatomical Gift Act; short title",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=4-522&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "This subtitle may be cited as the Maryland Revised Uniform Anatomical Gift Act."
+  },
+  {
+   "id": "md-et-18-101",
+   "cite": "Md. Code, Est. & Trusts § 18-101",
+   "title": "Supported decision making; definitions",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-101&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-18-103",
+   "cite": "Md. Code, Est. & Trusts § 18-103",
+   "title": "Use of supported decision making; execution not evidence of incapacity",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-103&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(b) All adults are presumed capable of making a supported decision–making agreement. (c) The manner in which an adult communicates with others is not grounds for determining that the adult is incapable of making, changing, or revoking a supported decision–making agreement. (d) Execution of a supported decision–making agreement by an adult may not: (1) Be used as evidence of incapacity; or (2) Preclude the ability of the adult to: (i) Act independently of a supported decision–making agreement; or (ii) Access the adult’s personal information without a supporter."
+  },
+  {
+   "id": "md-et-18-105",
+   "cite": "Md. Code, Est. & Trusts § 18-105",
+   "title": "Duties of a supporter",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-105&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-18-107",
+   "cite": "Md. Code, Est. & Trusts § 18-107",
+   "title": "Form and contents of a supported decision-making agreement",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-107&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12"
+  },
+  {
+   "id": "md-et-18-108",
+   "cite": "Md. Code, Est. & Trusts § 18-108",
+   "title": "Revocation of a supported decision-making agreement",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-108&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "An adult utilizing a supported decision–making agreement may: (1) Revoke the supported decision–making agreement at any time orally, in writing, or otherwise by expressing the adult’s specific intent to revoke the agreement; and (2) Receive any support needed from an individual of the adult’s choosing to revoke the agreement."
+  },
+  {
+   "id": "md-et-18-109",
+   "cite": "Md. Code, Est. & Trusts § 18-109",
+   "title": "Third party reliance; limitation of liability",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=18-109&enactments=false",
+   "kind": "statute",
+   "retrieved": "2026-10-12",
+   "quote": "(a) A third party is not subject to civil or criminal liability or discipline for unprofessional conduct for: (1) If the third party acted in good faith reliance on a decision made by an adult utilizing a supported decision–making agreement, complying with an adult’s decision in accordance with a supported decision–making agreement or otherwise complying with a supported decision–making agreement based on a good faith assumption that the supported decision–making agreement was valid when made and not revoked or abrogated; or (2) Declining to honor a decision made by an adult utilizing a supported decision–making agreement or failing to comply with a supported decision–making agreement …"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "durable power of attorney",
+    "attorney in fact",
+    "agent"
+   ],
+   "diff": "Maryland's power of attorney act is its own, not the uniform one, despite what the enactment trackers suggest: title 17 is twenty sections against the Uniform Power of Attorney Act's fifty-odd, and it keeps the pre-uniform vocabulary of \"attorney in fact\". It nonetheless lands on the uniform **default**: § 17-105(c) makes a written power durable \"unless otherwise provided by its terms\", and § 17-105(b) applies that to all powers of attorney, overriding the carve-outs elsewhere in the title. So Maryland and Virginia, the two states either side of Delaware, both presume durability while Delaware presumes the opposite.\n\nExecution is the strictest in this data. § 17-110 requires writing, signature, acknowledgement before a notary **and** attestation by **two or more adult witnesses**; Delaware wants a notary and one disinterested witness, Utah a notary. The remote route goes further than any other provision here: an electronic or remotely witnessed power of attorney needs the principal and every witness in the physical or electronic presence of one another **and of a supervising attorney**, the principal must be in or a resident of the State, each remote witness must be in the United States, and the supervising attorney must produce a **certified power of attorney** — a paper version of every page with a signed certification of what they observed. Maryland is the only jurisdiction in this set that makes a lawyer's participation a condition of a valid instrument.\n\nThe acceptance regime is narrower than Virginia's in a way worth recording. § 17-104 gives the same remedy — a court order mandating acceptance plus liability for reasonable attorney's fees and costs — but only for a **statutory form** power of attorney. A Maryland power drafted otherwise carries no duty to accept at all.",
+   "citations": [
+    "md-et-17-105",
+    "md-et-17-110",
+    "md-et-17-104",
+    "md-et-17-101",
+    "md-et-17-106"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney limited by its terms"
+   ],
+   "differs": false,
+   "diff": "The exception in Maryland, and it has to be written into the instrument: a power is non-durable only where its terms provide for that (§ 17-105(c)). § 17-106 then protects the other side rather than the principal — the death, disability or incompetence of the principal does not revoke the agency as to an agent or other person who acts without actual knowledge of it, which is the pre-uniform form of the good-faith reliance rule.",
+   "citations": [
+    "md-et-17-105",
+    "md-et-17-106"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "diff": "Maryland departs from the baseline here by **omission**, which is the interesting part. Title 17 has no analogue of uniform § 109: nothing says when a power deferred to a future event becomes effective, and nothing names who determines that the event has occurred. Across all twenty sections of the title there is no determiner list of the kind Virginia (§ 64.2-1607), Delaware, Utah and Oklahoma all supply. What Maryland does define is **incapacity**, at § 17-101(g), and it defines it by reference to someone else's test: a principal is incapacitated if they meet the grounds for appointment of a guardian of the property under § 13-201, or are missing, detained, or outside the United States and unable to return. So the trigger is specified and the person who pulls it is not.",
+   "citations": [
+    "md-et-17-101",
+    "md-et-17-105",
+    "md-et-13-201"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under an advance directive",
+    "health care agent"
+   ],
+   "diff": "An agent appointed under the Maryland Health Care Decisions Act (Health-General title 5, subtitle 6), and Maryland's instrument is the most permissive in this entire data set — in three forms, two of which no other jurisdiction here recognises.\n\nThe ordinary form is written or electronic, dated, signed, and subscribed by **two witnesses** in the declarant's physical or electronic presence, at least one of whom is not knowingly entitled to any part of the estate or any benefit on the death (§ 5-602(c)(1), (2)).\n\nThe second is a **video record**. Under § 5-602(c)(3) the State-designated health information exchange may accept as valid an **unwitnessed** electronic advance directive in the form of a video record or file — to state the declarant's wishes **or to appoint an agent** — if it is dated and stored by an electronic advance directives service recognised by the Maryland Health Care Commission. An authority-conferring instrument here is a dated video file held by a designated intermediary, with no witness at all.\n\nThe third is **oral**. Under § 5-602(d) a competent individual may appoint an agent by an oral advance directive made in the presence of the attending physician, physician assistant or nurse practitioner and one witness, provided its substance is documented in the medical record and the documentation is dated and signed by the clinician and the witness.\n\nAuthority commences on certification of incapacity (§ 5-602(e)), and Maryland's certification is the freshest-dated finding in this data: § 5-606 requires the attending physician **and** a second physician or nurse practitioner to certify in writing on personal examination, **one of whom must have examined the patient within 2 hours** before certifying. The second certification is excused where the patient is unconscious or cannot communicate.",
+   "citations": [
+    "md-hg-5-602",
+    "md-hg-5-606",
+    "md-hg-5-601"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate decision maker"
+   ],
+   "diff": "Maryland's ladder under § 5-605(a)(2) is guardian, **spouse or domestic partner**, adult child, parent, adult sibling, then a friend or other relative — and a class may be reached only if everyone in the class above is \"unavailable\", a term the section defines to include a decision maker who cannot be found, who has not responded in a timely manner given the patient's needs, who is incapacitated, or who is unwilling to decide. Non-response moves the authority on.\n\nThe last class has to produce something, and Maryland's artefact is the third distinct answer in this data to the proof-of-standing question. A friend or other relative may act only on an **affidavit presented to the attending physician** stating that they are a relative or close friend and \"specific facts and circumstances demonstrating that the person has maintained regular contact with the patient sufficient to be familiar with the patient's activities, health, and personal beliefs\" — and § 5-605(5) requires the physician to **file that affidavit in the patient's medical record**. Utah prescribes a state form for its declaration; Delaware prescribes nothing; Virginia asks the claimant for nothing and makes a committee decide. Maryland asks for a sworn statement of specified content and then keeps it, so the evidence of standing becomes part of the record the relying party holds.\n\nDisqualification is by relationship breakdown as well as abuse: a person subject to an interim, temporary or final protective order where the patient is eligible for relief may not decide, and nor may a spouse who has executed a separation agreement or where either has filed for divorce.",
+   "citations": [
+    "md-hg-5-605",
+    "md-hg-5-606"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person"
+   ],
+   "diff": "Appointment is by the court on petition under § 13-705, and Maryland sets the evidentiary bar expressly: **clear and convincing evidence** both that the person lacks sufficient understanding or capacity to make or communicate responsible personal decisions and that **no less restrictive form of intervention** is available consistent with their welfare and safety. Procedure and venue run through Title 10 of the Maryland Rules rather than the statute. Maryland has no version of the Uniform Guardianship, Conservatorship and Other Protective Arrangements Act; title 13.5 is its adult-guardianship jurisdiction act, which decides which state may act rather than on what finding.",
+   "citations": [
+    "md-et-13-705",
+    "md-et-13-201"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "guardian of the property"
+   ],
+   "diff": "The property fiduciary in Maryland is a **guardian of the property**, not a conservator (§ 13-201), appointed for a minor who owns property needing management or for a person unable to manage their property effectively because of disability, disease, habitual drunkenness, addiction, imprisonment, compulsory hospitalisation, detention by a foreign power, or disappearance. That list is also what the power of attorney title borrows to define incapacity (§ 17-101(g)), so the same test starts a guardianship and triggers a springing power.",
+   "citations": [
+    "md-et-13-201",
+    "md-et-17-101"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "personal representative",
+    "letters of administration"
+   ],
+   "diff": "Maryland uses one name for both offices — **personal representative** — and one instrument, letters of administration, whether or not there is a will. The grant comes from the **register of wills**, an elected county officer, and the ordinary route is **administrative probate** under § 5-301: a proceeding instituted before the register, which \"may be conducted **without prior notice**\" and is final subject to an interested person's right to seek judicial probate. Judicial probate before the Orphans' Court follows only on request or where the petition is materially incomplete (§ 5-402).\n\nThat makes Maryland the strongest case in this set against assuming a court stands behind the grant: not merely a non-judicial officer issuing letters, as in Virginia, Delaware and Pennsylvania, but a whole probate proceeding conducted by that officer without notice to anyone. § 5-104 sets the priority, and its third class is the one to note: \"the surviving spouse, **registered domestic partner**, and children of an intestate decedent\".",
+   "citations": [
+    "md-et-5-301",
+    "md-et-5-104",
+    "md-et-5-402"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "personal representative",
+    "letters of administration"
+   ],
+   "diff": "Not a separate office in Maryland. The register grants letters of administration to a personal representative on a determination of intestacy in the same administrative probate proceeding that admits a will (§ 5-301), and § 5-104's priority list runs through both cases in one sequence. A credential asserting \"holder is the personal representative\" maps onto Maryland cleanly for that reason, where Delaware, Oklahoma and Virginia all name the artefact for the capacity in which it is held.",
+   "citations": [
+    "md-et-5-301",
+    "md-et-5-104"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "petitioner for administration of a small estate"
+   ],
+   "diff": "**Maryland has no affidavit route, and that is the finding.** Everywhere else in the US layer a small estate is collected without a grant, on a sworn statement presented to whoever holds the asset. In Maryland a small estate is a cheaper, faster **administration**: § 5-602 requires a petition for administration of a small estate, filed by a person entitled to letters under § 5-104, listing the known property, the known creditors with the amount of each claim, and any pending proceedings; and § 5-603 then has the **register direct the petitioner to serve as personal representative and issue letters of administration**, order payment of funeral expenses and the family allowance, and publish notice where property will remain. Bond is required above a $10,000 gross value and the personal representative takes no commissions.\n\nThe ceiling is **$50,000**, and it is the only one in this set that depends on who inherits rather than on the amount alone: § 5-601(c) raises it to **$100,000** where the surviving spouse is the sole legatee or heir. Idaho removes the ceiling entirely in that case; Maryland doubles it.",
+   "citations": [
+    "md-et-5-601",
+    "md-et-5-602",
+    "md-et-5-603",
+    "md-et-5-104"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "differs": false,
+   "diff": "Maryland enacted the Uniform Trust Code as the **Maryland Trust Act** in 2014, at title 14.5 (§ 14.5-101). § 14.5-910 carries the uniform certification of trust, so a successor trustee's authority is evidenced by a certification the trustee signs rather than by anything a court issues.",
+   "citations": [
+    "md-et-14-5-101",
+    "md-et-14-5-910"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "differs": false,
+   "diff": "The uniform mechanism, enacted in 2016. § 15-603(a) lets a user direct a custodian through an online tool to disclose to a designated recipient or not to disclose, and that direction overrides a contrary direction in a will, trust, power of attorney or other record provided the tool allows the user to modify or delete it **at any time**. Maryland's drafting of that proviso differs from the uniform \"at all times\" by a word and not in substance.",
+   "citations": [
+    "md-et-15-603",
+    "md-et-15-620"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "guardian",
+    "agent",
+    "trustee"
+   ],
+   "diff": "The Maryland Fiduciary Access to Digital Assets Act, self-titled at § 15-620 and running §§ 15-601 to 15-620 — the uniform act with the catalogue-and-content split, the four fiduciary types and the custodian provisions. One Maryland addition is worth recording because it is the only carve-out of its kind here: § 15-602 takes the whole subtitle out of play for \"a digital asset of an employer used by an employee in the ordinary course of the employer's business\", so a work account is outside the fiduciary-access regime altogether rather than being contested under it.",
+   "citations": [
+    "md-et-15-620",
+    "md-et-15-603",
+    "md-et-15-602"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "donor",
+    "agent",
+    "document of gift"
+   ],
+   "differs": false,
+   "diff": "Maryland is on the Revised Uniform Anatomical Gift Act, self-titled at § 4-522 and sitting in the Estates and Trusts article rather than the health code. § 4-501 defines the agent as an individual authorised to make health care decisions by a power of attorney for health care or expressly authorised to make an anatomical gift, and § 4-504 governs amendment and revocation by a signed record or a later document of gift, including by another individual acting at the direction of a donor physically unable to sign.",
+   "citations": [
+    "md-et-4-522",
+    "md-et-4-504"
+   ]
+  }
+ ]
+}

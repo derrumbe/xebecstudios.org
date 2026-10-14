@@ -145,8 +145,10 @@ const projects = defineCollection({
     status: z.enum(['Active', 'Dormant', 'Complete']).default('Active'),
     started: opt(z.coerce.date()),
     ended: opt(z.coerce.date()),
+    // Either a full URL or a site-relative path, so a project that lives on
+    // this site can be linked without hard-coding the domain.
     repo: opt(z.string().url()),
-    url: opt(z.string().url()),
+    url: opt(z.union([z.string().url(), z.string().startsWith('/')])),
     // Sort key for /projects/ and the homepage, ascending. The numbers run
     // newest-first, so a project left at the default 0 lands at the top —
     // which is where a project you have just started belongs.

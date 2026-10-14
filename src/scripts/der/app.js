@@ -42,6 +42,10 @@
   const $ = (s, r = document) => r.querySelector(s);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const clone = (o) => JSON.parse(JSON.stringify(o));
+  // For addressing a heading that carries no number. Kept to ASCII letters, digits and
+  // hyphens so the result survives being written into a URL by hand and copied out of one.
+  const slugify = (s) => String(s ?? '').toLowerCase().normalize('NFKD')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 48);
   const trunc = (s, n) => { s = String(s ?? ''); return s.length > n ? s.slice(0, n - 1) + '…' : s; };
   // English glosses for local-language names (merged from research/translations by the build).
   const nameEn = (r) => (r.nameEn && r.nameEn.en) || '';
@@ -144,6 +148,14 @@
       if (d.uniformActsAdopted) m.adopted = d.uniformActsAdopted;
       addCitations(m.citations, d.citations, d.name || f);
       for (const p of d.patches || []) {
+        // A role the baseline has and this jurisdiction does not — see the matching note in
+        // build.py's merged_roles. Dropping it keeps the cross-jurisdiction counts honest; the
+        // patch's diff is the explanation and lives in the research file, not on screen.
+        if (p.absent) {
+          const at = m.roles.findIndex((x) => x.id === p.role);
+          if (at >= 0) m.roles.splice(at, 1);
+          continue;
+        }
         let r = m.roles.find((x) => x.id === p.role);
         if (!r) {
           r = normalizeRole({ id: p.role, canonical: p.canonical || p.role, group: p.group || guessGroup(p.role), name: p.name || titleize(p.role), stateSpecific: true });
@@ -254,6 +266,10 @@
     state.jur = state.chosen ? j : 'us-model';
     state.tab = p.get('tab') || 'map';
     state.role = p.get('role') || null;
+    // Which finding to open and scroll to. A section is addressed by the number it is
+    // numbered with in the prose, because that is how the prose cites itself ("§13"), so a
+    // link and a cross-reference say the same thing.
+    state.finding = p.get('f') || null;
   }
   // Set by anything the reader did on purpose, so it earns a history entry; an
   // implicit render (boot, or the re-render that back/forward itself triggers)
@@ -267,6 +283,7 @@
       const p = new URLSearchParams();
       p.set('j', state.jur); p.set('tab', state.tab);
       if (state.role) p.set('role', state.role);
+      if (state.tab === 'findings' && state.finding) p.set('f', state.finding);
       h = '#' + p.toString();
     }
     if (location.hash === h) return;
@@ -284,22 +301,48 @@
   function renderChrome() {
     const sel = $('#jur');
     const countries = state.manifest.countries || [{ name: 'Jurisdictions', jurisdictions: state.manifest.jurisdictions }];
-    // Group the picker by region, not by country: nine countries hold a single
-    // jurisdiction, and those made optgroups with one identically named option in them.
-    // The build orders countries by region then name, and labels each jurisdiction
-    // with its country, so the order here is the order it supplies.
-    const byRegion = [];
+    // Group by country where a country holds more than one jurisdiction, and by region
+    // otherwise. Region alone does not scale: the US is already 27 of 56 rows and heads
+    // for ~50 of ~79, which under a "North America" header sits unlabelled beside Canada
+    // and Mexico while every row repeats the "US — " prefix that header would carry. A
+    // country header lets the row read just "California", which also gives the select's
+    // own type-to-jump something to match on: it matches the visible row text, and that
+    // text no longer starts with a prefix every US row shares.
+    // Single-jurisdiction countries stay in the region bucket, because an optgroup holding
+    // one identically named option is noise; that is why this grouped by region to begin
+    // with, and it is still the right answer for the nine countries it applies to.
+    const groups = [];
+    const bucket = (label, region, isRegion) => {
+      let g = groups.find((x) => x.isRegion === isRegion && x.label === label);
+      if (!g) groups.push((g = { label, region, isRegion, items: [] }));
+      return g;
+    };
     for (const c of countries) {
       const region = c.region || 'Other';
-      let g = byRegion.find((x) => x.region === region);
-      if (!g) byRegion.push((g = { region, items: [] }));
-      for (const j of c.jurisdictions) g.items.push(j);
+      const multi = c.jurisdictions.length > 1;
+      const g = bucket(multi ? c.name : region, region, !multi);
+      // Inside a country group the header already says the country, so the row drops the
+      // prefix the build put on the label; inside a region group it has to keep it.
+      for (const j of c.jurisdictions) {
+        g.items.push({ id: j.id, text: multi ? (j.shortLabel || j.name) : (j.label || j.name) });
+      }
+    }
+    // Country groups lead their region, then the leftover bucket. Labelling that bucket
+    // with the bare region name would read as though it contained the countries listed
+    // above it, so it says "Other <region>" when it has country-group siblings.
+    groups.sort((a, b) => a.region.localeCompare(b.region)
+      || (a.isRegion ? 1 : 0) - (b.isRegion ? 1 : 0)
+      || a.label.localeCompare(b.label));
+    for (const g of groups) {
+      if (g.isRegion && groups.some((x) => !x.isRegion && x.region === g.region)) {
+        g.label = 'Other ' + g.region;
+      }
     }
     // Until the reader picks one, the picker said "US — uniform/model law + federal",
     // which asserts a choice nobody made. It holds a placeholder instead.
     sel.innerHTML = '<option value="" disabled>Choose a jurisdiction…</option>'
-      + byRegion.map((g) => `<optgroup label="${esc(g.region)}">${
-        g.items.map((j) => `<option value="${esc(j.id)}">${esc(j.label || j.name)}</option>`).join('')}</optgroup>`).join('');
+      + groups.map((g) => `<optgroup label="${esc(g.label)}">${
+        g.items.map((i) => `<option value="${esc(i.id)}">${esc(i.text)}</option>`).join('')}</optgroup>`).join('');
     syncPicker();
     sel.onchange = () => {
       if (!sel.value) return;
@@ -320,12 +363,13 @@
     document.querySelectorAll('.tab').forEach((s) => { s.hidden = s.id !== 'tab-' + state.tab; });
     const j = state.manifest.jurisdictions.find((x) => x.id === state.jur);
     $('#jur-note').textContent = m.note || j.note || '';
-    $('#jur-note').hidden = state.tab === 'map';
+    $('#jur-note').hidden = state.tab === 'map' || state.tab === 'findings';
     if (state.tab === 'map') renderMap();
     if (state.tab === 'lanes') renderLanes(m);
     if (state.tab === 'role') renderRole(m);
     if (state.tab === 'compare') renderCompare();
     if (state.tab === 'trends') renderTrends();
+    if (state.tab === 'findings') renderFindings();
     if (state.tab === 'sources') renderSources(m);
     writeHash();
   }
@@ -1231,6 +1275,939 @@
     const codes = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'];
     const i = names.findIndex((n) => n.toLowerCase() === s.toLowerCase());
     return i >= 0 ? codes[i] : (map[s.toLowerCase()] || s);
+  }
+
+  // ---------- findings ----------
+  // Cross-jurisdiction prose, authored as docs/findings.md and copied into data/ by the
+  // build so this tab and GitHub read the same file. The renderer below is deliberately
+  // small: it handles only the constructs findings.md actually uses — ATX headings,
+  // paragraphs, pipe tables, ordered and unordered lists, blockquotes, and inline
+  // emphasis, code and links. It is not a general Markdown implementation, and anything it does not know it
+  // escapes and shows as text rather than guessing.
+  let findingsText = null;
+  let findingsCanon = null;
+  let findingsFeatures = null;
+
+  function mdInline(s) {
+    let t = esc(s);
+    t = t.replace(/`([^`]+)`/g, (_, c) => `<code>${c}</code>`);
+    t = t.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, label, href) =>
+      /^(https?:|#|\.|\/)/.test(href) ? `<a href="${href}" rel="noopener">${label}</a>` : label);
+    t = t.replace(/&lt;(https?:\/\/[^\s&]+)&gt;/g, (_, href) => `<a href="${href}" rel="noopener">${href}</a>`);
+    t = t.replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+    t = t.replace(/(^|[\s(])\*([^*\n]+)\*/g, '$1<em>$2</em>');
+    t = t.replace(/(^|[\s(])_([^_\n]+)_/g, '$1<em>$2</em>');
+    return t;
+  }
+
+  // A pipe-table row, minus its outer pipes. Splits on | only.
+  const mdCells = (line) => line.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map((c) => c.trim());
+  const isTableRule = (line) => /^\s*\|?[\s:|-]+\|[\s:|-]*$/.test(line) && line.includes('-');
+
+  function mdToHtml(src) {
+    const lines = String(src).replace(/\r\n?/g, '\n').split('\n');
+    const out = [];
+    let para = [];
+    const flushPara = () => { if (para.length) { out.push(`<p>${mdInline(para.join(' '))}</p>`); para = []; } };
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      if (!line.trim()) { flushPara(); continue; }
+      const h = /^(#{1,4})\s+(.*)$/.exec(line);
+      if (h) { flushPara(); const n = h[1].length; out.push(`<h${n}>${mdInline(h[2])}</h${n}>`); continue; }
+      if (/^\s*(---|\*\*\*)\s*$/.test(line)) { flushPara(); out.push('<hr>'); continue; }
+      // blockquote: consecutive '>' lines, joined into one paragraph
+      if (/^\s*>/.test(line)) {
+        flushPara();
+        const q = [];
+        for (; i < lines.length && /^\s*>/.test(lines[i]); i++) q.push(lines[i].replace(/^\s*>\s?/, ''));
+        i--;
+        out.push(`<blockquote><p>${mdInline(q.join(' ').trim())}</p></blockquote>`);
+        continue;
+      }
+      // table: a header row whose next line is the delimiter
+      if (line.includes('|') && i + 1 < lines.length && isTableRule(lines[i + 1])) {
+        flushPara();
+        const head = mdCells(line);
+        const rows = [];
+        i += 2;
+        for (; i < lines.length && lines[i].includes('|'); i++) rows.push(mdCells(lines[i]));
+        i--;
+        out.push('<table class="findings-table"><thead><tr>'
+          + head.map((c) => `<th>${mdInline(c)}</th>`).join('')
+          + '</tr></thead><tbody>'
+          + rows.map((r) => '<tr>' + head.map((_, k) => `<td>${mdInline(r[k] ?? '')}</td>`).join('') + '</tr>').join('')
+          + '</tbody></table>');
+        continue;
+      }
+      // list: consecutive items, each possibly wrapped onto following indented lines
+      const li = /^\s*([-*]|\d+\.)\s+(.*)$/.exec(line);
+      if (li) {
+        flushPara();
+        const ordered = /\d/.test(li[1]);
+        const items = [];
+        for (; i < lines.length; i++) {
+          const m2 = /^\s*([-*]|\d+\.)\s+(.*)$/.exec(lines[i]);
+          if (m2) { items.push(m2[2]); continue; }
+          if (/^\s+\S/.test(lines[i]) && items.length) { items[items.length - 1] += ' ' + lines[i].trim(); continue; }
+          break;
+        }
+        i--;
+        const tag = ordered ? 'ol' : 'ul';
+        out.push(`<${tag}>` + items.map((t) => `<li>${mdInline(t)}</li>`).join('') + `</${tag}>`);
+        continue;
+      }
+      para.push(line.trim());
+    }
+    flushPara();
+    return out.join('\n');
+  }
+
+  // The headline band. Every figure is computed from canonicals.json and the manifest,
+  // never written into the prose, because the counts move as jurisdictions are added and
+  // a hardcoded headline is a headline that goes quietly wrong. The chart is an emphasis
+  // form, not a categorical one: the story is that the roles are near-universal and the
+  // digital ones are not, so the digital roles take the accent and everything else takes
+  // the de-emphasis gray. One hue plus gray, both already in the token set.
+  const DIGITAL_ROLES = ['online-tool-designee', 'digital-assets-fiduciary'];
+
+  function statTile(value, label) {
+    return `<div class="stat-tile"><div class="sv">${esc(value)}</div><div class="sl">${esc(label)}</div></div>`;
+  }
+
+  // Which countries hold a role, and how many jurisdictions each contributes. The counts come
+  // from the role's own jurisdiction list, whose entries already carry a country display name,
+  // so there is no join against the manifest to keep in step. A country contributing one
+  // jurisdiction shows no count — the number would be noise on 20 of the 24.
+  function countryPanel(role, countries) {
+    const by = new Map();
+    for (const j of role.jurisdictions || []) by.set(j.country, (by.get(j.country) || 0) + 1);
+    const list = [...by.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    const items = list.map(([name, n]) =>
+      `<li>${esc(name)}${n > 1 ? `<span class="cp-n">${n} jurisdictions</span>` : ''}</li>`).join('');
+    return `<div class="cp"><div class="cp-h">${esc(role.label)}</div>`
+      + `<div class="cp-sub">${role.countryCount} of ${countries} countries · `
+      + `${role.jurisdictionCount} jurisdiction${role.jurisdictionCount === 1 ? '' : 's'}</div>`
+      + `<ul class="cp-l">${items}</ul></div>`;
+  }
+
+  function findingsBand(roles, manifest) {
+    const ranked = [...roles].sort((a, b) => b.countryCount - a.countryCount || b.jurisdictionCount - a.jurisdictionCount);
+    if (!ranked.length) return '';
+    const countries = (manifest.countries || []).length;
+    const jurisdictions = (manifest.jurisdictions || []).length;
+    const rows = roles.reduce((n, r) => n + r.jurisdictionCount, 0);
+    const top = ranked[0];
+    // The contrast is deliberately the online-tool designee, not whatever role happens to
+    // rank last. Successor trustee also sits at two countries, but only because the schema
+    // records it "if materially relevant" — its rarity is an artifact of what we chose to
+    // write down, not a finding, and hanging "the gap is digital" on it would be false.
+    const bottom = roles.find((r) => r.id === 'online-tool-designee') || ranked[ranked.length - 1];
+    const max = top.countryCount || 1;
+
+    // Hero: the gap is the page's finding, so it leads as a contrast, not a single number.
+    const hero = `<div class="hero-pair">
+      <div class="hero-side">
+        <div class="hero-n">${top.countryCount}<span class="hero-of"> / ${countries}</span></div>
+        <div class="hero-l">countries recognise <b>${esc(top.label.toLowerCase())}</b> — the most universal role in the data</div>
+      </div>
+      <div class="hero-vs">but</div>
+      <div class="hero-side">
+        <div class="hero-n accent">${bottom.countryCount}<span class="hero-of"> / ${countries}</span></div>
+        <div class="hero-l">recognise <b>${esc(bottom.label.toLowerCase())}</b>. The gap is not conceptual, it is digital.</div>
+      </div>
+    </div>`;
+
+    const tiles = `<div class="kpi-row">
+      ${statTile(countries, 'countries')}
+      ${statTile(jurisdictions, 'jurisdictions')}
+      ${statTile(roles.length, 'canonical roles')}
+      ${statTile(rows.toLocaleString('en'), 'role/jurisdiction rows')}
+    </div>`;
+
+    // Ranked bars. Direct labels at the tip carry the values, so the chart needs no axis
+    // and no gridlines; the same numbers are in the table inside section 1.
+    //
+    // Each bar opens the same panel the glossary terms use, listing which countries hold the
+    // role. A bar height of 2 says "two countries" and nothing about which, and for the two
+    // digital roles that is the whole question — online-tool-designee reaches 17 jurisdictions
+    // and 2 countries, because 16 of the 17 are US states. The breakdown makes a bar that
+    // looks like thin coverage legible as concentrated coverage, which is a different claim.
+    // Two targets per row, because the row answers two different questions. The name and the
+    // bar open the role; the count opens the countries behind it. One element doing both would
+    // have to guess, and nesting a link inside a button is not a thing a screen reader can
+    // describe. The role link only appears where ROLES_BASE is set, following the same rule as
+    // the per-jurisdiction "see this role everywhere" link: irisar has no per-role pages, and a
+    // link drawn there would 404.
+    const bars = ranked.map((r) => {
+      const on = DIGITAL_ROLES.includes(r.id);
+      const pct = Math.max(1.5, (r.countryCount / max) * 100);
+      const href = ROLES_BASE ? esc(ROLES_BASE + r.id + '/') : '';
+      const bar = `<div class="bar" style="width:${pct.toFixed(1)}%"></div>`;
+      // The bar is the same destination as the name, so it is taken out of the tab order
+      // rather than offered as a second stop that goes nowhere new.
+      // The row shows the countries on hover, so a mouse reader gets them without committing
+      // to a click. It is hover-only: the click belongs to the link inside it, and the count
+      // button below is the route for touch and for the keyboard.
+      return `<div class="bar-row${on ? ' on' : ''}" data-panel-html="${esc(countryPanel(r, countries))}" data-panel-hover="1">
+        <div class="bar-k">${href ? `<a class="bar-a" href="${href}">${esc(r.label)}</a>` : esc(r.label)}</div>
+        <div class="bar-t">${href ? `<a class="bar-hit" href="${href}" tabindex="-1" aria-hidden="true">${bar}</a>` : bar}</div>
+        <button type="button" class="bar-v" data-panel-html="${esc(countryPanel(r, countries))}"
+          aria-expanded="false" aria-label="${esc(r.label)}: ${r.countryCount} of ${countries} countries. Show which.">${r.countryCount}</button>
+      </div>`;
+    }).join('');
+
+    return `<div class="infographic">
+      ${hero}
+      ${tiles}
+      <figure class="bar-fig">
+        <figcaption>Countries recognising each role, of ${countries}. The two digital roles are highlighted.${ROLES_BASE ? ' Select a role to open it;' : ' Select'} the count for the countries.</figcaption>
+        <div class="bars">${bars}</div>
+      </figure>
+    </div>`;
+  }
+
+  // The page names things in two vocabularies a reader has no reason to know: camelCase
+  // feature keys and kebab-case canonical role ids. Both are explained in place rather than
+  // only in a glossary at the end — role ids from canonicals.json, which already carries a
+  // definition for every one of them, and feature keys from the "Terms used here" section of
+  // findings.md, so the prose stays the single source and a new key documented there starts
+  // working here with no code change.
+  function glossaryFromProse(md) {
+    const out = {};
+    const start = md.indexOf('## Terms used here');
+    if (start < 0) return out;
+    const body = md.slice(start);
+    // Split on the bullets rather than lookahead-matching to their end: a definition wraps
+    // over several lines, and in a multiline regex `$` matches each line break, which
+    // silently truncated every entry to its first line.
+    for (const chunk of body.split(/\n(?=- \*\*`)/).slice(1)) {
+      const m = /^- \*\*`([^`]+)`\*\* — ([\s\S]*?)(?=\n\n|$)/.exec(chunk);
+      if (!m) continue;
+      // strip the markdown emphasis and backticks; a title attribute is plain text
+      out[m[1]] = m[2].replace(/[*`]/g, '').replace(/\s+/g, ' ').trim();
+    }
+    return out;
+  }
+
+  // A `title` tooltip is a mouse-only affordance: touch devices never show one, so on a
+  // phone every one of these terms was unexplained — and the role ids are not in the
+  // glossary at all, since their definitions come from canonicals.json. The definition is
+  // therefore shown in a panel this code owns, opened by tap, click, Enter or Space, and
+  // on hover as well where the device actually has a pointer.
+  function annotateTerms(root, canon, glossary) {
+    const byId = new Map((canon || []).map((r) => [r.id, r]));
+    const terms = [];
+    for (const el of root.querySelectorAll('code')) {
+      const key = el.textContent.trim();
+      const role = byId.get(key);
+      const def = role ? role.definition : glossary[key];
+      if (!def) continue;
+      const full = role ? `${role.label} — ${def}` : def;
+      el.classList.add('term');
+      el.dataset.def = full;
+      // Reachable without a pointer, announced rather than silently decorative, and a
+      // button rather than a note because it now does something when you activate it.
+      el.setAttribute('tabindex', '0');
+      el.setAttribute('role', 'button');
+      el.setAttribute('aria-expanded', 'false');
+      el.setAttribute('aria-label', `${key}: ${full}`);
+      terms.push(el);
+    }
+    // The ranked bars use the same panel: one element, one set of handlers, one thing that
+    // closes on Escape. Attaching a second panel would duplicate the id and leave two
+    // tooltips that do not know about each other.
+    for (const el of root.querySelectorAll('[data-panel-html]')) terms.push(el);
+    if (terms.length) attachTermPanel(root, terms);
+    return terms.length;
+  }
+
+  // One panel, reused. It is positioned against the findings container rather than the
+  // viewport so it scrolls with the text, and clamped to that container's width so a long
+  // definition cannot push a phone into horizontal scrolling.
+  function attachTermPanel(root, terms) {
+    const panel = document.createElement('div');
+    panel.className = 'term-panel';
+    panel.id = 'term-panel';
+    panel.setAttribute('role', 'tooltip');
+    panel.hidden = true;
+    root.appendChild(panel);
+    if (getComputedStyle(root).position === 'static') root.style.position = 'relative';
+    let open = null;
+
+    const close = () => {
+      if (!open) return;
+      if (open.hasAttribute('aria-expanded')) open.setAttribute('aria-expanded', 'false');
+      open = null;
+      panel.hidden = true;
+    };
+    const show = (el) => {
+      if (open === el) return close();
+      close();
+      // Glossary terms carry plain text; the bars carry markup this file generated, with every
+      // value already through esc(). Nothing from the data reaches innerHTML unescaped.
+      if (el.dataset.panelHtml) panel.innerHTML = el.dataset.panelHtml;
+      else panel.textContent = el.dataset.def;
+      panel.classList.toggle('wide', !!el.dataset.panelHtml);
+      panel.hidden = false;
+      const base = root.getBoundingClientRect();
+      const r = el.getBoundingClientRect();
+      // measure after it is laid out at full width, then clamp within the container
+      const w = Math.min(panel.offsetWidth, base.width);
+      let left = r.left - base.left + (r.width / 2) - (w / 2);
+      left = Math.max(0, Math.min(left, base.width - w));
+      panel.style.left = `${Math.round(left)}px`;
+      panel.style.top = `${Math.round(r.bottom - base.top + 8)}px`;
+      if (el.hasAttribute('aria-expanded')) el.setAttribute('aria-expanded', 'true');
+      open = el;
+    };
+
+    for (const el of terms) {
+      // A hover-only trigger carries no click and no key handling: something else on it owns
+      // the click (the bar is a link), and the same content is reachable another way for
+      // anyone not using a mouse — so this adds a shortcut without taking one away.
+      if (!el.dataset.panelHover) {
+        el.addEventListener('click', (e) => { e.stopPropagation(); show(el); });
+        el.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(el); }
+          else if (e.key === 'Escape') close();
+        });
+      }
+      // Hover is a convenience on top of the click, never the only way in. The listeners
+      // attach everywhere and filter on the pointer that actually arrived, rather than
+      // asking matchMedia('(hover: hover)') first: that query answers false in more places
+      // than you would expect — headless Chromium among them — and gating on it would mean
+      // hover silently not working for someone who does have a mouse. The pointerType test
+      // already keeps a touch from triggering it, so the gate only added a failure mode.
+      el.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') show(el); });
+      el.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse' && open === el) close(); });
+    }
+    document.addEventListener('click', close);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+    window.addEventListener('resize', close);
+  }
+
+  // ---------- findings figures ----------
+  // One small drawing per finding. Each is hand-authored inline SVG: no library, no runtime,
+  // sized by viewBox and scaled by CSS. Colour is var(--accent) for the thing the section is
+  // about and var(--dormant) for its context, with text in currentColor, so the same markup
+  // reads in both themes and introduces no colour the token set does not already have.
+  //
+  // The counts are computed from features.json and canonicals.json rather than written here,
+  // for the same reason the headline band is: a figure with a number drawn into it is a
+  // number that goes quietly wrong when the set grows.
+  const FIG_W = 460;
+
+  const svgOpen = (h, label) =>
+    `<svg viewBox="0 0 ${FIG_W} ${h}" role="img" aria-label="${esc(label)}" class="fig-svg">`;
+  const figWrap = (svg, caption) =>
+    `<figure class="finding-fig">${svg}</figure>` +
+    (caption ? `<p class="fig-cap">${esc(caption)}</p>` : '');
+
+  // A grid of cells, `on` of them filled. The honest form for "x of n jurisdictions":
+  // it shows the proportion and keeps the countable units countable.
+  function figDots(on, total, label, perRow = 15) {
+    const s = 11, gap = 5, rows = Math.ceil(total / perRow);
+    const h = rows * (s + gap) - gap + 26;
+    let cells = '';
+    for (let i = 0; i < total; i++) {
+      const x = (i % perRow) * (s + gap);
+      const y = Math.floor(i / perRow) * (s + gap) + 22;
+      const fill = i < on ? 'var(--accent)' : 'var(--dormant)';
+      const op = i < on ? '1' : '.4';
+      cells += `<rect x="${x}" y="${y}" width="${s}" height="${s}" rx="2" fill="${fill}" opacity="${op}"/>`;
+    }
+    return svgOpen(h, label)
+      + `<text x="0" y="12" class="fig-t">${esc(`${on} of ${total}`)}</text>`
+      + cells + '</svg>';
+  }
+
+  // Two quantities sharing one bar. For a split that is genuinely part-to-whole.
+  function figSplit(a, b, aLabel, bLabel, label) {
+    const w = FIG_W, barY = 24, hgt = 22, tot = a + b || 1;
+    const aw = Math.round((a / tot) * w) - 1;
+    return svgOpen(66, label)
+      + `<text x="0" y="12" class="fig-t">${esc(aLabel)} ${a}</text>`
+      + `<text x="${w}" y="12" text-anchor="end" class="fig-t">${esc(bLabel)} ${b}</text>`
+      + `<rect x="0" y="${barY}" width="${aw}" height="${hgt}" rx="3" fill="var(--dormant)" opacity=".45"/>`
+      + `<rect x="${aw + 2}" y="${barY}" width="${w - aw - 2}" height="${hgt}" rx="3" fill="var(--accent)"/>`
+      + '</svg>';
+  }
+
+  // Paired bars: the same roles counted two ways, which is the whole point of section 7.
+  function figPairs(rows, label) {
+    const labelW = 150, barW = FIG_W - labelW - 34, rowH = 30;
+    const max = Math.max(...rows.map((r) => Math.max(r.a, r.b)), 1);
+    let out = svgOpen(rows.length * rowH + 20, label)
+      + `<text x="${labelW}" y="10" class="fig-t">jurisdictions</text>`
+      + `<text x="${FIG_W}" y="10" text-anchor="end" class="fig-t">countries</text>`;
+    rows.forEach((r, i) => {
+      const y = 20 + i * rowH;
+      out += `<text x="${labelW - 8}" y="${y + 15}" text-anchor="end" class="fig-l">${esc(r.k)}</text>`
+        + `<rect x="${labelW}" y="${y + 2}" width="${Math.max(2, (r.a / max) * barW)}" height="9" rx="2" fill="var(--dormant)" opacity=".45"/>`
+        + `<rect x="${labelW}" y="${y + 14}" width="${Math.max(2, (r.b / max) * barW)}" height="9" rx="2" fill="var(--accent)"/>`
+        + `<text x="${FIG_W}" y="${y + 20}" text-anchor="end" class="fig-l">${r.b}</text>`;
+    });
+    return out + '</svg>';
+  }
+
+  // A value range on a log scale, because the point of section 9 is the order of magnitude.
+  function figRange(points, label) {
+    const w = FIG_W - 10, y = 40;
+    const vals = points.map((p) => p.v);
+    const lo = Math.log10(Math.min(...vals)), hi = Math.log10(Math.max(...vals));
+    const at = (v) => 5 + ((Math.log10(v) - lo) / (hi - lo || 1)) * w;
+    let out = svgOpen(76, label)
+      + `<line x1="5" y1="${y}" x2="${w + 5}" y2="${y}" stroke="var(--line)" stroke-width="2"/>`;
+    for (const p of points) {
+      const x = at(p.v), on = p.on;
+      out += `<circle cx="${x.toFixed(1)}" cy="${y}" r="${on ? 7 : 5}" fill="${on ? 'var(--accent)' : 'var(--dormant)'}" opacity="${on ? 1 : .5}"/>`;
+      if (p.t) out += `<text x="${x.toFixed(1)}" y="${p.below ? y + 24 : y - 14}" text-anchor="middle" class="fig-l">${esc(p.t)}</text>`;
+    }
+    return out + '</svg>';
+  }
+
+  // Arrow marker, defined once per drawing that needs one (ids are fragment-internal).
+  const ARROW = (id, color) =>
+    `<defs><marker id="${id}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">`
+    + `<path d="M0,0 L10,5 L0,10 z" fill="${color}"/></marker></defs>`;
+  const box = (x, y, w, h, t, strong) =>
+    `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="4" fill="none" stroke="${strong ? 'var(--accent)' : 'var(--dormant)'}" stroke-width="${strong ? 2 : 1.5}" opacity="${strong ? 1 : .6}"/>`
+    + `<text x="${x + w / 2}" y="${y + h / 2 + 4}" text-anchor="middle" class="fig-l">${esc(t)}</text>`;
+
+  // Section 2 — the three regimes disagree about what happens when the person said nothing.
+  // One axis, three markers: the disagreement is the position, so position is the encoding.
+  function figDefaults() {
+    const y = 46, x0 = 70, x1 = FIG_W - 20;
+    const at = (f) => x0 + f * (x1 - x0);
+    const pt = (f, t, up) =>
+      `<circle cx="${at(f)}" cy="${y}" r="6" fill="var(--accent)"/>`
+      + `<text x="${at(f)}" y="${up ? y - 12 : y + 20}" text-anchor="middle" class="fig-l">${esc(t)}</text>`;
+    return svgOpen(78, 'Where each regime lands when the person left no direction: the US at no access to content, France and Italy at access')
+      + `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="var(--line)" stroke-width="2"/>`
+      + `<text x="${x0}" y="14" class="fig-t">no access</text>`
+      + `<text x="${x1}" y="14" text-anchor="end" class="fig-t">access</text>`
+      + `<text x="0" y="${y + 4}" class="fig-l">silence →</text>`
+      + pt(0.04, 'US', true) + pt(0.88, 'France', true) + pt(0.96, 'Italy', false)
+      + '</svg>';
+  }
+
+  // Section 3 — the difference is the obligation, so draw the two arrows, not two boxes.
+  function figCompel() {
+    const a = ARROW('ar-compel', 'var(--accent)') + ARROW('ar-may', 'var(--dormant)');
+    return svgOpen(112, 'France obliges every online service to offer the choice; elsewhere a custodian may offer one')
+      + a
+      + box(0, 14, 150, 30, 'online service', true)
+      + box(FIG_W - 150, 14, 150, 30, 'user', true)
+      + `<line x1="152" y1="29" x2="${FIG_W - 156}" y2="29" stroke="var(--accent)" stroke-width="2" marker-end="url(#ar-compel)"/>`
+      + `<text x="${FIG_W / 2}" y="22" text-anchor="middle" class="fig-l">must offer the choice</text>`
+      + box(0, 68, 150, 30, 'custodian', false)
+      + box(FIG_W - 150, 68, 150, 30, 'user', false)
+      + `<line x1="152" y1="83" x2="${FIG_W - 156}" y2="83" stroke="var(--dormant)" stroke-width="2" stroke-dasharray="5 4" opacity=".7" marker-end="url(#ar-may)"/>`
+      + `<text x="${FIG_W / 2}" y="76" text-anchor="middle" class="fig-l">may offer one</text>`
+      + `<text x="0" y="60" class="fig-t">France</text>`
+      + `<text x="0" y="112" class="fig-t">everywhere else</text>`
+      + '</svg>';
+  }
+
+  // Section 10 — what a valid instrument must carry, against what it may.
+  function figFormless() {
+    const need = ['name', 'date of birth', 'phone', 'address', 'signature', 'date'];
+    const opt = ['health care agent', 'notarisation', 'witnesses', 'instructions'];
+    const rowH = 22;
+    let out = svgOpen(Math.max(need.length, opt.length) * rowH + 30,
+      'Six elements an Idaho advance care planning document must carry, against four it may');
+    out += `<text x="0" y="12" class="fig-t">must carry</text>`
+      + `<text x="${FIG_W / 2 + 10}" y="12" class="fig-t">may carry</text>`;
+    need.forEach((t, i) => {
+      const y = 22 + i * rowH;
+      out += `<rect x="0" y="${y}" width="10" height="10" rx="2" fill="var(--accent)"/>`
+        + `<text x="18" y="${y + 9}" class="fig-l">${esc(t)}</text>`;
+    });
+    opt.forEach((t, i) => {
+      const y = 22 + i * rowH, x = FIG_W / 2 + 10;
+      out += `<rect x="${x}" y="${y}" width="10" height="10" rx="2" fill="none" stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 2"/>`
+        + `<text x="${x + 18}" y="${y + 9}" class="fig-l" opacity=".75">${esc(t)}</text>`;
+    });
+    return out + '</svg>';
+  }
+
+  // Section 11 — a mandate on each side of the same exchange.
+  function figBothSides() {
+    const a = ARROW('ar-fr', 'var(--accent)') + ARROW('ar-id', 'var(--accent)');
+    return svgOpen(118, 'France compels the online service toward the user; Idaho compels the party asked to accept a document')
+      + a
+      + `<text x="0" y="12" class="fig-t">France · art. 85 III</text>`
+      + box(0, 20, 170, 28, 'online service', true)
+      + `<line x1="172" y1="34" x2="${FIG_W - 146}" y2="34" stroke="var(--accent)" stroke-width="2" marker-end="url(#ar-fr)"/>`
+      + box(FIG_W - 140, 20, 140, 28, 'user', false)
+      + `<text x="0" y="78" class="fig-t">Idaho · §15-15-106</text>`
+      + box(0, 86, 170, 28, 'document holder', false)
+      + `<line x1="172" y1="100" x2="${FIG_W - 146}" y2="100" stroke="var(--accent)" stroke-width="2" marker-end="url(#ar-id)"/>`
+      + box(FIG_W - 140, 86, 140, 28, 'relying party', true)
+      + '</svg>';
+  }
+
+  // Section 13 — the same destination, one route evidenced and one not. The dashed arrow is
+  // the claim: standing without a prescribed way to prove it.
+  function figProof() {
+    const a = ARROW('ar-proof', 'var(--accent)') + ARROW('ar-noproof', 'var(--dormant)');
+    return svgOpen(126, 'An heir proves standing with an acte de notoriete or livret de famille; the person the deceased designated has no prescribed proof')
+      + a
+      + `<text x="0" y="12" class="fig-t">heir \u2014 art. 85 II</text>`
+      + box(0, 20, 150, 28, 'heir', false)
+      + `<line x1="152" y1="34" x2="${FIG_W - 126}" y2="34" stroke="var(--accent)" stroke-width="2" marker-end="url(#ar-proof)"/>`
+      + `<text x="${(152 + FIG_W - 126) / 2}" y="28" text-anchor="middle" class="fig-l">acte de notori\u00e9t\u00e9</text>`
+      + box(FIG_W - 120, 20, 120, 28, 'controller', true)
+      + `<text x="0" y="86" class="fig-t">designated person \u2014 art. 85 I</text>`
+      + box(0, 94, 150, 28, 'designee', false)
+      + `<line x1="152" y1="108" x2="${FIG_W - 126}" y2="108" stroke="var(--dormant)" stroke-width="2" stroke-dasharray="5 4" opacity=".75" marker-end="url(#ar-noproof)"/>`
+      + `<text x="${(152 + FIG_W - 126) / 2}" y="102" text-anchor="middle" class="fig-l">no prescribed proof</text>`
+      + box(FIG_W - 120, 94, 120, 28, 'controller', true)
+      + '</svg>';
+  }
+
+  // Section 12 — one statute book, two regimes, a date between them.
+  function figInForce() {
+    const x = Math.round(FIG_W * 0.62), y = 44;
+    return svgOpen(96, 'Idaho chapter 5 carries the law in force and its enacted replacement, which takes effect on 1 January 2027')
+      + `<rect x="0" y="${y - 14}" width="${x - 2}" height="28" rx="3" fill="var(--accent)"/>`
+      + `<rect x="${x + 2}" y="${y - 14}" width="${FIG_W - x - 2}" height="28" rx="3" fill="var(--dormant)" opacity=".35"/>`
+      + `<text x="10" y="${y + 5}" class="fig-l fig-on">in force</text>`
+      + `<text x="${x + 12}" y="${y + 5}" class="fig-l">enacted, not yet in force</text>`
+      + `<line x1="${x}" y1="${y - 24}" x2="${x}" y2="${y + 24}" stroke="currentColor" stroke-width="2"/>`
+      + `<text x="${x}" y="${y + 40}" text-anchor="middle" class="fig-t">1 January 2027</text>`
+      + `<text x="0" y="14" class="fig-t">Idaho title 15, chapter 5</text>`
+      + '</svg>';
+  }
+
+  // Section 14 — how strongly a claimant's standing is evidenced, as one axis. The claim is that
+  // these are points on a single scale and not unrelated rules, so position carries it and the
+  // marks differ only in emphasis: dormant where no artefact is prescribed (France's designee has
+  // none at all; Delaware requires a declaration but prescribes no form for it), accent where one
+  // is. Delaware and Utah enacted the same sentence, which is why they sit close together and on
+  // opposite sides of the line.
+  function figStanding() {
+    const y = 66, x0 = 30, x1 = FIG_W - 30;
+    const at = (f) => x0 + (x1 - x0) * f;
+    // Five points would collide if every label sat on the same side of the axis, so they
+    // alternate above and below. Position is the encoding; the side carries no meaning.
+    const tick = (f, label, sub, strong, below) => {
+      const x = at(f);
+      const col = strong ? 'var(--accent)' : 'var(--dormant)';
+      const ly = below ? y + 22 : y - 24, sy = below ? y + 35 : y - 11;
+      return `<circle cx="${x}" cy="${y}" r="${strong ? 7 : 6}" fill="${col}" ${strong ? '' : 'opacity=".5"'}/>`
+        + `<text x="${x}" y="${ly}" text-anchor="middle" class="fig-l">${esc(label)}</text>`
+        + `<text x="${x}" y="${sy}" text-anchor="middle" class="fig-t">${esc(sub)}</text>`;
+    };
+    return svgOpen(124, 'Five points on one scale, from nothing prescribed for the French designee, through a declaration with no prescribed form in Delaware and one on a state form in Utah, to a notarial act for a French heir and a state register in Oklahoma')
+      + `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="currentColor" stroke-width="1.5" opacity=".35"/>`
+      + `<text x="${x0}" y="${y + 54}" class="fig-t">nothing to show</text>`
+      + `<text x="${x1}" y="${y + 54}" text-anchor="end" class="fig-t">attested by a third party</text>`
+      + tick(0, 'designee', 'France, art. 85 I', false, false)
+      + tick(0.3, 'surrogate', 'Del., §2512(c)', false, true)
+      + tick(0.52, 'surrogate', 'Utah, §75A-9-111(3)', true, false)
+      + tick(0.78, 'heir', 'France, art. 124', true, true)
+      + tick(1, 'agent', 'Okla., §63-3102.1', true, false)
+      + '</svg>';
+  }
+
+  // Section 16 — how long the finding underneath the authority stays good. A log axis, because the
+  // spread is four orders of magnitude and that spread IS the finding: Maryland sits alone at the
+  // left and the guardianship reviews bunch at the right. Labels alternate sides to stay legible.
+  function figFreshness() {
+    const y = 66, x0 = 34, x1 = FIG_W - 34, HOURS_MAX = 87600; // ten years
+    const at = (h) => x0 + (x1 - x0) * (Math.log10(h) / Math.log10(HOURS_MAX));
+    const tick = (h, label, sub, below) => {
+      const x = at(h);
+      const ly = below ? y + 22 : y - 24, sy = below ? y + 35 : y - 11;
+      return `<circle cx="${x}" cy="${y}" r="6" fill="var(--accent)"/>`
+        + `<text x="${x}" y="${ly}" text-anchor="middle" class="fig-l">${esc(label)}</text>`
+        + `<text x="${x}" y="${sy}" text-anchor="middle" class="fig-t">${esc(sub)}</text>`;
+    };
+    return svgOpen(124, 'The interval before the finding must be made again, on a logarithmic scale: two hours in Maryland, 180 days in Virginia for health care, one year then three for a Virginia guardianship, three years in Victoria and five in Queensland')
+      + `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="currentColor" stroke-width="1.5" opacity=".35"/>`
+      + `<text x="${x0}" y="${y + 54}" class="fig-t">2 hours</text>`
+      + `<text x="${x1}" y="${y + 54}" text-anchor="end" class="fig-t">10 years</text>`
+      + tick(2, 'Md.', '§5-606', false)
+      + tick(4320, 'Va.', '180 days', true)
+      + tick(8760, 'Va.', '1 year', false)
+      + tick(26280, 'Vic.', '3 years', true)
+      + tick(43800, 'Qld', '5 years', false)
+      + '</svg>';
+  }
+  // Section 15 — a presence matrix. The finding is which cells are EMPTY, so a missing part has to
+  // be drawn rather than left out: every cell is there, filled or hollow. One hue plus gray.
+  function figAccept() {
+    const rows = [
+      ['Idaho §§105–107', [1, 1, 1]],
+      ['RUFADAA §16', [1, 1, 1]],
+      ['Del. §§2306–7', [0, 1, 1]],
+      ['supported dec.-making', [0, 0, 1]],
+      ['Mo. §404.719', [0, 0, 1]],
+      ['Neb. §§30-4019–20', [1, 1, 1]],
+    ];
+    const cols = ['duty', 'remedy', 'safe harbour'];
+    const lw = 150, cw = 100, cwd = 72, ch = 20, gap = 10, top = 32;
+    let out = cols.map((c, i) =>
+      `<text x="${lw + i * cw + cw / 2}" y="20" text-anchor="middle" class="fig-t">${esc(c)}</text>`).join('');
+    rows.forEach(([label, cells], r) => {
+      const y = top + r * (ch + gap);
+      out += `<text x="0" y="${y + ch / 2 + 4}" class="fig-l">${esc(label)}</text>`;
+      cells.forEach((on, i) => {
+        const x = lw + i * cw + (cw - cwd) / 2;
+        out += on
+          ? `<rect x="${x}" y="${y}" width="${cwd}" height="${ch}" rx="3" fill="var(--accent)"/>`
+          : `<rect x="${x}" y="${y}" width="${cwd}" height="${ch}" rx="3" fill="none" stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 3" opacity=".7"/>`;
+      });
+    });
+    return svgOpen(top + rows.length * (ch + gap) + 4,
+      'Which of duty, remedy and safe harbour each of the six acceptance regimes carries: Idaho, RUFADAA and Nebraska all three, Delaware the remedy and the safe harbour, the supported decision-making statutes and Missouri the safe harbour alone')
+      + out + '</svg>';
+  }
+
+  // Section 17 — what a later court appointment does to an authority the principal granted.
+  // Two outcomes, not a presence/absence, so both are drawn solid: --accent for an authority
+  // that survives and --dormant for one that ends. One hue plus gray, as elsewhere. The fourth
+  // row is Kentucky's other lane, which is the whole point of the section and has to sit in the
+  // same picture as its own contradiction.
+  function figTermination() {
+    const rows = [
+      ['Va. \u2014 property, \u00a764.2-1606', 1, 'continues'],
+      ['Ky. \u2014 property, \u00a7457.100', 0, 'terminates'],
+      ['W.Va. \u2014 property, \u00a739B-1-108', 0, 'terminates'],
+      ['Iowa \u2014 property, \u00a7633B.108', 2, 'suspended, then reinstated'],
+      ['Ky. \u2014 the person, \u00a7311.6231', 1, 'continues'],
+    ];
+    const lw = 196, pw = 128, ph = 20, gap = 11, top = 30;
+    let out = `<text x="${lw}" y="18" class="fig-t">after a court appoints a fiduciary</text>`;
+    rows.forEach(([label, on, word], r) => {
+      const y = top + r * (ph + gap);
+      out += `<text x="0" y="${y + ph / 2 + 4}" class="fig-l">${esc(label)}</text>`
+        + (on === 2
+          // Iowa: effective, dormant, effective again. Accent plus gray, no new hue.
+          ? `<rect x="${lw}" y="${y}" width="${pw * 0.3}" height="${ph}" rx="3" fill="var(--accent)"/>`
+            + `<rect x="${lw + pw * 0.3}" y="${y}" width="${pw * 0.4}" height="${ph}" `
+            + `fill="var(--dormant)" opacity=".4"/>`
+            + `<rect x="${lw + pw * 0.7}" y="${y}" width="${pw * 0.3}" height="${ph}" rx="3" fill="var(--accent)"/>`
+          : `<rect x="${lw}" y="${y}" width="${pw}" height="${ph}" rx="3" `
+            + `fill="${on ? 'var(--accent)' : 'var(--dormant)'}" opacity="${on ? 1 : .55}"/>`)
+        + `<text x="${lw + pw + 10}" y="${y + ph / 2 + 4}" class="fig-t">${esc(word)}</text>`;
+    });
+    return svgOpen(top + rows.length * (ph + gap) + 4,
+      'What a later court appointment does to the authority the principal granted: in Virginia the power of attorney continues, in Kentucky and West Virginia it terminates, in Iowa it is suspended and then reinstated when the principal regains capacity, while in Kentucky a health-care surrogate under an advance directive continues')
+      + out + '</svg>';
+  }
+
+  // Section 18 — the two ways a statute can make an unverified claim usable. Each row is a thing a
+  // claimant presents; the left cell is whether the law moves the liability (a duty, a remedy, an
+  // oath, an immunity), the right whether Missouri lets the relying party demand security instead.
+  // A presence matrix again, so an empty cell has to be drawn rather than omitted: --accent filled
+  // for present, a dashed --dormant outline for absent. One hue plus gray.
+  function figSecurity() {
+    const rows = [
+      ['power of attorney', 1, 1],
+      ['certification of trust', 0, 1],
+      ['small-estate claim', 1, 1],
+      ['creditor, no letters', 0, 1],
+    ];
+    const cols = ['elsewhere: duty or oath', 'Missouri: security'];
+    const lw = 160, cw = 142, cwd = 112, ch = 20, gap = 11, top = 34;
+    let out = cols.map((c, i) =>
+      `<text x="${lw + i * cw + cw / 2}" y="20" text-anchor="middle" class="fig-t">${esc(c)}</text>`).join('');
+    rows.forEach(([label, a, b], r) => {
+      const y = top + r * (ch + gap);
+      out += `<text x="0" y="${y + ch / 2 + 4}" class="fig-l">${esc(label)}</text>`;
+      [a, b].forEach((on, i) => {
+        const x = lw + i * cw + (cw - cwd) / 2;
+        out += on
+          ? `<rect x="${x}" y="${y}" width="${cwd}" height="${ch}" rx="3" fill="var(--accent)"/>`
+          : `<rect x="${x}" y="${y}" width="${cwd}" height="${ch}" rx="3" fill="none" stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 3" opacity=".7"/>`;
+      });
+    });
+    return svgOpen(top + rows.length * (ch + gap) + 4,
+      'For each thing a claimant presents, whether some jurisdiction in this set moves the liability by law and whether Missouri lets the relying party demand security instead: a power of attorney and a small-estate claim have both, while a certification of trust and a creditor seeking refusal of letters have only the Missouri security route')
+      + out + '</svg>';
+  }
+
+  // Section 19 - Iowa's shot clock. Two deadlines anchored to different events, and the statute
+  // takes whichever expires first, so being told late shortens the window rather than moving it.
+  // A single timeline in hours: the accent bar is the window that is actually available, the
+  // dashed gray the one the other anchor would have given. One hue plus gray, as everywhere else.
+  function figShotClock() {
+    const H = 56, lw = 150, axw = FIG_W - lw - 14, top = 26, bh = 18, gap = 26;
+    const x = (h) => lw + (h / H) * axw;
+    const rows = [
+      ['40 hours from death', 0, 40, 1],
+      ['24 hours from notification', 30, 54, 0],
+    ];
+    let out = '';
+    rows.forEach(([label, a, b, on], r) => {
+      const y = top + r * (bh + gap);
+      out += `<text x="0" y="${y + bh / 2 + 4}" class="fig-l">${esc(label)}</text>`;
+      out += on
+        ? `<rect x="${x(a)}" y="${y}" width="${x(b) - x(a)}" height="${bh}" rx="3" fill="var(--accent)"/>`
+        : `<rect x="${x(a)}" y="${y}" width="${x(b) - x(a)}" height="${bh}" rx="3" fill="none" `
+          + `stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 3" opacity=".8"/>`;
+      if (!on) out += `<text x="${x(a)}" y="${y - 6}" class="fig-t">told at hour 30</text>`;
+    });
+    // The binding deadline, and the stretch the later anchor would have allowed but does not.
+    const yEnd = top + rows.length * (bh + gap) - gap + 6;
+    out += `<line x1="${x(40)}" y1="${top - 8}" x2="${x(40)}" y2="${yEnd}" `
+      + `stroke="var(--accent)" stroke-width="1.5"/>`
+      + `<text x="${x(40)}" y="${yEnd + 14}" text-anchor="middle" class="fig-t">authority lapses</text>`;
+    [0, 20, 40].forEach((h) => {
+      out += `<text x="${x(h)}" y="${yEnd + 30}" text-anchor="middle" class="fig-l">${h}h</text>`;
+    });
+    out += `<text x="0" y="${yEnd + 30}" class="fig-l">from death</text>`;
+    return svgOpen(yEnd + 38,
+      'Iowa section 144C.8(2) forfeits the right to control a decedent\u2019s remains on the earlier of two deadlines: 40 hours from the death, or 24 hours from being notified of it. A designee notified at hour 30 would have had until hour 54 on the notification clock, but the 40-hour clock from death expires first, so the authority lapses at hour 40 with ten hours used')
+      + out + '</svg>';
+  }
+
+  // Which drawing belongs to which finding. Keyed on the section number the heading opens
+  // with, so renumbering the prose moves the figures with it; a section with no entry simply
+  // gets none, which is the right answer for the closing argument.
+  function findingFigure(n, ctx) {
+    const { feat, canon, countries } = ctx;
+    const count = (key, pred) => {
+      let on = 0, total = 0;
+      for (const j of Object.keys(feat)) {
+        const v = ((feat[j] || {}).features || {})[key];
+        if (!v || v.value === null || v.value === undefined) continue;
+        total++; if (pred(v.value)) on++;
+      }
+      return { on, total };
+    };
+    const role = (id) => (canon || []).find((r) => r.id === id);
+
+    switch (n) {
+      case 1: {
+        const top = role('personal-representative-executor'), bot = role('online-tool-designee');
+        if (!top || !bot) return '';
+        return figWrap(
+          figDots(top.countryCount, countries, `${top.countryCount} of ${countries} countries recognise an executor`, countries)
+          + figDots(bot.countryCount, countries, `${bot.countryCount} of ${countries} countries recognise an online-tool designee`, countries),
+          'Countries recognising an executor, then an online-tool designee.');
+      }
+      case 2: return figWrap(figDefaults(), 'Where each regime lands when the person left no direction.');
+      case 3: return figWrap(figCompel(), 'France obliges the service; elsewhere the custodian chooses.');
+      case 4: {
+        const c = count('poaDurableByDefault', (v) => v === true);
+        return figWrap(figDots(c.on, c.total, `${c.on} of ${c.total} jurisdictions make a power of attorney durable by default`),
+          'Jurisdictions where a power of attorney is durable without saying so.');
+      }
+      case 5: {
+        const c = count('poaRegistrationBeforeUse', (v) => v === true);
+        return figWrap(figDots(c.on, c.total, `${c.on} of ${c.total} jurisdictions require registration before the power may be used`),
+          'Jurisdictions where an authority must act before the document works.');
+      }
+      case 6: {
+        const i = count('organDonationModel', (v) => v === 'opt-in');
+        return figWrap(figSplit(i.on, i.total - i.on, 'opt-in', 'opt-out',
+          `${i.on} jurisdictions opt-in, ${i.total - i.on} opt-out`),
+          'Donation model across the jurisdictions that record one.');
+      }
+      case 7: {
+        const ids = ['health-records-representative', 'benefits-payee', 'tax-representative', 'veterans-fiduciary'];
+        const rows = ids.map(role).filter(Boolean)
+          .map((r) => ({ k: r.label, a: r.jurisdictionCount, b: r.countryCount }));
+        if (!rows.length) return '';
+        return figWrap(figPairs(rows, 'Four roles with a high jurisdiction count and a low country count'),
+          'The same four roles, counted by jurisdiction and by country.');
+      }
+      case 8: {
+        const c = count('supportedDecisionMakingStatute', (v) => v === true);
+        return figWrap(figDots(c.on, c.total, `${c.on} of ${c.total} jurisdictions have a supported decision-making statute`),
+          'Jurisdictions with a statute for supported decision making.');
+      }
+      case 9: return figWrap(figRange([
+        { v: 20000, t: '$20k', on: false },
+        { v: 25000, t: 'model $25k', on: false, below: true },
+        { v: 100000, t: 'Idaho $100k', on: true },
+        { v: 150000, on: false },
+        { v: 208850, t: '$208,850', on: false, below: true },
+      ], 'US small-estate ceilings from $20,000 to $208,850 on a log scale'),
+        'US small-estate ceilings, log scale. One mechanism, an order of magnitude apart.');
+      case 10: return figWrap(figFormless(), 'What an Idaho ACPD must carry, against what it may.');
+      case 11: return figWrap(figBothSides(), 'A mandate on each side of the same exchange.');
+      case 12: return figWrap(figInForce(), 'One chapter, two regimes, a date between them.');
+      case 13: return figWrap(figProof(), 'Who can prove their standing to a French controller, and who cannot.');
+      case 14: return figWrap(figStanding(), 'How strongly each claimant\u2019s standing is evidenced, on one scale.');
+      case 15: return figWrap(figAccept(), 'Every regime carries the safe harbour. Only two carry the duty.');
+      case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
+      case 17: return figWrap(figTermination(), 'One event, three answers \u2014 and two of them inside Kentucky.');
+      case 18: return figWrap(figSecurity(), 'Where the law moves liability, and where Missouri asks for collateral instead.');
+      case 19: return figWrap(figShotClock(), 'Iowa \u00a7144C.8(2): the earlier of two deadlines binds, so a late notification shortens the window instead of moving it.');
+      default: return '';
+    }
+  }
+
+  // Split the rendered prose into sections at each h2, so each finding leads with its
+  // heading and first paragraph and holds the rest behind a disclosure. The headings stay
+  // real h2 elements rather than moving inside <summary>, so the document outline and the
+  // reading order survive.
+  function findingsSections(html, figureFor) {
+    const src = document.createElement('div');
+    src.innerHTML = html;
+    const out = document.createElement('div');
+    let lede = document.createElement('div');
+    lede.className = 'findings-lede';
+    let cur = null, body = null, teased = false;
+    const flush = () => { if (cur) { out.appendChild(cur); cur = null; body = null; } };
+    while (src.firstChild) {
+      const node = src.firstChild;
+      if (node.nodeType === 1 && node.tagName === 'H2') {
+        flush();
+        if (lede) { out.appendChild(lede); lede = null; }
+        cur = document.createElement('section');
+        cur.className = 'finding';
+        cur.appendChild(node);
+        // the section number the heading opens with is what keys its drawing
+        const numMatch = /^\s*(\d+)\./.exec(node.textContent || '');
+        cur.dataset.fig = numMatch ? numMatch[1] : '';
+        // ...and also addresses it. Numbered sections are keyed by their number, which is what
+        // the prose's own "§13" references mean; the few unnumbered ones fall back to a slug of
+        // the heading, so every section on the page can be linked to and not just most of them.
+        const key = numMatch ? numMatch[1] : slugify(node.textContent || '');
+        if (key) {
+          cur.id = 'finding-' + key;
+          cur.dataset.f = key;
+          const a = document.createElement('a');
+          a.className = 'f-anchor';
+          a.href = '#tab=findings&f=' + encodeURIComponent(key);
+          a.textContent = '#';
+          a.setAttribute('aria-label', `Link to this finding: ${(node.textContent || '').trim()}`);
+          node.appendChild(a);
+        }
+        const det = document.createElement('details');
+        det.className = 'f-more';
+        const sum = document.createElement('summary');
+        sum.innerHTML = '<span class="f-open">Read more</span><span class="f-close">Show less</span>';
+        det.appendChild(sum);
+        body = document.createElement('div');
+        body.className = 'f-body';
+        det.appendChild(body);
+        cur.appendChild(det);
+        teased = false;
+        continue;
+      }
+      if (!cur) { (lede || out).appendChild(node); continue; }
+      // the first paragraph of a section stays visible as the teaser
+      if (!teased && node.nodeType === 1 && node.tagName === 'P') {
+        teased = true;
+        node.classList.add('f-teaser');
+        cur.insertBefore(node, cur.lastChild);
+        continue;
+      }
+      body.appendChild(node);
+    }
+    if (lede) out.appendChild(lede);
+    flush();
+    // place each drawing after the teaser: heading, then the sentence, then the picture
+    if (figureFor) {
+      for (const sec of out.querySelectorAll('section.finding')) {
+        const n = parseInt(sec.dataset.fig, 10);
+        const markup = n ? figureFor(n) : '';
+        if (!markup) continue;
+        const anchor = sec.querySelector('p.f-teaser') || sec.querySelector('h2');
+        anchor.insertAdjacentHTML('afterend', markup);
+      }
+    }
+    return out;
+  }
+
+  async function renderFindings() {
+    const host = $('#findings');
+    if (findingsText === null) {
+      host.innerHTML = '<p class="muted">Loading…</p>';
+      try {
+        const r = await fetch(DATA_BASE + 'findings.md', { cache: 'no-cache' });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        findingsText = await r.text();
+      } catch (e) {
+        findingsText = '';
+        host.innerHTML = `<p class="muted">Findings could not be loaded (${esc(e.message)}).</p>`;
+        return;
+      }
+    }
+    if (!findingsText) { host.innerHTML = '<p class="muted">No findings available.</p>'; return; }
+    // canonicals.json is the build's own cross-jurisdiction tally; the viewer does not
+    // otherwise need it, so it is fetched here and only once. If it cannot be read the
+    // prose still renders — the band is an addition to the page, not a precondition.
+    if (findingsCanon === null) {
+      try { findingsCanon = (await getJSON('canonicals.json')).roles || []; }
+      catch (e) { findingsCanon = []; }
+    }
+    host.textContent = '';
+    const band = findingsCanon.length ? findingsBand(findingsCanon, state.manifest) : '';
+    if (findingsFeatures === null) {
+      try { findingsFeatures = await getJSON('features.json'); }
+      catch (e) { findingsFeatures = {}; }
+    }
+    const figCtx = {
+      feat: findingsFeatures,
+      canon: findingsCanon,
+      countries: (state.manifest.countries || []).length,
+    };
+    const sectioned = findingsSections(mdToHtml(findingsText), (n) => findingFigure(n, figCtx));
+    const lede = sectioned.querySelector('.findings-lede');
+    if (band && lede) lede.insertAdjacentHTML('afterend', band);
+    else if (band) sectioned.insertAdjacentHTML('afterbegin', band);
+    while (sectioned.firstChild) host.appendChild(sectioned.firstChild);
+    annotateTerms(host, findingsCanon, glossaryFromProse(findingsText));
+    const all = [...host.querySelectorAll('details.f-more')];
+    if (all.length) {
+      const bar = document.createElement('div');
+      bar.className = 'f-allbar';
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'chip';
+      const sync = () => { btn.textContent = all.every((d) => d.open) ? 'Collapse all' : 'Expand all'; };
+      btn.onclick = () => { const open = !all.every((d) => d.open); all.forEach((d) => { d.open = open; }); sync(); };
+      all.forEach((d) => d.addEventListener('toggle', sync));
+      sync();
+      bar.appendChild(btn);
+      const first = host.querySelector('section.finding');
+      if (first) host.insertBefore(bar, first);
+    }
+
+    // An anchor click keeps whatever jurisdiction the reader had chosen, which following the
+    // href would drop: the href is the short citable form, deliberately, so that what gets
+    // copied and pasted into a document is "#tab=findings&f=13" and not a route carrying
+    // somebody's incidental state.
+    for (const a of host.querySelectorAll('a.f-anchor')) {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const sec = a.closest('section.finding');
+        if (!sec) return;
+        state.finding = sec.dataset.f;
+        pushNext = true;
+        writeHash();
+        revealFinding(host, state.finding);
+      });
+    }
+    if (state.finding) revealFinding(host, state.finding);
+  }
+
+  // Open a finding and bring it into view, whether the reader clicked an anchor or arrived on
+  // a pasted link. The section is behind a disclosure, so scrolling to a closed one would land
+  // on a heading and a "Read more" button with the substance still hidden — the open comes
+  // first. Focus moves to the heading so a keyboard reader lands where the eye does.
+  function revealFinding(host, key) {
+    const sec = host.querySelector(`section.finding[data-f="${CSS.escape(String(key))}"]`);
+    if (!sec) return false;
+    const det = sec.querySelector('details.f-more');
+    if (det) det.open = true;
+    const h = sec.querySelector('h2');
+    if (h) {
+      if (!h.hasAttribute('tabindex')) h.setAttribute('tabindex', '-1');
+      h.focus({ preventScroll: true });
+    }
+    const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    sec.scrollIntoView({ block: 'start', behavior: calm ? 'auto' : 'smooth' });
+    sec.classList.add('f-target');
+    setTimeout(() => sec.classList.remove('f-target'), 1600);
+    return true;
   }
 
   // ---------- sources ----------

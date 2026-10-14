@@ -15,7 +15,8 @@
      ],
      "country": "mu",
      "note": "A mixed system: the Code Civil Mauricien supplies succession and adult protection, while the Curatelle Act, Mental Health Care Act and Succession and Wills Act are English-language statutes layered over it — the Mental Health Care Act reaches a patient’s property by having the Ministère Public apply for an ouverture de tutelle under the Code. Succession vests without a grant: the heirs are seised of plein droit. No organ-donation role is recorded: the Human Tissue (Removal, Preservation and Transplant) Act 2006 commences by proclamation and the revised-laws editorial note states that, as at 30 September 2007, only section 16 had come into operation, so the donation regime is enacted but not in force on the face of the published text. Powers of attorney and health-care proxies were not located in the Acts retrieved and are not recorded.",
-     "label": "Mauritius"
+     "label": "Mauritius",
+     "shortLabel": "Mauritius"
     }
    ]
   },
@@ -34,7 +35,8 @@
      ],
      "country": "rw",
      "note": "Law nº 71/2024 of 26/06/2024 governing persons and family, which carries both adult guardianship (Chapter VII) and succession (Chapter XVII) in one statute and replaces the 2016 law. Published in the trilingual Official Gazette; the English version is quoted here, alongside Kinyarwanda and French. Estate administration runs through a succession council that chooses, supervises and signs off a liquidator, so no role here matches an executor acting alone. Powers of attorney, health-care proxies and organ donation were not found in this Law and are not recorded; they would sit in other legislation not retrieved for this entry.",
-     "label": "Rwanda"
+     "label": "Rwanda",
+     "shortLabel": "Rwanda"
     }
    ]
   },
@@ -53,7 +55,8 @@
      ],
      "country": "za",
      "note": "South African estate administration, curatorship and health decision-making: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953 from the Department of Justice, with the National Health Act 61 of 2003 and Mental Health Care Act 17 of 2002 from the Government Printer. There is no enduring power of attorney: a power of attorney is common law and lapses on the grantor’s incapacity, so the written health mandate under National Health Act s 7 is the only advance appointment recorded here. Two statutory routes run in parallel for property — curatorship under the Administration of Estates Act and an administrator under the Mental Health Care Act. The Mental Health Care Act citations carry no quote because the Government Printer’s scan has a damaged text layer; the sections were read but are not reproduced verbatim.",
-     "label": "South Africa"
+     "label": "South Africa",
+     "shortLabel": "South Africa"
     }
    ]
   },
@@ -72,7 +75,8 @@
      ],
      "country": "cn",
      "note": "Roles under the Civil Code of the People’s Republic of China, in force 1 January 2021, with the Trust Law, the Personal Information Protection Law, the Mental Health Law and the 2024 Regulations on Human Organ Donation and Transplantation. Mainland China only: Hong Kong and Macau keep their own systems, and Taiwan is outside this file. Text from the NPC National Database of Laws and Regulations.",
-     "label": "China"
+     "label": "China",
+     "shortLabel": "China"
     }
    ]
   },
@@ -91,7 +95,8 @@
      ],
      "country": "in",
      "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved.",
-     "label": "India"
+     "label": "India",
+     "shortLabel": "India"
     }
    ]
   },
@@ -110,7 +115,8 @@
      ],
      "country": "jp",
      "note": "Civil Code (民法) and the Act on Voluntary Guardianship Contracts (任意後見契約に関する法律), quoted from the Japanese original published by e-Gov. The official English translation stops short of the inheritance book, so the Japanese text is the source here and English role names are descriptive glosses. Japan runs three statutory tiers by degree of impairment — 後見, 保佐, 補助 — which the Code keeps mutually exclusive, alongside a voluntary guardianship contract that only takes effect when the Family Court appoints a supervisor. There is no grant of representation: inheritance commences on death. Health-care proxies, organ donation and disposal of remains sit outside these two statutes and are not recorded.",
-     "label": "Japan"
+     "label": "Japan",
+     "shortLabel": "Japan"
     }
    ]
   },
@@ -129,7 +135,8 @@
      ],
      "country": "sg",
      "note": "Mental Capacity Act 2008, Probate and Administration Act 1934 and Human Organ Transplant Act 1987, from Singapore Statutes Online. The lasting power of attorney follows the England and Wales model but is stricter at the front: the Act says the power is not created at all unless the instrument is made and registered. Organ donation runs the other way from most of this set — consent is presumed and a registered objection is what blocks removal. Advance medical directives and disposal of remains sit in other statutes not retrieved for this entry.",
-     "label": "Singapore"
+     "label": "Singapore",
+     "shortLabel": "Singapore"
     }
    ]
   },
@@ -148,7 +155,8 @@
      ],
      "country": "kr",
      "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs.",
-     "label": "South Korea"
+     "label": "South Korea",
+     "shortLabel": "South Korea"
     }
    ]
   },
@@ -167,7 +175,8 @@
      ],
      "country": "dk",
      "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
-     "label": "Denmark"
+     "label": "Denmark",
+     "shortLabel": "Denmark"
     }
    ]
   },
@@ -186,7 +195,28 @@
      ],
      "country": "fi",
      "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues.",
-     "label": "Finland"
+     "label": "Finland",
+     "shortLabel": "Finland"
+    }
+   ]
+  },
+  {
+   "id": "fr",
+   "name": "France",
+   "region": "Europe",
+   "iso": "FR",
+   "jurisdictions": [
+    {
+     "id": "fr-national",
+     "name": "France",
+     "short": "FR",
+     "files": [
+      "jurisdictions/fr-national.json"
+     ],
+     "country": "fr",
+     "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice; art. 48 separately obliges a controller to tell the person that right exists when it collects their data. Those duties carry no bespoke penalty and need none: art. 16 brings breaches of “la présente loi” within the CNIL's sanction competence, and art. 20 IV reaches an astreinte of 100 000 € a day and a fine of 10 million € or 2 % of worldwide turnover. The enforcement attaches to offering the choice, not to honouring or evidencing a designation. The 2019 implementing decree is the asymmetry worth noting: art. 124 prescribes how an heir proves standing — identity plus an acte de notoriété or livret de famille — and prescribes nothing for the person the deceased designated. No decree establishing the registre unique of general directives, or the CNIL certification of tiers de confiance numérique that art. 85 I provides for, was found; that absence is recorded as unverified rather than asserted.",
+     "label": "France",
+     "shortLabel": "France"
     }
    ]
   },
@@ -205,7 +235,28 @@
      ],
      "country": "de",
      "note": "Federal German law: BGB (agency, Betreuung, succession, medical records), TPG (organ donation), SGB I and AO. Burial and disposition of remains are Länder law and are not covered here.",
-     "label": "Germany — federal law"
+     "label": "Germany — federal law",
+     "shortLabel": "federal law"
+    }
+   ]
+  },
+  {
+   "id": "ie",
+   "name": "Ireland",
+   "region": "Europe",
+   "iso": "IE",
+   "jurisdictions": [
+    {
+     "id": "ie-national",
+     "name": "Ireland",
+     "short": "IE",
+     "files": [
+      "jurisdictions/ie-national.json"
+     ],
+     "country": "ie",
+     "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
+     "label": "Ireland",
+     "shortLabel": "Ireland"
     }
    ]
   },
@@ -224,7 +275,28 @@
      ],
      "country": "it",
      "note": "Roles under the Codice civile, the 2017 law on informed consent and advance directives, the 1999 organ transplant law and the privacy code as adapted to the GDPR. Text from Normattiva, the official consolidated portal; each citation records the date its wording took effect.",
-     "label": "Italy"
+     "label": "Italy",
+     "shortLabel": "Italy"
+    }
+   ]
+  },
+  {
+   "id": "nl",
+   "name": "Netherlands",
+   "region": "Europe",
+   "iso": "NL",
+   "jurisdictions": [
+    {
+     "id": "nl-national",
+     "name": "Netherlands",
+     "short": "NL",
+     "files": [
+      "jurisdictions/nl-national.json"
+     ],
+     "country": "nl",
+     "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
+     "label": "Netherlands",
+     "shortLabel": "Netherlands"
     }
    ]
   },
@@ -243,7 +315,8 @@
      ],
      "country": "es",
      "note": "Spanish state law: Código Civil as amended by Ley 8/2021 (support measures and preventive powers), Ley 41/2002 (patient autonomy) and Ley 30/1979 (organ donation). Catalonia, Aragón, Navarre, the Basque Country, Galicia and the Balearics have their own civil law of succession, which is not covered here.",
-     "label": "Spain — state law"
+     "label": "Spain — state law",
+     "shortLabel": "state law"
     }
    ]
   },
@@ -262,7 +335,8 @@
      ],
      "country": "se",
      "note": "Swedish national law: Lag (2017:310) om framtidsfullmakter, Ärvdabalk (1958:637), Föräldrabalk (1949:381) and Lag (1995:831) om transplantation m.m. Who may decide on disposal of the body is not covered: Begravningslag (1990:1144) was searched and no provision assigning that decision was located.",
-     "label": "Sweden"
+     "label": "Sweden",
+     "shortLabel": "Sweden"
     }
    ]
   },
@@ -282,7 +356,8 @@
      ],
      "country": "uk",
      "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted.",
-     "label": "UK — England & Wales"
+     "label": "UK — England & Wales",
+     "shortLabel": "England & Wales"
     },
     {
      "id": "uk-ni",
@@ -294,7 +369,8 @@
      ],
      "country": "uk",
      "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer.",
-     "label": "UK — Northern Ireland"
+     "label": "UK — Northern Ireland",
+     "shortLabel": "Northern Ireland"
     },
     {
      "id": "uk-sco",
@@ -306,7 +382,8 @@
      ],
      "country": "uk",
      "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer.",
-     "label": "UK — Scotland"
+     "label": "UK — Scotland",
+     "shortLabel": "Scotland"
     }
    ]
   },
@@ -326,7 +403,8 @@
      ],
      "country": "ca",
      "note": "British Columbia provincial roles for incapacity, death and estate administration: enduring and general powers of attorney, representation agreements, temporary substitute decision makers, committees and statutory property guardians, executors and administrators under WESA, organ donation consent, control of disposition of remains, and access to a deceased person's records. Statutes as consolidated on bclaws.gov.bc.ca, current to 15 September 2026 (Supreme Court Civil Rules current to 8 September 2026). Federal roles (CPP/OAS trustees, CRA, PIPEDA, ULCC) are in ca-federal.",
-     "label": "Canada — British Columbia"
+     "label": "Canada — British Columbia",
+     "shortLabel": "British Columbia"
     },
     {
      "id": "ca-on",
@@ -338,7 +416,8 @@
      ],
      "country": "ca",
      "note": "Ontario provincial roles for incapacity, death and estates as in force on 2026-09-16 (e-Laws currency date 11 Sept 2026). Federal benefit, tax and privacy roles are in ca-federal.json.",
-     "label": "Canada — Ontario"
+     "label": "Canada — Ontario",
+     "shortLabel": "Ontario"
     },
     {
      "id": "ca-qc",
@@ -350,7 +429,8 @@
      ],
      "country": "ca",
      "note": "Québec civil-law roles for incapacity, death and liquidation of successions under the Civil Code of Québec (CCQ) and Code of Civil Procedure (CCP), as amended by S.Q. 2020, c. 11 (in force 1 November 2022). Covers protection mandates, ordinary mandates, assistants, temporary representatives, tutors, consent to care, liquidators, organ donation, funeral arrangements and access to a deceased person's information. Consolidated texts were read from the official LégisQuébec PDFs marked 'Updated to April 7 2026'; later amendments, if any, were not checked. Federal roles are in ca-federal.",
-     "label": "Canada — Québec"
+     "label": "Canada — Québec",
+     "shortLabel": "Québec"
     }
    ]
   },
@@ -369,7 +449,8 @@
      ],
      "country": "mx",
      "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here.",
-     "label": "Mexico — federal law"
+     "label": "Mexico — federal law",
+     "shortLabel": "federal law"
     }
    ]
   },
@@ -389,7 +470,8 @@
      ],
      "note": "Baseline built from the Uniform Law Commission's model acts (which bind nobody until a state enacts them) plus federal regulations that apply everywhere.",
      "country": "us",
-     "label": "US — uniform/model law + federal"
+     "label": "US — uniform/model law + federal",
+     "shortLabel": "uniform/model law + federal"
     },
     {
      "id": "us-ca",
@@ -401,7 +483,22 @@
       "jurisdictions/us-ca.json"
      ],
      "country": "us",
-     "label": "US — California"
+     "label": "US — California",
+     "shortLabel": "California"
+    },
+    {
+     "id": "us-de",
+     "name": "Delaware",
+     "short": "DE",
+     "code": "DE",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-de.json"
+     ],
+     "country": "us",
+     "note": "Delaware is the most uniform-act-resistant state in this set on property and succession, and the earliest adopter of the newest uniform act on health care. It has no Uniform Probate Code, no Uniform Trust Code (title 12 chapter 35 is Delaware's own body of trust law), no Uniform Guardianship act beyond the jurisdictional one, and no Revised Uniform Fiduciary Access to Digital Assets Act — yet title 16 chapter 25 is the Uniform Health-Care Decisions Act (2023), in force since 84 Del. Laws c. 467 (2024).\n\nThe digital-assets chapter is the reason to read this file. Delaware legislated in 2014, before RUFADAA existed, and never replaced its act: title 12 chapter 50 is the Fiduciary Access to Digital Assets and Digital Accounts Act, seven sections against the uniform act's eighteen, with no online tool and no designated recipient. Its default is the inverse of RUFADAA's — the fiduciary controls everything unless a governing instrument or court order says otherwise — and § 5004 goes further than any other provision in this set by voiding an end-user licence limitation as against the strong public policy of the State and making a choice-of-law clause unenforceable where it would import a law that enforces one.\n\nTwo power-of-attorney chapters coexist, but unlike Oklahoma's they divide by purpose rather than by vintage: § 49A-103 sends business and commercial powers, powers coupled with an interest, health-care powers and entity proxies to chapter 49, keeping chapter 49A for personal powers. Chapter 49A borrows the uniform act's numbering and reverses its central rule, § 49A-104 making a power durable only if it says so.\n\nSourcing note: delcode.delaware.gov is server-rendered and serves a whole chapter per page, so each citation points at the chapter or subchapter page that carries the section quoted; every URL here was checked to contain its section. Larger chapters are split into subchapters and the chapter page is then a few hundred characters of navigation, which is the tell.",
+     "label": "US — Delaware",
+     "shortLabel": "Delaware"
     },
     {
      "id": "us-fl",
@@ -413,7 +510,22 @@
       "jurisdictions/us-fl.json"
      ],
      "country": "us",
-     "label": "US — Florida"
+     "label": "US — Florida",
+     "shortLabel": "Florida"
+    },
+    {
+     "id": "us-id",
+     "name": "Idaho",
+     "short": "ID",
+     "code": "ID",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-id.json"
+     ],
+     "country": "us",
+     "note": "Idaho is the first jurisdiction in this set with a live/pending split: title 15 chapter 5 carries two regimes in parallel, the existing protective-proceedings law \"[EFFECTIVE UNTIL JANUARY 1, 2027]\" and the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act \"[EFFECTIVE JANUARY 1, 2027]\", enacted by S 1240 (2026, ch. 79). The guardian and conservator rows record the law in force and carry the pending replacement explicitly. Two other things are worth knowing before reading the patches. adoption.json records no Uniform Probate Code enactment for Idaho, but §15-1-101 says \"This act shall be known and may be cited as the uniform probate code\", added 1971 ch. 111 — the ULC bill tracker that adoption.json is built from does not reach back to 1971, so it is a false negative here, the opposite of the Pennsylvania UPOAA case. And Idaho enacted no Uniform Health-Care Decisions Act and no Uniform Trust Code: health care runs on the homegrown advance care planning document of title 39 chapter 45, and trusts on the Uniform Probate Code’s article VII in title 15 chapter 7, which is why those two rows differ most from the baseline.",
+     "label": "US — Idaho",
+     "shortLabel": "Idaho"
     },
     {
      "id": "us-il",
@@ -425,7 +537,106 @@
       "jurisdictions/us-il.json"
      ],
      "country": "us",
-     "label": "US — Illinois"
+     "label": "US — Illinois",
+     "shortLabel": "Illinois"
+    },
+    {
+     "id": "us-ia",
+     "name": "Iowa",
+     "short": "IA",
+     "code": "IA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ia.json"
+     ],
+     "country": "us",
+     "note": "Iowa is the jurisdiction in this set that most often makes a legal effect turn on **what the relying party knows, or on a clock**, rather than on the instrument. A health-care agent outranks a court-appointed guardian only while “known to the health care provider to be available and willing” (§144B.6(1)); the holder of the right to control a body forfeits it on a murder charge only once “those charges are known to a third party”, and forfeits it outright by not acting within 24 hours of notification or 40 hours of death (§144C.8); an agent’s authority ends when the agent is “named as having abused the principal in a **founded dependent adult abuse report**” — a confidential administrative finding (§633B.110(2)(e)) — while the same registry is what the court must search before appointing a guardian (§633.564). Elsewhere Iowa is the uniform power of attorney act with a mandatory notary and Alternative A, a conservatorship that **suspends and then reinstates** the agency rather than ending or continuing it (§633B.108(2)), a surrogate who can only co-sign with the physician (§144A.7), the only certification of trust with a remedy for refusing it (§633A.4604(6)), and a $50,000 small-estate route that prices refusal and acceptance alike and obliges the custodian to answer whether the estate qualifies (§633.356).",
+     "label": "US — Iowa",
+     "shortLabel": "Iowa"
+    },
+    {
+     "id": "us-ks",
+     "name": "Kansas",
+     "short": "KS",
+     "code": "KS",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ks.json"
+     ],
+     "country": "us",
+     "note": "Kansas took no uniform power of attorney act and no uniform probate code, but it did something no other state in this set has yet done: it **replaced its whole guardianship law with the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act, and that replacement is already in force** — L. 2025, ch. 40, effective 1 January 2026, with §59-3050 now carrying nothing but its repeal note. Idaho is the other UGCOPAA state here and its enactment does not commence until 2027, so the two sit on opposite sides of the same transition. The new act brings two provisions new to this reference: §59-30,123 obliges a third party to recognise a guardian's authority and then requires anyone who refuses to **report the refusal, with reasons, to the court within 10 days**; and §59-30,108 withholds letters of office until the appointee files evidence of completing an instructional programme, and requires every limitation on their powers to be stated on the letters themselves. Elsewhere Kansas is close to Missouri next door — a near-identical magic-words durability test at §58-652, a bonded refusal-of-letters route at §59-2287 — and, like Missouri, it has no default health-care surrogate at all.",
+     "label": "US — Kansas",
+     "shortLabel": "Kansas"
+    },
+    {
+     "id": "us-ky",
+     "name": "Kentucky",
+     "short": "KY",
+     "code": "KY",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ky.json"
+     ],
+     "country": "us",
+     "note": "Kentucky was added with West Virginia to read four contiguous states against one uniform act. It is the uniform one on execution — a signature suffices and notarisation buys a presumption — and on the acceptance remedy, where it took Section 120 Alternative A and kept the automatic liability for attorney's fees. It deviates in two places that matter to this reference. A court appointment of a conservator or guardian **terminates** the power of attorney by default (§457.100(1)(c)), the reverse of the uniform act's bracketed rule and of Virginia's enactment of it. And Kentucky has **no monetary threshold at all** for dispensing with administration: §395.470 lets the beneficiaries agree an estate of any size out of administration on unanimous written consent, no debts, taxes provided for and a six-week advertisement at the courthouse door. Its guardianship procedure is also the only one here that is a jury trial by default, with the burden of proof on the Commonwealth. One drafting note for anyone citing it: the ULC bill tracker dates the Uniform Power of Attorney Act enactment to 2020, while §457.010's own history says 2018 Ky. Acts ch. 185, effective 14 July 2018.",
+     "label": "US — Kentucky",
+     "shortLabel": "Kentucky"
+    },
+    {
+     "id": "us-la",
+     "name": "Louisiana",
+     "short": "LA",
+     "code": "LA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-la.json"
+     ],
+     "country": "us",
+     "note": "Louisiana is a civil-law jurisdiction. Roles come from the Civil Code and Code of Civil Procedure, with the Revised Statutes for trusts, anatomical gifts, life-sustaining procedures and disposition of remains. Names do not map onto the common-law model: mandate and mandatary rather than power of attorney and agent, interdiction and curator rather than guardianship and conservatorship, and succession rather than probate.",
+     "label": "US — Louisiana",
+     "shortLabel": "Louisiana"
+    },
+    {
+     "id": "us-me",
+     "name": "Maine",
+     "short": "ME",
+     "code": "ME",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-me.json"
+     ],
+     "country": "us",
+     "note": "Maine is the closest state in this set to the uniform baseline: it enacted the Uniform Guardianship, Conservatorship and Other Protective Arrangements Act, the act the us-model baseline follows, and is one of only four states to have done so. Probate law was recodified from Title 18-A to Title 18-C effective 2019, so section numbers in older references are stale.",
+     "label": "US — Maine",
+     "shortLabel": "Maine"
+    },
+    {
+     "id": "us-md",
+     "name": "Maryland",
+     "short": "MD",
+     "code": "MD",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-md.json"
+     ],
+     "country": "us",
+     "note": "Maryland is on the uniform acts for trusts, digital assets and anatomical gifts and on none of them for powers of attorney, probate or guardianship, and it is the state where the formality of an instrument depends entirely on which instrument it is. A financial power of attorney needs a notary, two witnesses and, if executed remotely, a supervising attorney who certifies what they saw; a health care agent can be appointed by a dated video file with no witnesses, or by speaking in front of a clinician. Two more Maryland particulars matter to this data: the small estate is a simplified administration with letters issued by the register of wills, not a collection by affidavit as in every other US jurisdiction here, and the certification that starts a health care agent's authority requires an examination within the previous two hours.",
+     "label": "US — Maryland",
+     "shortLabel": "Maryland"
+    },
+    {
+     "id": "us-ma",
+     "name": "Massachusetts",
+     "short": "MA",
+     "code": "MA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ma.json"
+     ],
+     "country": "us",
+     "note": "No state-specific disposition-of-remains role: no Massachusetts statute setting a right-of-disposition priority was found, so none is asserted.",
+     "label": "US — Massachusetts",
+     "shortLabel": "Massachusetts"
     },
     {
      "id": "us-mi",
@@ -437,7 +648,49 @@
       "jurisdictions/us-mi.json"
      ],
      "country": "us",
-     "label": "US — Michigan"
+     "label": "US — Michigan",
+     "shortLabel": "Michigan"
+    },
+    {
+     "id": "us-mo",
+     "name": "Missouri",
+     "short": "MO",
+     "code": "MO",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-mo.json"
+     ],
+     "country": "us",
+     "note": "Missouri took neither the Uniform Power of Attorney Act nor the Uniform Probate Code nor any uniform health-care decisions act, and the result is the most distinctive state in this set. Two things run through it. First, **it answers the relying party's problem with security rather than with duty**: no statute obliges anyone to accept a Missouri power of attorney and none shifts fees on refusal, but §404.719(4) lets the third person demand indemnity against forgery by bond, §456.10-1013(2) lets it require a certification of trust to be acknowledged or guaranteed and signed by every trustee, and the small-estate and refusal-of-letters routes at §§473.097 and 473.090 both require the claimant to post a bond. Second, **formality is loaded onto creation and almost absent from revocation**: §404.705 makes a durable power valid only if it is titled as one, recites one of two capitalised statutory sentences and is acknowledged as if it conveyed land, while §404.850 lets the health-care version be revoked \"in any manner by which the patient is able to communicate\" and §404.717 lets the financial version be terminated orally. Missouri is also the only US jurisdiction here with **no default health-care surrogate** at all.",
+     "label": "US — Missouri",
+     "shortLabel": "Missouri"
+    },
+    {
+     "id": "us-ne",
+     "name": "Nebraska",
+     "short": "NE",
+     "code": "NE",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ne.json"
+     ],
+     "country": "us",
+     "note": "Nebraska is the most uniform-law state in this set — the probate code, the power of attorney act, the trust code, the digital-assets act and the anatomical gift act are all the uniform texts, and its trust-code catchlines even print the uniform section numbers. That makes its two departures unusually legible. It **kept the rule the Uniform Power of Attorney Act was written to abolish**: §30-4008(2) gives a court-appointed conservator the principal's own power to revoke or amend the power of attorney, which the official comment to uniform §108 identifies as the pre-2006 position the section departs from. And it **omitted Section 1013**, so Nebraska is the only Uniform Trust Code state here whose successor trustee has no statutory certification of trust to produce. Against those, §30-4020 builds the strongest duty to accept a power of attorney in this data, adding prohibited grounds for refusal and a liability rule equating refusal of the agent with refusal of the principal; and the 2018 Health Care Surrogacy Act lets a person appoint a surrogate merely by telling their clinician. The adoption tracker records no Uniform Probate Code enactment for Nebraska, which is a false negative of the Idaho kind — §30-2601 calls it the Nebraska Probate Code.",
+     "label": "US — Nebraska",
+     "shortLabel": "Nebraska"
+    },
+    {
+     "id": "us-nj",
+     "name": "New Jersey",
+     "short": "NJ",
+     "code": "NJ",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-nj.json"
+     ],
+     "country": "us",
+     "label": "US — New Jersey",
+     "shortLabel": "New Jersey"
     },
     {
      "id": "us-ny",
@@ -449,7 +702,8 @@
       "jurisdictions/us-ny.json"
      ],
      "country": "us",
-     "label": "US — New York"
+     "label": "US — New York",
+     "shortLabel": "New York"
     },
     {
      "id": "us-nc",
@@ -461,7 +715,8 @@
       "jurisdictions/us-nc.json"
      ],
      "country": "us",
-     "label": "US — North Carolina"
+     "label": "US — North Carolina",
+     "shortLabel": "North Carolina"
     },
     {
      "id": "us-oh",
@@ -473,7 +728,22 @@
       "jurisdictions/us-oh.json"
      ],
      "country": "us",
-     "label": "US — Ohio"
+     "label": "US — Ohio",
+     "shortLabel": "Ohio"
+    },
+    {
+     "id": "us-ok",
+     "name": "Oklahoma",
+     "short": "OK",
+     "code": "OK",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ok.json"
+     ],
+     "country": "us",
+     "note": "Oklahoma is **not** a Uniform Probate Code state: title 58 is its own Probate Procedure code, descended from the 1910 Revised Laws, and the grant is named for the appointee's capacity — letters testamentary for an executor (§ 58-110), letters of administration for an administrator (§ 58-121), each with a statutory form whose date line still reads “A. D., 19__”. The uniform acts Oklahoma has adopted were layered on top and in unexpected places: the Uniform Power of Attorney Act went into title 58 at § 3001 rather than title 15 with the older power-of-attorney law, and the digital-assets act into the same title at § 3101. Two power-of-attorney regimes now coexist with opposite durability defaults, which § 58-3003 resolves by applying the 2021 act to all powers of attorney bar four carve-outs.\n\nHealth care is the live question. The Oklahoma Health Care Agent Act (§ 63-3111.1, 2022) and the Advance Directive Act govern today, backed by a State Department of Health registry that stores directives and gives named agents access to them (§ 63-3102.1). Enrolled HB 1687 (2026) creates a Uniform Health Care Decisions Act of 2026, repeals the Health Care Agent Act and introduces a default surrogate — and provides that “this act shall become effective July 1, 2027”. It is therefore enacted and not in force, and this file records the law as it stands with the replacement marked pending.\n\nSourcing note: Oklahoma publishes its consolidated statutes only as whole-title PDFs at oklegislature.gov/OK_Statutes/CompleteTitles/, which is what every statute citation here points to and what was read. Those files are a 31 December 2025 snapshot, so nothing enacted in the 2026 session appears in them; the 2026 act is cited to its enrolled bill instead. OSCN, which publishes section-by-section pages, sits behind a Cloudflare Turnstile and was not used.",
+     "label": "US — Oklahoma",
+     "shortLabel": "Oklahoma"
     },
     {
      "id": "us-pa",
@@ -485,7 +755,8 @@
       "jurisdictions/us-pa.json"
      ],
      "country": "us",
-     "label": "US — Pennsylvania"
+     "label": "US — Pennsylvania",
+     "shortLabel": "Pennsylvania"
     },
     {
      "id": "us-tx",
@@ -497,7 +768,36 @@
       "jurisdictions/us-tx.json"
      ],
      "country": "us",
-     "label": "US — Texas"
+     "label": "US — Texas",
+     "shortLabel": "Texas"
+    },
+    {
+     "id": "us-ut",
+     "name": "Utah",
+     "short": "UT",
+     "code": "UT",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ut.json"
+     ],
+     "country": "us",
+     "note": "Utah recodified in three steps, and the section numbers in any older reference are stale. Title 75 remains the Utah Uniform Probate Code (estates, guardianship and conservatorship, and since 2025 a supported decision-making part). Effective 1 September 2024, Laws 2024 ch. 364 created title 75A, “Fiduciaries”, and moved the Uniform Power of Attorney Act into 75A-2 and the digital-assets act into 75A-6; the Advance Health Care Directive Act was renumbered out of 75-2a on the same date. Title 75B, “Trusts”, took the Uniform Trust Code, and old title 75 chapter 7 was repealed outright on 7 May 2025. The anatomical gift act moved again in the 2023 health-code recodification and is now title 26B chapter 8 part 3. On top of that Utah enacted a new Uniform Health Care Decisions Act in 2025 (Laws 2025 ch. 439, title 75A chapter 9), whose transitional section keys the chapter to 1 January 2026; it is the only jurisdiction in this set on a Uniform Health Care Decisions Act of that generation rather than the 1993 act or home-grown law. Existence of a section was confirmed from the legislature's XML for each title rather than from a page load: le.utah.gov renders statutes client-side and answers 200 with a URL-derived <title> for sections that do not exist.",
+     "label": "US — Utah",
+     "shortLabel": "Utah"
+    },
+    {
+     "id": "us-va",
+     "name": "Virginia",
+     "short": "VA",
+     "code": "VA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-va.json"
+     ],
+     "country": "us",
+     "note": "Virginia is the uniform-act neighbour of a non-uniform state, and the contrast is the point of adding it. It took the Uniform Power of Attorney Act with its numbering and its durability default intact where Delaware took the numbering and inverted the default; it repealed its own early digital-assets act and adopted RUFADAA where Delaware kept its own; and it is on the Uniform Trust Code and the Revised Uniform Anatomical Gift Act where Delaware is on neither. Where Virginia is unusual it is unusual about time: a seven-business-day deadline to accept a power of attorney, a finding of incapacity that must be re-certified every 180 days, guardianship review hearings within a year and then every three years, a 60-day wait for the small-estate affidavit, and two sections of the guardianship chapter printed in two versions whose switchover is contingent rather than dated.",
+     "label": "US — Virginia",
+     "shortLabel": "Virginia"
     },
     {
      "id": "us-wa",
@@ -509,7 +809,22 @@
       "jurisdictions/us-wa.json"
      ],
      "country": "us",
-     "label": "US — Washington"
+     "label": "US — Washington",
+     "shortLabel": "Washington"
+    },
+    {
+     "id": "us-wv",
+     "name": "West Virginia",
+     "short": "WV",
+     "code": "WV",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-wv.json"
+     ],
+     "country": "us",
+     "note": "West Virginia was added with Kentucky to test what happens when four contiguous states — Virginia, West Virginia, Maryland and Kentucky — are read against one uniform act, and it turned out to be the most consistently non-standard of them. It is the only one of the four that makes acknowledgement a condition of a power of attorney's validity rather than a presumption of genuineness; the only one that softened Uniform Power of Attorney Act §120's automatic liability for attorney's fees into a judicial discretion; and, with Kentucky, one of two that reversed §108(b)'s bracketed rule so that appointing a conservator terminates the agency by default. Separately, article 44-3A makes the office that supervises estate administration a **county** choice rather than a state one, which is sub-state variation of a kind nothing else in this data records.",
+     "label": "US — West Virginia",
+     "shortLabel": "West Virginia"
     }
    ]
   },
@@ -529,7 +844,8 @@
      ],
      "country": "au",
      "note": "NSW state roles as in force on 2026-09-16; Commonwealth nominee, My Health Record, tax and Privacy Act features are in au-commonwealth.",
-     "label": "Australia — New South Wales"
+     "label": "Australia — New South Wales",
+     "shortLabel": "New South Wales"
     },
     {
      "id": "au-qld",
@@ -541,7 +857,8 @@
      ],
      "country": "au",
      "note": "Queensland state law on enduring documents, statutory health attorneys, QCAT appointments, deceased estates, tissue donation and cremation, as in force on 2026-09-16 (reprints current as at 28 April 2026 for the main Acts). Commonwealth roles are in the au-commonwealth layer.",
-     "label": "Australia — Queensland"
+     "label": "Australia — Queensland",
+     "shortLabel": "Queensland"
     },
     {
      "id": "au-vic",
@@ -553,7 +870,8 @@
      ],
      "country": "au",
      "note": "Victorian state law on substitute and supported decision-making, deceased estates, tissue donation and disposal of remains, as in force on 2026-09-16. Commonwealth roles (Centrelink, My Health Record, ATO, Privacy Act) are in the au-commonwealth layer.",
-     "label": "Australia — Victoria"
+     "label": "Australia — Victoria",
+     "shortLabel": "Victoria"
     }
    ]
   },
@@ -572,7 +890,8 @@
      ],
      "country": "ar",
      "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded.",
-     "label": "Argentina"
+     "label": "Argentina",
+     "shortLabel": "Argentina"
     }
    ]
   },
@@ -591,7 +910,8 @@
      ],
      "country": "br",
      "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here.",
-     "label": "Brazil"
+     "label": "Brazil",
+     "shortLabel": "Brazil"
     }
    ]
   }
@@ -606,7 +926,8 @@
    ],
    "country": "mu",
    "note": "A mixed system: the Code Civil Mauricien supplies succession and adult protection, while the Curatelle Act, Mental Health Care Act and Succession and Wills Act are English-language statutes layered over it — the Mental Health Care Act reaches a patient’s property by having the Ministère Public apply for an ouverture de tutelle under the Code. Succession vests without a grant: the heirs are seised of plein droit. No organ-donation role is recorded: the Human Tissue (Removal, Preservation and Transplant) Act 2006 commences by proclamation and the revised-laws editorial note states that, as at 30 September 2007, only section 16 had come into operation, so the donation regime is enacted but not in force on the face of the published text. Powers of attorney and health-care proxies were not located in the Acts retrieved and are not recorded.",
-   "label": "Mauritius"
+   "label": "Mauritius",
+   "shortLabel": "Mauritius"
   },
   {
    "id": "rw-national",
@@ -617,7 +938,8 @@
    ],
    "country": "rw",
    "note": "Law nº 71/2024 of 26/06/2024 governing persons and family, which carries both adult guardianship (Chapter VII) and succession (Chapter XVII) in one statute and replaces the 2016 law. Published in the trilingual Official Gazette; the English version is quoted here, alongside Kinyarwanda and French. Estate administration runs through a succession council that chooses, supervises and signs off a liquidator, so no role here matches an executor acting alone. Powers of attorney, health-care proxies and organ donation were not found in this Law and are not recorded; they would sit in other legislation not retrieved for this entry.",
-   "label": "Rwanda"
+   "label": "Rwanda",
+   "shortLabel": "Rwanda"
   },
   {
    "id": "za-national",
@@ -628,7 +950,8 @@
    ],
    "country": "za",
    "note": "South African estate administration, curatorship and health decision-making: Administration of Estates Act 66 of 1965, Intestate Succession Act 81 of 1987 and Wills Act 7 of 1953 from the Department of Justice, with the National Health Act 61 of 2003 and Mental Health Care Act 17 of 2002 from the Government Printer. There is no enduring power of attorney: a power of attorney is common law and lapses on the grantor’s incapacity, so the written health mandate under National Health Act s 7 is the only advance appointment recorded here. Two statutory routes run in parallel for property — curatorship under the Administration of Estates Act and an administrator under the Mental Health Care Act. The Mental Health Care Act citations carry no quote because the Government Printer’s scan has a damaged text layer; the sections were read but are not reproduced verbatim.",
-   "label": "South Africa"
+   "label": "South Africa",
+   "shortLabel": "South Africa"
   },
   {
    "id": "cn-national",
@@ -639,7 +962,8 @@
    ],
    "country": "cn",
    "note": "Roles under the Civil Code of the People’s Republic of China, in force 1 January 2021, with the Trust Law, the Personal Information Protection Law, the Mental Health Law and the 2024 Regulations on Human Organ Donation and Transplantation. Mainland China only: Hong Kong and Macau keep their own systems, and Taiwan is outside this file. Text from the NPC National Database of Laws and Regulations.",
-   "label": "China"
+   "label": "China",
+   "shortLabel": "China"
   },
   {
    "id": "in-national",
@@ -650,7 +974,8 @@
    ],
    "country": "in",
    "note": "Central Acts only. Succession in India is religion-dependent: the Indian Succession Act’s probate requirement does not apply to wills made by Muslims or Indian Christians, and property passing by survivorship does not vest in an executor, so intestate heirship (Hindu Succession Act 1956 and uncodified Muslim personal law) is not modelled here. The Guardians and Wards Act 1890 is omitted as it concerns minors. No digital-assets fiduciary statute was found in the Acts retrieved.",
-   "label": "India"
+   "label": "India",
+   "shortLabel": "India"
   },
   {
    "id": "jp-national",
@@ -661,7 +986,8 @@
    ],
    "country": "jp",
    "note": "Civil Code (民法) and the Act on Voluntary Guardianship Contracts (任意後見契約に関する法律), quoted from the Japanese original published by e-Gov. The official English translation stops short of the inheritance book, so the Japanese text is the source here and English role names are descriptive glosses. Japan runs three statutory tiers by degree of impairment — 後見, 保佐, 補助 — which the Code keeps mutually exclusive, alongside a voluntary guardianship contract that only takes effect when the Family Court appoints a supervisor. There is no grant of representation: inheritance commences on death. Health-care proxies, organ donation and disposal of remains sit outside these two statutes and are not recorded.",
-   "label": "Japan"
+   "label": "Japan",
+   "shortLabel": "Japan"
   },
   {
    "id": "sg-national",
@@ -672,7 +998,8 @@
    ],
    "country": "sg",
    "note": "Mental Capacity Act 2008, Probate and Administration Act 1934 and Human Organ Transplant Act 1987, from Singapore Statutes Online. The lasting power of attorney follows the England and Wales model but is stricter at the front: the Act says the power is not created at all unless the instrument is made and registered. Organ donation runs the other way from most of this set — consent is presumed and a registered objection is what blocks removal. Advance medical directives and disposal of remains sit in other statutes not retrieved for this entry.",
-   "label": "Singapore"
+   "label": "Singapore",
+   "shortLabel": "Singapore"
   },
   {
    "id": "kr-national",
@@ -683,7 +1010,8 @@
    ],
    "country": "kr",
    "note": "Civil Act roles only. Korea has no grant of representation: inheritance commences by death and vests in the heir. The 2011 amendment (Act No. 10429) replaced incompetency declarations with a three-tier court guardianship — adult, limited and specific — plus a voluntary guardianship contract. Statutory text is the Korea Legislation Research Institute English translation; the Korean original governs.",
-   "label": "South Korea"
+   "label": "South Korea",
+   "shortLabel": "South Korea"
   },
   {
    "id": "dk-national",
@@ -694,7 +1022,8 @@
    ],
    "country": "dk",
    "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
-   "label": "Denmark"
+   "label": "Denmark",
+   "shortLabel": "Denmark"
   },
   {
    "id": "fi-national",
@@ -705,7 +1034,20 @@
    ],
    "country": "fi",
    "note": "Finnish national law: Laki edunvalvontavaltuutuksesta 648/2007, Laki holhoustoimesta 442/1999, Perintökaari 40/1965, Laki potilaan asemasta ja oikeuksista 785/1992 and Laki 101/2001 on medical use of organs and tissues.",
-   "label": "Finland"
+   "label": "Finland",
+   "shortLabel": "Finland"
+  },
+  {
+   "id": "fr-national",
+   "name": "France",
+   "short": "FR",
+   "files": [
+    "jurisdictions/fr-national.json"
+   ],
+   "country": "fr",
+   "note": "French national law from the Code civil, the Code de la santé publique and Loi n° 78-17 du 6 janvier 1978, retrieved through the official Légifrance API on PISTE and cited to the public Légifrance URL for each article. France is the only jurisdiction in this set with an express statutory regime for the fate of personal data after death: art. 85 of Loi 78-17 lets a person leave binding directives and name someone to execute them, voids terms-of-service clauses that cut across it, and obliges online services to offer users a post-mortem choice; art. 48 separately obliges a controller to tell the person that right exists when it collects their data. Those duties carry no bespoke penalty and need none: art. 16 brings breaches of “la présente loi” within the CNIL's sanction competence, and art. 20 IV reaches an astreinte of 100 000 € a day and a fine of 10 million € or 2 % of worldwide turnover. The enforcement attaches to offering the choice, not to honouring or evidencing a designation. The 2019 implementing decree is the asymmetry worth noting: art. 124 prescribes how an heir proves standing — identity plus an acte de notoriété or livret de famille — and prescribes nothing for the person the deceased designated. No decree establishing the registre unique of general directives, or the CNIL certification of tiers de confiance numérique that art. 85 I provides for, was found; that absence is recorded as unverified rather than asserted.",
+   "label": "France",
+   "shortLabel": "France"
   },
   {
    "id": "de-federal",
@@ -716,7 +1058,20 @@
    ],
    "country": "de",
    "note": "Federal German law: BGB (agency, Betreuung, succession, medical records), TPG (organ donation), SGB I and AO. Burial and disposition of remains are Länder law and are not covered here.",
-   "label": "Germany — federal law"
+   "label": "Germany — federal law",
+   "shortLabel": "federal law"
+  },
+  {
+   "id": "ie-national",
+   "name": "Ireland",
+   "short": "IE",
+   "files": [
+    "jurisdictions/ie-national.json"
+   ],
+   "country": "ie",
+   "note": "Irish law under the Assisted Decision-Making (Capacity) Act 2015, commenced 26 April 2023 by S.I. Nos. 192 and 193 of 2023, together with the Succession Act 1965 and the Human Tissue Act 2024. The 2015 Act abolished wardship prospectively and replaced it with three graded tiers. Sections 61, 62 and 70 were repealed on 26 April 2023 by the 2022 Amendment Act rather than left uncommenced, which is why the commencement orders carve them out.",
+   "label": "Ireland",
+   "shortLabel": "Ireland"
   },
   {
    "id": "it-national",
@@ -727,7 +1082,20 @@
    ],
    "country": "it",
    "note": "Roles under the Codice civile, the 2017 law on informed consent and advance directives, the 1999 organ transplant law and the privacy code as adapted to the GDPR. Text from Normattiva, the official consolidated portal; each citation records the date its wording took effect.",
-   "label": "Italy"
+   "label": "Italy",
+   "shortLabel": "Italy"
+  },
+  {
+   "id": "nl-national",
+   "name": "Netherlands",
+   "short": "NL",
+   "files": [
+    "jurisdictions/nl-national.json"
+   ],
+   "country": "nl",
+   "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
+   "label": "Netherlands",
+   "shortLabel": "Netherlands"
   },
   {
    "id": "es-national",
@@ -738,7 +1106,8 @@
    ],
    "country": "es",
    "note": "Spanish state law: Código Civil as amended by Ley 8/2021 (support measures and preventive powers), Ley 41/2002 (patient autonomy) and Ley 30/1979 (organ donation). Catalonia, Aragón, Navarre, the Basque Country, Galicia and the Balearics have their own civil law of succession, which is not covered here.",
-   "label": "Spain — state law"
+   "label": "Spain — state law",
+   "shortLabel": "state law"
   },
   {
    "id": "se-national",
@@ -749,7 +1118,8 @@
    ],
    "country": "se",
    "note": "Swedish national law: Lag (2017:310) om framtidsfullmakter, Ärvdabalk (1958:637), Föräldrabalk (1949:381) and Lag (1995:831) om transplantation m.m. Who may decide on disposal of the body is not covered: Begravningslag (1990:1144) was searched and no provision assigning that decision was located.",
-   "label": "Sweden"
+   "label": "Sweden",
+   "shortLabel": "Sweden"
   },
   {
    "id": "uk-ew",
@@ -761,7 +1131,8 @@
    ],
    "country": "uk",
    "note": "Capacity, attorney, deputy, succession, disposal of remains and organ donation law for England and Wales, as in force on 2026-09-16. Differences between England and Wales (organ donation) are noted.",
-   "label": "UK — England & Wales"
+   "label": "UK — England & Wales",
+   "shortLabel": "England & Wales"
   },
   {
    "id": "uk-ni",
@@ -773,7 +1144,8 @@
    ],
    "country": "uk",
    "note": "Northern Ireland roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR) are in the uk-national layer.",
-   "label": "UK — Northern Ireland"
+   "label": "UK — Northern Ireland",
+   "shortLabel": "Northern Ireland"
   },
   {
    "id": "uk-sco",
@@ -785,7 +1157,8 @@
    ],
    "country": "uk",
    "note": "Scottish (devolved) roles for incapacity, death and estate administration, as in force on 2026-09-16. UK-wide roles (DWP appointees, UK GDPR, Access to Health Records Act 1990) are in the uk-national layer.",
-   "label": "UK — Scotland"
+   "label": "UK — Scotland",
+   "shortLabel": "Scotland"
   },
   {
    "id": "ca-bc",
@@ -797,7 +1170,8 @@
    ],
    "country": "ca",
    "note": "British Columbia provincial roles for incapacity, death and estate administration: enduring and general powers of attorney, representation agreements, temporary substitute decision makers, committees and statutory property guardians, executors and administrators under WESA, organ donation consent, control of disposition of remains, and access to a deceased person's records. Statutes as consolidated on bclaws.gov.bc.ca, current to 15 September 2026 (Supreme Court Civil Rules current to 8 September 2026). Federal roles (CPP/OAS trustees, CRA, PIPEDA, ULCC) are in ca-federal.",
-   "label": "Canada — British Columbia"
+   "label": "Canada — British Columbia",
+   "shortLabel": "British Columbia"
   },
   {
    "id": "ca-on",
@@ -809,7 +1183,8 @@
    ],
    "country": "ca",
    "note": "Ontario provincial roles for incapacity, death and estates as in force on 2026-09-16 (e-Laws currency date 11 Sept 2026). Federal benefit, tax and privacy roles are in ca-federal.json.",
-   "label": "Canada — Ontario"
+   "label": "Canada — Ontario",
+   "shortLabel": "Ontario"
   },
   {
    "id": "ca-qc",
@@ -821,7 +1196,8 @@
    ],
    "country": "ca",
    "note": "Québec civil-law roles for incapacity, death and liquidation of successions under the Civil Code of Québec (CCQ) and Code of Civil Procedure (CCP), as amended by S.Q. 2020, c. 11 (in force 1 November 2022). Covers protection mandates, ordinary mandates, assistants, temporary representatives, tutors, consent to care, liquidators, organ donation, funeral arrangements and access to a deceased person's information. Consolidated texts were read from the official LégisQuébec PDFs marked 'Updated to April 7 2026'; later amendments, if any, were not checked. Federal roles are in ca-federal.",
-   "label": "Canada — Québec"
+   "label": "Canada — Québec",
+   "shortLabel": "Québec"
   },
   {
    "id": "mx-federal",
@@ -832,7 +1208,8 @@
    ],
    "country": "mx",
    "note": "Código Civil Federal as published by the Cámara de Diputados, last reform DOF 14-11-2025. Mexico is a federation and each state has its own civil code, so succession, capacity and mandate in state matters are governed by state law rather than this one. Organ donation (Ley General de Salud) and disposal of remains are not covered here.",
-   "label": "Mexico — federal law"
+   "label": "Mexico — federal law",
+   "shortLabel": "federal law"
   },
   {
    "id": "us-model",
@@ -844,7 +1221,8 @@
    ],
    "note": "Baseline built from the Uniform Law Commission's model acts (which bind nobody until a state enacts them) plus federal regulations that apply everywhere.",
    "country": "us",
-   "label": "US — uniform/model law + federal"
+   "label": "US — uniform/model law + federal",
+   "shortLabel": "uniform/model law + federal"
   },
   {
    "id": "us-ca",
@@ -856,7 +1234,22 @@
     "jurisdictions/us-ca.json"
    ],
    "country": "us",
-   "label": "US — California"
+   "label": "US — California",
+   "shortLabel": "California"
+  },
+  {
+   "id": "us-de",
+   "name": "Delaware",
+   "short": "DE",
+   "code": "DE",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-de.json"
+   ],
+   "country": "us",
+   "note": "Delaware is the most uniform-act-resistant state in this set on property and succession, and the earliest adopter of the newest uniform act on health care. It has no Uniform Probate Code, no Uniform Trust Code (title 12 chapter 35 is Delaware's own body of trust law), no Uniform Guardianship act beyond the jurisdictional one, and no Revised Uniform Fiduciary Access to Digital Assets Act — yet title 16 chapter 25 is the Uniform Health-Care Decisions Act (2023), in force since 84 Del. Laws c. 467 (2024).\n\nThe digital-assets chapter is the reason to read this file. Delaware legislated in 2014, before RUFADAA existed, and never replaced its act: title 12 chapter 50 is the Fiduciary Access to Digital Assets and Digital Accounts Act, seven sections against the uniform act's eighteen, with no online tool and no designated recipient. Its default is the inverse of RUFADAA's — the fiduciary controls everything unless a governing instrument or court order says otherwise — and § 5004 goes further than any other provision in this set by voiding an end-user licence limitation as against the strong public policy of the State and making a choice-of-law clause unenforceable where it would import a law that enforces one.\n\nTwo power-of-attorney chapters coexist, but unlike Oklahoma's they divide by purpose rather than by vintage: § 49A-103 sends business and commercial powers, powers coupled with an interest, health-care powers and entity proxies to chapter 49, keeping chapter 49A for personal powers. Chapter 49A borrows the uniform act's numbering and reverses its central rule, § 49A-104 making a power durable only if it says so.\n\nSourcing note: delcode.delaware.gov is server-rendered and serves a whole chapter per page, so each citation points at the chapter or subchapter page that carries the section quoted; every URL here was checked to contain its section. Larger chapters are split into subchapters and the chapter page is then a few hundred characters of navigation, which is the tell.",
+   "label": "US — Delaware",
+   "shortLabel": "Delaware"
   },
   {
    "id": "us-fl",
@@ -868,7 +1261,22 @@
     "jurisdictions/us-fl.json"
    ],
    "country": "us",
-   "label": "US — Florida"
+   "label": "US — Florida",
+   "shortLabel": "Florida"
+  },
+  {
+   "id": "us-id",
+   "name": "Idaho",
+   "short": "ID",
+   "code": "ID",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-id.json"
+   ],
+   "country": "us",
+   "note": "Idaho is the first jurisdiction in this set with a live/pending split: title 15 chapter 5 carries two regimes in parallel, the existing protective-proceedings law \"[EFFECTIVE UNTIL JANUARY 1, 2027]\" and the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act \"[EFFECTIVE JANUARY 1, 2027]\", enacted by S 1240 (2026, ch. 79). The guardian and conservator rows record the law in force and carry the pending replacement explicitly. Two other things are worth knowing before reading the patches. adoption.json records no Uniform Probate Code enactment for Idaho, but §15-1-101 says \"This act shall be known and may be cited as the uniform probate code\", added 1971 ch. 111 — the ULC bill tracker that adoption.json is built from does not reach back to 1971, so it is a false negative here, the opposite of the Pennsylvania UPOAA case. And Idaho enacted no Uniform Health-Care Decisions Act and no Uniform Trust Code: health care runs on the homegrown advance care planning document of title 39 chapter 45, and trusts on the Uniform Probate Code’s article VII in title 15 chapter 7, which is why those two rows differ most from the baseline.",
+   "label": "US — Idaho",
+   "shortLabel": "Idaho"
   },
   {
    "id": "us-il",
@@ -880,7 +1288,106 @@
     "jurisdictions/us-il.json"
    ],
    "country": "us",
-   "label": "US — Illinois"
+   "label": "US — Illinois",
+   "shortLabel": "Illinois"
+  },
+  {
+   "id": "us-ia",
+   "name": "Iowa",
+   "short": "IA",
+   "code": "IA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ia.json"
+   ],
+   "country": "us",
+   "note": "Iowa is the jurisdiction in this set that most often makes a legal effect turn on **what the relying party knows, or on a clock**, rather than on the instrument. A health-care agent outranks a court-appointed guardian only while “known to the health care provider to be available and willing” (§144B.6(1)); the holder of the right to control a body forfeits it on a murder charge only once “those charges are known to a third party”, and forfeits it outright by not acting within 24 hours of notification or 40 hours of death (§144C.8); an agent’s authority ends when the agent is “named as having abused the principal in a **founded dependent adult abuse report**” — a confidential administrative finding (§633B.110(2)(e)) — while the same registry is what the court must search before appointing a guardian (§633.564). Elsewhere Iowa is the uniform power of attorney act with a mandatory notary and Alternative A, a conservatorship that **suspends and then reinstates** the agency rather than ending or continuing it (§633B.108(2)), a surrogate who can only co-sign with the physician (§144A.7), the only certification of trust with a remedy for refusing it (§633A.4604(6)), and a $50,000 small-estate route that prices refusal and acceptance alike and obliges the custodian to answer whether the estate qualifies (§633.356).",
+   "label": "US — Iowa",
+   "shortLabel": "Iowa"
+  },
+  {
+   "id": "us-ks",
+   "name": "Kansas",
+   "short": "KS",
+   "code": "KS",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ks.json"
+   ],
+   "country": "us",
+   "note": "Kansas took no uniform power of attorney act and no uniform probate code, but it did something no other state in this set has yet done: it **replaced its whole guardianship law with the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act, and that replacement is already in force** — L. 2025, ch. 40, effective 1 January 2026, with §59-3050 now carrying nothing but its repeal note. Idaho is the other UGCOPAA state here and its enactment does not commence until 2027, so the two sit on opposite sides of the same transition. The new act brings two provisions new to this reference: §59-30,123 obliges a third party to recognise a guardian's authority and then requires anyone who refuses to **report the refusal, with reasons, to the court within 10 days**; and §59-30,108 withholds letters of office until the appointee files evidence of completing an instructional programme, and requires every limitation on their powers to be stated on the letters themselves. Elsewhere Kansas is close to Missouri next door — a near-identical magic-words durability test at §58-652, a bonded refusal-of-letters route at §59-2287 — and, like Missouri, it has no default health-care surrogate at all.",
+   "label": "US — Kansas",
+   "shortLabel": "Kansas"
+  },
+  {
+   "id": "us-ky",
+   "name": "Kentucky",
+   "short": "KY",
+   "code": "KY",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ky.json"
+   ],
+   "country": "us",
+   "note": "Kentucky was added with West Virginia to read four contiguous states against one uniform act. It is the uniform one on execution — a signature suffices and notarisation buys a presumption — and on the acceptance remedy, where it took Section 120 Alternative A and kept the automatic liability for attorney's fees. It deviates in two places that matter to this reference. A court appointment of a conservator or guardian **terminates** the power of attorney by default (§457.100(1)(c)), the reverse of the uniform act's bracketed rule and of Virginia's enactment of it. And Kentucky has **no monetary threshold at all** for dispensing with administration: §395.470 lets the beneficiaries agree an estate of any size out of administration on unanimous written consent, no debts, taxes provided for and a six-week advertisement at the courthouse door. Its guardianship procedure is also the only one here that is a jury trial by default, with the burden of proof on the Commonwealth. One drafting note for anyone citing it: the ULC bill tracker dates the Uniform Power of Attorney Act enactment to 2020, while §457.010's own history says 2018 Ky. Acts ch. 185, effective 14 July 2018.",
+   "label": "US — Kentucky",
+   "shortLabel": "Kentucky"
+  },
+  {
+   "id": "us-la",
+   "name": "Louisiana",
+   "short": "LA",
+   "code": "LA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-la.json"
+   ],
+   "country": "us",
+   "note": "Louisiana is a civil-law jurisdiction. Roles come from the Civil Code and Code of Civil Procedure, with the Revised Statutes for trusts, anatomical gifts, life-sustaining procedures and disposition of remains. Names do not map onto the common-law model: mandate and mandatary rather than power of attorney and agent, interdiction and curator rather than guardianship and conservatorship, and succession rather than probate.",
+   "label": "US — Louisiana",
+   "shortLabel": "Louisiana"
+  },
+  {
+   "id": "us-me",
+   "name": "Maine",
+   "short": "ME",
+   "code": "ME",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-me.json"
+   ],
+   "country": "us",
+   "note": "Maine is the closest state in this set to the uniform baseline: it enacted the Uniform Guardianship, Conservatorship and Other Protective Arrangements Act, the act the us-model baseline follows, and is one of only four states to have done so. Probate law was recodified from Title 18-A to Title 18-C effective 2019, so section numbers in older references are stale.",
+   "label": "US — Maine",
+   "shortLabel": "Maine"
+  },
+  {
+   "id": "us-md",
+   "name": "Maryland",
+   "short": "MD",
+   "code": "MD",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-md.json"
+   ],
+   "country": "us",
+   "note": "Maryland is on the uniform acts for trusts, digital assets and anatomical gifts and on none of them for powers of attorney, probate or guardianship, and it is the state where the formality of an instrument depends entirely on which instrument it is. A financial power of attorney needs a notary, two witnesses and, if executed remotely, a supervising attorney who certifies what they saw; a health care agent can be appointed by a dated video file with no witnesses, or by speaking in front of a clinician. Two more Maryland particulars matter to this data: the small estate is a simplified administration with letters issued by the register of wills, not a collection by affidavit as in every other US jurisdiction here, and the certification that starts a health care agent's authority requires an examination within the previous two hours.",
+   "label": "US — Maryland",
+   "shortLabel": "Maryland"
+  },
+  {
+   "id": "us-ma",
+   "name": "Massachusetts",
+   "short": "MA",
+   "code": "MA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ma.json"
+   ],
+   "country": "us",
+   "note": "No state-specific disposition-of-remains role: no Massachusetts statute setting a right-of-disposition priority was found, so none is asserted.",
+   "label": "US — Massachusetts",
+   "shortLabel": "Massachusetts"
   },
   {
    "id": "us-mi",
@@ -892,7 +1399,49 @@
     "jurisdictions/us-mi.json"
    ],
    "country": "us",
-   "label": "US — Michigan"
+   "label": "US — Michigan",
+   "shortLabel": "Michigan"
+  },
+  {
+   "id": "us-mo",
+   "name": "Missouri",
+   "short": "MO",
+   "code": "MO",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-mo.json"
+   ],
+   "country": "us",
+   "note": "Missouri took neither the Uniform Power of Attorney Act nor the Uniform Probate Code nor any uniform health-care decisions act, and the result is the most distinctive state in this set. Two things run through it. First, **it answers the relying party's problem with security rather than with duty**: no statute obliges anyone to accept a Missouri power of attorney and none shifts fees on refusal, but §404.719(4) lets the third person demand indemnity against forgery by bond, §456.10-1013(2) lets it require a certification of trust to be acknowledged or guaranteed and signed by every trustee, and the small-estate and refusal-of-letters routes at §§473.097 and 473.090 both require the claimant to post a bond. Second, **formality is loaded onto creation and almost absent from revocation**: §404.705 makes a durable power valid only if it is titled as one, recites one of two capitalised statutory sentences and is acknowledged as if it conveyed land, while §404.850 lets the health-care version be revoked \"in any manner by which the patient is able to communicate\" and §404.717 lets the financial version be terminated orally. Missouri is also the only US jurisdiction here with **no default health-care surrogate** at all.",
+   "label": "US — Missouri",
+   "shortLabel": "Missouri"
+  },
+  {
+   "id": "us-ne",
+   "name": "Nebraska",
+   "short": "NE",
+   "code": "NE",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ne.json"
+   ],
+   "country": "us",
+   "note": "Nebraska is the most uniform-law state in this set — the probate code, the power of attorney act, the trust code, the digital-assets act and the anatomical gift act are all the uniform texts, and its trust-code catchlines even print the uniform section numbers. That makes its two departures unusually legible. It **kept the rule the Uniform Power of Attorney Act was written to abolish**: §30-4008(2) gives a court-appointed conservator the principal's own power to revoke or amend the power of attorney, which the official comment to uniform §108 identifies as the pre-2006 position the section departs from. And it **omitted Section 1013**, so Nebraska is the only Uniform Trust Code state here whose successor trustee has no statutory certification of trust to produce. Against those, §30-4020 builds the strongest duty to accept a power of attorney in this data, adding prohibited grounds for refusal and a liability rule equating refusal of the agent with refusal of the principal; and the 2018 Health Care Surrogacy Act lets a person appoint a surrogate merely by telling their clinician. The adoption tracker records no Uniform Probate Code enactment for Nebraska, which is a false negative of the Idaho kind — §30-2601 calls it the Nebraska Probate Code.",
+   "label": "US — Nebraska",
+   "shortLabel": "Nebraska"
+  },
+  {
+   "id": "us-nj",
+   "name": "New Jersey",
+   "short": "NJ",
+   "code": "NJ",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-nj.json"
+   ],
+   "country": "us",
+   "label": "US — New Jersey",
+   "shortLabel": "New Jersey"
   },
   {
    "id": "us-ny",
@@ -904,7 +1453,8 @@
     "jurisdictions/us-ny.json"
    ],
    "country": "us",
-   "label": "US — New York"
+   "label": "US — New York",
+   "shortLabel": "New York"
   },
   {
    "id": "us-nc",
@@ -916,7 +1466,8 @@
     "jurisdictions/us-nc.json"
    ],
    "country": "us",
-   "label": "US — North Carolina"
+   "label": "US — North Carolina",
+   "shortLabel": "North Carolina"
   },
   {
    "id": "us-oh",
@@ -928,7 +1479,22 @@
     "jurisdictions/us-oh.json"
    ],
    "country": "us",
-   "label": "US — Ohio"
+   "label": "US — Ohio",
+   "shortLabel": "Ohio"
+  },
+  {
+   "id": "us-ok",
+   "name": "Oklahoma",
+   "short": "OK",
+   "code": "OK",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ok.json"
+   ],
+   "country": "us",
+   "note": "Oklahoma is **not** a Uniform Probate Code state: title 58 is its own Probate Procedure code, descended from the 1910 Revised Laws, and the grant is named for the appointee's capacity — letters testamentary for an executor (§ 58-110), letters of administration for an administrator (§ 58-121), each with a statutory form whose date line still reads “A. D., 19__”. The uniform acts Oklahoma has adopted were layered on top and in unexpected places: the Uniform Power of Attorney Act went into title 58 at § 3001 rather than title 15 with the older power-of-attorney law, and the digital-assets act into the same title at § 3101. Two power-of-attorney regimes now coexist with opposite durability defaults, which § 58-3003 resolves by applying the 2021 act to all powers of attorney bar four carve-outs.\n\nHealth care is the live question. The Oklahoma Health Care Agent Act (§ 63-3111.1, 2022) and the Advance Directive Act govern today, backed by a State Department of Health registry that stores directives and gives named agents access to them (§ 63-3102.1). Enrolled HB 1687 (2026) creates a Uniform Health Care Decisions Act of 2026, repeals the Health Care Agent Act and introduces a default surrogate — and provides that “this act shall become effective July 1, 2027”. It is therefore enacted and not in force, and this file records the law as it stands with the replacement marked pending.\n\nSourcing note: Oklahoma publishes its consolidated statutes only as whole-title PDFs at oklegislature.gov/OK_Statutes/CompleteTitles/, which is what every statute citation here points to and what was read. Those files are a 31 December 2025 snapshot, so nothing enacted in the 2026 session appears in them; the 2026 act is cited to its enrolled bill instead. OSCN, which publishes section-by-section pages, sits behind a Cloudflare Turnstile and was not used.",
+   "label": "US — Oklahoma",
+   "shortLabel": "Oklahoma"
   },
   {
    "id": "us-pa",
@@ -940,7 +1506,8 @@
     "jurisdictions/us-pa.json"
    ],
    "country": "us",
-   "label": "US — Pennsylvania"
+   "label": "US — Pennsylvania",
+   "shortLabel": "Pennsylvania"
   },
   {
    "id": "us-tx",
@@ -952,7 +1519,36 @@
     "jurisdictions/us-tx.json"
    ],
    "country": "us",
-   "label": "US — Texas"
+   "label": "US — Texas",
+   "shortLabel": "Texas"
+  },
+  {
+   "id": "us-ut",
+   "name": "Utah",
+   "short": "UT",
+   "code": "UT",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ut.json"
+   ],
+   "country": "us",
+   "note": "Utah recodified in three steps, and the section numbers in any older reference are stale. Title 75 remains the Utah Uniform Probate Code (estates, guardianship and conservatorship, and since 2025 a supported decision-making part). Effective 1 September 2024, Laws 2024 ch. 364 created title 75A, “Fiduciaries”, and moved the Uniform Power of Attorney Act into 75A-2 and the digital-assets act into 75A-6; the Advance Health Care Directive Act was renumbered out of 75-2a on the same date. Title 75B, “Trusts”, took the Uniform Trust Code, and old title 75 chapter 7 was repealed outright on 7 May 2025. The anatomical gift act moved again in the 2023 health-code recodification and is now title 26B chapter 8 part 3. On top of that Utah enacted a new Uniform Health Care Decisions Act in 2025 (Laws 2025 ch. 439, title 75A chapter 9), whose transitional section keys the chapter to 1 January 2026; it is the only jurisdiction in this set on a Uniform Health Care Decisions Act of that generation rather than the 1993 act or home-grown law. Existence of a section was confirmed from the legislature's XML for each title rather than from a page load: le.utah.gov renders statutes client-side and answers 200 with a URL-derived <title> for sections that do not exist.",
+   "label": "US — Utah",
+   "shortLabel": "Utah"
+  },
+  {
+   "id": "us-va",
+   "name": "Virginia",
+   "short": "VA",
+   "code": "VA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-va.json"
+   ],
+   "country": "us",
+   "note": "Virginia is the uniform-act neighbour of a non-uniform state, and the contrast is the point of adding it. It took the Uniform Power of Attorney Act with its numbering and its durability default intact where Delaware took the numbering and inverted the default; it repealed its own early digital-assets act and adopted RUFADAA where Delaware kept its own; and it is on the Uniform Trust Code and the Revised Uniform Anatomical Gift Act where Delaware is on neither. Where Virginia is unusual it is unusual about time: a seven-business-day deadline to accept a power of attorney, a finding of incapacity that must be re-certified every 180 days, guardianship review hearings within a year and then every three years, a 60-day wait for the small-estate affidavit, and two sections of the guardianship chapter printed in two versions whose switchover is contingent rather than dated.",
+   "label": "US — Virginia",
+   "shortLabel": "Virginia"
   },
   {
    "id": "us-wa",
@@ -964,7 +1560,22 @@
     "jurisdictions/us-wa.json"
    ],
    "country": "us",
-   "label": "US — Washington"
+   "label": "US — Washington",
+   "shortLabel": "Washington"
+  },
+  {
+   "id": "us-wv",
+   "name": "West Virginia",
+   "short": "WV",
+   "code": "WV",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-wv.json"
+   ],
+   "country": "us",
+   "note": "West Virginia was added with Kentucky to test what happens when four contiguous states — Virginia, West Virginia, Maryland and Kentucky — are read against one uniform act, and it turned out to be the most consistently non-standard of them. It is the only one of the four that makes acknowledgement a condition of a power of attorney's validity rather than a presumption of genuineness; the only one that softened Uniform Power of Attorney Act §120's automatic liability for attorney's fees into a judicial discretion; and, with Kentucky, one of two that reversed §108(b)'s bracketed rule so that appointing a conservator terminates the agency by default. Separately, article 44-3A makes the office that supervises estate administration a **county** choice rather than a state one, which is sub-state variation of a kind nothing else in this data records.",
+   "label": "US — West Virginia",
+   "shortLabel": "West Virginia"
   },
   {
    "id": "au-nsw",
@@ -976,7 +1587,8 @@
    ],
    "country": "au",
    "note": "NSW state roles as in force on 2026-09-16; Commonwealth nominee, My Health Record, tax and Privacy Act features are in au-commonwealth.",
-   "label": "Australia — New South Wales"
+   "label": "Australia — New South Wales",
+   "shortLabel": "New South Wales"
   },
   {
    "id": "au-qld",
@@ -988,7 +1600,8 @@
    ],
    "country": "au",
    "note": "Queensland state law on enduring documents, statutory health attorneys, QCAT appointments, deceased estates, tissue donation and cremation, as in force on 2026-09-16 (reprints current as at 28 April 2026 for the main Acts). Commonwealth roles are in the au-commonwealth layer.",
-   "label": "Australia — Queensland"
+   "label": "Australia — Queensland",
+   "shortLabel": "Queensland"
   },
   {
    "id": "au-vic",
@@ -1000,7 +1613,8 @@
    ],
    "country": "au",
    "note": "Victorian state law on substitute and supported decision-making, deceased estates, tissue donation and disposal of remains, as in force on 2026-09-16. Commonwealth roles (Centrelink, My Health Record, ATO, Privacy Act) are in the au-commonwealth layer.",
-   "label": "Australia — Victoria"
+   "label": "Australia — Victoria",
+   "shortLabel": "Victoria"
   },
   {
    "id": "ar-national",
@@ -1011,7 +1625,8 @@
    ],
    "country": "ar",
    "note": "Roles from the Código Civil y Comercial de la Nación (Ley 26.994). Argentina answers impaired capacity with support measures first and curatorship only for incapacity, and has no durable financial power: the mandate ends on the incapacity of either party, while health directives may be made expressly in anticipation of incapacity. Succession vests without a grant. The separate transplant statute (Ley 27.447) was not retrieved, so only the Code’s body-donation rule is recorded.",
-   "label": "Argentina"
+   "label": "Argentina",
+   "shortLabel": "Argentina"
   },
   {
    "id": "br-national",
@@ -1022,7 +1637,8 @@
    ],
    "country": "br",
    "note": "Brazilian federal law: Código Civil (Lei nº 10.406/2002) as consolidated by the Presidência da República, including the changes made by the Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015). Organ donation under Lei nº 9.434/1997 and the disposal of remains are not covered here.",
-   "label": "Brazil"
+   "label": "Brazil",
+   "shortLabel": "Brazil"
   }
  ],
  "adoption": "adoption.json",

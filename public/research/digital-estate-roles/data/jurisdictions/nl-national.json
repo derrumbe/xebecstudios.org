@@ -1,0 +1,1099 @@
+{
+ "jurisdiction": "nl-national",
+ "name": "Netherlands",
+ "country": "nl",
+ "legalSystem": "civil law",
+ "note": "Dutch national law from the Burgerlijk Wetboek (Books 1, 3, 4 and 7) and the Wet op de orgaandonatie, as in force on the dates shown by wetten.overheid.nl. Adult protection is split three ways rather than unified: curatele reaches person and property, beschermingsbewind only property, mentorschap only interests of a non-property nature, so one person may be under two measures with different holders.",
+ "citations": [
+  {
+   "id": "nl-bw1-378",
+   "cite": "Burgerlijk Wetboek Boek 1, art. 1:378",
+   "title": "Ondercuratelestelling",
+   "url": "https://wetten.overheid.nl/BWBR0002656",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Een meerderjarige kan door de kantonrechter onder curatele worden gesteld, wanneer hij tijdelijk of duurzaam zijn belangen niet behoorlijk waarneemt of zijn veiligheid of die van anderen in gevaar brengt, als gevolg van a. zijn lichamelijke of geestelijke toestand, dan wel b. gewoonte van drank- of drugsmisbruik, en een voldoende behartiging van die belangen niet met een meer passende en minder verstrekkende voorziening kan worden bewerkstelligd."
+  },
+  {
+   "id": "nl-bw1-431",
+   "cite": "Burgerlijk Wetboek Boek 1, art. 1:431",
+   "title": "Onderbewindstelling ter bescherming van meerderjarigen",
+   "url": "https://wetten.overheid.nl/BWBR0002656",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "De kantonrechter kan een bewind instellen over één of meer van de goederen die een meerderjarige als rechthebbende toebehoren of zullen toebehoren a. voor een bepaalde of onbepaalde tijdsduur indien de meerderjarige tijdelijk of duurzaam niet in staat is ten volle zijn vermogensrechtelijke belangen behoorlijk waar te nemen als gevolg van zijn lichamelijke of geestelijke toestand"
+  },
+  {
+   "id": "nl-bw1-450",
+   "cite": "Burgerlijk Wetboek Boek 1, art. 1:450",
+   "title": "Mentorschap ten behoeve van meerderjarigen",
+   "url": "https://wetten.overheid.nl/BWBR0002656",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Indien een meerderjarige als gevolg van zijn geestelijke of lichamelijke toestand tijdelijk of duurzaam niet in staat is of bemoeilijkt wordt zijn belangen van niet-vermogensrechtelijke aard zelf behoorlijk waar te nemen, kan de kantonrechter te zijnen behoeve een mentorschap instellen."
+  },
+  {
+   "id": "nl-bw3-60",
+   "cite": "Burgerlijk Wetboek Boek 3, art. 3:60",
+   "title": "Volmacht",
+   "url": "https://wetten.overheid.nl/BWBR0005291",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Volmacht is de bevoegdheid die een volmachtgever verleent aan een ander, de gevolmachtigde, om in zijn naam rechtshandelingen te verrichten."
+  },
+  {
+   "id": "nl-bw3-72",
+   "cite": "Burgerlijk Wetboek Boek 3, art. 3:72",
+   "title": "Einde van de volmacht",
+   "url": "https://wetten.overheid.nl/BWBR0005291",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Een volmacht eindigt: a. door de dood, de ondercuratelestelling, het faillissement van de volmachtgever of het ten aanzien van hem van toepassing verklaren van de schuldsaneringsregeling natuurlijke personen; b. door de dood, de ondercuratelestelling, het faillissement van de gevolmachtigde ... tenzij anders is bepaald; c. door herroeping door de volmachtgever"
+  },
+  {
+   "id": "nl-bw4-182",
+   "cite": "Burgerlijk Wetboek Boek 4, art. 4:182",
+   "title": "Saisine",
+   "url": "https://wetten.overheid.nl/BWBR0002761",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Met het overlijden van de erflater volgen zijn erfgenamen van rechtswege op in zijn voor overgang vatbare rechten en in zijn bezit en houderschap. ... Zij worden van rechtswege schuldenaar van de schulden van de erflater die niet met zijn dood tenietgaan."
+  },
+  {
+   "id": "nl-bw4-142",
+   "cite": "Burgerlijk Wetboek Boek 4, art. 4:142",
+   "title": "Benoeming van een executeur",
+   "url": "https://wetten.overheid.nl/BWBR0002761",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Een erflater kan bij uiterste wilsbeschikking een of meer executeurs benoemen. Hij kan aan een executeur de bevoegdheid toekennen een of meer andere executeurs aan zich toe te voegen of in zijn plaats te stellen"
+  },
+  {
+   "id": "nl-bw7-465",
+   "cite": "Burgerlijk Wetboek Boek 7, art. 7:465",
+   "title": "Vertegenwoordiging van de patiënt (WGBO)",
+   "url": "https://wetten.overheid.nl/BWBR0005290",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Indien een meerderjarige patiënt die niet in staat kan worden geacht tot een redelijke waardering van zijn belangen ter zake, niet onder curatele staat of ten behoeve van hem niet het mentorschap is ingesteld, worden de verplichtingen ... nagekomen jegens de persoon die daartoe door de patiënt schriftelijk is gemachtigd in zijn plaats op te treden. Ontbreekt zodanige persoon, of treedt deze niet op, dan worden de verplichtingen nagekomen jegens de echtgenoot, de geregistreerde partner of andere levensgezel van de patiënt, tenzij deze persoon dat niet wenst, dan wel, indien ook zodanige persoon ontbreekt, jegens een ouder, kind, broer, zus, grootouder of kleinkind"
+  },
+  {
+   "id": "nl-wod-9",
+   "cite": "Wet op de orgaandonatie, art. 9",
+   "title": "Toestemming of bezwaar",
+   "url": "https://wetten.overheid.nl/BWBR0008066",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Meerderjarigen en minderjarigen van twaalf jaar of ouder, die in staat zijn tot een redelijke waardering van hun belangen ter zake, kunnen toestemming verlenen tot het na hun overlijden verkrijgen van hun organen of weefsels of bepaalde door hen aan te wijzen organen of weefsels, dan wel daartegen bezwaar maken."
+  },
+  {
+   "id": "nl-wod-10",
+   "cite": "Wet op de orgaandonatie, art. 10",
+   "title": "Donorformulier en registratie in het donorregister",
+   "url": "https://wetten.overheid.nl/BWBR0008066",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Bij de toezending van het donorformulier wordt uitdrukkelijk vermeld dat een meerderjarige persoon door of namens wie geen wilsverklaring of wilsbeschikking als bedoeld in artikel 9 is afgelegd en verstrekt, zes weken na het verzenden van een herinnering als bedoeld in artikel 10a, eerste lid, in het donorregister wordt geregistreerd als een persoon die geen bezwaar heeft tegen het na zijn overlijden verkrijgen van zijn organen of weefsels."
+  },
+  {
+   "id": "nl-wod-11",
+   "cite": "Wet op de orgaandonatie, art. 11",
+   "title": "Beslissing overgelaten aan nabestaanden",
+   "url": "https://wetten.overheid.nl/BWBR0008066",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Indien een persoon de beslissing over het verkrijgen van organen of weefsels heeft overgelaten aan zijn nabestaanden, kan na het vaststellen van de dood toestemming voor het verkrijgen van zijn organen of weefsels worden verleend door de echtgenoot, geregistreerde partner of andere levensgezel, dan wel bij afwezigheid of onbereikbaarheid van deze door de onmiddellijk bereikbare meerderjarige bloedverwanten"
+  },
+  {
+   "id": "nl-wod-20",
+   "cite": "Wet op de orgaandonatie, art. 20",
+   "title": "Raadpleging van het donorregister",
+   "url": "https://wetten.overheid.nl/BWBR0008066",
+   "kind": "statute",
+   "retrieved": "2026-09-23",
+   "quote": "Wanneer een gerede kans bestaat dat een persoon binnen afzienbare tijd zal overlijden, maar in ieder geval zo spoedig mogelijk na het vaststellen van de dood, gaat de daartoe in het protocol, bedoeld in artikel 23, aangewezen functionaris na wat ten aanzien van de betrokkene is geregistreerd in het donorregister"
+  }
+ ],
+ "roles": [
+  {
+   "id": "nl-gevolmachtigde",
+   "canonical": "financial-poa-durable",
+   "group": "financial",
+   "name": "Gevolmachtigde",
+   "localNames": [
+    "volmacht",
+    "gevolmachtigde",
+    "levenstestament"
+   ],
+   "summary": "A Dutch mandate is durable by omission. Article 3:72 lists what ends a volmacht — death, curatele, bankruptcy, revocation — and the principal's incapacity is not on the list, so a general mandate simply carries on. That is what makes the levenstestament work without any special enduring instrument.",
+   "lane": {
+    "assigned": {
+     "event": "Principal grants a volmacht, the authority to perform juridical acts in the principal's name; in practice recorded in a notarial levenstestament",
+     "phase": "capable",
+     "citations": [
+      "nl-bw3-60"
+     ]
+    },
+    "starts": {
+     "event": "On grant, unless the deed provides otherwise; no registration and no capacity finding are required",
+     "phase": "capable",
+     "citations": [
+      "nl-bw3-60",
+      "nl-bw3-72"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the principal",
+      "phase": "deceased",
+      "citations": [
+       "nl-bw3-72"
+      ]
+     },
+     {
+      "event": "Principal placed under curatele, or bankruptcy, or revocation by the principal — but not the onset of incapacity by itself",
+      "phase": "incapacitated",
+      "citations": [
+       "nl-bw3-72"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No volmacht"
+     },
+     {
+      "id": "active",
+      "label": "In force"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-vm-grant",
+      "from": "none",
+      "to": "active",
+      "event": "Volmacht granted (art. 3:60)",
+      "citations": [
+       "nl-bw3-60"
+      ]
+     },
+     {
+      "id": "nl-t-vm-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Death, curatele, bankruptcy or revocation (art. 3:72)",
+      "citations": [
+       "nl-bw3-72"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-bw3-60",
+    "nl-bw3-72"
+   ],
+   "nameEn": {
+    "en": "Attorney under a mandate",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "volmacht": {
+     "en": "mandate (power of attorney)",
+     "basis": "descriptive"
+    },
+    "gevolmachtigde": {
+     "en": "attorney, mandatary",
+     "basis": "descriptive"
+    },
+    "levenstestament": {
+     "en": "living will (notarial deed combining a mandate with instructions)",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "nl-curator",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Curator",
+   "localNames": [
+    "curatele",
+    "ondercuratelestelling",
+    "curator"
+   ],
+   "summary": "The heaviest of the three court measures, reaching both person and property, and expressly subsidiary: the kantonrechter may not impose it where a more appropriate and less far-reaching measure would do.",
+   "lane": {
+    "assigned": {
+     "event": "Interested party applies to the kantonrechter for ondercuratelestelling",
+     "phase": "incapacitated",
+     "citations": [
+      "nl-bw1-378"
+     ]
+    },
+    "starts": {
+     "event": "Kantonrechter places the adult under curatele, on finding they cannot properly look after their interests or endanger their own or others' safety, and that no more appropriate, less far-reaching measure suffices",
+     "phase": "incapacitated",
+     "citations": [
+      "nl-bw1-378"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Curatele lifted by the kantonrechter",
+      "phase": "capable",
+      "citations": [
+       "nl-bw1-378"
+      ]
+     },
+     {
+      "event": "Death; the heirs succeed of right",
+      "phase": "deceased",
+      "citations": [
+       "nl-bw4-182"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Under curatele"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-cur-order",
+      "from": "none",
+      "to": "active",
+      "event": "Kantonrechter orders curatele (art. 1:378)",
+      "citations": [
+       "nl-bw1-378"
+      ]
+     },
+     {
+      "id": "nl-t-cur-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Curatele lifted, or death",
+      "citations": [
+       "nl-bw1-378"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-bw1-378"
+   ],
+   "nameEn": {
+    "en": "Curator (full protective measure)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "curatele": {
+     "en": "curatorship",
+     "basis": "descriptive"
+    },
+    "ondercuratelestelling": {
+     "en": "placing under curatorship",
+     "basis": "descriptive"
+    },
+    "curator": {
+     "en": "curator",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "nl-bewindvoerder",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Bewindvoerder",
+   "localNames": [
+    "beschermingsbewind",
+    "onderbewindstelling",
+    "bewindvoerder"
+   ],
+   "summary": "Property only, and it can be placed over particular goods rather than the whole estate, for a fixed or open-ended period. The person keeps every non-property decision.",
+   "lane": {
+    "assigned": {
+     "event": "Application to the kantonrechter for bewind over one or more of the adult's goods",
+     "phase": "incapacitated",
+     "citations": [
+      "nl-bw1-431"
+     ]
+    },
+    "starts": {
+     "event": "Kantonrechter institutes bewind over specified goods, for a fixed or indefinite term, where the adult cannot fully look after their property interests",
+     "phase": "incapacitated",
+     "citations": [
+      "nl-bw1-431"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Bewind terminated by the kantonrechter or on expiry of its term",
+      "phase": "capable",
+      "citations": [
+       "nl-bw1-431"
+      ]
+     },
+     {
+      "event": "Death; the estate passes to the heirs of right",
+      "phase": "deceased",
+      "citations": [
+       "nl-bw4-182"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Goods under bewind"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-bw-order",
+      "from": "none",
+      "to": "active",
+      "event": "Kantonrechter institutes bewind (art. 1:431)",
+      "citations": [
+       "nl-bw1-431"
+      ]
+     },
+     {
+      "id": "nl-t-bw-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Terminated, expired, or death",
+      "citations": [
+       "nl-bw1-431"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-bw1-431"
+   ],
+   "nameEn": {
+    "en": "Property administrator",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "beschermingsbewind": {
+     "en": "protective administration of property",
+     "basis": "descriptive"
+    },
+    "onderbewindstelling": {
+     "en": "placing property under administration",
+     "basis": "descriptive"
+    },
+    "bewindvoerder": {
+     "en": "administrator",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "nl-mentor",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Mentor",
+   "localNames": [
+    "mentorschap",
+    "mentor"
+   ],
+   "summary": "The mirror image of bewind: mentorschap covers interests of a non-property nature only, so care and treatment decisions sit here while money sits with the bewindvoerder.",
+   "lane": {
+    "assigned": {
+     "event": "Application to the kantonrechter for mentorschap",
+     "phase": "incapacitated",
+     "citations": [
+      "nl-bw1-450"
+     ]
+    },
+    "starts": {
+     "event": "Kantonrechter institutes mentorschap where the adult cannot properly look after interests of a non-property nature",
+     "phase": "incapacitated",
+     "citations": [
+      "nl-bw1-450"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Mentorschap terminated by the kantonrechter",
+      "phase": "capable",
+      "citations": [
+       "nl-bw1-450"
+      ]
+     },
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "nl-bw4-182"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Under mentorschap"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-me-order",
+      "from": "none",
+      "to": "active",
+      "event": "Kantonrechter institutes mentorschap (art. 1:450)",
+      "citations": [
+       "nl-bw1-450"
+      ]
+     },
+     {
+      "id": "nl-t-me-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Terminated, or death",
+      "citations": [
+       "nl-bw1-450"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-bw1-450"
+   ],
+   "nameEn": {
+    "en": "Mentor (personal, non-property decisions)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "mentorschap": {
+     "en": "mentorship",
+     "basis": "descriptive"
+    },
+    "mentor": {
+     "en": "mentor",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "nl-schriftelijk-gemachtigde",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "Schriftelijk gemachtigde (WGBO)",
+   "localNames": [
+    "schriftelijk gemachtigde"
+   ],
+   "summary": "A person authorised in writing to stand in the patient's place for treatment decisions. It ranks below a curator or mentor but above the family, and needs only a written authorisation, not a notarial deed.",
+   "lane": {
+    "assigned": {
+     "event": "Patient authorises a person in writing to act in their place",
+     "phase": "capable",
+     "citations": [
+      "nl-bw7-465"
+     ]
+    },
+    "starts": {
+     "event": "When the care provider judges the adult patient incapable of a reasonable appraisal of their interests, and no curatele or mentorschap is in place",
+     "phase": "incapacitated",
+     "citations": [
+      "nl-bw7-465"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Curatele or mentorschap instituted, which displaces the written authorisation",
+      "phase": "incapacitated",
+      "citations": [
+       "nl-bw7-465",
+       "nl-bw1-450"
+      ]
+     },
+     {
+      "event": "Patient regains capacity, or dies",
+      "phase": "deceased",
+      "citations": [
+       "nl-bw7-465"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "None"
+     },
+     {
+      "id": "authorised",
+      "label": "Authorised in writing"
+     },
+     {
+      "id": "active",
+      "label": "Acting for patient"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-wg-auth",
+      "from": "none",
+      "to": "authorised",
+      "event": "Written authorisation given (art. 7:465(3))",
+      "citations": [
+       "nl-bw7-465"
+      ]
+     },
+     {
+      "id": "nl-t-wg-act",
+      "from": "authorised",
+      "to": "active",
+      "event": "Care provider judges the patient incapable and no curatele or mentorschap applies",
+      "citations": [
+       "nl-bw7-465"
+      ]
+     },
+     {
+      "id": "nl-t-wg-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Capacity regained, court measure instituted, or death",
+      "citations": [
+       "nl-bw7-465"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-bw7-465"
+   ],
+   "nameEn": {
+    "en": "Representative authorised in writing",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "schriftelijk gemachtigde": {
+     "en": "person authorised in writing",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "nl-nabestaande-wgbo",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Vertegenwoordiger van rechtswege (WGBO)",
+   "localNames": [
+    "echtgenoot, geregistreerde partner of andere levensgezel",
+    "ouder, kind, broer, zus, grootouder of kleinkind"
+   ],
+   "summary": "Where nobody has been appointed, art. 7:465(3) supplies the representative itself, and lets each candidate decline: the spouse or life companion first, then a parent, child, sibling, grandparent or grandchild.",
+   "lane": {
+    "assigned": {
+     "event": "Status arises by relationship; no appointment or document is needed",
+     "phase": "capable",
+     "citations": [
+      "nl-bw7-465"
+     ]
+    },
+    "starts": {
+     "event": "Patient judged incapable, with no curator, mentor or written authorisee available or willing to act",
+     "phase": "incapacitated",
+     "citations": [
+      "nl-bw7-465"
+     ]
+    },
+    "ends": [
+     {
+      "event": "A higher-ranking representative acts, the person declines, or capacity returns",
+      "phase": "incapacitated",
+      "citations": [
+       "nl-bw7-465"
+      ]
+     },
+     {
+      "event": "Death of the patient",
+      "phase": "deceased",
+      "citations": [
+       "nl-bw4-182"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Not acting"
+     },
+     {
+      "id": "active",
+      "label": "Representing patient"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-nb-act",
+      "from": "none",
+      "to": "active",
+      "event": "No appointed representative available; family member acts (art. 7:465(3))",
+      "citations": [
+       "nl-bw7-465"
+      ]
+     },
+     {
+      "id": "nl-t-nb-end",
+      "from": "active",
+      "to": "ended",
+      "event": "Declines, displaced, capacity returns, or death",
+      "citations": [
+       "nl-bw7-465"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-bw7-465"
+   ],
+   "nameEn": {
+    "en": "Representative by operation of law",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "echtgenoot, geregistreerde partner of andere levensgezel": {
+     "en": "spouse, registered partner or other life companion",
+     "basis": "descriptive"
+    },
+    "ouder, kind, broer, zus, grootouder of kleinkind": {
+     "en": "parent, child, brother, sister, grandparent or grandchild",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "nl-erfgenaam",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Erfgenaam",
+   "localNames": [
+    "erfgenaam",
+    "saisine",
+    "van rechtswege"
+   ],
+   "summary": "Dutch succession is universal and automatic. At the moment of death the heirs step into the deceased's transmissible rights, possession and holdership of right, and become debtors of the debts that survive the death. There is no grant.",
+   "lane": {
+    "assigned": {
+     "event": "Heirship by will or by intestacy",
+     "phase": "capable",
+     "citations": [
+      "nl-bw4-182"
+     ]
+    },
+    "starts": {
+     "event": "At death, of right — no grant, no appointment and no court step",
+     "phase": "deceased",
+     "citations": [
+      "nl-bw4-182"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Estate divided among those entitled",
+      "phase": "closed",
+      "citations": [
+       "nl-bw4-182"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "prospective",
+      "label": "Prospective heir"
+     },
+     {
+      "id": "vested",
+      "label": "Succeeded of right"
+     },
+     {
+      "id": "divided",
+      "label": "Estate divided"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-erf-death",
+      "from": "prospective",
+      "to": "vested",
+      "event": "Death; heirs succeed van rechtswege (art. 4:182)",
+      "citations": [
+       "nl-bw4-182"
+      ]
+     },
+     {
+      "id": "nl-t-erf-divide",
+      "from": "vested",
+      "to": "divided",
+      "event": "Estate divided",
+      "citations": [
+       "nl-bw4-182"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-bw4-182"
+   ],
+   "nameEn": {
+    "en": "Heir",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "erfgenaam": {
+     "en": "heir",
+     "basis": "descriptive"
+    },
+    "saisine": {
+     "en": "saisine (succession of right at death)",
+     "basis": "descriptive"
+    },
+    "van rechtswege": {
+     "en": "by operation of law",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "nl-executeur",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Executeur",
+   "localNames": [
+    "executeur",
+    "uiterste wilsbeschikking"
+   ],
+   "summary": "Appointed only by will, and layered on top of the heirs' automatic succession rather than replacing it. Where there are several, each may act alone unless the testator said otherwise.",
+   "lane": {
+    "assigned": {
+     "event": "Testator appoints one or more executeurs by testamentary disposition",
+     "phase": "capable",
+     "citations": [
+      "nl-bw4-142"
+     ]
+    },
+    "starts": {
+     "event": "On death and acceptance of the office; the heirs have already succeeded of right",
+     "phase": "deceased",
+     "citations": [
+      "nl-bw4-142",
+      "nl-bw4-182"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Administration completed, or the kantonrechter appoints a replacement where a named executeur is lacking",
+      "phase": "closed",
+      "citations": [
+       "nl-bw4-142"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased",
+     "administration"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "named",
+      "label": "Named in will"
+     },
+     {
+      "id": "acting",
+      "label": "Acting"
+     },
+     {
+      "id": "ended",
+      "label": "Ended"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-ex-death",
+      "from": "named",
+      "to": "acting",
+      "event": "Death and acceptance of the office (art. 4:142)",
+      "citations": [
+       "nl-bw4-142"
+      ]
+     },
+     {
+      "id": "nl-t-ex-end",
+      "from": "acting",
+      "to": "ended",
+      "event": "Administration completed or replacement appointed",
+      "citations": [
+       "nl-bw4-142"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-bw4-142",
+    "nl-bw4-182"
+   ],
+   "nameEn": {
+    "en": "Executor",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "executeur": {
+     "en": "executor",
+     "basis": "descriptive"
+    },
+    "uiterste wilsbeschikking": {
+     "en": "testamentary disposition",
+     "basis": "descriptive"
+    }
+   }
+  },
+  {
+   "id": "nl-nabestaande-donatie",
+   "canonical": "anatomical-gift-agent",
+   "group": "health",
+   "name": "Nabestaande (orgaandonatie)",
+   "localNames": [
+    "nabestaanden",
+    "donorregister",
+    "geen bezwaar"
+   ],
+   "summary": "The Netherlands runs an active-registration opt-out: an adult who answers nothing is entered in the donorregister as having no objection six weeks after a reminder. The family decides only where the person expressly left the decision to them.",
+   "lane": {
+    "assigned": {
+     "event": "Person records consent or objection, or leaves the decision to their relatives; silence is registered as 'geen bezwaar' six weeks after a reminder",
+     "phase": "capable",
+     "citations": [
+      "nl-wod-9",
+      "nl-wod-10"
+     ]
+    },
+    "starts": {
+     "event": "On death, where the register records that the decision was left to the relatives: the spouse, registered partner or other life companion, failing whom the immediately reachable adult blood relatives",
+     "phase": "deceased",
+     "citations": [
+      "nl-wod-11",
+      "nl-wod-20"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Consent given or refused after the donorregister has been consulted",
+      "phase": "deceased",
+      "citations": [
+       "nl-wod-20"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "unregistered",
+      "label": "Nothing recorded"
+     },
+     {
+      "id": "no_objection",
+      "label": "Registered 'geen bezwaar'"
+     },
+     {
+      "id": "left_to_family",
+      "label": "Decision left to relatives"
+     },
+     {
+      "id": "resolved",
+      "label": "Decision made"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "nl-t-od-default",
+      "from": "unregistered",
+      "to": "no_objection",
+      "event": "No declaration; registered as having no objection six weeks after a reminder (art. 10)",
+      "citations": [
+       "nl-wod-10"
+      ]
+     },
+     {
+      "id": "nl-t-od-leave",
+      "from": "unregistered",
+      "to": "left_to_family",
+      "event": "Person leaves the decision to their relatives (art. 9)",
+      "citations": [
+       "nl-wod-9"
+      ]
+     },
+     {
+      "id": "nl-t-od-family",
+      "from": "left_to_family",
+      "to": "resolved",
+      "event": "Relatives consent or refuse after death (art. 11)",
+      "citations": [
+       "nl-wod-11"
+      ]
+     },
+     {
+      "id": "nl-t-od-proceed",
+      "from": "no_objection",
+      "to": "resolved",
+      "event": "Register consulted and donation proceeds (art. 20)",
+      "citations": [
+       "nl-wod-20"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "nl-wod-9",
+    "nl-wod-10",
+    "nl-wod-11",
+    "nl-wod-20"
+   ],
+   "nameEn": {
+    "en": "Surviving relative (organ donation)",
+    "basis": "descriptive"
+   },
+   "localNamesEn": {
+    "nabestaanden": {
+     "en": "surviving relatives",
+     "basis": "descriptive"
+    },
+    "donorregister": {
+     "en": "donor register",
+     "basis": "descriptive"
+    },
+    "geen bezwaar": {
+     "en": "no objection",
+     "basis": "descriptive"
+    }
+   }
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": true,
+   "note": "Durable by omission rather than by design: art. 3:72 lists death, ondercuratelestelling, bankruptcy and revocation as the events that end a volmacht, and the principal's loss of capacity is not among them. No special enduring instrument is needed, which is why the notarial levenstestament is built on an ordinary volmacht.",
+   "citations": [
+    "nl-bw3-72"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "Title 3.3 makes a volmacht effective on grant and imposes no registration or court step before use; contrast the court measures in Book 1, which exist only by order of the kantonrechter.",
+   "citations": [
+    "nl-bw3-60",
+    "nl-bw3-72"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity-finding-by-clinician",
+   "note": "Art. 7:465(3) turns on whether the patient 'niet in staat kan worden geacht tot een redelijke waardering van zijn belangen ter zake', a judgement made by the care provider rather than by a court.",
+   "citations": [
+    "nl-bw7-465"
+   ]
+  },
+  "organDonationModel": {
+   "value": "opt-out",
+   "optOutSinceYear": null,
+   "name": "Wet op de orgaandonatie (actieve donorregistratie)",
+   "note": "An adult who files no declaration is entered in the donorregister as having no objection six weeks after a reminder, and the register must be consulted before removal. The commencement year of the active-registration scheme was not read from a primary source and is therefore not asserted here.",
+   "citations": [
+    "nl-wod-10",
+    "nl-wod-20"
+   ]
+  },
+  "probateGrantName": {
+   "value": "none",
+   "note": "There is no grant. Under art. 4:182 the heirs succeed of right at the moment of death, and an executeur, if any, is appointed by will rather than by a court.",
+   "citations": [
+    "nl-bw4-182",
+    "nl-bw4-142"
+   ]
+  }
+ }
+}

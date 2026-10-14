@@ -1,0 +1,412 @@
+{
+ "jurisdiction": "us-nj",
+ "name": "New Jersey",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Trust Code",
+  "Revised Uniform Fiduciary Access to Digital Assets Act",
+  "Revised Uniform Anatomical Gift Act"
+ ],
+ "citations": [
+  {
+   "id": "nj-rs-3B-3-17",
+   "cite": "N.J. Stat. §3B:3-17",
+   "title": "Probate of will and grant of letters",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Probate%20of%20will%20and%20grant%20of%20letters%22&xhitlist_vq=%22Probate%20of%20will%20and%20grant%20of%20letters%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The surrogates of the several counties or the Superior Court may take depositions to wills, admit the same to probate, and grant thereon letters testamentary or letters of administration with the will annexed"
+  },
+  {
+   "id": "nj-rs-3B-10-2",
+   "cite": "N.J. Stat. §3B:10-2",
+   "title": "To whom letters of administration granted",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22To%20whom%20letters%20of%20administration%20granted%22&xhitlist_vq=%22To%20whom%20letters%20of%20administration%20granted%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "administration of the intestate's estate shall be granted to the surviving spouse or domestic partner of the intestate, if he or she will accept the administration ... If the intestate leaves no heirs justly entitled to the administration of his estate, or if his heirs shall not claim the administration within 40 days after the death of the intestate, the Superior Court or surrogate's court may grant letters of administration to any fit person applying therefor"
+  },
+  {
+   "id": "nj-rs-3B-10-3",
+   "cite": "N.J. Stat. §3B:10-3",
+   "title": "When spouse, partner in a civil union, or domestic partner entitled to assets without administration",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22When%20spouse%2C%20partner%20in%20a%20civil%20union%2C%20or%20domestic%20partner%20entitled%20to%20assets%20without%20administration%22&xhitlist_vq=%22When%20spouse%2C%20partner%20in%20a%20civil%20union%2C%20or%20domestic%20partner%20entitled%20to%20assets%20without%20administration%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Where the total value of the real and personal assets of the estate of an intestate will not exceed $50,000, the surviving spouse, partner in a civil union, or domestic partner upon the execution of an affidavit before the Surrogate ... shall be entitled absolutely to all the real and personal assets"
+  },
+  {
+   "id": "nj-rs-3B-10-4",
+   "cite": "N.J. Stat. §3B:10-4",
+   "title": "When heirs entitled to assets without administration",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22When%20heirs%20entitled%20to%20assets%20without%20administration%22&xhitlist_vq=%22When%20heirs%20entitled%20to%20assets%20without%20administration%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Where the total value of the real and personal assets of the estate of an intestate will not exceed $20,000 and the intestate leaves no surviving spouse, partner in a civil union, or domestic partner, and one of his heirs shall have obtained the consent in writing of the remaining heirs"
+  },
+  {
+   "id": "nj-rs-3B-12-24",
+   "cite": "N.J. Stat. §3B:12-24",
+   "title": "Issue of incapacity triable without jury unless jury is demanded",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Issue%20of%20incapacity%20triable%20without%20jury%20unless%20jury%20is%20demanded%22&xhitlist_vq=%22Issue%20of%20incapacity%20triable%20without%20jury%20unless%20jury%20is%20demanded%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "the trial of the issue of incapacity may be had without a jury pursuant to Rules Governing the Courts of the State of New Jersey, unless a trial by jury is demanded by the alleged incapacitated person or someone on his behalf"
+  },
+  {
+   "id": "nj-rs-3B-12-25",
+   "cite": "N.J. Stat. §3B:12-25",
+   "title": "Appointment of guardian",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Appointment%20of%20guardian%22&xhitlist_vq=%22Appointment%20of%20guardian%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "Letters of guardianship shall be granted to the spouse or domestic partner ... if the spouse is living with the incapacitated person ... at the time the incapacitation arose, or to the incapacitated person's heirs, or friends, or thereafter first consideration shall be given to the Office of the Public Guardian for Elderly Adults"
+  },
+  {
+   "id": "nj-rs-3B-13A-1",
+   "cite": "N.J. Stat. §3B:13A-1",
+   "title": "Definitions",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Definitions%22&xhitlist_vq=%22Definitions%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "\"Conservatee\" means a person who has not been adjudicated incapacitated but who by reason of advanced age, illness, or physical infirmity, is unable to care for or manage property"
+  },
+  {
+   "id": "nj-rs-3B-13A-5",
+   "cite": "N.J. Stat. §3B:13A-5",
+   "title": "By whom action for appointment of conservator in behalf of conservatee may be brought",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22By%20whom%20action%20for%20appointment%20of%20conservator%20in%20behalf%20of%20conservatee%20may%20be%20brought%22&xhitlist_vq=%22By%20whom%20action%20for%20appointment%20of%20conservator%20in%20behalf%20of%20conservatee%20may%20be%20brought%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "An action for the appointment of a conservator may be brought by the conservatee as provided in section 3B:13A-2 or in the conservatee's behalf by: a. His spouse; b. His adult children"
+  },
+  {
+   "id": "nj-rs-3B-14-61-4",
+   "cite": "N.J. Stat. §3B:14-61.4",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22User%20direction%20for%20disclosure%20of%20digital%20assets%22&xhitlist_vq=%22User%20direction%20for%20disclosure%20of%20digital%20assets%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record"
+  },
+  {
+   "id": "nj-rs-3B-14-61-15",
+   "cite": "N.J. Stat. §3B:14-61.15",
+   "title": "Fiduciary and designated recipient duty and authority",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Fiduciary%20and%20designated%20recipient%20duty%20and%20authority%22&xhitlist_vq=%22Fiduciary%20and%20designated%20recipient%20duty%20and%20authority%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including: (1) the duty of care; (2) the duty of loyalty; and (3) the duty of confidentiality"
+  },
+  {
+   "id": "nj-rs-3B-31-49",
+   "cite": "N.J. Stat. §3B:31-49",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Vacancy%20in%20trusteeship%3B%20appointment%20of%20successor%22&xhitlist_vq=%22Vacancy%20in%20trusteeship%3B%20appointment%20of%20successor%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A vacancy in a trusteeship of a noncharitable trust that is required to be filled shall be filled in the following order of priority: (1) by a person designated pursuant to the terms of the trust to act as successor trustee"
+  },
+  {
+   "id": "nj-rs-26-2H-58",
+   "cite": "N.J. Stat. §26:2H-58",
+   "title": "Designation of health care representative; limitations",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Designation%20of%20health%20care%20representative%3B%20limitations%22&xhitlist_vq=%22Designation%20of%20health%20care%20representative%3B%20limitations%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A declarant may execute a proxy directive ... designating an adult with mental capacity to act as the declarant's health care representative"
+  },
+  {
+   "id": "nj-rs-26-2H-59",
+   "cite": "N.J. Stat. §26:2H-59",
+   "title": "Conditions under which advance directive becomes operative",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Conditions%20under%20which%20advance%20directive%20becomes%20operative%22&xhitlist_vq=%22Conditions%20under%20which%20advance%20directive%20becomes%20operative%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "An advance directive becomes operative when (1) it is transmitted to the attending physician or to the health care institution, and (2) it is determined pursuant to section 8 of this act that the patient lacks capacity to make a particular health care decision"
+  },
+  {
+   "id": "nj-rs-26-6-80",
+   "cite": "N.J. Stat. §26:6-80",
+   "title": "Anatomical gift by living donor",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Anatomical%20gift%20by%20living%20donor%22&xhitlist_vq=%22Anatomical%20gift%20by%20living%20donor%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "an agent of the donor, unless the advance directive for health care or other record prohibits the agent from making an anatomical gift"
+  },
+  {
+   "id": "nj-rs-45-27-22",
+   "cite": "N.J. Stat. §45:27-22",
+   "title": "Control of funeral, disposition of remains; priority classes",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Control%20of%20funeral%2C%20disposition%20of%20remains%3B%20priority%20classes%22&xhitlist_vq=%22Control%20of%20funeral%2C%20disposition%20of%20remains%3B%20priority%20classes%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "If a decedent, in a will as defined in N.J.S.3B:1-2, appoints a person to control the funeral and disposition of the human remains, the funeral and disposition shall be in accordance with the instructions of the person so appointed. A person so appointed shall not have to be executor of the will."
+  },
+  {
+   "id": "nj-rs-46-2B-8-2",
+   "cite": "N.J. Stat. §46:2B-8.2",
+   "title": "Powers of attorney; durable powers of attorney; disability defined",
+   "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_x=advanced&xhitlist_vpc=first&vid=Publish%3A10.1048%2FEnu&xhitlist_q=%22Powers%20of%20attorney%3B%20durable%20powers%20of%20attorney%3B%20disability%20defined%22&xhitlist_vq=%22Powers%20of%20attorney%3B%20durable%20powers%20of%20attorney%3B%20disability%20defined%22",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A durable power of attorney is a power of attorney which contains the words \"this power of attorney shall not be affected by subsequent disability or incapacity of the principal, or lapse of time,\" or \"this power of attorney shall become effective upon the disability or incapacity of the principal,\" or similar words"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "attorney-in-fact under a durable power of attorney"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a written instrument containing words showing the authority survives disability",
+     "phase": "capable",
+     "citations": [
+      "nj-rs-46-2B-8-2"
+     ]
+    }
+   },
+   "diff": "New Jersey never enacted the Uniform Power of Attorney Act; its Revised Durable Power of Attorney Act runs the default the other way. Durability is opted into, not out of: the instrument must carry words such as 'this power of attorney shall not be affected by subsequent disability or incapacity of the principal, or lapse of time', or similar words showing that intent. Without them the power is not durable, however plainly it was meant to be. New Jersey also defines disability for itself — the principal is under a disability when unable to manage property and affairs effectively — and applies the same test to the attorney-in-fact.",
+   "citations": [
+    "nj-rs-46-2B-8-2"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal's disability or incapacity, which is the default outcome absent durability words",
+      "phase": "incapacitated",
+      "citations": [
+       "nj-rs-46-2B-8-2"
+      ]
+     }
+    ]
+   },
+   "diff": "Non-durable is the New Jersey default rather than the exception. The model treats a power as durable unless the instrument says otherwise, so a non-durable power is a deliberate choice; in New Jersey the silent instrument is the non-durable one, and durability is what has to be written in.",
+   "citations": [
+    "nj-rs-46-2B-8-2"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "lane": {
+    "starts": {
+     "event": "The disability or incapacity named in the instrument occurs; no certifier is designated by statute",
+     "phase": "incapacitated",
+     "citations": [
+      "nj-rs-46-2B-8-2"
+     ]
+    }
+   },
+   "diff": "New Jersey permits a springing power through the same magic-words route — 'this power of attorney shall become effective upon the disability or incapacity of the principal' — but supplies no machinery for deciding that it has sprung. There is no authorised determiner and none of the uniform act's fallbacks of a physician or licensed psychologist, or an attorney, judge or governmental official. The statute gives only a standard, that the principal is unable to manage property and affairs effectively, and leaves the question of who applies it open. Pennsylvania has the same gap.",
+   "citations": [
+    "nj-rs-46-2B-8-2"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care representative"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Declarant executes a proxy directive designating an adult with mental capacity",
+     "phase": "capable",
+     "citations": [
+      "nj-rs-26-2H-58"
+     ]
+    },
+    "starts": {
+     "event": "The directive is transmitted to the attending physician or health care institution AND the patient is determined to lack capacity for the particular decision",
+     "phase": "incapacitated",
+     "citations": [
+      "nj-rs-26-2H-59"
+     ]
+    }
+   },
+   "diff": "Authority turns on two conditions, not one: the advance directive must actually be transmitted to the attending physician or the health care institution, and the patient must be found to lack capacity for the particular decision. An undelivered directive does not operate, which matches Pennsylvania's approach and departs from the model's single capacity trigger. New Jersey adds a further brake the model does not have: no treatment decision may be made or implemented until there has been a reasonable opportunity to establish, and where appropriate confirm, a reliable diagnosis and prognosis. Operators, administrators and employees of the institution where the declarant is being cared for are barred from serving.",
+   "citations": [
+    "nj-rs-26-2H-58",
+    "nj-rs-26-2H-59"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "unverified": true,
+   "diff": "New Jersey appears to have no statutory default health-care surrogate of the kind the model describes. The Advance Directives for Health Care Act provides for a health care representative the individual designates in advance, and a guardian may be appointed by the Superior Court, but no statute was found placing family members in a priority order to consent where neither exists. This is a negative finding and is not itself citable, so it is marked unverified and drawn dashed: the sections cited are the two routes that do exist, not authority for the absence of a third.",
+   "citations": [
+    "nj-rs-26-2H-58",
+    "nj-rs-3B-12-25"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian of the person"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Superior Court determines incapacity and grants letters of guardianship",
+     "phase": "incapacitated",
+     "citations": [
+      "nj-rs-3B-12-25"
+     ]
+    }
+   },
+   "diff": "New Jersey did not enact the uniform guardianship and protective arrangements act, and two features have no model counterpart. Incapacity is triable to a jury: the issue may be tried without one, but only unless a jury is demanded by the alleged incapacitated person or someone on their behalf. And the statute sets its own order for letters — the spouse or domestic partner, but only if living with the incapacitated person when the incapacity arose, then heirs, then friends, and after them first consideration to the Office of the Public Guardian for Elderly Adults, a public office the model does not contemplate.",
+   "citations": [
+    "nj-rs-3B-12-25",
+    "nj-rs-3B-12-24"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Action brought by the conservatee themselves, or on their behalf by a spouse, adult child, concerned person, public agency or institution administrator",
+     "phase": "capable",
+     "citations": [
+      "nj-rs-3B-13A-5"
+     ]
+    },
+    "starts": {
+     "event": "Court appoints a conservator to manage the estate of a conservatee who has not been adjudicated incapacitated",
+     "phase": "capable",
+     "citations": [
+      "nj-rs-3B-13A-1"
+     ]
+    }
+   },
+   "diff": "New Jersey's conservator is not the model's role at all. It exists for a conservatee, defined as a person who has NOT been adjudicated incapacitated but who by reason of advanced age, illness or physical infirmity cannot care for or manage property — so it operates alongside capacity rather than after a finding of its loss, and the conservatee may bring the action themselves. The property fiduciary for someone actually adjudicated incapacitated is a guardian of the estate under 3B:12-25, not a conservator. The model's conservator maps to that guardian; this role is an additional, lighter-touch office with no model equivalent.",
+   "citations": [
+    "nj-rs-3B-13A-1",
+    "nj-rs-3B-13A-5"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor"
+   ],
+   "lane": {
+    "starts": {
+     "event": "The county surrogate, or the Superior Court, admits the will to probate and grants letters testamentary",
+     "phase": "deceased",
+     "citations": [
+      "nj-rs-3B-3-17"
+     ]
+    }
+   },
+   "diff": "Letters testamentary are granted by the county surrogate, an elected county officer, as well as by the Superior Court — so the ordinary route runs through the surrogate rather than a court. New Jersey is not a Uniform Probate Code state: there is no informal and formal split and no 120-hour rule, and the same section covers probate of the will and the grant of letters in one step.",
+   "citations": [
+    "nj-rs-3B-3-17"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Surrogate or Superior Court grants administration to the surviving spouse or domestic partner, then remaining heirs, then any person who will accept it",
+     "phase": "deceased",
+     "citations": [
+      "nj-rs-3B-10-2"
+     ]
+    }
+   },
+   "diff": "The order is shorter and looser than the model's, and turns on willingness rather than entitlement: the surviving spouse or domestic partner if they will accept, then the remaining heirs or any of them if they will accept, then any other person who will accept. There is no creditor class. If the heirs do not claim administration within 40 days of death, or the intestate leaves no heirs justly entitled to it, the court or surrogate may grant letters to any fit person who applies.",
+   "citations": [
+    "nj-rs-3B-10-2"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "affiant before the surrogate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Affidavit executed before the county surrogate or the Superior Court; the threshold and conditions depend on whether a spouse or partner survives",
+     "phase": "deceased",
+     "citations": [
+      "nj-rs-3B-10-3",
+      "nj-rs-3B-10-4"
+     ]
+    }
+   },
+   "diff": "New Jersey splits the small-estate route in two rather than setting one ceiling. Where a surviving spouse, civil union partner or domestic partner exists and the estate does not exceed $50,000, that person takes all the assets absolutely on executing an affidavit before the surrogate. Where there is no such survivor the ceiling drops to $20,000, and an heir must first obtain the written consent of the remaining heirs before the affidavit will carry the assets, held for the benefit of all heirs and creditors and without a bond. Both thresholds count real as well as personal assets, which the model's version does not.",
+   "citations": [
+    "nj-rs-3B-10-3",
+    "nj-rs-3B-10-4"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "differs": false,
+   "diff": "Consistent with the baseline. New Jersey enacted the Uniform Trust Code in 2016 and 3B:31-49 carries section 704: the same vacancy events, including the appointment of a guardian or conservator for an individual trustee, and the same order for a noncharitable trust — the person designated under the terms of the trust, a procedure established by those terms, then the qualified beneficiaries or the court. New Jersey adds only that a vacancy need not be filled while a cotrustee remains unless the trust instrument provides otherwise.",
+   "citations": [
+    "nj-rs-3B-31-49"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "differs": false,
+   "diff": "Consistent with the baseline. 3B:14-61.4 carries RUFADAA's user-direction provision without substantive change: an online-tool direction the user may modify or delete at all times overrides a contrary direction in a will, trust, power of attorney or other record.",
+   "citations": [
+    "nj-rs-3B-14-61-4"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "differs": false,
+   "diff": "Consistent with the baseline. 3B:14-61.15 carries RUFADAA's fiduciary provision: care, loyalty and confidentiality apply to digital assets as to tangible property; authority is bounded by the terms of service, other law including copyright, and the scope of the fiduciary's duties; and it may not be used to impersonate the user.",
+   "citations": [
+    "nj-rs-3B-14-61-15"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "differs": false,
+   "diff": "Consistent with the baseline. New Jersey's revised anatomical gift act keeps the uniform default: the donor's agent may make a gift unless the advance directive for health care or other record prohibits it, so silence leaves the agent able to act — the opposite of Pennsylvania and North Carolina, which require express authority. New Jersey sets its own minor donor age at 14, whether or not the minor is emancipated, which is the lowest among the states covered here, and a gift made by a minor stays valid when they turn 18.",
+   "citations": [
+    "nj-rs-26-6-80"
+   ]
+  },
+  {
+   "role": "nj-funeral-control",
+   "name": "Person appointed to control the funeral and disposition",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "stateSpecific": true,
+   "lane": {
+    "assigned": {
+     "event": "Appointed in the will, or since 2019 in a separate writing before two witnesses on a board-approved form",
+     "phase": "capable",
+     "citations": [
+      "nj-rs-45-27-22"
+     ]
+    },
+    "starts": {
+     "event": "Death; the appointee may act before the will is probated",
+     "phase": "deceased",
+     "citations": [
+      "nj-rs-45-27-22"
+     ]
+    }
+   },
+   "diff": "New Jersey lets a decedent appoint someone to control the funeral and disposition of their remains, and that appointee need not be the executor. The appointment can be acted on before the will is probated, which matters because disposition cannot wait for probate. Since 2019 the appointment may also be made outside a will, in writing before no fewer than two witnesses on a form approved by the board.",
+   "citations": [
+    "nj-rs-45-27-22"
+   ]
+  }
+ ]
+}

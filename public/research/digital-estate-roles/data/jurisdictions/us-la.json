@@ -1,0 +1,433 @@
+{
+ "jurisdiction": "us-la",
+ "name": "Louisiana",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Revised Uniform Anatomical Gift Act"
+ ],
+ "note": "Louisiana is a civil-law jurisdiction. Roles come from the Civil Code and Code of Civil Procedure, with the Revised Statutes for trusts, anatomical gifts, life-sustaining procedures and disposition of remains. Names do not map onto the common-law model: mandate and mandatary rather than power of attorney and agent, interdiction and curator rather than guardianship and conservatorship, and succession rather than probate.",
+ "citations": [
+  {
+   "id": "la-cc-389",
+   "cite": "La. Civ. Code art. 389",
+   "title": "Full interdiction",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=110603",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A court may order the full interdiction of a natural person of the age of majority, or an emancipated minor, who due to an infirmity, is unable consistently to make reasoned decisions regarding the care of his person and property, or to communicate those decisions, and whose interests cannot be protected by less restrictive means."
+  },
+  {
+   "id": "la-cc-390",
+   "cite": "La. Civ. Code art. 390",
+   "title": "Limited interdiction",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=110605",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A court may order the limited interdiction of a natural person ... who due to an infirmity is unable consistently to make reasoned decisions regarding the care of his person or property, or any aspect of either"
+  },
+  {
+   "id": "la-cc-392",
+   "cite": "La. Civ. Code art. 392",
+   "title": "Curators",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=110607",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The court shall appoint a curator to represent the interdict in juridical acts and to care for the person or affairs of the interdict, or any aspect of either. The duties and powers of a curator commence upon his qualification."
+  },
+  {
+   "id": "la-cc-393",
+   "cite": "La. Civ. Code art. 393",
+   "title": "Undercurators",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=110608",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The court shall appoint an undercurator to discharge the duties prescribed for him by law. The duties and powers of an undercurator shall commence upon qualification."
+  },
+  {
+   "id": "la-cc-395",
+   "cite": "La. Civ. Code art. 395",
+   "title": "Capacity to make juridical acts",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=110610",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A full interdict lacks capacity to make a juridical act. A limited interdict lacks capacity to make a juridical act pertaining to the property or aspects of personal care that the judgment of limited interdiction places under the authority of his curator"
+  },
+  {
+   "id": "la-cc-2989",
+   "cite": "La. Civ. Code art. 2989",
+   "title": "Mandate defined",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=110025",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "A mandate is a contract by which a person, the principal, confers authority on another person, the mandatary, to transact one or more affairs for the principal."
+  },
+  {
+   "id": "la-cc-3024",
+   "cite": "La. Civ. Code art. 3024",
+   "title": "Termination of the mandate and of the mandatary's authority",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=110066",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "both the mandate and the authority of the mandatary terminate upon the: (1) Death of the principal or of the mandatary. (2) Interdiction of the mandatary. (3) Qualification of the curator after the interdiction of the principal."
+  },
+  {
+   "id": "la-cc-3026",
+   "cite": "La. Civ. Code art. 3026",
+   "title": "Incapacity of the principal",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=110068",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "In the absence of contrary agreement, neither the contract nor the authority of the mandatary is terminated by the principal's incapacity, disability, or other condition"
+  },
+  {
+   "id": "la-ccp-3081",
+   "cite": "La. Code Civ. Proc. art. 3081",
+   "title": "Petition for confirmation",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=111601",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "After the probate of the testament ... the person named as executor therein may petition the court for confirmation, and for the issuance of letters testamentary."
+  },
+  {
+   "id": "la-ccp-3097",
+   "cite": "La. Code Civ. Proc. art. 3097",
+   "title": "Disqualifications",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=111610",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "No person may be confirmed as testamentary executor, or appointed dative testamentary executor, provisional administrator, or administrator who is: (1) Under eighteen years of age; (2) Interdicted, or who, on contradictory hearing, is proved to be mentally incompetent; (3) A convicted felon"
+  },
+  {
+   "id": "la-ccp-3098",
+   "cite": "La. Code Civ. Proc. art. 3098",
+   "title": "Priority of appointment",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=111611",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "preference in the appointment shall be given by the court in the following order to: (1) The best qualified among the surviving spouse, competent heirs or legatees ... (3) The best qualified of the creditors of the deceased"
+  },
+  {
+   "id": "la-ccp-3421",
+   "cite": "La. Code Civ. Proc. art. 3421",
+   "title": "Small successions defined",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=111765",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The succession of a person who died domiciled in Louisiana and who died leaving property with a gross value of two hundred thousand dollars or less valued as of the date of death. ... (3) The succession of a person whose date of death occurred at least twenty years prior to the execution of a small succession affidavit and who died leaving property in Louisiana of any value."
+  },
+  {
+   "id": "la-rs-9-1785",
+   "cite": "La. Rev. Stat. §9:1785",
+   "title": "Manner in which trustee chosen",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=106771",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "An original trustee, an alternate trustee, or a successor trustee may be designated in the trust instrument or chosen by the use of a method provided in the trust instrument ... In such a case, the proper court shall appoint one or more trustees."
+  },
+  {
+   "id": "la-rs-9-160-5",
+   "cite": "La. Rev. Stat. §9:160.5",
+   "title": "General provisions applying to digital assets",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=1483518",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "The delivery of a digital asset or its liquidated value to the administrator's designated custodian constitutes payment or delivery for purposes of this Chapter."
+  },
+  {
+   "id": "la-rs-8-655",
+   "cite": "La. Rev. Stat. §8:655",
+   "title": "Right of disposing of remains; military personnel; limitation of liability",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=106436",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "unless other specific directions have been given or the designation of a specific person to control disposition has been made by the decedent in the form of a notarial testament or a written and notarized declaration, the following persons, in the priority listed, have the right to control and authorize the interment"
+  },
+  {
+   "id": "la-rs-17-2352",
+   "cite": "La. Rev. Stat. §17:2352",
+   "title": "Applicability; persons who may make an anatomical gift prior to the death of the donor",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=80331",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "An agent of the donor, unless the power of attorney for health care or other record prohibits it."
+  },
+  {
+   "id": "la-rs-40-1151-4",
+   "cite": "La. Rev. Stat. §40:1151.4",
+   "title": "Procedure for making a declaration for a qualified patient who has not previously made a declaration",
+   "url": "https://www.legis.la.gov/legis/Law.aspx?d=964673",
+   "kind": "statute",
+   "retrieved": "2026-09-19",
+   "quote": "any of the following individuals in the following order of priority, if there is no individual in a prior class who is reasonably available, willing, and competent to act, may make a declaration on the qualified patient's behalf: (a) The judicially appointed tutor or curator of the patient"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "mandatary",
+    "agent under a mandate"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal and mandatary conclude a contract of mandate; it is an agreement, not a unilateral grant",
+     "phase": "capable",
+     "citations": [
+      "la-cc-2989"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of either party, interdiction of the mandatary, or qualification of a curator after the principal's interdiction",
+      "phase": "deceased",
+      "citations": [
+       "la-cc-3024"
+      ]
+     }
+    ]
+   },
+   "diff": "Louisiana is a civil-law jurisdiction and has no power of attorney in the model's sense. The instrument is a mandate, and article 2989 makes it a CONTRACT between the principal and the mandatary rather than a unilateral grant of authority — so it is concluded, not merely executed. Durability runs the opposite way from every common-law state here: article 3026 keeps the mandate and the mandatary's authority alive through the principal's incapacity 'in the absence of contrary agreement', with no durability words to include and no presumption to rebut. What ends it is structural rather than evidentiary: the mandate terminates on the death of either party, on interdiction of the MANDATARY, and on qualification of the curator after interdiction of the principal, so it is the curator's qualification that displaces the mandatary rather than a court measuring how much of the instrument survives.",
+   "citations": [
+    "la-cc-2989",
+    "la-cc-3024",
+    "la-cc-3026"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal's incapacity, but only where the parties agreed to that effect",
+      "phase": "incapacitated",
+      "citations": [
+       "la-cc-3026"
+      ]
+     }
+    ]
+   },
+   "diff": "A mandate that lapses on the principal's incapacity exists in Louisiana only where the parties agreed to it. Article 3026 states the default in the negative — incapacity does not terminate the mandate absent contrary agreement — so the non-durable instrument is the bargained-for exception here, while in the model it is the baseline that durability departs from.",
+   "citations": [
+    "la-cc-3026"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "unverified": true,
+   "diff": "No Louisiana analogue to a springing power was found. The mandate articles contain no provision for authority that begins on a future event or on the principal's incapacity, and nothing corresponding to the uniform act's certifier machinery. The structure makes one largely unnecessary: a mandate takes effect as a contract and article 3026 carries it through incapacity rather than starting it there. A mandate could presumably be made subject to a suspensive condition under the general law of obligations, but that is an inference rather than a cited rule, so this is marked unverified and drawn dashed. The citations are the articles that do exist, not authority for the absence.",
+   "citations": [
+    "la-cc-2989",
+    "la-cc-3026"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "person designated to make a declaration"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Designated by written instrument signed by the patient before at least two witnesses, which may set the order among several designees",
+     "phase": "capable",
+     "citations": [
+      "la-rs-40-1151-4"
+     ]
+    }
+   },
+   "diff": "Louisiana has no health-care agent statute of the model's kind. Two routes exist instead, and neither matches. A mandate may cover health care, since the anatomical gift statute refers to a power of attorney for health care; and the Life-Sustaining Procedures Act lets an adult designate, by written instrument signed before at least two witnesses, one or more people to make a declaration if the patient cannot. That designation is narrower than the model's role: it authorises a declaration about withholding or withdrawing life-sustaining procedures for a qualified patient, not health-care decisions generally.",
+   "citations": [
+    "la-rs-40-1151-4",
+    "la-cc-2989"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "person making a declaration for a qualified patient"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Patient certified as a qualified patient with a terminal and irreversible condition, comatose or incapable of communication, with no prior declaration",
+     "phase": "incapacitated",
+     "citations": [
+      "la-rs-40-1151-4"
+     ]
+    }
+   },
+   "diff": "Like Ohio, Louisiana's provision is an end-of-life one rather than a general surrogate. It reaches only a declaration to withhold or withdraw life-sustaining procedures, and only for a patient certified as having a terminal and irreversible condition who is comatose, incompetent or incapable of communication and made no prior declaration. The order is distinctive at the top: the judicially appointed TUTOR OR CURATOR ranks first, ahead of anyone the patient designated, though the statute is explicit that no such appointment is required for a declaration to be made. Below them come the person designated by written instrument before two witnesses, then the spouse not judicially separated, and so on down. A class is skipped only where no one in it is reasonably available, willing and competent to act.",
+   "citations": [
+    "la-rs-40-1151-4"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "curator of the interdict"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Court orders full or limited interdiction and appoints a curator; the curator's powers commence on qualification",
+     "phase": "incapacitated",
+     "citations": [
+      "la-cc-389",
+      "la-cc-392"
+     ]
+    }
+   },
+   "diff": "Louisiana has interdiction, not guardianship, and the two grades are defined by scope rather than by the office. Full interdiction under article 389 requires an infirmity leaving the person unable consistently to make reasoned decisions about the care of person AND property, or to communicate them, and that their interests cannot be protected by less restrictive means; limited interdiction under article 390 reaches person OR property, or any aspect of either. The consequence is sharper than the model's: a full interdict lacks capacity to make a juridical act at all, and a limited interdict lacks it for whatever the judgment places under the curator. Authority begins on qualification rather than on the order.",
+   "citations": [
+    "la-cc-389",
+    "la-cc-390",
+    "la-cc-392",
+    "la-cc-395"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "curator of the interdict"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Same interdiction judgment and the same curator; property authority is whatever the judgment confers",
+     "phase": "incapacitated",
+     "citations": [
+      "la-cc-392"
+     ]
+    }
+   },
+   "diff": "There is no separate property fiduciary in Louisiana. Article 392 appoints a single curator to represent the interdict in juridical acts and to care for the person or affairs of the interdict, or any aspect of either, so the model's guardian of the person and conservator of the estate collapse into one office, distinguished only by what the judgment of limited interdiction confers. Louisiana also adds an officer the model has no counterpart for: the court must appoint an UNDERCURATOR, whose powers likewise commence on qualification and who exists to check the curator rather than to act for the interdict.",
+   "citations": [
+    "la-cc-392",
+    "la-cc-393"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "testamentary executor"
+   ],
+   "lane": {
+    "starts": {
+     "event": "After probate of the testament the named executor petitions for confirmation, and letters testamentary issue",
+     "phase": "deceased",
+     "citations": [
+      "la-ccp-3081"
+     ]
+    }
+   },
+   "diff": "Louisiana confirms an executor rather than appointing one: after the testament is probated, the person named in it petitions the court for confirmation and for letters. The disqualifications are stated as a closed list and are stricter than the model's — under eighteen, interdicted or proved mentally incompetent, a convicted felon under the law of the United States or any state, a non-resident who has not appointed a resident agent for service, or a corporation not authorised to perform the duties of the office.",
+   "citations": [
+    "la-ccp-3081",
+    "la-ccp-3097"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "dative testamentary executor"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Court gives preference among qualified claimants by who is best qualified, within a three-tier order",
+     "phase": "deceased",
+     "citations": [
+      "la-ccp-3098"
+     ]
+    }
+   },
+   "diff": "Where the model ranks people by status, Louisiana ranks them by merit within status. Article 3098 gives preference to the BEST QUALIFIED among the surviving spouse, competent heirs or legatees and the legal representatives of incompetent ones; then to the best qualified of their nominees; then to the best qualified of the creditors of the deceased or of the estate, or a co-owner of immovable property with the deceased. 'Best qualified' is defined in the article as best qualified personally and by training and experience, so the court chooses within each class rather than taking the first available member of it. Creditors are a ranked class rather than a fallback after a waiting period, and a co-owner of immovable property has standing the model does not contemplate.",
+   "citations": [
+    "la-ccp-3098",
+    "la-ccp-3097"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "affiant in a small succession"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Small succession affidavit where the gross value is $200,000 or less, or of any value where death occurred at least twenty years earlier",
+     "phase": "deceased",
+     "citations": [
+      "la-ccp-3421"
+     ]
+    }
+   },
+   "diff": "Louisiana's threshold is far higher than any other state covered here — $200,000 of gross value for a decedent domiciled in the state, and $125,000 for an ancillary succession of someone domiciled elsewhere. It also has a limb with no counterpart anywhere in the set: a succession qualifies as small regardless of value where the death occurred at least twenty years before the affidavit is executed, which turns the route into a way of clearing long-dormant estates rather than only small ones.",
+   "citations": [
+    "la-ccp-3421"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "lane": {
+    "starts": {
+     "event": "Designated in the trust instrument or chosen by a method it provides; otherwise the proper court appoints",
+     "phase": "incapacitated",
+     "citations": [
+      "la-rs-9-1785"
+     ]
+    }
+   },
+   "diff": "Louisiana's Trust Code is not the Uniform Trust Code and the succession rule is shorter. Section 1785 lets an original, alternate or successor trustee be designated in the instrument or chosen by a method it provides, and sends the matter straight to the court where that fails — there is no intermediate tier of appointment by unanimous agreement of the qualified beneficiaries, which is the model's second priority. The section also makes the point the model leaves implicit: neither the instrument's silence nor the disqualification, removal, incompetence or unwillingness of the person designated invalidates the trust.",
+   "citations": [
+    "la-rs-9-1785"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "unverified": true,
+   "diff": "Louisiana has not enacted RUFADAA, so there is no designated recipient and no online-tool direction to override anything. The only digital-asset provisions found are in the unclaimed property chapter at R.S. 9:160.1 to 160.5, which govern liquidation and delivery of ABANDONED digital assets to the state administrator's designated custodian — escheat, not fiduciary access, and the 'administrator' there is a state officer rather than a personal representative. This is a negative finding and not itself citable, so it is marked unverified and drawn dashed; the citation shows what does exist rather than authority for what does not.",
+   "citations": [
+    "la-rs-9-160-5"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "unverified": true,
+   "diff": "No Louisiana statute was found giving a fiduciary access to a user's digital assets, nor applying the duties of care, loyalty and confidentiality to them. A curator, succession representative or trustee takes whatever authority the general law gives over the estate; nothing addresses custodians, terms-of-service agreements or the content of electronic communications. Of the states covered here Louisiana is the only one without such a statute, which for a project about digital estates is the finding rather than a gap. Marked unverified and drawn dashed, as the absence is not citable.",
+   "citations": [
+    "la-rs-9-160-5"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "differs": false,
+   "diff": "Consistent with the baseline. Louisiana enacted the revised uniform anatomical gift act and keeps the uniform default: an agent of the donor may make a gift unless the power of attorney for health care or other record prohibits it, so silence leaves the agent able to act. It is the one uniform act Louisiana has, and the one role here that lines up with the model.",
+   "citations": [
+    "la-rs-17-2352"
+   ]
+  },
+  {
+   "role": "la-disposition-control",
+   "name": "Person with the right to control interment",
+   "canonical": "disposition-of-remains-agent",
+   "group": "remains",
+   "stateSpecific": true,
+   "lane": {
+    "assigned": {
+     "event": "Designated by the decedent in a notarial testament or a written and notarized declaration; otherwise by the statutory priority",
+     "phase": "capable",
+     "citations": [
+      "la-rs-8-655"
+     ]
+    },
+    "starts": {
+     "event": "Death of the decedent",
+     "phase": "deceased",
+     "citations": [
+      "la-rs-8-655"
+     ]
+    }
+   },
+   "diff": "Louisiana lets the decedent name who controls interment, and requires a particular form for it: a notarial testament, or a written and notarized declaration. That designee outranks the statutory list. Below them the order runs the surviving spouse — but not where either spouse filed a petition for divorce before the death — then a majority of adult children, a majority of adult grandchildren, the surviving parents, a majority of adult siblings, and then a majority of those in the next degrees of kinship. The repeated majority requirement within each class has no counterpart in the model.",
+   "citations": [
+    "la-rs-8-655"
+   ]
+  }
+ ]
+}

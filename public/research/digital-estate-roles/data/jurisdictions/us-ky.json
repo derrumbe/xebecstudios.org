@@ -1,0 +1,492 @@
+{
+ "jurisdiction": "us-ky",
+ "name": "Kentucky",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Power of Attorney Act (2006), enacted 2018, with Section 108(b) reversed and Section 120 Alternative A",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2015)",
+  "Uniform Trust Code (2000)",
+  "Revised Uniform Anatomical Gift Act (2006)"
+ ],
+ "note": "Kentucky was added with West Virginia to read four contiguous states against one uniform act. It is the uniform one on execution — a signature suffices and notarisation buys a presumption — and on the acceptance remedy, where it took Section 120 Alternative A and kept the automatic liability for attorney's fees. It deviates in two places that matter to this reference. A court appointment of a conservator or guardian **terminates** the power of attorney by default (§457.100(1)(c)), the reverse of the uniform act's bracketed rule and of Virginia's enactment of it. And Kentucky has **no monetary threshold at all** for dispensing with administration: §395.470 lets the beneficiaries agree an estate of any size out of administration on unanimous written consent, no debts, taxes provided for and a six-week advertisement at the courthouse door. Its guardianship procedure is also the only one here that is a jury trial by default, with the burden of proof on the Commonwealth. One drafting note for anyone citing it: the ULC bill tracker dates the Uniform Power of Attorney Act enactment to 2020, while §457.010's own history says 2018 Ky. Acts ch. 185, effective 14 July 2018.",
+ "citations": [
+  {
+   "id": "ky-457-010",
+   "cite": "KRS § 457.010",
+   "title": "Short title",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=48261",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "This chapter may be cited as the Uniform Power of Attorney Act (2006). Effective: July 14, 2018 History: Created 2018 Ky. Acts ch. 185, sec. 1, effective July 14, 2018."
+  },
+  {
+   "id": "ky-457-040",
+   "cite": "KRS § 457.040",
+   "title": "Power of attorney is durable",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=48264",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal. Effective: July 14, 2018 History: Created 2018 Ky. Acts ch. 185, sec. 4, effective July 14, 2018."
+  },
+  {
+   "id": "ky-457-050",
+   "cite": "KRS § 457.050",
+   "title": "Execution of power of attorney",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50153",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) A power of attorney shall be signed by the principal or in the principal’s conscious presence by another individual directed by the principal to sign the principal’s name on the power of attorney. If signed in the principal’s conscious presence by another individual, the reason for this method of signing shall be stated in the power of attorney. (2) A signature on a power of attorney is presumed to be genuine if the principal acknowledges the signature before a notary public or other individual authorized by law to take acknowledgments."
+  },
+  {
+   "id": "ky-457-090",
+   "cite": "KRS § 457.090",
+   "title": "When power of attorney effective",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57521",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency. … (3) If a power of attorney becomes effective upon the principal’s incapacity and the principal has not authorized a person to determine whether the principal is incapacitated … the power of attorney becomes effective upon a determination in a writing or other record by: (a) A physician, an advanced practice registered nurse, a psychologist licensed or certified under the provisions of KRS Chapter 319, or a person licensed or certified as a social worker or an employee of the Cabinet for Health and Family Services …; or (b) An attorney-at-law or a judge … Effective: July 15, 2026"
+  },
+  {
+   "id": "ky-457-100",
+   "cite": "KRS § 457.100",
+   "title": "Termination of power of attorney or agent’s authority",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=48270",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) A power of attorney terminates when: (a) The principal dies; (b) The principal becomes incapacitated, if the power of attorney is not durable; (c) A court appoints a limited conservator, conservator, limited guardian, or guardian of the principal’s estate or other fiduciary charged with the management of some or all of the principal’s property, unless the court specifically provides that the power of attorney shall remain in effect; (d) The principal revokes the power of attorney or, if the power of attorney was filed, the principal revokes the power of attorney in accordance with KRS 382.370; (e) The power of attorney provides that it terminates; (f) For a power of attorney that specifically states a purpose, the purpose of the power of attorney is accomplished; or (g) The principal revokes the agent’s authority or the agent dies, becomes incapacitated, or resigns …"
+  },
+  {
+   "id": "ky-457-190",
+   "cite": "KRS § 457.190",
+   "title": "Acceptance of and reliance upon acknowledged power of attorney",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=48279",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(2) A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely upon the presumption under KRS 457.050 that the signature is genuine. (3) A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the power of attorney is void, invalid, or terminated … may rely upon the power of attorney as if the power of attorney were genuine, valid, and still in effect … (4) A person that is asked to accept an acknowledged power of attorney may request, and rely upon, without further investigation …"
+  },
+  {
+   "id": "ky-457-200",
+   "cite": "KRS § 457.200",
+   "title": "Liability for refusal to accept acknowledged power of attorney",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=48280",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) … (a) A person shall either accept an acknowledged power of attorney or request a certification, a translation, or an opinion of counsel under KRS 457.190(4) no later than seven (7) business days after presentation of the power of attorney for acceptance; (b) … the person shall accept the power of attorney no later than five (5) business days after receipt of the certification, translation, or opinion of counsel; and (c) A person may not require an additional or different form of power of attorney for authority granted in the power of attorney presented. … (3) A person that refuses in violation of this section to accept an acknowledged power of attorney is subject to: (a) A court order mandating acceptance of the power of attorney; and (b) Liability for reasonable attorney’s fees and costs incurred in any action or proceeding that confirms the validity of the power of attorney or mandates acceptance of the power of attorney."
+  },
+  {
+   "id": "ky-311-621",
+   "cite": "KRS § 311.621",
+   "title": "Definitions for KRS 311.621 to 311.643",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=44034",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "ky-311-623",
+   "cite": "KRS § 311.623",
+   "title": "Living will directive or medical order for scope of treatment — Eligible persons — Scope — Effect",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=44036",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) An adult with decisional capacity may make a written living will directive that does any or all of the following: (a) Directs the withholding or withdrawal of life-prolonging treatment; or (b) Directs the withholding or withdrawal of artificially provided nutrition or hydration; or (c) Designates one (1) or more adults as a surrogate or successor surrogate to make health care decisions on behalf of the grantor. During any period in which two (2) or more surrogates are serving, all decisions shall be by unanimous consent of all the acting surrogates unless the advance directive provides otherwise; or (d) Directs the giving of all or any part of the adult’s body upon death for any purpose specified in KRS 311.1929."
+  },
+  {
+   "id": "ky-311-629",
+   "cite": "KRS § 311.629",
+   "title": "Powers of health care surrogate",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=30567",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) A surrogate designated pursuant to an advance directive may make health care decisions for the grantor which the grantor could make individually if he or she had decisional capacity, provided all the decisions shall be made in accordance with the desires of the grantor as indicated in the advance directive. … (2) The surrogate may not make a health care decision in any situation in which the grantor’s attending physician has determined in good faith that the grantor has decisional capacity. The attending physician shall proceed as if there were no designation if the surrogate is unavailable or refuses to make a health care decision."
+  },
+  {
+   "id": "ky-311-631",
+   "cite": "KRS § 311.631",
+   "title": "Responsible parties authorized to make health care decisions",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55099",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) If an adult patient whose physician has determined that he or she does not have decisional capacity has not executed an advance directive, or to the extent the advance directive does not address a decision that must be made, any one (1) of the following responsible parties, in the following order of priority if no individual in a prior class is reasonably available, willing, and competent to act, shall be authorized to make health care decisions on behalf of the patient: (a) The judicially appointed guardian of the patient, if the guardian has been appointed and if medical decisions are within the scope of the guardianship; (b) The attorney-in-fact named in a durable power of attorney, if the durable power of attorney specifically includes authority for health care decisions; (c) The spouse of the patient; (d) An adult child of the patient, or if the patient has more than one (1) child, the majority of the adult children who are reasonably available for consultation; (e) The parents of the patient; (f) The nearest living relative of the patient …; or (g) An adult friend of the patient who: 1. Has maintained regular contact with the patient; and 2. Is familiar with the patient’s activities, health, and religious and moral beliefs. (2) In any case in which a health care decision is made under this section, the decision shall be noted in writing in the patient’s medical records. … (4) … hospitalization for psychiatric treatment at a general hospital shall not exceed fourteen (14) consecutive days unless a court order is obtained … Effective: July 15, 2024"
+  },
+  {
+   "id": "ky-311-6231",
+   "cite": "KRS § 311.6231",
+   "title": "Court-appointed fiduciary bound by terms of grantor’s advance directive — Power of surrogate to act",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=30561",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "If, following the execution of an advance directive under KRS 311.623, a court of the grantor’s principal domicile appoints a fiduciary charged with the care and protection of the grantor’s person, the fiduciary shall be bound by the terms of the grantor’s advance directive. If the advance directive designates a surrogate to make health care decisions for the grantor, the surrogate may continue to act."
+  },
+  {
+   "id": "ky-387-510",
+   "cite": "KRS § 387.510",
+   "title": "Definitions for KRS 387.500 to 387.770 and 387.990",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47468",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "ky-387-570",
+   "cite": "KRS § 387.570",
+   "title": "Hearing — Burden of proof — Jury trial unless conditions for bench trial are met",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47470",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(5) The burden of proof shall be on the Commonwealth to prove the disability or partial disability of the respondent by clear and convincing evidence. (6) The respondent will not be determined partially disabled or disabled unless at least one (1) of the persons who participated in the interdisciplinary evaluation required by KRS 387.540 testifies in person at the hearing. … (7) The hearing shall be a jury trial, unless: (a) The respondent if present, counsel for the respondent, and the attorney for the Commonwealth agree to a bench trial; (b) No objection to a bench trial is made by an interested person or entity; and (c) The interdisciplinary evaluation report prepared for the proceeding reflects a unanimous consensus of the persons preparing it that the respondent is disabled or partially disabled …"
+  },
+  {
+   "id": "ky-387-580",
+   "cite": "KRS § 387.580",
+   "title": "Responsibilities of court or jury during a hearing — Court determinations upon finding of disability or partial disability",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47471",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) At a hearing convened under KRS 387.500 to 387.770 for a determination of partial disability or disability, the court, or the jury if one is impaneled, shall: (a) Inquire into the nature and extent of the general intellectual functioning of the respondent; (b) Inquire into the respondent’s capacity to make informed decisions concerning his personal affairs and financial resources; (c) Determine whether the respondent is disabled, partially disabled, or has no disability in relation to the management of his financial resources; and (d) Determine whether the respondent is disabled, partially disabled, or has no disability in relation to the management of his personal affairs. … (3) If the respondent is found to be disabled or partially disabled, the court shall, at the same hearing, without a jury, determine …"
+  },
+  {
+   "id": "ky-387-590",
+   "cite": "KRS § 387.590",
+   "title": "Types of guardians and conservators to be appointed — Order of appointment — Legal disabilities — Rights retained",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47472",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1)(a) If the respondent is found partially disabled in managing his personal affairs, but not partially disabled or disabled in managing his financial resources, a limited guardian shall be appointed. (b) If the respondent is found partially disabled in managing his financial resources, but not partially disabled or disabled in managing his personal affairs, a limited conservator shall be appointed. … (3) The order of appointment … shall specify: (a) The type of guardianship, conservatorship …; (d) The specific legal disabilities to which the respondent is subject …"
+  },
+  {
+   "id": "ky-387-660",
+   "cite": "KRS § 387.660",
+   "title": "Specific powers and duties of guardian",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47474",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "ky-395-105",
+   "cite": "KRS § 395.105",
+   "title": "Fiduciary must have letters of appointment — General duties — When appointment effective",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57673",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) Every fiduciary, before entering upon the execution of the trust, shall receive letters of appointment from the District Court having jurisdiction as fixed by law. (2) The duties of a fiduciary shall be those required by law, and any additional duties as the court may order. (3) The appointment of the personal representative shall be effective upon the signing of an order by the judge, the presentation to the clerk of an executed surety bond when required under KRS 395.130, and either the administration of any oaths required in KRS 395.120, or the filing of the declaration in KRS 395.120 if no hearing is required. Effective: July 15, 2026 History: Amended 2026 Ky. Acts ch. 134, sec. 9, effective July 15, 2026."
+  },
+  {
+   "id": "ky-395-120",
+   "cite": "KRS § 395.120",
+   "title": "Oaths of representatives",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57674",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) If the court requires a hearing for the appointment of the fiduciary, each executor, administrator, curator, and administrator with the will annexed or de bonis non shall take an oath before the court … (2)(a) The oaths required … may be satisfied by execution of the following declaration …"
+  },
+  {
+   "id": "ky-395-130",
+   "cite": "KRS § 395.130",
+   "title": "Bond, when required — Cost of corporate surety paid from estate",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57675",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) No bond shall be required of a personal representative appointed under this chapter except as provided in subsection (2) of this section. (2) The court shall order a surety bond of a personal representative appointed under this chapter when the: (a) Appointment is of a public administrator under KRS 395.380 or a curator under KRS 395.410; or (b) Court, in its discretion, determines that a surety bond is required to adequately protect all interests in the estate."
+  },
+  {
+   "id": "ky-391-030",
+   "cite": "KRS § 391.030",
+   "title": "Descent of personal property — Exemption for surviving spouse and children — Withdrawal of money from bank by surviving spouse",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=49987",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) … (c) Personal property or money on hand or in a bank or other depository to the amount of thirty thousand dollars ($30,000) shall be exempt from distribution and sale and shall be set apart by the District Court having jurisdiction over the estate on application to the surviving spouse, or, if there is no surviving spouse, to the surviving children. (2) The surviving spouse may, at any time before the property or money is set apart by the court, procure on petition from the Judge of the District Court … an order authorizing the surviving spouse to withdraw from any bank or other depository not exceeding two thousand five hundred dollars ($2,500) belonging to the estate."
+  },
+  {
+   "id": "ky-395-450",
+   "cite": "KRS § 395.450",
+   "title": "Jurisdiction to dispense with administration",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36369",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "The District Court that has jurisdiction to grant administration of the estate of a person dying intestate shall have jurisdiction of proceedings to dispense with administration."
+  },
+  {
+   "id": "ky-395-455",
+   "cite": "KRS § 395.455",
+   "title": "Transfer of assets without administration",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57684",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) Where the exemption for the surviving spouse or children, alone or together with preferred claims … equals or exceeds the amount of distributable assets, the court may order that administration of the estate be dispensed with and the assets be transferred to the surviving spouse or, if there is no surviving spouse, to the surviving children, or to a person designated by the surviving spouse. … (2) If the court is satisfied that no distributable estate will pass through the hands of the personal representative, it may order that no letters of administration be issued and in the case of a testate estate, order that the will be probated only. … (4) For purposes of this section, the exemption for the surviving spouse and children shall be the exemption created by KRS 391.030, and preferred claims shall be those listed in KRS 396.095 and in the order listed. Effective: July 15, 2026"
+  },
+  {
+   "id": "ky-395-470",
+   "cite": "KRS § 395.470",
+   "title": "Dispensing with administration by written agreement",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57685",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) Administration of the estate of a person dying testate or intestate may be dispensed with by agreement if: (a) There are no debts owing by the estate; (b) All beneficiaries entitled to the personal estate have agreed in writing, under penalty of perjury, that there shall be no further administration …; (c) Advertisement has occurred as required in subsection (7) of this section …; (d) Provision has been made for the state inheritance tax and the federal estate tax, if any; and (e) There are no claims or demands due the estate, if no trustee has been designated by agreement. … (7)(c) The advertisement shall be posted at the courthouse door for six (6) weeks and published pursuant to KRS Chapter 424."
+  },
+  {
+   "id": "ky-395a-010",
+   "cite": "KRS § 395A.010",
+   "title": "Short title",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50237",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "KRS 395A.010 to 395A.180 may be cited as the Revised Uniform Fiduciary Access to Digital Assets Act."
+  },
+  {
+   "id": "ky-395a-040",
+   "cite": "KRS § 395A.040",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50222",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user’s digital assets, including the content of electronic communications. If the online tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record. (2) If a user has not used an online tool to give direction under subsection (1) of this section or if the custodian has not provided an online tool, the user may allow or prohibit in a will, trust, power of attorney, or other record, disclosure to a fiduciary …"
+  },
+  {
+   "id": "ky-395a-150",
+   "cite": "KRS § 395A.150",
+   "title": "Fiduciary duty and authority",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50233",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) The legal duties imposed on a fiduciary charged with managing tangible property apply to the management of digital assets, including: (a) The duty of care; (b) The duty of loyalty; and (c) The duty of confidentiality. (2) A fiduciary’s or designated recipient’s authority with respect to a digital asset of a user: (a) Except as otherwise provided in KRS 395A.040, is subject to the applicable terms of service … and (d) May not be used to impersonate the user."
+  },
+  {
+   "id": "ky-395a-160",
+   "cite": "KRS § 395A.160",
+   "title": "Custodian compliance and authority",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50234",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) Not later than sixty (60) days after receipt of the information required under KRS 395A.070 to 395A.150, a custodian shall comply with a request under this chapter from a fiduciary or designated recipient to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance."
+  },
+  {
+   "id": "ky-311-1911",
+   "cite": "KRS § 311.1911",
+   "title": "Definitions for KRS 311.1911 to 311.1959",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=30427",
+   "kind": "statute",
+   "retrieved": "2026-10-13"
+  },
+  {
+   "id": "ky-311-1915",
+   "cite": "KRS § 311.1915",
+   "title": "Who may make anatomical gift before donor’s death",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=30429",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "Subject to KRS 311.1923, an anatomical gift of a donor’s body or part may be made during the life of the donor … by: (1) The donor, if the donor is an adult or if the donor is a minor and is: (a) Emancipated; or (b) Authorized under state law to apply for a driver’s license because the donor is at least sixteen (16) years of age; (2) An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift; (3) A parent of the donor, if the donor is an unemancipated minor; or (4) The donor’s guardian."
+  },
+  {
+   "id": "ky-311-1925",
+   "cite": "KRS § 311.1925",
+   "title": "Who may make anatomical gift of decedent’s body or part",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53755",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) … an anatomical gift of a decedent’s body or part … may be made by any member of the following classes of persons who is reasonably available, in the order of priority listed: (a) An agent of the decedent at the time of death who could have made an anatomical gift under KRS 311.1915(2) immediately before the decedent’s death; (b) The spouse of the decedent; (c) Adult children of the decedent; (d) Parents of the decedent; (e) Adult siblings of the decedent; (f) Adult grandchildren of the decedent; (g) Grandparents of the decedent; (h) The persons who were acting as the guardians of the person of the decedent at the time of death; and (i) Another adult who is related to the decedent by blood, marriage, or adoption, or who exhibited special care and concern for the decedent."
+  },
+  {
+   "id": "ky-386b-10-120",
+   "cite": "KRS § 386B.10-120",
+   "title": "Certification of trust",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=43153",
+   "kind": "statute",
+   "retrieved": "2026-10-13",
+   "quote": "(1) Instead of furnishing a copy of the trust instrument to a person other than a beneficiary, the trustee may furnish to the person a certification of trust …"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "power of attorney",
+    "agent"
+   ],
+   "diff": "Kentucky enacted the Uniform Power of Attorney Act as KRS chapter 457, and §457.010's short title names it \"the Uniform Power of Attorney Act (2006)\" — created by **2018** Ky. Acts ch. 185, effective 14 July 2018, not the 2020 bill the ULC tracker records (2020 Ky. Acts ch. 41 amended §457.050 two years later). §457.040 is the uniform durability default, verbatim.\n\nExecution is the uniform rule and, set against West Virginia, that is the point. §457.050 requires a signature and nothing more; acknowledgement before a notary earns the signature a **presumption of genuineness** rather than being a condition of validity, which is uniform §105 and what its official comment describes — \"notarization of the principal's signature is not required to create a valid power of attorney\". Kentucky adds one non-uniform sentence: where another person signs in the principal's conscious presence, \"the reason for this method of signing shall be stated in the power of attorney\".\n\nThe deviation is in termination. Uniform §108(b) offers, in brackets, \"The power of attorney is not terminated and the agent's authority continues unless limited, suspended, or terminated by the court\"; Kentucky declined it and wrote the opposite into §457.100(1)(c), so the power of attorney terminates when a court appoints a conservator, limited conservator, guardian, limited guardian of the estate or other fiduciary managing the principal's property, \"unless the court specifically provides that the power of attorney shall remain in effect\". Same substantive rule as West Virginia's, placed in the termination section rather than the court-fiduciary section.\n\nAcceptance is §120 **Alternative A** — the seven-business-day clock runs for any acknowledged power of attorney, not only a statutory form — and §457.200(3) keeps the model's automatic consequence: a refusing party \"is subject to\" both a court order mandating acceptance **and** liability for reasonable attorney's fees and costs.",
+   "citations": [
+    "ky-457-010",
+    "ky-457-040",
+    "ky-457-050",
+    "ky-457-100",
+    "ky-457-190",
+    "ky-457-200"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "power of attorney terminated by incapacity"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. §457.100(1)(b) terminates a non-durable power of attorney on the principal's incapacity, incapacity being defined in §457.020.",
+   "citations": [
+    "ky-457-040",
+    "ky-457-100"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "diff": "§457.090 is the uniform springing-power structure, and Kentucky's version of the fallback certifier list — amended effective **15 July 2026** — is the broadest in this data. Where the model and most states name a physician or psychologist, §457.090(3)(a) accepts a physician, an **advanced practice registered nurse**, a licensed or certified psychologist, or a **licensed or certified social worker** or qualifying employee of the Cabinet for Health and Family Services; §457.090(3)(b) keeps the attorney-at-law or judge route for the non-clinical limb of incapacity.",
+   "citations": [
+    "ky-457-090"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "surrogate",
+    "health care surrogate",
+    "living will directive"
+   ],
+   "diff": "Kentucky does not have a separate health-care power of attorney. The appointment lives **inside the living will directive**: §311.623(1) lets an adult with decisional capacity make a written directive that withholds life-prolonging treatment, withholds artificial nutrition or hydration, designates \"one (1) or more adults as a surrogate or successor surrogate\", and gives all or part of the body on death — any or all of those in the one instrument. So the health-care agent, the living will and the anatomical gift are three options on a single form rather than three documents.\n\nTwo consequences of the drafting are worth recording. Multiple surrogates may serve at once, and then \"all decisions shall be by unanimous consent of all the acting surrogates unless the advance directive provides otherwise\" — a default of unanimity rather than majority or senior-agent control. And §311.629(2) puts the attending physician in charge of when the authority is live: the surrogate may not decide in any situation where the physician \"has determined in good faith that the grantor has decisional capacity\", and the physician \"shall proceed as if there were no designation\" if the surrogate is unavailable or refuses.\n\nAgainst a later court appointment the health-care surrogate is **protected**, and this is where Kentucky splits its own lanes. §311.6231: if a court afterwards appoints a fiduciary charged with the care and protection of the grantor's person, \"the fiduciary shall be bound by the terms of the grantor's advance directive\", and where the directive designated a surrogate, \"the surrogate may continue to act\". The identical event — a court appointing a fiduciary — preserves the appointee over the person and, under §457.100(1)(c), terminates the appointee over the property.",
+   "citations": [
+    "ky-311-621",
+    "ky-311-623",
+    "ky-311-629",
+    "ky-311-6231"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "responsible party",
+    "surrogate"
+   ],
+   "diff": "§311.631 supplies the decision maker where the patient executed no advance directive, or \"to the extent the advance directive does not address a decision that must be made\" — so it fills gaps in a directive as well as replacing a missing one. Kentucky calls them \"responsible parties\" rather than surrogates.\n\nThe ordering is not the model's. Two appointees come **before the family**: first the judicially appointed guardian, if one has been appointed and medical decisions are within the scope of the guardianship, and second the attorney-in-fact under a durable power of attorney, if that instrument specifically includes health-care authority. Only then the spouse, an adult child or the majority of the adult children reasonably available, the parents, the nearest living relative or a majority of equally near ones, and finally an adult friend who \"has maintained regular contact\" and is \"familiar with the patient's activities, health, and religious and moral beliefs\".\n\nTwo further conditions have no parallel in the baseline. Every decision made under the section \"shall be noted in writing in the patient's medical records\", which makes the record rather than an instrument the evidence that the authority was exercised. And §311.631(4) caps what a responsible party can authorise: psychiatric hospitalisation at a general hospital may not exceed **fourteen consecutive days** without a court order under KRS Chapter 202A or 202B.",
+   "citations": [
+    "ky-311-631",
+    "ky-311-621",
+    "ky-311-629"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian",
+    "limited guardian",
+    "respondent"
+   ],
+   "diff": "Kentucky's disability determination is the most procedurally loaded in this data, and two features have no parallel here.\n\n**It is a jury trial by default.** §387.570(7) provides that \"the hearing shall be a jury trial\" unless three conditions all hold: the respondent, their counsel and the attorney for the Commonwealth agree to a bench trial, no interested person objects, and the interdisciplinary evaluation report reflects a unanimous consensus that the respondent is disabled. §387.580(1) then gives the capacity findings themselves — general intellectual functioning, capacity to make informed decisions about personal affairs and financial resources — to \"the court, **or the jury if one is impaneled**\". Everything that follows the finding, including who is appointed and what powers they get, is reserved to the court sitting without a jury by §387.580(3).\n\n**The burden is on the state.** §387.570(5) places it \"on the Commonwealth to prove the disability or partial disability of the respondent by clear and convincing evidence\", whoever filed the petition, and §387.570(6) bars a finding unless at least one member of the interdisciplinary evaluation team testifies in person.\n\nThe outcome is granular: §387.590 requires a limited guardian, limited conservator, guardian, conservator or a pairing according to which of personal affairs and financial resources the respondent was found disabled or partially disabled in, and the order must specify the particular legal disabilities imposed — §387.580(3)(c) separately requires the court to determine whether the respondent retains the right to vote.\n\nWhat the guardian may then decide about health care is bounded by what the person arranged earlier: §311.6231 binds a court-appointed fiduciary for the person to the terms of an existing advance directive and lets a designated surrogate continue to act. Where there is no directive, §311.631(1)(a) puts the guardian first in line instead.",
+   "citations": [
+    "ky-387-510",
+    "ky-387-570",
+    "ky-387-580",
+    "ky-387-590",
+    "ky-387-660",
+    "ky-311-6231"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "limited conservator"
+   ],
+   "diff": "Appointed through the same jury-default proceeding as the guardian, on a finding of disability or partial disability \"in managing his financial resources\" specifically, with §387.590(1) and (2) dictating which of the four offices follows from which finding.\n\nThe appointment also ends any power of attorney over the same property: §457.100(1)(c) terminates the power of attorney when a court appoints a conservator, limited conservator, guardian or limited guardian of the principal's estate, unless the court specifically provides otherwise.",
+   "citations": [
+    "ky-387-590",
+    "ky-387-580",
+    "ky-457-100"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "executor",
+    "letters of appointment"
+   ],
+   "diff": "§395.105(1) states the baseline rule plainly — \"Every fiduciary, before entering upon the execution of the trust, shall receive letters of appointment from the District Court\" — and §395.105(3), as amended effective **15 July 2026**, is an unusually exact answer to when the authority starts: the appointment is effective on the signing of the order by the judge, the presentation to the clerk of an executed surety bond where §395.130 requires one, and either the oath under §395.120 or, where no hearing is required, the filing of §395.120's written declaration.\n\nOn bond Kentucky is the opposite of West Virginia next door. §395.130(1): \"**No bond shall be required** of a personal representative appointed under this chapter\" except for a public administrator or curator, or where the court in its discretion finds one needed to protect the interests in the estate — and in exercising that discretion the court \"shall not be bound by\" the testator's expressed intent. In West Virginia an executor has no powers at all until bond is given.",
+   "citations": [
+    "ky-395-105",
+    "ky-395-120",
+    "ky-395-130"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "administrator",
+    "curator",
+    "administrator with the will annexed"
+   ],
+   "diff": "The same §395.105 letters requirement, §395.105(3) commencement rule and §395.130 no-bond default apply to an administrator; §395.120 writes the oath and the alternative declaration to \"each executor, administrator, curator, and administrator with the will annexed or de bonis non\" alike.",
+   "citations": [
+    "ky-395-105",
+    "ky-395-120",
+    "ky-395-130"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "surviving spouse",
+    "beneficiaries dispensing with administration by agreement"
+   ],
+   "diff": "**Kentucky sets no monetary ceiling for skipping administration**, and it is the only US jurisdiction read here that does not. There is no small-estate affidavit; there are three court-ordered routes out of administration, and each is gated by a relationship or a condition rather than by an amount.\n\n§395.455(1) lets the District Court dispense with administration and transfer the assets to the surviving spouse, or failing a spouse the surviving children, where the **spousal and children's exemption, alone or with preferred claims paid, equals or exceeds the distributable assets**. The test is relative, so it scales with the estate: the exemption is $30,000 of personal property or money under §391.030(1)(c) and the preferred claims are §396.095's, and an estate well above $30,000 qualifies if enough of it is owed to preferred creditors. §395.455(2) is the simplest: satisfied that \"no distributable estate will pass through the hands of the personal representative\", the court may order that **no letters of administration be issued** and, for a testate estate, that the will be probated only.\n\n§395.470 is the one with no ceiling at all. Administration may be dispensed with **by written agreement**, of any size estate, if there are no debts, all beneficiaries entitled to the personal estate agree in writing under penalty of perjury, the inheritance and estate taxes are provided for, and the beneficiaries have advertised for creditors — \"posted at the courthouse door for six (6) weeks\" and published — before applying. The court may require a surety bond for creditors who appear within six months. Kentucky's substitute for a dollar threshold is unanimity plus publicity plus time.\n\n§391.030(2) is the nearest thing to a small-sum rule: before anything is set apart, the surviving spouse may get a District Court order to withdraw up to **$2,500** from a bank, charged against the exempt property.",
+   "citations": [
+    "ky-395-450",
+    "ky-395-455",
+    "ky-395-470",
+    "ky-391-030"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline. KRS chapter 386B is the Kentucky Uniform Trust Code and §386B.10-120 is the uniform certification of trust, furnished instead of the trust instrument to anyone other than a beneficiary.",
+   "citations": [
+    "ky-386b-10-120"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline, and named accurately: §395A.010's short title is \"the Revised Uniform Fiduciary Access to Digital Assets Act\", where West Virginia's equivalent drops the \"Revised\". §395A.040(1) is the uniform online-tool override, conditional on the tool allowing the user to modify or delete the direction at all times.",
+   "citations": [
+    "ky-395a-010",
+    "ky-395a-040"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "conservator",
+    "agent",
+    "trustee"
+   ],
+   "diff": "The uniform fiduciary route, with §395A.150 carrying the duty-of-care, loyalty and confidentiality duties across to digital assets, subjecting the authority to the terms of service except as §395A.040 overrides them, and forbidding its use \"to impersonate the user\". §395A.160(1) gives the custodian **60 days** from receipt of the required information to comply, failing which the fiduciary or designated recipient applies for an order directing compliance that must find compliance consistent with 18 U.S.C. §2702.",
+   "citations": [
+    "ky-395a-010",
+    "ky-395a-040",
+    "ky-395a-150",
+    "ky-395a-160"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "donor",
+    "agent",
+    "document of gift"
+   ],
+   "diff": "Kentucky is on the Revised Uniform Anatomical Gift Act (2010 Ky. Acts ch. 161). §311.1915(2) lets an agent make a gift during the donor's life unless the power of attorney for health care or other record prohibits it, and §311.1925(1)(a) puts that agent **first** in the post-mortem priority order, ahead of the spouse — the uniform ranking, and the clearest statement in this data that the appointee outranks the family.\n\nThe cross-reference back to the living will matters here: §311.623(1)(d) lets the same directive that appoints the surrogate also direct the gift, so in Kentucky one instrument can create the health-care agent, the end-of-life instructions and the document of gift together.",
+   "citations": [
+    "ky-311-1911",
+    "ky-311-1915",
+    "ky-311-1925",
+    "ky-311-623"
+   ]
+  }
+ ]
+}

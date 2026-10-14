@@ -1,0 +1,295 @@
+{
+ "jurisdiction": "us-ma",
+ "name": "Massachusetts",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Probate Code",
+  "Uniform Guardianship and Protective Proceedings Act",
+  "Uniform Trust Code",
+  "Revised Uniform Anatomical Gift Act"
+ ],
+ "note": "No state-specific disposition-of-remains role: no Massachusetts statute setting a right-of-disposition priority was found, so none is asserted.",
+ "citations": [
+  {
+   "id": "ma-mgl-190b-3-203",
+   "cite": "Mass. Gen. Laws ch. 190B, §3-203",
+   "title": "Priority among persons seeking appointment as personal representative",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-203",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "(1) the person with priority as determined by a probated will including a person nominated by a power conferred in a will; (2) the surviving spouse of the decedent who is a devisee of the decedent; (3) other devisees of the decedent; (4) the surviving spouse of the decedent; (5) other heirs of the decedent; (6) if there is no known spouse or next of kin, a public administrator appointed pursuant to chapter 194"
+  },
+  {
+   "id": "ma-mgl-190b-3-715",
+   "cite": "Mass. Gen. Laws ch. 190B, §3-715",
+   "title": "Transactions authorized for personal representatives; exceptions",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-715",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "a personal representative other than a special personal representative, acting reasonably for the benefit of the interested persons, may properly: (1) retain assets owned by the decedent pending distribution or liquidation"
+  },
+  {
+   "id": "ma-mgl-190b-3-1201",
+   "cite": "Mass. Gen. Laws ch. 190B, §3-1201",
+   "title": "Collection of personal property by affidavit",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-1201",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "If a person domiciled in the commonwealth dies leaving an estate consisting entirely of personal property the total value of which may include a motor vehicle of which the decedent was the owner, and other personal property not exceeding $25,000 in value ... may, after the expiration of 30 days from the death of the decedent"
+  },
+  {
+   "id": "ma-mgl-190b-5-306",
+   "cite": "Mass. Gen. Laws ch. 190B, §5-306",
+   "title": "Findings; order of appointment",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section5-306",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "any required medical certificate is dated and the examination has taken place within 30 days prior to the hearing; (5) any required clinical team report is dated and the examinations have taken place within 180 days prior to the filing of the petition"
+  },
+  {
+   "id": "ma-mgl-190b-5-401",
+   "cite": "Mass. Gen. Laws ch. 190B, §5-401",
+   "title": "Management of estate",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section5-401",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "the court may appoint a limited or unlimited conservator or make any other protective order for cause as provided in this section"
+  },
+  {
+   "id": "ma-mgl-190b-5-501",
+   "cite": "Mass. Gen. Laws ch. 190B, §5-501",
+   "title": "Definition (durable power of attorney)",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section5-501",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "A durable power of attorney is a power of attorney by which a principal designates another his attorney in fact in writing and the writing contains the words ''This power of attorney shall not be affected by subsequent disability or incapacity of the principal, or lapse of time,'' or ''This power of attorney shall become effective upon the disability or incapacity of the principal,'' or similar words"
+  },
+  {
+   "id": "ma-mgl-201d-5",
+   "cite": "Mass. Gen. Laws ch. 201D, §5",
+   "title": "Authority of agent",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter201D/Section5",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "An agent shall have the authority to make any and all health care decisions on the principal's behalf that the principal could make, including decisions about life-sustaining treatment, subject, however, to any express limitations in the health care proxy."
+  },
+  {
+   "id": "ma-mgl-201d-6",
+   "cite": "Mass. Gen. Laws ch. 201D, §6",
+   "title": "Incapacity of patient; regained capacity",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter201D/Section6",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "Such determination shall be made by the attending physician according to accepted standards of medical judgment. The determination shall be in writing and shall contain the attending physician's opinion regarding the cause and nature of the principal's incapacity as well as its extent and probable duration. This written determination shall be entered into the principal's permanent medical record."
+  },
+  {
+   "id": "ma-mgl-203e-704",
+   "cite": "Mass. Gen. Laws ch. 203E, §704",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter203E/Section704",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "A vacancy in a trusteeship that is required to be filled shall be filled in the following order of priority: (1) by a person designated by the terms of the trust to act as successor trustee; (2) by a person appointed by unanimous agreement of the qualified beneficiaries"
+  },
+  {
+   "id": "ma-mgl-113a-4",
+   "cite": "Mass. Gen. Laws ch. 113A, §4",
+   "title": "Who may make anatomical gift before donor's death",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter113A/Section4",
+   "kind": "statute",
+   "retrieved": "2026-09-21",
+   "quote": "an agent of the donor including, but not limited to, a health care agent appointed under a health care proxy pursuant to chapter 201D, unless the power of attorney for health care or other record prohibits the agent from making"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "attorney in fact under a durable power of attorney"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a writing containing words showing the authority survives disability",
+     "phase": "capable",
+     "citations": [
+      "ma-mgl-190b-5-501"
+     ]
+    }
+   },
+   "diff": "Massachusetts enacted the Uniform Probate Code but not the Uniform Power of Attorney Act, and its durable power provision is the older UPC form carried into 190B Article V. Durability is opted into rather than out of: the writing must carry words such as 'This power of attorney shall not be affected by subsequent disability or incapacity of the principal, or lapse of time', or similar words showing that intent. Without them the power is not durable. That puts Massachusetts with Washington and New Jersey rather than with the uniform-act states, and the same sentence also supplies the springing form.",
+   "citations": [
+    "ma-mgl-190b-5-501"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "lane": {
+    "ends": [
+     {
+      "event": "Principal's disability or incapacity, the default where the writing lacks durability words",
+      "phase": "incapacitated",
+      "citations": [
+       "ma-mgl-190b-5-501"
+      ]
+     }
+    ]
+   },
+   "diff": "Non-durable is the Massachusetts default. Because §5-501 defines a durable power by the presence of particular words, an instrument without them simply is not durable, so the non-durable power is the silent instrument rather than a deliberate choice — the inverse of the model, where durability is presumed and has to be displaced.",
+   "citations": [
+    "ma-mgl-190b-5-501"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "lane": {
+    "starts": {
+     "event": "The disability or incapacity named in the instrument occurs; no certifier is designated by statute",
+     "phase": "incapacitated",
+     "citations": [
+      "ma-mgl-190b-5-501"
+     ]
+    }
+   },
+   "diff": "Massachusetts creates a springing power through the same magic-words route — 'This power of attorney shall become effective upon the disability or incapacity of the principal' — but, like Pennsylvania and New Jersey, supplies no machinery for deciding that it has sprung. There is no authorised determiner and none of the uniform act's fallbacks of a physician or licensed psychologist, or an attorney, judge or governmental official. Three of the thirteen states covered here now permit a springing power without saying who decides the condition is met.",
+   "citations": [
+    "ma-mgl-190b-5-501"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care agent under a health care proxy"
+   ],
+   "lane": {
+    "starts": {
+     "event": "Attending physician determines in writing that the principal lacks capacity, stating cause, nature, extent and probable duration, entered in the permanent medical record",
+     "phase": "incapacitated",
+     "citations": [
+      "ma-mgl-201d-6"
+     ]
+    }
+   },
+   "diff": "The health care proxy is its own chapter rather than part of the probate code, and the trigger is more demanding than the model's. One physician suffices, but the determination must be written, must state the attending physician's opinion on the cause and nature of the incapacity as well as its extent and probable duration, and must be entered into the principal's permanent medical record. Authority is otherwise broad: the agent may make any health care decision the principal could make, including about life-sustaining treatment, subject only to express limits in the proxy, and decides by the principal's wishes where known and by best interests where not.",
+   "citations": [
+    "ma-mgl-201d-6",
+    "ma-mgl-201d-5"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "unverified": true,
+   "diff": "No Massachusetts statute placing family members in a priority order to consent for an incapacitated patient was found. Authority runs either through a health care agent the individual appointed under a proxy, or through a guardian appointed by the probate court; the health care proxy chapter creates no fallback for the person who executed no proxy. This is a negative finding and not itself citable, so it is marked unverified and drawn dashed, with the two routes that do exist cited rather than authority for the absence of a third.",
+   "citations": [
+    "ma-mgl-201d-5",
+    "ma-mgl-190b-5-306"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "lane": {
+    "starts": {
+     "event": "Court appoints after hearing, with a medical certificate examined within 30 days of the hearing or a clinical team report examined within 180 days of filing",
+     "phase": "incapacitated",
+     "citations": [
+      "ma-mgl-190b-5-306"
+     ]
+    }
+   },
+   "diff": "Massachusetts enacted the older uniform guardianship and protective proceedings act rather than the protective-arrangements act the model follows, and §5-306 adds evidentiary freshness requirements the model does not state: any required medical certificate must be dated with the examination within 30 days before the hearing, and any required clinical team report within 180 days before the petition was filed. The section also opens with the instruction that the court exercise its authority so as to encourage maximum self-reliance and independence, and make orders only to the extent the person's limitations necessitate.",
+   "citations": [
+    "ma-mgl-190b-5-306"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "lane": {
+    "starts": {
+     "event": "Court appoints a limited or unlimited conservator, or makes another protective order, for cause",
+     "phase": "incapacitated",
+     "citations": [
+      "ma-mgl-190b-5-401"
+     ]
+    }
+   },
+   "diff": "The office is framed as management of the estate, and the court may appoint a limited or unlimited conservator or instead make any other protective order — so a single protective order without an appointment is an available outcome, which the model's role does not contemplate. The grounds follow the older uniform act rather than the functional, supported-decision-making test the model uses.",
+   "citations": [
+    "ma-mgl-190b-5-401"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "differs": false,
+   "diff": "Consistent with the baseline. Massachusetts is a Uniform Probate Code state and §3-203 gives first priority, in formal and informal proceedings alike, to the person with priority under a probated will, including someone nominated by a power conferred in the will.",
+   "citations": [
+    "ma-mgl-190b-3-203"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "lane": {
+    "assigned": {
+     "event": "Statutory priority; where there is no known spouse or next of kin, a public administrator appointed under chapter 194",
+     "phase": "deceased",
+     "citations": [
+      "ma-mgl-190b-3-203"
+     ]
+    }
+   },
+   "diff": "The order follows the Uniform Probate Code down to the heirs, then diverges at the tail. Massachusetts has no creditor class in the priority list at all: where there is no known spouse or next of kin the appointment goes to a public administrator under chapter 194. Creditors reach the question only on objection in a formal proceeding, and then only where the estate looks adequate for costs but inadequate for unsecured claims, when the court may appoint any qualified person on their petition.",
+   "citations": [
+    "ma-mgl-190b-3-203"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "voluntary personal representative"
+   ],
+   "lane": {
+    "assigned": {
+     "event": "Affidavit filed after 30 days where the estate is entirely personal property not exceeding $25,000, plus a motor vehicle",
+     "phase": "deceased",
+     "citations": [
+      "ma-mgl-190b-3-1201"
+     ]
+    }
+   },
+   "diff": "Massachusetts sets the lowest ceiling in the set — $25,000 — but excludes a motor vehicle from it, so the vehicle passes without counting against the limit. The estate must consist entirely of personal property, which bars the route wherever real property is involved, and the affidavit waits 30 days and requires that no petition for appointment has been filed. The statute also names an unusual class of affiant: where the decedent was receiving services from the department of mental health, the department of developmental services or the division of medical assistance, those agencies may designate someone to act as voluntary personal representative.",
+   "citations": [
+    "ma-mgl-190b-3-1201"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "differs": false,
+   "diff": "Consistent with the baseline. Massachusetts enacted the Uniform Trust Code as chapter 203E and §704 carries the uniform vacancy rule: the same six vacancy events including appointment of a guardian or conservator for an individual trustee, no need to fill a vacancy while a co-trustee remains, and the same order — the person designated by the terms of the trust, then unanimous agreement of the qualified beneficiaries, then the court.",
+   "citations": [
+    "ma-mgl-203e-704"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "unverified": true,
+   "diff": "Massachusetts has not enacted RUFADAA, so there is no designated recipient and no online-tool direction to override a will, trust or power of attorney. No Massachusetts statute addressing custodians of digital assets was found. This is a negative finding and not itself citable; it is marked unverified and drawn dashed, and the citation shows the general authority a personal representative does have rather than authority for the absence.",
+   "citations": [
+    "ma-mgl-190b-3-715"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "unverified": true,
+   "diff": "No Massachusetts statute was found giving a fiduciary access to a user's digital assets or applying the duties of care, loyalty and confidentiality to them. A personal representative takes the general transactional powers in §3-715, a conservator those in Article V, and a trustee those in chapter 203E; none addresses custodians, terms-of-service agreements or the content of electronic communications. Massachusetts is the second state in the set without such a statute, after Louisiana. Marked unverified and drawn dashed, as the absence is not citable.",
+   "citations": [
+    "ma-mgl-190b-3-715"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "differs": false,
+   "diff": "Consistent with the baseline. Chapter 113A carries the revised uniform anatomical gift act and keeps the uniform default: an agent may make a gift unless the power of attorney for health care or other record prohibits it. Massachusetts spells out what the model leaves implicit, naming the health care agent appointed under a chapter 201D proxy as within the class of agents who may act, so the proxy and the gift statute are explicitly joined.",
+   "citations": [
+    "ma-mgl-113a-4"
+   ]
+  }
+ ]
+}

@@ -1097,8 +1097,8 @@
    "title": "Custodian compliance and immunity",
    "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=112ab648-b257-97f2-48c2-61fe109a0b33",
    "kind": "uniform-act",
-   "retrieved": "2026-09-16",
-   "quote": "Not later than [60] days after receipt of the information required under Sections 7 through 15, a custodian shall comply"
+   "retrieved": "2026-10-02",
+   "quote": "(a) Not later than [60] days after receipt of the information required under Sections 7 through 15, a custodian shall comply with a request under this [act] from a fiduciary or designated recipient to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance. … (f) A custodian and its officers, employees, and agents are immune from liability for an act or omission done in good faith in compliance with this [act]."
   },
   {
    "id": "ruaga-2",
@@ -1207,6 +1207,33 @@
    "kind": "uniform-act",
    "retrieved": "2026-09-16",
    "quote": "measures necessary to insure the medical suitability of an organ for transplantation or therapy may not be withheld or withdrawn"
+  },
+  {
+   "id": "upoaa-119",
+   "cite": "UPOAA §119 (2006)",
+   "title": "Acceptance of and reliance upon acknowledged power of attorney",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-10-12",
+   "quote": "(c) A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the power of attorney is void, invalid, or terminated … may rely upon the power of attorney as if the power of attorney were genuine, valid and still in effect … (d) A person that is asked to accept an acknowledged power of attorney may request, and rely upon, without further investigation: (1) an agent's certification under penalty of perjury of any factual matter concerning the principal, agent, or power of attorney; (2) an English translation …; and (3) an opinion of counsel as to any matter of law concerning the power of attorney"
+  },
+  {
+   "id": "upoaa-120",
+   "cite": "UPOAA §120 (2006)",
+   "title": "Liability for refusal to accept an acknowledged power of attorney; Alternatives A and B",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-10-12",
+   "quote": "(b) … (1) a person shall either accept an acknowledged statutory form power of attorney or request a certification, a translation, or an opinion of counsel under Section 119(d) no later than seven business days after presentation of the power of attorney for acceptance; (2) … no later than five business days after receipt …; and (3) a person may not require an additional or different form of power of attorney … (d) A person that refuses in violation of this section to accept an acknowledged statutory form power of attorney is subject to: (1) a court order mandating acceptance of the power of attorney; and (2) liability for reasonable attorney's fees and costs incurred in any action or proceeding that confirms the validity of the power of attorney or mandates acceptance of the power of attorney."
+  },
+  {
+   "id": "upoaa-120-note",
+   "cite": "UPOAA §120 legislative note (2006)",
+   "title": "Legislative note: Alternatives A and B",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-10-12",
+   "quote": "Alternatives A and B are identical except that Alternative B applies only to acknowledged statutory form powers of attorney while Alternative A applies to all acknowledged powers of attorney."
   }
  ],
  "roles": [
@@ -1470,6 +1497,11 @@
      }
     ]
    },
+   "citations": [
+    "upoaa-119",
+    "upoaa-120",
+    "upoaa-120-note"
+   ],
    "canonical": "financial-poa-durable"
   },
   {
