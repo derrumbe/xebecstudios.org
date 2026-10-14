@@ -1818,6 +1818,7 @@
       ['Del. §§2306–7', [0, 1, 1]],
       ['supported dec.-making', [0, 0, 1]],
       ['Mo. §404.719', [0, 0, 1]],
+      ['Neb. §§30-4019–20', [1, 1, 1]],
     ];
     const cols = ['duty', 'remedy', 'safe harbour'];
     const lw = 150, cw = 100, cwd = 72, ch = 20, gap = 10, top = 32;
@@ -1834,7 +1835,7 @@
       });
     });
     return svgOpen(top + rows.length * (ch + gap) + 4,
-      'Which of duty, remedy and safe harbour each of the five acceptance regimes carries: Idaho and RUFADAA all three, Delaware the remedy and the safe harbour, the supported decision-making statutes and Missouri the safe harbour alone')
+      'Which of duty, remedy and safe harbour each of the six acceptance regimes carries: Idaho, RUFADAA and Nebraska all three, Delaware the remedy and the safe harbour, the supported decision-making statutes and Missouri the safe harbour alone')
       + out + '</svg>';
   }
 

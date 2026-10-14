@@ -3238,6 +3238,305 @@
    }
   ]
  },
+ "us-ne": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "§30-4004, the uniform §104 with a commencement qualifier the uniform text lacks — it applies to a power \"created after January 1, 2013\". Nebraska enacted the Uniform Power of Attorney Act as §§30-4001 to 30-4045 (2012 LB1113) with the uniform numbering mapped one-to-one.",
+    "citations": [
+     "ne-30-4004",
+     "ne-30-4001"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "No registration gate. §30-4009 makes a power effective on execution unless its terms defer it, and the §§30-4019 and 30-4020 acceptance regime runs on presentation. §30-4005 requires a signature, a mark under §64-105.02, or signature by another in the principal's conscious presence.",
+    "citations": [
+     "ne-30-4009",
+     "ne-30-4005"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "The health-care power of attorney runs from execution to death, revocation or the agent's withdrawal (§30-3410), with the agent empowered to decide once the principal is incapable (§30-3404(3)). For the statutory surrogate, §30-604(1) requires that the individual \"has been determined to be incapable by the primary health care provider\" and that no agent or guardian has been appointed.",
+    "citations": [
+     "ne-30-3410",
+     "ne-30-3404",
+     "ne-30-604"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Revised Uniform Fiduciary Access to Digital Assets Act, §§30-501 to 30-518 (2016 LB829). §30-501 cites it in full including the year — \"Revised Uniform Fiduciary Access to Digital Assets Act (2015)\" — where West Virginia and Missouri both drop the \"Revised\". §30-516 gives the custodian 60 days.",
+    "citations": [
+     "ne-30-501",
+     "ne-30-516"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§30-504 is the uniform online-tool rule: a direction given through a custodian's online tool overrides a contrary direction in a will, trust, power of attorney or other record where the tool allows the user to modify or delete it at all times.",
+    "citations": [
+     "ne-30-504"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act, §§71-4824 et seq. (2010 LB1036), with the Donor Registry of Nebraska under §71-4822. §71-4827 lets an agent make a gift during the donor's life and §71-4832 ranks the post-mortem classes; §71-4843 addresses the conflict between a gift and an advance health care directive expressly.",
+    "citations": [
+     "ne-71-4827",
+     "ne-71-4832",
+     "ne-71-4822",
+     "ne-71-4843"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "§30-24,125: **$100,000** of personal property after **30 days**, on an affidavit presented to whoever holds the asset, with no grant issuing. Nebraska runs a parallel route for realty — §30-24,129 lets a successor record an affidavit with the register of deeds where the decedent's interest in all Nebraska real property does not exceed $100,000, valued from the assessment rolls for the year of death, and makes it prima facie evidence of the facts stated. Two details are distinctive: the affidavit may rest on an \"abstract of death\" under §71-601.01 where a certified death certificate is delayed, and it must acknowledge the specific perjury section, §28-915.",
+    "citations": [
+     "ne-30-24-125",
+     "ne-30-24-126",
+     "ne-30-24-129"
+    ],
+    "threshold": 100000,
+    "currency": "USD",
+    "waitingDays": 30,
+    "thresholdAlt": {
+     "amount": 100000,
+     "condition": "for the decedent’s interest in Nebraska real property, by affidavit recorded with the register of deeds under §30-24,129, valued from the assessment rolls for the year of death"
+    }
+   },
+   "probateGrantName": {
+    "value": "letters (informal or formal appointment)",
+    "note": "Uniform Probate Code two-track structure: §30-2414 takes the application for informal probate or appointment and §30-2421 sets the registrar's required findings before letters issue informally, with formal proceedings available in the alternative. §30-24,127 allows a summary administrative procedure for an estate not exceeding the allowances and expenses it lists.",
+    "citations": [
+     "ne-30-2414",
+     "ne-30-2421",
+     "ne-30-24-127"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "ne-30-4004",
+    "cite": "Neb. Rev. Stat. § 30-4004",
+    "title": "Power of attorney is durable",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4004",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "A power of attorney created after January 1, 2013, under the Nebraska Uniform Power of Attorney Act is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+   },
+   {
+    "id": "ne-30-4001",
+    "cite": "Neb. Rev. Stat. § 30-4001",
+    "title": "Act, how cited",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4001",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "Sections 30-4001 to 30-4045 may be cited as the Nebraska Uniform Power of Attorney Act."
+   },
+   {
+    "id": "ne-30-4009",
+    "cite": "Neb. Rev. Stat. § 30-4009",
+    "title": "When power of attorney effective",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4009",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1) A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency."
+   },
+   {
+    "id": "ne-30-4005",
+    "cite": "Neb. Rev. Stat. § 30-4005",
+    "title": "Execution of power of attorney",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4005",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "A power of attorney must be signed by the principal or marked by the principal in accordance with section 64-105.02 or signed in the principal’s conscious presence by another individual directed by the principal to sign the principal’s name on the power of attorney."
+   },
+   {
+    "id": "ne-30-3410",
+    "cite": "Neb. Rev. Stat. § 30-3410",
+    "title": "Power of attorney; duration",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3410",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "A power of attorney for health care shall continue in effect until the principal’s death, until revoked pursuant to section 30-3420, or until the attorney in fact and any successor attorney in fact withdraws pursuant to section 30-3407."
+   },
+   {
+    "id": "ne-30-3404",
+    "cite": "Neb. Rev. Stat. § 30-3404",
+    "title": "Power of attorney; contents",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3404",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "The power of attorney for health care shall (1) be in writing, (2) identify the principal, the attorney in fact, and the successor attorney in fact, if any, (3) specifically authorize the attorney in fact to make health care decisions on behalf of the principal in the event the principal is incapable, (4) show the date of its execution, and (5) be witnessed and signed by at least two adults, each of whom witnesses either the signing and dating of the power of attorney for health care by the principal or the principal’s acknowledgment of the signature and date, or be signed and acknowledged by the principal before a notary public who shall not be the attorney in fact …"
+   },
+   {
+    "id": "ne-30-604",
+    "cite": "Neb. Rev. Stat. § 30-604",
+    "title": "Surrogate; powers; designation of surrogate; priorities; consensus; meeting",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-604",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1) A surrogate may make a health care decision for an individual if the individual has been determined to be incapable by the primary health care provider and no agent or guardian has been appointed for the individual. … (2)(a) An individual may designate a natural person to act as surrogate for the individual by personally informing the primary health care provider. (b) If an individual has not designated a surrogate and there is no power of attorney for health care or court-appointed guardian … any member of the following classes of natural persons, in the following order of priority, may act as surrogate … (i) The individual’s spouse …; (ii) A child of the individual who is an adult or an emancipated minor; (iii) A parent of the individual; or (iv) A brother or sister of the individual who is an adult or an emancipated minor. (c) A person in a class with greater priority to serve as a surrogate may decline to serve as surrogate by informing the primary health care provider of that fact. Such fact shall be noted in the individual’s medical record."
+   },
+   {
+    "id": "ne-30-501",
+    "cite": "Neb. Rev. Stat. § 30-501",
+    "title": "Act, how cited",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-501",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "Sections 30-501 to 30-518 shall be known and may be cited as the Revised Uniform Fiduciary Access to Digital Assets Act (2015)."
+   },
+   {
+    "id": "ne-30-516",
+    "cite": "Neb. Rev. Stat. § 30-516",
+    "title": "Custodian compliance and immunity",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-516",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(a) Not later than sixty days after receipt of the information required under sections 30-507 to 30-515, a custodian shall comply with a request under the Revised Uniform Fiduciary Access to Digital Assets Act (2015) from a fiduciary or designated recipient to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance."
+   },
+   {
+    "id": "ne-30-504",
+    "cite": "Neb. Rev. Stat. § 30-504",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-504",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ne-71-4827",
+    "cite": "Neb. Rev. Stat. § 71-4827",
+    "title": "Who may make anatomical gift before donor’s death",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-4827",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ne-71-4832",
+    "cite": "Neb. Rev. Stat. § 71-4832",
+    "title": "Who may make anatomical gift of decedent’s body or part",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-4832",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ne-71-4822",
+    "cite": "Neb. Rev. Stat. § 71-4822",
+    "title": "Donor Registry of Nebraska; establishment; duties",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-4822",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ne-71-4843",
+    "cite": "Neb. Rev. Stat. § 71-4843",
+    "title": "Effect of anatomical gift on advance health care directive",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-4843",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ne-30-24-125",
+    "cite": "Neb. Rev. Stat. § 30-24,125",
+    "title": "Collection of personal property by affidavit",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,125",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(a) Thirty days after the death of a decedent, any person indebted to the decedent or having possession of tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action belonging to the decedent shall make payment of the indebtedness or deliver the tangible personal property … to a person claiming to be the successor of the decedent upon being presented an affidavit made by or on behalf of the successor stating: (1) the value of all of the personal property in the decedent’s estate, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars; (2) thirty days have elapsed since the death of the decedent as shown in a certified or authenticated copy of the decedent’s death certificate, or in the event of a delay in the production of a certified death certificate, an abstract of death as defined in section 71-601.01, attached to the affidavit; … (4) the person or persons claiming as successors under the affidavit swear or affirm that all statements in the affidavit are true and material and further acknowledge that any false statement may subject the person or persons to penalties relating to perjury under section 28-915; (5) no application or petition for the appointment of a personal representative is pending or has been granted in any jurisdiction …"
+   },
+   {
+    "id": "ne-30-24-126",
+    "cite": "Neb. Rev. Stat. § 30-24,126",
+    "title": "Effect of affidavit",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,126",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ne-30-24-129",
+    "cite": "Neb. Rev. Stat. § 30-24,129",
+    "title": "Succession to real property by affidavit",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,129",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(a) Thirty days after the death of a decedent, any person claiming as successor to the decedent’s interest in real property in this state may file or cause to be filed on his or her behalf, with the register of deeds office of a county in which the real property … is located, an affidavit describing the real property owned by the decedent and the interest of the decedent in the property. The affidavit shall be signed by all persons claiming as successors … and shall be prima facie evidence of the facts stated in the affidavit. The affidavit shall state: (1) the value of the decedent’s interest in all real property in the decedent’s estate located in this state does not exceed one hundred thousand dollars …"
+   },
+   {
+    "id": "ne-30-2414",
+    "cite": "Neb. Rev. Stat. § 30-2414",
+    "title": "Informal probate or appointment proceedings; application; contents",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2414",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ne-30-2421",
+    "cite": "Neb. Rev. Stat. § 30-2421",
+    "title": "Informal appointment proceedings; proof and findings required",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2421",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ne-30-24-127",
+    "cite": "Neb. Rev. Stat. § 30-24,127",
+    "title": "Small estates; summary administrative procedure",
+    "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,127",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "If it appears from the inventory and appraisal that the value of the entire estate, less liens and encumbrances, does not exceed homestead allowance, exempt property, family allowance, costs and expenses of administration, reasonable funeral expenses, and reasonable and necessary medical and hospital expenses of the last illness of the decedent, the personal representative …"
+   }
+  ]
+ },
  "us-ok": {
   "features": {
    "deceasedPersonalDataProtected": {

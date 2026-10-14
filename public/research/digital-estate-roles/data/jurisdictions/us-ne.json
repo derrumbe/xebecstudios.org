@@ -1,0 +1,573 @@
+{
+ "jurisdiction": "us-ne",
+ "name": "Nebraska",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Probate Code (Nebraska Probate Code)",
+  "Uniform Power of Attorney Act (2006), enacted 2012, with Section 108(b) reversed to the pre-2006 rule and Section 120 Alternative A extended",
+  "Uniform Trust Code (2000), enacted 2003, omitting Section 1013",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2015), enacted 2016",
+  "Revised Uniform Anatomical Gift Act (2006), enacted 2010"
+ ],
+ "note": "Nebraska is the most uniform-law state in this set — the probate code, the power of attorney act, the trust code, the digital-assets act and the anatomical gift act are all the uniform texts, and its trust-code catchlines even print the uniform section numbers. That makes its two departures unusually legible. It **kept the rule the Uniform Power of Attorney Act was written to abolish**: §30-4008(2) gives a court-appointed conservator the principal's own power to revoke or amend the power of attorney, which the official comment to uniform §108 identifies as the pre-2006 position the section departs from. And it **omitted Section 1013**, so Nebraska is the only Uniform Trust Code state here whose successor trustee has no statutory certification of trust to produce. Against those, §30-4020 builds the strongest duty to accept a power of attorney in this data, adding prohibited grounds for refusal and a liability rule equating refusal of the agent with refusal of the principal; and the 2018 Health Care Surrogacy Act lets a person appoint a surrogate merely by telling their clinician. The adoption tracker records no Uniform Probate Code enactment for Nebraska, which is a false negative of the Idaho kind — §30-2601 calls it the Nebraska Probate Code.",
+ "citations": [
+  {
+   "id": "ne-30-4001",
+   "cite": "Neb. Rev. Stat. § 30-4001",
+   "title": "Act, how cited",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4001",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "Sections 30-4001 to 30-4045 may be cited as the Nebraska Uniform Power of Attorney Act."
+  },
+  {
+   "id": "ne-30-4004",
+   "cite": "Neb. Rev. Stat. § 30-4004",
+   "title": "Power of attorney is durable",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4004",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "A power of attorney created after January 1, 2013, under the Nebraska Uniform Power of Attorney Act is durable unless it expressly provides that it is terminated by the incapacity of the principal."
+  },
+  {
+   "id": "ne-30-4005",
+   "cite": "Neb. Rev. Stat. § 30-4005",
+   "title": "Execution of power of attorney",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4005",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "A power of attorney must be signed by the principal or marked by the principal in accordance with section 64-105.02 or signed in the principal’s conscious presence by another individual directed by the principal to sign the principal’s name on the power of attorney."
+  },
+  {
+   "id": "ne-30-4008",
+   "cite": "Neb. Rev. Stat. § 30-4008",
+   "title": "Nomination of conservator or guardian; relation of agent to court-appointed fiduciary",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4008",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(2) If, following execution of a durable power of attorney, a court of the principal’s domicile appoints a conservator, guardian of the estate, or other fiduciary charged with the management of all the principal’s property or all of his or her property except specified exclusions, the agent shall be accountable to the fiduciary as well as to the principal. The fiduciary shall have the same power to revoke or amend the power of attorney that the principal would have had if he or she were not disabled or incapacitated."
+  },
+  {
+   "id": "ne-30-4009",
+   "cite": "Neb. Rev. Stat. § 30-4009",
+   "title": "When power of attorney effective",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4009",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) A power of attorney is effective when executed unless the principal provides in the power of attorney that it becomes effective at a future date or upon the occurrence of a future event or contingency."
+  },
+  {
+   "id": "ne-30-4010",
+   "cite": "Neb. Rev. Stat. § 30-4010",
+   "title": "Termination of power of attorney or agent’s authority",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4010",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) A power of attorney terminates when: (a) The principal dies; (b) The principal becomes incapacitated, if the power of attorney is not durable; (c) The principal revokes the power of attorney; (d) The power of attorney provides that it terminates; (e) The purpose of the power of attorney is accomplished …"
+  },
+  {
+   "id": "ne-30-4019",
+   "cite": "Neb. Rev. Stat. § 30-4019",
+   "title": "Acceptance of and reliance upon acknowledged power of attorney",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4019",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-4020",
+   "cite": "Neb. Rev. Stat. § 30-4020",
+   "title": "Liability for refusal to accept acknowledged power of attorney",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4020",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) … (a) A person shall either accept an acknowledged power of attorney or request a certification, a translation, or an opinion of counsel … no later than seven business days after presentation …; (b) … no later than five business days after receipt …; and (c) A person may not require an additional or different form of power of attorney for authority granted in the power of attorney presented, except as provided in section 30-4031. (2) A person is not required to accept an acknowledged power of attorney if: … (g) The person brought, or has actual knowledge that another person has brought, a judicial proceeding for construction of a power of attorney or review of the agent’s conduct; or (h) The power of attorney becomes effective upon the occurrence of an event or contingency, and neither a certification nor evidence of the occurrence of the event or contingency is presented … (3) A person may not refuse to accept an acknowledged power of attorney if any of the following applies: (a) The person’s reason for refusal is based exclusively upon the date the power of attorney was executed; or (b) The person’s refusal is based exclusively on a mandate that an additional or different power of attorney form must be used. (4)(a) A person may bring an action or proceeding to mandate the acceptance of an acknowledged power of attorney. (b) … a person found liable for refusing to accept such power of attorney is subject to: (i) Liability to the principal and to the principal’s heirs, assigns, and personal representative … in the same manner as the person would be liable had the person refused to accept the authority of the principal to act on the principal’s own behalf; (ii) A court order mandating acceptance of the power of attorney; and (iii) Liability for re[asonable attorney’s fees and costs] …"
+  },
+  {
+   "id": "ne-30-4042",
+   "cite": "Neb. Rev. Stat. § 30-4042",
+   "title": "Agent’s certification",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-4042",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-3401",
+   "cite": "Neb. Rev. Stat. § 30-3401",
+   "title": "Legislative intent",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3401",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) It is the intent of the Legislature to establish a decisionmaking process which allows a competent adult to designate another person to make health care and medical treatment decisions if the adult becomes incapable of making such decisions."
+  },
+  {
+   "id": "ne-30-3402",
+   "cite": "Neb. Rev. Stat. § 30-3402",
+   "title": "Terms, defined",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3402",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-3404",
+   "cite": "Neb. Rev. Stat. § 30-3404",
+   "title": "Power of attorney; contents",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3404",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "The power of attorney for health care shall (1) be in writing, (2) identify the principal, the attorney in fact, and the successor attorney in fact, if any, (3) specifically authorize the attorney in fact to make health care decisions on behalf of the principal in the event the principal is incapable, (4) show the date of its execution, and (5) be witnessed and signed by at least two adults, each of whom witnesses either the signing and dating of the power of attorney for health care by the principal or the principal’s acknowledgment of the signature and date, or be signed and acknowledged by the principal before a notary public who shall not be the attorney in fact …"
+  },
+  {
+   "id": "ne-30-3408",
+   "cite": "Neb. Rev. Stat. § 30-3408",
+   "title": "Power of attorney; form; validity",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3408",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-3410",
+   "cite": "Neb. Rev. Stat. § 30-3410",
+   "title": "Power of attorney; duration",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3410",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "A power of attorney for health care shall continue in effect until the principal’s death, until revoked pursuant to section 30-3420, or until the attorney in fact and any successor attorney in fact withdraws pursuant to section 30-3407."
+  },
+  {
+   "id": "ne-30-3420",
+   "cite": "Neb. Rev. Stat. § 30-3420",
+   "title": "Power of attorney; health care decision; revocation; limitations; effect",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3420",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) A power of attorney for health care or a health care decision made by an attorney in fact may be revoked at any time by a principal who is competent and in any manner by which the principal is able to communicate his or her intent to revoke. Revocation shall be effective upon communication to the attending physician, the health care provider who shall promptly inform the attending physician of the revocation, or the attorney in fact …"
+  },
+  {
+   "id": "ne-30-601",
+   "cite": "Neb. Rev. Stat. § 30-601",
+   "title": "Act, how cited",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-601",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "Sections 30-601 to 30-619 shall be known and may be cited as the Health Care Surrogacy Act."
+  },
+  {
+   "id": "ne-30-604",
+   "cite": "Neb. Rev. Stat. § 30-604",
+   "title": "Surrogate; powers; designation of surrogate; priorities; consensus; meeting",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-604",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(1) A surrogate may make a health care decision for an individual if the individual has been determined to be incapable by the primary health care provider and no agent or guardian has been appointed for the individual. … (2)(a) An individual may designate a natural person to act as surrogate for the individual by personally informing the primary health care provider. (b) If an individual has not designated a surrogate and there is no power of attorney for health care or court-appointed guardian … any member of the following classes of natural persons, in the following order of priority, may act as surrogate … (i) The individual’s spouse …; (ii) A child of the individual who is an adult or an emancipated minor; (iii) A parent of the individual; or (iv) A brother or sister of the individual who is an adult or an emancipated minor. (c) A person in a class with greater priority to serve as a surrogate may decline to serve as surrogate by informing the primary health care provider of that fact. Such fact shall be noted in the individual’s medical record."
+  },
+  {
+   "id": "ne-30-605",
+   "cite": "Neb. Rev. Stat. § 30-605",
+   "title": "Persons disqualified to serve as surrogate",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-605",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-2601",
+   "cite": "Neb. Rev. Stat. § 30-2601",
+   "title": "Definitions and use of terms",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2601",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "Unless otherwise apparent from the context, in the Nebraska Probate Code: (1) Incapacitated person means any person who is impaired by reason of mental illness, mental deficiency, physical illness or disability, chronic use of drugs, chronic intoxication, or other cause (except minority) to the extent that the person lacks sufficient understanding or capacity to make or communicate responsible decisions concerning himself or herself …"
+  },
+  {
+   "id": "ne-30-2619",
+   "cite": "Neb. Rev. Stat. § 30-2619",
+   "title": "Procedure for court appointment of a guardian or standby guardian of a person alleged to be incapacitated",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2619",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-2620",
+   "cite": "Neb. Rev. Stat. § 30-2620",
+   "title": "Findings; appointment of guardian; authority and responsibility of guardian",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2620",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) The court may appoint a guardian if it is satisfied by clear and convincing evidence that the person for whom a guardian is sought is incapacitated and that the appointment is necessary or desirable as the least restrictive alternative available for providing continuing care or supervision of the person of the person alleged to be incapacitated."
+  },
+  {
+   "id": "ne-30-2630",
+   "cite": "Neb. Rev. Stat. § 30-2630",
+   "title": "Protective proceedings",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2630",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "Upon petition and after notice and hearing in accordance with the provisions of this part, the court may appoint a conservator or make other protective order for cause as follows …"
+  },
+  {
+   "id": "ne-30-2637",
+   "cite": "Neb. Rev. Stat. § 30-2637",
+   "title": "Powers and duties of conservator",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2637",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-2414",
+   "cite": "Neb. Rev. Stat. § 30-2414",
+   "title": "Informal probate or appointment proceedings; application; contents",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2414",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-2421",
+   "cite": "Neb. Rev. Stat. § 30-2421",
+   "title": "Informal appointment proceedings; proof and findings required",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2421",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-24-125",
+   "cite": "Neb. Rev. Stat. § 30-24,125",
+   "title": "Collection of personal property by affidavit",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,125",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) Thirty days after the death of a decedent, any person indebted to the decedent or having possession of tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action belonging to the decedent shall make payment of the indebtedness or deliver the tangible personal property … to a person claiming to be the successor of the decedent upon being presented an affidavit made by or on behalf of the successor stating: (1) the value of all of the personal property in the decedent’s estate, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars; (2) thirty days have elapsed since the death of the decedent as shown in a certified or authenticated copy of the decedent’s death certificate, or in the event of a delay in the production of a certified death certificate, an abstract of death as defined in section 71-601.01, attached to the affidavit; … (4) the person or persons claiming as successors under the affidavit swear or affirm that all statements in the affidavit are true and material and further acknowledge that any false statement may subject the person or persons to penalties relating to perjury under section 28-915; (5) no application or petition for the appointment of a personal representative is pending or has been granted in any jurisdiction …"
+  },
+  {
+   "id": "ne-30-24-126",
+   "cite": "Neb. Rev. Stat. § 30-24,126",
+   "title": "Effect of affidavit",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,126",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-24-127",
+   "cite": "Neb. Rev. Stat. § 30-24,127",
+   "title": "Small estates; summary administrative procedure",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,127",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "If it appears from the inventory and appraisal that the value of the entire estate, less liens and encumbrances, does not exceed homestead allowance, exempt property, family allowance, costs and expenses of administration, reasonable funeral expenses, and reasonable and necessary medical and hospital expenses of the last illness of the decedent, the personal representative …"
+  },
+  {
+   "id": "ne-30-24-129",
+   "cite": "Neb. Rev. Stat. § 30-24,129",
+   "title": "Succession to real property by affidavit",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,129",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) Thirty days after the death of a decedent, any person claiming as successor to the decedent’s interest in real property in this state may file or cause to be filed on his or her behalf, with the register of deeds office of a county in which the real property … is located, an affidavit describing the real property owned by the decedent and the interest of the decedent in the property. The affidavit shall be signed by all persons claiming as successors … and shall be prima facie evidence of the facts stated in the affidavit. The affidavit shall state: (1) the value of the decedent’s interest in all real property in the decedent’s estate located in this state does not exceed one hundred thousand dollars …"
+  },
+  {
+   "id": "ne-30-3801",
+   "cite": "Neb. Rev. Stat. § 30-3801",
+   "title": "Nebraska Uniform Trust Code, how cited",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3801",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-3895",
+   "cite": "Neb. Rev. Stat. § 30-3895",
+   "title": "Reliance on trust instrument",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-3895",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-38-101",
+   "cite": "Neb. Rev. Stat. § 30-38,101",
+   "title": "Protection of person dealing with trustee",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-38,101",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-501",
+   "cite": "Neb. Rev. Stat. § 30-501",
+   "title": "Act, how cited",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-501",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "Sections 30-501 to 30-518 shall be known and may be cited as the Revised Uniform Fiduciary Access to Digital Assets Act (2015)."
+  },
+  {
+   "id": "ne-30-504",
+   "cite": "Neb. Rev. Stat. § 30-504",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-504",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-30-516",
+   "cite": "Neb. Rev. Stat. § 30-516",
+   "title": "Custodian compliance and immunity",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-516",
+   "kind": "statute",
+   "retrieved": "2026-10-14",
+   "quote": "(a) Not later than sixty days after receipt of the information required under sections 30-507 to 30-515, a custodian shall comply with a request under the Revised Uniform Fiduciary Access to Digital Assets Act (2015) from a fiduciary or designated recipient to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the court for an order directing compliance."
+  },
+  {
+   "id": "ne-30-517",
+   "cite": "Neb. Rev. Stat. § 30-517",
+   "title": "Uniformity of application and construction",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-517",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-71-4822",
+   "cite": "Neb. Rev. Stat. § 71-4822",
+   "title": "Donor Registry of Nebraska; establishment; duties",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-4822",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-71-4827",
+   "cite": "Neb. Rev. Stat. § 71-4827",
+   "title": "Who may make anatomical gift before donor’s death",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-4827",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-71-4832",
+   "cite": "Neb. Rev. Stat. § 71-4832",
+   "title": "Who may make anatomical gift of decedent’s body or part",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-4832",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "ne-71-4843",
+   "cite": "Neb. Rev. Stat. § 71-4843",
+   "title": "Effect of anatomical gift on advance health care directive",
+   "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-4843",
+   "kind": "statute",
+   "retrieved": "2026-10-14"
+  },
+  {
+   "id": "upoaa-108-cmt",
+   "cite": "UPOAA §108 cmt. (2006)",
+   "title": "Relation of agent to court-appointed fiduciary; comment",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
+   "kind": "uniform-act",
+   "retrieved": "2026-10-14",
+   "quote": "Section 108(b) is a departure from the Uniform Durable Power of Attorney Act which gave a court-appointed fiduciary the same power to revoke or amend a power of attorney as the principal would have if not incapacitated."
+  },
+  {
+   "id": "utc-1013-ne",
+   "cite": "UTC §1013 (2000, as amended)",
+   "title": "Certification of trust",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-10-14",
+   "quote": "SECTION 1013. CERTIFICATION OF TRUST. (a) Instead of furnishing a copy of the trust instrument to a person other than a beneficiary, the trustee may furnish to the person a certification of trust … (b) A certification of trust may be signed or otherwise authenticated by any trustee."
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "power of attorney",
+    "agent",
+    "attorney in fact"
+   ],
+   "diff": "Nebraska enacted the Uniform Power of Attorney Act as §§30-4001 to 30-4045 (2012 LB1113), with the uniform numbering mapped one-to-one — §104 to 30-4004, §108 to 30-4008, §119 to 30-4019, §120 to 30-4020. §30-4004 keeps the durability default, with a commencement qualifier the uniform text does not have: it applies to a power \"created **after January 1, 2013**\".\n\nTwo deviations, and the first is the most consequential single sentence this reference has found in a power-of-attorney act.\n\n**§30-4008(2) gives the conservator the principal's own revocation power.** After making the agent accountable to a later-appointed conservator, it continues: \"The fiduciary shall have the **same power to revoke or amend the power of attorney that the principal would have had** if he or she were not disabled or incapacitated.\" The uniform act's official comment to §108 describes that rule as the thing the section was written to abolish — \"Section 108(b) is a departure from the Uniform Durable Power of Attorney Act which gave a court-appointed fiduciary the same power to revoke or amend a power of attorney as the principal would have if not incapacitated.\" Nebraska adopted the 2006 act in 2012 and kept the 1979 rule the 2006 act departed from.\n\n**§30-4020 is the strongest acceptance regime in this data**, and it goes beyond both uniform alternatives. It is Alternative A in scope — the duty runs to any acknowledged power of attorney, with the uniform seven-business-day clock and five further days after a certification arrives. On top of that Nebraska adds: two refusal grounds the uniform act lacks, for a pending judicial proceeding construing the power or reviewing the agent's conduct (§30-4020(2)(g)) and for a springing power presented without a certification or evidence that the contingency occurred ((2)(h)); a list of **prohibited** grounds, so a refusal may not rest *exclusively* on the power's execution date or on insisting a different form be used ((3)); and a liability rule that treats refusing the agent as refusing the principal — the refuser is liable \"in the same manner as the person would be liable had the person refused to accept the authority of the principal to act on the principal's own behalf\" ((4)(b)(i)), on top of the court order and the fee award.\n\nExecution is the uniform signature rule plus a Nebraska accommodation: §30-4005 lets the principal **mark** the instrument under §64-105.02 where they cannot sign.",
+   "citations": [
+    "ne-30-4001",
+    "ne-30-4004",
+    "ne-30-4005",
+    "ne-30-4008",
+    "ne-30-4010",
+    "ne-30-4019",
+    "ne-30-4020",
+    "ne-30-4042",
+    "upoaa-108-cmt"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "localNames": [
+    "nondurable power of attorney"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline: §30-4010(1)(b) terminates a power of attorney on the principal's incapacity where it is not durable, incapacity being defined in §30-4002.",
+   "citations": [
+    "ne-30-4004",
+    "ne-30-4010"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "localNames": [
+    "springing power of attorney"
+   ],
+   "diff": "§30-4009 is the uniform springing-power structure. Nebraska then does something with it that no other jurisdiction here does: it makes the *evidence* of the contingency part of the acceptance bargain. Under §30-4020(2)(h) a person may refuse a power that \"becomes effective upon the occurrence of an event or contingency\" where \"neither a certification nor evidence of the occurrence of the event or contingency is presented\". Elsewhere a springing power's trigger is a problem for the agent and the court; in Nebraska it is an enumerated, lawful reason for a bank to say no, which is the closest thing in this data to a statutory evidence requirement attached to a condition precedent.",
+   "citations": [
+    "ne-30-4009",
+    "ne-30-4020",
+    "ne-30-4042"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "attorney in fact",
+    "power of attorney for health care"
+   ],
+   "diff": "A separate and older act — §§30-3401 to 30-3432, from 1992 — which §30-3401 frames as a pure delegation mechanism: the Legislature intends \"to allow an adult to exercise rights he or she already possesses by means of delegation of decisionmaking authority\", and expressly \"does not intend to encourage or discourage any particular health care or treatment decision or to create any new right\".\n\nExecution is the lowest-friction form in this set that still requires something: §30-3404(5) takes **either** two adult witnesses **or** acknowledgement before a notary public who is not the attorney in fact. Most states require one or the other; Nebraska offers the choice.\n\nRevocation is formless, as in Missouri. §30-3420(1): revocable \"at any time by a principal who is competent and **in any manner by which the principal is able to communicate** his or her intent to revoke\", effective on communication to the attending physician, to a provider who must then promptly inform the attending physician, or to the agent. §30-3410 otherwise runs the authority to death, revocation or the agent's withdrawal.",
+   "citations": [
+    "ne-30-3401",
+    "ne-30-3402",
+    "ne-30-3404",
+    "ne-30-3408",
+    "ne-30-3410",
+    "ne-30-3420"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate",
+    "primary health care provider"
+   ],
+   "diff": "Nebraska's surrogate is a **2018** statute — the Health Care Surrogacy Act, §§30-601 to 30-619 (LB104) — which makes it one of the newest default-surrogate regimes here, and it is drafted differently from the older ones in two ways.\n\nFirst, **the principal can appoint a surrogate by speaking to a clinician**. §30-604(2)(a): \"An individual may designate a natural person to act as surrogate for the individual **by personally informing the primary health care provider**.\" No writing, no witness, no notary, no form — the appointment is complete on the telling. That is the least formal act of appointment in this reference, and it sits in the same state whose financial power of attorney carries the most demanding duty of acceptance.\n\nSecond, the fallback list is short and has no catch-all: spouse (unless legally separated or proceedings are pending), adult or emancipated child, parent, adult or emancipated sibling. Where other states continue to grandchildren, close friends or an adult who has shown special care and concern, Nebraska stops at the sibling. A person with no living spouse, child, parent or sibling has no surrogate, and §30-604(1) requires that the provider have determined the individual incapable and that no agent or guardian has been appointed.\n\n§30-604(2)(c) lets a higher-priority person **decline** by informing the provider, with the fact noted in the medical record — so the record, rather than any instrument, is where the chain of authority is written down.",
+   "citations": [
+    "ne-30-601",
+    "ne-30-604",
+    "ne-30-605"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian",
+    "standby guardian",
+    "ward"
+   ],
+   "diff": "Nebraska is a Uniform Probate Code state — §30-2601 names the Nebraska Probate Code — and guardianship sits in its part 26. §30-2620(a) requires **clear and convincing evidence** both of incapacity and that the appointment \"is necessary or desirable as the **least restrictive alternative** available\", which puts the least-restrictive test in the finding itself rather than only in the guardian's duties. §30-2619 lets the allegedly incapacitated person or any person interested in their welfare petition, and provides for a **standby** guardian alongside the ordinary appointment.",
+   "citations": [
+    "ne-30-2601",
+    "ne-30-2619",
+    "ne-30-2620"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "protected person"
+   ],
+   "diff": "§30-2630 is the uniform protective-proceedings provision, and §30-2637 carries the conservator's powers.\n\nThe consequence for an existing power of attorney is Nebraska's outlier rule: under §30-4008(2) the conservator is not merely someone the agent must account to — the conservator holds \"the same power to revoke or amend the power of attorney that the principal would have had\". The person the principal chose can be dismissed by the person the court chose, without the court itself having to decide anything about the agency.",
+   "citations": [
+    "ne-30-2630",
+    "ne-30-2637",
+    "ne-30-4008"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "personal representative",
+    "letters",
+    "informal appointment"
+   ],
+   "diff": "Uniform Probate Code machinery: §30-2414 takes the application for **informal** probate or appointment, and §30-2421 sets what the registrar must find before issuing letters informally. So Nebraska has the two-track UPC structure — informal appointment by a registrar, formal appointment by the court — rather than the single qualification hearing that the non-UPC states in this set use.",
+   "citations": [
+    "ne-30-2414",
+    "ne-30-2421"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "personal representative",
+    "administration"
+   ],
+   "diff": "The same §§30-2414 and 30-2421 informal route covers appointment in intestacy, the Uniform Probate Code not distinguishing executor from administrator as the non-UPC states do; §30-24,127 then allows a summary administrative procedure where the estate does not exceed the homestead allowance, exempt property, family allowance, administration costs, funeral expenses and last-illness medical expenses.",
+   "citations": [
+    "ne-30-2414",
+    "ne-30-2421",
+    "ne-30-24-127"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "localNames": [
+    "successor",
+    "affidavit under §30-24,125",
+    "register of deeds affidavit"
+   ],
+   "diff": "**$100,000 after 30 days**, on an affidavit presented to whoever holds the asset (§30-24,125) — and Nebraska is the clearest case in this data of a state running *two parallel* affidavit routes, because §30-24,129 does the same job for **real property**.\n\nThe realty route is the interesting one. The successor files an affidavit with the **register of deeds** of the county where the land lies, describing the property and the decedent's interest; it must be signed by all persons claiming as successors; and it is \"**prima facie evidence** of the facts stated\". The $100,000 ceiling there is measured on the decedent's interest in all Nebraska real property, valued from the assessment rolls for the year of death less taxes due. So the claim becomes a public record in the land registry rather than a piece of paper handed to a custodian.\n\nTwo details in §30-24,125 are worth carrying for anyone designing around proof of death. The affidavit must recite a certified or authenticated death certificate — **or, \"in the event of a delay in the production of a certified death certificate, an abstract of death\"** under §71-601.01. Nebraska is the only jurisdiction here whose small-estate statute anticipates that the death certificate may not exist yet and names a substitute artefact. And the affidavit must expressly \"swear or affirm\" and \"acknowledge that any false statement may subject the person or persons to penalties relating to perjury under section 28-915\" — a cross-reference to the criminal section, rather than the bare \"under penalty of perjury\" formula.",
+   "citations": [
+    "ne-30-24-125",
+    "ne-30-24-126",
+    "ne-30-24-129"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "localNames": [
+    "successor trustee"
+   ],
+   "diff": "Nebraska enacted the Uniform Trust Code in 2003 (§30-3801), and its catchlines carry the uniform section number in parentheses, which makes the mapping checkable section by section. Doing that turns up an omission that matters to this reference.\n\n**Article 10 runs from §30-3890 (UTC 1001) to §30-38,101 (UTC 1012) and stops. There is no UTC 1013 — no certification of trust.** Every other Uniform Trust Code state read here has one: West Virginia at §44D-10-1013, Kentucky at §386B.10-120, Missouri at §456.10-1013. It is the one standardised, statute-defined artefact a trustee can hand a bank instead of the trust instrument, and a Nebraska successor trustee has no statutory equivalent to produce. (Checked across all 1,187 catchlines of chapter 30, none of which mentions a certification of trust; the Nebraska site offers no full-text search, so this is scoped to the trust code and that chapter rather than to the whole statute book.)\n\nWhat Nebraska gives the counterparty instead is protection without an artefact: §30-38,101 (UTC 1012) protects a person who deals with a trustee in good faith and for value without knowledge of a breach, and §30-3895 (UTC 1006) protects a trustee who acts in reasonable reliance on the trust instrument. Both move liability; neither tells the relying party what to ask for.",
+   "citations": [
+    "ne-30-3801",
+    "ne-30-38-101",
+    "ne-30-3895",
+    "utc-1013-ne"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "localNames": [
+    "designated recipient"
+   ],
+   "differs": false,
+   "diff": "Consistent with the baseline, and named with unusual precision: §30-501 cites the act as \"the Revised Uniform Fiduciary Access to Digital Assets Act **(2015)**\" — the full title including the year, where West Virginia and Missouri both drop the \"Revised\" from the same act. §30-504 is the uniform online-tool override.",
+   "citations": [
+    "ne-30-501",
+    "ne-30-504"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "localNames": [
+    "fiduciary",
+    "personal representative",
+    "conservator",
+    "agent",
+    "trustee"
+   ],
+   "diff": "The uniform route, §§30-501 to 30-518 (2016 LB829), with the per-class disclosure sections at §§30-507 to 30-515 and §30-516(a) giving the custodian **60 days** from receipt of the required information before the fiduciary or designated recipient may apply for an order directing compliance.",
+   "citations": [
+    "ne-30-501",
+    "ne-30-504",
+    "ne-30-516",
+    "ne-30-517"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "localNames": [
+    "donor",
+    "agent",
+    "document of gift"
+   ],
+   "diff": "Revised Uniform Anatomical Gift Act, §§71-4825 et seq. (2010 LB1036). §71-4827 includes the agent among those who may make a gift during the donor's life and §71-4832 ranks those who may make one after death; §71-4822 establishes the **Donor Registry of Nebraska**.\n\n§71-4843 is the provision worth recording, because it is the question §13 and §17 keep running into: what happens when two instruments the same person signed point in different directions. Nebraska addresses the collision between an anatomical gift and an advance health care directive expressly, rather than leaving it to whoever is holding the paper.",
+   "citations": [
+    "ne-71-4822",
+    "ne-71-4827",
+    "ne-71-4832",
+    "ne-71-4843"
+   ]
+  }
+ ]
+}

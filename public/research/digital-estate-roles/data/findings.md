@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 53 | **24** |
-| `conservator-estate` | 56 | 21 |
-| `personal-representative-administrator` | 49 | 20 |
-| `anatomical-gift-agent` | 50 | 19 |
-| `financial-poa-durable` | 47 | 17 |
-| `guardian-person` | 47 | 17 |
-| `health-care-agent` | 45 | 14 |
+| `personal-representative-executor` | 54 | **24** |
+| `conservator-estate` | 57 | 21 |
+| `personal-representative-administrator` | 50 | 20 |
+| `anatomical-gift-agent` | 51 | 19 |
+| `financial-poa-durable` | 48 | 17 |
+| `guardian-person` | 48 | 17 |
+| `health-care-agent` | 46 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 27 | **4** |
-| `online-tool-designee` | 24 | **2** |
+| `digital-assets-fiduciary` | 28 | **4** |
+| `online-tool-designee` | 25 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 23 of the 43 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 24 of the 44 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,14 +106,14 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 26** of the 47 jurisdictions that record it and **true in 21**
+`poaDurableByDefault` is **false in 26** of the 48 jurisdictions that record it and **true in 22**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
-that took the Uniform Power of Attorney Act: Idaho, Illinois, **Kentucky**, Maine, Michigan, New
-York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and **West Virginia**, with
+that took the Uniform Power of Attorney Act: Idaho, Illinois, Kentucky, Maine, Michigan, **Nebraska**,
+New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and West Virginia, with
 **Maryland** reaching the same default through an act of its own and Louisiana by an entirely
 different route. The majority still require a dedicated instrument or express words.
 
-Those twenty-one get there three different ways, which matters for anyone modelling the lifecycle:
+Those twenty-two get there three different ways, which matters for anyone modelling the lifecycle:
 
 - **By design** — the UPOAA states, where §104 says a power is durable unless it expressly
   provides otherwise. Maryland is the reminder that the design is not the uniform act's property:
@@ -177,7 +177,7 @@ the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 41 jurisdictions that record it and false in 31.
+`poaRegistrationBeforeUse` is true in 10 of the 42 jurisdictions that record it and false in 32.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -192,7 +192,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 36** of the 46 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 37** of the 47 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -211,10 +211,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 43 | 5 |
-| `benefits-payee` | 37 | 5 |
-| `tax-representative` | 37 | 5 |
-| `veterans-fiduciary` | 30 | 3 |
+| `health-records-representative` | 44 | 5 |
+| `benefits-payee` | 38 | 5 |
+| `tax-representative` | 38 | 5 |
+| `veterans-fiduciary` | 31 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -319,7 +319,7 @@ petitioner to serve as personal representative and issues letters (§§5-602, 5-
 then adds a third shape at the other extreme, a tier with **no document at all**. Kentucky goes
 furthest of all: no ceiling anywhere in its scheme, and no affidavit either.
 
-So there are at least six mechanisms wearing one name:
+So there are at least seven mechanisms wearing one name:
 
 | | What the successor does |
 |---|---|
@@ -329,6 +329,7 @@ So there are at least six mechanisms wearing one name:
 | **Idaho**, **Oklahoma** | petitions for a decree or summary administration with no ceiling at all |
 | **Kentucky** | asks the court to dispense with administration altogether, on no ceiling at all |
 | **Missouri** | swears an affidavit **and posts a bond** approved by the probate division, and pays a fee |
+| **Nebraska** | presents an affidavit for personalty, or **records one in the land registry** for realty |
 
 **Kentucky has no monetary threshold at all**, and is the only US jurisdiction here that does not.
 It has no small-estate affidavit either. Instead the District Court may dispense with administration
@@ -372,6 +373,30 @@ $74,000 signs a form and hands it to a bank. Two states, nearly the same number,
 different transaction. The number is the part a protocol is most tempted to encode and the least
 informative thing in the row.
 
+Nebraska contributes two things the rest of the table does not have, and the second is the more
+useful.
+
+It runs **two parallel affidavit routes**. §30-24,125 is the ordinary one — $100,000 of personal
+property, thirty days, an affidavit handed to whoever holds the asset. §30-24,129 then does the same
+job for **real property**: the successor records an affidavit with the **register of deeds** of the
+county where the land lies, signed by all persons claiming as successors, and it stands as "prima
+facie evidence of the facts stated". The ceiling is measured on the decedent's interest in all
+Nebraska realty, valued from the assessment rolls for the year of death less taxes due. Most of this
+table reaches only personalty; Nebraska's realty claim becomes a public record in the land registry
+rather than a sheet of paper in a custodian's file.
+
+And **§30-24,125(2) is the only provision in this data that admits the death certificate may not
+exist yet.** The affidavit must recite a certified or authenticated copy of the death certificate —
+"or, in the event of a delay in the production of a certified death certificate, an **abstract of
+death** as defined in section 71-601.01". Every other route here assumes the certificate is
+available, and every model of a post-mortem claim tends to assume the same. Nebraska names a
+substitute artefact for the window before it issues, which is precisely the window in which a family
+contacts a platform. It is a small provision with a large implication: **the event that starts the
+authority has to be proved too, and the proof of it has a lag.** §30-24,125(4) is also unusually
+specific about the sanction, requiring the affiant to "swear or affirm" and to acknowledge that a
+false statement may bring "penalties relating to perjury under section 28-915" — the criminal
+section by number, rather than the bare "under penalty of perjury" formula the other states use.
+
 The threshold varies across all of them. Every amount and wait in this table is now checked against
 the `smallEstateWithoutGrant` feature data by `scripts/check-findings.py`, which fails if the two
 drift apart, if a jurisdiction with a recorded ceiling has no row, or if a row claims a waiting
@@ -397,6 +422,7 @@ period the data does not record:
 | Texas | $75,000 | 30 days | — |
 | Virginia | $75,000 | 60 days | $35,000, below which no affidavit is needed at all |
 | Idaho | $100,000 | 30 days | no ceiling where a surviving spouse is the sole devisee or heir |
+| Nebraska | $100,000 | 30 days | $100,000 again for real property, by affidavit recorded with the register of deeds (§30-24,129) |
 | Utah | $100,000 | 30 days | — |
 | Washington | $100,000 | 40 days | — |
 | Illinois | $150,000 | none | — |
@@ -527,6 +553,20 @@ required to create a valid power of attorney"). For a medical power of attorney 
 not the principal's. One state, two instruments, and the notary is authenticating a different person
 in each. A rule of the form "check that the notarial certificate covers the grantor" is correct for
 one of these documents and wrong for the other, within one state's code.
+
+Nebraska goes below "nearly formless" to formless. Under §30-604(2)(a) of its 2018 Health Care
+Surrogacy Act, "an individual may designate a natural person to act as surrogate for the individual
+**by personally informing the primary health care provider**". There is no writing, no witness, no
+notary, no form and no record requirement attached to the designation itself — the appointment is
+complete on the telling. Idaho's advance care planning document at least needs a signed sheet of
+paper; Maryland's oral directive needs a clinician, a witness and an entry in the record. Nebraska's
+spoken designation needs a conversation.
+
+It is worth noticing where that sits. The same legislature wrote §30-4020, the most demanding duty to
+accept a power of attorney in this file, complete with grounds a bank may not refuse on. Nebraska is
+therefore simultaneously the hardest state in which to refuse a written financial authority and the
+easiest in which to create a health-care one. **Formality and enforceability are independent axes**,
+and a jurisdiction can sit at opposite ends of them at once.
 
 Missouri holds both poles inside a single instrument, which is sharper than holding them in two.
 A Missouri health-care power of attorney is the most formal document in this file: §404.810 pulls in
@@ -864,6 +904,23 @@ lets a spouse or an adult child decide by operation of law; Missouri sends the s
 probate division. The role is dropped from its row rather than recorded as empty, which is why
 `default-surrogate` does not move when Missouri is added.
 
+Nebraska shows that the artefact can simply be missing, and that a legislature can remove it without
+removing the rule it supports. Its trust-code catchlines print the uniform section number in
+parentheses, so the mapping is checkable line by line — and article 10 runs from §30-3890 (UTC 1001)
+to §30-38,101 (UTC 1012) and **stops**. There is no UTC 1013, and so **no certification of trust**:
+the one standardised, statute-defined document a trustee can hand a bank instead of the trust
+instrument itself. Every other Uniform Trust Code state read here has one — West Virginia
+§44D-10-1013, Kentucky §386B.10-120, Missouri §456.10-1013, the last of which is strict enough to
+require every trustee's signature.
+
+What Nebraska keeps is the protection without the paper: §30-38,101 shields a person who deals with a
+trustee in good faith and for value without knowledge of a breach, and §30-3895 protects a trustee
+acting in reasonable reliance on the trust instrument. Both allocate liability; neither tells the
+relying party what to ask for. So a Nebraska successor trustee is in the position this whole section
+describes — entitled to act, protected if the counterparty accepts, and holding nothing designed to
+be shown. (Checked across all 1,187 catchlines of chapter 30; the Nebraska site has no full-text
+search, so that is scoped to the trust code and that chapter rather than to the entire statute book.)
+
 Missouri also supplies the two ends of a smaller question this table raises but does not ask: **who
 is expected to help the claimant produce the artefact?** Maryland requires a **supervising attorney**
 to be present, physically or electronically, before a remotely witnessed power of attorney is valid —
@@ -926,10 +983,10 @@ and one asserting "holder is the surrogate" is making a claim that may be false 
 Whatever a standard does about health care has to treat the authority as a question to be asked at
 the moment of use, not a fact to be cached.
 
-## 15. Acceptance is already solved in statute, five times over, with the same three parts
+## 15. Acceptance is already solved in statute, six times over, and one state goes further
 
 The question an evidence layer exists to answer is not "who may act" — §1 says that is settled
-nearly everywhere — but "why would the party holding the asset say yes?" Five regimes in this data
+nearly everywhere — but "why would the party holding the asset say yes?" Six regimes in this data
 answer it, and they are built from the same three components: a **duty** to accept, a **remedy** if
 the holder refuses, and a **safe harbour** for the holder that accepts. No two of them carry the
 same subset, and the fifth answers the question with a fourth component the others do not have.
@@ -942,6 +999,7 @@ same subset, and the fifth answers the question with a fourth component the othe
 | **Delaware**, 12 Del. C. §§2306–2307 | — | recovery or compulsion in the Court of Chancery | released as if paid to the personal representative; no duty to inquire into the truth of the affidavit |
 | **Supported decision-making** (Del. §9408A, Utah §75-5-709) | — | — | immunity, and in Utah presumptions that the signatures and the authority are genuine |
 | **Missouri**, §§404.719, 456.10-1013 | — | — | eleven items a good-faith third person need not inquire into, absent actual knowledge — **plus a right to demand security**: indemnity against forgery by bond, or a certification of trust acknowledged or guaranteed |
+| **Nebraska**, §§30-4019–4020 | any person, within **seven business days** of presentation, of *any* acknowledged power of attorney — **plus grounds it may not refuse on** | court order, fees, **and liability as if it had refused the principal in person** | the uniform reliance protections of §30-4019 |
 
 Two of those rows are the same drafting travelling under different names. Idaho's acceptance regime
 **is** the uniform power-of-attorney one, lifted out of §§119–120 and pointed at every substitute
@@ -991,8 +1049,34 @@ remedy at all. Three points on one axis — the statutory
 form, any acknowledged power of attorney, any substitute decision-making document — from one piece
 of drafting.
 
+**Nebraska takes the uniform regime and adds two components nothing else here has**, which is worth
+setting out because it is the closest any legislature in this data comes to designing the thing a
+profile would need.
+
+It starts from Alternative A — the duty runs to any acknowledged power of attorney, on the uniform
+seven-business-day clock with five further days once a requested certification arrives. Then:
+
+- **Prohibited grounds.** §30-4020(3) lists reasons a person *may not* refuse on: a refusal resting
+  **exclusively** on the date the power was executed, or **exclusively** on insisting that a
+  different form be used. Every other regime here enumerates the lawful refusals and leaves the rest
+  to argument; Nebraska also enumerates two unlawful ones. For a standard this is the more useful
+  half, because "your document is too old" and "use our form instead" are exactly the answers a
+  custodian gives a valid credential.
+- **Liability measured against the principal.** §30-4020(4)(b)(i) makes the refuser liable to the
+  principal and the principal's heirs, assigns and personal representative "in the same manner as the
+  person would be liable had the person refused to accept the authority of **the principal to act on
+  the principal's own behalf**". The agent is not owed a special, lesser duty; refusing the agent is
+  refusing the principal, with whatever that would have cost.
+
+Nebraska also adds two lawful refusals the uniform act lacks, and both are about evidence rather than
+suspicion: a pending judicial proceeding construing the power or reviewing the agent's conduct
+(§30-4020(2)(g)), and — the one that matters for springing powers — a power effective on a
+contingency where "neither a certification nor evidence of the occurrence of the event or contingency
+is presented" (§30-4020(2)(h)). That is a statutory evidence requirement attached to a condition
+precedent, and the only one in this file.
+
 Read down the last column rather than the first. The duty is the component a standards body cannot
-supply, and where it exists it is usually narrow; the safe harbour is in **all five**, and it is the component that
+supply, and where it exists it is usually narrow; the safe harbour is in **all six**, and it is the component that
 actually moves a relying party, because it converts "I might be sued for getting this wrong" into "I
 am protected if I act in good faith on what I was shown". Delaware's small-estate route is the proof
 of concept: a custodian pays out on a stranger's sworn affidavit, for a $50,000 estate, with no court
@@ -1099,7 +1183,8 @@ to revoke or amend a power of attorney as the principal would have if not incapa
 
 Three neighbouring states enacted that section and answered the bracketed question three different
 ways, two of them by writing its inverse. Missouri, which took no uniform power-of-attorney act at
-all, supplies a fourth answer that is neither:
+all, supplies a fourth answer that is neither — and Nebraska, which took the act whole, supplies a
+fifth by keeping the rule the act was written to abolish:
 
 | | Where the rule lives | What a court appointment does to the agency |
 |---|---|---|
@@ -1107,6 +1192,7 @@ all, supplies a fourth answer that is neither:
 | **West Virginia** | §39B-1-108(b), the §108 slot | **ends it** — "unless otherwise ordered by the court making the appointment, the power of attorney and the agent's authority thereunder terminates upon the appointment" |
 | **Kentucky** | §457.100(1)(c), the **termination** section | **ends it** — the power terminates on the appointment "unless the court specifically provides that the power of attorney shall remain in effect" |
 | **Missouri** | §404.731(3), in the jurisdiction section | **neither** — "the court **may specify in an order** the powers, duties and responsibilities" of the legal representative and the attorney in fact "and the manner in which they shall **coordinate** the exercise of their respective powers" |
+| **Nebraska** | §30-4008(2), the §108 slot | **hands the decision to the conservator** — the fiduciary "shall have the same power to revoke or amend the power of attorney that the principal would have had if he or she were not disabled or incapacitated" |
 
 West Virginia and Kentucky reach the identical rule and file it in different places, and that is not
 a filing curiosity. A reader asking "when does a West Virginia power of attorney end?" goes to
@@ -1116,6 +1202,32 @@ accomplished, agent gone. The appointment of a conservator is not among them. It
 trigger, sitting two sections earlier under a heading about nominating a guardian. Kentucky, having
 made the same choice, put it in the termination list where someone would look. The rule is equally
 findable in one state and effectively hidden in the other.
+
+Nebraska is the sharpest case, because the uniform act's own comment describes its rule as the
+discarded one. Recall what §108(b) says in the bracket: the power of attorney is *not* terminated and
+the agent's authority continues unless the court intervenes. The comment explains why that sentence
+is there — "Section 108(b) is a **departure from the Uniform Durable Power of Attorney Act** which
+gave a court-appointed fiduciary the same power to revoke or amend a power of attorney as the
+principal would have if not incapacitated."
+
+§30-4008(2) is that abolished rule, verbatim in substance: the Nebraska conservator "shall have the
+same power to revoke or amend the power of attorney that the principal would have had if he or she
+were not disabled or incapacitated". Nebraska enacted the 2006 act in 2012, mapped every section to
+the uniform numbering, and restored the 1979 position in the one place the drafters had changed it.
+
+That produces the widest outcome in the table, because it is not a rule about the agency at all — it
+is a **transfer of the principal's own revocation power to a stranger the court appoints**. In
+Virginia the agent continues; in West Virginia and Kentucky the agency ends by operation of law; in
+Missouri a judge allocates. In Nebraska the conservator simply decides, and may do so without any
+further court involvement. Five jurisdictions, one uniform section, and the only thing they agree on
+is that something happens.
+
+For anyone modelling this, the lesson is narrower than "jurisdictions differ". **The event is the
+same and observable — a court appoints a fiduciary — but what it does to an existing authority is
+not derivable from the event.** A system told only "a conservator was appointed for this principal"
+cannot compute whether the agent still holds anything, and in Nebraska cannot even know whether the
+answer is settled yet, because it now depends on a private decision by the conservator that no court
+records.
 
 Missouri declines the binary. Under §404.731(3) the probate division, having appointed a guardian or
 conservator for a principal who holds a durable power of attorney, may after notice and hearing
@@ -1287,6 +1399,16 @@ nominate the channel, and deciding it should be the party that has to act on wha
    claimant is the least reachable party there is, so a profile should expect to carry
    indemnity, guarantee or insurance terms alongside the assertion, and should not assume that
    better evidence removes the demand for security.
+8. **Prove the event, not just the role — and expect the proof to lag.** Every section above is about
+   evidencing an authority; none of these statutes, bar one, says anything about evidencing the
+   *event* that starts it. Nebraska's §30-24,125(2) is the exception, and it concedes the point by
+   accepting an "abstract of death" where "a certified death certificate" is delayed. The delay is
+   not an edge case: it is the window in which a family first contacts a platform. A design that
+   makes a death certificate a precondition is unusable in exactly that window, and §17 adds the
+   mirror problem for living principals — in Nebraska a conservator may revoke a power of attorney
+   by private decision under §30-4008(2), so the terminating event may leave no public trace at all.
+   An assertion about a role should therefore carry what it relies on and how fresh that is, rather
+   than assuming a canonical document exists at the moment of the claim.
 
 ## Terms used here
 

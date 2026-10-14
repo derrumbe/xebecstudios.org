@@ -601,6 +601,19 @@
      "label": "US — Missouri"
     },
     {
+     "id": "us-ne",
+     "name": "Nebraska",
+     "short": "NE",
+     "code": "NE",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ne.json"
+     ],
+     "country": "us",
+     "note": "Nebraska is the most uniform-law state in this set — the probate code, the power of attorney act, the trust code, the digital-assets act and the anatomical gift act are all the uniform texts, and its trust-code catchlines even print the uniform section numbers. That makes its two departures unusually legible. It **kept the rule the Uniform Power of Attorney Act was written to abolish**: §30-4008(2) gives a court-appointed conservator the principal's own power to revoke or amend the power of attorney, which the official comment to uniform §108 identifies as the pre-2006 position the section departs from. And it **omitted Section 1013**, so Nebraska is the only Uniform Trust Code state here whose successor trustee has no statutory certification of trust to produce. Against those, §30-4020 builds the strongest duty to accept a power of attorney in this data, adding prohibited grounds for refusal and a liability rule equating refusal of the agent with refusal of the principal; and the 2018 Health Care Surrogacy Act lets a person appoint a surrogate merely by telling their clinician. The adoption tracker records no Uniform Probate Code enactment for Nebraska, which is a false negative of the Idaho kind — §30-2601 calls it the Nebraska Probate Code.",
+     "label": "US — Nebraska"
+    },
+    {
      "id": "us-nj",
      "name": "New Jersey",
      "short": "NJ",
@@ -1255,6 +1268,19 @@
    "country": "us",
    "note": "Missouri took neither the Uniform Power of Attorney Act nor the Uniform Probate Code nor any uniform health-care decisions act, and the result is the most distinctive state in this set. Two things run through it. First, **it answers the relying party's problem with security rather than with duty**: no statute obliges anyone to accept a Missouri power of attorney and none shifts fees on refusal, but §404.719(4) lets the third person demand indemnity against forgery by bond, §456.10-1013(2) lets it require a certification of trust to be acknowledged or guaranteed and signed by every trustee, and the small-estate and refusal-of-letters routes at §§473.097 and 473.090 both require the claimant to post a bond. Second, **formality is loaded onto creation and almost absent from revocation**: §404.705 makes a durable power valid only if it is titled as one, recites one of two capitalised statutory sentences and is acknowledged as if it conveyed land, while §404.850 lets the health-care version be revoked \"in any manner by which the patient is able to communicate\" and §404.717 lets the financial version be terminated orally. Missouri is also the only US jurisdiction here with **no default health-care surrogate** at all.",
    "label": "US — Missouri"
+  },
+  {
+   "id": "us-ne",
+   "name": "Nebraska",
+   "short": "NE",
+   "code": "NE",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ne.json"
+   ],
+   "country": "us",
+   "note": "Nebraska is the most uniform-law state in this set — the probate code, the power of attorney act, the trust code, the digital-assets act and the anatomical gift act are all the uniform texts, and its trust-code catchlines even print the uniform section numbers. That makes its two departures unusually legible. It **kept the rule the Uniform Power of Attorney Act was written to abolish**: §30-4008(2) gives a court-appointed conservator the principal's own power to revoke or amend the power of attorney, which the official comment to uniform §108 identifies as the pre-2006 position the section departs from. And it **omitted Section 1013**, so Nebraska is the only Uniform Trust Code state here whose successor trustee has no statutory certification of trust to produce. Against those, §30-4020 builds the strongest duty to accept a power of attorney in this data, adding prohibited grounds for refusal and a liability rule equating refusal of the agent with refusal of the principal; and the 2018 Health Care Surrogacy Act lets a person appoint a surrogate merely by telling their clinician. The adoption tracker records no Uniform Probate Code enactment for Nebraska, which is a false negative of the Idaho kind — §30-2601 calls it the Nebraska Probate Code.",
+   "label": "US — Nebraska"
   },
   {
    "id": "us-nj",
