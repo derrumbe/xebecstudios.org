@@ -3,19 +3,30 @@ import Base from '../../layouts/Base.astro';
 import Margin from '../../components/Margin.astro';
 
 /**
- * The research section. One entry so far; the shape is the same as /projects/
- * so a second piece of research drops in without a redesign.
+ * The research section. Two entries: the sourced reference and the advisory
+ * work that sits beside it. They are separate deliberately — an argument inside
+ * the reference's chrome would inherit the authority of its citations.
  */
 const items = [
   {
     href: '/research/digital-estate-roles/',
     title: 'Digital Estate Roles',
     apparatus: '2026',
-    aside: 'Nine countries',
+    aside: 'Twenty-four countries',
     summary:
       'When legal authority over a person, their property and their digital estate is assigned, ' +
       'when it starts and when it ends — for powers of attorney, health-care agents, guardians, ' +
       'executors, digital-asset fiduciaries and the rest. Sourced to statute and official policy only.',
+  },
+  {
+    href: '/research/digital-estate-standards/',
+    title: 'Digital Estate Standards',
+    apparatus: '2026',
+    aside: 'Argument, not reference',
+    summary:
+      'The companion to the reference above, and deliberately a separate section: that one says ' +
+      'what the law is, these pages ask what should be built on it. Use cases across fifty-six ' +
+      'jurisdictions, the current identity standards measured against them, and a proposed event set.',
   },
 ];
 ---
