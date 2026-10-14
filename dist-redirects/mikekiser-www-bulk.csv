@@ -1,0 +1,7 @@
+source,target,status,preserve_query_string
+https://www.mikekiser.org/,https://xebecstudios.org/about/,301,true
+https://www.mikekiser.org/contact/,https://xebecstudios.org/about/#contact,301,true
+https://www.mikekiser.org/rss/,https://xebecstudios.org/rss.xml,301,true
+https://www.mikekiser.org/tag/,https://xebecstudios.org/essays/,301,true
+https://www.mikekiser.org/mistaken-identity-the-election-observers/,https://xebecstudios.org/projects/,301,true
+https://www.mikekiser.org/mistaken-identity-six-stories/,https://xebecstudios.org/projects/,301,true
