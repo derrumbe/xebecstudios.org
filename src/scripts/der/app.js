@@ -301,22 +301,48 @@
   function renderChrome() {
     const sel = $('#jur');
     const countries = state.manifest.countries || [{ name: 'Jurisdictions', jurisdictions: state.manifest.jurisdictions }];
-    // Group the picker by region, not by country: nine countries hold a single
-    // jurisdiction, and those made optgroups with one identically named option in them.
-    // The build orders countries by region then name, and labels each jurisdiction
-    // with its country, so the order here is the order it supplies.
-    const byRegion = [];
+    // Group by country where a country holds more than one jurisdiction, and by region
+    // otherwise. Region alone does not scale: the US is already 27 of 56 rows and heads
+    // for ~50 of ~79, which under a "North America" header sits unlabelled beside Canada
+    // and Mexico while every row repeats the "US — " prefix that header would carry. A
+    // country header lets the row read just "California", which also gives the select's
+    // own type-to-jump something to match on: it matches the visible row text, and that
+    // text no longer starts with a prefix every US row shares.
+    // Single-jurisdiction countries stay in the region bucket, because an optgroup holding
+    // one identically named option is noise; that is why this grouped by region to begin
+    // with, and it is still the right answer for the nine countries it applies to.
+    const groups = [];
+    const bucket = (label, region, isRegion) => {
+      let g = groups.find((x) => x.isRegion === isRegion && x.label === label);
+      if (!g) groups.push((g = { label, region, isRegion, items: [] }));
+      return g;
+    };
     for (const c of countries) {
       const region = c.region || 'Other';
-      let g = byRegion.find((x) => x.region === region);
-      if (!g) byRegion.push((g = { region, items: [] }));
-      for (const j of c.jurisdictions) g.items.push(j);
+      const multi = c.jurisdictions.length > 1;
+      const g = bucket(multi ? c.name : region, region, !multi);
+      // Inside a country group the header already says the country, so the row drops the
+      // prefix the build put on the label; inside a region group it has to keep it.
+      for (const j of c.jurisdictions) {
+        g.items.push({ id: j.id, text: multi ? (j.shortLabel || j.name) : (j.label || j.name) });
+      }
+    }
+    // Country groups lead their region, then the leftover bucket. Labelling that bucket
+    // with the bare region name would read as though it contained the countries listed
+    // above it, so it says "Other <region>" when it has country-group siblings.
+    groups.sort((a, b) => a.region.localeCompare(b.region)
+      || (a.isRegion ? 1 : 0) - (b.isRegion ? 1 : 0)
+      || a.label.localeCompare(b.label));
+    for (const g of groups) {
+      if (g.isRegion && groups.some((x) => !x.isRegion && x.region === g.region)) {
+        g.label = 'Other ' + g.region;
+      }
     }
     // Until the reader picks one, the picker said "US — uniform/model law + federal",
     // which asserts a choice nobody made. It holds a placeholder instead.
     sel.innerHTML = '<option value="" disabled>Choose a jurisdiction…</option>'
-      + byRegion.map((g) => `<optgroup label="${esc(g.region)}">${
-        g.items.map((j) => `<option value="${esc(j.id)}">${esc(j.label || j.name)}</option>`).join('')}</optgroup>`).join('');
+      + groups.map((g) => `<optgroup label="${esc(g.label)}">${
+        g.items.map((i) => `<option value="${esc(i.id)}">${esc(i.text)}</option>`).join('')}</optgroup>`).join('');
     syncPicker();
     sel.onchange = () => {
       if (!sel.value) return;
