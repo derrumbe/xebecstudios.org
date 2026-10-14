@@ -388,6 +388,25 @@ Kentucky therefore has no row in the table below, and `scripts/check-findings.py
 `threshold` and `waitingDays` are null because the statutes state no amount and no uniform wait, not
 because nobody looked.
 
+**Colorado has no row either, for a different reason worth stating so nobody fills one in.** It has
+a ceiling; the statute just declines to say what it is. §15-12-1201(1)(a) sets it at property that
+"does not exceed **twice the amount set forth in section 15-11-403, as adjusted by section
+15-10-112**". §15-11-403(1)(a) gives an exempt-property base of "twenty-six thousand dollars" as a
+pre-2012 figure, and §15-10-112 makes that CPI-adjusted — CPI-U, annual average, US city average,
+all items — against a **2010 reference base**, keyed to the calendar year immediately preceding the
+**year of death**, rounded down to the next multiple of $1,000 on an increase. Doubled, that is the
+ceiling.
+
+So the operative number depends on when the decedent died and on a federal index, and appears
+nowhere in the statute book. Kentucky's `threshold` is null because there is no amount; Colorado's
+is null because the amount is **not stated anywhere a citation could point at**. Rule 1 forbids
+inventing or deriving a dollar threshold, and computing this one from CPI data would be deriving it,
+so the feature records the formula in its note and leaves the figure out. The ten-day wait, by
+contrast, is on the face of the statute twice and is recorded as a verified 10.
+
+If a figure ever appears in Colorado's row, it came from somewhere other than the Colorado Revised
+Statutes, and it should be taken out again.
+
 Missouri is the opposite kind of outlier, and it shows that the ceiling is not the only thing worth
 recording about these routes. Its §473.097 looks ordinary in the table — $40,000, thirty days, an
 affidavit — but the affidavit is only the first of four conditions, and the other three run through
