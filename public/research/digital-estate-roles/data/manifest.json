@@ -511,6 +511,19 @@
      "label": "US — Illinois"
     },
     {
+     "id": "us-ks",
+     "name": "Kansas",
+     "short": "KS",
+     "code": "KS",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ks.json"
+     ],
+     "country": "us",
+     "note": "Kansas took no uniform power of attorney act and no uniform probate code, but it did something no other state in this set has yet done: it **replaced its whole guardianship law with the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act, and that replacement is already in force** — L. 2025, ch. 40, effective 1 January 2026, with §59-3050 now carrying nothing but its repeal note. Idaho is the other UGCOPAA state here and its enactment does not commence until 2027, so the two sit on opposite sides of the same transition. The new act brings two provisions new to this reference: §59-30,123 obliges a third party to recognise a guardian's authority and then requires anyone who refuses to **report the refusal, with reasons, to the court within 10 days**; and §59-30,108 withholds letters of office until the appointee files evidence of completing an instructional programme, and requires every limitation on their powers to be stated on the letters themselves. Elsewhere Kansas is close to Missouri next door — a near-identical magic-words durability test at §58-652, a bonded refusal-of-letters route at §59-2287 — and, like Missouri, it has no default health-care surrogate at all.",
+     "label": "US — Kansas"
+    },
+    {
      "id": "us-ky",
      "name": "Kentucky",
      "short": "KY",
@@ -1178,6 +1191,19 @@
    ],
    "country": "us",
    "label": "US — Illinois"
+  },
+  {
+   "id": "us-ks",
+   "name": "Kansas",
+   "short": "KS",
+   "code": "KS",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ks.json"
+   ],
+   "country": "us",
+   "note": "Kansas took no uniform power of attorney act and no uniform probate code, but it did something no other state in this set has yet done: it **replaced its whole guardianship law with the Uniform Guardianship, Conservatorship, and Other Protective Arrangements Act, and that replacement is already in force** — L. 2025, ch. 40, effective 1 January 2026, with §59-3050 now carrying nothing but its repeal note. Idaho is the other UGCOPAA state here and its enactment does not commence until 2027, so the two sit on opposite sides of the same transition. The new act brings two provisions new to this reference: §59-30,123 obliges a third party to recognise a guardian's authority and then requires anyone who refuses to **report the refusal, with reasons, to the court within 10 days**; and §59-30,108 withholds letters of office until the appointee files evidence of completing an instructional programme, and requires every limitation on their powers to be stated on the letters themselves. Elsewhere Kansas is close to Missouri next door — a near-identical magic-words durability test at §58-652, a bonded refusal-of-letters route at §59-2287 — and, like Missouri, it has no default health-care surrogate at all.",
+   "label": "US — Kansas"
   },
   {
    "id": "us-ky",

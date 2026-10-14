@@ -4490,6 +4490,280 @@
    }
   ]
  },
+ "us-ks": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "Kansas never adopted the Uniform Power of Attorney Act. §58-652(a) makes durability depend on three cumulative conditions and is a **magic-words** test almost word for word Missouri's §404.705: the instrument must be denominated a “durable power of attorney”; it must state in substance one of two sentences the statute prints out; and it must be signed, dated and acknowledged under the revised uniform law on notarial acts. Absent all three the authority ends on disability.",
+    "citations": [
+     "ksf-58-652"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "No registration gate before use, but Kansas is unusual in legislating recording at all: §58-652(b) lets a durable power be recorded in the office of the register of deeds, and §58-653 requires recording where the power nominates a guardian or conservator for the principal. Acknowledgment before a notary is a condition of durability under §58-652(a)(3), so a Kansas durable power is always notarised even where it is never recorded.",
+    "citations": [
+     "ksf-58-652",
+     "ksf-58-653"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": true,
+    "note": "Contemplated rather than legislated in detail, as in Missouri. The second of the two durability sentences §58-652(a)(2) prescribes is written for a power not yet effective — “the authority of my attorney in fact, **when effective**, shall not terminate” — and §58-662 supplies the judicial route to a determination of disability.",
+    "citations": [
+     "ksf-58-652"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "§58-626 lets the agent act “during the disability or incapacity of the principal”, with the statutory form at §58-632 running on the attending physician's determination. There is no statutory surrogate to fall back on, so where no instrument exists the start of authority waits on a court. §58-628 governs revocation.",
+    "citations": [
+     "ksf-58-626",
+     "ksf-58-628"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": false,
+    "note": "No supported decision-making statute. The 2025 Kansas uniform guardianship, conservatorship and other protective arrangements act brings the uniform act's **protective arrangement instead of guardianship** (§59-30,197), which is a narrower court order rather than a voluntary agreement with a supporter, so it is not the same device. Established by scanning the catchlines of chapters 58, 58a, 59, 65 and 39 — 5,117 sections — since the revisor's site has no full-text search; scoped accordingly.",
+    "citations": [
+     "ksf-59-30108"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Revised Uniform Fiduciary Access to Digital Assets Act, §§58-4801 to 58-4819 (2017 SB 63), codified in the same chapter as the power of attorney act rather than in a chapter of its own. §58-4816 gives the custodian 60 days.",
+    "citations": [
+     "ksf-58-4801",
+     "ksf-58-4816"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§58-4804(a) is the uniform online-tool rule: a direction a user gives through a custodian's online tool overrides a contrary direction in a will, trust, power of attorney or other record, where the tool allows the user to modify or delete the direction at all times.",
+    "citations": [
+     "ksf-58-4804"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act, §§65-3220 et seq. (2007). §65-3223 lists who may make a gift during the donor's life and §65-3228 ranks the post-mortem classes; §65-3240 addresses the conflict between a gift and an advance health-care directive expressly, as Nebraska's §71-4843 does and most of this set does not.",
+    "citations": [
+     "ksf-65-3220",
+     "ksf-65-3223",
+     "ksf-65-3228",
+     "ksf-65-3240"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "§59-1507b: **$75,000** of the estate subject to probate, with **no waiting period at all** — the section states none, so the zero is read rather than assumed — on an affidavit presented to whoever holds the asset, “without having been granted letters of administration or letters testamentary”. Two features are distinctive. The discharge is the strongest in this data: the transfer “shall be deemed to be a transfer to the personal representative” and the successor's receipt discharges the holder “to the same extent as if the transfer had been made to an executor or administrator”. And the artefact has a shape fixed by a state body — the affidavit “shall be deemed sufficient if in substantial compliance with the form set forth by the **judicial council**” — which is a safe harbour, where Virginia's §64.2-601 form is mandatory. Kansas's second route is a court one at the same ceiling: under §59-2287(a)(2) the district court may refuse letters where the estate does not exceed $75,000 and an interested person petitions **on bond** in not less than the value of the estate, and under §59-2287(a)(1) where the estate is no greater than the exempt property and the §59-403 spousal and children's allowance.",
+    "citations": [
+     "ksf-59-1507b",
+     "ksf-59-2287"
+    ],
+    "threshold": 75000,
+    "currency": "USD",
+    "waitingDays": 0,
+    "thresholdAlt": {
+     "amount": 75000,
+     "condition": "where the district court refuses letters under §59-2287(a)(2) on a bond in not less than the value of the estate"
+    }
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "§59-706. Kansas uses a second term for the guardianship side that the rest of this set does not: a guardian or conservator appointed under the 2025 act receives **letters of office** under §59-30,108, which must state any limitation on their powers on their face.",
+    "citations": [
+     "ksf-59-706",
+     "ksf-59-30108"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": false,
+    "note": "Nothing in §§58-625 to 58-632 continues the health-care agent's authority past death, and §65-28,103's declaration is spent on death. Disposition of remains and anatomical gifts run on their own classes under §65-3228.",
+    "citations": [
+     "ksf-58-626",
+     "ksf-65-28103",
+     "ksf-65-3228"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "ksf-58-652",
+    "cite": "K.S.A. § 58-652",
+    "title": "Effectiveness of power of attorney; recording; revocation",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0052.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-58-653",
+    "cite": "K.S.A. § 58-653",
+    "title": "Nomination of guardian or conservator; recording of power of attorney",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0053.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-58-626",
+    "cite": "K.S.A. § 58-626",
+    "title": "Acts of agent during disability or incapacity of principal",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0026.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-58-628",
+    "cite": "K.S.A. § 58-628",
+    "title": "Revocation of durable power of attorney for health care decisions",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0028.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-59-30108",
+    "cite": "K.S.A. § 59-30,108",
+    "title": "Letters of office; instructional program",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0108.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-58-4801",
+    "cite": "K.S.A. § 58-4801",
+    "title": "Citation of act",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_048_0001.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-58-4816",
+    "cite": "K.S.A. § 58-4816",
+    "title": "Custodian compliance and immunity; time for compliance",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_048_0016.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-58-4804",
+    "cite": "K.S.A. § 58-4804",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_048_0004.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-65-3220",
+    "cite": "K.S.A. § 65-3220",
+    "title": "Short title",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_032_0020.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-65-3223",
+    "cite": "K.S.A. § 65-3223",
+    "title": "Who may make anatomical gift before donor’s death",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_032_0023.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-65-3228",
+    "cite": "K.S.A. § 65-3228",
+    "title": "Who may make anatomical gift of decedent’s body or part",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_032_0028.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-65-3240",
+    "cite": "K.S.A. § 65-3240",
+    "title": "Effect of anatomical gift on advance health-care directive",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_032_0040.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-59-1507b",
+    "cite": "K.S.A. § 59-1507b",
+    "title": "Transfer of certain personal property to successor; affidavit",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_015_0007b.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-59-2287",
+    "cite": "K.S.A. § 59-2287",
+    "title": "Refusal to grant letters of administration",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_022_0087.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-59-706",
+    "cite": "K.S.A. § 59-706",
+    "title": "Letters of administration and letters testamentary granted",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_007_0006.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "ksf-65-28103",
+    "cite": "K.S.A. § 65-28,103",
+    "title": "Declaration authorizing withholding or withdrawal of life-sustaining procedures",
+    "url": "https://www.ksrevisor.gov/statutes/chapters/ch65/065_028_0103.html",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   }
+  ]
+ },
  "us-la": {
   "features": {
    "deceasedPersonalDataProtected": {
