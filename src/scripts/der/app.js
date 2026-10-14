@@ -1849,6 +1849,7 @@
       ['Va. \u2014 property, \u00a764.2-1606', 1, 'continues'],
       ['Ky. \u2014 property, \u00a7457.100', 0, 'terminates'],
       ['W.Va. \u2014 property, \u00a739B-1-108', 0, 'terminates'],
+      ['Iowa \u2014 property, \u00a7633B.108', 2, 'suspended, then reinstated'],
       ['Ky. \u2014 the person, \u00a7311.6231', 1, 'continues'],
     ];
     const lw = 196, pw = 128, ph = 20, gap = 11, top = 30;
@@ -1856,12 +1857,18 @@
     rows.forEach(([label, on, word], r) => {
       const y = top + r * (ph + gap);
       out += `<text x="0" y="${y + ph / 2 + 4}" class="fig-l">${esc(label)}</text>`
-        + `<rect x="${lw}" y="${y}" width="${pw}" height="${ph}" rx="3" `
-        + `fill="${on ? 'var(--accent)' : 'var(--dormant)'}" opacity="${on ? 1 : .55}"/>`
+        + (on === 2
+          // Iowa: effective, dormant, effective again. Accent plus gray, no new hue.
+          ? `<rect x="${lw}" y="${y}" width="${pw * 0.3}" height="${ph}" rx="3" fill="var(--accent)"/>`
+            + `<rect x="${lw + pw * 0.3}" y="${y}" width="${pw * 0.4}" height="${ph}" `
+            + `fill="var(--dormant)" opacity=".4"/>`
+            + `<rect x="${lw + pw * 0.7}" y="${y}" width="${pw * 0.3}" height="${ph}" rx="3" fill="var(--accent)"/>`
+          : `<rect x="${lw}" y="${y}" width="${pw}" height="${ph}" rx="3" `
+            + `fill="${on ? 'var(--accent)' : 'var(--dormant)'}" opacity="${on ? 1 : .55}"/>`)
         + `<text x="${lw + pw + 10}" y="${y + ph / 2 + 4}" class="fig-t">${esc(word)}</text>`;
     });
     return svgOpen(top + rows.length * (ph + gap) + 4,
-      'What a later court appointment does to the authority the principal granted: in Virginia the power of attorney continues, in Kentucky and West Virginia it terminates, while in Kentucky a health-care surrogate under an advance directive continues')
+      'What a later court appointment does to the authority the principal granted: in Virginia the power of attorney continues, in Kentucky and West Virginia it terminates, in Iowa it is suspended and then reinstated when the principal regains capacity, while in Kentucky a health-care surrogate under an advance directive continues')
       + out + '</svg>';
   }
 
@@ -1893,6 +1900,41 @@
     });
     return svgOpen(top + rows.length * (ch + gap) + 4,
       'For each thing a claimant presents, whether some jurisdiction in this set moves the liability by law and whether Missouri lets the relying party demand security instead: a power of attorney and a small-estate claim have both, while a certification of trust and a creditor seeking refusal of letters have only the Missouri security route')
+      + out + '</svg>';
+  }
+
+  // Section 19 - Iowa's shot clock. Two deadlines anchored to different events, and the statute
+  // takes whichever expires first, so being told late shortens the window rather than moving it.
+  // A single timeline in hours: the accent bar is the window that is actually available, the
+  // dashed gray the one the other anchor would have given. One hue plus gray, as everywhere else.
+  function figShotClock() {
+    const H = 56, lw = 150, axw = FIG_W - lw - 14, top = 26, bh = 18, gap = 26;
+    const x = (h) => lw + (h / H) * axw;
+    const rows = [
+      ['40 hours from death', 0, 40, 1],
+      ['24 hours from notification', 30, 54, 0],
+    ];
+    let out = '';
+    rows.forEach(([label, a, b, on], r) => {
+      const y = top + r * (bh + gap);
+      out += `<text x="0" y="${y + bh / 2 + 4}" class="fig-l">${esc(label)}</text>`;
+      out += on
+        ? `<rect x="${x(a)}" y="${y}" width="${x(b) - x(a)}" height="${bh}" rx="3" fill="var(--accent)"/>`
+        : `<rect x="${x(a)}" y="${y}" width="${x(b) - x(a)}" height="${bh}" rx="3" fill="none" `
+          + `stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 3" opacity=".8"/>`;
+      if (!on) out += `<text x="${x(a)}" y="${y - 6}" class="fig-t">told at hour 30</text>`;
+    });
+    // The binding deadline, and the stretch the later anchor would have allowed but does not.
+    const yEnd = top + rows.length * (bh + gap) - gap + 6;
+    out += `<line x1="${x(40)}" y1="${top - 8}" x2="${x(40)}" y2="${yEnd}" `
+      + `stroke="var(--accent)" stroke-width="1.5"/>`
+      + `<text x="${x(40)}" y="${yEnd + 14}" text-anchor="middle" class="fig-t">authority lapses</text>`;
+    [0, 20, 40].forEach((h) => {
+      out += `<text x="${x(h)}" y="${yEnd + 30}" text-anchor="middle" class="fig-l">${h}h</text>`;
+    });
+    out += `<text x="0" y="${yEnd + 30}" class="fig-l">from death</text>`;
+    return svgOpen(yEnd + 38,
+      'Iowa section 144C.8(2) forfeits the right to control a decedent\u2019s remains on the earlier of two deadlines: 40 hours from the death, or 24 hours from being notified of it. A designee notified at hour 30 would have had until hour 54 on the notification clock, but the 40-hour clock from death expires first, so the authority lapses at hour 40 with ten hours used')
       + out + '</svg>';
   }
 
@@ -1969,6 +2011,7 @@
       case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
       case 17: return figWrap(figTermination(), 'One event, three answers \u2014 and two of them inside Kentucky.');
       case 18: return figWrap(figSecurity(), 'Where the law moves liability, and where Missouri asks for collateral instead.');
+      case 19: return figWrap(figShotClock(), 'Iowa \u00a7144C.8(2): the earlier of two deadlines binds, so a late notification shortens the window instead of moving it.');
       default: return '';
     }
   }

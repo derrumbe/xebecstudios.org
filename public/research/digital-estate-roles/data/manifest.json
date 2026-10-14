@@ -511,6 +511,19 @@
      "label": "US — Illinois"
     },
     {
+     "id": "us-ia",
+     "name": "Iowa",
+     "short": "IA",
+     "code": "IA",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-ia.json"
+     ],
+     "country": "us",
+     "note": "Iowa is the jurisdiction in this set that most often makes a legal effect turn on **what the relying party knows, or on a clock**, rather than on the instrument. A health-care agent outranks a court-appointed guardian only while “known to the health care provider to be available and willing” (§144B.6(1)); the holder of the right to control a body forfeits it on a murder charge only once “those charges are known to a third party”, and forfeits it outright by not acting within 24 hours of notification or 40 hours of death (§144C.8); an agent’s authority ends when the agent is “named as having abused the principal in a **founded dependent adult abuse report**” — a confidential administrative finding (§633B.110(2)(e)) — while the same registry is what the court must search before appointing a guardian (§633.564). Elsewhere Iowa is the uniform power of attorney act with a mandatory notary and Alternative A, a conservatorship that **suspends and then reinstates** the agency rather than ending or continuing it (§633B.108(2)), a surrogate who can only co-sign with the physician (§144A.7), the only certification of trust with a remedy for refusing it (§633A.4604(6)), and a $50,000 small-estate route that prices refusal and acceptance alike and obliges the custodian to answer whether the estate qualifies (§633.356).",
+     "label": "US — Iowa"
+    },
+    {
      "id": "us-ks",
      "name": "Kansas",
      "short": "KS",
@@ -1191,6 +1204,19 @@
    ],
    "country": "us",
    "label": "US — Illinois"
+  },
+  {
+   "id": "us-ia",
+   "name": "Iowa",
+   "short": "IA",
+   "code": "IA",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-ia.json"
+   ],
+   "country": "us",
+   "note": "Iowa is the jurisdiction in this set that most often makes a legal effect turn on **what the relying party knows, or on a clock**, rather than on the instrument. A health-care agent outranks a court-appointed guardian only while “known to the health care provider to be available and willing” (§144B.6(1)); the holder of the right to control a body forfeits it on a murder charge only once “those charges are known to a third party”, and forfeits it outright by not acting within 24 hours of notification or 40 hours of death (§144C.8); an agent’s authority ends when the agent is “named as having abused the principal in a **founded dependent adult abuse report**” — a confidential administrative finding (§633B.110(2)(e)) — while the same registry is what the court must search before appointing a guardian (§633.564). Elsewhere Iowa is the uniform power of attorney act with a mandatory notary and Alternative A, a conservatorship that **suspends and then reinstates** the agency rather than ending or continuing it (§633B.108(2)), a surrogate who can only co-sign with the physician (§144A.7), the only certification of trust with a remedy for refusing it (§633A.4604(6)), and a $50,000 small-estate route that prices refusal and acceptance alike and obliges the custodian to answer whether the estate qualifies (§633.356).",
+   "label": "US — Iowa"
   },
   {
    "id": "us-ks",
