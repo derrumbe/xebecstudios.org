@@ -1760,6 +1760,236 @@
    }
   ]
  },
+ "us-co": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "§15-14-704(1): a power created on or after 1 January 2010 “is durable unless it expressly provides that it is terminated by the incapacity of the principal”. The value is true for the live regime, but Colorado is the only jurisdiction here where the test is selected by the instrument's creation date: §15-14-704(2) leaves a power existing on 31 December 2009 durable only if it was durable that day under the magic-words test at §15-14-501, which is still in force for that cohort.",
+    "citations": [
+     "cof-15-14-704",
+     "cof-15-14-501"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "§15-14-705 requires only the principal's signature, and acknowledgement before a notary buys a presumption of genuineness rather than validity. Nothing in article 14 part 7 conditions use on registration or filing. Scoped to the part read.",
+    "citations": [
+     "cof-15-14-705"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": true,
+    "note": "Post-2010 by the instrument's own terms under part 7; for the pre-2010 cohort §15-14-501's second printed sentence, “This power of attorney shall become effective upon the disability of the principal.”, is the route.",
+    "citations": [
+     "cof-15-14-501",
+     "cof-15-14-704"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity",
+    "note": "§15-14-506(3) conditions the agent's authority on a principal “who lacks decisional capacity” but, unlike the proxy provisions at §15-18.5-103(2), does not in that section prescribe who makes the determination — hence 'incapacity' rather than 'incapacity-finding-by-clinician'. The agent is also “considered a designated representative of the patient” with the principal's own rights of access to the medical records.",
+    "citations": [
+     "cof-15-14-506"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "note": "Article 14 part 8, §§15-14-801 et seq., Supported Decision-Making Agreements for Adults with a Disability. The legislative declaration frames guardianship as “one of the most restrictive options”, to be used “only when a less restrictive alternative would fail”, and presumes adults with disabilities competent.",
+    "citations": [
+     "cof-15-14-801"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "RUFADAA enacted 2017 as article 1 part 15, §§15-1-1501 to 15-1-1518 — inside the general fiduciary article rather than a chapter of its own.",
+    "citations": [
+     "cof-15-1-1504"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§15-1-1504(1), the uniform online-tool provision. Colorado conditions precedence on the tool allowing the user to modify or delete a direction “at all times”, where the uniform text and most enacting states read “at any time”; nothing in the section turns on the difference.",
+    "citations": [
+     "cof-15-1-1504"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act, relocated into article 19 part 2 in 2017 (SB 17-223). A medical durable power of attorney may itself carry an organ and tissue donation statement under §15-14-506(3.5), executed in accordance with that act.",
+    "citations": [
+     "cof-15-19-203",
+     "cof-15-14-506"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "threshold": null,
+    "currency": "USD",
+    "waitingDays": 10,
+    "note": "§15-12-1201(1)(a) states no figure: the ceiling is property that “does not exceed twice the amount set forth in section 15-11-403, as adjusted by section 15-10-112”. §15-11-403(1)(a) fixes the exempt-property base at twenty-six thousand dollars as a pre-2012 figure; §15-10-112 makes it CPI-adjusted (CPI-U, annual average, US city average, all items) against a 2010 reference base, keyed to the calendar year immediately preceding the year of death, rounded down to the next multiple of $1,000 on an increase. The operative ceiling therefore depends on the year of death and on a federal index and appears nowhere in the statute book, so the threshold is left null rather than published as a number: computing it here would be deriving a dollar threshold, which rule 1 forbids. The wait is a verified ten days.",
+    "citations": [
+     "cof-15-12-1201",
+     "cof-15-11-403",
+     "cof-15-10-112"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "The health-care agent does not appear in §15-19-106's order for disposition of last remains at all — which runs the decedent's own declaration, then the personal representative or the nominee for appointment, then the spouse, then a designated beneficiary agreement holder, then a majority of adult children. The only post-death reach is anatomical: §15-14-506(3.5) lets the instrument carry an organ and tissue donation statement.",
+    "citations": [
+     "cof-15-19-106",
+     "cof-15-14-506"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "cof-15-14-704",
+    "cite": "C.R.S. § 15-14-704",
+    "title": "Power of attorney is durable",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1) A power of attorney created on and after January 1, 2010, is durable unless it expressly provides that it is terminated by the incapacity of the principal. (2) A power of attorney existing on December 31, 2009, is durable only if on that day the power of attorney is durable under section 15-14-501 or 15-14-745 (2)."
+   },
+   {
+    "id": "cof-15-14-501",
+    "cite": "C.R.S. § 15-14-501",
+    "title": "When power of attorney not affected by disability",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "… the writing contains the words “This power of attorney shall not be affected by disability of the principal.” or “This power of attorney shall become effective upon the disability of the principal.” or similar words showing the intent of the principal …"
+   },
+   {
+    "id": "cof-15-14-705",
+    "cite": "C.R.S. § 15-14-705",
+    "title": "Execution of power of attorney",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "A power of attorney must be signed by the principal or in the principal's conscious presence by another individual directed by the principal to sign the principal's name on the power of attorney. A signature on a power of attorney is presumed to be genuine if the principal acknowledges the signature before a notary public …"
+   },
+   {
+    "id": "cof-15-14-506",
+    "cite": "C.R.S. § 15-14-506",
+    "title": "Medical durable power of attorney",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(3) An agent appointed in a medical durable power of attorney may provide informed consent to or refusal of medical treatment on behalf of a principal who lacks decisional capacity … An agent appointed in a medical durable power of attorney shall be considered a designated representative of the patient and shall have the same rights of access to the principal's medical records as the principal. … (3.5) Any medical durable power of attorney executed under sections 15-14-503 to 15-14-509 may also have a document with a written statement as provided in section 15-19-205 (b) … indicating a decision regarding organ and tissue donation."
+   },
+   {
+    "id": "cof-15-14-801",
+    "cite": "C.R.S. § 15-14-801",
+    "title": "Supported decision-making agreements - legislative declaration",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1) The general assembly finds and declares that: (a) Guardianship constitutes one of the most restrictive options available to adults with disabilities and their families; (b) Guardianship should be employed only when a less restrictive alternative would fail to meet the needs of the adult with a disability …"
+   },
+   {
+    "id": "cof-15-1-1504",
+    "cite": "C.R.S. § 15-1-1504",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1) A user may use an on-line tool to direct the custodian to disclose to a designated recipient or to not disclose some or all of the user's digital assets … If the on-line tool allows the user to modify or delete a direction at all times, a direction regarding disclosure using an on-line tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+   },
+   {
+    "id": "cof-15-19-203",
+    "cite": "C.R.S. § 15-19-203",
+    "title": "Revised Uniform Anatomical Gift Act - applicability",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "This part 2 applies to an anatomical gift or amendment to, revocation of, or refusal to make an anatomical gift, whenever made. Source: L. 2017: Entire part added with relocations, (SB 17-223), ch. 158, p. 541, § 1, effective August 9."
+   },
+   {
+    "id": "cof-15-12-1201",
+    "cite": "C.R.S. § 15-12-1201",
+    "title": "Collection of personal property by affidavit",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1) At any time ten or more days after the date of death of a decedent … (a) The fair market value of property owned by the decedent … less liens and encumbrances, does not exceed twice the amount set forth in section 15-11-403, as adjusted by section 15-10-112; (b) At least ten days have elapsed since the death of the decedent …"
+   },
+   {
+    "id": "cof-15-11-403",
+    "cite": "C.R.S. § 15-11-403",
+    "title": "Exempt property",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1)(a) Prior to January 1, 2012, the decedent's surviving spouse is entitled to exempt property from the estate in the form of cash in the amount of or other property of the estate in the value of twenty-six thousand dollars in excess of any security interests therein."
+   },
+   {
+    "id": "cof-15-10-112",
+    "cite": "C.R.S. § 15-10-112",
+    "title": "Cost of living adjustment of certain dollar amounts",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1)(b) “Reference base index” means the CPI for the calendar year 2010. (2) The dollar amounts stated in sections 15-11-102, 15-11-202 (2), 15-11-403, and 15-11-405 … must be increased or decreased if the CPI for the calendar year immediately preceding the year of death exceeds or is less than the reference base index … rounded down if it is an increase … to the next multiple of one thousand dollars."
+   },
+   {
+    "id": "cof-15-19-106",
+    "cite": "C.R.S. § 15-19-106",
+    "title": "Right of final disposition",
+    "url": "https://olls.info/crs/crs2026-title-15.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-14",
+    "quote": "(1) … the right to control disposition of the last remains … vests in and devolves upon the following persons … in the following order: (a) The decedent if acting through a declaration pursuant to section 15-19-104 …; (b) Either the appointed personal representative or special administrator … or the nominee for appointment as personal representative …; (c) The surviving spouse of the decedent, if not legally separated …; (c.5) A person with the right to direct the disposition … in a designated beneficiary agreement made pursuant to article 22 …; (d) A majority of the surviving adult children …"
+   }
+  ]
+ },
  "us-de": {
   "features": {
    "deceasedPersonalDataProtected": {
