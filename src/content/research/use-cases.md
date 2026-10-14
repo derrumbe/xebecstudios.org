@@ -31,6 +31,20 @@ there, so these are unions and never sums. The numbers are computed from the gen
 a checker in the source repository, which also checks this table — they are not copied by hand, because the base
 findings page established what happens to a hand-copied count the moment a jurisdiction is added.
 
+Each use case is stated as the question a platform actually faces, rather than as a role. The
+identifiers are the ones the mapping data uses, and the table below repeats them:
+
+- **`incapacity-account-access`** — A living user cannot act, and someone needs access to their accounts
+- **`deceased-administration`** — A personal representative with a grant asks for the account
+- **`incapacity-health-decisions`** — A living user cannot act, and someone must make treatment decisions
+- **`deceased-small-estate`** — A family member asks for a deceased user’s account and the estate is small
+- **`post-mortem-body`** — Someone must decide on remains or organ donation, within hours
+- **`health-records-access`** — Someone needs the user’s health records
+- **`benefits-and-tax`** — Someone must deal with benefits or tax authorities for the user
+- **`deceased-digital-assets`** — A fiduciary invokes the digital-assets statute against a custodian
+- **`deceased-trust-held`** — A successor trustee asks for an account the trust holds
+- **`self-directed-ante-mortem`** — The user tells the platform now what should happen to the account later
+
 | Use case | Jurisdictions | Countries | Share | Roles that can carry it |
 |---|---|---|---|---|
 | `incapacity-account-access` | 57 | 24 | 100% | durable / springing POA, conservator, guardian, digital-assets fiduciary, supported decision-maker |
