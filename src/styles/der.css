@@ -395,6 +395,16 @@
    on tap, click, Enter or Space, and on hover where a mouse is used. The affordance is a
    dotted underline rather than a colour, so it reads as "there is more here" without
    competing with links. */
+/* Advisory documents under /research/digital-estate-standards/. They reuse the
+   .prose treatment the findings page uses, so only the header and footer
+   furniture is new. .crumb is also defined under .der-static for the role
+   pages; these are not .der-static, because its h2 rule turns a heading into a
+   small uppercase label. */
+.der .prose .crumb { margin: 0 0 .4rem; font-size: .9rem; color: var(--ink-2); }
+.der .prose .standing { margin: 0 0 1.6rem; color: var(--ink-2); }
+.der .prose .doc-foot { margin-top: 2.6rem; padding-top: 1rem; border-top: 1px solid var(--line);
+  color: var(--ink-2); font-size: .92rem; }
+
 .der .prose code.term { border-bottom: 1px dotted var(--ink-2); cursor: pointer; }
 .der .prose code.term:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .der .prose code.term[aria-expanded="true"] { background: var(--accent); color: var(--paper); }
