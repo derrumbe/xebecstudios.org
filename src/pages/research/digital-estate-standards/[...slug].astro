@@ -1,13 +1,26 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import Margin from '../../../components/Margin.astro';
+import '../../../styles/der.css';
 import { fmtDate } from '../../../consts';
 
 /**
- * One advisory document. The prose is authored in the digital-estate-roles
- * repository and copied into src/content/research/, so the body here is
- * rendered markdown and nothing more — no viewer script, no data fetch.
+ * One advisory document.
+ *
+ * These render as the viewer's Findings tab does — the .der type scale and the
+ * .prose measure from der.css — rather than as a site essay. They are research
+ * output, they carry most of their argument in wide tables, and sitting them in
+ * the essay chrome (Spectral at 19.5px on a 34rem measure, with a drop cap) both
+ * cramped the tables and implied a kind of authorship these do not have.
+ *
+ * .prose gives text a 56ch measure and tables 82ch, which is the same split the
+ * findings page uses. Not .der-static: that restyles h2 into a small uppercase
+ * label, which suits a role page's field headings and would flatten these
+ * documents' sections.
+ *
+ * The prose itself is authored in the digital-estate-roles repository and copied
+ * into src/content/research/, so the body here is rendered markdown and nothing
+ * more — no viewer script, no data fetch.
  */
 export async function getStaticPaths() {
   const docs = await getCollection('research', (d) => d.data.section === 'digital-estate-standards');
@@ -22,64 +35,22 @@ const d = entry.data;
 <Base title={d.title} description={d.description} type="article">
   <div class="wrap">
     <section class="band">
-      <div class="grid">
-        <Margin
-          label="Advisory"
-          notes={[
-            { note: d.standing },
-            d.updated ? { note: `Written ${fmtDate(d.updated, true)}.`, tone: 'aside' } : null,
-            { note: 'Part of Digital Estate Standards.', tone: 'aside' },
-          ].filter(Boolean)}
-        />
-        <div>
+      <div class="der">
+        <div class="prose">
+          <p class="crumb"><a href="/research/digital-estate-standards/">Digital Estate Standards</a></p>
           <h1>{d.title}</h1>
-          <!-- .body is the site's prose class; .plain drops the drop cap, which
-               belongs on an essay and not on a document that opens in bold. -->
-          <div class="body plain">
-            <Content />
-          </div>
-          <p class="foot">
+          <!-- The standing line used to sit in a Margin sidebar. It is the signal
+               that these pages are argument rather than sourced law, so it keeps
+               its place directly under the title. -->
+          <p class="standing">{d.standing}</p>
+          <Content />
+          <p class="doc-foot">
+            {d.updated ? <>Written {fmtDate(d.updated, true)}. </> : null}
             <a href="/research/digital-estate-standards/">All three documents</a> &middot;
-            <a href="/research/digital-estate-roles/">the sourced reference</a>
+            <a href="/research/digital-estate-roles/">the sourced reference</a>, which carries the citations.
           </p>
         </div>
       </div>
     </section>
   </div>
 </Base>
-
-<style>
-  /* .body is capped at --measure (34rem ~ 544px, about 56 characters at this
-     type size), which is the right measure for an essay and the wrong one for
-     these: they carry most of their argument in wide tables, which were
-     scrolling inside that column while the roles viewer next door uses the
-     full width.
-
-     So the container is released to fill the grid's content column — ~820px,
-     the Margin keeping its 190px — and the tables, code blocks and images take
-     all of it. Running text does not: it holds a 44rem measure, ~72
-     characters, which is wider than before and still inside the comfortable
-     band. Letting paragraphs run the full 820px would be ~85 characters and
-     harder to read than what we started with.
-
-     The 880px breakpoint in global.css already sets max-width:none on .body,
-     so none of this changes the phone case. */
-  .body { max-width: none; }
-  .body > :global(p),
-  .body > :global(ul),
-  .body > :global(ol),
-  .body > :global(blockquote),
-  .body > :global(h2),
-  .body > :global(h3) { max-width: 44rem; }
-
-  /* global.css already scrolls a wide table rather than crushing it; these
-     documents carry most of their argument in tables, so the cells need rules
-     and the type needs to come down a notch. Nothing here introduces a colour. */
-  .body :global(table) { border-collapse: collapse; font-size: 16px; line-height: 1.5; margin: 1.6em 0; }
-  .body :global(th), .body :global(td) {
-    text-align: left; vertical-align: top; padding: 7px 12px 7px 0;
-    border-bottom: 1px solid var(--rule);
-  }
-  .body :global(th) { font-weight: 600; }
-  .foot { margin-top: 36px; font-size: 16.5px; color: var(--ink-soft); }
-</style>
