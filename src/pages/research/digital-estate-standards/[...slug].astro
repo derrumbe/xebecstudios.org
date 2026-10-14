@@ -49,6 +49,15 @@ const d = entry.data;
 </Base>
 
 <style>
+  /* .body is capped at --measure (34rem), which is the right measure for an
+     essay and the wrong one for these: they carry most of their argument in
+     wide tables, which were scrolling inside a 34rem column while the roles
+     viewer next door uses the full width. Released to fill the grid's content
+     column — the Margin keeps its 190px, so this is ~820px rather than the
+     viewer's ~1055px. The 880px breakpoint in global.css already sets
+     max-width:none, so this only changes the desktop case. */
+  .body { max-width: none; }
+
   /* global.css already scrolls a wide table rather than crushing it; these
      documents carry most of their argument in tables, so the cells need rules
      and the type needs to come down a notch. Nothing here introduces a colour. */
