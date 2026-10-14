@@ -43,7 +43,7 @@
    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_006_0056.html",
    "kind": "statute",
    "retrieved": "2026-10-14",
-   "quote": "(c) If, following execution of a durable power of attorney, a court of the principal’s domicile appoints a conservator, guardian of the estate or other fiduciary charged with the management of all of the principal’s property … the attorney in fact is accountable to the fiduciary as well as to the principal. The fiduciary has the same power to revoke or amend the durable power of attorney that the principal would have had if the principal were not an adult with an impairment in need of a guardian or conservator or both as defined by K.S.A. 59-30,102. (d) A principal may nominate by a power of attorney, a guardian or conservator, or both, for consideration by the court. If a petition to appoint a guardian or conservator, or both, is filed, the court shall make the appointment in accordance with the principal’s most recent nomination in the power of attorney, so long as the individual nominated is a fit and proper person."
+   "quote": "(c) If, following execution of a durable power of attorney, a court of the principal’s domicile appoints a conservator, guardian of the estate or other fiduciary charged with the management of all of the principal’s property … the attorney in fact is accountable to the fiduciary as well as to the principal. The fiduciary has the same power to revoke or amend the durable power of attorney that the principal would have had if the principal were not an adult with an impairment in need of a guardian or conservator or both as defined by K.S.A. 59-30,102, and amendments thereto. (d) A principal may nominate by a power of attorney, a guardian or conservator, or both, for consideration by the court. If a petition to appoint a guardian or conservator, or both, is filed, the court shall make the appointment in accordance with the principal’s most recent nomination in the power of attorney, so long as the individual nominated is a fit and proper person."
   },
   {
    "id": "ks-58-657",
@@ -158,7 +158,7 @@
    "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0101.html",
    "kind": "statute",
    "retrieved": "2026-10-14",
-   "quote": "K.S.A. 59-30,101 through 59-30,212, and amendments thereto, may be cited as the Kansas uniform guardianship, conservatorship and other protective arrangements act. History: L. 2025, ch. 40, § 24; January 1, 2026. Revisor’s Note: K.S.A. 59-30,101 et seq. replaces K.S.A. 59-3050 et. seq., the act for obtaining a guardian or conservator …"
+   "quote": "K.S.A. 59-30,101 through 59-30,212, and amendments thereto, may be cited as the Kansas uniform guardianship, conservatorship and other protective arrangements act. History: L. 2025, ch. 40, § 24; January 1, 2026. Revisor’s Note: K.S.A. 59-30,101 et seq. replaces K.S.A. 59-3050 et. seq., the act for obtaining a guardian or a conservator …"
   },
   {
    "id": "ks-59-30102",
@@ -184,7 +184,7 @@
    "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_030_0123.html",
    "kind": "statute",
    "retrieved": "2026-10-14",
-   "quote": "(a) A person must recognize the authority of a guardian or conservator to act on behalf of an individual subject to guardianship or conservatorship unless: (1) The person has actual knowledge or a reasonable belief that the letters of office of the guardian or conservator are invalid or the conservator or guardian is exceeding or improperly exercising authority granted by the court; (2) the person has actual knowledge that the individual subject to guardianship or conservatorship is subject to physical or financial abuse, neglect, exploitation or abandonment by the guardian or conservator …; or (3) the person makes, or has actual knowledge that another person has made, a report under K.S.A. 39-1402 or 39-1431 … (b) A person that refuses to accept the authority of a guardian or conservator must, within 10 days of the refusal, report the refusal and the reason for refusal to the court. Upon receiving the report, the clerk of the district court shall forward the report to the presiding judge who shall consider whether further action is appropriate. A report of a refusal under this section shall be treated in the same manner as a grievance under K.S.A. 59-30,127 (c) A guardian or conservator may petition the court to require a third party to accept a decision made by the guardian or conservator on behalf of the individual subject to guardianship or conservatorship. History: L. 2025, ch. 40, § 46; January 1, 2026."
+   "quote": "(a) A person must recognize the authority of a guardian or conservator to act on behalf of an individual subject to guardianship or conservatorship unless: (1) The person has actual knowledge or a reasonable belief that the letters of office of the guardian or conservator are invalid or the conservator or guardian is exceeding or improperly exercising authority granted by the court; (2) the person has actual knowledge that the individual subject to guardianship or conservatorship is subject to physical or financial abuse, neglect, exploitation or abandonment by the guardian or conservator …; or (3) the person makes, or has actual knowledge that another person has made, a report under K.S.A. 39-1402 or 39-1431 … (b) A person that refuses to accept the authority of a guardian or conservator must, within 10 days of the refusal, report the refusal and the reason for refusal to the court. Upon receiving the report, the clerk of the district court shall forward the report to the presiding judge who shall consider whether further action is appropriate. A report of a refusal under this section shall be treated in the same manner as a grievance under K.S.A. 59-30,127, and amendments thereto. (c) A guardian or conservator may petition the court to require a third party to accept a decision made by the guardian or conservator on behalf of the individual subject to guardianship or conservatorship. History: L. 2025, ch. 40, § 46; January 1, 2026."
   },
   {
    "id": "ks-59-30141",
@@ -302,7 +302,7 @@
    "url": "https://www.ksrevisor.gov/statutes/chapters/ch58/058_048_0004.html",
    "kind": "statute",
    "retrieved": "2026-10-14",
-   "quote": "(a) A user may use an online tool to direct the custodian to disclose or not to disclose some or all of the user’s digital assets, including the content of electronic communications …"
+   "quote": "(a) A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user’s digital assets, including the content of electronic communications …"
   },
   {
    "id": "ks-58-4815",

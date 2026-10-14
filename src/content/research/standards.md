@@ -211,7 +211,7 @@ a criticism of anything that exists. SSF carries event sets, and the sets that e
 other subjects — access continuity, account compromise. None of them is about the legal status of a
 person or the authority others hold over their affairs, and none should be expected to be. So the
 work DADE needs is **its own set**, as a peer to the others rather than a variation on one. That set
-is drafted in [the event-set proposal](/research/digital-estate-standards/dade-events/).
+is specified in [openid-dade-events](https://github.com/derrumbe/openid-dade-events), with the reasoning in [the event-set argument](/research/digital-estate-standards/dade-events/).
 
 **2. Three things that set has to carry, which are easy to underestimate.** A **suspended** state
 with an explicit reinstatement, because Iowa §633B.108(2) and Utah §75A-9-117 both require an
@@ -274,14 +274,24 @@ None of that is a proposal to build something new. It is an argument that the pi
 that the missing piece is a small event vocabulary plus the trust framework to say who may transmit
 it, and that the legal data in this repository is what such a vocabulary should be tested against.
 
-**That vocabulary is now drafted — see [the event-set proposal](/research/digital-estate-standards/dade-events/).** SSF carries event sets and does not
-prescribe them, so DADE needs its own, as a peer to the sets that already exist for other subjects.
-The proposal defines events across five families — principal state, authority lifecycle,
-registration, direction, and claim handling, plus one deadline event — with the common fields the
-set needs (`initiating_authority` including
-`operation-of-law`, `governing_law` as jurisdiction-plus-date, `supersedes` / `corrects`, and an
-explicit `effect_unspecified`) and a refusal-grounds vocabulary lifted from the four statutes that
-already enumerate them.
+**That vocabulary is now specified.** SSF carries event sets and does not prescribe them, so DADE
+needs its own, as a peer to the sets that already exist for other subjects. The specification is
+[openid-dade-events](https://github.com/derrumbe/openid-dade-events), an Informational draft; [the event-set argument](/research/digital-estate-standards/dade-events/) carries the argument and the
+statutory evidence behind it.
+
+It defines **five** event types — `principal-deceased`, `principal-capacity-changed`,
+`authority-changed`, `direction-recorded` and `authority-refused` — with the common fields the set
+needs (`initiating_authority` including `operation-of-law`, `governing_law` as
+jurisdiction-plus-date, `supersedes` / `corrects`, and an explicit `effect_unspecified`), the
+`principal` subject identifier format, and a refusal-grounds registry lifted from the four statutes
+that already enumerate them. Three further events are raised as candidates and deliberately left
+unspecified.
+
+**Five rather than one per transition is the substantive decision**, and it comes from the law.
+A court appointing a conservator over someone who had granted a power of attorney has five different
+effects across seven US states, so an event named `authority-terminated` would be wrong in five of
+them. The event therefore names the fact and the law it is to be read against, and leaves the
+consequence to be evaluated by whoever is entitled to evaluate it.
 
 ## The conformance tests the law produces
 
@@ -416,7 +426,7 @@ date.
   close to §14's proof-of-standing table, `vouch` in particular mapping onto a third party attesting
   to someone's standing.
 - **Shared Signals** — the ask is a **new event set**, not a change to an existing one, and
-  [the event-set proposal](/research/digital-estate-standards/dade-events/) is the draft. The parts worth raising with the working group are the ones that
+  [openid-dade-events](https://github.com/derrumbe/openid-dade-events) is the specification, with [the event-set argument](/research/digital-estate-standards/dade-events/) as its evidence base. The parts worth raising with the working group are the ones that
   bear on the framework rather than the vocabulary: the stream is unidirectional while Kansas
   §59-30,123(b) requires a refusal to travel back to the issuing court, so some flows need a second
   stream with the authority as receiver; delivery is sometimes constitutive rather than informative
