@@ -1,0 +1,62 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Margin from '../../../components/Margin.astro';
+import { fmtDate } from '../../../consts';
+
+/**
+ * One advisory document. The prose is authored in the digital-estate-roles
+ * repository and copied into src/content/research/, so the body here is
+ * rendered markdown and nothing more — no viewer script, no data fetch.
+ */
+export async function getStaticPaths() {
+  const docs = await getCollection('research', (d) => d.data.section === 'digital-estate-standards');
+  return docs.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<Base title={d.title} description={d.description} type="article">
+  <div class="wrap">
+    <section class="band">
+      <div class="grid">
+        <Margin
+          label="Advisory"
+          notes={[
+            { note: d.standing },
+            d.updated ? { note: `Written ${fmtDate(d.updated, true)}. The law it rests on carries its own retrieval dates; specification status dates faster.`, tone: 'aside' } : null,
+            { note: 'Part of Digital Estate Standards.', tone: 'aside' },
+          ].filter(Boolean)}
+        />
+        <div>
+          <h1>{d.title}</h1>
+          <!-- .body is the site's prose class; .plain drops the drop cap, which
+               belongs on an essay and not on a document that opens in bold. -->
+          <div class="body plain">
+            <Content />
+          </div>
+          <p class="foot">
+            <a href="/research/digital-estate-standards/">All three documents</a> &middot;
+            <a href="/research/digital-estate-roles/">the sourced reference</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+  /* global.css already scrolls a wide table rather than crushing it; these
+     documents carry most of their argument in tables, so the cells need rules
+     and the type needs to come down a notch. Nothing here introduces a colour. */
+  .body :global(table) { border-collapse: collapse; font-size: 16px; line-height: 1.5; margin: 1.6em 0; }
+  .body :global(th), .body :global(td) {
+    text-align: left; vertical-align: top; padding: 7px 12px 7px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .body :global(th) { font-weight: 600; }
+  .foot { margin-top: 36px; font-size: 16.5px; color: var(--ink-soft); }
+</style>

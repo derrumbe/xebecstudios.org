@@ -156,4 +156,37 @@ const projects = defineCollection({
   }),
 });
 
-export const collections = { essays, speaking, media, projects };
+/**
+ * Research documents that are prose rather than data.
+ *
+ * The Digital Estate Roles viewer is driven by committed JSON and needs no
+ * collection; these are the written pieces that sit beside it — the use-case
+ * analysis, the standards landscape, the proposed event set. They are authored
+ * in the digital-estate-roles repository and kept here as copies, the same
+ * arrangement as src/scripts/der/app.js, because that repository is private and
+ * these are the parts meant to be read.
+ *
+ * Deliberately a thin schema. These documents carry their own headings and
+ * their own verification dates in their text; the frontmatter exists to order
+ * them and to feed the section index.
+ */
+const research = defineCollection({
+  loader: glob({ base: './src/content/research', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    title: z.string(),
+    // Shown on the section index and in meta tags.
+    description: z.string(),
+    // Which section of the research area this belongs to, so a second body of
+    // work does not have to share an index with this one.
+    section: z.enum(['digital-estate-standards']),
+    // Ascending. These three read in order and the order is the argument:
+    // the use cases, then what exists, then what is missing.
+    order: z.number().int().default(0),
+    // A one-line note for the index, where a document's status is not obvious
+    // from its title — "a proposal, not a specification".
+    standing: opt(z.string()),
+    updated: opt(z.coerce.date()),
+  }),
+});
+
+export const collections = { essays, speaking, media, projects, research };
