@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import '../../../styles/der.css';
+import Margin from '../../../components/Margin.astro';
 
 /**
  * The advisory half of the digital-estate work, and deliberately a separate
@@ -12,9 +12,6 @@ import '../../../styles/der.css';
  * them apart is the point: an argument sitting inside the reference's chrome
  * inherits the authority of the citations next to it, and these have none of
  * their own.
- *
- * Laid out as the roles index is — .der.der-static with a .role-index list —
- * so the whole research section reads as one thing.
  */
 const docs = (await getCollection('research', (d) => d.data.section === 'digital-estate-standards'))
   .sort((a, b) => a.data.order - b.data.order);
@@ -26,39 +23,51 @@ const docs = (await getCollection('research', (d) => d.data.section === 'digital
 >
   <div class="wrap">
     <section class="band">
-      <div class="der der-static">
-        <header class="static-head">
-          <p class="crumb"><a href="/research/">Research</a></p>
-          <h1>Digital Estate Standards</h1>
+      <div class="grid" style="margin-bottom:18px">
+        <Margin
+          label="Advisory"
+          notes={[
+            { note: 'The companion to the Digital Estate Roles reference. That one says what the law is; these ask what should be built on it.' },
+            { note: 'Argument, not sourced reference. Every legal claim here is carried from the reference, where it has a pinpoint citation and a retrieval date; the recommendations are ours and carry no such authority.', tone: 'aside' },
+          ]}
+        />
+        <div>
           <p class="lede">
             Research for the OpenID Foundation&rsquo;s <b>Death and the Digital Estate</b> effort.
             Fifty-six jurisdictions of verified law turn out to make a conformance suite: most of
             what a protocol would need already exists in some specification, and the parts that do
             not are specific enough to name.
           </p>
-          <p class="lede">
+          <p>
             Read in order. The use cases establish what a platform is actually asked for and how far
             each legal basis reaches; the landscape measures the current standards against that; the
             event set proposes the one piece nothing supplies.
           </p>
-          <p class="counts">
-            Argument, not sourced reference. Every legal claim is carried from
-            <a href="/research/digital-estate-roles/">Digital Estate Roles</a>, where it has a
-            pinpoint citation and a retrieval date; the recommendations are ours and carry no such
-            authority.
+          <p class="foot">
+            Based on <a href="/research/digital-estate-roles/">Digital Estate Roles</a>, which carries
+            the citations.
           </p>
-        </header>
-
-        <ul class="role-index">
-          {docs.map((d) => (
-            <li>
-              <a href={`/research/digital-estate-standards/${d.id}/`}>{d.data.title}</a>
-              <p class="muted">{d.data.description}</p>
-              <p class="counts">{d.data.standing}</p>
-            </li>
-          ))}
-        </ul>
+        </div>
       </div>
+
+      {docs.map((d) => (
+        <a class="item" href={`/research/digital-estate-standards/${d.id}/`}>
+          <span class="apparatus">
+            {String(d.data.order).padStart(2, '0')}
+            <span class="subject">{d.data.standing}</span>
+          </span>
+          <span>
+            <h3>{d.data.title}</h3>
+            <p>{d.data.description}</p>
+          </span>
+        </a>
+      ))}
     </section>
   </div>
 </Base>
+
+<style>
+  .item h3 a { text-decoration: none; }
+  .item:hover h3 { color: var(--wind-quarter); }
+  .foot { margin-top: 14px; font-size: 16.5px; color: var(--ink-soft); }
+</style>
