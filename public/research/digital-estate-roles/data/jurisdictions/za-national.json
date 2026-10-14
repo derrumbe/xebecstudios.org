@@ -12,7 +12,7 @@
    "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
    "kind": "statute",
    "retrieved": "2026-09-17",
-   "quote": "The Master shall, subject to subsection (2) and sections 16 and 22, on the written application of any person who has been nominated as executor by any deceased person by a will"
+   "quote": "The Master shall, subject to subsection (2) and sections 16 and 22, on the written application of any person who … (a) has been nominated as executor by any deceased person by a will"
   },
   {
    "id": "za-aea-18",
@@ -21,7 +21,7 @@
    "url": "https://www.justice.gov.za/legislation/acts/1965-066%20admin%20estates.pdf",
    "kind": "statute",
    "retrieved": "2026-09-17",
-   "quote": "if any person has died without having by will nominated any person to be his executor; or if the whereabouts of any person so nominated to be sole executor ... are unknown"
+   "quote": "if any person has died without having by will nominated any person to be his executor; or … (b) if the whereabouts of any person so nominated to be sole executor ... are unknown"
   },
   {
    "id": "za-aea-18-3",
@@ -93,7 +93,7 @@
    "url": "https://www.justice.gov.za/legislation/acts/1987-81.pdf",
    "kind": "statute",
    "retrieved": "2026-09-17",
-   "quote": "is survived by a spouse, but not by a descendant, such spouse shall inherit the intestate estate; is survived by a descendant, but not by a spouse, such descendant shall inherit"
+   "quote": "is survived by a spouse, but not by a descendant, such spouse shall inherit the intestate estate; … (b) is survived by a descendant, but not by a spouse, such descendant shall inherit"
   },
   {
    "id": "za-mhca-59",
@@ -180,7 +180,7 @@
    "url": "https://www.justice.gov.za/legislation/acts/1953-07.pdf",
    "kind": "statute",
    "retrieved": "2026-09-17",
-   "quote": "no will executed on or after the first day of January, 1954, shall be valid unless the will is signed at the end thereof by the testator"
+   "quote": "no will executed on or after the first day of January, 1954, shall be valid unless … (i) the will is signed at the end thereof by the testator"
   }
  ],
  "roles": [
