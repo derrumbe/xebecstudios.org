@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 55 | **24** |
-| `conservator-estate` | 58 | 21 |
-| `personal-representative-administrator` | 51 | 20 |
-| `anatomical-gift-agent` | 52 | 19 |
-| `financial-poa-durable` | 49 | 17 |
-| `guardian-person` | 49 | 17 |
-| `health-care-agent` | 47 | 14 |
+| `personal-representative-executor` | 56 | **24** |
+| `conservator-estate` | 59 | 21 |
+| `personal-representative-administrator` | 52 | 20 |
+| `anatomical-gift-agent` | 53 | 19 |
+| `financial-poa-durable` | 50 | 17 |
+| `guardian-person` | 50 | 17 |
+| `health-care-agent` | 48 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 29 | **4** |
-| `online-tool-designee` | 26 | **2** |
+| `digital-assets-fiduciary` | 30 | **4** |
+| `online-tool-designee` | 27 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 25 of the 45 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 26 of the 46 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,14 +106,14 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 27** of the 49 jurisdictions that record it and **true in 22**
+`poaDurableByDefault` is **false in 27** of the 50 jurisdictions that record it and **true in 23**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
-that took the Uniform Power of Attorney Act: Idaho, Illinois, Kentucky, Maine, Michigan, **Nebraska**,
-New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and West Virginia, with
+that took the Uniform Power of Attorney Act: Idaho, Illinois, **Iowa**, Kentucky, Maine, Michigan,
+**Nebraska**, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and West Virginia, with
 **Maryland** reaching the same default through an act of its own and Louisiana by an entirely
 different route. The majority still require a dedicated instrument or express words.
 
-Those twenty-two get there three different ways, which matters for anyone modelling the lifecycle:
+Those twenty-three get there three different ways, which matters for anyone modelling the lifecycle:
 
 - **By design** — the UPOAA states, where §104 says a power is durable unless it expressly
   provides otherwise. Maryland is the reminder that the design is not the uniform act's property:
@@ -199,7 +199,7 @@ the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 43 jurisdictions that record it and false in 33.
+`poaRegistrationBeforeUse` is true in 10 of the 44 jurisdictions that record it and false in 34.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -214,7 +214,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 38** of the 48 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 39** of the 49 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -233,10 +233,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 45 | 5 |
-| `benefits-payee` | 39 | 5 |
-| `tax-representative` | 39 | 5 |
-| `veterans-fiduciary` | 32 | 3 |
+| `health-records-representative` | 46 | 5 |
+| `benefits-payee` | 40 | 5 |
+| `tax-representative` | 40 | 5 |
+| `veterans-fiduciary` | 33 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -264,8 +264,8 @@ not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 20 of the 29 jurisdictions that record it and false in
-9 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
+`supportedDecisionMakingStatute` is true in 20 of the 30 jurisdictions that record it and false in
+10 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
 false while ten US states are true** — California, Delaware, Florida, Illinois, **Maryland**, New
 York, Texas, Utah, **Virginia** and Washington — so the uniform acts have not absorbed it, but
@@ -419,6 +419,40 @@ specific about the sanction, requiring the affiant to "swear or affirm" and to a
 false statement may bring "penalties relating to perjury under section 28-915" — the criminal
 section by number, rather than the bare "under penalty of perjury" formula the other states use.
 
+Iowa is the one that legislates the transaction rather than the claim, and it is the most complete
+provision of its kind here. §633.356 is an ordinary-looking row — $50,000, forty days, an affidavit
+under penalty of perjury — and then does four things nothing else in this table does.
+
+**It prices both sides of the refusal.** §633.356(6)(b): where the holder refuses to pay or transfer
+“within a reasonable time”, the successor may compel it and “the court **shall** award attorney fees
+to the person bringing the action if the court finds that the holder … acted **unreasonably** in
+refusing”. §633.356(7)(b), in the same action: “the court **shall** award attorney fees **to the
+holder** if the court finds that the holder acted **reasonably**”. Every other regime in this file
+funds the claimant and leaves the custodian to carry its own costs even when it was right to say no.
+Iowa funds whichever side was reasonable — which moves the question from *is this affidavit good* to
+*was this refusal reasonable*, and those are not the same question.
+
+**It lets the claimant ask.** §633.356(9): on receiving the affidavit and identity proof, “the holder
+of the property **shall disclose to the affiant** whether the value of the property held by the holder
+is, or has been at any time since the decedent’s death, fifty thousand dollars or less” — and an
+affidavit furnished for that purpose need not assert the value at all. The single fact that decides
+whether this route is open is held by the custodian, not the family, and everywhere else the claimant
+must swear to it blind. Iowa gives them a query against the party they are about to make a claim
+against. For a protocol that is the most directly copyable provision in this section: it is a
+status endpoint, legislated.
+
+**It prices the residual risk in collateral.** §633.356(4)(b): where evidence of ownership is not
+produced, the holder may require “a bond in a reasonable amount **determined by the holder**” to
+indemnify it, or an agreement in lieu. §18 argues that Missouri answers the evidence problem with
+money; Iowa does the same here, and leaves the amount to the counterparty rather than to a judge.
+
+**And the state is a rival claimant on a clock.** §633.356(2)(c) makes the Iowa Medicaid agency a
+statutory “successor” in its own right, and §633.356(8)(b) lets the department claim after **ninety
+days** if no family affidavit has arrived — presenting “proof of payment of funeral expenses as
+verification of the decedent’s death **instead of** a certified copy of the decedent’s death
+certificate”. Nebraska is credited below with being the only provision that admits the death
+certificate may not exist yet; Iowa is the second, and it reserves the workaround for the state.
+
 The threshold varies across all of them. Every amount and wait in this table is now checked against
 the `smallEstateWithoutGrant` feature data by `scripts/check-findings.py`, which fails if the two
 drift apart, if a jurisdiction with a recorded ceiling has no row, or if a row claims a waiting
@@ -435,6 +469,7 @@ period the data does not record:
 | Maine | $40,000 | 30 days | CPI-indexed |
 | Missouri | $40,000 | 30 days | $15,000 where a creditor applies and there is no surviving spouse or unmarried minor child |
 | Delaware | $50,000 | 30 days | — |
+| Iowa | $50,000 | 40 days | — |
 | Maryland | $50,000 | — | $100,000 where the surviving spouse is the sole legatee or heir |
 | Michigan | $50,000 | 28 days | — |
 | New Jersey | $50,000 | — | $20,000 where there is no spouse, civil union partner or domestic partner |
@@ -481,7 +516,7 @@ at all.
 
 The waiting period varies too, and less visibly. Thirty days is the common figure, but it is a
 custom rather than a rule: **Oklahoma opens the affidavit route after ten** days (§58-393),
-**Michigan after twenty-eight**, **California and Washington after forty**, **Virginia makes the
+**Michigan after twenty-eight**, **California, Iowa and Washington after forty**, **Virginia makes the
 successors wait sixty** (§64.2-601), **West Virginia a hundred and twenty** (§44-1-28) — and **three
 states impose no wait at all**: New York, because voluntary administration has no waiting period,
 Illinois, and **Kansas, whose §59-1507b states none**, so the successor may present the affidavit the
@@ -489,8 +524,8 @@ day after the death. Virginia then puts a shorter clock inside
 the longer one: the licensed funeral service establishment may claim after **thirty** days
 (§64.2-604), ahead of the successors it is paid out of. So the first lawful claim on the same estate
 can fall anywhere from the day of death to two months after it, and in one state two different
-claimants have two different start dates. Of the nineteen jurisdictions here that record a wait at
-all, only ten set it at thirty days, so **a protocol that assumes a month is wrong in nine of them,
+claimants have two different start dates. Of the twenty jurisdictions here that record a wait at
+all, only ten set it at thirty days, so **a protocol that assumes a month is wrong in half of them,
 in both directions** — and wrong by a factor of a hundred and twenty between the two extremes.
 
 What the affiant must swear to varies as much as the ceiling, and that is the part a credential
@@ -617,6 +652,21 @@ accept a power of attorney in this file, complete with grounds a bank may not re
 therefore simultaneously the hardest state in which to refuse a written financial authority and the
 easiest in which to create a health-care one. **Formality and enforceability are independent axes**,
 and a jurisdiction can sit at opposite ends of them at once.
+
+**Iowa inverts the ordering most people would assume, and inverts Missouri’s too.** Its financial
+power of attorney *must* be acknowledged before a notary to be valid at all (§633B.105) — Iowa is one
+of the two states here, with West Virginia, where the notary is a condition of validity rather than a
+route to a presumption. Its health-care power, under §144B.3(1)(b), needs only **two witnesses who
+sign in each other’s and the principal’s presence — or** a notary, at the principal’s choice, with
+§144B.3(3) adding that at least one witness must not be a relative “within the third degree of
+consanguinity”.
+
+So in Iowa the document that refuses life-sustaining treatment is **easier to execute than the one
+that moves money**. Missouri is the exact opposite: §404.810 pulls the financial act’s magic words
+into the health-care power and makes it the most formal instrument in this file. Two states, the same
+two instruments, the formality ranking reversed — so there is no general rule that the graver decision
+gets the heavier form, and a profile that infers the strength of an authority from the ceremony around
+its creation is reading a local drafting choice.
 
 Missouri holds both poles inside a single instrument, which is sharper than holding them in two.
 A Missouri health-care power of attorney is the most formal document in this file: §404.810 pulls in
@@ -810,17 +860,35 @@ The substantive difference between Virginia's two versions is small: the live on
 finding, not the amendment. A jurisdiction can put its statute book into a state where "as at" has
 no answer, and a reader who assumes commencement is always a date will not even see it.
 
+Iowa adds a fourth mode, and it is the only one that runs **backwards**. The 2025 amendments to
+§633.356 — which narrowed the small-estate route to estates with **no real property at all**, dropping
+the former allowance for realty passing to inheritance-tax-exempt joint tenants — carry this note in
+the Code itself: “2025 amendments to section apply **retroactively to January 1, 2025**, to the
+estates of decedents dying on or after January 1, 2025” (2025 Acts ch. 148, §54).
+
+Every other case in this section is about a future the reader has to anticipate. Iowa’s is about a
+past that changed after the fact. A claim made in good faith in, say, March 2025 under the law as
+published then was governed, once the amendment passed, by a rule that had not existed when the claim
+was made. **“The law as at the date of death” is not a stable key** even when the date of death is
+long past, and a cached answer can be falsified by a later session of the legislature rather than by
+anything the reader failed to look up. The statute book is honest about it — the note is printed on
+the section — but nothing about the shape of a citation reveals that its answer is provisional.
+
 | | How the switchover is expressed |
 |---|---|
 | **Utah**, **Kansas** | a date, already passed |
 | **Idaho**, **Oklahoma** | a date, in the future |
 | **Virginia** | **a condition in an act the Code does not quote** |
+| **Iowa** | **a date in the past, applied retroactively** |
 
 Two design points follow, and they are not specific to Idaho:
 
 - **Authority assertions need a time, not just a date of issue.** "X is conservator of Y" is
   evaluated against the law of a jurisdiction *as at* some moment. A standard that records only
   when a credential was issued cannot express which regime it was issued under.
+- **A commencement date can point backwards.** Iowa's §633.356 was amended in 2025 with retroactive
+  effect to 1 January 2025. A pipeline that resolves “the rule as at date D” by reading the statute
+  book as published at D will disagree with the statute book as published later, for the same D.
 - **Enactment and commencement are separate events and both are citable.** Ireland's deemed
   consent commenced on 17 June 2025, years after enactment; Idaho's UGCOPAA is enacted with a
   commencement 15 months out. Anything built from a snapshot of "what the statute book says"
@@ -936,6 +1004,7 @@ Virginia rows are the ones that break the self-asserted-to-attested line it used
 | **Maryland** friend or other relative | **affidavit of specific facts showing regular contact** | **the claimant — and the physician must file it in the medical record** |
 | French heir | *acte de notoriété* or *livret de famille* | a notary, or the civil register |
 | **Oklahoma, Virginia, Missouri** health-care agent | **nothing — a register is consulted** | **a state department, on its own record (in Missouri, a third party under contract to it)** |
+| **Iowa** relative under §144A.7 | **nothing — there is no claim to make** | **the attending physician, who must co-sign the decision itself, before a witness** |
 
 Virginia's row is the odd one because it produces nothing and is *not* the weakest. §54.1-2986's
 last class — an adult who has exhibited special care and concern — hands the question to the
@@ -944,6 +1013,28 @@ not treating the patient, not employed by the facility and not in the attending 
 **shall determine** whether the person qualifies and **shall document the information relied upon**.
 Standing is established by somebody else's recorded finding, which is the only instance in this data
 of proof by third-party determination rather than by instrument, oath or register.
+
+**Iowa goes further than either, by removing the claimant from the question.** Everywhere else in
+this table somebody comes forward and the law asks how they prove they qualify. Under §144A.7(1) an
+Iowa relative never holds the authority at all: life-sustaining procedures may be withheld or
+withdrawn from a patient who left no declaration only where there is “consultation and **written
+agreement** for the withholding or the withdrawal … **between the attending physician and**” one of a
+ranked list — the §144B agent, the guardian with court approval, the spouse, an adult child or “a
+majority of the adult children who are reasonably available”, a parent, an adult sibling — and
+§144A.7(2) requires **a witness present at the consultation**.
+
+So the artefact is the agreement, and the relative is a co-signatory to it rather than a decision
+maker whose standing has to be established. There is nothing for them to prove because there is no
+moment at which they decide alone. That is a fourth shape for this table, after self-asserted
+declaration, third-party determination and clinician selection: **joint decision**, where the
+relying party is also the co-author of the authority.
+
+It has a cost, and it is worth stating plainly. Because §144A.7 reaches only the withholding or
+withdrawal of life-sustaining procedures from a patient in a terminal condition who is comatose or
+incapable of communication, an Iowa patient who executed no instrument has **nobody who can consent
+to ordinary treatment** by operation of law. Iowa therefore sits oddly between the two groups this
+section describes: it is not Missouri or Kansas, which have no surrogate at all, and it is not the
+states with a general ranked list — it has a list that works for exactly one decision.
 
 West Virginia goes a step past Virginia's committee and inverts the whole frame. In every other row
 of that table somebody comes forward and the question is how they prove they qualify. Under
@@ -1094,6 +1185,33 @@ relying party that finds nothing in it has learned nothing — which is the same
 actual-knowledge problem, seen from the other side. The gap a credential fills is everything these
 registers do, made portable *and* made negative-answerable.
 
+Iowa closes a loop that every other springing-power regime leaves open, and it belongs here because
+it is about proving the **event** rather than the person. §633B.109(2) lets the principal name
+“one or more persons to determine **in a writing or other record** that the event or contingency has
+occurred”. If nobody was named, or the named person will not act, a power springing on incapacity
+takes effect on a written determination by “a licensed physician or licensed psychologist” or by “a
+judge, or an appropriate governmental official” (§633B.109(3)).
+
+Then §633B.109(4): that person “may act as the principal’s **personal representative** pursuant to
+the federal Health Insurance Portability and Accountability Act of 1996 … to obtain access to the
+principal’s health care information and to communicate with the principal’s health care provider”.
+
+That is the bootstrapping problem solved in one sentence. Determining incapacity needs medical
+information; getting medical information needs authority; and the authority is the thing the
+determination is supposed to switch on. Nebraska gets as far as making the absence of evidence of
+the contingency a lawful ground to refuse (§30-4020(2)(h)); Iowa names who may certify the event
+**and** grants them federal health-records standing for the sole purpose of certifying it. Any
+design that gates an authority on a condition precedent needs an answer to this, and Iowa is the
+only jurisdiction here that has written one down.
+
+Iowa also screens where Kansas trains. §633.564 requires the court to request criminal-record checks
+and checks of “the child abuse, dependent adult abuse, and sexual offender registries” for **every**
+proposed guardian and conservator bar a financial institution with Iowa trust powers, with the
+petitioner paying the fee; Kansas withholds letters until the appointee files evidence of completing
+an instructional programme. Both are fitness gates that run before the artefact exists and leave no
+trace on it, and they test opposite things — competence in one state, record in the other. A relying
+party holding either state’s letters cannot tell which, if any, was done.
+
 One further Utah detail cuts against how credentials are usually built. Under §75A-9-117 the power
 of an agent or surrogate **commences** when the individual is found to lack capacity, **ceases** if
 capacity is later found or the individual objects to the finding, and **resumes** if the finding is
@@ -1103,15 +1221,17 @@ and one asserting "holder is the surrogate" is making a claim that may be false 
 Whatever a standard does about health care has to treat the authority as a question to be asked at
 the moment of use, not a fact to be cached.
 
-## 15. Acceptance is already solved in statute, seven times over, and three states go further
+## 15. Acceptance is already solved in statute, eight times over, and four states go further
 
 The question an evidence layer exists to answer is not "who may act" — §1 says that is settled
-nearly everywhere — but "why would the party holding the asset say yes?" Seven regimes in this data
+nearly everywhere — but "why would the party holding the asset say yes?" Eight regimes in this data
 answer it, and they are built from the same three components: a **duty** to accept, a **remedy** if
 the holder refuses, and a **safe harbour** for the holder that accepts. No two of them carry the
-same subset, and three of them add a component the others do not have at all — Missouri a right to
-demand security, Nebraska a list of grounds a refusal may *not* rest on, and Kansas an obligation on
-the refuser to **report the refusal to the authority that issued the appointment**.
+same subset, and four of them add a component the others do not have at all — Missouri a right to
+demand security, Nebraska and Iowa grounds a refusal may *not* rest on, Kansas an obligation on
+the refuser to **report the refusal to the authority that issued the appointment**, and Iowa a
+**limitation period** on the remedy and a fee shift that can run **against** the person who was
+refused.
 
 | | Duty to accept | Remedy for refusal | Safe harbour for accepting |
 |---|---|---|---|
@@ -1122,6 +1242,7 @@ the refuser to **report the refusal to the authority that issued the appointment
 | **Supported decision-making** (Del. §9408A, Utah §75-5-709) | — | — | immunity, and in Utah presumptions that the signatures and the authority are genuine |
 | **Missouri**, §§404.719, 456.10-1013 | — | — | eleven items a good-faith third person need not inquire into, absent actual knowledge — **plus a right to demand security**: indemnity against forgery by bond, or a certification of trust acknowledged or guaranteed |
 | **Nebraska**, §§30-4019–4020 | any person, within **seven business days** of presentation, of *any* acknowledged power of attorney — **plus grounds it may not refuse on** | court order, fees, **and liability as if it had refused the principal in person** | the uniform reliance protections of §30-4019 |
+| **Iowa**, §§633B.119–120, 633A.4604, 633.356 | any person, within **seven business days**, of *any* acknowledged power of attorney — **plus a ground it may not refuse on**; and, uniquely, a duty in the **trust** and **small-estate** lanes too | court order and fees, but **only if sued within one year**; in the trust lane, damages and fees for demanding the instrument; in the small-estate lane, **fees to whichever side was reasonable** | the uniform reliance protections — **and a good-faith belief of invalidity that no evidence can cure** |
 | **Kansas**, §§59-30,123, 59-30,185 | any person, of a **guardian's or conservator's letters of office** — the only duty here owed on a *court appointment* rather than on an instrument the principal signed | a petition to **compel** acceptance, **and a report back to the appointing court within 10 days** of any refusal, handled as a grievance under §59-30,127 | good faith and for value, protected "as though the conservator properly exercised any power in question", no duty to inquire — **but restrictions stated in the letters of office bind the relying party** |
 
 Two of those rows are the same drafting travelling under different names. Idaho's acceptance regime
@@ -1152,9 +1273,18 @@ the four states are **mutual neighbours** and they split evenly:
 Two things fall out of that table. First, the two states that demand **more** at execution are the
 two that owe **less** at acceptance: Maryland and West Virginia make the instrument harder to create
 and then confine the duty to accept to one official form, while Kentucky and Virginia let a bare
-signed power exist and owe a duty on any of them. With four states it is a pattern, not a law — but
-it is the opposite of what a drafter might expect, since a more formal instrument is the easier one
-for a stranger to rely on.
+signed power exist and owe a duty on any of them. That looked like a pattern across four mutual
+neighbours, and it is the opposite of what a drafter might expect, since a more formal instrument is
+the easier one for a stranger to rely on.
+
+**Iowa is the counterexample, and it settles the question.** §633B.105 makes acknowledgment before a
+notary a condition of **validity** — the West Virginia position, stricter than Maryland's in the
+sense that an un-notarised Iowa power is not a power at all — and §633B.120 then owes the duty on
+*any* acknowledged power, which is Alternative A, the Kentucky and Virginia position. Iowa demands
+the **most** at execution and owes the **broadest** duty at acceptance. So the pattern was a
+coincidence of four adjacent legislatures, not a design logic, and **the formality of an instrument
+predicts nothing about who must honour it.** For anyone building a profile that is the useful
+negative result: these are two independent axes, and both have to be carried in the data.
 
 Second, **West Virginia varied something the ULC did not offer as a choice.** The alternatives
 differ only in scope; the remedy is identical in both, and in the model and in the three other
@@ -1181,10 +1311,14 @@ seven-business-day clock with five further days once a requested certification a
 
 - **Prohibited grounds.** §30-4020(3) lists reasons a person *may not* refuse on: a refusal resting
   **exclusively** on the date the power was executed, or **exclusively** on insisting that a
-  different form be used. Every other regime here enumerates the lawful refusals and leaves the rest
+  different form be used. Most regimes here enumerate the lawful refusals and leave the rest
   to argument; Nebraska also enumerates two unlawful ones. For a standard this is the more useful
   half, because "your document is too old" and "use our form instead" are exactly the answers a
-  custodian gives a valid credential.
+  custodian gives a valid credential. **Iowa makes it two states, and files it differently:**
+  §633B.120(1)(c) puts the prohibition inside the duty itself — “A person shall **not require an
+  additional or different form of power of attorney** for authority granted in the power of attorney
+  presented” — so in Iowa demanding the bank's own form is a breach of the duty rather than a ground
+  that failed to make the list.
 - **Liability measured against the principal.** §30-4020(4)(b)(i) makes the refuser liable to the
   principal and the principal's heirs, assigns and personal representative "in the same manner as the
   person would be liable had the person refused to accept the authority of **the principal to act on
@@ -1254,8 +1388,44 @@ consult anything. The flow is one-way and the court is the only recipient. But i
 instance in this file of a legislature treating a refusal as an **event worth routing** rather than
 as a private decision by the party holding the asset.
 
+**Iowa is the only jurisdiction here that extends the duty beyond powers of attorney by its own
+drafting**, and the trust lane is where it matters most. §633A.4604(6): “A person making a demand for
+the trust instrument in addition to a certification of trust or excerpts shall be **liable for
+damages, including attorney fees**, incurred as a result of the refusal to accept the certification
+of trust.”
+
+Set that against §14's Nebraska row. Every Uniform Trust Code state in this file offers the
+certification as an *option* the trustee may use and a *safe harbour* for whoever accepts it; none
+obliges anyone to take it, so a counterparty that insists on the whole instrument is merely being
+awkward. Iowa is the one place where it is paying damages. §633A.4604(5) adds the clock — “the period
+of time to verify the identity of the trustee shall not exceed **ten business days**” — which is the
+trust-lane counterpart of the seven business days the uniform power-of-attorney act gives, and which
+no other trust code here has. So the one artefact in this data that was designed to be handed to a
+bank finally has a duty and a deadline attached, in exactly one state.
+
+Two Iowa provisions cut the other way, and they are the more instructive half.
+
+**§633B.120(2)(e) makes the evidence irrelevant.** A person need not accept an acknowledged power
+where it “in good faith believes that the power of attorney is not valid or that the agent does not
+have the authority to perform the act requested, or that the power of attorney does not comply with
+federal or state law or regulations, **whether or not** a certification, a translation, or an opinion
+of counsel … has been requested or provided”. The uniform act's lawful refusals are specific facts —
+actual knowledge of termination, a pending abuse report, inconsistency with federal law. Iowa adds a
+general one and then expressly severs it from the evidence: the certification the act invites the
+custodian to demand **cannot cure the doubt it was demanded to resolve**. For a credential this is
+the sharpest warning in the section. Better evidence is not the mechanism by which a relying party
+is obliged to say yes; the obligation is, and Iowa shows a legislature can grant the obligation and
+withdraw it in consecutive subsections.
+
+**§633B.120(3)(b) puts the remedy on a clock.** The fee shift applies “provided that any such action
+must be brought **within one year** of the initial request for acceptance of the power of attorney” —
+the only limitation period on an acceptance remedy in this file. The price of an unjustified refusal
+is not just discretionary in one state (West Virginia) and automatic in the rest; in Iowa it also
+expires, and it expires from the date of the *request*, not from the date the principal discovers
+the harm.
+
 Read down the last column rather than the first. The duty is the component a standards body cannot
-supply, and where it exists it is usually narrow; the safe harbour is in **all seven**, and it is the component that
+supply, and where it exists it is usually narrow; the safe harbour is in **all eight**, and it is the component that
 actually moves a relying party, because it converts "I might be sued for getting this wrong" into "I
 am protected if I act in good faith on what I was shown". Delaware's small-estate route is the proof
 of concept: a custodian pays out on a stranger's sworn affidavit, for a $50,000 estate, with no court
@@ -1363,8 +1533,9 @@ to revoke or amend a power of attorney as the principal would have if not incapa
 Three neighbouring states enacted that section and answered the bracketed question three different
 ways, two of them by writing its inverse. Missouri, which took no uniform power-of-attorney act at
 all, supplies a fourth answer that is neither; Nebraska, which took the act whole, supplies a fifth
-by keeping the rule the act was written to abolish — and Kansas arrives at Nebraska's rule without
-ever having enacted the act at all:
+by keeping the rule the act was written to abolish; Kansas arrives at Nebraska's rule without ever
+having enacted the act at all — and Iowa, which did enact it, gives a sixth answer that is none of
+the above:
 
 | | Where the rule lives | What a court appointment does to the agency |
 |---|---|---|
@@ -1374,6 +1545,7 @@ ever having enacted the act at all:
 | **Missouri** | §404.731(3), in the jurisdiction section | **neither** — "the court **may specify in an order** the powers, duties and responsibilities" of the legal representative and the attorney in fact "and the manner in which they shall **coordinate** the exercise of their respective powers" |
 | **Nebraska** | §30-4008(2), the §108 slot | **hands the decision to the conservator** — the fiduciary "shall have the same power to revoke or amend the power of attorney that the principal would have had if he or she were not disabled or incapacitated" |
 | **Kansas** | §58-656(c), in its own act's duties section | **hands the decision to the conservator** — the fiduciary "has the same power to revoke or amend the durable power of attorney that the principal would have had" |
+| **Iowa** | §633B.108(2), the §108 slot | **suspends it, and reinstates it** — the power "is suspended unless the power of attorney provides otherwise or unless the court … decides the power of attorney should continue", and "shall be **reinstated** upon termination of the conservatorship as a result of the principal regaining capacity" |
 
 West Virginia and Kentucky reach the identical rule and file it in different places, and that is not
 a filing curiosity. A reader asking "when does a West Virginia power of attorney end?" goes to
@@ -1418,6 +1590,27 @@ menu that order is drawn from, and it is wider than any other court's powers her
 to act or to refrain, modify the authority, **suspend** a power that is not durable, terminate a
 durable one, remove the agent, or **confirm** the authority of an agent or successor.
 
+**Iowa's answer is the one a protocol cannot express at all.** The other five all resolve to a
+state: the agency is alive, dead, or subject to someone else's say-so. Iowa makes it **dormant** —
+§633B.108(2) suspends the power on the appointment of a conservator and then reinstates it “upon
+termination of the conservatorship as a result of the principal regaining capacity”.
+
+Three things follow. The instrument is **never invalid**, so there is nothing wrong with the paper at
+any point and no version of it that a custodian could be shown to learn the difference. Nothing is
+issued, endorsed or filed at either boundary: the suspension happens because a court appointed
+somebody in a different proceeding, and the reinstatement happens because that proceeding ended for
+one particular reason among several — capacity regained, not death, not resignation, not a successor
+conservator. And the condition is **continuous rather than instantaneous**: a relying party that
+checked last week learned the state last week.
+
+§14 records Utah's §75A-9-117, under which a health-care authority commences on a finding of
+incapacity, ceases if capacity returns, and resumes if the finding is confirmed — authority that
+oscillates with a clinical determination. Iowa is that same shape in the **financial** lane, which is
+where the custodians are. Put the two together and the point generalises: **an authority is not
+always a span with a start and an end.** Some are intermittent, and the gaps are invisible from the
+document. A credential with a validity period cannot say "valid, but asleep", and one that is
+re-checked at the moment of use needs something to check against that no jurisdiction here provides.
+
 That last item is worth isolating. Everywhere else in this data a relying party's problem is that
 nobody will tell it whether an authority is still good. Missouri lets an interested person ask a
 court to say so, on the record, in advance — a judicial confirmation of an agent's standing. It is
@@ -1449,6 +1642,20 @@ the chapter would find it. Virginia also added two termination triggers the unif
 does not have: a widened set of family-law filings, and §64.2-1608(B)(4), under which the agent's
 authority ends when the agent "is convicted of financial exploitation of the principal under
 §18.2-178.2" — authority extinguished by a criminal judgment in another title entirely.
+
+**Iowa goes one step beyond Virginia, and the step is off the public record.** §633B.110(2) ends an
+agent's authority not only where the agent "is convicted of dependent adult abuse for having abused
+the principal" — the Virginia shape — but also, at paragraph (e), where the agent "is **named as
+having abused the principal in a founded dependent adult abuse report**". That is an **administrative
+finding by a state department**, not a judgment of any court, and the register it lives in is
+confidential. So the most consequential thing that can happen to an Iowa power of attorney is
+recorded somewhere a bank cannot look, by a body that is not telling it, with no document changing
+hands.
+
+The same register is load-bearing at the other end of the lifecycle: §633.564 requires the court to
+search the dependent adult abuse registry before appointing a guardian or conservator. Iowa uses one
+confidential state record both to **screen** who may be given authority and to **strip** authority
+already given — and in neither direction does the artefact in anyone's hand reflect it.
 
 For anyone building an evidence layer the consequence is concrete, and it compounds the gap §15
 ends on. A relying party's safe harbour runs until it has **actual knowledge** that the authority has
@@ -1519,6 +1726,75 @@ is not a standard, and it does not scale — every bank would specify something 
 the problem a profile exists to solve. But it is a legislature recognising that someone has to
 nominate the channel, and deciding it should be the party that has to act on what arrives.
 
+## 19. Iowa makes the relying party's knowledge part of the authority, and puts one of them on a shot clock
+
+Every other section here treats the relying party's knowledge as a **shield**. The safe harbours in
+§15 all run until the custodian has actual knowledge that the authority is gone; §17 is about
+terminations it will never hear of. In all of that, what the custodian knows decides whether it is
+*liable*, never whether the authority *exists*. The authority is a fact about the holder, and
+knowledge is a fact about the audience.
+
+**Iowa writes three provisions where knowledge, or a clock, is an element of the authority itself.**
+
+| | What the law makes the authority depend on |
+|---|---|
+| §144B.6(1), health-care agent | priority over a court-appointed guardian, for an agent "**known to the health care provider** to be available and willing to make health care decisions" |
+| §144C.8(1), right to control a body | forfeited on being **charged** with murder or voluntary manslaughter in connection with the death — "and those charges are **known to a third party**" |
+| §144C.8(2), right to control a body | forfeited by **not acting**: within **24 hours of receiving notification** of the death, or **40 hours of the death**, whichever is earlier |
+
+The first is the mildest and the most far-reaching. Iowa's health-care attorney in fact outranks
+"any other person, **including a guardian** appointed pursuant to chapter 633" — a strong rule, and
+the inverse of what most of this set does with a later court appointment. But the rank is granted to
+an agent *known to the provider to be available and willing*. An agent nobody has heard from does
+not outrank the guardian; they are not a lower-priority agent, they are simply not in the contest.
+Whether the agent beats the guardian is therefore a question about the hospital's records, not about
+the instrument, and two providers holding the same power of attorney can correctly reach opposite
+answers.
+
+The second is the one §15 has been circling for four sections. §15 ends on the observation that
+every safe harbour turns on actual knowledge and no statute says how knowledge would arrive. Here a
+legislature has gone further and made the **terminating event itself** conditional on a third party
+knowing: a designee charged with killing the declarant forfeits the right to control the body, but
+only once "those charges are known to a third party". Before anyone knows, the charge has no legal
+effect on the authority. Virginia ends an agent's authority on a *conviction*, which is at least a
+public record; Iowa ends this one on a *charge*, which is earlier, and then gates it on publicity.
+The provision is honest about the hinge in a way the safe harbours are not — it concedes that an
+event nobody knows about cannot be doing any work — and that honesty is the finding.
+
+The third has no analogue anywhere in this data. **Iowa is the only jurisdiction here in which an
+authority can be lost by not using it.** Every other termination in this file is an event about the
+principal or the holder: death, revocation, incapacity, a court order, a conviction, a divorce
+filing, a founded abuse report. §144C.8(2) ends this one because nobody acted in time, on a clock
+measured in hours, and the clock is the **earlier** of two differently-anchored deadlines — 24 hours
+from notification, 40 hours from death. A designee told of the death at hour 30 has ten hours; one
+told at hour 39 has one; one never told loses the authority at hour 40 without ever having had a
+chance to exercise it. The authority then devolves to an alternate designee, or back down the
+§144C.5 list.
+
+That list ends in the widest claimant class in this reference, which is the system's answer to the
+clock running out: §144C.5(1)(i) gives the right to control to "a person who represents that the
+person knows the identity of the decedent and who signs an **affidavit warranting the identity** of
+the decedent and **assuming** the right to control final disposition … and the **responsibility to
+pay any expenses**". No relationship, no instrument, no court — a sworn statement of identity and an
+acceptance of the bill. Iowa closes a forty-hour window and then leaves a door open to anyone
+willing to pay.
+
+Three consequences for anything built on top of this, and they are not specific to Iowa:
+
+- **"Does X hold this role?" is not always answerable from facts about X.** Three Iowa provisions
+  make the answer depend on what a provider was told, what a third party knows, or how long ago
+  somebody was notified. An assertion of the form *holder is the designee of D* is incomplete in
+  Iowa without a timestamp and a notification history, and no credential format in use carries
+  those.
+- **Short-lived authority is real, and the short end is hours, not months.** §16 records findings
+  with statutory shelf lives from two hours to five years. §144C.8(2) is the same scale applied to
+  the authority rather than to the finding beneath it. Any design whose refresh interval is a day
+  cannot represent this role at all.
+- **Non-exercise is a state worth modelling.** A protocol that distinguishes only *valid* from
+  *revoked* has nowhere to put "lapsed because unused", and nowhere to put the devolution that
+  follows it. The alternate designee's authority begins at the moment the first one's ends, and the
+  only evidence of that moment is the absence of an act.
+
 ## What this suggests for a standard
 
 1. **Bind to the roles that already exist.** Executor and administrator are present in 20–24
@@ -1580,7 +1856,12 @@ nominate the channel, and deciding it should be the party that has to act on wha
    where it is handled as a grievance. So a protocol needs three things, not one — somewhere to
    publish a change of status, a duty to consult it, and a path for the relying party's own "no" to
    get back to whoever issued the authority. Exactly one of the three is legislated anywhere in this
-   set, and it is the one nobody designs.
+   set, and it is the one nobody designs. **Iowa shows the problem is worse than a missing channel**:
+   under §633B.108(2) a power of attorney is *suspended* by a conservatorship and *reinstated* when
+   the principal regains capacity, so the authority is intermittent and the document never changes;
+   and §633B.110(2)(e) ends an agent's authority on a **founded dependent adult abuse report**, an
+   administrative finding in a confidential register. A status channel has to be able to say "asleep"
+   as well as "revoked", and some of what it would have to report, no jurisdiction will disclose.
 7. **Expect some jurisdictions to answer with collateral rather than evidence.** Missouri lets the
    relying party demand security instead of trusting the assertion: indemnity against forgery of a
    power of attorney by bond (§404.719(4)), a certification of trust acknowledged or guaranteed and
@@ -1591,7 +1872,16 @@ nominate the channel, and deciding it should be the party that has to act on wha
    claimant is the least reachable party there is, so a profile should expect to carry
    indemnity, guarantee or insurance terms alongside the assertion, and should not assume that
    better evidence removes the demand for security.
-8. **Prove the event, not just the role — and expect the proof to lag.** Every section above is about
+8. **Expect some authority to be lost by inaction, and some to turn on what you were told.** §19 is
+   Iowa: a health-care agent outranks a guardian only while "known to the health care provider to be
+   available and willing" (§144B.6(1)); a designee forfeits the right to control a body on a murder
+   charge, but only once "those charges are known to a third party", and forfeits it outright by not
+   acting within 24 hours of notification or 40 hours of death (§144C.8). Everywhere else in this file
+   the relying party's knowledge decides only whether it is liable. In Iowa it decides whether the
+   authority is there at all. So an assertion about a role may need a notification history and a
+   timestamp, not just an issue date — and a design whose shortest refresh is a day cannot carry a
+   role whose window is forty hours.
+9. **Prove the event, not just the role — and expect the proof to lag.** Every section above is about
    evidencing an authority; none of these statutes, bar one, says anything about evidencing the
    *event* that starts it. Nebraska's §30-24,125(2) is the exception, and it concedes the point by
    accepting an "abstract of death" where "a certified death certificate" is delayed. The delay is

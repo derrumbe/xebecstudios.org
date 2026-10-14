@@ -1232,6 +1232,282 @@
    }
   ]
  },
+ "us-ia": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "§633B.104, the uniform §104: “durable unless the power of attorney expressly provides that it is terminated by the incapacity of the principal”. Iowa enacted the Uniform Power of Attorney Act in 2014 (2014 Acts ch. 1078) and cites it at §633B.101 as the “Iowa Uniform Power of Attorney Act”.",
+    "citations": [
+     "iaf-633b-104",
+     "iaf-633b-101"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "No registration gate, but §633B.105 makes **acknowledgment before a notary a condition of validity**, as West Virginia does rather than as the uniform act does — and adds that “an agent named in the power of attorney shall not notarize the principal’s signature”. An acknowledged signature is then presumed genuine. So an Iowa power is always notarised and never registered.",
+    "citations": [
+     "iaf-633b-105"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": true,
+    "note": "§633B.109, and Iowa legislates the proof of the triggering event rather than leaving it open. The principal may name persons to determine “in a writing or other record” that the contingency occurred; failing that, a power springing on incapacity takes effect on a written determination by a licensed physician or psychologist, or by a judge or appropriate governmental official. §633B.109(4) then makes the determiner the principal’s **HIPAA personal representative** for the purpose of obtaining the health information the determination requires — the only provision in this set that closes that loop.",
+    "citations": [
+     "iaf-633b-109"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "§§144B.1(3) and 144B.6(1): the attorney in fact may act only where the principal is unable “in the judgment of the attending physician or attending physician assistant”, and a principal who objects to a withholding decision “shall be presumed to be able to make a decision”. §144B.6(1) also ranks a known, willing agent ahead of a court-appointed guardian — conditioned on the agent being “known to the health care provider to be available and willing”.",
+    "citations": [
+     "iaf-144b-1",
+     "iaf-144b-6"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": false,
+    "note": "No supported decision-making statute. The legislature's own full-text search, run against positive controls that return correctly, finds the phrase only in **bills** (e.g. HF 207, SF 2189) and agency publications, never in a Code chapter. Chapter 231E, whose catchline reads close, is the Public Guardian Act. The bills are noted as context for the absence, not cited as law.",
+    "citations": [
+     "iaf-633-564"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Chapter 638 (2017 Acts ch. 79). §638.1 cites it as the “Iowa Uniform Fiduciary Access to Digital Assets Act”, **dropping the “Revised”** as West Virginia's and Missouri's short titles do. §638.16 gives the custodian 60 days and immunises good-faith compliance.",
+    "citations": [
+     "iaf-638-1",
+     "iaf-638-16"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§638.4(1) is the uniform online-tool rule, and §638.4(3) adds that a user's direction overrides a contrary terms-of-service provision that does not require the user to act “affirmatively and distinctly from the user's assent to the terms of service”.",
+    "citations": [
+     "iaf-638-4"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act, chapter 142C. §142C.3(1) lets an agent make a gift during the donor's life unless the health-care power prohibits it, and extends the donor class to a minor of at least fourteen who authorises the symbol on a driver's licence **or on a hunting, fishing or fur harvester licence** with a parent's signed approval. §142C.4 ranks the post-mortem classes.",
+    "citations": [
+     "iaf-142c-1",
+     "iaf-142c-3",
+     "iaf-142c-4"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "§633.356: **$50,000** of personal property after **40 days**, on an affidavit under penalty of perjury furnished to the holder, “without procuring letters of appointment”. Three features are distinctive. It is the only route here with a **two-way fee shift** — §633.356(6)(b) awards the successor's fees where the holder “acted unreasonably in refusing” and §633.356(7)(b) awards the holder's fees where it “acted reasonably”. §633.356(9) obliges the holder to **disclose to the affiant** whether the property it holds is within the $50,000 ceiling, so the claimant can ask the custodian the one question that decides eligibility. And §633.356(4)(b) lets the holder demand “a bond in a reasonable amount determined by the holder” where evidence of ownership is not produced. The Iowa Medicaid agency is itself a statutory successor (§633.356(2)(c)) and may claim after **90 days** on its own affidavit, using proof of payment of funeral expenses in place of a death certificate (§633.356(8)(b)). The route now admits **no real property at all**; the former allowance for realty passing to inheritance-tax-exempt joint tenants survives only for deaths before 1 January 2025, and the 2025 amendments apply **retroactively** to 1 January 2025 (2025 Acts ch. 148, §54).",
+    "citations": [
+     "iaf-633-356"
+    ],
+    "threshold": 50000,
+    "currency": "USD",
+    "waitingDays": 40
+   },
+   "probateGrantName": {
+    "value": "letters testamentary / letters of administration",
+    "note": "§633.178: on an oath of office and any bond required, “the clerk shall issue letters under the seal of the court, giving the fiduciary the powers authorized by law” — a generic grant that does not carry the scope, unlike Kansas's letters of office. §633.564 instead gates the appointment itself on criminal-record and abuse-registry checks.",
+    "citations": [
+     "iaf-633-178",
+     "iaf-633-564"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": false,
+    "note": "Nothing in chapter 144B continues the health-care agent's authority past death. Disposition of remains runs on its own chapter 144C priority, headed by a designee under a declaration, and anatomical gifts on the §142C.4 classes. §144C.8 then forfeits the disposition authority where the holder is **charged** with murder or voluntary manslaughter in connection with the death “and those charges are known to a third party”, or where the holder does not act within 24 hours of notification or 40 hours of death.",
+    "citations": [
+     "iaf-144c-5",
+     "iaf-144c-8",
+     "iaf-142c-4"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "iaf-633b-104",
+    "cite": "Iowa Code § 633B.104",
+    "title": "Durability of power of attorney",
+    "url": "https://www.legis.iowa.gov/docs/code/633B.104.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-633b-101",
+    "cite": "Iowa Code § 633B.101",
+    "title": "Title",
+    "url": "https://www.legis.iowa.gov/docs/code/633B.101.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-633b-105",
+    "cite": "Iowa Code § 633B.105",
+    "title": "Execution",
+    "url": "https://www.legis.iowa.gov/docs/code/633B.105.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-633b-109",
+    "cite": "Iowa Code § 633B.109",
+    "title": "When power of attorney effective",
+    "url": "https://www.legis.iowa.gov/docs/code/633B.109.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-144b-1",
+    "cite": "Iowa Code § 144B.1",
+    "title": "Definitions",
+    "url": "https://www.legis.iowa.gov/docs/code/144B.1.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-144b-6",
+    "cite": "Iowa Code § 144B.6",
+    "title": "Attorney in fact — priority to make decisions",
+    "url": "https://www.legis.iowa.gov/docs/code/144B.6.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-633-564",
+    "cite": "Iowa Code § 633.564",
+    "title": "Background check of proposed guardian or conservator",
+    "url": "https://www.legis.iowa.gov/docs/code/633.564.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-638-1",
+    "cite": "Iowa Code § 638.1",
+    "title": "Short title",
+    "url": "https://www.legis.iowa.gov/docs/code/638.1.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-638-16",
+    "cite": "Iowa Code § 638.16",
+    "title": "Custodian compliance and immunity",
+    "url": "https://www.legis.iowa.gov/docs/code/638.16.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-638-4",
+    "cite": "Iowa Code § 638.4",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://www.legis.iowa.gov/docs/code/638.4.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-142c-1",
+    "cite": "Iowa Code § 142C.1",
+    "title": "Short title",
+    "url": "https://www.legis.iowa.gov/docs/code/142C.1.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-142c-3",
+    "cite": "Iowa Code § 142C.3",
+    "title": "Persons who may make an anatomical gift before the donor’s death",
+    "url": "https://www.legis.iowa.gov/docs/code/142C.3.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-142c-4",
+    "cite": "Iowa Code § 142C.4",
+    "title": "Who may make anatomical gift of decedent’s body or part",
+    "url": "https://www.legis.iowa.gov/docs/code/142C.4.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-633-356",
+    "cite": "Iowa Code § 633.356",
+    "title": "Distribution of property by affidavit — very small estates",
+    "url": "https://www.legis.iowa.gov/docs/code/633.356.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-633-178",
+    "cite": "Iowa Code § 633.178",
+    "title": "Letters",
+    "url": "https://www.legis.iowa.gov/docs/code/633.178.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-144c-5",
+    "cite": "Iowa Code § 144C.5",
+    "title": "Final disposition of remains — right to control",
+    "url": "https://www.legis.iowa.gov/docs/code/144C.5.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   },
+   {
+    "id": "iaf-144c-8",
+    "cite": "Iowa Code § 144C.8",
+    "title": "Forfeiture of authority to control",
+    "url": "https://www.legis.iowa.gov/docs/code/144C.8.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-14"
+   }
+  ]
+ },
  "us-id": {
   "features": {
    "deceasedPersonalDataProtected": {
