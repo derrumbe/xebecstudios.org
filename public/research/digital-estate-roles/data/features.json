@@ -783,8 +783,9 @@
     "title": "Petition for Probate (form adopted for mandatory use)",
     "url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/de111.pdf",
     "kind": "court-rule",
-    "retrieved": "2026-09-16",
-    "quote": "Probate of Lost Will and for Letters Testamentary ... Letters of Administration"
+    "retrieved": "2026-10-19",
+    "note": "The form is an AcroForm whose caption prints one shared “Probate of” stem above a column of checkbox labels, and the PDF's text layer places that stem in its own run — it extracts as “PETITION FOR Probate of Probate of Letters of Administration …”, separated from the labels it governs. So the quote is taken from the labels themselves, which do extract contiguously.",
+    "quote": "Lost Will and for Letters Testamentary … Lost Will and for Letters of Administration with Will Annexed"
    },
    {
     "id": "ca-prob-4683",
@@ -8335,8 +8336,8 @@
     "title": "Make, register or end a lasting power of attorney",
     "url": "https://www.gov.uk/power-of-attorney",
     "kind": "agency-rule",
-    "retrieved": "2026-09-16",
-    "quote": "Your LPA will end automatically when you die."
+    "note": "A multi-part GOV.UK guide; this is its overview, and the parts carry the detail.",
+    "retrieved": "2026-10-19"
    },
    {
     "id": "mca-s1",
@@ -12455,7 +12456,7 @@
     "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a61-03.pdf",
     "kind": "statute",
     "retrieved": "2026-09-17",
-    "quote": "in a document signed by him or her and at least two competent witnesses; or in an oral statement made in the presence of at least two competent witnesses, donate his or her body or any specified tissue thereof to be used after his or her death"
+    "quote": "in a document signed by him or her and at least two competent witnesses; or (iii) in an oral statement made in the presence of at least two competent witnesses, donate his or her body or any specified tissue thereof to be used after his or her death"
    },
    {
     "id": "za-nha-62-donee",
@@ -13312,11 +13313,12 @@
    },
    "probateGrantName": {
     "value": "probate / letters of administration",
-    "note": "Probate is granted only to an executor appointed by the will; otherwise letters of administration. Section 213 does not apply to wills made by Muslims or Indian Christians.",
+    "note": "Probate is granted only to an executor appointed by the will; otherwise letters of administration, which where the deceased died intestate and was a Hindu, Muhammadan, Buddhist, Sikh or Jaina or an exempted person may be granted to anyone entitled to a share of the estate. Section 213, which required one or the other before a right as executor or legatee could be established in court, was omitted with effect from 20 December 2025.",
     "citations": [
      "in-isa-222",
      "in-isa-218",
-     "in-isa-213"
+     "in-isa-213",
+     "in-raa-2025-sch2"
     ]
    },
    "organDonationModel": {
@@ -13384,12 +13386,22 @@
    },
    {
     "id": "in-isa-213",
-    "cite": "The Indian Succession Act, 1925 (Act 39 of 1925), s 213",
-    "title": "Right as executor or legatee when established",
+    "cite": "The Indian Succession Act, 1925 (Act 39 of 1925), s 213 (omitted)",
+    "title": "Right as executor or legatee when established — omitted with effect from 20 December 2025",
     "url": "https://indiacode.gov.in/handle/123456789/527780",
     "kind": "statute",
-    "retrieved": "2026-09-17",
-    "quote": "(1) No right as executor or legatee can be established in any Court of Justice, unless a Court of competent jurisdiction in 1 [India] has granted probate of the will under which the right is claimed, or has granted letters of administration with the will or with a copy of an authenticated copy of the will annexed. 2 [(2) This section…"
+    "retrieved": "2026-10-19",
+    "note": "The section that required probate or letters of administration before a right as executor or legatee could be established in court, with exemptions in its sub-section (2). Omitted by the Repealing and Amending Act, 2025 with effect from 20 December 2025, so the Act no longer makes a grant a precondition. The Code prints only the omission note, so the repealed text and the scope of those exemptions can no longer be read from it. The consequential amendments the same Schedule makes have not reached the Code: s 3(1) and s 370(1) still cross-refer to s 213 as if in force.",
+    "quote": "[Right as executor or legatee when established.] Omitted by the Repealing and Amending Act, 2025 (37 of 2025), s. 3 and Sch. II (w.e.f. 20-12-2025)."
+   },
+   {
+    "id": "in-raa-2025-sch2",
+    "cite": "The Repealing and Amending Act, 2025 (Act 37 of 2025), s 3 and Second Schedule",
+    "title": "Omission of Indian Succession Act s 213 and the consequential amendments to ss 3(1) and 370",
+    "url": "https://indiacode.gov.in/handle/123456789/510581",
+    "kind": "statute",
+    "retrieved": "2026-10-19",
+    "quote": "(i) In section 3, in sub-section (1), the figure “, 213” shall be omitted; … (ii) section 213 shall be omitted; … (iii) in section 370, … (a) in sub-section (1), for the words and figures “or section 213 to be established by letters of administration or probate”, the words “to be established by letters of administration” shall be substituted"
    },
    {
     "id": "in-thota-3",

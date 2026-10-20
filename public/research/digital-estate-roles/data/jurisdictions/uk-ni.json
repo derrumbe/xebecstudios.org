@@ -190,11 +190,12 @@
   },
   {
    "id": "doh-restraint-consultation-2024",
-   "cite": "Department of Health NI, 'Consultation on the Commencement of Provisions under the MCA (NI) 2016 relating to Acts of Restraint' (Sept 2024)",
+   "cite": "Department of Health NI, 'Consultation on the Commencement of Provisions under the MCA (NI) 2016 relating to Acts of Restraint' (Sept 2024) para 23 (consultation document)",
    "title": "Remaining provisions (care, treatment and personal welfare decisions, LPAs, IMCAs) not commenced; no decisions on full implementation",
-   "url": "https://consultations2.nidirect.gov.uk/doh-1/consultation-on-the-commencement-of-provisions-und/",
+   "url": "https://consultations2.nidirect.gov.uk/doh-1/consultation-on-the-commencement-of-provisions-und/supporting_documents/Consultation%20Document%20%20Commencement%20of%20provisions%20under%20the%20Mental%20Capacity%20Act%20NI%202016%20relating%20to%20%20Acts%20of%20Restraint.DOC",
    "kind": "law-reform-report",
-   "retrieved": "2026-09-16",
+   "note": "The quoted paragraph is in the consultation document itself, not on the Citizen Space overview page the consultation is listed under; that page's own wording is weaker ('will inform future decisions on full MCA implementation'). The document is a binary .DOC, so the citation verifier reports it as unreadable rather than comparing against it.",
+   "retrieved": "2026-10-19",
    "quote": "No decisions have yet been made in relation to full implementation of the MCA."
   },
   {

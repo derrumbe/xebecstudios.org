@@ -7,11 +7,12 @@
  "citations": [
   {
    "id": "ssaa-123a",
-   "cite": "Social Security (Administration) Act 1999 (Cth) s 123A (Part 3A—Nominees), Compilation No. 163 (5 Dec 2025)",
+   "cite": "Social Security (Administration) Act 1999 (Cth) s 123A (Part 3A—Nominees), Compilation No. 164 (19 Sep 2026)",
    "title": "Definitions: correspondence nominee, payment nominee, principal",
    "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
    "kind": "statute",
-   "retrieved": "2026-09-16",
+   "note": "The URL points at the current compilation, so the number named in the cite is whatever that was when read: No. 163 (5 Dec 2025) at the September 2026 reading, No. 164 (19 Sep 2026) when re-verified on 19 October 2026, with s 123A unchanged between them.",
+   "retrieved": "2026-10-19",
    "quote": "principal, in relation to a nominee, means: (a) in the case of a nominee appointed under section 123B or 123C, the person in relation ..."
   },
   {

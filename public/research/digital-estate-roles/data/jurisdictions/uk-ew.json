@@ -194,7 +194,16 @@
    "title": "Make, register or end a lasting power of attorney",
    "url": "https://www.gov.uk/power-of-attorney",
    "kind": "agency-rule",
-   "retrieved": "2026-09-16",
+   "note": "A multi-part GOV.UK guide; this is its overview, and the parts carry the detail.",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "id": "govuk-lpa-end",
+   "cite": "GOV.UK, Make, register or end a lasting power of attorney: End your lasting power of attorney",
+   "title": "If you die: the LPA ends automatically",
+   "url": "https://www.gov.uk/power-of-attorney/end",
+   "kind": "agency-rule",
+   "retrieved": "2026-10-19",
    "quote": "Your LPA will end automatically when you die."
   },
   {
@@ -230,7 +239,16 @@
    "title": "Deputies",
    "url": "https://www.gov.uk/become-deputy",
    "kind": "agency-rule",
-   "retrieved": "2026-09-16",
+   "note": "A multi-part GOV.UK guide; this is its overview, and the parts carry the detail.",
+   "retrieved": "2026-10-19"
+  },
+  {
+   "id": "govuk-deputy-end",
+   "cite": "GOV.UK, Deputies: make decisions for someone who lacks capacity: End your deputyship",
+   "title": "A deputy cannot stand down without a court order",
+   "url": "https://www.gov.uk/become-deputy/end-your-deputyship",
+   "kind": "agency-rule",
+   "retrieved": "2026-10-19",
    "quote": "You cannot stop being a deputy until you've got the relevant court order."
   },
   {
@@ -538,6 +556,7 @@
       "phase": "deceased",
       "citations": [
        "govuk-lpa",
+       "govuk-lpa-end",
        "opg-death-note",
        "paa-1971-s5"
       ]
@@ -790,6 +809,7 @@
       "phase": "deceased",
       "citations": [
        "govuk-lpa",
+       "govuk-lpa-end",
        "opg-death-note",
        "paa-1971-s5"
       ]
@@ -1000,6 +1020,7 @@
       "phase": "deceased",
       "citations": [
        "govuk-lpa",
+       "govuk-lpa-end",
        "opg-death-note",
        "paa-1971-s5"
       ]
@@ -1584,6 +1605,7 @@
       "phase": "incapacitated",
       "citations": [
        "govuk-deputy",
+       "govuk-deputy-end",
        "opg-sd4",
        "opg-death-note"
       ]
@@ -1793,6 +1815,7 @@
       "phase": "incapacitated",
       "citations": [
        "govuk-deputy",
+       "govuk-deputy-end",
        "opg-sd4",
        "opg-death-note"
       ]

@@ -4860,11 +4860,12 @@
     },
     "ssaa-123a": {
      "id": "ssaa-123a",
-     "cite": "Social Security (Administration) Act 1999 (Cth) s 123A (Part 3A—Nominees), Compilation No. 163 (5 Dec 2025)",
+     "cite": "Social Security (Administration) Act 1999 (Cth) s 123A (Part 3A—Nominees), Compilation No. 164 (19 Sep 2026)",
      "title": "Definitions: correspondence nominee, payment nominee, principal",
      "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
      "kind": "statute",
-     "retrieved": "2026-09-16"
+     "note": "The URL points at the current compilation, so the number named in the cite is whatever that was when read: No. 163 (5 Dec 2025) at the September 2026 reading, No. 164 (19 Sep 2026) when re-verified on 19 October 2026, with s 123A unchanged between them.",
+     "retrieved": "2026-10-19"
     },
     "ssaa-123c": {
      "id": "ssaa-123c",
@@ -9050,7 +9051,8 @@
      "title": "Deputies",
      "url": "https://www.gov.uk/become-deputy",
      "kind": "agency-rule",
-     "retrieved": "2026-09-16"
+     "note": "A multi-part GOV.UK guide; this is its overview, and the parts carry the detail.",
+     "retrieved": "2026-10-19"
     },
     "opg-death-note": {
      "id": "opg-death-note",
@@ -9083,6 +9085,14 @@
      "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/20",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "govuk-deputy-end": {
+     "id": "govuk-deputy-end",
+     "cite": "GOV.UK, Deputies: make decisions for someone who lacks capacity: End your deputyship",
+     "title": "A deputy cannot stand down without a court order",
+     "url": "https://www.gov.uk/become-deputy/end-your-deputyship",
+     "kind": "agency-rule",
+     "retrieved": "2026-10-19"
     },
     "mho-97": {
      "id": "mho-97",
@@ -11025,6 +11035,7 @@
         "phase": "incapacitated",
         "citations": [
          "govuk-deputy",
+         "govuk-deputy-end",
          "opg-sd4",
          "opg-death-note"
         ]
@@ -11038,7 +11049,8 @@
       "opg-death-note",
       "opg-sd3",
       "opg-sd4",
-      "mca-s20"
+      "mca-s20",
+      "govuk-deputy-end"
      ]
     },
     {
@@ -25474,7 +25486,8 @@
      "title": "Make, register or end a lasting power of attorney",
      "url": "https://www.gov.uk/power-of-attorney",
      "kind": "agency-rule",
-     "retrieved": "2026-09-16"
+     "note": "A multi-part GOV.UK guide; this is its overview, and the parts carry the detail.",
+     "retrieved": "2026-10-19"
     },
     "opg-lp12": {
      "id": "opg-lp12",
@@ -25483,6 +25496,14 @@
      "url": "https://www.gov.uk/government/publications/lasting-power-of-attorney-forms/lp12-make-and-register-your-lasting-power-of-attorney-a-guide-web-version",
      "kind": "agency-rule",
      "retrieved": "2026-09-16"
+    },
+    "govuk-lpa-end": {
+     "id": "govuk-lpa-end",
+     "cite": "GOV.UK, Make, register or end a lasting power of attorney: End your lasting power of attorney",
+     "title": "If you die: the LPA ends automatically",
+     "url": "https://www.gov.uk/power-of-attorney/end",
+     "kind": "agency-rule",
+     "retrieved": "2026-10-19"
     },
     "opg-death-note": {
      "id": "opg-death-note",
@@ -27527,6 +27548,7 @@
         "phase": "deceased",
         "citations": [
          "govuk-lpa",
+         "govuk-lpa-end",
          "opg-death-note",
          "paa-1971-s5"
         ]
@@ -27569,6 +27591,7 @@
       "mca-sch1",
       "govuk-lpa",
       "opg-lp12",
+      "govuk-lpa-end",
       "opg-death-note",
       "paa-1971-s5",
       "mca-s13"
@@ -30580,14 +30603,6 @@
      "kind": "statute",
      "retrieved": "2026-09-17"
     },
-    "in-isa-213": {
-     "id": "in-isa-213",
-     "cite": "The Indian Succession Act, 1925 (Act 39 of 1925), s 213",
-     "title": "Right as executor or legatee when established",
-     "url": "https://indiacode.gov.in/handle/123456789/527780",
-     "kind": "statute",
-     "retrieved": "2026-09-17"
-    },
     "in-isa-211": {
      "id": "in-isa-211",
      "cite": "The Indian Succession Act, 1925 (Act 39 of 1925), s 211",
@@ -30595,6 +30610,23 @@
      "url": "https://indiacode.gov.in/handle/123456789/527778",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "in-isa-213": {
+     "id": "in-isa-213",
+     "cite": "The Indian Succession Act, 1925 (Act 39 of 1925), s 213 (omitted)",
+     "title": "Right as executor or legatee when established — omitted with effect from 20 December 2025",
+     "url": "https://indiacode.gov.in/handle/123456789/527780",
+     "kind": "statute",
+     "retrieved": "2026-10-19",
+     "note": "The section that required probate or letters of administration before a right as executor or legatee could be established in court, with exemptions in its sub-section (2). Omitted by the Repealing and Amending Act, 2025 with effect from 20 December 2025, so the Act no longer makes a grant a precondition. The Code prints only the omission note, so the repealed text and the scope of those exemptions can no longer be read from it. The consequential amendments the same Schedule makes have not reached the Code: s 3(1) and s 370(1) still cross-refer to s 213 as if in force."
+    },
+    "in-raa-2025-sch2": {
+     "id": "in-raa-2025-sch2",
+     "cite": "The Repealing and Amending Act, 2025 (Act 37 of 2025), s 3 and Second Schedule",
+     "title": "Omission of Indian Succession Act s 213 and the consequential amendments to ss 3(1) and 370",
+     "url": "https://indiacode.gov.in/handle/123456789/510581",
+     "kind": "statute",
+     "retrieved": "2026-10-19"
     },
     "jp-cc-1006": {
      "id": "jp-cc-1006",
@@ -31882,7 +31914,7 @@
       "probate"
      ],
      "nameEn": null,
-     "summary": "Probate is granted only to an executor appointed by the will. The executor is the deceased’s legal representative for all purposes and the property vests in them — but neither that vesting nor the need for probate applies uniformly: property passing by survivorship is excluded, and s 213 does not apply to wills made by Muslims or Indian Christians.",
+     "summary": "Probate is granted only to an executor appointed by the will. The executor is the deceased’s legal representative for all purposes and the property vests in them, though property passing by survivorship is excluded. Until 20 December 2025 s 213 also barred any right as executor or legatee from being established in court without a grant; that section has been omitted, and the Act no longer says what starts the authority in its place.",
      "group": "estate",
      "stateSpecific": false,
      "unverified": false,
@@ -31897,11 +31929,13 @@
        ]
       },
       "starts": {
-       "event": "On grant of probate; no right as executor can be established in court without it, subject to the exemptions in s 213(2)",
+       "event": "On grant of probate, which is granted only to an executor appointed by the will (s 222). The s 213 bar on establishing any right as executor or legatee without a grant was omitted with effect from 20 December 2025, so the Act no longer makes the grant a precondition — and does not say what starts the authority instead",
        "phase": "administration",
        "citations": [
+        "in-isa-211",
+        "in-isa-222",
         "in-isa-213",
-        "in-isa-211"
+        "in-raa-2025-sch2"
        ]
       },
       "ends": [
@@ -31916,8 +31950,9 @@
      },
      "citations": [
       "in-isa-222",
+      "in-isa-211",
       "in-isa-213",
-      "in-isa-211"
+      "in-raa-2025-sch2"
      ]
     },
     {
@@ -35976,7 +36011,8 @@
      "title": "Deputies",
      "url": "https://www.gov.uk/become-deputy",
      "kind": "agency-rule",
-     "retrieved": "2026-09-16"
+     "note": "A multi-part GOV.UK guide; this is its overview, and the parts carry the detail.",
+     "retrieved": "2026-10-19"
     },
     "opg-death-note": {
      "id": "opg-death-note",
@@ -36009,6 +36045,14 @@
      "url": "https://www.legislation.gov.uk/ukpga/2005/9/section/20",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "govuk-deputy-end": {
+     "id": "govuk-deputy-end",
+     "cite": "GOV.UK, Deputies: make decisions for someone who lacks capacity: End your deputyship",
+     "title": "A deputy cannot stand down without a court order",
+     "url": "https://www.gov.uk/become-deputy/end-your-deputyship",
+     "kind": "agency-rule",
+     "retrieved": "2026-10-19"
     },
     "awi-53": {
      "id": "awi-53",
@@ -37557,6 +37601,7 @@
         "phase": "incapacitated",
         "citations": [
          "govuk-deputy",
+         "govuk-deputy-end",
          "opg-sd4",
          "opg-death-note"
         ]
@@ -37570,7 +37615,8 @@
       "opg-death-note",
       "opg-sd3",
       "opg-sd4",
-      "mca-s20"
+      "mca-s20",
+      "govuk-deputy-end"
      ]
     },
     {
@@ -40474,7 +40520,16 @@
      "title": "Make, register or end a lasting power of attorney",
      "url": "https://www.gov.uk/power-of-attorney",
      "kind": "agency-rule",
-     "retrieved": "2026-09-16"
+     "note": "A multi-part GOV.UK guide; this is its overview, and the parts carry the detail.",
+     "retrieved": "2026-10-19"
+    },
+    "govuk-lpa-end": {
+     "id": "govuk-lpa-end",
+     "cite": "GOV.UK, Make, register or end a lasting power of attorney: End your lasting power of attorney",
+     "title": "If you die: the LPA ends automatically",
+     "url": "https://www.gov.uk/power-of-attorney/end",
+     "kind": "agency-rule",
+     "retrieved": "2026-10-19"
     },
     "opg-death-note": {
      "id": "opg-death-note",
@@ -42321,6 +42376,7 @@
         "phase": "deceased",
         "citations": [
          "govuk-lpa",
+         "govuk-lpa-end",
          "opg-death-note",
          "paa-1971-s5"
         ]
@@ -42355,6 +42411,7 @@
       "mca-sch1",
       "mca-s11",
       "govuk-lpa",
+      "govuk-lpa-end",
       "opg-death-note",
       "paa-1971-s5",
       "mca-s13"
@@ -57739,7 +57796,16 @@
      "title": "Make, register or end a lasting power of attorney",
      "url": "https://www.gov.uk/power-of-attorney",
      "kind": "agency-rule",
-     "retrieved": "2026-09-16"
+     "note": "A multi-part GOV.UK guide; this is its overview, and the parts carry the detail.",
+     "retrieved": "2026-10-19"
+    },
+    "govuk-lpa-end": {
+     "id": "govuk-lpa-end",
+     "cite": "GOV.UK, Make, register or end a lasting power of attorney: End your lasting power of attorney",
+     "title": "If you die: the LPA ends automatically",
+     "url": "https://www.gov.uk/power-of-attorney/end",
+     "kind": "agency-rule",
+     "retrieved": "2026-10-19"
     },
     "opg-death-note": {
      "id": "opg-death-note",
@@ -58162,6 +58228,7 @@
         "phase": "deceased",
         "citations": [
          "govuk-lpa",
+         "govuk-lpa-end",
          "opg-death-note",
          "paa-1971-s5"
         ]
@@ -58196,6 +58263,7 @@
       "mca-s9",
       "govuk-make-decisions",
       "govuk-lpa",
+      "govuk-lpa-end",
       "opg-death-note",
       "paa-1971-s5",
       "mca-s13",

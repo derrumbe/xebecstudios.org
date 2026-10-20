@@ -923,6 +923,30 @@ Two design points follow, and they are not specific to Idaho:
   act rather than in the code. A schema with an `effectiveFrom` date has nowhere to put that, and a
   pipeline that requires one will either drop the pending version or invent a date for it.
 
+**India is the tombstone case outside the US, and it goes one step further than Kansas.** Section 213
+of the Indian Succession Act, 1925 was the statutory bar on establishing any right as executor or
+legatee without probate or letters of administration — the hardest form of "authority requires a court
+grant" anywhere in this set. It was **omitted with effect from 20 December 2025** by the Repealing and
+Amending Act, 2025 (37 of 2025), s 3 and Sch. II, which also substituted the cross-reference in s 370
+and struck the figure from s 3(1). Its page on India Code still resolves, still answers normally, and
+now reads `[Omitted].` with nothing but the note recording what did it — Kansas §59-3050 again, in
+another legal system.
+
+What India adds is that **a code can be internally inconsistent mid-transition**. The Schedule makes
+three changes and the Code has applied one: s 213 is marked omitted, while s 3(1) still carries the
+figure "213" and s 370(1) still conditions a succession certificate on a right "required by section
+212 or section 213 to be established by letters of administration or probate". So the two questions
+"is this section in force?" and "does anything still point at it?" have different answers on the same
+day, from the same official source. A pipeline that resolves cross-references will follow s 370 to a
+provision that no longer exists, and nothing on either page says so.
+
+The modelling consequence is the one this file keeps arriving at from different directions: the
+repeal removed the gate and **put nothing in its place**. Section 211 still makes the executor the
+deceased's legal representative with the estate vesting in them, and the Act now says nothing about
+what starts that authority. So the honest record is a role whose beginning is no longer stated in the
+statute — which is a different thing from a role whose beginning is unknown to us, and a schema needs
+to be able to say which of the two it is holding.
+
 ## 13. An obligation to offer the choice is not an evidence layer
 
 France compels the platform (§3) and Idaho compels the relying party (§11), but neither says
