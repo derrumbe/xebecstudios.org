@@ -1,0 +1,65 @@
+---
+title: "Between the Clocks: Introducing shared-signals.dev"
+date: 2026-10-20
+subject: Technology
+tags: [Identity, Security]
+description: "A half marathon run on three clocks is a race run blind between them. A new site for the standards that close the gap, and a place to see how they work."
+project: "shared-signals-dev"
+---
+
+On September 17, 2011, I was reminded that obtaining and reacting to real-time data is essential. I was running the Stockholm Half Marathon, desperately trying to pace myself on a course I had never run before. My goal was to keep close to five minutes per kilometre — and the Garmin on my wrist was continually giving me feedback.
+
+It is no secret that one of the reasons I run is for the tech: I have a deep passion for sports watches and the data they provide. It is not data for the sake of data, though. These devices inform strategy. At any point during a run I can glance down and get an instant read of my current speed, along with heart rate, cadence, elevation, the weather, a message from home. Because that data arrives in real time, my strategy can be adjusted with a glance. Real-time data leads to real-time decision-making.
+
+> [!gloss]
+> Five minutes per kilometre is eight minutes per mile, and a 1:45 half. The watch was a Forerunner. I have owned several since.
+
+## What you don't know can hurt you
+
+You do not need a sports watch to run a half marathon. There are clocks placed at key sections of the course: the beginning, the middle, the end. But relying only on those clocks results in a weakened approach to the race — one that presents risk. I might be close to on pace in those three small segments where a clock is visible, but what is happening between them? Those unknown sections are the danger to my finishing as I intended. Even if the halfway check is on pace, I may have raced through one stretch and dragged myself through the next. Without knowing what is happening at the moment it happens, I cannot prevent myself from doing what I am not supposed to do.
+
+A stream of real-time data — and real-time decisions made from it — reduces risk, and makes it far more likely that I am actually doing what I said I would do.
+
+## From running to identity
+
+Identity is beginning to grasp the same obvious idea.
+
+Most access decisions are still made at three clocks. The user authenticates, and a session begins. Perhaps something is re-checked at a token refresh. Perhaps an access review comes around a quarter later. Between those marks, the runner is unobserved: the laptop falls out of compliance, the credential turns up in a dump, the contract ends, the account is taken over — and the session carries on, because nothing in the architecture had any way to say so out loud.
+
+This is the problem the OpenID Foundation's Shared Signals Framework exists to solve, along with the event profiles the transport carries: the Continuous Access Evaluation Profile for what happens to a session while someone is signed in, Risk Incident Sharing and Coordination for what happens to an account, and SCIM Events for provisioning. Identity information and context move in a steady stream, and decisions are evaluated continually rather than at intervals.
+
+I have [made this case before, with dolphins](/shared-signals-and-thanks-for-all-the-fish/), and the argument has not changed since. What has changed is the tooling.
+
+> [!aside]
+> Fifteen species of dolphin fish cooperatively with people, and signal the fishers when to cast. Cooperation is the whole trick, there and here.
+
+## A place to go and look
+
+The case is easy to make and has been made often. What has been harder is the next question, the one that actually decides whether a standard gets adopted: *fine — how does it work?*
+
+The normative text answers that, eventually, and authoritatively. But a specification is written to be unambiguous rather than to be learned from, and the three documents here are a framework and two profiles that reference each other. There has been no single place to send someone who has an afternoon and a genuine question.
+
+So there is one now: **[shared-signals.dev](https://shared-signals.dev)**.
+
+It is an independent developer resource for the Shared Signals standards, and it is organised around the order in which people actually need things:
+
+- **Concepts in ten minutes** — transmitters, receivers, streams, SETs and subjects, the whole model on one page.
+- **The event catalogue** — every CAEP, RISC and SSF event type, with its claims and an example token. Eight event types for CAEP, thirteen for RISC, each one a thing that can happen to a session or an account.
+- **Implementations** — who actually transmits and receives today, products and open-source libraries both, because a standard with one implementation is a document.
+- **A playground** — a public sample transmitter and receiver, built to the CAEP Interoperability Profile, so an implementation can be tested without needing a willing partner on the other end.
+
+The playground is where I would start, because it is the part that turns reading into doing. Create a receiver, make a stream on the sample transmitter the way a receiver would, and watch SETs arrive decoded and validated — or point your own transmitter at the push endpoint and find out what actually comes out of it. There is a SET inspector as well: paste a token, verify its signature against discovery or a JWKS, and see whether it says what the specification says it should. The transmitter's issuer is the site itself, and everything a receiver needs is in its configuration metadata.
+
+It is a sandbox, and behaves like one: rate limits, small quotas, idle streams and receivers swept after a week, and no real personal data, please. The source is on GitHub — around fourteen hundred lines of TypeScript on Cloudflare Workers and Durable Objects, written from the ground up for this and meant to be read. Issues and pull requests are welcome, and the reading is the point as much as the running.
+
+One thing is worth saying plainly, and it is said on the site too: this is not an official OpenID Foundation site. The specifications are maintained by the Shared Signals Working Group, and where the site and the spec disagree, the spec wins. The site explains; it does not define.
+
+That distinction matters more than it might seem. The value of a standard is that everyone implements the same thing, and the fastest way to erode that is a friendly explanation that quietly drifts from the text. Treat the site as the watch on your wrist: useful, immediate, and not the course itself.
+
+## Run with it
+
+If you build an identity provider, a SaaS application that holds sessions, a device manager or anything that learns something security-relevant and currently keeps it to itself, there is an event type for what you know. Go and find it. If you have already built one, add it to the implementations list — that page is only as useful as the number of people who are honest about what they support.
+
+The gap between the clocks is where the risk lives. Closing it is the most interesting thing happening in identity architecture right now.
+
+Almost as much as that new watch.
