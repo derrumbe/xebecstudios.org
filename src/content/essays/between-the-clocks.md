@@ -22,7 +22,7 @@ A stream of real-time data — and real-time decisions made from it — reduces 
 
 ## From running to identity
 
-Identity is beginning to grasp the same obvious idea.
+Identity today demands the same kind of concept.
 
 Most access decisions are still made at three clocks. The user authenticates, and a session begins. Perhaps something's re-checked at a token refresh. Perhaps an access review comes around a quarter later. Between those marks the runner is unobserved: the laptop falls out of compliance, the credential turns up in a dump, the contract ends, the account is taken over — and the session carries on, because nothing in the architecture had any way to say so out loud.
 
@@ -35,31 +35,31 @@ I've [made this case before, with dolphins](/shared-signals-and-thanks-for-all-t
 
 ## A place to go and look
 
-The case is easy to make and has been made often. What's been harder is the next question, the one that actually decides whether a standard gets adopted: *fine — how does it work?*
+The case is easy to make and has been made often, and I'm just going to go ahead and assume that you agree with it. 
 
-The normative text answers that, eventually, and authoritatively. But a specification is written to be unambiguous rather than to be learned from, and the three documents here are a framework and two profiles that reference each other. There hasn't been a single place to send someone who has an afternoon and a genuine question.
+Your next thought should be something along the lines of *ok, so how does it work?*
 
-So there's one now: **[shared-signals.dev](https://shared-signals.dev)**.
+There are a number of excellent resources and sites out there where you can learn the standard and play with it. But I've been holding onto a domain since I first became interested in the standard, and I've finally built it out: **[shared-signals.dev](https://shared-signals.dev)**.
 
-It's an independent developer resource for the Shared Signals standards, and it's organised around the order in which people actually need things:
+It's an independent developer resource for the Shared Signals Framework, and it's organized around the order in which people actually need things:
 
 - **Concepts in ten minutes** — transmitters, receivers, streams, SETs and subjects, the whole model on one page.
 - **The event catalogue** — every CAEP, RISC and SSF event type, with its claims and an example token. Eight event types for CAEP, thirteen for RISC, each one a thing that can happen to a session or an account.
 - **Implementations** — who actually transmits and receives today, products and open-source libraries both, because a standard with one implementation is a document.
-- **A playground** — a public sample transmitter and receiver, built to the CAEP Interoperability Profile, so you can test an implementation without needing a willing partner on the other end.
+- **A playground** — a public sample transmitter and receiver, built to the CAEP Interoperability Profile, so you can test an implementation without needing a willing partner on the other end. (Note that it supports all current events so that you can see them in action: CAEP, RISC, and SCIM.)
 
 The playground is where I'd start, because it's the part that turns reading into doing. Create a receiver, make a stream on the sample transmitter the way a receiver would, and watch SETs arrive decoded and validated — or point your own transmitter at the push endpoint and find out what actually comes out of it. There's a SET inspector as well: paste a token, verify its signature against discovery or a JWKS, and see whether it says what the specification says it should. The transmitter's issuer is the site itself, and everything a receiver needs is in its configuration metadata.
 
 It's a sandbox, and it behaves like one: rate limits, small quotas, idle streams and receivers swept after a week, and no real personal data, please. The source is on GitHub — around fourteen hundred lines of TypeScript on Cloudflare Workers and Durable Objects, written from the ground up for this and meant to be read. Issues and pull requests are welcome, and the reading is the point as much as the running.
 
-One thing's worth saying plainly, and it's said on the site too: this isn't an official OpenID Foundation site. The specifications are maintained by the Shared Signals Working Group, and where the site and the spec disagree, the spec wins. The site explains; it doesn't define.
+The specifications are maintained by the Shared Signals Working Group, so where the site and the spec disagree, the spec wins. The site explains; it doesn't define.
 
-That distinction matters more than it might seem. The value of a standard is that everyone implements the same thing, and the fastest way to erode that is a friendly explanation that quietly drifts from the text. Treat the site as the watch on your wrist: useful, immediate, and not the course itself.
+ Treat the site as the watch on your wrist: useful, immediate, and not the course itself.
 
 ## Run with it
 
 If you build an identity provider, a SaaS application that holds sessions, a device manager or anything that learns something security-relevant and currently keeps it to itself, there's an event type for what you know. Go and find it. If you've already built one, add it to the implementations list — that page is only as useful as the number of people who are honest about what they support.
 
-The gap between the clocks is where the risk lives. Closing it is the most interesting thing happening in identity architecture right now.
+The gap between the clocks is where the risk lives. Closing it is an ongoing journey; future classes of event will address Infrastructure and Threat, Mission, and yes, Agents and Workloads. These are not theoretical—all three are currently being explored by various portions of the working group. The potential of Shared Signals to induce cooperation between actors, components, and even—gasp—vendors in the identity space is truly exciting.
 
 Almost as much as that new watch.
