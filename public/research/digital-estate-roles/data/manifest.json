@@ -174,7 +174,7 @@
       "jurisdictions/dk-national.json"
      ],
      "country": "dk",
-     "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
+     "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves its pages as a JavaScript application, but publishes the text under its own ELI scheme, so each act is read as XML at /eli/lta/<year>/<number>/dan/xml. Four of the five are cited as consolidated rather than as passed: the original act is marked Historic and its ELI carries metadata only, so the citation points at the lovbekendtgørelse in force. Lov om fremtidsfuldmagter is still Valid under its original number and its ELI carries the consolidated text, so it is cited as passed.",
      "label": "Denmark",
      "shortLabel": "Denmark"
     }
@@ -1035,7 +1035,7 @@
     "jurisdictions/dk-national.json"
    ],
    "country": "dk",
-   "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
+   "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves its pages as a JavaScript application, but publishes the text under its own ELI scheme, so each act is read as XML at /eli/lta/<year>/<number>/dan/xml. Four of the five are cited as consolidated rather than as passed: the original act is marked Historic and its ELI carries metadata only, so the citation points at the lovbekendtgørelse in force. Lov om fremtidsfuldmagter is still Valid under its original number and its ELI carries the consolidated text, so it is cited as passed.",
    "label": "Denmark",
    "shortLabel": "Denmark"
   },

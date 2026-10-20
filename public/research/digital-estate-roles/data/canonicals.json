@@ -121,11 +121,12 @@
     },
     "dk-dsl-36": {
      "id": "dk-dsl-36",
-     "cite": "Dødsboskifteloven § 36",
+     "cite": "Dødsboskifteloven, LBK nr. 1807 af 3. september 2021 § 36",
      "title": "Behandling ved bobestyrer",
-     "url": "https://www.retsinformation.dk/eli/lta/1996/383",
+     "url": "https://www.retsinformation.dk/eli/lta/2021/1807",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "fi-pk-19-1": {
      "id": "fi-pk-19-1",
@@ -8851,19 +8852,21 @@
     },
     "dk-vae-5": {
      "id": "dk-vae-5",
-     "cite": "Værgemålsloven (lov nr. 388 af 14. juni 1995) § 5",
+     "cite": "Værgemålsloven, LBK nr. 1122 af 28. maj 2021 (bekendtgørelse af værgemålsloven, oprindeligt lov nr. 388 af 14. juni 1995) § 5",
      "title": "Værgemål for voksne",
-     "url": "https://www.retsinformation.dk/eli/lta/1995/388",
+     "url": "https://www.retsinformation.dk/eli/lta/2021/1122",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "dk-arv-1": {
      "id": "dk-arv-1",
-     "cite": "Arveloven (lov nr. 515 af 6. juni 2007) § 1",
+     "cite": "Arveloven, LBK nr. 1347 af 15. juni 2021 (bekendtgørelse af arveloven, oprindeligt lov nr. 515 af 6. juni 2007) § 1",
      "title": "Slægtninges arveret",
-     "url": "https://www.retsinformation.dk/eli/lta/2007/515",
+     "url": "https://www.retsinformation.dk/eli/lta/2021/1347",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "fi-ho-8": {
      "id": "fi-ho-8",
@@ -14032,19 +14035,21 @@
     },
     "dk-sun-18": {
      "id": "dk-sun-18",
-     "cite": "Sundhedsloven (lov nr. 546 af 24. juni 2005) § 18",
+     "cite": "Sundhedsloven, LBK nr. 896 af 5. oktober 2026 (bekendtgørelse af sundhedsloven, oprindeligt lov nr. 546 af 24. juni 2005) § 18",
      "title": "Patienter der varigt mangler evnen til at give informeret samtykke",
-     "url": "https://www.retsinformation.dk/eli/lta/2005/546",
+     "url": "https://www.retsinformation.dk/eli/lta/2026/896",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "dk-arv-1": {
      "id": "dk-arv-1",
-     "cite": "Arveloven (lov nr. 515 af 6. juni 2007) § 1",
+     "cite": "Arveloven, LBK nr. 1347 af 15. juni 2021 (bekendtgørelse af arveloven, oprindeligt lov nr. 515 af 6. juni 2007) § 1",
      "title": "Slægtninges arveret",
-     "url": "https://www.retsinformation.dk/eli/lta/2007/515",
+     "url": "https://www.retsinformation.dk/eli/lta/2021/1347",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "fi-po-6": {
      "id": "fi-po-6",
@@ -21281,11 +21286,12 @@
     },
     "dk-sun-53": {
      "id": "dk-sun-53",
-     "cite": "Sundhedsloven § 53",
+     "cite": "Sundhedsloven, LBK nr. 896 af 5. oktober 2026 § 53",
      "title": "Udtagelse af væv fra afdøde",
-     "url": "https://www.retsinformation.dk/eli/lta/2005/546",
+     "url": "https://www.retsinformation.dk/eli/lta/2026/896",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "fi-ku-9": {
      "id": "fi-ku-9",
@@ -25266,11 +25272,12 @@
     },
     "dk-arv-1": {
      "id": "dk-arv-1",
-     "cite": "Arveloven (lov nr. 515 af 6. juni 2007) § 1",
+     "cite": "Arveloven, LBK nr. 1347 af 15. juni 2021 (bekendtgørelse af arveloven, oprindeligt lov nr. 515 af 6. juni 2007) § 1",
      "title": "Slægtninges arveret",
-     "url": "https://www.retsinformation.dk/eli/lta/2007/515",
+     "url": "https://www.retsinformation.dk/eli/lta/2021/1347",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "fi-ev-vahvistus": {
      "id": "fi-ev-vahvistus",
@@ -30686,11 +30693,12 @@
     },
     "dk-dsl-36": {
      "id": "dk-dsl-36",
-     "cite": "Dødsboskifteloven § 36",
+     "cite": "Dødsboskifteloven, LBK nr. 1807 af 3. september 2021 § 36",
      "title": "Behandling ved bobestyrer",
-     "url": "https://www.retsinformation.dk/eli/lta/1996/383",
+     "url": "https://www.retsinformation.dk/eli/lta/2021/1807",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "fi-pk-19-1": {
      "id": "fi-pk-19-1",
@@ -49049,19 +49057,21 @@
     },
     "dk-arv-1": {
      "id": "dk-arv-1",
-     "cite": "Arveloven (lov nr. 515 af 6. juni 2007) § 1",
+     "cite": "Arveloven, LBK nr. 1347 af 15. juni 2021 (bekendtgørelse af arveloven, oprindeligt lov nr. 515 af 6. juni 2007) § 1",
      "title": "Slægtninges arveret",
-     "url": "https://www.retsinformation.dk/eli/lta/2007/515",
+     "url": "https://www.retsinformation.dk/eli/lta/2021/1347",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "dk-dsl-36": {
      "id": "dk-dsl-36",
-     "cite": "Dødsboskifteloven § 36",
+     "cite": "Dødsboskifteloven, LBK nr. 1807 af 3. september 2021 § 36",
      "title": "Behandling ved bobestyrer",
-     "url": "https://www.retsinformation.dk/eli/lta/1996/383",
+     "url": "https://www.retsinformation.dk/eli/lta/2021/1807",
      "kind": "statute",
-     "retrieved": "2026-09-17"
+     "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+     "retrieved": "2026-10-20"
     },
     "fi-pk-18-1": {
      "id": "fi-pk-18-1",

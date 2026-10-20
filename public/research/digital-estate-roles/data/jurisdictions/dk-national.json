@@ -3,15 +3,16 @@
  "name": "Denmark",
  "country": "dk",
  "legalSystem": "civil law",
- "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves these only as a JavaScript application, so each act was read by rendering the official page; the acts are cited as passed, and each page also lists the consolidating LBK versions.",
+ "note": "Danish national law: Arveloven, Lov om fremtidsfuldmagter, Værgemålsloven, Dødsboskifteloven and Sundhedsloven. retsinformation.dk serves its pages as a JavaScript application, but publishes the text under its own ELI scheme, so each act is read as XML at /eli/lta/<year>/<number>/dan/xml. Four of the five are cited as consolidated rather than as passed: the original act is marked Historic and its ELI carries metadata only, so the citation points at the lovbekendtgørelse in force. Lov om fremtidsfuldmagter is still Valid under its original number and its ELI carries the consolidated text, so it is cited as passed.",
  "citations": [
   {
    "id": "dk-arv-1",
-   "cite": "Arveloven (lov nr. 515 af 6. juni 2007) § 1",
+   "cite": "Arveloven, LBK nr. 1347 af 15. juni 2021 (bekendtgørelse af arveloven, oprindeligt lov nr. 515 af 6. juni 2007) § 1",
    "title": "Slægtninges arveret",
-   "url": "https://www.retsinformation.dk/eli/lta/2007/515",
+   "url": "https://www.retsinformation.dk/eli/lta/2021/1347",
    "kind": "statute",
-   "retrieved": "2026-09-17",
+   "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+   "retrieved": "2026-10-20",
    "quote": "En arveladers nærmeste slægtsarvinger er dennes børn. Børnene arver lige."
   },
   {
@@ -43,47 +44,52 @@
   },
   {
    "id": "dk-vae-5",
-   "cite": "Værgemålsloven (lov nr. 388 af 14. juni 1995) § 5",
+   "cite": "Værgemålsloven, LBK nr. 1122 af 28. maj 2021 (bekendtgørelse af værgemålsloven, oprindeligt lov nr. 388 af 14. juni 1995) § 5",
    "title": "Værgemål for voksne",
-   "url": "https://www.retsinformation.dk/eli/lta/1995/388",
+   "url": "https://www.retsinformation.dk/eli/lta/2021/1122",
    "kind": "statute",
-   "retrieved": "2026-09-17",
+   "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+   "retrieved": "2026-10-20",
    "quote": "Der kan iværksættes værgemål for den, der på grund af sindssygdom ... eller anden form for alvorligt svækket helbred er ude af stand til at varetage sine anliggender"
   },
   {
    "id": "dk-sun-18",
-   "cite": "Sundhedsloven (lov nr. 546 af 24. juni 2005) § 18",
+   "cite": "Sundhedsloven, LBK nr. 896 af 5. oktober 2026 (bekendtgørelse af sundhedsloven, oprindeligt lov nr. 546 af 24. juni 2005) § 18",
    "title": "Patienter der varigt mangler evnen til at give informeret samtykke",
-   "url": "https://www.retsinformation.dk/eli/lta/2005/546",
+   "url": "https://www.retsinformation.dk/eli/lta/2026/896",
    "kind": "statute",
-   "retrieved": "2026-09-17",
+   "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+   "retrieved": "2026-10-20",
    "quote": "For en patient, der varigt mangler evnen til at give informeret samtykke, kan de nærmeste pårørende give informeret samtykke til behandling."
   },
   {
    "id": "dk-sun-53",
-   "cite": "Sundhedsloven § 53",
+   "cite": "Sundhedsloven, LBK nr. 896 af 5. oktober 2026 § 53",
    "title": "Udtagelse af væv fra afdøde",
-   "url": "https://www.retsinformation.dk/eli/lta/2005/546",
+   "url": "https://www.retsinformation.dk/eli/lta/2026/896",
    "kind": "statute",
-   "retrieved": "2026-09-17",
+   "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+   "retrieved": "2026-10-20",
    "quote": "Indgrebet må foretages, såfremt afdøde efter sit fyldte 18. år skriftligt har truffet bestemmelse herom."
   },
   {
    "id": "dk-dsl-25",
-   "cite": "Dødsboskifteloven (lov nr. 383 af 22. maj 1996) § 25",
+   "cite": "Dødsboskifteloven, LBK nr. 1807 af 3. september 2021 (bekendtgørelse af lov om skifte af dødsboer, oprindeligt lov nr. 383 af 22. maj 1996) § 25",
    "title": "Privat skifte",
-   "url": "https://www.retsinformation.dk/eli/lta/1996/383",
+   "url": "https://www.retsinformation.dk/eli/lta/2021/1807",
    "kind": "statute",
-   "retrieved": "2026-09-17",
+   "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+   "retrieved": "2026-10-20",
    "quote": "Et bo udleveres til privat skifte, såfremt 1) alle arvinger anmoder derom, 2) boets aktiver ... må antages at være tilstrækkelige til at dække boets gæld"
   },
   {
    "id": "dk-dsl-36",
-   "cite": "Dødsboskifteloven § 36",
+   "cite": "Dødsboskifteloven, LBK nr. 1807 af 3. september 2021 § 36",
    "title": "Behandling ved bobestyrer",
-   "url": "https://www.retsinformation.dk/eli/lta/1996/383",
+   "url": "https://www.retsinformation.dk/eli/lta/2021/1807",
    "kind": "statute",
-   "retrieved": "2026-09-17",
+   "note": "The original act is marked Historic on retsinformation.dk and its ELI serves metadata only; this is the consolidation in force, found through the “Konsolideret ved” reference group (api/document/<id>/references/1), which the ELI metadata graph does not publish.",
+   "retrieved": "2026-10-20",
    "quote": "Skifteretten udleverer et bo til behandling ved bobestyrer, såfremt 1) en arving anmoder derom, 2) boet må antages at være insolvent ... 4) afdøde har bestemt dette i testamente"
   }
  ],
