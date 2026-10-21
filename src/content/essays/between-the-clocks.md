@@ -1,5 +1,5 @@
 ---
-title: "Running In Real Time: Introducing shared-signals.dev"
+title: "Running in Real Time: Introducing shared-signals.dev"
 date: 2026-10-20
 subject: Technology
 tags: [Identity, Security]
