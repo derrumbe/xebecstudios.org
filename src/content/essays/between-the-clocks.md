@@ -41,6 +41,9 @@ Your next thought should be something along the lines of *ok, so how does it wor
 
 There are a number of excellent resources and sites out there where you can learn the standard and play with it. But I've been holding onto a domain since I first became interested in the standard, and I've finally built it out: **[shared-signals.dev](https://shared-signals.dev)**.
 
+> [!aside]
+> This is not an official OpenID site, even though I'm a co-chair of the Shared Signals Framework working group.
+
 It's an independent developer resource for the Shared Signals Framework, and it's organized around the order in which people actually need things:
 
 - **Concepts in ten minutes** — transmitters, receivers, streams, SETs and subjects, the whole model on one page.
