@@ -1,5 +1,5 @@
 ---
-title: "Between the Clocks: Introducing shared-signals.dev"
+title: "Running In Real Time: Introducing shared-signals.dev"
 date: 2026-10-20
 subject: Technology
 tags: [Identity, Security]
