@@ -54,7 +54,7 @@ It's a sandbox, and it behaves like one: rate limits, small quotas, idle streams
 
 The specifications are maintained by the Shared Signals Working Group, so where the site and the spec disagree, the spec wins. The site explains; it doesn't define.
 
- Treat the site as the watch on your wrist: useful, immediate, and not the course itself.
+Treat the site as the watch on your wrist: useful, immediate, and not the course itself.
 
 ## Run with it
 
