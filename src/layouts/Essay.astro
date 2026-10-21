@@ -176,9 +176,25 @@ const tagNote = d.tags.length ? `Tagged ${d.tags.join(', ')}.` : null;
     for (const n of notes) {
       const target = paras[Number(n.dataset.at)];
       if (!target) continue;
+      // Both measured against the margin's own top. offsetTop was the bug
+      // here: it is relative to the nearest positioned ancestor, nothing in
+      // this column is positioned, so it came back measured from <body> and
+      // was compared against a margin-relative number. The first note never
+      // moved at all, because a distance from the top of the document is
+      // always larger than a distance from the top of the column.
       const want = target.getBoundingClientRect().top - base;
-      const have = n.offsetTop;
-      if (want > have) n.style.marginTop = `${want - have}px`;
+      const have = n.getBoundingClientRect().top - base;
+      if (want <= have) continue;
+
+      n.style.marginTop = `${want - have}px`;
+
+      // Adjacent notes' vertical margins collapse: the 16px below the note
+      // above merges with the margin-top just set, so the note lands short of
+      // where it was sent. Measure what actually happened and make up the
+      // difference, rather than hard-coding the 16 — then a change to the
+      // spacing in CSS cannot quietly knock the apparatus out of true again.
+      const got = n.getBoundingClientRect().top - base;
+      if (got < want) n.style.marginTop = `${want - have + (want - got)}px`;
     }
   };
 
