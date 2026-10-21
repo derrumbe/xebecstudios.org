@@ -1,0 +1,8 @@
+# Essays live at the site root and their URL is their filename, so renaming a
+# file moves the page. Anything already shared has to keep working: one 301
+# per moved essay, oldest at the bottom.
+#
+# Cloudflare Workers Assets reads this file the same way it reads _headers.
+# Trailing slashes on both sides, because trailingSlash is 'always'.
+
+/between-the-clocks/  /running-in-real-time/  301
