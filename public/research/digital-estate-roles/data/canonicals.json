@@ -4,7 +4,7 @@
    "id": "personal-representative-administrator",
    "label": "Administrator",
    "definition": "The personal representative the law or a court supplies where the deceased named nobody, or nobody named can act.",
-   "jurisdictionCount": 53,
+   "jurisdictionCount": 54,
    "countryCount": 20,
    "citations": {
     "mu-cur-4": {
@@ -2084,6 +2084,85 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Priority arises at death by relationship (spouse, heirs) or by nomination from a person with priority",
+       "phase": "deceased",
+       "citations": [
+        "upc-3-203"
+       ]
+      },
+      "starts": {
+       "event": "Appointment (informal ≥120 hours after death), qualification, letters; powers relate back",
+       "phase": "administration",
+       "citations": [
+        "upc-3-307",
+        "upc-3-601",
+        "upc-3-103",
+        "upc-3-701"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Order closing estate",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1001",
+         "upc-3-610"
+        ]
+       },
+       {
+        "event": "One year after closing statement with no pending proceedings",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1003",
+         "upc-3-610"
+        ]
+       },
+       {
+        "event": "Removal, resignation, PR death/conservator, later will probated",
+        "phase": "administration",
+        "citations": [
+         "upc-3-611",
+         "upc-3-610",
+         "upc-3-609",
+         "upc-3-612"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "upc-3-203",
+      "upc-3-307",
+      "upc-3-601",
+      "upc-3-103",
+      "upc-3-701",
+      "upc-3-1001",
+      "upc-3-610",
+      "upc-3-1003",
+      "upc-3-611",
+      "upc-3-609",
+      "upc-3-612"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "personal-representative-administrator",
+     "roleName": "Personal representative in intestacy (administrator)",
+     "localNames": [
+      "personal representative"
+     ],
+     "nameEn": null,
+     "summary": "The personal representative of an estate with no will, or where no one named in a will serves. They are appointed from a statutory priority list: surviving spouse, then other heirs, then any creditor 45 days after death.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {
@@ -4528,7 +4607,7 @@
    "id": "benefits-payee",
    "label": "Benefits payee",
    "definition": "A person appointed to receive and manage state benefits for someone who cannot manage them.",
-   "jurisdictionCount": 41,
+   "jurisdictionCount": 42,
    "countryCount": 5,
    "citations": {
     "de-sgb1-56": {
@@ -5452,6 +5531,102 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "SSA determines representative payment is in the beneficiary's interest, then selects a payee using its order of preference, with advance designees considered first",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-20-404-2001",
+        "cfr-20-404-2010",
+        "cfr-20-416-610",
+        "cfr-20-404-2021",
+        "cfr-20-416-621",
+        "usc-42-405-j",
+        "usc-42-1383-a2"
+       ]
+      },
+      "starts": {
+       "event": "SSA certifies payment to the payee after written advance notice. If the beneficiary protests or appeals within 10 days of a mailed notice, the action is delayed.",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-20-404-2030",
+        "cfr-20-416-630"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Beneficiary dies: Title II entitlement ends with the month before death, and SSI payments stop after the month of death. The payee must return payments not due. Conserved funds belong to the estate.",
+        "phase": "deceased",
+        "citations": [
+         "cfr-20-404-311",
+         "cfr-20-416-1334",
+         "ssa-kc-conserved-funds",
+         "poms-gn-00603-100"
+        ]
+       },
+       {
+        "event": "SSA makes a new capability determination that the beneficiary is capable, and pays the beneficiary directly",
+        "phase": "capable",
+        "citations": [
+         "poms-gn-00502-055",
+         "poms-gn-00603-055",
+         "cfr-20-404-2060",
+         "cfr-20-416-660"
+        ]
+       },
+       {
+        "event": "SSA stops paying this payee and selects a new payee (misuse, payee's death, unwillingness, inability, failure to account or cooperate)",
+        "phase": "incapacitated",
+        "citations": [
+         "cfr-20-404-2050",
+         "cfr-20-416-650",
+         "usc-42-405-j",
+         "usc-42-1383-a2"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-20-404-2001",
+      "cfr-20-404-2010",
+      "cfr-20-416-610",
+      "cfr-20-404-2021",
+      "cfr-20-416-621",
+      "usc-42-405-j",
+      "usc-42-1383-a2",
+      "cfr-20-404-2030",
+      "cfr-20-416-630",
+      "cfr-20-404-311",
+      "cfr-20-416-1334",
+      "ssa-kc-conserved-funds",
+      "poms-gn-00603-100",
+      "poms-gn-00502-055",
+      "poms-gn-00603-055",
+      "cfr-20-404-2060",
+      "cfr-20-416-660",
+      "cfr-20-404-2050",
+      "cfr-20-416-650"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "ssa-representative-payee",
+     "roleName": "Social Security / SSI representative payee",
+     "localNames": [
+      "rep payee",
+      "payee"
+     ],
+     "nameEn": null,
+     "summary": "A person or organization that the Social Security Administration (SSA) selects to receive Social Security (Title II) or SSI (Title XVI) benefits for a beneficiary. SSA appoints a payee after finding that the beneficiary cannot manage or direct the management of their benefit payments. In this role, 'incapacitated' means that SSA administrative finding. It is not a court adjudication, and SSA can appoint a payee even for a legally competent person. A payee is not an agent: a power of attorney, including a durable one, gives no authority to receive or negotiate these benefits. The appointment ends when SSA changes payees, when SSA finds the beneficiary capable, or when the beneficiary dies. The former payee must then return payments not due and hand over conserved funds.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {
@@ -8599,7 +8774,7 @@
    "id": "conservator-estate",
    "label": "Conservator of the estate",
    "definition": "A financial manager appointed by a court or tribunal to manage property the person can no longer manage.",
-   "jurisdictionCount": 60,
+   "jurisdictionCount": 61,
    "countryCount": 21,
    "citations": {
     "mu-cc-488": {
@@ -9448,6 +9623,46 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-14-5410": {
+     "id": "az-14-5410",
+     "cite": "A.R.S. § 14-5410",
+     "title": "Who may be appointed conservator; priorities",
+     "url": "https://www.azleg.gov/ars/14/05410.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5503": {
+     "id": "az-14-5503",
+     "cite": "A.R.S. § 14-5503",
+     "title": "Relation of agent to court appointed fiduciary",
+     "url": "https://www.azleg.gov/ars/14/05503.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5401": {
+     "id": "az-14-5401",
+     "cite": "A.R.S. § 14-5401",
+     "title": "Protective proceedings; fingerprinting",
+     "url": "https://www.azleg.gov/ars/14/05401.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5411": {
+     "id": "az-14-5411",
+     "cite": "A.R.S. § 14-5411",
+     "title": "Bond; exception",
+     "url": "https://www.azleg.gov/ars/14/05411.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5430": {
+     "id": "az-14-5430",
+     "cite": "A.R.S. § 14-5430",
+     "title": "Termination of proceeding",
+     "url": "https://www.azleg.gov/ars/14/05430.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-1801": {
      "id": "ca-prob-1801",
@@ -11689,6 +11904,62 @@
       "ugcopaa-431k",
       "ugcopaa-427",
       "ugcopaa-112"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "conservator-estate",
+     "roleName": "Conservator (property and financial affairs)",
+     "localNames": [
+      "conservator of the estate",
+      "guardian of the estate",
+      "limited conservator",
+      "emergency conservator"
+     ],
+     "nameEn": null,
+     "summary": "A person a court appoints to manage an adult's property or financial affairs. When the adult dies, the conservatorship terminates. The conservator then winds it up by filing a final report and delivering the estate to the decedent's estate, and a bracketed option lets the conservator ask for personal-representative powers.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Nomination in the protected person's most recent durable power of attorney ranks above the spouse in the §14-5410 priority list",
+       "phase": "capable",
+       "citations": [
+        "az-14-5410",
+        "az-14-5503"
+       ]
+      },
+      "starts": {
+       "event": "Court appointment on clear and convincing evidence, then bond under §14-5411 and letters",
+       "phase": "incapacitated",
+       "citations": [
+        "az-14-5401",
+        "az-14-5411"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Court terminates the conservatorship; title to the estate passes back to the formerly protected person or their successors",
+        "phase": "capable",
+        "citations": [
+         "az-14-5430"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "az-14-5410",
+      "az-14-5503",
+      "az-14-5401",
+      "az-14-5411",
+      "az-14-5430"
      ]
     },
     {
@@ -13958,7 +14229,7 @@
    "id": "default-surrogate",
    "label": "Default surrogate",
    "definition": "The decision maker the law supplies from a statutory hierarchy when nobody has been appointed.",
-   "jurisdictionCount": 39,
+   "jurisdictionCount": 40,
    "countryCount": 10,
    "citations": {
     "za-nha-7-order": {
@@ -14250,6 +14521,14 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=ce7132cf-bb92-9bb9-5082-2037413dd2d5",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-36-3231": {
+     "id": "az-36-3231",
+     "cite": "A.R.S. § 36-3231",
+     "title": "Surrogate decision makers; priorities; limitations",
+     "url": "https://www.azleg.gov/ars/36/03231.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-4712": {
      "id": "ca-prob-4712",
@@ -15194,6 +15473,56 @@
       "uhcda93-5",
       "uhcda23-18",
       "uhcda23-14"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "default-surrogate",
+     "roleName": "Default health-care surrogate",
+     "localNames": [
+      "surrogate"
+     ],
+     "nameEn": null,
+     "summary": "A person who can make health-care decisions for an individual who lacks capacity and has no available agent or guardian. The law picks this person from a priority list, or the individual can name them without signing a power of attorney.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Individual identifies a surrogate other than in a POA (2023 §12(b)(1); 1993: by personally informing supervising provider), or by operation of the priority list",
+       "phase": "capable",
+       "citations": [
+        "uhcda23-12",
+        "uhcda93-5"
+       ]
+      },
+      "starts": {
+       "event": "Patient unable to make or communicate health care decisions and no agent or health-care guardian available; provider contacts the highest-priority person willing to serve",
+       "phase": "incapacitated",
+       "citations": [
+        "az-36-3231"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Attending physician decides instead, with an institutional ethics committee's recommendation or a second physician's concurrence, where no listed person can be located",
+        "phase": "incapacitated",
+        "citations": [
+         "az-36-3231"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "uhcda23-12",
+      "uhcda93-5",
+      "az-36-3231"
      ]
     },
     {
@@ -17026,7 +17355,7 @@
    "id": "digital-assets-fiduciary",
    "label": "Digital-assets fiduciary",
    "definition": "A person given access to, or authority over, the deceased or incapacitated person's digital assets and accounts.",
-   "jurisdictionCount": 31,
+   "jurisdictionCount": 32,
    "countryCount": 4,
    "citations": {
     "cn-pipl-49": {
@@ -17502,6 +17831,82 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Underlying fiduciary status arises under other law (POA, trust, court appointment, letters or small-estate affidavit)",
+       "phase": "capable",
+       "citations": [
+        "rufadaa-2",
+        "rufadaa-3"
+       ]
+      },
+      "starts": {
+       "event": "Written request with required documents; custodian must comply within [60] days",
+       "phase": "incapacitated",
+       "citations": [
+        "rufadaa-9",
+        "rufadaa-10",
+        "rufadaa-14",
+        "rufadaa-7",
+        "rufadaa-8",
+        "rufadaa-16"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Underlying authority ends (e.g., agent's POA ends at principal's death, conservatorship ends, PR appointment terminates)",
+        "phase": "deceased",
+        "citations": [
+         "rufadaa-9",
+         "rufadaa-15",
+         "upoaa-110a"
+        ]
+       },
+       {
+        "event": "Estate closed",
+        "phase": "closed",
+        "citations": [
+         "upc-3-610"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "rufadaa-2",
+      "rufadaa-3",
+      "rufadaa-9",
+      "rufadaa-10",
+      "rufadaa-14",
+      "rufadaa-7",
+      "rufadaa-8",
+      "rufadaa-16",
+      "rufadaa-15",
+      "upoaa-110a",
+      "upc-3-610"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "rufadaa-fiduciary",
+     "roleName": "Fiduciary seeking access to digital assets (PR, conservator, agent, trustee)",
+     "localNames": [
+      "fiduciary",
+      "personal representative",
+      "conservator",
+      "agent",
+      "trustee"
+     ],
+     "nameEn": null,
+     "summary": "RUFADAA gives no new fiduciary status of its own. It sets out when an existing personal representative, conservator, agent, or trustee can get a digital-asset catalogue or content from a custodian. By default, content of electronic communications needs the user's consent (or, for a personal representative, a court direction). A conservator also needs a court order after a chance for a hearing.",
+     "group": "digital",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {
@@ -19545,7 +19950,7 @@
    "id": "disposition-of-remains-agent",
    "label": "Disposition-of-remains agent",
    "definition": "The person with the right or the duty to control what happens to the body.",
-   "jurisdictionCount": 24,
+   "jurisdictionCount": 25,
    "countryCount": 6,
    "citations": {
     "es-l41-11": {
@@ -19661,6 +20066,22 @@
      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991#se:48",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "az-36-831": {
+     "id": "az-36-831",
+     "cite": "A.R.S. § 36-831",
+     "title": "Duty for funeral and disposition arrangements; waiver of decision-making; counties; civil liability; costs; veterans; immunity; definitions",
+     "url": "https://www.azleg.gov/ars/36/00831.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-36-3221": {
+     "id": "az-36-3221",
+     "cite": "A.R.S. § 36-3221",
+     "title": "Health care power of attorney; scope; requirements; limitations; fiduciaries",
+     "url": "https://www.azleg.gov/ars/36/03221.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-hsc-7100": {
      "id": "ca-hsc-7100",
@@ -20323,6 +20744,63 @@
      "citations": [
       "qc-ccq-42",
       "qc-ccq-48"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "disposition-of-remains-agent",
+     "roleName": "Person with the duty to make funeral and disposition arrangements",
+     "localNames": [
+      "authorizing agent",
+      "agent under a health care power of attorney with express disposition authority"
+     ],
+     "nameEn": null,
+     "summary": "The person on whom the duty of burying the decedent or making other funeral and disposition arrangements devolves, and who may be liable to anyone who performs it instead.",
+     "group": "remains",
+     "stateSpecific": true,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal gives express disposition authority in a health care power of attorney or a durable power of attorney; otherwise the duty devolves by the §36-831(A) order. Family members in that order may sign a waiver of decision-making during the person's life",
+       "phase": "capable",
+       "citations": [
+        "az-36-831",
+        "az-36-3221"
+       ]
+      },
+      "starts": {
+       "event": "Death of the decedent",
+       "phase": "deceased",
+       "citations": [
+        "az-36-831"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Duty devolves to the next person where the holder omits or is unwilling to perform it within a reasonable time — and the person who performs it may recover twice their expenses",
+        "phase": "deceased",
+        "citations": [
+         "az-36-831"
+        ]
+       },
+       {
+        "event": "Duty passes over a holder charged with the criminal death of the decedent, where the funeral director is aware of the charge; actual costs only if the charge is later dismissed or resolved in their favour",
+        "phase": "deceased",
+        "citations": [
+         "az-36-831"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "az-36-831",
+      "az-36-3221"
      ]
     },
     {
@@ -21201,7 +21679,7 @@
    "id": "anatomical-gift-agent",
    "label": "Donation decision maker",
    "definition": "The person who may authorise or refuse donation of organs, tissue or the body, including under deemed-consent regimes.",
-   "jurisdictionCount": 54,
+   "jurisdictionCount": 55,
    "countryCount": 19,
    "citations": {
     "za-nha-62-1": {
@@ -23037,6 +23515,72 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Principal appoints health-care agent or signs record expressly authorizing anatomical gift",
+       "phase": "capable",
+       "citations": [
+        "ruaga-2"
+       ]
+      },
+      "starts": {
+       "event": "During donor's life: agent may make gift by donor card/record/registry (unless prohibited)",
+       "phase": "capable",
+       "citations": [
+        "ruaga-4",
+        "ruaga-5"
+       ]
+      },
+      "ends": [
+       {
+        "event": "After death: first-priority authority exercised or barred; revocation by others ineffective after incision/invasive procedures begin",
+        "phase": "deceased",
+        "citations": [
+         "ruaga-9",
+         "ruaga-9c",
+         "ruaga-10c"
+        ]
+       },
+       {
+        "event": "Donor's unrevoked refusal or own gift bars the agent",
+        "phase": "capable",
+        "citations": [
+         "ruaga-7",
+         "ruaga-8"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ruaga-2",
+      "ruaga-4",
+      "ruaga-5",
+      "ruaga-9",
+      "ruaga-9c",
+      "ruaga-10c",
+      "ruaga-7",
+      "ruaga-8"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "anatomical-gift-agent",
+     "roleName": "Agent authorized to make an anatomical gift",
+     "localNames": [
+      "health-care agent (anatomical gift)",
+      "agent"
+     ],
+     "nameEn": null,
+     "summary": "A health-care agent, or a person a signed record expressly authorizes, can make an anatomical gift during the donor's life unless the document forbids it. After death, the person who was the decedent's agent at death has first priority to make a gift. The donor's own gift or refusal bars others.",
+     "group": "remains",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {
@@ -25099,7 +25643,7 @@
    "id": "financial-poa-durable",
    "label": "Durable financial power of attorney",
    "definition": "An agent appointed by the person while capable, whose authority over property and money survives the person losing capacity.",
-   "jurisdictionCount": 51,
+   "jurisdictionCount": 52,
    "countryCount": 17,
    "citations": {
     "cn-cc-33": {
@@ -25983,6 +26527,46 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-14-5501": {
+     "id": "az-14-5501",
+     "cite": "A.R.S. § 14-5501",
+     "title": "Durable power of attorney; creation; validity",
+     "url": "https://www.azleg.gov/ars/14/05501.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5504": {
+     "id": "az-14-5504",
+     "cite": "A.R.S. § 14-5504",
+     "title": "Revocation; termination; effect; notice",
+     "url": "https://www.azleg.gov/ars/14/05504.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5505": {
+     "id": "az-14-5505",
+     "cite": "A.R.S. § 14-5505",
+     "title": "Continuance of durable powers of attorney by affidavit",
+     "url": "https://www.azleg.gov/ars/14/05505.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5503": {
+     "id": "az-14-5503",
+     "cite": "A.R.S. § 14-5503",
+     "title": "Relation of agent to court appointed fiduciary",
+     "url": "https://www.azleg.gov/ars/14/05503.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5506": {
+     "id": "az-14-5506",
+     "cite": "A.R.S. § 14-5506",
+     "title": "Powers of attorney; intimidation; deception; definitions",
+     "url": "https://www.azleg.gov/ars/14/05506.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-4124": {
      "id": "ca-prob-4124",
@@ -28195,6 +28779,76 @@
       "upoaa-110d",
       "upoaa-110b",
       "upoaa-108"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-durable",
+     "roleName": "Agent under durable financial power of attorney",
+     "localNames": [
+      "durable power of attorney",
+      "agent"
+     ],
+     "nameEn": null,
+     "summary": "A person the principal appoints in a signed power of attorney to act on property and financial matters. Under the UPOAA a power is durable (survives the principal's incapacity) unless it expressly says otherwise, and it ends at the principal's death.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs a power containing express words of durability, witnessed by a disinterested witness and acknowledged before a notary with the witness's affidavit (§14-5501(A), (B), (D))",
+       "phase": "capable",
+       "citations": [
+        "az-14-5501"
+       ]
+      },
+      "starts": {
+       "event": "Effective when executed unless the POA states a future date or contingency; agency duties attach when the agent accepts by acting or other conduct",
+       "phase": "capable",
+       "citations": [
+        "upoaa-109",
+        "upoaa-113"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of principal (good-faith acts without actual knowledge still bind successors; agent's affidavit of non-revocation raises a rebuttable presumption)",
+        "phase": "deceased",
+        "citations": [
+         "az-14-5504",
+         "az-14-5505"
+        ]
+       },
+       {
+        "event": "Conservator or other fiduciary appointed over all the principal's property revokes or amends the power — the appointee holds the principal's own revocation power",
+        "phase": "incapacitated",
+        "citations": [
+         "az-14-5503"
+        ]
+       },
+       {
+        "event": "Found invalid for want of capacity at execution, the agent bearing the burden of proving capacity",
+        "phase": "capable",
+        "citations": [
+         "az-14-5506"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "az-14-5501",
+      "upoaa-109",
+      "upoaa-113",
+      "az-14-5504",
+      "az-14-5505",
+      "az-14-5503",
+      "az-14-5506"
      ]
     },
     {
@@ -30479,7 +31133,7 @@
    "id": "personal-representative-executor",
    "label": "Executor",
    "definition": "The personal representative the deceased themselves named, usually in a will.",
-   "jurisdictionCount": 57,
+   "jurisdictionCount": 58,
    "countryCount": 24,
    "citations": {
     "mu-cc-1030": {
@@ -31280,6 +31934,78 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-14-3701": {
+     "id": "az-14-3701",
+     "cite": "A.R.S. § 14-3701",
+     "title": "Time of accrual of duties and powers",
+     "url": "https://www.azleg.gov/ars/14/03701.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-3103": {
+     "id": "az-14-3103",
+     "cite": "A.R.S. § 14-3103",
+     "title": "Necessity of appointment for administration",
+     "url": "https://www.azleg.gov/ars/14/03103.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-3601": {
+     "id": "az-14-3601",
+     "cite": "A.R.S. § 14-3601",
+     "title": "Qualification",
+     "url": "https://www.azleg.gov/ars/14/03601.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-3603": {
+     "id": "az-14-3603",
+     "cite": "A.R.S. § 14-3603",
+     "title": "Bond required; exceptions",
+     "url": "https://www.azleg.gov/ars/14/03603.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-3610": {
+     "id": "az-14-3610",
+     "cite": "A.R.S. § 14-3610",
+     "title": "Termination of appointment; voluntary",
+     "url": "https://www.azleg.gov/ars/14/03610.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-3608": {
+     "id": "az-14-3608",
+     "cite": "A.R.S. § 14-3608",
+     "title": "Termination of appointment; general",
+     "url": "https://www.azleg.gov/ars/14/03608.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-3609": {
+     "id": "az-14-3609",
+     "cite": "A.R.S. § 14-3609",
+     "title": "Termination of appointment; death or disability",
+     "url": "https://www.azleg.gov/ars/14/03609.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-3611": {
+     "id": "az-14-3611",
+     "cite": "A.R.S. § 14-3611",
+     "title": "Termination of appointment by removal; cause; procedure",
+     "url": "https://www.azleg.gov/ars/14/03611.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-3108": {
+     "id": "az-14-3108",
+     "cite": "A.R.S. § 14-3108",
+     "title": "Probate, testacy and appointment proceedings; ultimate time limit",
+     "url": "https://www.azleg.gov/ars/14/03108.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-8000": {
      "id": "ca-prob-8000",
@@ -33183,6 +33909,81 @@
       "upc-3-611",
       "upc-3-609",
       "upc-3-612"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "personal-representative-executor",
+     "roleName": "Personal representative named in will (executor)",
+     "localNames": [
+      "personal representative"
+     ],
+     "nameEn": null,
+     "summary": "The person a will nominates to administer the decedent's estate. Being named gives no general power until a court or Registrar appoints them, they qualify, and letters issue. Once appointed, their powers relate back to earlier acts that benefited the estate.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Testator executes a will nominating an executor; before appointment the nominee may already carry out the decedent's written instructions about the body and funeral (§14-3701)",
+       "phase": "capable",
+       "citations": [
+        "az-14-3701"
+       ]
+      },
+      "starts": {
+       "event": "Appointment by court order or registrar's statement, qualification by bond and acceptance, and issuance of letters — which is also when administration commences; powers relate back",
+       "phase": "administration",
+       "citations": [
+        "az-14-3103",
+        "az-14-3601",
+        "az-14-3603",
+        "az-14-3701"
+       ]
+      },
+      "ends": [
+       {
+        "event": "One year after filing a closing statement, or an order closing the estate",
+        "phase": "closed",
+        "citations": [
+         "az-14-3610"
+        ]
+       },
+       {
+        "event": "Removal for cause, resignation effective only on a successor's appointment, or the representative's death or conservatorship",
+        "phase": "administration",
+        "citations": [
+         "az-14-3608",
+         "az-14-3609",
+         "az-14-3610",
+         "az-14-3611"
+        ]
+       },
+       {
+        "event": "Two years after death, no probate or appointment proceeding may be commenced at all, subject to the §14-3108 exceptions",
+        "phase": "deceased",
+        "citations": [
+         "az-14-3108"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "az-14-3701",
+      "az-14-3103",
+      "az-14-3601",
+      "az-14-3603",
+      "az-14-3610",
+      "az-14-3608",
+      "az-14-3609",
+      "az-14-3611",
+      "az-14-3108"
      ]
     },
     {
@@ -35654,7 +36455,7 @@
    "id": "guardian-person",
    "label": "Guardian of the person",
    "definition": "A personal decision maker appointed by a court or tribunal, rather than by the person.",
-   "jurisdictionCount": 51,
+   "jurisdictionCount": 52,
    "countryCount": 17,
    "citations": {
     "rw-pf-139": {
@@ -36333,6 +37134,38 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=17c2bb02-86d8-fa14-df3a-ac9e720b7ecd",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-14-5301": {
+     "id": "az-14-5301",
+     "cite": "A.R.S. § 14-5301",
+     "title": "Appointment of guardian by will or other writing; objections; notice",
+     "url": "https://www.azleg.gov/ars/14/05301.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5304": {
+     "id": "az-14-5304",
+     "cite": "A.R.S. § 14-5304",
+     "title": "Findings; limitations; filing; fingerprinting",
+     "url": "https://www.azleg.gov/ars/14/05304.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5306": {
+     "id": "az-14-5306",
+     "cite": "A.R.S. § 14-5306",
+     "title": "Termination of guardianship for incapacitated person",
+     "url": "https://www.azleg.gov/ars/14/05306.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5307": {
+     "id": "az-14-5307",
+     "cite": "A.R.S. § 14-5307",
+     "title": "Substitution or resignation of guardian; termination of incapacity",
+     "url": "https://www.azleg.gov/ars/14/05307.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-1801": {
      "id": "ca-prob-1801",
@@ -38086,6 +38919,59 @@
       "ugcopaa-319-cmt",
       "ugcopaa-112",
       "ugcopaa-318"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "guardian-person",
+     "roleName": "Guardian for an adult (personal affairs)",
+     "localNames": [
+      "guardian of the person",
+      "limited guardian",
+      "emergency guardian"
+     ],
+     "nameEn": null,
+     "summary": "A person a court appoints to make decisions about an adult's personal affairs (where they live, health care and the like). The court must find by clear-and-convincing evidence that less restrictive alternatives will not work. UGCOPAA (2017) replaces the 1997 UGPPA, and the 2019 UPC still contains the UGPPA as Article V.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Nomination gives priority; a parent or spouse may also appoint by will or signed writing, subject to court confirmation",
+       "phase": "capable",
+       "citations": [
+        "az-14-5301"
+       ]
+      },
+      "starts": {
+       "event": "Court appointment on clear and convincing evidence of incapacity, necessity and that no less restrictive means — including technological assistance — will serve; guardian files acceptance",
+       "phase": "incapacitated",
+       "citations": [
+        "az-14-5304"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of ward or guardian, determination of the guardian's incapacity, or substitution or resignation under §14-5307",
+        "phase": "deceased",
+        "citations": [
+         "az-14-5306",
+         "az-14-5307"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "az-14-5301",
+      "az-14-5304",
+      "az-14-5306",
+      "az-14-5307"
      ]
     },
     {
@@ -40293,7 +41179,7 @@
    "id": "health-care-agent",
    "label": "Health-care agent",
    "definition": "A person named in advance to make health and personal welfare decisions once the person can no longer make them.",
-   "jurisdictionCount": 49,
+   "jurisdictionCount": 50,
    "countryCount": 14,
    "citations": {
     "za-nha-7-mandate": {
@@ -40962,6 +41848,54 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=c8885f39-4bd3-dfc0-ea61-c35b9d26afb9",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-36-3221": {
+     "id": "az-36-3221",
+     "cite": "A.R.S. § 36-3221",
+     "title": "Health care power of attorney; scope; requirements; limitations; fiduciaries",
+     "url": "https://www.azleg.gov/ars/36/03221.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-36-3223": {
+     "id": "az-36-3223",
+     "cite": "A.R.S. § 36-3223",
+     "title": "Agents; powers and duties; removal; responsibility; fiduciaries",
+     "url": "https://www.azleg.gov/ars/36/03223.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-36-3231": {
+     "id": "az-36-3231",
+     "cite": "A.R.S. § 36-3231",
+     "title": "Surrogate decision makers; priorities; limitations",
+     "url": "https://www.azleg.gov/ars/36/03231.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-36-3281": {
+     "id": "az-36-3281",
+     "cite": "A.R.S. § 36-3281",
+     "title": "Mental health care power of attorney; scope; definition",
+     "url": "https://www.azleg.gov/ars/36/03281.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-36-831": {
+     "id": "az-36-831",
+     "cite": "A.R.S. § 36-831",
+     "title": "Duty for funeral and disposition arrangements; waiver of decision-making; counties; civil liability; costs; veterans; immunity; definitions",
+     "url": "https://www.azleg.gov/ars/36/00831.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-36-3224": {
+     "id": "az-36-3224",
+     "cite": "A.R.S. § 36-3224",
+     "title": "Sample health care power of attorney",
+     "url": "https://www.azleg.gov/ars/36/03224.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-4600": {
      "id": "ca-prob-4600",
@@ -42863,6 +43797,77 @@
       "uhcda93-3",
       "uhcda23-2",
       "ruaga-9"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "health-care-agent",
+     "roleName": "Agent under power of attorney for health care",
+     "localNames": [
+      "agent under health care power of attorney",
+      "surrogate"
+     ],
+     "nameEn": null,
+     "summary": "An individual appointed in a power of attorney for health care to make health-care decisions when the principal cannot. Under UHCDA (2023) decision-making power always 'springs' on a finding of lack of capacity, and only the health-information power may start at once. The 1993 Act let the document make the agent's authority effective immediately.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Adult signs a health care power of attorney, notarised or witnessed by one qualifying adult (§36-3221)",
+       "phase": "capable",
+       "citations": [
+        "az-36-3221"
+       ]
+      },
+      "starts": {
+       "event": "Principal is unable to make or communicate health care decisions — the statute prescribes no determination procedure and names no certifier, unlike the mental health care power at §36-3281",
+       "phase": "incapacitated",
+       "citations": [
+        "az-36-3223",
+        "az-36-3231",
+        "az-36-3281"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Revoked by the principal or by court order — the appointment has no other statutory end point",
+        "phase": "capable",
+        "citations": [
+         "az-36-3223"
+        ]
+       },
+       {
+        "event": "Guardian appointed for the express purpose of making health care decisions becomes the surrogate in the agent's place",
+        "phase": "incapacitated",
+        "citations": [
+         "az-36-3231"
+        ]
+       },
+       {
+        "event": "Death of principal, except where the instrument also grants funeral and disposition authority, which survives",
+        "phase": "deceased",
+        "citations": [
+         "az-36-3221",
+         "az-36-831",
+         "az-36-3224"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "az-36-3221",
+      "az-36-3223",
+      "az-36-3231",
+      "az-36-3281",
+      "az-36-831",
+      "az-36-3224"
      ]
     },
     {
@@ -45471,7 +46476,7 @@
    "id": "health-records-representative",
    "label": "Health-records representative",
    "definition": "The person entitled to a deceased or incapacitated person's health records.",
-   "jurisdictionCount": 47,
+   "jurisdictionCount": 48,
    "countryCount": 5,
    "citations": {
     "de-bgb-630g": {
@@ -46392,6 +47397,80 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "A person gets authority under state or other applicable law (e.g., health care power of attorney, guardianship, parent of a minor, letters as executor/administrator). HIPAA itself does not assign anyone.",
+       "phase": "capable",
+       "citations": [
+        "hipaa-164-502-g2",
+        "hipaa-164-502-g4",
+        "hhs-ocr-personal-reps"
+       ]
+      },
+      "starts": {
+       "event": "At the same moment the underlying state-law authority takes effect: authority over health-care decisions (living individual) or authority to act for the decedent or the estate (after death)",
+       "phase": "incapacitated",
+       "citations": [
+        "hipaa-164-502-g1",
+        "hipaa-164-502-g2",
+        "hipaa-164-502-g4",
+        "hhs-ocr-personal-reps"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The underlying state-law authority ends (e.g., a health care agent's authority ends at death, or a guardianship is terminated). Status as a personal representative for a living individual lapses with it.",
+        "phase": "deceased",
+        "citations": [
+         "hipaa-164-502-g2",
+         "hhs-ocr-personal-reps"
+        ]
+       },
+       {
+        "event": "The authority of the executor, administrator, or other person to act for the decedent or the estate ends under state law",
+        "phase": "closed",
+        "citations": [
+         "hipaa-164-502-g4"
+        ]
+       },
+       {
+        "event": "50 years after death: the information is no longer protected health information, so a personal representative has no Privacy Rule rights over it",
+        "phase": "closed",
+        "citations": [
+         "hipaa-164-502-f",
+         "hipaa-160-103-phi",
+         "hhs-ocr-personal-reps"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "hipaa-164-502-g2",
+      "hipaa-164-502-g4",
+      "hhs-ocr-personal-reps",
+      "hipaa-164-502-g1",
+      "hipaa-164-502-f",
+      "hipaa-160-103-phi"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "hipaa-personal-representative",
+     "roleName": "HIPAA personal representative",
+     "localNames": [
+      "personal representative (HIPAA Privacy Rule)"
+     ],
+     "nameEn": null,
+     "summary": "Federal privacy law does not appoint anyone. A health care provider or health plan must treat a person as the patient for HIPAA purposes, such as getting records or signing authorizations, when state or other law gives that person authority: authority over health-care decisions for a living adult, or authority over the decedent or the estate after death. The role is derived: it starts and ends when the underlying state-law role (health care agent, guardian, parent, executor/administrator) starts and ends. For decedents, protection lasts 50 years after death.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {
@@ -50163,7 +51242,7 @@
    "id": "online-tool-designee",
    "label": "Online-tool designee",
    "definition": "A person designated through a platform's own tool, where the law gives that designation priority.",
-   "jurisdictionCount": 28,
+   "jurisdictionCount": 29,
    "countryCount": 2,
    "citations": {
     "fr-loi7817-85": {
@@ -50386,6 +51465,69 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "User designates recipient via custodian's online tool",
+       "phase": "capable",
+       "citations": [
+        "rufadaa-4",
+        "rufadaa-2"
+       ]
+      },
+      "starts": {
+       "event": "Future event set by the online tool, such as the user's death or incapacity (the Act defers to the tool; no statutory trigger), then request to custodian",
+       "phase": "deceased",
+       "citations": [
+        "rufadaa-2-cmt",
+        "rufadaa-16"
+       ]
+      },
+      "ends": [
+       {
+        "event": "User modifies or deletes the direction",
+        "phase": "capable",
+        "citations": [
+         "rufadaa-4"
+        ]
+       },
+       {
+        "event": "Custodian discloses or terminates account (≤[60] days after required information) (end point not specified)",
+        "phase": "deceased",
+        "citations": [
+         "rufadaa-16",
+         "rufadaa-6"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "rufadaa-4",
+      "rufadaa-2",
+      "rufadaa-2-cmt",
+      "rufadaa-16",
+      "rufadaa-6"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "rufadaa-designated-recipient",
+     "roleName": "Designated recipient under a custodian's online tool",
+     "localNames": [
+      "designated recipient",
+      "legacy contact",
+      "inactive account manager"
+     ],
+     "nameEn": null,
+     "summary": "A person the account holder picks through a service provider's own online tool (separate from the terms of service) to receive or manage digital assets. If the tool lets the user change or delete the choice at any time, the direction overrides a contrary will, trust, or power of attorney. The designated recipient is not held to fiduciary standards.",
+     "group": "digital",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {
@@ -52038,7 +53180,7 @@
    "id": "financial-poa-nondurable",
    "label": "Ordinary financial power of attorney",
    "definition": "An agent appointed by the person whose authority ends when the person loses capacity, rather than surviving it.",
-   "jurisdictionCount": 42,
+   "jurisdictionCount": 43,
    "countryCount": 11,
    "citations": {
     "cn-cc-165": {
@@ -52288,6 +53430,22 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-14-5501": {
+     "id": "az-14-5501",
+     "cite": "A.R.S. § 14-5501",
+     "title": "Durable power of attorney; creation; validity",
+     "url": "https://www.azleg.gov/ars/14/05501.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5504": {
+     "id": "az-14-5504",
+     "cite": "A.R.S. § 14-5504",
+     "title": "Revocation; termination; effect; notice",
+     "url": "https://www.azleg.gov/ars/14/05504.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-4155": {
      "id": "ca-prob-4155",
@@ -53205,6 +54363,58 @@
       "upoaa-110e",
       "upoaa-110d",
       "upoaa-110b"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-nondurable",
+     "roleName": "Agent under nondurable financial power of attorney",
+     "localNames": [
+      "attorney-in-fact",
+      "agent"
+     ],
+     "nameEn": null,
+     "summary": "An agent under a power of attorney that expressly states it ends if the principal becomes incapacitated. It works only while the principal is capable, and ends at incapacity or death.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs a power of attorney without words of durability — the result of saying nothing, not of saying so",
+       "phase": "capable",
+       "citations": [
+        "az-14-5501"
+       ]
+      },
+      "starts": {
+       "event": "Effective on execution unless otherwise stated; agent accepts by acting",
+       "phase": "capable",
+       "citations": [
+        "upoaa-109",
+        "upoaa-113"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Principal becomes disabled or incapacitated (good-faith acts without actual knowledge still bind)",
+        "phase": "incapacitated",
+        "citations": [
+         "az-14-5504"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "az-14-5501",
+      "upoaa-109",
+      "upoaa-113",
+      "az-14-5504"
      ]
     },
     {
@@ -55337,7 +56547,7 @@
    "id": "small-estate-affiant",
    "label": "Small-estate collector",
    "definition": "A person who may collect a small estate without a grant of representation, where the law provides a threshold.",
-   "jurisdictionCount": 37,
+   "jurisdictionCount": 38,
    "countryCount": 6,
    "citations": {
     "mu-sw-37": {
@@ -55451,6 +56661,14 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=fc93703d-9b36-2fe9-be86-6b2494c9dcc7",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-14-3971": {
+     "id": "az-14-3971",
+     "cite": "A.R.S. § 14-3971",
+     "title": "Collection of personal property by affidavit; ownership of vehicles; affidavit of succession to real property",
+     "url": "https://www.azleg.gov/ars/14/03971.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-13101": {
      "id": "ca-prob-13101",
@@ -56117,6 +57335,56 @@
      "citations": [
       "upc-3-1201",
       "upc-3-1202"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "small-estate-affiant",
+     "roleName": "Successor collecting personal property by small-estate affidavit",
+     "localNames": [
+      "affiant",
+      "successor",
+      "claiming successor"
+     ],
+     "nameEn": null,
+     "summary": "For a small estate, a person entitled to the decedent's personal property can collect it by affidavit 30 days after death, without court appointment. Anyone who pays or delivers property to them is protected as if they had dealt with a personal representative.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Death; person is a successor entitled to payment or delivery",
+       "phase": "deceased",
+       "citations": [
+        "upc-3-1201"
+       ]
+      },
+      "starts": {
+       "event": "Wages to a surviving spouse (≤$5,000) at any time after death; personal property (≤$200,000 net) 30 days after death; real property (≤$300,000 net) six months after death by affidavit of succession filed with the court",
+       "phase": "deceased",
+       "citations": [
+        "az-14-3971"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Property paid, delivered or title changed; the rights of heirs and devisees under §14-3901 are unaffected",
+        "phase": "closed",
+        "citations": [
+         "az-14-3971"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "upc-3-1201",
+      "az-14-3971"
      ]
     },
     {
@@ -57730,7 +58998,7 @@
    "id": "financial-poa-springing",
    "label": "Springing power of attorney",
    "definition": "An appointment made while capable that confers no authority until a later event — usually the person's own incapacity.",
-   "jurisdictionCount": 32,
+   "jurisdictionCount": 33,
    "countryCount": 5,
    "citations": {
     "it-cc-408": {
@@ -57936,6 +59204,22 @@
      "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=97b8e123-d225-0b61-e115-d3358fca22ec",
      "kind": "uniform-act",
      "retrieved": "2026-09-16"
+    },
+    "az-14-5501": {
+     "id": "az-14-5501",
+     "cite": "A.R.S. § 14-5501",
+     "title": "Durable power of attorney; creation; validity",
+     "url": "https://www.azleg.gov/ars/14/05501.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
+    },
+    "az-14-5505": {
+     "id": "az-14-5505",
+     "cite": "A.R.S. § 14-5505",
+     "title": "Continuance of durable powers of attorney by affidavit",
+     "url": "https://www.azleg.gov/ars/14/05505.htm",
+     "kind": "statute",
+     "retrieved": "2026-10-22"
     },
     "ca-prob-4030": {
      "id": "ca-prob-4030",
@@ -58398,6 +59682,79 @@
       "upoaa-105",
       "upoaa-109",
       "upoaa-109c",
+      "upoaa-110a",
+      "upoaa-110d",
+      "upoaa-110b",
+      "upoaa-108"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-springing",
+     "roleName": "Agent under springing (contingent) financial power of attorney",
+     "localNames": [
+      "attorney-in-fact",
+      "agent under contingent power of attorney"
+     ],
+     "nameEn": null,
+     "summary": "A power of attorney that the principal writes to take effect at a future date or on a future event, most often the principal's incapacity. The POA can name who decides that the event has happened. If it names no one, a physician (or licensed psychologist) can certify impairment, or a lawyer, judge or government official can certify that the principal is missing or detained.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs POA stating it becomes effective on a future date/event (e.g., incapacity)",
+       "phase": "capable",
+       "citations": [
+        "upoaa-105",
+        "upoaa-109"
+       ]
+      },
+      "starts": {
+       "event": "On the disability or incapacity of the principal, as the instrument's own words provide — Arizona prescribes no determination procedure and names no default certifier",
+       "phase": "incapacitated",
+       "citations": [
+        "az-14-5501",
+        "az-14-5505"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of principal (good-faith acts without actual knowledge still bind)",
+        "phase": "deceased",
+        "citations": [
+         "upoaa-110a",
+         "upoaa-110d"
+        ]
+       },
+       {
+        "event": "Revocation, POA terms, purpose accomplished, agent exit, spouse-agent dissolution filing",
+        "phase": "incapacitated",
+        "citations": [
+         "upoaa-110a",
+         "upoaa-110b"
+        ]
+       },
+       {
+        "event": "Court limits/suspends/terminates after conservator appointment",
+        "phase": "incapacitated",
+        "citations": [
+         "upoaa-108"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "upoaa-105",
+      "upoaa-109",
+      "az-14-5501",
+      "az-14-5505",
       "upoaa-110a",
       "upoaa-110d",
       "upoaa-110b",
@@ -60337,7 +61694,7 @@
    "id": "successor-trustee",
    "label": "Successor trustee",
    "definition": "The trustee who takes over administration of a trust when the previous trustee stops acting.",
-   "jurisdictionCount": 29,
+   "jurisdictionCount": 30,
    "countryCount": 2,
    "citations": {
     "cn-trust-8": {
@@ -60674,6 +62031,80 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Settlor names successor trustee in the trust terms",
+       "phase": "capable",
+       "citations": [
+        "utc-704",
+        "utc-105"
+       ]
+      },
+      "starts": {
+       "event": "Vacancy occurs per trust terms (e.g., incapacity as defined by the trust) or by default on death, resignation, removal, or appointment of guardian/conservator for an individual trustee; successor accepts",
+       "phase": "incapacitated",
+       "citations": [
+        "utc-105",
+        "utc-704",
+        "utc-701"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Trust terminates (e.g., after distribution following settlor's death) and trustee distributes",
+        "phase": "closed",
+        "citations": [
+         "utc-817"
+        ]
+       },
+       {
+        "event": "Successor resigns, is removed, dies, or gets a guardian/conservator",
+        "phase": "administration",
+        "citations": [
+         "utc-705",
+         "utc-706",
+         "utc-704"
+        ]
+       },
+       {
+        "event": "Settlor with capacity revokes/amends trust to remove successor",
+        "phase": "capable",
+        "citations": [
+         "utc-602",
+         "utc-601"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "utc-704",
+      "utc-105",
+      "utc-701",
+      "utc-817",
+      "utc-705",
+      "utc-706",
+      "utc-602",
+      "utc-601"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "successor-trustee",
+     "roleName": "Successor trustee of a revocable (living) trust",
+     "localNames": [
+      "successor trustee"
+     ],
+     "nameEn": null,
+     "summary": "A person named in the trust to take over when the trusteeship becomes vacant. When that happens depends mainly on the trust's own terms (for example, the settlor-trustee's incapacity as the trust defines it). By default the UTC creates a vacancy when a trustee dies, resigns, is removed, or gets a guardian or conservator. The successor serves only after accepting.",
+     "group": "trust",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {
@@ -63939,7 +65370,7 @@
    "id": "tax-representative",
    "label": "Tax representative",
    "definition": "The person who deals with the tax authority for a deceased or incapacitated person.",
-   "jurisdictionCount": 41,
+   "jurisdictionCount": 42,
    "countryCount": 5,
    "citations": {
     "de-ao-34": {
@@ -64745,6 +66176,61 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person begins acting for another in a fiduciary capacity under other law (e.g., court appointment as guardian or conservator, letters testamentary or of administration, or trusteeship)",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-26-301-6903-1",
+        "irs-i56"
+       ]
+      },
+      "starts": {
+       "event": "Notice of the fiduciary relationship is filed with the IRS (Form 56)",
+       "phase": "administration",
+       "citations": [
+        "usc-26-6903",
+        "cfr-26-301-6903-1",
+        "irs-i56"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Notice is given to the IRS that the fiduciary capacity has terminated (Form 56, Part II)",
+        "phase": "closed",
+        "citations": [
+         "usc-26-6903",
+         "cfr-26-301-6903-1",
+         "irs-i56"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-26-301-6903-1",
+      "irs-i56",
+      "usc-26-6903"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "irs-fiduciary-notice",
+     "roleName": "Fiduciary of record with the IRS (Form 56 notice)",
+     "localNames": [
+      "Form 56 fiduciary",
+      "notice of fiduciary relationship"
+     ],
+     "nameEn": null,
+     "summary": "Federal tax law does not create fiduciary authority. It recognizes a fiduciary (guardian, conservator, executor, administrator, trustee, or anyone else acting in a fiduciary capacity) once that person notifies the IRS, usually on Form 56. From then on, the fiduciary stands in the taxpayer's shoes for tax matters until notice is given that the fiduciary capacity has terminated. That IRS-facing status can therefore outlast the state-law appointment until termination is reported. An agent under a power of attorney is not a fiduciary for this purpose and uses Form 2848 instead.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {
@@ -66438,7 +67924,7 @@
    "id": "veterans-fiduciary",
    "label": "Veterans fiduciary",
    "definition": "A fiduciary under a distinct veterans' regime, where one exists separately from the general law.",
-   "jurisdictionCount": 34,
+   "jurisdictionCount": 35,
    "countryCount": 3,
    "citations": {
     "afcs-2011-a71": {
@@ -66915,6 +68401,84 @@
      "stateSpecific": false,
      "unverified": false,
      "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "VA rating authority rates the beneficiary incompetent to handle VA funds, or a court with jurisdiction finds the beneficiary unable to manage financial affairs. The Hub Manager then investigates and appoints a fiduciary.",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-38-3-353",
+        "cfr-38-13-20",
+        "cfr-38-13-100",
+        "usc-38-5502"
+       ]
+      },
+      "starts": {
+       "event": "Hub Manager appoints the fiduciary; VA pays benefits to the fiduciary for the use and benefit of the beneficiary and dependents",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-38-13-100",
+        "cfr-38-13-20",
+        "usc-38-5502"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Beneficiary dies: this is a listed reason for removal, and VA benefits are discontinued as of the last day of the month before death",
+        "phase": "deceased",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-3-500-g"
+        ]
+       },
+       {
+        "event": "VA rating authority determines the beneficiary can manage VA benefits (or a court finds this, if the court order was the basis)",
+        "phase": "capable",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-13-30",
+         "cfr-38-3-353"
+        ]
+       },
+       {
+        "event": "Removal for fiduciary reasons (misuse, failure to account, bar under 13.130, loss of qualifications, etc.), or withdrawal after VA arranges a successor",
+        "phase": "incapacitated",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-13-510"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-38-3-353",
+      "cfr-38-13-20",
+      "cfr-38-13-100",
+      "usc-38-5502",
+      "cfr-38-13-500",
+      "cfr-38-3-500-g",
+      "cfr-38-13-30",
+      "cfr-38-13-510"
+     ]
+    },
+    {
+     "jurisdiction": "us-az",
+     "jurisdictionName": "Arizona",
+     "label": "US — Arizona",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "va-fiduciary",
+     "roleName": "VA fiduciary",
+     "localNames": [
+      "VA-appointed fiduciary",
+      "federal fiduciary"
+     ],
+     "nameEn": null,
+     "summary": "An individual or entity that the Department of Veterans Affairs appoints to receive and manage a beneficiary's VA benefits. VA appoints one after a VA rating authority finds the beneficiary unable to manage VA benefits, after a court finds the beneficiary unable to manage financial affairs, or when the beneficiary is a minor. The VA incompetency rating is an administrative decision, with notice and a hearing right, and doubt is resolved in favor of competency. The role ends through removal by the VA Hub Manager: when VA rates the beneficiary competent, when the beneficiary dies, when a successor is appointed, or when the fiduciary is removed for cause or withdraws with VA's permission.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
      "differsFromModel": false,
      "lane": {
       "assigned": {

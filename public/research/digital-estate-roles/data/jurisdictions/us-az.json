@@ -1,0 +1,1079 @@
+{
+ "jurisdiction": "us-az",
+ "name": "Arizona",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Probate Code in substance and numbering (Title 14; no short title, but §14-1102(B)(7) states the uniformity purpose). adoption.json records no UPC enactment — the ULC bill tracker does not reach back to it, as with Idaho",
+  "Arizona Trust Code — Uniform Trust Code (2000), Title 14 chapter 11, with the §1013 certification of trust at §14-11013",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2015), Title 14 chapter 13, short title at §14-13101",
+  "Revised Uniform Anatomical Gift Act (2006), Title 36 chapter 7 article 3",
+  "Uniform Adult Guardianship and Protective Proceedings Jurisdiction Act, Title 14 chapter 12",
+  "No uniform power of attorney act: Title 14 chapter 5 article 5 is Arizona's own, and inverts UPOAA §104"
+ ],
+ "note": "Arizona answers the durability question **twice, and oppositely, inside its own statute book**. A financial power of attorney is durable only if §14-5501(A) is satisfied — the instrument \"shall contain words that demonstrate the principal's intent\" that the authority survive disability, with two safe-harbour sentences \"or similar language\" offered in subsection B — and it must additionally be witnessed by a disinterested witness and acknowledged before a notary on the witness's affidavit, or it is not a power at all. A **health care** power of attorney, by contrast, is durable by definition: §36-3201(6) defines it as a designation \"that comes into effect and is durable as provided in section 36-3223, subsection A\", and nothing has to be said about incapacity. The financial article then seals itself off from health care at §14-5507. Express words required is the majority rule, so that is not a new route to durability; what is new is that **Arizona answers the question oppositely within one statute book** — the same legislature chose opt-in for property and automatic for the body, which makes `poaDurableByDefault` an instrument-level fact here rather than a jurisdiction-level one.\n\nTwo other things are distinctive. The power of attorney reaches **past death** more concretely than elsewhere: §36-831(A)(2) names the agent under either a health care or a durable financial power, where that instrument specifically grants disposition authority, as the holder of the duty to make funeral and disposition arrangements — ranked above every blood relative and behind only the spouse — and §36-3221(A) lets one health care power of attorney carry both offices. And §14-3971 is the **widest no-grant route in this data**: $5,000 of wages to a surviving spouse immediately, $200,000 of personal property after 30 days, $300,000 of real property after six months, against the Uniform Probate Code's $25,000. Because §§14-13107 and 14-13108 accept a small-estate affidavit in place of letters, that ceiling is also how wide the no-court path to a custodian's digital-asset disclosure is.\n\nArizona has a supported decision-making statute (§§14-5721, 14-5722) and it is the sharpest illustration in this reference of what such an agreement is not. §14-5722(G) ends it as a matter of law \"at any time the adult becomes an incapacitated person as defined in section 14-5101\" and on the appointment of a guardian. A durable power of attorney exists to survive incapacity; Arizona's supported decision-making agreement is void on it, by its own terms.",
+ "citations": [
+  {
+   "id": "az-14-1102",
+   "cite": "A.R.S. § 14-1102",
+   "title": "Purposes; rule of construction",
+   "url": "https://www.azleg.gov/ars/14/01102.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "To make uniform the law among the various jurisdictions."
+  },
+  {
+   "id": "az-14-5501",
+   "cite": "A.R.S. § 14-5501",
+   "title": "Durable power of attorney; creation; validity",
+   "url": "https://www.azleg.gov/ars/14/05501.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The instrument shall contain words that demonstrate the principal's intent that the authority conferred in the durable power of attorney may be exercised: 1. If the principal is subsequently a person with a disability or incapacitated."
+  },
+  {
+   "id": "az-14-5502",
+   "cite": "A.R.S. § 14-5502",
+   "title": "Effect of lapse of time, disability or incapacity",
+   "url": "https://www.azleg.gov/ars/14/05502.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "All acts done by an agent pursuant to a durable power of attorney during any period of disability or incapacity of the principal have the same effect and inure to the benefit of and bind the principal"
+  },
+  {
+   "id": "az-14-5503",
+   "cite": "A.R.S. § 14-5503",
+   "title": "Relation of agent to court appointed fiduciary",
+   "url": "https://www.azleg.gov/ars/14/05503.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The court appointed fiduciary has the same power to revoke or amend the power of attorney that the principal would have if the principal were not a person with a disability or incapacitated."
+  },
+  {
+   "id": "az-14-5504",
+   "cite": "A.R.S. § 14-5504",
+   "title": "Revocation; termination; effect; notice",
+   "url": "https://www.azleg.gov/ars/14/05504.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The death of a principal who has executed a durable power of attorney does not revoke or terminate the agency as to the agent or other person who, without actual knowledge of the death of the principal, acts in good faith under the power."
+  },
+  {
+   "id": "az-14-5505",
+   "cite": "A.R.S. § 14-5505",
+   "title": "Continuance of durable powers of attorney by affidavit",
+   "url": "https://www.azleg.gov/ars/14/05505.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "An affidavit executed by the agent under a durable power of attorney stating that the agent did not have at the time of exercise of the power actual knowledge of the termination of the power by revocation or of the principal's death creates, in the absence of fraud, a rebuttable presumption"
+  },
+  {
+   "id": "az-14-5506",
+   "cite": "A.R.S. § 14-5506",
+   "title": "Powers of attorney; intimidation; deception; definitions",
+   "url": "https://www.azleg.gov/ars/14/05506.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A power of attorney executed by an adult who does not have capacity is invalid."
+  },
+  {
+   "id": "az-14-5507",
+   "cite": "A.R.S. § 14-5507",
+   "title": "Applicability of article",
+   "url": "https://www.azleg.gov/ars/14/05507.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "This article does not apply to health care directives that are validly executed under section 36-3221 and does not establish authority under a durable power of attorney for the purposes of health care decision making."
+  },
+  {
+   "id": "az-14-5301",
+   "cite": "A.R.S. § 14-5301",
+   "title": "Appointment of guardian by will or other writing; objections; notice",
+   "url": "https://www.azleg.gov/ars/14/05301.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A parent, by will or other signed writing, may appoint a guardian for an unmarried child who the parent believes is an incapacitated person"
+  },
+  {
+   "id": "az-14-5304",
+   "cite": "A.R.S. § 14-5304",
+   "title": "Findings; limitations; filing; fingerprinting",
+   "url": "https://www.azleg.gov/ars/14/05304.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The person's needs cannot be met by less restrictive means, including the use of appropriate technological assistance."
+  },
+  {
+   "id": "az-14-5306",
+   "cite": "A.R.S. § 14-5306",
+   "title": "Termination of guardianship for incapacitated person",
+   "url": "https://www.azleg.gov/ars/14/05306.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "the authority and responsibility of a guardian for an incapacitated person terminates on the death of the guardian or ward, a determination of incapacity of the guardian, or substitution or resignation"
+  },
+  {
+   "id": "az-14-5307",
+   "cite": "A.R.S. § 14-5307",
+   "title": "Substitution or resignation of guardian; termination of incapacity",
+   "url": "https://www.azleg.gov/ars/14/05307.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The court does not need to find that the guardian acted inappropriately to find that the substitution is in the ward's best interest."
+  },
+  {
+   "id": "az-14-5310",
+   "cite": "A.R.S. § 14-5310",
+   "title": "Temporary guardians; appointment; notice; court appointed attorney hearings; duties",
+   "url": "https://www.azleg.gov/ars/14/05310.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "the alleged incapacitated person, the ward or any person interested in the welfare of the alleged incapacitated person or the ward may petition for a finding of interim incapacity and for the appointment of a temporary guardian"
+  },
+  {
+   "id": "az-14-5401",
+   "cite": "A.R.S. § 14-5401",
+   "title": "Protective proceedings; fingerprinting",
+   "url": "https://www.azleg.gov/ars/14/05401.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The person is unable to manage the person's estate and affairs effectively for reasons such as mental illness, mental deficiency, mental disorder, physical illness or disability"
+  },
+  {
+   "id": "az-14-5410",
+   "cite": "A.R.S. § 14-5410",
+   "title": "Who may be appointed conservator; priorities",
+   "url": "https://www.azleg.gov/ars/14/05410.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The person nominated to serve as conservator in the protected person's most recent durable power of attorney."
+  },
+  {
+   "id": "az-14-5411",
+   "cite": "A.R.S. § 14-5411",
+   "title": "Bond; exception",
+   "url": "https://www.azleg.gov/ars/14/05411.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "the court shall require a conservator to furnish a bond conditioned on faithful discharge of all duties according to law"
+  },
+  {
+   "id": "az-14-5415",
+   "cite": "A.R.S. § 14-5415",
+   "title": "Resignation or substitution of conservator",
+   "url": "https://www.azleg.gov/ars/14/05415.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "the court shall substitute a conservator and appoint a successor if the substitution is in the best interest of the protected person"
+  },
+  {
+   "id": "az-14-5430",
+   "cite": "A.R.S. § 14-5430",
+   "title": "Termination of proceeding",
+   "url": "https://www.azleg.gov/ars/14/05430.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "On termination, title to assets of the estate passes to the formerly protected person or to the person's successors."
+  },
+  {
+   "id": "az-14-5721",
+   "cite": "A.R.S. § 14-5721",
+   "title": "Definitions",
+   "url": "https://www.azleg.gov/ars/14/05721.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "\"Supported decision-making\" means a process of supporting and accommodating an adult to enable the adult to make life decisions"
+  },
+  {
+   "id": "az-14-5722",
+   "cite": "A.R.S. § 14-5722",
+   "title": "Supported decision-making agreements; scope; rights and obligations; intimidation; deception; petition; termination; form",
+   "url": "https://www.azleg.gov/ars/14/05722.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A supported decision-making agreement extends until: 1. Terminated in writing by either party or by the terms of the supported decision-making agreement. 2. At any time the adult becomes an incapacitated person as defined in section 14-5101. 3. On the appointment of a guardian"
+  },
+  {
+   "id": "az-14-3103",
+   "cite": "A.R.S. § 14-3103",
+   "title": "Necessity of appointment for administration",
+   "url": "https://www.azleg.gov/ars/14/03103.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "a person shall be appointed by order of the court or statement of the registrar, shall qualify and shall be issued letters. Administration of an estate is commenced by the issuance of letters."
+  },
+  {
+   "id": "az-14-3108",
+   "cite": "A.R.S. § 14-3108",
+   "title": "Probate, testacy and appointment proceedings; ultimate time limit",
+   "url": "https://www.azleg.gov/ars/14/03108.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "shall not be commenced more than two years after the decedent's death"
+  },
+  {
+   "id": "az-14-3601",
+   "cite": "A.R.S. § 14-3601",
+   "title": "Qualification",
+   "url": "https://www.azleg.gov/ars/14/03601.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "Prior to receiving letters, a personal representative shall qualify by filing with the appointing court any required bond and a statement of acceptance of the duties of the office."
+  },
+  {
+   "id": "az-14-3603",
+   "cite": "A.R.S. § 14-3603",
+   "title": "Bond required; exceptions",
+   "url": "https://www.azleg.gov/ars/14/03603.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A bond is required of a personal representative unless either: 1. The will expressly waives the bond."
+  },
+  {
+   "id": "az-14-3608",
+   "cite": "A.R.S. § 14-3608",
+   "title": "Termination of appointment; general",
+   "url": "https://www.azleg.gov/ars/14/03608.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "Termination ends the right and power pertaining to the office of personal representative"
+  },
+  {
+   "id": "az-14-3609",
+   "cite": "A.R.S. § 14-3609",
+   "title": "Termination of appointment; death or disability",
+   "url": "https://www.azleg.gov/ars/14/03609.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The death of a personal representative or the appointment of a conservator for the estate of a personal representative, terminates his appointment."
+  },
+  {
+   "id": "az-14-3610",
+   "cite": "A.R.S. § 14-3610",
+   "title": "Termination of appointment; voluntary",
+   "url": "https://www.azleg.gov/ars/14/03610.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "An appointment of a personal representative terminates as provided in section 14-3933, one year after the filing of a closing statement."
+  },
+  {
+   "id": "az-14-3611",
+   "cite": "A.R.S. § 14-3611",
+   "title": "Termination of appointment by removal; cause; procedure",
+   "url": "https://www.azleg.gov/ars/14/03611.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A person interested in the estate may petition for removal of a personal representative for cause at any time."
+  },
+  {
+   "id": "az-14-3701",
+   "cite": "A.R.S. § 14-3701",
+   "title": "Time of accrual of duties and powers",
+   "url": "https://www.azleg.gov/ars/14/03701.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "Prior to appointment, a person named personal representative in a will may carry out written instructions of the decedent relating to the decedent's body, funeral and burial arrangements."
+  },
+  {
+   "id": "az-14-3703",
+   "cite": "A.R.S. § 14-3703",
+   "title": "General duties; relation and liability to persons interested in estate; standing to sue",
+   "url": "https://www.azleg.gov/ars/14/03703.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "a personal representative is a fiduciary who shall observe the standards of care applicable to trustees"
+  },
+  {
+   "id": "az-14-3971",
+   "cite": "A.R.S. § 14-3971",
+   "title": "Collection of personal property by affidavit; ownership of vehicles; affidavit of succession to real property",
+   "url": "https://www.azleg.gov/ars/14/03971.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "Thirty days have elapsed since the death of the decedent. 2. Either: (a) An application or petition for the appointment of a personal representative is not pending and a personal representative has not been appointed in any jurisdiction and the value of all personal property in the decedent's estate, wherever located, less liens and encumbrances, does not exceed $200,000"
+  },
+  {
+   "id": "az-14-3973",
+   "cite": "A.R.S. § 14-3973",
+   "title": "Small estates; summary administrative procedure",
+   "url": "https://www.azleg.gov/ars/14/03973.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "If it appears from the inventory and appraisal that the value of the entire estate, less liens and encumbrances, does not exceed allowance in lieu of homestead, exempt property, family allowance, costs and expenses of administration"
+  },
+  {
+   "id": "az-14-10701",
+   "cite": "A.R.S. § 14-10701",
+   "title": "Accepting or declining trusteeship",
+   "url": "https://www.azleg.gov/ars/14/10701.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A designated trustee who does not accept the trusteeship within a reasonable time after knowing of the designation is deemed to have rejected the trusteeship."
+  },
+  {
+   "id": "az-14-10702",
+   "cite": "A.R.S. § 14-10702",
+   "title": "Trustee's bond",
+   "url": "https://www.azleg.gov/ars/14/10702.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A trustee shall give bond to secure performance of the trustee's duties only if the court finds that a bond is needed to protect the interests of the beneficiaries or is required by the terms of the trust"
+  },
+  {
+   "id": "az-14-10704",
+   "cite": "A.R.S. § 14-10704",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "https://www.azleg.gov/ars/14/10704.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A vacancy in a trusteeship occurs if: 1. A person designated as trustee rejects the trusteeship."
+  },
+  {
+   "id": "az-14-10705",
+   "cite": "A.R.S. § 14-10705",
+   "title": "Resignation of trustee",
+   "url": "https://www.azleg.gov/ars/14/10705.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "on at least thirty days' notice to the qualified beneficiaries, the settlor, if living, and all cotrustees"
+  },
+  {
+   "id": "az-14-10706",
+   "cite": "A.R.S. § 14-10706",
+   "title": "Removal of trustee",
+   "url": "https://www.azleg.gov/ars/14/10706.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The settlor, a cotrustee or a beneficiary may request the court to remove a trustee or a trustee may be removed by the court on its own initiative."
+  },
+  {
+   "id": "az-14-11013",
+   "cite": "A.R.S. § 14-11013",
+   "title": "Certification of trust",
+   "url": "https://www.azleg.gov/ars/14/11013.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "Instead of furnishing a copy of the trust instrument to a person other than a beneficiary, the trustee may furnish to the person a certification of trust"
+  },
+  {
+   "id": "az-14-13101",
+   "cite": "A.R.S. § 14-13101",
+   "title": "Short title",
+   "url": "https://www.azleg.gov/ars/14/13101.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "This chapter may be cited as the revised uniform fiduciary access to digital assets act."
+  },
+  {
+   "id": "az-14-13104",
+   "cite": "A.R.S. § 14-13104",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://www.azleg.gov/ars/14/13104.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A user may use an online tool to direct the custodian to disclose to a designated recipient or not to disclose some or all of the user's digital assets"
+  },
+  {
+   "id": "az-14-13105",
+   "cite": "A.R.S. § 14-13105",
+   "title": "Terms-of-service agreement",
+   "url": "https://www.azleg.gov/ars/14/13105.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "This chapter does not give a fiduciary or designated recipient any new or expanded rights other than those held by the user"
+  },
+  {
+   "id": "az-14-13106",
+   "cite": "A.R.S. § 14-13106",
+   "title": "Procedure for disclosing digital assets",
+   "url": "https://www.azleg.gov/ars/14/13106.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "the custodian, at its sole discretion, may do any of the following"
+  },
+  {
+   "id": "az-14-13107",
+   "cite": "A.R.S. § 14-13107",
+   "title": "Disclosure of content of electronic communications of deceased user",
+   "url": "https://www.azleg.gov/ars/14/13107.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A certified copy of the letters testamentary, a small-estate affidavit or a court order."
+  },
+  {
+   "id": "az-14-13108",
+   "cite": "A.R.S. § 14-13108",
+   "title": "Disclosure of other digital assets of deceased user",
+   "url": "https://www.azleg.gov/ars/14/13108.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "a custodian shall disclose to the personal representative of the estate of a deceased user a catalogue of electronic communications sent or received by the user and digital assets"
+  },
+  {
+   "id": "az-36-3201",
+   "cite": "A.R.S. § 36-3201",
+   "title": "Definitions",
+   "url": "https://www.azleg.gov/ars/36/03201.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "\"Health care power of attorney\" means a written designation of an agent to make health care decisions that meets the requirements of section 36-3221 and that comes into effect and is durable as provided in section 36-3223, subsection A."
+  },
+  {
+   "id": "az-36-3203",
+   "cite": "A.R.S. § 36-3203",
+   "title": "Surrogate; authority; responsibilities; immunity",
+   "url": "https://www.azleg.gov/ars/36/03203.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The surrogate shall make health care decisions for the patient in accordance with the patient's wishes as expressed in the health care directive."
+  },
+  {
+   "id": "az-36-3205",
+   "cite": "A.R.S. § 36-3205",
+   "title": "Health care providers; immunity from liability; conditions",
+   "url": "https://www.azleg.gov/ars/36/03205.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A health care provider who makes good faith health care decisions in reliance on the provisions of an apparently genuine health care directive or the direction of a surrogate is immune from criminal and civil liability"
+  },
+  {
+   "id": "az-36-3221",
+   "cite": "A.R.S. § 36-3221",
+   "title": "Health care power of attorney; scope; requirements; limitations; fiduciaries",
+   "url": "https://www.azleg.gov/ars/36/03221.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A person who is an adult may designate another adult individual or other adult individuals to make health care decisions on that person's behalf or to provide funeral and disposition arrangements in the event of the person's death"
+  },
+  {
+   "id": "az-36-3223",
+   "cite": "A.R.S. § 36-3223",
+   "title": "Agents; powers and duties; removal; responsibility; fiduciaries",
+   "url": "https://www.azleg.gov/ars/36/03223.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "The appointment of a person to act as an agent is effective until that authority is revoked by the principal or by court order."
+  },
+  {
+   "id": "az-36-3224",
+   "cite": "A.R.S. § 36-3224",
+   "title": "Sample health care power of attorney",
+   "url": "https://www.azleg.gov/ars/36/03224.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "All of my agent's actions under this power during any period when I am unable to make or communicate health care decisions or when there is uncertainty whether I am dead or alive have the same effect on my heirs, devisees and personal representatives as if I were alive, competent and acting for myself."
+  },
+  {
+   "id": "az-36-3231",
+   "cite": "A.R.S. § 36-3231",
+   "title": "Surrogate decision makers; priorities; limitations",
+   "url": "https://www.azleg.gov/ars/36/03231.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "If the patient has a health care power of attorney that meets the requirements of section 36-3221, the patient's designated agent shall act as the patient's surrogate. However, if the court appoints a guardian for the express purpose of making health care treatment decisions, that guardian shall act as the patient's surrogate."
+  },
+  {
+   "id": "az-36-3281",
+   "cite": "A.R.S. § 36-3281",
+   "title": "Mental health care power of attorney; scope; definition",
+   "url": "https://www.azleg.gov/ars/36/03281.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "If an adult does not have a mental health care power of attorney pursuant to this section, an agent with a health care power of attorney under section 36-3221 may make decisions about mental health treatment on behalf of the principal if the principal is found incapable"
+  },
+  {
+   "id": "az-36-831",
+   "cite": "A.R.S. § 36-831",
+   "title": "Duty for funeral and disposition arrangements; waiver of decision-making; counties; civil liability; costs; veterans; immunity; definitions",
+   "url": "https://www.azleg.gov/ars/36/00831.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "On the person who is designated as having power of attorney for the decedent in the decedent's most recent health care power of attorney pursuant to chapter 32, article 2 of this title if that power of attorney specifically gives that person the authority to make decisions regarding the disposition of the decedent's remains or a durable power of attorney if that power of attorney specifically gives that person the authority to make decisions regarding the disposition of the decedent's remains."
+  },
+  {
+   "id": "az-36-843",
+   "cite": "A.R.S. § 36-843",
+   "title": "Who may make an anatomical gift before donor's death",
+   "url": "https://www.azleg.gov/ars/36/00843.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "An agent of the donor, unless the power of attorney for health care or other record prohibits the agent from making an anatomical gift."
+  },
+  {
+   "id": "az-36-844",
+   "cite": "A.R.S. § 36-844",
+   "title": "Manner of making anatomical gift before donor's death",
+   "url": "https://www.azleg.gov/ars/36/00844.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "A donor may make an anatomical gift: 1. By registering to be a donor on the donor registry established by section 36-858."
+  },
+  {
+   "id": "az-36-846",
+   "cite": "A.R.S. § 36-846",
+   "title": "Refusal to make anatomical gift; effect of refusal",
+   "url": "https://www.azleg.gov/ars/36/00846.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "An individual may refuse to make an anatomical gift of the individual's body or part"
+  },
+  {
+   "id": "az-36-848",
+   "cite": "A.R.S. § 36-848",
+   "title": "Who may make anatomical gift of decedent's body or part",
+   "url": "https://www.azleg.gov/ars/36/00848.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-22",
+   "quote": "An agent of the decedent at the time of death who could have made an anatomical gift pursuant to section 36-843 immediately before the decedent's death."
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "durable power of attorney",
+    "agent"
+   ],
+   "diff": "Arizona never enacted the Uniform Power of Attorney Act, and §14-5501(A) inverts the uniform rule. A power is durable only if the instrument \"shall contain words that demonstrate the principal's intent that the authority conferred ... may be exercised\" if the principal is later a person with a disability or incapacitated, and regardless of elapsed time unless a termination time is stated. §14-5501(B) offers two safe-harbour sentences \"or similar language\", so this is a purposive magic-words test rather than Kansas's and Missouri's closed list — but durability is still **opted into**, where UPOAA §104 makes it the default and a Louisiana *mandat* makes it an opt-out.\n\nArizona then puts formalities in front of the power itself. §14-5501(D) requires a financial power to be signed or marked by the principal, **witnessed by someone other than the agent, the agent's spouse, the agent's children or the notary**, and \"executed and attested by its acknowledgment by the principal and by an affidavit of the witness before a notary public\", in substantially a form the statute prints. Subsection E exempts only non-natural principals and powers coupled with an interest. A power that misses these is not a non-durable power; it is not a power.\n\n§14-5506 is the strongest capacity provision in this set. A power \"executed by an adult who does not have capacity is invalid\", and the **burden sits on the agent**: clear and convincing evidence of capacity in any criminal proceeding, and the same standard in a civil one once a challenger shows by a preponderance that the principal was a vulnerable adult as defined in §46-451. Elsewhere acknowledgment buys the agent a presumption; in Arizona it buys nothing against a capacity challenge.\n\nTwo end points differ from the baseline's. Under §14-5503(A) the appointment of a conservator does not merely let a court limit the agent — the court-appointed fiduciary \"has the same power to revoke or amend the power of attorney that the principal would have\", so the power can be destroyed outright by another fiduciary rather than trimmed by the court. And §14-5504(A) keeps the agency alive after death as to anyone acting in good faith without actual knowledge, which the baseline also does, while §14-5505 adds an agent's affidavit of non-revocation that creates a rebuttable presumption and is itself recordable.\n\n§14-5507 seals the article off from health care: it \"does not apply to health care directives that are validly executed under section 36-3221\" and confers no health-care authority. §14-5501(F) disqualifies a person whose fiduciary licence under §14-5651 is suspended or revoked, unless related to the principal by blood, adoption or marriage.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a power containing express words of durability, witnessed by a disinterested witness and acknowledged before a notary with the witness's affidavit (§14-5501(A), (B), (D))",
+     "phase": "capable",
+     "citations": [
+      "az-14-5501"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of principal (good-faith acts without actual knowledge still bind successors; agent's affidavit of non-revocation raises a rebuttable presumption)",
+      "phase": "deceased",
+      "citations": [
+       "az-14-5504",
+       "az-14-5505"
+      ]
+     },
+     {
+      "event": "Conservator or other fiduciary appointed over all the principal's property revokes or amends the power — the appointee holds the principal's own revocation power",
+      "phase": "incapacitated",
+      "citations": [
+       "az-14-5503"
+      ]
+     },
+     {
+      "event": "Found invalid for want of capacity at execution, the agent bearing the burden of proving capacity",
+      "phase": "capable",
+      "citations": [
+       "az-14-5506"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "az-14-5501",
+    "az-14-5502",
+    "az-14-5503",
+    "az-14-5504",
+    "az-14-5505",
+    "az-14-5506",
+    "az-14-5507"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "diff": "In Arizona this is the **default**, not an election. Because §14-5501(A) makes durability depend on express words, a power of attorney that says nothing about incapacity is simply non-durable, where under the UPOAA the same silent instrument would be durable. The baseline's \"principal signs a POA expressly stating it terminates on incapacity\" therefore describes a document Arizona does not require anyone to draft.\n\n§14-5504(B) protects the agent and third parties the same way the durable provision does: the principal's disability or incapacity does not terminate the agency as to anyone who acts in good faith without actual knowledge of it.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a power of attorney without words of durability — the result of saying nothing, not of saying so",
+     "phase": "capable",
+     "citations": [
+      "az-14-5501"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal becomes disabled or incapacitated (good-faith acts without actual knowledge still bind)",
+      "phase": "incapacitated",
+      "citations": [
+       "az-14-5504"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "az-14-5501",
+    "az-14-5504"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "diff": "Expressly contemplated, and in the safe-harbour language itself: the second sentence §14-5501(B) offers is \"This power of attorney is effective on the disability or incapacity of the principal\". A springing power is therefore a durable power whose own words delay its start, and it carries the same §14-5501(D) witness-and-notary formalities.\n\nWhat Arizona does **not** supply is the baseline's machinery for determining that the triggering event happened. There is no provision naming the person who certifies incapacity and no default to a physician; §14-5505(C) merely preserves a power's own terms for \"termination by expiration of time or occurrence of an event\". So the start of authority rests on the instrument's drafting rather than on a statutory finding.",
+   "lane": {
+    "starts": {
+     "event": "On the disability or incapacity of the principal, as the instrument's own words provide — Arizona prescribes no determination procedure and names no default certifier",
+     "phase": "incapacitated",
+     "citations": [
+      "az-14-5501",
+      "az-14-5505"
+     ]
+    }
+   },
+   "citations": [
+    "az-14-5501",
+    "az-14-5505"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "agent under health care power of attorney",
+    "surrogate"
+   ],
+   "diff": "Arizona separates the health-care power from the financial one completely — §14-5507 disclaims any health-care authority under the financial article — and then reverses the durability rule between them. §36-3201(6) defines a health care power of attorney as a designation \"that comes into effect and **is durable** as provided in section 36-3223, subsection A\". No words of durability are needed. **Within one state, the financial power is opt-in durable and the health-care power is durable by definition.**\n\nExecution is lighter than for the financial power: §36-3221(A)(3) takes notarisation **or** one adult witness, who must affirm presence and that the principal \"appeared to be of sound mind and free from duress\". A sole witness may not be related by blood, marriage or adoption nor entitled to any part of the estate (§36-3221(D)), and no notary or witness may be the designated decision-maker or a person involved in the principal's care (§36-3221(C)).\n\nAuthority begins without a prescribed finder. §36-3223(A) makes the agent \"entitled to make and communicate these decisions while the principal is unable to do so\", and §36-3231(A) keys the provider's duty to a patient \"unable to make or communicate health care treatment decisions\" — neither names who determines it. The mental health care power of attorney at §36-3281 does, requiring a physician's or psychologist's opinion, so the contrast is deliberate within the same chapter.\n\nTwo further departures. A court-appointed guardian **displaces** the agent: under §36-3231(A), if a guardian is appointed \"for the express purpose of making health care treatment decisions, that guardian shall act as the patient's surrogate\", where in most of this set the agent outranks the guardian. And the authority can reach past death — §36-3221(A) lets the same instrument designate someone \"to provide funeral and disposition arrangements in the event of the person's death\", and the statutory sample form at §36-3224 speaks of acts \"when there is uncertainty whether I am dead or alive\" and of a living will governing choices \"after my death\". §36-3223(C) gives the appointment no end date of its own: it \"is effective until that authority is revoked by the principal or by court order\".",
+   "lane": {
+    "assigned": {
+     "event": "Adult signs a health care power of attorney, notarised or witnessed by one qualifying adult (§36-3221)",
+     "phase": "capable",
+     "citations": [
+      "az-36-3221"
+     ]
+    },
+    "starts": {
+     "event": "Principal is unable to make or communicate health care decisions — the statute prescribes no determination procedure and names no certifier, unlike the mental health care power at §36-3281",
+     "phase": "incapacitated",
+     "citations": [
+      "az-36-3223",
+      "az-36-3231",
+      "az-36-3281"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Revoked by the principal or by court order — the appointment has no other statutory end point",
+      "phase": "capable",
+      "citations": [
+       "az-36-3223"
+      ]
+     },
+     {
+      "event": "Guardian appointed for the express purpose of making health care decisions becomes the surrogate in the agent's place",
+      "phase": "incapacitated",
+      "citations": [
+       "az-36-3231"
+      ]
+     },
+     {
+      "event": "Death of principal, except where the instrument also grants funeral and disposition authority, which survives",
+      "phase": "deceased",
+      "citations": [
+       "az-36-3221",
+       "az-36-831",
+       "az-36-3224"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated",
+     "deceased"
+    ]
+   },
+   "citations": [
+    "az-36-3201",
+    "az-36-3221",
+    "az-36-3223",
+    "az-36-3224",
+    "az-36-3231",
+    "az-36-3281",
+    "az-36-831"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "localNames": [
+    "surrogate"
+   ],
+   "diff": "Arizona has one, and its list is among the broadest here. §36-3231(A) ranks spouse (unless legally separated), adult child, parent, **domestic partner if the patient is unmarried**, sibling, and **close friend** — defined in the section as an adult who \"has exhibited special care and concern\", is familiar with the patient's health care views and is willing to act in their best interest. Adult children decide by **majority of those reasonably available** rather than by seniority.\n\nThe distinctive part is the bottom of the list. Where no one in it can be found, §36-3231(B) lets the **attending physician** make the decision after consulting an institutional ethics committee, or, failing that, after obtaining the concurrence of a second physician. Most of this set stops at the last family class and leaves the gap to a court.\n\nA surrogate who is neither agent nor guardian may not consent to inpatient psychiatric admission except on the narrow emergency route in §36-3231(E), which requires discharge within 48 hours unless a petition for court-ordered evaluation or temporary guardianship has been filed. §36-3203(C) sets the decision standard as the directive, then known values, then good-faith best interest.",
+   "lane": {
+    "starts": {
+     "event": "Patient unable to make or communicate health care decisions and no agent or health-care guardian available; provider contacts the highest-priority person willing to serve",
+     "phase": "incapacitated",
+     "citations": [
+      "az-36-3231"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Attending physician decides instead, with an institutional ethics committee's recommendation or a second physician's concurrence, where no listed person can be located",
+      "phase": "incapacitated",
+      "citations": [
+       "az-36-3231"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "az-36-3231",
+    "az-36-3203",
+    "az-36-3205"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "diff": "Close to the baseline, with Arizona's own emphases. §14-5304(A) directs the court to \"encourage the development of maximum self-reliance and independence of the incapacitated person\", and §14-5304(B) requires clear and convincing evidence of incapacity, of necessity, and that \"the person's needs cannot be met by less restrictive means, **including the use of appropriate technological assistance**\" — a least-restrictive test that names assistive technology in the statute.\n\nTwo mechanics are Arizona's. A **parent or a spouse** may appoint a guardian by will or other signed writing for a child or spouse they believe incapacitated (§14-5301), effective only on the court confirmation §14-5301.01 prescribes. And the court may require a full set of fingerprints from an applicant for a criminal background check (§14-5304(E)).\n\nSubstitution is unusually easy to ask for: under §14-5307(A) \"the court does not need to find that the guardian acted inappropriately\" to substitute in the ward's best interest, and the incumbent's defence costs come out of the ward's estate only to the extent the court orders. §14-5306 ends the authority on the death of guardian or ward, a determination of the guardian's incapacity, or substitution or resignation; a testamentary appointment under an informally probated will falls with the will if probate is later denied.",
+   "lane": {
+    "assigned": {
+     "event": "Nomination gives priority; a parent or spouse may also appoint by will or signed writing, subject to court confirmation",
+     "phase": "capable",
+     "citations": [
+      "az-14-5301"
+     ]
+    },
+    "starts": {
+     "event": "Court appointment on clear and convincing evidence of incapacity, necessity and that no less restrictive means — including technological assistance — will serve; guardian files acceptance",
+     "phase": "incapacitated",
+     "citations": [
+      "az-14-5304"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of ward or guardian, determination of the guardian's incapacity, or substitution or resignation under §14-5307",
+      "phase": "deceased",
+      "citations": [
+       "az-14-5306",
+       "az-14-5307"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "az-14-5301",
+    "az-14-5304",
+    "az-14-5306",
+    "az-14-5307",
+    "az-14-5310"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "diff": "Arizona ranks the **power of attorney's nominee above the spouse**. §14-5410(A) lists for consideration, in order: a fiduciary already appointed where the protected person resides; a nominee of the protected person aged 14 or over with sufficient mental capacity; then \"the person nominated to serve as conservator in the protected person's **most recent durable power of attorney**\"; and only then the spouse, adult child and parent. §14-5503(B) is the matching provision on the instrument's side. So a durable power does more than survive incapacity here — it steers the court appointment that would otherwise displace it.\n\nOtherwise the article tracks the baseline. §14-5401(A)(2) requires clear and convincing evidence on the record; bond is the default under §14-5411 at the capital value of the estate plus a year's income, waived only for the listed institutional fiduciaries; substitution under §14-5415 again needs no finding that the conservator misbehaved; and §14-5430(C) passes title back to the formerly protected person on termination.",
+   "lane": {
+    "assigned": {
+     "event": "Nomination in the protected person's most recent durable power of attorney ranks above the spouse in the §14-5410 priority list",
+     "phase": "capable",
+     "citations": [
+      "az-14-5410",
+      "az-14-5503"
+     ]
+    },
+    "starts": {
+     "event": "Court appointment on clear and convincing evidence, then bond under §14-5411 and letters",
+     "phase": "incapacitated",
+     "citations": [
+      "az-14-5401",
+      "az-14-5411"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Court terminates the conservatorship; title to the estate passes back to the formerly protected person or their successors",
+      "phase": "capable",
+      "citations": [
+       "az-14-5430"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "az-14-5401",
+    "az-14-5410",
+    "az-14-5411",
+    "az-14-5415",
+    "az-14-5430",
+    "az-14-5503"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "personal representative"
+   ],
+   "diff": "Arizona's Title 14 is the Uniform Probate Code in substance and in numbering, though it carries no short title saying so — §14-1102(B)(7) states the purpose \"to make uniform the law among the various jurisdictions\", and the article numbers track the UPC's. `adoption.json` records no UPC enactment for Arizona, which here means the ULC bill tracker does not reach back to it, exactly as with Idaho; the statute book is the authority.\n\nThe grant is called simply **letters**: §14-3103 says a person \"shall be appointed by order of the court or statement of the registrar, shall qualify and shall be issued letters\", and \"administration of an estate is commenced by the issuance of letters\". Bond is required unless the will waives it, all heirs or devisees waive it, the representative is an institutional fiduciary, or the estate will qualify for summary procedures and the surviving spouse applies (§14-3603).\n\nTwo timing provisions are worth having. §14-3701 gives the person **named in the will** one power before any appointment: they \"may carry out written instructions of the decedent relating to the decedent's body, funeral and burial arrangements\" — authority over the body that precedes authority over the estate. And §14-3108 imposes a two-year outer limit on commencing probate or appointment proceedings at all, subject to its own exceptions, so the assignment of this role expires even though the estate does not.\n\nTermination follows the UPC: one year after a closing statement (§14-3610(A), §14-3933), an order closing the estate, resignation effective only on a successor's appointment and delivery of assets, removal for cause at any time (§14-3611), or the representative's own death or conservatorship (§14-3609). §14-3608 preserves the power to protect the estate and hand it over after termination.",
+   "lane": {
+    "assigned": {
+     "event": "Testator executes a will nominating an executor; before appointment the nominee may already carry out the decedent's written instructions about the body and funeral (§14-3701)",
+     "phase": "capable",
+     "citations": [
+      "az-14-3701"
+     ]
+    },
+    "starts": {
+     "event": "Appointment by court order or registrar's statement, qualification by bond and acceptance, and issuance of letters — which is also when administration commences; powers relate back",
+     "phase": "administration",
+     "citations": [
+      "az-14-3103",
+      "az-14-3601",
+      "az-14-3603",
+      "az-14-3701"
+     ]
+    },
+    "ends": [
+     {
+      "event": "One year after filing a closing statement, or an order closing the estate",
+      "phase": "closed",
+      "citations": [
+       "az-14-3610"
+      ]
+     },
+     {
+      "event": "Removal for cause, resignation effective only on a successor's appointment, or the representative's death or conservatorship",
+      "phase": "administration",
+      "citations": [
+       "az-14-3608",
+       "az-14-3609",
+       "az-14-3610",
+       "az-14-3611"
+      ]
+     },
+     {
+      "event": "Two years after death, no probate or appointment proceeding may be commenced at all, subject to the §14-3108 exceptions",
+      "phase": "deceased",
+      "citations": [
+       "az-14-3108"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "az-14-1102",
+    "az-14-3103",
+    "az-14-3108",
+    "az-14-3601",
+    "az-14-3603",
+    "az-14-3608",
+    "az-14-3609",
+    "az-14-3610",
+    "az-14-3611",
+    "az-14-3701",
+    "az-14-3703"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "personal representative"
+   ],
+   "diff": "The same Title 14 machinery as the executor, reached without a will: appointment, qualification and letters under §14-3103, bond under §14-3603 unless all heirs waive it, and the §14-3108 two-year limit on commencing proceedings. §14-3703(A) makes the representative a fiduciary held to the trustee standards of care in §§14-10804 and 14-10806 and to the trustee accounting duty in §14-10813(C), which is how Arizona states the duty rather than restating it in the probate article.",
+   "differs": false,
+   "citations": [
+    "az-14-3103",
+    "az-14-3108",
+    "az-14-3603",
+    "az-14-3703",
+    "az-14-3610"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "diff": "Arizona has the **widest no-grant route in this data, and three of them**, all in §14-3971.\n\nWages first: at any time after death an employer owing the decedent's compensation must pay the surviving spouse up to **$5,000** on an affidavit, with no waiting period at all. Then personal property: **30 days** after death, on an affidavit that no personal representative is pending or appointed and that \"the value of all personal property in the decedent's estate, wherever located, less liens and encumbrances, does not exceed **$200,000**\". Then real property: **six months** after death, an affidavit of succession filed with the court where the decedent was domiciled, for real property in Arizona worth no more than **$300,000** net of liens, valued from the assessment rolls for the year of death.\n\nThe personal-property ceiling is eight times the UPC's $25,000 baseline, and the affidavit carries the same duties: the affiant must swear that funeral and last-illness expenses are paid and that they are entitled to the property, and §14-3971(G) preserves the rights of heirs and devisees under §14-3901. The real-property affidavit adds an express perjury acknowledgment and requires that **all unsecured debts** be paid first, not merely funeral and last-illness expenses.\n\nThat ceiling has a consequence beyond probate. RUFADAA at §§14-13107 and 14-13108 accepts \"a certified copy of the letters testamentary, **a small-estate affidavit** or a court order\" as the representative's warrant for digital-asset disclosure, content included. So in Arizona an estate of up to $200,000 in personal property reaches a custodian's disclosure duty with no court appointment at all.\n\nArizona's fourth route is a court one with no number attached: §14-3973 lets an appointed representative disburse and distribute immediately, without notice to creditors, where the inventory shows the estate does not exceed the homestead allowance, exempt property, family allowance, administration costs and reasonable funeral and last-illness expenses — a formula, not a ceiling, closed by the sworn statement in §14-3974.",
+   "lane": {
+    "starts": {
+     "event": "Wages to a surviving spouse (≤$5,000) at any time after death; personal property (≤$200,000 net) 30 days after death; real property (≤$300,000 net) six months after death by affidavit of succession filed with the court",
+     "phase": "deceased",
+     "citations": [
+      "az-14-3971"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Property paid, delivered or title changed; the rights of heirs and devisees under §14-3901 are unaffected",
+      "phase": "closed",
+      "citations": [
+       "az-14-3971"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "az-14-3971",
+    "az-14-3973",
+    "az-14-13107",
+    "az-14-13108"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "diff": "The Arizona Trust Code, Title 14 chapter 11, is the Uniform Trust Code and the office-of-trustee provisions are the uniform ones: acceptance by substantial compliance with the trust's method or by conduct (§14-10701(A)), rejection deemed from silence within a reasonable time, vacancy on rejection, inability to identify, resignation, disqualification, removal, death, **or the appointment of a guardian or conservator for an individual trustee** (§14-10704(A)(6)), and a filling order of trust nominee, then unanimous agreement of qualified beneficiaries, then the court (§14-10704(C)). Resignation takes 30 days' notice to qualified beneficiaries, the living settlor and cotrustees, or court approval (§14-10705).\n\nArizona **has** the certification of trust the uniform act supplies at §1013, codified at §14-11013, which Nebraska's trust code omits — so a successor trustee can prove authority to a third party without producing the instrument. Bond is required only where the court finds it needed or the trust requires it (§14-10702).",
+   "differs": false,
+   "citations": [
+    "az-14-10701",
+    "az-14-10702",
+    "az-14-10704",
+    "az-14-10705",
+    "az-14-10706",
+    "az-14-11013"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "diff": "Arizona enacted the Revised Uniform Fiduciary Access to Digital Assets Act as Title 14 chapter 13, and §14-13101 says so in terms. §14-13104(A) is the uniform online-tool rule, designated recipient included: a direction given through a custodian's online tool \"overrides a contrary direction by the user in a will, trust, power of attorney or other record\", provided the tool lets the user modify or delete the direction at all times. §14-13104(C) gives that direction priority over a terms-of-service agreement that does not require separate affirmative assent, and §14-13105(C) is the converse — where the user gave no direction under §14-13104, access may be modified or eliminated by the custodian's terms.\n\nAs in the uniform act, nothing fixes when the recipient's authority begins or ends: the chapter defers entirely to the tool.",
+   "differs": false,
+   "citations": [
+    "az-14-13101",
+    "az-14-13104",
+    "az-14-13105"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "diff": "Uniform, and the point of interest is what it connects to. §14-13107 requires a custodian to disclose the **content** of electronic communications to a personal representative where the deceased user consented or a court directs, on a written request, a certified death certificate, and \"a certified copy of the letters testamentary, a small-estate affidavit or a court order\"; §14-13108 does the same for a catalogue and other digital assets unless the user prohibited disclosure. §14-13106 leaves the manner to the custodian's \"sole discretion\" — full access, partial access or a copy — permits a reasonable administrative charge, excuses disclosure of deleted assets, and provides the undue-burden route to court. §14-13105(B) confirms the fiduciary gains \"no new or expanded rights other than those held by the user\".\n\nBecause Arizona's small-estate affidavit reaches $200,000 of personal property rather than the UPC's $25,000, the no-appointment route into a custodian's disclosure duty is correspondingly wide here.",
+   "differs": false,
+   "citations": [
+    "az-14-13105",
+    "az-14-13106",
+    "az-14-13107",
+    "az-14-13108"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "diff": "The Revised Uniform Anatomical Gift Act, Title 36 chapter 7 article 3. §36-843(2) lets an agent make a gift during the donor's life \"unless the power of attorney for health care or other record prohibits\" it, and §36-848(A)(1) ranks the agent **first** after death, above the spouse, where the agent could have made the gift immediately before death. §36-844 lists the manners of making a gift, the donor registry under §36-858 among them, and §36-846 the manners of refusing — a refusal in a will counts \"whether or not the will is admitted to probate or invalidated\".\n\nArizona's post-mortem class list carries the same two additions as its surrogate and remains lists: a **domestic partner** where the decedent was unmarried, qualified by whether \"another person had not assumed financial responsibility for the decedent\", and an adult who exhibited special care and concern.",
+   "differs": false,
+   "citations": [
+    "az-36-843",
+    "az-36-844",
+    "az-36-846",
+    "az-36-848"
+   ]
+  },
+  {
+   "role": "disposition-of-remains-agent",
+   "name": "Person with the duty to make funeral and disposition arrangements",
+   "group": "remains",
+   "localNames": [
+    "authorizing agent",
+    "agent under a health care power of attorney with express disposition authority"
+   ],
+   "summary": "The person on whom the duty of burying the decedent or making other funeral and disposition arrangements devolves, and who may be liable to anyone who performs it instead.",
+   "lane": {
+    "assigned": {
+     "event": "Principal gives express disposition authority in a health care power of attorney or a durable power of attorney; otherwise the duty devolves by the §36-831(A) order. Family members in that order may sign a waiver of decision-making during the person's life",
+     "phase": "capable",
+     "citations": [
+      "az-36-831",
+      "az-36-3221"
+     ]
+    },
+    "starts": {
+     "event": "Death of the decedent",
+     "phase": "deceased",
+     "citations": [
+      "az-36-831"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Duty devolves to the next person where the holder omits or is unwilling to perform it within a reasonable time — and the person who performs it may recover twice their expenses",
+      "phase": "deceased",
+      "citations": [
+       "az-36-831"
+      ]
+     },
+     {
+      "event": "Duty passes over a holder charged with the criminal death of the decedent, where the funeral director is aware of the charge; actual costs only if the charge is later dismissed or resolved in their favour",
+      "phase": "deceased",
+      "citations": [
+       "az-36-831"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No disposition authority given"
+    },
+    {
+     "id": "designated",
+     "label": "Agent named with express disposition authority"
+    },
+    {
+     "id": "active",
+     "label": "Duty vested on death"
+    },
+    {
+     "id": "terminated",
+     "label": "Disposition arranged, or duty passed on"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "az-t-dor-vest",
+     "from": "designated",
+     "to": "active",
+     "event": "Death: the duty devolves on the first available person in the §36-831(A) order",
+     "conditions": [
+      "Order: (1) surviving spouse, unless legally separated or a divorce or separation petition was pending at death; (2) the agent under the most recent health care power of attorney, or under a durable power of attorney, where that instrument specifically grants disposition authority; (3) parents of a minor; (4) adult children; (5) parent; (6) adult sibling; (7) adult grandchild; (8) grandparent; (9) an adult who exhibited special care and concern; (10) the guardian of the person at death; (11) any other person with authority to dispose of the body"
+     ],
+     "citations": [
+      "az-36-831"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "az-t-dor-dd93",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Service member who completed a DD Form 93: the duty devolves on the person that form authorizes, displacing the §36-831(A) order",
+     "conditions": [],
+     "citations": [
+      "az-36-831"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "az-t-dor-waiver",
+     "from": "designated",
+     "to": "designated",
+     "event": "A family member in the §36-831(A) order signs a waiver of decision-making during the person's life, giving up their rights over the disposition",
+     "conditions": [],
+     "citations": [
+      "az-36-831"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "az-t-dor-majority",
+     "from": "active",
+     "to": "active",
+     "event": "Several members of one class: any may arrange unless they know of an objection, in which case a majority of those reasonably available decides",
+     "conditions": [],
+     "citations": [
+      "az-36-831"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "az-t-dor-lapse",
+     "from": "active",
+     "to": "terminated",
+     "event": "Holder omits or is unwilling to perform the duty within a reasonable time, or is charged with the decedent's criminal death; the duty moves to the next person, who may recover double expenses",
+     "conditions": [],
+     "citations": [
+      "az-36-831"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "New role. Arizona runs the duty through §36-831, and the instrument that reaches it is a power of attorney — **either** the health care power of attorney under chapter 32 article 2 **or** a durable financial power of attorney, in each case only \"if that power of attorney specifically gives that person the authority to make decisions regarding the disposition of the decedent's remains\". §36-3221(A) is the matching provision, letting one health care power of attorney cover both health care decisions and \"funeral and disposition arrangements in the event of the person's death\".\n\nThat makes Arizona one of the few jurisdictions here where **the financial power of attorney has an express post-mortem office**. §14-5504(A) already keeps the agency alive for good-faith acts after death; §36-831(A)(2) goes further and names the durable-power agent as a holder of the duty, ranked above every blood relative and behind only the spouse.\n\nFour more features have no baseline counterpart. §36-831(B) lets family members in the order **sign a waiver of decision-making during the person's life**, settling in advance who will not decide. §36-831(F) makes a holder who will not perform the duty liable for **twice** the expenses to whoever does. §36-831(I) passes the duty over anyone charged with the decedent's criminal death, restoring only actual costs if the charge fails. And §36-831(J) displaces the whole order for a service member who completed a DD Form 93.\n\nArizona also gives the will-named personal representative a pre-appointment power over the body under §14-3701, and §36-831(H)(3) immunises a funeral provider who follows a personal representative's directions consistent with the decedent's written testamentary instructions — so the estate side and the §36-831 order meet rather than compete.",
+   "citations": [
+    "az-36-831",
+    "az-36-3221",
+    "az-14-3701",
+    "az-14-5504"
+   ],
+   "canonical": "disposition-of-remains-agent"
+  }
+ ]
+}

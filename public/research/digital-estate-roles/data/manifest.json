@@ -474,6 +474,20 @@
      "shortLabel": "uniform/model law + federal"
     },
     {
+     "id": "us-az",
+     "name": "Arizona",
+     "short": "AZ",
+     "code": "AZ",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-az.json"
+     ],
+     "country": "us",
+     "note": "Arizona answers the durability question **twice, and oppositely, inside its own statute book**. A financial power of attorney is durable only if §14-5501(A) is satisfied — the instrument \"shall contain words that demonstrate the principal's intent\" that the authority survive disability, with two safe-harbour sentences \"or similar language\" offered in subsection B — and it must additionally be witnessed by a disinterested witness and acknowledged before a notary on the witness's affidavit, or it is not a power at all. A **health care** power of attorney, by contrast, is durable by definition: §36-3201(6) defines it as a designation \"that comes into effect and is durable as provided in section 36-3223, subsection A\", and nothing has to be said about incapacity. The financial article then seals itself off from health care at §14-5507. Express words required is the majority rule, so that is not a new route to durability; what is new is that **Arizona answers the question oppositely within one statute book** — the same legislature chose opt-in for property and automatic for the body, which makes `poaDurableByDefault` an instrument-level fact here rather than a jurisdiction-level one.\n\nTwo other things are distinctive. The power of attorney reaches **past death** more concretely than elsewhere: §36-831(A)(2) names the agent under either a health care or a durable financial power, where that instrument specifically grants disposition authority, as the holder of the duty to make funeral and disposition arrangements — ranked above every blood relative and behind only the spouse — and §36-3221(A) lets one health care power of attorney carry both offices. And §14-3971 is the **widest no-grant route in this data**: $5,000 of wages to a surviving spouse immediately, $200,000 of personal property after 30 days, $300,000 of real property after six months, against the Uniform Probate Code's $25,000. Because §§14-13107 and 14-13108 accept a small-estate affidavit in place of letters, that ceiling is also how wide the no-court path to a custodian's digital-asset disclosure is.\n\nArizona has a supported decision-making statute (§§14-5721, 14-5722) and it is the sharpest illustration in this reference of what such an agreement is not. §14-5722(G) ends it as a matter of law \"at any time the adult becomes an incapacitated person as defined in section 14-5101\" and on the appointment of a guardian. A durable power of attorney exists to survive incapacity; Arizona's supported decision-making agreement is void on it, by its own terms.",
+     "label": "US — Arizona",
+     "shortLabel": "Arizona"
+    },
+    {
      "id": "us-ca",
      "name": "California",
      "short": "CA",
@@ -1237,6 +1251,20 @@
    "country": "us",
    "label": "US — uniform/model law + federal",
    "shortLabel": "uniform/model law + federal"
+  },
+  {
+   "id": "us-az",
+   "name": "Arizona",
+   "short": "AZ",
+   "code": "AZ",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-az.json"
+   ],
+   "country": "us",
+   "note": "Arizona answers the durability question **twice, and oppositely, inside its own statute book**. A financial power of attorney is durable only if §14-5501(A) is satisfied — the instrument \"shall contain words that demonstrate the principal's intent\" that the authority survive disability, with two safe-harbour sentences \"or similar language\" offered in subsection B — and it must additionally be witnessed by a disinterested witness and acknowledged before a notary on the witness's affidavit, or it is not a power at all. A **health care** power of attorney, by contrast, is durable by definition: §36-3201(6) defines it as a designation \"that comes into effect and is durable as provided in section 36-3223, subsection A\", and nothing has to be said about incapacity. The financial article then seals itself off from health care at §14-5507. Express words required is the majority rule, so that is not a new route to durability; what is new is that **Arizona answers the question oppositely within one statute book** — the same legislature chose opt-in for property and automatic for the body, which makes `poaDurableByDefault` an instrument-level fact here rather than a jurisdiction-level one.\n\nTwo other things are distinctive. The power of attorney reaches **past death** more concretely than elsewhere: §36-831(A)(2) names the agent under either a health care or a durable financial power, where that instrument specifically grants disposition authority, as the holder of the duty to make funeral and disposition arrangements — ranked above every blood relative and behind only the spouse — and §36-3221(A) lets one health care power of attorney carry both offices. And §14-3971 is the **widest no-grant route in this data**: $5,000 of wages to a surviving spouse immediately, $200,000 of personal property after 30 days, $300,000 of real property after six months, against the Uniform Probate Code's $25,000. Because §§14-13107 and 14-13108 accept a small-estate affidavit in place of letters, that ceiling is also how wide the no-court path to a custodian's digital-asset disclosure is.\n\nArizona has a supported decision-making statute (§§14-5721, 14-5722) and it is the sharpest illustration in this reference of what such an agreement is not. §14-5722(G) ends it as a matter of law \"at any time the adult becomes an incapacitated person as defined in section 14-5101\" and on the appointment of a guardian. A durable power of attorney exists to survive incapacity; Arizona's supported decision-making agreement is void on it, by its own terms.",
+   "label": "US — Arizona",
+   "shortLabel": "Arizona"
   },
   {
    "id": "us-ca",

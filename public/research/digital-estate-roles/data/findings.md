@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 57 | **24** |
-| `conservator-estate` | 60 | 21 |
-| `personal-representative-administrator` | 53 | 20 |
-| `anatomical-gift-agent` | 54 | 19 |
-| `financial-poa-durable` | 51 | 17 |
-| `guardian-person` | 51 | 17 |
-| `health-care-agent` | 49 | 14 |
+| `personal-representative-executor` | 58 | **24** |
+| `conservator-estate` | 61 | 21 |
+| `personal-representative-administrator` | 54 | 20 |
+| `anatomical-gift-agent` | 55 | 19 |
+| `financial-poa-durable` | 52 | 17 |
+| `guardian-person` | 52 | 17 |
+| `health-care-agent` | 50 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 31 | **4** |
-| `online-tool-designee` | 28 | **2** |
+| `digital-assets-fiduciary` | 32 | **4** |
+| `online-tool-designee` | 29 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 27 of the 47 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 28 of the 48 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,7 +106,7 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 27** of the 51 jurisdictions that record it and **true in 24**
+`poaDurableByDefault` is **false in 28** of the 52 jurisdictions that record it and **true in 24**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
 that took the Uniform Power of Attorney Act: Idaho, Illinois, **Iowa**, Kentucky, Maine, Michigan,
 **Nebraska**, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and West Virginia, with
@@ -159,6 +159,26 @@ section — §58-3003 applies the 2021 act to all powers of attorney bar four ca
 durability rule off §15-1004, which is still in the statute book and still says the opposite,
 gets it backwards.
 
+Arizona is the end of that line, because there is nothing to resolve. It answers the durability
+question **twice and oppositely, and both answers are right.** A financial power is durable only
+if the instrument "shall contain words that demonstrate the principal's intent" that the authority
+survive disability (§14-5501(A)) — opt-in, with two safe-harbour sentences "or similar language"
+offered in subsection B, and with a disinterested witness and a notarised witness affidavit
+required for the power to be valid at all (§14-5501(D)). A **health care** power is durable by
+definition: §36-3201(6) defines one as a designation "that comes into effect and is durable as
+provided in section 36-3223, subsection A", and nothing need be said about incapacity. §14-5507
+then seals the financial article off from health care entirely, so the two never meet and no
+applicability section arbitrates between them.
+
+Oklahoma's two presumptions compete for the same instrument and a third section picks the winner.
+Arizona's do not compete at all — they attach to different instruments, and the legislature chose
+opt-in for property and automatic for the body on purpose. The consequence for anyone modelling
+this is sharper than Delaware's: **`poaDurableByDefault` is not a fact about a jurisdiction.** It
+is a fact about an instrument, and a schema with one field per jurisdiction cannot record Arizona
+without being wrong about half of it. This file records Arizona as `false`, which is the financial
+answer and the one the key has always meant — and that is precisely the limitation worth stating
+rather than smoothing over.
+
 Missouri marks the far end of the opt-in majority, and it is further out than anything else here.
 Delaware's §49A-104 wants one sentence; Washington and New Jersey want words to similar effect.
 §404.705(1) wants **three cumulative things**: the instrument must be *denominated* a "Durable Power
@@ -199,7 +219,7 @@ the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 45 jurisdictions that record it and false in 35.
+`poaRegistrationBeforeUse` is true in 10 of the 46 jurisdictions that record it and false in 36.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -214,7 +234,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 40** of the 50 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 41** of the 51 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -233,10 +253,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 47 | 5 |
-| `benefits-payee` | 41 | 5 |
-| `tax-representative` | 41 | 5 |
-| `veterans-fiduciary` | 34 | 3 |
+| `health-records-representative` | 48 | 5 |
+| `benefits-payee` | 42 | 5 |
+| `tax-representative` | 42 | 5 |
+| `veterans-fiduciary` | 35 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -264,12 +284,12 @@ not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 21 of the 31 jurisdictions that record it and false in
+`supportedDecisionMakingStatute` is true in 22 of the 32 jurisdictions that record it and false in
 10 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
-false while eleven US states are true** — California, **Colorado**, Delaware, Florida, Illinois,
-Maryland, New York, Texas, Utah, Virginia and Washington — so the uniform acts have not absorbed it,
-but states have.
+false while twelve US states are true** — **Arizona**, California, **Colorado**, Delaware, Florida,
+Illinois, Maryland, New York, Texas, Utah, Virginia and Washington — so the uniform acts have not
+absorbed it, but states have.
 
 Colorado's is article 14 part 8 of its probate title, and its legislative declaration is the
 clearest statement of the idea's purpose in the data: guardianship “constitutes one of the most
@@ -315,6 +335,24 @@ or communicated with a supporter's assistance the principal's own "for the purpo
 of law", enforceable on the same basis, while §9404A(c) bars treating the agreement as evidence of
 incapacity. Ireland's 2015 Act is built on it as the first of three graded tiers; Victoria, British
 Columbia, Québec, Italy, Japan, South Korea, India, Brazil and Argentina all have a form.
+
+Arizona raises a fourth question, and it is the one this reference exists to ask: **when does the
+agreement end?** §14-5722(G) answers it in terms. The agreement runs until terminated in writing
+by either party, "at any time the adult becomes an incapacitated person as defined in section
+14-5101", or "on the appointment of a guardian". The statutory form repeats both as terminations
+"as a matter of law", and tells the supporter to stop serving "at any time that you question the
+capacity of the decision-maker to continue making decisions even with your support".
+
+Set that against the instrument it is usually offered as an alternative to. A durable power of
+attorney exists **in order to** survive incapacity; Arizona's supported decision-making agreement
+is void **on** it. The two devices are not points on one scale of restrictiveness, which is how
+Colorado's legislative declaration and Ireland's three graded tiers invite one to read them — they
+answer different questions, and the moment the harder question arrives the agreement is gone. That
+is not a criticism of the design: a supporter who may not decide for the adult has nothing to
+contribute once the adult cannot decide at all, and §14-5722(B) is explicit that the supporter "is
+not a surrogate decision-maker". But it means supported decision-making cannot be the only thing
+someone has, and a jurisdiction that offers it without a durable power alongside has given a person
+a device that expires exactly when they need one.
 
 The part of these two statutes a standard should read first is the part that is not about the
 supported person at all. Both legislate **the relying party's position**, which almost nothing else
@@ -510,6 +548,7 @@ period the data does not record:
 | Utah | $100,000 | 30 days | — |
 | Washington | $100,000 | 40 days | — |
 | Illinois | $150,000 | none | — |
+| Arizona | $200,000 | 30 days | $300,000 for real property, by affidavit of succession filed with the court six months after death |
 | Louisiana | $200,000 | — | $125,000 for an ancillary succession; no ceiling if the death was 20+ years ago |
 | California | $208,850 | 40 days | CPI-indexed |
 
@@ -526,8 +565,11 @@ conflated two different conditions with a figure changing over time.
 The same claim, presented to the same kind of custodian, is effective over a range that
 spans two orders of magnitude — $5,000 in West Virginia against $208,850 in California, a factor
 of forty-two, and $2,000 against $208,850 if Florida's sole-name-account route is counted as the
-same thing — and two states index the figure to inflation while the rest legislate a flat amount
-that silently erodes. Utah shows that the choice is deliberate rather than
+same thing. Arizona stretches it further on the second-ceiling side: its $300,000 for real
+property is the largest figure in the table, and its three routes — $5,000 of wages immediately,
+$200,000 of personalty after 30 days, $300,000 of realty after six months — show that even one
+state's answer is not a number but a schedule. Across the set two states index the figure to
+inflation while the rest legislate a flat amount that silently erodes. Utah shows that the choice is deliberate rather than
 an oversight: §75-1-110 indexes five figures in its probate code to the CPI — the spouse's
 intestate share, the elective share, the homestead allowance, exempt property and the family
 allowance — and the small-estate ceiling is not one of them.
