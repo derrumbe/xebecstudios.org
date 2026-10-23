@@ -1,10 +1,10 @@
 ---
 title: 'Use cases across jurisdictions'
-description: 'What a platform actually faces, use case by use case, across 57 jurisdictions: which legal roles can carry each one, how far each reaches, and why high coverage is not the same as interoperability.'
+description: 'What a platform actually faces, use case by use case, across 58 jurisdictions: which legal roles can carry each one, how far each reaches, and why high coverage is not the same as interoperability.'
 section: 'digital-estate-standards'
 order: 1
 standing: 'Analysis. Every legal claim is carried from the sourced reference.'
-updated: 2026-10-14
+updated: 2026-10-22
 ---
 **This is the advisory layer, and it is deliberately not part of the base site.** The reference at
 [the sourced reference](/research/digital-estate-roles/#tab=findings) and the viewer say what the law currently is and stop there. This page asks a
@@ -47,16 +47,16 @@ identifiers are the ones the mapping data uses, and the table below repeats them
 
 | Use case | Jurisdictions | Countries | Share | Roles that can carry it |
 |---|---|---|---|---|
-| `incapacity-account-access` | 57 | 24 | 100% | durable / springing POA, conservator, guardian, digital-assets fiduciary, supported decision-maker |
-| `deceased-administration` | 57 | 24 | 100% | executor, administrator, universal successor |
-| `incapacity-health-decisions` | 55 | 23 | 96% | health-care agent, default surrogate, guardian, supported decision-maker |
-| `deceased-small-estate` | 51 | 21 | 88% | small-estate affiant, universal successor |
-| `post-mortem-body` | 52 | 19 | 79% | disposition-of-remains agent, anatomical-gift agent |
-| `health-records-access` | 38 | 5 | 21% | health-records representative |
-| `benefits-and-tax` | 38 | 5 | 21% | benefits payee, tax representative, veterans fiduciary |
-| `deceased-digital-assets` | 31 | 4 | 17% | digital-assets fiduciary, online-tool designee |
-| `deceased-trust-held` | 29 | 2 | 8% | successor trustee |
-| `self-directed-ante-mortem` | 28 | 2 | 8% | online-tool designee |
+| `incapacity-account-access` | 58 | 24 | 100% | durable / springing POA, conservator, guardian, digital-assets fiduciary, supported decision-maker |
+| `deceased-administration` | 58 | 24 | 100% | executor, administrator, universal successor |
+| `incapacity-health-decisions` | 56 | 23 | 96% | health-care agent, default surrogate, guardian, supported decision-maker |
+| `deceased-small-estate` | 52 | 21 | 88% | small-estate affiant, universal successor |
+| `post-mortem-body` | 53 | 19 | 79% | disposition-of-remains agent, anatomical-gift agent |
+| `health-records-access` | 39 | 5 | 21% | health-records representative |
+| `benefits-and-tax` | 39 | 5 | 21% | benefits payee, tax representative, veterans fiduciary |
+| `deceased-digital-assets` | 32 | 4 | 17% | digital-assets fiduciary, online-tool designee |
+| `deceased-trust-held` | 30 | 2 | 8% | successor trustee |
+| `self-directed-ante-mortem` | 29 | 2 | 8% | online-tool designee |
 
 France sits oddly in that last row and deserves calling out, because it is the only jurisdiction in
 the set that **compels** the mechanism rather than recognising it: art. 85 III of Loi 78-17 obliges

@@ -408,6 +408,333 @@
    }
   ]
  },
+ "us-az": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "Arizona never adopted the Uniform Power of Attorney Act and §14-5501(A) inverts UPOAA §104: a power is durable only if the instrument \"shall contain words that demonstrate the principal's intent\" that the authority survive disability or incapacity and outlast elapsed time. §14-5501(B) supplies two safe-harbour sentences \"or similar language\", so unlike Kansas's and Missouri's closed lists this is a purposive test — but durability is still **opted into**. §14-5501(D) goes further than any magic-words state here and conditions the power's own validity on a disinterested witness and an acknowledgment before a notary with the witness's affidavit, and §14-5506(B) makes a power executed without capacity invalid with the burden of proving capacity on the **agent**.",
+    "citations": [
+     "azf-14-5501",
+     "azf-14-5506"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "No registration or recording gate before a power may be used. Two adjacent mechanisms are worth not mistaking for one: §14-5505(B) makes the agent's affidavit of non-revocation recordable where the transaction needs a recordable instrument, and §36-3291 directs the department of health services to designate a health information exchange organization to run a **health care directives registry**, which is voluntary, subject to the availability of monies, and conditions nothing.",
+    "citations": [
+     "azf-14-5505",
+     "azf-36-3291"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": true,
+    "note": "Named in the safe-harbour language itself — the second sentence §14-5501(B) offers is \"This power of attorney is effective on the disability or incapacity of the principal.\" What Arizona does not supply is machinery for determining that the trigger occurred: no section names a certifier or defaults to a physician, and §14-5505(C) only preserves the instrument's own terms for termination on an event. The start therefore rests on drafting rather than on a statutory finding.",
+    "citations": [
+     "azf-14-5501",
+     "azf-14-5505"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity",
+    "note": "§36-3201(6) defines a health care power of attorney as one \"that comes into effect and is **durable** as provided in section 36-3223, subsection A\" — durable by definition, with no words of durability required, which is the opposite of the financial rule at §14-5501(A) in the same statute book. §36-3223(A) conditions the agent's authority on the principal being \"unable to\" decide and §36-3231(A) on a patient \"unable to make or communicate health care treatment decisions\"; neither names who determines it, hence 'incapacity' rather than 'incapacity-finding-by-clinician'. The contrast is deliberate within the chapter: the mental health care power of attorney at §36-3281(D) does require a physician's or psychologist's opinion. §14-5507 seals the financial article off from health care entirely.",
+    "citations": [
+     "azf-36-3201",
+     "azf-36-3223",
+     "azf-36-3231",
+     "azf-36-3281",
+     "azf-14-5507"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "note": "§§14-5721 and 14-5722, Title 14 chapter 5 article 9. A supporter helps the adult understand options, gather records and communicate decisions but \"is not a surrogate decision-maker\" and cannot sign for the adult or bind them (§14-5722(B)), may not be compensated (§14-5722(E)), and signs before two witnesses or a notary on a statutory form. The striking provision is §14-5722(G): the agreement ends as a matter of law \"at any time the adult becomes an incapacitated person as defined in section 14-5101\" and on the appointment of a guardian. A durable power of attorney exists to survive incapacity; **Arizona's supported decision-making agreement is void on it**, which is the clearest statement in this data that the two devices answer different questions.",
+    "citations": [
+     "azf-14-5721",
+     "azf-14-5722"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Revised Uniform Fiduciary Access to Digital Assets Act, Title 14 chapter 13 (§§14-13101 to 14-13118), with the short title at §14-13101. §§14-13107 and 14-13108 accept \"a certified copy of the letters testamentary, a small-estate affidavit or a court order\" as the representative's warrant, which matters more here than elsewhere because Arizona's small-estate affidavit ceiling is $200,000 rather than the Uniform Probate Code's $25,000.",
+    "citations": [
+     "azf-14-13101",
+     "azf-14-13107",
+     "azf-14-13108"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§14-13104(A) is the uniform online-tool rule: a direction given through a custodian's online tool \"overrides a contrary direction by the user in a will, trust, power of attorney or other record\" where the tool allows the user to modify or delete the direction at all times, and §14-13104(C) gives it priority over a terms-of-service agreement that does not require separate affirmative assent.",
+    "citations": [
+     "azf-14-13104"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act, Title 36 chapter 7 article 3 (§§36-841 et seq.). §36-843(2) lets an agent make a gift during the donor's life \"unless the power of attorney for health care or other record prohibits\" it, and §36-848(A)(1) ranks the agent **first** after death, above the spouse. Arizona's post-mortem class list carries two additions that recur across its surrogate and remains lists: a domestic partner where the decedent was unmarried, and an adult who exhibited special care and concern.",
+    "citations": [
+     "azf-36-843",
+     "azf-36-848"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "§14-3971 is the **widest no-grant route in this data, and it is three routes**. Wages: at any time after death an employer must pay the surviving spouse up to **$5,000** on affidavit, with no waiting period. Personal property: **30 days** after death, where \"the value of all personal property in the decedent's estate, wherever located, less liens and encumbrances, does not exceed **$200,000**\" and no personal representative is pending or appointed — eight times the Uniform Probate Code's $25,000. Real property: **six months** after death, an affidavit of succession filed with the court for Arizona real property worth no more than **$300,000** net of liens, valued from the assessment rolls for the year of death, and requiring that **all unsecured debts** be paid, not merely funeral and last-illness expenses. §14-3971(G) preserves the rights of heirs and devisees under §14-3901. Arizona's fourth route carries no figure at all: §14-3973 lets an appointed representative distribute at once, without notice to creditors, where the inventory shows the estate does not exceed the homestead allowance, exempt property, family allowance, administration costs and reasonable funeral and last-illness expenses — a formula rather than a ceiling.",
+    "citations": [
+     "azf-14-3971",
+     "azf-14-3973"
+    ],
+    "threshold": 200000,
+    "currency": "USD",
+    "waitingDays": 30,
+    "thresholdAlt": {
+     "amount": 300000,
+     "condition": "real property in Arizona, by affidavit of succession filed with the court six months after death, with all unsecured debts paid"
+    }
+   },
+   "probateGrantName": {
+    "value": "letters",
+    "note": "§14-3103: a person \"shall be appointed by order of the court or statement of the registrar, shall qualify and shall be issued letters\", and \"administration of an estate is commenced by the issuance of letters\" — Arizona uses the bare term rather than distinguishing letters testamentary from letters of administration.",
+    "citations": [
+     "azf-14-3103"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "Express, and reaching further than most. §36-3221(A) lets one health care power of attorney designate an agent both to make health care decisions and \"to provide funeral and disposition arrangements in the event of the person's death\", and §36-831(A)(2) then ranks that agent — or the agent under a **durable financial** power of attorney carrying the same express grant — second only to the surviving spouse in the duty to make those arrangements, above every blood relative. §36-848(A)(1) puts the agent first for an anatomical gift. §36-3223(C) gives the appointment no end point of its own: it is \"effective until that authority is revoked by the principal or by court order\".",
+    "citations": [
+     "azf-36-3221",
+     "azf-36-831",
+     "azf-36-848",
+     "azf-36-3223"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "azf-14-5501",
+    "cite": "A.R.S. § 14-5501",
+    "title": "Durable power of attorney; creation; validity",
+    "url": "https://www.azleg.gov/ars/14/05501.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-5506",
+    "cite": "A.R.S. § 14-5506",
+    "title": "Powers of attorney; intimidation; deception; definitions",
+    "url": "https://www.azleg.gov/ars/14/05506.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-5505",
+    "cite": "A.R.S. § 14-5505",
+    "title": "Continuance of durable powers of attorney by affidavit",
+    "url": "https://www.azleg.gov/ars/14/05505.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-3291",
+    "cite": "A.R.S. § 36-3291",
+    "title": "Health care directives registry; exemption",
+    "url": "https://www.azleg.gov/ars/36/03291.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-3201",
+    "cite": "A.R.S. § 36-3201",
+    "title": "Definitions",
+    "url": "https://www.azleg.gov/ars/36/03201.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-3223",
+    "cite": "A.R.S. § 36-3223",
+    "title": "Agents; powers and duties; removal; responsibility; fiduciaries",
+    "url": "https://www.azleg.gov/ars/36/03223.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-3231",
+    "cite": "A.R.S. § 36-3231",
+    "title": "Surrogate decision makers; priorities; limitations",
+    "url": "https://www.azleg.gov/ars/36/03231.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-3281",
+    "cite": "A.R.S. § 36-3281",
+    "title": "Mental health care power of attorney; scope; definition",
+    "url": "https://www.azleg.gov/ars/36/03281.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-5507",
+    "cite": "A.R.S. § 14-5507",
+    "title": "Applicability of article",
+    "url": "https://www.azleg.gov/ars/14/05507.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-5721",
+    "cite": "A.R.S. § 14-5721",
+    "title": "Definitions",
+    "url": "https://www.azleg.gov/ars/14/05721.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-5722",
+    "cite": "A.R.S. § 14-5722",
+    "title": "Supported decision-making agreements; scope; rights and obligations; intimidation; deception; petition; termination; form",
+    "url": "https://www.azleg.gov/ars/14/05722.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-13101",
+    "cite": "A.R.S. § 14-13101",
+    "title": "Short title",
+    "url": "https://www.azleg.gov/ars/14/13101.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-13107",
+    "cite": "A.R.S. § 14-13107",
+    "title": "Disclosure of content of electronic communications of deceased user",
+    "url": "https://www.azleg.gov/ars/14/13107.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-13108",
+    "cite": "A.R.S. § 14-13108",
+    "title": "Disclosure of other digital assets of deceased user",
+    "url": "https://www.azleg.gov/ars/14/13108.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-13104",
+    "cite": "A.R.S. § 14-13104",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://www.azleg.gov/ars/14/13104.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-843",
+    "cite": "A.R.S. § 36-843",
+    "title": "Who may make an anatomical gift before donor's death",
+    "url": "https://www.azleg.gov/ars/36/00843.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-848",
+    "cite": "A.R.S. § 36-848",
+    "title": "Who may make anatomical gift of decedent's body or part",
+    "url": "https://www.azleg.gov/ars/36/00848.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-3971",
+    "cite": "A.R.S. § 14-3971",
+    "title": "Collection of personal property by affidavit; ownership of vehicles; affidavit of succession to real property",
+    "url": "https://www.azleg.gov/ars/14/03971.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-3973",
+    "cite": "A.R.S. § 14-3973",
+    "title": "Small estates; summary administrative procedure",
+    "url": "https://www.azleg.gov/ars/14/03973.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-14-3103",
+    "cite": "A.R.S. § 14-3103",
+    "title": "Necessity of appointment for administration",
+    "url": "https://www.azleg.gov/ars/14/03103.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-3221",
+    "cite": "A.R.S. § 36-3221",
+    "title": "Health care power of attorney; scope; requirements; limitations; fiduciaries",
+    "url": "https://www.azleg.gov/ars/36/03221.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   },
+   {
+    "id": "azf-36-831",
+    "cite": "A.R.S. § 36-831",
+    "title": "Duty for funeral and disposition arrangements; waiver of decision-making; counties; civil liability; costs; veterans; immunity; definitions",
+    "url": "https://www.azleg.gov/ars/36/00831.htm",
+    "kind": "statute",
+    "retrieved": "2026-10-22"
+   }
+  ]
+ },
  "us-ca": {
   "features": {
    "deceasedPersonalDataProtected": {
