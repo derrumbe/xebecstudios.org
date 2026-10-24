@@ -735,6 +735,310 @@
    }
   ]
  },
+ "us-mn": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": false,
+    "note": "Minnesota took no uniform power of attorney act. §523.07 makes a power durable only if it contains language \"such as\" one of two sentences the section prints \"or similar words showing the intent of the principal\" — express words required, but a purposive test rather than Kansas's and Missouri's closed lists, and the same shape as Arizona's §14-5501(B). §523.01 adds that a power is validly executed only when dated, signed and **acknowledged by a notary public**, so an un-notarised Minnesota power is not a power at all, as in Iowa and West Virginia.",
+    "citations": [
+     "mnf-523.07",
+     "mnf-523.01"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "No registration or recording gate before use. §523.05 makes the power and any affidavit under the chapter recordable where the transaction requires a recordable instrument, and §523.11 makes a **recorded** revocation containing the legal description constitute actual notice as to real property in that county — so recording changes who is bound by a revocation rather than conditioning the power. Notarisation is a condition of valid execution under §523.01, which is execution, not registration.",
+    "citations": [
+     "mnf-523.05",
+     "mnf-523.11",
+     "mnf-523.01"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": true,
+    "note": "Named in the safe-harbour language: the second sentence §523.07 offers is \"This power of attorney shall become effective upon the incapacity or incompetence of the principal.\" As in Arizona, no section names a certifier or defaults to a physician, so the trigger rests on drafting; §523.16's affidavit of \"the conditions precedent to the attorney-in-fact's authority to act\" is proof of the condition rather than a procedure for determining it.",
+    "citations": [
+     "mnf-523.07",
+     "mnf-523.16"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "§§145C.02, 145C.06 and 145C.07 all key the agent's authority to the principal lacking decision-making capacity \"in the judgment of the principal's attending physician, **advanced practice registered nurse, or physician assistant**\" — three clinician types rather than the usual one, widened by the 2020 and 2022 amendments. It is also expressly **reversible**: §145C.06 says the directive is not effective for a decision when the principal \"recovers decision-making capacity\". The health care directive is one instrument that may carry instructions, a health care power of attorney, or both, so an agent is optional within it.",
+    "citations": [
+     "mnf-145C.02",
+     "mnf-145C.06",
+     "mnf-145C.07"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": false,
+    "note": "No supported decision-making statute. What Minnesota has instead is the Uniform Guardianship and Protective Proceedings Act's **protective arrangement or single transaction** at §524.5-412 — a court order resolving one matter without appointing anyone — which is the same device Kansas's 2025 act brought and is not a voluntary agreement with a supporter. Established by scanning catchlines — 1,594 section rows across chapters 524, 525, 252A, 256, 256B, 245A, 245D, 144, 145C and 253B — because `leg.state.mn.us`, which carries the revisor's full-text search, is not reachable from this environment; the claim is scoped to those chapters, as Kansas's is.",
+    "citations": [
+     "mnf-524.5-412"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Revised Uniform Fiduciary Access to Digital Assets Act, chapter 521A (§§521A.01 to 521A.19), enacted 2016. The chapter heading drops the \"Revised\" while §521A.01's short title keeps it — the reverse of Missouri's and West Virginia's omission, and a reason to read the short title rather than the heading. §521A.16 gives the custodian 60 days and immunity for good-faith compliance.",
+    "citations": [
+     "mnf-521A.01",
+     "mnf-521A.16"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§521A.04 is the uniform online-tool rule: a direction given through a custodian's online tool overrides a contrary direction in a will, trust, power of attorney or other record where the tool allows the user to modify or delete the direction at all times.",
+    "citations": [
+     "mnf-521A.04"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "The **Darlene Luther** Revised Uniform Anatomical Gift Act, chapter 525A (2007) — §525A.01 carries the name in the short title. §525A.09 ranks the post-mortem classes with the agent first. §525A.21 is the gift-versus-directive conflict provision that Kansas and Nebraska also have and most of this set does not, and in Minnesota it has a gap written into it: where the donor cannot resolve the conflict it passes to the agent or, failing that, to \"another person authorized by a law other than this chapter to make health care decisions\" — which, Minnesota having no default surrogate, names nobody.",
+    "citations": [
+     "mnf-525A.01",
+     "mnf-525A.09",
+     "mnf-525A.21"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "§524.3-1201 is the Uniform Probate Code's affidavit at **$75,000** after **30 days**, three times the model's $25,000, presented with a **certified death record**. Minnesota widens it twice. It names **safe deposit companies** among those obliged to deliver — they \"shall ... deliver the entire contents of the safe deposit box\" — which is the one asset-behind-an-access-control any state in this set has legislated for, and it is a physical box. And it widens who may claim: besides a person claiming to be the successor, the section names \"a state or county agency with a claim authorized by section 256B.15\", medical-assistance recovery, so a public **creditor** may use a route that is a successor's mechanism everywhere else. The ceiling is computed on the entire probate estate at the date of death, wherever located, \"including specifically any contents of a safe deposit box\", less liens and encumbrances. §524.3-1203's summary proceedings are a separate route for an already-appointed representative and carry no figure.",
+    "citations": [
+     "mnf-524.3-1201",
+     "mnf-524.3-1203"
+    ],
+    "threshold": 75000,
+    "currency": "USD",
+    "waitingDays": 30
+   },
+   "probateGrantName": {
+    "value": "letters",
+    "note": "§524.3-103: a person \"must be appointed by order of the court or registrar, qualify and be issued letters\", and \"administration of an estate is commenced by the issuance of letters\" — the bare term, as in Arizona. Qualification takes any required bond and an **oath of office**, or a statement of acceptance for a corporate representative.",
+    "citations": [
+     "mnf-524.3-103"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "Through the directive, and only through the directive. §149A.80, subd. 2(1) makes the first class entitled to control disposition \"the person or persons appointed in a dated written instrument signed by the decedent\" and says that instrument \"includes, but is not limited to, a **health care directive** executed under chapter 145C\" — then expressly excludes the power of attorney, \"which terminates on the death of the principal pursuant to sections 523.08 and 523.09\". So in Minnesota a health care agent can hold post-mortem authority over the body where a financial agent cannot, which is the inverse of Arizona's §36-831(A)(2). §525A.09 also ranks the agent first for an anatomical gift.",
+    "citations": [
+     "mnf-149A.80",
+     "mnf-523.08",
+     "mnf-525A.09"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "mnf-523.07",
+    "cite": "Minn. Stat. § 523.07",
+    "title": "Durable power of attorney",
+    "url": "https://www.revisor.mn.gov/statutes/cite/523.07",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-523.01",
+    "cite": "Minn. Stat. § 523.01",
+    "title": "Authorization",
+    "url": "https://www.revisor.mn.gov/statutes/cite/523.01",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-523.05",
+    "cite": "Minn. Stat. § 523.05",
+    "title": "Recording",
+    "url": "https://www.revisor.mn.gov/statutes/cite/523.05",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-523.11",
+    "cite": "Minn. Stat. § 523.11",
+    "title": "Revocation of a power",
+    "url": "https://www.revisor.mn.gov/statutes/cite/523.11",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-523.16",
+    "cite": "Minn. Stat. § 523.16",
+    "title": "Affidavit as proof of authority of attorney-in-fact",
+    "url": "https://www.revisor.mn.gov/statutes/cite/523.16",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-145C.02",
+    "cite": "Minn. Stat. § 145C.02",
+    "title": "Health care directive",
+    "url": "https://www.revisor.mn.gov/statutes/cite/145C.02",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-145C.06",
+    "cite": "Minn. Stat. § 145C.06",
+    "title": "When effective",
+    "url": "https://www.revisor.mn.gov/statutes/cite/145C.06",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-145C.07",
+    "cite": "Minn. Stat. § 145C.07",
+    "title": "Authority and duties of health care agent",
+    "url": "https://www.revisor.mn.gov/statutes/cite/145C.07",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-524.5-412",
+    "cite": "Minn. Stat. § 524.5-412",
+    "title": "Protective arrangements and single transactions",
+    "url": "https://www.revisor.mn.gov/statutes/cite/524.5-412",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-521A.01",
+    "cite": "Minn. Stat. § 521A.01",
+    "title": "Short title",
+    "url": "https://www.revisor.mn.gov/statutes/cite/521A.01",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-521A.16",
+    "cite": "Minn. Stat. § 521A.16",
+    "title": "Custodian compliance and immunity",
+    "url": "https://www.revisor.mn.gov/statutes/cite/521A.16",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-521A.04",
+    "cite": "Minn. Stat. § 521A.04",
+    "title": "User direction for disclosure of digital assets",
+    "url": "https://www.revisor.mn.gov/statutes/cite/521A.04",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-525A.01",
+    "cite": "Minn. Stat. § 525A.01",
+    "title": "Short title",
+    "url": "https://www.revisor.mn.gov/statutes/cite/525A.01",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-525A.09",
+    "cite": "Minn. Stat. § 525A.09",
+    "title": "Who may make anatomical gift of decedent's body or part",
+    "url": "https://www.revisor.mn.gov/statutes/cite/525A.09",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-525A.21",
+    "cite": "Minn. Stat. § 525A.21",
+    "title": "Effect of anatomical gift on health care directive",
+    "url": "https://www.revisor.mn.gov/statutes/cite/525A.21",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-524.3-1201",
+    "cite": "Minn. Stat. § 524.3-1201",
+    "title": "Collection of personal property by affidavit",
+    "url": "https://www.revisor.mn.gov/statutes/cite/524.3-1201",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-524.3-1203",
+    "cite": "Minn. Stat. § 524.3-1203",
+    "title": "Summary proceedings",
+    "url": "https://www.revisor.mn.gov/statutes/cite/524.3-1203",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-524.3-103",
+    "cite": "Minn. Stat. § 524.3-103",
+    "title": "Necessity of appointment for administration",
+    "url": "https://www.revisor.mn.gov/statutes/cite/524.3-103",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-149A.80",
+    "cite": "Minn. Stat. § 149A.80",
+    "title": "Death; right to control and duty of disposition",
+    "url": "https://www.revisor.mn.gov/statutes/cite/149A.80",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   },
+   {
+    "id": "mnf-523.08",
+    "cite": "Minn. Stat. § 523.08",
+    "title": "Termination of a durable power",
+    "url": "https://www.revisor.mn.gov/statutes/cite/523.08",
+    "kind": "statute",
+    "retrieved": "2026-10-23"
+   }
+  ]
+ },
  "us-ca": {
   "features": {
    "deceasedPersonalDataProtected": {
