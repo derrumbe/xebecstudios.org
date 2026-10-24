@@ -4,7 +4,7 @@
    "id": "personal-representative-administrator",
    "label": "Administrator",
    "definition": "The personal representative the law or a court supplies where the deceased named nobody, or nobody named can act.",
-   "jurisdictionCount": 54,
+   "jurisdictionCount": 55,
    "countryCount": 20,
    "citations": {
     "mu-cur-4": {
@@ -3302,6 +3302,85 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "personal-representative-administrator",
+     "roleName": "Personal representative in intestacy (administrator)",
+     "localNames": [
+      "personal representative"
+     ],
+     "nameEn": null,
+     "summary": "The personal representative of an estate with no will, or where no one named in a will serves. They are appointed from a statutory priority list: surviving spouse, then other heirs, then any creditor 45 days after death.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Priority arises at death by relationship (spouse, heirs) or by nomination from a person with priority",
+       "phase": "deceased",
+       "citations": [
+        "upc-3-203"
+       ]
+      },
+      "starts": {
+       "event": "Appointment (informal ≥120 hours after death), qualification, letters; powers relate back",
+       "phase": "administration",
+       "citations": [
+        "upc-3-307",
+        "upc-3-601",
+        "upc-3-103",
+        "upc-3-701"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Order closing estate",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1001",
+         "upc-3-610"
+        ]
+       },
+       {
+        "event": "One year after closing statement with no pending proceedings",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1003",
+         "upc-3-610"
+        ]
+       },
+       {
+        "event": "Removal, resignation, PR death/conservator, later will probated",
+        "phase": "administration",
+        "citations": [
+         "upc-3-611",
+         "upc-3-610",
+         "upc-3-609",
+         "upc-3-612"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "upc-3-203",
+      "upc-3-307",
+      "upc-3-601",
+      "upc-3-103",
+      "upc-3-701",
+      "upc-3-1001",
+      "upc-3-610",
+      "upc-3-1003",
+      "upc-3-611",
+      "upc-3-609",
+      "upc-3-612"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -4607,7 +4686,7 @@
    "id": "benefits-payee",
    "label": "Benefits payee",
    "definition": "A person appointed to receive and manage state benefits for someone who cannot manage them.",
-   "jurisdictionCount": 42,
+   "jurisdictionCount": 43,
    "countryCount": 5,
    "citations": {
     "de-sgb1-56": {
@@ -7050,6 +7129,102 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "ssa-representative-payee",
+     "roleName": "Social Security / SSI representative payee",
+     "localNames": [
+      "rep payee",
+      "payee"
+     ],
+     "nameEn": null,
+     "summary": "A person or organization that the Social Security Administration (SSA) selects to receive Social Security (Title II) or SSI (Title XVI) benefits for a beneficiary. SSA appoints a payee after finding that the beneficiary cannot manage or direct the management of their benefit payments. In this role, 'incapacitated' means that SSA administrative finding. It is not a court adjudication, and SSA can appoint a payee even for a legally competent person. A payee is not an agent: a power of attorney, including a durable one, gives no authority to receive or negotiate these benefits. The appointment ends when SSA changes payees, when SSA finds the beneficiary capable, or when the beneficiary dies. The former payee must then return payments not due and hand over conserved funds.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "SSA determines representative payment is in the beneficiary's interest, then selects a payee using its order of preference, with advance designees considered first",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-20-404-2001",
+        "cfr-20-404-2010",
+        "cfr-20-416-610",
+        "cfr-20-404-2021",
+        "cfr-20-416-621",
+        "usc-42-405-j",
+        "usc-42-1383-a2"
+       ]
+      },
+      "starts": {
+       "event": "SSA certifies payment to the payee after written advance notice. If the beneficiary protests or appeals within 10 days of a mailed notice, the action is delayed.",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-20-404-2030",
+        "cfr-20-416-630"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Beneficiary dies: Title II entitlement ends with the month before death, and SSI payments stop after the month of death. The payee must return payments not due. Conserved funds belong to the estate.",
+        "phase": "deceased",
+        "citations": [
+         "cfr-20-404-311",
+         "cfr-20-416-1334",
+         "ssa-kc-conserved-funds",
+         "poms-gn-00603-100"
+        ]
+       },
+       {
+        "event": "SSA makes a new capability determination that the beneficiary is capable, and pays the beneficiary directly",
+        "phase": "capable",
+        "citations": [
+         "poms-gn-00502-055",
+         "poms-gn-00603-055",
+         "cfr-20-404-2060",
+         "cfr-20-416-660"
+        ]
+       },
+       {
+        "event": "SSA stops paying this payee and selects a new payee (misuse, payee's death, unwillingness, inability, failure to account or cooperate)",
+        "phase": "incapacitated",
+        "citations": [
+         "cfr-20-404-2050",
+         "cfr-20-416-650",
+         "usc-42-405-j",
+         "usc-42-1383-a2"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-20-404-2001",
+      "cfr-20-404-2010",
+      "cfr-20-416-610",
+      "cfr-20-404-2021",
+      "cfr-20-416-621",
+      "usc-42-405-j",
+      "usc-42-1383-a2",
+      "cfr-20-404-2030",
+      "cfr-20-416-630",
+      "cfr-20-404-311",
+      "cfr-20-416-1334",
+      "ssa-kc-conserved-funds",
+      "poms-gn-00603-100",
+      "poms-gn-00502-055",
+      "poms-gn-00603-055",
+      "cfr-20-404-2060",
+      "cfr-20-416-660",
+      "cfr-20-404-2050",
+      "cfr-20-416-650"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -8774,7 +8949,7 @@
    "id": "conservator-estate",
    "label": "Conservator of the estate",
    "definition": "A financial manager appointed by a court or tribunal to manage property the person can no longer manage.",
-   "jurisdictionCount": 61,
+   "jurisdictionCount": 62,
    "countryCount": 21,
    "citations": {
     "mu-cc-488": {
@@ -9823,6 +9998,30 @@
      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5401",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "mn-524.5-413": {
+     "id": "mn-524.5-413",
+     "cite": "Minn. Stat. § 524.5-413",
+     "title": "Who may be conservator; priorities",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.5-413",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-524.5-428": {
+     "id": "mn-524.5-428",
+     "cite": "Minn. Stat. § 524.5-428",
+     "title": "Death of person subject to conservatorship",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.5-428",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-524.5-431": {
+     "id": "mn-524.5-431",
+     "cite": "Minn. Stat. § 524.5-431",
+     "title": "Termination of proceedings",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.5-431",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-3B-13A-5": {
      "id": "nj-rs-3B-13A-5",
@@ -12971,6 +13170,68 @@
       "ugcopaa-431k",
       "ugcopaa-427",
       "ugcopaa-112"
+     ]
+    },
+    {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "conservator-estate",
+     "roleName": "Conservator (property and financial affairs)",
+     "localNames": [
+      "conservator",
+      "person subject to conservatorship"
+     ],
+     "nameEn": null,
+     "summary": "A person a court appoints to manage an adult's property or financial affairs. When the adult dies, the conservatorship terminates. The conservator then winds it up by filing a final report and delivering the estate to the decedent's estate, and a bracketed option lets the conservator ask for personal-representative powers.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Nomination in a durable power of attorney, and separately the agent appointed under one, both rank above the spouse in §524.5-413",
+       "phase": "capable",
+       "citations": [
+        "mn-524.5-413"
+       ]
+      },
+      "starts": {
+       "event": "Court order, then acceptance and any bond filed and letters of office issued",
+       "phase": "incapacitated",
+       "citations": [
+        "ugcopaa-401",
+        "ugcopaa-411",
+        "ugcopaa-108"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of the person subject to conservatorship: the conservator holds the estate for a personal representative, and may petition to be appointed one if none is appointed within 90 days",
+        "phase": "deceased",
+        "citations": [
+         "mn-524.5-428"
+        ]
+       },
+       {
+        "event": "Court terminates the proceedings",
+        "phase": "capable",
+        "citations": [
+         "mn-524.5-431"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "mn-524.5-413",
+      "ugcopaa-401",
+      "ugcopaa-411",
+      "ugcopaa-108",
+      "mn-524.5-428",
+      "mn-524.5-431"
      ]
     },
     {
@@ -17355,7 +17616,7 @@
    "id": "digital-assets-fiduciary",
    "label": "Digital-assets fiduciary",
    "definition": "A person given access to, or authority over, the deceased or incapacitated person's digital assets and accounts.",
-   "jurisdictionCount": 32,
+   "jurisdictionCount": 33,
    "countryCount": 4,
    "citations": {
     "cn-pipl-49": {
@@ -18997,6 +19258,82 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "rufadaa-fiduciary",
+     "roleName": "Fiduciary seeking access to digital assets (PR, conservator, agent, trustee)",
+     "localNames": [
+      "fiduciary",
+      "personal representative",
+      "conservator",
+      "agent",
+      "trustee"
+     ],
+     "nameEn": null,
+     "summary": "RUFADAA gives no new fiduciary status of its own. It sets out when an existing personal representative, conservator, agent, or trustee can get a digital-asset catalogue or content from a custodian. By default, content of electronic communications needs the user's consent (or, for a personal representative, a court direction). A conservator also needs a court order after a chance for a hearing.",
+     "group": "digital",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Underlying fiduciary status arises under other law (POA, trust, court appointment, letters or small-estate affidavit)",
+       "phase": "capable",
+       "citations": [
+        "rufadaa-2",
+        "rufadaa-3"
+       ]
+      },
+      "starts": {
+       "event": "Written request with required documents; custodian must comply within [60] days",
+       "phase": "incapacitated",
+       "citations": [
+        "rufadaa-9",
+        "rufadaa-10",
+        "rufadaa-14",
+        "rufadaa-7",
+        "rufadaa-8",
+        "rufadaa-16"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Underlying authority ends (e.g., agent's POA ends at principal's death, conservatorship ends, PR appointment terminates)",
+        "phase": "deceased",
+        "citations": [
+         "rufadaa-9",
+         "rufadaa-15",
+         "upoaa-110a"
+        ]
+       },
+       {
+        "event": "Estate closed",
+        "phase": "closed",
+        "citations": [
+         "upc-3-610"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "rufadaa-2",
+      "rufadaa-3",
+      "rufadaa-9",
+      "rufadaa-10",
+      "rufadaa-14",
+      "rufadaa-7",
+      "rufadaa-8",
+      "rufadaa-16",
+      "rufadaa-15",
+      "upoaa-110a",
+      "upc-3-610"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -19950,7 +20287,7 @@
    "id": "disposition-of-remains-agent",
    "label": "Disposition-of-remains agent",
    "definition": "The person with the right or the duty to control what happens to the body.",
-   "jurisdictionCount": 25,
+   "jurisdictionCount": 26,
    "countryCount": 6,
    "citations": {
     "es-l41-11": {
@@ -20218,6 +20555,14 @@
      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3206",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "mn-149A.80": {
+     "id": "mn-149A.80",
+     "cite": "Minn. Stat. § 149A.80",
+     "title": "Death; right to control and duty of disposition",
+     "url": "https://www.revisor.mn.gov/statutes/cite/149A.80",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-45-27-22": {
      "id": "nj-rs-45-27-22",
@@ -21124,6 +21469,60 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "disposition-of-remains-agent",
+     "roleName": "Person with the right to control and duty of disposition",
+     "localNames": [
+      "person appointed in a dated written instrument signed by the decedent"
+     ],
+     "nameEn": null,
+     "summary": "The person in whom the right to control the dead body vests and on whom the duty of final disposition devolves, taken from a written instrument the decedent signed or, failing that, from a twelve-class statutory order.",
+     "group": "remains",
+     "stateSpecific": true,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Decedent appoints a person in a dated written instrument they signed — which §149A.80 says includes a health care directive under chapter 145C, and expressly does **not** include a power of attorney; or leaves written, dated and witnessed directions, or directions in a will",
+       "phase": "capable",
+       "citations": [
+        "mn-149A.80"
+       ]
+      },
+      "starts": {
+       "event": "Death of the decedent",
+       "phase": "deceased",
+       "citations": [
+        "mn-149A.80"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The holder refuses to accept or declines to act, and the right passes to another of the same degree or to the next degree",
+        "phase": "deceased",
+        "citations": [
+         "mn-149A.80"
+        ]
+       },
+       {
+        "event": "A district court finds the holder and the decedent were estranged at the time of death — defined as \"mutual enmity, hostility, or indifference\" — and the right devolves to the next degree",
+        "phase": "deceased",
+        "citations": [
+         "mn-149A.80"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "mn-149A.80"
+     ]
+    },
+    {
      "jurisdiction": "us-nj",
      "jurisdictionName": "New Jersey",
      "label": "US — New Jersey",
@@ -21679,7 +22078,7 @@
    "id": "anatomical-gift-agent",
    "label": "Donation decision maker",
    "definition": "The person who may authorise or refuse donation of organs, tissue or the body, including under deemed-consent regimes.",
-   "jurisdictionCount": 55,
+   "jurisdictionCount": 56,
    "countryCount": 19,
    "citations": {
     "za-nha-62-1": {
@@ -24529,6 +24928,72 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "anatomical-gift-agent",
+     "roleName": "Agent authorized to make an anatomical gift",
+     "localNames": [
+      "health-care agent (anatomical gift)",
+      "agent"
+     ],
+     "nameEn": null,
+     "summary": "A health-care agent, or a person a signed record expressly authorizes, can make an anatomical gift during the donor's life unless the document forbids it. After death, the person who was the decedent's agent at death has first priority to make a gift. The donor's own gift or refusal bars others.",
+     "group": "remains",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Principal appoints health-care agent or signs record expressly authorizing anatomical gift",
+       "phase": "capable",
+       "citations": [
+        "ruaga-2"
+       ]
+      },
+      "starts": {
+       "event": "During donor's life: agent may make gift by donor card/record/registry (unless prohibited)",
+       "phase": "capable",
+       "citations": [
+        "ruaga-4",
+        "ruaga-5"
+       ]
+      },
+      "ends": [
+       {
+        "event": "After death: first-priority authority exercised or barred; revocation by others ineffective after incision/invasive procedures begin",
+        "phase": "deceased",
+        "citations": [
+         "ruaga-9",
+         "ruaga-9c",
+         "ruaga-10c"
+        ]
+       },
+       {
+        "event": "Donor's unrevoked refusal or own gift bars the agent",
+        "phase": "capable",
+        "citations": [
+         "ruaga-7",
+         "ruaga-8"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ruaga-2",
+      "ruaga-4",
+      "ruaga-5",
+      "ruaga-9",
+      "ruaga-9c",
+      "ruaga-10c",
+      "ruaga-7",
+      "ruaga-8"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -25643,7 +26108,7 @@
    "id": "financial-poa-durable",
    "label": "Durable financial power of attorney",
    "definition": "An agent appointed by the person while capable, whose authority over property and money survives the person losing capacity.",
-   "jurisdictionCount": 52,
+   "jurisdictionCount": 53,
    "countryCount": 17,
    "citations": {
     "cn-cc-33": {
@@ -26807,6 +27272,46 @@
      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-556-205",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "mn-523.01": {
+     "id": "mn-523.01",
+     "cite": "Minn. Stat. § 523.01",
+     "title": "Authorization",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.01",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-523.07": {
+     "id": "mn-523.07",
+     "cite": "Minn. Stat. § 523.07",
+     "title": "Durable power of attorney",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.07",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-523.08": {
+     "id": "mn-523.08",
+     "cite": "Minn. Stat. § 523.08",
+     "title": "Termination of a durable power",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.08",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-523.075": {
+     "id": "mn-523.075",
+     "cite": "Minn. Stat. § 523.075",
+     "title": "Expiration date in a power of attorney",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.075",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-523.11": {
+     "id": "mn-523.11",
+     "cite": "Minn. Stat. § 523.11",
+     "title": "Revocation of a power",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.11",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-46-2B-8-2": {
      "id": "nj-rs-46-2B-8-2",
@@ -29928,6 +30433,70 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-durable",
+     "roleName": "Agent under durable financial power of attorney",
+     "localNames": [
+      "attorney-in-fact",
+      "statutory short form power of attorney"
+     ],
+     "nameEn": null,
+     "summary": "A person the principal appoints in a signed power of attorney to act on property and financial matters. Under the UPOAA a power is durable (survives the principal's incapacity) unless it expressly says otherwise, and it ends at the principal's death.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs a power dated and acknowledged before a notary, containing express words of durability or similar words showing that intent (§§523.01, 523.07)",
+       "phase": "capable",
+       "citations": [
+        "mn-523.01",
+        "mn-523.07"
+       ]
+      },
+      "starts": {
+       "event": "Effective when executed unless the POA states a future date or contingency; agency duties attach when the agent accepts by acting or other conduct",
+       "phase": "capable",
+       "citations": [
+        "upoaa-109",
+        "upoaa-113"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of the principal; a stated termination date, which has no effect unless given as a specific month, day and year; or, for a spouse-agent, commencement of dissolution, separation or annulment proceedings",
+        "phase": "deceased",
+        "citations": [
+         "mn-523.08",
+         "mn-523.075"
+        ]
+       },
+       {
+        "event": "Conservator or guardian revokes, suspends or terminates all or any part of the power — holding the principal's own power to do so; not effective against a party without actual notice as §523.11 defines it",
+        "phase": "incapacitated",
+        "citations": [
+         "mn-523.11"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "mn-523.01",
+      "mn-523.07",
+      "upoaa-109",
+      "upoaa-113",
+      "mn-523.08",
+      "mn-523.075",
+      "mn-523.11"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -31133,7 +31702,7 @@
    "id": "personal-representative-executor",
    "label": "Executor",
    "definition": "The personal representative the deceased themselves named, usually in a will.",
-   "jurisdictionCount": 58,
+   "jurisdictionCount": 59,
    "countryCount": 24,
    "citations": {
     "mu-cc-1030": {
@@ -32126,6 +32695,46 @@
      "url": "https://www.legis.la.gov/legis/Law.aspx?d=111601",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "mn-524.3-701": {
+     "id": "mn-524.3-701",
+     "cite": "Minn. Stat. § 524.3-701",
+     "title": "Time of accrual of duties and powers",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.3-701",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-524.3-103": {
+     "id": "mn-524.3-103",
+     "cite": "Minn. Stat. § 524.3-103",
+     "title": "Necessity of appointment for administration",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.3-103",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-524.3-601": {
+     "id": "mn-524.3-601",
+     "cite": "Minn. Stat. § 524.3-601",
+     "title": "Qualification",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.3-601",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-524.3-610": {
+     "id": "mn-524.3-610",
+     "cite": "Minn. Stat. § 524.3-610",
+     "title": "Termination of appointment; voluntary",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.3-610",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-524.3-611": {
+     "id": "mn-524.3-611",
+     "cite": "Minn. Stat. § 524.3-611",
+     "title": "Termination of appointment by removal; cause; procedure",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.3-611",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-3B-3-17": {
      "id": "nj-rs-3B-3-17",
@@ -35094,6 +35703,67 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "personal-representative-executor",
+     "roleName": "Personal representative named in will (executor)",
+     "localNames": [
+      "personal representative"
+     ],
+     "nameEn": null,
+     "summary": "The person a will nominates to administer the decedent's estate. Being named gives no general power until a court or Registrar appoints them, they qualify, and letters issue. Once appointed, their powers relate back to earlier acts that benefited the estate.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Testator names an executor; before appointment the nominee may already carry out the decedent's written instructions about the body and funeral",
+       "phase": "capable",
+       "citations": [
+        "mn-524.3-701"
+       ]
+      },
+      "starts": {
+       "event": "Appointment by court order or registrar, qualification by bond and an oath of office, and issuance of letters — which is when administration commences; powers relate back",
+       "phase": "administration",
+       "citations": [
+        "mn-524.3-103",
+        "mn-524.3-601",
+        "mn-524.3-701"
+       ]
+      },
+      "ends": [
+       {
+        "event": "One year after filing a closing statement, or an order closing the estate",
+        "phase": "closed",
+        "citations": [
+         "mn-524.3-610"
+        ]
+       },
+       {
+        "event": "Removal for cause, or resignation effective only on a successor's appointment after 15 days' notice",
+        "phase": "administration",
+        "citations": [
+         "mn-524.3-610",
+         "mn-524.3-611"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "mn-524.3-701",
+      "mn-524.3-103",
+      "mn-524.3-601",
+      "mn-524.3-610",
+      "mn-524.3-611"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -36455,7 +37125,7 @@
    "id": "guardian-person",
    "label": "Guardian of the person",
    "definition": "A personal decision maker appointed by a court or tribunal, rather than by the person.",
-   "jurisdictionCount": 52,
+   "jurisdictionCount": 53,
    "countryCount": 17,
    "citations": {
     "rw-pf-139": {
@@ -37366,6 +38036,30 @@
      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5306",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "mn-524.5-309": {
+     "id": "mn-524.5-309",
+     "cite": "Minn. Stat. § 524.5-309",
+     "title": "Who may be guardian: priorities",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.5-309",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-145C.07": {
+     "id": "mn-145C.07",
+     "cite": "Minn. Stat. § 145C.07",
+     "title": "Authority and duties of health care agent",
+     "url": "https://www.revisor.mn.gov/statutes/cite/145C.07",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-524.5-317": {
+     "id": "mn-524.5-317",
+     "cite": "Minn. Stat. § 524.5-317",
+     "title": "Termination or modification of guardianship; court orders",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.5-317",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-3B-12-25": {
      "id": "nj-rs-3B-12-25",
@@ -40018,6 +40712,62 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "guardian-person",
+     "roleName": "Guardian for an adult (personal affairs)",
+     "localNames": [
+      "guardian",
+      "person subject to guardianship"
+     ],
+     "nameEn": null,
+     "summary": "A person a court appoints to make decisions about an adult's personal affairs (where they live, health care and the like). The court must find by clear-and-convincing evidence that less restrictive alternatives will not work. UGCOPAA (2017) replaces the 1997 UGPPA, and the 2019 UPC still contains the UGPPA as Article V.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "A health care agent under chapter 145C ranks second in the §524.5-309 priority list, above the spouse; a spouse or parent may nominate by will or a writing executed like a health care directive",
+       "phase": "capable",
+       "citations": [
+        "mn-524.5-309",
+        "mn-145C.07"
+       ]
+      },
+      "starts": {
+       "event": "Court order of appointment, then filing of acceptance and issuance of letters of office",
+       "phase": "incapacitated",
+       "citations": [
+        "ugcopaa-301",
+        "ugcopaa-310",
+        "ugcopaa-108"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of the person subject to guardianship, expiration of a duration set in the appointing order, or court order",
+        "phase": "deceased",
+        "citations": [
+         "mn-524.5-317"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "mn-524.5-309",
+      "mn-145C.07",
+      "ugcopaa-301",
+      "ugcopaa-310",
+      "ugcopaa-108",
+      "mn-524.5-317"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -41179,7 +41929,7 @@
    "id": "health-care-agent",
    "label": "Health-care agent",
    "definition": "A person named in advance to make health and personal welfare decisions once the person can no longer make them.",
-   "jurisdictionCount": 50,
+   "jurisdictionCount": 51,
    "countryCount": 14,
    "citations": {
     "za-nha-7-mandate": {
@@ -42200,6 +42950,46 @@
      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-5508",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "mn-145C.02": {
+     "id": "mn-145C.02",
+     "cite": "Minn. Stat. § 145C.02",
+     "title": "Health care directive",
+     "url": "https://www.revisor.mn.gov/statutes/cite/145C.02",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-145C.03": {
+     "id": "mn-145C.03",
+     "cite": "Minn. Stat. § 145C.03",
+     "title": "Requirements",
+     "url": "https://www.revisor.mn.gov/statutes/cite/145C.03",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-145C.06": {
+     "id": "mn-145C.06",
+     "cite": "Minn. Stat. § 145C.06",
+     "title": "When effective",
+     "url": "https://www.revisor.mn.gov/statutes/cite/145C.06",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-145C.07": {
+     "id": "mn-145C.07",
+     "cite": "Minn. Stat. § 145C.07",
+     "title": "Authority and duties of health care agent",
+     "url": "https://www.revisor.mn.gov/statutes/cite/145C.07",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-145C.09": {
+     "id": "mn-145C.09",
+     "cite": "Minn. Stat. § 145C.09",
+     "title": "Revocation of health care directive",
+     "url": "https://www.revisor.mn.gov/statutes/cite/145C.09",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-26-2H-58": {
      "id": "nj-rs-26-2H-58",
@@ -45000,6 +45790,68 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "health-care-agent",
+     "roleName": "Agent under power of attorney for health care",
+     "localNames": [
+      "health care agent",
+      "health care directive"
+     ],
+     "nameEn": null,
+     "summary": "An individual appointed in a power of attorney for health care to make health-care decisions when the principal cannot. Under UHCDA (2023) decision-making power always 'springs' on a finding of lack of capacity, and only the health-information power may start at once. The 1993 Act let the document make the agent's authority effective immediately.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal with capacity executes a health care directive, verified by a notary or by witnesses, which may include a health care power of attorney (§§145C.02, 145C.03)",
+       "phase": "capable",
+       "citations": [
+        "mn-145C.02",
+        "mn-145C.03"
+       ]
+      },
+      "starts": {
+       "event": "The attending physician, advanced practice registered nurse or physician assistant judges the principal to lack decision-making capacity, or other conditions the principal specified are met",
+       "phase": "incapacitated",
+       "citations": [
+        "mn-145C.02",
+        "mn-145C.06",
+        "mn-145C.07"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Principal recovers decision-making capacity in the clinician's determination — the directive ceases to be effective and revives if capacity is lost again",
+        "phase": "capable",
+        "citations": [
+         "mn-145C.06"
+        ]
+       },
+       {
+        "event": "Revoked by destruction, a dated writing, words spoken before two witnesses, or a later inconsistent directive; a spouse or registered domestic partner agent is revoked by dissolution, annulment or termination proceedings",
+        "phase": "capable",
+        "citations": [
+         "mn-145C.09"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "mn-145C.02",
+      "mn-145C.03",
+      "mn-145C.06",
+      "mn-145C.07",
+      "mn-145C.09"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -46476,7 +47328,7 @@
    "id": "health-records-representative",
    "label": "Health-records representative",
    "definition": "The person entitled to a deceased or incapacitated person's health records.",
-   "jurisdictionCount": 48,
+   "jurisdictionCount": 49,
    "countryCount": 5,
    "citations": {
     "de-bgb-630g": {
@@ -48494,6 +49346,80 @@
      "jurisdiction": "us-mi",
      "jurisdictionName": "Michigan",
      "label": "US — Michigan",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "hipaa-personal-representative",
+     "roleName": "HIPAA personal representative",
+     "localNames": [
+      "personal representative (HIPAA Privacy Rule)"
+     ],
+     "nameEn": null,
+     "summary": "Federal privacy law does not appoint anyone. A health care provider or health plan must treat a person as the patient for HIPAA purposes, such as getting records or signing authorizations, when state or other law gives that person authority: authority over health-care decisions for a living adult, or authority over the decedent or the estate after death. The role is derived: it starts and ends when the underlying state-law role (health care agent, guardian, parent, executor/administrator) starts and ends. For decedents, protection lasts 50 years after death.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "A person gets authority under state or other applicable law (e.g., health care power of attorney, guardianship, parent of a minor, letters as executor/administrator). HIPAA itself does not assign anyone.",
+       "phase": "capable",
+       "citations": [
+        "hipaa-164-502-g2",
+        "hipaa-164-502-g4",
+        "hhs-ocr-personal-reps"
+       ]
+      },
+      "starts": {
+       "event": "At the same moment the underlying state-law authority takes effect: authority over health-care decisions (living individual) or authority to act for the decedent or the estate (after death)",
+       "phase": "incapacitated",
+       "citations": [
+        "hipaa-164-502-g1",
+        "hipaa-164-502-g2",
+        "hipaa-164-502-g4",
+        "hhs-ocr-personal-reps"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The underlying state-law authority ends (e.g., a health care agent's authority ends at death, or a guardianship is terminated). Status as a personal representative for a living individual lapses with it.",
+        "phase": "deceased",
+        "citations": [
+         "hipaa-164-502-g2",
+         "hhs-ocr-personal-reps"
+        ]
+       },
+       {
+        "event": "The authority of the executor, administrator, or other person to act for the decedent or the estate ends under state law",
+        "phase": "closed",
+        "citations": [
+         "hipaa-164-502-g4"
+        ]
+       },
+       {
+        "event": "50 years after death: the information is no longer protected health information, so a personal representative has no Privacy Rule rights over it",
+        "phase": "closed",
+        "citations": [
+         "hipaa-164-502-f",
+         "hipaa-160-103-phi",
+         "hhs-ocr-personal-reps"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "hipaa-164-502-g2",
+      "hipaa-164-502-g4",
+      "hhs-ocr-personal-reps",
+      "hipaa-164-502-g1",
+      "hipaa-164-502-f",
+      "hipaa-160-103-phi"
+     ]
+    },
+    {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
      "country": "United States",
      "region": "North America",
      "roleId": "hipaa-personal-representative",
@@ -51242,7 +52168,7 @@
    "id": "online-tool-designee",
    "label": "Online-tool designee",
    "definition": "A person designated through a platform's own tool, where the law gives that designation priority.",
-   "jurisdictionCount": 29,
+   "jurisdictionCount": 30,
    "countryCount": 2,
    "citations": {
     "fr-loi7817-85": {
@@ -52380,6 +53306,69 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "rufadaa-designated-recipient",
+     "roleName": "Designated recipient under a custodian's online tool",
+     "localNames": [
+      "designated recipient",
+      "legacy contact",
+      "inactive account manager"
+     ],
+     "nameEn": null,
+     "summary": "A person the account holder picks through a service provider's own online tool (separate from the terms of service) to receive or manage digital assets. If the tool lets the user change or delete the choice at any time, the direction overrides a contrary will, trust, or power of attorney. The designated recipient is not held to fiduciary standards.",
+     "group": "digital",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "User designates recipient via custodian's online tool",
+       "phase": "capable",
+       "citations": [
+        "rufadaa-4",
+        "rufadaa-2"
+       ]
+      },
+      "starts": {
+       "event": "Future event set by the online tool, such as the user's death or incapacity (the Act defers to the tool; no statutory trigger), then request to custodian",
+       "phase": "deceased",
+       "citations": [
+        "rufadaa-2-cmt",
+        "rufadaa-16"
+       ]
+      },
+      "ends": [
+       {
+        "event": "User modifies or deletes the direction",
+        "phase": "capable",
+        "citations": [
+         "rufadaa-4"
+        ]
+       },
+       {
+        "event": "Custodian discloses or terminates account (≤[60] days after required information) (end point not specified)",
+        "phase": "deceased",
+        "citations": [
+         "rufadaa-16",
+         "rufadaa-6"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "rufadaa-4",
+      "rufadaa-2",
+      "rufadaa-2-cmt",
+      "rufadaa-16",
+      "rufadaa-6"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -53180,7 +54169,7 @@
    "id": "financial-poa-nondurable",
    "label": "Ordinary financial power of attorney",
    "definition": "An agent appointed by the person whose authority ends when the person loses capacity, rather than surviving it.",
-   "jurisdictionCount": 43,
+   "jurisdictionCount": 44,
    "countryCount": 11,
    "citations": {
     "cn-cc-165": {
@@ -53542,6 +54531,38 @@
      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-556-204",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "mn-523.07": {
+     "id": "mn-523.07",
+     "cite": "Minn. Stat. § 523.07",
+     "title": "Durable power of attorney",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.07",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-523.09": {
+     "id": "mn-523.09",
+     "cite": "Minn. Stat. § 523.09",
+     "title": "Termination of a nondurable power of attorney",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.09",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-523.19": {
+     "id": "mn-523.19",
+     "cite": "Minn. Stat. § 523.19",
+     "title": "Third parties held harmless",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.19",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-523.20": {
+     "id": "mn-523.20",
+     "cite": "Minn. Stat. § 523.20",
+     "title": "Liability of parties refusing authority of attorney-in-fact to act on principal's behalf",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.20",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-46-2B-8-2": {
      "id": "nj-rs-46-2B-8-2",
@@ -55360,6 +56381,62 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-nondurable",
+     "roleName": "Agent under nondurable financial power of attorney",
+     "localNames": [
+      "attorney-in-fact",
+      "agent"
+     ],
+     "nameEn": null,
+     "summary": "An agent under a power of attorney that expressly states it ends if the principal becomes incapacitated. It works only while the principal is capable, and ends at incapacity or death.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs a power with no words of durability — the result of saying nothing",
+       "phase": "capable",
+       "citations": [
+        "mn-523.07"
+       ]
+      },
+      "starts": {
+       "event": "Effective on execution unless otherwise stated; agent accepts by acting",
+       "phase": "capable",
+       "citations": [
+        "upoaa-109",
+        "upoaa-113"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Incapacity or incompetence of the principal in fact; a party is protected until it has actual notice of a judicial determination of incompetence",
+        "phase": "incapacitated",
+        "citations": [
+         "mn-523.09",
+         "mn-523.19",
+         "mn-523.20"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "mn-523.07",
+      "upoaa-109",
+      "upoaa-113",
+      "mn-523.09",
+      "mn-523.19",
+      "mn-523.20"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -56547,7 +57624,7 @@
    "id": "small-estate-affiant",
    "label": "Small-estate collector",
    "definition": "A person who may collect a small estate without a grant of representation, where the law provides a threshold.",
-   "jurisdictionCount": 38,
+   "jurisdictionCount": 39,
    "countryCount": 6,
    "citations": {
     "mu-sw-37": {
@@ -56781,6 +57858,14 @@
      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3983",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "mn-524.3-1201": {
+     "id": "mn-524.3-1201",
+     "cite": "Minn. Stat. § 524.3-1201",
+     "title": "Collection of personal property by affidavit",
+     "url": "https://www.revisor.mn.gov/statutes/cite/524.3-1201",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-3B-10-3": {
      "id": "nj-rs-3B-10-3",
@@ -58165,6 +59250,64 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "small-estate-affiant",
+     "roleName": "Successor collecting personal property by small-estate affidavit",
+     "localNames": [
+      "affiant",
+      "successor",
+      "claiming successor"
+     ],
+     "nameEn": null,
+     "summary": "For a small estate, a person entitled to the decedent's personal property can collect it by affidavit 30 days after death, without court appointment. Anyone who pays or delivers property to them is protected as if they had dealt with a personal representative.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Death; person is a successor entitled to payment or delivery",
+       "phase": "deceased",
+       "citations": [
+        "upc-3-1201"
+       ]
+      },
+      "starts": {
+       "event": "30 days after death, on a certified death record and an affidavit that the entire probate estate net of liens does not exceed $75,000 — claimable by a successor or by a state or county agency with a §256B.15 medical-assistance claim",
+       "phase": "deceased",
+       "citations": [
+        "mn-524.3-1201"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Property paid/delivered; affiant remains answerable to any PR or person with superior right",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1202"
+        ]
+       },
+       {
+        "event": "PR application filed or granted (affidavit condition fails)",
+        "phase": "administration",
+        "citations": [
+         "upc-3-1201"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "upc-3-1201",
+      "mn-524.3-1201",
+      "upc-3-1202"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -58998,7 +60141,7 @@
    "id": "financial-poa-springing",
    "label": "Springing power of attorney",
    "definition": "An appointment made while capable that confers no authority until a later event — usually the person's own incapacity.",
-   "jurisdictionCount": 33,
+   "jurisdictionCount": 34,
    "countryCount": 5,
    "citations": {
     "it-cc-408": {
@@ -59300,6 +60443,22 @@
      "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section5-501",
      "kind": "statute",
      "retrieved": "2026-09-21"
+    },
+    "mn-523.07": {
+     "id": "mn-523.07",
+     "cite": "Minn. Stat. § 523.07",
+     "title": "Durable power of attorney",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.07",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
+    },
+    "mn-523.16": {
+     "id": "mn-523.16",
+     "cite": "Minn. Stat. § 523.16",
+     "title": "Affidavit as proof of authority of attorney-in-fact",
+     "url": "https://www.revisor.mn.gov/statutes/cite/523.16",
+     "kind": "statute",
+     "retrieved": "2026-10-23"
     },
     "nj-rs-46-2B-8-2": {
      "id": "nj-rs-46-2B-8-2",
@@ -60762,6 +61921,79 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-springing",
+     "roleName": "Agent under springing (contingent) financial power of attorney",
+     "localNames": [
+      "attorney-in-fact",
+      "agent under contingent power of attorney"
+     ],
+     "nameEn": null,
+     "summary": "A power of attorney that the principal writes to take effect at a future date or on a future event, most often the principal's incapacity. The POA can name who decides that the event has happened. If it names no one, a physician (or licensed psychologist) can certify impairment, or a lawyer, judge or government official can certify that the principal is missing or detained.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs POA stating it becomes effective on a future date/event (e.g., incapacity)",
+       "phase": "capable",
+       "citations": [
+        "upoaa-105",
+        "upoaa-109"
+       ]
+      },
+      "starts": {
+       "event": "On the incapacity or incompetence of the principal as the instrument provides; no certifier is named, and §523.16's affidavit of conditions precedent is proof of the trigger rather than a procedure for determining it",
+       "phase": "incapacitated",
+       "citations": [
+        "mn-523.07",
+        "mn-523.16"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of principal (good-faith acts without actual knowledge still bind)",
+        "phase": "deceased",
+        "citations": [
+         "upoaa-110a",
+         "upoaa-110d"
+        ]
+       },
+       {
+        "event": "Revocation, POA terms, purpose accomplished, agent exit, spouse-agent dissolution filing",
+        "phase": "incapacitated",
+        "citations": [
+         "upoaa-110a",
+         "upoaa-110b"
+        ]
+       },
+       {
+        "event": "Court limits/suspends/terminates after conservator appointment",
+        "phase": "incapacitated",
+        "citations": [
+         "upoaa-108"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "upoaa-105",
+      "upoaa-109",
+      "mn-523.07",
+      "mn-523.16",
+      "upoaa-110a",
+      "upoaa-110d",
+      "upoaa-110b",
+      "upoaa-108"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -61694,7 +62926,7 @@
    "id": "successor-trustee",
    "label": "Successor trustee",
    "definition": "The trustee who takes over administration of a trust when the previous trustee stops acting.",
-   "jurisdictionCount": 30,
+   "jurisdictionCount": 31,
    "countryCount": 2,
    "citations": {
     "cn-trust-8": {
@@ -63105,6 +64337,80 @@
      "jurisdiction": "us-mi",
      "jurisdictionName": "Michigan",
      "label": "US — Michigan",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "successor-trustee",
+     "roleName": "Successor trustee of a revocable (living) trust",
+     "localNames": [
+      "successor trustee"
+     ],
+     "nameEn": null,
+     "summary": "A person named in the trust to take over when the trusteeship becomes vacant. When that happens depends mainly on the trust's own terms (for example, the settlor-trustee's incapacity as the trust defines it). By default the UTC creates a vacancy when a trustee dies, resigns, is removed, or gets a guardian or conservator. The successor serves only after accepting.",
+     "group": "trust",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Settlor names successor trustee in the trust terms",
+       "phase": "capable",
+       "citations": [
+        "utc-704",
+        "utc-105"
+       ]
+      },
+      "starts": {
+       "event": "Vacancy occurs per trust terms (e.g., incapacity as defined by the trust) or by default on death, resignation, removal, or appointment of guardian/conservator for an individual trustee; successor accepts",
+       "phase": "incapacitated",
+       "citations": [
+        "utc-105",
+        "utc-704",
+        "utc-701"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Trust terminates (e.g., after distribution following settlor's death) and trustee distributes",
+        "phase": "closed",
+        "citations": [
+         "utc-817"
+        ]
+       },
+       {
+        "event": "Successor resigns, is removed, dies, or gets a guardian/conservator",
+        "phase": "administration",
+        "citations": [
+         "utc-705",
+         "utc-706",
+         "utc-704"
+        ]
+       },
+       {
+        "event": "Settlor with capacity revokes/amends trust to remove successor",
+        "phase": "capable",
+        "citations": [
+         "utc-602",
+         "utc-601"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "utc-704",
+      "utc-105",
+      "utc-701",
+      "utc-817",
+      "utc-705",
+      "utc-706",
+      "utc-602",
+      "utc-601"
+     ]
+    },
+    {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
      "country": "United States",
      "region": "North America",
      "roleId": "successor-trustee",
@@ -65370,7 +66676,7 @@
    "id": "tax-representative",
    "label": "Tax representative",
    "definition": "The person who deals with the tax authority for a deceased or incapacitated person.",
-   "jurisdictionCount": 42,
+   "jurisdictionCount": 43,
    "countryCount": 5,
    "citations": {
     "de-ao-34": {
@@ -67039,6 +68345,61 @@
      ]
     },
     {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "irs-fiduciary-notice",
+     "roleName": "Fiduciary of record with the IRS (Form 56 notice)",
+     "localNames": [
+      "Form 56 fiduciary",
+      "notice of fiduciary relationship"
+     ],
+     "nameEn": null,
+     "summary": "Federal tax law does not create fiduciary authority. It recognizes a fiduciary (guardian, conservator, executor, administrator, trustee, or anyone else acting in a fiduciary capacity) once that person notifies the IRS, usually on Form 56. From then on, the fiduciary stands in the taxpayer's shoes for tax matters until notice is given that the fiduciary capacity has terminated. That IRS-facing status can therefore outlast the state-law appointment until termination is reported. An agent under a power of attorney is not a fiduciary for this purpose and uses Form 2848 instead.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person begins acting for another in a fiduciary capacity under other law (e.g., court appointment as guardian or conservator, letters testamentary or of administration, or trusteeship)",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-26-301-6903-1",
+        "irs-i56"
+       ]
+      },
+      "starts": {
+       "event": "Notice of the fiduciary relationship is filed with the IRS (Form 56)",
+       "phase": "administration",
+       "citations": [
+        "usc-26-6903",
+        "cfr-26-301-6903-1",
+        "irs-i56"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Notice is given to the IRS that the fiduciary capacity has terminated (Form 56, Part II)",
+        "phase": "closed",
+        "citations": [
+         "usc-26-6903",
+         "cfr-26-301-6903-1",
+         "irs-i56"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-26-301-6903-1",
+      "irs-i56",
+      "usc-26-6903"
+     ]
+    },
+    {
      "jurisdiction": "us-mo",
      "jurisdictionName": "Missouri",
      "label": "US — Missouri",
@@ -67924,7 +69285,7 @@
    "id": "veterans-fiduciary",
    "label": "Veterans fiduciary",
    "definition": "A fiduciary under a distinct veterans' regime, where one exists separately from the general law.",
-   "jurisdictionCount": 35,
+   "jurisdictionCount": 36,
    "countryCount": 3,
    "citations": {
     "afcs-2011-a71": {
@@ -69557,6 +70918,84 @@
      "jurisdiction": "us-mi",
      "jurisdictionName": "Michigan",
      "label": "US — Michigan",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "va-fiduciary",
+     "roleName": "VA fiduciary",
+     "localNames": [
+      "VA-appointed fiduciary",
+      "federal fiduciary"
+     ],
+     "nameEn": null,
+     "summary": "An individual or entity that the Department of Veterans Affairs appoints to receive and manage a beneficiary's VA benefits. VA appoints one after a VA rating authority finds the beneficiary unable to manage VA benefits, after a court finds the beneficiary unable to manage financial affairs, or when the beneficiary is a minor. The VA incompetency rating is an administrative decision, with notice and a hearing right, and doubt is resolved in favor of competency. The role ends through removal by the VA Hub Manager: when VA rates the beneficiary competent, when the beneficiary dies, when a successor is appointed, or when the fiduciary is removed for cause or withdraws with VA's permission.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "VA rating authority rates the beneficiary incompetent to handle VA funds, or a court with jurisdiction finds the beneficiary unable to manage financial affairs. The Hub Manager then investigates and appoints a fiduciary.",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-38-3-353",
+        "cfr-38-13-20",
+        "cfr-38-13-100",
+        "usc-38-5502"
+       ]
+      },
+      "starts": {
+       "event": "Hub Manager appoints the fiduciary; VA pays benefits to the fiduciary for the use and benefit of the beneficiary and dependents",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-38-13-100",
+        "cfr-38-13-20",
+        "usc-38-5502"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Beneficiary dies: this is a listed reason for removal, and VA benefits are discontinued as of the last day of the month before death",
+        "phase": "deceased",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-3-500-g"
+        ]
+       },
+       {
+        "event": "VA rating authority determines the beneficiary can manage VA benefits (or a court finds this, if the court order was the basis)",
+        "phase": "capable",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-13-30",
+         "cfr-38-3-353"
+        ]
+       },
+       {
+        "event": "Removal for fiduciary reasons (misuse, failure to account, bar under 13.130, loss of qualifications, etc.), or withdrawal after VA arranges a successor",
+        "phase": "incapacitated",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-13-510"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-38-3-353",
+      "cfr-38-13-20",
+      "cfr-38-13-100",
+      "usc-38-5502",
+      "cfr-38-13-500",
+      "cfr-38-3-500-g",
+      "cfr-38-13-30",
+      "cfr-38-13-510"
+     ]
+    },
+    {
+     "jurisdiction": "us-mn",
+     "jurisdictionName": "Minnesota",
+     "label": "US — Minnesota",
      "country": "United States",
      "region": "North America",
      "roleId": "va-fiduciary",
