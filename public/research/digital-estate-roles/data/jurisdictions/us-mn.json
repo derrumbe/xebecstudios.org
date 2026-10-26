@@ -1,0 +1,1056 @@
+{
+ "jurisdiction": "us-mn",
+ "name": "Minnesota",
+ "extends": "us-model",
+ "uniformActsAdopted": [
+  "Uniform Probate Code (1969), enacted 1974 — chapter 524 is titled as such and carries the uniform numbering",
+  "Uniform Guardianship and Protective Proceedings Act (1997), enacted 2003, as article 5 of chapter 524 (§524.5-101)",
+  "Minnesota Trust Code — Uniform Trust Code (2000), chapter 501C, with the §1013 certification recast as a prescribed certificate of trust at §501C.1013",
+  "Revised Uniform Fiduciary Access to Digital Assets Act (2015), enacted 2016 as chapter 521A (§521A.01; the chapter heading drops the \"Revised\")",
+  "Darlene Luther Revised Uniform Anatomical Gift Act (2006), enacted 2007 as chapter 525A",
+  "No uniform power of attorney act: chapter 523 is Minnesota's own, from 1984"
+ ],
+ "note": "Minnesota's chapter 523, enacted in **1984**, is the most completely worked-out acceptance-and-reliance regime in this data, and it got there two decades before the Uniform Power of Attorney Act. §523.20 makes a party refusing a conforming statutory short form \"liable to the principal and to the principal's heirs, assigns, and representative of the estate of the principal **in the same manner as the party would be liable had the party refused to accept the authority of the principal to act on the principal's own behalf**\" — word for word the remedy Nebraska is singled out for in §15 of the findings page, except that Nebraska's arrived in 2012 and Minnesota's in 1984. What Minnesota pairs it with is the opposite of Nebraska's: the duty runs only to the **statutory short form** under §523.23 or §523.231, on a six-part conformity checklist, with no seven-day clock and no fee shift. So the narrowest duty in this data carries the strongest remedy, which breaks the last link §15 had left between an instrument's formality and the obligation it attracts. Minnesota also goes past reliance to **conclusive proof**: §§523.16 and 523.17 make an agent's affidavit conclusive as to a relying party, where the rest of this set offers permission to rely absent actual knowledge.\n\nTwo further things are Minnesota's own. It has **no default health-care surrogate**, which makes it the third US jurisdiction here without one — and the first where a statute says so rather than being silent: §145B.12 provides that where no living will was executed \"a presumption is not created\" about the individual's intentions or the appropriate care. And §149A.80 **expressly excludes the power of attorney** from the class of written instruments that can appoint someone to control disposition of remains, reasoning from its own §§523.08 and 523.09 termination rule — the precise inverse of Arizona's §36-831(A)(2), which names the durable-power agent as a holder of that duty.\n\nThe durability rule itself is ordinary: §523.07 is express-words opt-in with a purposive \"or similar words\" test, and §523.01 makes notarisation a condition of valid execution. §523.11 then keeps the pre-uniform rule that a conservator **or guardian** holds the principal's own power to \"revoke, suspend, or terminate all or any part\" of the instrument — with suspension and partial revocation, which the other states holding that rule do not have.",
+ "citations": [
+  {
+   "id": "mn-523.01",
+   "cite": "Minn. Stat. § 523.01",
+   "title": "Authorization",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.01",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "The power of attorney is validly executed when it is dated and signed by the principal and, in the case of a signature on behalf of the principal, by another, or by a mark, acknowledged by a notary public."
+  },
+  {
+   "id": "mn-523.04",
+   "cite": "Minn. Stat. § 523.04",
+   "title": "Presumption of valid execution",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.04",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "A written power of attorney that is dated and purports to be signed by the principal named in it is presumed to be valid. All parties may rely on this presumption except those who have actual knowledge that the power was not validly executed."
+  },
+  {
+   "id": "mn-523.06",
+   "cite": "Minn. Stat. § 523.06",
+   "title": "Certification",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.06",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "A certified copy of a power of attorney has the same force and effect as a power of attorney bearing the signature of the principal."
+  },
+  {
+   "id": "mn-523.07",
+   "cite": "Minn. Stat. § 523.07",
+   "title": "Durable power of attorney",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.07",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "A power of attorney is durable if it contains language such as \"This power of attorney shall not be affected by incapacity or incompetence of the principal\" or \"This power of attorney shall become effective upon the incapacity or incompetence of the principal,\" or similar words showing the intent of the principal that the authority conferred is exercisable notwithstanding the principal's later incapacity or incompetence."
+  },
+  {
+   "id": "mn-523.075",
+   "cite": "Minn. Stat. § 523.075",
+   "title": "Expiration date in a power of attorney",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.075",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "In a power of attorney, an expiration date, if any, must be stated in terms of a specific month, day, and year. An expiration date stated in any other way has no effect."
+  },
+  {
+   "id": "mn-523.08",
+   "cite": "Minn. Stat. § 523.08",
+   "title": "Termination of a durable power",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.08",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "A durable power of attorney terminates on the earliest to occur of the death of the principal, the expiration of a date of termination specified in the power of attorney, or, in the case of a power of attorney to the spouse of the principal, upon the commencement of proceedings for dissolution, separation, or annulment of the principal's marriage."
+  },
+  {
+   "id": "mn-523.09",
+   "cite": "Minn. Stat. § 523.09",
+   "title": "Termination of a nondurable power of attorney",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.09",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "A nondurable power of attorney terminates on the death of the principal, the incapacity or incompetence of the principal, the expiration of a date of termination specified in the power of attorney"
+  },
+  {
+   "id": "mn-523.11",
+   "cite": "Minn. Stat. § 523.11",
+   "title": "Revocation of a power",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.11",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "The conservator or guardian of the principal has the same power the principal would have if the principal were not incapacitated or incompetent to revoke, suspend, or terminate all or any part of the power of attorney."
+  },
+  {
+   "id": "mn-523.16",
+   "cite": "Minn. Stat. § 523.16",
+   "title": "Affidavit as proof of authority of attorney-in-fact",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.16",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "an affidavit executed by the attorney-in-fact setting forth the conditions precedent to the attorney-in-fact's authority to act under the power of attorney and stating that those conditions have occurred is conclusive proof as to any party relying on the affidavit of the occurrence of those conditions"
+  },
+  {
+   "id": "mn-523.17",
+   "cite": "Minn. Stat. § 523.17",
+   "title": "Affidavit of attorney-in-fact as conclusive proof of nontermination and nonrevocation in real property transactions",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.17",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "Affiant does not have actual knowledge and has not received actual notice of the revocation or termination of the Power of Attorney by Grantor's death, incapacity, incompetence, or otherwise"
+  },
+  {
+   "id": "mn-523.19",
+   "cite": "Minn. Stat. § 523.19",
+   "title": "Third parties held harmless",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.19",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "Any party accepting the authority of an attorney-in-fact to exercise a power granted by a power of attorney is not liable to the principal, to the heirs and assigns of the principal, or to any representative of the estate of the principal if"
+  },
+  {
+   "id": "mn-523.20",
+   "cite": "Minn. Stat. § 523.20",
+   "title": "Liability of parties refusing authority of attorney-in-fact to act on principal's behalf",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.20",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "is liable to the principal and to the principal's heirs, assigns, and representative of the estate of the principal in the same manner as the party would be liable had the party refused to accept the authority of the principal to act on the principal's own behalf"
+  },
+  {
+   "id": "mn-523.23",
+   "cite": "Minn. Stat. § 523.23",
+   "title": "Statutory short form of general power of attorney; formal requirements; joint agents",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.23",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-523.26",
+   "cite": "Minn. Stat. § 523.26",
+   "title": "Judicial relief",
+   "url": "https://www.revisor.mn.gov/statutes/cite/523.26",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "The principal or a person named by the principal in the power of attorney to receive accountings is entitled to recover reasonable attorney fees and costs if the court finds that the attorney-in-fact failed to render an accounting"
+  },
+  {
+   "id": "mn-145C.02",
+   "cite": "Minn. Stat. § 145C.02",
+   "title": "Health care directive",
+   "url": "https://www.revisor.mn.gov/statutes/cite/145C.02",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "A health care directive may include a health care power of attorney to appoint a health care agent to make health care decisions for the principal when the principal, in the judgment of the principal's attending physician, advanced practice registered nurse, or physician assistant, lacks decision-making capacity"
+  },
+  {
+   "id": "mn-145C.03",
+   "cite": "Minn. Stat. § 145C.03",
+   "title": "Requirements",
+   "url": "https://www.revisor.mn.gov/statutes/cite/145C.03",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "contain verification of the principal's signature or the signature of the person authorized by the principal to sign on behalf of the principal, either by a notary public or by witnesses as provided under this chapter"
+  },
+  {
+   "id": "mn-145C.06",
+   "cite": "Minn. Stat. § 145C.06",
+   "title": "When effective",
+   "url": "https://www.revisor.mn.gov/statutes/cite/145C.06",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "A health care directive is not effective for a health care decision when the principal, in the determination of the attending physician, advanced practice registered nurse, or physician assistant of the principal, recovers decision-making capacity"
+  },
+  {
+   "id": "mn-145C.07",
+   "cite": "Minn. Stat. § 145C.07",
+   "title": "Authority and duties of health care agent",
+   "url": "https://www.revisor.mn.gov/statutes/cite/145C.07",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "Unless the principal has otherwise specified in the health care directive, the appointment of the health care agent in a health care directive is considered a nomination of a guardian"
+  },
+  {
+   "id": "mn-145C.09",
+   "cite": "Minn. Stat. § 145C.09",
+   "title": "Revocation of health care directive",
+   "url": "https://www.revisor.mn.gov/statutes/cite/145C.09",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "the appointment by the principal of the principal's spouse or registered domestic partner as health care agent under a health care power of attorney is revoked by the commencement of proceedings for dissolution, annulment, or termination of the principal's marriage"
+  },
+  {
+   "id": "mn-145B.011",
+   "cite": "Minn. Stat. § 145B.011",
+   "title": "Application of chapter",
+   "url": "https://www.revisor.mn.gov/statutes/cite/145B.011",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "This chapter applies only to living wills executed before August 1, 1998."
+  },
+  {
+   "id": "mn-145B.12",
+   "cite": "Minn. Stat. § 145B.12",
+   "title": "What if there is no living will or proxy?",
+   "url": "https://www.revisor.mn.gov/statutes/cite/145B.12",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "If an individual has not executed or has revoked a living will under this chapter, a presumption is not created with respect to: (1) the individual's intentions concerning the provision of health care; or (2) the appropriate health care to be provided."
+  },
+  {
+   "id": "mn-524.3-103",
+   "cite": "Minn. Stat. § 524.3-103",
+   "title": "Necessity of appointment for administration",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.3-103",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "a person must be appointed by order of the court or registrar, qualify and be issued letters. Administration of an estate is commenced by the issuance of letters."
+  },
+  {
+   "id": "mn-524.3-108",
+   "cite": "Minn. Stat. § 524.3-108",
+   "title": "Probate, testacy and appointment proceedings; ultimate time limit",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.3-108",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-524.3-601",
+   "cite": "Minn. Stat. § 524.3-601",
+   "title": "Qualification",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.3-601",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "a personal representative shall qualify by filing with the appointing court any required bond and an oath of office"
+  },
+  {
+   "id": "mn-524.3-610",
+   "cite": "Minn. Stat. § 524.3-610",
+   "title": "Termination of appointment; voluntary",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.3-610",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "An appointment of a personal representative terminates as provided in section 524.3-1003 , one year after the filing of a closing statement."
+  },
+  {
+   "id": "mn-524.3-611",
+   "cite": "Minn. Stat. § 524.3-611",
+   "title": "Termination of appointment by removal; cause; procedure",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.3-611",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-524.3-701",
+   "cite": "Minn. Stat. § 524.3-701",
+   "title": "Time of accrual of duties and powers",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.3-701",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "Prior to appointment, a person named executor in a will may carry out written instructions of the decedent relating to the body, funeral and burial arrangements."
+  },
+  {
+   "id": "mn-524.3-1201",
+   "cite": "Minn. Stat. § 524.3-1201",
+   "title": "Collection of personal property by affidavit",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.3-1201",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "the value of the entire probate estate, determined as of the date of death, wherever located, including specifically any contents of a safe deposit box, less liens and encumbrances, does not exceed $75,000"
+  },
+  {
+   "id": "mn-524.3-1203",
+   "cite": "Minn. Stat. § 524.3-1203",
+   "title": "Summary proceedings",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.3-1203",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-524.5-101",
+   "cite": "Minn. Stat. § 524.5-101",
+   "title": "Short title",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-101",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "Sections 524.5-101 to 524.5-502 may be cited as the Uniform Guardianship and Protective Proceedings Act."
+  },
+  {
+   "id": "mn-524.5-309",
+   "cite": "Minn. Stat. § 524.5-309",
+   "title": "Who may be guardian: priorities",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-309",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "a health care agent appointed by the respondent in a health care directive that does not include limitations on the nomination of the health care agent as a guardian"
+  },
+  {
+   "id": "mn-524.5-310",
+   "cite": "Minn. Stat. § 524.5-310",
+   "title": "Findings; order of appointment",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-310",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-524.5-313",
+   "cite": "Minn. Stat. § 524.5-313",
+   "title": "Powers and duties of guardian",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-313",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "the duty to provide for the care, comfort, and maintenance needs of the person subject to guardianship, including food, clothing, shelter, health care, social and recreational requirements"
+  },
+  {
+   "id": "mn-524.5-317",
+   "cite": "Minn. Stat. § 524.5-317",
+   "title": "Termination or modification of guardianship; court orders",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-317",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "A guardianship terminates upon the death of the person subject to guardianship, upon the expiration of the duration of guardianship established in the order appointing the guardian, or upon order of the court."
+  },
+  {
+   "id": "mn-524.5-401",
+   "cite": "Minn. Stat. § 524.5-401",
+   "title": "Protective proceeding",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-401",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-524.5-409",
+   "cite": "Minn. Stat. § 524.5-409",
+   "title": "Findings; order of appointment",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-409",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-524.5-412",
+   "cite": "Minn. Stat. § 524.5-412",
+   "title": "Protective arrangements and single transactions",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-412",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-524.5-413",
+   "cite": "Minn. Stat. § 524.5-413",
+   "title": "Who may be conservator; priorities",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-413",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "a person nominated as conservator by the respondent, including the respondent's most recent nomination made in a durable power of attorney"
+  },
+  {
+   "id": "mn-524.5-421",
+   "cite": "Minn. Stat. § 524.5-421",
+   "title": "Title after appointment",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-421",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-524.5-428",
+   "cite": "Minn. Stat. § 524.5-428",
+   "title": "Death of person subject to conservatorship",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-428",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "If a personal representative has not been appointed within 90 days after the death of a person subject to conservatorship and an application or petition for appointment is not before the court, the conservator may apply or petition for appointment as personal representative"
+  },
+  {
+   "id": "mn-524.5-431",
+   "cite": "Minn. Stat. § 524.5-431",
+   "title": "Termination of proceedings",
+   "url": "https://www.revisor.mn.gov/statutes/cite/524.5-431",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-501C.0701",
+   "cite": "Minn. Stat. § 501C.0701",
+   "title": "Accepting or declining trusteeship",
+   "url": "https://www.revisor.mn.gov/statutes/cite/501C.0701",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-501C.0704",
+   "cite": "Minn. Stat. § 501C.0704",
+   "title": "Vacancy in trusteeship; appointment of successor",
+   "url": "https://www.revisor.mn.gov/statutes/cite/501C.0704",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-501C.0705",
+   "cite": "Minn. Stat. § 501C.0705",
+   "title": "Resignation of trustee",
+   "url": "https://www.revisor.mn.gov/statutes/cite/501C.0705",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-501C.0706",
+   "cite": "Minn. Stat. § 501C.0706",
+   "title": "Removal of trustee",
+   "url": "https://www.revisor.mn.gov/statutes/cite/501C.0706",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-501C.1013",
+   "cite": "Minn. Stat. § 501C.1013",
+   "title": "Certificate of trust",
+   "url": "https://www.revisor.mn.gov/statutes/cite/501C.1013",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "The settlor or a trustee of a trust, at any time after execution or creation of a trust, may execute a certificate of trust that sets forth fewer than all of the provisions of a trust instrument"
+  },
+  {
+   "id": "mn-521A.01",
+   "cite": "Minn. Stat. § 521A.01",
+   "title": "Short title",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.01",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "This chapter may be cited as the \"Revised Uniform Fiduciary Access to Digital Assets Act.\""
+  },
+  {
+   "id": "mn-521A.04",
+   "cite": "Minn. Stat. § 521A.04",
+   "title": "User direction for disclosure of digital assets",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.04",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-521A.05",
+   "cite": "Minn. Stat. § 521A.05",
+   "title": "Terms-of-service agreement",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.05",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-521A.06",
+   "cite": "Minn. Stat. § 521A.06",
+   "title": "Procedure for disclosing digital assets",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.06",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-521A.07",
+   "cite": "Minn. Stat. § 521A.07",
+   "title": "Disclosure of content of electronic communications of deceased user",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.07",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-521A.08",
+   "cite": "Minn. Stat. § 521A.08",
+   "title": "Disclosure of other digital assets of deceased user",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.08",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-521A.14",
+   "cite": "Minn. Stat. § 521A.14",
+   "title": "Disclosure of digital assets to conservator of protected person",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.14",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-521A.15",
+   "cite": "Minn. Stat. § 521A.15",
+   "title": "Fiduciary duty and authority",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.15",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-521A.16",
+   "cite": "Minn. Stat. § 521A.16",
+   "title": "Custodian compliance and immunity",
+   "url": "https://www.revisor.mn.gov/statutes/cite/521A.16",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-525A.01",
+   "cite": "Minn. Stat. § 525A.01",
+   "title": "Short title",
+   "url": "https://www.revisor.mn.gov/statutes/cite/525A.01",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "This chapter may be cited as the \"Darlene Luther Revised Uniform Anatomical Gift Act.\""
+  },
+  {
+   "id": "mn-525A.04",
+   "cite": "Minn. Stat. § 525A.04",
+   "title": "Who may make anatomical gift before donor's death",
+   "url": "https://www.revisor.mn.gov/statutes/cite/525A.04",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-525A.05",
+   "cite": "Minn. Stat. § 525A.05",
+   "title": "Manner of making anatomical gift before donor's death",
+   "url": "https://www.revisor.mn.gov/statutes/cite/525A.05",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-525A.09",
+   "cite": "Minn. Stat. § 525A.09",
+   "title": "Who may make anatomical gift of decedent's body or part",
+   "url": "https://www.revisor.mn.gov/statutes/cite/525A.09",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-525A.20",
+   "cite": "Minn. Stat. § 525A.20",
+   "title": "Donor registry",
+   "url": "https://www.revisor.mn.gov/statutes/cite/525A.20",
+   "kind": "statute",
+   "retrieved": "2026-10-23"
+  },
+  {
+   "id": "mn-525A.21",
+   "cite": "Minn. Stat. § 525A.21",
+   "title": "Effect of anatomical gift on health care directive",
+   "url": "https://www.revisor.mn.gov/statutes/cite/525A.21",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "an agent acting under the prospective donor's declaration or directive or, if there is none or the agent is not reasonably available, another person authorized by a law other than this chapter to make health care decisions on behalf of the prospective donor, shall act for the donor to resolve the conflict"
+  },
+  {
+   "id": "mn-149A.80",
+   "cite": "Minn. Stat. § 149A.80",
+   "title": "Death; right to control and duty of disposition",
+   "url": "https://www.revisor.mn.gov/statutes/cite/149A.80",
+   "kind": "statute",
+   "retrieved": "2026-10-23",
+   "quote": "Written instrument does not include a durable or nondurable power of attorney which terminates on the death of the principal pursuant to sections 523.08 and 523.09"
+  }
+ ],
+ "patches": [
+  {
+   "role": "financial-poa-durable",
+   "localNames": [
+    "attorney-in-fact",
+    "statutory short form power of attorney"
+   ],
+   "diff": "Minnesota took no uniform power of attorney act. Chapter 523 is its own, enacted in **1984**, and it is the most completely worked-out acceptance-and-reliance regime in this data — which matters more than its durability rule, because the durability rule is the ordinary one.\n\nDurability is **opt-in on express words**, as in Arizona, Kansas and Missouri: §523.07 makes a power durable if it contains language \"such as\" one of two sentences it prints \"or similar words showing the intent of the principal\". The test is purposive rather than a closed list. Execution is strict — §523.01 makes a power \"validly executed\" only when dated, signed and **acknowledged by a notary public**, so an un-notarised Minnesota power is not a power — and §523.075 adds a rule nothing else here has: an expiration date \"must be stated in terms of a specific month, day, and year\", and one \"stated in any other way **has no effect**\".\n\nWhat Minnesota builds on top of that is a four-layer structure for the relying party:\n\n- **A presumption.** §523.04: a dated power purporting to be signed by the principal \"is presumed to be valid\", and all parties may rely on it except those with actual knowledge it was not validly executed. §523.06 adds that a **certified copy** has the same force as the signed original.\n- **Conclusive proof, not merely reliance.** §523.16 makes an agent's affidavit of the conditions precedent to a successor's authority \"**conclusive proof** as to any party relying on the affidavit\", and §523.17 does the same for nontermination and nonrevocation in real-property transactions, on a statutory form. Elsewhere in this data a relying party gets permission to rely absent actual knowledge; here the affidavit settles the fact.\n- **A safe harbour.** §523.19 holds harmless any party *accepting* the authority, on a five-part checklist.\n- **A duty with a remedy.** §523.20 — see below, and §15 of the findings page.\n\nThe termination rule is where Minnesota diverges. §523.08 ends a durable power on the earliest of the principal's death, a stated termination date, or, for a spouse-agent, the commencement of dissolution, separation or annulment proceedings — and **not** on the appointment of a conservator. Instead §523.11 gives the conservator **or guardian** \"the same power the principal would have ... to revoke, **suspend**, or terminate **all or any part** of the power of attorney\". That is the Uniform Durable Power of Attorney Act rule the UPOAA §108(b) comment says it departed from, and Minnesota holds it from 1984 with two additions nothing else here has: suspension as well as revocation, and a power that can be exercised over **part** of the instrument. Revocation is also not effective against a party without **actual notice**, which §523.11 defines — a written instrument received by the party, or, for real property, one recorded with the county recorder.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a power dated and acknowledged before a notary, containing express words of durability or similar words showing that intent (§§523.01, 523.07)",
+     "phase": "capable",
+     "citations": [
+      "mn-523.01",
+      "mn-523.07"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the principal; a stated termination date, which has no effect unless given as a specific month, day and year; or, for a spouse-agent, commencement of dissolution, separation or annulment proceedings",
+      "phase": "deceased",
+      "citations": [
+       "mn-523.08",
+       "mn-523.075"
+      ]
+     },
+     {
+      "event": "Conservator or guardian revokes, suspends or terminates all or any part of the power — holding the principal's own power to do so; not effective against a party without actual notice as §523.11 defines it",
+      "phase": "incapacitated",
+      "citations": [
+       "mn-523.11"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "mn-523.01",
+    "mn-523.04",
+    "mn-523.06",
+    "mn-523.07",
+    "mn-523.075",
+    "mn-523.08",
+    "mn-523.11",
+    "mn-523.16",
+    "mn-523.17",
+    "mn-523.19",
+    "mn-523.20",
+    "mn-523.23",
+    "mn-523.26"
+   ]
+  },
+  {
+   "role": "financial-poa-nondurable",
+   "diff": "The default, as in Arizona: because §523.07 conditions durability on express words, a power that says nothing about incapacity is nondurable. §523.09 then ends it on the principal's death, **the incapacity or incompetence of the principal**, a stated termination date, or a spouse-agent's dissolution proceedings — and note that Minnesota terminates on the *fact* of incapacity, while the relying-party protections in §§523.19 and 523.20 turn on \"actual notice of a judicial determination that the principal is legally incompetent\". So the power ends before anyone need know it has, and the statute handles the gap on the reliance side rather than by deferring termination.",
+   "lane": {
+    "assigned": {
+     "event": "Principal signs a power with no words of durability — the result of saying nothing",
+     "phase": "capable",
+     "citations": [
+      "mn-523.07"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Incapacity or incompetence of the principal in fact; a party is protected until it has actual notice of a judicial determination of incompetence",
+      "phase": "incapacitated",
+      "citations": [
+       "mn-523.09",
+       "mn-523.19",
+       "mn-523.20"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "mn-523.07",
+    "mn-523.09",
+    "mn-523.19",
+    "mn-523.20"
+   ]
+  },
+  {
+   "role": "financial-poa-springing",
+   "diff": "Named in the safe-harbour language itself, as in Arizona: the second sentence §523.07 offers is \"This power of attorney shall become effective upon the incapacity or incompetence of the principal.\" And as in Arizona, Minnesota supplies no machinery for determining that the trigger occurred — no certifier is named and no default to a physician is given, so the start of authority rests on the instrument's drafting. §523.16's affidavit of \"the conditions precedent to the attorney-in-fact's authority to act\" is the nearest thing, and it is proof of the condition rather than a procedure for finding it.",
+   "lane": {
+    "starts": {
+     "event": "On the incapacity or incompetence of the principal as the instrument provides; no certifier is named, and §523.16's affidavit of conditions precedent is proof of the trigger rather than a procedure for determining it",
+     "phase": "incapacitated",
+     "citations": [
+      "mn-523.07",
+      "mn-523.16"
+     ]
+    }
+   },
+   "citations": [
+    "mn-523.07",
+    "mn-523.16"
+   ]
+  },
+  {
+   "role": "health-care-agent",
+   "localNames": [
+    "health care agent",
+    "health care directive"
+   ],
+   "diff": "Chapter 145C replaced the living-will chapter for anything executed on or after 1 August 1998 (§145B.011), and it is built around one instrument — a **health care directive** — which may carry instructions, a health care power of attorney, or both (§145C.02). So the agent is optional furniture in a document that can exist without one.\n\nThree things differ from the baseline. The capacity determination names **three clinician types**, not one: authority attaches when the principal \"in the judgment of the principal's attending physician, **advanced practice registered nurse, or physician assistant**, lacks decision-making capacity\", a widening made by the 2020 and 2022 amendments. It is expressly **reversible** — §145C.06 says the directive \"is not effective for a health care decision when the principal ... **recovers** decision-making capacity\". And execution takes a notary **or** witnesses (§145C.03), with the capacity-determiner and the attending provider disqualified from acting as agent.\n\nThe structural point is §145C.07, subdivision 2: unless the principal says otherwise, appointing a health care agent \"is considered a **nomination of a guardian**\". §524.5-309(a)(2) then ranks that agent **second** in the guardianship priority list — above the spouse, behind only a guardian already acting. In most of this set a court appointment displaces the agent; in Minnesota the agent is the court's second choice to *become* the appointee.\n\n§145C.09 adds a revocation route the baseline does not have — a principal with capacity may revoke by destroying the instrument, by a dated writing, by **verbally expressing the intent before two witnesses who need not be present at the same time**, or by executing a later inconsistent directive — and revokes a **spouse or registered domestic partner** agent on the commencement of dissolution, annulment or termination proceedings.",
+   "lane": {
+    "assigned": {
+     "event": "Principal with capacity executes a health care directive, verified by a notary or by witnesses, which may include a health care power of attorney (§§145C.02, 145C.03)",
+     "phase": "capable",
+     "citations": [
+      "mn-145C.02",
+      "mn-145C.03"
+     ]
+    },
+    "starts": {
+     "event": "The attending physician, advanced practice registered nurse or physician assistant judges the principal to lack decision-making capacity, or other conditions the principal specified are met",
+     "phase": "incapacitated",
+     "citations": [
+      "mn-145C.02",
+      "mn-145C.06",
+      "mn-145C.07"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal recovers decision-making capacity in the clinician's determination — the directive ceases to be effective and revives if capacity is lost again",
+      "phase": "capable",
+      "citations": [
+       "mn-145C.06"
+      ]
+     },
+     {
+      "event": "Revoked by destruction, a dated writing, words spoken before two witnesses, or a later inconsistent directive; a spouse or registered domestic partner agent is revoked by dissolution, annulment or termination proceedings",
+      "phase": "capable",
+      "citations": [
+       "mn-145C.09"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "mn-145C.02",
+    "mn-145C.03",
+    "mn-145C.06",
+    "mn-145C.07",
+    "mn-145C.09",
+    "mn-145B.011",
+    "mn-524.5-309"
+   ]
+  },
+  {
+   "role": "default-surrogate",
+   "absent": true,
+   "summary": "Minnesota has no default health-care surrogate: nobody can make health-care decisions for an incapacitated adult by operation of law.",
+   "diff": "**Dropped: Minnesota has no default surrogate**, and it is the third US jurisdiction here without one after Missouri and Kansas — but the first where the absence is **stated in the statute** rather than inferred from silence.\n\n§145B.12, subdivision 1, is headed \"What if there is no living will or proxy?\" and answers it: where an individual \"has not executed or has revoked a living will under this chapter, **a presumption is not created** with respect to: (1) the individual's intentions concerning the provision of health care; or (2) the appropriate health care to be provided.\" Subdivision 2 adds that nothing in the chapter authorises withholding artificially administered nutrition or hydration from a person who issued neither a living will nor a proxy. Chapter 145B is itself closed — §145B.011 confines it to living wills executed before 1 August 1998 — so this is a live provision of a chapter that takes no new instruments, declining to supply what chapter 145C also does not.\n\nThe routes that remain all need an instrument or a judge: a health care directive under chapter 145C, or a guardian, whose §524.5-313 duties include the \"care, comfort, and maintenance needs\" of the person subject to guardianship, health care among them. §525A.21 shows the gap from the other side — where an anatomical gift conflicts with a directive and the donor cannot resolve it, the conflict passes to the agent or, failing that, to \"another person authorized by **a law other than this chapter** to make health care decisions\", which in Minnesota is nobody.\n\nMethod, because it decides how far the claim reaches: `leg.state.mn.us`, which carries the revisor's full-text search, is not reachable from this environment, so this rests on reading **catchlines** — 1,644 section rows across chapters 144, 144A, 145, 145A, 145B, 145C, 145D, 253B, 256B, 524 and 525, covering the public health code, health care directives, living wills, civil commitment, medical assistance, the probate code and guardianship. The only \"surrogate\" or \"proxy\" catchlines in any of them are §145B.08 and §145B.12, both about a **living-will proxy** the declarant appointed, not a default. The claim is scoped to those chapters and stated that way, as Kansas's is.",
+   "citations": [
+    "mn-145B.12",
+    "mn-145B.011",
+    "mn-145C.02",
+    "mn-524.5-313",
+    "mn-525A.21"
+   ]
+  },
+  {
+   "role": "guardian-person",
+   "localNames": [
+    "guardian",
+    "person subject to guardianship"
+   ],
+   "diff": "The Uniform Guardianship and Protective Proceedings Act, enacted 2003 and cited as such by §524.5-101, sitting as article 5 of the probate chapter. Minnesota rewrote its vocabulary in 2020 to \"**person subject to guardianship**\" in place of \"ward\", which is worth noting for anyone matching terms across states.\n\nTwo things are Minnesota's own. §524.5-309(a) puts a **health care agent appointed under chapter 145C second** in the priority list, above the spouse and behind only a guardian already acting — the concrete effect of §145C.07's deeming an agent's appointment a nomination. A spouse or parent may also nominate by will or other signed writing \"executed in the same manner as a health care directive\", which imports chapter 145C's execution rules into the probate chapter.\n\nAnd §524.5-317 ends a guardianship on three triggers rather than the baseline's two: the death of the person subject to guardianship, **the expiration of the duration of guardianship established in the order appointing the guardian**, or court order. A Minnesota guardianship can therefore be written to expire on its own, which most of this set does not contemplate.",
+   "lane": {
+    "assigned": {
+     "event": "A health care agent under chapter 145C ranks second in the §524.5-309 priority list, above the spouse; a spouse or parent may nominate by will or a writing executed like a health care directive",
+     "phase": "capable",
+     "citations": [
+      "mn-524.5-309",
+      "mn-145C.07"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person subject to guardianship, expiration of a duration set in the appointing order, or court order",
+      "phase": "deceased",
+      "citations": [
+       "mn-524.5-317"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "mn-524.5-101",
+    "mn-524.5-309",
+    "mn-524.5-310",
+    "mn-524.5-317",
+    "mn-145C.07"
+   ]
+  },
+  {
+   "role": "conservator-estate",
+   "localNames": [
+    "conservator",
+    "person subject to conservatorship"
+   ],
+   "diff": "Minnesota gives the power of attorney **two** separate priorities ahead of the spouse, where Arizona gives it one. §524.5-413(a) lists: a fiduciary already appointed elsewhere; then \"a person nominated as conservator by the respondent, **including the respondent's most recent nomination made in a durable power of attorney**\"; then \"**an agent appointed by the respondent to manage the respondent's property under a durable power of attorney**\"; and only then the spouse. So both the person the instrument names as conservator and the person it names as agent outrank the family.\n\nThat sits with §523.11, which lets the conservator once appointed revoke, suspend or terminate the very instrument that gave them priority.\n\n§524.5-428 adds a bridge the baseline does not have. On the death of the person subject to conservatorship the conservator lodges any will with the court and holds the estate for a personal representative — and if none is appointed **within 90 days** and no application is pending, \"the conservator may apply or petition for appointment as personal representative in order to administer and distribute the decedent's estate\". The conservator can therefore become the executor's successor by default rather than simply winding up. §524.5-412 also carries the uniform act's **protective arrangement or single transaction**, a court order that resolves one matter without appointing anyone.",
+   "lane": {
+    "assigned": {
+     "event": "Nomination in a durable power of attorney, and separately the agent appointed under one, both rank above the spouse in §524.5-413",
+     "phase": "capable",
+     "citations": [
+      "mn-524.5-413"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Death of the person subject to conservatorship: the conservator holds the estate for a personal representative, and may petition to be appointed one if none is appointed within 90 days",
+      "phase": "deceased",
+      "citations": [
+       "mn-524.5-428"
+      ]
+     },
+     {
+      "event": "Court terminates the proceedings",
+      "phase": "capable",
+      "citations": [
+       "mn-524.5-431"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "mn-524.5-401",
+    "mn-524.5-409",
+    "mn-524.5-412",
+    "mn-524.5-413",
+    "mn-524.5-421",
+    "mn-524.5-428",
+    "mn-524.5-431",
+    "mn-523.11"
+   ]
+  },
+  {
+   "role": "personal-representative-executor",
+   "localNames": [
+    "personal representative"
+   ],
+   "diff": "The Uniform Probate Code, enacted 1974 and titled as such — chapter 524 is headed \"UNIFORM PROBATE CODE\" and the sections carry the uniform numbering (§524.3-103 is UPC 3-103). The grant is **letters**: §524.3-103 says a person \"must be appointed by order of the court or registrar, qualify and be issued letters\", and \"administration of an estate is commenced by the issuance of letters\".\n\nQualification takes \"any required bond and an **oath of office**\" (§524.3-601), where Arizona takes a statement of acceptance; a corporate representative files a statement instead. Termination follows the UPC — one year after a closing statement, an order closing the estate, resignation effective only on a successor's appointment after 15 days' notice (§524.3-610), or removal for cause (§524.3-611).\n\n§524.3-701 carries the same pre-appointment power over the body that Arizona's §14-3701 does: \"prior to appointment, a person named executor in a will may carry out written instructions of the decedent relating to the body, funeral and burial arrangements\". In Minnesota that provision has more work to do, because §149A.80 makes a written instrument signed by the decedent the first class entitled to control disposition and **excludes the power of attorney from that class** — so the will, and the person it names, is the instrument that reaches past death here.",
+   "lane": {
+    "assigned": {
+     "event": "Testator names an executor; before appointment the nominee may already carry out the decedent's written instructions about the body and funeral",
+     "phase": "capable",
+     "citations": [
+      "mn-524.3-701"
+     ]
+    },
+    "starts": {
+     "event": "Appointment by court order or registrar, qualification by bond and an oath of office, and issuance of letters — which is when administration commences; powers relate back",
+     "phase": "administration",
+     "citations": [
+      "mn-524.3-103",
+      "mn-524.3-601",
+      "mn-524.3-701"
+     ]
+    },
+    "ends": [
+     {
+      "event": "One year after filing a closing statement, or an order closing the estate",
+      "phase": "closed",
+      "citations": [
+       "mn-524.3-610"
+      ]
+     },
+     {
+      "event": "Removal for cause, or resignation effective only on a successor's appointment after 15 days' notice",
+      "phase": "administration",
+      "citations": [
+       "mn-524.3-610",
+       "mn-524.3-611"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    "mn-524.3-103",
+    "mn-524.3-108",
+    "mn-524.3-601",
+    "mn-524.3-610",
+    "mn-524.3-611",
+    "mn-524.3-701",
+    "mn-149A.80"
+   ]
+  },
+  {
+   "role": "personal-representative-administrator",
+   "localNames": [
+    "personal representative"
+   ],
+   "diff": "The same chapter 524 machinery reached without a will — appointment, qualification by bond and oath, and letters under §524.3-103, with the §524.3-108 three-year outer limit on commencing proceedings. Nothing here departs from the uniform text.",
+   "differs": false,
+   "citations": [
+    "mn-524.3-103",
+    "mn-524.3-108",
+    "mn-524.3-601",
+    "mn-524.3-610"
+   ]
+  },
+  {
+   "role": "small-estate-affiant",
+   "diff": "§524.3-1201 is the Uniform Probate Code's affidavit at **$75,000** after **30 days**, three times the model's $25,000 — but Minnesota widens it in two directions the baseline does not.\n\nIt names **safe deposit companies**. Where most states oblige a person indebted to the decedent or holding tangible personal property, Minnesota adds \"any safe deposit company ... controlling the right of access to decedent's safe deposit box\", which \"shall ... deliver **the entire contents of the safe deposit box**\" on the affidavit. The box is the archetype of an asset a custodian holds behind an access control, so it is worth noting that the one state in this set to legislate it did so for a physical box.\n\nAnd it widens **who may claim**. Besides a person claiming to be the successor, the section names \"a state or county agency with a claim authorized by section 256B.15\" — medical-assistance recovery. So in Minnesota a public **creditor** can use the no-grant route, which everywhere else is a successor's mechanism. The affidavit must be presented with a **certified death record**, and the $75,000 ceiling is computed on the entire probate estate at the date of death, wherever located, \"including specifically any contents of a safe deposit box\", less liens and encumbrances.\n\n§524.3-1203 is the separate summary-proceedings route for an appointed representative, with no figure of its own.",
+   "lane": {
+    "starts": {
+     "event": "30 days after death, on a certified death record and an affidavit that the entire probate estate net of liens does not exceed $75,000 — claimable by a successor or by a state or county agency with a §256B.15 medical-assistance claim",
+     "phase": "deceased",
+     "citations": [
+      "mn-524.3-1201"
+     ]
+    }
+   },
+   "citations": [
+    "mn-524.3-1201",
+    "mn-524.3-1203"
+   ]
+  },
+  {
+   "role": "successor-trustee",
+   "diff": "The Minnesota Trust Code, chapter 501C, is the Uniform Trust Code (2015), and the office-of-trustee sections are the uniform ones: acceptance under §501C.0701, vacancy and the filling order under §501C.0704, resignation under §501C.0705 and removal under §501C.0706.\n\nWhere Minnesota departs is §501C.1013, and the name is the clue: a **certificate** of trust rather than the uniform act's certification. The uniform §1013 lets a trustee furnish a certification containing a listed set of facts; Minnesota **prescribes the contents** — six mandatory items, including the number of trustees required to act and a statement whether the trust has terminated or been revoked, and either a printed statement of the trustees' power to \"sell, convey, pledge, mortgage, lease, or transfer title to any interest in real or personal property, except as limited by the following\" or information about the powers relevant to the purpose for which the certificate is offered. A relying party therefore knows what the artefact must contain, which is the same instinct chapter 523 shows about affidavits.",
+   "differs": false,
+   "citations": [
+    "mn-501C.0701",
+    "mn-501C.0704",
+    "mn-501C.0705",
+    "mn-501C.0706",
+    "mn-501C.1013"
+   ]
+  },
+  {
+   "role": "rufadaa-designated-recipient",
+   "diff": "Minnesota enacted the Revised Uniform Fiduciary Access to Digital Assets Act in 2016 as chapter 521A. The chapter heading drops the \"Revised\" — it reads \"UNIFORM FIDUCIARY ACCESS TO DIGITAL ASSETS ACT\" — while §521A.01 keeps it: the chapter \"may be cited as the 'Revised Uniform Fiduciary Access to Digital Assets Act.'\" Read the short title, not the heading; Missouri and West Virginia drop the word in the opposite place.\n\n§521A.04 is the uniform online-tool rule, designated recipient included, and as in the uniform act nothing fixes when that authority begins or ends — the chapter defers to the tool.",
+   "differs": false,
+   "citations": [
+    "mn-521A.01",
+    "mn-521A.04",
+    "mn-521A.05"
+   ]
+  },
+  {
+   "role": "rufadaa-fiduciary",
+   "diff": "Uniform, across all nineteen sections: content and catalogue disclosure for a deceased user's personal representative (§§521A.07, 521A.08), the same for a principal's agent (§§521A.09, 521A.10 in the chapter), trust lanes at §§521A.11 to 521A.13, a **conservator** lane at §521A.14, the fiduciary duty and authority section at §521A.15, and custodian compliance within 60 days with immunity at §521A.16. §521A.06 leaves the manner of disclosure to the custodian's discretion with the undue-burden route to court.\n\nThe interaction worth noting is with the small-estate route: Minnesota's §524.3-1201 affidavit reaches $75,000, so the no-appointment path into a custodian's disclosure duty is three times as wide as the Uniform Probate Code's.",
+   "differs": false,
+   "citations": [
+    "mn-521A.06",
+    "mn-521A.07",
+    "mn-521A.08",
+    "mn-521A.14",
+    "mn-521A.15",
+    "mn-521A.16",
+    "mn-524.3-1201"
+   ]
+  },
+  {
+   "role": "anatomical-gift-agent",
+   "diff": "The **Darlene Luther** Revised Uniform Anatomical Gift Act, chapter 525A, enacted 2007 — one of the few named acts in this data, and §525A.01 carries the name in the short title itself. The substance is the uniform act: an agent may make a gift during the donor's life under §525A.04 unless the directive prohibits it, §525A.09 ranks the post-mortem classes with the agent first, and §525A.20 establishes the donor registry.\n\n§525A.21 is the conflict provision between a gift and a health care directive that Kansas and Nebraska also have and most of this set does not — and in Minnesota it has a gap written into it. The conflict is resolved by the donor and the attending physician conferring; if the donor cannot, it passes to the agent, \"or, if there is none or the agent is not reasonably available, **another person authorized by a law other than this chapter** to make health care decisions on behalf of the prospective donor\". Minnesota has no default surrogate, so for a donor who executed no directive that fallback names nobody.",
+   "differs": false,
+   "citations": [
+    "mn-525A.01",
+    "mn-525A.04",
+    "mn-525A.05",
+    "mn-525A.09",
+    "mn-525A.20",
+    "mn-525A.21"
+   ]
+  },
+  {
+   "role": "disposition-of-remains-agent",
+   "name": "Person with the right to control and duty of disposition",
+   "group": "remains",
+   "localNames": [
+    "person appointed in a dated written instrument signed by the decedent"
+   ],
+   "summary": "The person in whom the right to control the dead body vests and on whom the duty of final disposition devolves, taken from a written instrument the decedent signed or, failing that, from a twelve-class statutory order.",
+   "lane": {
+    "assigned": {
+     "event": "Decedent appoints a person in a dated written instrument they signed — which §149A.80 says includes a health care directive under chapter 145C, and expressly does **not** include a power of attorney; or leaves written, dated and witnessed directions, or directions in a will",
+     "phase": "capable",
+     "citations": [
+      "mn-149A.80"
+     ]
+    },
+    "starts": {
+     "event": "Death of the decedent",
+     "phase": "deceased",
+     "citations": [
+      "mn-149A.80"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The holder refuses to accept or declines to act, and the right passes to another of the same degree or to the next degree",
+      "phase": "deceased",
+      "citations": [
+       "mn-149A.80"
+      ]
+     },
+     {
+      "event": "A district court finds the holder and the decedent were estranged at the time of death — defined as \"mutual enmity, hostility, or indifference\" — and the right devolves to the next degree",
+      "phase": "deceased",
+      "citations": [
+       "mn-149A.80"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "states": [
+    {
+     "id": "not_designated",
+     "label": "No written instrument"
+    },
+    {
+     "id": "designated",
+     "label": "Named in a written instrument"
+    },
+    {
+     "id": "active",
+     "label": "Right vested on death"
+    },
+    {
+     "id": "terminated",
+     "label": "Disposition arranged, refused, or passed on"
+    }
+   ],
+   "transitions": [
+    {
+     "id": "mn-t-dor-vest",
+     "from": "designated",
+     "to": "active",
+     "event": "Death: the right to control vests and the duty devolves on the first available class under §149A.80, subd. 2",
+     "conditions": [
+      "Order: (1) a person appointed in a dated written instrument signed by the decedent, a health care directive included — but **not** a power of attorney, which terminates at death under §§523.08 and 523.09; (2) spouse; (3) adult child or a majority of them; (4) surviving parents, equal authority; (5) adult sibling or a majority; (6) adult grandchild or a majority; (7) grandparents, equal authority; (8) adult nieces and nephews or a majority; (9) a guardian of the person with health-care authority at death; (10) an adult who exhibited special care and concern; (11) the next degree of kinship entitled to inherit; (12) the appropriate public or court authority",
+      "Between competing instruments, one that is witnessed or notarised prevails over one that is not"
+     ],
+     "citations": [
+      "mn-149A.80"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "mn-t-dor-will",
+     "from": "not_designated",
+     "to": "active",
+     "event": "Instructions in a will are carried out immediately, regardless of the will's validity in other respects or of whether it has yet been offered for probate",
+     "conditions": [],
+     "citations": [
+      "mn-149A.80"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "mn-t-dor-estranged",
+     "from": "active",
+     "to": "terminated",
+     "event": "District court finds the sole holder in classes (1) to (6) was estranged from the decedent at death; the right devolves to the next degree",
+     "conditions": [
+      "\"Estranged\" means \"having a relationship characterized by mutual enmity, hostility, or indifference\""
+     ],
+     "citations": [
+      "mn-149A.80"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "mn-t-dor-refuse",
+     "from": "active",
+     "to": "terminated",
+     "event": "Holder in classes (1) to (6) refuses or declines to act; the right passes within the same degree, then to the next",
+     "conditions": [],
+     "citations": [
+      "mn-149A.80"
+     ],
+     "unverified": false
+    },
+    {
+     "id": "mn-t-dor-dispute",
+     "from": "active",
+     "to": "active",
+     "event": "Dispute, or co-equal holders who cannot decide by majority: the parties, or the funeral director, petition the district court, which weighs four listed factors",
+     "conditions": [
+      "Factors: the resources available to pay for the proposed arrangements; the degree of personal relationship between the decedent and each person of that degree; the decedent's expressed wishes and the resources they provided for them; and the degree to which the arrangements will allow participation by all who wish to pay respect"
+     ],
+     "citations": [
+      "mn-149A.80"
+     ],
+     "unverified": false
+    }
+   ],
+   "diff": "New role. §149A.80 is the fullest disposition-of-remains scheme in this data, and the provision that matters most is an **exclusion**.\n\nThe first class entitled to control is \"the person or persons appointed in a dated written instrument signed by the decedent\", and the section says that instrument \"includes, but is not limited to, a health care directive executed under chapter 145C\" — then adds: \"**Written instrument does not include a durable or nondurable power of attorney which terminates on the death of the principal pursuant to sections 523.08 and 523.09.**\" Minnesota reasons straight from its own termination rule to exclude the power of attorney from the role, and says so on the face of the statute. Arizona's §36-831(A)(2) does the exact opposite, naming the agent under either a health care or a **durable financial** power as a holder of the duty where the instrument expressly grants it. Two consecutive additions to this reference, the same question, opposite answers, each express.\n\nThe rest is unusually articulated. Twelve classes, with a **majority rule** inside most of them and a reliance protection for the funeral director, who may act on a representation of being the sole or majority child, sibling, grandchild or niece and nephew \"in the absence of actual knowledge to the contrary\" — the same instinct chapter 523 shows about affidavits. A will's instructions are \"immediately carried out, regardless of the validity of the will in other respects or of the fact that the will may not be offered for or admitted to probate until a later date\". The duty to follow the decedent's directions runs only \"to the extent that the decedent has provided **resources** for the purpose\". A dispute between two written instruments is resolved in favour of the one that is witnessed or notarised.\n\nAnd two provisions have no counterpart anywhere else here. Subdivision 3 lets a district court find that a sole holder in the first six classes was **estranged** from the decedent — \"a relationship characterized by mutual enmity, hostility, or indifference\" — and pass the right on. Subdivision 5 gives the court **four factors** for a dispute, the last of which is \"the degree to which the arrangements and final disposition will allow for participation by all who wish to pay respect to the decedent\".",
+   "citations": [
+    "mn-149A.80",
+    "mn-523.08",
+    "mn-523.09",
+    "mn-524.3-701",
+    "mn-145C.02"
+   ],
+   "canonical": "disposition-of-remains-agent"
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 ---
 title: 'Standards landscape, against what the law requires'
-description: 'Where the current identity and authorization standards stand against what 58 jurisdictions of verified law actually require — ten conformance tests, each traceable to a statute.'
+description: 'Where the current identity and authorization standards stand against what 59 jurisdictions of verified law actually require — ten conformance tests, each traceable to a statute.'
 section: 'digital-estate-standards'
 order: 2
 standing: 'Survey and argument. Specification status verified 14 October 2026 and will date.'

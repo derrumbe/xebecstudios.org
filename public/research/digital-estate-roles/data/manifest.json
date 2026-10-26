@@ -680,6 +680,20 @@
      "shortLabel": "Michigan"
     },
     {
+     "id": "us-mn",
+     "name": "Minnesota",
+     "short": "MN",
+     "code": "MN",
+     "extends": "us-model",
+     "files": [
+      "jurisdictions/us-mn.json"
+     ],
+     "country": "us",
+     "note": "Minnesota's chapter 523, enacted in **1984**, is the most completely worked-out acceptance-and-reliance regime in this data, and it got there two decades before the Uniform Power of Attorney Act. §523.20 makes a party refusing a conforming statutory short form \"liable to the principal and to the principal's heirs, assigns, and representative of the estate of the principal **in the same manner as the party would be liable had the party refused to accept the authority of the principal to act on the principal's own behalf**\" — word for word the remedy Nebraska is singled out for in §15 of the findings page, except that Nebraska's arrived in 2012 and Minnesota's in 1984. What Minnesota pairs it with is the opposite of Nebraska's: the duty runs only to the **statutory short form** under §523.23 or §523.231, on a six-part conformity checklist, with no seven-day clock and no fee shift. So the narrowest duty in this data carries the strongest remedy, which breaks the last link §15 had left between an instrument's formality and the obligation it attracts. Minnesota also goes past reliance to **conclusive proof**: §§523.16 and 523.17 make an agent's affidavit conclusive as to a relying party, where the rest of this set offers permission to rely absent actual knowledge.\n\nTwo further things are Minnesota's own. It has **no default health-care surrogate**, which makes it the third US jurisdiction here without one — and the first where a statute says so rather than being silent: §145B.12 provides that where no living will was executed \"a presumption is not created\" about the individual's intentions or the appropriate care. And §149A.80 **expressly excludes the power of attorney** from the class of written instruments that can appoint someone to control disposition of remains, reasoning from its own §§523.08 and 523.09 termination rule — the precise inverse of Arizona's §36-831(A)(2), which names the durable-power agent as a holder of that duty.\n\nThe durability rule itself is ordinary: §523.07 is express-words opt-in with a purposive \"or similar words\" test, and §523.01 makes notarisation a condition of valid execution. §523.11 then keeps the pre-uniform rule that a conservator **or guardian** holds the principal's own power to \"revoke, suspend, or terminate all or any part\" of the instrument — with suspension and partial revocation, which the other states holding that rule do not have.",
+     "label": "US — Minnesota",
+     "shortLabel": "Minnesota"
+    },
+    {
      "id": "us-mo",
      "name": "Missouri",
      "short": "MO",
@@ -1457,6 +1471,20 @@
    "country": "us",
    "label": "US — Michigan",
    "shortLabel": "Michigan"
+  },
+  {
+   "id": "us-mn",
+   "name": "Minnesota",
+   "short": "MN",
+   "code": "MN",
+   "extends": "us-model",
+   "files": [
+    "jurisdictions/us-mn.json"
+   ],
+   "country": "us",
+   "note": "Minnesota's chapter 523, enacted in **1984**, is the most completely worked-out acceptance-and-reliance regime in this data, and it got there two decades before the Uniform Power of Attorney Act. §523.20 makes a party refusing a conforming statutory short form \"liable to the principal and to the principal's heirs, assigns, and representative of the estate of the principal **in the same manner as the party would be liable had the party refused to accept the authority of the principal to act on the principal's own behalf**\" — word for word the remedy Nebraska is singled out for in §15 of the findings page, except that Nebraska's arrived in 2012 and Minnesota's in 1984. What Minnesota pairs it with is the opposite of Nebraska's: the duty runs only to the **statutory short form** under §523.23 or §523.231, on a six-part conformity checklist, with no seven-day clock and no fee shift. So the narrowest duty in this data carries the strongest remedy, which breaks the last link §15 had left between an instrument's formality and the obligation it attracts. Minnesota also goes past reliance to **conclusive proof**: §§523.16 and 523.17 make an agent's affidavit conclusive as to a relying party, where the rest of this set offers permission to rely absent actual knowledge.\n\nTwo further things are Minnesota's own. It has **no default health-care surrogate**, which makes it the third US jurisdiction here without one — and the first where a statute says so rather than being silent: §145B.12 provides that where no living will was executed \"a presumption is not created\" about the individual's intentions or the appropriate care. And §149A.80 **expressly excludes the power of attorney** from the class of written instruments that can appoint someone to control disposition of remains, reasoning from its own §§523.08 and 523.09 termination rule — the precise inverse of Arizona's §36-831(A)(2), which names the durable-power agent as a holder of that duty.\n\nThe durability rule itself is ordinary: §523.07 is express-words opt-in with a purposive \"or similar words\" test, and §523.01 makes notarisation a condition of valid execution. §523.11 then keeps the pre-uniform rule that a conservator **or guardian** holds the principal's own power to \"revoke, suspend, or terminate all or any part\" of the instrument — with suspension and partial revocation, which the other states holding that rule do not have.",
+   "label": "US — Minnesota",
+   "shortLabel": "Minnesota"
   },
   {
    "id": "us-mo",

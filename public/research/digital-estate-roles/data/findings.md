@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 58 | **24** |
-| `conservator-estate` | 61 | 21 |
-| `personal-representative-administrator` | 54 | 20 |
-| `anatomical-gift-agent` | 55 | 19 |
-| `financial-poa-durable` | 52 | 17 |
-| `guardian-person` | 52 | 17 |
-| `health-care-agent` | 50 | 14 |
+| `personal-representative-executor` | 59 | **24** |
+| `conservator-estate` | 62 | 21 |
+| `personal-representative-administrator` | 55 | 20 |
+| `anatomical-gift-agent` | 56 | 19 |
+| `financial-poa-durable` | 53 | 17 |
+| `guardian-person` | 53 | 17 |
+| `health-care-agent` | 51 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 32 | **4** |
-| `online-tool-designee` | 29 | **2** |
+| `digital-assets-fiduciary` | 33 | **4** |
+| `online-tool-designee` | 30 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 28 of the 48 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 29 of the 49 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,7 +106,7 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 28** of the 52 jurisdictions that record it and **true in 24**
+`poaDurableByDefault` is **false in 29** of the 53 jurisdictions that record it and **true in 24**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
 that took the Uniform Power of Attorney Act: Idaho, Illinois, **Iowa**, Kentucky, Maine, Michigan,
 **Nebraska**, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and West Virginia, with
@@ -219,7 +219,7 @@ the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 46 jurisdictions that record it and false in 36.
+`poaRegistrationBeforeUse` is true in 10 of the 47 jurisdictions that record it and false in 37.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -234,7 +234,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 41** of the 51 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 42** of the 52 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -253,10 +253,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 48 | 5 |
-| `benefits-payee` | 42 | 5 |
-| `tax-representative` | 42 | 5 |
-| `veterans-fiduciary` | 35 | 3 |
+| `health-records-representative` | 49 | 5 |
+| `benefits-payee` | 43 | 5 |
+| `tax-representative` | 43 | 5 |
+| `veterans-fiduciary` | 36 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -284,8 +284,8 @@ not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 22 of the 32 jurisdictions that record it and false in
-10 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
+`supportedDecisionMakingStatute` is true in 22 of the 33 jurisdictions that record it and false in
+11 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
 false while twelve US states are true** — **Arizona**, California, **Colorado**, Delaware, Florida,
 Illinois, Maryland, New York, Texas, Utah, Virginia and Washington — so the uniform acts have not
@@ -541,6 +541,7 @@ period the data does not record:
 | Oklahoma | $50,000 | 10 days | — |
 | Pennsylvania | $50,000 | — | — |
 | Kansas | $75,000 | none | $75,000 again where the district court refuses letters on a bond in not less than the value of the estate (§59-2287) |
+| Minnesota | $75,000 | 30 days | — |
 | Texas | $75,000 | 30 days | — |
 | Virginia | $75,000 | 60 days | $35,000, below which no affidavit is needed at all |
 | Idaho | $100,000 | 30 days | no ceiling where a surviving spouse is the sole devisee or heir |
@@ -1170,9 +1171,36 @@ The method matters as much as the answer. Missouri's negative rests on a full-te
 against a positive control; Kansas's rests on reading catchlines, because the revisor's site has no
 search at all. So the Kansas claim is scoped to those five chapters and stated as such in the data,
 and the West Virginia lesson applies — a search that cannot be trusted and a true absence look
-identical, and only one of them can be reported as a finding. **Two of twenty-five US jurisdictions
-here have nobody who can decide for an incapacitated adult by operation of law**, which is a large
-enough exception to the "a spouse can always decide" assumption that a protocol should not hold it.
+identical, and only one of them can be reported as a finding.
+
+**Minnesota is the third, and it is the one that does not rest on method at all.** Missouri's absence
+was established by a search and Kansas's by reading catchlines; Minnesota's is written down.
+§145B.12 is headed "What if there is no living will or proxy?" and answers it: where an individual
+"has not executed or has revoked a living will under this chapter, **a presumption is not created**
+with respect to: (1) the individual's intentions concerning the provision of health care; or (2) the
+appropriate health care to be provided." Subdivision 2 adds that nothing in the chapter authorises
+withholding artificially administered nutrition or hydration from a person who issued neither a
+living will nor a proxy.
+
+Two things make that worth more than a third tally mark. The provision is a **refusal rather than an
+omission** — a legislature that considered the gap and declined to fill it, where Missouri's and
+Kansas's codes simply do not address it, and a claim of that shape needs no scoping sentence because
+it is not an inference. And the chapter it sits in is **closed**: §145B.011 confines chapter 145B to
+living wills executed before 1 August 1998, so a live section of a chapter that accepts no new
+instruments is what tells you Minnesota has no surrogate for anyone, whenever they signed. The
+routes that remain need an instrument or a judge — a health care directive under chapter 145C, or a
+guardian, whose §524.5-313 duties cover the "care, comfort, and maintenance needs" of the person
+subject to guardianship, health care among them.
+
+§525A.21 shows the gap from the other side. Where an anatomical gift conflicts with a directive and
+the donor cannot resolve it, the conflict passes to the agent or, failing that, to "another person
+authorized by **a law other than this chapter** to make health care decisions on behalf of the
+prospective donor" — a fallback drafted on the assumption that such a person exists, which in
+Minnesota they do not.
+
+**Three of thirty US jurisdictions here have nobody who can decide for an incapacitated adult by
+operation of law**, which is a large enough exception to the "a spouse can always decide" assumption
+that a protocol should not hold it.
 
 Nebraska shows that the artefact can simply be missing, and that a legislature can remove it without
 removing the rule it supports. Its trust-code catchlines print the uniform section number in
@@ -1313,17 +1341,18 @@ and one asserting "holder is the surrogate" is making a claim that may be false 
 Whatever a standard does about health care has to treat the authority as a question to be asked at
 the moment of use, not a fact to be cached.
 
-## 15. Acceptance is already solved in statute, eight times over, and four states go further
+## 15. Acceptance is already solved in statute, nine times over, and five states go further
 
 The question an evidence layer exists to answer is not "who may act" — §1 says that is settled
-nearly everywhere — but "why would the party holding the asset say yes?" Eight regimes in this data
+nearly everywhere — but "why would the party holding the asset say yes?" Nine regimes in this data
 answer it, and they are built from the same three components: a **duty** to accept, a **remedy** if
 the holder refuses, and a **safe harbour** for the holder that accepts. No two of them carry the
-same subset, and four of them add a component the others do not have at all — Missouri a right to
+same subset, and five of them add a component the others do not have at all — Missouri a right to
 demand security, Nebraska and Iowa grounds a refusal may *not* rest on, Kansas an obligation on
-the refuser to **report the refusal to the authority that issued the appointment**, and Iowa a
+the refuser to **report the refusal to the authority that issued the appointment**, Iowa a
 **limitation period** on the remedy and a fee shift that can run **against** the person who was
-refused.
+refused, and Minnesota an affidavit that is **conclusive proof** rather than something a party may
+choose to rely on.
 
 | | Duty to accept | Remedy for refusal | Safe harbour for accepting |
 |---|---|---|---|
@@ -1335,6 +1364,7 @@ refused.
 | **Missouri**, §§404.719, 456.10-1013 | — | — | eleven items a good-faith third person need not inquire into, absent actual knowledge — **plus a right to demand security**: indemnity against forgery by bond, or a certification of trust acknowledged or guaranteed |
 | **Nebraska**, §§30-4019–4020 | any person, within **seven business days** of presentation, of *any* acknowledged power of attorney — **plus grounds it may not refuse on** | court order, fees, **and liability as if it had refused the principal in person** | the uniform reliance protections of §30-4019 |
 | **Iowa**, §§633B.119–120, 633A.4604, 633.356 | any person, within **seven business days**, of *any* acknowledged power of attorney — **plus a ground it may not refuse on**; and, uniquely, a duty in the **trust** and **small-estate** lanes too | court order and fees, but **only if sued within one year**; in the trust lane, damages and fees for demanding the instrument; in the small-estate lane, **fees to whichever side was reasonable** | the uniform reliance protections — **and a good-faith belief of invalidity that no evidence can cure** |
+| **Minnesota**, §§523.19–523.20 | any party, of a **statutory short form** power under §523.23 or §523.231 meeting six listed conditions — and **no deadline at all** | **liability as if it had refused the principal in person** — and nothing else: no court order, no fee shift | held harmless on a five-part checklist, and §§523.16–523.17 make an agent's affidavit **conclusive proof** rather than something a party may rely on |
 | **Kansas**, §§59-30,123, 59-30,185 | any person, of a **guardian's or conservator's letters of office** — one of two duties here owed on a *court appointment* rather than on an instrument the principal signed, and the stricter of them | a petition to **compel** acceptance, **and a report back to the appointing court within 10 days** of any refusal, handled as a grievance under §59-30,127 | good faith and for value, protected "as though the conservator properly exercised any power in question", no duty to inquire — **but restrictions stated in the letters of office bind the relying party** |
 
 Two of those rows are the same drafting travelling under different names. Idaho's acceptance regime
@@ -1423,6 +1453,43 @@ suspicion: a pending judicial proceeding construing the power or reviewing the a
 contingency where "neither a certification nor evidence of the occurrence of the event or contingency
 is presented" (§30-4020(2)(h)). That is a statutory evidence requirement attached to a condition
 precedent, and the only one in this file.
+
+**Minnesota had Nebraska's remedy in 1984, and paired it with the opposite of Nebraska's duty.**
+§523.20 makes a party refusing a conforming power "liable to the principal and to the principal's
+heirs, assigns, and representative of the estate of the principal **in the same manner as the party
+would be liable had the party refused to accept the authority of the principal to act on the
+principal's own behalf**" — the same sentence, to the clause, as §30-4020(4)(b)(i). Nebraska's
+arrived with its 2012 enactment of the uniform act; Minnesota's is Laws 1984 c 603 s 22, written
+twenty-two years before the act existed. So the measure of damages this section credits Nebraska
+with designing is older than the uniform regime it sits inside.
+
+What Minnesota attaches it to runs the other way from everything else in the table. The duty is the
+**narrowest here** — it is owed only on the **statutory short form** under §523.23 or §523.231, and
+then only where six conditions are met: a specimen signature of the agent; for powers executed on or
+after 1 January 2014, an acknowledgement that the agent has read the notice §523.23 requires;
+affidavits under §523.17 for a recordable real-property instrument; a signature conforming to
+§523.18 for anything else; and an affidavit under §523.16 where applicable. There is **no
+seven-business-day clock and no fee shift**. The three defences are narrow and evidentiary: actual
+notice of revocation, expiry of the duration the instrument states, or actual knowledge of death —
+or, for a nondurable power, actual notice of a judicial determination of incompetence.
+
+That combination settles a question this section had left half-open. Maryland and West Virginia
+showed that the two states demanding **more** at execution owed **less** at acceptance, and Iowa
+broke the pattern by demanding the most and owing the broadest duty — so **formality predicts
+nothing about scope**. Minnesota separates the third variable: it owes the narrowest duty in the
+table and carries the strongest remedy in it. **Scope predicts nothing about consequence either.**
+A profile therefore cannot treat "is there a duty?" as one bit, or even as two — the instrument
+class, the deadline, the measure of damages and the fee shift move independently, and Minnesota is
+the proof that they do.
+
+Minnesota's safe harbour is also the only one that stops being permission. Everywhere else a relying
+party *may* rely on something absent actual knowledge; §523.16 makes an agent's affidavit of the
+conditions precedent to a successor's authority "**conclusive proof** as to any party relying on the
+affidavit", and §523.17 does the same for nontermination and nonrevocation in real-property
+transactions, on a form the statute prints. §523.04 adds a presumption of valid execution and
+§523.06 gives a certified copy the force of the signed original. For an evidence layer that is the
+most useful shape in this file: not a licence to trust a document, but a rule that the document
+settles the fact.
 
 **Kansas does the one thing nothing else in this file does: it makes the refusal travel.** Its 2025
 act obliges a person to "recognize the authority of a guardian or conservator to act on behalf of an
@@ -1640,6 +1707,7 @@ verbatim it does produce agreement.
 | **Missouri** | §404.731(3), in the jurisdiction section | **neither** — "the court **may specify in an order** the powers, duties and responsibilities" of the legal representative and the attorney in fact "and the manner in which they shall **coordinate** the exercise of their respective powers" |
 | **Nebraska** | §30-4008(2), the §108 slot | **hands the decision to the conservator** — the fiduciary "shall have the same power to revoke or amend the power of attorney that the principal would have had if he or she were not disabled or incapacitated" |
 | **Kansas** | §58-656(c), in its own act's duties section | **hands the decision to the conservator** — the fiduciary "has the same power to revoke or amend the durable power of attorney that the principal would have had" |
+| **Minnesota** | §523.11, the **revocation** section | **hands the decision to the conservator *or guardian*** — either "has the same power the principal would have ... to **revoke, suspend, or terminate all or any part** of the power of attorney" |
 | **Iowa** | §633B.108(2), the §108 slot | **suspends it, and reinstates it** — the power "is suspended unless the power of attorney provides otherwise or unless the court … decides the power of attorney should continue", and "shall be **reinstated** upon termination of the conservatorship as a result of the principal regaining capacity" |
 
 West Virginia and Kentucky reach the identical rule and file it in different places, and that is not
@@ -1668,8 +1736,20 @@ is a **transfer of the principal's own revocation power to a stranger the court 
 Virginia and Colorado the agent continues; in West Virginia and Kentucky the agency ends by
 operation of law; in Missouri a judge allocates. In Nebraska and Kansas the conservator simply
 decides, and may do so without any further court involvement. In Iowa the power goes dormant and
-revives. **Eight jurisdictions, one uniform section, five distinct rules**, and the only thing they
+revives. **Nine jurisdictions, one uniform section, five distinct rules**, and the only thing they
 agree on is that something happens.
+
+Minnesota is in Nebraska's and Kansas's group and arrives there by a third route: it **never left**.
+§523.11 is Laws 1984 c 603 s 13, contemporaneous with the Uniform Durable Power of Attorney Act
+rather than a restoration of it — Nebraska enacted the 2006 act and wrote the discarded rule back in,
+Kansas reached it without enacting anything, and Minnesota has simply held the 1979 position
+continuously for forty years. Its grant is also the widest of the three in three ways: it runs to a
+**guardian** as well as a conservator, so a guardian of the person may revoke a power over property;
+it includes **suspension** as well as revocation and termination; and it reaches "**all or any
+part**" of the instrument, so the appointee may leave some of the agency standing. The rule is the
+same — the appointee holds the principal's own power — but what they may do with it is not, and a
+system told "a guardian was appointed" cannot assume the agency is intact, gone, or even wholly one
+or the other.
 
 For anyone modelling this, the lesson is narrower than "jurisdictions differ". **The event is the
 same and observable — a court appoints a fiduciary — but what it does to an existing authority is
@@ -1677,6 +1757,33 @@ not derivable from the event.** A system told only "a conservator was appointed 
 cannot compute whether the agent still holds anything, and in Nebraska cannot even know whether the
 answer is settled yet, because it now depends on a private decision by the conservator that no court
 records.
+
+**The second event the lesson applies to is death, and two consecutive additions to this reference
+answer it in opposite directions on the face of the statute.** Every jurisdiction here ends the
+financial power of attorney at the principal's death. What differs is whether that termination also
+disqualifies the agent from the one post-mortem job a principal might most want them to have —
+arranging the disposition of the body.
+
+Arizona says it does not. §36-831(A)(2) names the person holding "a durable power of attorney if
+that power of attorney specifically gives that person the authority to make decisions regarding the
+disposition of the decedent's remains" as the holder of that duty, ranked above every blood relative
+and behind only the spouse.
+
+Minnesota says it does, and gives the reason. §149A.80, subd. 2(1) makes the first class entitled to
+control "the person or persons appointed in a dated written instrument signed by the decedent",
+expressly includes a health care directive under chapter 145C in that class, and then says:
+"**Written instrument does not include a durable or nondurable power of attorney which terminates on
+the death of the principal pursuant to sections 523.08 and 523.09.**" The exclusion is reasoned
+straight from Minnesota's own termination rule — because the power dies with the principal, it
+cannot appoint anyone to act after the principal has died.
+
+Both are defensible and the reasoning is explicit in each. What they establish together is that
+**"the principal has died" does not settle what the power of attorney can still do**, any more than
+"a conservator was appointed" settles what it still does. In Arizona a financial power can carry a
+post-mortem office if drafted for it; in Minnesota the same drafting is void for that purpose and a
+health care directive is the instrument that works. A profile that models the power of attorney as
+simply terminating at death gets Arizona wrong, and one that models an express post-mortem grant as
+portable gets Minnesota wrong.
 
 Missouri declines the binary. Under §404.731(3) the probate division, having appointed a guardian or
 conservator for a principal who holds a durable power of attorney, may after notice and hearing
