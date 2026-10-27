@@ -80,7 +80,8 @@
   const DATA_BASE = (MOUNT && MOUNT.dataset.base)
     || (document.currentScript && document.currentScript.dataset.base) || 'data/';
   // Static per-canonical pages live on the host that has them. A deploy opts in by setting
-  // data-roles-base; where it is absent — irisar, which has no such pages — no link is drawn.
+  // data-roles-base; where it is absent — the standalone site/ build, which has no such pages —
+  // no link is drawn.
   const ROLES_BASE = (MOUNT && MOUNT.dataset.rolesBase)
     || (document.currentScript && document.currentScript.dataset.rolesBase) || '';
   async function getJSON(path) {
@@ -1436,8 +1437,8 @@
     // bar open the role; the count opens the countries behind it. One element doing both would
     // have to guess, and nesting a link inside a button is not a thing a screen reader can
     // describe. The role link only appears where ROLES_BASE is set, following the same rule as
-    // the per-jurisdiction "see this role everywhere" link: irisar has no per-role pages, and a
-    // link drawn there would 404.
+    // the per-jurisdiction "see this role everywhere" link: a deploy without those pages would
+    // draw a link that 404s.
     const bars = ranked.map((r) => {
       const on = DIGITAL_ROLES.includes(r.id);
       const pct = Math.max(1.5, (r.countryCount / max) * 100);
@@ -2002,6 +2003,35 @@
   // Which drawing belongs to which finding. Keyed on the section number the heading opens
   // with, so renumbering the prose moves the figures with it; a section with no entry simply
   // gets none, which is the right answer for the closing argument.
+  // Section 21: the custody chain. The point is that the presumption of regularity does not
+  // decay as the instrument passes hands (IC 30-5-11-10(e)), so the hops are drawn identically
+  // and the span under them is unbroken -- one accent, no palette, as with the other figures.
+  function figCustodyChain() {
+    const y = 48, x0 = 16, x1 = FIG_W - 16, r = 8;
+    const hops = ['principal', 'custodian', 'successor', 'attorney in fact'];
+    const step = (x1 - x0) / (hops.length - 1);
+    let out = `<rect x="${x0}" y="${y - 4}" width="${x1 - x0}" height="8" rx="4" `
+      + `fill="var(--accent)" opacity=".18"/>`;
+    hops.forEach((h, i) => {
+      const x = x0 + i * step;
+      out += `<circle cx="${x}" cy="${y}" r="${r}" fill="var(--accent)"/>`;
+      const anchor = i === 0 ? 'start' : i === hops.length - 1 ? 'end' : 'middle';
+      const tx = i === 0 ? x - r : i === hops.length - 1 ? x + r : x;
+      out += `<text x="${tx}" y="${y + 26}" text-anchor="${anchor}" class="fig-l">${esc(h)}</text>`;
+      if (i) {
+        out += `<text x="${x - step / 2}" y="${y - 14}" text-anchor="middle" class="fig-t">`
+          + `delivery receipt</text>`;
+      }
+    });
+    out += `<text x="${x0}" y="${y + 52}" class="fig-t">`
+      + `prima facie evidence of validity and of no tampering \u2014 throughout</text>`;
+    out += `<text x="${x1}" y="${y + 52}" text-anchor="end" class="fig-t">`
+      + `+5 years from death, then deletion permitted</text>`;
+    return svgOpen(y + 62,
+      'Indiana section 30-5-11-10(e) keeps the presumption that an electronic power of attorney is valid and untampered with regardless of how many custodians have held, received or transferred it. Custody passes on an executed delivery receipt, which is itself the successor custodian\u2019s acceptance of the duty to preserve the record; on the principal\u2019s death the holder must deliver it to the attorney in fact, and destruction is permitted only after the fifth anniversary of the death')
+      + out + '</svg>';
+  }
+
   function findingFigure(n, ctx) {
     const { feat, canon, countries } = ctx;
     const count = (key, pred) => {
@@ -2072,6 +2102,7 @@
       case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
       case 17: return figWrap(figTermination(), 'One event, five rules across eight jurisdictions \u2014 and the uniform text, where taken verbatim, is the only thing two of them agree on.');
       case 18: return figWrap(figSecurity(), 'Where the law moves liability, and where Missouri asks for collateral instead.');
+      case 21: return figWrap(figCustodyChain(), 'The presumption travels with the instrument: Indiana \u00a730-5-11-10(e) does not let it decay across custodians, and \u00a730-5-11-8 sets the floor on how long the record is kept.');
       case 20: return figWrap(figDateSplit(), 'Two live tests, selected by the instrument\u2019s date \u2014 so the same question has two answers in one state.');
       case 19: return figWrap(figShotClock(), 'Iowa \u00a7144C.8(2): the earlier of two deadlines binds, so a late notification shortens the window instead of moving it.');
       default: return '';

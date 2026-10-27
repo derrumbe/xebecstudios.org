@@ -4,7 +4,7 @@
    "id": "personal-representative-administrator",
    "label": "Administrator",
    "definition": "The personal representative the law or a court supplies where the deceased named nobody, or nobody named can act.",
-   "jurisdictionCount": 55,
+   "jurisdictionCount": 56,
    "countryCount": 20,
    "citations": {
     "mu-cur-4": {
@@ -2661,6 +2661,87 @@
      ]
     },
     {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "personal-representative-administrator",
+     "roleName": "Personal representative in intestacy (administrator)",
+     "localNames": [
+      "administrator",
+      "letters of general administration",
+      "administrator with the will annexed"
+     ],
+     "nameEn": null,
+     "summary": "The personal representative of an estate with no will, or where no one named in a will serves. They are appointed from a statutory priority list: surviving spouse, then other heirs, then any creditor 45 days after death.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Priority arises at death by relationship (spouse, heirs) or by nomination from a person with priority",
+       "phase": "deceased",
+       "citations": [
+        "upc-3-203"
+       ]
+      },
+      "starts": {
+       "event": "Appointment (informal ≥120 hours after death), qualification, letters; powers relate back",
+       "phase": "administration",
+       "citations": [
+        "upc-3-307",
+        "upc-3-601",
+        "upc-3-103",
+        "upc-3-701"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Order closing estate",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1001",
+         "upc-3-610"
+        ]
+       },
+       {
+        "event": "One year after closing statement with no pending proceedings",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1003",
+         "upc-3-610"
+        ]
+       },
+       {
+        "event": "Removal, resignation, PR death/conservator, later will probated",
+        "phase": "administration",
+        "citations": [
+         "upc-3-611",
+         "upc-3-610",
+         "upc-3-609",
+         "upc-3-612"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "upc-3-203",
+      "upc-3-307",
+      "upc-3-601",
+      "upc-3-103",
+      "upc-3-701",
+      "upc-3-1001",
+      "upc-3-610",
+      "upc-3-1003",
+      "upc-3-611",
+      "upc-3-609",
+      "upc-3-612"
+     ]
+    },
+    {
      "jurisdiction": "us-ia",
      "jurisdictionName": "Iowa",
      "label": "US — Iowa",
@@ -4686,7 +4767,7 @@
    "id": "benefits-payee",
    "label": "Benefits payee",
    "definition": "A person appointed to receive and manage state benefits for someone who cannot manage them.",
-   "jurisdictionCount": 43,
+   "jurisdictionCount": 44,
    "countryCount": 5,
    "citations": {
     "de-sgb1-56": {
@@ -6268,6 +6349,102 @@
      "jurisdiction": "us-il",
      "jurisdictionName": "Illinois",
      "label": "US — Illinois",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "ssa-representative-payee",
+     "roleName": "Social Security / SSI representative payee",
+     "localNames": [
+      "rep payee",
+      "payee"
+     ],
+     "nameEn": null,
+     "summary": "A person or organization that the Social Security Administration (SSA) selects to receive Social Security (Title II) or SSI (Title XVI) benefits for a beneficiary. SSA appoints a payee after finding that the beneficiary cannot manage or direct the management of their benefit payments. In this role, 'incapacitated' means that SSA administrative finding. It is not a court adjudication, and SSA can appoint a payee even for a legally competent person. A payee is not an agent: a power of attorney, including a durable one, gives no authority to receive or negotiate these benefits. The appointment ends when SSA changes payees, when SSA finds the beneficiary capable, or when the beneficiary dies. The former payee must then return payments not due and hand over conserved funds.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "SSA determines representative payment is in the beneficiary's interest, then selects a payee using its order of preference, with advance designees considered first",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-20-404-2001",
+        "cfr-20-404-2010",
+        "cfr-20-416-610",
+        "cfr-20-404-2021",
+        "cfr-20-416-621",
+        "usc-42-405-j",
+        "usc-42-1383-a2"
+       ]
+      },
+      "starts": {
+       "event": "SSA certifies payment to the payee after written advance notice. If the beneficiary protests or appeals within 10 days of a mailed notice, the action is delayed.",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-20-404-2030",
+        "cfr-20-416-630"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Beneficiary dies: Title II entitlement ends with the month before death, and SSI payments stop after the month of death. The payee must return payments not due. Conserved funds belong to the estate.",
+        "phase": "deceased",
+        "citations": [
+         "cfr-20-404-311",
+         "cfr-20-416-1334",
+         "ssa-kc-conserved-funds",
+         "poms-gn-00603-100"
+        ]
+       },
+       {
+        "event": "SSA makes a new capability determination that the beneficiary is capable, and pays the beneficiary directly",
+        "phase": "capable",
+        "citations": [
+         "poms-gn-00502-055",
+         "poms-gn-00603-055",
+         "cfr-20-404-2060",
+         "cfr-20-416-660"
+        ]
+       },
+       {
+        "event": "SSA stops paying this payee and selects a new payee (misuse, payee's death, unwillingness, inability, failure to account or cooperate)",
+        "phase": "incapacitated",
+        "citations": [
+         "cfr-20-404-2050",
+         "cfr-20-416-650",
+         "usc-42-405-j",
+         "usc-42-1383-a2"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-20-404-2001",
+      "cfr-20-404-2010",
+      "cfr-20-416-610",
+      "cfr-20-404-2021",
+      "cfr-20-416-621",
+      "usc-42-405-j",
+      "usc-42-1383-a2",
+      "cfr-20-404-2030",
+      "cfr-20-416-630",
+      "cfr-20-404-311",
+      "cfr-20-416-1334",
+      "ssa-kc-conserved-funds",
+      "poms-gn-00603-100",
+      "poms-gn-00502-055",
+      "poms-gn-00603-055",
+      "cfr-20-404-2060",
+      "cfr-20-416-660",
+      "cfr-20-404-2050",
+      "cfr-20-416-650"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
      "country": "United States",
      "region": "North America",
      "roleId": "ssa-representative-payee",
@@ -8949,7 +9126,7 @@
    "id": "conservator-estate",
    "label": "Conservator of the estate",
    "definition": "A financial manager appointed by a court or tribunal to manage property the person can no longer manage.",
-   "jurisdictionCount": 62,
+   "jurisdictionCount": 63,
    "countryCount": 21,
    "citations": {
     "mu-cc-488": {
@@ -9958,6 +10135,22 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-20.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-29-3-5-3": {
+     "id": "in-29-3-5-3",
+     "cite": "Ind. Code § 29-3-5-3",
+     "title": "Findings; appointment of guardian; limited guardianship",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_3/Chapter_5.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-3-12-1": {
+     "id": "in-29-3-12-1",
+     "cite": "Ind. Code § 29-3-12-1",
+     "title": "Termination of guardianship; powers after death of protected person",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_3/Chapter_12.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-cc-392": {
      "id": "la-cc-392",
@@ -12575,6 +12768,60 @@
      ]
     },
     {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "conservator-estate",
+     "roleName": "Conservator (property and financial affairs)",
+     "localNames": [
+      "guardian of the property",
+      "guardian of the estate"
+     ],
+     "nameEn": null,
+     "summary": "A person a court appoints to manage an adult's property or financial affairs. When the adult dies, the conservatorship terminates. The conservator then winds it up by filing a final report and delivering the estate to the decedent's estate, and a bracketed option lets the conservator ask for personal-representative powers.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Court appointment as guardian of the property under the same §29-3-5-3 findings",
+       "phase": "incapacitated",
+       "citations": [
+        "in-29-3-5-3"
+       ]
+      },
+      "starts": {
+       "event": "Court order, then acceptance and any bond filed and letters of office issued",
+       "phase": "incapacitated",
+       "citations": [
+        "ugcopaa-401",
+        "ugcopaa-411",
+        "ugcopaa-108"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of the protected person, subject to the §29-3-12-1(f)(2) payment waterfall and delivery of the remaining property",
+        "phase": "deceased",
+        "citations": [
+         "in-29-3-12-1"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-29-3-5-3",
+      "ugcopaa-401",
+      "ugcopaa-411",
+      "ugcopaa-108",
+      "in-29-3-12-1"
+     ]
+    },
+    {
      "jurisdiction": "us-ia",
      "jurisdictionName": "Iowa",
      "label": "US — Iowa",
@@ -14490,7 +14737,7 @@
    "id": "default-surrogate",
    "label": "Default surrogate",
    "definition": "The decision maker the law supplies from a statutory hierarchy when nobody has been appointed.",
-   "jurisdictionCount": 40,
+   "jurisdictionCount": 41,
    "countryCount": 10,
    "citations": {
     "za-nha-7-order": {
@@ -14870,6 +15117,22 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500400K25.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-16-36-7-42": {
+     "id": "in-16-36-7-42",
+     "cite": "Ind. Code § 16-36-7-42",
+     "title": "Decisions made by proxy",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-16-36-7-35": {
+     "id": "in-16-36-7-35",
+     "cite": "Ind. Code § 16-36-7-35",
+     "title": "Incapacity of declarant",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-rs-40-1151-4": {
      "id": "la-rs-40-1151-4",
@@ -16179,6 +16442,55 @@
       "uhcda23-18",
       "uhcda93-5",
       "il-hcsa-25-f"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "default-surrogate",
+     "roleName": "Default health-care surrogate",
+     "localNames": [
+      "proxy"
+     ],
+     "nameEn": null,
+     "summary": "A person who can make health-care decisions for an individual who lacks capacity and has no available agent or guardian. The law picks this person from a priority list, or the individual can name them without signing a power of attorney.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "No appointment is needed: §16-36-7-42(c) identifies the proxy by class, in decreasing order of priority, among those reasonably available, willing and competent",
+       "phase": "incapacitated",
+       "citations": [
+        "in-16-36-7-42"
+       ]
+      },
+      "starts": {
+       "event": "When the declarant is not capable of consenting to health care and either executed no directive or the designated representative is not willing, able or reasonably available",
+       "phase": "incapacitated",
+       "citations": [
+        "in-16-36-7-42"
+       ]
+      },
+      "ends": [
+       {
+        "event": "A person in a prior class becomes reasonably available, or the declarant regains capacity",
+        "phase": "incapacitated",
+        "citations": [
+         "in-16-36-7-42",
+         "in-16-36-7-35"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-16-36-7-42",
+      "in-16-36-7-35"
      ]
     },
     {
@@ -17616,7 +17928,7 @@
    "id": "digital-assets-fiduciary",
    "label": "Digital-assets fiduciary",
    "definition": "A person given access to, or authority over, the deceased or incapacitated person's digital assets and accounts.",
-   "jurisdictionCount": 33,
+   "jurisdictionCount": 34,
    "countryCount": 4,
    "citations": {
     "cn-pipl-49": {
@@ -17843,6 +18155,38 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500700K16.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-32-39-2-4": {
+     "id": "in-32-39-2-4",
+     "cite": "Ind. Code § 32-39-2-4",
+     "title": "Disclosure to personal representative of content of electronic communications",
+     "url": "https://iga.in.gov/ic/2026/Title_32/Article_39/Chapter_2.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-32-39-2-11": {
+     "id": "in-32-39-2-11",
+     "cite": "Ind. Code § 32-39-2-11",
+     "title": "Disclosure of digital assets to guardian of protected person",
+     "url": "https://iga.in.gov/ic/2026/Title_32/Article_39/Chapter_2.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-1-8-1-digital": {
+     "id": "in-29-1-8-1-digital",
+     "cite": "Ind. Code § 29-1-8-1",
+     "title": "Small estates; distributee's access to digital assets",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_8.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-32-39-2-13": {
+     "id": "in-32-39-2-13",
+     "cite": "Ind. Code § 32-39-2-13",
+     "title": "Custodian compliance; immunity from liability",
+     "url": "https://iga.in.gov/ic/2026/Title_32/Article_39/Chapter_2.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "ny-eptl-13-a-3-2": {
      "id": "ny-eptl-13-a-3-2",
@@ -18647,6 +18991,65 @@
       "rufadaa-15",
       "upoaa-110a",
       "upc-3-610"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "rufadaa-fiduciary",
+     "roleName": "Fiduciary seeking access to digital assets (PR, conservator, agent, trustee)",
+     "localNames": [
+      "fiduciary",
+      "personal representative",
+      "conservator",
+      "agent",
+      "trustee"
+     ],
+     "nameEn": null,
+     "summary": "RUFADAA gives no new fiduciary status of its own. It sets out when an existing personal representative, conservator, agent, or trustee can get a digital-asset catalogue or content from a custodian. By default, content of electronic communications needs the user's consent (or, for a personal representative, a court direction). A conservator also needs a court order after a chance for a hearing.",
+     "group": "digital",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Underlying fiduciary status arises under other law (POA, trust, court appointment, letters or small-estate affidavit)",
+       "phase": "capable",
+       "citations": [
+        "rufadaa-2",
+        "rufadaa-3"
+       ]
+      },
+      "starts": {
+       "event": "On a complying request with the authority document: letters, an order of no supervision or unsupervised administration, a certified guardianship order — or a §29-1-8-1 small-estate affidavit",
+       "phase": "administration",
+       "citations": [
+        "in-32-39-2-4",
+        "in-32-39-2-11",
+        "in-29-1-8-1-digital"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Compliance, or a denial where the custodian is aware of lawful access to the account after the request",
+        "phase": "administration",
+        "citations": [
+         "in-32-39-2-13"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "rufadaa-2",
+      "rufadaa-3",
+      "in-32-39-2-4",
+      "in-32-39-2-11",
+      "in-29-1-8-1-digital",
+      "in-32-39-2-13"
      ]
     },
     {
@@ -20287,7 +20690,7 @@
    "id": "disposition-of-remains-agent",
    "label": "Disposition-of-remains agent",
    "definition": "The person with the right or the duty to control what happens to the body.",
-   "jurisdictionCount": 26,
+   "jurisdictionCount": 27,
    "countryCount": 6,
    "citations": {
     "es-l41-11": {
@@ -20531,6 +20934,30 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500650K20.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-29-2-19-8": {
+     "id": "in-29-2-19-8",
+     "cite": "Ind. Code § 29-2-19-8",
+     "title": "Funeral planning declaration; requirements",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_2/Chapter_19.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-2-19-17": {
+     "id": "in-29-2-19-17",
+     "cite": "Ind. Code § 29-2-19-17",
+     "title": "Priority as to right to control disposition of decedent's body",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_2/Chapter_19.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-2-19-14": {
+     "id": "in-29-2-19-14",
+     "cite": "Ind. Code § 29-2-19-14",
+     "title": "Revocation",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_2/Chapter_19.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-rs-8-655": {
      "id": "la-rs-8-655",
@@ -21333,6 +21760,63 @@
      ]
     },
     {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "disposition-of-remains-agent",
+     "roleName": "Designee under a funeral planning declaration",
+     "localNames": [
+      "designee",
+      "funeral planning declaration"
+     ],
+     "nameEn": null,
+     "summary": "The person on whom the right to control the disposition of the body and to make funeral and other ceremonial arrangements devolves — taken first from a dedicated funeral planning declaration, which Indiana forbids from being folded into a will or a power of attorney, and otherwise from an eleven-class statutory order.",
+     "group": "remains",
+     "stateSpecific": true,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Declarant executes a funeral planning declaration naming a designee, signed and dated before two qualified adult witnesses — and not inside a will, a power of attorney or a similar document (§29-2-19-8)",
+       "phase": "capable",
+       "citations": [
+        "in-29-2-19-8"
+       ]
+      },
+      "starts": {
+       "event": "Death of the declarant: the right to control the disposition devolves on the first available class under §29-2-19-17",
+       "phase": "deceased",
+       "citations": [
+        "in-29-2-19-17"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Revocation in writing, or by burning, tearing, cancelling, obliterating or destroying the declaration with intent to revoke",
+        "phase": "capable",
+        "citations": [
+         "in-29-2-19-14"
+        ]
+       },
+       {
+        "event": "Disposition arranged; or the class is unavailable or unwilling and the right passes down the §29-2-19-17 order",
+        "phase": "deceased",
+        "citations": [
+         "in-29-2-19-17"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-29-2-19-8",
+      "in-29-2-19-17",
+      "in-29-2-19-14"
+     ]
+    },
+    {
      "jurisdiction": "us-la",
      "jurisdictionName": "Louisiana",
      "label": "US — Louisiana",
@@ -22078,7 +22562,7 @@
    "id": "anatomical-gift-agent",
    "label": "Donation decision maker",
    "definition": "The person who may authorise or refuse donation of organs, tissue or the body, including under deemed-consent regimes.",
-   "jurisdictionCount": 56,
+   "jurisdictionCount": 57,
    "countryCount": 19,
    "citations": {
     "za-nha-62-1": {
@@ -24395,6 +24879,72 @@
      ]
     },
     {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "anatomical-gift-agent",
+     "roleName": "Agent authorized to make an anatomical gift",
+     "localNames": [
+      "health-care agent (anatomical gift)",
+      "agent"
+     ],
+     "nameEn": null,
+     "summary": "A health-care agent, or a person a signed record expressly authorizes, can make an anatomical gift during the donor's life unless the document forbids it. After death, the person who was the decedent's agent at death has first priority to make a gift. The donor's own gift or refusal bars others.",
+     "group": "remains",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Principal appoints health-care agent or signs record expressly authorizing anatomical gift",
+       "phase": "capable",
+       "citations": [
+        "ruaga-2"
+       ]
+      },
+      "starts": {
+       "event": "During donor's life: agent may make gift by donor card/record/registry (unless prohibited)",
+       "phase": "capable",
+       "citations": [
+        "ruaga-4",
+        "ruaga-5"
+       ]
+      },
+      "ends": [
+       {
+        "event": "After death: first-priority authority exercised or barred; revocation by others ineffective after incision/invasive procedures begin",
+        "phase": "deceased",
+        "citations": [
+         "ruaga-9",
+         "ruaga-9c",
+         "ruaga-10c"
+        ]
+       },
+       {
+        "event": "Donor's unrevoked refusal or own gift bars the agent",
+        "phase": "capable",
+        "citations": [
+         "ruaga-7",
+         "ruaga-8"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ruaga-2",
+      "ruaga-4",
+      "ruaga-5",
+      "ruaga-9",
+      "ruaga-9c",
+      "ruaga-10c",
+      "ruaga-7",
+      "ruaga-8"
+     ]
+    },
+    {
      "jurisdiction": "us-ia",
      "jurisdictionName": "Iowa",
      "label": "US — Iowa",
@@ -26108,7 +26658,7 @@
    "id": "financial-poa-durable",
    "label": "Durable financial power of attorney",
    "definition": "An agent appointed by the person while capable, whose authority over property and money survives the person losing capacity.",
-   "jurisdictionCount": 53,
+   "jurisdictionCount": 54,
    "countryCount": 17,
    "citations": {
     "cn-cc-33": {
@@ -27216,6 +27766,62 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-10.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-30-5-4-1": {
+     "id": "in-30-5-4-1",
+     "cite": "Ind. Code § 30-5-4-1",
+     "title": "Validity of power; conditions",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_4.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-5-11-4": {
+     "id": "in-30-5-11-4",
+     "cite": "Ind. Code § 30-5-11-4",
+     "title": "Creation of electronic power of attorney",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_11.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-5-4-2": {
+     "id": "in-30-5-4-2",
+     "cite": "Ind. Code § 30-5-4-2",
+     "title": "Effective date of power of attorney",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_4.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-5-10-0.5": {
+     "id": "in-30-5-10-0.5",
+     "cite": "Ind. Code § 30-5-10-0.5",
+     "title": "Termination of power to exercise authority",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_10.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-5-10-1": {
+     "id": "in-30-5-10-1",
+     "cite": "Ind. Code § 30-5-10-1",
+     "title": "Revocation of power; record",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_10.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-5-10-4": {
+     "id": "in-30-5-10-4",
+     "cite": "Ind. Code § 30-5-10-4",
+     "title": "Death of principal; extended authority of attorney in fact",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_10.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-5-10-4-dod": {
+     "id": "in-30-5-10-4-dod",
+     "cite": "Ind. Code § 30-5-10-4",
+     "title": "Death of principal; Department of Defense notice",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_10.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-cc-2989": {
      "id": "la-cc-2989",
@@ -29832,6 +30438,70 @@
      ]
     },
     {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-durable",
+     "roleName": "Agent under durable financial power of attorney",
+     "localNames": [
+      "attorney in fact",
+      "electronic power of attorney"
+     ],
+     "nameEn": null,
+     "summary": "A person the principal appoints in a signed power of attorney to act on property and financial matters. Under the UPOAA a power is durable (survives the principal's incapacity) unless it expressly says otherwise, and it ends at the principal's death.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs a written power naming an attorney in fact and granting power, before a notary or before witnesses (§30-5-4-1); an electronic power is signed electronically under §30-5-11-4",
+       "phase": "capable",
+       "citations": [
+        "in-30-5-4-1",
+        "in-30-5-11-4"
+       ]
+      },
+      "starts": {
+       "event": "On the date of signing unless the instrument specifies a later date or event (§30-5-4-2(a)–(b)); authority does not go stale with the passage of time (§30-5-10-0.5)",
+       "phase": "capable",
+       "citations": [
+        "in-30-5-4-2",
+        "in-30-5-10-0.5"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Written instrument of revocation signed by the principal — effective only once the attorney in fact or other person has actual knowledge of it",
+        "phase": "capable",
+        "citations": [
+         "in-30-5-10-1"
+        ]
+       },
+       {
+        "event": "Death of the principal, except as to a person acting in good faith without actual knowledge of it and as to the seven powers §30-5-10-4(c) preserves; a Department of Defense death notice is official notice",
+        "phase": "deceased",
+        "citations": [
+         "in-30-5-10-4",
+         "in-30-5-10-4-dod"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-30-5-4-1",
+      "in-30-5-11-4",
+      "in-30-5-4-2",
+      "in-30-5-10-0.5",
+      "in-30-5-10-1",
+      "in-30-5-10-4",
+      "in-30-5-10-4-dod"
+     ]
+    },
+    {
      "jurisdiction": "us-ia",
      "jurisdictionName": "Iowa",
      "label": "US — Iowa",
@@ -31702,7 +32372,7 @@
    "id": "personal-representative-executor",
    "label": "Executor",
    "definition": "The personal representative the deceased themselves named, usually in a will.",
-   "jurisdictionCount": 59,
+   "jurisdictionCount": 60,
    "countryCount": 24,
    "citations": {
     "mu-cc-1030": {
@@ -32687,6 +33357,38 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K23-2.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-29-1-10-1": {
+     "id": "in-29-1-10-1",
+     "cite": "Ind. Code § 29-1-10-1",
+     "title": "Letters testamentary and of general administration; order of priority",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_10.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-1-7-5": {
+     "id": "in-29-1-7-5",
+     "cite": "Ind. Code § 29-1-7-5",
+     "title": "Petition for probate; letters testamentary; appointment of administrator",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-1-10-3": {
+     "id": "in-29-1-10-3",
+     "cite": "Ind. Code § 29-1-10-3",
+     "title": "Letters; issuance; conditions",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_10.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-1-10-4": {
+     "id": "in-29-1-10-4",
+     "cite": "Ind. Code § 29-1-10-4",
+     "title": "Letters; evidence of authority",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_10.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-ccp-3081": {
      "id": "la-ccp-3081",
@@ -35040,6 +35742,86 @@
      ]
     },
     {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "personal-representative-executor",
+     "roleName": "Personal representative named in will (executor)",
+     "localNames": [
+      "personal representative",
+      "letters testamentary"
+     ],
+     "nameEn": null,
+     "summary": "The person a will nominates to administer the decedent's estate. Being named gives no general power until a court or Registrar appoints them, they qualify, and letters issue. Once appointed, their powers relate back to earlier acts that benefited the estate.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Named in a will admitted to probate; first in the §29-1-10-1(a) order of priority",
+       "phase": "deceased",
+       "citations": [
+        "in-29-1-10-1",
+        "in-29-1-7-5"
+       ]
+      },
+      "starts": {
+       "event": "Letters issue once the person has subscribed the statutory oath and filed any required bond, approved by the court (§29-1-10-3); the letters are conclusive evidence of authority until superseded or revoked",
+       "phase": "administration",
+       "citations": [
+        "in-29-1-10-3",
+        "in-29-1-10-4"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Order closing estate (formal)",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1001",
+         "upc-3-1002",
+         "upc-3-610"
+        ]
+       },
+       {
+        "event": "One year after closing statement with no pending proceedings",
+        "phase": "closed",
+        "citations": [
+         "upc-3-1003",
+         "upc-3-610"
+        ]
+       },
+       {
+        "event": "Removal, resignation (effective on successor), PR death/conservator, change of testacy",
+        "phase": "administration",
+        "citations": [
+         "upc-3-611",
+         "upc-3-610",
+         "upc-3-609",
+         "upc-3-612"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-29-1-10-1",
+      "in-29-1-7-5",
+      "in-29-1-10-3",
+      "in-29-1-10-4",
+      "upc-3-1001",
+      "upc-3-1002",
+      "upc-3-610",
+      "upc-3-1003",
+      "upc-3-611",
+      "upc-3-609",
+      "upc-3-612"
+     ]
+    },
+    {
      "jurisdiction": "us-ia",
      "jurisdictionName": "Iowa",
      "label": "US — Iowa",
@@ -37125,7 +37907,7 @@
    "id": "guardian-person",
    "label": "Guardian of the person",
    "definition": "A personal decision maker appointed by a court or tribunal, rather than by the person.",
-   "jurisdictionCount": 53,
+   "jurisdictionCount": 54,
    "countryCount": 17,
    "citations": {
     "rw-pf-139": {
@@ -37988,6 +38770,30 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K11a-15.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-29-3-5-3": {
+     "id": "in-29-3-5-3",
+     "cite": "Ind. Code § 29-3-5-3",
+     "title": "Findings; appointment of guardian; limited guardianship",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_3/Chapter_5.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-3-12-1": {
+     "id": "in-29-3-12-1",
+     "cite": "Ind. Code § 29-3-12-1",
+     "title": "Termination of guardianship; powers after death of protected person",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_3/Chapter_12.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-29-3-12-1-records": {
+     "id": "in-29-3-12-1-records",
+     "cite": "Ind. Code § 29-3-12-1",
+     "title": "Guardian's post-death power to request health records",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_3/Chapter_12.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-cc-389": {
      "id": "la-cc-389",
@@ -40105,6 +40911,68 @@
      ]
     },
     {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "guardian-person",
+     "roleName": "Guardian for an adult (personal affairs)",
+     "localNames": [
+      "guardian of the person"
+     ],
+     "nameEn": null,
+     "summary": "A person a court appoints to make decisions about an adult's personal affairs (where they live, health care and the like). The court must find by clear-and-convincing evidence that less restrictive alternatives will not work. UGCOPAA (2017) replaces the 1997 UGPPA, and the 2019 UPC still contains the UGPPA as Article V.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Court appointment on findings of incapacity or minority and of necessity (§29-3-5-3(a)), with limited guardianship preferred where it would serve the person's welfare",
+       "phase": "incapacitated",
+       "citations": [
+        "in-29-3-5-3"
+       ]
+      },
+      "starts": {
+       "event": "Court order of appointment, then filing of acceptance and issuance of letters of office",
+       "phase": "incapacitated",
+       "citations": [
+        "ugcopaa-301",
+        "ugcopaa-310",
+        "ugcopaa-108"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Adjudication that the protected person is no longer incapacitated, or the death of the protected person",
+        "phase": "incapacitated",
+        "citations": [
+         "in-29-3-12-1"
+        ]
+       },
+       {
+        "event": "Death: powers cease except for administration expenses, control of the body, anatomical gifts, autopsy, funeral arrangements, delivery of the remaining property, and a request for health records that itself ends 60 days after death",
+        "phase": "deceased",
+        "citations": [
+         "in-29-3-12-1",
+         "in-29-3-12-1-records"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-29-3-5-3",
+      "ugcopaa-301",
+      "ugcopaa-310",
+      "ugcopaa-108",
+      "in-29-3-12-1",
+      "in-29-3-12-1-records"
+     ]
+    },
+    {
      "jurisdiction": "us-ia",
      "jurisdictionName": "Iowa",
      "label": "US — Iowa",
@@ -41929,7 +42797,7 @@
    "id": "health-care-agent",
    "label": "Health-care agent",
    "definition": "A person named in advance to make health and personal welfare decisions once the person can no longer make them.",
-   "jurisdictionCount": 51,
+   "jurisdictionCount": 52,
    "countryCount": 14,
    "citations": {
     "za-nha-7-mandate": {
@@ -42910,6 +43778,62 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K4-10.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-16-36-7-28": {
+     "id": "in-16-36-7-28",
+     "cite": "Ind. Code § 16-36-7-28",
+     "title": "Advance directive; signature; witnesses; acknowledgement",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-16-36-7-34": {
+     "id": "in-16-36-7-34",
+     "cite": "Ind. Code § 16-36-7-34",
+     "title": "Presumptions applicable to advance directives",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-16-36-7-34-hipaa": {
+     "id": "in-16-36-7-34-hipaa",
+     "cite": "Ind. Code § 16-36-7-34",
+     "title": "Presumptions; HIPAA personal representative and the springing determination",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-16-36-7-35": {
+     "id": "in-16-36-7-35",
+     "cite": "Ind. Code § 16-36-7-35",
+     "title": "Incapacity of declarant",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-16-36-7-32": {
+     "id": "in-16-36-7-32",
+     "cite": "Ind. Code § 16-36-7-32",
+     "title": "Revocation; amendment or restatement",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-16-36-7-44": {
+     "id": "in-16-36-7-44",
+     "cite": "Ind. Code § 16-36-7-44",
+     "title": "Material conflict between multiple documents",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-16-36-7-34-death": {
+     "id": "in-16-36-7-34-death",
+     "cite": "Ind. Code § 16-36-7-34",
+     "title": "Presumptions; authority after death",
+     "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-rs-40-1151-4": {
      "id": "la-rs-40-1151-4",
@@ -45155,6 +46079,76 @@
      ]
     },
     {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "health-care-agent",
+     "roleName": "Agent under power of attorney for health care",
+     "localNames": [
+      "health care representative",
+      "declarant's advance directive"
+     ],
+     "nameEn": null,
+     "summary": "An individual appointed in a power of attorney for health care to make health-care decisions when the principal cannot. Under UHCDA (2023) decision-making power always 'springs' on a finding of lack of capacity, and only the health-information power may start at once. The 1993 Act let the document make the agent's authority effective immediately.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Declarant signs an advance directive designating one or more health care representatives, before two adult witnesses or a notarial officer — in counterparts, by audiovisual presence, or telephonically where that is impossible or impractical (§16-36-7-28)",
+       "phase": "capable",
+       "citations": [
+        "in-16-36-7-28"
+       ]
+      },
+      "starts": {
+       "event": "Immediately on signing unless the directive states a delayed date or trigger; where it springs on incapacity, on a written determination by a physician, licensed psychologist or judge, or on the treating physician's note in the medical record",
+       "phase": "capable",
+       "citations": [
+        "in-16-36-7-34",
+        "in-16-36-7-34-hipaa",
+        "in-16-36-7-35"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Valid revocation — by a later directive, by a signed revoking document, or orally in the direct physical presence of a health care provider — but decisions already made stand until the representative or provider has actual knowledge of it",
+        "phase": "capable",
+        "citations": [
+         "in-16-36-7-32"
+        ]
+       },
+       {
+        "event": "A later-signed conflicting document controls, including one signed in another state where the declarant was physically present",
+        "phase": "capable",
+        "citations": [
+         "in-16-36-7-44"
+        ]
+       },
+       {
+        "event": "Death of the declarant, except that authority continues for anatomical gifts, autopsy and disposition of the body unless the directive provides otherwise",
+        "phase": "deceased",
+        "citations": [
+         "in-16-36-7-34-death"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-16-36-7-28",
+      "in-16-36-7-34",
+      "in-16-36-7-34-hipaa",
+      "in-16-36-7-35",
+      "in-16-36-7-32",
+      "in-16-36-7-44",
+      "in-16-36-7-34-death"
+     ]
+    },
+    {
      "jurisdiction": "us-ia",
      "jurisdictionName": "Iowa",
      "label": "US — Iowa",
@@ -47328,7 +48322,7 @@
    "id": "health-records-representative",
    "label": "Health-records representative",
    "definition": "The person entitled to a deceased or incapacitated person's health records.",
-   "jurisdictionCount": 49,
+   "jurisdictionCount": 50,
    "countryCount": 5,
    "citations": {
     "de-bgb-630g": {
@@ -48754,6 +49748,80 @@
      "jurisdiction": "us-il",
      "jurisdictionName": "Illinois",
      "label": "US — Illinois",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "hipaa-personal-representative",
+     "roleName": "HIPAA personal representative",
+     "localNames": [
+      "personal representative (HIPAA Privacy Rule)"
+     ],
+     "nameEn": null,
+     "summary": "Federal privacy law does not appoint anyone. A health care provider or health plan must treat a person as the patient for HIPAA purposes, such as getting records or signing authorizations, when state or other law gives that person authority: authority over health-care decisions for a living adult, or authority over the decedent or the estate after death. The role is derived: it starts and ends when the underlying state-law role (health care agent, guardian, parent, executor/administrator) starts and ends. For decedents, protection lasts 50 years after death.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "A person gets authority under state or other applicable law (e.g., health care power of attorney, guardianship, parent of a minor, letters as executor/administrator). HIPAA itself does not assign anyone.",
+       "phase": "capable",
+       "citations": [
+        "hipaa-164-502-g2",
+        "hipaa-164-502-g4",
+        "hhs-ocr-personal-reps"
+       ]
+      },
+      "starts": {
+       "event": "At the same moment the underlying state-law authority takes effect: authority over health-care decisions (living individual) or authority to act for the decedent or the estate (after death)",
+       "phase": "incapacitated",
+       "citations": [
+        "hipaa-164-502-g1",
+        "hipaa-164-502-g2",
+        "hipaa-164-502-g4",
+        "hhs-ocr-personal-reps"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The underlying state-law authority ends (e.g., a health care agent's authority ends at death, or a guardianship is terminated). Status as a personal representative for a living individual lapses with it.",
+        "phase": "deceased",
+        "citations": [
+         "hipaa-164-502-g2",
+         "hhs-ocr-personal-reps"
+        ]
+       },
+       {
+        "event": "The authority of the executor, administrator, or other person to act for the decedent or the estate ends under state law",
+        "phase": "closed",
+        "citations": [
+         "hipaa-164-502-g4"
+        ]
+       },
+       {
+        "event": "50 years after death: the information is no longer protected health information, so a personal representative has no Privacy Rule rights over it",
+        "phase": "closed",
+        "citations": [
+         "hipaa-164-502-f",
+         "hipaa-160-103-phi",
+         "hhs-ocr-personal-reps"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "hipaa-164-502-g2",
+      "hipaa-164-502-g4",
+      "hhs-ocr-personal-reps",
+      "hipaa-164-502-g1",
+      "hipaa-164-502-f",
+      "hipaa-160-103-phi"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
      "country": "United States",
      "region": "North America",
      "roleId": "hipaa-personal-representative",
@@ -52168,7 +53236,7 @@
    "id": "online-tool-designee",
    "label": "Online-tool designee",
    "definition": "A person designated through a platform's own tool, where the law gives that designation priority.",
-   "jurisdictionCount": 30,
+   "jurisdictionCount": 31,
    "countryCount": 2,
    "citations": {
     "fr-loi7817-85": {
@@ -52806,6 +53874,69 @@
       "rufadaa-2-cmt",
       "rufadaa-16",
       "rufadaa-4",
+      "rufadaa-6"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "rufadaa-designated-recipient",
+     "roleName": "Designated recipient under a custodian's online tool",
+     "localNames": [
+      "designated recipient",
+      "legacy contact",
+      "inactive account manager"
+     ],
+     "nameEn": null,
+     "summary": "A person the account holder picks through a service provider's own online tool (separate from the terms of service) to receive or manage digital assets. If the tool lets the user change or delete the choice at any time, the direction overrides a contrary will, trust, or power of attorney. The designated recipient is not held to fiduciary standards.",
+     "group": "digital",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "User designates recipient via custodian's online tool",
+       "phase": "capable",
+       "citations": [
+        "rufadaa-4",
+        "rufadaa-2"
+       ]
+      },
+      "starts": {
+       "event": "Future event set by the online tool, such as the user's death or incapacity (the Act defers to the tool; no statutory trigger), then request to custodian",
+       "phase": "deceased",
+       "citations": [
+        "rufadaa-2-cmt",
+        "rufadaa-16"
+       ]
+      },
+      "ends": [
+       {
+        "event": "User modifies or deletes the direction",
+        "phase": "capable",
+        "citations": [
+         "rufadaa-4"
+        ]
+       },
+       {
+        "event": "Custodian discloses or terminates account (≤[60] days after required information) (end point not specified)",
+        "phase": "deceased",
+        "citations": [
+         "rufadaa-16",
+         "rufadaa-6"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "rufadaa-4",
+      "rufadaa-2",
+      "rufadaa-2-cmt",
+      "rufadaa-16",
       "rufadaa-6"
      ]
     },
@@ -54169,7 +55300,7 @@
    "id": "financial-poa-nondurable",
    "label": "Ordinary financial power of attorney",
    "definition": "An agent appointed by the person whose authority ends when the person loses capacity, rather than surviving it.",
-   "jurisdictionCount": 44,
+   "jurisdictionCount": 45,
    "countryCount": 11,
    "citations": {
     "cn-cc-165": {
@@ -54491,6 +55622,22 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-5.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-30-5-4-2": {
+     "id": "in-30-5-4-2",
+     "cite": "Ind. Code § 30-5-4-2",
+     "title": "Effective date of power of attorney",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_4.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-5-10-3": {
+     "id": "in-30-5-10-3",
+     "cite": "Ind. Code § 30-5-10-3",
+     "title": "Incapacity of principal",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_10.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-cc-3026": {
      "id": "la-cc-3026",
@@ -55851,6 +56998,58 @@
       "upoaa-113",
       "il-poa-2-4",
       "il-poa-2-5"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-nondurable",
+     "roleName": "Agent under nondurable financial power of attorney",
+     "localNames": [
+      "attorney-in-fact",
+      "agent"
+     ],
+     "nameEn": null,
+     "summary": "An agent under a power of attorney that expressly states it ends if the principal becomes incapacitated. It works only while the principal is capable, and ends at incapacity or death.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs POA expressly stating it terminates on incapacity",
+       "phase": "capable",
+       "citations": [
+        "upoaa-105",
+        "upoaa-104"
+       ]
+      },
+      "starts": {
+       "event": "On signing, as for a durable power (§30-5-4-2(a))",
+       "phase": "capable",
+       "citations": [
+        "in-30-5-4-2"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Incapacity of the principal, but only where the instrument so provides, and not as against anyone acting in good faith without actual knowledge of it",
+        "phase": "incapacitated",
+        "citations": [
+         "in-30-5-10-3"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "upoaa-105",
+      "upoaa-104",
+      "in-30-5-4-2",
+      "in-30-5-10-3"
      ]
     },
     {
@@ -57624,7 +58823,7 @@
    "id": "small-estate-affiant",
    "label": "Small-estate collector",
    "definition": "A person who may collect a small estate without a grant of representation, where the law provides a threshold.",
-   "jurisdictionCount": 39,
+   "jurisdictionCount": 40,
    "countryCount": 6,
    "citations": {
     "mu-sw-37": {
@@ -57818,6 +59017,14 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500050K25-3.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-29-1-8-1": {
+     "id": "in-29-1-8-1",
+     "cite": "Ind. Code § 29-1-8-1",
+     "title": "Small estates; payment upon presentation of affidavit",
+     "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_8.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-ccp-3421": {
      "id": "la-ccp-3421",
@@ -58796,6 +60003,53 @@
       "il-pa-25-1-a5",
       "upc-3-1201",
       "il-pa-25-3"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "small-estate-affiant",
+     "roleName": "Successor collecting personal property by small-estate affidavit",
+     "localNames": [
+      "distributee"
+     ],
+     "nameEn": null,
+     "summary": "For a small estate, a person entitled to the decedent's personal property can collect it by affidavit 30 days after death, without court appointment. Anyone who pays or delivers property to them is protected as if they had dealt with a personal representative.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "A distributee, or someone acting on their behalf, makes the §29-1-8-1(b) affidavit — having first notified every other distributee named in it",
+       "phase": "deceased",
+       "citations": [
+        "in-29-1-8-1"
+       ]
+      },
+      "starts": {
+       "event": "Forty-five days after the death, on presentation of the affidavit; five days for a motor vehicle or watercraft",
+       "phase": "deceased",
+       "citations": [
+        "in-29-1-8-1"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Delivery or payment of the property; or an application for a personal representative, which the affidavit must swear is not pending",
+        "phase": "administration",
+        "citations": [
+         "in-29-1-8-1"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-29-1-8-1"
      ]
     },
     {
@@ -60141,7 +61395,7 @@
    "id": "financial-poa-springing",
    "label": "Springing power of attorney",
    "definition": "An appointment made while capable that confers no authority until a later event — usually the person's own incapacity.",
-   "jurisdictionCount": 34,
+   "jurisdictionCount": 35,
    "countryCount": 5,
    "citations": {
     "it-cc-408": {
@@ -60435,6 +61689,22 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/075500450K2-3.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-30-5-4-2": {
+     "id": "in-30-5-4-2",
+     "cite": "Ind. Code § 30-5-4-2",
+     "title": "Effective date of power of attorney",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_4.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-5-4-2-determiner": {
+     "id": "in-30-5-4-2-determiner",
+     "cite": "Ind. Code § 30-5-4-2",
+     "title": "Springing power; who may determine incapacity",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_4.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "ma-mgl-190b-5-501": {
      "id": "ma-mgl-190b-5-501",
@@ -61343,6 +62613,75 @@
       "il-poa-2-4",
       "il-poa-3-3-springing",
       "il-poa-2-3",
+      "upoaa-110a",
+      "upoaa-110d",
+      "upoaa-110b",
+      "upoaa-108"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "financial-poa-springing",
+     "roleName": "Agent under springing (contingent) financial power of attorney",
+     "localNames": [
+      "attorney-in-fact",
+      "agent under contingent power of attorney"
+     ],
+     "nameEn": null,
+     "summary": "A power of attorney that the principal writes to take effect at a future date or on a future event, most often the principal's incapacity. The POA can name who decides that the event has happened. If it names no one, a physician (or licensed psychologist) can certify impairment, or a lawyer, judge or government official can certify that the principal is missing or detained.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Principal signs a power stating a future date or event for effectiveness (§30-5-4-2(b))",
+       "phase": "capable",
+       "citations": [
+        "in-30-5-4-2"
+       ]
+      },
+      "starts": {
+       "event": "On the stated date or event; for incapacity with no named determiner, on a writing or other record by a physician, licensed psychologist or judge",
+       "phase": "incapacitated",
+       "citations": [
+        "in-30-5-4-2-determiner"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of principal (good-faith acts without actual knowledge still bind)",
+        "phase": "deceased",
+        "citations": [
+         "upoaa-110a",
+         "upoaa-110d"
+        ]
+       },
+       {
+        "event": "Revocation, POA terms, purpose accomplished, agent exit, spouse-agent dissolution filing",
+        "phase": "incapacitated",
+        "citations": [
+         "upoaa-110a",
+         "upoaa-110b"
+        ]
+       },
+       {
+        "event": "Court limits/suspends/terminates after conservator appointment",
+        "phase": "incapacitated",
+        "citations": [
+         "upoaa-108"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-30-5-4-2",
+      "in-30-5-4-2-determiner",
       "upoaa-110a",
       "upoaa-110d",
       "upoaa-110b",
@@ -62926,7 +64265,7 @@
    "id": "successor-trustee",
    "label": "Successor trustee",
    "definition": "The trustee who takes over administration of a trust when the previous trustee stops acting.",
-   "jurisdictionCount": 31,
+   "jurisdictionCount": 32,
    "countryCount": 2,
    "citations": {
     "cn-trust-8": {
@@ -63128,6 +64467,22 @@
      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/076000030K701.htm",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "in-30-4-3-33": {
+     "id": "in-30-4-3-33",
+     "cite": "Ind. Code § 30-4-3-33",
+     "title": "Trustee vacancies; priority for filling vacancy",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_4/Chapter_3.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
+    },
+    "in-30-4-3-29": {
+     "id": "in-30-4-3-29",
+     "cite": "Ind. Code § 30-4-3-29",
+     "title": "Removal, resignation, and appointment of trustees",
+     "url": "https://iga.in.gov/ic/2026/Title_30/Article_4/Chapter_3.pdf",
+     "kind": "statute",
+     "retrieved": "2026-10-26"
     },
     "la-rs-9-1785": {
      "id": "la-rs-9-1785",
@@ -63813,6 +65168,60 @@
       "utc-706",
       "utc-602",
       "utc-601"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "successor-trustee",
+     "roleName": "Successor trustee of a revocable (living) trust",
+     "localNames": [
+      "successor trustee"
+     ],
+     "nameEn": null,
+     "summary": "A person named in the trust to take over when the trusteeship becomes vacant. When that happens depends mainly on the trust's own terms (for example, the settlor-trustee's incapacity as the trust defines it). By default the UTC creates a vacancy when a trustee dies, resigns, is removed, or gets a guardian or conservator. The successor serves only after accepting.",
+     "group": "trust",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": true,
+     "lane": {
+      "assigned": {
+       "event": "Named in the trust, or appointed on a vacancy by a majority of the qualified beneficiaries or by the court (§30-4-3-33(c))",
+       "phase": "capable",
+       "citations": [
+        "in-30-4-3-33"
+       ]
+      },
+      "starts": {
+       "event": "Vacancy occurs per trust terms (e.g., incapacity as defined by the trust) or by default on death, resignation, removal, or appointment of guardian/conservator for an individual trustee; successor accepts",
+       "phase": "incapacitated",
+       "citations": [
+        "utc-105",
+        "utc-704",
+        "utc-701"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Resignation on thirty days' notice or with court approval, removal, death or loss of capacity — but duties and protective powers continue until the trust property is delivered to a successor",
+        "phase": "administration",
+        "citations": [
+         "in-30-4-3-29",
+         "in-30-4-3-33"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "in-30-4-3-33",
+      "utc-105",
+      "utc-704",
+      "utc-701",
+      "in-30-4-3-29"
      ]
     },
     {
@@ -66676,7 +68085,7 @@
    "id": "tax-representative",
    "label": "Tax representative",
    "definition": "The person who deals with the tax authority for a deceased or incapacitated person.",
-   "jurisdictionCount": 43,
+   "jurisdictionCount": 44,
    "countryCount": 5,
    "citations": {
     "de-ao-34": {
@@ -67853,6 +69262,61 @@
      "jurisdiction": "us-il",
      "jurisdictionName": "Illinois",
      "label": "US — Illinois",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "irs-fiduciary-notice",
+     "roleName": "Fiduciary of record with the IRS (Form 56 notice)",
+     "localNames": [
+      "Form 56 fiduciary",
+      "notice of fiduciary relationship"
+     ],
+     "nameEn": null,
+     "summary": "Federal tax law does not create fiduciary authority. It recognizes a fiduciary (guardian, conservator, executor, administrator, trustee, or anyone else acting in a fiduciary capacity) once that person notifies the IRS, usually on Form 56. From then on, the fiduciary stands in the taxpayer's shoes for tax matters until notice is given that the fiduciary capacity has terminated. That IRS-facing status can therefore outlast the state-law appointment until termination is reported. An agent under a power of attorney is not a fiduciary for this purpose and uses Form 2848 instead.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person begins acting for another in a fiduciary capacity under other law (e.g., court appointment as guardian or conservator, letters testamentary or of administration, or trusteeship)",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-26-301-6903-1",
+        "irs-i56"
+       ]
+      },
+      "starts": {
+       "event": "Notice of the fiduciary relationship is filed with the IRS (Form 56)",
+       "phase": "administration",
+       "citations": [
+        "usc-26-6903",
+        "cfr-26-301-6903-1",
+        "irs-i56"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Notice is given to the IRS that the fiduciary capacity has terminated (Form 56, Part II)",
+        "phase": "closed",
+        "citations": [
+         "usc-26-6903",
+         "cfr-26-301-6903-1",
+         "irs-i56"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-26-301-6903-1",
+      "irs-i56",
+      "usc-26-6903"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
      "country": "United States",
      "region": "North America",
      "roleId": "irs-fiduciary-notice",
@@ -69285,7 +70749,7 @@
    "id": "veterans-fiduciary",
    "label": "Veterans fiduciary",
    "definition": "A fiduciary under a distinct veterans' regime, where one exists separately from the general law.",
-   "jurisdictionCount": 36,
+   "jurisdictionCount": 37,
    "countryCount": 3,
    "citations": {
     "afcs-2011-a71": {
@@ -70294,6 +71758,84 @@
      "jurisdiction": "us-il",
      "jurisdictionName": "Illinois",
      "label": "US — Illinois",
+     "country": "United States",
+     "region": "North America",
+     "roleId": "va-fiduciary",
+     "roleName": "VA fiduciary",
+     "localNames": [
+      "VA-appointed fiduciary",
+      "federal fiduciary"
+     ],
+     "nameEn": null,
+     "summary": "An individual or entity that the Department of Veterans Affairs appoints to receive and manage a beneficiary's VA benefits. VA appoints one after a VA rating authority finds the beneficiary unable to manage VA benefits, after a court finds the beneficiary unable to manage financial affairs, or when the beneficiary is a minor. The VA incompetency rating is an administrative decision, with notice and a hearing right, and doubt is resolved in favor of competency. The role ends through removal by the VA Hub Manager: when VA rates the beneficiary competent, when the beneficiary dies, when a successor is appointed, or when the fiduciary is removed for cause or withdraws with VA's permission.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": false,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "VA rating authority rates the beneficiary incompetent to handle VA funds, or a court with jurisdiction finds the beneficiary unable to manage financial affairs. The Hub Manager then investigates and appoints a fiduciary.",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-38-3-353",
+        "cfr-38-13-20",
+        "cfr-38-13-100",
+        "usc-38-5502"
+       ]
+      },
+      "starts": {
+       "event": "Hub Manager appoints the fiduciary; VA pays benefits to the fiduciary for the use and benefit of the beneficiary and dependents",
+       "phase": "incapacitated",
+       "citations": [
+        "cfr-38-13-100",
+        "cfr-38-13-20",
+        "usc-38-5502"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Beneficiary dies: this is a listed reason for removal, and VA benefits are discontinued as of the last day of the month before death",
+        "phase": "deceased",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-3-500-g"
+        ]
+       },
+       {
+        "event": "VA rating authority determines the beneficiary can manage VA benefits (or a court finds this, if the court order was the basis)",
+        "phase": "capable",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-13-30",
+         "cfr-38-3-353"
+        ]
+       },
+       {
+        "event": "Removal for fiduciary reasons (misuse, failure to account, bar under 13.130, loss of qualifications, etc.), or withdrawal after VA arranges a successor",
+        "phase": "incapacitated",
+        "citations": [
+         "cfr-38-13-500",
+         "cfr-38-13-510"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "cfr-38-3-353",
+      "cfr-38-13-20",
+      "cfr-38-13-100",
+      "usc-38-5502",
+      "cfr-38-13-500",
+      "cfr-38-3-500-g",
+      "cfr-38-13-30",
+      "cfr-38-13-510"
+     ]
+    },
+    {
+     "jurisdiction": "us-in",
+     "jurisdictionName": "Indiana",
+     "label": "US — Indiana",
      "country": "United States",
      "region": "North America",
      "roleId": "va-fiduciary",

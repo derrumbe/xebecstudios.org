@@ -524,6 +524,15 @@
    "kind": "statute",
    "retrieved": "2026-10-22",
    "quote": "An agent of the decedent at the time of death who could have made an anatomical gift pursuant to section 36-843 immediately before the decedent's death."
+  },
+  {
+   "id": "az-14-11013-h",
+   "cite": "A.R.S. § 14-11013(E), (H)",
+   "title": "Certification of trust; limits on demanding excerpts; liability of a person demanding the instrument",
+   "url": "https://www.azleg.gov/ars/14/11013.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-26",
+   "quote": "A person may not require the trustee to furnish copies of excerpts from the trust instrument that contain dispositive terms of the trust or provisions on named successor trustees unless the person first provides the trustee with a verified statement that states a reasonable basis for the request. ... A person making a demand for the trust instrument or excerpts from the trust instrument in addition to a certification of trust is liable for damages, costs, expenses and attorney fees if the court determines that the person did not act in good faith or did not otherwise comply with subsection E of this section in demanding the trust instrument."
   }
  ],
  "patches": [
@@ -901,7 +910,7 @@
   },
   {
    "role": "successor-trustee",
-   "diff": "The Arizona Trust Code, Title 14 chapter 11, is the Uniform Trust Code and the office-of-trustee provisions are the uniform ones: acceptance by substantial compliance with the trust's method or by conduct (§14-10701(A)), rejection deemed from silence within a reasonable time, vacancy on rejection, inability to identify, resignation, disqualification, removal, death, **or the appointment of a guardian or conservator for an individual trustee** (§14-10704(A)(6)), and a filling order of trust nominee, then unanimous agreement of qualified beneficiaries, then the court (§14-10704(C)). Resignation takes 30 days' notice to qualified beneficiaries, the living settlor and cotrustees, or court approval (§14-10705).\n\nArizona **has** the certification of trust the uniform act supplies at §1013, codified at §14-11013, which Nebraska's trust code omits — so a successor trustee can prove authority to a third party without producing the instrument. Bond is required only where the court finds it needed or the trust requires it (§14-10702).",
+   "diff": "The Arizona Trust Code, Title 14 chapter 11, is the Uniform Trust Code and the office-of-trustee provisions are the uniform ones: acceptance by substantial compliance with the trust's method or by conduct (§14-10701(A)), rejection deemed from silence within a reasonable time, vacancy on rejection, inability to identify, resignation, disqualification, removal, death, **or the appointment of a guardian or conservator for an individual trustee** (§14-10704(A)(6)), and a filling order of trust nominee, then unanimous agreement of qualified beneficiaries, then the court (§14-10704(C)). Resignation takes 30 days' notice to qualified beneficiaries, the living settlor and cotrustees, or court approval (§14-10705).\n\nArizona **has** the certification of trust the uniform act supplies at §1013, codified at §14-11013, which Nebraska's trust code omits — so a successor trustee can prove authority to a third party without producing the instrument. **Arizona also varies §1013 at both ends, and in opposite directions.** §14-11013(E) restricts the recipient: it may require the excerpts designating the trustee and conferring the power to act, but \"may not require the trustee to furnish copies of excerpts from the trust instrument that contain dispositive terms of the trust or provisions on named successor trustees unless the person first provides the trustee with a verified statement that states a reasonable basis for the request\" — a procedural route that makes an otherwise-prohibited demand lawful, which nothing else in this reference has. And §14-11013(H) carries the uniform §1013(h) liability, widened: a person demanding the instrument in addition to a certification \"is liable for damages, costs, expenses and attorney fees\" where the court finds it did not act in good faith **or** did not comply with subsection E. So Arizona both narrows what may be demanded and prices an improper demand two ways. §15 of the findings page sets the five jurisdictions carrying this subsection side by side.\n\nBond is required only where the court finds it needed or the trust requires it (§14-10702).",
    "differs": false,
    "citations": [
     "az-14-10701",
@@ -909,7 +918,8 @@
     "az-14-10704",
     "az-14-10705",
     "az-14-10706",
-    "az-14-11013"
+    "az-14-11013",
+    "az-14-11013-h"
    ]
   },
   {
