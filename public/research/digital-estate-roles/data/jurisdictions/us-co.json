@@ -200,6 +200,15 @@
    "kind": "statute",
    "retrieved": "2026-10-14",
    "quote": "(1) Subject to section 15-19-105 (2), the right to control disposition of the last remains or ceremonial arrangements of a decedent vests in and devolves upon the following persons, at the time of the decedent's death, in the following order: (a) The decedent if acting through a declaration pursuant to section 15-19-104 …; (b)(I) Either the appointed personal representative or special administrator of the decedent's estate if such person has been appointed; or (II) The nominee for appointment as personal representative under the decedent's will if a personal representative or special administrator has not been appointed;"
+  },
+  {
+   "id": "co-15-5-1013-8",
+   "cite": "C.R.S. § 15-5-1013(8)",
+   "title": "Certification of trust; liability of a person demanding the instrument",
+   "url": "https://olls.info/crs/crs2026-title-15.htm",
+   "kind": "statute",
+   "retrieved": "2026-10-26",
+   "quote": "A person making a demand for the trust instrument in addition to a certification of trust or excerpts is liable for costs, expenses, attorney fees, and damages if the court determines that the person did not act in good faith in demanding the trust instrument."
   }
  ],
  "patches": [
@@ -289,9 +298,10 @@
     "trustee",
     "certification of trust"
    ],
-   "diff": "Colorado enacted the Uniform Trust Code as article 5, and §15-5-1013 is a certification of trust close to the uniform §1013: existence and execution date, the settlor, the currently acting trustee and address, “the powers of the trustee in the pending transaction”, revocability with the identity of anyone holding a power to revoke, cotrustee signing authority and whether all or fewer than all must act, and the name in which title may be taken.\n\nIt is an option rather than a duty — the trustee “may furnish” it “[i]nstead of furnishing a copy of the trust instrument” — which is the ordinary shape, and not Iowa's, where a counterparty demanding the instrument pays damages.",
+   "diff": "Colorado enacted the Uniform Trust Code as article 5, and §15-5-1013 is a certification of trust close to the uniform §1013: existence and execution date, the settlor, the currently acting trustee and address, “the powers of the trustee in the pending transaction”, revocability with the identity of anyone holding a power to revoke, cotrustee signing authority and whether all or fewer than all must act, and the name in which title may be taken.\n\nIt is an option rather than a duty — the trustee “may furnish” it “[i]nstead of furnishing a copy of the trust instrument”. **But Colorado does put a price on refusing it**, which an earlier version of this note denied: §15-5-1013(8) makes a person demanding the instrument in addition to a certification “liable for costs, expenses, attorney fees, and damages if the court determines that the person did not act in good faith in demanding the trust instrument” — the Uniform Trust Code's §1013(h), widened from damages alone. That gate on a finding of bad faith is what distinguishes it from Iowa's §633A.4604(6), where liability is unconditional; see §15 of the findings page for the four-way spread.",
    "citations": [
-    "co-15-5-1013"
+    "co-15-5-1013",
+    "co-15-5-1013-8"
    ]
   },
   {

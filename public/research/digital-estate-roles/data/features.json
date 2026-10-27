@@ -2140,6 +2140,367 @@
    }
   ]
  },
+ "us-in": {
+  "features": {
+   "deceasedPersonalDataProtected": {
+    "value": "partial",
+    "note": "No general federal privacy statute covering personal data of the dead was identified (negative finding, not itself citable). The HIPAA Privacy Rule protects a decedent's protected health information held by covered entities for 50 years after death; the executor/administrator acts as personal representative. Other personal data (e.g., online accounts) is governed by state law such as RUFADAA enactments.",
+    "citations": [
+     "hipaa-164-502-f",
+     "hipaa-160-103-phi",
+     "hhs-ocr-decedents",
+     "hipaa-164-502-g4"
+    ]
+   },
+   "poaDurableByDefault": {
+    "value": true,
+    "note": "Indiana took no uniform power of attorney act, and still landed on the uniform rule: §30-5-10-3(a) provides that \"[e]xcept as otherwise stated in the power of attorney, a power of attorney is not terminated by the incapacity of the principal\". Durability is the default and non-durability the opt-out, as under UPOAA §104 — so Indiana reached the default-durable position by its own 1991 drafting rather than by enactment, which is the same independence §30-4-4-5 and §30-5-4-2 show in the trust and springing lanes. Execution is strict: §30-5-4-1(a) makes writing, a named attorney in fact, a grant of power and signature before a notary or witnesses all conditions of validity.",
+    "citations": [
+     "inf-30-5-10-3",
+     "inf-30-5-4-1"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "No registration or recording gate on use: §30-5-3-3(a) says an attorney in fact \"may act under a power of attorney … without recording the power of attorney with the county recorder\". The exception is transaction-specific rather than general — (b) requires the power to be recorded before presenting for recording a document that must itself be recorded, and (c) bars a county recorder from accepting such a document from an attorney in fact whose power is unrecorded. So recording conditions one class of transaction, not the authority, as in Minnesota and Nebraska.",
+    "citations": [
+     "inf-30-5-3-3"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "§30-5-4-2(b) lets a power \"specify the date on which the power will become effective\" or \"become effective upon the occurrence of an event\". (c) then supplies the fallback determiners where the principal named none or the person named will not act — \"a physician, licensed psychologist, or judge\" — and (d) lets a person the principal **did** authorise act as the principal's HIPAA personal representative to obtain the health information the determination needs. That pair is Uniform Power of Attorney Act §109(c)–(d), copied into a non-uniform act by P.L.185-2021.",
+    "citations": [
+     "inf-30-5-4-2",
+     "inf-30-5-4-2-determiner"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "other",
+    "note": "**On execution, by default.** §16-36-7-34(1): where the advance directive states no delayed effective date or triggering event it \"is effective immediately upon signing and witnessing or acknowledgment\", subject throughout to a capable declarant's own decisions — so Indiana's default is neither of the usual two and the instrument chooses. Where the directive does spring, §16-36-7-34(7)(A) takes a writing or other record by \"a physician, licensed psychologist, or judge\" and (10)(A) an entry in the medical record under §16-36-7-35(d), with the authority going \"inactive when the declarant regains capacity\". §16-36-7-35(e) adds the rule that distinguishes Indiana: where the treating physician cannot reach a conclusion, providers \"shall treat the declarant as still having capacity\", and (g) confines any finding to health care decisions.",
+    "citations": [
+     "inf-16-36-7-34",
+     "inf-16-36-7-35"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": "limited",
+    "note": "Both agents keep it, which no other state in this set does. §16-36-7-34(5) continues each health care representative's authority after death to make anatomical gifts, request an autopsy and plan the disposition of the body unless the directive says otherwise; §§30-5-10-4(c) and 30-5-5-16(b)(5)–(7) keep the **same three powers** alive for an attorney in fact. §29-2-19-17(2) then ranks \"[a]n individual specifically granted the authority in a power of attorney or a health care power of attorney … or a health care representative\" together in one class, second only to a funeral planning declaration. Minnesota's §149A.80 gives this to the health care agent and expressly withholds it from the financial one; Arizona's §36-831(A)(2) names the durable-power agent. Indiana names both and ranks them equally.",
+    "citations": [
+     "inf-16-36-7-34-death",
+     "inf-30-5-10-4",
+     "inf-30-5-5-16",
+     "inf-29-2-19-17"
+    ]
+   },
+   "smallEstateWithoutGrant": {
+    "value": true,
+    "note": "§29-1-8-1 is an affidavit at **$100,000** after **45 days** for a death after 30 June 2022, raised from $50,000 by P.L.151-2022, computed on the gross probate estate \"wherever located\" less liens, encumbrances and reasonable funeral expenses. The affiant must have notified every distributee named in the affidavit before presenting it, and must swear that no personal representative is pending or granted anywhere. A motor vehicle or watercraft transfers after only **five days** on a narrower affidavit; securities are re-registered by the transfer agent; an insurer owing a death benefit counts as a person indebted; and safe-deposit-box contents are treated as personal property in the institution's possession, as in Minnesota.\n\n**§29-1-8-1(g) is unique in this reference**: \"a distributee has the same rights as a personal representative under IC 32-39 to access a digital asset … of the decedent\". No other jurisdiction here routes digital assets through a small-estate affidavit, and this one needs no court and no letters. §29-1-8-4.5 adds the remedy — a court order of entitlement without notice or hearing, and attorney's fees and costs against a holder that acted in bad faith **or** \"refused to respond within thirty (30) business days\".",
+    "citations": [
+     "inf-29-1-8-1",
+     "inf-29-1-8-1-digital",
+     "inf-29-1-8-4.5"
+    ],
+    "threshold": 100000,
+    "currency": "USD",
+    "waitingDays": 45
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": true,
+    "note": "Revised Uniform Fiduciary Access to Digital Assets Act, enacted 2016 as IC 32-39 (P.L.137-2016). §32-39-1-1 is the uniform applicability provision, reaching a fiduciary under a will or power of attorney \"regardless of when the will or power of attorney was executed\" and a custodian holding the assets of a user who \"resides in Indiana\" or \"resided in Indiana at the time of the user's death\", and excluding an employer's assets used by an employee. §32-39-2-13 gives the custodian sixty days, a court order as the remedy, and immunity for good-faith compliance.",
+    "citations": [
+     "inf-32-39-1-1",
+     "inf-32-39-2-13"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": true,
+    "note": "§32-39-2-1 is the uniform online-tool rule unchanged: a direction given through a custodian's online tool \"overrides a contrary direction by the user in a will, trust, power of attorney, or other record\" where the tool \"allows the user to modify or delete a direction at all times\", and either a tool direction or a record direction overrides a terms-of-service provision the user never had to accept separately.",
+    "citations": [
+     "inf-32-39-2-1"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "note": "Revised Uniform Anatomical Gift Act, enacted 2007 as IC 29-2-16.1 (P.L.147-2007). §29-2-16.1-8(a) runs the ten-class post-mortem priority with the agent first, on the uniform known-objection rule and a majority-of-the-class fallback. §29-2-16.1-3(2) is worth reading for who counts as that agent: \"an agent, a health care representative, or a proxy (as defined by IC 16-36-7-20)\", so the 2021 directives act is written into the list and all three of Indiana's health-decision roles carry the power unless the instrument prohibits it.",
+    "citations": [
+     "inf-29-2-16.1-8",
+     "inf-29-2-16.1-3"
+    ]
+   },
+   "probateGrantName": {
+    "value": "letters",
+    "note": "§29-1-10-3 issues \"[l]etters testamentary, of administration, of administration with the will annexed, de bonis non, and all other letters\" once the appointee has subscribed an oath to \"faithfully discharge the duties of his trust according to law\" and filed any bond the court approves — so authority turns on qualification rather than on the order. §29-1-10-4 then makes the letters \"conclusive evidence of the authority of the person to whom they are issued until superseded or revoked\", with a certified transcript carrying the same effect: the proof and its expiry condition in one sentence.",
+    "citations": [
+     "inf-29-1-10-3",
+     "inf-29-1-10-4"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "note": "IC 29-3-14, added in 2019 (P.L.68-2019), and the most fully specified supported decision-making regime in this set at thirteen sections. The agreement must be in writing, dated and \"signed by the adult in the presence of a notary\", with a separate signed consent from each supporter acknowledging the duties (§29-3-14-7) — where Delaware's and Utah's turn on an immunity rather than on a prescribed instrument. §29-3-14-6 then gives it operative effect: a request or decision made with a supporter's assistance \"shall be recognized as the request or decision of the adult for the purposes of any provision of law\".\n\n**§29-3-14-4(b) is the opposite of Arizona's rule.** An adult \"may make, change, or revoke a supported decision making agreement even if the adult does not have the capacity to independently manage the adult's own health care, legal matters, or financial affairs\", and (c) bars a court from treating execution as evidence of incapacity. Arizona's §14-5722(G) voids the agreement on incapacity; Indiana makes incapacity to manage one's own affairs no bar to making one. §29-3-14-5(c)(5) also draws the supporter's data limit from financial-privacy law rather than from probate, prohibiting the supporter from obtaining without consent \"nonpublic personal information as defined in 15 U.S.C. 6809(4)(A)\".",
+    "citations": [
+     "inf-29-3-14-7",
+     "inf-29-3-14-4",
+     "inf-29-3-14-6"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "hipaa-164-502-f",
+    "cite": "45 CFR 164.502(f)",
+    "title": "Standard: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(f)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "must comply with the requirements of this subpart with respect to the protected health information of a deceased individual for a period of 50 years"
+   },
+   {
+    "id": "hipaa-160-103-phi",
+    "cite": "45 CFR 160.103, definition of \"protected health information\" para. (2)(iv)",
+    "title": "Definitions: protected health information exclusions",
+    "url": "https://www.ecfr.gov/current/title-45/section-160.103",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "Regarding a person who has been deceased for more than 50 years."
+   },
+   {
+    "id": "hhs-ocr-decedents",
+    "cite": "HHS OCR, Health Information of Deceased Individuals guidance, last reviewed Sept. 19, 2013",
+    "title": "Health Information of Deceased Individuals",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html",
+    "kind": "agency-rule",
+    "retrieved": "2026-09-16",
+    "quote": "The HIPAA Privacy Rule protects the individually identifiable health information about a decedent for 50 years following the date of death"
+   },
+   {
+    "id": "hipaa-164-502-g4",
+    "cite": "45 CFR 164.502(g)(4)",
+    "title": "Implementation specification: Deceased individuals",
+    "url": "https://www.ecfr.gov/current/title-45/section-164.502#p-164.502(g)(4)",
+    "kind": "regulation",
+    "retrieved": "2026-09-16",
+    "quote": "If under applicable law an executor, administrator, or other person has authority to act on behalf of a deceased individual or of the individual's estate"
+   },
+   {
+    "id": "inf-30-5-10-3",
+    "cite": "Ind. Code § 30-5-10-3",
+    "title": "Incapacity of principal",
+    "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_10.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "Except as otherwise stated in the power of attorney, a power of attorney is not terminated by the incapacity of the principal."
+   },
+   {
+    "id": "inf-30-5-4-1",
+    "cite": "Ind. Code § 30-5-4-1",
+    "title": "Validity of power; conditions",
+    "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_4.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "To be valid, a power of attorney must meet the following conditions: (1) Be in writing. (2) Name an attorney in fact. (3) Give the attorney in fact the power to act on behalf of the principal."
+   },
+   {
+    "id": "inf-30-5-3-3",
+    "cite": "Ind. Code § 30-5-3-3",
+    "title": "Recording power of attorney",
+    "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_3.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "an attorney in fact may act under a power of attorney, including executing an instrument on the principal's behalf under IC 30-5-8-8, without recording the power of attorney with the county recorder"
+   },
+   {
+    "id": "inf-30-5-4-2",
+    "cite": "Ind. Code § 30-5-4-2",
+    "title": "Time power becomes effective; incapacity of the principal",
+    "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_4.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "A power of attorney may: (1) specify the date on which the power will become effective; or (2) become effective upon the occurrence of an event."
+   },
+   {
+    "id": "inf-30-5-4-2-determiner",
+    "cite": "Ind. Code § 30-5-4-2",
+    "title": "Springing power; who may determine incapacity",
+    "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_4.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "the power of attorney becomes effective upon a determination that the principal is incapacitated that is set forth in a writing or other record by a physician, licensed psychologist, or judge"
+   },
+   {
+    "id": "inf-16-36-7-34",
+    "cite": "Ind. Code § 16-36-7-34",
+    "title": "Presumptions applicable to advance directives",
+    "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "If the advance directive does not state a delayed effective date or a future triggering event for effectiveness, the advance directive is effective immediately upon signing and witnessing or acknowledgment in compliance with section 28 of this chapter."
+   },
+   {
+    "id": "inf-16-36-7-35",
+    "cite": "Ind. Code § 16-36-7-35",
+    "title": "Incapacity of declarant",
+    "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "If a declarant's capacity to make health care decisions or provide informed consent is in question, the declarant's treating physician shall evaluate the declarant's capacity and, if the treating physician concludes that the declarant lacks capacity, enter that evaluation in the declarant's medical record."
+   },
+   {
+    "id": "inf-16-36-7-34-death",
+    "cite": "Ind. Code § 16-36-7-34",
+    "title": "Presumptions; authority after death",
+    "url": "https://iga.in.gov/ic/2026/Title_16/Article_36/Chapter_7.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "each health care representative who is designated in an advance directive continues to have authority after the death of the declarant to do the following: (A) Make anatomical gifts on the declarant's behalf, subject to any previous written direction by the declarant. (B) Request or authorize an autopsy. (C) Make plans for the disposition of the declarant's body"
+   },
+   {
+    "id": "inf-30-5-10-4",
+    "cite": "Ind. Code § 30-5-10-4",
+    "title": "Death of principal; extended authority of attorney in fact",
+    "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_10.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "The death of a principal who executes a written power of attorney does not revoke or terminate the power of attorney as to authority granted under one (1) or more of the following"
+   },
+   {
+    "id": "inf-30-5-5-16",
+    "cite": "Ind. Code § 30-5-5-16",
+    "title": "Health care powers; funeral planning declaration",
+    "url": "https://iga.in.gov/ic/2026/Title_30/Article_5/Chapter_5.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "Make anatomical gifts on the principal's behalf. (6) Request an autopsy. (7) Make plans for the disposition of the principal's body, including executing a funeral planning declaration on behalf of the principal in accordance with IC 29-2-19."
+   },
+   {
+    "id": "inf-29-2-19-17",
+    "cite": "Ind. Code § 29-2-19-17",
+    "title": "Priority as to right to control disposition of decedent's body",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_2/Chapter_19.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "An individual specifically granted the authority in a power of attorney or a health care power of attorney executed by the decedent under IC 30-5-5-16 or a health care representative under IC 16-36-7."
+   },
+   {
+    "id": "inf-29-1-8-1",
+    "cite": "Ind. Code § 29-1-8-1",
+    "title": "Small estates; payment upon presentation of affidavit",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_8.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "That the value of the gross probate estate, wherever located, (less liens, encumbrances, and reasonable funeral expenses) does not exceed ... one hundred thousand dollars ($100,000), for the estate of an individual who dies after June 30, 2022"
+   },
+   {
+    "id": "inf-29-1-8-1-digital",
+    "cite": "Ind. Code § 29-1-8-1",
+    "title": "Small estates; distributee's access to digital assets",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_8.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "a distributee has the same rights as a personal representative under IC 32-39 to access a digital asset (as defined in IC 32-39-1-10) of the decedent"
+   },
+   {
+    "id": "inf-29-1-8-4.5",
+    "cite": "Ind. Code § 29-1-8-4.5",
+    "title": "Affidavit of entitlement; enforcement action; remedies",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_8.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "refused to respond within thirty (30) business days after receiving an affidavit from the person bringing an action under this section"
+   },
+   {
+    "id": "inf-32-39-1-1",
+    "cite": "Ind. Code § 32-39-1-1",
+    "title": "Applicability of article",
+    "url": "https://iga.in.gov/ic/2026/Title_32/Article_39/Chapter_1.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "This article applies to a custodian that carries, maintains, processes, receives, or stores a digital asset of a user if the user: (1) resides in Indiana; or (2) resided in Indiana at the time of the user's death."
+   },
+   {
+    "id": "inf-32-39-2-13",
+    "cite": "Ind. Code § 32-39-2-13",
+    "title": "Custodian compliance; immunity from liability",
+    "url": "https://iga.in.gov/ic/2026/Title_32/Article_39/Chapter_2.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "A custodian and its officers, employees, and agents are immune from liability for an act done or omission made in good faith in compliance with this chapter."
+   },
+   {
+    "id": "inf-32-39-2-1",
+    "cite": "Ind. Code § 32-39-2-1",
+    "title": "User direction concerning disclosure of digital asset",
+    "url": "https://iga.in.gov/ic/2026/Title_32/Article_39/Chapter_2.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "If the online tool allows the user to modify or delete a direction at all times, a direction by a user to the custodian regarding disclosure through use of an online tool overrides a contrary direction by the user in a will, trust, power of attorney, or other record."
+   },
+   {
+    "id": "inf-29-2-16.1-8",
+    "cite": "Ind. Code § 29-2-16.1-8",
+    "title": "Priority of persons authorized to make an anatomical gift",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_2/Chapter_16.1.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "An agent of the decedent at the time of death who could have made an anatomical gift under section 3(2) of this chapter immediately before the decedent's death."
+   },
+   {
+    "id": "inf-29-2-16.1-3",
+    "cite": "Ind. Code § 29-2-16.1-3",
+    "title": "Persons who may make anatomical gifts during the donor's lifetime",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_2/Chapter_16.1.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "an agent, a health care representative, or a proxy (as defined by IC 16-36-7-20) of the donor, unless the health care power of attorney, advance directive, or other record prohibits the agent from making an anatomical gift"
+   },
+   {
+    "id": "inf-29-1-10-3",
+    "cite": "Ind. Code § 29-1-10-3",
+    "title": "Letters; issuance; conditions",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_10.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "an oath or affirmation that he will faithfully discharge the duties of his trust according to law and has given such bond as may be required and the bond has been approved by the court"
+   },
+   {
+    "id": "inf-29-1-10-4",
+    "cite": "Ind. Code § 29-1-10-4",
+    "title": "Letters; evidence of authority",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_10.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "shall be conclusive evidence of the authority of the person to whom they are issued until superseded or revoked"
+   },
+   {
+    "id": "inf-29-3-14-7",
+    "cite": "Ind. Code § 29-3-14-7",
+    "title": "Supported decision making agreements; requirements",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_3/Chapter_14.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "A supported decision making agreement must be: (1) in writing; (2) dated; and (3) signed by the adult in the presence of a notary."
+   },
+   {
+    "id": "inf-29-3-14-4",
+    "cite": "Ind. Code § 29-3-14-4",
+    "title": "Supported decision making agreements; execution and revocation",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_3/Chapter_14.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "An adult may make, change, or revoke a supported decision making agreement even if the adult does not have the capacity to independently manage the adult's own health care, legal matters, or financial affairs."
+   },
+   {
+    "id": "inf-29-3-14-6",
+    "cite": "Ind. Code § 29-3-14-6",
+    "title": "Communication of a request or decision",
+    "url": "https://iga.in.gov/ic/2026/Title_29/Article_3/Chapter_14.pdf",
+    "kind": "statute",
+    "retrieved": "2026-10-26",
+    "quote": "A request or decision made or communicated with the assistance of a supporter in conformity with this chapter shall be recognized as the request or decision of the adult for the purposes of any provision of law."
+   }
+  ]
+ },
  "us-id": {
   "features": {
    "deceasedPersonalDataProtected": {

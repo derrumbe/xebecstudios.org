@@ -369,6 +369,24 @@
    "kind": "statute",
    "retrieved": "2026-10-14",
    "quote": "(a) A person that assists or deals with a conservator in good faith and for value in any transaction, other than a transaction requiring a court order under K.S.A. 59-30,179 … is protected as though the conservator properly exercised any power in question. Knowledge alone by a person that the person is dealing with a conservator does not require the person to inquire into the existence of authority of the conservator or the propriety of the conservator’s exercise of authority, but restrictions on authority stated in letters of office, or otherwise provided by law, are effective as to the person. … (b) Protection under subsection (a) extends to a procedural irregularity or jurisdictional defect in the proceeding leading to the issuance of letters of office … History: L. 2025, ch. 40, § 108; January 1, 2026."
+  },
+  {
+   "id": "ks-58a-1013-h",
+   "cite": "K.S.A. § 58a-1013(h)",
+   "title": "Certification of trust; liability of a person demanding the instrument",
+   "url": "https://www.ksrevisor.gov/statutes/chapters/ch58a/058a_010_0013.html",
+   "kind": "statute",
+   "retrieved": "2026-10-26",
+   "quote": "A person making a demand for the trust instrument in addition to a certification of trust or excerpts is liable for damages if the court determines that the person did not act in good faith in demanding the trust instrument."
+  },
+  {
+   "id": "utc-1013h-ks",
+   "cite": "UTC §1013(h) (2000, as amended)",
+   "title": "Certification of trust; liability of a person demanding the instrument",
+   "url": "https://www.uniformlaws.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=881a3ad6-ca48-cda4-aafe-5cb205d348d1",
+   "kind": "uniform-act",
+   "retrieved": "2026-10-26",
+   "quote": "A person making a demand for the trust instrument in addition to a certification of trust or excerpts is liable for damages if the court determines that the person did not act in good faith in demanding the trust instrument."
   }
  ],
  "patches": [
@@ -524,7 +542,9 @@
    "citations": [
     "ks-58a-101",
     "ks-58a-1013",
-    "utc-1013-ks"
+    "utc-1013-ks",
+    "ks-58a-1013-h",
+    "utc-1013h-ks"
    ]
   },
   {

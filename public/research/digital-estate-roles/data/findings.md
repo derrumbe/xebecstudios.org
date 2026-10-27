@@ -13,16 +13,16 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 59 | **24** |
-| `conservator-estate` | 62 | 21 |
-| `personal-representative-administrator` | 55 | 20 |
-| `anatomical-gift-agent` | 56 | 19 |
-| `financial-poa-durable` | 53 | 17 |
-| `guardian-person` | 53 | 17 |
-| `health-care-agent` | 51 | 14 |
+| `personal-representative-executor` | 60 | **24** |
+| `conservator-estate` | 63 | 21 |
+| `personal-representative-administrator` | 56 | 20 |
+| `anatomical-gift-agent` | 57 | 19 |
+| `financial-poa-durable` | 54 | 17 |
+| `guardian-person` | 54 | 17 |
+| `health-care-agent` | 52 | 14 |
 | … | | |
-| `digital-assets-fiduciary` | 33 | **4** |
-| `online-tool-designee` | 30 | **2** |
+| `digital-assets-fiduciary` | 34 | **4** |
+| `online-tool-designee` | 31 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 29 of the 49 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 30 of the 50 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -106,7 +106,7 @@ an incumbent standard.
 
 ## 4. Durability by default is a minority rule, and three routes reach it
 
-`poaDurableByDefault` is **false in 29** of the 53 jurisdictions that record it and **true in 24**
+`poaDurableByDefault` is **false in 29** of the 54 jurisdictions that record it and **true in 25**
 — Denmark, Finland, Germany, the Netherlands and Sweden, plus the US model layer and the states
 that took the Uniform Power of Attorney Act: Idaho, Illinois, **Iowa**, Kentucky, Maine, Michigan,
 **Nebraska**, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Utah, Virginia and West Virginia, with
@@ -219,7 +219,7 @@ the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 47 jurisdictions that record it and false in 37.
+`poaRegistrationBeforeUse` is true in 10 of the 48 jurisdictions that record it and false in 38.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -234,7 +234,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 42** of the 52 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 43** of the 53 jurisdictions that record it and **opt-out in
 10**. The opt-out set
 is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
 three UK jurisdictions — plus Singapore.
@@ -253,10 +253,10 @@ Four roles look widespread by jurisdiction count and are not:
 
 | Role | Jurisdictions | Countries |
 |---|---|---|
-| `health-records-representative` | 49 | 5 |
-| `benefits-payee` | 43 | 5 |
-| `tax-representative` | 43 | 5 |
-| `veterans-fiduciary` | 36 | 3 |
+| `health-records-representative` | 50 | 5 |
+| `benefits-payee` | 44 | 5 |
+| `tax-representative` | 44 | 5 |
+| `veterans-fiduciary` | 37 | 3 |
 
 These are federal-layer roles inherited by every sub-national file in the US, Australia and
 Canada. They are national programme mechanics, not a global pattern, and treating them as
@@ -284,12 +284,12 @@ not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 22 of the 33 jurisdictions that record it and false in
+`supportedDecisionMakingStatute` is true in 23 of the 34 jurisdictions that record it and false in
 11 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
-false while twelve US states are true** — **Arizona**, California, **Colorado**, Delaware, Florida,
-Illinois, Maryland, New York, Texas, Utah, Virginia and Washington — so the uniform acts have not
-absorbed it, but states have.
+false while thirteen US states are true** — **Arizona**, California, **Colorado**, Delaware,
+Florida, Illinois, **Indiana**, Maryland, New York, Texas, Utah, Virginia and Washington — so the
+uniform acts have not absorbed it, but states have.
 
 Colorado's is article 14 part 8 of its probate title, and its legislative declaration is the
 clearest statement of the idea's purpose in the data: guardianship “constitutes one of the most
@@ -298,12 +298,13 @@ a less restrictive alternative would fail to meet the needs of the adult”, wit
 disabilities “presumed competent”. The agreement is filed in the same title as the
 guardianship it is meant to avert.
 
-The two new ones are also the reason to stop reading this feature as a measure of anything but
-presence. Set the four states whose statutes this file has actually read against the two questions
-above, and they answer them differently enough that one `true` covers four different regimes:
+The newer ones are also the reason to stop reading this feature as a measure of anything but
+presence. Set the five states whose statutes this file has actually read against the two questions
+above, and they answer them differently enough that one `true` covers five different regimes:
 
 | | Decision recognised as the adult's own | Execution not evidence of incapacity | Third party protected |
 |---|---|---|---|
+| **Indiana** IC 29-3-14 | yes (§29-3-14-6) | yes (§29-3-14-4(c)) | presumption of validity (§29-3-14-10), plus immunity for honouring **and** for declining (§29-3-14-11) |
 | **Utah** §§75-5-708, 709 | yes | yes | presumptions of validity, plus immunity |
 | **Delaware** §§9404A, 9407A, 9408A | yes | yes | immunity for honouring **and** for declining |
 | **Maryland** tit. 18 | **no such provision** | yes (§18-103(d)) | immunity both ways (§18-109) |
@@ -353,6 +354,52 @@ contribute once the adult cannot decide at all, and §14-5722(B) is explicit tha
 not a surrogate decision-maker". But it means supported decision-making cannot be the only thing
 someone has, and a jurisdiction that offers it without a durable power alongside has given a person
 a device that expires exactly when they need one.
+
+**Indiana answers Arizona's question with the opposite rule, which is what makes it a question
+rather than a consequence.** IC 29-3-14 is the most fully specified of these regimes — thirteen
+sections, a prescribed execution (in writing, dated, "signed by the adult in the presence of a
+notary", with a separate signed consent from each supporter acknowledging the duties), a
+presumption of validity, immunity both ways, and §29-3-14-6 giving the agreement operative effect
+in the Utah and Delaware words. And §29-3-14-4(b) says the thing Arizona's §14-5722(G) denies:
+
+> An adult may make, change, or revoke a supported decision making agreement **even if the adult
+> does not have the capacity to independently manage the adult's own health care, legal matters, or
+> financial affairs.**
+
+So incapacity to manage one's own affairs is, in Arizona, the event that voids the agreement as a
+matter of law, and in Indiana expressly no bar to making one. Both states legislated the question
+in the last seven years and reached contrary answers, which is the strongest available evidence
+that it is a **policy choice rather than a property of the device**. The argument above — that a
+supporter who may not decide has nothing to contribute once the adult cannot decide — is a good
+argument, and one legislature acted on it while another rejected it.
+
+What Indiana does instead is terminate on **specified events rather than on a status**.
+§29-3-14-9(a) lists seven: death, revocation, the supporters withdrawing without naming
+successors, a court determination that the adult lacks capacity "to execute or consent to" an
+agreement — which is narrower than lacking capacity to manage one's affairs, and requires notice
+and a hearing to the adult and every supporter under (b) — the appointment of a temporary or
+permanent guardian, and a court finding that a supporter used the agreement to commit financial
+exploitation, abuse or neglect. The last two both come with an **override**: a guardianship order
+may "expressly modify but continue" the agreement while limiting the guardian's powers, and a later
+durable power of attorney terminates the agreement "except to the extent that the power of attorney
+expressly continues, in whole or in part, the supported decision making agreement". Indiana is the
+only jurisdiction here that lets the three devices be layered by drafting rather than ranked by law,
+and §29-3-14-4(d) closes the loop the other way: an adult who already has a guardian may not enter
+an agreement that supplants the guardian's authority "unless the guardian consents in writing".
+
+One more Indiana provision is worth a standards reader's attention because of where it borrows its
+vocabulary. §29-3-14-5(c) prohibits a supporter from, among other things, "obtaining, without the
+consent of the adult, nonpublic personal information as defined in **15 U.S.C. 6809(4)(A)**" — the
+Gramm-Leach-Bliley definition. Every other statute in this section describes a supporter's limits in
+the language of fiduciary duty: undue influence, conflicts of interest, acting outside the
+agreement's scope. Indiana adds a **data-scope limit drawn from financial-privacy law**, which is
+the first instance in this reference of a decision-support role being bounded by what information
+the supporter may hold rather than by what decisions they may make. §29-3-14-5(c)(3) generalises it
+— no obtaining information "acquired for a purpose other than assisting the adult in making a
+specific decision authorized by the" agreement, which is purpose limitation in all but name — and
+§29-3-14-5(d) grants the matching positive power: a supporter "expressly given relevant authority
+in a power of attorney may act within the scope of that authority to sign instructions or other
+documents on behalf of the adult, in order to communicate or implement decisions by the adult".
 
 The part of these two statutes a standard should read first is the part that is not about the
 supported person at all. Both legislate **the relying party's position**, which almost nothing else
@@ -545,6 +592,7 @@ period the data does not record:
 | Texas | $75,000 | 30 days | — |
 | Virginia | $75,000 | 60 days | $35,000, below which no affidavit is needed at all |
 | Idaho | $100,000 | 30 days | no ceiling where a surviving spouse is the sole devisee or heir |
+| Indiana | $100,000 | 45 days | a motor vehicle or watercraft transfers after 5 days on a narrower affidavit; and §29-1-8-1(g) gives the distributee a personal representative's rights of access to the decedent's **digital assets** |
 | Nebraska | $100,000 | 30 days | $100,000 again for real property, by affidavit recorded with the register of deeds (§30-24,129) |
 | Utah | $100,000 | 30 days | — |
 | Washington | $100,000 | 40 days | — |
@@ -1305,24 +1353,36 @@ relying party that finds nothing in it has learned nothing — which is the same
 actual-knowledge problem, seen from the other side. The gap a credential fills is everything these
 registers do, made portable *and* made negative-answerable.
 
-Iowa closes a loop that every other springing-power regime leaves open, and it belongs here because
-it is about proving the **event** rather than the person. §633B.109(2) lets the principal name
-“one or more persons to determine **in a writing or other record** that the event or contingency has
-occurred”. If nobody was named, or the named person will not act, a power springing on incapacity
-takes effect on a written determination by “a licensed physician or licensed psychologist” or by “a
-judge, or an appropriate governmental official” (§633B.109(3)).
+One loop that every other springing-power regime leaves open is closed by the uniform act itself,
+and it belongs here because it is about proving the **event** rather than the person. UPOAA
+§109(b) lets the principal name “one or more persons to determine in a writing or other record
+that the event or contingency has occurred”. If nobody was named, or the named person will not
+act, a power springing on incapacity takes effect on a written determination by a physician or
+licensed psychologist, or by an attorney at law, a judge or an appropriate governmental official
+(§109(c)). Iowa enacted both at §633B.109(2)–(3), narrowing the second class to “a judge, or an
+appropriate governmental official”.
 
-Then §633B.109(4): that person “may act as the principal’s **personal representative** pursuant to
-the federal Health Insurance Portability and Accountability Act of 1996 … to obtain access to the
-principal’s health care information and to communicate with the principal’s health care provider”.
+Then §109(d), which Iowa carries at §633B.109(4): that person “may act as the principal’s
+**personal representative** pursuant to the … Health Insurance Portability and Accountability
+Act … to obtain access to the principal’s health-care information and communicate with the
+principal’s health-care provider”.
 
 That is the bootstrapping problem solved in one sentence. Determining incapacity needs medical
 information; getting medical information needs authority; and the authority is the thing the
 determination is supposed to switch on. Nebraska gets as far as making the absence of evidence of
-the contingency a lawful ground to refuse (§30-4020(2)(h)); Iowa names who may certify the event
-**and** grants them federal health-records standing for the sole purpose of certifying it. Any
-design that gates an authority on a condition precedent needs an answer to this, and Iowa is the
-only jurisdiction here that has written one down.
+the contingency a lawful ground to refuse (§30-4020(2)(h)); §109(d) names who may certify the
+event **and** grants them federal health-records standing for the sole purpose of certifying it.
+Any design that gates an authority on a condition precedent needs an answer to this.
+
+**This paragraph used to credit Iowa with being the only jurisdiction here to have written one
+down, and that was wrong**; the correction is kept rather than quietly removed, because of how it
+was found. It is uniform text — the act's own prefatory note says §109 “provides that the person
+designated to make that determination has the authority to act as the principal's personal
+representative under the Health Insurance Portability and Accountability Act (HIPAA)” — so it is
+in every UPOAA state in this set. Indiana is what made that visible: IC 30-5 is **not** the uniform
+act, and §30-5-4-2(c)–(d) carries the provision anyway, copied in by P.L.185-2021. A state that
+has the provision without the act proves the provision is not any one state's invention. §21
+draws the procedural lesson.
 
 Iowa also screens where Kansas trains. §633.564 requires the court to request criminal-record checks
 and checks of “the child abuse, dependent adult abuse, and sexual offender registries” for **every**
@@ -1341,18 +1401,19 @@ and one asserting "holder is the surrogate" is making a claim that may be false 
 Whatever a standard does about health care has to treat the authority as a question to be asked at
 the moment of use, not a fact to be cached.
 
-## 15. Acceptance is already solved in statute, nine times over, and five states go further
+## 15. Acceptance is already solved in statute, ten times over, and six states go further
 
 The question an evidence layer exists to answer is not "who may act" — §1 says that is settled
-nearly everywhere — but "why would the party holding the asset say yes?" Nine regimes in this data
+nearly everywhere — but "why would the party holding the asset say yes?" Ten regimes in this data
 answer it, and they are built from the same three components: a **duty** to accept, a **remedy** if
 the holder refuses, and a **safe harbour** for the holder that accepts. No two of them carry the
-same subset, and five of them add a component the others do not have at all — Missouri a right to
+same subset, and six of them add a component the others do not have at all — Missouri a right to
 demand security, Nebraska and Iowa grounds a refusal may *not* rest on, Kansas an obligation on
 the refuser to **report the refusal to the authority that issued the appointment**, Iowa a
 **limitation period** on the remedy and a fee shift that can run **against** the person who was
-refused, and Minnesota an affidavit that is **conclusive proof** rather than something a party may
-choose to rely on.
+refused, Minnesota an affidavit that is **conclusive proof** rather than something a party may
+choose to rely on, and Indiana a **multiplier** on the damages together with a duty to give the
+person refused a **written reason** as the price of two of the defences.
 
 | | Duty to accept | Remedy for refusal | Safe harbour for accepting |
 |---|---|---|---|
@@ -1365,6 +1426,7 @@ choose to rely on.
 | **Nebraska**, §§30-4019–4020 | any person, within **seven business days** of presentation, of *any* acknowledged power of attorney — **plus grounds it may not refuse on** | court order, fees, **and liability as if it had refused the principal in person** | the uniform reliance protections of §30-4019 |
 | **Iowa**, §§633B.119–120, 633A.4604, 633.356 | any person, within **seven business days**, of *any* acknowledged power of attorney — **plus a ground it may not refuse on**; and, uniquely, a duty in the **trust** and **small-estate** lanes too | court order and fees, but **only if sued within one year**; in the trust lane, damages and fees for demanding the instrument; in the small-estate lane, **fees to whichever side was reasonable** | the uniform reliance protections — **and a good-faith belief of invalidity that no evidence can cure** |
 | **Minnesota**, §§523.19–523.20 | any party, of a **statutory short form** power under §523.23 or §523.231 meeting six listed conditions — and **no deadline at all** | **liability as if it had refused the principal in person** — and nothing else: no court order, no fee shift | held harmless on a five-part checklist, and §§523.16–523.17 make an agent's affidavit **conclusive proof** rather than something a party may rely on |
+| **Indiana**, §§30-5-8-2, 30-5-8-7, 30-5-9-9 | any person, within **three business days** of receiving *any* power of attorney — the shortest clock here | **treble damages**, the claimant's attorney's fees **and** prejudgment interest from the date of refusal; plus liability as if it had refused the principal in person | a presumption of validity absent actual knowledge, good-faith immunity "to the same extent as if the person had dealt directly with the named principal", and immunity for relying on the agent's six-item affidavit |
 | **Kansas**, §§59-30,123, 59-30,185 | any person, of a **guardian's or conservator's letters of office** — one of two duties here owed on a *court appointment* rather than on an instrument the principal signed, and the stricter of them | a petition to **compel** acceptance, **and a report back to the appointing court within 10 days** of any refusal, handled as a grievance under §59-30,127 | good faith and for value, protected "as though the conservator properly exercised any power in question", no duty to inquire — **but restrictions stated in the letters of office bind the relying party** |
 
 Two of those rows are the same drafting travelling under different names. Idaho's acceptance regime
@@ -1529,38 +1591,71 @@ Kansas makes that one of only three grounds, and the other two are invalid lette
 abuse by the fiduciary. There is no "we would like a different form" and no "the document is too
 old" — the answers Nebraska had to prohibit expressly, Kansas never admitted.
 
-Third, and this is the finding: **every other statute in this section leaves the channel blank in one
-direction, and Kansas is the only one that writes into the other.** The gap this section ends on is
-that a safe harbour runs until the relying party has *actual knowledge*, and nothing tells it
+Third, and this is the finding: **most of this section leaves the channel blank in one direction,
+and two jurisdictions write into the other — to different recipients.** The gap this section ends on
+is that a safe harbour runs until the relying party has *actual knowledge*, and nothing tells it
 anything — information has nowhere to flow *to* the custodian. Missouri's three registers are places
-to put a revocation so that it could flow that way. Kansas legislates the **return path**: when a
+to put a revocation so that it could flow that way. Kansas legislates a **return path**: when a
 custodian says no, the court that issued the authority finds out, with reasons, on a ten-day clock,
 and can act on its own motion. That is a refusal-reporting endpoint, and it is the component a
 protocol designer would otherwise have to invent — §15's own closing point is that "refusal is a
-legitimate outcome with reasons attached", and Kansas is the one jurisdiction that requires the
-reasons to be *sent somewhere*. It is also the only provision here that makes refusing a credential
-cost the refuser *work* rather than money: the fee shift elsewhere is a liability contingent on
-litigation, while the report is due whether or not anyone complains.
+legitimate outcome with reasons attached", and Kansas requires the reasons to be *sent somewhere*.
+It is also the only provision here that makes refusing cost the refuser *work* rather than money:
+the fee shift elsewhere is a liability contingent on litigation, while the report is due whether or
+not anyone complains.
 
-What it is not is a notification to the guardian, or a register anyone can query, or a duty to
-consult anything. The flow is one-way and the court is the only recipient. But it is the first
-instance in this file of a legislature treating a refusal as an **event worth routing** rather than
-as a private decision by the party holding the asset.
+**Indiana routes a refusal too, and sends it the other way.** Two of the five defences in
+§30-5-9-9(b) — a reasonable belief that the power of attorney is invalid, and a reasonable belief
+that it does not grant the authority requested, which between them cover every refusal resting on
+the refuser's own reading of the document — are available only where the person "provides the
+attorney in fact with a written statement not more than ten (10) business days after the refusal,
+describing the reason". Same ten days as Kansas, opposite recipient: Kansas tells the issuing court,
+Indiana tells the **person who was refused**. And the enforcement differs in kind. Kansas's report is
+a free-standing obligation; Indiana's is a **condition on a defence**, so a refuser that does not
+explain itself does not merely fail to file a report — it loses the ground it was relying on and
+faces the treble damages in the row above. That is the stronger construction for a protocol: the
+reason is not a courtesy, it is what makes the refusal lawful.
 
-**Iowa is the only jurisdiction here that extends the duty beyond powers of attorney by its own
-drafting**, and the trust lane is where it matters most. §633A.4604(6): “A person making a demand for
-the trust instrument in addition to a certification of trust or excerpts shall be **liable for
-damages, including attorney fees**, incurred as a result of the refusal to accept the certification
-of trust.”
+What neither is, is a notification to the fiduciary's principal, or a register anyone can query, or
+a duty to consult anything. Both flows are one-way and each has exactly one recipient. But between
+them they are two legislatures treating a refusal as an **event worth routing** rather than as a
+private decision by the party holding the asset — and taken together they describe both endpoints a
+standard would need: the issuing authority, and the counterparty.
 
-Set that against §14's Nebraska row. Every Uniform Trust Code state in this file offers the
-certification as an *option* the trustee may use and a *safe harbour* for whoever accepts it; none
-obliges anyone to take it, so a counterparty that insists on the whole instrument is merely being
-awkward. Iowa is the one place where it is paying damages. §633A.4604(5) adds the clock — “the period
-of time to verify the identity of the trustee shall not exceed **ten business days**” — which is the
-trust-lane counterpart of the seven business days the uniform power-of-attorney act gives, and which
-no other trust code here has. So the one artefact in this data that was designed to be handed to a
-bank finally has a duty and a deadline attached, in exactly one state.
+**The trust lane has a price on refusal too, and it is on one subsection of the uniform act that
+five jurisdictions here have taken four different ways.** UTC §1013(h): “A person making a demand
+for the trust instrument in addition to a certification of trust or excerpts is liable for damages
+if the court determines that the person did not act in good faith in demanding the trust
+instrument.”
+
+| | Liability for demanding the instrument |
+|---|---|
+| **UTC §1013(h)** (the model) | damages, **if the court determines** the person did not act in good faith |
+| **Kansas** §58a-1013(h), **Indiana** §30-4-4-5(h) | the uniform text unchanged |
+| **Colorado** §15-5-1013(8) | “costs, expenses, attorney fees, and damages” — same good-faith gate |
+| **Arizona** §14-11013(H) | the same, **plus** a second trigger: failure to comply with subsection (E), which bars demanding the trust's dispositive terms or successor-trustee provisions without first giving the trustee “a verified statement that states a reasonable basis for the request” |
+| **Iowa** §633A.4604(6) | “**shall be liable** for damages, including attorney fees” — **no good-faith gate at all** |
+
+**This passage used to say Iowa was the only place a counterparty demanding the instrument pays, and
+that was wrong.** The correction is left in rather than removed, because the error has a mechanism
+worth naming and §21 names it: Indiana surfaced it, since IC 30-4 is **not** the Uniform Trust Code
+and §30-4-4-5(h) carries the provision anyway — which makes it impossible to read the rule as any
+one state's invention.
+
+What survives is sharper than what it replaces, because the axis is the same one §120's
+Alternatives A and B and West Virginia's “may at its discretion” already mapped: everywhere but
+Iowa the remedy is **conditional on a judicial finding about the refuser's state of mind**, which is
+the hardest thing a claimant can be asked to prove and the easiest thing for a custodian to risk.
+Iowa deleted the condition. In Kansas, Indiana, Colorado and Arizona a counterparty that insists on
+the whole instrument is gambling on a bad-faith finding; in Iowa it is simply paying. Arizona then
+runs the other way in the same section, giving the *demander* a route — a verified statement of
+reasonable basis — that makes an otherwise-prohibited demand lawful.
+
+§633A.4604(5) is Iowa's own and still unique: “the period of time to verify the identity of the
+trustee shall not exceed **ten business days**” — the trust-lane counterpart of the seven business
+days the uniform power-of-attorney act gives, which no other trust code here has. So the artefact
+designed to be handed to a bank has a price attached in five jurisdictions and a **deadline**
+attached in one.
 
 Two Iowa provisions cut the other way, and they are the more instructive half.
 
@@ -1700,6 +1795,7 @@ verbatim it does produce agreement.
 
 | | Where the rule lives | What a court appointment does to the agency |
 |---|---|---|
+| **Indiana** | §30-5-3-4(d), in the chapter on *rules of law* | **nothing, and then less than nothing** — the guardian "does not have power, duty, or liability with respect to property or personal health care decisions that are subject to a valid power of attorney", and "has no power to revoke or amend" it absent a court order made after a hearing, notice of which goes to the attorney in fact |
 | **Virginia** | §64.2-1606(B), the §108 slot | **nothing** — "not terminated and the agent's authority continues unless limited, suspended, or terminated by the court" |
 | **Colorado** | §15-14-708(2), the §108 slot | **nothing** — the identical bracketed sentence, with the agent "accountable to the fiduciary as well as to the principal" |
 | **West Virginia** | §39B-1-108(b), the §108 slot | **ends it** — "unless otherwise ordered by the court making the appointment, the power of attorney and the agent's authority thereunder terminates upon the appointment" |
@@ -1707,8 +1803,28 @@ verbatim it does produce agreement.
 | **Missouri** | §404.731(3), in the jurisdiction section | **neither** — "the court **may specify in an order** the powers, duties and responsibilities" of the legal representative and the attorney in fact "and the manner in which they shall **coordinate** the exercise of their respective powers" |
 | **Nebraska** | §30-4008(2), the §108 slot | **hands the decision to the conservator** — the fiduciary "shall have the same power to revoke or amend the power of attorney that the principal would have had if he or she were not disabled or incapacitated" |
 | **Kansas** | §58-656(c), in its own act's duties section | **hands the decision to the conservator** — the fiduciary "has the same power to revoke or amend the durable power of attorney that the principal would have had" |
-| **Minnesota** | §523.11, the **revocation** section | **hands the decision to the conservator *or guardian*** — either "has the same power the principal would have ... to **revoke, suspend, or terminate all or any part** of the power of attorney" |
+| **Minnesota** | §523.11, the **revocation** section | **hands the decision to the conservator — or to a guardian** — either "has the same power the principal would have ... to **revoke, suspend, or terminate all or any part** of the power of attorney" |
 | **Iowa** | §633B.108(2), the §108 slot | **suspends it, and reinstates it** — the power "is suspended unless the power of attorney provides otherwise or unless the court … decides the power of attorney should continue", and "shall be **reinstated** upon termination of the conservatorship as a result of the principal regaining capacity" |
+
+**Indiana is the far end of the axis, and it is a different kind of answer from Virginia's.** The
+uniform bracketed sentence preserves the agency and leaves the two fiduciaries to overlap, with the
+agent "accountable to the fiduciary as well as to the principal". Indiana removes the overlap:
+§30-5-3-4(d) takes the subject matter of a valid power of attorney **out of the guardian's office
+altogether**, so there is nothing to coordinate, and then protects the agent procedurally — a court
+may revoke or amend the instrument only by an order made after a hearing, and "[n]otice of a hearing
+held under this section shall be given to the attorney in fact". Nothing else in the table gives the
+agent a right to be heard before their authority is taken away.
+
+That inverts the usual hierarchy. Everywhere else in this data a court appointment is the senior
+authority and the question is how much of the agency it displaces; in Indiana the instrument the
+principal signed is senior, and the appointment is drafted around it. §30-5-3-4(a) carries the same
+preference backwards into the appointment itself: the court "shall make an appointment in accordance
+with the principal's most recent nomination in a power of attorney except for good cause or
+disqualification" — mandatory language, where (b) and (c) give a parent's nomination only "shall
+consider". For a relying party the practical consequence is unusual and worth stating: in Indiana,
+learning that a guardian has been appointed tells you **nothing** about whether the agent still has
+authority over the asset in front of you, and the guardian's own letters will not tell you either,
+because the carve-out is in the power-of-attorney article rather than in the guardianship order.
 
 West Virginia and Kentucky reach the identical rule and file it in different places, and that is not
 a filing curiosity. A reader asking "when does a West Virginia power of attorney end?" goes to
@@ -1809,10 +1925,22 @@ checked last week learned the state last week.
 §14 records Utah's §75A-9-117, under which a health-care authority commences on a finding of
 incapacity, ceases if capacity returns, and resumes if the finding is confirmed — authority that
 oscillates with a clinical determination. Iowa is that same shape in the **financial** lane, which is
-where the custodians are. Put the two together and the point generalises: **an authority is not
-always a span with a start and an end.** Some are intermittent, and the gaps are invisible from the
-document. A credential with a validity period cannot say "valid, but asleep", and one that is
-re-checked at the moment of use needs something to check against that no jurisdiction here provides.
+where the custodians are. **Indiana makes it three, and is the clearest of them about the mechanism,**
+because §16-36-7-34(10) attaches the oscillation to a record rather than to an opinion: where an
+advance directive confines the representative's authority to periods of incapacity, that authority
+"becomes effective when a determination of the declarant's incapacity is noted in the declarant's
+medical records" and "becomes inactive when the declarant regains capacity". So the switch has a
+location — the medical record — which is more than Utah or Iowa give, and it is a location no
+custodian outside the treating institution can see. §16-36-7-35(e) then supplies the default for the
+ambiguous case, which no other jurisdiction here does: if the treating physician "is unable to reach
+a conclusion", providers "shall treat the declarant as still having capacity" until a later
+evaluation. Indecision resolves **against** the authority existing.
+
+Put the three together and the point generalises: **an authority is not always a span with a start
+and an end.** Some are intermittent, and the gaps are invisible from the document. A credential with
+a validity period cannot say "valid, but asleep", and one that is re-checked at the moment of use
+needs something to check against that no jurisdiction here provides — Indiana comes closest by
+naming where the state is written down, and then puts it somewhere a bank cannot read.
 
 That last item is worth isolating. Everywhere else in this data a relying party's problem is that
 nobody will tell it whether an authority is still good. Missouri lets an interested person ask a
@@ -2073,6 +2201,181 @@ the selection *or with a decision*, the route is guardianship, which only those 
 persons may start. Where nobody can be found or nobody is willing, the attending physician may
 designate **another willing physician** as proxy. So Colorado can be told who its surrogate is, and
 can never be asked to work it out.
+
+## 21. Indiana regulates the custody of the instrument, not just the authority it confers
+
+Every other section here is about an authority: who holds it, when it starts, when it ends, and
+what a relying party may do about it. This one is about the **document**. Indiana is the only
+jurisdiction in this reference that legislates who must look after the instrument that confers the
+authority, to what standard, for how long, and what happens to it when the principal dies — and it
+does so in the terms a service provider would recognise, because the instrument it is regulating is
+a file.
+
+IC 30-5-11, enacted in 2018, treats an electronic power of attorney as an object in someone's
+custody. §30-5-11-6(a) lets the principal "identify and designate an adult individual as the
+custodian of the electronic power of attorney within the electronic record", and (b) then imposes
+twelve duties on whoever holds it. The first four are the sort of thing an information-security
+policy says — (1) is best practices for maintaining custody, and then:
+
+> (2) To use best practices and commercially reasonable means to maintain the privacy and security
+> of the electronic record for the electronic power of attorney. (3) To guard against unauthorized
+> disclosure or tampering with the electronic record. (4) To maintain electronic and conceptual
+> separation of different electronic records and different electronic powers of attorney associated
+> with different principals
+
+The rest are operational. The custodian must be able to "promptly generate a complete converted
+copy" on written request by the living principal, the court or any other authorised person — an
+export obligation. It must act on a written instruction to transfer custody, and transfer "the
+entire electronic record". A receiving custodian has no duty to accept, and its "execution of a
+delivery receipt constitutes acceptance" both of the appointment and of the duty to preserve, so
+custody changes hands on a signed handover rather than by assertion. A custodian that wants out must
+give the principal thirty days' notice, after which it may pass the record to a successor the
+principal named, to one of its own choosing, or hand a converted copy to whoever got the notice.
+And §30-5-11-6(b)(12) obliges it to furnish a court, in any matter involving the instrument, with
+"any information requested by the court pertaining to the custodian's policies, practices, or
+qualifications as they relate to the maintenance, production, or storage of electronic powers of
+attorney" — the custodian's own operating practice is discoverable.
+
+Two provisions then bracket the principal's death. §30-5-11-7(a): once the death "becomes known to
+a custodian or other person in possession", that person "shall deliver the item to the attorney in
+fact", by any commercially reasonable method. §30-5-11-8(b): destruction — defined as permanently
+deleting the record or rendering it "unreadable and nonretrievable" — is permitted only "at any
+time after the fifth anniversary of the principal's death", and (c) never requires a converted copy
+to be destroyed at all. A **retention floor measured from death**, with deletion permitted and
+never mandatory, is the shape a records-retention schedule takes, and no other statute in this file
+has one.
+
+**What makes the set work as evidence is §30-5-11-10, and it is the provision a protocol designer
+should read first.** The electronic record, including its document integrity evidence, is prima
+facie evidence both "of the validity of the electronic power of attorney" and "of the absence of
+unauthorized alteration of or tampering with" it. Then subsection (e):
+
+> The presumption of regularity created by this section shall apply to an electronic record or an
+> electronic power of attorney **regardless of the number of custodians or other persons who**
+> (1) hold; (2) receive; or (3) transfer to another custodian, authorized person, or principal; an
+> electronic record or electronic power of attorney.
+
+That is a chain-of-custody rule. The presumption does not decay as the document passes hands, and
+(f) lets it be rebutted only by clear and convincing evidence or by proof that the principal
+executed another electronic power of attorney. §30-5-11-9 prints the attestation that records the
+chain when one is wanted: an **affidavit of regularity** stating the affiant's period of
+possession, the unique identifier assigned to the instrument in the affiant's own records, whether
+the principal is believed alive or dead, what is being transferred and to whom, the format, an
+affirmation under penalty of perjury that during that period "the electronic record showed no
+indication of unauthorized alteration or tampering", an affirmation about any later amendment or
+revocation the affiant knows of, and which of five capacities the affiant signs in. §30-5-11-10(c)
+makes it optional unless a court orders it, and (d) invites it "if any objection is asserted or any
+doubt is raised".
+
+Read that list against what a verifiable credential carries and the overlap is uncomfortable: a
+holder, a possession interval, an identifier, an integrity assertion, a revocation-knowledge
+assertion, and a role. Indiana legislated the payload in 2018 and gave it a paper form.
+
+The same drafting runs through three more instruments. IC 30-5-11-4(c) makes a complete converted
+copy admissible "as though it were an original and traditional paper power of attorney without the
+need for additional proof or evidence of authenticity", and "conclusive evidence of the power of
+attorney's terms" unless a court orders otherwise after notice to all interested persons —
+stronger than Minnesota's conclusive-proof affidavits in §15, because it settles the *contents* of
+the document rather than a fact about it. §30-5-4-1.9 makes a recording or image of an execution
+admissible as evidence of "the proper execution of a power of attorney", "the intentions of the
+principal", "the mental state or capacity of a principal" and "the authenticity of a power of
+attorney". IC 30-4-1.5 extends the scheme to electronic trust instruments, and its §30-4-1.5-4(d)–(e)
+is the only **recovery procedure** in this reference. Where the electronic record is "lost" or
+"corrupted", or "freedom from tampering or unauthorized alteration cannot be authenticated or
+verified", a living settlor, attorney, custodian or the person who found the incomplete instrument
+may rebuild a complete converted copy "using all available information" from a substantially
+complete non-electronic copy — provided they sign an affidavit covering nine points, among them
+how the original record was stored, "[t]he methods used, if any, to prevent tampering or the making
+of unauthorized alterations", whether the instrument "has been altered since its creation", and
+confirmation that the record "has not been altered while in the custody of the current custodian or
+any prior custodian". A legislature has written down what to do when the integrity evidence fails,
+which is the case every design in this area leaves to the implementer. (Its execution rule runs the
+other way from the power of attorney's, incidentally: §30-4-1.5-4(a) creates an electronic trust
+"with no witness requirement or acknowledgment before any notary public", where §30-5-11-4 demands
+one or the other.)
+
+### The registry, and the one thing §14 said no register could do
+
+IC 29-1-22 is the other half, and it answers a question this page has twice recorded as
+unanswerable. §14 ends on the limit every register in this data shares — Virginia's §54.1-2996
+states it plainly, that failure to register affects neither the document's validity nor a
+revocation's, so "[a] relying party that finds nothing in it has learned nothing". §15 ends on the
+same hole from the custodian's side: the safe harbour runs until actual knowledge and nothing tells
+it anything.
+
+Indiana's registry is the only one here built to be asked. §29-1-22-2(e) requires an index of
+every deposited item organised by the name of the testator, settlor or principal, their county of
+residence, the execution date, the deposit date and the name of any attorney who prepared or
+executed the document, with a unique document number assigned to each. §29-1-22-2(f) then requires
+that index to be "available to the public" and "searchable by digital or online means", and bars
+any fee for using it, while (g) keeps everything *not* in the index closed to the public. And
+§29-1-22-2(h) is the endpoint:
+
+> The registry administrator, upon receipt of a digital, online, or written request by an interested
+> person, shall issue a certified report specifying **whether or not** the registry possesses any
+> items described in subsection (c) for the specific testator, settlor, or principal who is the
+> subject of the request.
+
+A negative answer, certified, on request, to anyone with an interest. §29-1-22-2(i) adds a second
+tier for those entitled to more — a living principal, their attorney, a person holding their
+written authorisation, anyone nominated as personal representative, trustee or attorney in fact, or
+any interested person after the testator's death — who may obtain a **certified transcript** of the
+document, its document integrity evidence, the deposit timestamp and the unique identifier. And
+§29-1-22-2(k) makes either artefact "prima facie evidence of their respective contents", filable
+"without further authentication".
+
+Three limits, and they matter as much as the design.
+
+**It is authorised rather than established.** §29-1-22-2(a) says the supreme court and the office of
+judicial administration "are authorized to establish and administer" the registry "under rules
+adopted by the Indiana supreme court", and §29-1-22-2(b) opens deposit only "[i]f permitted under
+the rules adopted for the registry". Whether those rules exist is a fact about court rules rather
+than about the statute book, and it could not be established from the sources reachable here. What
+the statute shows is the design; it does not show a running service.
+
+**Deposit is permissive even then.** "[T]he following individuals **may** deposit", so a document's
+absence from the registry proves nothing about the document — Virginia's limit again, surviving the
+one feature that was supposed to answer it. §29-1-22-2(h)'s certified "whether or not" is an honest
+answer about the *registry*, not about the world. That distinction is the whole difference between a
+status endpoint and a source of truth, and a standard that treats a negative registry answer as a
+negative fact will be wrong in Indiana for exactly the reason it would be wrong in Virginia.
+
+**And nothing obliges anyone to ask.** §15's point was that a duty to consult is unenforceable
+without somewhere to look, and a place to look is useless without a duty to consult. Missouri built
+the place and left the duty; Kansas built a return path from the custodian to the court; Indiana has
+now built the richest place to look in this data — public index, free search, certified existence
+reports, certified transcripts, prima facie force — and still no provision requires a relying party
+to query it before acting on a document, or to re-query before acting again.
+
+So the component Indiana supplies is not the missing duty. It is the **discovery and custody layer
+underneath it**: a named custodian with security and retention obligations, a handover protocol with
+receipts, a presumption that survives the chain, an attestation format, and a registry that will
+answer a question about existence with a certified no. Those are the pieces a standards body would
+otherwise have to invent from nothing, and one state legislature has already written them down.
+
+### A caution this section produced about the rest of this page
+
+Indiana is also why two claims elsewhere in this file had to be corrected, and the mechanism is
+worth stating because it will recur. Indiana adopted neither the Uniform Power of Attorney Act nor
+the Uniform Trust Code — IC 30-5 is its own, from 1991, and IC 30-4 its own, from 1971 — yet it
+carries UPOAA §109(c)–(d) at §30-5-4-2 and UTC §1013(h) at §30-4-4-5(h). Reading a state that has
+the provision without the act makes it obvious that the provision is not that state's invention;
+reading only states that have both does not.
+
+§14 had credited Iowa's §633B.109(4) as the only place a legislature had solved the springing-power
+bootstrap by giving the person who determines incapacity federal health-records standing. It is
+uniform text: UPOAA §109(d), and the act's own prefatory note describes it. **§15** had credited
+Iowa's §633A.4604(6) as the only place a counterparty demanding the trust instrument instead of a
+certification pays. UTC §1013(h) already said so, and Kansas (§58a-1013(h)), Colorado
+(§15-5-1013(8)), Arizona (§14-11013(H)) and now Indiana (§30-4-4-5(h)) all have it. Both
+corrections are made where they belong, and both leave a *better* finding than the one they
+replace, because what Iowa actually did was vary the uniform text in a direction nobody else did —
+which is this page's recurring subject, not an exception to it.
+
+The lesson is procedural. **Before writing that a jurisdiction is the only one that does something,
+read the model act, not the neighbours.** Comparing enacted statutes to each other will show a
+provision as distinctive whenever the comparison set happens to omit it; only the source text shows
+whether it was ever distinctive at all.
 
 ## What this suggests for a standard
 
