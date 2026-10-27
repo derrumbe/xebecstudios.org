@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Margin from '../components/Margin.astro';
 import { getCollection, render } from 'astro:content';
-import { fmtWhen } from '../consts';
+import { fmtWhen, fmtSpan } from '../consts';
 
 type Talk = Awaited<ReturnType<typeof getCollection<'speaking'>>>[number];
 
@@ -58,8 +58,10 @@ const upcoming = await withNote(upcomingRaw);
           notes={[
             { note: 'The talk usually comes first. The essay is what survived the questions afterwards.' },
             {
+              // "On the calendar" rather than "booked": not every entry up
+              // there is a talk — some are events he is going to.
               note: upcoming.length
-                ? `${upcoming.length} booked. ${pastRaw.length} given, ${keynotes.length} of them keynotes.`
+                ? `${upcoming.length} on the calendar. ${pastRaw.length} given, ${keynotes.length} of them keynotes.`
                 : `${pastRaw.length} given, ${keynotes.length} of them keynotes. Nothing booked publicly just now.`,
               tone: 'aside',
             },
@@ -91,10 +93,22 @@ const upcoming = await withNote(upcomingRaw);
       </div>
       {upcoming.map((t) => (
         <div class="item" id={t.id}>
-          <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.format}</span></span>
+          {/*
+            The tag is the role where there is one, and the format otherwise.
+            A talk's format already says what it is; a conference he is going
+            to needs to say why he is there.
+          */}
+          <span class="apparatus">
+            {fmtSpan(t.data.date, t.data.until)}
+            <span class="subject">{t.data.role ?? t.data.format}</span>
+          </span>
           <span>
-            <h3>{t.data.title}</h3>
-            <p><span class="where">{t.data.event}.</span>{t.data.location && ` ${t.data.location}`}</p>
+            {/* No title means no talk to name, so the event is the heading. */}
+            <h3>{t.data.title ?? t.data.event}</h3>
+            <p>
+              {t.data.title && <span class="where">{t.data.event}.</span>}
+              {t.data.location && (t.data.title ? ` ${t.data.location}` : <span class="where">{t.data.location}</span>)}
+            </p>
             {t.Note && <div class="talk-note"><t.Note /></div>}
           </span>
         </div>
@@ -108,9 +122,9 @@ const upcoming = await withNote(upcomingRaw);
       </div>
       {keynotes.map((t) => (
         <div class="item first" id={t.id}>
-          <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.format}</span></span>
+          <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.role ?? t.data.format}</span></span>
           <span>
-            <h3>{t.data.title}</h3>
+            <h3>{t.data.title ?? t.data.event}</h3>
             <p>
               <span class="where">{t.data.event}.</span>{t.data.location && ` ${t.data.location}`}
               {t.data.minutes && `, ${t.data.minutes} min`}
@@ -135,9 +149,9 @@ const upcoming = await withNote(upcomingRaw);
       </div>
       {headline.map((t) => (
         <div class="item" id={t.id}>
-          <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.format}</span></span>
+          <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.role ?? t.data.format}</span></span>
           <span>
-            <h3>{t.data.title}</h3>
+            <h3>{t.data.title ?? t.data.event}</h3>
             <p>
               <span class="where">{t.data.event}.</span>{t.data.location && ` ${t.data.location}`}
               {t.data.minutes && `, ${t.data.minutes} min`}
@@ -171,9 +185,9 @@ const upcoming = await withNote(upcomingRaw);
           </summary>
           {g.items.map((t) => (
             <div class="item sub" id={t.id}>
-              <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.format}</span></span>
+              <span class="apparatus">{fmtWhen(t.data.date)}<span class="subject">{t.data.role ?? t.data.format}</span></span>
               <span>
-                <h3>{t.data.title}</h3>
+                <h3>{t.data.title ?? t.data.event}</h3>
                 {t.data.location && <p>{t.data.location}</p>}
                 {t.Note && <div class="talk-note"><t.Note /></div>}
                 {(t.data.video || t.data.slides || (t.data.essay && essayIds.has(t.data.essay))) && (

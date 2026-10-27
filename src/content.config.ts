@@ -33,6 +33,15 @@ export const TAGS = [
 const tag = z.enum(TAGS);
 
 /**
+ * Why he is at an event. The speaking collection started as a record of talks
+ * given, where the format said everything; a calendar of what is coming has
+ * to admit that turning up is not the same as being on the programme. Closed,
+ * for the same reason the subjects and tags are.
+ */
+export const ROLES = ['Speaking', 'Facilitating', 'Hosting', 'Organising', 'Attending'] as const;
+const role = z.enum(ROLES);
+
+/**
  * Optional, and tolerant of an empty key.
  *
  * Clearing a value in Obsidian's Properties panel leaves the key behind with
@@ -110,11 +119,19 @@ const essays = defineCollection({
 const speaking = defineCollection({
   loader: glob({ base: './src/content/speaking', pattern: '**/*.{md,yaml,yml}' }),
   schema: z.object({
-    title: z.string(),
+    // Optional: a calendar entry for an event he is attending has no talk to
+    // name, and the event is the heading instead.
+    title: opt(z.string()),
     date: z.coerce.date(),
+    // The last day, for an event that runs more than one. Omit for a talk,
+    // which happens on its day.
+    until: opt(z.coerce.date()),
     event: z.string(),
     location: opt(z.string()),
     format: z.enum(['Keynote', 'Talk', 'Panel', 'Workshop', 'Interview']).default('Talk'),
+    // Shown in place of the format on upcoming entries. A talk already says
+    // what it is; a conference he is going to does not.
+    role: opt(role),
     minutes: opt(z.number().int()),
     slides: opt(z.string().url()),
     video: opt(z.string().url()),

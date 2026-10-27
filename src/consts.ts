@@ -44,5 +44,20 @@ export const fmtDate = (d: Date, long = false) =>
 export const fmtWhen = (d: Date, long = false) =>
   d.getUTCMonth() === 0 && d.getUTCDate() === 1 ? String(d.getUTCFullYear()) : fmtDate(d, long);
 
+/**
+ * A date span, for events that run more than a day: "07–09 Dec 2026",
+ * "28 Jun – 01 Jul 2027". Collapses to a single date when there is no end,
+ * and goes through fmtWhen so a bare-year talk still prints as the year.
+ */
+export const fmtSpan = (start: Date, end?: Date) => {
+  if (!end || end.valueOf() <= start.valueOf()) return fmtWhen(start);
+  const sameYear = start.getUTCFullYear() === end.getUTCFullYear();
+  const sameMonth = sameYear && start.getUTCMonth() === end.getUTCMonth();
+  const day = (d: Date) => String(d.getUTCDate()).padStart(2, '0');
+  if (sameMonth) return `${day(start)}–${day(end)} ${fmtDate(end).slice(3)}`;
+  if (sameYear) return `${fmtDate(start).slice(0, 6)} – ${fmtDate(end)}`;
+  return `${fmtDate(start)} – ${fmtDate(end)}`;
+};
+
 export const readingMinutes = (body: string) =>
   Math.max(1, Math.round(body.split(/\s+/).filter(Boolean).length / 220));
