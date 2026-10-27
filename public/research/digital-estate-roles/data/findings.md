@@ -2326,12 +2326,28 @@ document, its document integrity evidence, the deposit timestamp and the unique 
 
 Three limits, and they matter as much as the design.
 
-**It is authorised rather than established.** §29-1-22-2(a) says the supreme court and the office of
-judicial administration "are authorized to establish and administer" the registry "under rules
-adopted by the Indiana supreme court", and §29-1-22-2(b) opens deposit only "[i]f permitted under
-the rules adopted for the registry". Whether those rules exist is a fact about court rules rather
-than about the statute book, and it could not be established from the sources reachable here. What
-the statute shows is the design; it does not show a running service.
+**It is authorised, and it has not been established.** §29-1-22-2(a) says the supreme court and the
+office of judicial administration "are authorized to establish and administer" the registry "under
+rules adopted by the Indiana supreme court", and §29-1-22-2(b) opens deposit only "[i]f permitted
+under the rules adopted for the registry". So the statute makes a court rule the condition
+precedent, and no such rule exists. The Indiana Rules of Court catalogue, current as of 1 August
+2026, carries 24 rule sets; a scan of all 743 of their rule pages — 2,733,977 characters — turns up
+no mention of IC 29-1-22, an electronic will, an electronic trust instrument, an electronic power of
+attorney, document integrity evidence, a complete converted copy, or an estate planning documents
+registry. The only registries the rules of court know are the ADR commission's **mediator**
+registry, the **certified interpreter** registry and the **protection order** e-filing registry.
+
+That is a negative worth stating precisely, because the statute is what makes it dispositive rather
+than merely suggestive: the registry exists "under rules adopted by the Indiana supreme court", so
+the rules' silence answers the question on the statute's own terms. It is not a claim that nobody in
+the Indiana judiciary has ever written the words down somewhere.
+
+**So the gap this whole section is about is wider than it first looks.** Indiana legislated, in 2019,
+the one component §14 identifies as missing everywhere — a register that answers "is there a
+document?" with a certified *no* — and seven years later the enabling rule has not been made. The
+design is in the statute book and the service is not running. For a standards body that is the more
+useful fact of the two: the hard part was never drafting the endpoint, and a jurisdiction can hold a
+fully specified one on the page indefinitely.
 
 **Deposit is permissive even then.** "[T]he following individuals **may** deposit", so a document's
 absence from the registry proves nothing about the document — Virginia's limit again, surviving the
