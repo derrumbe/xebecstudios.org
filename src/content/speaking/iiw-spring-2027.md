@@ -2,7 +2,7 @@
 date: 2027-04-13
 until: 2027-04-15
 event: "Internet Identity Workshop"
-location: "Mountain View, California"
+location: "Computer History Museum, Mountain View, California"
 role: Attending
 ---
 

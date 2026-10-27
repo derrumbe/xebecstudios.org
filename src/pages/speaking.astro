@@ -20,6 +20,11 @@ const withNote = async (list: Talk[]) =>
 const today = new Date();
 const cutoff = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
 const upcomingRaw = talks.filter((t) => t.data.date.valueOf() >= cutoff).reverse();
+
+// The month this was built, for the note above the calendar. "As of the last
+// build" told the reader there had been a build, which they knew; a month and
+// a year tells them how stale the list might be.
+const asOf = today.toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 const pastRaw = talks.filter((t) => t.data.date.valueOf() < cutoff);
 
 /**
@@ -79,7 +84,7 @@ const upcoming = await withNote(upcomingRaw);
 
     <section class="band" id="upcoming">
       <div class="grid" style="margin-bottom:6px">
-        <Margin notes={[{ note: 'Current as of the last build, not as of this second.', tone: 'aside' }]} />
+        <Margin notes={[{ note: `Current as of ${asOf}.`, tone: 'aside' }]} />
         <div>
           <div class="band-head"><h2>Upcoming</h2></div>
           {upcoming.length === 0 && (

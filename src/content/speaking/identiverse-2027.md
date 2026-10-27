@@ -2,7 +2,7 @@
 date: 2027-06-28
 until: 2027-07-01
 event: "Identiverse"
-location: "Las Vegas"
+location: "Mandalay Bay, Las Vegas"
 role: Attending
 ---
 
