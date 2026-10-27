@@ -12903,6 +12903,280 @@
    }
   ]
  },
+ "at-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": null,
+    "note": "The question does not arise in Austrian terms, which is itself the answer. A Vorsorgevollmacht is not an ordinary power made durable: §260 defines it as one \"die nach ihrem Inhalt dann wirksam werden soll, wenn der Vollmachtgeber die … erforderliche Entscheidungsfähigkeit verliert\". Incapacity is the trigger rather than the threat, so there is no default to record. §242 adds that the representation never restricts the represented person's own capacity to act.",
+    "citations": [
+     "at-abgb-260",
+     "at-abgb-242"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": true,
+    "note": "The strongest instance in this reference, and stronger than England & Wales. §245(1): a Vorsorgevollmacht \"ist wirksam, wenn und soweit der Eintritt des Vorsorgefalls im Österreichischen Zentralen Vertretungsverzeichnis eingetragen ist\" — effective if and to the extent of the entry, so the register fixes the scope as well as the fact. §245(2) makes registration **constitutive** for the chosen and statutory rungs: each \"entsteht mit ihrer Eintragung\". §246 then ends authority the same way, by entry of a revocation or of the Wegfall des Vorsorgefalls. Only the court rung escapes the register (§245(3)).",
+    "citations": [
+     "at-abgb-245",
+     "at-abgb-245-2",
+     "at-abgb-246"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "Not merely allowed but definitional: §260 makes the Vorsorgevollmacht an instrument for the Vorsorgefall. What distinguishes Austria is that the trigger is **registered and evidenced**: §263 permits the Eintritt des Vorsorgefalls to be entered \"nur insoweit\" the principal has lost the necessary capacity, and §140h(5) NO requires a medical certificate, a copy of which goes to the court. That is the status endpoint for a condition precedent that §19 records nobody as providing.",
+    "citations": [
+     "at-abgb-260",
+     "at-abgb-263",
+     "at-no-140h-zeugnis"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "other",
+    "note": "On a **register entry**, not on a clinician's bedside judgement: the representative's authority in health matters begins when the Eintritt des Vorsorgefalls is entered in the ÖZVV, which may be entered only to the extent capacity is actually lost and on a medical certificate. Austria also separates the two instruments — a Patientenverfügung under §2 PatVG is a refusal of treatment that appoints nobody, and §3 requires the patient to be entscheidungsfähig when making it.",
+    "citations": [
+     "at-abgb-245",
+     "at-abgb-263",
+     "at-patvg-2",
+     "at-patvg-3"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": false,
+    "note": "§246(1) Z 1 ends the representation with the death of the represented person, and nothing in the chapter preserves a power over the body, an autopsy or a gift. The organ question is answered by the deceased's own refusal or its absence under §5 OTPG rather than by a representative after death, and disposition of remains is Länder competence.",
+    "citations": [
+     "at-abgb-246",
+     "at-otpg-5"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": false,
+    "note": "No statute, established as a national negative rather than a scoped one because RIS's full-text search works. `digitaler Nachlass` returns **zero** documents across consolidated federal law, as does `Treuhänder digital`, against positive controls of 42 for `Vorsorgevollmacht` and 195 for `Verlassenschaft`; the hits for `Zugangsdaten` and `Social Media` are tax portals, criminal procedure and school curricula. So access to a deceased person's accounts falls to the general machinery: the estate is the Verlassenschaft under §531, which §531 limits to rights \"soweit sie nicht höchstpersönlicher Art sind\", and title passes only on Einantwortung.",
+    "citations": [
+     "at-abgb-531",
+     "at-abgb-797"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": false,
+    "note": "Nothing in consolidated federal law recognises a platform-side designation; the same searches that establish the absence of a digital-assets statute return nothing for a user direction to a custodian.",
+    "citations": [
+     "at-abgb-531"
+    ]
+   },
+   "organDonationModel": {
+    "value": "opt-out",
+    "note": "§5(1) OTPG permits removal from the deceased unless the doctors hold an express refusal by the deceased or, before death, by their legal representative — \"Eine Erklärung liegt auch vor, wenn sie in dem bei der Gesundheit Österreich GmbH geführten Widerspruchsregister eingetragen ist.\" What sets Austria apart is §7: **every procurement unit must query the register before removal**, with a query exposing only what verification needs and person-specific documented access rights. A register, a mandatory consultation, scoped disclosure and an audit trail — assembled once, for organs.",
+    "citations": [
+     "at-otpg-5",
+     "at-otpg-6",
+     "at-otpg-7",
+     "at-otpg-7-2"
+    ]
+   },
+   "probateGrantName": {
+    "value": "Einantwortung (Einantwortungsbeschluss)",
+    "note": "Not a grant to a representative but a court order vesting the estate in the heirs. §797 states the principle — \"Niemand darf eine Erbschaft eigenmächtig in Besitz nehmen\" — and §819 issues the Einantwortung once the declarations are in and the heirs and shares are settled, ending the Abhandlung. §547 dates universal succession to that moment, so Austria is neither the common-law grant nor Germany's succession at death. Before it, §810 lets the heir who proves entitlement administer.",
+    "citations": [
+     "at-abgb-797",
+     "at-abgb-819",
+     "at-abgb-547",
+     "at-abgb-810"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": true,
+    "note": "§239 obliges the legal order to see that adults with impaired decision-making \"möglichst selbständig, erforderlichenfalls mit entsprechender Unterstützung, ihre Angelegenheiten selbst besorgen können\", and lists the forms support may take — family, care institutions, peer groups, advice centres, a supervised account or a Vorsorgedialog. §240 then makes representation subsidiary to it. This is support as a principle binding the whole regime rather than a separate instrument with a supporter, so it is a different shape from the US agreements, and §242's rule that representation never restricts capacity is the same idea from the other side.",
+    "citations": [
+     "at-abgb-239",
+     "at-abgb-240",
+     "at-abgb-242"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "at-abgb-260",
+    "cite": "ABGB § 260",
+    "title": "Vollmacht für den Vorsorgefall",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193066/NOR40193066.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Eine Vorsorgevollmacht ist eine Vollmacht, die nach ihrem Inhalt dann wirksam werden soll, wenn der Vollmachtgeber die zur Besorgung der anvertrauten Angelegenheiten erforderliche Entscheidungsfähigkeit verliert."
+   },
+   {
+    "id": "at-abgb-242",
+    "cite": "ABGB § 242",
+    "title": "Handlungsfähigkeit",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193048/NOR40193048.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Die Handlungsfähigkeit einer vertretenen Person wird durch eine Vorsorgevollmacht oder eine Erwachsenenvertretung nicht eingeschränkt."
+   },
+   {
+    "id": "at-abgb-245",
+    "cite": "ABGB § 245",
+    "title": "Beginn und Fortbestand",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193051/NOR40193051.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Eine Vorsorgevollmacht ist wirksam, wenn und soweit der Eintritt des Vorsorgefalls im Österreichischen Zentralen Vertretungsverzeichnis eingetragen ist."
+   },
+   {
+    "id": "at-abgb-245-2",
+    "cite": "ABGB § 245 Abs 2",
+    "title": "Beginn und Fortbestand; Entstehen durch Eintragung",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193051/NOR40193051.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Eine gewählte oder gesetzliche Erwachsenenvertretung entsteht mit ihrer Eintragung im Österreichischen Zentralen Vertretungsverzeichnis."
+   },
+   {
+    "id": "at-abgb-246",
+    "cite": "ABGB § 246",
+    "title": "Änderung, Übertragung und Beendigung",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Die Vertretungsbefugnis des Vorsorgebevollmächtigten oder des Erwachsenenvertreters endet"
+   },
+   {
+    "id": "at-abgb-263",
+    "cite": "ABGB § 263",
+    "title": "Registrierung",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193069/NOR40193069.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Der Eintritt des Vorsorgefalls darf nur insoweit eingetragen werden, als der Vollmachtgeber die zur Besorgung der anvertrauten Angelegenheiten erforderliche Entscheidungsfähigkeit verloren hat."
+   },
+   {
+    "id": "at-no-140h-zeugnis",
+    "cite": "Notariatsordnung § 140h Abs 5",
+    "title": "Bescheinigung; ärztliches Zeugnis",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40245819/NOR40245819.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "ist ein ärztliches Zeugnis vorzulegen"
+   },
+   {
+    "id": "at-patvg-2",
+    "cite": "PatVG § 2",
+    "title": "Begriffe",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40211860/NOR40211860.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Eine Patientenverfügung im Sinn dieses Bundesgesetzes ist eine Willenserklärung, mit der ein Patient eine medizinische Behandlung ablehnt und die dann wirksam werden soll, wenn er im Zeitpunkt der Behandlung nicht entscheidungsfähig ist."
+   },
+   {
+    "id": "at-patvg-3",
+    "cite": "PatVG § 3",
+    "title": "Höchstpersönliches Recht, Fähigkeit der Person",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40205085/NOR40205085.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Eine Patientenverfügung kann nur höchstpersönlich errichtet werden. Der Patient muss bei Errichtung einer Patientenverfügung entscheidungsfähig sein."
+   },
+   {
+    "id": "at-otpg-5",
+    "cite": "OTPG § 5",
+    "title": "Entnahme von Organen Verstorbener",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40144654/NOR40144654.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Die Entnahme ist unzulässig, wenn den Ärztinnen/Ärzten eine Erklärung vorliegt, mit der die/der Verstorbene oder, vor deren/dessen Tod, ihr/sein gesetzlicher Vertreter eine Organspende ausdrücklich abgelehnt hat. Eine Erklärung liegt auch vor, wenn sie in dem bei der Gesundheit Österreich GmbH geführten Widerspruchsregister eingetragen ist."
+   },
+   {
+    "id": "at-abgb-531",
+    "cite": "ABGB § 531",
+    "title": "Verlassenschaft",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40172815/NOR40172815.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Die Rechte und Verbindlichkeiten eines Verstorbenen bilden, soweit sie nicht höchstpersönlicher Art sind, dessen Verlassenschaft."
+   },
+   {
+    "id": "at-abgb-797",
+    "cite": "ABGB § 797",
+    "title": "Einantwortungsprinzip",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173007/NOR40173007.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Niemand darf eine Erbschaft eigenmächtig in Besitz nehmen. Der Erwerb einer Erbschaft erfolgt in der Regel nach Durchführung des Verlassenschaftsverfahrens durch die Einantwortung der Verlassenschaft, das ist die Übergabe in den rechtlichen Besitz der Erben."
+   },
+   {
+    "id": "at-otpg-6",
+    "cite": "OTPG § 6",
+    "title": "Widerspruchsregister",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40203870/NOR40203870.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Über die erfolgte Eintragung wird durch die Gesundheit Österreich GmbH eine Eintragungsbestätigung ausgestellt. Der Widerspruch gegen eine Organentnahme und die damit verbundene Zustimmung zur Verarbeitung der Daten im Widerspruchsregister kann jederzeit schriftlich widerrufen werden."
+   },
+   {
+    "id": "at-otpg-7",
+    "cite": "OTPG § 7",
+    "title": "Verpflichtung der Entnahmeeinheiten",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40203871/NOR40203871.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Jede Entnahmeeinheit ist verpflichtet, vor einer Entnahme von Organen bei Verstorbenen durch eine Anfrage bei der Gesundheit Österreich GmbH sicherzustellen, dass keine Eintragung eines Widerspruchs im Widerspruchsregister vorliegt."
+   },
+   {
+    "id": "at-otpg-7-2",
+    "cite": "OTPG § 7 Abs 2–3",
+    "title": "Abfrage; Zugriffsberechtigungen",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40203871/NOR40203871.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Die Gesundheit Österreich GmbH hat sicherzustellen, dass die Abfrage so gestaltet ist, dass bei Abfragen nur die zur Verifizierung der Eintragung eines Widerspruchs erforderlichen Daten im Register ersichtlich sind."
+   },
+   {
+    "id": "at-abgb-819",
+    "cite": "ABGB § 819",
+    "title": "Einantwortung",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173029/NOR40173029.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "wird den Erben die Erbschaft eingeantwortet und die Abhandlung beendet"
+   },
+   {
+    "id": "at-abgb-547",
+    "cite": "ABGB § 547",
+    "title": "Gesamtrechtsnachfolge",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40172829/NOR40172829.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Mit der Einantwortung folgt der Erbe der Rechtsposition der Verlassenschaft nach"
+   },
+   {
+    "id": "at-abgb-810",
+    "cite": "ABGB § 810",
+    "title": "Verwaltung vor Einantwortung",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173021/NOR40173021.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Der Erbe, der bei Antretung der Erbschaft sein Erbrecht hinreichend ausweist, hat das Recht, das Verlassenschaftsvermögen zu benützen, zu verwalten und die Verlassenschaft zu vertreten, solange das Verlassenschaftsgericht nichts anderes anordnet."
+   },
+   {
+    "id": "at-abgb-239",
+    "cite": "ABGB § 239",
+    "title": "Selbstbestimmung",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193045/NOR40193045.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Im rechtlichen Verkehr ist dafür Sorge zu tragen, dass volljährige Personen, die aufgrund einer psychischen Krankheit oder einer vergleichbaren Beeinträchtigung in ihrer Entscheidungsfähigkeit eingeschränkt sind, möglichst selbständig, erforderlichenfalls mit entsprechender Unterstützung, ihre Angelegenheiten selbst besorgen können."
+   },
+   {
+    "id": "at-abgb-240",
+    "cite": "ABGB § 240",
+    "title": "Nachrang der Stellvertretung",
+    "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193046/NOR40193046.html",
+    "kind": "statute",
+    "retrieved": "2026-10-27",
+    "quote": "Sie können durch eine von ihnen bevollmächtigte Person (Vorsorgevollmacht) oder durch einen gewählten oder gesetzlichen oder gerichtlichen Erwachsenenvertreter vertreten werden."
+   }
+  ]
+ },
  "es-national": {
   "features": {
    "poaDurableByDefault": {
