@@ -4,8 +4,8 @@
    "id": "personal-representative-administrator",
    "label": "Administrator",
    "definition": "The personal representative the law or a court supplies where the deceased named nobody, or nobody named can act.",
-   "jurisdictionCount": 56,
-   "countryCount": 20,
+   "jurisdictionCount": 57,
+   "countryCount": 21,
    "citations": {
     "mu-cur-4": {
      "id": "mu-cur-4",
@@ -922,6 +922,22 @@
      "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "at-abgb-810": {
+     "id": "at-abgb-810",
+     "cite": "ABGB § 810",
+     "title": "Verwaltung vor Einantwortung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173021/NOR40173021.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-819": {
+     "id": "at-abgb-819",
+     "cite": "ABGB § 819",
+     "title": "Einantwortung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173029/NOR40173029.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     },
     "ar-ccyc-2345": {
      "id": "ar-ccyc-2345",
@@ -4658,6 +4674,55 @@
       "vic-apa-13",
       "vic-apa-34",
       "vic-apa-28"
+     ]
+    },
+    {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-verlassenschaftsvertreter",
+     "roleName": "Vertreter der Verlassenschaft vor Einantwortung",
+     "localNames": [
+      "§810 ABGB-Verwaltung",
+      "Verlassenschaftsverfahren"
+     ],
+     "nameEn": null,
+     "summary": "Between death and Einantwortung somebody must act for the estate, and Austria gives that to the heir who proves their entitlement — on the court's sufferance and with court approval for anything beyond ordinary management.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "The heir who, on accepting, \"sein Erbrecht hinreichend ausweist\"; where several qualify they act jointly unless they agree otherwise",
+       "phase": "deceased",
+       "citations": [
+        "at-abgb-810"
+       ]
+      },
+      "starts": {
+       "event": "On that proof of entitlement, and only \"solange das Verlassenschaftsgericht nichts anderes anordnet\"",
+       "phase": "administration",
+       "citations": [
+        "at-abgb-810"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Einantwortung, which ends the administration and vests the estate",
+        "phase": "closed",
+        "citations": [
+         "at-abgb-819"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-810",
+      "at-abgb-819"
      ]
     },
     {
@@ -9126,8 +9191,8 @@
    "id": "conservator-estate",
    "label": "Conservator of the estate",
    "definition": "A financial manager appointed by a court or tribunal to manage property the person can no longer manage.",
-   "jurisdictionCount": 63,
-   "countryCount": 21,
+   "jurisdictionCount": 64,
+   "countryCount": 22,
    "citations": {
     "mu-cc-488": {
      "id": "mu-cc-488",
@@ -10479,6 +10544,30 @@
      "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "at-abgb-240": {
+     "id": "at-abgb-240",
+     "cite": "ABGB § 240",
+     "title": "Nachrang der Stellvertretung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193046/NOR40193046.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-245": {
+     "id": "at-abgb-245",
+     "cite": "ABGB § 245",
+     "title": "Beginn und Fortbestand",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193051/NOR40193051.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-246": {
+     "id": "at-abgb-246",
+     "cite": "ABGB § 246",
+     "title": "Änderung, Übertragung und Beendigung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     },
     "ar-ccyc-32": {
      "id": "ar-ccyc-32",
@@ -14627,6 +14716,56 @@
      ]
     },
     {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-gerichtlicher-erwachsenenvertreter-vermoegen",
+     "roleName": "Gerichtlicher Erwachsenenvertreter (Vermögenssorge)",
+     "localNames": [
+      "gerichtliche Erwachsenenvertretung",
+      "Vermögenssorge"
+     ],
+     "nameEn": null,
+     "summary": "The same court appointment in its property scope, with a statutory duty to meet the represented person's needs out of their own income and assets.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Court appointment with a Wirkungsbereich covering property",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-240"
+       ]
+      },
+      "starts": {
+       "event": "With the court's appointment (§245(3))",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-245"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Five years after the appointment decision unless renewed, or earlier by court decision",
+        "phase": "incapacitated",
+        "citations": [
+         "at-abgb-246"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-240",
+      "at-abgb-245",
+      "at-abgb-246"
+     ]
+    },
+    {
      "jurisdiction": "ar-national",
      "jurisdictionName": "Argentina",
      "label": "Argentina",
@@ -14737,8 +14876,8 @@
    "id": "default-surrogate",
    "label": "Default surrogate",
    "definition": "The decision maker the law supplies from a statutory hierarchy when nobody has been appointed.",
-   "jurisdictionCount": 41,
-   "countryCount": 10,
+   "jurisdictionCount": 42,
+   "countryCount": 11,
    "citations": {
     "za-nha-7-order": {
      "id": "za-nha-7-order",
@@ -15293,6 +15432,30 @@
      "url": "https://www.legislation.vic.gov.au/in-force/acts/medical-treatment-planning-and-decisions-act-2016/012",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "at-abgb-240": {
+     "id": "at-abgb-240",
+     "cite": "ABGB § 240",
+     "title": "Nachrang der Stellvertretung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193046/NOR40193046.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-245-2": {
+     "id": "at-abgb-245-2",
+     "cite": "ABGB § 245 Abs 2",
+     "title": "Beginn und Fortbestand; Entstehen durch Eintragung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193051/NOR40193051.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-246": {
+     "id": "at-abgb-246",
+     "cite": "ABGB § 246",
+     "title": "Änderung, Übertragung und Beendigung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     }
    },
    "jurisdictions": [
@@ -17920,6 +18083,55 @@
      "citations": [
       "vic-mtpd-55",
       "vic-mtpd-58"
+     ]
+    },
+    {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-gesetzlicher-erwachsenenvertreter",
+     "roleName": "Gesetzlicher Erwachsenenvertreter",
+     "localNames": [
+      "gesetzliche Erwachsenenvertretung"
+     ],
+     "nameEn": null,
+     "summary": "The third rung: representation by a close relative arising by operation of law, but still only on registration — and expiring after three years unless entered again.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "By operation of law from the circle of close relatives, where the adult has made no provision and cannot choose",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-240"
+       ]
+      },
+      "starts": {
+       "event": "On entry in the ÖZVV — §245(2) makes registration constitutive for this rung too",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-245-2"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Entry of the represented person's or the representative's objection, or the lapse of three years unless re-entered",
+        "phase": "incapacitated",
+        "citations": [
+         "at-abgb-246"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-240",
+      "at-abgb-245-2",
+      "at-abgb-246"
      ]
     }
    ]
@@ -22562,8 +22774,8 @@
    "id": "anatomical-gift-agent",
    "label": "Donation decision maker",
    "definition": "The person who may authorise or refuse donation of organs, tissue or the body, including under deemed-consent regimes.",
-   "jurisdictionCount": 57,
-   "countryCount": 19,
+   "jurisdictionCount": 58,
+   "countryCount": 20,
    "citations": {
     "za-nha-62-1": {
      "id": "za-nha-62-1",
@@ -23216,6 +23428,22 @@
      "url": "https://www.legislation.vic.gov.au/in-force/acts/human-tissue-act-1982/047",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "at-otpg-5": {
+     "id": "at-otpg-5",
+     "cite": "OTPG § 5",
+     "title": "Entnahme von Organen Verstorbener",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40144654/NOR40144654.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-otpg-6": {
+     "id": "at-otpg-6",
+     "cite": "OTPG § 6",
+     "title": "Widerspruchsregister",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40203870/NOR40203870.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     },
     "ar-ccyc-61": {
      "id": "ar-ccyc-61",
@@ -26551,6 +26779,55 @@
      ]
     },
     {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-organ-widerspruch",
+     "roleName": "Widerspruchsberechtigter (Organentnahme)",
+     "localNames": [
+      "Widerspruchsregister",
+      "Widerspruch gegen Organentnahme"
+     ],
+     "nameEn": null,
+     "summary": "Austria is an opt-out jurisdiction: removal is lawful unless the deceased, or their legal representative before death, expressly refused — and an entry in the objection register counts as that refusal. Uniquely in this reference, every procurement unit must query the register before acting.",
+     "group": "remains",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "The person themselves, or their gesetzlicher Vertreter before death, declares a refusal; an entry in the Widerspruchsregister is such a declaration",
+       "phase": "capable",
+       "citations": [
+        "at-otpg-5"
+       ]
+      },
+      "starts": {
+       "event": "On the declaration or the register entry; an Eintragungsbestätigung is issued for the entry",
+       "phase": "capable",
+       "citations": [
+        "at-otpg-6"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Written revocation at any time, on which the entry must be deleted without delay",
+        "phase": "capable",
+        "citations": [
+         "at-otpg-6"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-otpg-5",
+      "at-otpg-6"
+     ]
+    },
+    {
      "jurisdiction": "ar-national",
      "jurisdictionName": "Argentina",
      "label": "Argentina",
@@ -26658,8 +26935,8 @@
    "id": "financial-poa-durable",
    "label": "Durable financial power of attorney",
    "definition": "An agent appointed by the person while capable, whose authority over property and money survives the person losing capacity.",
-   "jurisdictionCount": 54,
-   "countryCount": 17,
+   "jurisdictionCount": 55,
+   "countryCount": 18,
    "citations": {
     "cn-cc-33": {
      "id": "cn-cc-33",
@@ -28406,6 +28683,54 @@
      "url": "https://www.legislation.vic.gov.au/in-force/acts/powers-attorney-act-2014/007",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "at-abgb-260": {
+     "id": "at-abgb-260",
+     "cite": "ABGB § 260",
+     "title": "Vollmacht für den Vorsorgefall",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193066/NOR40193066.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-262": {
+     "id": "at-abgb-262",
+     "cite": "ABGB § 262",
+     "title": "Form",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193068/NOR40193068.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-245": {
+     "id": "at-abgb-245",
+     "cite": "ABGB § 245",
+     "title": "Beginn und Fortbestand",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193051/NOR40193051.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-263": {
+     "id": "at-abgb-263",
+     "cite": "ABGB § 263",
+     "title": "Registrierung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193069/NOR40193069.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-no-140h-zeugnis": {
+     "id": "at-no-140h-zeugnis",
+     "cite": "Notariatsordnung § 140h Abs 5",
+     "title": "Bescheinigung; ärztliches Zeugnis",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40245819/NOR40245819.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-246": {
+     "id": "at-abgb-246",
+     "cite": "ABGB § 246",
+     "title": "Änderung, Übertragung und Beendigung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     }
    },
    "jurisdictions": [
@@ -32365,6 +32690,69 @@
       "vic-poa-56-59",
       "vic-poa-116"
      ]
+    },
+    {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-vorsorgevollmacht",
+     "roleName": "Vorsorgebevollmächtigter",
+     "localNames": [
+      "Vorsorgevollmacht",
+      "Vorsorgebevollmächtigter"
+     ],
+     "nameEn": null,
+     "summary": "An agent under a power of attorney that is, by definition, for the Vorsorgefall: it is meant to take effect when the principal loses decision-making capacity, and it is effective only if and to the extent that the occurrence of that event is entered in the central representation register.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Principal creates the Vorsorgevollmacht in person and in writing before a notary, a lawyer or an Erwachsenenschutzverein, who must instruct them on the consequences and document having done so in the deed (§262)",
+       "phase": "capable",
+       "citations": [
+        "at-abgb-260",
+        "at-abgb-262"
+       ]
+      },
+      "starts": {
+       "event": "Only once the Eintritt des Vorsorgefalls is entered in the ÖZVV, and only \"wenn und soweit\" it is — the entry is permitted only to the extent the principal has actually lost capacity, on a medical certificate",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-245",
+        "at-abgb-263",
+        "at-no-140h-zeugnis"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death of the represented person or of the representative",
+        "phase": "deceased",
+        "citations": [
+         "at-abgb-246"
+        ]
+       },
+       {
+        "event": "Entry in the ÖZVV of a revocation, a termination, or of the Wegfall des Vorsorgefalls — the register ends the authority as it began it",
+        "phase": "capable",
+        "citations": [
+         "at-abgb-246"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-260",
+      "at-abgb-262",
+      "at-abgb-245",
+      "at-abgb-263",
+      "at-no-140h-zeugnis",
+      "at-abgb-246"
+     ]
     }
    ]
   },
@@ -32372,8 +32760,8 @@
    "id": "personal-representative-executor",
    "label": "Executor",
    "definition": "The personal representative the deceased themselves named, usually in a will.",
-   "jurisdictionCount": 60,
-   "countryCount": 24,
+   "jurisdictionCount": 61,
+   "countryCount": 25,
    "citations": {
     "mu-cc-1030": {
      "id": "mu-cc-1030",
@@ -33693,6 +34081,30 @@
      "url": "https://www.legislation.vic.gov.au/in-force/acts/administration-and-probate-act-1958/130",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "at-abgb-531": {
+     "id": "at-abgb-531",
+     "cite": "ABGB § 531",
+     "title": "Verlassenschaft",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40172815/NOR40172815.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-797": {
+     "id": "at-abgb-797",
+     "cite": "ABGB § 797",
+     "title": "Einantwortungsprinzip",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173007/NOR40173007.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-819": {
+     "id": "at-abgb-819",
+     "cite": "ABGB § 819",
+     "title": "Einantwortung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173029/NOR40173029.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     },
     "ar-ccyc-2524": {
      "id": "ar-ccyc-2524",
@@ -37798,6 +38210,55 @@
      ]
     },
     {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-testamentsvollstrecker",
+     "roleName": "Testamentsvollstrecker",
+     "localNames": [
+      "Testamentsvollstrecker"
+     ],
+     "nameEn": null,
+     "summary": "Austria knows the office but does not build its succession on it: the estate is administered under §810 by the proving heir and vested by the court, so an executor named in a will does not displace either.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Named by the deceased in a letztwillige Verfügung",
+       "phase": "capable",
+       "citations": [
+        "at-abgb-531"
+       ]
+      },
+      "starts": {
+       "event": "On death, within the Verlassenschaftsverfahren, which the court conducts and which §797 reserves to the Einantwortung for the vesting of title",
+       "phase": "deceased",
+       "citations": [
+        "at-abgb-797"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Einantwortung and the close of the Abhandlung",
+        "phase": "closed",
+        "citations": [
+         "at-abgb-819"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-531",
+      "at-abgb-797",
+      "at-abgb-819"
+     ]
+    },
+    {
      "jurisdiction": "ar-national",
      "jurisdictionName": "Argentina",
      "label": "Argentina",
@@ -37907,8 +38368,8 @@
    "id": "guardian-person",
    "label": "Guardian of the person",
    "definition": "A personal decision maker appointed by a court or tribunal, rather than by the person.",
-   "jurisdictionCount": 54,
-   "countryCount": 17,
+   "jurisdictionCount": 55,
+   "countryCount": 18,
    "citations": {
     "rw-pf-139": {
      "id": "rw-pf-139",
@@ -39130,6 +39591,38 @@
      "url": "https://www.legislation.vic.gov.au/in-force/acts/guardianship-and-administration-act-2019/010",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "at-abgb-240": {
+     "id": "at-abgb-240",
+     "cite": "ABGB § 240",
+     "title": "Nachrang der Stellvertretung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193046/NOR40193046.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-245": {
+     "id": "at-abgb-245",
+     "cite": "ABGB § 245",
+     "title": "Beginn und Fortbestand",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193051/NOR40193051.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-246": {
+     "id": "at-abgb-246",
+     "cite": "ABGB § 246",
+     "title": "Änderung, Übertragung und Beendigung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-242": {
+     "id": "at-abgb-242",
+     "cite": "ABGB § 242",
+     "title": "Handlungsfähigkeit",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193048/NOR40193048.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     }
    },
    "jurisdictions": [
@@ -42790,6 +43283,57 @@
       "vic-gaa-42",
       "vic-gaa-39"
      ]
+    },
+    {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-gerichtlicher-erwachsenenvertreter-person",
+     "roleName": "Gerichtlicher Erwachsenenvertreter (Personensorge)",
+     "localNames": [
+      "gerichtliche Erwachsenenvertretung"
+     ],
+     "nameEn": null,
+     "summary": "The fourth rung, and the only one the court creates. Subsidiary to everything above it, and it expires after five years unless renewed.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Court appointment, subsidiary to the three rungs above — §240 permits representation only where the adult provided for it or representation is unavoidable",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-240"
+       ]
+      },
+      "starts": {
+       "event": "§245(3): a gerichtliche Erwachsenenvertretung arises with the court's appointment, not with a register entry",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-245"
+       ]
+      },
+      "ends": [
+       {
+        "event": "At the latest five years after the first-instance appointment decision unless renewed; the representation does not restrict the person's own capacity meanwhile",
+        "phase": "incapacitated",
+        "citations": [
+         "at-abgb-246",
+         "at-abgb-242"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-240",
+      "at-abgb-245",
+      "at-abgb-246",
+      "at-abgb-242"
+     ]
     }
    ]
   },
@@ -42797,8 +43341,8 @@
    "id": "health-care-agent",
    "label": "Health-care agent",
    "definition": "A person named in advance to make health and personal welfare decisions once the person can no longer make them.",
-   "jurisdictionCount": 52,
-   "countryCount": 14,
+   "jurisdictionCount": 53,
+   "countryCount": 15,
    "citations": {
     "za-nha-7-mandate": {
      "id": "za-nha-7-mandate",
@@ -44418,6 +44962,38 @@
      "url": "https://www.legislation.vic.gov.au/in-force/acts/human-tissue-act-1982/047",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "at-abgb-261": {
+     "id": "at-abgb-261",
+     "cite": "ABGB § 261",
+     "title": "Wirkungsbereich",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193067/NOR40193067.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-262": {
+     "id": "at-abgb-262",
+     "cite": "ABGB § 262",
+     "title": "Form",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193068/NOR40193068.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-245": {
+     "id": "at-abgb-245",
+     "cite": "ABGB § 245",
+     "title": "Beginn und Fortbestand",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193051/NOR40193051.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-246": {
+     "id": "at-abgb-246",
+     "cite": "ABGB § 246",
+     "title": "Änderung, Übertragung und Beendigung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     },
     "ar-ccyc-60": {
      "id": "ar-ccyc-60",
@@ -48265,6 +48841,58 @@
      ]
     },
     {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-vorsorgevollmacht-gesundheit",
+     "roleName": "Vorsorgebevollmächtigter für Gesundheitsangelegenheiten",
+     "localNames": [
+      "Vorsorgevollmacht",
+      "Patientenverfügung (separate instrument)"
+     ],
+     "nameEn": null,
+     "summary": "The same registered representative acting in health matters. Austria keeps the appointment and the treatment refusal in separate instruments: a Patientenverfügung refuses treatment and appoints nobody.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Health matters are a Wirkungsbereich of the Vorsorgevollmacht; the instrument may be limited to kinds of matter (§261)",
+       "phase": "capable",
+       "citations": [
+        "at-abgb-261",
+        "at-abgb-262"
+       ]
+      },
+      "starts": {
+       "event": "On entry of the Vorsorgefall, as for property",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-245"
+       ]
+      },
+      "ends": [
+       {
+        "event": "As for property — death, or an ÖZVV entry",
+        "phase": "deceased",
+        "citations": [
+         "at-abgb-246"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-261",
+      "at-abgb-262",
+      "at-abgb-245",
+      "at-abgb-246"
+     ]
+    },
+    {
      "jurisdiction": "ar-national",
      "jurisdictionName": "Argentina",
      "label": "Argentina",
@@ -51997,8 +52625,8 @@
    "id": "universal-successor-heir",
    "label": "Heir by universal succession",
    "definition": "An heir who takes the estate as a whole at the moment of death, without any grant and without a default executor.",
-   "jurisdictionCount": 16,
-   "countryCount": 16,
+   "jurisdictionCount": 17,
+   "countryCount": 17,
    "citations": {
     "mu-cc-724": {
      "id": "mu-cc-724",
@@ -52286,6 +52914,46 @@
      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CCF.pdf",
      "kind": "statute",
      "retrieved": "2026-09-17"
+    },
+    "at-abgb-532": {
+     "id": "at-abgb-532",
+     "cite": "ABGB § 532",
+     "title": "Erbrecht",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40172816/NOR40172816.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-531": {
+     "id": "at-abgb-531",
+     "cite": "ABGB § 531",
+     "title": "Verlassenschaft",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40172815/NOR40172815.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-797": {
+     "id": "at-abgb-797",
+     "cite": "ABGB § 797",
+     "title": "Einantwortungsprinzip",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173007/NOR40173007.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-819": {
+     "id": "at-abgb-819",
+     "cite": "ABGB § 819",
+     "title": "Einantwortung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173029/NOR40173029.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-547": {
+     "id": "at-abgb-547",
+     "cite": "ABGB § 547",
+     "title": "Gesamtrechtsnachfolge",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40172829/NOR40172829.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     },
     "ar-ccyc-2277": {
      "id": "ar-ccyc-2277",
@@ -53117,6 +53785,62 @@
      "citations": [
       "mx-ccf-1281",
       "mx-ccf-1288"
+     ]
+    },
+    {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-erbe",
+     "roleName": "Erbe",
+     "localNames": [
+      "Erbe",
+      "Erbantrittserklärung",
+      "Einantwortung"
+     ],
+     "nameEn": null,
+     "summary": "The heir takes the whole estate — but not at death. Austria interposes a court transfer, the Einantwortung, and forbids anyone taking possession of an estate on their own authority. The canonical id's \"and automatic\" is what Austria breaks.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "By will or by law; the Erbrecht is \"das absolute Recht, die ganze Verlassenschaft oder einen bestimmten Teil davon zu erwerben\" (§532)",
+       "phase": "deceased",
+       "citations": [
+        "at-abgb-532",
+        "at-abgb-531"
+       ]
+      },
+      "starts": {
+       "event": "On Einantwortung, the court's handing over of the estate into the heirs' legal possession — §797 forbids taking possession eigenmächtig, and §547 dates universal succession to the Einantwortung",
+       "phase": "administration",
+       "citations": [
+        "at-abgb-797",
+        "at-abgb-819",
+        "at-abgb-547"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The Einantwortung itself ends the Abhandlung; the heir then holds as owner and must enter immovables in the public books",
+        "phase": "closed",
+        "citations": [
+         "at-abgb-819"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-532",
+      "at-abgb-531",
+      "at-abgb-797",
+      "at-abgb-819",
+      "at-abgb-547"
      ]
     },
     {
@@ -61395,8 +62119,8 @@
    "id": "financial-poa-springing",
    "label": "Springing power of attorney",
    "definition": "An appointment made while capable that confers no authority until a later event — usually the person's own incapacity.",
-   "jurisdictionCount": 35,
-   "countryCount": 5,
+   "jurisdictionCount": 36,
+   "countryCount": 6,
    "citations": {
     "it-cc-408": {
      "id": "it-cc-408",
@@ -61793,6 +62517,30 @@
      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.125.090",
      "kind": "statute",
      "retrieved": "2026-09-19"
+    },
+    "at-abgb-264": {
+     "id": "at-abgb-264",
+     "cite": "ABGB § 264",
+     "title": "Gewählter Erwachsenenvertreter; Voraussetzungen",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193070/NOR40193070.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-245-2": {
+     "id": "at-abgb-245-2",
+     "cite": "ABGB § 245 Abs 2",
+     "title": "Beginn und Fortbestand; Entstehen durch Eintragung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193051/NOR40193051.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
+    },
+    "at-abgb-246": {
+     "id": "at-abgb-246",
+     "cite": "ABGB § 246",
+     "title": "Änderung, Übertragung und Beendigung",
+     "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
+     "kind": "statute",
+     "retrieved": "2026-10-27"
     }
    },
    "jurisdictions": [
@@ -64257,6 +65005,56 @@
       "upoaa-110d",
       "upoaa-110b",
       "upoaa-108"
+     ]
+    },
+    {
+     "jurisdiction": "at-national",
+     "jurisdictionName": "Austria",
+     "label": "Austria",
+     "country": "Austria",
+     "region": "Other",
+     "roleId": "at-gewaehlter-erwachsenenvertreter",
+     "roleName": "Gewählter Erwachsenenvertreter",
+     "localNames": [
+      "gewählte Erwachsenenvertretung",
+      "Vereinbarung über eine gewählte Erwachsenenvertretung"
+     ],
+     "nameEn": null,
+     "summary": "The second rung of the ladder: a representative an adult chooses when they can no longer create a Vorsorgevollmacht but still understand in outline what granting authority means. It comes into existence with its registration. The canonical id is the nearest available and an imperfect fit — see the note.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "The adult selects one or more close persons by agreement, at a capacity threshold below the one a Vorsorgevollmacht needs (§264)",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-264"
+       ]
+      },
+      "starts": {
+       "event": "It \"entsteht mit ihrer Eintragung im Österreichischen Zentralen Vertretungsverzeichnis\" — the entry constitutes the representation (§245(2))",
+       "phase": "incapacitated",
+       "citations": [
+        "at-abgb-245-2"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Death, a court decision, or entry of a revocation or termination in the ÖZVV",
+        "phase": "deceased",
+        "citations": [
+         "at-abgb-246"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "at-abgb-264",
+      "at-abgb-245-2",
+      "at-abgb-246"
      ]
     }
    ]

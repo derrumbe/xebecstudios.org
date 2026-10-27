@@ -13,20 +13,20 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 60 | **24** |
-| `conservator-estate` | 63 | 21 |
-| `personal-representative-administrator` | 56 | 20 |
-| `anatomical-gift-agent` | 57 | 19 |
-| `financial-poa-durable` | 54 | 17 |
-| `guardian-person` | 54 | 17 |
-| `health-care-agent` | 52 | 14 |
+| `personal-representative-executor` | 61 | **25** |
+| `conservator-estate` | 64 | 22 |
+| `personal-representative-administrator` | 57 | 21 |
+| `anatomical-gift-agent` | 58 | 20 |
+| `financial-poa-durable` | 55 | 18 |
+| `guardian-person` | 55 | 18 |
+| `health-care-agent` | 53 | 15 |
 | … | | |
 | `digital-assets-fiduciary` | 34 | **4** |
 | `online-tool-designee` | 31 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
-single most universal role in the data, present in 24 of 24 countries.
+single most universal role in the data, present in 25 of 25 countries.
 
 **The gap is not conceptual, it is digital.** `online-tool-designee` exists in two countries.
 Whatever a standard needs to carry, it is not a new idea about who may act — that idea is
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 30 of the 50 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 30 of the 51 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -219,7 +219,7 @@ the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 10 of the 48 jurisdictions that record it and false in 38.
+`poaRegistrationBeforeUse` is true in 11 of the 49 jurisdictions that record it and false in 38.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -234,14 +234,23 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 43** of the 53 jurisdictions that record it and **opt-out in
-10**. The opt-out set
-is almost entirely European — Finland, France, Ireland, the Netherlands, Spain, Sweden and all
-three UK jurisdictions — plus Singapore.
+`organDonationModel` is **opt-in in 43** of the 54 jurisdictions that record it and **opt-out in
+11**. The opt-out set
+is almost entirely European — Austria, Finland, France, Ireland, the Netherlands, Spain, Sweden
+and all three UK jurisdictions — plus Singapore.
 
 Nearly all are *soft* opt-out: Ireland's deemed consent does not apply at all where no
 designated family member can be identified; the Netherlands registers silence as *geen bezwaar*
-only six weeks after a reminder. The register is the operative artefact in every case, which
+only six weeks after a reminder. **Austria is the hard case and the instructive one.** §5(1) OTPG
+permits removal unless the doctors hold an express refusal, and an entry in the objection register
+counts as one; no family consent is sought and no reminder is sent. What makes it the most
+developed register in this data is §7: **every procurement unit must query it before acting** —
+"Jede Entnahmeeinheit ist verpflichtet, vor einer Entnahme von Organen bei Verstorbenen … 
+sicherzustellen, dass keine Eintragung eines Widerspruchs im Widerspruchsregister vorliegt" — on
+an online query whose design must expose only the data verification needs, under person-specific
+and documented access rights. A register, a mandatory consultation before the irreversible act,
+minimised disclosure and an audit trail. §22 is about the fact that the same parliament did not
+do this for authority. The register is the operative artefact in every case, which
 makes this the one role in the set where a national lookup service already exists and a
 standard would be integrating rather than inventing.
 
@@ -262,9 +271,21 @@ These are federal-layer roles inherited by every sub-national file in the US, Au
 Canada. They are national programme mechanics, not a global pattern, and treating them as
 one would over-generalise from three countries.
 
-The inverse is `universal-successor-heir`: **16 jurisdictions across 16 countries**, exactly
-one per country. It is a clean marker of civil-law universal succession, where the estate
-vests in the heirs at death with no grant and no appointment.
+The inverse is `universal-successor-heir`: **17 jurisdictions across 17 countries**, exactly
+one per country. It marks civil-law universal succession — the heir takes the estate as a whole
+rather than through an appointed representative.
+
+**It stopped being a clean marker when Austria landed**, and the distinction it lost is the one a
+protocol actually cares about. In 16 of the 17 the estate vests at death by operation of law, with
+no grant and no appointment. Austria is universal succession with a **court act in the middle**:
+§531 ABGB makes the deceased's non-personal rights and obligations the *Verlassenschaft*, §797
+states the Einantwortungsprinzip — "**Niemand darf eine Erbschaft eigenmächtig in Besitz
+nehmen**" — and §547 dates the succession not to the death but to the *Einantwortung*, the court's
+handing over of the estate into the heirs' legal possession. So the canonical id's definition in
+the schema, which says succession is "universal and automatic", is doing work that Austria breaks:
+universal yes, automatic no. Between the two moments §810 lets the heir "der bei Antretung der
+Erbschaft sein Erbrecht hinreichend ausweist" administer the estate, which is §13's
+proof-of-standing problem arising inside a system that was supposed not to have one.
 
 West Virginia extends the warning a level further down, below the unit this data can model at all.
 Article 44-3A establishes an optional **fiduciary supervisor** system for estate administration, and
@@ -284,7 +305,7 @@ not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 23 of the 34 jurisdictions that record it and false in
+`supportedDecisionMakingStatute` is true in 24 of the 35 jurisdictions that record it and false in
 11 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
 false while thirteen US states are true** — **Arizona**, California, **Colorado**, Delaware,
@@ -2393,6 +2414,127 @@ read the model act, not the neighbours.** Comparing enacted statutes to each oth
 provision as distinctive whenever the comparison set happens to omit it; only the source text shows
 whether it was ever distinctive at all.
 
+## 22. Austria built the thing this page says nobody has built, and wired it to organs instead of authority
+
+§15 ends on a gap and names both halves of it: "a status endpoint is useless without a duty to
+consult it, and a duty to consult is unenforceable without somewhere to look. Missouri has built
+the second half and left the first." §14 adds the limit every register in the data shares — failure
+to register affects neither a document's validity nor a revocation's, so a relying party that finds
+nothing has learned nothing. §21 found Indiana legislating the missing piece and never commissioning
+it.
+
+**Austria has the complete mechanism, in force, with access controls. It is for organ donation.**
+
+§5(1) of the Organtransplantationsgesetz makes removal from a deceased person lawful unless the
+doctors hold an express refusal, and provides that "[e]ine Erklärung liegt auch vor, wenn sie in dem
+bei der Gesundheit Österreich GmbH geführten Widerspruchsregister eingetragen ist" — an entry in the
+objection register *is* the refusal. Then §7:
+
+> (1) Jede Entnahmeeinheit ist **verpflichtet**, vor einer Entnahme von Organen bei Verstorbenen
+> durch eine Anfrage bei der Gesundheit Österreich GmbH **sicherzustellen, dass keine Eintragung
+> eines Widerspruchs im Widerspruchsregister vorliegt**.
+
+And the two subsections after it are the part a protocol designer should read twice. §7(2) requires
+the operator to ensure "dass die Abfrage so gestaltet ist, dass bei Abfragen nur die zur
+Verifizierung der Eintragung eines Widerspruchs erforderlichen Daten im Register ersichtlich sind" —
+the query must disclose only what verification needs. §7(3) requires access rights to be granted
+"stets nur in jenem Umfang … als dies für den Abfragezweck notwendig ist", tied to named
+individuals whose identity and scope of authorisation must be proved to the operator, and documented
+so the grants can be audited.
+
+Set that against the list of things this page has been saying no jurisdiction assembles:
+
+| | Austria, organ register | Austria, representation register |
+|---|---|---|
+| A register with legal effect | yes — an entry **is** the refusal (§5(1) OTPG) | yes — an entry **creates** the authority (§245(2) ABGB) |
+| A duty on the relying party to consult it before acting | **yes (§7(1) OTPG)** | **no** |
+| Who may query | every procurement unit, online | a closed list that excludes the counterparty (§140h NO) |
+| Minimised disclosure | yes (§7(2)) | n/a — no query |
+| Audited, person-specific access | yes (§7(3)) | n/a |
+| Revocation reaches the register | yes, deleted without delay (§6(4)) | yes, by entry (§246(1)) |
+
+One parliament, two registers, built eleven years apart, and the design knowledge plainly travelled
+in only one direction. **So the gap §15 identifies is not a gap in anyone's imagination.** The
+mechanism exists, it is operating, and the reason it does not cover powers of attorney is not that
+nobody knew how.
+
+### The representation register is the stronger instrument and the weaker endpoint
+
+Austria's Österreichisches Zentrales Vertretungsverzeichnis has the most legal force of any register
+in this data. §245(1) ABGB: a Vorsorgevollmacht "ist wirksam, **wenn und soweit** der Eintritt des
+Vorsorgefalls im Österreichischen Zentralen Vertretungsverzeichnis eingetragen ist" — effective if
+*and to the extent* of the entry, so the register fixes the scope as well as the fact. §245(2) goes
+further for the two middle rungs of the ladder: a chosen or statutory adult representation
+"**entsteht mit ihrer Eintragung**". The entry does not evidence the authority. It is the authority.
+
+And what is registered for a Vorsorgevollmacht is not only the instrument but **the trigger**. §263
+permits the *Eintritt des Vorsorgefalls* to be entered "nur insoweit" the principal has actually lost
+the capacity needed for the matters entrusted, and §140h(5) of the Notariatsordnung requires a
+medical certificate to be produced to the registrar, a copy of which §140h(7) sends to the court.
+§19 and §14 record that no jurisdiction provides a status endpoint for a springing power's condition
+precedent. Austria registers the condition precedent itself, on medical evidence, with the court
+copied in.
+
+Then §140h NO lists who may look. The Chamber of Notaries must grant inspection, on request, to the
+courts, the represented or to-be-represented person, the Vorsorgebevollmächtigter, the chosen and
+statutory representatives, the heads of psychiatric hospitals and departments, the social insurance
+institutions, the social assistance bodies and other decision-makers in social law matters, and — on
+the occasion of a registration — the registering notary, lawyer or Erwachsenenschutzverein.
+
+A bank is not on that list. Nor is a platform, an insurer, a landlord or a telecoms provider. The
+register that *constitutes* the authority cannot be queried by the people who have to decide whether
+to honour it.
+
+### What the counterparty gets instead is a bearer credential with an expiry printed on it
+
+§140h(6) NO requires the registering body to inform the represented person and the representative of
+the consequences of the entry and to hand over or transmit a **Bestätigung der Eintragung**
+containing the §140h(4) data. That data includes the kind of entry, its date, the date of the
+underlying declaration, agreement or court decision, the parties, the **Wirkungsbereich** of a
+statutory representation, and "der Zeitpunkt, in dem die gesetzliche oder gerichtliche
+Erwachsenenvertretung endet" — the moment the authority ends.
+
+With it must go an overview of the rights and duties attached, "insbesondere auch über die
+**Verpflichtung, die Bestätigung nach Beendigung der Vertretungsbefugnis nicht mehr im Rechtsverkehr
+zu verwenden**".
+
+Read that as a specification and it is uncomfortably familiar: an issued credential, carrying a
+subject, a scope and an expiry, which the holder presents to a verifier who cannot check it against
+the issuer — and whose only protection against a stale presentation is a **legal duty on the holder
+not to make one**. §16's closing point is that an authority asserting "holder is the surrogate" may
+be false by the afternoon and a validity period cannot express it. Austria agrees, and puts the
+obligation on the one party with an interest in ignoring it.
+
+The expiry is not notional, either. §246(1) ABGB ends authority by entry of a revocation, a
+termination or the *Wegfall des Vorsorgefalls*; a statutory representation lapses after **three
+years** unless entered again; a court representation lapses "spätestens mit dem Ablauf von fünf
+Jahren" after the first-instance appointment unless renewed. Austria is therefore the clearest case
+in the data of §16's two-clock problem: the credential carries one date, the register holds another,
+and only one of them is authoritative.
+
+### A ladder, not a switch
+
+The last thing Austria contributes is to §8. The 2018 Erwachsenenschutzgesetz replaced guardianship
+with four rungs, and §240 names them in a sentence: a person may be represented "durch eine von
+ihnen bevollmächtigte Person (Vorsorgevollmacht) oder durch einen **gewählten** oder **gesetzlichen**
+oder **gerichtlichen** Erwachsenenvertreter". They descend by the capacity each requires, and §264 is
+the rung the canonical vocabulary has no word for: a *gewählte* Erwachsenenvertretung is available to
+an adult who "eine Vorsorgevollmacht nicht mehr errichten kann, aber noch fähig ist, die Bedeutung
+und Folgen einer Bevollmächtigung in Grundzügen zu verstehen".
+
+So Austria does not ask whether a person has capacity. It asks **how much**, and routes them to a
+different instrument for each answer — with §239 obliging the legal order to see that adults manage
+their own affairs "möglichst selbständig, erforderlichenfalls mit entsprechender Unterstützung", §240
+making representation subsidiary to that support, and §242 providing that neither a Vorsorgevollmacht
+nor any Erwachsenenvertretung restricts the represented person's own capacity to act at all.
+
+§8 treats supported decision-making as a device a jurisdiction either has or lacks, and §8's own
+table shows that one `true` already covers five different regimes. Austria is a sixth shape: not an
+instrument with a supporter, but a graded set of substitute-decision instruments with support as the
+principle above all of them. For a profile the lesson is the one §4 and §15 keep producing in other
+lanes — **the interesting variable is never the presence of the thing, it is which of several the
+jurisdiction hands you, and that is not derivable from the legal family.**
+
 ## What this suggests for a standard
 
 1. **Bind to the roles that already exist.** Executor and administrator are present in 20–24
@@ -2423,9 +2565,14 @@ whether it was ever distinctive at all.
    effectiveness permanent: in Maryland, Virginia, Victoria and Queensland the finding underneath
    the authority has a statutory shelf life, from two hours to five years (§16), so an assertion
    needs the date of the finding as well as the date of the document.
-4. **The civil-law systems need no grant at all.** In 16 countries the heirs hold the estate
-   from the moment of death by operation of law. There is no document to present. Any design
-   that assumes a court artefact excludes a third of the set.
+4. **Most civil-law systems need no grant at all — but not all of them, and the exception is
+   worse than the rule.** In 16 of the 17 countries recording an heir as universal successor, the
+   heirs hold the estate from the moment of death by operation of law: there is no document to
+   present, and any design that assumes a court artefact excludes a third of the set. **Austria
+   has the same role and a court order anyway** (§797 ABGB forbids taking possession
+   *eigenmächtig*; the Einantwortung vests the estate), so "civil law" does not predict whether an
+   artefact exists. A profile has to carry the question per jurisdiction, exactly as §4 found for
+   durability and §15 for the duty to accept.
 5. **France is the forcing function, and shows what a mandate alone does not fix.** It is the
    only jurisdiction that requires platforms to offer the mechanism, and it voids terms of
    service that cut across the user's choice. The duty is backed by the CNIL's ordinary sanction

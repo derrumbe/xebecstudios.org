@@ -1,10 +1,10 @@
 ---
 title: 'Use cases across jurisdictions'
-description: 'What a platform actually faces, use case by use case, across 60 jurisdictions: which legal roles can carry each one, how far each reaches, and why high coverage is not the same as interoperability.'
+description: 'What a platform actually faces, use case by use case, across 61 jurisdictions: which legal roles can carry each one, how far each reaches, and why high coverage is not the same as interoperability.'
 section: 'digital-estate-standards'
 order: 1
 standing: 'Analysis. Every legal claim is carried from the sourced reference.'
-updated: 2026-10-26
+updated: 2026-10-27
 ---
 **This is the advisory layer, and it is deliberately not part of the base site.** The reference at
 [the sourced reference](/research/digital-estate-roles/#tab=findings) and the viewer say what the law currently is and stop there. This page asks a
@@ -47,14 +47,14 @@ identifiers are the ones the mapping data uses, and the table below repeats them
 
 | Use case | Jurisdictions | Countries | Share | Roles that can carry it |
 |---|---|---|---|---|
-| `incapacity-account-access` | 60 | 24 | 100% | durable / springing POA, conservator, guardian, digital-assets fiduciary, supported decision-maker |
-| `deceased-administration` | 60 | 24 | 100% | executor, administrator, universal successor |
-| `incapacity-health-decisions` | 58 | 23 | 96% | health-care agent, default surrogate, guardian, supported decision-maker |
-| `deceased-small-estate` | 54 | 21 | 88% | small-estate affiant, universal successor |
-| `post-mortem-body` | 55 | 19 | 79% | disposition-of-remains agent, anatomical-gift agent |
-| `health-records-access` | 41 | 5 | 21% | health-records representative |
-| `benefits-and-tax` | 41 | 5 | 21% | benefits payee, tax representative, veterans fiduciary |
-| `deceased-digital-assets` | 34 | 4 | 17% | digital-assets fiduciary, online-tool designee |
+| `incapacity-account-access` | 61 | 25 | 100% | durable / springing POA, conservator, guardian, digital-assets fiduciary, supported decision-maker |
+| `deceased-administration` | 61 | 25 | 100% | executor, administrator, universal successor |
+| `incapacity-health-decisions` | 59 | 24 | 96% | health-care agent, default surrogate, guardian, supported decision-maker |
+| `deceased-small-estate` | 55 | 22 | 88% | small-estate affiant, universal successor |
+| `post-mortem-body` | 56 | 20 | 80% | disposition-of-remains agent, anatomical-gift agent |
+| `health-records-access` | 41 | 5 | 20% | health-records representative |
+| `benefits-and-tax` | 41 | 5 | 20% | benefits payee, tax representative, veterans fiduciary |
+| `deceased-digital-assets` | 34 | 4 | 16% | digital-assets fiduciary, online-tool designee |
 | `deceased-trust-held` | 32 | 2 | 8% | successor trustee |
 | `self-directed-ante-mortem` | 31 | 2 | 8% | online-tool designee |
 
@@ -90,6 +90,14 @@ The other eight rows are real.
   Sweden — a list worth reading, because it is not simply "civil-law Europe": it spans four
   continents and includes two of the three African jurisdictions in the set.
 
+**Austria is a seventeenth universal-succession country and belongs in neither group**, which is the
+trap for anyone building to the two-mechanism model above. The heir takes the estate as a whole, so
+it is not an affidavit jurisdiction — but §797 ABGB forbids taking possession of an estate on one's
+own authority, and title passes only on a court order, the *Einantwortung*. So there **is** a
+document, it is neither a grant to a representative nor an affidavit, and between death and that
+order §810 lets whichever heir can prove entitlement administer. A flow that branches on
+"civil law: expect nothing" is wrong in Austria.
+
 So a platform that implements "accept a sworn affidavit" has built for 6 countries and will be
 presented with nothing at all by claimants from 16 others, who are nonetheless entitled. And inside
 the affidavit group the parameters are not close: the ceiling runs from **$2,000 to $208,850**, the
@@ -111,7 +119,7 @@ Read the Share column from the top and it falls off a cliff exactly where the su
 The base findings page makes this point by role (§1, and the headline band pins its second figure to
 the online-tool designee for the same reason). Stated per use case it is more actionable, because it
 is about product flows rather than vocabulary: **a flow built on the online tool has a legal basis in
-two countries; a flow built on "show me the grant" has one in twenty-four.**
+two countries; a flow built on "show me the grant" has one in twenty-five.**
 
 That is an argument for binding to the universal roles and treating the digital-native ones as an
 optimisation where they exist — not the reverse, which is the intuitive way round for a platform that

@@ -2032,6 +2032,38 @@
       + out + '</svg>';
   }
 
+  function figTwoRegisters() {
+    const lw = 150, cols = 4, gap = 10, top = 34;
+    const cw = (FIG_W - lw - (cols - 1) * gap) / cols;
+    const rows = [
+      ['organ register', [1, 1, 1, 1]],
+      ['representation', [1, 0, 0, 0]],
+    ];
+    const heads = ['legal effect', 'duty to ask', 'open query', 'audited'];
+    let out = '';
+    heads.forEach((h, i) => {
+      out += `<text x="${lw + i * (cw + gap) + cw / 2}" y="${top - 10}" text-anchor="middle" `
+        + `class="fig-t">${esc(h)}</text>`;
+    });
+    rows.forEach(([label, cells], r) => {
+      const y = top + r * 34;
+      out += `<text x="0" y="${y + 15}" class="fig-l">${esc(label)}</text>`;
+      cells.forEach((on, i) => {
+        const x = lw + i * (cw + gap);
+        out += on
+          ? `<rect x="${x}" y="${y}" width="${cw}" height="22" rx="3" fill="var(--accent)"/>`
+          : `<rect x="${x}" y="${y}" width="${cw}" height="22" rx="3" fill="none" `
+            + `stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 3"/>`;
+      });
+    });
+    const yEnd = top + rows.length * 34 + 6;
+    out += `<text x="0" y="${yEnd + 10}" class="fig-t">`
+      + `one parliament, two registers \u2014 only one is reachable by the party who must decide</text>`;
+    return svgOpen(yEnd + 20,
+      'Austria runs two registers with legal effect. The organ objection register has all four components: an entry is itself the refusal, every procurement unit must query it before removal, the query is open to those units online, and access is person-specific and documented. The central representation register has only the first: an entry creates the authority, but no relying party is obliged to consult it, the inspection list excludes banks and platforms, and there is no query for them to audit')
+      + out + '</svg>';
+  }
+
   function findingFigure(n, ctx) {
     const { feat, canon, countries } = ctx;
     const count = (key, pred) => {
@@ -2102,6 +2134,7 @@
       case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
       case 17: return figWrap(figTermination(), 'One event, five rules across eight jurisdictions \u2014 and the uniform text, where taken verbatim, is the only thing two of them agree on.');
       case 18: return figWrap(figSecurity(), 'Where the law moves liability, and where Missouri asks for collateral instead.');
+      case 22: return figWrap(figTwoRegisters(), 'The components \u00a715 says no jurisdiction assembles, scored against Austria\u2019s two registers: the organ one has all four, the representation one has only legal effect.');
       case 21: return figWrap(figCustodyChain(), 'The presumption travels with the instrument: Indiana \u00a730-5-11-10(e) does not let it decay across custodians, and \u00a730-5-11-8 sets the floor on how long the record is kept.');
       case 20: return figWrap(figDateSplit(), 'Two live tests, selected by the instrument\u2019s date \u2014 so the same question has two answers in one state.');
       case 19: return figWrap(figShotClock(), 'Iowa \u00a7144C.8(2): the earlier of two deadlines binds, so a late notification shortens the window instead of moving it.');
