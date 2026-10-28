@@ -63,8 +63,10 @@
 
   const state = { manifest: null, world: null, cache: new Map(), jur: null, tab: 'map', feature: 'governmentPropagation', cmp: 'all' };
 
+  // no-cache revalidates against the server's ETag (a 304 when unchanged), so a deploy never pairs
+  // this script with an hour-old cached manifest that lacks fields it expects.
   async function getJSON(path) {
-    const r = await fetch(BASE + path);
+    const r = await fetch(BASE + path, { cache: 'no-cache' });
     if (!r.ok) throw new Error(`${path}: ${r.status}`);
     return r.json();
   }
@@ -427,10 +429,14 @@
     const names = js.map((j) => (typeof j === 'string' ? jName(j) : j.name)).sort((a, b) => a.localeCompare(b));
     return `<b>${esc(title)}</b> <span class="muted">· ${names.length}</span>${names.length ? `<p>${esc(names.join(', '))}</p>` : ''}`;
   }
-  function popSteps(title, rows, cap = 12) {
-    const sorted = rows.slice().sort((a, b) => jName(a[0]).localeCompare(jName(b[0])));
-    const shown = sorted.slice(0, cap).map(([j, t]) => `<li><b>${esc(jName(j))}</b> ${esc(t)}</li>`).join('');
-    return `<b>${esc(title)}</b> <span class="muted">· ${rows.length}</span><ul>${shown}</ul>${rows.length > cap ? `<p class="muted">and ${rows.length - cap} more; each jurisdiction's signal chain lists its own</p>` : ''}`;
+  // The jurisdictions behind a count of steps, most first: "Austria ×8, Argentina, …".
+  function popSteps(title, rows) {
+    if (!rows.length) return '';
+    const by = new Map();
+    for (const [j] of rows) by.set(j, (by.get(j) || 0) + 1);
+    const list = [...by.entries()].sort((a, b) => b[1] - a[1] || jName(a[0]).localeCompare(jName(b[0])))
+      .map(([j, n]) => `${esc(jName(j))}${n > 1 ? ` <span class="muted">×${n}</span>` : ''}`).join(', ');
+    return `<b>${esc(title)}</b> <span class="muted">· ${rows.length} in ${by.size} jurisdiction${by.size === 1 ? '' : 's'}</span><p>${list}</p>`;
   }
   function setupPop() {
     const box = document.createElement('div');
