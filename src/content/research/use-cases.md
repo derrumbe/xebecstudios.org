@@ -152,7 +152,7 @@ it is where the trouble is.
 | `deceased-administration` | letters, a grant, a certificate of inheritance | a court or register | no, but an issuer exists |
 | `deceased-trust-held` | a certification of trust | the trustee, or in Iowa their attorney | no |
 | `deceased-small-estate` | an affidavit, a court-issued certificate, or nothing | the claimant, a register, or nobody | no |
-| `incapacity-account-access` | the instrument, or letters | a notary, a court, or nobody | no — and in 10 jurisdictions not yet, see below |
+| `incapacity-account-access` | the instrument, or letters | a notary, a court, or nobody | no — and in 11 jurisdictions not yet, see below |
 | `incapacity-health-decisions` | a declaration, an affidavit, a clinician's file note, a jointly signed agreement, or nothing | varies, including the relying party itself | no |
 | `post-mortem-body` | a declaration, or an affidavit of identity from anyone willing to pay | the claimant | no |
 
@@ -167,13 +167,15 @@ Three observations a standard has to absorb:
    record.
 3. **Only the first row is verifiable today**, and only because the authority never left the
    platform. That is the shape worth generalising, not the exception to tolerate.
-4. **Sometimes the artefact exists and confers nothing yet.** In ten jurisdictions — England &
-   Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland, France and Italy — a
-   power must be registered or filed before it can be used, so there is a window in which the
-   signed instrument is valid and empty. **Singapore is sharper still**: registration there is
-   constitutive, so the power is *not created* unless registered. A platform that accepts a signed
-   instrument on its face is wrong in ten jurisdictions and, in one, is honouring something that
-   does not exist.
+4. **Sometimes the artefact exists and confers nothing yet.** In eleven jurisdictions — England &
+   Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland, France, Italy and
+   Austria — a power must be registered or filed before it can be used, so there is a window in
+   which the signed instrument is valid and empty. **Singapore and Austria are sharper still**:
+   registration there is constitutive, so the power is *not created* unless registered — and
+   Austria is the stronger of the two, because ABGB §245(1) makes the mandate effective "wenn und
+   soweit" the entry exists, so the register fixes the scope as well as the fact. A platform that
+   accepts a signed instrument on its face is wrong in eleven jurisdictions and, in two, is
+   honouring something that does not exist.
 5. **The direction may be a prohibition.** Italy's Codice privacy art. 2-terdecies lets an
    interested person exercise the deceased's rights **unless the deceased forbade it in writing to
    the controller** — and the prohibition binds. France's directives may permit or forbid. So
