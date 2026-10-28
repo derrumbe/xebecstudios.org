@@ -98,7 +98,15 @@
 .dn th { background: var(--surface-2); font-weight: 600; }
 .dn tr.unv td { color: var(--ink-2); }
 .dn tr.unv td:first-child { border-left: 3px dashed var(--unverified); }
-.dn .who td:first-child { white-space: nowrap; }
+/* Fixed layout: with auto layout the step titles in "How" took the width and the
+   Source column was squeezed to a word per line, a 12,000px page for England and Wales.
+   The min-width keeps it readable on a phone, inside .scroll-x. */
+.dn .who { table-layout: fixed; min-width: 720px; }
+.dn .who th:nth-child(1) { width: 19%; }
+.dn .who th:nth-child(2) { width: 39%; }
+.dn .who th:nth-child(3) { width: 14%; }
+.dn .who th:nth-child(4) { width: 28%; }
+.dn .who td { overflow-wrap: anywhere; }
 .dn .how { display: inline-block; font-size: 13.5px; font-weight: 600; padding: 0 7px; border-radius: 4px; border: 1px solid; }
 .dn .how-auto { color: var(--auto); }
 .dn .how-duty, .dn .how-req { color: var(--duty); }
