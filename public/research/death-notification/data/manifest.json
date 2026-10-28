@@ -124,6 +124,932 @@
     "asap": 6,
     "unspecified": 93,
     "none": 16
+   },
+   "pushLatencySteps": {
+    "days": [
+     [
+      "ar-national",
+      "Registrar reports deaths from notifiable disease"
+     ],
+     [
+      "at-national",
+      "Registry office deregisters the deceased in the Zentrales Melderegister"
+     ],
+     [
+      "br-national",
+      "Registry sends the death to the INSS through SIRC within one business day"
+     ],
+     [
+      "de-federal",
+      "Standesamt notifies the Meldebehörde, which records the death in the Melderegister"
+     ],
+     [
+      "de-federal",
+      "Testament register informs the probate court and custodians"
+     ],
+     [
+      "de-federal",
+      "Meldebehörde sends the death to the pension insurance data office"
+     ],
+     [
+      "de-federal",
+      "Pension data office forwards all deaths to Deutsche Post (Renten Service)"
+     ],
+     [
+      "de-federal",
+      "Meldebehörde notifies the Federal Central Tax Office"
+     ],
+     [
+      "de-federal",
+      "Probate courts and notaries report to the inheritance-tax office"
+     ],
+     [
+      "fr-national",
+      "RNIPP notifies civil-status changes to authorised users (social protection bodies)"
+     ],
+     [
+      "it-national",
+      "Medico necroscopo sends the death certificate to INPS"
+     ],
+     [
+      "it-national",
+      "Comuni notify INPS of deaths within two days"
+     ],
+     [
+      "jp-national",
+      "Image of the notification sent to the Minister of Justice"
+     ],
+     [
+      "jp-national",
+      "Resident record deleted and change pushed to J-LIS (住基ネット)"
+     ],
+     [
+      "jp-national",
+      "Mayor notifies the electoral commission; name struck off"
+     ],
+     [
+      "kr-national",
+      "Death entered in the central electronic family register"
+     ],
+     [
+      "kr-national",
+      "Resident registration cancelled without a separate report"
+     ],
+     [
+      "nl-national",
+      "Registrar passes the death to the municipality's BRP"
+     ],
+     [
+      "us-id",
+      "Secretary of State sorts by county; county clerks cancel deceased voters"
+     ],
+     [
+      "us-ma",
+      "Copy of the death record to the town of residence"
+     ],
+     [
+      "us-nj",
+      "NJ-EDRS notifies the Social Security Administration"
+     ],
+     [
+      "us-nj",
+      "NJ-EDRS notifies the state Medicaid division"
+     ],
+     [
+      "us-nj",
+      "NJ-EDRS notifies Labor and USCIS"
+     ],
+     [
+      "us-nj",
+      "Veterans' cremations notified to Veterans Affairs"
+     ],
+     [
+      "us-nj",
+      "NJ-EDRS notifies the Funeral Directors Association's payment programs"
+     ],
+     [
+      "us-oh",
+      "Local registrar notifies the health commissioner of a communicable-disease death"
+     ],
+     [
+      "us-ut",
+      "Lieutenant governor passes deaths to county clerks, who strike the voter"
+     ],
+     [
+      "us-wa",
+      "Birth records marked deceased"
+     ],
+     [
+      "za-national",
+      "The death is entered in the National Population Register"
+     ]
+    ],
+    "week": [
+     [
+      "ca-qc",
+      "Death data reach the Institut de la statistique du Québec"
+     ],
+     [
+      "de-federal",
+      "Standesamt sends death data to the Länder statistical offices"
+     ],
+     [
+      "es-national",
+      "Insurers report every life policy to the register of death-cover insurance"
+     ],
+     [
+      "fr-national",
+      "Commune sends the death bulletin to INSEE (RNIPP)"
+     ],
+     [
+      "it-national",
+      "The death is recorded in ANPR, the national resident population register"
+     ],
+     [
+      "us-fl",
+      "Department of Health sends a weekly list of adult deaths to the Department of State"
+     ],
+     [
+      "us-fl",
+      "Supervisor of elections removes the deceased voter"
+     ],
+     [
+      "us-nc",
+      "Weekly list of deceased residents to the State Board of Elections"
+     ],
+     [
+      "us-tx",
+      "State vital statistics unit sends death abstracts to the Secretary of State"
+     ],
+     [
+      "us-ut",
+      "State registrar informs the lieutenant governor of resident deaths"
+     ],
+     [
+      "us-va",
+      "Weekly decedent list to the Department of Elections"
+     ]
+    ],
+    "month": [
+     [
+      "ar-national",
+      "Registries communicate the death to RENAPER"
+     ],
+     [
+      "ar-national",
+      "RENAPER sends the list of deceased electors"
+     ],
+     [
+      "au-commonwealth",
+      "State registrar forwards monthly lists of registered deaths to the AEC"
+     ],
+     [
+      "au-commonwealth",
+      "AEC removes the deceased elector from the roll"
+     ],
+     [
+      "au-nsw",
+      "Registry sends monthly death lists to the AEC"
+     ],
+     [
+      "au-qld",
+      "Registrar notifies child-death registrations"
+     ],
+     [
+      "au-qld",
+      "Registrar sends monthly death lists to the AEC"
+     ],
+     [
+      "au-vic",
+      "Registrar sends monthly death lists to the AEC"
+     ],
+     [
+      "br-national",
+      "Registry reports deaths to the Justiça Eleitoral"
+     ],
+     [
+      "ca-bc",
+      "Registrar general sends monthly death lists to the chief electoral officer"
+     ],
+     [
+      "de-federal",
+      "Standesamt reports deaths to the inheritance-tax office"
+     ],
+     [
+      "de-federal",
+      "Banks and custodians report the deceased's assets to the inheritance-tax office"
+     ],
+     [
+      "es-national",
+      "Civil Registry offices send deaths to the INE for the municipal registers"
+     ],
+     [
+      "es-national",
+      "INE passes the deaths to the municipality, which updates the Padrón"
+     ],
+     [
+      "es-national",
+      "Civil Registry tells the Electoral Census Office"
+     ],
+     [
+      "fi-national",
+      "THL sends death certificates monthly to Statistics Finland"
+     ],
+     [
+      "it-national",
+      "Comune sends a copy of the death form to the local health unit"
+     ],
+     [
+      "jp-national",
+      "Mayor prepares the vital statistics death form"
+     ],
+     [
+      "jp-national",
+      "Ministry of Justice and mayor notify the tax authorities"
+     ],
+     [
+      "mx-federal",
+      "Registrar informs the INE; deceased removed from the Padrón Electoral"
+     ],
+     [
+      "us-az",
+      "ADHS sends monthly resident death records to the secretary of state"
+     ],
+     [
+      "us-az",
+      "County recorder cancels the deceased voter's registration"
+     ],
+     [
+      "us-ca",
+      "Registrar notifies the county elections official of deceased persons"
+     ],
+     [
+      "us-co",
+      "State registrar reports deceased adults to the secretary of state monthly"
+     ],
+     [
+      "us-co",
+      "Secretary of state forwards deaths to county clerks, who cancel"
+     ],
+     [
+      "us-de",
+      "Monthly death file to the Department of Elections"
+     ],
+     [
+      "us-id",
+      "Monthly list of deceased residents to the Secretary of State"
+     ],
+     [
+      "us-il",
+      "Funeral director reports a veteran's burial to the Illinois Department of Veterans' Affairs"
+     ],
+     [
+      "us-il",
+      "Vital records officer reports adult deaths monthly to the board of election commissioners"
+     ],
+     [
+      "us-in",
+      "Indiana Department of Health reports deaths to the election division"
+     ],
+     [
+      "us-in",
+      "Deaths of Indiana residents in other states via STEVE and EVVE"
+     ],
+     [
+      "us-in",
+      "Vital statistics to FSSA to remove deceased Medicaid enrollees"
+     ],
+     [
+      "us-ks",
+      "Monthly list of deceased residents to county election officers"
+     ],
+     [
+      "us-ks",
+      "Same monthly list to clerks of the district court for juror records"
+     ],
+     [
+      "us-la",
+      "State registrar notifies parish registrars of voters monthly"
+     ],
+     [
+      "us-la",
+      "LDH monthly death report to the Department of State"
+     ],
+     [
+      "us-ma",
+      "Town clerk sends monthly list of deceased residents to the registrars of voters"
+     ],
+     [
+      "us-mi",
+      "County clerk cancels deceased voters in the qualified voter file"
+     ],
+     [
+      "us-mi",
+      "Death master file data also purges the voter file"
+     ],
+     [
+      "us-mn",
+      "Commissioner of health reports deceased adults to the secretary of state monthly"
+     ],
+     [
+      "us-mo",
+      "Monthly death list to the local election authority"
+     ],
+     [
+      "us-mo",
+      "Statewide death list to the Secretary of State"
+     ],
+     [
+      "us-nj",
+      "Monthly list of deceased veterans to county supervisors"
+     ],
+     [
+      "us-nj",
+      "Municipal death lists to the county commissioner of registration"
+     ],
+     [
+      "us-ny",
+      "Monthly death records to the state board of elections, then to county boards, which cancel"
+     ],
+     [
+      "us-oh",
+      "Director of Health reports adult deaths to the Secretary of State monthly"
+     ],
+     [
+      "us-oh",
+      "Secretary of State reports deceased electors to county boards, which cancel registrations"
+     ],
+     [
+      "us-ok",
+      "Monthly death list to the State Election Board"
+     ],
+     [
+      "us-ok",
+      "Monthly death list to the Oklahoma Health Care Authority"
+     ],
+     [
+      "us-pa",
+      "Department of Health sends a monthly electronic file of adult resident deaths to the Department of State"
+     ],
+     [
+      "us-pa",
+      "County boards of election remove deceased voters through the SURE system"
+     ],
+     [
+      "us-tx",
+      "Local registrar sends an abstract of adult death certificates to the voter registrar"
+     ],
+     [
+      "us-wa",
+      "State registrar's list of deceased residents to the Secretary of State"
+     ],
+     [
+      "us-wv",
+      "Monthly death certificate copies to the county clerk"
+     ]
+    ],
+    "quarter": [
+     [
+      "br-national",
+      "Quarterly returns to IBGE"
+     ],
+     [
+      "us-ia",
+      "Quarterly list of decedents to the state registrar of voters"
+     ],
+     [
+      "us-il",
+      "Electronic death registration system updates the Medicaid roster"
+     ],
+     [
+      "us-il",
+      "Requests for a deceased person's birth certificate are sent to HFS and DHS for a benefits check"
+     ],
+     [
+      "us-in",
+      "Quarterly death records to the county auditor"
+     ],
+     [
+      "us-in",
+      "Quarterly death records and certificates to the county voter registration office"
+     ],
+     [
+      "us-mn",
+      "County auditor marks matched voters deceased"
+     ],
+     [
+      "us-ne",
+      "Quarterly death list to election commissioners and county clerks"
+     ],
+     [
+      "us-ok",
+      "Quarterly death list to the Department of Public Safety to cancel driver licences"
+     ]
+    ],
+    "year": [
+     [
+      "ca-bc",
+      "Death registrations feed provincial and national mortality statistics"
+     ],
+     [
+      "ca-on",
+      "Registrar General classifies and publishes death statistics"
+     ],
+     [
+      "in-national",
+      "Returns and cause-of-death certificates to the Chief Registrar for statistics"
+     ],
+     [
+      "it-national",
+      "Deceased electors are struck from the electoral lists"
+     ],
+     [
+      "us-federal",
+      "State vital records send death data to NCHS (National Vital Statistics System)"
+     ],
+     [
+      "us-ky",
+      "Death notices and the annual lifetime death file to the State Board of Elections"
+     ],
+     [
+      "us-nc",
+      "List of deceased residents to the Commissioner of Motor Vehicles"
+     ],
+     [
+      "us-nj",
+      "State registrar's annual list and voter-system matching"
+     ],
+     [
+      "us-va",
+      "Annual match against the SSA list of deceased persons (from July 2027)"
+     ]
+    ],
+    "asap": [
+     [
+      "cn-national",
+      "Death certificate information shared through government service platforms"
+     ],
+     [
+      "cn-national",
+      "Police notify social insurance agencies of deaths"
+     ],
+     [
+      "uk-national",
+      "Local registrar sends death particulars to DWP"
+     ],
+     [
+      "uk-national",
+      "Registrars General (England and Wales; Scotland) send death particulars to DWP"
+     ],
+     [
+      "uk-ni",
+      "Registrar sends death particulars to the Department for Communities"
+     ],
+     [
+      "uk-sco",
+      "Registrar General for Scotland sends death particulars to DWP"
+     ]
+    ],
+    "unspecified": [
+     [
+      "ar-national",
+      "Registry supplies vital-statistics data"
+     ],
+     [
+      "at-national",
+      "ZPR transmits the death to the social insurance umbrella body"
+     ],
+     [
+      "at-national",
+      "ZPR transmits the death to the Ministry of Finance"
+     ],
+     [
+      "at-national",
+      "ZPR transmits deaths to driving-licence authorities"
+     ],
+     [
+      "at-national",
+      "ZPR transmits deaths to passport authorities"
+     ],
+     [
+      "at-national",
+      "Death and cause-of-death data go to Statistik Austria"
+     ],
+     [
+      "at-national",
+      "ZPR sends the death to the probate court"
+     ],
+     [
+      "at-national",
+      "Notary as Gerichtskommissär carries out the Todesfallaufnahme"
+     ],
+     [
+      "at-national",
+      "Private bodies can receive deaths through the ZPR change service"
+     ],
+     [
+      "au-qld",
+      "Registrar shares death information with government agencies under arrangements"
+     ],
+     [
+      "au-vic",
+      "Registrar notifies the Voluntary Assisted Dying Review Board"
+     ],
+     [
+      "ca-bc",
+      "Registrar general shares registered deaths with benefit and record agencies"
+     ],
+     [
+      "ca-bc",
+      "Vital Statistics Agency notifies the federal SIN program"
+     ],
+     [
+      "ca-federal",
+      "Provincial vital statistics notifies the Social Insurance Register"
+     ],
+     [
+      "ca-federal",
+      "Provincial vital statistics and the SIR update the CRA"
+     ],
+     [
+      "ca-federal",
+      "Provincial vital statistics data updates the National Register of Electors"
+     ],
+     [
+      "ca-federal",
+      "Provincial registrars supply death registrations to Statistics Canada"
+     ],
+     [
+      "ca-on",
+      "Registrar General discloses death data to public institutions"
+     ],
+     [
+      "ca-on",
+      "Ontario vital statistics notifies the federal SIN program"
+     ],
+     [
+      "ca-qc",
+      "DEC notifies Service Canada's Social Insurance Register and the CRA"
+     ],
+     [
+      "ca-qc",
+      "RAMQ supplies dates of death to the Chief Electoral Officer"
+     ],
+     [
+      "de-federal",
+      "Standesamt notifies the Zentrales Testamentsregister"
+     ],
+     [
+      "de-federal",
+      "Insurers report payouts to someone other than the policyholder"
+     ],
+     [
+      "dk-national",
+      "Udbetaling Danmark and other authorities draw the death from CPR"
+     ],
+     [
+      "dk-national",
+      "The Tax Agency draws the death from CPR"
+     ],
+     [
+      "dk-national",
+      "Businesses can subscribe to CPR updates, including death"
+     ],
+     [
+      "dk-national",
+      "Insurers and pension funds also receive the surviving spouse's details on death"
+     ],
+     [
+      "es-national",
+      "Hospitals report each death to the National Statistics Institute"
+     ],
+     [
+      "es-national",
+      "Notaries handling an inheritance must obtain the insurance register certificate"
+     ],
+     [
+      "fi-national",
+      "Kela receives the death from the Population Information System"
+     ],
+     [
+      "fi-national",
+      "The Tax Administration receives the death from the Population Information System"
+     ],
+     [
+      "fr-national",
+      "Tax administration uses the RNIPP to certify identities"
+     ],
+     [
+      "fr-national",
+      "INSEE strikes deceased electors from the répertoire électoral unique"
+     ],
+     [
+      "ie-national",
+      "Registered death reaches the Department of Social Protection via the PPS number"
+     ],
+     [
+      "ie-national",
+      "Vital statistics on deaths"
+     ],
+     [
+      "in-national",
+      "Registrar's data goes into the State unified database"
+     ],
+     [
+      "in-national",
+      "State data shared with the national database of the Registrar General of India"
+     ],
+     [
+      "it-national",
+      "Public administrations read ANPR or keep their files aligned with it"
+     ],
+     [
+      "it-national",
+      "INPS passes the comuni's death data to all pension payers"
+     ],
+     [
+      "jp-national",
+      "Japan Pension Service learns of the death from 住基ネット"
+     ],
+     [
+      "kr-national",
+      "National Pension Service uses the family-registration data"
+     ],
+     [
+      "mu-national",
+      "The death is recorded in the Civil Status and Central Population Databases"
+     ],
+     [
+      "mu-national",
+      "Registrar shares the date of death with public-sector agencies"
+     ],
+     [
+      "mx-federal",
+      "Civil registries feed deaths to the Registro Nacional de Población"
+     ],
+     [
+      "nl-national",
+      "BRP systematically supplies authorised government bodies (afnemers)"
+     ],
+     [
+      "nl-national",
+      "Tax administration receives BRP death data as an afnemer"
+     ],
+     [
+      "nl-national",
+      "Health insurers receive BRP data systematically"
+     ],
+     [
+      "nl-national",
+      "Pension funds and pension insurers receive BRP data systematically"
+     ],
+     [
+      "se-national",
+      "Other agencies receive population-register changes electronically"
+     ],
+     [
+      "se-national",
+      "Tax Agency gives the National Board of Health and Welfare the data to chase missing certificates"
+     ],
+     [
+      "sg-national",
+      "Death recorded against the NRIC in the national register"
+     ],
+     [
+      "sg-national",
+      "CPF Board learns of the death"
+     ],
+     [
+      "sg-national",
+      "CPF pays nominees or the Public Trustee"
+     ],
+     [
+      "uk-ew",
+      "Registrar General discloses death registrations to the Office for National Statistics"
+     ],
+     [
+      "uk-sco",
+      "Registrar General updates the NHS Central Register"
+     ],
+     [
+      "us-de",
+      "State Health Statistics Center and national vital statistics"
+     ],
+     [
+      "us-federal",
+      "State vital records office sends death records to SSA (EDR and State Death Match)"
+     ],
+     [
+      "us-federal",
+      "Funeral director reports the death to SSA (Form SSA-721)"
+     ],
+     [
+      "us-federal",
+      "CMS, VA, OPM and State agencies report deaths to SSA"
+     ],
+     [
+      "us-federal",
+      "SSA death data reaches Medicare (CMS)"
+     ],
+     [
+      "us-federal",
+      "SSA shares State death data with other agencies paying federally funded benefits (e.g. VA)"
+     ],
+     [
+      "us-federal",
+      "SSA's full death file (including State data) feeds Treasury's Do Not Pay"
+     ],
+     [
+      "us-federal",
+      "Copies of the consular report go to agencies paying the deceased"
+     ],
+     [
+      "us-fl",
+      "Department of Health notifies SSA of deaths electronically"
+     ],
+     [
+      "us-fl",
+      "Department of Highway Safety and Motor Vehicles death information is matched against the voter roll"
+     ],
+     [
+      "us-fl",
+      "Fact of death posted to the birth certificate"
+     ],
+     [
+      "us-ia",
+      "Copy to the county of residence"
+     ],
+     [
+      "us-ia",
+      "Death certificate data to child support services"
+     ],
+     [
+      "us-ia",
+      "Data to the national division of vital statistics"
+     ],
+     [
+      "us-il",
+      "State Registrar marks the birth record deceased and tells the local custodian"
+     ],
+     [
+      "us-ky",
+      "State registrar sends copies or data to local health departments"
+     ],
+     [
+      "us-ky",
+      "Data to the federal vital statistics agency"
+     ],
+     [
+      "us-md",
+      "Department of Health reports deaths to the State Board of Elections"
+     ],
+     [
+      "us-md",
+      "State Administrator forwards death reports to local boards"
+     ],
+     [
+      "us-md",
+      "SSA death data for the voter roll"
+     ],
+     [
+      "us-md",
+      "Obituary or other reliable report triggers verification"
+     ],
+     [
+      "us-me",
+      "Copies and data to the national vital statistics agency"
+     ],
+     [
+      "us-mi",
+      "Data to the national vital statistics agency"
+     ],
+     [
+      "us-mn",
+      "Report of a non-resident's death to the state of residence"
+     ],
+     [
+      "us-mn",
+      "Voter file also matched against SSA death data and other states' reports"
+     ],
+     [
+      "us-mo",
+      "Data to the federal vital statistics agency"
+     ],
+     [
+      "us-ne",
+      "Match deaths to birth records and exchange with other states"
+     ],
+     [
+      "us-ne",
+      "Mortality statistics and release to the federal statistics service"
+     ],
+     [
+      "us-ne",
+      "Probate notice to DHHS for Medicaid estate recovery"
+     ],
+     [
+      "us-oh",
+      "State registrar posts the fact of death to the birth record"
+     ],
+     [
+      "us-ok",
+      "Veteran deaths to the Oklahoma Department of Veterans Affairs"
+     ],
+     [
+      "us-ok",
+      "Death data to the Department of Human Services"
+     ],
+     [
+      "us-ok",
+      "Funeral director, nursing home or family notifies the county election board"
+     ],
+     [
+      "us-va",
+      "Data for national vital statistics"
+     ],
+     [
+      "us-va",
+      "Veteran suicides reported to Veterans Services"
+     ],
+     [
+      "us-wa",
+      "Records to the National Center for Health Statistics"
+     ],
+     [
+      "us-wv",
+      "County clerk cancels deceased voters' registrations"
+     ],
+     [
+      "us-wv",
+      "Data to national vital statistics"
+     ]
+    ],
+    "none": [
+     [
+      "ar-national",
+      "ANSES learns of deaths of beneficiaries"
+     ],
+     [
+      "au-commonwealth",
+      "National fact-of-death data supplied to approved government agencies"
+     ],
+     [
+      "au-commonwealth",
+      "Services Australia (Centrelink, Medicare) learns of the death from registry data"
+     ],
+     [
+      "au-commonwealth",
+      "Medicare enrolment closed on registry death data"
+     ],
+     [
+      "au-nsw",
+      "Registry supplies death data to the ABS and AIHW"
+     ],
+     [
+      "au-nsw",
+      "Registry supplies death data to the Centre for Health Record Linkage"
+     ],
+     [
+      "au-nsw",
+      "Registry sends death data to the Queensland coordinating registry"
+     ],
+     [
+      "br-national",
+      "SIRC distributes registry data to federal bodies"
+     ],
+     [
+      "br-national",
+      "Receita Federal marks the CPF \"titular falecido\""
+     ],
+     [
+      "cn-national",
+      "Death information registered for cause-of-death statistics"
+     ],
+     [
+      "dk-national",
+      "The death is entered in CPR"
+     ],
+     [
+      "it-national",
+      "The ISTAT death form reaches the national statistics institute"
+     ],
+     [
+      "mx-federal",
+      "Death-certificate data captured by the health system"
+     ],
+     [
+      "rw-national",
+      "Civil registration updates the population register (NIDA)"
+     ],
+     [
+      "us-me",
+      "Death data to the Maine Health Data Organization"
+     ],
+     [
+      "us-mi",
+      "Secretary of State cancels driver's licences using the SSA death master file"
+     ]
+    ]
    }
   }
  },

@@ -349,7 +349,14 @@
       ${s.who ? `<p class="small"><span class="lbl">Who</span> ${esc(s.who)}</p>` : ''}
       ${s.trigger ? `<p class="small"><span class="lbl">Trigger</span> ${esc(s.trigger)}</p>` : ''}
       ${s.citations?.length ? `<p class="small cites"><span class="lbl">Source</span> ${citeLinks(d, s.origin, s.citations)}</p>` : ''}
+      ${s.latencyNote ? `<p class="small"><span class="lbl">Cadence</span> ${esc(LATENCIES[s.latency] || s.latency)}: ${latencyNote(d, s)}</p>` : ''}
     </article>`;
+  }
+  // A latencyNote ends with its citation id in brackets; link it when the id is the step's own.
+  function latencyNote(d, s) {
+    const m = s.latencyNote.match(/^(.*)\(([^()]+)\)\s*$/);
+    if (m && citeFor(d, s.origin, m[2].trim())) return `“${esc(m[1].trim())}” (${citeLinks(d, s.origin, [m[2].trim()])})`;
+    return esc(s.latencyNote);
   }
 
   // Who ends up knowing, and how: one row per recipient in the government, private and
@@ -404,8 +411,70 @@
     $('#compare').querySelectorAll('a[data-j]').forEach((a) => a.onclick = (e) => { e.preventDefault(); state.jur = a.dataset.j; state.tab = 'chain'; render(); });
   }
 
+  // ---------- pop-ups ----------
+  // One pop-up serves every chart on the Trends tab. A bar carries data-pop="<key>"; its
+  // content lives in POPS, so the markup stays small and nothing is escaped twice. Hover,
+  // keyboard focus and tap all open it, so it works on touch screens as well.
+  const POPS = new Map();
+  let popSeq = 0;
+  function popAttr(html) {
+    const k = `p${++popSeq}`;
+    POPS.set(k, html);
+    return `data-pop="${k}" tabindex="0"`;
+  }
+  const jName = (id) => jMeta(id)?.name || id;
+  function popNames(title, js) {
+    const names = js.map((j) => (typeof j === 'string' ? jName(j) : j.name)).sort((a, b) => a.localeCompare(b));
+    return `<b>${esc(title)}</b> <span class="muted">· ${names.length}</span>${names.length ? `<p>${esc(names.join(', '))}</p>` : ''}`;
+  }
+  function popSteps(title, rows, cap = 12) {
+    const sorted = rows.slice().sort((a, b) => jName(a[0]).localeCompare(jName(b[0])));
+    const shown = sorted.slice(0, cap).map(([j, t]) => `<li><b>${esc(jName(j))}</b> ${esc(t)}</li>`).join('');
+    return `<b>${esc(title)}</b> <span class="muted">· ${rows.length}</span><ul>${shown}</ul>${rows.length > cap ? `<p class="muted">and ${rows.length - cap} more; each jurisdiction's signal chain lists its own</p>` : ''}`;
+  }
+  function setupPop() {
+    const box = document.createElement('div');
+    box.className = 'dn-pop';
+    box.setAttribute('role', 'tooltip');
+    box.hidden = true;
+    root.appendChild(box);
+    let current = null;
+    const place = (x, y) => {
+      const r = box.getBoundingClientRect();
+      box.style.left = `${Math.max(8, Math.min(x + 14, innerWidth - r.width - 8))}px`;
+      box.style.top = `${y + 18 + r.height > innerHeight ? Math.max(8, y - r.height - 12) : y + 18}px`;
+    };
+    const show = (el, x, y) => {
+      const html = POPS.get(el.dataset.pop);
+      if (!html) return;
+      current = el;
+      box.innerHTML = html;
+      box.hidden = false;
+      if (x === undefined) { const r = el.getBoundingClientRect(); x = r.left + Math.min(r.width / 2, 120); y = r.bottom - 10; }
+      place(x, y);
+    };
+    const hide = () => { box.hidden = true; current = null; };
+    root.addEventListener('pointerover', (e) => { const el = e.target.closest('[data-pop]'); if (el && e.pointerType === 'mouse') show(el, e.clientX, e.clientY); });
+    root.addEventListener('pointermove', (e) => { if (current && e.pointerType === 'mouse') place(e.clientX, e.clientY); });
+    root.addEventListener('pointerout', (e) => { const el = e.target.closest('[data-pop]'); if (el && el === current && !el.contains(e.relatedTarget)) hide(); });
+    root.addEventListener('focusin', (e) => { const el = e.target.closest('[data-pop]'); if (el) show(el); });
+    root.addEventListener('focusout', (e) => { if (e.target.closest('[data-pop]')) hide(); });
+    // A tap focuses the bar (which opens the pop-up) before its click arrives, so decide
+    // the toggle from whether it was open when the finger came down, not when the click lands.
+    let openAtDown = null;
+    root.addEventListener('pointerdown', (e) => { openAtDown = current; });
+    root.addEventListener('click', (e) => {
+      const el = e.target.closest('[data-pop]');
+      if (!el) { if (current) hide(); return; }
+      if (e.pointerType !== 'mouse' && openAtDown === el) hide(); else show(el, e.clientX || undefined, e.clientY || undefined);
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hide(); });
+    addEventListener('scroll', hide, { passive: true });
+  }
+
   // ---------- trends ----------
   function renderTrends() {
+    POPS.clear();
     const js = state.manifest.jurisdictions.filter((j) => j.level === 'national' || j.level === 'subnational');
     const total = js.length;
     const steps = state.manifest.jurisdictions.reduce((a, j) => a + j.steps, 0);
@@ -480,20 +549,22 @@
       A push that only happens because the family used Tell Us Once or Québec's simplified transmission is counted as the family's.</p>`;
     h += '<h4>Who is sent the death, by jurisdiction</h4>';
     const row = (label, c) => `<div class="pp-row"><span class="l">${esc(label)}</span><span class="pp-bar">${
-      ['push', 'pull', 'family', 'unknown', 'none'].map((k) => c[k].length ? `<span style="flex:${c[k].length};--o:${ROUTE_OP[k] ?? 0}" class="pp-${k}" title="${esc(`${ROUTE_LABEL[k] || 'no route recorded'}: ${names(c[k])}`)}">${c[k].length}</span>` : '').join('')}</span></div>`;
+      ['push', 'pull', 'family', 'unknown', 'none'].map((k) => c[k].length ? `<span style="flex:${c[k].length};--o:${ROUTE_OP[k] ?? 0}" class="pp-${k}" ${popAttr(popNames(`${label}: ${ROUTE_LABEL[k] || 'no route recorded'}`, c[k]))}>${c[k].length}</span>` : '').join('')}</span></div>`;
     h += `<div class="pp">${row('Pension / benefits', ss)}${row('Electoral roll', el)}${row('Tax authority', tx)}${row('Health insurance / service', reach('health-insurance'))}${row('Passport office', reach('passport'))}${row('Driver & vehicle licensing', reach('vehicle-licensing'))}${row('Any private recipient', pr)}</div>
       <div class="map-legend">${['push', 'pull', 'family', 'unknown'].map((k) => `<span><i class="sw" style="--o:${ROUTE_OP[k]}"></i>${esc(ROUTE_LABEL[k])}</span>`).join('')}<span><i class="sw sw-null"></i>no route recorded</span></div>`;
     const lat = T.pushLatency, lt = Object.values(lat).reduce((a, b) => a + b, 0);
     h += `<h4>How soon a push arrives</h4><div class="bars">${
       [['days', 'within 2 days'], ['asap', 'as soon as practicable'], ['week', 'within a week'], ['month', 'within a month'], ['quarter', 'within a quarter'], ['year', 'within a year'], ['unspecified', 'law sets no cadence'], ['none', 'source could not be read']]
         .filter(([k]) => lat[k] || k !== 'none')
-        .map(([k, l]) => bar(l, lat[k] || 0, lt, k === 'none' || k === 'unspecified' ? 0.1 : 0.95 - 0.13 * ['days', 'asap', 'week', 'month', 'quarter', 'year'].indexOf(k), [])).join('')}</div></div>`;
+        .map(([k, l]) => bar(l, lat[k] || 0, lt, k === 'none' || k === 'unspecified' ? 0.1 : 0.95 - 0.13 * ['days', 'asap', 'week', 'month', 'quarter', 'year'].indexOf(k), null,
+          popSteps({ asap: 'Pushes due "as soon as practicable"', unspecified: 'Pushes where the law sets no time', none: 'Pushes whose source could not be read' }[k] || `Pushes that arrive ${l}`, (T.pushLatencySteps || {})[k] || []))).join('')}</div></div>`;
     return h;
   }
-  function bar(label, n, total, op, js) {
+  // A bar with a pop-up: the jurisdictions it counts, or (for the cadence chart) the steps.
+  function bar(label, n, total, op, js, popHtml) {
     const pct = total ? (n / total) * 100 : 0;
-    const names = js.map((j) => j.name).join(', ');
-    return `<div class="bar" title="${esc(names)}"><span class="l">${esc(label)}</span><span class="track"><span style="width:${pct}%;--o:${op || 0.12}"></span></span><span class="num">${n}</span></div>`;
+    const pop = popHtml || (js ? popNames(label, js) : '');
+    return `<div class="bar"${n && pop ? ` ${popAttr(pop)}` : ''}><span class="l">${esc(label)}</span><span class="track"><span style="width:${pct}%;--o:${op || 0.12}"></span></span><span class="num">${n}</span></div>`;
   }
 
   // ---------- sources ----------
@@ -525,6 +596,7 @@
     DEFAULTS.jur = first?.id;
     readHash();
     renderPicker();
+    setupPop();
     root.querySelectorAll('.tabs [data-tab]').forEach((b) => b.onclick = () => { state.tab = b.dataset.tab; render(); });
     window.addEventListener('hashchange', () => { readHash(); render(); });
     render();

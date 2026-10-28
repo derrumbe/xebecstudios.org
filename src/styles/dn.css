@@ -55,9 +55,12 @@
 .dn .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .dn .chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 3px 10px; font-size: 14px; cursor: pointer; }
 .dn .scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.dn .card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin-bottom: 14px; }
-.dn .card h3 { margin-top: 2px; }
-.dn .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.dn .card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; margin-bottom: 20px; }
+.dn .card h3 { margin-top: 0; }
+/* Sub-sections inside one card (the push/pull card has three) get a rule and room, not 4px. */
+.dn .card > h4 { margin: 22px 0 10px; padding-top: 16px; border-top: 1px solid var(--line); }
+.dn .card > .map-legend { margin-top: 8px; }
+.dn .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 20px; }
 .dn .stat { border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
 .dn .stat .v { font-size: 26px; font-weight: 650; font-variant-numeric: tabular-nums; }
 
@@ -166,3 +169,15 @@
 .dn .pp-bar > .pp-push { color: var(--paper); }
 .dn .pp-bar > .pp-none { background: var(--surface-2); color: var(--ink-2); }
 @media (max-width: 640px) { .dn .pp-row { grid-template-columns: 1fr; } }
+
+/* ---------- pop-ups ---------- */
+.dn [data-pop] { cursor: help; }
+.dn .bar[data-pop]:hover .l, .dn .bar[data-pop]:focus .l { text-decoration: underline; text-decoration-color: var(--line); }
+.dn [data-pop]:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.dn .pp-bar > span[data-pop]:hover { filter: brightness(1.15); }
+.dn .dn-pop { position: fixed; z-index: 40; max-width: min(380px, calc(100vw - 16px)); max-height: 60vh; overflow: auto;
+  background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px;
+  font-size: 13.5px; line-height: 1.45; box-shadow: 0 6px 24px rgba(0, 0, 0, .22); pointer-events: none; }
+.dn .dn-pop p { margin: 6px 0 0; }
+.dn .dn-pop ul { margin: 6px 0 0; padding-left: 16px; }
+.dn .dn-pop li { margin: 2px 0; }
