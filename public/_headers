@@ -12,3 +12,6 @@
 
 /research/digital-estate-roles/data/*
   Cache-Control: public, max-age=3600
+
+/research/death-notification/data/*
+  Cache-Control: public, max-age=3600

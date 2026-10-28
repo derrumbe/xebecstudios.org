@@ -1,0 +1,93 @@
+---
+import Base from '../../../layouts/Base.astro';
+import '../../../styles/dn.css';
+
+/**
+ * The Death Notification viewer.
+ *
+ * The markup below mirrors the block between the dn:markup comments in the
+ * death-notification repo's site/index.html; src/scripts/dn/app.js fills every
+ * element with an id. The script, the stylesheet (src/styles/dn.css) and the
+ * data under public/research/death-notification/data/ are all copied in by
+ * scripts/sync-xebec.sh in that repo — edit them there, not here.
+ */
+const DATA = '/research/death-notification/data/';
+---
+
+<Base
+  title="Death Notification"
+  description="How a death is certified, who must register it and by when, and how far the fact then travels to government and the private sector — sourced to statute, regulation and official policy, jurisdiction by jurisdiction."
+>
+  <div class="wrap">
+    <section class="band">
+      <div class="dn" data-dn data-base={DATA}>
+        <header class="top">
+          <div class="top-inner">
+            <div class="brand">
+              <h1>Death Notification</h1>
+              <p class="sub">How a death is <b>certified</b>, <b>registered</b>, and <b>passed on</b> to government and the private sector — from statute, regulation and official policy.</p>
+            </div>
+            <div class="controls">
+              <label class="field"><span>Jurisdiction</span><select id="jur"></select></label>
+            </div>
+          </div>
+          <nav class="tabs" role="tablist">
+            <button role="tab" data-tab="map">Map</button>
+            <button role="tab" data-tab="chain">Signal chain</button>
+            <button role="tab" data-tab="compare">Compare</button>
+            <button role="tab" data-tab="trends">Trends</button>
+            <button role="tab" data-tab="sources">Sources</button>
+          </nav>
+        </header>
+
+        <p id="jur-note" class="jur-note"></p>
+
+        <section id="tab-map" class="tab" hidden>
+          <div class="toolbar">
+            <label class="field"><span>Shade by</span><select id="map-feature"></select></label>
+            <div id="map-legend" class="map-legend" aria-label="Legend"></div>
+          </div>
+          <p id="map-question" class="lede"></p>
+          <div id="map"></div>
+          <p id="map-readout" class="map-readout"></p>
+          <div id="map-list" class="map-list"></div>
+          <p class="hint">
+            Darker means the signal travels further on its own. The United States, United Kingdom, Canada and Australia
+            register deaths at state, nation or province level, so a country can be hatched where its parts differ.
+            Base map from <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>
+            (public domain); borders at 1:110m are not an expression of any view on them.
+          </p>
+        </section>
+
+        <section id="tab-chain" class="tab" hidden>
+          <div id="pipeline" class="pipeline"></div>
+          <h3>Who learns of the death, and how</h3>
+          <div id="who-knows" class="scroll-x"></div>
+          <div id="chain"></div>
+        </section>
+
+        <section id="tab-compare" class="tab" hidden>
+          <div class="toolbar">
+            <p class="lede">Every jurisdiction where deaths are registered, side by side. Federal layers are folded into their states and provinces.</p>
+            <label class="field"><span>Country</span><select id="cmp-country"></select></label>
+          </div>
+          <div id="compare" class="scroll-x"></div>
+        </section>
+
+        <section id="tab-trends" class="tab" hidden><div id="trends"></div></section>
+        <section id="tab-sources" class="tab" hidden><div id="sources"></div></section>
+
+        <footer class="foot">
+          <p><b>Not legal advice.</b> A research aid summarising primary legal sources as retrieved on the dates shown.
+            Always read the cited current text. Steps without a verified primary-source citation are drawn dashed and labelled <em>unverified</em>.</p>
+          <p>Research for the OpenID <a href="https://github.com/openid/death-and-the-digital-estate">Death and the Digital Estate (DADE)</a> effort,
+            alongside <a href="/research/digital-estate-roles/">Digital Estate Roles</a>.</p>
+        </footer>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<script>
+  import '../../../scripts/dn/app.js';
+</script>

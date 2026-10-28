@@ -1,0 +1,1627 @@
+{
+ "meta": {
+  "built": "2026-10-28",
+  "stages": [
+   "pronounce",
+   "certify",
+   "register",
+   "certificate",
+   "government",
+   "private",
+   "public"
+  ],
+  "actors": [
+   "banks",
+   "coroner",
+   "courts",
+   "credit-bureaus",
+   "electoral",
+   "employer",
+   "funeral-director",
+   "health-insurance",
+   "hospital",
+   "informant",
+   "insurers",
+   "local-government",
+   "medical-examiner",
+   "nurse",
+   "online-platforms",
+   "other-government",
+   "passport",
+   "physician",
+   "police",
+   "population-register",
+   "private-verifiers",
+   "public",
+   "registrar",
+   "social-security",
+   "statistics",
+   "tax",
+   "vehicle-licensing",
+   "vital-records"
+  ],
+  "features": {
+   "registrationDeadlineDays": null,
+   "informantDuty": [
+    "anyone-present",
+    "funeral-director",
+    "institution",
+    "mixed",
+    "physician",
+    "relatives"
+   ],
+   "medicalExaminerScrutiny": [
+    false,
+    true
+   ],
+   "electronicRegistration": [
+    "full",
+    "none",
+    "partial"
+   ],
+   "centralPopulationRegister": [
+    false,
+    true
+   ],
+   "governmentPropagation": [
+    "automatic",
+    "manual",
+    "single-request"
+   ],
+   "certificateAccess": [
+    "open",
+    "restricted",
+    "tiered"
+   ],
+   "privateSectorVerification": [
+    "limited",
+    "no",
+    "yes"
+   ]
+  }
+ },
+ "countries": [
+  {
+   "id": "mu",
+   "iso": "MU",
+   "name": "Mauritius",
+   "region": "Africa",
+   "jurisdictions": [
+    "mu-national"
+   ]
+  },
+  {
+   "id": "rw",
+   "iso": "RW",
+   "name": "Rwanda",
+   "region": "Africa",
+   "jurisdictions": [
+    "rw-national"
+   ]
+  },
+  {
+   "id": "za",
+   "iso": "ZA",
+   "name": "South Africa",
+   "region": "Africa",
+   "jurisdictions": [
+    "za-national"
+   ]
+  },
+  {
+   "id": "cn",
+   "iso": "CN",
+   "name": "China",
+   "region": "Asia",
+   "jurisdictions": [
+    "cn-national"
+   ]
+  },
+  {
+   "id": "in",
+   "iso": "IN",
+   "name": "India",
+   "region": "Asia",
+   "jurisdictions": [
+    "in-national"
+   ]
+  },
+  {
+   "id": "jp",
+   "iso": "JP",
+   "name": "Japan",
+   "region": "Asia",
+   "jurisdictions": [
+    "jp-national"
+   ]
+  },
+  {
+   "id": "sg",
+   "iso": "SG",
+   "name": "Singapore",
+   "region": "Asia",
+   "jurisdictions": [
+    "sg-national"
+   ]
+  },
+  {
+   "id": "kr",
+   "iso": "KR",
+   "name": "South Korea",
+   "region": "Asia",
+   "jurisdictions": [
+    "kr-national"
+   ]
+  },
+  {
+   "id": "at",
+   "iso": "AT",
+   "name": "Austria",
+   "region": "Europe",
+   "jurisdictions": [
+    "at-national"
+   ]
+  },
+  {
+   "id": "dk",
+   "iso": "DK",
+   "name": "Denmark",
+   "region": "Europe",
+   "jurisdictions": [
+    "dk-national"
+   ]
+  },
+  {
+   "id": "fi",
+   "iso": "FI",
+   "name": "Finland",
+   "region": "Europe",
+   "jurisdictions": [
+    "fi-national"
+   ]
+  },
+  {
+   "id": "fr",
+   "iso": "FR",
+   "name": "France",
+   "region": "Europe",
+   "jurisdictions": [
+    "fr-national"
+   ]
+  },
+  {
+   "id": "de",
+   "iso": "DE",
+   "name": "Germany",
+   "region": "Europe",
+   "jurisdictions": [
+    "de-federal"
+   ]
+  },
+  {
+   "id": "ie",
+   "iso": "IE",
+   "name": "Ireland",
+   "region": "Europe",
+   "jurisdictions": [
+    "ie-national"
+   ]
+  },
+  {
+   "id": "it",
+   "iso": "IT",
+   "name": "Italy",
+   "region": "Europe",
+   "jurisdictions": [
+    "it-national"
+   ]
+  },
+  {
+   "id": "nl",
+   "iso": "NL",
+   "name": "Netherlands",
+   "region": "Europe",
+   "jurisdictions": [
+    "nl-national"
+   ]
+  },
+  {
+   "id": "es",
+   "iso": "ES",
+   "name": "Spain",
+   "region": "Europe",
+   "jurisdictions": [
+    "es-national"
+   ]
+  },
+  {
+   "id": "se",
+   "iso": "SE",
+   "name": "Sweden",
+   "region": "Europe",
+   "jurisdictions": [
+    "se-national"
+   ]
+  },
+  {
+   "id": "gb",
+   "iso": "GB",
+   "name": "United Kingdom",
+   "region": "Europe",
+   "jurisdictions": [
+    "uk-national",
+    "uk-ew",
+    "uk-ni",
+    "uk-sco"
+   ]
+  },
+  {
+   "id": "ar",
+   "iso": "AR",
+   "name": "Argentina",
+   "region": "Latin America",
+   "jurisdictions": [
+    "ar-national"
+   ]
+  },
+  {
+   "id": "br",
+   "iso": "BR",
+   "name": "Brazil",
+   "region": "Latin America",
+   "jurisdictions": [
+    "br-national"
+   ]
+  },
+  {
+   "id": "mx",
+   "iso": "MX",
+   "name": "Mexico",
+   "region": "Latin America",
+   "jurisdictions": [
+    "mx-federal"
+   ]
+  },
+  {
+   "id": "ca",
+   "iso": "CA",
+   "name": "Canada",
+   "region": "North America",
+   "jurisdictions": [
+    "ca-federal",
+    "ca-bc",
+    "ca-on",
+    "ca-qc"
+   ]
+  },
+  {
+   "id": "us",
+   "iso": "US",
+   "name": "United States",
+   "region": "North America",
+   "jurisdictions": [
+    "us-federal",
+    "us-az",
+    "us-ca",
+    "us-co",
+    "us-de",
+    "us-fl",
+    "us-id",
+    "us-il",
+    "us-in",
+    "us-ia",
+    "us-ks",
+    "us-ky",
+    "us-la",
+    "us-me",
+    "us-md",
+    "us-ma",
+    "us-mi",
+    "us-mn",
+    "us-mo",
+    "us-model",
+    "us-ne",
+    "us-nj",
+    "us-ny",
+    "us-nc",
+    "us-oh",
+    "us-ok",
+    "us-pa",
+    "us-tx",
+    "us-ut",
+    "us-va",
+    "us-wa",
+    "us-wv"
+   ]
+  },
+  {
+   "id": "au",
+   "iso": "AU",
+   "name": "Australia",
+   "region": "Oceania",
+   "jurisdictions": [
+    "au-commonwealth",
+    "au-nsw",
+    "au-qld",
+    "au-vic"
+   ]
+  }
+ ],
+ "jurisdictions": [
+  {
+   "id": "ar-national",
+   "name": "Argentina",
+   "country": "ar",
+   "level": "national",
+   "layer": null,
+   "steps": 13,
+   "citations": 21,
+   "unverified": 1,
+   "features": {
+    "registrationDeadlineDays": 2,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "restricted",
+    "privateSectorVerification": "limited"
+   }
+  },
+  {
+   "id": "at-national",
+   "name": "Austria",
+   "country": "at",
+   "level": "national",
+   "layer": null,
+   "steps": 17,
+   "citations": 26,
+   "unverified": 0,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": null,
+    "electronicRegistration": "full",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "restricted",
+    "privateSectorVerification": "yes"
+   }
+  },
+  {
+   "id": "au-commonwealth",
+   "name": "Australia (Commonwealth)",
+   "country": "au",
+   "level": "federal",
+   "layer": null,
+   "steps": 10,
+   "citations": 14,
+   "unverified": 3,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes"
+   }
+  },
+  {
+   "id": "au-nsw",
+   "name": "New South Wales",
+   "country": "au",
+   "level": "subnational",
+   "layer": "au-commonwealth",
+   "steps": 12,
+   "citations": 17,
+   "unverified": 2,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": null,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "au-qld",
+   "name": "Queensland",
+   "country": "au",
+   "level": "subnational",
+   "layer": "au-commonwealth",
+   "steps": 12,
+   "citations": 21,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 14,
+    "informantDuty": "relatives",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": null,
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "au-vic",
+   "name": "Victoria",
+   "country": "au",
+   "level": "subnational",
+   "layer": "au-commonwealth",
+   "steps": 11,
+   "citations": 17,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": null,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": null,
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "br-national",
+   "name": "Brazil",
+   "country": "br",
+   "level": "national",
+   "layer": null,
+   "steps": 12,
+   "citations": 13,
+   "unverified": 12,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": null,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "open",
+    "privateSectorVerification": null
+   }
+  },
+  {
+   "id": "ca-federal",
+   "name": "Canada (federal)",
+   "country": "ca",
+   "level": "federal",
+   "layer": null,
+   "steps": 10,
+   "citations": 17,
+   "unverified": 1,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "no"
+   }
+  },
+  {
+   "id": "ca-bc",
+   "name": "British Columbia",
+   "country": "ca",
+   "level": "subnational",
+   "layer": "ca-federal",
+   "steps": 12,
+   "citations": 25,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "no",
+    "registrationDeadlineDays": null,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "ca-on",
+   "name": "Ontario",
+   "country": "ca",
+   "level": "subnational",
+   "layer": "ca-federal",
+   "steps": 15,
+   "citations": 33,
+   "unverified": 1,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "no",
+    "registrationDeadlineDays": null,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "none",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "ca-qc",
+   "name": "Québec",
+   "country": "ca",
+   "level": "subnational",
+   "layer": "ca-federal",
+   "steps": 14,
+   "citations": 28,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "single-request",
+    "privateSectorVerification": "no",
+    "registrationDeadlineDays": 0,
+    "informantDuty": "relatives",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "cn-national",
+   "name": "China (mainland)",
+   "country": "cn",
+   "level": "national",
+   "layer": null,
+   "steps": 13,
+   "citations": 17,
+   "unverified": 2,
+   "features": {
+    "registrationDeadlineDays": 30,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": null,
+    "privateSectorVerification": "no"
+   }
+  },
+  {
+   "id": "de-federal",
+   "name": "Germany",
+   "country": "de",
+   "level": "national",
+   "layer": null,
+   "steps": 20,
+   "citations": 40,
+   "unverified": 1,
+   "features": {
+    "registrationDeadlineDays": 3,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": null,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "restricted",
+    "privateSectorVerification": "limited"
+   }
+  },
+  {
+   "id": "dk-national",
+   "name": "Denmark",
+   "country": "dk",
+   "level": "national",
+   "layer": null,
+   "steps": 12,
+   "citations": 20,
+   "unverified": 1,
+   "features": {
+    "registrationDeadlineDays": 2,
+    "informantDuty": "physician",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "open",
+    "privateSectorVerification": "yes"
+   }
+  },
+  {
+   "id": "es-national",
+   "name": "Spain",
+   "country": "es",
+   "level": "national",
+   "layer": null,
+   "steps": 18,
+   "citations": 29,
+   "unverified": 0,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "institution",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "restricted",
+    "privateSectorVerification": "limited"
+   }
+  },
+  {
+   "id": "fi-national",
+   "name": "Finland",
+   "country": "fi",
+   "level": "national",
+   "layer": null,
+   "steps": 13,
+   "citations": 22,
+   "unverified": 0,
+   "features": {
+    "registrationDeadlineDays": null,
+    "informantDuty": "institution",
+    "medicalExaminerScrutiny": true,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "restricted",
+    "privateSectorVerification": "yes"
+   }
+  },
+  {
+   "id": "fr-national",
+   "name": "France",
+   "country": "fr",
+   "level": "national",
+   "layer": null,
+   "steps": 21,
+   "citations": 35,
+   "unverified": 1,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "open",
+    "privateSectorVerification": "yes"
+   }
+  },
+  {
+   "id": "uk-national",
+   "name": "United Kingdom (UK-wide layer)",
+   "country": "gb",
+   "level": "federal",
+   "layer": null,
+   "steps": 12,
+   "citations": 18,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "single-request",
+    "privateSectorVerification": "no"
+   }
+  },
+  {
+   "id": "uk-ew",
+   "name": "England and Wales",
+   "country": "gb",
+   "level": "subnational",
+   "layer": "uk-national",
+   "steps": 15,
+   "citations": 38,
+   "unverified": 1,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "single-request",
+    "privateSectorVerification": "no",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "relatives",
+    "medicalExaminerScrutiny": true,
+    "electronicRegistration": "partial",
+    "certificateAccess": "open"
+   }
+  },
+  {
+   "id": "uk-ni",
+   "name": "Northern Ireland",
+   "country": "gb",
+   "level": "subnational",
+   "layer": "uk-national",
+   "steps": 15,
+   "citations": 29,
+   "unverified": 1,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "manual",
+    "privateSectorVerification": "limited",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "relatives",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "open"
+   }
+  },
+  {
+   "id": "uk-sco",
+   "name": "Scotland",
+   "country": "gb",
+   "level": "subnational",
+   "layer": "uk-national",
+   "steps": 17,
+   "citations": 24,
+   "unverified": 2,
+   "features": {
+    "centralPopulationRegister": true,
+    "governmentPropagation": "single-request",
+    "privateSectorVerification": "limited",
+    "registrationDeadlineDays": 8,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "open"
+   }
+  },
+  {
+   "id": "ie-national",
+   "name": "Ireland",
+   "country": "ie",
+   "level": "national",
+   "layer": null,
+   "steps": 15,
+   "citations": 25,
+   "unverified": 3,
+   "features": {
+    "registrationDeadlineDays": 90,
+    "informantDuty": "relatives",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "none",
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "open",
+    "privateSectorVerification": "no"
+   }
+  },
+  {
+   "id": "in-national",
+   "name": "India",
+   "country": "in",
+   "level": "national",
+   "layer": null,
+   "steps": 14,
+   "citations": 22,
+   "unverified": 0,
+   "features": {
+    "registrationDeadlineDays": 21,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "open",
+    "privateSectorVerification": "no"
+   }
+  },
+  {
+   "id": "it-national",
+   "name": "Italy",
+   "country": "it",
+   "level": "national",
+   "layer": null,
+   "steps": 17,
+   "citations": 29,
+   "unverified": 1,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "tiered",
+    "privateSectorVerification": "limited"
+   }
+  },
+  {
+   "id": "jp-national",
+   "name": "Japan",
+   "country": "jp",
+   "level": "national",
+   "layer": null,
+   "steps": 19,
+   "citations": 37,
+   "unverified": 0,
+   "features": {
+    "registrationDeadlineDays": 7,
+    "informantDuty": "relatives",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "none",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "restricted",
+    "privateSectorVerification": "no"
+   }
+  },
+  {
+   "id": "kr-national",
+   "name": "South Korea",
+   "country": "kr",
+   "level": "national",
+   "layer": null,
+   "steps": 16,
+   "citations": 29,
+   "unverified": 0,
+   "features": {
+    "registrationDeadlineDays": 30,
+    "informantDuty": "relatives",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "none",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "restricted",
+    "privateSectorVerification": "limited"
+   }
+  },
+  {
+   "id": "mu-national",
+   "name": "Mauritius",
+   "country": "mu",
+   "level": "national",
+   "layer": null,
+   "steps": 11,
+   "citations": 19,
+   "unverified": 0,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "anyone-present",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "open",
+    "privateSectorVerification": "no"
+   }
+  },
+  {
+   "id": "mx-federal",
+   "name": "Mexico (federal)",
+   "country": "mx",
+   "level": "national",
+   "layer": null,
+   "steps": 15,
+   "citations": 22,
+   "unverified": 1,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": null,
+    "centralPopulationRegister": true,
+    "governmentPropagation": "manual",
+    "certificateAccess": "open",
+    "privateSectorVerification": "limited"
+   }
+  },
+  {
+   "id": "nl-national",
+   "name": "Netherlands",
+   "country": "nl",
+   "level": "national",
+   "layer": null,
+   "steps": 14,
+   "citations": 26,
+   "unverified": 2,
+   "features": {
+    "registrationDeadlineDays": 6,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "tiered",
+    "privateSectorVerification": "yes"
+   }
+  },
+  {
+   "id": "rw-national",
+   "name": "Rwanda",
+   "country": "rw",
+   "level": "national",
+   "layer": null,
+   "steps": 9,
+   "citations": 13,
+   "unverified": 1,
+   "features": {
+    "registrationDeadlineDays": 30,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": null,
+    "electronicRegistration": "full",
+    "centralPopulationRegister": true,
+    "governmentPropagation": null,
+    "certificateAccess": "restricted",
+    "privateSectorVerification": null
+   }
+  },
+  {
+   "id": "se-national",
+   "name": "Sweden",
+   "country": "se",
+   "level": "national",
+   "layer": null,
+   "steps": 11,
+   "citations": 21,
+   "unverified": 1,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "institution",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": null,
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "open",
+    "privateSectorVerification": "yes"
+   }
+  },
+  {
+   "id": "sg-national",
+   "name": "Singapore",
+   "country": "sg",
+   "level": "national",
+   "layer": null,
+   "steps": 14,
+   "citations": 22,
+   "unverified": 2,
+   "features": {
+    "registrationDeadlineDays": 1,
+    "informantDuty": "physician",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": "restricted",
+    "privateSectorVerification": "limited"
+   }
+  },
+  {
+   "id": "us-federal",
+   "name": "United States (federal)",
+   "country": "us",
+   "level": "federal",
+   "layer": null,
+   "steps": 13,
+   "citations": 27,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes"
+   }
+  },
+  {
+   "id": "us-az",
+   "name": "Arizona",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 11,
+   "citations": 13,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 7,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-ca",
+   "name": "California",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 9,
+   "citations": 11,
+   "unverified": 9,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 8,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "us-co",
+   "name": "Colorado",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 12,
+   "citations": 18,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-de",
+   "name": "Delaware",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 12,
+   "citations": 16,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-fl",
+   "name": "Florida",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 13,
+   "citations": 24,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "us-id",
+   "name": "Idaho",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 13,
+   "citations": 21,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": null,
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-il",
+   "name": "Illinois",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 15,
+   "citations": 22,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 7,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-in",
+   "name": "Indiana",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 17,
+   "citations": 25,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "us-ia",
+   "name": "Iowa",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 15,
+   "citations": 24,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "us-ks",
+   "name": "Kansas",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 14,
+   "citations": 21,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-ky",
+   "name": "Kentucky",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 16,
+   "citations": 22,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "manual",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": null,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "open"
+   }
+  },
+  {
+   "id": "us-la",
+   "name": "Louisiana",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 14,
+   "citations": 28,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "manual",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-me",
+   "name": "Maine",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 12,
+   "citations": 22,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-md",
+   "name": "Maryland",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 12,
+   "citations": 19,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-ma",
+   "name": "Massachusetts",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 11,
+   "citations": 18,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "mixed",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "open"
+   }
+  },
+  {
+   "id": "us-mi",
+   "name": "Michigan",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 16,
+   "citations": 23,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "open"
+   }
+  },
+  {
+   "id": "us-mn",
+   "name": "Minnesota",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 12,
+   "citations": 19,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "us-mo",
+   "name": "Missouri",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 15,
+   "citations": 23,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "manual",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-model",
+   "name": "Model State Vital Statistics Act (CDC/NCHS)",
+   "country": "us",
+   "level": "model",
+   "layer": null,
+   "steps": 6,
+   "citations": 5,
+   "unverified": 6,
+   "features": {
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-ne",
+   "name": "Nebraska",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 15,
+   "citations": 20,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-nj",
+   "name": "New Jersey",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 17,
+   "citations": 21,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": null,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "us-ny",
+   "name": "New York",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 11,
+   "citations": 17,
+   "unverified": 1,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-nc",
+   "name": "North Carolina",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 14,
+   "citations": 21,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "us-oh",
+   "name": "Ohio",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 14,
+   "citations": 23,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "open"
+   }
+  },
+  {
+   "id": "us-ok",
+   "name": "Oklahoma",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 17,
+   "citations": 24,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-pa",
+   "name": "Pennsylvania",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 13,
+   "citations": 20,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 4,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": null,
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-tx",
+   "name": "Texas",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 8,
+   "citations": 10,
+   "unverified": 8,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 10,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-ut",
+   "name": "Utah",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 13,
+   "citations": 21,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-va",
+   "name": "Virginia",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 16,
+   "citations": 23,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 3,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "full",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "us-wa",
+   "name": "Washington",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 18,
+   "citations": 26,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "tiered"
+   }
+  },
+  {
+   "id": "us-wv",
+   "name": "West Virginia",
+   "country": "us",
+   "level": "subnational",
+   "layer": "us-federal",
+   "steps": 17,
+   "citations": 20,
+   "unverified": 0,
+   "features": {
+    "centralPopulationRegister": false,
+    "governmentPropagation": "automatic",
+    "privateSectorVerification": "yes",
+    "registrationDeadlineDays": 5,
+    "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
+    "certificateAccess": "restricted"
+   }
+  },
+  {
+   "id": "za-national",
+   "name": "South Africa",
+   "country": "za",
+   "level": "national",
+   "layer": null,
+   "steps": 14,
+   "citations": 20,
+   "unverified": 0,
+   "features": {
+    "registrationDeadlineDays": null,
+    "informantDuty": "anyone-present",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": null,
+    "centralPopulationRegister": true,
+    "governmentPropagation": "automatic",
+    "certificateAccess": null,
+    "privateSectorVerification": "yes"
+   }
+  }
+ ]
+}
