@@ -181,7 +181,7 @@ reason strings that any event set needs:
 
 | Field | Why |
 |---|---|
-| `initiating_authority` | who declared it. Values: `court`, `registrar`, `notary`, `clinician`, `agency`, `principal`, `custodian`, `claimant`, **`operation-of-law`**. The weight a relying party gives an event depends almost entirely on this, and the last value is not a formality — in 16 countries the heirs hold the estate from the moment of death with nobody declaring anything, so the set has to be able to say that no one did |
+| `initiating_authority` | who declared it. Values: `court`, `registrar`, `notary`, `clinician`, `agency`, `principal`, `custodian`, `claimant`, **`operation-of-law`**. The weight a relying party gives an event depends almost entirely on this, and the last value is not a formality — in 17 countries the heirs hold the estate from the moment of death with nobody declaring anything, so the set has to be able to say that no one did |
 | `governing_law` | `{jurisdiction, as_at}`. Required by design rule 1, because the effect is jurisdiction-dependent, and by §12 of the findings, because a rule needs a date — Iowa's 2025 amendment to §633.356 applies **retroactively**, so even a past date is not stable |
 | `canonical_role` | one of the 21 canonical role ids in this repository, so that "executor" and "liquidator" and *Nachlassverwalter* line up |
 | `evidence` | **reuse eKYC/IDA's `evidence` structure** rather than inventing one; its `document`, `electronic_record` and `vouch` types already cover a certificate, a register entry, and a third party attesting to someone's standing |

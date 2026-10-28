@@ -1,6 +1,6 @@
 ---
 title: 'Use cases across jurisdictions'
-description: 'What a platform actually faces, use case by use case, across 61 jurisdictions: which legal roles can carry each one, how far each reaches, and why high coverage is not the same as interoperability.'
+description: 'What a platform actually faces, use case by use case, across 62 jurisdictions: which legal roles can carry each one, how far each reaches, and why high coverage is not the same as interoperability.'
 section: 'digital-estate-standards'
 order: 1
 standing: 'Analysis. Every legal claim is carried from the sourced reference.'
@@ -47,14 +47,14 @@ identifiers are the ones the mapping data uses, and the table below repeats them
 
 | Use case | Jurisdictions | Countries | Share | Roles that can carry it |
 |---|---|---|---|---|
-| `incapacity-account-access` | 61 | 25 | 100% | durable / springing POA, conservator, guardian, digital-assets fiduciary, supported decision-maker |
-| `deceased-administration` | 61 | 25 | 100% | executor, administrator, universal successor |
-| `incapacity-health-decisions` | 59 | 24 | 96% | health-care agent, default surrogate, guardian, supported decision-maker |
-| `deceased-small-estate` | 55 | 22 | 88% | small-estate affiant, universal successor |
-| `post-mortem-body` | 56 | 20 | 80% | disposition-of-remains agent, anatomical-gift agent |
-| `health-records-access` | 41 | 5 | 20% | health-records representative |
-| `benefits-and-tax` | 41 | 5 | 20% | benefits payee, tax representative, veterans fiduciary |
-| `deceased-digital-assets` | 34 | 4 | 16% | digital-assets fiduciary, online-tool designee |
+| `incapacity-account-access` | 62 | 26 | 100% | durable / springing POA, conservator, guardian, digital-assets fiduciary, supported decision-maker |
+| `deceased-administration` | 62 | 26 | 100% | executor, administrator, universal successor |
+| `incapacity-health-decisions` | 60 | 25 | 96% | health-care agent, default surrogate, guardian, supported decision-maker |
+| `deceased-small-estate` | 56 | 23 | 88% | small-estate affiant, universal successor |
+| `post-mortem-body` | 57 | 21 | 81% | disposition-of-remains agent, anatomical-gift agent |
+| `health-records-access` | 41 | 5 | 19% | health-records representative |
+| `benefits-and-tax` | 42 | 6 | 23% | benefits payee, tax representative, veterans fiduciary |
+| `deceased-digital-assets` | 34 | 4 | 15% | digital-assets fiduciary, online-tool designee |
 | `deceased-trust-held` | 32 | 2 | 8% | successor trustee |
 | `self-directed-ante-mortem` | 31 | 2 | 8% | online-tool designee |
 
@@ -71,9 +71,15 @@ them as findings would be the §7 mistake in a new form:
 
 - `deceased-trust-held` sits at 2 countries because the schema records the successor trustee
   only where it is materially relevant. Treat it as a floor.
-- `health-records-access` and `benefits-and-tax` sit at 5 because they are **federal-layer** roles
-  inherited by every US, Australian and Canadian sub-national file. The count reflects which
-  countries have a federal layer in this data, not how many legislate the question.
+- `health-records-access` sits at 5 because it is a **federal-layer** role inherited by every US,
+  Australian and Canadian sub-national file. The count reflects which countries have a federal
+  layer in this data, not how many legislate the question.
+- `benefits-and-tax` was the same artefact until Switzerland landed, and is now **partly real**: its
+  sixth country is a national provision rather than an inherited federal one. ATSG Art. 20 lets a
+  social insurer pay benefits to a suitable third party or authority that already owes the
+  beneficiary support or permanently cares for them, on two conditions about misuse and consequent
+  dependence on welfare. So one of the two rows this page called an artefact has started to acquire
+  real entries, and the honest reading is that the count is a floor whose composition is now mixed.
 
 The other eight rows are real.
 
@@ -85,12 +91,12 @@ The other eight rows are real.
 - a **small-estate affidavit**, a common-law device recorded in 6 countries, where the claimant
   swears a statement and hands it to whoever holds the asset; and
 - **universal succession**, under which the heirs hold the estate from the moment of death, with no
-  document to present at all. The 16 countries are Argentina, Brazil, China, Denmark, Finland,
-  France, Germany, Italy, Japan, Mauritius, Mexico, the Netherlands, Rwanda, South Korea, Spain and
-  Sweden — a list worth reading, because it is not simply "civil-law Europe": it spans four
-  continents and includes two of the three African jurisdictions in the set.
+  document to present at all. The 17 countries are Argentina, Brazil, China, Denmark, Finland,
+  France, Germany, Italy, Japan, Mauritius, Mexico, the Netherlands, Rwanda, South Korea, Spain,
+  Sweden and Switzerland — a list worth reading, because it is not simply "civil-law Europe": it
+  spans four continents and includes two of the three African jurisdictions in the set.
 
-**Austria is a seventeenth universal-succession country and belongs in neither group**, which is the
+**Austria is an eighteenth universal-succession country and belongs in neither group**, which is the
 trap for anyone building to the two-mechanism model above. The heir takes the estate as a whole, so
 it is not an affidavit jurisdiction — but §797 ABGB forbids taking possession of an estate on one's
 own authority, and title passes only on a court order, the *Einantwortung*. So there **is** a
@@ -98,8 +104,18 @@ document, it is neither a grant to a representative nor an affidavit, and betwee
 order §810 lets whichever heir can prove entitlement administer. A flow that branches on
 "civil law: expect nothing" is wrong in Austria.
 
+**Switzerland is the control that shows Austria is the exception and not the rule**, which matters
+because two German-speaking civil-law neighbours answer this oppositely. ZGB Art. 560 is the clean
+form — the heirs acquire the estate as a whole at death "kraft Gesetzes", and claims, ownership,
+limited real rights and possession pass "ohne weiteres" — so there is nothing to present and nothing
+to wait for. An *Erbbescheinigung* is available under Art. 559 to instituted heirs on request, once a
+month has passed without the legal heirs contesting their entitlement, but it is expressly subject to
+the actions for invalidity and for recovery of the estate: it confirms a title that already exists.
+So a custodian who demands one is asking for evidence, not for authority — and in Austria, asking for
+the equivalent document is asking for the authority itself.
+
 So a platform that implements "accept a sworn affidavit" has built for 6 countries and will be
-presented with nothing at all by claimants from 16 others, who are nonetheless entitled. And inside
+presented with nothing at all by claimants from 17 others, who are nonetheless entitled. And inside
 the affidavit group the parameters are not close: the ceiling runs from **$2,000 to $208,850**, the
 waiting period from none to 120 days, and the artefact from a mandatory state form (Virginia) to a
 safe-harbour form (Kansas) to no artefact whatsoever (Virginia's tier below $35,000).

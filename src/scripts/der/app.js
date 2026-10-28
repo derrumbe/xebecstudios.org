@@ -2064,6 +2064,36 @@
       + out + '</svg>';
   }
 
+  function figChainAndGap() {
+    const steps = ['register entry', 'duty to ask', 'validation', 'Urkunde issued'];
+    const gap = 8, top = 30, bw = (FIG_W - (steps.length - 1) * gap) / steps.length;
+    let out = `<text x="0" y="12" class="fig-t">ZGB 361(3) \u2192 363(1) \u2192 363(2) \u2192 363(3): `
+      + `the authority starts, and is pushed outward by 449c</text>`;
+    steps.forEach((label, i) => {
+      const x = i * (bw + gap);
+      out += `<rect x="${x}" y="${top}" width="${bw}" height="24" rx="3" fill="var(--accent)"/>`
+        + `<text x="${x + bw / 2}" y="${top + 40}" text-anchor="middle" class="fig-t">`
+        + `${esc(label)}</text>`;
+      if (i < steps.length - 1) {
+        out += `<text x="${x + bw + gap / 2}" y="${top + 17}" text-anchor="middle" `
+          + `class="fig-t">\u203a</text>`;
+      }
+    });
+    const y2 = top + 62;
+    out += `<text x="0" y="${y2}" class="fig-t">ZGB 369(1): the authority ends \u2014 no entry, `
+      + `no decision, no notice</text>`;
+    out += `<rect x="0" y="${y2 + 10}" width="${FIG_W}" height="24" rx="3" fill="none" `
+      + `stroke="var(--dormant)" stroke-width="1.5" stroke-dasharray="3 3"/>`
+      + `<text x="${FIG_W / 2}" y="${y2 + 26}" text-anchor="middle" class="fig-l">`
+      + `lapses by operation of law on recovery of capacity</text>`;
+    const y3 = y2 + 52;
+    out += `<text x="0" y="${y3}" class="fig-t">369(3): acts done before the agent learns of the `
+      + `lapse still bind the principal</text>`;
+    return svgOpen(y3 + 10,
+      'Swiss federal law records and propagates the beginning of a representation authority in four steps \u2014 the civil registry enters that a Vorsorgeauftrag exists and where it is deposited, the adult protection authority must ask the registry when it learns of incapacity, it then validates the mandate and the agent, and it hands the agent a document reproducing their powers, with article 449c pushing the result to the registry, the municipality and the debt collection office as soon as the decision is enforceable. The ending is not recorded at all: on recovery of capacity the mandate lapses by operation of law, with no entry and no notification, and acts the agent does before learning of the lapse still bind the principal')
+      + out + '</svg>';
+  }
+
   function findingFigure(n, ctx) {
     const { feat, canon, countries } = ctx;
     const count = (key, pred) => {
@@ -2134,6 +2164,7 @@
       case 16: return figWrap(figFreshness(), 'How long the finding underneath the authority stays good.');
       case 17: return figWrap(figTermination(), 'One event, five rules across eight jurisdictions \u2014 and the uniform text, where taken verbatim, is the only thing two of them agree on.');
       case 18: return figWrap(figSecurity(), 'Where the law moves liability, and where Missouri asks for collateral instead.');
+      case 23: return figWrap(figChainAndGap(), 'Switzerland records and propagates the start of the authority in four steps, and records its end not at all.');
       case 22: return figWrap(figTwoRegisters(), 'The components \u00a715 says no jurisdiction assembles, scored against Austria\u2019s two registers: the organ one has all four, the representation one has only legal effect.');
       case 21: return figWrap(figCustodyChain(), 'The presumption travels with the instrument: Indiana \u00a730-5-11-10(e) does not let it decay across custodians, and \u00a730-5-11-8 sets the floor on how long the record is kept.');
       case 20: return figWrap(figDateSplit(), 'Two live tests, selected by the instrument\u2019s date \u2014 so the same question has two answers in one state.');

@@ -13,20 +13,20 @@ jurisdictions:
 
 | Canonical role | Jurisdictions | Countries |
 |---|---|---|
-| `personal-representative-executor` | 61 | **25** |
-| `conservator-estate` | 64 | 22 |
-| `personal-representative-administrator` | 57 | 21 |
-| `anatomical-gift-agent` | 58 | 20 |
+| `personal-representative-executor` | 62 | **26** |
+| `conservator-estate` | 65 | 23 |
+| `personal-representative-administrator` | 58 | 22 |
+| `anatomical-gift-agent` | 59 | 21 |
 | `financial-poa-durable` | 55 | 18 |
-| `guardian-person` | 55 | 18 |
-| `health-care-agent` | 53 | 15 |
+| `guardian-person` | 56 | 19 |
+| `health-care-agent` | 54 | 16 |
 | … | | |
 | `digital-assets-fiduciary` | 34 | **4** |
 | `online-tool-designee` | 31 | **2** |
 
 Every legal system in the set has someone who steps into a dead person's shoes, and almost
 all have someone who acts for a living person who cannot. Executor or its equivalent is the
-single most universal role in the data, present in 25 of 25 countries.
+single most universal role in the data, present in 26 of 26 countries.
 
 **The gap is not conceptual, it is digital.** `online-tool-designee` exists in two countries.
 Whatever a standard needs to carry, it is not a new idea about who may act — that idea is
@@ -45,7 +45,7 @@ one.
 ## 2. Four regimes, in three countries, address post-mortem digital authority directly
 
 Only France and the United States have a statute conferring fiduciary access to digital
-assets as such (`digitalAssetsFiduciaryStatute`: true in 30 of the 51 jurisdictions that record
+assets as such (`digitalAssetsFiduciaryStatute`: true in 30 of the 52 jurisdictions that record
 it — France, the US model layer, the RUFADAA states, and **Delaware, which is not one of them**;
 the two US states with no fiduciary-access statute at all, Massachusetts and Louisiana, record it false).
 Italy arrives at a nearby place by a different route. The four shapes are not variations — they
@@ -219,7 +219,7 @@ the same four words — "durable power of attorney".
 
 ## 5. Registration before use splits the common-law world against itself
 
-`poaRegistrationBeforeUse` is true in 11 of the 49 jurisdictions that record it and false in 38.
+`poaRegistrationBeforeUse` is true in 11 of the 50 jurisdictions that record it and false in 39.
 The split does not follow legal
 family: England & Wales, Scotland, Ireland, Singapore, Japan, South Korea, Denmark, Finland,
 France and Italy require a registration or filing step; most US states, the Australian states,
@@ -234,7 +234,7 @@ and one that cannot exist until an authority acts.
 
 ## 6. Organ donation: opt-out is European, recent, and still soft
 
-`organDonationModel` is **opt-in in 43** of the 54 jurisdictions that record it and **opt-out in
+`organDonationModel` is **opt-in in 44** of the 55 jurisdictions that record it and **opt-out in
 11**. The opt-out set
 is almost entirely European — Austria, Finland, France, Ireland, the Netherlands, Spain, Sweden
 and all three UK jurisdictions — plus Singapore.
@@ -263,7 +263,7 @@ Four roles look widespread by jurisdiction count and are not:
 | Role | Jurisdictions | Countries |
 |---|---|---|
 | `health-records-representative` | 50 | 5 |
-| `benefits-payee` | 44 | 5 |
+| `benefits-payee` | 45 | 6 |
 | `tax-representative` | 44 | 5 |
 | `veterans-fiduciary` | 37 | 3 |
 
@@ -271,12 +271,12 @@ These are federal-layer roles inherited by every sub-national file in the US, Au
 Canada. They are national programme mechanics, not a global pattern, and treating them as
 one would over-generalise from three countries.
 
-The inverse is `universal-successor-heir`: **17 jurisdictions across 17 countries**, exactly
+The inverse is `universal-successor-heir`: **18 jurisdictions across 18 countries**, exactly
 one per country. It marks civil-law universal succession — the heir takes the estate as a whole
 rather than through an appointed representative.
 
 **It stopped being a clean marker when Austria landed**, and the distinction it lost is the one a
-protocol actually cares about. In 16 of the 17 the estate vests at death by operation of law, with
+protocol actually cares about. In 17 of the 18 the estate vests at death by operation of law, with
 no grant and no appointment. Austria is universal succession with a **court act in the middle**:
 §531 ABGB makes the deceased's non-personal rights and obligations the *Verlassenschaft*, §797
 states the Einantwortungsprinzip — "**Niemand darf eine Erbschaft eigenmächtig in Besitz
@@ -305,8 +305,8 @@ not a fact about the law.
 
 ## 8. Supported decision-making is the newest idea and spreads unevenly
 
-`supportedDecisionMakingStatute` is true in 24 of the 35 jurisdictions that record it and false in
-11 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
+`supportedDecisionMakingStatute` is true in 24 of the 36 jurisdictions that record it and false in
+12 — the thinnest coverage of any feature here, so read it as two thirds of what has been sourced
 rather than a third of the set. Notably the **US model layer is
 false while thirteen US states are true** — **Arizona**, California, **Colorado**, Delaware,
 Florida, Illinois, **Indiana**, Maryland, New York, Texas, Utah, Virginia and Washington — so the
@@ -1058,6 +1058,27 @@ deceased's legal representative with the estate vesting in them, and the Act now
 what starts that authority. So the honest record is a role whose beginning is no longer stated in the
 statute — which is a different thing from a role whose beginning is unknown to us, and a schema needs
 to be able to say which of the two it is holding.
+
+**Switzerland is the extreme case, and it has no date at all.** Idaho's two regimes sit in one page
+with a commencement printed on each; Virginia's is contingent on a condition the Code does not
+reproduce; India's is a repeal whose cross-references lag. Switzerland has a regime that was adopted
+by Parliament on 1 October 2021, **approved by a national referendum on 15 May 2022 by 1,319,276 to
+872,119**, and is still not law. The Transplantation Act's opt-out amendment would replace extended
+explicit consent with "die Person vor ihrem Tod der Entnahme nicht widersprochen hat"; its final
+clause reads "**Der Bundesrat bestimmt das Inkrafttreten**", and the Federal Council has not. Four
+years and five months after the vote, no date has been set, the amendment has never been published
+in the Amtliche Sammlung, and the consolidation in force remains the one of 1 February 2021.
+
+What makes it a §12 finding rather than a curiosity is how the absence has to be established. There
+is no provision to read, because the thing to be proved is that nothing happened. The evidence is
+three negatives and one positive: the act's own commencement clause names no date; the register of
+consolidations stops at 1 February 2021; no `oc` item publishes the amendment; and a *later*
+amendment of 29 September 2023 commenced only its consequential changes to three other acts, said
+"die übrigen Bestimmungen werden zu einem späteren Zeitpunkt in Kraft gesetzt", and carries a
+coordination clause drafted for whichever of the two amendments commences first — which is a
+drafter's way of recording that neither had. A pipeline asking "what is the law on organ donation in
+Switzerland" gets the right answer only if it reads the consolidation rather than the amendment, and
+a reader who knows about the referendum and not about the commencement clause will get it wrong.
 
 ## 13. An obligation to offer the choice is not an evidence layer
 
@@ -2682,3 +2703,83 @@ definition; the full list lives in `research/SCHEMA-INTL.md`.
 One number to read carefully: **jurisdictions** and **countries** are counted separately
 throughout, because a federal country contributes several jurisdictions and one legal idea.
 Section 7 is about what happens when those two counts are confused.
+
+## 23. Switzerland assembled the same mechanism for authority, and left the counterparty a door
+
+§22 ended on a complaint: Austria has every component an evidence layer needs — a register with legal
+effect, a mandatory consultation before an irreversible act, minimised disclosure, an audit trail —
+and built it for organ donation, while leaving the register that actually creates representation
+authority closed to the parties who must rely on it. The obvious question was whether anyone had
+built it for authority. Switzerland has.
+
+The chain is in four provisions of one code. **ZGB Art. 361(3)** has the civil registry enter, on
+application, the fact that a person has made a Vorsorgeauftrag and *where it is deposited*.
+**Art. 363(1)**: when the adult protection authority learns that someone has become incapable of
+judgement and does not know whether a mandate exists, "so erkundigt sie sich beim Zivilstandsamt" —
+it asks. **Art. 363(2)** has it then examine four things: that the mandate was validly created, that
+the conditions for its effectiveness have arisen, that the agent is suitable, and whether further
+measures are needed. **Art. 363(3)**: on acceptance the authority "händigt ihr eine Urkunde aus, die
+ihre Befugnisse wiedergibt" — hands the agent a document reproducing their powers.
+
+Register, duty to query, validation, issued credential naming scope. §15's two halves — "a status
+endpoint is useless without a duty to consult it, and a duty to consult is unenforceable without
+somewhere to look" — are both present, and §19's missing issuer is a cantonal authority.
+
+**Then Art. 449c does the thing nothing else in this reference does: it pushes the change.** The
+authority must notify a list of bodies — the civil registry, the municipality of residence, the debt
+collection office, the passport authority, the land registry — "unverzüglich … sobald diese
+vollstreckbar geworden sind", and among the notifiable facts is that a Vorsorgeauftrag has become
+effective for a person with lasting incapacity. Every other jurisdiction here leaves the relying
+party to discover a change by asking again. This one sends it.
+
+### The two designs are opposites, and the difference is which end is load-bearing
+
+| | Austria (§22) | Switzerland |
+|---|---|---|
+| What the register holds | the authority itself | the fact a document exists, and where |
+| Registration is | **constitutive** (§245 ABGB) | optional, on application (Art. 361(3)) |
+| What activates the authority | the register entry | the authority's validation (Art. 363) |
+| What the counterparty gets | a bearer *Bestätigung* with an expiry | a court-issued *Urkunde* of powers |
+| Who may query the register | a closed list; no bank, no platform | **a private party with a legitimate interest** |
+
+That last row is the finding. **ZGB Art. 43a(2)** has the Federal Council regulate disclosure of
+civil status data "an Private, die ein unmittelbares schutzwürdiges Interesse nachweisen können",
+and **ZStV Art. 59** implements it: private parties who demonstrate a direct and legitimate interest
+are given the data "wenn die Beschaffung bei den direkt betroffenen Personen nicht möglich oder
+offensichtlich nicht zumutbar ist" — where obtaining it from the person concerned is impossible or
+manifestly unreasonable. That is a description of a bank or a platform facing an account holder who
+has lost capacity. Austria answers the same question with a list that stops at social insurance
+bodies; Switzerland answers it with a test the asking party can satisfy.
+
+It is a door rather than an endpoint, and the difference matters: the test is applied by an official
+case by case, not by an API, and what comes back is civil status data rather than a verification
+result. But it is the only place in this reference where the law contemplates the party who needs to
+know being told.
+
+### The patient directive runs the same design on different hardware
+
+**Art. 371(2)** puts the fact and the deposit location of a Patientenverfügung on the holder's
+**insurance card** — a card the person carries, not a central register. **Art. 372(1)** obliges the
+attending physician, where a patient lacks capacity and it is not known whether a directive exists,
+to establish this from that card, "Vorbehalten bleiben dringliche Fälle". And **Art. 372(3)** obliges
+them to record in the patient file the reasons for not following it.
+
+So the same four components appear twice in one statute book, once against a public register and once
+against a token in the patient's wallet, with the duty to consult falling in the second case on the
+relying party itself. The refusal is routed and reasoned, which §15 and §21 record only Kansas and
+Indiana as doing — and here it is a clinician who must write the reason down.
+
+### What it costs: the authority can lapse without anyone being told
+
+Switzerland pays for this in the one place the push notification does not reach. **Art. 369(1)**: when
+the principal regains capacity of judgement, the Vorsorgeauftrag "verliert … seine Wirksamkeit von
+Gesetzes wegen" — it ends by operation of law, with no decision, no entry and no notification.
+**Art. 369(3)** then protects the counterparty rather than the register: acts the agent does before
+learning of the lapse bind the principal as though the mandate still stood. The *Urkunde* issued under
+Art. 363(3) says nothing about this, and nothing requires its return.
+
+That is §16's freshness problem and §19's knowledge problem in one provision, and it is the exact
+inverse of Austria, where the register that started the authority is also what ends it. Switzerland
+registers the *beginning* and pushes it outward; the ending is left to good faith. A credential format
+that carries a scope and an issuer but has no answer to "and has this silently lapsed" would be a
+faithful implementation of Swiss law, and would be wrong about Austria for the opposite reason.
