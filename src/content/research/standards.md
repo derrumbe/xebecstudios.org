@@ -409,7 +409,7 @@ function and names no way to perform it.
 
 Two assets fall out of work already done and verified:
 
-1. **A cross-jurisdiction role vocabulary.** 21 canonical ids that line up the same role across 24
+1. **A cross-jurisdiction role vocabulary.** 21 canonical ids that line up the same role across 26
    countries, each with a definition and pinpoint citations per jurisdiction. Every proposal above
    needs a way to say *what* authority is held; none supplies the terms. This is the gap the DADE
    paper's §8.2 calls "define the vocabulary".
