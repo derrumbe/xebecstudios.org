@@ -90,7 +90,9 @@
    "week",
    "month",
    "quarter",
-   "year"
+   "year",
+   "asap",
+   "unspecified"
   ],
   "privateActors": [
    "banks",
@@ -114,12 +116,14 @@
     "unknown": 0
    },
    "pushLatency": {
-    "days": 18,
-    "week": 8,
-    "month": 46,
+    "days": 29,
+    "week": 11,
+    "month": 54,
     "quarter": 9,
     "year": 9,
-    "none": 137
+    "asap": 6,
+    "unspecified": 93,
+    "none": 16
    }
   }
  },
@@ -398,7 +402,7 @@
    "level": "national",
    "layer": null,
    "steps": 13,
-   "citations": 21,
+   "citations": 23,
    "unverified": 1,
    "features": {
     "registrationDeadlineDays": 2,
@@ -428,7 +432,7 @@
    "level": "national",
    "layer": null,
    "steps": 17,
-   "citations": 26,
+   "citations": 27,
    "unverified": 0,
    "features": {
     "registrationDeadlineDays": 1,
@@ -670,7 +674,7 @@
    "level": "subnational",
    "layer": "ca-federal",
    "steps": 15,
-   "citations": 33,
+   "citations": 34,
    "unverified": 1,
    "features": {
     "centralPopulationRegister": false,
@@ -703,7 +707,7 @@
    "level": "subnational",
    "layer": "ca-federal",
    "steps": 14,
-   "citations": 28,
+   "citations": 29,
    "unverified": 0,
    "features": {
     "centralPopulationRegister": false,
@@ -824,7 +828,7 @@
    "level": "national",
    "layer": null,
    "steps": 18,
-   "citations": 29,
+   "citations": 31,
    "unverified": 0,
    "features": {
     "registrationDeadlineDays": 1,
@@ -883,7 +887,7 @@
    "level": "national",
    "layer": null,
    "steps": 21,
-   "citations": 35,
+   "citations": 37,
    "unverified": 1,
    "features": {
     "registrationDeadlineDays": 1,
@@ -1008,7 +1012,7 @@
    "level": "subnational",
    "layer": "uk-national",
    "steps": 17,
-   "citations": 24,
+   "citations": 25,
    "unverified": 2,
    "features": {
     "centralPopulationRegister": true,
@@ -1100,7 +1104,7 @@
    "level": "national",
    "layer": null,
    "steps": 17,
-   "citations": 29,
+   "citations": 31,
    "unverified": 1,
    "features": {
     "registrationDeadlineDays": 1,
@@ -1133,7 +1137,7 @@
    "level": "national",
    "layer": null,
    "steps": 19,
-   "citations": 37,
+   "citations": 39,
    "unverified": 0,
    "features": {
     "registrationDeadlineDays": 7,
@@ -1166,7 +1170,7 @@
    "level": "national",
    "layer": null,
    "steps": 16,
-   "citations": 29,
+   "citations": 30,
    "unverified": 0,
    "features": {
     "registrationDeadlineDays": 30,
@@ -1255,7 +1259,7 @@
    "level": "national",
    "layer": null,
    "steps": 14,
-   "citations": 26,
+   "citations": 27,
    "unverified": 2,
    "features": {
     "registrationDeadlineDays": 6,
@@ -2001,7 +2005,7 @@
    "level": "subnational",
    "layer": "us-federal",
    "steps": 15,
-   "citations": 20,
+   "citations": 21,
    "unverified": 0,
    "features": {
     "centralPopulationRegister": false,
@@ -2328,7 +2332,7 @@
    "level": "subnational",
    "layer": "us-federal",
    "steps": 18,
-   "citations": 26,
+   "citations": 27,
    "unverified": 0,
    "features": {
     "centralPopulationRegister": false,

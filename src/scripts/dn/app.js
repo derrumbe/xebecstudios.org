@@ -57,7 +57,7 @@
   const ADDITIVE = { privateSectorVerification: ['no', 'limited', 'yes'] };
   // How the death crosses an onward hop, and how soon a push arrives (research/SCHEMA.md).
   const DIRECTIONS = { push: 'pushed', pull: 'recipient must ask', family: 'only if the family acts', unknown: 'not recorded how' };
-  const LATENCIES = { days: 'within 2 days', week: 'within a week', month: 'within a month', quarter: 'within a quarter', year: 'within a year' };
+  const LATENCIES = { days: 'within 2 days', week: 'within a week', month: 'within a month', quarter: 'within a quarter', year: 'within a year', asap: 'as soon as practicable', unspecified: 'no cadence set in law' };
   const route = (s) => (s.needsFamily ? 'family' : s.direction);
   const DEADLINE_BINS = [[1, '1 day or less'], [3, '2–3 days'], [7, '4–7 days'], [14, '8–14 days'], [31, '15–31 days'], [Infinity, 'over a month']];
 
@@ -108,18 +108,22 @@
   }
 
   // ---------- hash ----------
+  // The hash holds only what differs from the defaults, so a plain visit keeps a plain URL
+  // (writing the defaults back made /research/death-notification/ look like a redirect).
+  const DEFAULTS = { tab: 'map', feature: 'governmentPropagation', jur: null };
   function readHash() {
     const p = new URLSearchParams(location.hash.slice(1));
-    if (p.get('j') && jMeta(p.get('j'))) state.jur = p.get('j');
-    if (p.get('t')) state.tab = p.get('t');
-    if (p.get('f') && FEATURES[p.get('f')]) state.feature = p.get('f');
+    state.jur = p.get('j') && jMeta(p.get('j')) ? p.get('j') : DEFAULTS.jur;
+    state.tab = p.get('t') || DEFAULTS.tab;
+    state.feature = p.get('f') && FEATURES[p.get('f')] ? p.get('f') : DEFAULTS.feature;
   }
   function writeHash() {
     const p = new URLSearchParams();
-    if (state.jur) p.set('j', state.jur);
-    p.set('t', state.tab);
-    if (state.tab === 'map') p.set('f', state.feature);
-    history.replaceState(null, '', '#' + p.toString());
+    if (state.jur && state.jur !== DEFAULTS.jur) p.set('j', state.jur);
+    if (state.tab !== DEFAULTS.tab) p.set('t', state.tab);
+    if (state.tab === 'map' && state.feature !== DEFAULTS.feature) p.set('f', state.feature);
+    const h = p.toString();
+    if (h !== location.hash.slice(1)) history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
   }
 
   // ---------- chrome ----------
@@ -469,9 +473,11 @@
       the tax authority in only ${tx.push.length}. ${pr.push.length} push deaths to a private recipient at all${pr.push.length ? ` (${esc(names(pr.push))})` : ''}, mostly through
       subscriptions or systematic supply from the population register. ${pr.pull.length} offer the private sector only a pull route; in
       ${pr.family.length} it learns only from the family${pr.none.length ? `, and ${pr.none.length} record no route to private bodies at all (${esc(names(pr.none))})` : ''}.</p>
-      <p class="muted small">A push here is a hop, and its cadence matters: ${T.pushLatency.month} of the ${Object.values(T.pushLatency).reduce((a, b) => a + b, 0)} pushes arrive in a monthly batch,
-      ${T.pushLatency.quarter + T.pushLatency.year} quarterly or yearly, ${T.pushLatency.week} within a week and ${T.pushLatency.days} within two days; the rest state no cadence
-      in what was recorded. A push that only happens because the family used Tell Us Once or Québec's simplified transmission is counted as the family's.</p>`;
+      <p class="muted small">A push here is a hop, and its cadence matters. Of the ${Object.values(T.pushLatency).reduce((a, b) => a + b, 0)} pushes,
+      ${T.pushLatency.days} arrive within two days and ${T.pushLatency.asap} "as soon as practicable"; ${T.pushLatency.week} within a week;
+      ${T.pushLatency.month} in a monthly batch; ${T.pushLatency.quarter + T.pushLatency.year} quarterly or yearly. For ${T.pushLatency.unspecified} the law
+      obliges the sender to pass the death on but sets no time at all${T.pushLatency.none ? `, and ${T.pushLatency.none} could not be established because their sources were unreachable` : ''}.
+      A push that only happens because the family used Tell Us Once or Québec's simplified transmission is counted as the family's.</p>`;
     h += '<h4>Who is sent the death, by jurisdiction</h4>';
     const row = (label, c) => `<div class="pp-row"><span class="l">${esc(label)}</span><span class="pp-bar">${
       ['push', 'pull', 'family', 'unknown', 'none'].map((k) => c[k].length ? `<span style="flex:${c[k].length};--o:${ROUTE_OP[k] ?? 0}" class="pp-${k}" title="${esc(`${ROUTE_LABEL[k] || 'no route recorded'}: ${names(c[k])}`)}">${c[k].length}</span>` : '').join('')}</span></div>`;
@@ -479,8 +485,9 @@
       <div class="map-legend">${['push', 'pull', 'family', 'unknown'].map((k) => `<span><i class="sw" style="--o:${ROUTE_OP[k]}"></i>${esc(ROUTE_LABEL[k])}</span>`).join('')}<span><i class="sw sw-null"></i>no route recorded</span></div>`;
     const lat = T.pushLatency, lt = Object.values(lat).reduce((a, b) => a + b, 0);
     h += `<h4>How soon a push arrives</h4><div class="bars">${
-      [['days', 'within 2 days'], ['week', 'within a week'], ['month', 'within a month'], ['quarter', 'within a quarter'], ['year', 'within a year'], ['none', 'no cadence recorded']]
-        .map(([k, l]) => bar(l, lat[k], lt, k === 'none' ? 0.1 : 0.95 - 0.15 * ['days', 'week', 'month', 'quarter', 'year'].indexOf(k), [])).join('')}</div></div>`;
+      [['days', 'within 2 days'], ['asap', 'as soon as practicable'], ['week', 'within a week'], ['month', 'within a month'], ['quarter', 'within a quarter'], ['year', 'within a year'], ['unspecified', 'law sets no cadence'], ['none', 'source could not be read']]
+        .filter(([k]) => lat[k] || k !== 'none')
+        .map(([k, l]) => bar(l, lat[k] || 0, lt, k === 'none' || k === 'unspecified' ? 0.1 : 0.95 - 0.13 * ['days', 'asap', 'week', 'month', 'quarter', 'year'].indexOf(k), [])).join('')}</div></div>`;
     return h;
   }
   function bar(label, n, total, op, js) {
@@ -515,7 +522,7 @@
     state.manifest = await getJSON('manifest.json');
     try { state.world = await getJSON('world.json'); } catch (e) { console.warn('no map geometry', e); }
     const first = state.manifest.jurisdictions.find((j) => j.id === 'uk-ew') || state.manifest.jurisdictions[0];
-    state.jur = first?.id;
+    DEFAULTS.jur = first?.id;
     readHash();
     renderPicker();
     root.querySelectorAll('.tabs [data-tab]').forEach((b) => b.onclick = () => { state.tab = b.dataset.tab; render(); });
