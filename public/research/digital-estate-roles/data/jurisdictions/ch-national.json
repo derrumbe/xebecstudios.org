@@ -1,0 +1,1666 @@
+{
+ "jurisdiction": "ch-national",
+ "name": "Switzerland",
+ "country": "ch",
+ "legalSystem": "civil law (ZGB 1907; adult protection law recast with effect from 1 January 2013)",
+ "note": "Swiss federal law assembles, for authority over a person and their property, the whole chain this reference records as missing almost everywhere. ZGB Art. 361(3) has the civil registry enter **that** a Vorsorgeauftrag exists and **where it is deposited**; Art. 363(1) obliges the adult protection authority, on learning that someone has become incapable of judgement, to “erkundigt sie sich beim Zivilstandsamt”; Art. 363(2) has it examine validity, whether the conditions for effectiveness have arisen and whether the agent is suitable; and Art. 363(3) has it hand the agent “eine Urkunde … die ihre Befugnisse wiedergibt”. Art. 449c then pushes the result outward: the authority must notify the civil registry, the municipality, the debt collection office and others **unverzüglich** once its decision is enforceable, and among the notifiable facts is that a Vorsorgeauftrag has become effective for a person with lasting incapacity.\n\nThe register is a **discovery index rather than the source of the authority**, which is the opposite of Austria: registration is on application (Art. 361(3), ZStV Art. 23a), records only the fact and the deposit location, and the mandate is created by handwriting or public deed. And where Austria closes its register to counterparties, Switzerland leaves them a door: ZGB Art. 43a(2) has the Federal Council regulate disclosure “an Private, die ein unmittelbares schutzwürdiges Interesse nachweisen können”, and ZStV Art. 59 implements it — private parties who show a direct and legitimate interest are given civil status data where obtaining it from the person concerned is impossible or manifestly unreasonable, which is the situation of a bank or a platform facing an account holder who has lost capacity.\n\nThe patient directive runs the same design on different hardware. Art. 371(2) puts the fact and the deposit location on the holder's **insurance card**; Art. 372(1) obliges the attending physician to establish from that card whether a directive exists, urgent cases excepted; and Art. 372(3) obliges them to record in the patient file the reasons for not following it. A duty to consult, and a routed refusal with a written reason, imposed on the relying party.\n\n**Organ donation is where Switzerland is not what it looks like.** The Transplantation Act in force is the consolidation of 1 February 2021 and runs on extended explicit consent: removal requires the deceased's consent, and Art. 8(4) makes it inadmissible where no next of kin exist or can be reached. The Widerspruchsmodell — Art. 8(1)(b) as amended, “die Person vor ihrem Tod der Entnahme nicht widersprochen hat” — was adopted by the Federal Assembly on 1 October 2021 and **approved by popular vote on 15 May 2022 by 1,319,276 to 872,119**, and is still not in force. It leaves commencement to the Federal Council (“Der Bundesrat bestimmt das Inkrafttreten”), no date has been set, there is no Amtliche Sammlung publication of it and no consolidation carries it. A later amendment of 29 September 2023 commenced only its consequential changes to three other acts on 1 August 2025 and states that “die übrigen Bestimmungen werden zu einem späteren Zeitpunkt in Kraft gesetzt”; it also carries a coordination clause drafted for whichever of the two amendments commences first, so neither has.\n\nTwo carve-outs. **Disposition of remains is cantonal**, as in Germany and Austria, so no federal provision says who decides and no role is recorded: the ZGB does not use the word Bestattung at all. And there is **no digital-assets statute** — a claim scoped to the acts read here (ZGB, ZStV, Transplantationsgesetz, DSG, ATSG) rather than to the statute book, because Fedlex offers no full-text search this session could reach: its public site is an Angular shell and the official SPARQL endpoint holds metadata, not article text.",
+ "citations": [
+  {
+   "id": "ch-zgb-360",
+   "cite": "ZGB Art. 360",
+   "title": "Vorsorgeauftrag: Grundsatz",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Eine handlungsfähige Person kann eine natürliche oder juristische Person beauftragen, im Fall ihrer Urteilsunfähigkeit die Personensorge oder die Vermögenssorge zu übernehmen oder sie im Rechtsverkehr zu vertreten.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-361",
+   "cite": "ZGB Art. 361",
+   "title": "Errichtung; Eintrag in die zentrale Datenbank",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Der Vorsorgeauftrag ist eigenhändig zu errichten oder öffentlich zu beurkunden. … Das Zivilstandsamt trägt auf Antrag die Tatsache, dass eine Person einen Vorsorgeauftrag errichtet hat, und den Hinterlegungsort in die zentrale Datenbank ein.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-362",
+   "cite": "ZGB Art. 362",
+   "title": "Widerruf",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Die auftraggebende Person kann ihren Vorsorgeauftrag jederzeit in einer der Formen widerrufen, die für die Errichtung vorgeschrieben sind.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-363",
+   "cite": "ZGB Art. 363",
+   "title": "Feststellung der Wirksamkeit und Annahme",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Erfährt die Erwachsenenschutzbehörde, dass eine Person urteilsunfähig geworden ist, und ist ihr nicht bekannt, ob ein Vorsorgeauftrag vorliegt, so erkundigt sie sich beim Zivilstandsamt.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-363-3",
+   "cite": "ZGB Art. 363 Abs. 3",
+   "title": "Aushändigung einer Urkunde über die Befugnisse",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Nimmt die beauftragte Person den Vorsorgeauftrag an, so weist die Behörde sie auf ihre Pflichten nach den Bestimmungen des Obligationenrechts … über den Auftrag hin und händigt ihr eine Urkunde aus, die ihre Befugnisse wiedergibt.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-369",
+   "cite": "ZGB Art. 369",
+   "title": "Wiedererlangen der Urteilsfähigkeit",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Wird die auftraggebende Person wieder urteilsfähig, so verliert der Vorsorgeauftrag seine Wirksamkeit von Gesetzes wegen. … Aus Geschäften, welche die beauftragte Person vornimmt, bevor sie vom Erlöschen ihres Auftrags erfährt, wird die auftraggebende Person verpflichtet, wie wenn der Auftrag noch bestehen würde.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-370",
+   "cite": "ZGB Art. 370",
+   "title": "Patientenverfügung: Grundsatz",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Eine urteilsfähige Person kann in einer Patientenverfügung festlegen, welchen medizinischen Massnahmen sie im Fall ihrer Urteilsunfähigkeit zustimmt oder nicht zustimmt.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-371",
+   "cite": "ZGB Art. 371",
+   "title": "Errichtung; Eintrag auf der Versichertenkarte",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Wer eine Patientenverfügung errichtet hat, kann diese Tatsache und den Hinterlegungsort auf der Versichertenkarte eintragen lassen.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-372",
+   "cite": "ZGB Art. 372",
+   "title": "Eintritt der Urteilsunfähigkeit",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Ist die Patientin oder der Patient urteilsunfähig und ist nicht bekannt, ob eine Patientenverfügung vorliegt, so klärt die behandelnde Ärztin oder der behandelnde Arzt dies anhand der Versichertenkarte ab. Vorbehalten bleiben dringliche Fälle.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-372-3",
+   "cite": "ZGB Art. 372 Abs. 3",
+   "title": "Begründung im Patientendossier",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Die Ärztin oder der Arzt hält im Patientendossier fest, aus welchen Gründen der Patientenverfügung nicht entsprochen wird.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-373",
+   "cite": "ZGB Art. 373",
+   "title": "Einschreiten der Erwachsenenschutzbehörde",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Jede der Patientin oder dem Patienten nahestehende Person kann schriftlich die Erwachsenenschutzbehörde anrufen",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-374",
+   "cite": "ZGB Art. 374",
+   "title": "Vertretung durch den Ehegatten oder die eingetragene Partnerin",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "hat von Gesetzes wegen ein Vertretungsrecht, wenn weder ein Vorsorgeauftrag noch eine entsprechende Beistandschaft besteht",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-374-3",
+   "cite": "ZGB Art. 374 Abs. 3",
+   "title": "Zustimmung der Behörde für die ausserordentliche Vermögensverwaltung",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Für Rechtshandlungen im Rahmen der ausserordentlichen Vermögensverwaltung muss der Ehegatte, die eingetragene Partnerin oder der eingetragene Partner die Zustimmung der Erwachsenenschutzbehörde einholen.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-377",
+   "cite": "ZGB Art. 377",
+   "title": "Behandlungsplan",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Hat sich eine urteilsunfähige Person zur Behandlung nicht in einer Patientenverfügung geäussert, so plant die behandelnde Ärztin oder der behandelnde Arzt unter Beizug der zur Vertretung bei medizinischen Massnahmen berechtigten Person die erforderliche Behandlung.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-378",
+   "cite": "ZGB Art. 378",
+   "title": "Vertretungsberechtigte Person: die Reihenfolge",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Die folgenden Personen sind der Reihe nach berechtigt, die urteilsunfähige Person zu vertreten und den vorgesehenen ambulanten oder stationären Massnahmen die Zustimmung zu erteilen oder zu verweigern",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-378-2",
+   "cite": "ZGB Art. 378 Abs. 2",
+   "title": "Gutglaubensschutz der Ärztin oder des Arztes",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Sind mehrere Personen vertretungsberechtigt, so dürfen die gutgläubige Ärztin oder der gutgläubige Arzt voraussetzen, dass jede im Einverständnis mit den anderen handelt.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-379",
+   "cite": "ZGB Art. 379",
+   "title": "Dringliche Fälle",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "In dringlichen Fällen ergreift die Ärztin oder der Arzt medizinische Massnahmen nach dem mutmasslichen Willen und den Interessen der urteilsunfähigen Person.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-390",
+   "cite": "ZGB Art. 390",
+   "title": "Errichtung einer Beistandschaft",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "wegen vorübergehender Urteilsunfähigkeit oder Abwesenheit in Angelegenheiten, die erledigt werden müssen, weder selber handeln kann noch eine zur Stellvertretung berechtigte Person bezeichnet hat",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-394",
+   "cite": "ZGB Art. 394",
+   "title": "Vertretungsbeistandschaft",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Eine Vertretungsbeistandschaft wird errichtet, wenn die hilfsbedürftige Person bestimmte Angelegenheiten nicht erledigen kann und deshalb vertreten werden muss. … Die Erwachsenenschutzbehörde kann die Handlungsfähigkeit der betroffenen Person entsprechend einschränken.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-395",
+   "cite": "ZGB Art. 395",
+   "title": "Vermögensverwaltung: Umfang",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Errichtet die Erwachsenenschutzbehörde eine Vertretungsbeistandschaft für die Vermögensverwaltung, so bestimmt sie die Vermögenswerte, die vom Beistand oder von der Beiständin verwaltet werden sollen.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-398",
+   "cite": "ZGB Art. 398",
+   "title": "Umfassende Beistandschaft",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Sie bezieht sich auf alle Angelegenheiten der Personensorge, der Vermögenssorge und des Rechtsverkehrs. … Die Handlungsfähigkeit der betroffenen Person entfällt von Gesetzes wegen.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-43a",
+   "cite": "ZGB Art. 43a Abs. 2",
+   "title": "Bekanntgabe von Personenstandsdaten an Private",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Er regelt die Bekanntgabe von Daten an Private, die ein unmittelbares schutzwürdiges Interesse nachweisen können.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-449c",
+   "cite": "ZGB Art. 449c",
+   "title": "Mitteilungspflichten der Erwachsenenschutzbehörde",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Die Erwachsenenschutzbehörde teilt unverzüglich folgenden Behörden ihre Entscheide betreffend die Anordnung, Änderung oder Aufhebung von Massnahmen mit, sobald diese vollstreckbar geworden sind",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-517",
+   "cite": "ZGB Art. 517",
+   "title": "Willensvollstrecker: Erteilung des Auftrages",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "sie haben sich binnen 14 Tagen, von dieser Mitteilung an gerechnet, über die Annahme des Auftrages zu erklären, wobei ihr Stillschweigen als Annahme gilt",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-518",
+   "cite": "ZGB Art. 518",
+   "title": "Willensvollstrecker: Inhalt des Auftrages",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Die Willensvollstrecker stehen, soweit der Erblasser nichts anderes verfügt, in den Rechten und Pflichten des amtlichen Erbschaftsverwalters.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-554",
+   "cite": "ZGB Art. 554",
+   "title": "Erbschaftsverwaltung",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Stand die verstorbene Person unter einer Beistandschaft, welche die Vermögensverwaltung umfasst, so obliegt dem Beistand auch die Erbschaftsverwaltung, sofern nichts anderes angeordnet wird.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-559",
+   "cite": "ZGB Art. 559",
+   "title": "Erbbescheinigung",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "wird den eingesetzten Erben, wenn die gesetzlichen Erben oder die aus einer früheren Verfügung Bedachten nicht ausdrücklich deren Berechtigung bestritten haben, auf ihr Verlangen von der Behörde eine Bescheinigung darüber ausgestellt, dass sie unter Vorbehalt der Ungültigkeitsklage und der Erbschaftsklage als Erben anerkannt seien",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-560",
+   "cite": "ZGB Art. 560",
+   "title": "Erwerb der Erbschaft von Gesetzes wegen",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Die Erben erwerben die Erbschaft als Ganzes mit dem Tode des Erblassers kraft Gesetzes. … gehen die Forderungen, das Eigentum, die beschränkten dinglichen Rechte und der Besitz des Erblassers ohne weiteres auf sie über, und die Schulden des Erblassers werden zu persönlichen Schulden der Erben.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zgb-602",
+   "cite": "ZGB Art. 602",
+   "title": "Erbengemeinschaft",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Sie werden Gesamteigentümer der Erbschaftsgegenstände und verfügen unter Vorbehalt der vertraglichen oder gesetzlichen Vertretungs- und Verwaltungsbefugnisse über die Rechte der Erbschaft gemeinsam.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+  },
+  {
+   "id": "ch-zstv-23a",
+   "cite": "ZStV Art. 23a",
+   "title": "Vorsorgeauftrag: Zuständigkeit jedes Zivilstandsamts",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Jedes Zivilstandsamt ist auf Antrag zuständig für: a. die Eintragung der Tatsache, dass ein Vorsorgeauftrag errichtet worden ist, und des Hinterlegungsorts",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2004/362/de"
+  },
+  {
+   "id": "ch-zstv-59",
+   "cite": "ZStV Art. 59",
+   "title": "Bekanntgabe an Private",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Privaten, die ein unmittelbares und schutzwürdiges Interesse nachweisen, werden Personenstandsdaten bekannt gegeben, wenn die Beschaffung bei den direkt betroffenen Personen nicht möglich oder offensichtlich nicht zumutbar ist.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2004/362/de"
+  },
+  {
+   "id": "ch-txg-8",
+   "cite": "TxG Art. 8",
+   "title": "Voraussetzungen der Entnahme (Fassung in Kraft)",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Organe, Gewebe oder Zellen dürfen einer verstorbenen Person entnommen werden, wenn: a. sie vor ihrem Tod einer Entnahme zugestimmt hat; b. der Tod festgestellt worden ist.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
+  },
+  {
+   "id": "ch-txg-8-4",
+   "cite": "TxG Art. 8 Abs. 4",
+   "title": "Keine erreichbaren Angehörigen: Entnahme unzulässig",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Sind keine nächsten Angehörigen vorhanden oder erreichbar, so ist die Entnahme unzulässig.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
+  },
+  {
+   "id": "ch-txg-8-6",
+   "cite": "TxG Art. 8 Abs. 6",
+   "title": "Person des Vertrauens",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Hat die verstorbene Person die Entscheidung über eine Entnahme von Organen, Geweben oder Zellen nachweisbar einer Person ihres Vertrauens übertragen, so tritt diese an die Stelle der nächsten Angehörigen.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
+  },
+  {
+   "id": "ch-bbl-2021-2328-art8",
+   "cite": "BBl 2021 2328, Änderung vom 1. Oktober 2021, Art. 8",
+   "title": "Widerspruchsmodell as adopted",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Organe, Gewebe oder Zellen dürfen einer verstorbenen Person entnommen werden, wenn: a. der Tod der Person festgestellt worden ist; b. die Person vor ihrem Tod der Entnahme nicht widersprochen hat.",
+   "url": "https://www.fedlex.admin.ch/eli/fga/2021/2328/de"
+  },
+  {
+   "id": "ch-bbl-2021-2328-inkraft",
+   "cite": "BBl 2021 2328, Änderung vom 1. Oktober 2021, Ziff. IV",
+   "title": "Commencement left to the Federal Council",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Der Bundesrat bestimmt das Inkrafttreten.",
+   "url": "https://www.fedlex.admin.ch/eli/fga/2021/2328/de"
+  },
+  {
+   "id": "ch-bbl-2022-2010",
+   "cite": "BBl 2022 2010, Bundesratsbeschluss vom 18. August 2022",
+   "title": "Result of the popular vote of 15 May 2022",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Die Änderung ist vom Volk mit 1 319 276 Ja gegen 872 119 Nein angenommen worden",
+   "url": "https://www.fedlex.admin.ch/eli/fga/2022/2010/de"
+  },
+  {
+   "id": "ch-as-2025-421",
+   "cite": "AS 2025 421, Änderung vom 29. September 2023",
+   "title": "Partial commencement; the rest at a later date",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Die übrigen Bestimmungen werden zu einem späteren Zeitpunkt in Kraft gesetzt.",
+   "url": "https://www.fedlex.admin.ch/eli/oc/2025/421/de"
+  },
+  {
+   "id": "ch-dsg-1",
+   "cite": "DSG Art. 1",
+   "title": "Zweck: natürliche Personen",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Dieses Gesetz bezweckt den Schutz der Persönlichkeit und der Grundrechte von natürlichen Personen, über die Personendaten bearbeitet werden.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/de"
+  },
+  {
+   "id": "ch-atsg-20",
+   "cite": "ATSG Art. 20",
+   "title": "Gewährleistung zweckgemässer Verwendung",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Geldleistungen können ganz oder teilweise einem geeigneten Dritten oder einer Behörde ausbezahlt werden, der oder die der berechtigten Person gegenüber gesetzlich oder sittlich unterstützungspflichtig ist oder diese dauernd fürsorgerisch betreut",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de"
+  },
+  {
+   "id": "ch-atsg-37",
+   "cite": "ATSG Art. 37",
+   "title": "Vertretung und Verbeiständung",
+   "kind": "statute",
+   "retrieved": "2026-10-28",
+   "quote": "Solange die Partei die Vollmacht nicht widerruft, macht der Versicherungsträger seine Mitteilungen an die Vertretung.",
+   "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de"
+  }
+ ],
+ "roles": [
+  {
+   "id": "ch-vorsorgeauftrag",
+   "canonical": "financial-poa-springing",
+   "group": "financial",
+   "name": "Beauftragte Person unter einem Vorsorgeauftrag",
+   "localNames": [
+    "Vorsorgeauftrag",
+    "beauftragte Person"
+   ],
+   "summary": "An agent appointed in advance to take over personal care, property care or representation in legal transactions if the principal loses capacity of judgement. The authority does not start on the loss of capacity itself: the adult protection authority must first establish that the mandate is valid and that the conditions for its effectiveness have arisen, and it then hands the agent a document setting out their powers.",
+   "lane": {
+    "assigned": {
+     "event": "Principal, while capable of acting, executes the Vorsorgeauftrag either entirely in their own hand (written, dated, signed) or as a public deed; the fact that one exists and where it is deposited may be entered in the central civil status database on application",
+     "phase": "capable",
+     "citations": [
+      "ch-zgb-360",
+      "ch-zgb-361",
+      "ch-zstv-23a"
+     ]
+    },
+    "starts": {
+     "event": "The adult protection authority establishes the mandate's effectiveness — it examines validity, whether the conditions for effectiveness have arisen and whether the agent is suitable — and on acceptance hands the agent a document reproducing their powers",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-zgb-363",
+      "ch-zgb-363-3"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Principal regains capacity of judgement: the mandate loses effect by operation of law, though the agent must carry on where stopping would endanger the principal's interests, and acts done before the agent learns of the lapse still bind the principal",
+      "phase": "capable",
+      "citations": [
+       "ch-zgb-369"
+      ]
+     },
+     {
+      "event": "Revocation by the principal, in either of the forms prescribed for execution",
+      "phase": "capable",
+      "citations": [
+       "ch-zgb-362"
+      ]
+     },
+     {
+      "event": "Death of the principal",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-560"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No Vorsorgeauftrag"
+     },
+     {
+      "id": "executed",
+      "label": "Executed; deposited, perhaps registered"
+     },
+     {
+      "id": "validated",
+      "label": "Authority has established effectiveness; Urkunde issued"
+     },
+     {
+      "id": "lapsed",
+      "label": "Lapsed by law on recovery of capacity"
+     },
+     {
+      "id": "ended",
+      "label": "Ended by revocation or death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-vo-1",
+      "from": "none",
+      "to": "executed",
+      "event": "Execution by hand or public deed (Art. 361)",
+      "citations": [
+       "ch-zgb-361"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vo-2",
+      "from": "executed",
+      "to": "validated",
+      "event": "Authority establishes effectiveness and issues the Urkunde (Art. 363)",
+      "citations": [
+       "ch-zgb-363",
+       "ch-zgb-363-3"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vo-3",
+      "from": "validated",
+      "to": "lapsed",
+      "event": "Principal regains capacity: effect ends by law (Art. 369)",
+      "citations": [
+       "ch-zgb-369"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vo-4",
+      "from": "lapsed",
+      "to": "validated",
+      "event": "Capacity lost again: the authority establishes effectiveness afresh (Art. 363)",
+      "citations": [
+       "ch-zgb-363"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vo-5",
+      "from": "executed",
+      "to": "ended",
+      "event": "Revocation (Art. 362)",
+      "citations": [
+       "ch-zgb-362"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vo-6",
+      "from": "validated",
+      "to": "ended",
+      "event": "Revocation or death",
+      "citations": [
+       "ch-zgb-362",
+       "ch-zgb-560"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "citations": [
+    "ch-zgb-43a",
+    "ch-zstv-59"
+   ],
+   "notes": [
+    "Art. 369(3) is the third-party rule a protocol has to reckon with: the mandate ends by operation of law the moment capacity returns, but acts the agent does before learning of that still bind the principal. The authority that issued the Urkunde is not obliged to take it back, and nothing on its face says it has lapsed."
+   ]
+  },
+  {
+   "id": "ch-patientenverfuegung-vertreter",
+   "canonical": "health-care-agent",
+   "group": "health",
+   "name": "In einer Patientenverfügung bezeichnete Person",
+   "localNames": [
+    "Patientenverfügung",
+    "bezeichnete Person"
+   ],
+   "summary": "A person named in a patient directive to discuss medical measures with the attending physician and decide in the patient's name. The directive needs only writing, a date and a signature; its existence and deposit location may be noted on the holder's insurance card, and the physician must check that card when a patient lacks capacity and it is not known whether a directive exists.",
+   "lane": {
+    "assigned": {
+     "event": "Person capable of judgement executes a written, dated and signed Patientenverfügung naming the person; the fact and deposit location may be entered on the insurance card",
+     "phase": "capable",
+     "citations": [
+      "ch-zgb-370",
+      "ch-zgb-371"
+     ]
+    },
+    "starts": {
+     "event": "The patient loses capacity of judgement; the attending physician establishes whether a directive exists from the insurance card, urgent cases excepted, and the named person ranks first among those entitled to consent",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-zgb-372",
+      "ch-zgb-378"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Patient regains capacity of judgement",
+      "phase": "capable",
+      "citations": [
+       "ch-zgb-370"
+      ]
+     },
+     {
+      "event": "Revocation, to which the rule on revoking a Vorsorgeauftrag applies by analogy",
+      "phase": "capable",
+      "citations": [
+       "ch-zgb-371"
+      ]
+     },
+     {
+      "event": "Death of the patient",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-560"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No Patientenverfügung"
+     },
+     {
+      "id": "executed",
+      "label": "Executed; perhaps noted on the insurance card"
+     },
+     {
+      "id": "active",
+      "label": "Patient lacks capacity: named person decides"
+     },
+     {
+      "id": "ended",
+      "label": "Ended by recovery, revocation or death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-pv-1",
+      "from": "none",
+      "to": "executed",
+      "event": "Written, dated, signed (Art. 371)",
+      "citations": [
+       "ch-zgb-371"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-pv-2",
+      "from": "executed",
+      "to": "active",
+      "event": "Loss of capacity; physician checks the insurance card (Art. 372)",
+      "citations": [
+       "ch-zgb-372",
+       "ch-zgb-378"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-pv-3",
+      "from": "active",
+      "to": "executed",
+      "event": "Patient regains capacity",
+      "citations": [
+       "ch-zgb-370"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-pv-4",
+      "from": "active",
+      "to": "ended",
+      "event": "Revocation or death",
+      "citations": [
+       "ch-zgb-371",
+       "ch-zgb-560"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-pv-5",
+      "from": "executed",
+      "to": "ended",
+      "event": "Revocation or death",
+      "citations": [
+       "ch-zgb-371",
+       "ch-zgb-560"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "citations": [
+    "ch-zgb-372-3",
+    "ch-zgb-373"
+   ],
+   "notes": [
+    "Art. 372(2)-(3) make this the only role in this reference whose relying party must give reasons for not honouring the instrument, and must put them in the patient's file: the physician follows the directive unless it breaks the law or there is well-founded doubt that it rests on free will or still matches the patient's presumed wishes, and records why not. Art. 373 then lets any person close to the patient call in the adult protection authority."
+   ]
+  },
+  {
+   "id": "ch-ehegattenvertretung",
+   "canonical": "default-surrogate",
+   "group": "financial",
+   "name": "Vertretungsberechtigter Ehegatte oder eingetragener Partner",
+   "localNames": [
+    "Vertretung durch den Ehegatten",
+    "eingetragene Partnerin oder eingetragener Partner"
+   ],
+   "summary": "A spouse or registered partner who lives in the same household as the person who loses capacity, or regularly and personally supports them, has a statutory right of representation — but only where there is neither a Vorsorgeauftrag nor a corresponding Beistandschaft. It covers what maintenance ordinarily requires, ordinary administration of income and assets, and where necessary opening the post.",
+   "lane": {
+    "assigned": {
+     "event": "No assignment: the right arises from the statute itself, conditioned on a shared household or regular personal support",
+     "phase": "capable",
+     "citations": [
+      "ch-zgb-374"
+     ]
+    },
+    "starts": {
+     "event": "The spouse's own loss of capacity of judgement, and only if no Vorsorgeauftrag and no corresponding Beistandschaft exists",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-zgb-374"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Recovery of capacity of judgement",
+      "phase": "capable",
+      "citations": [
+       "ch-zgb-374"
+      ]
+     },
+     {
+      "event": "A Vorsorgeauftrag taking effect, or the authority establishing a Beistandschaft, which displaces the statutory right",
+      "phase": "incapacitated",
+      "citations": [
+       "ch-zgb-374",
+       "ch-zgb-390"
+      ]
+     },
+     {
+      "event": "Death of the represented person",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-560"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "dormant",
+      "label": "Married or registered; no representation"
+     },
+     {
+      "id": "active",
+      "label": "Statutory representation in force"
+     },
+     {
+      "id": "displaced",
+      "label": "Displaced by a mandate or a Beistandschaft"
+     },
+     {
+      "id": "ended",
+      "label": "Ended by recovery or death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-eh-1",
+      "from": "dormant",
+      "to": "active",
+      "event": "Loss of capacity, no mandate and no Beistandschaft (Art. 374)",
+      "citations": [
+       "ch-zgb-374"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-eh-2",
+      "from": "active",
+      "to": "displaced",
+      "event": "Vorsorgeauftrag takes effect or a Beistandschaft is established",
+      "citations": [
+       "ch-zgb-374",
+       "ch-zgb-390"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-eh-3",
+      "from": "active",
+      "to": "ended",
+      "event": "Recovery of capacity or death",
+      "citations": [
+       "ch-zgb-374",
+       "ch-zgb-560"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "citations": [
+    "ch-zgb-374-3"
+   ],
+   "notes": [
+    "Extraordinary asset management is carved out: for those transactions the spouse must obtain the adult protection authority's consent (Art. 374(3)). So the same person holds authority whose scope a counterparty cannot read off any artefact — there is none — and which changes with the character of the transaction rather than with any event."
+   ]
+  },
+  {
+   "id": "ch-vertretung-medizinisch",
+   "canonical": "default-surrogate",
+   "group": "health",
+   "name": "Bei medizinischen Massnahmen vertretungsberechtigte Person",
+   "localNames": [
+    "vertretungsberechtigte Person",
+    "Vertretung bei medizinischen Massnahmen"
+   ],
+   "summary": "Where a person incapable of judgement has left no patient directive, the statute ranks seven classes of person who may consent to or refuse medical measures, in order: the person named in a directive or mandate, a Beistand with a representation right in medical matters, a cohabiting spouse or registered partner, a cohabiting partner, descendants, parents, then siblings.",
+   "lane": {
+    "assigned": {
+     "event": "No assignment: the order is statutory. For every class below the appointed ones it is conditioned on actually providing regular and personal support, not on relationship alone",
+     "phase": "capable",
+     "citations": [
+      "ch-zgb-378"
+     ]
+    },
+    "starts": {
+     "event": "Loss of capacity of judgement, at which point the attending physician plans treatment together with the person entitled to represent",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-zgb-377",
+      "ch-zgb-378"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Recovery of capacity of judgement",
+      "phase": "capable",
+      "citations": [
+       "ch-zgb-377"
+      ]
+     },
+     {
+      "event": "Death of the patient",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-560"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "dormant",
+      "label": "Patient capable: no representation"
+     },
+     {
+      "id": "active",
+      "label": "Highest-ranking class decides"
+     },
+     {
+      "id": "urgent",
+      "label": "Urgent case: physician acts on presumed will"
+     },
+     {
+      "id": "ended",
+      "label": "Ended by recovery or death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-vm-1",
+      "from": "dormant",
+      "to": "active",
+      "event": "Loss of capacity, no directive (Art. 377, 378)",
+      "citations": [
+       "ch-zgb-377",
+       "ch-zgb-378"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vm-2",
+      "from": "dormant",
+      "to": "urgent",
+      "event": "Urgent case (Art. 379)",
+      "citations": [
+       "ch-zgb-379"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vm-3",
+      "from": "urgent",
+      "to": "active",
+      "event": "Urgency passes",
+      "citations": [
+       "ch-zgb-379"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vm-4",
+      "from": "active",
+      "to": "ended",
+      "event": "Recovery of capacity or death",
+      "citations": [
+       "ch-zgb-377",
+       "ch-zgb-560"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "citations": [
+    "ch-zgb-378-2",
+    "ch-zgb-379"
+   ],
+   "notes": [
+    "Two mechanics worth a protocol's attention. The cascade conditions relatives on \"regelmässig und persönlich Beistand\" — a functional test the relying party cannot verify from a register. And Art. 378(2) solves the multiple-claimant problem by presumption rather than by proof: a physician in good faith may assume that each of several entitled persons acts with the others' agreement."
+   ]
+  },
+  {
+   "id": "ch-vertretungsbeistand-vermoegen",
+   "canonical": "conservator-estate",
+   "group": "court",
+   "name": "Beistand mit Vertretungsbeistandschaft für die Vermögensverwaltung",
+   "localNames": [
+    "Vertretungsbeistandschaft",
+    "Beistand",
+    "Beiständin"
+   ],
+   "summary": "A deputy appointed by the adult protection authority to represent a person in specified matters, where asset management is one of them. The authority names which assets fall under management, and may restrict the person's own capacity to act accordingly — or withdraw access to particular assets without restricting capacity at all.",
+   "lane": {
+    "assigned": {
+     "event": "The adult protection authority establishes the Beistandschaft, on the application of the person concerned or someone close to them or of its own motion, where an incapacity or a comparable state of weakness means their affairs cannot be managed",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-zgb-390",
+      "ch-zgb-394"
+     ]
+    },
+    "starts": {
+     "event": "The appointment, whose scope over income and assets the authority fixes in the order itself",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-zgb-394",
+      "ch-zgb-395"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The authority lifts the measure; the decision is notified to the civil registry, the municipality, the debt collection office and other named authorities as soon as it is enforceable",
+      "phase": "capable",
+      "citations": [
+       "ch-zgb-449c"
+      ]
+     },
+     {
+      "event": "Death of the person — but where the Beistandschaft covered asset management, the same Beistand takes on the administration of the estate unless otherwise ordered",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-554"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Beistandschaft in force"
+     },
+     {
+      "id": "estate",
+      "label": "Continues as administrator of the estate"
+     },
+     {
+      "id": "ended",
+      "label": "Lifted or ended on death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-vb-1",
+      "from": "none",
+      "to": "active",
+      "event": "Authority establishes the Beistandschaft (Art. 390, 394)",
+      "citations": [
+       "ch-zgb-390",
+       "ch-zgb-394"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vb-2",
+      "from": "active",
+      "to": "ended",
+      "event": "Authority lifts the measure; notification follows (Art. 449c)",
+      "citations": [
+       "ch-zgb-449c"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vb-3",
+      "from": "active",
+      "to": "estate",
+      "event": "Death, where asset management was covered (Art. 554(3))",
+      "citations": [
+       "ch-zgb-554"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    "Art. 554(3) is the only provision in this reference that carries a living person's fiduciary across death into the estate by default: where the deceased was under a Beistandschaft covering asset management, that Beistand also has the Erbschaftsverwaltung unless something else is ordered. Authority does not stop and restart; it changes subject."
+   ]
+  },
+  {
+   "id": "ch-umfassender-beistand",
+   "canonical": "guardian-person",
+   "group": "court",
+   "name": "Beistand mit umfassender Beistandschaft",
+   "localNames": [
+    "umfassende Beistandschaft"
+   ],
+   "summary": "The deepest measure: a comprehensive deputyship established where a person is particularly in need of help, notably through lasting incapacity of judgement. It covers all matters of personal care, property care and legal transactions, and the person's capacity to act lapses by operation of law.",
+   "lane": {
+    "assigned": {
+     "event": "The adult protection authority establishes a comprehensive Beistandschaft where a person is particularly in need of help, notably through lasting incapacity of judgement",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-zgb-390",
+      "ch-zgb-398"
+     ]
+    },
+    "starts": {
+     "event": "The appointment; the represented person's capacity to act lapses by operation of law",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-zgb-398"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The authority lifts the measure, which it must notify to the civil registry office among others as soon as the decision is enforceable",
+      "phase": "capable",
+      "citations": [
+       "ch-zgb-449c"
+      ]
+     },
+     {
+      "event": "Death of the person",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-560"
+      ]
+     }
+    ],
+    "activePhases": [
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No measure"
+     },
+     {
+      "id": "active",
+      "label": "Comprehensive Beistandschaft; capacity lapsed"
+     },
+     {
+      "id": "ended",
+      "label": "Lifted or ended on death"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-ub-1",
+      "from": "none",
+      "to": "active",
+      "event": "Authority establishes the measure (Art. 398)",
+      "citations": [
+       "ch-zgb-398"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-ub-2",
+      "from": "active",
+      "to": "ended",
+      "event": "Measure lifted, with notification (Art. 449c), or death",
+      "citations": [
+       "ch-zgb-449c",
+       "ch-zgb-560"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    "This is the one measure whose existence reaches a public register as a matter of course: Art. 449c(1)(1) requires the authority to notify the civil status office when it places a person under comprehensive Beistandschaft, and the same provision requires notification when a Vorsorgeauftrag becomes effective for a person with lasting incapacity."
+   ]
+  },
+  {
+   "id": "ch-erbe",
+   "canonical": "universal-successor-heir",
+   "group": "estate",
+   "name": "Erbe",
+   "localNames": [
+    "Erbe",
+    "Erbengemeinschaft"
+   ],
+   "summary": "Heirs acquire the estate as a whole at the moment of death by operation of law: claims, ownership, limited real rights and possession pass without more, and the deceased's debts become the heirs' personal debts. Where there are several, they hold the estate in an undivided community and must dispose of its rights jointly until it is divided.",
+   "lane": {
+    "assigned": {
+     "event": "By law or by testamentary disposition — no appointment, and no grant",
+     "phase": "capable",
+     "citations": [
+      "ch-zgb-560"
+     ]
+    },
+    "starts": {
+     "event": "The death itself: acquisition is by operation of law at that moment",
+     "phase": "deceased",
+     "citations": [
+      "ch-zgb-560"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Division of the estate, which ends the community of heirs",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-602"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "prospective",
+      "label": "Heir apparent, testator alive"
+     },
+     {
+      "id": "vested",
+      "label": "Estate acquired by law at death"
+     },
+     {
+      "id": "community",
+      "label": "Undivided community of heirs, disposing jointly"
+     },
+     {
+      "id": "divided",
+      "label": "Estate divided"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-er-1",
+      "from": "prospective",
+      "to": "vested",
+      "event": "Death: acquisition by operation of law (Art. 560)",
+      "citations": [
+       "ch-zgb-560"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-er-2",
+      "from": "vested",
+      "to": "community",
+      "event": "Several heirs: undivided community (Art. 602)",
+      "citations": [
+       "ch-zgb-602"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-er-3",
+      "from": "community",
+      "to": "divided",
+      "event": "Division of the estate",
+      "citations": [
+       "ch-zgb-602"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    "Switzerland is the clean case of the model Austria breaks: nothing has to be issued and nothing has to be asked for. An Erbbescheinigung is available to instituted heirs on request once a month has passed without the legal heirs contesting their entitlement, but it confirms a title that already exists and is expressly subject to the actions for invalidity and for recovery of the estate — so a counterparty who demands one is asking for evidence, not for authority."
+   ]
+  },
+  {
+   "id": "ch-willensvollstrecker",
+   "canonical": "personal-representative-executor",
+   "group": "estate",
+   "name": "Willensvollstrecker",
+   "localNames": [
+    "Willensvollstrecker",
+    "Willensvollstreckerin"
+   ],
+   "summary": "A person with capacity to act, appointed in a testamentary disposition to execute the testator's will. They stand in the rights and duties of the official estate administrator: administering the estate, paying the deceased's debts, discharging legacies and carrying out the division.",
+   "lane": {
+    "assigned": {
+     "event": "Appointment in a testamentary disposition",
+     "phase": "capable",
+     "citations": [
+      "ch-zgb-517"
+     ]
+    },
+    "starts": {
+     "event": "Notification of the appointment ex officio after death, followed by acceptance — on which silence for fourteen days counts as acceptance",
+     "phase": "deceased",
+     "citations": [
+      "ch-zgb-517"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Completion of the administration and division",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-518"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "named",
+      "label": "Named in the will, testator alive"
+     },
+     {
+      "id": "notified",
+      "label": "Notified ex officio; 14 days running"
+     },
+     {
+      "id": "accepted",
+      "label": "Accepted, expressly or by silence"
+     },
+     {
+      "id": "declined",
+      "label": "Declined within 14 days"
+     },
+     {
+      "id": "discharged",
+      "label": "Administration and division complete"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-wv-1",
+      "from": "named",
+      "to": "notified",
+      "event": "Death and official notification (Art. 517(2))",
+      "citations": [
+       "ch-zgb-517"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-wv-2",
+      "from": "notified",
+      "to": "accepted",
+      "event": "Express acceptance, or fourteen days' silence",
+      "citations": [
+       "ch-zgb-517"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-wv-3",
+      "from": "notified",
+      "to": "declined",
+      "event": "Declaration refusing the mandate within fourteen days",
+      "citations": [
+       "ch-zgb-517"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-wv-4",
+      "from": "accepted",
+      "to": "discharged",
+      "event": "Administration and division complete (Art. 518)",
+      "citations": [
+       "ch-zgb-518"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    "The acceptance rule is worth any protocol designer's attention: Art. 517(2) makes the office begin by default, with a fourteen-day window in which silence is consent. Every other appointed role in this reference starts on a positive act."
+   ]
+  },
+  {
+   "id": "ch-erbschaftsverwalter",
+   "canonical": "personal-representative-administrator",
+   "group": "estate",
+   "name": "Erbschaftsverwalter",
+   "localNames": [
+    "Erbschaftsverwaltung",
+    "amtlicher Erbschaftsverwalter"
+   ],
+   "summary": "An official administrator ordered where an heir is lastingly absent without representation and their interests require it, where no claimant can sufficiently prove their right of inheritance or it is uncertain whether an heir exists, where not all the heirs are known, or in the special cases the statute provides for.",
+   "lane": {
+    "assigned": {
+     "event": "Ordered by the authority on one of the statutory grounds; where the testator named an executor, the administration is handed to them instead",
+     "phase": "deceased",
+     "citations": [
+      "ch-zgb-554"
+     ]
+    },
+    "starts": {
+     "event": "The order — or, where the deceased was under a Beistandschaft covering asset management, that Beistand holds it without a fresh appointment unless otherwise ordered",
+     "phase": "deceased",
+     "citations": [
+      "ch-zgb-554"
+     ]
+    },
+    "ends": [
+     {
+      "event": "Delivery of the estate to the heirs, which the authority directs at the same time as it issues their Erbbescheinigung",
+      "phase": "deceased",
+      "citations": [
+       "ch-zgb-559"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No administration"
+     },
+     {
+      "id": "active",
+      "label": "Estate under official administration"
+     },
+     {
+      "id": "delivered",
+      "label": "Estate delivered to the heirs"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-ev-1",
+      "from": "none",
+      "to": "active",
+      "event": "Order on a statutory ground, or a continuing Beistand (Art. 554)",
+      "citations": [
+       "ch-zgb-554"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-ev-2",
+      "from": "active",
+      "to": "delivered",
+      "event": "Authority directs delivery with the Erbbescheinigung (Art. 559)",
+      "citations": [
+       "ch-zgb-559"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    "Ground 2 is the interesting one for an evidence layer: administration is ordered precisely where no claimant can prove their right of inheritance well enough. The statutory answer to an unprovable claim is to put a neutral administrator in, not to lower the standard of proof."
+   ]
+  },
+  {
+   "id": "ch-vertrauensperson-organ",
+   "canonical": "anatomical-gift-agent",
+   "group": "remains",
+   "name": "Person des Vertrauens (Organentnahme)",
+   "localNames": [
+    "Person ihres Vertrauens",
+    "nächste Angehörige"
+   ],
+   "summary": "Under the Transplantation Act as in force, organs may be removed from a deceased person only if they consented before death and death has been established. Absent a documented consent or refusal the next of kin are asked whether they know of a declaration, and may consent in its absence, bound by the deceased's presumed will. A person of trust to whom the deceased demonstrably delegated the decision takes the place of the next of kin.",
+   "lane": {
+    "assigned": {
+     "event": "The deceased demonstrably transfers the decision to a person of their trust; no form is prescribed",
+     "phase": "capable",
+     "citations": [
+      "ch-txg-8-6"
+     ]
+    },
+    "starts": {
+     "event": "Death, established, with no documented consent or refusal of the deceased on record",
+     "phase": "deceased",
+     "citations": [
+      "ch-txg-8",
+      "ch-txg-8-6"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The decision is taken, or removal becomes inadmissible because no next of kin exist or can be reached",
+      "phase": "deceased",
+      "citations": [
+       "ch-txg-8-4"
+      ]
+     }
+    ],
+    "activePhases": [
+     "deceased"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "No person of trust designated"
+     },
+     {
+      "id": "designated",
+      "label": "Designated, donor alive"
+     },
+     {
+      "id": "deciding",
+      "label": "Death established: decides in place of the next of kin"
+     },
+     {
+      "id": "spent",
+      "label": "Decision taken"
+     },
+     {
+      "id": "barred",
+      "label": "Removal inadmissible: nobody reachable"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-vt-1",
+      "from": "none",
+      "to": "designated",
+      "event": "Demonstrable transfer of the decision (Art. 8(6))",
+      "citations": [
+       "ch-txg-8-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vt-2",
+      "from": "designated",
+      "to": "deciding",
+      "event": "Death established, no documented consent or refusal (Art. 8)",
+      "citations": [
+       "ch-txg-8",
+       "ch-txg-8-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vt-3",
+      "from": "deciding",
+      "to": "spent",
+      "event": "Consent given or withheld",
+      "citations": [
+       "ch-txg-8-6"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-vt-4",
+      "from": "none",
+      "to": "barred",
+      "event": "No next of kin present or reachable (Art. 8(4))",
+      "citations": [
+       "ch-txg-8-4"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "notes": [
+    "Art. 8(4) is the opposite of every deemed-consent regime in this reference: where nobody can be reached, removal is forbidden rather than permitted. The opt-out amendment that would reverse this was adopted on 1 October 2021 and approved by popular vote on 15 May 2022 by 1,319,276 to 872,119 — and is still not in force, because it leaves commencement to the Federal Council and the Federal Council has not set a date."
+   ]
+  },
+  {
+   "id": "ch-drittauszahlung",
+   "canonical": "benefits-payee",
+   "group": "federal",
+   "name": "Geeigneter Dritter (Drittauszahlung von Sozialversicherungsleistungen)",
+   "localNames": [
+    "Gewährleistung zweckgemässer Verwendung",
+    "geeigneter Dritter"
+   ],
+   "summary": "Cash social insurance benefits may be paid wholly or partly to a suitable third party or an authority that owes the beneficiary a legal or moral duty of support, or permanently cares for them — but only where the beneficiary does not use the benefits for their own or their dependants' maintenance, or demonstrably cannot, and dependence on public or private welfare follows.",
+   "lane": {
+    "assigned": {
+     "event": "No appointment by the beneficiary: the insurer directs payment to a third party who already owes support or provides permanent care",
+     "phase": "capable",
+     "citations": [
+      "ch-atsg-20"
+     ]
+    },
+    "starts": {
+     "event": "The insurer's decision, on both statutory conditions being met",
+     "phase": "incapacitated",
+     "citations": [
+      "ch-atsg-20"
+     ]
+    },
+    "ends": [
+     {
+      "event": "The conditions ceasing, or death of the beneficiary",
+      "phase": "deceased",
+      "citations": [
+       "ch-atsg-20"
+      ]
+     }
+    ],
+    "activePhases": [
+     "capable",
+     "incapacitated"
+    ]
+   },
+   "stateMachine": {
+    "states": [
+     {
+      "id": "none",
+      "label": "Benefits paid to the beneficiary"
+     },
+     {
+      "id": "redirected",
+      "label": "Benefits paid to a third party or authority"
+     },
+     {
+      "id": "ended",
+      "label": "Redirection ends"
+     }
+    ],
+    "transitions": [
+     {
+      "id": "ch-t-da-1",
+      "from": "none",
+      "to": "redirected",
+      "event": "Both conditions of Art. 20(1) met",
+      "citations": [
+       "ch-atsg-20"
+      ],
+      "unverified": false
+     },
+     {
+      "id": "ch-t-da-2",
+      "from": "redirected",
+      "to": "ended",
+      "event": "Conditions cease, or death",
+      "citations": [
+       "ch-atsg-20"
+      ],
+      "unverified": false
+     }
+    ]
+   },
+   "citations": [
+    "ch-atsg-37"
+   ],
+   "notes": [
+    "Distinct from representation in the proceedings, which Art. 37 handles by written power of attorney — and where the notice rule is the one a platform would recognise: as long as the party has not revoked the authority, the insurer addresses its communications to the representative."
+   ]
+  }
+ ],
+ "features": {
+  "poaDurableByDefault": {
+   "value": null,
+   "note": "The question does not arise in Swiss terms. A Vorsorgeauftrag is not an ordinary power made durable: Art. 360(1) defines it as a mandate to take over personal or property care “im Fall ihrer Urteilsunfähigkeit”, so incapacity is the trigger rather than the threat. An ordinary mandate is governed by the Code of Obligations and is not this instrument.",
+   "citations": [
+    "ch-zgb-360"
+   ]
+  },
+  "springingPoaAllowed": {
+   "value": "yes",
+   "note": "It is the only form. Art. 360(1) makes the loss of capacity of judgement the condition, and Art. 363(2) makes the authority check “die Voraussetzungen für seine Wirksamkeit eingetreten sind” before it takes effect — so the springing event is verified by a public body rather than asserted by the agent.",
+   "citations": [
+    "ch-zgb-360",
+    "ch-zgb-363"
+   ]
+  },
+  "poaRegistrationBeforeUse": {
+   "value": false,
+   "note": "Registration is optional and is not what creates or activates the authority, which is the opposite of Austria. Art. 361(3) has the civil registry enter the fact and the deposit location “auf Antrag”, and ZStV Art. 23a makes every registry office competent to do it. What stands between the instrument and its use is not the register but the authority's own act under Art. 363 — a validation, not a filing.",
+   "citations": [
+    "ch-zgb-361",
+    "ch-zstv-23a",
+    "ch-zgb-363"
+   ]
+  },
+  "healthAgentStartsOn": {
+   "value": "incapacity-finding-by-clinician",
+   "note": "For the patient directive the attending physician is the one who establishes both incapacity and the existence of a directive, from the insurance card, urgent cases excepted (Art. 372(1)). The Vorsorgeauftrag is the other route and does not start this way: there the adult protection authority establishes effectiveness (Art. 363).",
+   "citations": [
+    "ch-zgb-372",
+    "ch-zgb-363"
+   ]
+  },
+  "supportedDecisionMakingStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No supported decision-making statute among the acts read. The nearest thing is the Begleitbeistandschaft and the graded Beistandschaften of ZGB Art. 390 ff., which are authority-conferring measures ordered by the authority rather than agreements the adult makes. Scoped to the acts read, for the reason given in the file note.",
+   "citations": [
+    "ch-zgb-390",
+    "ch-zgb-394"
+   ]
+  },
+  "digitalAssetsFiduciaryStatute": {
+   "value": false,
+   "year": null,
+   "name": null,
+   "note": "No fiduciary access statute for digital assets among the acts read. The general answer is universal succession: Art. 560 passes claims, ownership, limited real rights and possession to the heirs at death without more, so access rests on heirship and on the contract with the custodian rather than on a statute addressed to custodians. Scoped to the acts read.",
+   "citations": [
+    "ch-zgb-560"
+   ]
+  },
+  "onlineToolsRecognisedInLaw": {
+   "value": false,
+   "citations": [
+    "ch-zgb-560"
+   ],
+   "note": "Nothing in the acts read recognises a platform-held designation. The two existence records Swiss law does keep are a civil registry entry of a Vorsorgeauftrag and a note on the insurance card for a patient directive — both pointers to a paper instrument held elsewhere, neither a designation made with a service provider."
+  },
+  "organDonationModel": {
+   "value": "opt-in",
+   "optOutSinceYear": null,
+   "name": "Bundesgesetz über die Transplantation von Organen, Geweben und Zellen (Transplantationsgesetz), SR 810.21",
+   "note": "Extended explicit consent, on the consolidation in force of 1 February 2021: Art. 8(1) requires the deceased's consent and establishment of death, and Art. 8(4) makes removal inadmissible where no next of kin exist or can be reached. The opt-out amendment of 1 October 2021 was approved by popular vote on 15 May 2022 by 1,319,276 to 872,119 and is **enacted but not commenced** — commencement is left to the Federal Council, no date has been set, and no consolidation carries it. optOutSinceYear is therefore null rather than 2022.",
+   "citations": [
+    "ch-txg-8",
+    "ch-txg-8-4",
+    "ch-bbl-2021-2328-art8",
+    "ch-bbl-2021-2328-inkraft",
+    "ch-bbl-2022-2010",
+    "ch-as-2025-421"
+   ]
+  },
+  "probateGrantName": {
+   "value": "Erbbescheinigung",
+   "note": "Not a grant: heirs acquire the estate by operation of law at death (Art. 560), and the Erbbescheinigung is issued to instituted heirs on request once a month has passed without the legal heirs contesting their entitlement, expressly “unter Vorbehalt der Ungültigkeitsklage und der Erbschaftsklage”. It confirms a title that already exists.",
+   "citations": [
+    "ch-zgb-559",
+    "ch-zgb-560"
+   ]
+  },
+  "deceasedPersonalDataProtected": {
+   "value": false,
+   "note": "The Datenschutzgesetz of 25 September 2020 protects “natürliche Personen” (Art. 1) and, read in full at the consolidation of 7 July 2025, nowhere uses the words verstorben or Erben — there is no post-mortem access right of the French or Italian kind, and no prohibition the deceased can leave with a controller either.",
+   "citations": [
+    "ch-dsg-1"
+   ]
+  },
+  "healthAgentPostDeathAuthority": {
+   "value": false,
+   "note": "The patient directive and the Vorsorgeauftrag both operate while the person is alive and incapable; neither carries over. The post-mortem decision that exists is a different office under a different act — the person of trust for organ removal under Transplantationsgesetz Art. 8(6).",
+   "citations": [
+    "ch-zgb-370",
+    "ch-txg-8-6"
+   ]
+  }
+ }
+}

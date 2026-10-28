@@ -1,6 +1,6 @@
 ---
 title: 'Standards landscape, against what the law requires'
-description: 'Where the current identity and authorization standards stand against what 61 jurisdictions of verified law actually require — ten conformance tests, each traceable to a statute.'
+description: 'Where the current identity and authorization standards stand against what 62 jurisdictions of verified law actually require — ten conformance tests, each traceable to a statute.'
 section: 'digital-estate-standards'
 order: 2
 standing: 'Survey and argument. Specification status verified 14 October 2026 and will date.'
@@ -128,7 +128,7 @@ the documents rather than an inference from the overview pages.
 | Test | U4A | |
 |---|---|---|
 | 1. Suspended and revivable | **fails, by design** | Revocation is deliberately terminal: introspection answers `connection_revoked`, "not an invitation to renegotiate", because a bare `inactive` would send the agent round the loop. Sound for its own domain, and the exact opposite of Iowa §633B.108(2). No suspended state exists in any draft |
-| 2. No issuer | **best answer available, but only half of it** | Every owner names her own authorization server, and a resource server may hold many owners each governed by an authority it was never configured against. That solves *designation* — and still requires the owner to have acted in advance, so the 16 countries where heirs hold the estate by operation of law remain unaddressed |
+| 2. No issuer | **best answer available, but only half of it** | Every owner names her own authorization server, and a resource server may hold many owners each governed by an authority it was never configured against. That solves *designation* — and still requires the owner to have acted in advance, so the 17 countries where heirs hold the estate by operation of law remain unaddressed |
 | 3. Relying party as author | **out of scope, and architecturally opposed** | The premise is an authority on the owner's side, "one the resource server does not control". West Virginia §16-30-8(a) has the clinician select the surrogate; Iowa §144A.7 has the physician co-sign. There the resource server *is* the author — the inversion U4A exists to prevent |
 | 4. As-at date and jurisdiction | **fails** | `jurisdiction` appears once in core, as a claim the *requesting party* attests alongside a licence — not as the governing-law key. Nothing carries a date against which a rule is evaluated |
 | 5. Lapse by non-exercise | **fails** | Terms carry an expiry; nothing fires on silence |
@@ -220,7 +220,7 @@ authority that is valid, temporarily ineffective, then valid again. A **retracti
 get mis-recorded and the DADE paper notes MOSIP's point that a death notice can be revoked. And a
 rich **initiating authority** — court, registrar, notary, clinician, agency, or no one at all —
 because the weight a relying party gives an event depends almost entirely on who declared it, and
-`operation-of-law` has to be expressible for the 16 countries where nobody declares anything.
+`operation-of-law` has to be expressible for the 17 countries where nobody declares anything.
 
 **3. The event can carry the fact but not the effect.** A court appoints a conservator: in Virginia
 the agency continues, in West Virginia and Kentucky it terminates, in Missouri the court allocates
@@ -328,7 +328,7 @@ separate status profile, with pause-and-resume listed as future work. Bitstring 
 binary per index, and an event set would have to define "asleep, may wake" because no existing one
 had reason to. **This is the single most specific piece of feedback this dataset can give.**
 
-**2. There is no issuer.** In 16 countries the heirs hold the estate from the moment of death by
+**2. There is no issuer.** In 17 countries the heirs hold the estate from the moment of death by
 operation of law, with no document. Virginia's small-estate tier below $35,000 requires no affidavit
 at all. An un-notarised nominating instrument is still an instrument in most states.
 → *Every credential model assumes an issuer*, including Sovrin guardianship and Mission's "its only

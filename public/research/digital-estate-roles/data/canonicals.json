@@ -4,8 +4,8 @@
    "id": "personal-representative-administrator",
    "label": "Administrator",
    "definition": "The personal representative the law or a court supplies where the deceased named nobody, or nobody named can act.",
-   "jurisdictionCount": 57,
-   "countryCount": 21,
+   "jurisdictionCount": 58,
+   "countryCount": 22,
    "citations": {
     "mu-cur-4": {
      "id": "mu-cur-4",
@@ -938,6 +938,22 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173029/NOR40173029.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-zgb-554": {
+     "id": "ch-zgb-554",
+     "cite": "ZGB Art. 554",
+     "title": "Erbschaftsverwaltung",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-559": {
+     "id": "ch-zgb-559",
+     "cite": "ZGB Art. 559",
+     "title": "Erbbescheinigung",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
     },
     "ar-ccyc-2345": {
      "id": "ar-ccyc-2345",
@@ -4726,6 +4742,55 @@
      ]
     },
     {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-erbschaftsverwalter",
+     "roleName": "Erbschaftsverwalter",
+     "localNames": [
+      "Erbschaftsverwaltung",
+      "amtlicher Erbschaftsverwalter"
+     ],
+     "nameEn": null,
+     "summary": "An official administrator ordered where an heir is lastingly absent without representation and their interests require it, where no claimant can sufficiently prove their right of inheritance or it is uncertain whether an heir exists, where not all the heirs are known, or in the special cases the statute provides for.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Ordered by the authority on one of the statutory grounds; where the testator named an executor, the administration is handed to them instead",
+       "phase": "deceased",
+       "citations": [
+        "ch-zgb-554"
+       ]
+      },
+      "starts": {
+       "event": "The order — or, where the deceased was under a Beistandschaft covering asset management, that Beistand holds it without a fresh appointment unless otherwise ordered",
+       "phase": "deceased",
+       "citations": [
+        "ch-zgb-554"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Delivery of the estate to the heirs, which the authority directs at the same time as it issues their Erbbescheinigung",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-559"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-554",
+      "ch-zgb-559"
+     ]
+    },
+    {
      "jurisdiction": "ar-national",
      "jurisdictionName": "Argentina",
      "label": "Argentina",
@@ -4832,8 +4897,8 @@
    "id": "benefits-payee",
    "label": "Benefits payee",
    "definition": "A person appointed to receive and manage state benefits for someone who cannot manage them.",
-   "jurisdictionCount": 44,
-   "countryCount": 5,
+   "jurisdictionCount": 45,
+   "countryCount": 6,
    "citations": {
     "de-sgb1-56": {
      "id": "de-sgb1-56",
@@ -5187,6 +5252,14 @@
      "url": "https://www.legislation.gov.au/C2004A00580/latest/text",
      "kind": "statute",
      "retrieved": "2026-09-16"
+    },
+    "ch-atsg-20": {
+     "id": "ch-atsg-20",
+     "cite": "ATSG Art. 20",
+     "title": "Gewährleistung zweckgemässer Verwendung",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de"
     }
    },
    "jurisdictions": [
@@ -9184,6 +9257,54 @@
       "sa-ss532",
       "sa-who-to-tell"
      ]
+    },
+    {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-drittauszahlung",
+     "roleName": "Geeigneter Dritter (Drittauszahlung von Sozialversicherungsleistungen)",
+     "localNames": [
+      "Gewährleistung zweckgemässer Verwendung",
+      "geeigneter Dritter"
+     ],
+     "nameEn": null,
+     "summary": "Cash social insurance benefits may be paid wholly or partly to a suitable third party or an authority that owes the beneficiary a legal or moral duty of support, or permanently cares for them — but only where the beneficiary does not use the benefits for their own or their dependants' maintenance, or demonstrably cannot, and dependence on public or private welfare follows.",
+     "group": "federal",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "No appointment by the beneficiary: the insurer directs payment to a third party who already owes support or provides permanent care",
+       "phase": "capable",
+       "citations": [
+        "ch-atsg-20"
+       ]
+      },
+      "starts": {
+       "event": "The insurer's decision, on both statutory conditions being met",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-atsg-20"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The conditions ceasing, or death of the beneficiary",
+        "phase": "deceased",
+        "citations": [
+         "ch-atsg-20"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-atsg-20"
+     ]
     }
    ]
   },
@@ -9191,8 +9312,8 @@
    "id": "conservator-estate",
    "label": "Conservator of the estate",
    "definition": "A financial manager appointed by a court or tribunal to manage property the person can no longer manage.",
-   "jurisdictionCount": 64,
-   "countryCount": 22,
+   "jurisdictionCount": 65,
+   "countryCount": 23,
    "citations": {
     "mu-cc-488": {
      "id": "mu-cc-488",
@@ -10568,6 +10689,46 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-zgb-390": {
+     "id": "ch-zgb-390",
+     "cite": "ZGB Art. 390",
+     "title": "Errichtung einer Beistandschaft",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-394": {
+     "id": "ch-zgb-394",
+     "cite": "ZGB Art. 394",
+     "title": "Vertretungsbeistandschaft",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-395": {
+     "id": "ch-zgb-395",
+     "cite": "ZGB Art. 395",
+     "title": "Vermögensverwaltung: Umfang",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-449c": {
+     "id": "ch-zgb-449c",
+     "cite": "ZGB Art. 449c",
+     "title": "Mitteilungspflichten der Erwachsenenschutzbehörde",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-554": {
+     "id": "ch-zgb-554",
+     "cite": "ZGB Art. 554",
+     "title": "Erbschaftsverwaltung",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
     },
     "ar-ccyc-32": {
      "id": "ar-ccyc-32",
@@ -14766,6 +14927,68 @@
      ]
     },
     {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-vertretungsbeistand-vermoegen",
+     "roleName": "Beistand mit Vertretungsbeistandschaft für die Vermögensverwaltung",
+     "localNames": [
+      "Vertretungsbeistandschaft",
+      "Beistand",
+      "Beiständin"
+     ],
+     "nameEn": null,
+     "summary": "A deputy appointed by the adult protection authority to represent a person in specified matters, where asset management is one of them. The authority names which assets fall under management, and may restrict the person's own capacity to act accordingly — or withdraw access to particular assets without restricting capacity at all.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "The adult protection authority establishes the Beistandschaft, on the application of the person concerned or someone close to them or of its own motion, where an incapacity or a comparable state of weakness means their affairs cannot be managed",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-zgb-390",
+        "ch-zgb-394"
+       ]
+      },
+      "starts": {
+       "event": "The appointment, whose scope over income and assets the authority fixes in the order itself",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-zgb-394",
+        "ch-zgb-395"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The authority lifts the measure; the decision is notified to the civil registry, the municipality, the debt collection office and other named authorities as soon as it is enforceable",
+        "phase": "capable",
+        "citations": [
+         "ch-zgb-449c"
+        ]
+       },
+       {
+        "event": "Death of the person — but where the Beistandschaft covered asset management, the same Beistand takes on the administration of the estate unless otherwise ordered",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-554"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-390",
+      "ch-zgb-394",
+      "ch-zgb-395",
+      "ch-zgb-449c",
+      "ch-zgb-554"
+     ]
+    },
+    {
      "jurisdiction": "ar-national",
      "jurisdictionName": "Argentina",
      "label": "Argentina",
@@ -14876,8 +15099,8 @@
    "id": "default-surrogate",
    "label": "Default surrogate",
    "definition": "The decision maker the law supplies from a statutory hierarchy when nobody has been appointed.",
-   "jurisdictionCount": 42,
-   "countryCount": 11,
+   "jurisdictionCount": 44,
+   "countryCount": 12,
    "citations": {
     "za-nha-7-order": {
      "id": "za-nha-7-order",
@@ -15456,6 +15679,46 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-zgb-374": {
+     "id": "ch-zgb-374",
+     "cite": "ZGB Art. 374",
+     "title": "Vertretung durch den Ehegatten oder die eingetragene Partnerin",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-390": {
+     "id": "ch-zgb-390",
+     "cite": "ZGB Art. 390",
+     "title": "Errichtung einer Beistandschaft",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-560": {
+     "id": "ch-zgb-560",
+     "cite": "ZGB Art. 560",
+     "title": "Erwerb der Erbschaft von Gesetzes wegen",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-378": {
+     "id": "ch-zgb-378",
+     "cite": "ZGB Art. 378",
+     "title": "Vertretungsberechtigte Person: die Reihenfolge",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-377": {
+     "id": "ch-zgb-377",
+     "cite": "ZGB Art. 377",
+     "title": "Behandlungsplan",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
     }
    },
    "jurisdictions": [
@@ -18132,6 +18395,129 @@
       "at-abgb-240",
       "at-abgb-245-2",
       "at-abgb-246"
+     ]
+    },
+    {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-ehegattenvertretung",
+     "roleName": "Vertretungsberechtigter Ehegatte oder eingetragener Partner",
+     "localNames": [
+      "Vertretung durch den Ehegatten",
+      "eingetragene Partnerin oder eingetragener Partner"
+     ],
+     "nameEn": null,
+     "summary": "A spouse or registered partner who lives in the same household as the person who loses capacity, or regularly and personally supports them, has a statutory right of representation — but only where there is neither a Vorsorgeauftrag nor a corresponding Beistandschaft. It covers what maintenance ordinarily requires, ordinary administration of income and assets, and where necessary opening the post.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "No assignment: the right arises from the statute itself, conditioned on a shared household or regular personal support",
+       "phase": "capable",
+       "citations": [
+        "ch-zgb-374"
+       ]
+      },
+      "starts": {
+       "event": "The spouse's own loss of capacity of judgement, and only if no Vorsorgeauftrag and no corresponding Beistandschaft exists",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-zgb-374"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Recovery of capacity of judgement",
+        "phase": "capable",
+        "citations": [
+         "ch-zgb-374"
+        ]
+       },
+       {
+        "event": "A Vorsorgeauftrag taking effect, or the authority establishing a Beistandschaft, which displaces the statutory right",
+        "phase": "incapacitated",
+        "citations": [
+         "ch-zgb-374",
+         "ch-zgb-390"
+        ]
+       },
+       {
+        "event": "Death of the represented person",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-560"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-374",
+      "ch-zgb-390",
+      "ch-zgb-560"
+     ]
+    },
+    {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-vertretung-medizinisch",
+     "roleName": "Bei medizinischen Massnahmen vertretungsberechtigte Person",
+     "localNames": [
+      "vertretungsberechtigte Person",
+      "Vertretung bei medizinischen Massnahmen"
+     ],
+     "nameEn": null,
+     "summary": "Where a person incapable of judgement has left no patient directive, the statute ranks seven classes of person who may consent to or refuse medical measures, in order: the person named in a directive or mandate, a Beistand with a representation right in medical matters, a cohabiting spouse or registered partner, a cohabiting partner, descendants, parents, then siblings.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "No assignment: the order is statutory. For every class below the appointed ones it is conditioned on actually providing regular and personal support, not on relationship alone",
+       "phase": "capable",
+       "citations": [
+        "ch-zgb-378"
+       ]
+      },
+      "starts": {
+       "event": "Loss of capacity of judgement, at which point the attending physician plans treatment together with the person entitled to represent",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-zgb-377",
+        "ch-zgb-378"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Recovery of capacity of judgement",
+        "phase": "capable",
+        "citations": [
+         "ch-zgb-377"
+        ]
+       },
+       {
+        "event": "Death of the patient",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-560"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-378",
+      "ch-zgb-377",
+      "ch-zgb-560"
      ]
     }
    ]
@@ -22774,8 +23160,8 @@
    "id": "anatomical-gift-agent",
    "label": "Donation decision maker",
    "definition": "The person who may authorise or refuse donation of organs, tissue or the body, including under deemed-consent regimes.",
-   "jurisdictionCount": 58,
-   "countryCount": 20,
+   "jurisdictionCount": 59,
+   "countryCount": 21,
    "citations": {
     "za-nha-62-1": {
      "id": "za-nha-62-1",
@@ -23444,6 +23830,30 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40203870/NOR40203870.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-txg-8-6": {
+     "id": "ch-txg-8-6",
+     "cite": "TxG Art. 8 Abs. 6",
+     "title": "Person des Vertrauens",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
+    },
+    "ch-txg-8": {
+     "id": "ch-txg-8",
+     "cite": "TxG Art. 8",
+     "title": "Voraussetzungen der Entnahme (Fassung in Kraft)",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
+    },
+    "ch-txg-8-4": {
+     "id": "ch-txg-8-4",
+     "cite": "TxG Art. 8 Abs. 4",
+     "title": "Keine erreichbaren Angehörigen: Entnahme unzulässig",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
     },
     "ar-ccyc-61": {
      "id": "ar-ccyc-61",
@@ -26825,6 +27235,57 @@
      "citations": [
       "at-otpg-5",
       "at-otpg-6"
+     ]
+    },
+    {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-vertrauensperson-organ",
+     "roleName": "Person des Vertrauens (Organentnahme)",
+     "localNames": [
+      "Person ihres Vertrauens",
+      "nächste Angehörige"
+     ],
+     "nameEn": null,
+     "summary": "Under the Transplantation Act as in force, organs may be removed from a deceased person only if they consented before death and death has been established. Absent a documented consent or refusal the next of kin are asked whether they know of a declaration, and may consent in its absence, bound by the deceased's presumed will. A person of trust to whom the deceased demonstrably delegated the decision takes the place of the next of kin.",
+     "group": "remains",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "The deceased demonstrably transfers the decision to a person of their trust; no form is prescribed",
+       "phase": "capable",
+       "citations": [
+        "ch-txg-8-6"
+       ]
+      },
+      "starts": {
+       "event": "Death, established, with no documented consent or refusal of the deceased on record",
+       "phase": "deceased",
+       "citations": [
+        "ch-txg-8",
+        "ch-txg-8-6"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The decision is taken, or removal becomes inadmissible because no next of kin exist or can be reached",
+        "phase": "deceased",
+        "citations": [
+         "ch-txg-8-4"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-txg-8-6",
+      "ch-txg-8",
+      "ch-txg-8-4"
      ]
     },
     {
@@ -32760,8 +33221,8 @@
    "id": "personal-representative-executor",
    "label": "Executor",
    "definition": "The personal representative the deceased themselves named, usually in a will.",
-   "jurisdictionCount": 61,
-   "countryCount": 25,
+   "jurisdictionCount": 62,
+   "countryCount": 26,
    "citations": {
     "mu-cc-1030": {
      "id": "mu-cc-1030",
@@ -34105,6 +34566,22 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40173029/NOR40173029.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-zgb-517": {
+     "id": "ch-zgb-517",
+     "cite": "ZGB Art. 517",
+     "title": "Willensvollstrecker: Erteilung des Auftrages",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-518": {
+     "id": "ch-zgb-518",
+     "cite": "ZGB Art. 518",
+     "title": "Willensvollstrecker: Inhalt des Auftrages",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
     },
     "ar-ccyc-2524": {
      "id": "ar-ccyc-2524",
@@ -38259,6 +38736,55 @@
      ]
     },
     {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-willensvollstrecker",
+     "roleName": "Willensvollstrecker",
+     "localNames": [
+      "Willensvollstrecker",
+      "Willensvollstreckerin"
+     ],
+     "nameEn": null,
+     "summary": "A person with capacity to act, appointed in a testamentary disposition to execute the testator's will. They stand in the rights and duties of the official estate administrator: administering the estate, paying the deceased's debts, discharging legacies and carrying out the division.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Appointment in a testamentary disposition",
+       "phase": "capable",
+       "citations": [
+        "ch-zgb-517"
+       ]
+      },
+      "starts": {
+       "event": "Notification of the appointment ex officio after death, followed by acceptance — on which silence for fourteen days counts as acceptance",
+       "phase": "deceased",
+       "citations": [
+        "ch-zgb-517"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Completion of the administration and division",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-518"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-517",
+      "ch-zgb-518"
+     ]
+    },
+    {
      "jurisdiction": "ar-national",
      "jurisdictionName": "Argentina",
      "label": "Argentina",
@@ -38368,8 +38894,8 @@
    "id": "guardian-person",
    "label": "Guardian of the person",
    "definition": "A personal decision maker appointed by a court or tribunal, rather than by the person.",
-   "jurisdictionCount": 55,
-   "countryCount": 18,
+   "jurisdictionCount": 56,
+   "countryCount": 19,
    "citations": {
     "rw-pf-139": {
      "id": "rw-pf-139",
@@ -39623,6 +40149,38 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40193048/NOR40193048.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-zgb-390": {
+     "id": "ch-zgb-390",
+     "cite": "ZGB Art. 390",
+     "title": "Errichtung einer Beistandschaft",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-398": {
+     "id": "ch-zgb-398",
+     "cite": "ZGB Art. 398",
+     "title": "Umfassende Beistandschaft",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-449c": {
+     "id": "ch-zgb-449c",
+     "cite": "ZGB Art. 449c",
+     "title": "Mitteilungspflichten der Erwachsenenschutzbehörde",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-560": {
+     "id": "ch-zgb-560",
+     "cite": "ZGB Art. 560",
+     "title": "Erwerb der Erbschaft von Gesetzes wegen",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
     }
    },
    "jurisdictions": [
@@ -43334,6 +43892,64 @@
       "at-abgb-246",
       "at-abgb-242"
      ]
+    },
+    {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-umfassender-beistand",
+     "roleName": "Beistand mit umfassender Beistandschaft",
+     "localNames": [
+      "umfassende Beistandschaft"
+     ],
+     "nameEn": null,
+     "summary": "The deepest measure: a comprehensive deputyship established where a person is particularly in need of help, notably through lasting incapacity of judgement. It covers all matters of personal care, property care and legal transactions, and the person's capacity to act lapses by operation of law.",
+     "group": "court",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "The adult protection authority establishes a comprehensive Beistandschaft where a person is particularly in need of help, notably through lasting incapacity of judgement",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-zgb-390",
+        "ch-zgb-398"
+       ]
+      },
+      "starts": {
+       "event": "The appointment; the represented person's capacity to act lapses by operation of law",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-zgb-398"
+       ]
+      },
+      "ends": [
+       {
+        "event": "The authority lifts the measure, which it must notify to the civil registry office among others as soon as the decision is enforceable",
+        "phase": "capable",
+        "citations": [
+         "ch-zgb-449c"
+        ]
+       },
+       {
+        "event": "Death of the person",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-560"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-390",
+      "ch-zgb-398",
+      "ch-zgb-449c",
+      "ch-zgb-560"
+     ]
     }
    ]
   },
@@ -43341,8 +43957,8 @@
    "id": "health-care-agent",
    "label": "Health-care agent",
    "definition": "A person named in advance to make health and personal welfare decisions once the person can no longer make them.",
-   "jurisdictionCount": 53,
-   "countryCount": 15,
+   "jurisdictionCount": 54,
+   "countryCount": 16,
    "citations": {
     "za-nha-7-mandate": {
      "id": "za-nha-7-mandate",
@@ -44994,6 +45610,46 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-zgb-370": {
+     "id": "ch-zgb-370",
+     "cite": "ZGB Art. 370",
+     "title": "Patientenverfügung: Grundsatz",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-371": {
+     "id": "ch-zgb-371",
+     "cite": "ZGB Art. 371",
+     "title": "Errichtung; Eintrag auf der Versichertenkarte",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-372": {
+     "id": "ch-zgb-372",
+     "cite": "ZGB Art. 372",
+     "title": "Eintritt der Urteilsunfähigkeit",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-378": {
+     "id": "ch-zgb-378",
+     "cite": "ZGB Art. 378",
+     "title": "Vertretungsberechtigte Person: die Reihenfolge",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-560": {
+     "id": "ch-zgb-560",
+     "cite": "ZGB Art. 560",
+     "title": "Erwerb der Erbschaft von Gesetzes wegen",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
     },
     "ar-ccyc-60": {
      "id": "ar-ccyc-60",
@@ -48893,6 +49549,74 @@
      ]
     },
     {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-patientenverfuegung-vertreter",
+     "roleName": "In einer Patientenverfügung bezeichnete Person",
+     "localNames": [
+      "Patientenverfügung",
+      "bezeichnete Person"
+     ],
+     "nameEn": null,
+     "summary": "A person named in a patient directive to discuss medical measures with the attending physician and decide in the patient's name. The directive needs only writing, a date and a signature; its existence and deposit location may be noted on the holder's insurance card, and the physician must check that card when a patient lacks capacity and it is not known whether a directive exists.",
+     "group": "health",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Person capable of judgement executes a written, dated and signed Patientenverfügung naming the person; the fact and deposit location may be entered on the insurance card",
+       "phase": "capable",
+       "citations": [
+        "ch-zgb-370",
+        "ch-zgb-371"
+       ]
+      },
+      "starts": {
+       "event": "The patient loses capacity of judgement; the attending physician establishes whether a directive exists from the insurance card, urgent cases excepted, and the named person ranks first among those entitled to consent",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-zgb-372",
+        "ch-zgb-378"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Patient regains capacity of judgement",
+        "phase": "capable",
+        "citations": [
+         "ch-zgb-370"
+        ]
+       },
+       {
+        "event": "Revocation, to which the rule on revoking a Vorsorgeauftrag applies by analogy",
+        "phase": "capable",
+        "citations": [
+         "ch-zgb-371"
+        ]
+       },
+       {
+        "event": "Death of the patient",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-560"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-370",
+      "ch-zgb-371",
+      "ch-zgb-372",
+      "ch-zgb-378",
+      "ch-zgb-560"
+     ]
+    },
+    {
      "jurisdiction": "ar-national",
      "jurisdictionName": "Argentina",
      "label": "Argentina",
@@ -52625,8 +53349,8 @@
    "id": "universal-successor-heir",
    "label": "Heir by universal succession",
    "definition": "An heir who takes the estate as a whole at the moment of death, without any grant and without a default executor.",
-   "jurisdictionCount": 17,
-   "countryCount": 17,
+   "jurisdictionCount": 18,
+   "countryCount": 18,
    "citations": {
     "mu-cc-724": {
      "id": "mu-cc-724",
@@ -52954,6 +53678,22 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40172829/NOR40172829.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-zgb-560": {
+     "id": "ch-zgb-560",
+     "cite": "ZGB Art. 560",
+     "title": "Erwerb der Erbschaft von Gesetzes wegen",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-602": {
+     "id": "ch-zgb-602",
+     "cite": "ZGB Art. 602",
+     "title": "Erbengemeinschaft",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
     },
     "ar-ccyc-2277": {
      "id": "ar-ccyc-2277",
@@ -53841,6 +54581,55 @@
       "at-abgb-797",
       "at-abgb-819",
       "at-abgb-547"
+     ]
+    },
+    {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-erbe",
+     "roleName": "Erbe",
+     "localNames": [
+      "Erbe",
+      "Erbengemeinschaft"
+     ],
+     "nameEn": null,
+     "summary": "Heirs acquire the estate as a whole at the moment of death by operation of law: claims, ownership, limited real rights and possession pass without more, and the deceased's debts become the heirs' personal debts. Where there are several, they hold the estate in an undivided community and must dispose of its rights jointly until it is divided.",
+     "group": "estate",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "By law or by testamentary disposition — no appointment, and no grant",
+       "phase": "capable",
+       "citations": [
+        "ch-zgb-560"
+       ]
+      },
+      "starts": {
+       "event": "The death itself: acquisition is by operation of law at that moment",
+       "phase": "deceased",
+       "citations": [
+        "ch-zgb-560"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Division of the estate, which ends the community of heirs",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-602"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-560",
+      "ch-zgb-602"
      ]
     },
     {
@@ -62119,8 +62908,8 @@
    "id": "financial-poa-springing",
    "label": "Springing power of attorney",
    "definition": "An appointment made while capable that confers no authority until a later event — usually the person's own incapacity.",
-   "jurisdictionCount": 36,
-   "countryCount": 6,
+   "jurisdictionCount": 37,
+   "countryCount": 7,
    "citations": {
     "it-cc-408": {
      "id": "it-cc-408",
@@ -62541,6 +63330,70 @@
      "url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269688/NOR40269688.html",
      "kind": "statute",
      "retrieved": "2026-10-27"
+    },
+    "ch-zgb-360": {
+     "id": "ch-zgb-360",
+     "cite": "ZGB Art. 360",
+     "title": "Vorsorgeauftrag: Grundsatz",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-361": {
+     "id": "ch-zgb-361",
+     "cite": "ZGB Art. 361",
+     "title": "Errichtung; Eintrag in die zentrale Datenbank",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zstv-23a": {
+     "id": "ch-zstv-23a",
+     "cite": "ZStV Art. 23a",
+     "title": "Vorsorgeauftrag: Zuständigkeit jedes Zivilstandsamts",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/2004/362/de"
+    },
+    "ch-zgb-363": {
+     "id": "ch-zgb-363",
+     "cite": "ZGB Art. 363",
+     "title": "Feststellung der Wirksamkeit und Annahme",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-363-3": {
+     "id": "ch-zgb-363-3",
+     "cite": "ZGB Art. 363 Abs. 3",
+     "title": "Aushändigung einer Urkunde über die Befugnisse",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-369": {
+     "id": "ch-zgb-369",
+     "cite": "ZGB Art. 369",
+     "title": "Wiedererlangen der Urteilsfähigkeit",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-362": {
+     "id": "ch-zgb-362",
+     "cite": "ZGB Art. 362",
+     "title": "Widerruf",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+    },
+    "ch-zgb-560": {
+     "id": "ch-zgb-560",
+     "cite": "ZGB Art. 560",
+     "title": "Erwerb der Erbschaft von Gesetzes wegen",
+     "kind": "statute",
+     "retrieved": "2026-10-28",
+     "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
     }
    },
    "jurisdictions": [
@@ -65055,6 +65908,78 @@
       "at-abgb-264",
       "at-abgb-245-2",
       "at-abgb-246"
+     ]
+    },
+    {
+     "jurisdiction": "ch-national",
+     "jurisdictionName": "Switzerland — federal law",
+     "label": "Switzerland — federal law",
+     "country": "Switzerland",
+     "region": "Other",
+     "roleId": "ch-vorsorgeauftrag",
+     "roleName": "Beauftragte Person unter einem Vorsorgeauftrag",
+     "localNames": [
+      "Vorsorgeauftrag",
+      "beauftragte Person"
+     ],
+     "nameEn": null,
+     "summary": "An agent appointed in advance to take over personal care, property care or representation in legal transactions if the principal loses capacity of judgement. The authority does not start on the loss of capacity itself: the adult protection authority must first establish that the mandate is valid and that the conditions for its effectiveness have arisen, and it then hands the agent a document setting out their powers.",
+     "group": "financial",
+     "stateSpecific": false,
+     "unverified": false,
+     "baselineOf": true,
+     "differsFromModel": false,
+     "lane": {
+      "assigned": {
+       "event": "Principal, while capable of acting, executes the Vorsorgeauftrag either entirely in their own hand (written, dated, signed) or as a public deed; the fact that one exists and where it is deposited may be entered in the central civil status database on application",
+       "phase": "capable",
+       "citations": [
+        "ch-zgb-360",
+        "ch-zgb-361",
+        "ch-zstv-23a"
+       ]
+      },
+      "starts": {
+       "event": "The adult protection authority establishes the mandate's effectiveness — it examines validity, whether the conditions for effectiveness have arisen and whether the agent is suitable — and on acceptance hands the agent a document reproducing their powers",
+       "phase": "incapacitated",
+       "citations": [
+        "ch-zgb-363",
+        "ch-zgb-363-3"
+       ]
+      },
+      "ends": [
+       {
+        "event": "Principal regains capacity of judgement: the mandate loses effect by operation of law, though the agent must carry on where stopping would endanger the principal's interests, and acts done before the agent learns of the lapse still bind the principal",
+        "phase": "capable",
+        "citations": [
+         "ch-zgb-369"
+        ]
+       },
+       {
+        "event": "Revocation by the principal, in either of the forms prescribed for execution",
+        "phase": "capable",
+        "citations": [
+         "ch-zgb-362"
+        ]
+       },
+       {
+        "event": "Death of the principal",
+        "phase": "deceased",
+        "citations": [
+         "ch-zgb-560"
+        ]
+       }
+      ]
+     },
+     "citations": [
+      "ch-zgb-360",
+      "ch-zgb-361",
+      "ch-zstv-23a",
+      "ch-zgb-363",
+      "ch-zgb-363-3",
+      "ch-zgb-369",
+      "ch-zgb-362",
+      "ch-zgb-560"
      ]
     }
    ]

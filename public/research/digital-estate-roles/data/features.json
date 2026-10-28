@@ -13177,6 +13177,269 @@
    }
   ]
  },
+ "ch-national": {
+  "features": {
+   "poaDurableByDefault": {
+    "value": null,
+    "note": "The question does not arise in Swiss terms. A Vorsorgeauftrag is not an ordinary power made durable: Art. 360(1) defines it as a mandate to take over personal or property care “im Fall ihrer Urteilsunfähigkeit”, so incapacity is the trigger rather than the threat. An ordinary mandate is governed by the Code of Obligations and is not this instrument.",
+    "citations": [
+     "ch-zgb-360"
+    ]
+   },
+   "springingPoaAllowed": {
+    "value": "yes",
+    "note": "It is the only form. Art. 360(1) makes the loss of capacity of judgement the condition, and Art. 363(2) makes the authority check “die Voraussetzungen für seine Wirksamkeit eingetreten sind” before it takes effect — so the springing event is verified by a public body rather than asserted by the agent.",
+    "citations": [
+     "ch-zgb-360",
+     "ch-zgb-363"
+    ]
+   },
+   "poaRegistrationBeforeUse": {
+    "value": false,
+    "note": "Registration is optional and is not what creates or activates the authority, which is the opposite of Austria. Art. 361(3) has the civil registry enter the fact and the deposit location “auf Antrag”, and ZStV Art. 23a makes every registry office competent to do it. What stands between the instrument and its use is not the register but the authority's own act under Art. 363 — a validation, not a filing.",
+    "citations": [
+     "ch-zgb-361",
+     "ch-zstv-23a",
+     "ch-zgb-363"
+    ]
+   },
+   "healthAgentStartsOn": {
+    "value": "incapacity-finding-by-clinician",
+    "note": "For the patient directive the attending physician is the one who establishes both incapacity and the existence of a directive, from the insurance card, urgent cases excepted (Art. 372(1)). The Vorsorgeauftrag is the other route and does not start this way: there the adult protection authority establishes effectiveness (Art. 363).",
+    "citations": [
+     "ch-zgb-372",
+     "ch-zgb-363"
+    ]
+   },
+   "supportedDecisionMakingStatute": {
+    "value": false,
+    "year": null,
+    "name": null,
+    "note": "No supported decision-making statute among the acts read. The nearest thing is the Begleitbeistandschaft and the graded Beistandschaften of ZGB Art. 390 ff., which are authority-conferring measures ordered by the authority rather than agreements the adult makes. Scoped to the acts read, for the reason given in the file note.",
+    "citations": [
+     "ch-zgb-390",
+     "ch-zgb-394"
+    ]
+   },
+   "digitalAssetsFiduciaryStatute": {
+    "value": false,
+    "year": null,
+    "name": null,
+    "note": "No fiduciary access statute for digital assets among the acts read. The general answer is universal succession: Art. 560 passes claims, ownership, limited real rights and possession to the heirs at death without more, so access rests on heirship and on the contract with the custodian rather than on a statute addressed to custodians. Scoped to the acts read.",
+    "citations": [
+     "ch-zgb-560"
+    ]
+   },
+   "onlineToolsRecognisedInLaw": {
+    "value": false,
+    "citations": [
+     "ch-zgb-560"
+    ],
+    "note": "Nothing in the acts read recognises a platform-held designation. The two existence records Swiss law does keep are a civil registry entry of a Vorsorgeauftrag and a note on the insurance card for a patient directive — both pointers to a paper instrument held elsewhere, neither a designation made with a service provider."
+   },
+   "organDonationModel": {
+    "value": "opt-in",
+    "optOutSinceYear": null,
+    "name": "Bundesgesetz über die Transplantation von Organen, Geweben und Zellen (Transplantationsgesetz), SR 810.21",
+    "note": "Extended explicit consent, on the consolidation in force of 1 February 2021: Art. 8(1) requires the deceased's consent and establishment of death, and Art. 8(4) makes removal inadmissible where no next of kin exist or can be reached. The opt-out amendment of 1 October 2021 was approved by popular vote on 15 May 2022 by 1,319,276 to 872,119 and is **enacted but not commenced** — commencement is left to the Federal Council, no date has been set, and no consolidation carries it. optOutSinceYear is therefore null rather than 2022.",
+    "citations": [
+     "ch-txg-8",
+     "ch-txg-8-4",
+     "ch-bbl-2021-2328-art8",
+     "ch-bbl-2021-2328-inkraft",
+     "ch-bbl-2022-2010",
+     "ch-as-2025-421"
+    ]
+   },
+   "probateGrantName": {
+    "value": "Erbbescheinigung",
+    "note": "Not a grant: heirs acquire the estate by operation of law at death (Art. 560), and the Erbbescheinigung is issued to instituted heirs on request once a month has passed without the legal heirs contesting their entitlement, expressly “unter Vorbehalt der Ungültigkeitsklage und der Erbschaftsklage”. It confirms a title that already exists.",
+    "citations": [
+     "ch-zgb-559",
+     "ch-zgb-560"
+    ]
+   },
+   "deceasedPersonalDataProtected": {
+    "value": false,
+    "note": "The Datenschutzgesetz of 25 September 2020 protects “natürliche Personen” (Art. 1) and, read in full at the consolidation of 7 July 2025, nowhere uses the words verstorben or Erben — there is no post-mortem access right of the French or Italian kind, and no prohibition the deceased can leave with a controller either.",
+    "citations": [
+     "ch-dsg-1"
+    ]
+   },
+   "healthAgentPostDeathAuthority": {
+    "value": false,
+    "note": "The patient directive and the Vorsorgeauftrag both operate while the person is alive and incapable; neither carries over. The post-mortem decision that exists is a different office under a different act — the person of trust for organ removal under Transplantationsgesetz Art. 8(6).",
+    "citations": [
+     "ch-zgb-370",
+     "ch-txg-8-6"
+    ]
+   }
+  },
+  "citations": [
+   {
+    "id": "ch-zgb-360",
+    "cite": "ZGB Art. 360",
+    "title": "Vorsorgeauftrag: Grundsatz",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Eine handlungsfähige Person kann eine natürliche oder juristische Person beauftragen, im Fall ihrer Urteilsunfähigkeit die Personensorge oder die Vermögenssorge zu übernehmen oder sie im Rechtsverkehr zu vertreten.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-zgb-363",
+    "cite": "ZGB Art. 363",
+    "title": "Feststellung der Wirksamkeit und Annahme",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Erfährt die Erwachsenenschutzbehörde, dass eine Person urteilsunfähig geworden ist, und ist ihr nicht bekannt, ob ein Vorsorgeauftrag vorliegt, so erkundigt sie sich beim Zivilstandsamt.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-zgb-361",
+    "cite": "ZGB Art. 361",
+    "title": "Errichtung; Eintrag in die zentrale Datenbank",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Der Vorsorgeauftrag ist eigenhändig zu errichten oder öffentlich zu beurkunden. … Das Zivilstandsamt trägt auf Antrag die Tatsache, dass eine Person einen Vorsorgeauftrag errichtet hat, und den Hinterlegungsort in die zentrale Datenbank ein.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-zstv-23a",
+    "cite": "ZStV Art. 23a",
+    "title": "Vorsorgeauftrag: Zuständigkeit jedes Zivilstandsamts",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Jedes Zivilstandsamt ist auf Antrag zuständig für: a. die Eintragung der Tatsache, dass ein Vorsorgeauftrag errichtet worden ist, und des Hinterlegungsorts",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2004/362/de"
+   },
+   {
+    "id": "ch-zgb-372",
+    "cite": "ZGB Art. 372",
+    "title": "Eintritt der Urteilsunfähigkeit",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Ist die Patientin oder der Patient urteilsunfähig und ist nicht bekannt, ob eine Patientenverfügung vorliegt, so klärt die behandelnde Ärztin oder der behandelnde Arzt dies anhand der Versichertenkarte ab. Vorbehalten bleiben dringliche Fälle.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-zgb-390",
+    "cite": "ZGB Art. 390",
+    "title": "Errichtung einer Beistandschaft",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "wegen vorübergehender Urteilsunfähigkeit oder Abwesenheit in Angelegenheiten, die erledigt werden müssen, weder selber handeln kann noch eine zur Stellvertretung berechtigte Person bezeichnet hat",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-zgb-394",
+    "cite": "ZGB Art. 394",
+    "title": "Vertretungsbeistandschaft",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Eine Vertretungsbeistandschaft wird errichtet, wenn die hilfsbedürftige Person bestimmte Angelegenheiten nicht erledigen kann und deshalb vertreten werden muss. … Die Erwachsenenschutzbehörde kann die Handlungsfähigkeit der betroffenen Person entsprechend einschränken.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-zgb-560",
+    "cite": "ZGB Art. 560",
+    "title": "Erwerb der Erbschaft von Gesetzes wegen",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Die Erben erwerben die Erbschaft als Ganzes mit dem Tode des Erblassers kraft Gesetzes. … gehen die Forderungen, das Eigentum, die beschränkten dinglichen Rechte und der Besitz des Erblassers ohne weiteres auf sie über, und die Schulden des Erblassers werden zu persönlichen Schulden der Erben.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-txg-8",
+    "cite": "TxG Art. 8",
+    "title": "Voraussetzungen der Entnahme (Fassung in Kraft)",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Organe, Gewebe oder Zellen dürfen einer verstorbenen Person entnommen werden, wenn: a. sie vor ihrem Tod einer Entnahme zugestimmt hat; b. der Tod festgestellt worden ist.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
+   },
+   {
+    "id": "ch-txg-8-4",
+    "cite": "TxG Art. 8 Abs. 4",
+    "title": "Keine erreichbaren Angehörigen: Entnahme unzulässig",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Sind keine nächsten Angehörigen vorhanden oder erreichbar, so ist die Entnahme unzulässig.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
+   },
+   {
+    "id": "ch-bbl-2021-2328-art8",
+    "cite": "BBl 2021 2328, Änderung vom 1. Oktober 2021, Art. 8",
+    "title": "Widerspruchsmodell as adopted",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Organe, Gewebe oder Zellen dürfen einer verstorbenen Person entnommen werden, wenn: a. der Tod der Person festgestellt worden ist; b. die Person vor ihrem Tod der Entnahme nicht widersprochen hat.",
+    "url": "https://www.fedlex.admin.ch/eli/fga/2021/2328/de"
+   },
+   {
+    "id": "ch-bbl-2021-2328-inkraft",
+    "cite": "BBl 2021 2328, Änderung vom 1. Oktober 2021, Ziff. IV",
+    "title": "Commencement left to the Federal Council",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Der Bundesrat bestimmt das Inkrafttreten.",
+    "url": "https://www.fedlex.admin.ch/eli/fga/2021/2328/de"
+   },
+   {
+    "id": "ch-bbl-2022-2010",
+    "cite": "BBl 2022 2010, Bundesratsbeschluss vom 18. August 2022",
+    "title": "Result of the popular vote of 15 May 2022",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Die Änderung ist vom Volk mit 1 319 276 Ja gegen 872 119 Nein angenommen worden",
+    "url": "https://www.fedlex.admin.ch/eli/fga/2022/2010/de"
+   },
+   {
+    "id": "ch-as-2025-421",
+    "cite": "AS 2025 421, Änderung vom 29. September 2023",
+    "title": "Partial commencement; the rest at a later date",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Die übrigen Bestimmungen werden zu einem späteren Zeitpunkt in Kraft gesetzt.",
+    "url": "https://www.fedlex.admin.ch/eli/oc/2025/421/de"
+   },
+   {
+    "id": "ch-zgb-559",
+    "cite": "ZGB Art. 559",
+    "title": "Erbbescheinigung",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "wird den eingesetzten Erben, wenn die gesetzlichen Erben oder die aus einer früheren Verfügung Bedachten nicht ausdrücklich deren Berechtigung bestritten haben, auf ihr Verlangen von der Behörde eine Bescheinigung darüber ausgestellt, dass sie unter Vorbehalt der Ungültigkeitsklage und der Erbschaftsklage als Erben anerkannt seien",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-dsg-1",
+    "cite": "DSG Art. 1",
+    "title": "Zweck: natürliche Personen",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Dieses Gesetz bezweckt den Schutz der Persönlichkeit und der Grundrechte von natürlichen Personen, über die Personendaten bearbeitet werden.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/de"
+   },
+   {
+    "id": "ch-zgb-370",
+    "cite": "ZGB Art. 370",
+    "title": "Patientenverfügung: Grundsatz",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Eine urteilsfähige Person kann in einer Patientenverfügung festlegen, welchen medizinischen Massnahmen sie im Fall ihrer Urteilsunfähigkeit zustimmt oder nicht zustimmt.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de"
+   },
+   {
+    "id": "ch-txg-8-6",
+    "cite": "TxG Art. 8 Abs. 6",
+    "title": "Person des Vertrauens",
+    "kind": "statute",
+    "retrieved": "2026-10-28",
+    "quote": "Hat die verstorbene Person die Entscheidung über eine Entnahme von Organen, Geweben oder Zellen nachweisbar einer Person ihres Vertrauens übertragen, so tritt diese an die Stelle der nächsten Angehörigen.",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2007/279/de"
+   }
+  ]
+ },
  "es-national": {
   "features": {
    "poaDurableByDefault": {
