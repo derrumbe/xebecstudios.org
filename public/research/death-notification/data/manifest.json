@@ -104,26 +104,26 @@
   ],
   "flowTotals": {
    "government": {
-    "push": 222,
-    "pull": 39,
-    "family": 47,
-    "unknown": 2
+    "push": 226,
+    "pull": 42,
+    "family": 48,
+    "unknown": 3
    },
    "private": {
     "push": 5,
-    "pull": 45,
+    "pull": 46,
     "family": 20,
     "unknown": 0
    },
    "pushLatency": {
     "days": 29,
     "week": 11,
-    "month": 54,
+    "month": 55,
     "quarter": 9,
     "year": 9,
     "asap": 6,
-    "unspecified": 93,
-    "none": 16
+    "unspecified": 95,
+    "none": 17
    },
    "pushLatencySteps": {
     "days": [
@@ -279,7 +279,7 @@
      ],
      [
       "us-tx",
-      "State vital statistics unit sends death abstracts to the Secretary of State"
+      "State vital statistics unit sends death information to the Secretary of State weekly"
      ],
      [
       "us-ut",
@@ -497,7 +497,11 @@
      ],
      [
       "us-tx",
-      "Local registrar sends an abstract of adult death certificates to the voter registrar"
+      "Local registrar files a monthly abstract of adult deaths with the county voter registrar and the Secretary of State"
+     ],
+     [
+      "us-tx",
+      "Probate clerk files a monthly abstract of probate and heirship filings with the voter registrar and the Secretary of State"
      ],
      [
       "us-wa",
@@ -964,6 +968,14 @@
       "Funeral director, nursing home or family notifies the county election board"
      ],
      [
+      "us-tx",
+      "Vital statistics provides death information to the Department of Public Safety for driver licence and ID records"
+     ],
+     [
+      "us-tx",
+      "Vital statistics provides death information to Level I trauma hospitals for Medicaid managed care"
+     ],
+     [
       "us-va",
       "Data for national vital statistics"
      ],
@@ -1014,14 +1026,6 @@
       "Registry sends death data to the Queensland coordinating registry"
      ],
      [
-      "br-national",
-      "SIRC distributes registry data to federal bodies"
-     ],
-     [
-      "br-national",
-      "Receita Federal marks the CPF \"titular falecido\""
-     ],
-     [
       "cn-national",
       "Death information registered for cause-of-death statistics"
      ],
@@ -1040,6 +1044,18 @@
      [
       "rw-national",
       "Civil registration updates the population register (NIDA)"
+     ],
+     [
+      "us-ca",
+      "State Registrar copies out-of-county death notices to the county elections official"
+     ],
+     [
+      "us-ca",
+      "CDPH death records matched against the statewide voter registration system (VoteCal)"
+     ],
+     [
+      "us-ca",
+      "Birth records of deceased persons marked by the local registrar"
      ],
      [
       "us-me",
@@ -1514,9 +1530,9 @@
    "country": "br",
    "level": "national",
    "layer": null,
-   "steps": 12,
-   "citations": 13,
-   "unverified": 12,
+   "steps": 14,
+   "citations": 30,
+   "unverified": 7,
    "features": {
     "registrationDeadlineDays": 1,
     "informantDuty": "mixed",
@@ -1525,15 +1541,16 @@
     "centralPopulationRegister": null,
     "governmentPropagation": "automatic",
     "certificateAccess": "open",
-    "privateSectorVerification": null
+    "privateSectorVerification": "yes"
    },
    "flow": {
     "recipients": {
      "electoral": "push",
-     "other-government": "push",
+     "other-government": "pull",
+     "private-verifiers": "pull",
      "social-security": "push",
      "statistics": "push",
-     "tax": "push"
+     "tax": "family"
     }
    }
   },
@@ -2353,8 +2370,8 @@
    "country": "us",
    "level": "subnational",
    "layer": "us-federal",
-   "steps": 9,
-   "citations": 11,
+   "steps": 12,
+   "citations": 19,
    "unverified": 9,
    "features": {
     "centralPopulationRegister": false,
@@ -2373,6 +2390,7 @@
      "health-insurance": "push",
      "other-government": "push",
      "private-verifiers": "pull",
+     "registrar": "push",
      "social-security": "push",
      "statistics": "push",
      "tax": "family"
@@ -2963,7 +2981,7 @@
    "level": "subnational",
    "layer": "us-federal",
    "steps": 17,
-   "citations": 21,
+   "citations": 28,
    "unverified": 0,
    "features": {
     "centralPopulationRegister": false,
@@ -3160,9 +3178,9 @@
    "country": "us",
    "level": "subnational",
    "layer": "us-federal",
-   "steps": 8,
-   "citations": 10,
-   "unverified": 8,
+   "steps": 14,
+   "citations": 32,
+   "unverified": 0,
    "features": {
     "centralPopulationRegister": false,
     "governmentPropagation": "automatic",
@@ -3178,11 +3196,13 @@
      "banks": "pull",
      "electoral": "push",
      "health-insurance": "push",
+     "hospital": "push",
      "other-government": "push",
      "private-verifiers": "pull",
      "social-security": "push",
      "statistics": "push",
-     "tax": "family"
+     "tax": "family",
+     "vehicle-licensing": "push"
     }
    }
   },
