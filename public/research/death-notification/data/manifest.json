@@ -78,6 +78,49 @@
     "no",
     "yes"
    ]
+  },
+  "directions": [
+   "family",
+   "pull",
+   "push",
+   "unknown"
+  ],
+  "latencies": [
+   "days",
+   "week",
+   "month",
+   "quarter",
+   "year"
+  ],
+  "privateActors": [
+   "banks",
+   "credit-bureaus",
+   "employer",
+   "insurers",
+   "online-platforms",
+   "private-verifiers"
+  ],
+  "flowTotals": {
+   "government": {
+    "push": 222,
+    "pull": 39,
+    "family": 47,
+    "unknown": 2
+   },
+   "private": {
+    "push": 5,
+    "pull": 45,
+    "family": 20,
+    "unknown": 0
+   },
+   "pushLatency": {
+    "days": 18,
+    "week": 8,
+    "month": 46,
+    "quarter": 9,
+    "year": 9,
+    "none": 137
+   }
   }
  },
  "countries": [
@@ -366,6 +409,16 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "restricted",
     "privateSectorVerification": "limited"
+   },
+   "flow": {
+    "recipients": {
+     "electoral": "push",
+     "other-government": "push",
+     "population-register": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push"
+    }
    }
   },
   {
@@ -386,6 +439,19 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "restricted",
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "courts": "push",
+     "informant": "push",
+     "passport": "push",
+     "population-register": "push",
+     "private-verifiers": "push",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push",
+     "vehicle-licensing": "push"
+    }
    }
   },
   {
@@ -401,6 +467,18 @@
     "centralPopulationRegister": false,
     "governmentPropagation": "automatic",
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "passport": "unknown",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -421,6 +499,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "passport": "unknown",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -441,6 +532,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": null,
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "passport": "unknown",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -461,6 +564,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": null,
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "passport": "unknown",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -481,6 +596,15 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "open",
     "privateSectorVerification": null
+   },
+   "flow": {
+    "recipients": {
+     "electoral": "push",
+     "other-government": "push",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -496,6 +620,16 @@
     "centralPopulationRegister": false,
     "governmentPropagation": "automatic",
     "privateSectorVerification": "no"
+   },
+   "flow": {
+    "recipients": {
+     "credit-bureaus": "family",
+     "electoral": "push",
+     "passport": "family",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -516,6 +650,17 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "credit-bureaus": "family",
+     "electoral": "push",
+     "other-government": "push",
+     "passport": "family",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -536,6 +681,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "none",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "credit-bureaus": "family",
+     "electoral": "push",
+     "other-government": "push",
+     "passport": "family",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push",
+     "vehicle-licensing": "family"
+    }
    }
   },
   {
@@ -556,6 +714,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "credit-bureaus": "family",
+     "electoral": "push",
+     "health-insurance": "family",
+     "other-government": "family",
+     "passport": "family",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -576,6 +746,15 @@
     "governmentPropagation": "automatic",
     "certificateAccess": null,
     "privateSectorVerification": "no"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "informant": "family",
+     "other-government": "push",
+     "social-security": "push",
+     "statistics": "push"
+    }
    }
   },
   {
@@ -596,6 +775,17 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "restricted",
     "privateSectorVerification": "limited"
+   },
+   "flow": {
+    "recipients": {
+     "courts": "push",
+     "other-government": "push",
+     "population-register": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -616,6 +806,15 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "open",
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "push",
+     "insurers": "push",
+     "population-register": "push",
+     "social-security": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -636,6 +835,16 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "restricted",
     "privateSectorVerification": "limited"
+   },
+   "flow": {
+    "recipients": {
+     "electoral": "push",
+     "insurers": "family",
+     "local-government": "push",
+     "other-government": "push",
+     "social-security": "pull",
+     "statistics": "push"
+    }
    }
   },
   {
@@ -656,6 +865,15 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "restricted",
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "credit-bureaus": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -676,6 +894,17 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "open",
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "insurers": "pull",
+     "population-register": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -691,6 +920,18 @@
     "centralPopulationRegister": false,
     "governmentPropagation": "single-request",
     "privateSectorVerification": "no"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "electoral": "family",
+     "local-government": "family",
+     "other-government": "family",
+     "passport": "family",
+     "social-security": "push",
+     "tax": "family",
+     "vehicle-licensing": "family"
+    }
    }
   },
   {
@@ -711,6 +952,20 @@
     "medicalExaminerScrutiny": true,
     "electronicRegistration": "partial",
     "certificateAccess": "open"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "electoral": "pull",
+     "health-insurance": "pull",
+     "local-government": "family",
+     "other-government": "pull",
+     "passport": "family",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family",
+     "vehicle-licensing": "family"
+    }
    }
   },
   {
@@ -731,6 +986,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "open"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "family",
+     "insurers": "family",
+     "local-government": "family",
+     "other-government": "family",
+     "passport": "family",
+     "social-security": "push",
+     "tax": "family",
+     "vehicle-licensing": "family"
+    }
    }
   },
   {
@@ -751,6 +1019,20 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "open"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "pull",
+     "local-government": "family",
+     "other-government": "family",
+     "passport": "family",
+     "population-register": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "tax": "family",
+     "vehicle-licensing": "family"
+    }
    }
   },
   {
@@ -771,6 +1053,15 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "open",
     "privateSectorVerification": "no"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "electoral": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "pull"
+    }
    }
   },
   {
@@ -791,6 +1082,15 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "open",
     "privateSectorVerification": "no"
+   },
+   "flow": {
+    "recipients": {
+     "electoral": "pull",
+     "other-government": "pull",
+     "population-register": "push",
+     "statistics": "push",
+     "vital-records": "push"
+    }
    }
   },
   {
@@ -811,6 +1111,19 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "tiered",
     "privateSectorVerification": "limited"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "population-register": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -831,6 +1144,19 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "restricted",
     "privateSectorVerification": "no"
+   },
+   "flow": {
+    "recipients": {
+     "courts": "family",
+     "electoral": "push",
+     "other-government": "family",
+     "passport": "family",
+     "population-register": "push",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "push",
+     "vital-records": "push"
+    }
    }
   },
   {
@@ -851,6 +1177,18 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "restricted",
     "privateSectorVerification": "limited"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "family",
+     "courts": "family",
+     "health-insurance": "pull",
+     "population-register": "push",
+     "registrar": "family",
+     "social-security": "push",
+     "tax": "family",
+     "vital-records": "push"
+    }
    }
   },
   {
@@ -871,6 +1209,13 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "open",
     "privateSectorVerification": "no"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "other-government": "push",
+     "population-register": "push"
+    }
    }
   },
   {
@@ -891,6 +1236,16 @@
     "governmentPropagation": "manual",
     "certificateAccess": "open",
     "privateSectorVerification": "limited"
+   },
+   "flow": {
+    "recipients": {
+     "electoral": "push",
+     "population-register": "push",
+     "private-verifiers": "pull",
+     "social-security": "family",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -911,6 +1266,16 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "tiered",
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "health-insurance": "push",
+     "insurers": "push",
+     "population-register": "push",
+     "social-security": "push",
+     "tax": "push"
+    }
    }
   },
   {
@@ -931,6 +1296,11 @@
     "governmentPropagation": null,
     "certificateAccess": "restricted",
     "privateSectorVerification": null
+   },
+   "flow": {
+    "recipients": {
+     "population-register": "push"
+    }
    }
   },
   {
@@ -951,6 +1321,13 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "open",
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push"
+    }
    }
   },
   {
@@ -971,6 +1348,14 @@
     "governmentPropagation": "automatic",
     "certificateAccess": "restricted",
     "privateSectorVerification": "limited"
+   },
+   "flow": {
+    "recipients": {
+     "insurers": "pull",
+     "other-government": "push",
+     "population-register": "push",
+     "social-security": "push"
+    }
    }
   },
   {
@@ -986,6 +1371,17 @@
     "centralPopulationRegister": false,
     "governmentPropagation": "automatic",
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1006,6 +1402,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1026,6 +1435,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1046,6 +1467,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "pull"
+    }
    }
   },
   {
@@ -1066,6 +1500,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1086,6 +1532,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family",
+     "vital-records": "push"
+    }
    }
   },
   {
@@ -1106,6 +1565,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": null,
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1126,6 +1597,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "registrar": "push",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1146,6 +1630,21 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "insurers": "family",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family",
+     "vital-records": "push"
+    }
    }
   },
   {
@@ -1166,6 +1665,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "registrar": "push",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1186,6 +1698,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "courts": "push",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1206,6 +1731,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "open"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1226,6 +1764,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "insurers": "family",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1246,6 +1797,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "pull",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1266,6 +1829,20 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "insurers": "pull",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1286,6 +1863,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "open"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1306,6 +1896,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "open"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family",
+     "vehicle-licensing": "push"
+    }
    }
   },
   {
@@ -1326,6 +1929,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1346,6 +1962,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1361,6 +1989,9 @@
     "registrationDeadlineDays": 5,
     "informantDuty": "funeral-director",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {}
    }
   },
   {
@@ -1381,6 +2012,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1401,6 +2044,20 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "insurers": "push",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1421,6 +2078,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1441,6 +2110,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family",
+     "vehicle-licensing": "push"
+    }
    }
   },
   {
@@ -1461,6 +2143,20 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "open"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family",
+     "vital-records": "push"
+    }
    }
   },
   {
@@ -1481,6 +2177,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family",
+     "vehicle-licensing": "push"
+    }
    }
   },
   {
@@ -1501,6 +2210,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": null,
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1521,6 +2242,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1541,6 +2274,18 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1561,6 +2306,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "full",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "insurers": "pull",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1581,6 +2339,20 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "tiered"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "insurers": "pull",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family",
+     "vital-records": "push"
+    }
    }
   },
   {
@@ -1601,6 +2373,19 @@
     "medicalExaminerScrutiny": false,
     "electronicRegistration": "partial",
     "certificateAccess": "restricted"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "electoral": "push",
+     "health-insurance": "push",
+     "local-government": "push",
+     "other-government": "push",
+     "private-verifiers": "pull",
+     "social-security": "push",
+     "statistics": "push",
+     "tax": "family"
+    }
    }
   },
   {
@@ -1621,6 +2406,13 @@
     "governmentPropagation": "automatic",
     "certificateAccess": null,
     "privateSectorVerification": "yes"
+   },
+   "flow": {
+    "recipients": {
+     "banks": "pull",
+     "other-government": "pull",
+     "population-register": "push"
+    }
    }
   }
  ]

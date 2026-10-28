@@ -55,6 +55,10 @@
       [[true, 'Yes'], [false, 'No']]],
   };
   const ADDITIVE = { privateSectorVerification: ['no', 'limited', 'yes'] };
+  // How the death crosses an onward hop, and how soon a push arrives (research/SCHEMA.md).
+  const DIRECTIONS = { push: 'pushed', pull: 'recipient must ask', family: 'only if the family acts', unknown: 'not recorded how' };
+  const LATENCIES = { days: 'within 2 days', week: 'within a week', month: 'within a month', quarter: 'within a quarter', year: 'within a year' };
+  const route = (s) => (s.needsFamily ? 'family' : s.direction);
   const DEADLINE_BINS = [[1, '1 day or less'], [3, '2–3 days'], [7, '4–7 days'], [14, '8–14 days'], [31, '15–31 days'], [Infinity, 'over a month']];
 
   const state = { manifest: null, world: null, cache: new Map(), jur: null, tab: 'map', feature: 'governmentPropagation', cmp: 'all' };
@@ -327,6 +331,8 @@
     const badges = [
       `<span class="badge mode-${esc(s.mode)}">${esc(MODES[s.mode] || s.mode)}</span>`,
       `<span class="badge ob-${esc(s.obligation)}">${esc({ mandatory: 'legal duty', optional: 'permitted', service: 'official service' }[s.obligation] || s.obligation)}</span>`,
+      s.direction ? `<span class="badge dir-${esc(route(s))}">${esc(s.needsFamily ? 'pushed, once the family uses the service' : DIRECTIONS[s.direction] || s.direction)}</span>` : '',
+      s.latency ? `<span class="badge">${esc(LATENCIES[s.latency] || s.latency)}</span>` : '',
       s.deadline ? `<span class="badge dl">${esc(s.deadline.text)}</span>` : '',
       s.fromLayer ? `<span class="badge layer">${esc(s.originName)}</span>` : '',
       s.unverified ? '<span class="badge unv">unverified</span>' : '',
@@ -351,17 +357,17 @@
       if (!rows.has(s.to)) rows.set(s.to, []);
       rows.get(s.to).push(s);
     }
-    const rank = (s) => (s.mode === 'automatic' ? 0 : s.obligation === 'mandatory' ? 1 : s.obligation === 'service' ? 2 : 3);
+    const rank = (s) => ({ push: 0, pull: 1, family: 2, unknown: 3 }[route(s)] ?? 4);
     const ordered = [...rows.entries()].sort((a, b) => Math.min(...a[1].map(rank)) - Math.min(...b[1].map(rank)));
     const how = (s) => {
-      if (s.mode === 'automatic') return ['auto', 'told automatically'];
-      if (s.from === 'informant') {
+      if (s.needsFamily) return ['svc', 'sent, once the family uses the service'];
+      if (s.direction === 'push') return ['auto', 'sent to them'];
+      if (s.direction === 'pull') return ['req', 'must ask or check'];
+      if (s.direction === 'family') {
         if (s.obligation === 'service') return ['svc', 'family, through an official service'];
         return ['fam', s.obligation === 'mandatory' ? 'family must tell them' : 'only if the family tells them'];
       }
-      if (s.mode === 'on-request') return ['req', 'can check on request'];
-      if (s.obligation === 'mandatory') return ['duty', `${ACTORS[s.from] || s.from} must tell them`];
-      return ['opt', `${ACTORS[s.from] || s.from} may tell them`];
+      return ['opt', 'not recorded how'];
     };
     const box = $('#who-knows');
     if (!ordered.length) { box.innerHTML = '<p class="muted">No onward notification recorded yet.</p>'; return; }
@@ -370,7 +376,7 @@
         const [cls, label] = how(s);
         return `<tr class="${s.unverified ? 'unv' : ''}">${i === 0 ? `<td rowspan="${ss.length}"><b>${esc(ACTORS[to] || to)}</b></td>` : ''}
           <td><span class="how how-${cls}">${esc(label)}</span><div class="small muted">${esc(s.title)}</div></td>
-          <td class="small">${esc(s.deadline?.text || '—')}</td>
+          <td class="small">${esc(s.deadline?.text || LATENCIES[s.latency] || '—')}</td>
           <td class="small cites">${citeLinks(d, s.origin, s.citations) || (s.unverified ? '<i>unverified</i>' : '')}</td></tr>`;
       }).join('')).join('')}</tbody></table>`;
   }
@@ -408,6 +414,7 @@
       <div class="stat"><div class="v">${priv}</div><div class="muted">with a general official route for the private sector to check a death</div></div>
       <div class="stat"><div class="v">${steps}</div><div class="muted">recorded steps, from ${cites} citations</div></div>
     </div>`;
+    html += pushPull(js);
     for (const [k, f] of Object.entries(FEATURES)) {
       if (k === 'registrationDeadlineDays') continue;
       const counts = f[2].map(([v, l]) => ({ v, l, n: js.filter((j) => j.features[k] === v).length }));
@@ -428,6 +435,53 @@
     const box = $('#trends');
     box.innerHTML = html;
     box.querySelectorAll('a[data-j]').forEach((a) => a.onclick = (e) => { e.preventDefault(); state.jur = a.dataset.j; state.tab = 'chain'; render(); });
+  }
+  // Pushed, pulled or left to the family. Everything here is computed from the manifest
+  // (flow.recipients per jurisdiction, meta.flowTotals over unique steps), so it cannot go stale.
+  const ROUTE_LABEL = { push: 'pushed to them', pull: 'they must ask or check', family: 'only if the family acts', unknown: 'not recorded how' };
+  const ROUTE_OP = { push: 0.95, pull: 0.55, family: 0.22, unknown: 0.08 };
+  function pushPull(js) {
+    const T = state.manifest.meta.flowTotals;
+    if (!T) return '';
+    const PRIV = new Set(state.manifest.meta.privateActors);
+    const pct = (o, k) => { const n = Object.values(o).reduce((a, b) => a + b, 0); return n ? Math.round((100 * o[k]) / n) : 0; };
+    const reach = (to) => {
+      const c = { push: [], pull: [], family: [], unknown: [], none: [] };
+      for (const j of js) c[j.flow?.recipients?.[to] || 'none'].push(j);
+      return c;
+    };
+    const privRoute = (j) => {
+      const rs = Object.entries(j.flow?.recipients || {}).filter(([to]) => PRIV.has(to)).map(([, r]) => r);
+      return ['push', 'pull', 'family', 'unknown'].find((r) => rs.includes(r)) || 'none';
+    };
+    const pr = { push: [], pull: [], family: [], unknown: [], none: [] };
+    for (const j of js) pr[privRoute(j)].push(j);
+    const ss = reach('social-security'), el = reach('electoral'), tx = reach('tax');
+    const names = (a) => a.map((j) => j.name).join(', ');
+    const n = js.length;
+    let h = `<div class="card"><h3>Pushed, pulled, or left to the family</h3>
+      <p>Once a death is registered, the state mostly <b>sends</b> it to the rest of government: ${T.government.push} of the
+      ${Object.values(T.government).reduce((a, b) => a + b, 0)} recorded hops into public bodies are pushes (${pct(T.government, 'push')}%).
+      The private sector is the reverse. Of ${Object.values(T.private).reduce((a, b) => a + b, 0)} hops to banks, insurers and other private bodies,
+      ${T.private.pull} are routes the recipient has to <b>pull</b>: a query, a register match or a purchased file (${pct(T.private, 'pull')}%).
+      ${T.private.family} depend on the family presenting a certificate (${pct(T.private, 'family')}%), and only ${T.private.push} are pushes (${pct(T.private, 'push')}%).</p>
+      <p>By jurisdiction: the pension or benefits agency is sent the death in ${ss.push.length} of ${n}; the electoral roll in ${el.push.length};
+      the tax authority in only ${tx.push.length}. ${pr.push.length} push deaths to a private recipient at all${pr.push.length ? ` (${esc(names(pr.push))})` : ''}, mostly through
+      subscriptions or systematic supply from the population register. ${pr.pull.length} offer the private sector only a pull route; in
+      ${pr.family.length} it learns only from the family${pr.none.length ? `, and ${pr.none.length} record no route to private bodies at all (${esc(names(pr.none))})` : ''}.</p>
+      <p class="muted small">A push here is a hop, and its cadence matters: ${T.pushLatency.month} of the ${Object.values(T.pushLatency).reduce((a, b) => a + b, 0)} pushes arrive in a monthly batch,
+      ${T.pushLatency.quarter + T.pushLatency.year} quarterly or yearly, ${T.pushLatency.week} within a week and ${T.pushLatency.days} within two days; the rest state no cadence
+      in what was recorded. A push that only happens because the family used Tell Us Once or Québec's simplified transmission is counted as the family's.</p>`;
+    h += '<h4>Who is sent the death, by jurisdiction</h4>';
+    const row = (label, c) => `<div class="pp-row"><span class="l">${esc(label)}</span><span class="pp-bar">${
+      ['push', 'pull', 'family', 'unknown', 'none'].map((k) => c[k].length ? `<span style="flex:${c[k].length};--o:${ROUTE_OP[k] ?? 0}" class="pp-${k}" title="${esc(`${ROUTE_LABEL[k] || 'no route recorded'}: ${names(c[k])}`)}">${c[k].length}</span>` : '').join('')}</span></div>`;
+    h += `<div class="pp">${row('Pension / benefits', ss)}${row('Electoral roll', el)}${row('Tax authority', tx)}${row('Health insurance / service', reach('health-insurance'))}${row('Passport office', reach('passport'))}${row('Driver & vehicle licensing', reach('vehicle-licensing'))}${row('Any private recipient', pr)}</div>
+      <div class="map-legend">${['push', 'pull', 'family', 'unknown'].map((k) => `<span><i class="sw" style="--o:${ROUTE_OP[k]}"></i>${esc(ROUTE_LABEL[k])}</span>`).join('')}<span><i class="sw sw-null"></i>no route recorded</span></div>`;
+    const lat = T.pushLatency, lt = Object.values(lat).reduce((a, b) => a + b, 0);
+    h += `<h4>How soon a push arrives</h4><div class="bars">${
+      [['days', 'within 2 days'], ['week', 'within a week'], ['month', 'within a month'], ['quarter', 'within a quarter'], ['year', 'within a year'], ['none', 'no cadence recorded']]
+        .map(([k, l]) => bar(l, lat[k], lt, k === 'none' ? 0.1 : 0.95 - 0.15 * ['days', 'week', 'month', 'quarter', 'year'].indexOf(k), [])).join('')}</div></div>`;
+    return h;
   }
   function bar(label, n, total, op, js) {
     const pct = total ? (n / total) * 100 : 0;

@@ -153,3 +153,16 @@
 .dn .gaps li { color: var(--ink-2); font-size: 14.5px; margin: 4px 0; }
 .dn .feat td:first-child { width: 220px; font-weight: 600; }
 .dn .foot { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 12px; color: var(--ink-2); font-size: 14px; }
+
+/* ---------- push / pull ---------- */
+.dn .badge.dir-push { color: var(--auto); font-weight: 600; }
+.dn .badge.dir-pull { color: var(--duty); }
+.dn .badge.dir-family { color: var(--family); }
+.dn .pp { display: grid; gap: 6px; margin: 6px 0 8px; }
+.dn .pp-row { display: grid; grid-template-columns: minmax(120px, 220px) 1fr; gap: 10px; align-items: center; font-size: 14px; }
+.dn .pp-bar { display: flex; height: 20px; border-radius: 3px; overflow: hidden; background: var(--surface-2); }
+.dn .pp-bar > span { display: flex; align-items: center; justify-content: center; min-width: 18px; font-size: 12px; font-variant-numeric: tabular-nums;
+  background: color-mix(in srgb, var(--accent) calc(var(--o) * 100%), transparent); border-right: 1px solid var(--surface); color: var(--ink); }
+.dn .pp-bar > .pp-push { color: var(--paper); }
+.dn .pp-bar > .pp-none { background: var(--surface-2); color: var(--ink-2); }
+@media (max-width: 640px) { .dn .pp-row { grid-template-columns: 1fr; } }
