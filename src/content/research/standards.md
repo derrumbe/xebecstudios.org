@@ -13,6 +13,9 @@ states the legal position; this page argues about what to build on it.
 IETF Datatracker, the OpenID Foundation and W3C — rather than from memory, because this area moves
 faster than the law does. Status lines go stale; re-check before relying on one.
 
+That date covers the **specification statuses**. The death-signal section added on 28 October 2026
+carries its own dates and sources and did not re-verify any status line above.
+
 ## Relation to the DADE paper
 
 The OpenID Foundation published [*The Unfinished Digital Estate: Culture, Law, and Technology after
@@ -168,6 +171,69 @@ not at all.
 The remaining honest caveat on UMA itself: the core specs are 2018 Kantara Recommendations with
 modest deployment.
 
+## The death signal already has a transport, and it stops at the edge of the state
+
+Everything below treats "someone dies" as the event that starts the chain, and until now this page
+described the transmitter from MOSIP's model alone. There is now a companion dataset that records
+what actually happens: [Death
+Notification](https://xebecstudios.org/research/death-notification/) traces how a death is
+pronounced, certified, registered and then propagated, in 905 steps and 1,508 citations across 65
+jurisdictions and 25 countries, using the same jurisdiction ids as this reference so the two line
+up. Its 25 countries are this reference's 26 less Switzerland, which landed here the day before.
+Figures below are from its build at commit `cc584ab`, 28 October 2026.
+
+It changes three claims on this page, and not in the direction I expected.
+
+**1. Inside government this is a solved problem.** Registration propagates to the bodies that pay
+benefits and keep records **automatically in 22 of the 25 countries** — no family request, no
+certificate presented. The three exceptions are instructive rather than numerous: Mexico is
+`manual`, the United Kingdom is `single-request` (DWP is told on registration, but HMRC, HM Passport
+Office, DVLA, councils and public pension schemes only if the family uses Tell Us Once), and Rwanda
+could not be established. So the transmitter an SSF stream would need largely exists already, is
+statutory, and runs today. It simply terminates at the edge of the state.
+
+**2. Across that edge there is mostly nothing, and where there is something it is bank-shaped.** An
+official general route for private bodies to verify or be told of a death exists in **ten** of the
+twenty-five — Australia, Austria, Brazil, Denmark, Finland, France, the Netherlands, South Africa,
+Sweden and the United States. Seven are narrow or sector-specific (Argentina, Germany, Italy,
+Mexico, Singapore, South Korea, Spain), and **seven have no route at all**: Canada, China, India,
+Ireland, Japan, Mauritius and the United Kingdom. Rwanda is the twenty-fifth and could not be
+established either way.
+
+Every one of the ten is addressed to financial institutions. Across the corpus's **83 private-stage
+steps** the recipients are generic authorised verifiers (32), banks (23), insurers (12) and credit
+bureaus (2). **No online platform is the recipient of a death signal in any jurisdiction in the
+dataset** — the actor vocabulary has no id for one, because no statute asked for it. The five steps
+that mention a platform or an online service at all describe the *channel*, not the recipient:
+Australia's Death Notification Service is a web form the informant uses to reach banks, and
+Germany's, Italy's and Mexico's are online request routes for authorised verifiers. Worth checking
+rather than assuming, and the check makes the finding stronger.
+
+Even the broadest route is narrower than it looks. The US Limited Access Death Master File is
+available to certified private users, but it **excludes all State-furnished deaths** under 42 U.S.C.
+§1306c, so a private check misses a large share of deaths — and no law requires a bank, insurer or
+credit bureau to consult it at all.
+
+**3. The one gateway of roughly the right shape is keyed to a living requester.** The United Kingdom
+has no private route, and its nearest thing is the Data (Use and Access) Act 2025 s. 45, "Power of
+public authority to disclose information to registered person": a public authority may disclose
+information about an individual to a provider on the DVS register. Against the post-mortem case it
+fails twice over. It applies only where "an individual makes a request to the person for the
+provision of digital verification services" (s. 45(1)(b)), and the disclosure is "for the purpose of
+enabling the person to provide the digital verification services **for the individual**" (s. 45(2)).
+A dead person makes no request and is no longer the person served. The section is also marked
+**Prospective** on legislation.gov.uk — not in force. Read from the statute on 28 October 2026.
+
+→ *The trust framework this page said would have to exist before the transport could be used turns
+out to exist already, ten times over, and no digital-estate effort is in any of them.* That is a
+better starting point than a blank sheet, because the governance pattern is proven and the admission
+terms are written down — Denmark's and Sweden's subscription registers, Austria's fee-based ZPR
+change service, France's mandatory annual RNIPP consultation under the loi Eckert, Australia's
+approved-organisation Death Check. It is also a warning. Being outside an established statutory list
+is a harder problem than an unspecified payload, and it is not a problem a specification solves.
+**Getting platforms admitted to one of these schemes, or into the next one drafted, is prior to any
+question about event formats.**
+
 ## Shared Signals: the event layer these use cases actually need
 
 **Almost nothing in this reference is a query. Nearly all of it is a state transition.** Someone
@@ -195,7 +261,7 @@ defined and registered, not a basis to extend — which is why what follows is a
 
 | Legal event | Statute in this data | Who would transmit | What it needs |
 |---|---|---|---|
-| Death | every jurisdiction | a civil registry — MOSIP's model, which notifies entities pre-approved by law | no event type; and deaths get **mis-recorded and revoked**, so it must be retractable |
+| Death | every jurisdiction | a civil registry — automatic to government in 22 of 25 countries, but too early to know for a 40-hour deadline | no event type; deaths get **mis-recorded and revoked**, so it must be retractable; and no platform is a recipient anywhere |
 | Incapacity determined | Iowa §633B.109(3); §144B.1(3) | a clinician, or a judge | no event type |
 | Capacity regained, authority revives | Iowa §633B.108(2); Utah §75A-9-117 | the court ending the conservatorship | **no reinstatement event at all** |
 | Conservator appointed | Iowa §633B.108(2) and five other states | a court | no event type — and see below, the same event has five different effects |
@@ -253,6 +319,17 @@ That is a governance decision wearing protocol clothes, and it is where a trust 
 exist before the transport can be used. The subject-identifier question is equally awkward: RFC 9493
 has no format for "the person named on this death certificate", and correlating a deceased person
 across a registry and a platform is the exact privacy hazard RFC 8417 and RFC 8935 both flag.
+
+**The companion dataset makes this worse, and the arithmetic is the whole point.** Iowa's own
+deadline for filing a death certificate is **three days** — Iowa Code §144.26, "three days after
+death and before final disposition" — while §144C.8(2) forfeits the right to control remains at
+**40 hours**. The registry is not merely slower than the deadline; it is not required to know yet.
+Across the dataset **43 of the 53 recorded registration deadlines exceed 40 hours**, and the only
+ones that do not are same-day or next-day. So for the single hardest deadline in this data, the
+civil registry cannot be the transmitter at all, whatever the transport and however fast the push.
+The signal would have to originate upstream, at pronouncement or at medical certification — which
+in most jurisdictions are different actors, with a duty running only to the registrar and to nobody
+else. Choosing push over poll does not reach this; it is a question about who is obliged to speak.
 
 ### The obvious composition
 
@@ -407,13 +484,19 @@ function and names no way to perform it.
 
 ## What this repository can contribute
 
-Two assets fall out of work already done and verified:
+Three assets fall out of work already done and verified:
 
 1. **A cross-jurisdiction role vocabulary.** 21 canonical ids that line up the same role across 26
    countries, each with a definition and pinpoint citations per jurisdiction. Every proposal above
    needs a way to say *what* authority is held; none supplies the terms. This is the gap the DADE
    paper's §8.2 calls "define the vocabulary".
 2. **A statutory vocabulary of refusal grounds**, taken from the four acts that enumerate them.
+3. **A sourced map of the death signal itself**, in the companion [Death
+   Notification](https://xebecstudios.org/research/death-notification/) dataset: who pronounces,
+   certifies, registers and propagates, step by step, with the ten countries that already run a
+   statutory private-sector verification route and the terms on which each admits a participant. An
+   effort that wants platforms added to such a route has to know which routes exist and what they
+   ask of a joiner; that is now written down and cited.
 
 And one method: **the dataset as a conformance suite.** §8.2 asks for cross-industry conformance
 testing; tests 1 to 8 above are the beginning of it, each traceable to a statute with a retrieval
@@ -433,7 +516,11 @@ date.
   stream with the authority as receiver; delivery is sometimes constitutive rather than informative
   (Iowa §144C.8(1)), which makes an acknowledgement evidence of a legal fact; an absence of signal
   is not evidence of anything, because Virginia §54.1-2996 says non-registration does not affect
-  validity; and RFC 9493 has no subject-identifier format for a deceased person.
+  validity; and RFC 9493 has no subject-identifier format for a deceased person. The **transmitter**
+  question now has an evidence base rather than a model: propagation inside government is automatic
+  in 22 of 25 countries while no jurisdiction sends anything to a platform, so the ask is admission
+  to an existing statutory scheme, not a new pipe — and for Iowa's 40-hour deadline the registry is
+  structurally too early to be the transmitter at all.
 - **W3C VC / Bitstring Status List** — test 4. A credential about a legal authority is a credential
   about a rule with an as-at date.
 - **UMA for Agents (U4A)** — now evaluated test by test above. It passes tests 7 and 8, is the
@@ -460,3 +547,12 @@ section the searches did not surface. The absence findings — no suspend, reins
 incapacity, death or successor anywhere in the nine — are whole-text string searches and are solid. The OpenID4VCI approval date and the current revision
 of the eKYC/IDA Authority draft were **not** pinned to a primary page and are marked accordingly —
 all three need checking before citation.
+
+The Death Notification figures are from that repository's build at commit `cc584ab`, 28 October
+2026, and are a snapshot of a dataset still growing. **Nothing here checks them** —
+a checker in the source repository can only see this reference's own data — so re-derive them from
+that repository rather than trusting the numbers here if anything turns on them. The DUAA s. 45 reading and Iowa Code §144.26
+were verified against the statutes; the other nine private-sector routes are characterised from the
+companion dataset's own notes and citations and were not independently re-read. The claim that no
+jurisdiction routes a death signal to a platform is a whole-corpus search of its private-stage
+steps, and is as solid as the dataset's coverage of that stage.
