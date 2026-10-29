@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built": "2026-10-28",
+  "built": "2026-10-29",
   "stages": [
    "pronounce",
    "certify",
@@ -107,7 +107,7 @@
     "push": 226,
     "pull": 42,
     "family": 48,
-    "unknown": 3
+    "unknown": 6
    },
    "private": {
     "push": 5,
@@ -116,14 +116,14 @@
     "unknown": 0
    },
    "pushLatency": {
-    "days": 29,
+    "days": 30,
     "week": 11,
     "month": 55,
-    "quarter": 9,
+    "quarter": 10,
     "year": 9,
     "asap": 6,
-    "unspecified": 95,
-    "none": 17
+    "unspecified": 99,
+    "none": 11
    },
    "pushLatencySteps": {
     "days": [
@@ -198,6 +198,10 @@
      [
       "nl-national",
       "Registrar passes the death to the municipality's BRP"
+     ],
+     [
+      "rw-national",
+      "Civil registration (CRVS) updates the population registry"
      ],
      [
       "us-id",
@@ -518,6 +522,10 @@
       "Quarterly returns to IBGE"
      ],
      [
+      "br-national",
+      "Declaração de Óbito copy goes to the health secretariat for the mortality system (SIM)"
+     ],
+     [
       "us-ia",
       "Quarterly list of decedents to the state registrar of voters"
      ],
@@ -652,12 +660,24 @@
       "Private bodies can receive deaths through the ZPR change service"
      ],
      [
+      "au-commonwealth",
+      "National fact-of-death data supplied to approved government agencies"
+     ],
+     [
       "au-qld",
       "Registrar shares death information with government agencies under arrangements"
      ],
      [
       "au-vic",
       "Registrar notifies the Voluntary Assisted Dying Review Board"
+     ],
+     [
+      "br-national",
+      "Registry notifies the Receita Federal of the death"
+     ],
+     [
+      "br-national",
+      "Registry notifies the State public-security secretariat that issued the identity card"
      ],
      [
       "ca-bc",
@@ -709,6 +729,10 @@
      ],
      [
       "dk-national",
+      "The death is entered in CPR"
+     ],
+     [
+      "dk-national",
       "Udbetaling Danmark and other authorities draw the death from CPR"
      ],
      [
@@ -738,10 +762,6 @@
      [
       "fi-national",
       "The Tax Administration receives the death from the Population Information System"
-     ],
-     [
-      "fr-national",
-      "Tax administration uses the RNIPP to certify identities"
      ],
      [
       "fr-national",
@@ -792,8 +812,12 @@
       "Civil registries feed deaths to the Registro Nacional de Población"
      ],
      [
+      "mx-federal",
+      "Death-certificate data captured by the health system"
+     ],
+     [
       "nl-national",
-      "BRP systematically supplies authorised government bodies (afnemers)"
+      "BRP spontaneously supplies the Sociale Verzekeringsbank (afnemer) with the death"
      ],
      [
       "nl-national",
@@ -998,14 +1022,6 @@
     ],
     "none": [
      [
-      "ar-national",
-      "ANSES learns of deaths of beneficiaries"
-     ],
-     [
-      "au-commonwealth",
-      "National fact-of-death data supplied to approved government agencies"
-     ],
-     [
       "au-commonwealth",
       "Services Australia (Centrelink, Medicare) learns of the death from registry data"
      ],
@@ -1028,22 +1044,6 @@
      [
       "cn-national",
       "Death information registered for cause-of-death statistics"
-     ],
-     [
-      "dk-national",
-      "The death is entered in CPR"
-     ],
-     [
-      "it-national",
-      "The ISTAT death form reaches the national statistics institute"
-     ],
-     [
-      "mx-federal",
-      "Death-certificate data captured by the health system"
-     ],
-     [
-      "rw-national",
-      "Civil registration updates the population register (NIDA)"
      ],
      [
       "us-ca",
@@ -1344,8 +1344,8 @@
    "level": "national",
    "layer": null,
    "steps": 13,
-   "citations": 23,
-   "unverified": 1,
+   "citations": 26,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 2,
     "informantDuty": "mixed",
@@ -1362,7 +1362,7 @@
      "other-government": "push",
      "population-register": "push",
      "private-verifiers": "pull",
-     "social-security": "push",
+     "social-security": "unknown",
      "statistics": "push"
     }
    }
@@ -1407,7 +1407,7 @@
    "level": "federal",
    "layer": null,
    "steps": 10,
-   "citations": 14,
+   "citations": 16,
    "unverified": 3,
    "features": {
     "centralPopulationRegister": false,
@@ -1434,7 +1434,7 @@
    "level": "subnational",
    "layer": "au-commonwealth",
    "steps": 12,
-   "citations": 17,
+   "citations": 20,
    "unverified": 2,
    "features": {
     "centralPopulationRegister": false,
@@ -1530,9 +1530,9 @@
    "country": "br",
    "level": "national",
    "layer": null,
-   "steps": 14,
-   "citations": 30,
-   "unverified": 7,
+   "steps": 17,
+   "citations": 37,
+   "unverified": 5,
    "features": {
     "registrationDeadlineDays": 1,
     "informantDuty": "mixed",
@@ -1547,10 +1547,11 @@
     "recipients": {
      "electoral": "push",
      "other-government": "pull",
+     "passport": "push",
      "private-verifiers": "pull",
      "social-security": "push",
      "statistics": "push",
-     "tax": "family"
+     "tax": "push"
     }
    }
   },
@@ -1617,8 +1618,8 @@
    "level": "subnational",
    "layer": "ca-federal",
    "steps": 15,
-   "citations": 34,
-   "unverified": 1,
+   "citations": 39,
+   "unverified": 0,
    "features": {
     "centralPopulationRegister": false,
     "governmentPropagation": "automatic",
@@ -1682,8 +1683,8 @@
    "level": "national",
    "layer": null,
    "steps": 13,
-   "citations": 17,
-   "unverified": 2,
+   "citations": 18,
+   "unverified": 1,
    "features": {
     "registrationDeadlineDays": 30,
     "informantDuty": "mixed",
@@ -1711,8 +1712,8 @@
    "level": "national",
    "layer": null,
    "steps": 20,
-   "citations": 40,
-   "unverified": 1,
+   "citations": 43,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 3,
     "informantDuty": "mixed",
@@ -1742,8 +1743,8 @@
    "level": "national",
    "layer": null,
    "steps": 12,
-   "citations": 20,
-   "unverified": 1,
+   "citations": 26,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 2,
     "informantDuty": "physician",
@@ -1830,8 +1831,8 @@
    "level": "national",
    "layer": null,
    "steps": 21,
-   "citations": 37,
-   "unverified": 1,
+   "citations": 39,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 1,
     "informantDuty": "mixed",
@@ -1850,7 +1851,7 @@
      "population-register": "push",
      "private-verifiers": "pull",
      "social-security": "push",
-     "tax": "push"
+     "tax": "pull"
     }
    }
   },
@@ -1888,8 +1889,8 @@
    "level": "subnational",
    "layer": "uk-national",
    "steps": 15,
-   "citations": 38,
-   "unverified": 1,
+   "citations": 40,
+   "unverified": 0,
    "features": {
     "centralPopulationRegister": false,
     "governmentPropagation": "single-request",
@@ -1922,8 +1923,8 @@
    "level": "subnational",
    "layer": "uk-national",
    "steps": 15,
-   "citations": 29,
-   "unverified": 1,
+   "citations": 31,
+   "unverified": 0,
    "features": {
     "centralPopulationRegister": false,
     "governmentPropagation": "manual",
@@ -1955,8 +1956,8 @@
    "level": "subnational",
    "layer": "uk-national",
    "steps": 17,
-   "citations": 25,
-   "unverified": 2,
+   "citations": 30,
+   "unverified": 0,
    "features": {
     "centralPopulationRegister": true,
     "governmentPropagation": "single-request",
@@ -1989,7 +1990,7 @@
    "level": "national",
    "layer": null,
    "steps": 15,
-   "citations": 25,
+   "citations": 28,
    "unverified": 3,
    "features": {
     "registrationDeadlineDays": 90,
@@ -2047,8 +2048,8 @@
    "level": "national",
    "layer": null,
    "steps": 17,
-   "citations": 31,
-   "unverified": 1,
+   "citations": 34,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 1,
     "informantDuty": "mixed",
@@ -2068,7 +2069,7 @@
      "population-register": "push",
      "private-verifiers": "pull",
      "social-security": "push",
-     "statistics": "push",
+     "statistics": "unknown",
      "tax": "push"
     }
    }
@@ -2172,8 +2173,8 @@
    "level": "national",
    "layer": null,
    "steps": 15,
-   "citations": 22,
-   "unverified": 1,
+   "citations": 25,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 1,
     "informantDuty": "mixed",
@@ -2182,7 +2183,7 @@
     "centralPopulationRegister": true,
     "governmentPropagation": "manual",
     "certificateAccess": "open",
-    "privateSectorVerification": "limited"
+    "privateSectorVerification": "no"
    },
    "flow": {
     "recipients": {
@@ -2202,8 +2203,8 @@
    "level": "national",
    "layer": null,
    "steps": 14,
-   "citations": 27,
-   "unverified": 2,
+   "citations": 31,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 6,
     "informantDuty": "mixed",
@@ -2232,8 +2233,8 @@
    "level": "national",
    "layer": null,
    "steps": 9,
-   "citations": 13,
-   "unverified": 1,
+   "citations": 17,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 30,
     "informantDuty": "mixed",
@@ -2257,7 +2258,7 @@
    "level": "national",
    "layer": null,
    "steps": 11,
-   "citations": 21,
+   "citations": 22,
    "unverified": 1,
    "features": {
     "registrationDeadlineDays": 1,
@@ -2284,7 +2285,7 @@
    "level": "national",
    "layer": null,
    "steps": 14,
-   "citations": 22,
+   "citations": 23,
    "unverified": 2,
    "features": {
     "registrationDeadlineDays": 1,
@@ -2930,16 +2931,22 @@
    "country": "us",
    "level": "model",
    "layer": null,
-   "steps": 6,
-   "citations": 5,
-   "unverified": 6,
+   "steps": 11,
+   "citations": 19,
+   "unverified": 0,
    "features": {
     "registrationDeadlineDays": 5,
     "informantDuty": "funeral-director",
+    "medicalExaminerScrutiny": false,
+    "electronicRegistration": "partial",
     "certificateAccess": "restricted"
    },
    "flow": {
-    "recipients": {}
+    "recipients": {
+     "other-government": "pull",
+     "statistics": "push",
+     "vital-records": "push"
+    }
    }
   },
   {
@@ -3015,7 +3022,7 @@
    "level": "subnational",
    "layer": "us-federal",
    "steps": 11,
-   "citations": 17,
+   "citations": 19,
    "unverified": 1,
    "features": {
     "centralPopulationRegister": false,
