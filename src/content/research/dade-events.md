@@ -266,6 +266,7 @@ the five alongside the three candidates. So the next step is no longer a longer 
 What is still missing is the part that was never a drafting problem. The transitions in
 the research data should go to the Shared Signals working group as test cases alongside the
 conformance tests in [the standards landscape](/research/digital-estate-standards/standards/) — the data is already there. And the trust framework has to
-exist before any of the transport is usable: MOSIP's model, a civil registry notifying entities
-pre-approved by law, is the existing answer to who may transmit, and it is a governance question
-rather than a standards one.
+exist before any of the transport is usable. That is a governance question rather than a standards
+one, and the answer is no longer a model to be designed: a civil registry notifying entities
+pre-approved by law is what **ten countries already do in statute**, and every one of those lists
+admits banks and insurers rather than platforms. The work is getting into one of them.

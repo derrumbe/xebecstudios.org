@@ -314,7 +314,8 @@ a quiet stream as "authority unchanged" is making a claim the underlying law ref
 Iowa §144C.8(2) gives 24 hours from notification or 40 hours from death, whichever is earlier. A
 poll-based stream on a daily cadence cannot serve that use case at all, so push (RFC 8935) is not an
 optimisation here but a requirement — and push needs the receiver pre-registered with the
-transmitter, which is precisely MOSIP's arrangement of notifying entities **pre-approved by law**.
+transmitter, which is precisely the **pre-approved by law** arrangement that ten countries above
+already run.
 That is a governance decision wearing protocol clothes, and it is where a trust framework has to
 exist before the transport can be used. The subject-identifier question is equally awkward: RFC 9493
 has no format for "the person named on this death certificate", and correlating a deceased person
