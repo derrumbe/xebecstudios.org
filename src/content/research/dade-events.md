@@ -213,7 +213,14 @@ prohibited them expressly: refusing *exclusively* because of the authority's age
 
 - **Push (RFC 8935) is required**, not preferred, for `principal-deceased` where a disposition clock
   depends on it — and it is the reason `authority-lapse-pending` is worth keeping on the candidate
-  list rather than discarding. A daily poll cannot serve a forty-hour deadline.
+  list rather than discarding. A daily poll cannot serve a forty-hour deadline. **Nor, it turns out,
+  can push from a civil registry.** The companion [Death
+  Notification](https://xebecstudios.org/research/death-notification/) data records Iowa filing a
+  death certificate within three days under Iowa Code §144.26 while §144C.8(2) forfeits at 40 hours,
+  and 43 of its 53 recorded registration deadlines exceed 40 hours. For that clock the registry is
+  not slow but not yet obliged to know, so `registry_reference` cannot be a precondition of the
+  event and the transmitter has to be upstream — the pronouncing or certifying clinician, who in
+  most jurisdictions owes a duty to the registrar and to nobody else.
 - **Acknowledgements should be retained as evidence**, not discarded as transport state, wherever a
   statute makes the legal effect depend on a third party's knowledge.
 - **Receivers must not treat a quiet stream as "unchanged"**, per design rule 3.
@@ -224,7 +231,13 @@ prohibited them expressly: refusing *exclusively* because of the authority's age
   to deployments.
 - **Who may transmit is a governance question, not a protocol one.** MOSIP's model — a civil registry
   notifying entities **pre-approved by law** — is the existing answer, and a trust framework has to
-  exist before the transport is usable.
+  exist before the transport is usable. It is also no longer hypothetical: **ten countries run that
+  arrangement in statute today** — Australia, Austria, Brazil, Denmark, Finland, France, the
+  Netherlands, South Africa, Sweden and the United States — and every one of them admits banks,
+  insurers, pension funds and credit bureaus. Across the companion dataset's 83 private-stage steps
+  no online platform is the recipient of a death signal in any jurisdiction. So the governance work
+  is **admission to a scheme that already exists**, not the design of a new one, and that is a
+  harder ask than a payload: it is a statutory list a specification cannot amend.
 
 ## What the event set does not solve
 
