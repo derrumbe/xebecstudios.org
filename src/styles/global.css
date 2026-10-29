@@ -20,7 +20,7 @@
   --rhumb-op:.30;
   --serif:"Spectral",Georgia,"Times New Roman",serif;
   --display:"Instrument Serif","Spectral",Georgia,serif;
-  --marg:190px; --gut:44px; --measure:42rem;
+  --marg:190px; --gut:44px; --measure:44rem;
 }
 /* Three states, not two. With no data-theme the OS decides, which is the
    default and what most readers get. data-theme pins it, and the masthead
