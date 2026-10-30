@@ -4,8 +4,8 @@ import Masthead from '../components/Masthead.astro';
 import Colophon from '../components/Colophon.astro';
 import { SITE } from '../consts';
 
-interface Props { title?: string; description?: string; type?: string; }
-const { title, description = SITE.description, type = 'website' } = Astro.props;
+interface Props { title?: string; description?: string; type?: string; noindex?: boolean; }
+const { title, description = SITE.description, type = 'website', noindex = false } = Astro.props;
 const full = title ? `${title} — ${SITE.title}` : SITE.title;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -24,6 +24,11 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{full}</title>
   <meta name="description" content={description} />
+  {/* "follow" rather than "nofollow": a page can be kept out of the index while
+      its outbound links still count. Pages that set this are also excluded from
+      the sitemap in astro.config.mjs — listing a page while asking crawlers not
+      to index it says two different things. */}
+  {noindex && <meta name="robots" content="noindex, follow" />}
   <link rel="canonical" href={canonical} />
   <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml" />
   <meta property="og:type" content={type} />
