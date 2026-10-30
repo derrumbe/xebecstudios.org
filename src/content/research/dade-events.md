@@ -1,10 +1,10 @@
 ---
 title: 'A DADE event set for the Shared Signals Framework'
-description: 'The argument and the sourced evidence behind a Shared Signals event set for digital-estate access — why five events rather than one per legal transition, and what each has to carry to be correct in more than one jurisdiction.'
+description: 'The argument and the sourced evidence behind a Shared Signals event set for digital-estate access — why five events rather than one per legal transition, what each has to carry to be correct in more than one jurisdiction, and why who may transmit is a statutory list rather than a protocol choice.'
 section: 'digital-estate-standards'
 order: 3
 standing: 'Argument and evidence. The normative definitions live in the openid-dade-events specification, which governs where the two disagree.'
-updated: 2026-10-14
+updated: 2026-10-29
 ---
 **This is the argument and the evidence; the normative definitions live in the specification** —
 [openid-dade-events](https://github.com/derrumbe/openid-dade-events), an Informational draft
