@@ -16,6 +16,11 @@ faster than the law does. Status lines go stale; re-check before relying on one.
 That date covers the **specification statuses**. The death-signal section added on 28 October 2026
 carries its own dates and sources and did not re-verify any status line above.
 
+The **McGuinness drafts were re-read on 2 November 2026**, and that re-reading is why test 1 below
+now says something different about Mission: Mission moved to `-01` on 21 October, six days after the
+date above, and the previous wording had mischaracterised what the draft says about suspension even
+at `-00`. The other status lines were not re-verified then and still carry the 14 October date.
+
 ## Relation to the DADE paper
 
 The OpenID Foundation published [*The Unfinished Digital Estate: Culture, Law, and Technology after
@@ -53,8 +58,8 @@ repository has and the specs do not.
 | **Transaction Tokens** | `draft-ietf-oauth-transaction-tokens-11`, 30 July 2026, *WG Consensus: Waiting for Write-Up* — an **OAuth** WG document, not WIMSE | call-chain context propagation |
 | **WIMSE** | WG: `arch-08` (6 July 2026), `wpt-01`, `workload-creds-02`, `http-signature-02`; also `aims-00` (AI Identity Management System) and `draft-sweeney-wimse-credential-delegation-00` | workload, not human, identity — adjacent |
 | **AAuth** (Hardt) | `draft-hardt-oauth-aauth-protocol-09/10`, individual draft, **not WG-adopted**; builds on HTTP Message Signatures (RFC 9421) | per-agent cryptographic identity, signed requests instead of bearer tokens |
-| **Mission-Bound Authorization** (McGuinness) | `draft-mcguinness-oauth-mission-00`, 6 July 2026, individual, **"not endorsed by the IETF"** | a durable, human-approved, bounded grant — see below |
-| **OAuth Actor Profile for Delegation** (McGuinness) | `draft-mcguinness-oauth-actor-profile-00`, individual | the `act` delegation chain Mission uses |
+| **Mission-Bound Authorization** (McGuinness) | `draft-mcguinness-oauth-mission-01`, 21 October 2026, individual, **"not endorsed by the IETF"** | a durable, human-approved, bounded grant — see below |
+| **OAuth Actor Profile for Delegation** (McGuinness) | `draft-mcguinness-oauth-actor-profile-01`, 9 October 2026, individual | the `act` delegation chain Mission uses |
 | **OAuth 2.0 AI Agent Instance Profile** (McGuinness) | `draft-mcguinness-oauth-ai-agent-instance-00`, 4 July 2026 | attested instance ids, sub-agent chains |
 | **UMA 2.0** (Kantara, Maler et al.) | Grant and Federated Authorization, **2018 Recommendations** | party-to-party access with the owner absent — see below |
 | **UMA for Agents (U4A)** | **nine Internet-Drafts** plus a running Apache-2.0 reference implementation, by Nick Gamb (MindGarden) and Eve Maler (Venn Factory) at `u4a.ai`. Emerging and **not ratified by any body** — its own pages call it a proof of concept. Read for this page | a UMA 2.0 profile for the case where the owner is **not at the keyboard** — the closest structural fit to this problem of anything here |
@@ -64,7 +69,7 @@ repository has and the specs do not.
 
 ### Mission-Bound Authorization is a power of attorney, re-derived
 
-`draft-mcguinness-oauth-mission-00` arrives at a structure that matches the legal instrument this
+`draft-mcguinness-oauth-mission-01` arrives at a structure that matches the legal instrument this
 repository documents, apparently without starting from it:
 
 | Mission | The legal analogue in this data |
@@ -73,7 +78,7 @@ repository documents, apparently without starting from it:
 | Authority Set of `mission_resource_access` entries with per-entry constraints, e.g. `max_amount` | The small-estate ceiling — a per-entry monetary cap is exactly the shape, and it runs $2,000 to $208,850 |
 | Revocation "stops further derivation" and "does not undo completed actions" | The safe harbour in all eight acceptance regimes: acts done in good faith before actual knowledge bind the principal |
 | `delegation` with `max_depth` and `allowed_delegates`; non-delegable by default; a delegated entry may not be broader than its parent | Successor and alternate appointment — Iowa §144C.8 devolves to an alternate designee on forfeiture |
-| State is active, revoked or expired | **The mismatch.** See test 1 below |
+| State is `active` or `terminated`, the reason being `revoked` or `expired` — `-01` collapsed `-00`'s three states (active, revoked, expired) into two plus a reason | **The near miss.** A companion profile may register a `paused` state and Mission Status does, with suspend/resume/complete operations the base document "does not require". See test 1 below |
 | `expires_at` is REQUIRED | **The mismatch.** Legal authority rarely expires on a date; it ends on *events* |
 | Held server-side by the issuing AS, "its only issuer" | **The big mismatch.** See test 2 below |
 
@@ -401,10 +406,30 @@ authority at all until a registry acts.
 Three states of "not currently effective", then: not yet registered, not yet created, and suspended
 mid-life. A protocol that can issue a credential at signing time is wrong in ten jurisdictions, and
 in Singapore has nothing to issue.
-→ *No credential format has any of these states.* Mission has `suspended` only as an OPTIONAL extension in a
-separate status profile, with pause-and-resume listed as future work. Bitstring Status List is
-binary per index, and an event set would have to define "asleep, may wake" because no existing one
-had reason to. **This is the single most specific piece of feedback this dataset can give.**
+→ *No credential format has any of these states.* **Mission is the exception and the nearest miss**,
+and the earlier version of this sentence got it wrong by saying pause-and-resume was future work.
+Mission's base lifecycle is two states — "A Mission is in one of two states: active ... terminated"
+— but §7 leaves an explicit extension point, "a companion profile MAY register an additional state
+for a lifecycle it introduces (for example, a paused state)", and §B.4 says Mission Status
+"defines a suspended state with resume/complete transitions as an optional extension". Appendix A.6
+is titled *Stage 5: Suspension, Resumption, and Revocation* and works it through: suspended at
+08:20:00, resumed at 08:30:00, state versions 2 and 3, and "the AS derives nothing in between".
+What the draft actually calls future lifecycle work is narrower — a *pending-human-approval* state
+and a *holding-token* pause-and-resume protocol.
+
+So suspension is designed, named and exercised. **The gap is that the document defining it is not
+published**: of 22 `draft-mcguinness-*` Internet-Drafts on the Datatracker on 2 November 2026,
+`draft-mcguinness-oauth-mission-status` is not one, and its archive URL answers 404, as do
+`-mission-signals` and `-mission-cross-domain`. That is §21 of the base findings, Indiana's
+registry, in another domain: **authorised and not established**. It is a better observation than
+the one it replaces, because it is about sequencing rather than design.
+
+Everything else here still has nothing. Bitstring Status List is binary per index, and an event set
+would have to define "asleep, may wake" because no existing one had reason to. **This remains the
+single most specific piece of feedback this dataset can give**, and for Mission the feedback is not
+"add a suspended state" — it is that Mission Status is the load-bearing document for this whole
+class, because Iowa §633B.108(2) and Utah §75A-9-117 make suspend-and-revive the default path and
+not an edge case.
 
 **2. There is no issuer.** In 17 countries the heirs hold the estate from the moment of death by
 operation of law, with no document. Virginia's small-estate tier below $35,000 requires no affidavit
