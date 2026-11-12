@@ -494,6 +494,7 @@
       <div class="stat"><div class="v">${steps}</div><div class="muted">recorded steps, from ${cites} citations</div></div>
     </div>`;
     html += pushPull(js);
+    html += weakPoints(js);
     for (const [k, f] of Object.entries(FEATURES)) {
       if (k === 'registrationDeadlineDays') continue;
       const counts = f[2].map(([v, l]) => ({ v, l, n: js.filter((j) => j.features[k] === v).length }));
@@ -564,6 +565,49 @@
         .filter(([k]) => lat[k] || k !== 'none')
         .map(([k, l]) => bar(l, lat[k] || 0, lt, k === 'none' || k === 'unspecified' ? 0.1 : 0.95 - 0.13 * ['days', 'asap', 'week', 'month', 'quarter', 'year'].indexOf(k), null,
           popSteps({ asap: 'Pushes due "as soon as practicable"', unspecified: 'Pushes where the law sets no time', none: 'Pushes whose source could not be read' }[k] || `Pushes that arrive ${l}`, (T.pushLatencySteps || {})[k] || []))).join('')}</div></div>`;
+    return h;
+  }
+  // Where the chain is weakest. Like pushPull, every number is computed from the manifest:
+  // features, flow totals and the steps marked withoutDoctor.
+  function weakPoints(js) {
+    const T = state.manifest.meta.flowTotals;
+    if (!T) return '';
+    const n = js.length;
+    const has = (k, v) => js.filter((j) => j.features[k] === v);
+    const scr = has('medicalExaminerScrutiny', true), noScr = has('medicalExaminerScrutiny', false);
+    const noDoc = (T.withoutDoctorSteps || []).filter(([id]) => js.some((j) => j.id === id));
+    const noDocJ = [...new Set(noDoc.map(([id]) => id))];
+    const open = has('certificateAccess', 'open');
+    const openUnchecked = open.filter((j) => j.features.privateSectorVerification !== 'yes');
+    const manual = has('governmentPropagation', 'manual');
+    const single = has('governmentPropagation', 'single-request');
+    const g = T.government, gt = Object.values(g).reduce((a, b) => a + b, 0);
+    const names = (a) => a.map((j) => (typeof j === 'string' ? jName(j) : j.name)).join(', ');
+    let h = `<div class="card"><h3>Where the chain is weakest</h3>
+      <p class="muted small">No jurisdiction here lets a death be registered without some official signing off. The weak points are what that
+      official is asked to rest on, whether anyone checks it, and what everyone downstream has to trust.</p>
+      <h4>One signature, no second look</h4>
+      <p>The cause-of-death certificate is independently reviewed in only ${scr.length} of ${n} jurisdictions${scr.length ? ` (${esc(names(scr))})` : ''}.
+      In ${noScr.length} the certifying practitioner's word on the cause of death is the only one, unless the death is referred to a coroner or prosecutor.</p>
+      <div class="bars">${bar('every certificate reviewed', scr.length, n, 0.95, scr)}${bar('no independent review', noScr.length, n, 0.22, noScr)}</div>
+      <h4>Registered without a doctor</h4>
+      <p>In ${noDocJ.length} jurisdiction${noDocJ.length === 1 ? '' : 's'}${noDocJ.length ? ` (${esc(names(noDocJ))})` : ''} the law lets a death be certified or
+      registered without a medical practitioner examining the body or attending the death: on a local authority's certificate and two witnesses,
+      on a household's report where no doctor attended, by a person the health authority authorises, or on relatives' statements without an autopsy.</p>
+      <div class="bars">${bar('a route that needs no doctor', noDocJ.length, n, 0.55, null, popSteps('Certified or registered without a doctor', noDoc))}</div>
+      <h4>Paper the private sector cannot check</h4>
+      <p>In ${open.length} jurisdictions anyone may obtain a copy of a death certificate, so holding one proves little. In ${openUnchecked.length} of those
+      there is also no general official route for a bank or insurer to check the death${openUnchecked.length ? ` (${esc(names(openUnchecked))})` : ''},
+      so the copy someone presents is the evidence. Across all hops into private bodies, ${T.private.push} are pushes and ${T.private.family} wait for the family.</p>
+      <div class="bars">${bar('certificate open to anyone', open.length, n, 0.55, open)}${bar('open, and no official check', openUnchecked.length, n, 0.22, openUnchecked)}</div>
+      <h4>Left to the family</h4>
+      <p>${g.family} of the ${gt} recorded hops into public bodies happen only if the family or another informant acts. In ${manual.length}
+      jurisdiction${manual.length === 1 ? '' : 's'}${manual.length ? ` (${esc(names(manual))})` : ''} registering the death does not by itself tell the rest of
+      government: the family has to tell each body. In ${single.length} more${single.length ? ` (${esc(names(single))})` : ''}, one service tells
+      several bodies, but only if the family uses it.</p>
+      <div class="bars">${bar('one service, if the family uses it', single.length, n, 0.55, single)}${bar('family tells each body', manual.length, n, 0.22, manual)}</div>
+      <p class="muted small">Not yet covered: how a death recorded in error is corrected, and how a person wrongly marked dead is reinstated. That is the
+      reverse failure, and these sources were not read for it.</p></div>`;
     return h;
   }
   // A bar with a pop-up: the jurisdictions it counts, or (for the cadence chart) the steps.
