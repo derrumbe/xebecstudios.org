@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built": "2026-10-29",
+  "built": "2026-11-12",
   "stages": [
    "pronounce",
    "certify",
@@ -1066,7 +1066,29 @@
       "Secretary of State cancels driver's licences using the SSA death master file"
      ]
     ]
-   }
+   },
+   "withoutDoctorSteps": [
+    [
+     "in-national",
+     "Head of household reports the death to the Registrar"
+    ],
+    [
+     "mx-federal",
+     "Physician establishes the death"
+    ],
+    [
+     "rw-national",
+     "Local authority certifies a death outside a facility"
+    ],
+    [
+     "rw-national",
+     "Family registers a death outside a facility within 30 days"
+    ],
+    [
+     "us-wa",
+     "Deaths without medical attendance go to the coroner, ME or health officer"
+    ]
+   ]
   }
  },
  "countries": [
@@ -3285,7 +3307,7 @@
    "level": "subnational",
    "layer": "us-federal",
    "steps": 18,
-   "citations": 27,
+   "citations": 28,
    "unverified": 0,
    "features": {
     "centralPopulationRegister": false,
